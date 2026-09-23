@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rowan Das</title>
+<meta name="description" content="Rowan Das builds small AI tools that answer questions a trading desk asks every day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="tapewrap mono" aria-label="Background ticker"><div class="tape" id="tape"></div></div>
+
+<header class="pad mono">
+  <a href="#top">Rowan Das</a>
+  <nav aria-label="Main">
+    <a href="#projects">Projects</a>
+    <a href="pitches.html" class="wide">Pitches</a>
+    <a href="#about" class="wide">About</a>
+    <a href="#experience" class="wide">Experience</a>
+    <a href="#toolbox" class="wide">Toolbox</a>
+    <a href="#contact" class="wide">Contact</a>
+    <a href="resume.pdf" class="resume" data-resume>Résumé</a>
+  </nav>
+</header>
+
+<main>
+<section id="top" class="pad">
+  <h1 class="name display" id="name" aria-label="Rowan Das"></h1>
+  <div class="surface" id="surfacebox">
+    <canvas id="surface" role="img" aria-label="A 3D implied volatility surface that rotates and reacts when shocked"></canvas>
+    <div class="readout mono"><span>1M at-the-money vol</span><strong id="atm">--</strong><span>Simulated</span></div>
+    <div class="controls mono"><span>Drag to rotate</span><button class="pill" id="shock" type="button">Shock the market</button></div>
+  </div>
+  <div class="herofoot">
+    <p class="pitch display">I build small AI tools that answer questions a trading desk asks every day.</p>
+    <div class="cta mono">
+      <div class="buttons">
+        <a class="pill solid" href="#projects">See the projects</a>
+        <a class="pill" href="resume.pdf" data-resume>Résumé</a>
+      </div>
+      <div class="links" id="heroLinks"></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="pad block">
+  <div class="sechead">
+    <div>
+      <p class="secnum mono">01 / Projects</p>
+      <h2 class="display">Things I'm building</h2>
+    </div>
+    <p class="legend mono">Pending: planned. Working: building now. Filled: done, with results.</p>
+  </div>
+  <div class="list" id="list"></div>
+  <p class="mono" style="margin-top:28px;font-size:14px;color:var(--soft)">I also keep a page of <a href="pitches.html">stock pitches</a> — target prices, live charts, and how far off each one is.</p>
+</section>
+
+<section id="about" class="pad block">
+  <p class="secnum mono">02 / About</p>
+  <p class="statement display">Commerce student at the University of Toronto. By day I work on U.S. tax for M&amp;A deals at PwC. On the side I'm learning markets by building the tools a desk would use.</p>
+  <div class="stats">
+    <div class="stat"><strong data-count="42">42</strong><span>entities in a carve-out tax fact book I built at PwC</span></div>
+    <div class="stat"><strong data-count="15">15</strong><span>tax jurisdictions on that same deal</span></div>
+    <div class="stat"><strong data-count="8" data-prefix="Top ">Top 8</strong><span>at the KKR Wharton PE Case Competition</span></div>
+    <div class="stat"><strong data-count="250" data-prefix="$" data-suffix="K">$250K</strong><span>student fund, one of 20 analysts selected</span></div>
+  </div>
+</section>
+
+<section id="experience" class="pad block">
+  <div class="sechead">
+    <div>
+      <p class="secnum mono">03 / Experience</p>
+      <h2 class="display">Where I've worked</h2>
+    </div>
+  </div>
+  <div class="jobs">
+    <article class="job reveal">
+      <div class="when mono">Current</div>
+      <div>
+        <p class="org">PwC, Montreal</p>
+        <h3>U.S. Corporate Tax Intern</h3>
+        <ul>
+          <li>Built the vendor-side tax fact book for a carve-out divestiture covering 42 entities in 15 jurisdictions.</li>
+          <li>Worked on U.S. tax due diligence for a pension fund's acquisition of a plastics manufacturer, and found a US$2M PPP loan that may not have been eligible.</li>
+          <li>Analyzed US$13.8M of NOLs, US$12.1M of them limited under the SRLY rules, and flagged a US$2.6M overstatement of deferred tax assets.</li>
+          <li>Saw the team had no shared view of which AI models suited which task. Got director sign-off and ran a lunch and learn that moved the team from copy-paste prompting to agentic workflows, mostly on compliance work.</li>
+        </ul>
+        <div class="tags mono"><span>ASC 740</span><span>NOLs</span><span>Section 382</span><span>Tax due diligence</span><span>AI workflows</span></div>
+      </div>
+    </article>
+    <article class="job reveal">
+      <div class="when mono">Current</div>
+      <div>
+        <p class="org">Rotman Commerce Student Fund</p>
+        <h3>Junior Analyst, Industrials</h3>
+        <ul>
+          <li>One of 20 analysts selected for a $250K student fund backed by Fidelity. I cover the industrials sector.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="job reveal">
+      <div class="when mono">April 2026</div>
+      <div>
+        <p class="org">KKR Wharton PE Case Competition</p>
+        <h3>Top 8 finalist</h3>
+        <ul>
+          <li>Top 8 finish in an international private equity case competition, with the finals in New York.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="job reveal">
+      <div class="when mono">Aug 2025 to now</div>
+      <div>
+        <p class="org">UofT AI Collective</p>
+        <h3>VP Finance</h3>
+      </div>
+    </article>
+    <article class="job reveal">
+      <div class="when mono">Summer 2025</div>
+      <div>
+        <p class="org">Allure Ventures, Vancouver</p>
+        <h3>Associate Intern</h3>
+      </div>
+    </article>
+    <article class="job reveal">
+      <div class="when mono">Jan 2025 to now</div>
+      <div>
+        <p class="org">Student Private Equity Association, Rotman</p>
+        <h3>Associate</h3>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="toolbox" class="pad block">
+  <div class="sechead">
+    <div>
+      <p class="secnum mono">04 / Toolbox</p>
+      <h2 class="display">What I work with</h2>
+    </div>
+  </div>
+  <div class="toolbox">
+    <div class="sphere" id="sphere" aria-hidden="true"><span class="hint mono">Drag to spin</span></div>
+    <div class="groups" id="groups"></div>
+  </div>
+</section>
+
+<section id="contact">
+  <p class="secnum mono pad">05 / Contact</p>
+  <div class="bigtape display" aria-hidden="true">
+    <div>
+      <span>Let's talk markets</span><span class="outline">Let's talk markets</span>
+      <span>Let's talk markets</span><span class="outline">Let's talk markets</span>
+    </div>
+  </div>
+  <div class="contactrow pad">
+    <p>If you work on a desk and have a view on any of these projects, I'd like to hear it. Or open the terminal and type <span class="mono">buy rowan</span>.</p>
+    <div class="links mono" id="contactLinks"></div>
+  </div>
+</section>
+</main>
+
+<footer class="pad mono">Designed and built by Rowan Das.</footer>
+
+<button class="termfab mono" id="termOpen" type="button" aria-haspopup="dialog" aria-controls="term">$ terminal <kbd>Ctrl K</kbd></button>
+<div class="term mono" id="term" role="dialog" aria-label="Terminal" hidden>
+  <div class="termbar"><span>rowan@desk</span><button type="button" id="termClose" aria-label="Close terminal">✕</button></div>
+  <div class="termout" id="termOut" aria-live="polite"></div>
+  <form class="termin" id="termForm"><label for="termIn">$</label><input id="termIn" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Type a command"></form>
+</div>
+
+<script src="data.js"></script>
+<script src="common.js"></script>
+<script>
+// Contact links
+(function () {
+  const linkedin = '<a href="' + esc(CONTACT.linkedin) + '" target="_blank" rel="noopener">LinkedIn</a>';
+  const github = '<a href="' + esc(CONTACT.github) + '" target="_blank" rel="noopener">GitHub</a>';
+  const email = '<a href="mailto:' + esc(CONTACT.email) + '">' + esc(CONTACT.email) + "</a>";
+  document.getElementById("heroLinks").innerHTML = github + linkedin + email + '<button type="button" data-term>Open the terminal</button>';
+  document.getElementById("contactLinks").innerHTML = '<a class="pill solid" href="mailto:' + esc(CONTACT.email) + '">Say hello</a>' + linkedin + github;
+})();
+
+
+// Name, flipping like a trading board
+(function () {
+  const target = "ROWAN DAS";
+  const glyphs = "ABCDEFGHKMNPRSTVWXYZ0123456789$%";
+  const pal = PROJECTS.map((p) => p.color);
+  const h1 = document.getElementById("name");
+  const spans = [];
+  target.split(" ").forEach((word) => {
+    const w = document.createElement("span");
+    w.className = "word";
+    w.setAttribute("aria-hidden", "true");
+    word.split("").forEach((c) => {
+      const s = document.createElement("span");
+      s.textContent = c;
+      w.appendChild(s);
+      spans.push({ el: s, c: c });
+    });
+    h1.appendChild(w);
+  });
+  if (reduceMotion) return;
+  let f = 0;
+  const timer = setInterval(() => {
+    f++;
+    spans.forEach((sp, i) => {
+      const s = sp.el, c = sp.c;
+      if (f >= 6 + i * 3) { s.textContent = c; s.style.color = ""; }
+      else { s.textContent = glyphs[(f * 7 + i * 13) % glyphs.length]; s.style.color = pal[(f + i) % pal.length]; }
+    });
+    if (f > 40) clearInterval(timer);
+  }, 45);
+})();
+
+// 3D implied volatility surface
+(function () {
+  const el = document.getElementById("surface");
+  const atmEl = document.getElementById("atm");
+  const shockBtn = document.getElementById("shock");
+  const ctx = el.getContext("2d");
+  const NK = 30, NT = 18;
+  const hex = (c) => [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16));
+  const stops = [[0, "#C26EFF"], [0.25, "#61C3FF"], [0.5, "#3CD6A0"], [0.75, "#FFC730"], [1, "#FF8F42"]].map(([p, c]) => [p, hex(c)]);
+  const rgb = (u) => {
+    u = Math.max(0, Math.min(1, u));
+    for (let i = 1; i < stops.length; i++) {
+      if (u <= stops[i][0]) {
+        const [p0, a] = stops[i - 1], [p1, b] = stops[i], f = (u - p0) / (p1 - p0);
+        return [a[0] + (b[0] - a[0]) * f, a[1] + (b[1] - a[1]) * f, a[2] + (b[2] - a[2]) * f];
+      }
+    }
+    return stops[stops.length - 1][1];
+  };
+
+  // Vol model. k runs from low strikes (-1) to high strikes (1); t from short-dated (0) to long-dated (1).
+  // A smile that flattens with maturity, downside skew, a gentle term structure, some drift,
+  // and a shock that lifts short-dated vol the most, like a real vol spike.
+  let shock = 0;
+  const vol = (k, t, s) =>
+    0.17 + 0.16 * k * k * (1 - 0.55 * t) - 0.07 * k * (1 - 0.4 * t) + 0.03 * t
+    + 0.012 * Math.sin(s * 0.9 + k * 2.2 + t * 3.1) + 0.008 * Math.sin(s * 1.7 - k * 3.4)
+    + shock * (0.22 * Math.pow(1 - t, 1.6) + 0.05);
+
+  let w = 0, h = 0, S = 1;
+  const size = () => {
+    const dpr = window.devicePixelRatio || 1;
+    w = el.clientWidth; h = el.clientHeight;
+    el.width = Math.round(w * dpr); el.height = Math.round(h * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    S = Math.min(w * (w < 700 ? 0.4 : 0.3), h * 0.6);
+  };
+
+  let yaw = -0.7, tilt = 0, tiltTarget = 0, spin = 0, lastRead = 0;
+  const D = 4.2;
+  const pts = new Array(NK * NT);
+  const t0 = performance.now();
+  const ease = (x) => (x <= 0 ? 0 : x >= 1 ? 1 : 1 - Math.pow(2, -10 * x));
+  const rgba = (c, a) => "rgba(" + (c[0] | 0) + "," + (c[1] | 0) + "," + (c[2] | 0) + "," + a.toFixed(3) + ")";
+
+  const render = (now) => {
+    const s = reduceMotion ? 0 : (now - t0) / 1000;
+    const pitch = 0.42 + tilt;
+    const cy = Math.cos(yaw), sy = Math.sin(yaw), cp = Math.cos(pitch), sp = Math.sin(pitch);
+    const proj = (X, Y, Z) => {
+      const x1 = X * cy - Z * sy, z1 = X * sy + Z * cy;
+      const y2 = Y * cp + z1 * sp, z2 = -Y * sp + z1 * cp;
+      const f = D / (D + z2);
+      return [w / 2 + x1 * f * S, h * 0.54 - y2 * f * S, z2, f];
+    };
+    for (let j = 0; j < NT; j++) {
+      for (let i = 0; i < NK; i++) {
+        const k = -1 + (2 * i) / (NK - 1), t = j / (NT - 1);
+        const v = vol(k, t, s);
+        // On load the surface rises from the centre outwards
+        const rise = reduceMotion ? 1 : ease((now - t0 - 150 - (Math.hypot(k, 2 * t - 1) / Math.SQRT2) * 700) / 1000);
+        const p = proj(k, (v - 0.1) * 2.4 * rise - 0.3, (t - 0.5) * 1.3);
+        p.push((v - 0.1) / 0.36, rise);
+        pts[j * NK + i] = p;
+      }
+    }
+    ctx.clearRect(0, 0, w, h);
+    ctx.lineWidth = 1;
+    const seg = (a, b) => {
+      const alpha = Math.max(0.28, Math.min(1, 0.72 - (a[2] + b[2]) * 0.45)) * Math.min(a[5], b[5]);
+      if (alpha <= 0.01) return;
+      ctx.strokeStyle = rgba(rgb((a[4] + b[4]) / 2), alpha);
+      ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); ctx.stroke();
+    };
+    for (let j = 0; j < NT; j++) for (let i = 0; i < NK - 1; i++) seg(pts[j * NK + i], pts[j * NK + i + 1]);
+    for (let i = 0; i < NK; i++) for (let j = 0; j < NT - 1; j++) seg(pts[j * NK + i], pts[(j + 1) * NK + i]);
+    for (const p of pts) {
+      const alpha = Math.max(0.3, Math.min(1, 0.8 - p[2] * 0.45)) * p[5];
+      if (alpha <= 0.01) continue;
+      ctx.fillStyle = rgba(rgb(p[4]), alpha);
+      ctx.beginPath(); ctx.arc(p[0], p[1], 1.6 * p[3], 0, Math.PI * 2); ctx.fill();
+    }
+    ctx.fillStyle = "#8E8C87";
+    ctx.font = "12px 'IBM Plex Mono', Menlo, monospace";
+    ctx.textAlign = "center";
+    const l1 = proj(0, -0.36, -0.82), l2 = proj(1.12, -0.36, 0);
+    ctx.fillText("Strike", l1[0], l1[1]);
+    ctx.fillText("Maturity", l2[0], l2[1]);
+    if (now - lastRead > 250) {
+      atmEl.textContent = (vol(0, 1 / 12, s) * 100).toFixed(1) + "%";
+      lastRead = now;
+    }
+  };
+
+  const hit = () => {
+    shock = Math.min(shock + 1, 1.6);
+    if (reduceMotion) {
+      lastRead = 0; render(performance.now());
+      setTimeout(() => { shock = 0; lastRead = 0; render(performance.now()); }, 1500);
+    }
+  };
+  shockBtn.addEventListener("click", hit);
+  window.shockMarket = hit;
+
+  let dragging = false, lastX = 0, moved = 0;
+  el.addEventListener("pointerdown", (e) => {
+    dragging = true; moved = 0; lastX = e.clientX;
+    el.classList.add("dragging");
+    try { el.setPointerCapture(e.pointerId); } catch (err) {}
+  });
+  el.addEventListener("pointermove", (e) => {
+    const r = el.getBoundingClientRect();
+    tiltTarget = ((e.clientY - r.top) / r.height - 0.5) * 0.3;
+    if (!dragging) return;
+    const dx = e.clientX - lastX; lastX = e.clientX;
+    moved += Math.abs(dx);
+    yaw += dx * 0.008; spin = dx * 0.008;
+    if (reduceMotion) render(performance.now());
+  });
+  const release = () => { dragging = false; el.classList.remove("dragging"); };
+  el.addEventListener("pointerup", () => { const click = dragging && moved < 6; release(); if (click) hit(); });
+  el.addEventListener("pointercancel", release);
+  el.addEventListener("pointerleave", () => { tiltTarget = 0; });
+
+  let visible = true, running = false, last = performance.now();
+  const frame = (now) => {
+    const dt = Math.min((now - last) / 1000, 0.05); last = now;
+    if (!dragging) { yaw += 0.12 * dt + spin; spin *= 0.94; }
+    tilt += (tiltTarget - tilt) * 0.06;
+    shock *= Math.exp(-0.6 * dt);
+    render(now);
+    if (visible) requestAnimationFrame(frame); else running = false;
+  };
+  const start = () => {
+    if (running || reduceMotion) return;
+    running = true; last = performance.now();
+    requestAnimationFrame(frame);
+  };
+  size();
+  new ResizeObserver(() => { size(); render(performance.now()); }).observe(el);
+  new IntersectionObserver((entries) => { visible = entries[0].isIntersecting; if (visible) start(); }).observe(el);
+  render(performance.now());
+  start();
+})();
+
+// Project list
+(function () {
+  const list = document.getElementById("list");
+  const n = String(PROJECTS.length).padStart(2, "0");
+  const statusStyle = (s, c) =>
+    s === "Filled" ? "background:" + c + ";color:#1F1E1D;border:1px solid " + c
+    : s === "Working" ? "color:" + c + ";border:1px solid " + c
+    : "color:#8E8C87;border:1px solid #55534F";
+  const link = (u) => u
+    ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(u.replace(/^https?:\/\//, "")) + "</a>"
+    : '<span style="color:#8E8C87">Coming soon</span>';
+
+  PROJECTS.forEach((p, i) => {
+    const item = document.createElement("div");
+    item.className = "item reveal";
+    item.style.setProperty("--d", (i * 80) + "ms");
+    item.innerHTML =
+      '<button class="prow" aria-expanded="' + (i === 0) + '" aria-controls="d' + i + '" style="--c:' + p.color + '">' +
+        '<span class="code mono"><span style="color:' + p.color + '">' + esc(p.ticker) + '</span><span class="count">' + String(i + 1).padStart(2, "0") + "/" + n + "</span></span>" +
+        '<span class="ptitle display">' + esc(p.title) + "</span>" +
+        '<span class="status mono" style="' + statusStyle(p.status, p.color) + '">' + esc(p.status) + "</span>" +
+      "</button>" +
+      '<div class="detail" id="d' + i + '"' + (i === 0 ? "" : " hidden") + ">" +
+        '<div><p class="q display">' + esc(p.question) + '</p><p class="a">' + esc(p.approach) + "</p></div>" +
+        '<div class="facts">' +
+          '<div><span class="k mono">Built with</span><span>' + esc(p.stack) + "</span></div>" +
+          '<div><span class="k mono">Result</span><span style="color:#C9C7C1">' + (p.result ? esc(p.result) : "Coming soon") + "</span></div>" +
+          '<div><span class="k mono">Link</span><span>' + link(p.link) + "</span></div>" +
+        "</div>" +
+      "</div>";
+    list.appendChild(item);
+  });
+
+  list.addEventListener("click", (e) => {
+    const btn = e.target.closest(".prow");
+    if (!btn) return;
+    const open = btn.getAttribute("aria-expanded") === "true";
+    list.querySelectorAll(".prow").forEach((b) => {
+      b.setAttribute("aria-expanded", "false");
+      document.getElementById(b.getAttribute("aria-controls")).hidden = true;
+    });
+    if (!open) {
+      btn.setAttribute("aria-expanded", "true");
+      document.getElementById(btn.getAttribute("aria-controls")).hidden = false;
+    }
+  });
+})();
+
+
+// Everything marked .reveal slides in as it scrolls into view
+document.querySelectorAll(".reveal").forEach((el) => onVisible(el, (t) => t.classList.add("in")));
+
+// Count-up numbers in the About section
+document.querySelectorAll("[data-count]").forEach((el) => {
+  if (reduceMotion) return;
+  const target = Number(el.dataset.count), pre = el.dataset.prefix || "", suf = el.dataset.suffix || "";
+  el.textContent = pre + "0" + suf;
+  onVisible(el, () => {
+    const t0 = performance.now();
+    const tick = (now) => {
+      const p = Math.min((now - t0) / 1400, 1);
+      const e = p === 1 ? 1 : 1 - Math.pow(2, -10 * p);
+      el.textContent = pre + Math.round(target * e) + suf;
+      if (p < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }, 0.6);
+});
+
+// Toolbox: list plus a 3D sphere of skills you can spin
+(function () {
+  document.getElementById("groups").innerHTML = SKILLS.map((g) =>
+    '<div class="group"><h3><i style="background:' + g.color + '"></i>' + esc(g.group) + "</h3><p>" + g.items.map(esc).join(", ") + "</p></div>"
+  ).join("");
+
+  const box = document.getElementById("sphere");
+  const all = [];
+  const longest = Math.max.apply(null, SKILLS.map((g) => g.items.length));
+  for (let i = 0; i < longest; i++) SKILLS.forEach((g) => { if (g.items[i]) all.push({ t: g.items[i], c: g.color }); });
+  const golden = Math.PI * (3 - Math.sqrt(5));
+  const nodes = all.map((it, i) => {
+    const y = 1 - (i / (all.length - 1)) * 2, r = Math.sqrt(1 - y * y), th = i * golden;
+    const el = document.createElement("span");
+    el.className = "tag mono";
+    el.textContent = it.t;
+    el.style.color = it.c;
+    box.appendChild(el);
+    return { el: el, x: Math.cos(th) * r, y: y, z: Math.sin(th) * r };
+  });
+
+  let ax = 0.35, ay = 0, vx = 0, vy = 0.0035, R = 160, dragging = false, lx = 0, ly = 0;
+  const size = () => { R = Math.min(box.clientWidth * 0.46, box.clientHeight * 0.44); };
+  const render = () => {
+    const ca = Math.cos(ax), sa = Math.sin(ax), cb = Math.cos(ay), sb = Math.sin(ay);
+    for (const nd of nodes) {
+      const x1 = nd.x * cb + nd.z * sb, z1 = -nd.x * sb + nd.z * cb;
+      const y2 = nd.y * ca - z1 * sa, z2 = nd.y * sa + z1 * ca;
+      const f = 3 / (3 - z2);
+      nd.el.style.transform = "translate(-50%,-50%) translate(" + (x1 * R * f).toFixed(1) + "px," + (y2 * R * f).toFixed(1) + "px) scale(" + (0.55 + 0.45 * f).toFixed(3) + ")";
+      nd.el.style.opacity = (0.12 + 0.88 * Math.pow((z2 + 1) / 2, 1.4)).toFixed(3);
+      nd.el.style.zIndex = String(Math.round((z2 + 1) * 100));
+    }
+  };
+
+  box.addEventListener("pointerdown", (e) => {
+    dragging = true; lx = e.clientX; ly = e.clientY; box.classList.add("dragging");
+    try { box.setPointerCapture(e.pointerId); } catch (err) {}
+  });
+  box.addEventListener("pointermove", (e) => {
+    if (!dragging) return;
+    const dx = e.clientX - lx, dy = e.clientY - ly; lx = e.clientX; ly = e.clientY;
+    vy = dx * 0.006; vx = -dy * 0.006;
+    ay += vy; ax += vx;
+    if (reduceMotion) render();
+  });
+  const release = () => { dragging = false; box.classList.remove("dragging"); };
+  box.addEventListener("pointerup", release);
+  box.addEventListener("pointercancel", release);
+
+  let visible = false, running = false;
+  const frame = () => {
+    if (!dragging) { ay += vy; ax += vx; vy += (0.0035 - vy) * 0.03; vx *= 0.95; }
+    render();
+    if (visible) requestAnimationFrame(frame); else running = false;
+  };
+  size(); render();
+  new ResizeObserver(() => { size(); render(); }).observe(box);
+  new IntersectionObserver((entries) => {
+    visible = entries[0].isIntersecting;
+    if (visible && !running && !reduceMotion) { running = true; requestAnimationFrame(frame); }
+  }).observe(box);
+})();
+</script>
+</body>
+</html>
