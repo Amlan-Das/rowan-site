@@ -44,12 +44,12 @@ const PROJECTS = [
     result: "", link: ""
   },
   {
-    ticker: "$BRIEF", color: "#FF8F42", status: "Pending",
+    ticker: "$BRIEF", color: "#FF8F42", status: "Working",
     title: "Morning market brief",
-    question: "What moved overnight, and what matters today?",
-    approach: "Pulls overnight moves in equity indices, rates, FX and commodities with the morning's headlines, and drafts a short note I then edit: what moved, why, and what's on today's calendar.",
-    stack: "Python, yfinance, FRED, LLM API",
-    result: "", link: ""
+    question: "What moved overnight, and why?",
+    approach: "Pulls overnight moves in equity indices, rates, FX and commodities, plus the morning's headlines. Every headline is embedded and stored in a vector database, and for each move the pipeline retrieves the stories most likely to explain it. A local Llama model writes the brief from only those stories and cites each one.",
+    stack: "Python, yfinance, Chroma, Ollama",
+    result: "", link: "brief.html"
   },
   {
     ticker: "$TONE", color: "#FFC730", status: "Pending",
