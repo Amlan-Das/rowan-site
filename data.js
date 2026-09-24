@@ -5,9 +5,9 @@
 
 // Your links. Both pages' nav, hero, contact section, and terminal read from here.
 const CONTACT = {
-  email: "you@example.com",
-  linkedin: "https://www.linkedin.com/in/your-profile",
-  github: "https://github.com/your-username"
+  email: "rowanamlan@gmail.com",
+  linkedin: "https://www.linkedin.com/in/dasrowan",
+  github: "https://github.com/Amlan-Das"
 };
 
 // Upload your résumé PDF next to index.html with this exact file name.
