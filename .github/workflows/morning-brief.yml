@@ -1,0 +1,64 @@
+name: Morning brief
+
+on:
+  schedule:
+    # 10:30 UTC = 6:30 AM Eastern while daylight time is on. Change to 11:30 in November.
+    - cron: "30 10 * * 1-5"
+  workflow_dispatch:   # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write      # needed to commit brief.json back to the repo
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: brief
+    env:
+      # Runners have no GPU, so a 3B model keeps generation to a few minutes
+      LLM_MODEL: llama3.2:3b
+      EMBED_MODEL: nomic-embed-text
+      # The site serves the repo root, so brief.json goes there
+      BRIEF_OUT: ../brief.json
+      BRIEF_DB: data/chroma
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: brief/requirements.txt
+
+      - run: pip install -r requirements.txt
+
+      - name: Cache Ollama models
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-${{ env.LLM_MODEL }}-${{ env.EMBED_MODEL }}
+
+      - name: Install and start Ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          # The installer starts a system service; stop it and run our own so
+          # models are stored in ~/.ollama (the cached folder above)
+          sudo systemctl stop ollama || true
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          until curl -s http://localhost:11434 > /dev/null; do sleep 1; done
+          ollama pull "$LLM_MODEL"
+          ollama pull "$EMBED_MODEL"
+
+      - name: Build the brief
+        run: python final.py
+
+      - name: Commit brief and vector store
+        run: |
+          git config user.name "morning-brief-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add "$BRIEF_OUT" "$BRIEF_DB"
+          git commit -m "Morning brief $(date -u +%F)" || echo "Nothing new to commit"
+          git push
