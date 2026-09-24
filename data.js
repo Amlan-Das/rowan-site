@@ -16,10 +16,10 @@ const RESUME = "resume.pdf";
 const TAPE = [
   "Rotman Commerce",
   "PwC",
-  "RCSF,
-  "KKR PE Case Competition,
+  "RCSF",
+  "KKR",
   "UofT AI Collective,
-  "Allure Ventures"
+  "AllureVenture"
   "Class of '28"
   "Industrials"
   "2nd RSM 100"
