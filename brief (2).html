@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rowan Das — Morning brief</title>
+<meta name="description" content="A morning market brief written by a local Llama model from retrieved headlines, with every source and every step of the RAG pipeline shown.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="tapewrap mono" aria-label="Background ticker"><div class="tape" id="tape"></div></div>
+
+<header class="pad mono">
+  <a href="index.html">Rowan Das</a>
+  <nav aria-label="Main">
+    <a href="index.html#projects">Projects</a>
+    <a href="pitches.html" class="wide">Pitches</a>
+    <a href="brief.html" class="wide" aria-current="page">Brief</a>
+    <a href="index.html#about" class="wide">About</a>
+    <a href="index.html#experience" class="wide">Experience</a>
+    <a href="index.html#toolbox" class="wide">Toolbox</a>
+    <a href="index.html#contact" class="wide">Contact</a>
+    <a href="resume.pdf" class="resume" data-resume>Résumé</a>
+  </nav>
+</header>
+
+<main class="pad">
+<article class="ed">
+  <a href="index.html" class="backlink mono">&larr; Back to the main page</a>
+
+  <div class="ed-mast">
+    <p class="ed-kicker" id="edDate">Morning brief</p>
+    <h1 class="ed-h1">What moved overnight</h1>
+    <p class="ed-dek">A short read on the overnight session, written each weekday by a Llama model that only sees the headlines my pipeline retrieves. The small numbers link to the headline behind each claim.</p>
+    <p class="ed-byline" id="edByline"><span>Loading this morning's brief</span></p>
+  </div>
+
+  <div class="ed-top">
+    <div class="ed-body" id="edBody"></div>
+    <aside class="ed-markets" aria-label="Markets">
+      <p class="ed-label">Markets at the last close</p>
+      <table><tbody id="edMarkets"></tbody></table>
+      <p class="ed-note">Last close against the one before, from Yahoo Finance through yfinance. The 10-year line is the yield in percent.</p>
+    </aside>
+  </div>
+
+  <section class="ed-sec" id="sources" aria-labelledby="srcTitle">
+    <div class="ed-sechead">
+      <h2 class="ed-h2" id="srcTitle">Sources</h2>
+      <p id="srcNote">Every headline the model was given, numbered the way it cites them.</p>
+    </div>
+    <ol class="ed-srclist" id="edSources"></ol>
+  </section>
+
+  <section class="ed-sec" id="how" aria-labelledby="howTitle">
+    <div class="ed-sechead"><h2 class="ed-h2" id="howTitle">How this brief was made</h2></div>
+
+    <p class="ed-intro">This page is built with retrieval-augmented generation, or RAG. A language model on its own has no idea what happened in markets this morning, and if you ask it anyway it will make up a plausible answer. RAG fixes that by searching for the relevant news first, then handing only that news to the model with instructions to write from it and cite it.</p>
+    <p class="ed-intro">The split matters. Code handles the facts: fetching prices, parsing feeds, storing and searching headlines. The model handles the part code can't do well, which is reading the sources and writing the note. Both models run through Ollama on the same machine as the code, so no text goes to an outside AI service.</p>
+
+    <div class="ed-howgrid">
+      <ol class="ed-steps" id="edSteps">
+        <li class="ed-step" data-step="1">
+          <p class="snum">Step 1</p>
+          <h3>Pull prices and headlines</h3>
+          <p>Python asks yfinance for the last two closes on six instruments: the S&amp;P 500, the Nasdaq, the 10-year yield, USD/JPY, crude and gold. It then reads Google News RSS feeds for eight searches. RSS arrives as XML, so the code parses each item, drops anything older than 16 hours, strips the HTML out of the snippet and removes stories that showed up under more than one search.</p>
+          <p>Each story gets an ID made from a hash of its link. The same article always gets the same ID, which is how it avoids being stored twice on later mornings.</p>
+          <div class="ed-code"><span class="c"># headlines.py</span>
+"id": hashlib.sha1(link.encode()).hexdigest()[:16]</div>
+          <p class="ed-run" id="run1"></p>
+        </li>
+
+        <li class="ed-step" data-step="2">
+          <p class="snum">Step 2</p>
+          <h3>Turn each headline into a vector</h3>
+          <p>An embedding model, <code>nomic-embed-text</code>, reads each headline and its snippet and returns a list of 768 numbers. Those numbers work like coordinates: headlines that mean similar things land close together, even when they share no words. "Brent climbs on Iran fears" and "Oil prices rise" end up neighbours. That is what lets the next steps search by meaning instead of keywords.</p>
+          <p>Headlines and search questions get different prefixes before embedding, because that is how this model was trained to tell them apart.</p>
+          <div class="ed-code"><span class="c"># llm.py: Ollama serves the model on this machine</span>
+POST localhost:11434/api/embed
+{"model": "nomic-embed-text",
+ "input": ["search_document: Oil prices rise as ..."]}</div>
+          <p class="ed-run" id="run2"></p>
+        </li>
+
+        <li class="ed-step" data-step="3">
+          <p class="snum">Step 3</p>
+          <h3>Store them in a vector database</h3>
+          <p>The vectors go into Chroma, a vector database saved as files next to the code. Each entry keeps its vector, its text, and the title, source, link and publish time. Headlines stay for 14 days before they are deleted.</p>
+          <p>This is the memory of the system. The language model never changes and never learns from these runs. What grows is the database, so each morning can draw on a story from two days ago that today's 16-hour window would have missed.</p>
+          <p class="ed-run" id="run3"></p>
+        </li>
+
+        <li class="ed-step" data-step="4">
+          <p class="snum">Step 4</p>
+          <h3>Search the database for each move</h3>
+          <p>For every instrument the code writes a plain-English question in the words a headline would use, embeds it the same way, and asks Chroma for the four closest headlines from the last three days. Closeness is cosine similarity: 1 means the same meaning, 0 means unrelated.</p>
+          <p>A vector search always returns its nearest results, even when nothing is actually near. So anything below a similarity cutoff is thrown away, and a quiet day gets no sources instead of the wrong ones. These were this morning's searches:</p>
+          <div class="ed-rtab" id="edRetrieval"></div>
+        </li>
+
+        <li class="ed-step" data-step="5">
+          <p class="snum">Step 5</p>
+          <h3>Build one prompt per move</h3>
+          <p>Each move gets its own prompt with only the headlines retrieved for it, plus their snippets, numbered the same way as the source list. A small local model stays on topic far better with four relevant headlines than with thirty mixed ones.</p>
+          <p>The rules come first: use only these headlines, cite them by number, don't repeat the price, and say so when nothing explains the move. If a move retrieved nothing, the code skips the model and prints "no clear catalyst" itself.</p>
+          <div class="ed-code" id="code5"><span class="c"># one of this morning's prompts</span>
+Move: Crude Oil rose 4.09% to 95.93.
+
+Headlines:
+[17] CNBC, Sep 23 10:12 PM ET: Oil prices rise as investors seek ...</div>
+          <p class="ed-run" id="run5"></p>
+        </li>
+
+        <li class="ed-step" data-step="6">
+          <p class="snum">Step 6</p>
+          <h3>Write in a fixed shape, then check</h3>
+          <p>A Llama model running on Ollama answers each prompt at a low temperature, in a JSON shape Ollama enforces with a schema: a subheading of up to eight words and two or three sentences with citations. The code adds the prices from yfinance itself, so the model never retypes a number.</p>
+          <p>A last call reads the six sections and writes the headline sentence at the top, then picks up to three other stories worth knowing. Finally the code checks every citation against the source list and flags any number that doesn't exist. That catches invented citations, though it can't prove a source supports its sentence, so the sources are listed above to check.</p>
+          <div class="ed-code"><span class="c"># llm.py: Ollama holds the reply to this shape</span>
+"format": {"type": "object",
+           "properties": {"headline": {"type": "string"},
+                          "body": {"type": "string"}}}</div>
+          <p class="ed-run" id="run6"></p>
+        </li>
+      </ol>
+
+      <figure class="ed-fig" aria-label="Figure: headlines in embedding space">
+        <div class="fig-frame">
+          <span class="cn tl"></span><span class="cn tr"></span><span class="cn bl"></span><span class="cn br"></span>
+          <div class="fig-top"><span id="figState">Step 1 of 6: raw text</span><button type="button" id="figNext">Next search &#9656;</button></div>
+          <canvas id="figCanvas" role="img" aria-label="Dots representing headlines move from lines of text into topic clusters, then a search lights up the nearest ones."></canvas>
+          <div class="fig-cap"><span class="fn">Fig. 1</span><span class="ft">Headlines in embedding space</span><span class="fs">768 dimensions, drawn in 2</span></div>
+        </div>
+        <div class="fig-moves" id="figMoves" role="group" aria-label="Run a search for one move"></div>
+        <p class="fig-note" id="figNote" aria-live="polite">Each dot is a headline. Scroll through the steps to watch them get embedded, stored and searched.</p>
+      </figure>
+    </div>
+
+    <p class="ed-where" id="edWhere">I built and tested the pipeline on my laptop with Llama 3.1 8B. Each weekday at 6:30 AM Eastern, a GitHub Actions job installs Ollama on a fresh machine, downloads the models, runs the same Python and commits the new brief and database to this site's repository, which redeploys the page.</p>
+  </section>
+</article>
+</main>
+
+<footer class="pad mono">Designed and built by Rowan Das. Not investment advice.</footer>
+
+<button class="termfab mono" id="termOpen" type="button" aria-haspopup="dialog" aria-controls="term">$ terminal <kbd>Ctrl K</kbd></button>
+<div class="term mono" id="term" role="dialog" aria-label="Terminal" hidden>
+  <div class="termbar"><span>rowan@desk</span><button type="button" id="termClose" aria-label="Close terminal">✕</button></div>
+  <div class="termout" id="termOut" aria-live="polite"></div>
+  <form class="termin" id="termForm"><label for="termIn">$</label><input id="termIn" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Type a command"></form>
+</div>
+
+<script src="data.js"></script>
+<script src="common.js"></script>
+<script>
+// Everything below reads brief.json, which the Python pipeline in brief/ writes each morning.
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const etTime = (iso, withDate) => {
+    const d = new Date(iso);
+    if (isNaN(d)) return "";
+    const o = { timeZone: "America/New_York", hour: "numeric", minute: "2-digit" };
+    if (withDate) { o.month = "short"; o.day = "numeric"; }
+    return d.toLocaleString("en-US", o) + " ET";
+  };
+  const fmt = (v) => typeof v === "number" ? v.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : "-";
+
+  // [3] or [2, 5] in the model's text become superscript links to the source list
+  const cites = (text) => esc(text).replace(/\s*\[(\d+(?:\s*,\s*\d+)*)\]/g, (_, g) =>
+    '<sup class="ed-cite">' + g.split(",").map((n) => {
+      n = n.trim();
+      return '<a href="#s' + n + '" data-n="' + n + '" aria-label="Source ' + n + '">' + n + "</a>";
+    }).join(",") + "</sup>");
+
+  function renderBody(text) {
+    const lines = String(text || "").replace(/\*\*/g, "").split("\n").map((l) => l.trim()).filter(Boolean);
+    let html = "", ledeDone = false;
+    lines.forEach((l) => {
+      if (/^[-•*]\s/.test(l)) {
+        l = l.replace(/^[-•*]\s*/, "");
+        const m = l.match(/^([^:]{2,24}):\s*(.*)$/);
+        html += '<p class="ed-item">' + (m ? "<strong>" + esc(m[1]) + ".</strong> " + cites(m[2]) : cites(l)) + "</p>";
+      } else if (/:$/.test(l) && l.length < 60) {
+        html += '<p class="ed-label ed-sub">' + esc(l.replace(/:$/, "")) + "</p>";
+      } else if (!ledeDone) {
+        html += '<p class="ed-lede">' + cites(l) + "</p>"; ledeDone = true;
+      } else {
+        html += "<p>" + cites(l) + "</p>";
+      }
+    });
+    return html;
+  }
+
+  // New format: a headline sentence, one subheaded story per move, then other stories
+  function renderSections(b) {
+    const stories = b.sections.slice().sort((x, y) => Math.abs(y.pct) - Math.abs(x.pct)).map((sec) => {
+      const up = sec.pct >= 0;
+      return '<section class="ed-story"><p class="ed-tag"><span>' + esc(sec.move) + '</span><span class="num ' + (up ? "up" : "down") + '">' +
+        (up ? "+" : "") + sec.pct.toFixed(2) + '%</span><span class="num">' + fmt(sec.last) + "</span></p>" +
+        "<h3>" + esc(sec.headline) + "</h3><p>" + cites(sec.body) + "</p></section>";
+    }).join("");
+    const also = (b.also || []).length
+      ? '<div class="ed-also"><p class="ed-label">Also worth knowing</p><div class="ed-alsolist">' +
+        b.also.map((a) => "<p>" + cites(a.note) + "</p>").join("") + "</div></div>"
+      : "";
+    return '<p class="ed-lede ed-lede-big">' + cites(b.lede || "") + '</p><div class="ed-stories">' + stories + "</div>" + also;
+  }
+
+  function render(b) {
+    const sources = b.sources || [], retrieval = b.retrieval || [], st = b.stats || {};
+    const cited = new Set(b.cited || []);
+    const byN = {}; sources.forEach((s) => (byN[s.n] = s));
+
+    if (b.date) $("edDate").textContent = "Morning brief, " + b.date;
+    $("edByline").innerHTML = "<span>Generated " + etTime(b.generated_at, true) + "</span><span>Written by " + esc(b.model || "a Llama model") + " on Ollama</span><span>" + sources.length + " sources</span>";
+    $("edBody").innerHTML = b.sections ? renderSections(b) : renderBody(b.brief);
+
+    $("edMarkets").innerHTML = Object.entries(b.moves || {}).map(([name, m]) => {
+      const up = m.pct >= 0;
+      return "<tr><td>" + esc(name) + '</td><td class="num">' + fmt(m.last) + '</td><td class="num chg ' + (up ? "up" : "down") + '">' + (up ? "+" : "") + m.pct.toFixed(2) + "%</td></tr>";
+    }).join("");
+
+    $("edSources").innerHTML = sources.map((s) =>
+      '<li class="ed-src' + (cited.has(s.n) ? "" : " uncited") + '" id="s' + s.n + '"><span class="n">' + s.n + "</span><span>" +
+      '<a href="' + esc(s.link) + '" target="_blank" rel="noopener">' + esc(s.title) + "</a>" +
+      '<span class="meta">' + esc(s.source) + ", " + etTime(s.published, true) + (cited.has(s.n) ? "" : ", not cited") + "</span></span></li>"
+    ).join("");
+    $("srcNote").textContent = "Every headline the model was given, numbered the way it cites them. It cited " + cited.size + " of " + sources.length + ".";
+
+    $("edRetrieval").innerHTML = retrieval.map((r) =>
+      '<div class="ed-rrow"><span class="mv">' + esc(r.move) + '</span><div><span class="q">"' + esc(r.query) + '"</span>' +
+      (r.hits.length ? r.hits.map((h) => '<div class="ed-hit"><a class="n" href="#s' + h.n + '">' + h.n + '</a><span class="s">' + h.similarity.toFixed(2) + '</span><span class="t">' + esc((byN[h.n] || {}).title || "") + "</span></div>").join("")
+        : '<div class="ed-hit"><span></span><span></span><span class="t">Nothing passed the cutoff.</span></div>') + "</div></div>"
+    ).join("");
+
+    const hits = retrieval.reduce((a, r) => a + r.hits.length, 0);
+    $("run1").innerHTML = "This run: <b>6</b> instruments, <b>" + (st.headlines_fetched ?? "-") + "</b> headlines after parsing and de-duplicating.";
+    $("run2").innerHTML = "This run: <b>" + (st.headlines_new ?? "-") + "</b> new headlines embedded with " + esc(b.embed_model || "nomic-embed-text") + ".";
+    $("run3").innerHTML = "The store now holds <b>" + (st.index_size ?? "-") + "</b> searchable headlines.";
+    const calls = st.llm_calls || (b.sections ? b.sections.filter((x) => x.sources.length).length + 1 : 1);
+    $("run5").innerHTML = "This run: <b>" + hits + "</b> matches across six searches, written into <b>" + Math.max(calls - 1, 0) + "</b> focused prompts.";
+    $("run6").innerHTML = "This run: <b>" + calls + "</b> calls to " + esc(b.model || "") + ", <b>" + cited.size + "</b> of " + sources.length + " sources cited. " +
+      ((b.invalid_citations || []).length ? '<span class="down">Invented citations: ' + b.invalid_citations.join(", ") + ".</span>" : "No invented citations.");
+
+    // Show a real prompt from this run (first three headlines, trimmed)
+    if (b.example_prompt) {
+      const lines = b.example_prompt.split("\n").filter((l) => !/^\s{4}/.test(l) && !/^Write the/.test(l));
+      const cut = []; let heads = 0;
+      for (const l of lines) { if (/^\[\d+\]/.test(l) && ++heads > 3) { cut.push("..."); break; } cut.push(l.length > 92 ? l.slice(0, 92).trimEnd() + " ..." : l); }
+      $("code5").innerHTML = '<span class="c"># one of this morning\'s prompts</span>\n' + esc(cut.join("\n").trim());
+    }
+
+    initFigure(b);
+    initSteps();
+  }
+
+  // Hovering a citation highlights its source
+  document.addEventListener("mouseover", (e) => {
+    const a = e.target.closest(".ed-cite a, .ed-hit .n");
+    document.querySelectorAll(".ed-src.lit").forEach((x) => x.classList.remove("lit"));
+    if (a) { const s = $("s" + (a.dataset.n || a.textContent)); if (s) s.classList.add("lit"); }
+  });
+
+  // ---------- Steps: which one is in the middle of the screen ----------
+  let setStep = () => {};
+  function initSteps() {
+    const list = $("edSteps");
+    list.classList.add("js");
+    const steps = [...list.querySelectorAll(".ed-step")];
+    steps[0].classList.add("on");
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((en) => {
+        if (!en.isIntersecting) return;
+        steps.forEach((s) => s.classList.toggle("on", s === en.target));
+        setStep(+en.target.dataset.step);
+      });
+    }, { rootMargin: "-45% 0px -50% 0px" });
+    steps.forEach((s) => io.observe(s));
+  }
+
+  // ---------- Fig. 1: headlines in embedding space ----------
+  function initFigure(b) {
+    const cv = $("figCanvas"), ctx = cv.getContext("2d");
+    const retrieval = b.retrieval || [], sources = b.sources || [];
+    const cited = new Set(b.cited || []);
+    if (!retrieval.length) return;
+
+    // Where each topic sits in the sketch. Related topics sit near each other.
+    const POS = { "S&P 500": [.30, .36], "Nasdaq": [.44, .24], "10-Year Yield": [.66, .44], "USD/JPY": [.80, .26], "Crude Oil": [.26, .72], "Gold": [.62, .76] };
+    const clusters = retrieval.map((r, i) => {
+      const p = POS[r.move] || [.22 + .28 * (i % 3), .3 + .4 * Math.floor(i / 3)];
+      return { name: r.move, x: p[0], y: p[1] };
+    });
+
+    let seed = 11;
+    const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+    const gauss = () => { let u = 0, v = 0; while (!u) u = rnd(); while (!v) v = rnd(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v); };
+    const clamp = (v) => Math.min(.96, Math.max(.04, v));
+
+    const P = [];
+    clusters.forEach((c, ci) => { for (let k = 0; k < 440; k++) P.push({ ci, ex: clamp(c.x + gauss() * .055), ey: clamp(c.y + gauss() * .048) }); });
+    for (let k = 0; k < 640; k++) P.push({ ci: -1, ex: .06 + rnd() * .88, ey: .1 + rnd() * .8 });
+
+    // Real headlines from this run sit in the cluster of the first move that retrieved them
+    const home = {};
+    retrieval.forEach((r, ci) => r.hits.forEach((h) => { if (!(h.n in home)) home[h.n] = ci; }));
+    const byN = {};
+    sources.forEach((s, i) => {
+      const c = clusters[home[s.n]];
+      const d = { n: s.n, head: true, ci: c ? home[s.n] : -1, ex: clamp(c ? c.x + gauss() * .05 : .48 + gauss() * .07), ey: clamp(c ? c.y + gauss() * .045 : .56 + gauss() * .05), col: i };
+      byN[s.n] = d; P.push(d);
+    });
+
+    // Step 1 layout: every dot sits in lines of "text", like a raw feed
+    const slots = [];
+    for (let y = .12; y < .9 && slots.length < P.length * 1.4; y += .026) {
+      let x = .07;
+      while (x < .93) { const w = 3 + Math.floor(rnd() * 8); for (let k = 0; k < w && x < .93; k++, x += .0072) slots.push([x, y]); x += .0144; }
+    }
+    for (let i = slots.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [slots[i], slots[j]] = [slots[j], slots[i]]; }
+    P.forEach((p, i) => { const s = slots[i % slots.length]; p.rx = s[0]; p.ry = s[1]; p.x = p.rx; p.y = p.ry; });
+
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const LABELS = ["", "raw text", "embed", "store", "search", "prompt", "write"];
+    let step = 1, q = 0, manual = false, visible = false, auto = null, W = 0;
+
+    const moveBtns = $("figMoves");
+    moveBtns.innerHTML = retrieval.map((r, i) => '<button type="button" data-i="' + i + '" aria-pressed="false">' + esc(r.move) + "</button>").join("");
+    const mode = () => (manual ? 4 : step);
+
+    function describe() {
+      const m = mode();
+      $("figState").textContent = "Step " + m + " of 6: " + LABELS[m];
+      $("figNext").hidden = m !== 4;
+      moveBtns.querySelectorAll("button").forEach((btn, i) => btn.setAttribute("aria-pressed", String(m === 4 && i === q)));
+      const note = {
+        1: "Each dot is a headline, still just text from the feed. Scroll on to watch it become a vector.",
+        2: "The embedding model moves every headline to a point in space. Similar stories pull together.",
+        3: "Stored in Chroma, the headlines form clusters by topic. Stocks and tech sit together; yields sit near the dollar.",
+        5: "Only the retrieved headlines leave the database. Each gets a number, and each move's prompt holds just its own four.",
+        6: "The model writes from the numbered list. Orange sources were cited in the brief."
+      }[m];
+      if (m === 4) {
+        const r = retrieval[q];
+        $("figNote").textContent = 'Search: "' + r.query + '". ' + (r.hits.length ? "The " + r.hits.length + " nearest headlines light up, scores " + r.hits.map((h) => h.similarity.toFixed(2)).join(", ") + "." : "Nothing was close enough to pass the cutoff.");
+      } else $("figNote").textContent = note;
+    }
+
+    function cycle() {
+      clearInterval(auto);
+      if (mode() === 4 && !manual && !reduce) auto = setInterval(() => { q = (q + 1) % retrieval.length; describe(); }, 3600);
+    }
+    setStep = (s) => { step = s; manual = false; describe(); cycle(); kick(); };
+    const pick = (i) => { q = i; manual = step !== 4; describe(); clearInterval(auto); kick(); };
+    moveBtns.addEventListener("click", (e) => { const t = e.target.closest("button"); if (t) pick(+t.dataset.i); });
+    $("figNext").addEventListener("click", () => pick((q + 1) % retrieval.length));
+    cv.addEventListener("click", () => pick(mode() === 4 ? (q + 1) % retrieval.length : q));
+
+    function target(p, m) {
+      if (m === 1) return [p.rx, p.ry];
+      if (m >= 5 && p.head) return [.9, .1 + p.col * (.8 / Math.max(1, sources.length - 1))];
+      return [p.ex, p.ey];
+    }
+
+    const soft = "201,199,193", accent = "255,143,66";
+    function size() {
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      W = cv.clientWidth;
+      cv.width = W * dpr; cv.height = W * dpr;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+
+    function draw(animate) {
+      const m = mode(), r = retrieval[q];
+      const hitSet = new Set(m === 4 ? r.hits.map((h) => h.n) : []);
+      ctx.clearRect(0, 0, W, W);
+      let moving = false;
+
+      P.forEach((p) => {
+        const [tx, ty] = target(p, m);
+        if (animate) { p.x += (tx - p.x) * .075; p.y += (ty - p.y) * .075; if (Math.abs(tx - p.x) + Math.abs(ty - p.y) > .0015) moving = true; }
+        else { p.x = tx; p.y = ty; }
+        const X = p.x * W, Y = p.y * W;
+        if (p.head && m >= 2) {
+          const hot = hitSet.has(p.n) || (m === 6 && cited.has(p.n)) || m === 5;
+          const on = m !== 4 || hitSet.has(p.n);
+          ctx.fillStyle = "rgba(" + (hot ? accent : soft) + "," + (on ? .95 : .35) + ")";
+          ctx.beginPath(); ctx.arc(X, Y, hitSet.has(p.n) ? 3.6 : m >= 5 ? 2.6 : 2.1, 0, Math.PI * 2); ctx.fill();
+        } else {
+          let a = m === 1 ? .5 : m === 2 ? .5 : m === 3 ? .42 : m === 4 ? (p.ci === q ? .5 : .16) : .12;
+          if (p.head && m === 1) a = .75;
+          ctx.fillStyle = "rgba(" + soft + "," + a + ")";
+          ctx.fillRect(X, Y, 1.2, 1.2);
+        }
+      });
+
+      ctx.font = '11px "IBM Plex Mono", Menlo, monospace';
+      ctx.textAlign = "center";
+      if (m === 3 || m === 4) {
+        clusters.forEach((c, i) => {
+          ctx.fillStyle = m === 4 && i === q ? "rgba(245,244,240,.95)" : "rgba(142,140,135,.9)";
+          ctx.fillText(c.name, c.x * W, (c.y - .1) * W);
+        });
+      }
+      if (m === 4) {
+        const c = clusters[q], qx = (c.x + .07) * W, qy = (c.y - .05) * W;
+        r.hits.forEach((h) => {
+          const d = byN[h.n]; if (!d) return;
+          ctx.strokeStyle = "rgba(" + accent + "," + (.25 + h.similarity * .6) + ")";
+          ctx.lineWidth = 1;
+          ctx.beginPath(); ctx.moveTo(qx, qy); ctx.lineTo(d.x * W, d.y * W); ctx.stroke();
+        });
+        ctx.strokeStyle = "rgba(245,244,240,.95)"; ctx.lineWidth = 1.5;
+        ctx.beginPath(); ctx.arc(qx, qy, 6, 0, Math.PI * 2); ctx.stroke();
+        ctx.fillStyle = "rgba(245,244,240,1)"; ctx.beginPath(); ctx.arc(qx, qy, 1.8, 0, Math.PI * 2); ctx.fill();
+      }
+      if (m >= 5) {
+        ctx.textAlign = "right"; ctx.font = '10px "IBM Plex Mono", Menlo, monospace';
+        sources.forEach((s, i) => {
+          ctx.fillStyle = m === 6 && !cited.has(s.n) ? "rgba(142,140,135,.8)" : "rgba(" + accent + ",.95)";
+          ctx.fillText(String(s.n), .87 * W, (.1 + i * (.8 / Math.max(1, sources.length - 1))) * W + 3.5);
+        });
+        ctx.textAlign = "center"; ctx.fillStyle = "rgba(142,140,135,.9)";
+        ctx.fillText("prompt", .885 * W, .06 * W);
+      }
+      return moving;
+    }
+
+    let raf = 0;
+    function loop() {
+      const moving = draw(!reduce);
+      raf = (visible && (moving || mode() === 4)) ? requestAnimationFrame(loop) : 0;
+    }
+    function kick() { if (reduce) { draw(false); return; } if (!raf && visible) raf = requestAnimationFrame(loop); }
+
+    new IntersectionObserver((en) => { visible = en[0].isIntersecting; kick(); }).observe(cv);
+    new ResizeObserver(() => { size(); draw(false); kick(); }).observe(cv);
+    size(); describe(); draw(false);
+  }
+
+  fetch("brief.json", { cache: "no-store" })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(() => {
+      $("edByline").innerHTML = "<span>No brief has been published yet. Check back on a weekday morning.</span>";
+      initSteps();
+    });
+})();
+</script>
+</body>
+</html>
