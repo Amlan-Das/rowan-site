@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rowan Das — Pitches</title>
+<meta name="description" content="Stock pitches by Rowan Das: target prices, live charts, and how far off each one is.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="tapewrap mono" aria-label="Background ticker"><div class="tape" id="tape"></div></div>
+
+<header class="pad mono">
+  <a href="index.html">Rowan Das</a>
+  <nav aria-label="Main">
+    <a href="index.html#projects">Projects</a>
+    <a href="pitches.html" class="wide">Pitches</a>
+    <a href="brief.html" class="wide">Brief</a>
+    <a href="index.html#about" class="wide">About</a>
+    <a href="index.html#experience" class="wide">Experience</a>
+    <a href="index.html#toolbox" class="wide">Toolbox</a>
+    <a href="index.html#contact" class="wide">Contact</a>
+    <a href="resume.pdf" class="resume" data-resume>Résumé</a>
+  </nav>
+</header>
+
+<main>
+<section class="pad block" style="padding-top:24px">
+  <a href="index.html" class="backlink mono">&larr; Back to the main page</a>
+  <div class="sechead">
+    <div>
+      <p class="secnum mono">Pitches</p>
+      <h1 class="display">Calls I've made</h1>
+    </div>
+    <p class="legend mono">Live prices from TradingView. I update the current price by hand.</p>
+  </div>
+  <div class="list" id="pitchlist"></div>
+</section>
+</main>
+
+<footer class="pad mono">Designed and built by Rowan Das.</footer>
+
+<button class="termfab mono" id="termOpen" type="button" aria-haspopup="dialog" aria-controls="term">$ terminal <kbd>Ctrl K</kbd></button>
+<div class="term mono" id="term" role="dialog" aria-label="Terminal" hidden>
+  <div class="termbar"><span>rowan@desk</span><button type="button" id="termClose" aria-label="Close terminal">✕</button></div>
+  <div class="termout" id="termOut" aria-live="polite"></div>
+  <form class="termin" id="termForm"><label for="termIn">$</label><input id="termIn" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Type a command"></form>
+</div>
+
+<script src="data.js"></script>
+<script src="common.js"></script>
+<script>
+// Pitch list
+(function () {
+  const list = document.getElementById("pitchlist");
+  if (!list || !PITCHES.length) { if (list) list.innerHTML = '<p class="pmissing mono">No pitches yet — add one in data.js.</p>'; return; }
+  const n = String(PITCHES.length).padStart(2, "0");
+  const fmt$ = (v) => (typeof v === "number" && !isNaN(v)) ? "$" + v.toFixed(2) : null;
+  const link = (u) => u
+    ? '<a class="pill" href="' + esc(u) + '" target="_blank" rel="noopener">Read the full pitch</a>'
+    : '<span class="pmissing mono">Add a link to the full pitch</span>';
+  const addMonths = (d, m) => { const r = new Date(d); r.setMonth(r.getMonth() + m); return r; };
+  const days = (a, b) => Math.round((b - a) / 86400000);
+  const dfmt = (d) => d.toLocaleDateString(undefined, { month: "short", year: "numeric" });
+
+  const statVal = (v) => v == null ? '<span class="v dim">Add this</span>' : '<span class="v">' + esc(v) + "</span>";
+
+  PITCHES.forEach((p, i) => {
+    const item = document.createElement("div");
+    item.className = "item reveal";
+    item.style.setProperty("--d", (i * 80) + "ms");
+
+    // Stats row
+    const stats = [];
+    stats.push(['<span class="k mono">Pitched</span>', statVal(p.dateLabel || null)].join(""));
+    stats.push(['<span class="k mono">Horizon</span>', statVal(p.horizonMonths ? p.horizonMonths + " months" : null)].join(""));
+    stats.push(['<span class="k mono">Pitch price</span>', statVal(fmt$(p.pitchPrice))].join(""));
+    stats.push(['<span class="k mono">Target</span>', statVal(fmt$(p.target))].join(""));
+    let currentHtml = statVal(fmt$(p.current));
+    if (typeof p.current === "number" && typeof p.target === "number" && p.target !== 0) {
+      const pct = ((p.current - p.target) / p.target) * 100;
+      const correct = p.direction === "Short" ? pct <= 0 : pct >= 0;
+      const dir = pct >= 0 ? "above" : "below";
+      currentHtml += '<span class="pdelta ' + (correct ? "up" : "down") + '">' + (pct >= 0 ? "+" : "") + pct.toFixed(1) + "% " + dir + " target</span>";
+    }
+    stats.push(['<span class="k mono">Current' + (p.currentAsOf ? " (" + esc(p.currentAsOf) + ")" : "") + "</span>", currentHtml].join(""));
+
+    // Timeline
+    let timelineHtml = "";
+    const pitchD = p.date ? new Date(p.date + "T00:00:00") : null;
+    if (pitchD && !isNaN(pitchD.getTime())) {
+      const endD = addMonths(pitchD, p.horizonMonths || 12);
+      const now = new Date();
+      const total = Math.max(days(pitchD, endD), 1);
+      const elapsed = Math.min(Math.max(days(pitchD, now), 0), total);
+      const pct = (elapsed / total) * 100;
+      timelineHtml =
+        '<div class="ptimeline"><div class="bar">' +
+          '<div class="fill" style="width:' + pct.toFixed(1) + '%;background:' + p.color + '"></div>' +
+          '<div class="dot" style="left:' + pct.toFixed(1) + '%"></div>' +
+        "</div><div class=\"labels mono\"><span>" + esc(p.dateLabel || dfmt(pitchD)) + " — call made</span><span>" + Math.min(elapsed, total) + " of " + total + " days into the horizon</span><span>" + dfmt(endD) + " — horizon ends</span></div></div>";
+    } else {
+      timelineHtml = '<p class="pmissing mono">Add a pitch date to see the timeline.</p>';
+    }
+
+    item.innerHTML =
+      '<button class="prow" aria-expanded="' + (i === 0) + '" aria-controls="p' + i + '" style="--c:' + p.color + '">' +
+        '<span class="code mono"><span style="color:' + p.color + '">$' + esc(p.ticker) + '</span><span class="count">' + String(i + 1).padStart(2, "0") + "/" + n + "</span></span>" +
+        '<span class="ptitle display">' + esc(p.company || p.ticker) + "</span>" +
+        '<span class="status mono" style="color:' + p.color + ';border:1px solid ' + p.color + '">' + esc(p.direction || "Pitch") + "</span>" +
+      "</button>" +
+      '<div class="detail" id="p' + i + '"' + (i === 0 ? "" : " hidden") + ">" +
+        '<div><p class="q display">' + esc(p.company || p.ticker) + " · $" + esc(p.ticker) + '</p><p class="a">' + (p.thesis ? esc(p.thesis) : '<span class="pmissing">Add why you made this call.</span>') + '</p><div class="buttons" style="margin-top:20px">' + link(p.link) + "</div></div>" +
+        '<div><div class="pstats">' + stats.map((s) => '<div class="pstat">' + s + "</div>").join("") + "</div>" + timelineHtml + "</div>" +
+      "</div>" +
+      '<div class="pchart" id="pc' + i + '"' + (i === 0 ? "" : " hidden") + ">" +
+        '<div class="tv" id="ptv' + i + '"></div>' +
+        '<p class="pchartnote mono">Live chart from TradingView. Not investment advice.</p>' +
+      "</div>";
+    list.appendChild(item);
+  });
+
+  const loaded = {};
+  const loadChart = (i) => {
+    if (loaded[i]) return;
+    loaded[i] = true;
+    const p = PITCHES[i];
+    const host = document.getElementById("ptv" + i);
+    if (!host || !p.tvSymbol) { if (host) host.innerHTML = '<p class="pmissing mono" style="padding:16px">Add a tvSymbol (e.g. "NYSE:' + esc(p.ticker) + '") to show the live chart.</p>'; return; }
+    const container = document.createElement("div");
+    container.className = "tradingview-widget-container";
+    container.style.height = "100%";
+    const inner = document.createElement("div");
+    inner.className = "tradingview-widget-container__widget";
+    inner.style.height = "100%";
+    const script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
+    script.async = true;
+    script.text = JSON.stringify({
+      autosize: true, symbol: p.tvSymbol, interval: "D", timezone: "Etc/UTC",
+      theme: "dark", style: "1", locale: "en",
+      backgroundColor: "rgba(31,30,29,1)", gridColor: "rgba(58,56,54,0.35)",
+      hide_top_toolbar: false, allow_symbol_change: false, support_host: "https://www.tradingview.com"
+    });
+    container.appendChild(inner);
+    container.appendChild(script);
+    host.appendChild(container);
+  };
+
+  list.addEventListener("click", (e) => {
+    const btn = e.target.closest(".prow");
+    if (!btn) return;
+    const i = Array.from(list.querySelectorAll(".prow")).indexOf(btn);
+    const open = btn.getAttribute("aria-expanded") === "true";
+    list.querySelectorAll(".prow").forEach((b, j) => {
+      b.setAttribute("aria-expanded", "false");
+      document.getElementById(b.getAttribute("aria-controls")).hidden = true;
+      document.getElementById("pc" + j).hidden = true;
+    });
+    if (!open) {
+      btn.setAttribute("aria-expanded", "true");
+      document.getElementById(btn.getAttribute("aria-controls")).hidden = false;
+      document.getElementById("pc" + i).hidden = false;
+      loadChart(i);
+    }
+  });
+  if (PITCHES.length) loadChart(0);
+})();
+
+// Everything marked .reveal slides in as it scrolls into view
+document.querySelectorAll(".reveal").forEach((el) => onVisible(el, (t) => t.classList.add("in")));
+</script>
+</body>
+</html>
