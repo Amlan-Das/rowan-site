@@ -1,4 +1,4 @@
-/* Shared by index.html and pitches.html. Reads its content from data.js.
+/* Shared by index.html, pitches.html and brief.html. Reads its content from data.js.
    Nothing in here needs editing — go to data.js for your content. */
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -55,6 +55,7 @@ document.getElementById("tape").innerHTML = TAPE.concat(TAPE)
       "projects         everything on the blotter",
       "quote <ticker>   a project or a pitch, e.g. quote note / quote v",
       "pitches          stock calls I've made",
+      "brief            this morning's market brief",
       "experience       where I've worked",
       "resume           open my résumé",
       "contact          how to reach me",
@@ -95,6 +96,14 @@ document.getElementById("tape").innerHTML = TAPE.concat(TAPE)
         return;
       }
       print("Unknown ticker. Try projects or pitches to see what's tracked.");
+    },
+    brief: () => {
+      print("Fetching this morning's brief...", "dim");
+      fetch("brief.json", { cache: "no-store" })
+        .then((r) => { if (!r.ok) throw new Error(); return r.json(); })
+        .then((b) => print('<span style="color:#FF8F42">' + esc(b.date || "Morning brief") + "</span>\n" +
+          esc(String(b.brief || "").replace(/\*\*/g, "")) + "\n\nSources and how it was made: <a href=\"brief.html\">brief.html</a>"))
+        .catch(() => print("No brief published yet. Check back on a weekday morning."));
     },
     experience: () => print([
       "PwC                          U.S. Corporate Tax Intern",
