@@ -27,15 +27,6 @@ const TAPE = [
 // link:   GitHub repo, deck or write-up (leave "" until it exists)
 const PROJECTS = [
   {
-    ticker: "$CGNX", color: "#FF6B8B", status: "Filled",
-    title: "Cognex stock pitch",
-    question: "What is Cognex worth?",
-    approach: "A full pitch on Cognex, the machine vision company: a nine-slide deck, a DCF, a football field of valuation methods, sensitivity tables, and a comparison with Teledyne and Keyence, built on S&P Capital IQ data.",
-    stack: "Excel, S&P Capital IQ, PowerPoint",
-    result: "At an 8% WACC and a 23.2x terminal EV/EBITDA multiple, the DCF gave a base case of about $59 a share.",
-    link: ""
-  },
-  {
     ticker: "$DEAL", color: "#A4E36B", status: "Working",
     title: "Deal news aggregator",
     question: "What's the latest on every deal I'm tracking?",
@@ -44,7 +35,7 @@ const PROJECTS = [
     result: "", link: ""
   },
   {
-    ticker: "$BRIEF", color: "#FF8F42", status: "Working",
+    ticker: "$BRIEF", color: "#FF8F42", status: "Complete",
     title: "Morning market brief",
     question: "What moved overnight, and why?",
     approach: "Pulls overnight moves in equity indices, rates, FX and commodities, plus the morning's headlines. Every headline is embedded and stored in a vector database, and for each move the pipeline retrieves the stories most likely to explain it. A local Llama model writes the brief from only those stories and cites each one.",
