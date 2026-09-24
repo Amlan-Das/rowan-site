@@ -5,28 +5,21 @@
 
 // Your links. Both pages' nav, hero, contact section, and terminal read from here.
 const CONTACT = {
-  email: "rowanamlan@gmail.com",
-  linkedin: "https://www.linkedin.com/in/dasrowan",
-  github: "https://github.com/Amlan-Das"
+  email: "you@example.com",
+  linkedin: "https://www.linkedin.com/in/your-profile",
+  github: "https://github.com/your-username"
 };
 
 // Upload your résumé PDF next to index.html with this exact file name.
 const RESUME = "resume.pdf";
 
 const TAPE = [
-  "Rotman Commerce",
-  "PwC",
-  "RCSF",
-  "KKR",
-  "UofT AI Collective,
-  "AllureVenture"
-  "Class of '28"
-  "Industrials"
-  "2nd RSM 100"
-  "Montreal"
-  "Vancouver"
-  "Toronto"
-  "Victoria"
+  "Rotman Commerce, Finance and Economics, class of 2028",
+  "PwC, U.S. Corporate Tax, Montreal",
+  "RCSF, Industrials coverage",
+  "KKR PE Case Competition, Top 8",
+  "UofT AI Collective, VP Finance",
+  "Allure Ventures, Vancouver, 2025"
 ];
 
 // status: "Pending", "Working" or "Filled"
