@@ -4,7 +4,7 @@
    ===================================================== */
 
 // Your links. Both pages' nav, hero, contact section, and terminal read from here.
-const CONTACT = {
+const CONTACT = { 
   email: "rowanamlan@gmail.com",
   linkedin: "https://www.linkedin.com/in/dasrowan",
   github: "https://github.com/Amlan-Das"
