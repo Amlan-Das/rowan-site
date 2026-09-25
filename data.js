@@ -26,16 +26,9 @@ const TAPE = [
 // result: your finding in 2-3 sentences (leave "" until you have one)
 // link:   GitHub repo, deck or write-up (leave "" until it exists)
 const PROJECTS = [
+
   {
-    ticker: "$DEAL", color: "#A4E36B", status: "Working",
-    title: "Deal news aggregator",
-    question: "What's the latest on every deal I'm tracking?",
-    approach: "Pulls Google News headlines for a watchlist of M&A deals. Next come deduping and storing articles, an LLM step that sorts them, and a web page to read them on.",
-    stack: "Python, RSS, LLM API",
-    result: "", link: ""
-  },
-  {
-    ticker: "$BRIEF", color: "#FF8F42", status: "Complete",
+    ticker: "$BRIEF", color: "#A4E36B", status: "Complete",
     title: "Morning market brief",
     question: "What moved overnight, and why?",
     approach: "Pulls overnight moves in equity indices, rates, FX and commodities, plus the morning's headlines. Every headline is embedded and stored in a vector database, and for each move the pipeline retrieves the stories most likely to explain it. A local Llama model writes the brief from only those stories and cites each one.",
