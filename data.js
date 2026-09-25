@@ -33,7 +33,7 @@ const PROJECTS = [
     question: "What moved overnight, and why?",
     approach: "Pulls overnight moves in equity indices, rates, FX and commodities, plus the morning's headlines. Every headline is embedded and stored in a vector database, and for each move the pipeline retrieves the stories most likely to explain it. A local Llama model writes the brief from only those stories and cites each one.",
     stack: "Python, yfinance, Chroma, Ollama",
-    result: "", link: "brief.html"
+    result: "Success", link: "brief.html"
   },
   {
     ticker: "$TONE", color: "#FFC730", status: "Pending",
