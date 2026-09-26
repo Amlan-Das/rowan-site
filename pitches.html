@@ -36,7 +36,7 @@
       <p class="secnum mono">Pitches</p>
       <h1 class="display">Calls I've made</h1>
     </div>
-    <p class="legend mono">Live prices from TradingView. I update the current price by hand.</p>
+    <p class="legend mono">Live charts from TradingView. Prices update after every market close.</p>
   </div>
   <div class="list" id="pitchlist"></div>
 </section>
@@ -144,6 +144,8 @@
         '<p class="pchartnote mono">Live chart from TradingView. Not investment advice.</p>' +
       "</div>";
     list.appendChild(item);
+    // Rendered after the page-wide reveal pass, so hook these up here
+    onVisible(item, (t) => t.classList.add("in"));
   });
 
   const loaded = {};
