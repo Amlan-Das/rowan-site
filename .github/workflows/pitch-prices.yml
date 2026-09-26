@@ -1,0 +1,46 @@
+name: Pitch prices
+
+on:
+  schedule:
+    # 21:30 UTC = 5:30 PM Eastern (daylight time), after the US close
+    - cron: "30 21 * * 1-5"
+  push:
+    branches: [main]
+    paths:
+      - data.js
+      - scripts/pitch_prices.py
+      - .github/workflows/pitch-prices.yml
+  workflow_dispatch:   # run it by hand from the Actions tab
+
+permissions:
+  contents: write      # needed to commit pitch-prices.json back to the repo
+
+concurrency:
+  group: pitch-prices
+  cancel-in-progress: true
+
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install yfinance
+
+      - name: Update pitch prices
+        run: python scripts/pitch_prices.py
+
+      - name: Commit pitch-prices.json
+        run: |
+          git config user.name "pitch-prices-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add pitch-prices.json
+          git commit -m "Pitch prices $(date -u +%F)" || { echo "Nothing new to commit"; exit 0; }
+          # The morning brief bot also pushes to main, so catch up first
+          git pull --rebase
+          git push

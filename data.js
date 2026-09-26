@@ -82,8 +82,9 @@ const PROJECTS = [
 //   thesis         one or two sentences on why (leave "" until you write it)
 //   pitchPrice     the share price on the day you pitched it (number or null)
 //   target         your target price (number or null)
-//   current        today's price — UPDATE THIS BY HAND whenever you check (number or null)
-//   currentAsOf    when you last updated "current", e.g. "Sep 2026"
+//   current        leave null: the latest close and the closest the stock has come
+//                  to the target fill in by themselves from pitch-prices.json
+//                  (updated after every trading day by .github/workflows/pitch-prices.yml)
 //   link           link to the full deck or write-up
 const PITCHES = [
   {
@@ -92,7 +93,7 @@ const PITCHES = [
     direction: "Long",
     date: "2026-03-06", dateLabel: "March 6, 2026",
     horizonMonths: 12, // not stated when you gave me this one — change if it wasn't 12 months
-    thesis: "",
+    thesis: "Visa's network is already built, so it doesn't need heavy new spending to grow. About 70% of VisaNet's costs are fixed, which means operating costs rise 7–8% a year while revenue grows 10–11%, taking EBIT margin from 68.3% toward 70.6% by FY2030. Client incentives also only come out of service revenue, so as cross-border and data processing grow from ~57% to ~70% of revenue, incentives take a smaller cut of each dollar.",
     pitchPrice: 317.36,
     target: 432.00,
     current: null, currentAsOf: "",
@@ -104,7 +105,7 @@ const PITCHES = [
     direction: "Long",
     date: "2026-03-27", dateLabel: "March 27, 2026",
     horizonMonths: 12,
-    thesis: "",
+    thesis: "The stock fell 44% between September 2025 and March 2026 because OBDC II, a non-traded BDC, gated about $1.6B of redemptions and was hit with a class action. That vehicle is under 1% of Blue Owl's AUM. The other $307B is mostly permanent capital with no redemption risk, and EBITDA grew 17% to $1.24B over the same stretch. The multiple halved from ~19x to ~10x on redemption fears, not on any problem in the credit book.",
     pitchPrice: 8.84,
     target: 16.00,
     current: null, currentAsOf: "",
@@ -116,7 +117,7 @@ const PITCHES = [
     direction: "Long",
     date: "2026-09-08", dateLabel: "September 8, 2026",
     horizonMonths: 12, // not stated when you gave me this one — change if it wasn't 12 months
-    thesis: "",
+    thesis: "Carrier fell 23% from its high after one soft margin quarter, and the market priced it as a housing-linked HVAC name. The order book points somewhere else: data centre orders quadrupled, backlog passed $8B, and data centre revenue is guided to double to ~$2B this year with the second half already booked. It trades at ~13x EBITDA while Trane, selling into the same data centre build-out, trades at ~20x.",
     pitchPrice: 59.11,
     target: 77.00,
     current: null, currentAsOf: "",

@@ -106,6 +106,7 @@
   .pdelta { display: block; margin-top: 4px; font-size: 13px; font-family: "IBM Plex Mono", Menlo, monospace; }
   .pdelta.up { color: #3CD6A0; }
   .pdelta.down { color: #FF6B6B; }
+  .pdelta.dim { color: var(--muted); }
   .ptimeline { margin: 4px 0 32px; }
   .ptimeline .bar { position: relative; height: 6px; background: var(--rule); border-radius: 999px; margin: 12px 0 8px; }
   .ptimeline .fill { position: absolute; left: 0; top: 0; height: 100%; border-radius: 999px; }
