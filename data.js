@@ -93,10 +93,10 @@ const PITCHES = [
     date: "2026-03-06", dateLabel: "March 6, 2026",
     horizonMonths: 12, // not stated when you gave me this one — change if it wasn't 12 months
     thesis: "",
-    pitchPrice: 317.00,
+    pitchPrice: 317.36,
     target: 432.00,
     current: null, currentAsOf: "",
-    link: ""
+    link: "pitches/visa-v.pdf"
   },
   {
     ticker: "OWL", tvSymbol: "NYSE:OWL", color: "#C26EFF",
@@ -105,10 +105,10 @@ const PITCHES = [
     date: "2026-03-27", dateLabel: "March 27, 2026",
     horizonMonths: 12,
     thesis: "",
-    pitchPrice: null, // you gave me a target but not the price you pitched it at — add it here
-    target: 8.84,
+    pitchPrice: 8.84,
+    target: 16.00,
     current: null, currentAsOf: "",
-    link: ""
+    link: "pitches/blue-owl-owl.pdf"
   },
   {
     ticker: "CARR", tvSymbol: "NYSE:CARR", color: "#3CD6A0",
@@ -117,10 +117,10 @@ const PITCHES = [
     date: "2026-09-08", dateLabel: "September 8, 2026",
     horizonMonths: 12, // not stated when you gave me this one — change if it wasn't 12 months
     thesis: "",
-    pitchPrice: 59.00, // you gave me one number and no target — check this is the entry price, not the target
-    target: null,
+    pitchPrice: 59.11,
+    target: 77.00,
     current: null, currentAsOf: "",
-    link: ""
+    link: "pitches/carrier-carr-industrials-report.pdf#page=19"
   }
 ];
 
