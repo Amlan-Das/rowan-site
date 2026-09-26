@@ -1,0 +1,32 @@
+{
+  "updated": "2026-09-26T15:10:26+00:00",
+  "prices": {
+    "V": {
+      "current": 367.38,
+      "currentDate": "2026-09-25",
+      "closest": {
+        "price": 385.57,
+        "date": "2026-08-26",
+        "hit": false
+      }
+    },
+    "OWL": {
+      "current": 9.32,
+      "currentDate": "2026-09-25",
+      "closest": {
+        "price": 12.77,
+        "date": "2026-08-13",
+        "hit": false
+      }
+    },
+    "CARR": {
+      "current": 56.37,
+      "currentDate": "2026-09-25",
+      "closest": {
+        "price": 59.73,
+        "date": "2026-09-09",
+        "hit": false
+      }
+    }
+  }
+}
