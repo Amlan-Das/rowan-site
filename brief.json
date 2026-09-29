@@ -1,29 +1,29 @@
 {
-  "date": "Monday, September 28",
-  "generated_at": "2026-09-28T18:18:22.564506+00:00",
+  "date": "Tuesday, September 29",
+  "generated_at": "2026-09-29T16:40:21.108475+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "US stocks fell on rising tensions between the US and Iran, with the S&P 500 and Nasdaq down 0.51% and 0.58% respectively, as investors sold tech stocks and bought bonds.",
+  "lede": "US-Iran tensions resurfaced, causing a sell-off in the US stock market, with the Dow, S&P 500, and Nasdaq all declining.",
   "sections": [
     {
       "move": "S&P 500",
-      "pct": -0.51,
-      "last": 7704.15,
-      "change": -39.26,
+      "pct": -0.26,
+      "last": 7663.45,
+      "change": -20.24,
       "sources": [
         1,
         2,
         3,
         4
       ],
-      "headline": "US Stocks Fall Amid Rising Tensions",
-      "body": "The S&P 500 fell 0.51% to 7704.15 as US-Iran tensions resurfaced, causing investors to sell tech stocks and buy bonds, which lifted Treasury yields. This move was driven by concerns about inflation and the potential for a conflict between the US and Iran. Traders are watching the situation closely, as any escalation could impact the global economy and lead to further market volatility."
+      "headline": "US-Iran Tensions Spark Market Sell-Off",
+      "body": "US-Iran tensions resurfaced, causing a sell-off in the US stock market, with the Dow, S&P 500, and Nasdaq all declining. This move was also driven by rising Treasury yields, which lifted inflation worries. Traders are watching the situation closely, as it could impact global economic sentiment and lead to further market volatility."
     },
     {
       "move": "Nasdaq",
-      "pct": -0.58,
-      "last": 26912.69,
-      "change": -156.03,
+      "pct": -0.12,
+      "last": 26787.62,
+      "change": -32.76,
       "sources": [
         1,
         4,
@@ -31,110 +31,110 @@
         6
       ],
       "headline": "Nasdaq Falls Amid Tech Selloff",
-      "body": "The Nasdaq fell 0.58% to 26912.69 as traders watched oil prices surge and tech stocks come under pressure. [5] and [4] reported that oil prices were a key driver of the move, with oil futures surging and causing yields to spike. [5] also mentioned that Nvidia news was in focus, adding to the tech sector's woes. [1] and [6] reported on the broader market decline, but did not provide specific reasons for the Nasdaq's fall. No clear catalyst appeared in the news that would explain the move."
+      "body": "The Nasdaq fell 0.12% to 26787.62 as traders watched for signs of weakness in tech stocks, with oil prices surging and yield concerns weighing on semiconductor stocks. [5] [6]"
     },
     {
       "move": "10-Year Yield",
-      "pct": 0.89,
-      "last": 5.23,
-      "change": 0.05,
+      "pct": 0.78,
+      "last": 5.28,
+      "change": 0.04,
       "sources": [
         7,
         8,
         9,
         10
       ],
-      "headline": "Yield Rise Amid Global Bond Pressure",
-      "body": "Traders are watching the ongoing U.S.-Iran stalemate for its potential impact on global oil prices and government bond yields. Rising oil prices and inflation fears are also contributing to the surge in 10-year Treasury yields. The market is responding to concerns about the stability of global government bonds, as seen in the increase in yields."
+      "headline": "Yield Rise Amid Global Bond Market Pressure",
+      "body": "The 10-year yield rose as traders watched for signs of inflation and increased pressure on global government bonds, with rising oil prices and a stalemate between the US and Iran contributing to the move. [10] The US 30-year Treasury yield also reached its highest level since 2002, [8] indicating a shift in market sentiment. [9] Traders are closely monitoring the situation, looking for any catalyst that could impact interest rates and the overall market. [7]"
     },
     {
       "move": "USD/JPY",
-      "pct": -0.97,
-      "last": 157.27,
-      "change": -1.54,
+      "pct": -0.05,
+      "last": 157.39,
+      "change": -0.07,
       "sources": [
         11,
         12,
         13,
         14
       ],
-      "headline": "USD/JPY Sell-Off Explained",
-      "body": "Traders are watching the reaction to comments from Japan's currency diplomat, who urged markets to heed a 'very clear' warning on the yen's value. This suggests that the market is taking a warning from Japanese officials that a weak currency is a problem. The 'Death Cross' mentioned in another headline may also be contributing to the sell-off, as it suggests a potential reversal in the dollar-yen trend."
+      "headline": "USD/JPY Weakens Amid Dollar Strength",
+      "body": "The USD/JPY pair fell 0.05% to 157.39 as the dollar strengthened against other currencies, including the yen. [11] This move is attributed to the dollar's hold near a two-month high, with traders watching the Asian currencies' weakness and the yen's decline. [12] Japan's currency diplomat, Mimura, also urged markets to heed a 'very clear' warning on the yen's value, which may have contributed to the pair's decline. [13]"
     },
     {
       "move": "Crude Oil",
-      "pct": 0.08,
-      "last": 92.48,
-      "change": 0.07,
+      "pct": -2.43,
+      "last": 90.35,
+      "change": -2.25,
       "sources": [
-        8,
         15,
         16,
-        17
+        17,
+        18
       ],
-      "headline": "Oil Prices Rise Amid Inflation Fears",
-      "body": "Traders are watching rising oil prices and inflation fears, which led to a surge in the 10-year Treasury yield, causing crude oil to rise. This move is likely due to concerns about inflation, as higher oil prices can increase production costs and lead to higher prices for goods and services. The market is also keeping an eye on upcoming talks between Qatar, the US, and Iran, which may impact oil prices."
+      "headline": "Oil Prices Fall After Trump's Comments",
+      "body": "Crude oil prices fell after US President Donald Trump said oil prices would 'come plummeting down' as he touted the US economy. This statement contradicted previous comments from Trump, which had boosted oil prices. Traders are now watching to see how the market reacts to Trump's latest comments on the economy and oil prices."
     },
     {
       "move": "Gold",
-      "pct": -3.49,
-      "last": 4170.5,
-      "change": -150.7,
+      "pct": -3.14,
+      "last": 4185.4,
+      "change": -135.8,
       "sources": [
-        18,
         19,
         20,
-        21
+        21,
+        22
       ],
-      "headline": "Gold Plunges to Seven-Week Low",
-      "body": "Gold prices fell sharply overnight as traders became increasingly optimistic about a US rate hike, citing rising tensions in the Middle East and a surge in oil prices. [18] [20] [21] The market is watching the situation in the Strait of Hormuz, where a standoff between Iran and the US has kept rate-hike bets elevated. [19]"
+      "headline": "Gold Falls to Seven-Week Low",
+      "body": "Gold prices fell to a seven-week low due to rising bets on interest rate hikes, which increased investor demand for safe-haven assets like the US dollar. [19] [22] This move was also influenced by tensions in the Middle East, particularly the Hormuz impasse, which kept rate-hike expectations elevated. [22] [20]"
     }
   ],
   "also": [
     {
-      "n": 22,
-      "note": "Treasury yields climbed to fresh highs, while oil prices pared gains, in a mixed market day."
+      "n": 23,
+      "note": "The Dow tumbled 300 points as bond yields continued to rise, sparking a sell-off in the US stock market."
     },
     {
-      "n": 23,
-      "note": "S&P 500 futures rose ahead of the opening of the market, driven by concerns about jobs data and its impact on the economy."
+      "n": 24,
+      "note": "Consumer confidence fell, contributing to the Dow's decline, while Nvidia shares hit a buy point, sparking investor interest."
     },
     {
       "n": 25,
-      "note": "The Federal Reserve's watchdog warned of security deficiencies at the central bank, raising concerns about data breaches and cyber threats."
+      "note": "The Dow, S&P 500, and Nasdaq were mixed, with oil prices retreating and AI jitters affecting tech stocks."
     }
   ],
-  "brief": "US stocks fell on rising tensions between the US and Iran, with the S&P 500 and Nasdaq down 0.51% and 0.58% respectively, as investors sold tech stocks and bought bonds.\n\nS&P 500 (-0.51% to 7704.15): US Stocks Fall Amid Rising Tensions. The S&P 500 fell 0.51% to 7704.15 as US-Iran tensions resurfaced, causing investors to sell tech stocks and buy bonds, which lifted Treasury yields. This move was driven by concerns about inflation and the potential for a conflict between the US and Iran. Traders are watching the situation closely, as any escalation could impact the global economy and lead to further market volatility.\nNasdaq (-0.58% to 26912.69): Nasdaq Falls Amid Tech Selloff. The Nasdaq fell 0.58% to 26912.69 as traders watched oil prices surge and tech stocks come under pressure. [5] and [4] reported that oil prices were a key driver of the move, with oil futures surging and causing yields to spike. [5] also mentioned that Nvidia news was in focus, adding to the tech sector's woes. [1] and [6] reported on the broader market decline, but did not provide specific reasons for the Nasdaq's fall. No clear catalyst appeared in the news that would explain the move.\n10-Year Yield (+0.89% to 5.23): Yield Rise Amid Global Bond Pressure. Traders are watching the ongoing U.S.-Iran stalemate for its potential impact on global oil prices and government bond yields. Rising oil prices and inflation fears are also contributing to the surge in 10-year Treasury yields. The market is responding to concerns about the stability of global government bonds, as seen in the increase in yields.\nUSD/JPY (-0.97% to 157.27): USD/JPY Sell-Off Explained. Traders are watching the reaction to comments from Japan's currency diplomat, who urged markets to heed a 'very clear' warning on the yen's value. This suggests that the market is taking a warning from Japanese officials that a weak currency is a problem. The 'Death Cross' mentioned in another headline may also be contributing to the sell-off, as it suggests a potential reversal in the dollar-yen trend.\nCrude Oil (+0.08% to 92.48): Oil Prices Rise Amid Inflation Fears. Traders are watching rising oil prices and inflation fears, which led to a surge in the 10-year Treasury yield, causing crude oil to rise. This move is likely due to concerns about inflation, as higher oil prices can increase production costs and lead to higher prices for goods and services. The market is also keeping an eye on upcoming talks between Qatar, the US, and Iran, which may impact oil prices.\nGold (-3.49% to 4170.5): Gold Plunges to Seven-Week Low. Gold prices fell sharply overnight as traders became increasingly optimistic about a US rate hike, citing rising tensions in the Middle East and a surge in oil prices. [18] [20] [21] The market is watching the situation in the Strait of Hormuz, where a standoff between Iran and the US has kept rate-hike bets elevated. [19]\n\nAlso worth knowing:\n- Treasury yields climbed to fresh highs, while oil prices pared gains, in a mixed market day.\n- S&P 500 futures rose ahead of the opening of the market, driven by concerns about jobs data and its impact on the economy.\n- The Federal Reserve's watchdog warned of security deficiencies at the central bank, raising concerns about data breaches and cyber threats.",
+  "brief": "US-Iran tensions resurfaced, causing a sell-off in the US stock market, with the Dow, S&P 500, and Nasdaq all declining.\n\nS&P 500 (-0.26% to 7663.45): US-Iran Tensions Spark Market Sell-Off. US-Iran tensions resurfaced, causing a sell-off in the US stock market, with the Dow, S&P 500, and Nasdaq all declining. This move was also driven by rising Treasury yields, which lifted inflation worries. Traders are watching the situation closely, as it could impact global economic sentiment and lead to further market volatility.\nNasdaq (-0.12% to 26787.62): Nasdaq Falls Amid Tech Selloff. The Nasdaq fell 0.12% to 26787.62 as traders watched for signs of weakness in tech stocks, with oil prices surging and yield concerns weighing on semiconductor stocks. [5] [6]\n10-Year Yield (+0.78% to 5.28): Yield Rise Amid Global Bond Market Pressure. The 10-year yield rose as traders watched for signs of inflation and increased pressure on global government bonds, with rising oil prices and a stalemate between the US and Iran contributing to the move. [10] The US 30-year Treasury yield also reached its highest level since 2002, [8] indicating a shift in market sentiment. [9] Traders are closely monitoring the situation, looking for any catalyst that could impact interest rates and the overall market. [7]\nUSD/JPY (-0.05% to 157.39): USD/JPY Weakens Amid Dollar Strength. The USD/JPY pair fell 0.05% to 157.39 as the dollar strengthened against other currencies, including the yen. [11] This move is attributed to the dollar's hold near a two-month high, with traders watching the Asian currencies' weakness and the yen's decline. [12] Japan's currency diplomat, Mimura, also urged markets to heed a 'very clear' warning on the yen's value, which may have contributed to the pair's decline. [13]\nCrude Oil (-2.43% to 90.35): Oil Prices Fall After Trump's Comments. Crude oil prices fell after US President Donald Trump said oil prices would 'come plummeting down' as he touted the US economy. This statement contradicted previous comments from Trump, which had boosted oil prices. Traders are now watching to see how the market reacts to Trump's latest comments on the economy and oil prices.\nGold (-3.14% to 4185.4): Gold Falls to Seven-Week Low. Gold prices fell to a seven-week low due to rising bets on interest rate hikes, which increased investor demand for safe-haven assets like the US dollar. [19] [22] This move was also influenced by tensions in the Middle East, particularly the Hormuz impasse, which kept rate-hike expectations elevated. [22] [20]\n\nAlso worth knowing:\n- The Dow tumbled 300 points as bond yields continued to rise, sparking a sell-off in the US stock market.\n- Consumer confidence fell, contributing to the Dow's decline, while Nvidia shares hit a buy point, sparking investor interest.\n- The Dow, S&P 500, and Nasdaq were mixed, with oil prices retreating and AI jitters affecting tech stocks.",
   "moves": {
     "S&P 500": {
-      "last": 7704.15,
-      "change": -39.26,
-      "pct": -0.51
+      "last": 7663.45,
+      "change": -20.24,
+      "pct": -0.26
     },
     "Nasdaq": {
-      "last": 26912.69,
-      "change": -156.03,
-      "pct": -0.58
+      "last": 26787.62,
+      "change": -32.76,
+      "pct": -0.12
     },
     "10-Year Yield": {
-      "last": 5.23,
-      "change": 0.05,
-      "pct": 0.89
+      "last": 5.28,
+      "change": 0.04,
+      "pct": 0.78
     },
     "USD/JPY": {
-      "last": 157.27,
-      "change": -1.54,
-      "pct": -0.97
+      "last": 157.39,
+      "change": -0.07,
+      "pct": -0.05
     },
     "Crude Oil": {
-      "last": 92.48,
-      "change": 0.07,
-      "pct": 0.08
+      "last": 90.35,
+      "change": -2.25,
+      "pct": -2.43
     },
     "Gold": {
-      "last": 4170.5,
-      "change": -150.7,
-      "pct": -3.49
+      "last": 4185.4,
+      "change": -135.8,
+      "pct": -3.14
     }
   },
   "sources": [
@@ -196,6 +196,14 @@
     },
     {
       "n": 8,
+      "title": "US 30-Year Treasury Yield Rises to Highest Level Since 2002",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWkxuUGpXckUxZGVhS04tUEptRlZmUWc1Qm1ZbU9QeW9IRGNPekQ2U0lROW5QcDJWMWJla1lwYy1oSWoxcXhVYjdSOXRac3NwR3JTUVk3MDgzXzkwWlFBelBEQ0Z6UTgtOUstQnVHZEMxUmhBc01lOWhCdGFpOTMydHJQSWV1YXc2ZVlneDNJQzJPSlpMc1JMWDA3LVdaTllWZ2tteUNiaW9OOGU4ZHNDcXhB?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-09-29T14:34:23+00:00"
+    },
+    {
+      "n": 9,
       "title": "Rising oil prices, inflation fears send 10-year Treasury yield soaring past 5.2%",
       "source": "Fox Business",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fYUxrNjZnalhFc19CZU9qVlVQMnN3dGtpdmpfclNJTnc0VlU1blVCUHV0OVlLRUszc19POEVNa0dETGtkdmxWRVNfNVk5bFpCRDJsQlBVeEpUcWc?oc=5",
@@ -203,7 +211,7 @@
       "published": "2026-09-28T17:51:52+00:00"
     },
     {
-      "n": 9,
+      "n": 10,
       "title": "Treasury yields edge higher amid pressure on global government bonds",
       "source": "CNBC",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41Z0tuczlCbWIxU0ZyYXE5N2hjV1NtU3U0LVVkRWtUUkZyZFBJRzN6cDlaYTVyZjdJVE80TG5EeUE2UHgzRmRFX3FSbVJiSENtci15Vlo1NjU3OE04SmV0U25TeWZaLTlFdThpRDdSYjZFbHF00gF6QVVfeXFMUGtkTDVNOUd5NEJQRHF2S0ltSWpnTWo4QUtEWUR1Y1dONkM4T0FOVUgtTXR4MHowZDV0WUlhcXFyRUluRzgyM3JkWFNveURoakZ3aVpaWE8tNC1ERjJhXy0tcHBUejAxdnpjd014NGhEN1FYWkxtX0Jpenc?oc=5",
@@ -211,23 +219,7 @@
       "published": "2026-09-28T08:49:06+00:00"
     },
     {
-      "n": 10,
-      "title": "Why rising Treasury yields aren’t entirely bad news for mortgage rates",
-      "source": "Scotsman Guide",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb0MxR1FiRUpkMUE5N0tET1lLYkthemF2cldaV1JDXzJ6cFNSdURzRlhZbHg0S0hnY2ZXbTF2dUpYb0MtM2ZFY1RZZHNwZmgteGVMbExfdDY2aEtRM28zdEwwc3d4M0t0SDRRcDFUNV9FVWdJNlhOclBhMkthbDlRYWNJOGVra0NXMk9tWk9VSnV4MUlFSUo1LTRfT2Z6YWkxbTVqVUdkRkI?oc=5",
-      "snippet": "Scotsman Guide",
-      "published": "2026-09-25T22:32:56+00:00"
-    },
-    {
       "n": 11,
-      "title": "Yen rises as Japanese officials say weak currency is problem",
-      "source": "The Japan Times",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUUo4VEctQWlMZ211d083Uk5QS0wycEZGTEF2YzBWRHNQdWJQNExyRnhpZjB5V1ExLWhYYjlscVFuQTRvRjFSYjhGeVAya180NEdnTm9iV0l0YkJVU1g4eXd6elRJWnJ1NENBR0EtVjVTWjFKRE16MFZSNmlGU0FnTXlR?oc=5",
-      "snippet": "The Japan Times",
-      "published": "2026-09-25T23:29:00+00:00"
-    },
-    {
-      "n": 12,
       "title": "Asian currencies weaken as dollar holds near two-month high, yen slips",
       "source": "Yahoo Finance UK",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdW04aURHSTc0NUk3YjZ1UkpZTjgtVGVXRU01XzdaRUdwXzhwTmVMZlBSWnByVV9UTDdIRHdMemNuYnQ4VktjY1lXMTJiVVVxckdXQ2NmS19ROUt3QlBCTmVuYU1PLVVOWnNPd1AxNHRVVmVNLTJNV0NuYnpwTnpVWUhOQzR2Mkx1OU9hUjhB?oc=5",
@@ -235,15 +227,7 @@
       "published": "2026-09-28T05:24:00+00:00"
     },
     {
-      "n": 13,
-      "title": "Dollar-Yen 'Death Cross' Looms as Trump Cheers a Stronger Japanese Currency",
-      "source": "finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiNW9KUTB5TkN3ODBzYjRYM216ODNCRWc1a1A0NFdxZ1dLdEFSRlVtal9EMFBtUExuay1za2VnV0dNMG5zSjMxOVNDeHdONEZnY1ZFV2hjRHRjeUg1aFV2UkxiUTE0Ty1vaE9pWUVRWlFPeFdwNEE?oc=5",
-      "snippet": "finance.biggo.com",
-      "published": "2026-09-26T13:35:00+00:00"
-    },
-    {
-      "n": 14,
+      "n": 12,
       "title": "EXCLUSIVE: Japan's currency diplomat Mimura urges markets to heed 'very clear' warning on yen",
       "source": "Reuters",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYzFRTndpRkJHX2FfcTFFdHFvNVVrQU5MZVAxM0Z1T1p3TjRyaUtyNFRaNjRQQjQwYjJaVW5ocTlGYU1iU0w4WGNISjhWb0ZsWHpTYkZ5aEhPX1B1blRyak40X0FHMDdWdnUzSGFYczRrXzd1bXBPODRNbDdnN2NPcTZLZFpIaWhTRkQ0bVZIMGxGcFo0S1B1M3RrV0pWU1h6d0d6NC1SMkhwdl9ESGJiZFVXLWl4Mll4bUE?oc=5",
@@ -251,12 +235,28 @@
       "published": "2026-09-28T09:10:27+00:00"
     },
     {
+      "n": 13,
+      "title": "Dollar Pushes Higher Vs Yen as Policy Risks Collide",
+      "source": "TradingPedia",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNREEwaDdvYnpNRVBzaU53dkdkNmFTbl9jSGN0RzRnMzhfbXhKMWo4bTF3azgzRHU1SDZNcjlEcmw2R1lSaXJ0RVhOS2d4eDhsTW0yZXdxYlJ4cXFCN3FTM29nYzFoTUhJQVVLSnZrcFM0T0hTdXh4Zm9XVFJfOGtxMjRNdzgzQnZSdVZ6a0Q0WTN2MkRDVFFB?oc=5",
+      "snippet": "TradingPedia",
+      "published": "2026-09-29T06:42:58+00:00"
+    },
+    {
+      "n": 14,
+      "title": "USD/JPY Forecast 2026: JPMorgan Flags 156.50-156.60 After Yen Rebound",
+      "source": "Exchange Rates UK",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTTBJVlE3RDZvMzZTdjVUQnh5Z2lELU1zSW42blpZSzlPZnV4NFpSbmpRMm16R3pjTDdrQkdoSXZlYWlMN0U1TjQ5NGdVVjlaTVRlNVFsWV8xNWgybE00bnZHUGpRNklqNkVJTkZReVZvWXBQM3NPMTJZUThNNlFkbEpLVlhQSmpZMllMVnJDWEhkeWhVY3VSbl9zTGxkbnF3Qzc3R19TbUF0YWxrQnpnM0wxLVpNbjNBMjRVbDZzRWc4U1VHZWJv?oc=5",
+      "snippet": "Exchange Rates UK",
+      "published": "2026-09-27T12:12:00+00:00"
+    },
+    {
       "n": 15,
-      "title": "Oil price gains pared as Qatar-US-Iran talks loom",
-      "source": "The State",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xVDliV3labElBOVF2aTRrTFYwQy1yZXRndjhSNzltT2xINVgyVUlaeDByYTMzRmk5QnJtOE9raUZicmlVMV9IaFhjREVZLWRRT2VMeGtHVVJIVVVsT2RvbnlmOTRibTNWaVlWRkFGb0wySHB6QVBSd2JLeDlNQQ?oc=5",
-      "snippet": "The State",
-      "published": "2026-09-28T17:45:02+00:00"
+      "title": "Oil Prices Reverse Gains as Gulf Crude Exports Recover",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ1UwdjZ0Qk53aGpUZnhLRG93OE5SRm9idmd2VDJuMmJhRS1KaC1WTGMxWUQ0bVk5OW5RNXZ5V29sZmJIcEg5UWs2ZjA4RTNacjIwalpnaVhhVE54Zl9HVXNkajROUWVQTFZwR1E0VGZSU0xwVGRzTlRBdzBxZEI3aHZueUxEQXJpNUY1UFlaRG53RXhZTkd2ZV93NWxDdzVI?oc=5",
+      "snippet": "WSJ Oil prices surge after Trump rejects Iran’s plan to reopen Strait of Hormuz Al Jazeera Iran Talks Take the Heat Out of the Oil Rally Crude Oil Prices Today | OilPrice.com",
+      "published": "2026-09-29T13:33:47+00:00"
     },
     {
       "n": 16,
@@ -268,14 +268,22 @@
     },
     {
       "n": 17,
-      "title": "Average gas price in Virginia rises as crude oil costs climb",
-      "source": "WSET",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOazBXQ1hMUHFhTW83N2I4N2luak9BMTlSWmpPUUZJQ050NE1hcFBkQXBmQ2NKRC1Kam5sQjFPYVJUOGxDNTJkWXllQzg2Tkp1THF2ZjhEeGVlc1VzLTQ4M3lVMnpyVzdkTDV6b3RLUlBkS2FDbXZucWZwTlVxdEtqc3BYc0FmRmU5TnlaY1FoVEY0UVpSemQwQVg3MXp0TnpjWEtTSkVvYUVlRk1WVjlyTXVLbG9xZw?oc=5",
-      "snippet": "WSET",
-      "published": "2026-09-27T12:36:39+00:00"
+      "title": "Trump Says Oil Prices Will ‘Come Plummeting Down’ as He Touts U.S. Economy",
+      "source": "The Pavlovic Today",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbWJmSUJRSjd2UEpmU1BpUG1Day1lTmh0dVVEem5jNDAyMkpzLXkxWW92cmVxaGowTFM1R1M5amdDcHNzRTlfSFpFV1gxWF91a3BjZF9FUm5TVk1JZG9YN2R2bEpqUEx1amlqbm1UWG5WUk9oZTA1RTg2dGVTRHpfbXhQY2RIbVZZS0lxOEF5em52dXFRM2I2b29nUF9HQzU0VV9F?oc=5",
+      "snippet": "The Pavlovic Today",
+      "published": "2026-09-27T13:19:16+00:00"
     },
     {
       "n": 18,
+      "title": "Stocks waver as oil prices fall, bond yields stabilize: AlphaCheck",
+      "source": "finance.yahoo.com",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVlRxTW9NTExKWGZab253R2ptRkhLTllIalI0MkFSUXg3UEFoRDlNMVRyUENNRGs5R0ZSODZkNkFUYVJ6Z2lPMUh6dTNTcEZJbmtDOUxjeUhyV0doQ0d2d0ViYkVOTmFSdUNkUWV6TERSWTkyLWlLRG03cGMtT2hkU25MSDJuVlpqZ0VkTUp6R1pDdFBuM1g3d05WMW40OFNhMjRBRU05ZG9oa1FzYWVFZV9nMWRHTjdrVHNCVEtR?oc=5",
+      "snippet": "finance.yahoo.com",
+      "published": "2026-09-29T13:50:32+00:00"
+    },
+    {
+      "n": 19,
       "title": "Gold Falls to Seven-Week Low as Rate-Hike Bets Rise",
       "source": "WSJ",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTkJEQ1paQ1RWNGhOV1hmMEMxZFA4R0tfT3phbTZXcWpSY2FreW5CaXY2QWx6UTdqNkthRVVEcXNtRFRDWHVDV01OWHhUTkI4eGFBV25sVktEQ2dRNkxoLWlwN21XLXhpZk8wSjdQaHFFVXh2SHBMLWZFWEZueTFYczIwYnMxdXF3VzVYLVdWM1J3dEszdWhid2ZTYXptWG9ENWhSY2tGUnZScDZW?oc=5",
@@ -283,7 +291,7 @@
       "published": "2026-09-28T11:32:00+00:00"
     },
     {
-      "n": 19,
+      "n": 20,
       "title": "Shafaq News..Gold prices fall in Baghdad, Erbil markets",
       "source": "شفق نيوز",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9UUzF2Z1AtbzdpcmtfNHhUUERHTml0Zkh0d212Sjh2NjA2OXVCVW5mOThmdEZsNVVPR1ZtNHRJaG55OGxOVEdtREtrX1hhcGF4cWJuOUdyM1NILTFnUjhZVGl6Y1VhSUZ3aTRMbFE1TEVhTlM5a1VSVUdsZ2RYQQ?oc=5",
@@ -291,7 +299,15 @@
       "published": "2026-09-27T09:48:34+00:00"
     },
     {
-      "n": 20,
+      "n": 21,
+      "title": "Wells Fargo lowers gold price target amid rate concerns",
+      "source": "Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUEMwRFgwaElmOWVuZGRIdTBJMVVLWHVpV2xxNXhWSGhNOG1TcC12emxvbVJsT1VNd3FWRy1aVjUtT0JjUnBEWDA0VXN4ZEVZTkN5Vkk1UlhBTzdzeGhJekxMUENTRkZOSE9UQ3g0LV9pUTlJQ0NSODlRRTVHUk9ueUY5RENtSTNOYTJuclpnbEE1MGZjaGFMYTNGc0pHZENqOTBIbTZqQ3hIUFNFcFptWQ?oc=5",
+      "snippet": "Investing.com",
+      "published": "2026-09-29T14:29:51+00:00"
+    },
+    {
+      "n": 22,
       "title": "Gold Declines as Hormuz Impasse Keeps Rate-Hike Bets Elevated",
       "source": "Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOX0J0NEgxVmIzdXBFV0xEaGZoZEx3S3l1SWVnTm1WTEZXM3dWUzkwb1EzX3lIenB1RVRUTmZfQ3g0aHZCSnNqQUZFYk1MZFhJeHNUOGxUXy1aS3Uwa0lueWktbHMybEt1RU9qUVlueGVrcXhZZEYzQkVnRjJVa0JmSGF2VjJaNVdIb3Zvb1pFNXR2TENDRy1ybDVNZ0ZmRTYyX003ZExNZDlKZWFsM1VGNjNn?oc=5",
@@ -299,74 +315,86 @@
       "published": "2026-09-28T08:40:40+00:00"
     },
     {
-      "n": 21,
-      "title": "Gold price prediction today: Will gold continue to fall? Check outlook for September 28, 2026 week",
-      "source": "The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNWGxFR2xDMlhoTVVRQ0xMNVFOT2x3WUdZbjQtY1pzbjFzYm5yQ2Z4TUNSdmx0eHJYaF9Nei1rNlRJd2xVYkNYd1hJSFpCOGFzckJJQldwamhuYXVQbmlIaHdXMTY1RHJob0hyMFBYTmg2RXBFT1lMdldhbFkxSmgwNmR0d2YzOWp6dC1sN2RaenpXckJUQlBXYzBjeVlfYmczaG00Y2tua2M5dE1ab2FuZ0ZpSWRCZXFWcTd4b05abnZ2UU9aN0pibnZMMkduY1hpZG9zUUhvV2J2anNhRUFwYzhqc1VyQThINEZNMS1HSlNmbHYwTS1Lbk91OTJkZGxEai0yZjVvd1dHd2RrTVVzX0xvcWdJWGs5RnA5bm55MUlyakU2YS14b3FSR2NtR0ExNFdVa2ctb183ZjVISHhYVlQ2R0JvcElNamfSAc8CQVVfeXFMUHdWYkdRcEJCTlFfU1BjbFhpSDlsazJmTUhLT3NxWkVaLVhzY0cwc1dnOFhfVE42bEtVdmViTHdnMnF6SGo1ZE9jQ3VNNlZ5bkpyNE1CdzlpSHluLVg1QURiSi1HUmJPX2ctdzZ2aDN0MXhOQ2x6TEo5MlZSSHJpX0xvc3lHOXFmbjMyZTNsSmV5aFNjOVVqOGIzY3pudnRfcVJ2LURILTBsSURta01yRG5kTk5hd0FtZGhmNVlNbmZ4a2d2Xy1EMDlHRUZCX3FOTkM3QWh0SWZTR2tjcF9oam9RUElVSjFjbTBLMVVfcmI5RkU0VUxldWoyWmhuZFBBd21OcVVhYlYza3l6cGdoVnptVi1OX0VwUXc3TmNQb1dvUG9xbVdLMWtxQnY4bUNtNHc1c2w3RnNyQml4cDRyT0k2N0ZZV01vdnNsY2c0ME0?oc=5",
-      "snippet": "The Times of India",
-      "published": "2026-09-28T06:34:00+00:00"
-    },
-    {
-      "n": 22,
-      "title": "Stock Market Today: Treasury Yields Climb to Fresh Highs; Oil Pares Gains",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdXE5MUh0WU03bjJHMmlXVGN2Y2hTVnAxNzN0SUVLN3lFTHJoOTdlcmxwMlhVeWJ2M19RZXpzaTc1cE5JdnRYN0lHaFNWd0hMWEtzSVBIcG8tbkN0X2xoWmJfNUFELWY2dzJuYklxUlFRVU56eFV0Q0xSUnNZWktFdlZZc2t5UVU?oc=5",
-      "snippet": "WSJ",
-      "published": "2026-09-28T18:00:00+00:00"
-    },
-    {
       "n": 23,
-      "title": "US Stock Market Today S&P 500 Futures Rise As Jobs Data Jitters Build",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYXB3djlhVDJJekJySFB4Mk1GTUlIRl9wNEY3ZzVLUklzRXc5V0dGdWRHNGtMM3NqRXN3NG9tSUEyLXhQMDV0eExRUXdFaEgtR1AzUzFhNGNaODU3R1F1UWI4ZU15cWJjM2I1OW0ycW9qM0hPQjE2SUgxWFpBUTlCbVRJMHk4RHRqcnh1ZHZ6LXlKQQ?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-09-28T08:07:13+00:00"
+      "title": "Dow tumbles 300 points as bond yields continue rising: Live updates",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE52VGJIVWQ2MTdhY1B1a0ZxMEUwVFlraXdZbGJRRHVWcUNDOHB5QWhJTGx6d1lDTGVid09sVlpBLUV4YTA0eVdUUVU2Y1h4eEZodHVJczdGa1dRckVmU1R1WldFUWItMDR2N3pZR003Z2ZHZTRxeWow0gF8QVVfeXFMT0dRNTNjTElzNUlEQmhmaWR6UXNBVmFxR2lkVklGU2JNSXZjWUNwRTlDa05ZUWJHbjlFZk41N3BiT3RIak01R3k5UU9VWEpRSzJMVWVXSGhQQ0NodjRkTUdCTHlPZGFzTnlKQzBKeFlrSlNWcklVS3JJTkVQMg?oc=5",
+      "snippet": "CNBC",
+      "published": "2026-09-29T16:06:00+00:00"
     },
     {
       "n": 24,
-      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSlJkODdqUWp0UTNDMkRyUXg5OW81RFRDWlpiX2IteUgyRWRQOU5OTlIyaERuOUxJc1NoSUpFQmxhcHNaZnBucnRmeHp4UFV6N1ZlR3RJZzJVNWx4alY2bWFzREd4Wm1jZ2hVNWQtQWhPaFdSM3Z1MFJxVGdsRncyeUlPY1JJbFlyQXEzNWx0S2ZzZw?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-09-28T06:11:00+00:00"
+      "title": "Stock Market Today: Dow Dips As Consumer Confidence Falls; Nvidia Shares Hit This Buy Point (Live Coverage)",
+      "source": "Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMEVEUzBzSXJ3WXNSaFJKcHkwdUxSV0lYX2s0M0lTSXRNcDZUeF8xcEV4MC1Zd0IyT2hhQThDTTFoV0M2QlU0d19uQVcteXV6T0tSNVpjR0x2aTN4enNDZFZPVDJMdi1nNFFrSll5U0NKT054ajZlTW9fXzlUMlAwanF6YTV4bUtOV09LRnQ1OWN1NTF0MUVNWmxZbmR2aWJnOENiSEJVNTQtU3RfalNKSy1ZTTVLbG9teVBHeVVHTlRKVWlDc1ZsSHhuaE8wS25OZGhOdnh2TQ?oc=5",
+      "snippet": "Investor's Business Daily",
+      "published": "2026-09-29T15:12:00+00:00"
     },
     {
       "n": 25,
-      "title": "Federal Reserve’s watchdog warns of security ‘deficiencies’ at central bank",
-      "source": "Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRzh6dVk3eFMxWHl5VVJsSXVid1kyTTNReFJNOVo0c200VUdSU2RVR2M3elBjaVFhNTRyUDFfamFfYm9iRndST3ZEWi0wenNFSlZOX2F6Z21uVzJBTGp5WHl4LTRKSnpENEhzZG40Z2NVZS1GUFBBSU9KdGN4dlczeWk4c3A?oc=5",
-      "snippet": "Financial Times",
-      "published": "2026-09-28T17:31:45+00:00"
+      "title": "Stock market today: Dow, S&P 500, Nasdaq mixed as oil retreats, Anthropic and OpenAI fuel AI jitters",
+      "source": "finance.yahoo.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZjFzVm9LX08zTnhfUXNSR2pjSkI5YWg3Y0NnYWltMFB4MHRBejJOZkFQQ2pYc25ycjhhWk1BRGFXbk5WRm1OamtkSzBRdWtkanlrUWVGLUFJSTlYU2RMX25TVDNPOURSc290Z0VJSnJFSlp4MjBhS2p2TzNXTk9RZGhRRC1XVm1Da1lNaG5UNnVZeEdfd0RmOVhkakVIRC1yb1BIejZGZVZ4MjhwSWdyVA?oc=5",
+      "snippet": "finance.yahoo.com",
+      "published": "2026-09-29T16:17:54+00:00"
     },
     {
       "n": 26,
-      "title": "Federal Reserve Staffer Removed Sensitive Files Before Retiring, Report Finds",
+      "title": "Stock Market Today: Dow Edges Lower at Open, Oil in Focus, Treasury Yields Tick Higher — Live Updates",
       "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZE9iVEZ3OEN6YjlpNWhnZEJQUVlJSEZuMTJieVBnQU05dWhyUXp4Y0hBQXNlZUtodi1ZQ2ZIVUlVTk9TUkpnSlNmc3hXN0tHaG42c0VyRUZJVHd6eXZWaUltTUE5U01jbkxvV0NyMnE1MTZOemJXODhINVRZVnJUekpMVUtvRDlvZko4RFdqbTZ0SElIR2JsZXNERGtYXzhZWTlzOUxuZ3hjdXZzZXNrakxweE1Bc0VCcjFYbVp4UklURWN3UmxvTw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdFhScTBzN3F1bVVrdWxnRk44RDZkMUpnSFVYQVpkUW5fMlh1aHlyX20xZVcySzl5WWltNldNTFFhWjRwYzlrd1hKVGtQRzBvYjhGSnNwM2NQcDRQV05uYnMwR3hiblJaakhFRzlqS0dJTlRQZHBXMGNfYWRkVGZnMEpiY0FqTE0?oc=5",
       "snippet": "WSJ",
-      "published": "2026-09-28T16:54:00+00:00"
+      "published": "2026-09-29T15:46:00+00:00"
     },
     {
       "n": 27,
-      "title": "Fed watchdog flags apparent data breaches by retiring staff member",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ2ZwVHE1NFdjY0xLQmFReFNEY080ZGhOS0UyQmNBTXZQbTBTWWN4T040OHgwUFZIRVRrenlVZmhxRzZxNmJuSHh0ZTU1dDZWSzNsdmNGRDRvbThHVDBTNC0xX1FkMzZnTHFBZzU5UmYxWnlCZGNaTUxhdlJoZm5NNU1kR1VheU5rcC1iVWctS25BcGtYbFRjLXJlOVBYSGhqTW9Wci1zdUpaOGVrY2ktSVU0cVJ1dw?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-09-28T17:43:08+00:00"
+      "title": "Here's What a $10,000 Investment in SpaceX Stock Could Be Worth by 2030",
+      "source": "The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZDdRaGRBc0liRi1UMFRYbGxEX2huQkVORE9udzRtNm5xcUNQWDVDU1UyTXVoM0wyZnpFeXpLQlo3VUtOWGJpVjVxeFdKaktRaFJWUzBYRFVlSmtZRjJ6d1BmQWdDZlV0dlpMQ2tKYTZ0aHZ3UV9lb19UQWdpSklCU2JRNXVNTHJhVHhqQTYyWWVGdjh3M3RVOA?oc=5",
+      "snippet": "The Motley Fool",
+      "published": "2026-09-29T07:45:00+00:00"
+    },
+    {
+      "n": 28,
+      "title": "Livestream: Federal Reserve member speaks at Detroit Economic Club",
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNnExTjdkdHlTcnlxVUFqeFFtMnBvNG1wYm8yczRYMnpGTmk4czVtQjhtSk9rZTRKeGN6d0M5bHJ0d0ttSlo0LWVUank3RmtZQlplWnNJQjhuejVJcFlqVUFCUE1MWmtHNW1ybnJrOGNMMXNjSlFKRzJFbjR2d2xKTUdJNVhhTWdMN19hOC1Ja3d2WlB3Ry1TQXM3aGxiZW5UZEE2dENnNndVMjhlSkgzOG9mWEEzVlhwTmRr?oc=5",
+      "snippet": "ClickOnDetroit | WDIV Local 4",
+      "published": "2026-09-29T16:33:08+00:00"
+    },
+    {
+      "n": 29,
+      "title": "Opening remarks by Vice Chair for Supervision Bowman at the Community Bank Cyber Workshop",
+      "source": "Federal Reserve Board (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9VU2ZOYS15UHZjZC1vLVRJd1h1NzRCNkpTakxBbTgyamtwMHdidXJqcEZBckFLVDJkaGc1VkJ2dFc2SWFveXpELTNnRzJ1eF9oNVJUMTZ1UE5uaXl4VFNsT1pZS0FfUmtqcWlrazFCMkdBcmZWOE1j?oc=5",
+      "snippet": "Federal Reserve Board (.gov)",
+      "published": "2026-09-29T15:04:28+00:00"
+    },
+    {
+      "n": 30,
+      "title": "What Happened to Workers Who Joined the Last Tech Boom?",
+      "source": "Atlanta - Federal Reserve",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSVVlSEU5WEVIZEFuS2NOeEtFZ3Mwd3ZzdWtPaHVXVFVmYWwtNUE0d3RCb3Bia3NPcHJnTFdQVl8wZFRjeGd0WkFMMFJsMlZmU2ZzWDIwdC1QbXJvekp3RVRKSF9tU0xsWWx3QWUxcEU0Zy0xR0FpZ0RBOC1QQXRyNVkwblpodncyY2c4azlQZzF1dXRlOTlXM0l5dk91RlZPdWp4aWZNN0NqSlRJSGd3eGFyemhWUGhOdVM3TTJHaXFoMjZFc3p5eHcyc1gwVTJQNkdBZ3d2VQ?oc=5",
+      "snippet": "Atlanta - Federal Reserve",
+      "published": "2026-09-29T15:19:27+00:00"
     }
   ],
   "cited": [
-    1,
-    4,
     5,
     6,
-    18,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
     19,
     20,
-    21
+    22
   ],
   "invalid_citations": [],
-  "example_prompt": "Move: S&P 500 fell 0.51% to 7704.15.\n\nHeadlines:\n[1] The Economic Times, Sep 28 11:15 AM ET: Why are the Dow Jones, S&P 500 and Nasdaq falling today? The reasons behind the selloff from tech stocks t\n    The Economic Times\n[2] Yahoo Finance, Sep 28 01:41 PM ET: Stock market today: Dow, S&P 500, Nasdaq slip as US-Iran tensions resurface, Treasury yields jump\n    Yahoo Finance Stock Market Today: Dow, S&P 500 and Nasdaq drop as tech stocks slide and Treasury yields jump MarketWatch Stock Market Today: Indexes Decline After Winning Week as Oil Prices, Treasury Yields Jump; AI-Tied Stocks Fall investopedia.com\n[3] CNBC, Sep 28 01:24 PM ET: Stocks fall to start the week as Treasury yields rise once again: Live updates\n    CNBC Stock market today: Dow, S&P 500, Nasdaq slip as US-Iran tensions resurface, Treasury yields jump Yahoo Finance S&P 500 Falls as Inflation Worry Lifts Bond Yields: Markets Wrap Bloomberg.com\n[4] NDTV Profit, Sep 28 11:46 AM ET: US Stock Market Crash: Oil, Yield Spike Among Three Reasons Dragging Nasdaq 1.2% Lower, Dow Down 350 Points\n    NDTV Profit\n\nWrite the subheading and body.",
+  "example_prompt": "Move: S&P 500 fell 0.26% to 7663.45.\n\nHeadlines:\n[1] The Economic Times, Sep 28 11:15 AM ET: Why are the Dow Jones, S&P 500 and Nasdaq falling today? The reasons behind the selloff from tech stocks t\n    The Economic Times\n[2] Yahoo Finance, Sep 28 01:41 PM ET: Stock market today: Dow, S&P 500, Nasdaq slip as US-Iran tensions resurface, Treasury yields jump\n    Yahoo Finance Stock Market Today: Dow, S&P 500 and Nasdaq drop as tech stocks slide and Treasury yields jump MarketWatch Stock Market Today: Indexes Decline After Winning Week as Oil Prices, Treasury Yields Jump; AI-Tied Stocks Fall investopedia.com\n[3] CNBC, Sep 28 01:24 PM ET: Stocks fall to start the week as Treasury yields rise once again: Live updates\n    CNBC Stock market today: Dow, S&P 500, Nasdaq slip as US-Iran tensions resurface, Treasury yields jump Yahoo Finance S&P 500 Falls as Inflation Worry Lifts Bond Yields: Markets Wrap Bloomberg.com\n[4] NDTV Profit, Sep 28 11:46 AM ET: US Stock Market Crash: Oil, Yield Spike Among Three Reasons Dragging Nasdaq 1.2% Lower, Dow Down 350 Points\n    NDTV Profit\n\nWrite the subheading and body.",
   "retrieval": [
     {
       "move": "S&P 500",
@@ -382,7 +410,7 @@
         },
         {
           "n": 3,
-          "similarity": 0.76
+          "similarity": 0.761
         },
         {
           "n": 4,
@@ -422,15 +450,15 @@
         },
         {
           "n": 8,
-          "similarity": 0.768
+          "similarity": 0.769
         },
         {
           "n": 9,
-          "similarity": 0.759
+          "similarity": 0.768
         },
         {
           "n": 10,
-          "similarity": 0.757
+          "similarity": 0.759
         }
       ]
     },
@@ -440,41 +468,41 @@
       "hits": [
         {
           "n": 11,
-          "similarity": 0.769
-        },
-        {
-          "n": 12,
           "similarity": 0.761
         },
         {
+          "n": 12,
+          "similarity": 0.726
+        },
+        {
           "n": 13,
-          "similarity": 0.746
+          "similarity": 0.683
         },
         {
           "n": 14,
-          "similarity": 0.726
+          "similarity": 0.683
         }
       ]
     },
     {
       "move": "Crude Oil",
-      "query": "Why did oil prices crude OPEC rise",
+      "query": "Why did oil prices crude OPEC fall",
       "hits": [
         {
-          "n": 8,
-          "similarity": 0.722
-        },
-        {
           "n": 15,
-          "similarity": 0.691
+          "similarity": 0.731
         },
         {
           "n": 16,
-          "similarity": 0.688
+          "similarity": 0.718
         },
         {
           "n": 17,
-          "similarity": 0.688
+          "similarity": 0.706
+        },
+        {
+          "n": 18,
+          "similarity": 0.699
         }
       ]
     },
@@ -483,28 +511,28 @@
       "query": "Why did gold prices fall",
       "hits": [
         {
-          "n": 18,
+          "n": 19,
           "similarity": 0.774
         },
         {
-          "n": 19,
+          "n": 20,
           "similarity": 0.77
         },
         {
-          "n": 20,
-          "similarity": 0.733
+          "n": 21,
+          "similarity": 0.736
         },
         {
-          "n": 21,
-          "similarity": 0.709
+          "n": 22,
+          "similarity": 0.733
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 39,
-    "headlines_new": 39,
-    "index_size": 204,
+    "headlines_fetched": 37,
+    "headlines_new": 36,
+    "index_size": 240,
     "llm_calls": 7
   }
 }
