@@ -1,145 +1,153 @@
 {
-  "date": "Thursday, October 01",
-  "generated_at": "2026-10-01T17:11:41.137991+00:00",
+  "date": "Friday, October 02",
+  "generated_at": "2026-10-02T16:24:57.634003+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "The S&P 500 fell 0.06% to 7647.15 as investors watched Treasury yields surge, sparking concerns about inflation and higher interest rates.",
+  "lede": "The S&P 500 rose 0.75% to 7723.76, while the Nasdaq gained 1.28%, driven by tech stocks seeking safe-haven assets amid rising interest rates.",
   "sections": [
     {
       "move": "S&P 500",
-      "pct": -0.06,
-      "last": 7647.15,
-      "change": -4.39,
+      "pct": 0.75,
+      "last": 7723.76,
+      "change": 57.31,
       "sources": [
         1,
         2,
         3,
         4
       ],
-      "headline": "S&P 500 Falls on Yield Concerns",
-      "body": "The S&P 500 fell 0.06% to 7647.15 as investors watched Treasury yields surge, sparking concerns about inflation. The rise in yields is a sign that investors are pricing in higher interest rates, which can make borrowing more expensive. This is a key concern for the stock market, as higher interest rates can lead to lower stock prices. [4]"
+      "headline": "S&P 500 Finds Support",
+      "body": "The S&P 500 rose 0.75% to 7723.76 after a mixed day of trading, with investors finding support in the key index. [1] The futures market had already shown a positive tone, with Micron's strong earnings report [1] providing a boost to tech stocks. [2] However, the overall market fell earlier in the day due to concerns over manufacturing costs and rising oil prices [2, 4]. [3] The Dow later rebounded on weak jobs data, which led to a decline in Treasury yields [3]."
     },
     {
       "move": "Nasdaq",
-      "pct": -0.12,
-      "last": 26827.77,
-      "change": -33.29,
+      "pct": 1.28,
+      "last": 27216.14,
+      "change": 344.54,
       "sources": [
         5,
-        1,
-        2,
-        6
+        3,
+        6,
+        7
       ],
-      "headline": "Nasdaq Falls",
-      "body": "The Nasdaq fell 0.12% to 26827.77, as traders watched for signs of inflationary pressures and rising interest rates. The Dow and S&P 500 also fell, with the Dow dropping 0.13% and the S&P 500 remaining flat. The 10-year Treasury yield rose to a new 24-year high, sparking concerns about cost pressures and the impact on tech stocks."
+      "headline": "Nasdaq Tech Stocks Boost Market",
+      "body": "The Nasdaq's 1.28% gain was driven by tech stocks, which received support from investors as rising bond yields continued to pressure markets worldwide. Traders are watching the impact of high bond yields on the market, as seen in the recent gains for tech stocks. This move suggests that investors are seeking safe-haven assets in the face of rising interest rates."
     },
     {
       "move": "10-Year Yield",
-      "pct": -1.02,
-      "last": 5.24,
-      "change": -0.05,
+      "pct": 0.52,
+      "last": 5.26,
+      "change": 0.03,
       "sources": [
-        7,
-        3,
         8,
-        9
+        9,
+        10,
+        11
       ],
-      "headline": "Inflation Concerns Weigh on Bond Market",
-      "body": "The 10-year yield fell 1.02% to 5.24 as inflation concerns took center stage, with softer-than-expected inflation data [7]. This move is a response to the recent rise in Treasury yields, which had reached a 24-year high [8]. Traders are watching for signs of inflationary pressure, which could impact interest rates and the overall economy [9]."
+      "headline": "Global Bond Rout Drives US Treasury Yield",
+      "body": "The 10-year Treasury yield rose to its highest level since 2002 as investors became increasingly concerned about global economic growth and inflation, with traders watching for signs of a slowdown in the US economy. [8] [10] [11] The yield climb was also driven by a decline in oil prices, which typically have a positive impact on long-term Treasury yields. [9]"
     },
     {
       "move": "USD/JPY",
-      "pct": 0.19,
-      "last": 157.71,
-      "change": 0.3,
+      "pct": 0.13,
+      "last": 157.77,
+      "change": 0.21,
       "sources": [
-        10,
-        11,
         12,
-        13
+        13,
+        14,
+        15
       ],
-      "headline": "USD/JPY Rise Explained",
-      "body": "The USD/JPY pair rose as traders took a cautious view of Japan's economic policies, which are seen as a potential counterweight to the US Federal Reserve's monetary tightening. [11] Japan's Prime Minister said her policies would boost confidence in the yen, which may have reassured traders. [13] The yen's recovery was also driven by concerns about the US Dollar's strength, which may have offset the risk of US intervention in the currency market. [12]"
+      "headline": "USD/JPY Strengthens on Inflation Fears",
+      "body": "The USD/JPY pair rose as traders took on board strong inflation data from Japan, which led to a strengthening of the yen. This move was also influenced by concerns about the US jobs report, which may impact the dollar's value. The yen's resilience was also seen as a response to Japan's Prime Minister's comments on boosting confidence in the currency."
     },
     {
       "move": "Crude Oil",
-      "pct": 1.94,
-      "last": 92.17,
-      "change": 1.75,
+      "pct": -2.34,
+      "last": 90.7,
+      "change": -2.17,
       "sources": [
-        14,
-        15,
         16,
-        17
+        17,
+        18,
+        19
       ],
-      "headline": "Crude Oil Prices Rise Amid Chinese Uncertainty",
-      "body": "Traders are watching the impact of China's suspension of fuel exports on global oil supplies, with concerns about potential disruptions to shipping in the Middle East. [16] The uncertainty surrounding Chinese fuel exports has led to a rise in oil prices, with Brent crude nearing $100. [15] The news has also sparked concerns about potential risks to shipping in the region. [17]"
+      "headline": "Crude Oil Plunges Amid Global Supply Concerns",
+      "body": "Crude oil fell 2.34% to 90.7 as traders watched for potential releases of emergency oil and diesel reserves by G7 nations, citing concerns about global supply risks. [17] [18] [19]"
     },
     {
       "move": "Gold",
-      "pct": 0.12,
-      "last": 4191.8,
-      "change": 5.1,
+      "pct": -0.96,
+      "last": 4161.8,
+      "change": -40.5,
       "sources": [
-        18,
-        19,
         20,
-        21
+        21,
+        22,
+        23
       ],
-      "headline": "Gold Prices Reach Session Highs",
-      "body": "Gold prices surged to session highs as the US economy reported a 2.2% growth in Q2, which is a positive sign for the economy and could lead to higher interest rates, making gold more attractive as a safe-haven asset. However, some traders are also watching the monthly decline in gold prices, which could be a concern for investors. The mixed signals may have contributed to the price's unexpected move."
+      "headline": "Gold Falls Despite Positive Economic Indicators",
+      "body": "Gold fell 0.96% to 4161.8 as traders weighed the mixed signals from the latest economic data. On one hand, the US economy's Q2 growth and rising PCE inflation in August suggested a strengthening economy, which could boost gold prices. On the other hand, the monthly decline in gold prices and the recent rise in gold prices after cooler inflation data may have led to a cautious approach by traders, resulting in the price drop. No clear catalyst appeared in the news, but the mixed signals may have contributed to the move."
     }
   ],
   "also": [
     {
-      "n": 23,
-      "note": "S&P 500 alarm bells are starting to go off as inflation concerns weigh on the market [7]"
+      "n": 24,
+      "note": "Traders pare Fed rate-hike bets after September jobs miss, leading to a rally in stocks."
     },
     {
       "n": 25,
-      "note": "Goldman Sachs pushes Fed rate hike forecast to December, citing inflation concerns [9]"
+      "note": "The US economy added just 29,000 jobs last month and the unemployment rate ticked up to 4.2%, leading to a decline in Treasury yields."
     },
     {
-      "n": 26,
-      "note": "Federal Reserve Perspectives: Regional Insights on Rural Economic Conditions, highlighting the impact of interest rates on rural areas [11]"
+      "n": 29,
+      "note": "A soft jobs report boosted market bets that the Fed will skip October's rate hike, leading to a rally in stocks."
     }
   ],
-  "brief": "The S&P 500 fell 0.06% to 7647.15 as investors watched Treasury yields surge, sparking concerns about inflation and higher interest rates.\n\nS&P 500 (-0.06% to 7647.15): S&P 500 Falls on Yield Concerns. The S&P 500 fell 0.06% to 7647.15 as investors watched Treasury yields surge, sparking concerns about inflation. The rise in yields is a sign that investors are pricing in higher interest rates, which can make borrowing more expensive. This is a key concern for the stock market, as higher interest rates can lead to lower stock prices. [4]\nNasdaq (-0.12% to 26827.77): Nasdaq Falls. The Nasdaq fell 0.12% to 26827.77, as traders watched for signs of inflationary pressures and rising interest rates. The Dow and S&P 500 also fell, with the Dow dropping 0.13% and the S&P 500 remaining flat. The 10-year Treasury yield rose to a new 24-year high, sparking concerns about cost pressures and the impact on tech stocks.\n10-Year Yield (-1.02% to 5.24): Inflation Concerns Weigh on Bond Market. The 10-year yield fell 1.02% to 5.24 as inflation concerns took center stage, with softer-than-expected inflation data [7]. This move is a response to the recent rise in Treasury yields, which had reached a 24-year high [8]. Traders are watching for signs of inflationary pressure, which could impact interest rates and the overall economy [9].\nUSD/JPY (+0.19% to 157.71): USD/JPY Rise Explained. The USD/JPY pair rose as traders took a cautious view of Japan's economic policies, which are seen as a potential counterweight to the US Federal Reserve's monetary tightening. [11] Japan's Prime Minister said her policies would boost confidence in the yen, which may have reassured traders. [13] The yen's recovery was also driven by concerns about the US Dollar's strength, which may have offset the risk of US intervention in the currency market. [12]\nCrude Oil (+1.94% to 92.17): Crude Oil Prices Rise Amid Chinese Uncertainty. Traders are watching the impact of China's suspension of fuel exports on global oil supplies, with concerns about potential disruptions to shipping in the Middle East. [16] The uncertainty surrounding Chinese fuel exports has led to a rise in oil prices, with Brent crude nearing $100. [15] The news has also sparked concerns about potential risks to shipping in the region. [17]\nGold (+0.12% to 4191.8): Gold Prices Reach Session Highs. Gold prices surged to session highs as the US economy reported a 2.2% growth in Q2, which is a positive sign for the economy and could lead to higher interest rates, making gold more attractive as a safe-haven asset. However, some traders are also watching the monthly decline in gold prices, which could be a concern for investors. The mixed signals may have contributed to the price's unexpected move.\n\nAlso worth knowing:\n- S&P 500 alarm bells are starting to go off as inflation concerns weigh on the market [7]\n- Goldman Sachs pushes Fed rate hike forecast to December, citing inflation concerns [9]\n- Federal Reserve Perspectives: Regional Insights on Rural Economic Conditions, highlighting the impact of interest rates on rural areas [11]",
+  "brief": "The S&P 500 rose 0.75% to 7723.76, while the Nasdaq gained 1.28%, driven by tech stocks seeking safe-haven assets amid rising interest rates.\n\nS&P 500 (+0.75% to 7723.76): S&P 500 Finds Support. The S&P 500 rose 0.75% to 7723.76 after a mixed day of trading, with investors finding support in the key index. [1] The futures market had already shown a positive tone, with Micron's strong earnings report [1] providing a boost to tech stocks. [2] However, the overall market fell earlier in the day due to concerns over manufacturing costs and rising oil prices [2, 4]. [3] The Dow later rebounded on weak jobs data, which led to a decline in Treasury yields [3].\nNasdaq (+1.28% to 27216.14): Nasdaq Tech Stocks Boost Market. The Nasdaq's 1.28% gain was driven by tech stocks, which received support from investors as rising bond yields continued to pressure markets worldwide. Traders are watching the impact of high bond yields on the market, as seen in the recent gains for tech stocks. This move suggests that investors are seeking safe-haven assets in the face of rising interest rates.\n10-Year Yield (+0.52% to 5.26): Global Bond Rout Drives US Treasury Yield. The 10-year Treasury yield rose to its highest level since 2002 as investors became increasingly concerned about global economic growth and inflation, with traders watching for signs of a slowdown in the US economy. [8] [10] [11] The yield climb was also driven by a decline in oil prices, which typically have a positive impact on long-term Treasury yields. [9]\nUSD/JPY (+0.13% to 157.77): USD/JPY Strengthens on Inflation Fears. The USD/JPY pair rose as traders took on board strong inflation data from Japan, which led to a strengthening of the yen. This move was also influenced by concerns about the US jobs report, which may impact the dollar's value. The yen's resilience was also seen as a response to Japan's Prime Minister's comments on boosting confidence in the currency.\nCrude Oil (-2.34% to 90.7): Crude Oil Plunges Amid Global Supply Concerns. Crude oil fell 2.34% to 90.7 as traders watched for potential releases of emergency oil and diesel reserves by G7 nations, citing concerns about global supply risks. [17] [18] [19]\nGold (-0.96% to 4161.8): Gold Falls Despite Positive Economic Indicators. Gold fell 0.96% to 4161.8 as traders weighed the mixed signals from the latest economic data. On one hand, the US economy's Q2 growth and rising PCE inflation in August suggested a strengthening economy, which could boost gold prices. On the other hand, the monthly decline in gold prices and the recent rise in gold prices after cooler inflation data may have led to a cautious approach by traders, resulting in the price drop. No clear catalyst appeared in the news, but the mixed signals may have contributed to the move.\n\nAlso worth knowing:\n- Traders pare Fed rate-hike bets after September jobs miss, leading to a rally in stocks.\n- The US economy added just 29,000 jobs last month and the unemployment rate ticked up to 4.2%, leading to a decline in Treasury yields.\n- A soft jobs report boosted market bets that the Fed will skip October's rate hike, leading to a rally in stocks.",
   "moves": {
     "S&P 500": {
-      "last": 7647.15,
-      "change": -4.39,
-      "pct": -0.06
+      "last": 7723.76,
+      "change": 57.31,
+      "pct": 0.75
     },
     "Nasdaq": {
-      "last": 26827.77,
-      "change": -33.29,
-      "pct": -0.12
+      "last": 27216.14,
+      "change": 344.54,
+      "pct": 1.28
     },
     "10-Year Yield": {
-      "last": 5.24,
-      "change": -0.05,
-      "pct": -1.02
+      "last": 5.26,
+      "change": 0.03,
+      "pct": 0.52
     },
     "USD/JPY": {
-      "last": 157.71,
-      "change": 0.3,
-      "pct": 0.19
+      "last": 157.77,
+      "change": 0.21,
+      "pct": 0.13
     },
     "Crude Oil": {
-      "last": 92.17,
-      "change": 1.75,
-      "pct": 1.94
+      "last": 90.7,
+      "change": -2.17,
+      "pct": -2.34
     },
     "Gold": {
-      "last": 4191.8,
-      "change": 5.1,
-      "pct": 0.12
+      "last": 4161.8,
+      "change": -40.5,
+      "pct": -0.96
     }
   },
   "sources": [
     {
       "n": 1,
+      "title": "Futures Rise, S&P 500 Finds Key Support; Micron Crushes Views",
+      "source": "Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWVoyZktSa2ZJN09IQ3NzVV9jbXduR01hWXR5SUl0V2FDMllQdjFfQ0h0Z2s5ZGFWSEtQMjktT0N0eVNqbzJYODRVVXJRZFI0M04zWUF5RGxya1FzR3VJN3Q1ZXhMLWlEVzQ2cE94Zm4tSnVaNjlnb1hzM2YwRTA5ZEFMOVVSZmhnYmc1bmx2VklsaGkwVXA5ZXpTSVJkck5YLUFkZHJ6TlFmYnNIeDNoZWpTVXM?oc=5",
+      "snippet": "Investor's Business Daily",
+      "published": "2026-10-01T12:16:00+00:00"
+    },
+    {
+      "n": 2,
       "title": "Stock market today: Dow, S&P 500, Nasdaq fall as fresh manufacturing spurs cost pressure worries",
       "source": "finance.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUW1SdnZIaGtFb1lNWHNpaXFsQ0gyUVhIZ3djcEV2YzlCVExrcFNhMG9ObXZQZDgxQk1ReVd6TGhaY2hUbmhLQ2xMSUx5S2lyYi15dXEtd2hkR2I0Yy1kdFVvQXZNeUl4cTlJZ1NkdzlHWkxhMXMwaVZEcE9DMVcwVnItcXRIOExzenBEeEFMc1NSa1NnUFk5T0xpWm9KaE45Ni1vMTVkdEk?oc=5",
@@ -147,52 +155,44 @@
       "published": "2026-10-01T14:34:40+00:00"
     },
     {
-      "n": 2,
-      "title": "Stock market today: Dow, S&P 500, Nasdaq slip as US-Iran tensions resurface, Treasury yields jump",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYmhMSnFQakVTNE5EWUd5ejV4V2M2RTV3VkY5TzhmbjBkUy10Yjh0bDZjRWFja3RUVVBXQXg4MTR6TEtfSjJXZFp6UDVPcVRhUjdUOUpWaXRGMmRQY19uQzQwbGI0dTRfLWFJRFhxbkxoOExmM1JJOUlKUzBZN1NTR3B3ZHY1VHEyVER6alhLVkxQY1lrVUIxVmJaT25CWU5md2pGaEtjeWgzOEE0S2Fv?oc=5",
-      "snippet": "Yahoo Finance Stock Market Today: Dow, S&P 500 and Nasdaq drop as tech stocks slide and Treasury yields jump MarketWatch Stock Market Today: Indexes Decline After Winning Week as Oil Prices, Treasury Yields Jump; AI-Tied Stocks Fall investopedia.com",
-      "published": "2026-09-28T17:41:05+00:00"
-    },
-    {
       "n": 3,
-      "title": "Stocks fall to start the week as Treasury yields rise once again: Live updates",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfcHBSWXRJblRwTG9LU2FTa2padU81clRCNUE5aVFMSHRsMEVXNWVKd1RINFM2VjhCSFNyOUVEVTBFTkgxeG5NSVBPWXZnWkE5Zi1fWTE1c042R2diaGNaUG52Qm1Zbjc5TVlSdTRWRlFKQ21laXJF0gF8QVVfeXFMUF9sSmc0eVlfc0psUWhFVUc3WVNwWFZlSldzSUtXamRDd0VKQTRqRjMxSWNGSEdTZDJBWEVtS0JkVThUV1I5cVFCNHV4UjZxQVcwR09qRnRRVHBFeTR6Qk84WEY5Y05vZlNZNU5NQnYxV0ZTSlJsSi1VNkQtVw?oc=5",
-      "snippet": "CNBC Stock market today: Dow, S&P 500, Nasdaq slip as US-Iran tensions resurface, Treasury yields jump Yahoo Finance S&P 500 Falls as Inflation Worry Lifts Bond Yields: Markets Wrap Bloomberg.com",
-      "published": "2026-09-28T17:24:53+00:00"
+      "title": "Dow jumps 400 points after weak jobs data sends yields tumbling: Live updates",
+      "source": "cnbc.com",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JVkxRTDJXTzczbVFZVDBDb3NJTmZjRW1TdzVVeUFUbkFVV0RKMDdxSDVtb2ZOU2R1NzFqT2kwem9MOTRsbUdZTUZ2a3ctYXNRN2lWYXdycU10YVBIdVk3a2VVa3FrMjlUZjVHOUVDZ3BPTGFNOGZKQ9IBfkFVX3lxTE1GWVluaGw5M2xYLV9aZ0dYX19YSDJxNXlYcFdLakUwQ3FYSTFDQnJkNWlNUGFGSDRjZXcwWDR3NFllbXg5UzA1V1BWYlgwYlVaYTZFRHB0ZWRIeHp5akduM3RlMnR3TTFBR3RoZjh0SmtnSDVtM2s1OVZENVU2Zw?oc=5",
+      "snippet": "cnbc.com Stock market today: Dow, S&P 500, Nasdaq stage comeback as Treasury yields fall, chip stocks gain Yahoo Finance Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end slightly higher as semiconductor stocks rally; Treasury yields ease after 10-year rate climbed to highest since 2002 Mark",
+      "published": "2026-10-02T13:03:04+00:00"
     },
     {
       "n": 4,
-      "title": "S&P 500 declines to kick off October as yields surge, Micron falls post earnings: Live updates",
-      "source": "cnbc.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93ZklidXJsMkhSOG1wdXNvSzlyV0pLZmFBcnd2WWdmQXhFSmxVYzVkM1lkeHI0d3pyQmxIZFBwSXBjeFctMHNGMUh5ZTNZT2RDTjF4RmFIamxETFZHdWpNRlVnSGhWQkY2Z1M4alRPV29IMXlnamVj0gF8QVVfeXFMTU13b1AxdktDTlg5TjFGdE1HTGhmU1kzOXlZWGhLN1pMLVZuLTR4WTRFME55ell3VjhhZEh1Y0JoUE8zejFxZHlLaDIxY25LcFFrQnVPWDlEU0d6TmlRUWpXMnRuTzAxQ0dleFIyM3FrR1RhMlAzSDVFSzFTaQ?oc=5",
-      "snippet": "cnbc.com",
-      "published": "2026-10-01T16:09:34+00:00"
+      "title": "Stock Market Today: Dow, S&P 500 and Nasdaq trade down as oil prices rise; Treasury yields ease after 10-year rate climbed to highest since 2002",
+      "source": "MarketWatch",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUl9pTG5Pemw3V3F4RERvTk5OUWJfZkJWLVhsdVRsMVZ5NUJPWWdidGY4Ul8wWGVmVVYwaEMycnZCemhJS3FFWW8yM0xMaUdleEtXWHRzS0QxcWRXVkZXbHA2Nk9qV3lSV2MzYzNjT2xWbTYtdDdfQWh5bEhfUzJJZFV4YVZWR01DTnZtNkdPNDBwMkw2TWE4UWZrM3J5SVA4ZU1INDNTV21BN29RcS1fLXplU2Q2WThZSzNaSTFmWWN3UXk0RWFjcWFyOGl2WjA?oc=5",
+      "snippet": "MarketWatch",
+      "published": "2026-10-01T16:55:00+00:00"
     },
     {
       "n": 5,
-      "title": "Nasdaq Composite Holds 26,838 as Tech Stocks Lift Opening Session; S&P 500 Flat, Dow Falls 0.13%",
-      "source": "HDFC Sky",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOY3hWQkhlRnU0RFJ5MFltd2phakFhZ3o1YWl3TUZKM3hKbE92MzBoRUg2a3QwNEhmWFZiUDQ1SWlLb3NYZGZhaUs3OVNSZmFzanZmbXhFenJlQVdWWFZ1Ulo4dldrNjl4MEVYTXFOd1g3NjZJQWp2UENOV0dHU2FCeUdveldaSl82aEJjZ2JFTHRDLU1oWWJ4ZENKdDROOHEzZTZjajVvQ2N1bmRDdE9uLWtzVExwMXBzNGVKaXEza28?oc=5",
-      "snippet": "HDFC Sky",
-      "published": "2026-09-29T15:36:56+00:00"
+      "title": "Stock Market Today: Dow edges higher, S&P 500 and Nasdaq gain as tech stocks jump, yields steady and PCE inflation data comes in cooler than expected",
+      "source": "MarketWatch",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVkk1aS0tLXAwbzZ6cFdMTTIxeFA5WDRTSlplVXpZNmd0eEc0WFNfSkFiVFJPdkxtZ3VjNU9WTnQtOElMWXRXLWk2THpBdWdsak4zTmRZeFpabjBkNjJua1poNE9MY2pSV3NxZmtRNEhMZUQ0clA3cFhEZEt0UUIyb25FVWlGNnZJQkhPamlFVC16Q2x5OHFFM1Etc1hkWFUyVTBrTE5ybldXUkFWcURINnl3eVkxSk1nM0VNMHNiU1hNQTA?oc=5",
+      "snippet": "MarketWatch",
+      "published": "2026-09-30T15:03:00+00:00"
     },
     {
       "n": 6,
-      "title": "Stock Market Today: Dow Dips As Consumer Confidence Falls; Nvidia Shares Hit This Buy Point (Live Coverage)",
-      "source": "Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMEVEUzBzSXJ3WXNSaFJKcHkwdUxSV0lYX2s0M0lTSXRNcDZUeF8xcEV4MC1Zd0IyT2hhQThDTTFoV0M2QlU0d19uQVcteXV6T0tSNVpjR0x2aTN4enNDZFZPVDJMdi1nNFFrSll5U0NKT054ajZlTW9fXzlUMlAwanF6YTV4bUtOV09LRnQ1OWN1NTF0MUVNWmxZbmR2aWJnOENiSEJVNTQtU3RfalNKSy1ZTTVLbG9teVBHeVVHTlRKVWlDc1ZsSHhuaE8wS25OZGhOdnh2TQ?oc=5",
-      "snippet": "Investor's Business Daily",
-      "published": "2026-09-29T15:12:00+00:00"
+      "title": "Tech stocks support Wall Street as pressure from rising bond yields rattles markets worldwide",
+      "source": "BNN Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQWnJSdk9NYWJlMXZnbnRvY3pjc096TGlXb2UzNTRYT2JTams4d2RLZVJDTDJQa2xYSTRFUmtHc3Z1MzBNdHVtd2ZsVmZKRzJJMGh3Tlh6V25XS09sTEdDR1hQMlBTeFZaWGl6UjdNeDM4d2xFTWtocDcyY0dJa0JIeTUwOFlkT2Y1Q2NqQlR6LTQ2VHkzVDg1Z3Z5WldzS2tXLTBRR3E0UXVqeDJrbkMzV1g0U3A3YkJPSDRzSGFfSUo1eHRNUGRQbW50MGdwRmE2VXYzaFVfd1k?oc=5",
+      "snippet": "BNN Bloomberg",
+      "published": "2026-10-01T14:18:34+00:00"
     },
     {
       "n": 7,
-      "title": "Treasury Yields Fall on Softer-Than-Expected Inflation",
-      "source": "Barron's",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSVJ3RGhnTG5CSjVLTEM0S3prMHk5SlNRbjRGTmlvMmt6MXJvTjRPRmtwNWxnNG1CajVHRUxONUpIdFNKbDJmWEctZW5kV2g0T1pLbWJiUXJtbGxxUTE1TWxJbHM0SXVtUHlObXQ4YnZqZjg5RndHV1ZUR0x3WUhjei12NnNLNUZGX3hadHJyQk9jWjlNVzd5cUVST0YwTGlKQWhWVE5NMmgwa0sxQ2pSeXlid3pqd3VWWlhjcWp1ajlLeHV2ZFFpZTBMV2JtN1pxTXJKazlqX1Qzb1ZpamoxbWpCYndaMTVQQ1lUM0FLUHNNQjUz?oc=5",
-      "snippet": "Barron's",
-      "published": "2026-09-30T13:07:00+00:00"
+      "title": "Gains for tech stocks shore up Wall Street even as pressure continues from high bond yields",
+      "source": "BNN Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSXlWRWlrX1NUZFlGRHN0SzRmOFRPV1JsWmJBcmF6aEtxeEMtYXEtT25zN2xSVW93NmdsYUoxR0pSTnB2VEhBZ0V2cEFoVHl4Vl9SZk0zd2s1YXJIWFRRWFRGZ2duRW9INFFRbnhNNG01SmYxbjFCMl9tVjhMLXRwYWRIemJZVWZhQ0xSS1o0LXlUZUFiZjV3N0tUWGRUaUpQblQ3UXlYaS0xWlk5RnZ5T3JFcGdsUllNU05SN1NxbUNjYU5CV3dDc21TYmVWdl9UZFRRbTJ3?oc=5",
+      "snippet": "BNN Bloomberg",
+      "published": "2026-10-01T13:47:27+00:00"
     },
     {
       "n": 8,
@@ -204,14 +204,38 @@
     },
     {
       "n": 9,
-      "title": "Stocks waver as oil prices fall, bond yields stabilize: AlphaCheck",
-      "source": "finance.yahoo.com",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVlRxTW9NTExKWGZab253R2ptRkhLTllIalI0MkFSUXg3UEFoRDlNMVRyUENNRGs5R0ZSODZkNkFUYVJ6Z2lPMUh6dTNTcEZJbmtDOUxjeUhyV0doQ0d2d0ViYkVOTmFSdUNkUWV6TERSWTkyLWlLRG03cGMtT2hkU25MSDJuVlpqZ0VkTUp6R1pDdFBuM1g3d05WMW40OFNhMjRBRU05ZG9oa1FzYWVFZV9nMWRHTjdrVHNCVEtR?oc=5",
-      "snippet": "finance.yahoo.com",
-      "published": "2026-09-29T13:50:32+00:00"
+      "title": "10-year Treasury yield turns higher as traders look past inflation data, await jobs report",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GQlZiZlp1SF9QQThOeTVMdlZRdzFWWmJCQTNscjM0SXpCM1N0NnFqcEI4Uk5ZdVhyak5xQkplS0xseklzSVlNS3IzdUtvRXExNUNZcG1wYU5vVDA1LUlmeVNxdm5vbG5lYXpzQWhTdUFLNTlV0gF6QVVfeXFMTVpOSXVkYm1ua3ZWMy0tUFozWW1DM20zU3h3cExyR3lVckNPb240R1RYTFhJRUNPRkMtOU5pSmpPQTVRa1VYTmNYUnVBMTdpdURWQlJTeF84d1Rsc0xYS3VLZXF1SndfTzZHTXFMeTV2aGZ4X2J6SVlzUGc?oc=5",
+      "snippet": "CNBC US 30-Year Treasury Yield Rises to Highest Level Since 2002 Bloomberg.com Long-Term Treasury Yields Push Higher Despite Decline in Oil Prices WSJ",
+      "published": "2026-09-30T06:46:19+00:00"
     },
     {
       "n": 10,
+      "title": "Treasury yields climb to multi-decade highs",
+      "source": "Fox Business",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LOUR3QkFCamhzUlpYcjYzNWh3a2R1cGZ5REprdnhuR0V2eExyM09hOTlVRExod2o2UjE2U2EyZGRUQm11d0tPUlp0UFZCdjRZZlhiX3VRV2Nabk0?oc=5",
+      "snippet": "Fox Business",
+      "published": "2026-10-01T14:21:09+00:00"
+    },
+    {
+      "n": 11,
+      "title": "Counselor to the Treasury Secretary David Zervos on elevated bond yields",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZFRaNzloZVU1VzVJSUU3dTlyZkFIYmZYTVhPQi1wQjRENHJCQXM3Z2NNenpSMjVsYkVyVDMyay1kX1hzdWwwRXNpXzRxaWwxSDR6eUl4VEZYcWF5M1RsSkhCZlFHTFNXLS0ydkZObVJIUm1RWlFkNDFOWUt0c09ReGJOQlk0S2hjSUdRS2x3RTdGVU9adWtzLTVobzNtekI4TzAwTVBPTHlmZlo4bkgxSnpHaFEwdw?oc=5",
+      "snippet": "CNBC",
+      "published": "2026-09-30T15:40:20+00:00"
+    },
+    {
+      "n": 12,
+      "title": "Japanese yen firms on strong inflation, dollar muted before payrolls test",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdkRsbS1ZRnFSWld1enI1LWR3d2FnX0taR2ZUTTJtNVBGX0NBU1g2LTZWWU02a0YwQ1YwMngzbW5hUXhQVExpcGtMaU4waU9BbUU1VVdOOUQ3OGRaRkNLWU5ZaGo5V0JQZW8xNEVncmJ2TlM3d0FuSlA0ZE1RYWpaaHNiWldXWlB5dTQwTlZpQVR6Q3BHTkdNNnRyQTF4RVlBMkVmcERtTQ?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-02T04:06:00+00:00"
+    },
+    {
+      "n": 13,
       "title": "Yen Strengthens Past 157 Per Dollar, Outperforming G-10 Peers: JPY/USD",
       "source": "Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMHJwbTJwSzgzVDFaelEyck14dlFhNkF3MXpoQUJ3VEhlcXZ2bXBvMUw1ajdBSV9kQzVNNGY4WEc0TGUxRWVFNDBsSk5DYVdELUdNa2tETERRTW5XanR3WGQ1b0kwQVBzQTRIZUNzcDkxN3Vsdlc5d2xDSDVySlFWTE5CR2pObUZYX0N3MkxoNzhDS0VaWHZJc1ZvejRTZDQzY3AzMURmX3VhVEZ4bnNtYQ?oc=5",
@@ -219,7 +243,7 @@
       "published": "2026-09-30T06:51:00+00:00"
     },
     {
-      "n": 11,
+      "n": 14,
       "title": "Japan's prime minister says her policies will boost confidence in the yen after U.S. intervention falls short",
       "source": "cnbc.com",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2emk0SXljaHRlYmpuU2hMUWNGanhZblE5ZjJaTl82cmZ2RGttVWpxVjRiRjZBQUtuZjloSHNOR1FtR05fQlUtbjFNN3RtMVBSUW1mTlU1cTljMUFXeklrVTF2NGhZNDFycXNxYVlkelVaUDY5YkxiekE0WXLSAYIBQVVfeXFMTlgyZXM0ekZBRjh6WlJwUjZaMUZxMzZyRHU5WVZxUlZRQ3BFaVdpb3dUNm9Bb3RQaUlmb01QQnllbTgxSjZBUXN3UWctVURhU2Y0eU1pVlJtZUw1LVRIdVZmclZpVkUyT1phZXBkcXExTDB6MWZoR0Jzd084ellTMDNfZw?oc=5",
@@ -227,68 +251,44 @@
       "published": "2026-10-01T11:13:25+00:00"
     },
     {
-      "n": 12,
-      "title": "Japanese Yen recovers as intervention risk offsets US Dollar strength",
-      "source": "FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY0k2eWotcld1cGVrWDVDZk00TzM3MV9LNHd3eVRPRERiTEpSOXJfMTRwZ1lIRDVhWFIxUmsxTzJ3dDhfT0xaMW1VeTNULXBMNDkxR3lNUkhiRnNvamw4QmpfZFJSeUZwRGhKeXVPdldvUzFId21LeXNadUdqS2g2VlZ0ZkJWWS1yN29WVkpIbW5CWGxiZ3pSbmVIbkZCMmVyeEdjd3ROTHdGXzUwU0phUE5R?oc=5",
-      "snippet": "FXStreet",
-      "published": "2026-10-01T16:09:22+00:00"
-    },
-    {
-      "n": 13,
-      "title": "Dollar Pushes Higher Vs Yen as Policy Risks Collide",
-      "source": "TradingPedia",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNREEwaDdvYnpNRVBzaU53dkdkNmFTbl9jSGN0RzRnMzhfbXhKMWo4bTF3azgzRHU1SDZNcjlEcmw2R1lSaXJ0RVhOS2d4eDhsTW0yZXdxYlJ4cXFCN3FTM29nYzFoTUhJQVVLSnZrcFM0T0hTdXh4Zm9XVFJfOGtxMjRNdzgzQnZSdVZ6a0Q0WTN2MkRDVFFB?oc=5",
-      "snippet": "TradingPedia",
-      "published": "2026-09-29T06:42:58+00:00"
-    },
-    {
-      "n": 14,
-      "title": "Oil prices rise $3 as China suspends fuel exports",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcGNFYVVqQ0xkMTkyblJkMU5mMnJ6Y1RhTEhBWjJyWEhDaXdCVzg3aF9pWTFYdVkyN3d5WmpIRDdHQ283dUJhVlV4WTJzSEMwTy1uZkhwS2NNNndEZlhJY2lGTHgtRng1TjQ0XzRWdUNnUjRPQ2ZoaDg2UlJ1cTgtRGZHbTNVcUVFenI1SlIxREdDbWJJX25kWFY2ZWxxVzRyOFl3SGZzbjZUWEk2NklWOUR2UzEwanpPSzU1TnJyXzVveDRoX2c?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-01T01:10:00+00:00"
-    },
-    {
       "n": 15,
+      "title": "Japanese Yen quickly surrenders gains despite weak US NFP",
+      "source": "FXStreet",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRXdRbEFrOE56NjVuS0lMRzZBY0RvMDhuQWtTQU9wdnZLeW1VMEVuaUE0MEFvLXFwZExZbkV4MGVKb3RhUml5QXV3WnJvNzlTQVFQX0FlVHBmV1NwUkxGa3hXMXZVWm9fMWhhOUZEckxsd2JSdkM2RVl3aG9aajlrQzZ2Mm9rOGFGRW44U0l6QXB4cGVtUkJzS29CVzVRWU9WZmZmYjFVMl9KZkpH?oc=5",
+      "snippet": "FXStreet",
+      "published": "2026-10-02T14:31:54+00:00"
+    },
+    {
+      "n": 16,
+      "title": "Oil Prices Fall as Middle East Crude Exports Recover But Shipping Risks Remain",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdnBHZHk3blRobW1RR1dhMnZOcjBhNHhXN3ZWZHdpMVpkTHRiU1dSN1c0TjVEUWxPVDFacG84LXc5aDEwQkNhWF9JUjVZTTNaTG5Rb3JBNUVoa1ZvVjhEajBxdlBVTWYzTXl2X1I2TGllakdEQkNNcGt1UzZDaUZnbkprMENuVkpZMWlfYmhCUDI1bjhEc291U25Mc0R0TFpzVlQzMkZOZGVZTldLUWFHMVJ5VGN6RG1Jal9qNXF1MHZ3QzUwc2c?oc=5",
+      "snippet": "WSJ",
+      "published": "2026-10-02T13:35:00+00:00"
+    },
+    {
+      "n": 17,
+      "title": "Oil prices fall on report of potential diesel, crude stock release; Brent back below $100",
+      "source": "cnbc.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVTUyNzJqcnoxNnd5aFVZYzNMbmVzR0pvZW11eXBHUlhWX1NyZ1JKZ3JrZjN2NWdxQVVmSzN6cnd5dVhJWlk2cmxjZkRfWkRBTDZNeHNSYmlKZ05LMVRLQXFSZWdxVVFFLUFDWU5tUkZZSFdoR2hXMnVKQmJJV25TSzd5eUvSAYoBQVVfeXFMTkRoQTgtdG5Mc3pnWjduNVhrNWhYN0YyckxTdm1WN25zSVBQLUZtZUpVc0pTazlLRlZEeWZsZElBZHpXa3NVeG5Iemk0eEFXYmVTSktkMHVqQk90Q0tLWkdIMXpIcmp2RWNucm02RXVFZjZ0TklHcmtUVURTVmNlV2xlMFI0c2duVGxR?oc=5",
+      "snippet": "cnbc.com Crude Oil Prices Tumble as G7 Nations Release Crude and Diesel Reserves Barchart.com G7 to release up to 100m barrels of emergency oil and diesel reserves The Guardian",
+      "published": "2026-10-02T08:37:15+00:00"
+    },
+    {
+      "n": 18,
+      "title": "Oil price drops more than $3 on talks over diesel, crude stock releases",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOXpYZTJja0psbGRJRU5abXZNZkotREVPN2VKY2lEb2VRaHR0dGZVZ0dKdXFVYnFtc29aa1RRdTN2bEtBUEdxd0MwZkJEeDRiNjlzUURWSHZzTjFKZ2tSM0dqb2NEVGI2QkctaWE1WHpoMUpDb0Y2UlhFUmFFbGc2SXh1UTZ1ZFVXRTV2UHlVUjdNWDQ?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-02T13:23:36+00:00"
+    },
+    {
+      "n": 19,
       "title": "Oil prices rise as Chinese refiners reportedly ban October fuel exports; Brent crude near $100",
       "source": "cnbc.com",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yODZYTkUzZ09LMVducjBvQ1czQUc2WFdZNmVuUUpDVnpZMEJfMGhpWkkzQlRLUGprcDNielYycW8xYU5peDhhcy1pbzNJUVo1YkV0MjktUVliQ3NTc1ZNOXpDSUtubXZIYnBGOS04NDTSAXZBVV95cUxOQU83cmR3ZHl6YWl1V2RNcFRXbzJqRkFKZktLMkVobTBKMGxibmxDcEQwWjFqdXFQcFozSUVpVUhvZF85SDNCQzZxVk42RjdTWXdWcXd6SkNmWWlLVy1iT0l0NHlRUHNJOG5UZEQ5NlhoMHNmWnVB?oc=5",
       "snippet": "cnbc.com",
       "published": "2026-10-01T05:17:12+00:00"
-    },
-    {
-      "n": 16,
-      "title": "Oil prices rise amid Chinese fuel export uncertainty, Middle East shipping risks",
-      "source": "Oil & Gas Journal",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOR1BZdW5rcTRhZ2lJM0MwLVJUZ3lHTUxiVEFRREhwMHkxaUFrcTVwQS1BQzVDM3B6VGlhMmJDMDBTM1pkSi1YM2Mya1BjNFV1c3Jpa00xZ2k3YVhkME5IWEZYUUYtT08yck91US1GQS0zd3VYV2pTSVdnZWxScl9zUktPQU5EYXNLb29ySHo2R0Z4NjRya2wyS1BxaVJqWGR5QVY3SEF2cURkMkIySl82anBZM2dqa01kNGoxNU5MLUtWTjVKb05XdjVhalRwUFBEOWU1THlMWER2RTB2OGRuX09n?oc=5",
-      "snippet": "Oil & Gas Journal",
-      "published": "2026-10-01T16:21:49+00:00"
-    },
-    {
-      "n": 17,
-      "title": "Oil Prices Reverse Gains as Gulf Crude Exports Recover",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ1UwdjZ0Qk53aGpUZnhLRG93OE5SRm9idmd2VDJuMmJhRS1KaC1WTGMxWUQ0bVk5OW5RNXZ5V29sZmJIcEg5UWs2ZjA4RTNacjIwalpnaVhhVE54Zl9HVXNkajROUWVQTFZwR1E0VGZSU0xwVGRzTlRBdzBxZEI3aHZueUxEQXJpNUY1UFlaRG53RXhZTkd2ZV93NWxDdzVI?oc=5",
-      "snippet": "WSJ Oil prices surge after Trump rejects Iran’s plan to reopen Strait of Hormuz Al Jazeera Iran Talks Take the Heat Out of the Oil Rally Crude Oil Prices Today | OilPrice.com",
-      "published": "2026-09-29T13:33:47+00:00"
-    },
-    {
-      "n": 18,
-      "title": "Gold price rockets to session highs as US economy rises 2.2% in Q2, PCE inflation rises 0.2% in August",
-      "source": "kitco.com",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaDhNaGdLUHVaVmhwUjUzUVA5UTRibDYwbEVEU0wtc3N2NzlObTNzYlZlZVRFSXBQZDliNTZvMU9ZNjRoSWp5LWswY0hKU05tNURON0R1VnZRQmtzR29wdFAzRmhocHE4OGlJcFk3WFVhcFliRVphV3d0bG1YaDh3SUhiWEhiMnAtUUdvX2RyU09uazJPWjMyaXBiRmtqR3otaF9xQ09STTY2STh2NXBFeEJmamlOOGMtNG1TejRB?oc=5",
-      "snippet": "kitco.com",
-      "published": "2026-09-30T09:30:00+00:00"
-    },
-    {
-      "n": 19,
-      "title": "Gold rises after cooler inflation data, but monthly decline looms",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTld2SXpINElrMTRxSGliajBqR3dqcC1fQkJZNTVJb3JLVEI2aWxRVXRzclZBbGtoclctUVkxZ0t2VjdtRmpjRlhHMUp2Q1c2Nm9qb01HX1ZKZnRuNk5ETWVoaHU0VFVuU3JZMUZIZXVKT1ozMTc0VHM0emdJOVJJTHZrRGZPUkJhbFRZTGFhZUlNTlFqbGhhSENMRDhJcUxxUHlGR29ocWdjeGFo?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-09-30T13:23:05+00:00"
     },
     {
       "n": 20,
@@ -300,139 +300,172 @@
     },
     {
       "n": 21,
-      "title": "Global cash crisis and gold prices reaching new heights? Baba Vanga's 2027 prophecy predicts prices could cross...",
-      "source": "WION",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRjlvaWpRSHBOOFZ5bU5LR0trRmVjeld2RFB6M0hvZ2EwbnprSU1NeXlQTl92dGU2aDhub3NZZkprN3FMVFExMDRyX1FrSUxLbFJEZGZ2YTdoQmgzRGs4SDdEenlxcnI3V0NGQ3VsRUpKOVNuUzd5NzhpM3MyUDNHakk1SWlmZVVkWExxdE93N3FjaU45eTI0Snl0OVkzWW00ZFgySTUxLXBVRjdJT1M4ZFhrQUwycUFZdGFtNFlDY2hEQks0djU3TmI3ejExa1d6bEozbHY1X001TlBNdXdBZ25fUUZZTll3U2RuZGZ4OWLSAfYBQVVfeXFMT2ZmTUFUMmEtc1lkTUpBeTZzUmh1bURZdlljTkktWmNwdDM4R2NnZjNfT3p6alAwMEw5NElFTU5OMHM3TmpYX21BMGtNYVZQb2Vfb1poQ0lvNkVNanViYkhPRV84cUFpTGpBOWpqbzk2dUQ2UzZBMWw1c0Jpa1RqWWpFYjNORDI0RzBRaHd4MGVTX2Vibld0ZnZUMHZ3QzdqZGFqeTZrNG9VTnFlOXhReDRaZjlMNFpDVGRQUGtZM0E2bGNtTjRweklTemxNbDRfMVFqbHJFbnNlMVlIdXFPY0ltZG5Ud2swMjROSFNEU00zVUJmSzF3?oc=5",
-      "snippet": "WION",
-      "published": "2026-09-30T09:16:00+00:00"
+      "title": "Gold rises after cooler inflation data, but monthly decline looms",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTld2SXpINElrMTRxSGliajBqR3dqcC1fQkJZNTVJb3JLVEI2aWxRVXRzclZBbGtoclctUVkxZ0t2VjdtRmpjRlhHMUp2Q1c2Nm9qb01HX1ZKZnRuNk5ETWVoaHU0VFVuU3JZMUZIZXVKT1ozMTc0VHM0emdJOVJJTHZrRGZPUkJhbFRZTGFhZUlNTlFqbGhhSENMRDhJcUxxUHlGR29ocWdjeGFo?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-09-30T13:23:05+00:00"
     },
     {
       "n": 22,
-      "title": "Stock Market Today: Nasdaq 100 Futures Gain, Dow Jones Drops as Iran Receives US Proposal To Restore Ceas",
-      "source": "benzinga.com",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOeld4LU0xa2JpVDF2N0p3VWpoV3lLOFJQYXhZVFpoZEsxemJwdHdaY1N0VmZHZDk2YmZSTzZpX3VWSFlxT1hPV2xxVmxJSFkxQ2lGcnN4SFVZRWdhT19nX200Qjh2ZlV5cFVHWHpQb2RJRDVaQTFET2N2eUpxM0JjOGxOZmFxd0x4cVhZVFZfREVmcVpHTy1vZFU1UUYtSjJwWmZmMmZpQmJBLWpzNEE4N0NSWTY5aHpwSHhoQkZST1JCQ0RTUU9SdE9TS0lLTmVOMTdmUFhfNV9NZXdBb0JGYk9paDFJOEMtZEJIT1h4RWc3cXhveFpCT3Y5bFBzTXBrUTQ4Z0ZLR1B3N2lvREhWR3R3Yng?oc=5",
-      "snippet": "benzinga.com",
-      "published": "2026-10-01T09:13:17+00:00"
+      "title": "Gold gets its festive shine back as lower prices lure Asian buyers",
+      "source": "The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMEdQdkViNkVLMDA5V0xEQTltZy1SZktpbUp5aUZGV1Z5em14dXo0MkxMdl9mVzlZNDA3UU5TVnd0SlBSc2hGclJmcUtua0h0VnpqLUVxb0tNVjVEMzdJM0lLVnJEUzQ2VmFLdFJ5ZkExenNJa2szcjRHUWlNbjZUUTdFd250QmFyUU9wMmt1ZFFNMUx2dnRjaGRYUUNqb2J1OFRvbmxXSnY5cWMyNk9SMHF5WHdRcXBlQVVTd1JkZnVjekpLMG40aEJLemRsMmFicEhySkt1ZnlXN3lVY2RSeTJiTVpPVlRWczBfT0FNeEhWQdIB9wFBVV95cUxQQ2I5bjlTeHFQbzdLZXBxa3hudkFvTHJoQXAyMG5ramEtSmZacDNyQnhpMnRiRzJSdHV0TENfYkc3b3ZaYzdxOUtwTVhDVWJpY0dDVXhHbWpyNm9vTEt5YzNjZWE4LUNQR3JWMnNzOU1xMS1VQldVOWdRTHBIdUJsTGZZanBOR0g4RmRLMkExVWVMV1BfWHNEdDl2YTlaRk5hbHpHbWhLazBkbWF3T3lPOUYxNlh1em12T3JzbE1wX19xaDFLZlJVOGJZdWx3SGhtbVdlWHgyX2Nad2pjdURBaFlFY1RBRnZWRWowU0NnNUN1ZjlCNVFz?oc=5",
+      "snippet": "The Times of India",
+      "published": "2026-10-02T08:10:00+00:00"
     },
     {
       "n": 23,
-      "title": "S&P 500 alarm bells are starting to go off",
-      "source": "finance.yahoo.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVVp5WjR2aXJHZWdMMEFVVXNYYmVQNmdvVzh1elJUVXY2UVlBcmlKMFhOZGRoSE1IWXVBSHBwbUl3VHFBUXJIWE1EQnMxSGJyWmVtTHYybFhXUkVwUTNpRkZzNmJaMWZiZFBTY1cwYVV4SlExRHBtWVduakFfSE5wTlVEUWVMZDlWTkU4WmFidjg5ZjRsUGhCYy1LOGREb3c?oc=5",
-      "snippet": "finance.yahoo.com",
-      "published": "2026-10-01T09:26:05+00:00"
+      "title": "Gold price rockets to session highs as US economy rises 2.2% in Q2, PCE inflation rises 0.2% in August",
+      "source": "kitco.com",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaDhNaGdLUHVaVmhwUjUzUVA5UTRibDYwbEVEU0wtc3N2NzlObTNzYlZlZVRFSXBQZDliNTZvMU9ZNjRoSWp5LWswY0hKU05tNURON0R1VnZRQmtzR29wdFAzRmhocHE4OGlJcFk3WFVhcFliRVphV3d0bG1YaDh3SUhiWEhiMnAtUUdvX2RyU09uazJPWjMyaXBiRmtqR3otaF9xQ09STTY2STh2NXBFeEJmamlOOGMtNG1TejRB?oc=5",
+      "snippet": "kitco.com",
+      "published": "2026-09-30T09:30:00+00:00"
     },
     {
       "n": 24,
-      "title": "The Dow's rough month, Micron's revenue surge, Google launches Gemini 4 and more in Morning Squawk",
-      "source": "cnbc.com",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOGFnNjZGZVBRYXlUV3ZVVmZ1N2F5VFE0cXB6UTgzLWkwemVzT1lkQ0VjTU5KY1VJLVhSTUtiWjZ6LU9vd1prbk9JS0JUOVpLMnVNZVhrMjlIcDJOOHM5RExCdFdreFYwM2JXX0x1X0s1MVU1Tm9uODB0QmVTV2FYTnhMMmt3WW9Rbk9R0gGQAUFVX3lxTE5HZ2NPQ2FPZnpOU3QxVWd3bFdscGpvYWl0U2dLb0t2aTFqSks5LXJSY1Qtblkwbkc3dG8yTW5VdjFVMVlheDJEXzZhbFBPRXFuUkstZlBjSHZkU185WFNpdWlEU3BlTXdCeHlES0xsMVQyTXdhTmJWaC1lMmM2TUFpaXVvZ3FXbjRha19sd2hpbg?oc=5",
-      "snippet": "cnbc.com",
-      "published": "2026-10-01T12:30:56+00:00"
+      "title": "Stock market today: Dow, S&P 500, Nasdaq jump as traders pare Fed rate-hike bets after September jobs miss",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTW4zeUoxak9vX3NlMFVEZWE1U2ZxZFE4VUFRX1FTRWI2T004aUZWZWw2b0FnZlJUTnZ1UEtpeVNfczhIaS1FcElOUVJxb2tRSWFyd3Y0U0xJMjgzMW1YUlplQ09nemhSaHhPMy1WdDVnZFpZbkMycEpYN1hYLXNybkxfR1pIRU85VENnSlRnNllSQ3pUX090d2lkR3gxcVAxdk81ZGRHT05LSk9CRUJBbE9WRTJHcW91UDVySWZyMkRvMG9VaFZxbA?oc=5",
+      "snippet": "Yahoo Finance Stock Market Today: Nasdaq flirts with new record and Dow and S&P rise as stocks rally after soft jobs report; Treasury yields fall MarketWatch Dow jumps 400 points after weak jobs data sends yields tumbling: Live updates cnbc.com",
+      "published": "2026-10-02T16:14:04+00:00"
     },
     {
       "n": 25,
-      "title": "Goldman Sachs pushes Fed rate hike forecast to December",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOXRTWE8yWkFyM2l6XzdNT3kzUTVZeFd3SEhmSjBYelk4WS1tU0Q1YnRVVUZOSklUcURKMU1XQzVfSUVRRGYxejlncXpwQ3ZWelVrTW9WNVZldHZ2bUxFUlozcmVObFQ1RzlKbEhsZFhFbzUzYjBqaWltQmRWSDRLUERCejNfczlyRTIwTkxPODB2XzdyX0FvM0JpWWpIUQ?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-01T03:51:00+00:00"
+      "title": "The US economy added just 29,000 jobs last month and the unemployment rate ticked up to 4.2%",
+      "source": "CNN",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjeTQxTnBZZHhGNHNiSkpVMFVuUWVsX1pLQU50TFRxNVB2eUtJUW1KN3dtVnFtdmN1ZHp5N25SMXMtbWJINnE5cE15WFg0a2FmZWg0RHpDUWhtby10bkJocmpzLWNjMTdpcm11N3dvZDBBRVJDaDdTVQ?oc=5",
+      "snippet": "CNN",
+      "published": "2026-10-02T09:00:45+00:00"
     },
     {
       "n": 26,
-      "title": "Federal Reserve Perspectives: Regional Insights on Rural Economic Conditions",
-      "source": "Forex Factory",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPekZ6dGRHNEp1LXdxN1ctMU53Q21BeERtZDktOXVOOHN1WUl1b25DX3ZORk4wTi1fbjVkWFhTT1dOOVZhd2gwM2l3NEZFU1lFNG0yZmdtVVdrQkdnM0xaZ1FacTRUOXIwbVo5VlQ5TUhONDlFbzdaMzFUSlRiVXNidEJGWEZlTElDM1dqc0ZjTG1oQ3lSZGhhdWRfSVdyRDZpVnMwZnZtZWpYZ9IBrwFBVV95cUxNcVh0MmlzM0dwT2pWRFZrdnFQNW41R0t3T1BsVTJ2SXlZRUpvNmZXS3BjcUV6SzFvTks2bXJteUZCWjMwdnlGSFN2cUxhOGhuTGJWOEduU2ZtTVZVNldDOGlQeE11OHNRU3ZXTDZlc280VEoxY2tTcXFTQ3EyMjFVa3Ytdk5GaFdVUS1rQTFlS1NISDBublA0c2dHVk5QZVpSaTcweS1tcGctV2haaTVJ?oc=5",
-      "snippet": "Forex Factory",
-      "published": "2026-10-01T12:06:00+00:00"
+      "title": "The jobs report, Nike's China conundrum, Burger King's franchise bet and more in Morning Squawk",
+      "source": "cnbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWNrSlJtUDgybDBSaXQ5RDhYdWxjT0dicXV1Zk56TDZCUlNZeWV3aUE4ckNIQmFSLVlvbGJmVHFuTVRfQlNsREhSSUl5TDlkLWpRRHNpLUhtdl9mT2JOOTE5eDdRdlY4YklvVVozWUdPYm9EOG9sRHhSVUhwaXlkaWpCUmUxYzhFOE4w0gGQAUFVX3lxTE9ZNXlCOXVMelhubnhjRk9ueGdFRWl2YlM1NjRFaVBkbkNQSll6bmJ4c3QzemFmM1JFVkdsaTQ2MU1zTllIcE00QnNLMlI0djlicGdWalZ5QUNfd2oyeXRmdU1uUXltMDBESU8xazFVcWxrRllxd0lSQ1JfcVRjcW9CZHNXRU9iWHEyZ09sNzZPYQ?oc=5",
+      "snippet": "cnbc.com",
+      "published": "2026-10-02T12:20:16+00:00"
     },
     {
       "n": 27,
-      "title": "Federal Reserve Economic Data launches tool to address risks, challenges from AI visits (AIEQ:NYSEARCA)",
-      "source": "Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNEp4a0xMYjNmSHFmRFhka05ud3lXcUJlYXhvY25wY2Q2UXJUVmhzbnZyalh3YjB1c05pWXBvLTQtM1RvbFZrZHVrekZrWE55TmQtUU9rWVNYdDVES2hnUDlwamlWN2pGeTNzWldUOU1YUjJ5MXBhdWNOSzBBNGtpdGdFY0VnVVhWSTVIaGRtY2djbURKSHBIMGo5dTdnTEI1S3htSjVqQWdIbFpRQVdnRGI1WDF1V3hRRzlvbjdOcDNSZw?oc=5",
-      "snippet": "Seeking Alpha",
-      "published": "2026-10-01T14:25:20+00:00"
+      "title": "US Stock Market Today: S&P 500 Futures Steady As Traders Weigh Global Factory Strength",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcHlXdWhLV01tRjhxcy1yaVhhT3hsZGxTLThwZkFHTEVXdnl4UlRFREJrR1JWOElSUnl4Q2x4Uk9kck9rVEpucHJJbkV2ME5yN2FKSnV5eEROR3NNYWRBZEYyY09IZDd6aWowUmVuYzVJUFhhVExPM1hIZV9EdVhhZEZNZjYxc2taZmFXS2w2ZmR1UQ?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-02T08:06:44+00:00"
+    },
+    {
+      "n": 28,
+      "title": "Stock Market Finishes Strong, Yields Off Highs; Micron, Meta, Nvidia, Tesla In Focus: Weekly Review",
+      "source": "Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT19UNWZHMDltSVhsUkVxSGhING9vRzJldUVwMDI3ZWRHc09xLXdOTlJ0clRhRmlXRzJOTWtNQk50cEN6cE4zU3R0emJ0RWstQzRIcXN4SGx6M3I2SVZzcGVmZ1JURVdWa3c2LWRtNC1kY1NtekRoNVdWYjVWTG5PUFNDbGlDU2tvNjFSR05kTmswT3FhcWsySmVmZ3A5VzNtN2c?oc=5",
+      "snippet": "Investor's Business Daily",
+      "published": "2026-10-02T15:39:00+00:00"
+    },
+    {
+      "n": 29,
+      "title": "Soft Jobs Report Boosts Market Bets Fed Will Skip October Rate Increase",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaXlVWmhNUF9PdTVEQlFNZFNhbHRab3dOSHlQdXBrN3N3M2dwSUIzTVFHbWd5c0RvOWNPSnJqOFQ5R3Q1OWdxX0NtNTRhaXZNWEpEamFzaGxwaVp0NHhNYTNrRm9EUHlGTGoyNXJ3ZktiR18yLVplcjRjd3lFLW9UdnpGU3ppNzE1LUNVeHFkQm4?oc=5",
+      "snippet": "The New York Times",
+      "published": "2026-10-02T15:15:45+00:00"
+    },
+    {
+      "n": 30,
+      "title": "Fed seen skipping October rate hike as job market cools",
+      "source": "reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOVRfM1dqWHpoenJab09IVXh3am1peVNMWFFPOFhOSjl1SkI5MklDUDl6VFpkSkZxUE8tU0Q4S3R3VXNxd0t5Mlc3NGxXNTBid1N4U0czdVA2b09hVmRyT0VtaEU3M243T09TQjVTSzVMYURvSkg5WjBSc2tjVnpzM29ZMHdTMC1hUGlRUzBJRXBQdWk3bG9heTJOQjQ3QQ?oc=5",
+      "snippet": "reuters.com",
+      "published": "2026-10-02T14:21:19+00:00"
+    },
+    {
+      "n": 31,
+      "title": "Take Five: Reality bites",
+      "source": "reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRTZYUGk0aGlHZEJpc2FXNXVhUDNRb3M3cER6NVExNXR4MUIwYzhTczdBTERieE9SbXFiQ2dpanJ4bG11T2xMUWJ1d3VONS16RXpCWGFMQnFMSHhJVmdRcGlRZUZNTFhhNTNSSktCOEtPVWd1aERvcUE0X09NakkxRWdreWVHQ19ZbHM5eQ?oc=5",
+      "snippet": "reuters.com",
+      "published": "2026-10-02T08:17:41+00:00"
     }
   ],
   "cited": [
+    1,
+    2,
+    3,
     4,
-    7,
     8,
     9,
+    10,
     11,
-    12,
-    13,
-    15,
-    16,
-    17
+    17,
+    18,
+    19
   ],
   "invalid_citations": [],
-  "example_prompt": "Move: S&P 500 fell 0.06% to 7647.15.\n\nHeadlines:\n[1] finance.yahoo.com, Oct 01 10:34 AM ET: Stock market today: Dow, S&P 500, Nasdaq fall as fresh manufacturing spurs cost pressure worries\n    finance.yahoo.com Stock Market Today: Dow, S&P 500 and Nasdaq trade down as oil prices rise; Treasury yields ease after 10-year rate climbed to highest since 2002 MarketWatch Stock Market News, Sept. 30, 2026: 10-Year Treasury Yield Rises to New 24-Year High WSJ\n[2] Yahoo Finance, Sep 28 01:41 PM ET: Stock market today: Dow, S&P 500, Nasdaq slip as US-Iran tensions resurface, Treasury yields jump\n    Yahoo Finance Stock Market Today: Dow, S&P 500 and Nasdaq drop as tech stocks slide and Treasury yields jump MarketWatch Stock Market Today: Indexes Decline After Winning Week as Oil Prices, Treasury Yields Jump; AI-Tied Stocks Fall investopedia.com\n[3] CNBC, Sep 28 01:24 PM ET: Stocks fall to start the week as Treasury yields rise once again: Live updates\n    CNBC Stock market today: Dow, S&P 500, Nasdaq slip as US-Iran tensions resurface, Treasury yields jump Yahoo Finance S&P 500 Falls as Inflation Worry Lifts Bond Yields: Markets Wrap Bloomberg.com\n[4] cnbc.com, Oct 01 12:09 PM ET: S&P 500 declines to kick off October as yields surge, Micron falls post earnings: Live updates\n    cnbc.com\n\nWrite the subheading and body.",
+  "example_prompt": "Move: S&P 500 rose 0.75% to 7723.76.\n\nHeadlines:\n[1] Investor's Business Daily, Oct 01 08:16 AM ET: Futures Rise, S&P 500 Finds Key Support; Micron Crushes Views\n    Investor's Business Daily\n[2] finance.yahoo.com, Oct 01 10:34 AM ET: Stock market today: Dow, S&P 500, Nasdaq fall as fresh manufacturing spurs cost pressure worries\n    finance.yahoo.com Stock Market Today: Dow, S&P 500 and Nasdaq trade down as oil prices rise; Treasury yields ease after 10-year rate climbed to highest since 2002 MarketWatch Stock Market News, Sept. 30, 2026: 10-Year Treasury Yield Rises to New 24-Year High WSJ\n[3] cnbc.com, Oct 02 09:03 AM ET: Dow jumps 400 points after weak jobs data sends yields tumbling: Live updates\n    cnbc.com Stock market today: Dow, S&P 500, Nasdaq stage comeback as Treasury yields fall, chip stocks gain Yahoo Finance Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end slightly higher as semiconductor stocks rally; Treasury yields ease after 10-year rate climbed to highest since 2002 Mark\n[4] MarketWatch, Oct 01 12:55 PM ET: Stock Market Today: Dow, S&P 500 and Nasdaq trade down as oil prices rise; Treasury yields ease after 10-year rate climbed to highest since 2002\n    MarketWatch\n\nWrite the subheading and body.",
   "retrieval": [
     {
       "move": "S&P 500",
-      "query": "Why did S&P 500 US stocks Wall Street fall",
+      "query": "Why did S&P 500 US stocks Wall Street rise",
       "hits": [
         {
           "n": 1,
-          "similarity": 0.781
+          "similarity": 0.761
         },
         {
           "n": 2,
-          "similarity": 0.762
+          "similarity": 0.751
         },
         {
           "n": 3,
-          "similarity": 0.76
+          "similarity": 0.748
         },
         {
           "n": 4,
-          "similarity": 0.758
+          "similarity": 0.743
         }
       ]
     },
     {
       "move": "Nasdaq",
-      "query": "Why did Nasdaq tech stocks fall",
+      "query": "Why did Nasdaq tech stocks rise",
       "hits": [
         {
           "n": 5,
-          "similarity": 0.733
+          "similarity": 0.712
         },
         {
-          "n": 1,
-          "similarity": 0.713
-        },
-        {
-          "n": 2,
-          "similarity": 0.708
+          "n": 3,
+          "similarity": 0.711
         },
         {
           "n": 6,
-          "similarity": 0.706
+          "similarity": 0.709
+        },
+        {
+          "n": 7,
+          "similarity": 0.709
         }
       ]
     },
     {
       "move": "10-Year Yield",
-      "query": "Why did Treasury yields bond market fall",
+      "query": "Why did Treasury yields bond market rise",
       "hits": [
         {
-          "n": 7,
-          "similarity": 0.766
-        },
-        {
-          "n": 3,
-          "similarity": 0.755
-        },
-        {
           "n": 8,
-          "similarity": 0.754
+          "similarity": 0.798
         },
         {
           "n": 9,
-          "similarity": 0.726
+          "similarity": 0.761
+        },
+        {
+          "n": 10,
+          "similarity": 0.747
+        },
+        {
+          "n": 11,
+          "similarity": 0.742
         }
       ]
     },
@@ -441,72 +474,72 @@
       "query": "Why did yen dollar Bank of Japan rise",
       "hits": [
         {
-          "n": 10,
-          "similarity": 0.734
-        },
-        {
-          "n": 11,
-          "similarity": 0.733
-        },
-        {
           "n": 12,
-          "similarity": 0.722
+          "similarity": 0.755
         },
         {
           "n": 13,
-          "similarity": 0.722
+          "similarity": 0.734
+        },
+        {
+          "n": 14,
+          "similarity": 0.733
+        },
+        {
+          "n": 15,
+          "similarity": 0.727
         }
       ]
     },
     {
       "move": "Crude Oil",
-      "query": "Why did oil prices crude OPEC rise",
+      "query": "Why did oil prices crude OPEC fall",
       "hits": [
         {
-          "n": 14,
-          "similarity": 0.75
-        },
-        {
-          "n": 15,
-          "similarity": 0.746
-        },
-        {
           "n": 16,
-          "similarity": 0.734
+          "similarity": 0.771
         },
         {
           "n": 17,
+          "similarity": 0.752
+        },
+        {
+          "n": 18,
           "similarity": 0.731
+        },
+        {
+          "n": 19,
+          "similarity": 0.692
         }
       ]
     },
     {
       "move": "Gold",
-      "query": "Why did gold prices rise",
+      "query": "Why did gold prices fall",
       "hits": [
         {
-          "n": 18,
-          "similarity": 0.769
-        },
-        {
-          "n": 19,
-          "similarity": 0.747
-        },
-        {
           "n": 20,
-          "similarity": 0.744
+          "similarity": 0.757
         },
         {
           "n": 21,
-          "similarity": 0.741
+          "similarity": 0.733
+        },
+        {
+          "n": 22,
+          "similarity": 0.727
+        },
+        {
+          "n": 23,
+          "similarity": 0.711
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 39,
+    "headlines_fetched": 38,
     "headlines_new": 38,
-    "index_size": 317,
+    "index_size": 355,
     "llm_calls": 7
   }
 }
