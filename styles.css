@@ -11,7 +11,7 @@
     --arrow: #E0A458;
   }
   * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
+  html { scroll-behavior: smooth; scroll-padding-top: 76px; }
   body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 "IBM Plex Sans", "Helvetica Neue", Helvetica, sans-serif; overflow-x: hidden; }
   a { color: var(--text); }
   a:hover { color: #FFC730; }
@@ -30,6 +30,7 @@
   @keyframes tape { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
   header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px 16px; padding-top: 18px; padding-bottom: 18px; font-size: 14px; }
+  header { position: sticky; top: 0; z-index: 40; background: rgba(31, 30, 29, .94); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); border-bottom: 1px solid var(--rule); }
   header a { text-decoration: none; }
   header nav { display: flex; flex-wrap: wrap; gap: 0 24px; }
   header nav a { padding: 12px 0; }
