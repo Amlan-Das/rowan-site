@@ -136,7 +136,7 @@
         '<span class="status mono" style="color:' + p.color + ';border:1px solid ' + p.color + '">' + esc(p.direction || "Pitch") + "</span>" +
       "</button>" +
       '<div class="detail" id="p' + i + '"' + (i === 0 ? "" : " hidden") + ">" +
-        '<div><p class="q display">' + esc(p.company || p.ticker) + " · $" + esc(p.ticker) + '</p><p class="a">' + (p.thesis ? esc(p.thesis) : '<span class="pmissing">Add why you made this call.</span>') + '</p><div class="buttons" style="margin-top:20px">' + link(p.link) + "</div></div>" +
+        '<div><p class="q display">' + esc(p.company || p.ticker) + " · $" + esc(p.ticker) + '</p><p class="a">' + (p.thesis ? esc(p.thesis) : '<span class="pmissing">Add why you made this call.</span>') + '</p><div class="buttons" style="margin-top:20px">' + link(p.link) + (p.model ? ' <a class="pill" href="' + esc(p.model) + '" target="_blank" rel="noopener">Download the model</a>' : "") + "</div></div>" +
         '<div><div class="pstats">' + stats.map((s) => '<div class="pstat">' + s + "</div>").join("") + "</div>" + timelineHtml + "</div>" +
       "</div>" +
       '<div class="pchart" id="pc' + i + '"' + (i === 0 ? "" : " hidden") + ">" +

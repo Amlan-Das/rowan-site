@@ -86,6 +86,7 @@ const PROJECTS = [
 //                  to the target fill in by themselves from pitch-prices.json
 //                  (updated after every trading day by .github/workflows/pitch-prices.yml)
 //   link           link to the full deck or write-up
+//   model          optional link to the Excel model behind the call
 const PITCHES = [
   {
     ticker: "V", tvSymbol: "NYSE:V", color: "#61C3FF",
@@ -122,6 +123,19 @@ const PITCHES = [
     target: 77.00,
     current: null, currentAsOf: "",
     link: "pitches/carrier-carr-industrials-report.pdf#page=19"
+  },
+  {
+    ticker: "GEV", tvSymbol: "NYSE:GEV", color: "#FF8F42",
+    company: "GE Vernova Inc.",
+    direction: "Short",
+    date: "2026-10-02", dateLabel: "October 2, 2026",
+    horizonMonths: 6,
+    thesis: "At 42.6x FY26E EBITDA, GE Vernova is priced as if turbine orders and pricing stay at their peak. The 116 GW headline backlog is 53 GW of firm orders and 63 GW of slot reservations, which are non-refundable slot deposits that sit outside RPO and are usually priced at conversion. Most of the FCF guide is customer float: H1 cash from operations was $10.7B, but $13.7B of that was growth in contract liabilities. Our base case assumes no cancellations, only slower conversions and flat orders, and still lands at a 16% FY28E EBITDA margin against the Street's 21.6%. That gives a DCF value of $701 and a six-month target of $860.",
+    pitchPrice: 987.45,
+    target: 860.00,
+    current: null, currentAsOf: "",
+    link: "pitches/ge-vernova-gev.pdf",
+    model: "pitches/ge-vernova-gev-model.xlsx"
   }
 ];
 
