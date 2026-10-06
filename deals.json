@@ -1,19 +1,19 @@
 {
   "date": "Monday, October 05",
-  "generated_at": "2026-10-06T02:25:21.325556+00:00",
+  "generated_at": "2026-10-06T02:38:08.843888+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "C.H. Robinson is acquiring freight broker RXO in a $5.8 billion deal as part of its efforts to expand its logistics services.",
+  "lede": "Schneider Electric is acquiring PTC in a $22.6 billion deal, its largest-ever acquisition, to boost industrial intelligence.",
   "deals": [
     {
-      "acquirer": "C.H. Robinson",
-      "target": "RXO",
-      "value": "$5.8 Billion",
+      "acquirer": "Schneider Electric",
+      "target": "PTC",
+      "value": "$22.6 Billion",
       "pinned": false,
       "stage": "Announced",
       "articles": 9,
       "outlets": 9,
-      "latest": "2026-10-05T21:06:36+00:00",
+      "latest": "2026-10-06T01:41:15+00:00",
       "sources": [
         1,
         2,
@@ -25,128 +25,128 @@
         8
       ],
       "stripped": [],
-      "headline": "C.H. Robinson Acquires RXO",
-      "body": "C.H. Robinson is acquiring freight broker RXO in a $5.8 billion deal [1, 5, 6]. The acquisition is a cash-and-stock deal [4]. The deal is expected to be completed soon [2, 3, 7]. The acquisition is part of C.H. Robinson's efforts to expand its logistics services [8].",
+      "headline": "Schneider Electric to Acquire PTC",
+      "body": "Schneider Electric is acquiring PTC in a $22.6 billion deal [1, 3, 8]. The acquisition is expected to boost industrial intelligence [2, 4]. The deal will be paid in cash [1, 3, 8]. The acquisition is Schneider Electric's largest-ever deal [4].",
       "found": [
         {
           "n": 1,
-          "acquirer": "C.H. Robinson",
-          "target": "RXO",
-          "stage": "Completed"
+          "acquirer": "Schneider Electric",
+          "target": "PTC",
+          "stage": "Announced"
         },
         {
           "n": 2,
-          "acquirer": "C.H. Robinson",
-          "target": "RXO",
-          "stage": "Announced"
-        },
-        {
-          "n": 3,
-          "acquirer": "C.H. Robinson",
-          "target": "RXO",
-          "stage": "Completed"
-        },
-        {
-          "n": 4,
-          "acquirer": "C.H. Robinson",
-          "target": "RXO",
-          "stage": "Completed"
-        },
-        {
-          "n": 5,
-          "acquirer": "C.H. Robinson",
-          "target": "RXO",
-          "stage": "Announced"
-        },
-        {
-          "n": 6,
-          "acquirer": "C.H. Robinson",
-          "target": "RXO",
-          "stage": "Completed"
-        },
-        {
-          "n": 7,
-          "acquirer": "C.H. Robinson",
-          "target": "RXO",
-          "stage": "Announced"
-        },
-        {
-          "n": 8,
-          "acquirer": "C.H. Robinson",
-          "target": "RXO",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Schneider Electric",
-      "target": "PTC",
-      "value": "$22.6 Billion",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 8,
-      "outlets": 8,
-      "latest": "2026-10-05T21:48:26+00:00",
-      "sources": [
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16
-      ],
-      "stripped": [],
-      "headline": "Schneider Electric and PTC",
-      "body": "Schneider Electric is acquiring PTC in a $22.6 billion deal [15, 16]. The deal brings together 'one hell of an industrial stack' [9]. Schneider Electric will acquire PTC in a cash deal [14, 10, 11].",
-      "found": [
-        {
-          "n": 9,
           "acquirer": "Schneider",
           "target": "PTC",
           "stage": "Completed"
         },
         {
-          "n": 10,
-          "acquirer": "Schneider Electric",
-          "target": "PTC",
-          "stage": "Announced"
-        },
-        {
-          "n": 11,
-          "acquirer": "Schneider Electric",
-          "target": "PTC",
-          "stage": "Announced"
-        },
-        {
-          "n": 12,
-          "acquirer": "Schneider Electric",
-          "target": "PTC",
-          "stage": "Announced"
-        },
-        {
-          "n": 13,
-          "acquirer": "Schneider Electric",
-          "target": "PTC",
-          "stage": "Announced"
-        },
-        {
-          "n": 14,
+          "n": 3,
           "acquirer": "Schneider Electric",
           "target": "PTC",
           "stage": "Completed"
         },
         {
-          "n": 15,
+          "n": 4,
           "acquirer": "Schneider Electric",
           "target": "PTC",
           "stage": "Announced"
         },
         {
-          "n": 16,
+          "n": 5,
           "acquirer": "Schneider Electric",
           "target": "PTC",
+          "stage": "Announced"
+        },
+        {
+          "n": 6,
+          "acquirer": "Schneider Electric",
+          "target": "PTC",
+          "stage": "Announced"
+        },
+        {
+          "n": 7,
+          "acquirer": "Schneider Electric Agrees",
+          "target": "PTC",
+          "stage": "Completed"
+        },
+        {
+          "n": 8,
+          "acquirer": "Schneider Electric",
+          "target": "PTC",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "C.H. Robinson",
+      "target": "RXO",
+      "value": "$5.8 Billion",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 9,
+      "outlets": 9,
+      "latest": "2026-10-05T21:06:36+00:00",
+      "sources": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "stripped": [],
+      "headline": "C.H. Robinson to Acquire RXO",
+      "body": "C.H. Robinson is acquiring freight broker RXO in a $5.8 billion deal [12, 13, 16]. The acquisition is a cash-and-stock deal and has been announced [15, 18]. The deal is expected to be completed soon [17]. The acquisition could mean changes for truckers [14].",
+      "found": [
+        {
+          "n": 12,
+          "acquirer": "C.H. Robinson",
+          "target": "RXO",
+          "stage": "Completed"
+        },
+        {
+          "n": 13,
+          "acquirer": "C.H. Robinson",
+          "target": "RXO",
+          "stage": "Rumored"
+        },
+        {
+          "n": 14,
+          "acquirer": "C.H. Robinson",
+          "target": "RXO",
+          "stage": "Announced"
+        },
+        {
+          "n": 15,
+          "acquirer": "C.H. Robinson",
+          "target": "RXO",
+          "stage": "Completed"
+        },
+        {
+          "n": 16,
+          "acquirer": "C.H. Robinson",
+          "target": "RXO",
+          "stage": "Completed"
+        },
+        {
+          "n": 17,
+          "acquirer": "C.H. Robinson",
+          "target": "RXO",
+          "stage": "Completed"
+        },
+        {
+          "n": 18,
+          "acquirer": "C.H. Robinson",
+          "target": "RXO",
+          "stage": "Announced"
+        },
+        {
+          "n": 19,
+          "acquirer": "C.H. Robinson",
+          "target": "RXO",
           "stage": "Announced"
         }
       ]
@@ -154,26 +154,38 @@
     {
       "acquirer": "Curaleaf",
       "target": "Aurora Cannabis",
-      "value": "$5",
+      "value": "",
       "pinned": false,
       "stage": "Announced",
-      "articles": 6,
-      "outlets": 6,
-      "latest": "2026-10-06T00:48:09+00:00",
+      "articles": 7,
+      "outlets": 7,
+      "latest": "2026-10-06T01:55:38+00:00",
       "sources": [
+        20,
+        21,
         22,
         23,
         24,
         25,
         26,
-        27,
-        28,
-        29
+        27
       ],
       "stripped": [],
-      "headline": "Curaleaf to Acquire Aurora Cannabis",
-      "body": "Curaleaf is acquiring Aurora Cannabis in a hostile takeover bid [25, 26, 28]. Curaleaf has sweetened its offer to acquire Aurora Cannabis to $5 per share [22, 23, 24]. The deal was initially rejected by Aurora Cannabis, but Curaleaf has revised its offer [23, 27]. Curaleaf's offer to acquire Aurora Cannabis has been increased by 25% [26].",
+      "headline": "Curaleaf and Aurora Cannabis Deal",
+      "body": "Curaleaf is making a hostile takeover bid for Aurora Cannabis [21, 26, 25]. Curaleaf has sweetened its offer to acquire Aurora Cannabis [21, 24, 22]. Curaleaf's takeover bid for Aurora Cannabis has been increased [20, 26, 27]. Curaleaf's offer to acquire Aurora Cannabis has been enhanced [23, 24, 25].",
       "found": [
+        {
+          "n": 20,
+          "acquirer": "Curaleaf",
+          "target": "Aurora Cannabis",
+          "stage": "Announced"
+        },
+        {
+          "n": 21,
+          "acquirer": "Curaleaf",
+          "target": "Aurora Cannabis",
+          "stage": "Announced"
+        },
         {
           "n": 22,
           "acquirer": "Curaleaf",
@@ -190,7 +202,7 @@
           "n": 24,
           "acquirer": "Curaleaf",
           "target": "Aurora Cannabis",
-          "stage": "Announced"
+          "stage": "Rumored"
         },
         {
           "n": 25,
@@ -200,12 +212,6 @@
         },
         {
           "n": 26,
-          "acquirer": "Curaleaf",
-          "target": "Aurora Cannabis",
-          "stage": "Announced"
-        },
-        {
-          "n": 27,
           "acquirer": "Curaleaf",
           "target": "Aurora Cannabis",
           "stage": "Announced"
@@ -222,41 +228,41 @@
       "outlets": 4,
       "latest": "2026-10-05T18:35:36+00:00",
       "sources": [
+        28,
+        29,
         30,
         31,
         32,
         33,
-        34,
-        35,
-        36
+        34
       ],
       "stripped": [],
       "headline": "Cenovus to Acquire Athabasca Oil",
-      "body": "Cenovus Energy is acquiring Athabasca Oil in a $4 billion deal [31, 32, 33]. The deal is valued at $4 billion [31, 32, 33]. The acquisition is expected to expand production [31, 32, 33].",
+      "body": "Cenovus Energy is acquiring Athabasca Oil in a $4 billion deal [29, 30, 31]. The deal is valued at $4 billion and will expand production [29, 30, 31]. Cenovus Energy will acquire Athabasca Oil in a CA$5.7 billion deal [32]. Athabasca Oil has agreed to be acquired by Cenovus Energy [33].",
       "found": [
         {
-          "n": 30,
+          "n": 28,
           "acquirer": "Cenovus",
+          "target": "Athabasca Oil",
+          "stage": "Completed"
+        },
+        {
+          "n": 29,
+          "acquirer": "Cenovus",
+          "target": "Athabasca Oil",
+          "stage": "Completed"
+        },
+        {
+          "n": 30,
+          "acquirer": "Cenovus Energy",
           "target": "Athabasca Oil",
           "stage": "Completed"
         },
         {
           "n": 31,
-          "acquirer": "Cenovus",
+          "acquirer": "Cenovus Energy",
           "target": "Athabasca Oil",
           "stage": "Completed"
-        },
-        {
-          "n": 32,
-          "acquirer": "Cenovus Energy",
-          "target": "Athabasca Oil",
-          "stage": "Announced"
-        },
-        {
-          "n": 33,
-          "acquirer": "Cenovus Energy",
-          "target": "Athabasca Oil",
-          "stage": "Announced"
         }
       ]
     },
@@ -266,33 +272,27 @@
       "value": "",
       "pinned": false,
       "stage": "Completed",
-      "articles": 3,
-      "outlets": 3,
+      "articles": 2,
+      "outlets": 2,
       "latest": "2026-10-05T22:03:04+00:00",
       "sources": [
+        35,
+        36,
         37,
-        38,
-        39,
-        40
+        38
       ],
       "stripped": [],
       "headline": "Basware Acquires Trustpair",
-      "body": "Basware has acquired Trustpair to combat global payment fraud [37, 38, 39]. The deal strengthens financial integrity from invoice to payment [40]. The acquisition is now completed [38, 39].",
+      "body": "Basware has acquired Trustpair to combat global payment fraud [35, 36, 37]. The deal has been completed and will strengthen financial integrity from invoice to payment [35, 36, 37]. The acquisition will close a payment fraud gap [35, 38].",
       "found": [
         {
-          "n": 37,
+          "n": 35,
           "acquirer": "Basware",
           "target": "Trustpair",
           "stage": "Completed"
         },
         {
-          "n": 38,
-          "acquirer": "Basware",
-          "target": "Trustpair",
-          "stage": "Completed"
-        },
-        {
-          "n": 39,
+          "n": 36,
           "acquirer": "Basware",
           "target": "Trustpair",
           "stage": "Completed"
@@ -300,71 +300,71 @@
       ]
     },
     {
-      "acquirer": "Fathom",
-      "target": "Bed Bath & Beyond",
+      "acquirer": "CD&R",
+      "target": "Option Care",
+      "value": "$5 billion",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-05T21:01:50+00:00",
+      "sources": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "stripped": [],
+      "headline": "McKesson Eyes Option Care Deal With CD&R",
+      "body": "McKesson is reportedly considering a deal to acquire Option Care, with CD&R as a potential partner [39, 43]. The deal is valued at over $5 billion, according to reports [40, 42]. Option Care's stock price surged 22% on the news [41].",
+      "found": [
+        {
+          "n": 39,
+          "acquirer": "CD&R",
+          "target": "Option Care",
+          "stage": "Pending approval"
+        },
+        {
+          "n": 40,
+          "acquirer": "CD&R",
+          "target": "Option Care",
+          "stage": "Rumored"
+        }
+      ]
+    },
+    {
+      "acquirer": "Bed Bath & Beyond",
+      "target": "Fathom",
       "value": "$53M",
       "pinned": false,
       "stage": "Announced",
       "articles": 2,
       "outlets": 2,
-      "latest": "2026-10-05T21:39:52+00:00",
+      "latest": "2026-10-05T19:34:49+00:00",
       "sources": [
-        41,
-        42,
-        43,
         44,
         45,
-        46
-      ],
-      "stripped": [],
-      "headline": "Fathom and Bed Bath & Beyond",
-      "body": "Fathom and Bed Bath & Beyond have terminated their merger deal [43, 44, 45]. The deal was announced, but the companies have since called it off [41, 42, 46]. Fathom and Bed Bath & Beyond's merger was mutually terminated [45, 46].",
-      "found": [
-        {
-          "n": 41,
-          "acquirer": "Fathom",
-          "target": "Bed Bath & Beyond",
-          "stage": "Completed"
-        },
-        {
-          "n": 42,
-          "acquirer": "Fathom",
-          "target": "Bed Bath & Beyond",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "McKesson",
-      "target": "Option Care",
-      "value": "$5 billion",
-      "pinned": false,
-      "stage": "Rumored",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-05T20:45:56+00:00",
-      "sources": [
+        46,
         47,
         48,
-        49,
-        50,
-        51
+        49
       ],
       "stripped": [],
-      "headline": "McKesson and Option Care Deal Rumored",
-      "body": "McKesson and Option Care are in a deal to buy Option Care, with a value of $5 billion-plus [47, 50, 51]. The deal is still in the early stages, with no official announcement yet [48, 49, 50]. The companies are backed by CD&R, a private equity firm [47, 50, 51].",
+      "headline": "Bed Bath & Beyond and Fathom Deal Terminated",
+      "body": "Bed Bath & Beyond and Fathom have terminated their merger deal [48, 49]. The deal was announced just hours before it was set to close [48, 49]. Fathom and Bed Bath & Beyond parent will now go their separate ways [48, 49].",
       "found": [
         {
-          "n": 47,
-          "acquirer": "McKesson",
-          "target": "Option Care",
-          "stage": "Rumored"
+          "n": 44,
+          "acquirer": "Bed Bath & Beyond",
+          "target": "Fathom",
+          "stage": "Completed"
         },
         {
-          "n": 48,
-          "acquirer": "McKesson",
-          "target": "Option Care",
-          "stage": "Announced"
+          "n": 45,
+          "acquirer": "Bed Bath & Beyond",
+          "target": "Fathom",
+          "stage": "Completed"
         }
       ]
     },
@@ -373,26 +373,26 @@
       "target": "FedEx Supply Chain",
       "value": "$1.4 billion",
       "pinned": false,
-      "stage": "Pending approval",
+      "stage": "Completed",
       "articles": 2,
       "outlets": 2,
       "latest": "2026-10-05T18:15:26+00:00",
       "sources": [
-        52,
-        53
+        50,
+        51
       ],
       "stripped": [],
-      "headline": "CMA CGM Group Acquires FedEx Supply Chain",
-      "body": "CMA CGM Group has acquired FedEx Supply Chain [52, 53]. The deal is now complete [52, 53].",
+      "headline": "CMA CGM Acquires FedEx Supply Chain",
+      "body": "CMA CGM Group has acquired FedEx Supply Chain [50, 51]. The deal is now completed [50, 51].",
       "found": [
         {
-          "n": 52,
+          "n": 50,
           "acquirer": "CMA CGM Group",
           "target": "FedEx Supply Chain",
           "stage": "Completed"
         },
         {
-          "n": 53,
+          "n": 51,
           "acquirer": "CMA CGM",
           "target": "FedEx",
           "stage": "Completed"
@@ -400,96 +400,27 @@
       ]
     }
   ],
-  "also": [
-    {
-      "n": 54,
-      "note": "PayPal's $60.50 buyout offer has Wall Street and retail on the same side [54]."
-    },
-    {
-      "n": 55,
-      "note": "Electronic Arts bondholders allege default following largest LBO [55]."
-    },
-    {
-      "n": 56,
-      "note": "Pentair completes $1.4 billion Taco acquisition [56]."
-    }
-  ],
-  "brief": "C.H. Robinson is acquiring freight broker RXO in a $5.8 billion deal as part of its efforts to expand its logistics services.\n\nC.H. Robinson / RXO (Announced): C.H. Robinson Acquires RXO. C.H. Robinson is acquiring freight broker RXO in a $5.8 billion deal [1, 5, 6]. The acquisition is a cash-and-stock deal [4]. The deal is expected to be completed soon [2, 3, 7]. The acquisition is part of C.H. Robinson's efforts to expand its logistics services [8].\nSchneider Electric / PTC (Announced): Schneider Electric and PTC. Schneider Electric is acquiring PTC in a $22.6 billion deal [15, 16]. The deal brings together 'one hell of an industrial stack' [9]. Schneider Electric will acquire PTC in a cash deal [14, 10, 11].\nCuraleaf / Aurora Cannabis (Announced): Curaleaf to Acquire Aurora Cannabis. Curaleaf is acquiring Aurora Cannabis in a hostile takeover bid [25, 26, 28]. Curaleaf has sweetened its offer to acquire Aurora Cannabis to $5 per share [22, 23, 24]. The deal was initially rejected by Aurora Cannabis, but Curaleaf has revised its offer [23, 27]. Curaleaf's offer to acquire Aurora Cannabis has been increased by 25% [26].\nCenovus / Athabasca Oil (Announced): Cenovus to Acquire Athabasca Oil. Cenovus Energy is acquiring Athabasca Oil in a $4 billion deal [31, 32, 33]. The deal is valued at $4 billion [31, 32, 33]. The acquisition is expected to expand production [31, 32, 33].\nBasware / Trustpair (Completed): Basware Acquires Trustpair. Basware has acquired Trustpair to combat global payment fraud [37, 38, 39]. The deal strengthens financial integrity from invoice to payment [40]. The acquisition is now completed [38, 39].\nFathom / Bed Bath & Beyond (Announced): Fathom and Bed Bath & Beyond. Fathom and Bed Bath & Beyond have terminated their merger deal [43, 44, 45]. The deal was announced, but the companies have since called it off [41, 42, 46]. Fathom and Bed Bath & Beyond's merger was mutually terminated [45, 46].\nMcKesson / Option Care (Rumored): McKesson and Option Care Deal Rumored. McKesson and Option Care are in a deal to buy Option Care, with a value of $5 billion-plus [47, 50, 51]. The deal is still in the early stages, with no official announcement yet [48, 49, 50]. The companies are backed by CD&R, a private equity firm [47, 50, 51].\nCMA CGM Group / FedEx Supply Chain (Pending approval): CMA CGM Group Acquires FedEx Supply Chain. CMA CGM Group has acquired FedEx Supply Chain [52, 53]. The deal is now complete [52, 53].\n\nAlso worth knowing:\n- PayPal's $60.50 buyout offer has Wall Street and retail on the same side [54].\n- Electronic Arts bondholders allege default following largest LBO [55].\n- Pentair completes $1.4 billion Taco acquisition [56].",
+  "also": [],
+  "brief": "Schneider Electric is acquiring PTC in a $22.6 billion deal, its largest-ever acquisition, to boost industrial intelligence.\n\nSchneider Electric / PTC (Announced): Schneider Electric to Acquire PTC. Schneider Electric is acquiring PTC in a $22.6 billion deal [1, 3, 8]. The acquisition is expected to boost industrial intelligence [2, 4]. The deal will be paid in cash [1, 3, 8]. The acquisition is Schneider Electric's largest-ever deal [4].\nC.H. Robinson / RXO (Announced): C.H. Robinson to Acquire RXO. C.H. Robinson is acquiring freight broker RXO in a $5.8 billion deal [12, 13, 16]. The acquisition is a cash-and-stock deal and has been announced [15, 18]. The deal is expected to be completed soon [17]. The acquisition could mean changes for truckers [14].\nCuraleaf / Aurora Cannabis (Announced): Curaleaf and Aurora Cannabis Deal. Curaleaf is making a hostile takeover bid for Aurora Cannabis [21, 26, 25]. Curaleaf has sweetened its offer to acquire Aurora Cannabis [21, 24, 22]. Curaleaf's takeover bid for Aurora Cannabis has been increased [20, 26, 27]. Curaleaf's offer to acquire Aurora Cannabis has been enhanced [23, 24, 25].\nCenovus / Athabasca Oil (Announced): Cenovus to Acquire Athabasca Oil. Cenovus Energy is acquiring Athabasca Oil in a $4 billion deal [29, 30, 31]. The deal is valued at $4 billion and will expand production [29, 30, 31]. Cenovus Energy will acquire Athabasca Oil in a CA$5.7 billion deal [32]. Athabasca Oil has agreed to be acquired by Cenovus Energy [33].\nBasware / Trustpair (Completed): Basware Acquires Trustpair. Basware has acquired Trustpair to combat global payment fraud [35, 36, 37]. The deal has been completed and will strengthen financial integrity from invoice to payment [35, 36, 37]. The acquisition will close a payment fraud gap [35, 38].\nCD&R / Option Care (Announced): McKesson Eyes Option Care Deal With CD&R. McKesson is reportedly considering a deal to acquire Option Care, with CD&R as a potential partner [39, 43]. The deal is valued at over $5 billion, according to reports [40, 42]. Option Care's stock price surged 22% on the news [41].\nBed Bath & Beyond / Fathom (Announced): Bed Bath & Beyond and Fathom Deal Terminated. Bed Bath & Beyond and Fathom have terminated their merger deal [48, 49]. The deal was announced just hours before it was set to close [48, 49]. Fathom and Bed Bath & Beyond parent will now go their separate ways [48, 49].\nCMA CGM Group / FedEx Supply Chain (Completed): CMA CGM Acquires FedEx Supply Chain. CMA CGM Group has acquired FedEx Supply Chain [50, 51]. The deal is now completed [50, 51].",
   "sources": [
     {
       "n": 1,
-      "title": "C.H. Robinson to acquire freight broker RXO for $5.8 billion",
-      "source": "qz.com",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFSFZVeVFmelBRRWRXeGFDUER2U3VwdTBSMEJpemhuc0E4NEw3WENIQTBScDBFOENHbGtMcXB2YXpyRGg3UGF2c3hjY1pzbVdtcnpWQ1lVU0VXUHp1bXlaRzVLMHh1Ymh5OS1JUWNndw?oc=5",
-      "snippet": "qz.com",
-      "published": "2026-10-05T21:06:36+00:00"
+      "title": "Schneider Electric to acquire PTC in $22.6bn deal",
+      "source": "Gulf Business",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTFczNjFVSlNsYm9iR1RqRUtRQkZtWVlvN1FCaTlIRW5vU1RiUzF5ZnFsZXd5UWc2SmdPRDUzVGpRNEVteE1TMklxc2tBVUhWMUU2N00zUlp0S1otbERpcXlCb1RFTUFwY0x0VFlqOHNlcVcxMmZqa014bXZ5MlU2MXB4QTZJY0VLSmtvWDlUSXNkdFo1X2c?oc=5",
+      "snippet": "Gulf Business",
+      "published": "2026-10-06T01:41:15+00:00"
     },
     {
       "n": 2,
-      "title": "RXO Shares Jump as C.H. Robinson Agrees to $5.8 Billion Acquisition",
-      "source": "finchannel.com",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdmhnMnc4SVZwbk9CaXZvbEMtVU9JYkdwdTRjQkJMVHE3V1UwQ1F4ck00M3VGLWFPZ09xUHZNdThsREhMb2FIdzhibUVuNUpnSWh5S0o1akcwY1BRZE1WRFNmS2ZReG5yYXJqVlliYldYVzlsR3hicFFHYzVibC0zYTRVN0E3MkdsdUxhWGZwLWpqcEpoc0FjY2Q1UVc1RE9TZ2hiLVhIYjlmTWd4dXBpN3VJTGRwQjRvd1phUndSeG1IQ2hqaWVaZw?oc=5",
-      "snippet": "finchannel.com",
-      "published": "2026-10-05T19:54:56+00:00"
+      "title": "Schneider’s PTC Acquisition to Boost Industrial Intelligence",
+      "source": "Construction Digital",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT1dxb2tRM0xEV1JDUU9GdHF5V2hhYl9kNlM0LUpuMVNHUnNZQWZsUWo0RGR5RmdKM2NUODc2aXlwdnQ5TTRiOHdkSjFJdDdQdjFrX0NRc25TTDczMGxnVjFpOW1EQWgxMmZ1dmtiOFRTOHoxSkNQbzBDbHBBNkNNMW9YaExvdDdmeFJ3Z2RHSkp2dzR2WWVRYnVsY2s?oc=5",
+      "snippet": "Construction Digital",
+      "published": "2026-10-05T19:16:45+00:00"
     },
     {
       "n": 3,
-      "title": "C.H. Robinson to buy RXO: What could it mean for truckers?",
-      "source": "Land Line Media",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSUR2YVF0WDRaVGZiS1ZNSHhZSDZMdE1fSXpHRzNWYTNJMlhXZ2VMOUZ3V2VJbER2RWlreUIzeTFnUFJ3YXdFZ3NWM05qRmJ3aUxKOS00RFNYdlR4TzdMUHR2cnltU25JaWhwSUVpSTdkSDE2QTRWV2hnT0lhc1cyQ2ZsZXYtUQ?oc=5",
-      "snippet": "Land Line Media",
-      "published": "2026-10-05T18:14:44+00:00"
-    },
-    {
-      "n": 4,
-      "title": "C.H. Robinson agrees to acquire RXO in $5.8 billion cash-and-stock deal",
-      "source": "Logistics Management",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb1pkazFvOGQ0R1ZyUVpfdEdoZEhON2pyMGpzVG5hU2VaSngwMGwwcTQ1bFpnaWdTSVhvVVRIT0MxUGw1SUtqZEZ0c3FBS1ZXMEJiSTVDMzJ4Ui1RRW5iU0VqdHFjc1FiQjVINXphdUZpMThFMVhYZElBTFlLOFBrdk85ZXE0VWF3RnNRaXctWi1CYlNLckZwVkhhbm1ZVkhFQXJ4dHBmUzVQdlE?oc=5",
-      "snippet": "Logistics Management",
-      "published": "2026-10-05T17:28:49+00:00"
-    },
-    {
-      "n": 5,
-      "title": "C.H. Robinson to Acquire RXO in $5.8 Billion Logistics Deal",
-      "source": "citybiz",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdEN5V1BxczVpTVppVjMycWUySTJES0swRUNHWkVSVThBMFJVR3NBSE9wLUZfNWY5Ml84VHVrWGttSUVseTRmc0VydUJ3enZDaWpJMERLWE5INzZ4bUZZSGRzN2c3X0dPbjN2X1F1Um53NFdfREV2VmFXanFYZ202dG01REp0Rkx1ZkRHeGkxclpHUHRGN0x3WTNaa0Y?oc=5",
-      "snippet": "citybiz",
-      "published": "2026-10-05T16:38:47+00:00"
-    },
-    {
-      "n": 6,
-      "title": "C.H. Robinson Acquires RXO in $5.8 Billion Deal",
-      "source": "grafa.com",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUlBTHpXVHllVWpaSFoya1ZaRU5LMUpVSktTYzJGeDN2R29mbHFIRmpwbXN0dG9KUk5iM3A2bjF5RHZMUUF4eWdtUHBMVDY0d2d0MENqSlZhMGhSNE83dXR0RlFfUzVzRFpkcXdMX2ZMVENTdjUwZHRuOVl1amtYZHdvZEZIUQ?oc=5",
-      "snippet": "grafa.com",
-      "published": "2026-10-05T15:45:00+00:00"
-    },
-    {
-      "n": 7,
-      "title": "C.H. Robinson to Acquire RXO in $5.8B Logistics Deal",
-      "source": "Modern Distribution Management",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMEFZR3ZMcFFTYTlfb0hCQXlKYVBOUnJLbkludW5tdnBNS1FrcWRtcXlLd1R0dDR6c0t0cmVmWDRBMWtwdVBRUE5ya01oNUlEZ2l3VlVqeDIyMlFVTjJFY0xObEI1bTlKZU9jTzVhVFF6V0VOOWJkSGtzTUxlTTJrNjVna0JQQmdDQmw5Qlk0RHdmUi1VZnRYUy1wb2oxZw?oc=5",
-      "snippet": "Modern Distribution Management",
-      "published": "2026-10-05T14:41:36+00:00"
-    },
-    {
-      "n": 8,
-      "title": "C.H. Robinson to Acquire RXO in $5.8 Billion Logistics Mega-Deal",
-      "source": "finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fTWEzSmRYc1NNUHUwWll0aUg5STNXRnplUjc2b0E3UHBBVExoTnNpNXZ5SW40MXFNOWdiYVJtajJ1ek5IbEVzS0pMTXhjNU9uV0d5NjdCN0U3WE11TjhjZl9tYThwTjNZTWk2R1BQZkRCOU5OM0E?oc=5",
-      "snippet": "finance.biggo.com",
-      "published": "2026-10-05T14:35:00+00:00"
-    },
-    {
-      "n": 9,
-      "title": "Schneider's PTC acquisition brings together 'one hell of an industrial stack'",
-      "source": "Fierce Network",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTkM1RWtJdFlXSy1MOHBRemhuTmNCUmE1UUdGZFk0bFZhcXRHTmNBQWxKV3FKdWNoY2FDTVdGYXVsRkNXMVNMVlZLQWpxTFI0cFltVEJWZXVkQkxTN3NxOUJ2WUNVR1NtRXlqX3g2Xy1ucnB1T2FyU2JIb0U5SU1nMTFQUk1yZHM1dGF6dmpPaDlKMWNOMG04UExlMWlzZmxsWk5EbFpuNV8?oc=5",
-      "snippet": "Fierce Network",
-      "published": "2026-10-05T21:48:26+00:00"
-    },
-    {
-      "n": 10,
       "title": "Schneider Electric Agrees to Buy PTC in $22.6 Billion Software Deal",
       "source": "PYMNTS.com",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVGVzWEtocWNMR0pZYzNjWHktUzZYSi1ETmxoMUJPY0VJZ1BjRDRJOEUzUm9vY2hXU1kyVkt0MUJSQ3duUnRCc3lIdVFLdVhjbS1hMlNHZms2TUR3MnlYSkEzejJFaXZnakxaTkx6Szc0TGNMMkdMeWxkYjd5Y0Q4MDlkYkhBYzZ5Z1B1VlQ0RUJLMFJJdjlEeDdIbkcwcDMxQkE?oc=5",
@@ -497,7 +428,7 @@
       "published": "2026-10-05T18:30:25+00:00"
     },
     {
-      "n": 11,
+      "n": 4,
       "title": "Schneider Electric to Buy PTC in French Industrial Giant’s Largest-Ever Acquisition",
       "source": "Morningstar",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM0dVcnl5YS1henNUU0Y5Y2NBNkhpbWUyODhxRzdtNVUwVERBOW92SGhBLTFUaUYtX1FmWGhHaVRSb1R6V0ZfY2k3MzAtMk1SOHNob2ZqNzBMNVpjQU00anZRU18zSVJOT1JYNVE1a0JQeEZFUzAyWHlrNHN1Si1tYktTUktjaXJuaWhYaWpBQjdCbnFhb0pvWGtFMmkzUEtlbk1iaXd0RWlIbmZzR0xMcUlwZmxWM1BmdEZhZQ?oc=5",
@@ -505,7 +436,7 @@
       "published": "2026-10-05T18:04:23+00:00"
     },
     {
-      "n": 12,
+      "n": 5,
       "title": "Schneider Electric to buy US software maker PTC for $22.6bn in cash",
       "source": "The Next Web",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGQWNldGdZTVRlMXVfN0ZpNFMxdzE2YUpOZGt0aTMydWdLU2lha2VNckdsU3VkQUdfdEJZSGx1VUlCdXctNFFKM3ptTTNmUkdrTThXZThoTmo1OUxNV2FSdFpOZ0VBaERR?oc=5",
@@ -513,7 +444,7 @@
       "published": "2026-10-05T17:26:57+00:00"
     },
     {
-      "n": 13,
+      "n": 6,
       "title": "Schneider Electric to Buy PTC, Expanding Industrial AI",
       "source": "Mexico Business News",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX0RqUG9MNlA1REdNM2tHQkQwYVEzUlF4bVJSekdNbXJnbVFLcHBwTFdEZXhvVlRSY3U5dDR3ODhhN2dQU2xTZGhwV3Z1eWNpLV9CY2pNd2E3VVFPUFJlZm80Tld4SGp3VGZ6eUNUcXpVYmZRM2ktQXZNcl9rMm1MVkdXVEszZGlQRTU5OGVyMUNjVXhj?oc=5",
@@ -521,7 +452,15 @@
       "published": "2026-10-05T17:04:43+00:00"
     },
     {
-      "n": 14,
+      "n": 7,
+      "title": "Schneider Electric Agrees to Acquire PTC in $22.6 Billion Deal",
+      "source": "Межа. Новини України.",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE52eEFYSHV4ODFYR09ScExYOEFLQ0R4MU0yVWNTTThYNnZBNVF1aU04X3JaM2p4MjlWMWQ5SlRVQ2ctekpNWnptV2VVV0JEUlhMQVg0aHpDVE5FT0w4elRZYWVrNnQ0ZHV0Zi1pajJvUQ?oc=5",
+      "snippet": "Межа. Новини України.",
+      "published": "2026-10-05T15:49:22+00:00"
+    },
+    {
+      "n": 8,
       "title": "Schneider Electric to Acquire PTC for $22.6 Billion in Cash Deal",
       "source": "Global Banking & Finance Review",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVnlpb3h5d0lPN3owaV90QVB1NWM1Q2lxd3AtcHFiM2tVSnUyYlVLSDBGQlNjN215VUVDaUlJcnZuajdpQUs3b3IwVkRfaUxIOEp4QUQzVVp4Zmc4UTByLUxhOFJJY3FoQWpfNEFVN3FyclBfdHVlMmZtaVlJTVlHdTlIaDNtaHpjRGc0Z0g2VUFodU4wZk9GSnV3?oc=5",
@@ -529,31 +468,7 @@
       "published": "2026-10-05T15:14:57+00:00"
     },
     {
-      "n": 15,
-      "title": "Schneider Electric is buying industrial software maker PTC in a $22.6 billion deal",
-      "source": "qz.com",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB3V2NiMFhLcUNjQzBZYjRzNklYZXdxTnVQQzVxa0FMVVc2UkUySngzdDF2elRNSWdDMmY1Z1p0OEs3OVBjTDh3MHRwYm5zeFhNTTdnd1JITGZ0c2owU0pFcE9BaGJiaXNBd1FqclN6bWVMNE95ZTBuZXZ3?oc=5",
-      "snippet": "qz.com",
-      "published": "2026-10-05T14:49:46+00:00"
-    },
-    {
-      "n": 16,
-      "title": "Schneider Electric to Acquire PTC in $22.6B Industrial Software Deal",
-      "source": "Modern Distribution Management",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTHcyazRDRE0wV2tiV1pPb2ZJazV2RXBvMUhKVURKNmhfSlY4NVJyOEFuWExQWWIxZHhwZFA0RFlhbHNJaFl2UEFydGpqRzRnMmxPeHNlUUlLY0FXQkFEV0lfSTRrdmN2TWM3SjhlLUJ2OTl1a2ZFaUxWVEE5LVE2UEZEVlhXZzNld05HNWhhamhRcmQ0RVdPMUR4bU9YY0Z4Y2xUTVJjSFJjYWRFbG9ZVV9HNzV3Y3prWVZkR2pDYWppc29ReS1F?oc=5",
-      "snippet": "Modern Distribution Management",
-      "published": "2026-10-05T14:17:02+00:00"
-    },
-    {
-      "n": 17,
-      "title": "Schneider Electric Agrees to Acquire PTC in $22.6 Billion Deal",
-      "source": "mezha.net",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE52eEFYSHV4ODFYR09ScExYOEFLQ0R4MU0yVWNTTThYNnZBNVF1aU04X3JaM2p4MjlWMWQ5SlRVQ2ctekpNWnptV2VVV0JEUlhMQVg0aHpDVE5FT0w4elRZYWVrNnQ0ZHV0Zi1pajJvUQ?oc=5",
-      "snippet": "mezha.net",
-      "published": "2026-10-05T15:49:22+00:00"
-    },
-    {
-      "n": 18,
+      "n": 9,
       "title": "Schneider Electric agrees to acquire PTC for $22.6 billion — Channel NewsAsia",
       "source": "UA.NEWS",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMS02ZkJYckVUYTFjYkttMHhFTURzMzNDVlVpbGZfNkNLSkdDdmx1UHpJREEtcUdfY2pDRTFFUDQ2RmhlQnpfck1RTWd1TFVlMzdVcXVlaFNDQllIeURNcTVMcVU1UmhEUzVQUEVUTWVLbDRiRGdROGNYLXU5blNVT3E2YUZxX2N6dVBtR29nNEk4RjJZbHd1dUgzSW5rcTA?oc=5",
@@ -561,7 +476,7 @@
       "published": "2026-10-05T06:03:24+00:00"
     },
     {
-      "n": 19,
+      "n": 10,
       "title": "Schneider Electric signs agreement to acquire PTC for approximately 22 billion euros and plans a pause in share buybacks",
       "source": "Ideal Investisseur",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMXZLaUpuaFRyR0xLUHh1RkszQnZ0WkswMnNTXzctTmlKVnpfQ2k2SEpDNTNld19obWJaRUNaVEtHZjdWbWJFQVY0NnpXZ3dHM29qWnJDaFF0SDVhY01LNDk1eDMyR0F1U1JqTkxQSVBwODFkbVE5bTZSTTFYclU4VmMtc0NWWndBWkxLR1ZfNnZoSF9VUW1MYWh5VVNadFNZekN4ODY4N09iYnMtY1FOOUd1SmVmLXpqZXNaby1NbUhOcTkxQk9QYmZFbHowbUs5YlJENmNlMUdsZTZDS29iM0VReW1xcU9nSXFad3RZTEkxWWpQZEhVUkZxbVJ3R3ZxVklrak9sMVJ2TkE?oc=5",
@@ -569,7 +484,7 @@
       "published": "2026-10-05T07:43:00+00:00"
     },
     {
-      "n": 20,
+      "n": 11,
       "title": "Schneider Electric acquires PTC for 22.6 billion",
       "source": "Techzine Global",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLUVxYWNzRk9aZUZSTkE1VHpUM1N4dnRPQ0NLX0c0dzFfOWtsUW9tWjNVMW5FajJma1owVEV3NWJXbUJ4d1p0cDhpMUlQb1A3c2JpREMyLVFpRzJvbTBJOE54aFl2MExNX3c3a1dMellvQnR2NHFVN1h2N3NRZ1hLVktFU0ZkRW5RQTB0T3EzVzY5OGdjdEE1S18xc3dtSTg?oc=5",
@@ -577,15 +492,79 @@
       "published": "2026-10-05T06:57:00+00:00"
     },
     {
-      "n": 21,
-      "title": "Schneider Electric agrees to buy PTC for $22.6 billion in its largest-ever deal",
-      "source": "mezha.net",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB2Z0IwOTF3d1JIeFlCa0tJRy13Ti16OXA4Zk1YanhMNVM1M1lTTVJCRmM5SzZYNWZUeFd3SFoxWWg0Ni1haFB5NWluMU5kTXdncW16Z2w3dUUwb3F0NTVNX1praTRMUTd4ZklfQ0xBaw?oc=5",
-      "snippet": "mezha.net",
-      "published": "2026-10-05T09:49:13+00:00"
+      "n": 12,
+      "title": "C.H. Robinson to acquire freight broker RXO for $5.8 billion",
+      "source": "qz.com",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFSFZVeVFmelBRRWRXeGFDUER2U3VwdTBSMEJpemhuc0E4NEw3WENIQTBScDBFOENHbGtMcXB2YXpyRGg3UGF2c3hjY1pzbVdtcnpWQ1lVU0VXUHp1bXlaRzVLMHh1Ymh5OS1JUWNndw?oc=5",
+      "snippet": "qz.com",
+      "published": "2026-10-05T21:06:36+00:00"
     },
     {
-      "n": 22,
+      "n": 13,
+      "title": "RXO Shares Jump as C.H. Robinson Agrees to $5.8 Billion Acquisition",
+      "source": "finchannel.com",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdmhnMnc4SVZwbk9CaXZvbEMtVU9JYkdwdTRjQkJMVHE3V1UwQ1F4ck00M3VGLWFPZ09xUHZNdThsREhMb2FIdzhibUVuNUpnSWh5S0o1akcwY1BRZE1WRFNmS2ZReG5yYXJqVlliYldYVzlsR3hicFFHYzVibC0zYTRVN0E3MkdsdUxhWGZwLWpqcEpoc0FjY2Q1UVc1RE9TZ2hiLVhIYjlmTWd4dXBpN3VJTGRwQjRvd1phUndSeG1IQ2hqaWVaZw?oc=5",
+      "snippet": "finchannel.com",
+      "published": "2026-10-05T19:54:56+00:00"
+    },
+    {
+      "n": 14,
+      "title": "C.H. Robinson to buy RXO: What could it mean for truckers?",
+      "source": "Land Line Media",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSUR2YVF0WDRaVGZiS1ZNSHhZSDZMdE1fSXpHRzNWYTNJMlhXZ2VMOUZ3V2VJbER2RWlreUIzeTFnUFJ3YXdFZ3NWM05qRmJ3aUxKOS00RFNYdlR4TzdMUHR2cnltU25JaWhwSUVpSTdkSDE2QTRWV2hnT0lhc1cyQ2ZsZXYtUQ?oc=5",
+      "snippet": "Land Line Media",
+      "published": "2026-10-05T18:14:44+00:00"
+    },
+    {
+      "n": 15,
+      "title": "C.H. Robinson agrees to acquire RXO in $5.8 billion cash-and-stock deal",
+      "source": "Logistics Management",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb1pkazFvOGQ0R1ZyUVpfdEdoZEhON2pyMGpzVG5hU2VaSngwMGwwcTQ1bFpnaWdTSVhvVVRIT0MxUGw1SUtqZEZ0c3FBS1ZXMEJiSTVDMzJ4Ui1RRW5iU0VqdHFjc1FiQjVINXphdUZpMThFMVhYZElBTFlLOFBrdk85ZXE0VWF3RnNRaXctWi1CYlNLckZwVkhhbm1ZVkhFQXJ4dHBmUzVQdlE?oc=5",
+      "snippet": "Logistics Management",
+      "published": "2026-10-05T17:28:49+00:00"
+    },
+    {
+      "n": 16,
+      "title": "C.H. Robinson to Acquire RXO in $5.8 Billion Logistics Deal",
+      "source": "citybiz",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdEN5V1BxczVpTVppVjMycWUySTJES0swRUNHWkVSVThBMFJVR3NBSE9wLUZfNWY5Ml84VHVrWGttSUVseTRmc0VydUJ3enZDaWpJMERLWE5INzZ4bUZZSGRzN2c3X0dPbjN2X1F1Um53NFdfREV2VmFXanFYZ202dG01REp0Rkx1ZkRHeGkxclpHUHRGN0x3WTNaa0Y?oc=5",
+      "snippet": "citybiz",
+      "published": "2026-10-05T16:38:47+00:00"
+    },
+    {
+      "n": 17,
+      "title": "C.H. Robinson Acquires RXO in $5.8 Billion Deal",
+      "source": "grafa.com",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUlBTHpXVHllVWpaSFoya1ZaRU5LMUpVSktTYzJGeDN2R29mbHFIRmpwbXN0dG9KUk5iM3A2bjF5RHZMUUF4eWdtUHBMVDY0d2d0MENqSlZhMGhSNE83dXR0RlFfUzVzRFpkcXdMX2ZMVENTdjUwZHRuOVl1amtYZHdvZEZIUQ?oc=5",
+      "snippet": "grafa.com",
+      "published": "2026-10-05T15:45:00+00:00"
+    },
+    {
+      "n": 18,
+      "title": "C.H. Robinson to Acquire RXO in $5.8B Logistics Deal",
+      "source": "Modern Distribution Management",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMEFZR3ZMcFFTYTlfb0hCQXlKYVBOUnJLbkludW5tdnBNS1FrcWRtcXlLd1R0dDR6c0t0cmVmWDRBMWtwdVBRUE5ya01oNUlEZ2l3VlVqeDIyMlFVTjJFY0xObEI1bTlKZU9jTzVhVFF6V0VOOWJkSGtzTUxlTTJrNjVna0JQQmdDQmw5Qlk0RHdmUi1VZnRYUy1wb2oxZw?oc=5",
+      "snippet": "Modern Distribution Management",
+      "published": "2026-10-05T14:41:36+00:00"
+    },
+    {
+      "n": 19,
+      "title": "C.H. Robinson to Acquire RXO in $5.8 Billion Logistics Mega-Deal",
+      "source": "finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fTWEzSmRYc1NNUHUwWll0aUg5STNXRnplUjc2b0E3UHBBVExoTnNpNXZ5SW40MXFNOWdiYVJtajJ1ek5IbEVzS0pMTXhjNU9uV0d5NjdCN0U3WE11TjhjZl9tYThwTjNZTWk2R1BQZkRCOU5OM0E?oc=5",
+      "snippet": "finance.biggo.com",
+      "published": "2026-10-05T14:35:00+00:00"
+    },
+    {
+      "n": 20,
+      "title": "Curaleaf increases price for Aurora Cannabis hostile takeover bid",
+      "source": "MJBizDaily",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZmRjVjA0T3otOTJJcHQ2em9nMzlnc21BWjlaWjF0djlCQ3cxZEJDZElIcERxNjh1dkZwa29LQmlJX0wzTUE3REZEVHQ5d0Z0cmF3ZHlUYXByb09tWFdoV20tZVJvYnc3VU9PeVpvZnBwZXdjNEVxS2hfVWJkSEZOUnJHLUR2N1ZPSEluUGVQU28xdGRWZllRcDctdlF3LTJJUnhj?oc=5",
+      "snippet": "MJBizDaily",
+      "published": "2026-10-06T01:55:38+00:00"
+    },
+    {
+      "n": 21,
       "title": "Curaleaf Sweetens Aurora Cannabis Takeover Bid to $5 a Share",
       "source": "nai500.com",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGVfRlZxTkFBWlhuTUlRZnhQS2FrYXpKSGZkalZEZnhZbFNTWkRHR2hHdlVHcHFHRlJMRE10ODJqWWRTeUVXM3dQQ1Y2LS0zWkZybXFkd2xpbXY3b1FwTndtM2FySmxucVJWcHhYTzVHQmpmdUczelpVVlJPNnk3dVlxX2g3Y2I5VmNqT0w3eGJHM3BGVzJB?oc=5",
@@ -593,7 +572,7 @@
       "published": "2026-10-06T00:48:09+00:00"
     },
     {
-      "n": 23,
+      "n": 22,
       "title": "Curaleaf sweetens Aurora Cannabis takeover offer after past rejection",
       "source": "globalnews.ca",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeV9MQnZnbDVVaGVvYjNpN3RZZlc1MHVzTEdnMmxYRE5lZ2hWbmxsbkt5RHJuUFlpVldHYkVtX0xzeGJLRzU1X2RjX2tjalpLQkZ0UEtCQk5tSncyNk1FX3kwTFVNV1ZORzNGRGw3Mjk2ck55VmRjWEkyNG5iV3ZBLWxOVmtGOWZNNWpmbGttaVo5UQ?oc=5",
@@ -601,7 +580,7 @@
       "published": "2026-10-05T23:47:54+00:00"
     },
     {
-      "n": 24,
+      "n": 23,
       "title": "Curaleaf Enhances Offer to Acquire Aurora Cannabis in Takeover Bid",
       "source": "Cannabis Business Times",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOElmb2E0Smx1dG5JNDI3UWVEbThSRlJlY0NmVllnUTFOaTlNQktUamlZOVNhRFBoYmplc0pWTURsRTNTajhnSWVkNEcweGhzLTN6UFZ3RkJJdno0NU5pN2wxWVdHUWdFYnpGS0NMWXVXS0lnX2U5SnhOSnJTYy1DSU1lU0ZUMDNTS1c0VDdNclVFS0JVTFhSdnNuMmlnTFpaU2RSVEVmSlBLdW1wOXBZTVZKUVRveW5ZTkt3RFhqMWxxTk5Db0J6WkpKcm1CT3hjc0hTekxmRmo5QUJJUzRCY2lkcXplQmtjWHFuY2dLMy1iUHhvQTdrY0EwOFlFTFE?oc=5",
@@ -609,15 +588,7 @@
       "published": "2026-10-05T23:33:23+00:00"
     },
     {
-      "n": 25,
-      "title": "Curaleaf increases price for Aurora Cannabis hostile takeover bid",
-      "source": "MJBizDaily",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZmRjVjA0T3otOTJJcHQ2em9nMzlnc21BWjlaWjF0djlCQ3cxZEJDZElIcERxNjh1dkZwa29LQmlJX0wzTUE3REZEVHQ5d0Z0cmF3ZHlUYXByb09tWFdoV20tZVJvYnc3VU9PeVpvZnBwZXdjNEVxS2hfVWJkSEZOUnJHLUR2N1ZPSEluUGVQU28xdGRWZllRcDctdlF3LTJJUnhj?oc=5",
-      "snippet": "MJBizDaily",
-      "published": "2026-10-05T23:08:59+00:00"
-    },
-    {
-      "n": 26,
+      "n": 24,
       "title": "Curaleaf Sweetens the Deal to Acquire Aurora Cannabis by 25%",
       "source": "Cannabis Equipment News",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU0k4NE5sU0ZlVkZLX2pLSjUtRElmZVVhcWg5U0xodkpmZkRMZ0dlbGE5bkdUZEw5VXhJTHRGckdPMW1PaXhaZjhOS1pJZWVXZmVBY0NYQmNIQ05WX3d1STU1elVzNi1uRXdINHhxSTVLTzhONUpVMHpEOFNxOC1hQnNOVGNXV2xhZ3NtdmY5VjBwSlBybjZNLVJFUF9IN2VGV05yS2JSa3Y5QzZmb2N3angxN3QxMEU?oc=5",
@@ -625,7 +596,7 @@
       "published": "2026-10-05T19:45:24+00:00"
     },
     {
-      "n": 27,
+      "n": 25,
       "title": "Curaleaf sweetens offer to buy rival Aurora Cannabis",
       "source": "The Globe and Mail",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3MxNERXS1BJS1k5WjlSMVhXR044X25MNmVXTkF0MW03YTlISkNQUm9uY19ZTDNlYmJuamw0WS1IR01kaUFqYUo2aXZHbC1DYW80aHJnU1ZuZFVMNEZqUTUxdWE3NWtOeWhGQXg5Nk9YSHUzSGxFdFl6TFpyTHZHdlZRdlMxbHdCZXB3MGNIQXJZaFk?oc=5",
@@ -633,7 +604,7 @@
       "published": "2026-10-05T14:31:12+00:00"
     },
     {
-      "n": 28,
+      "n": 26,
       "title": "Curaleaf raises Aurora Cannabis takeover bid to $5 per share",
       "source": "Investing.com",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQTRVbDRXVHZUcEY1TFJrUkZELTJEQVl1TkNBdkhjV0I2MDFoR0pPaUdaSXZBQUdNRDRVeWZUbUdXY2tKUlhfRzdkQnRrT0p0aGMzTUdXaUhmRnhwVUNZYmF2ZlpEejVnbEdQMUg3b3dCVzJWOWpFZ2tSOWtsUFZWdEVDeVdLZ08yU1ZxR0NwZFNKcHZsM1dybTh3WVZ0RnpudTdWZ1BmQi1ZdGhkMHRpZ0tKeHRSQUU?oc=5",
@@ -641,7 +612,7 @@
       "published": "2026-10-05T13:55:30+00:00"
     },
     {
-      "n": 29,
+      "n": 27,
       "title": "Curaleaf sweetens takeover offer for Edmonton's Aurora Cannabis",
       "source": "cbc.ca",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaGZyaVZmZllLZS1GR0RyMVZVeXBJXzlkWWgxQnM5aTVnbFdrOC0wbGxJb3FueDhXT0wtblJtRkRSS2g3Z2Z2U2pObFhBWVFDdDRmUVhkbkdqY0xqMnB3cnYyX05yanBfZ2JuRGRiWTVZS1lNTnltQnNKTldGNXM4V0tsbE1tRjg?oc=5",
@@ -649,7 +620,7 @@
       "published": "2026-10-05T19:47:27+00:00"
     },
     {
-      "n": 30,
+      "n": 28,
       "title": "Cenovus to acquire Athabasca Oil in C$5.7-billion deal",
       "source": "worldoil.com",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYlFnUThLZlJfUFVPdElHc3RQSkpyQ1BLM3NOczBWTjIyYmNaX00yMTZDeDA1b21BMVF4dkR4M1BNVzNIS2FYdU5tem1HUERLMTZBWmxnVzk0LXI2ZW5jb3AwUmFjT3NkWVluZUk2YklxRGhxbEVTTm5hRW5yZko3cTVwVUx1ZUtCQjRlcE13SGV4amg5dC05SkRfQQ?oc=5",
@@ -657,15 +628,15 @@
       "published": "2026-10-05T18:35:36+00:00"
     },
     {
-      "n": 31,
+      "n": 29,
       "title": "Canada's Cenovus strike $4 billion deal to buy Athabasca Oil, expand production",
-      "source": "reuters.com",
+      "source": "Reuters",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQV2tmcUdIbFdVNWs0TWo1aHlpMU9FRW44OHVDTUx1NEM4LTV4bWZ4Z2MxcDRmRkNPaXVfMFZNTDFaNVJPM21BcEJNb1VyWnY5cEM0Q0gwNC1ZeUxnUTRucThjVmJkZlRMUWs3WDQxc09uOXg2TWg1RndlRjhKNW12NUJOYmZ2ZUxhV2VIYW9iX2VNUmh4eFk0ZDRVWk5vSUFFbGRsQld5bnVmMDBW?oc=5",
-      "snippet": "reuters.com",
+      "snippet": "Reuters",
       "published": "2026-10-05T17:55:43+00:00"
     },
     {
-      "n": 32,
+      "n": 30,
       "title": "Cenovus Energy Agrees to Acquire Athabasca Oil in $4 Billion Deal",
       "source": "finance.biggo.com",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5vb0prX2FhanpPQ0pZR2VPU3RDT1FwenhuTDdxaG9JS3hocXoxM0RxTXNvb1dwdzJoQWphOE9vUk1rc2l6Q2hSanFIMmhiYnJGYXRiMDN2cHBZNHBzaHRQUWxSRmtPRHVPVV85eGx5YVdVV2I5WFE?oc=5",
@@ -673,7 +644,7 @@
       "published": "2026-10-05T13:25:00+00:00"
     },
     {
-      "n": 33,
+      "n": 31,
       "title": "Cenovus Energy to Acquire Athabasca Oil in $4 Billion Deal",
       "source": "Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTDRNM3BrcTdZbXpyQkQteDljTGZSWENUN0s5MlZkNXhud25ieDd4djZmZ2lENTNiVEpHZXZ6YjY2SGk2U3ZBWV9FaFJWc3k1Y212U0o4LWg0SU1lTXhaT1hIdEZELTdNY3NoU1o2ZGdhZTN5RGMzN3JfUkw2UjhjcFJQRGFGcTQ4empWcUxoSkk2V0hma05vZA?oc=5",
@@ -681,7 +652,7 @@
       "published": "2026-10-05T12:54:24+00:00"
     },
     {
-      "n": 34,
+      "n": 32,
       "title": "Cenovus Energy Agrees to Acquire Athabasca Oil in CA$5.7 Billion Deal",
       "source": "marketscreener.com",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOblhtOEtORGppT1pMSWhacTMxeTBqbGppaEU2QWZNbTJYb214RGZaTVpfMW5SLXBtWDhWUTVMR0V2TjVsM1FXTjJGLWc0VVExNTJmZWhHdkVfc0Z0VmJhaGs4Z3kxR0dydmgxUjQxaVlrTXFESlJ2MFV0LS1hMjgxSUNudnlwWUYzSkVNeXBhQ1lteTJrUzQtZmZvLWx5VWlsZVNjSFpMOWZ5LXNUd0VjdmdBWm1EdTdSbXZZQllXcw?oc=5",
@@ -689,7 +660,7 @@
       "published": "2026-10-05T10:52:30+00:00"
     },
     {
-      "n": 35,
+      "n": 33,
       "title": "Athabasca Oil Announces Agreement to be Acquired by Cenovus Energy",
       "source": "GlobeNewswire",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcnR1dmZRSGhWR2FmQ3BUS19WSWxtenpiNVBwbnRiZjNVMVRQWEhpTm1MV3lzeVlQTTY1cHN2THNoU2lPbGRyM0JxMDAzSWZlU3dlVHVsLVFVTDFYNFJWSUpvejNkY1JFLTNwRnZqOWxXd0NrV09rZXM4ZXMxT3Ftc29QVVRuVUszVjBoUGJMQXRXWHBBYTRETlVwTUsxc3pJQ1R4MTVwQ0JGT0Z2Z2xpY3p1S3ZDdnhMUUNJbkZyX2NHc0VQR0JZQzBNaElrS0I5X0hOaA?oc=5",
@@ -697,7 +668,7 @@
       "published": "2026-10-05T10:00:00+00:00"
     },
     {
-      "n": 36,
+      "n": 34,
       "title": "Cenovus to Buy Athabasca Oil at $4 Billion Valuation",
       "source": "Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGJrdVBaei1sZmhhcS12ajNaeG54c1pYbWc5MVJTUWUyNTZHUG8za3RlY3ZFT0lVSk9LX0JhbU9FNXdGaTV5WDVqdnlqRW15akJjMUlsdUxKb01ZMi1nb3hHaWdUNlVwZC1SYjUxNVNsVUhIYWpxV0RnZ0FLSV80bWtNZUtlTGpUcERfdw?oc=5",
@@ -705,12 +676,28 @@
       "published": "2026-10-05T10:48:39+00:00"
     },
     {
-      "n": 37,
+      "n": 35,
       "title": "Basware Finalises Trustpair Acquisition to Combat Global Payment Fraud",
       "source": "FF News",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcmQyYm12a1ItanpVRWd5Y05mQkpqNDB6dExweTRpNE93a203OHA5X0VlYm1Jb3RtbXg2WUdVVHZBWjdzcVVyME83dFVVSDFockdsSTlMbEJVV3pSTXhDTEpNNXdNWjR3YWFndm84cXlVMHhPd3kwTzRzRTI3V2U1UVB1dDB1eWxLUmJsbDZOWnlFMmc?oc=5",
       "snippet": "FF News",
       "published": "2026-10-05T22:03:04+00:00"
+    },
+    {
+      "n": 36,
+      "title": "Basware completes acquisition of Trustpair",
+      "source": "FinTech Global",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaVlFSEhCQTY2ekQ4US1sLWJDQVFWd2tndXJtTHF5d3RtTHUydTh0TGVnVlNNZEN2M28tci1wMWdqd2dfOVNJWjRtRHlLNXpyTFQ4Vm50WC1mYk41MGJTYVZ4Q21USjUyNVdZSDNtelZ5NGpta1I4blZicUNLclBVemdSOA?oc=5",
+      "snippet": "FinTech Global",
+      "published": "2026-10-05T15:42:13+00:00"
+    },
+    {
+      "n": 37,
+      "title": "Basware Completes Acquisition of Trustpair, Strengthening Financial Integrity from Invoice to Payment",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTXlOQW9MUVpxZ3d0aU1DSHc2ajFhc1kzUDUyRnBWMC1QYUdyaFZ2NF9YeXg4VXFMNUd6M2dzQjZMRmFMQm8wbW9aemhKRzZkWjhvaTFreURWcGdRVW1xQzdVWlIxSEhoT0RSWDlaeF9Tay0tNW1YNzZTSURfMHFXbFltc0xmY2syX0F2ZW9TbU42WTg2LW5RLUZ3Rk0tNWFyZVFIdWF0Ty1hRjg0NHFocDlJYXhGbm1WV3FTQTBtOUdVMHQxUVI5VHdkNnZoZkRSWHc3Qk1BbTBNZWttM2JwcGJxcXhaMHJLSEwxVUpR?oc=5",
+      "snippet": "Business Wire",
+      "published": "2026-10-05T09:10:00+00:00"
     },
     {
       "n": 38,
@@ -722,70 +709,14 @@
     },
     {
       "n": 39,
-      "title": "Basware completes acquisition of Trustpair",
-      "source": "FinTech Global",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaVlFSEhCQTY2ekQ4US1sLWJDQVFWd2tndXJtTHF5d3RtTHUydTh0TGVnVlNNZEN2M28tci1wMWdqd2dfOVNJWjRtRHlLNXpyTFQ4Vm50WC1mYk41MGJTYVZ4Q21USjUyNVdZSDNtelZ5NGpta1I4blZicUNLclBVemdSOA?oc=5",
-      "snippet": "FinTech Global",
-      "published": "2026-10-05T15:42:13+00:00"
+      "title": "McKesson Eyes Option Care Deal With CD&R",
+      "source": "finimize.com",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1lTVY1aG9GenJIVDAyRVdIb1FXSkVHX0wzOGpvV2JzUkh3cWloci0zQ0p5TzNkalFudFMzMHg2STZ0R1UtUWIwNDJjZ2xtQnRHTXR5NGktdUtoaTBGVDJiZDZfNjgzZXN1RThxSE5DOGM4bXFVblE0?oc=5",
+      "snippet": "finimize.com",
+      "published": "2026-10-05T21:01:50+00:00"
     },
     {
       "n": 40,
-      "title": "Basware Completes Acquisition of Trustpair, Strengthening Financial Integrity from Invoice to Payment",
-      "source": "Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTXlOQW9MUVpxZ3d0aU1DSHc2ajFhc1kzUDUyRnBWMC1QYUdyaFZ2NF9YeXg4VXFMNUd6M2dzQjZMRmFMQm8wbW9aemhKRzZkWjhvaTFreURWcGdRVW1xQzdVWlIxSEhoT0RSWDlaeF9Tay0tNW1YNzZTSURfMHFXbFltc0xmY2syX0F2ZW9TbU42WTg2LW5RLUZ3Rk0tNWFyZVFIdWF0Ty1hRjg0NHFocDlJYXhGbm1WV3FTQTBtOUdVMHQxUVI5VHdkNnZoZkRSWHc3Qk1BbTBNZWttM2JwcGJxcXhaMHJLSEwxVUpR?oc=5",
-      "snippet": "Business Wire",
-      "published": "2026-10-05T09:10:00+00:00"
-    },
-    {
-      "n": 41,
-      "title": "Fathom and Bed Bath & Beyond parent scrap merger deal",
-      "source": "Inman Real Estate News",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb0RpM2hXQ3ZnQjJEc3g5TnVYcE9VR2VsRWxTTU1PanMzeUl5bWxUVngzdzItWVRvT1lqU0JoLU9JeGRzVVgyYkFJZVVFazlsTGQzOEdTMVdMUUN0NUJpcFlrZEJ6OWpDcS0wTW56LTBfQWRGN1luYkNjMDZtdGNpVlV6dS04YThrSnNwYw?oc=5",
-      "snippet": "Inman Real Estate News",
-      "published": "2026-10-05T21:39:52+00:00"
-    },
-    {
-      "n": 42,
-      "title": "Bed Bath & Beyond drops $53M deal to acquire Fathom",
-      "source": "RealEstateNews.com",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd3M3NE9Ud2FlM2NGbW1NWEY5SEtGUE8yTGplOUROMm9ic3hzX0FMd3hjSHZfZE83VUFYM0R1TGQtZEd6ejBzQm1mMW9sVnNvTVB2U2htQ2RMYVJoS2E2Sng1RlRZbXhEblZoVWR4TTNBMnJSTWFYRHN1bEhmTW82dno5S0pzN3ZnUGloMndZclZyRE41cFFkZnBB?oc=5",
-      "snippet": "RealEstateNews.com",
-      "published": "2026-10-05T19:34:49+00:00"
-    },
-    {
-      "n": 43,
-      "title": "Fathom, Bed Bath and Beyond terminate merger",
-      "source": "HousingWire",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaDU0Y1lTdUJBci1KOFptRWJkdDRqVzdJWTl6RTFtUUlEbnpNTGJpTjlXM0RxSHVQeDBMeVcyRjBOanhNVzh0WXJhSG9raTZOc3JyMmljcHBKNTJUeExMNDB6TlZQWFdiNnZyRk1qNlN5SjRDWml5TVFGV0p2QmxJVg?oc=5",
-      "snippet": "HousingWire",
-      "published": "2026-10-05T18:25:00+00:00"
-    },
-    {
-      "n": 44,
-      "title": "Fathom, Bed Bath & Beyond Parent Merger Is Called Off",
-      "source": "RISMedia",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUkJ4bUZnRU85Zk5rdl9VanRYWDNZejNBSWVpb0RqTnRCTGlwWjl2clNhTlZ6b1c1N1VFQ2gybVJhWTB6ZVNCQUZWQ3BLRXJCWlJQQTVLVXVndHQ0RU90dHVPVjNPV0wwR1JERDBLUTlXY0xtVnZLZ09jVmF6b2RlaEtmOW9JWi1nSTNVeA?oc=5",
-      "snippet": "RISMedia",
-      "published": "2026-10-05T18:58:14+00:00"
-    },
-    {
-      "n": 45,
-      "title": "Fathom Holdings and Neighborhood Intelligence Announce Mutual Termination of Proposed Merger",
-      "source": "Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMlF5S2NsaWJlbUxZcjBXMGY1TWdyTWRLQ29WdEd6am5wQzg0ZDBXeDJCTWp1Z0V3a3J4QktmQ0V2TjNzOC1jMUY2MGNDUTJzMnd4S1lTM09aUlJqNDhQR3hPSm1lMGc4RHF5ZmFmNXQwSFk3bVFpYS1QZVVZOTdsX1pkbXJlVE0xTmhzbE1NZEVaQl9BNzNwNlRwdWR4eFg1X0E0T1JZWF9aOFp6OFVPT1JiTjMwMXJSRkdwWG5zWFVhRUFva1FaX1BVR3NTVkhobDg4OHNnOHQxOEFVa0trbW05NA?oc=5",
-      "snippet": "Business Wire",
-      "published": "2026-10-05T11:01:00+00:00"
-    },
-    {
-      "n": 46,
-      "title": "Fathom Holdings, Neighborhood Intelligence announce mutual termination of proposed merger",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWTdvQy1NdHJWMHRha24xcmtGdVNvejBhVWhDejh4QXctYlNrWlpQRTFjRjZkZTVXZV80WThURThINFdnWldkLUpib3RYQmloT1lQSHE3RlZYNXYxMkxZeE5WVFRZdjgyTzczLUVSREhfTzlCb3ZBNUFhcDNEdTBRa1JUTExoRkt5bHVqemduMkpxTzJzQUw4ZU8wZDVERGJqQkVfWVc5dWxSMFBrRU5iLWUwNnNQWkd5VUZYWWU3NFV2eFpCcVdzVm1TSnpKTFl3RThRd25RZkNLZHJLZ0l1R0M5dkR0Zw?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-05T11:35:43+00:00"
-    },
-    {
-      "n": 47,
       "title": "McKesson, CD&R near $5 billion-plus deal to buy Option Care, FT reports",
       "source": "Yahoo! Finance Canada",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aenRGX3g2b0I4aGEyZENuWTl1Wi1kMGVjdzgyVjhWOGF6XzVTejRTSzRvNHM3RS1wR1M2M2lQelk5c1VRc3llcm1zTE1yTlBYbnlJM21aLVNUdVVqd0RvTHJDVWdoM3RyUFZZcXZWaDh5TzVMM08ySQ?oc=5",
@@ -793,7 +724,7 @@
       "published": "2026-10-05T20:45:56+00:00"
     },
     {
-      "n": 48,
+      "n": 41,
       "title": "Option Care Health surges 22% on report of $5 billion takeover by McKesson, CD&R",
       "source": "StreetInsider",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPT01TQWJEdTJUWGRuUi1PT2U0eHo0dy13YmtXT1pXQko0d1k2Qkw4a2pwQjZnZnFtWHdfSnBWaENWN2JGUi1KaWUwMGZmczQ4T21XWjBSdzgwNUdWM3NDNWZVWFBoRGdfMFVobDc1LUJuNXZoZWxCTGswTFJVR3lvZk44aXk2M0tiUlhtX2ZHQjRsUUdyMkZhbldFOXZDTDVHZjRodVRtVGFDRmZFY2VaY3R0d1V2YVR1MDEtM1JEV1ZyWVFMU1E4bnlMd3FHamw1Qm5BWmwzeGZuS3F0Y01ZbGJVd1lFUQ?oc=5",
@@ -801,23 +732,7 @@
       "published": "2026-10-05T20:36:01+00:00"
     },
     {
-      "n": 49,
-      "title": "McKesson Eyes Option Care Deal With CD&R",
-      "source": "Finimize",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1lTVY1aG9GenJIVDAyRVdIb1FXSkVHX0wzOGpvV2JzUkh3cWloci0zQ0p5TzNkalFudFMzMHg2STZ0R1UtUWIwNDJjZ2xtQnRHTXR5NGktdUtoaTBGVDJiZDZfNjgzZXN1RThxSE5DOGM4bXFVblE0?oc=5",
-      "snippet": "Finimize",
-      "published": "2026-10-05T21:01:50+00:00"
-    },
-    {
-      "n": 50,
-      "title": "McKesson and CD&R near $5bn-plus deal to buy infusion services provider",
-      "source": "Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYVU4a0NOelNfRmlBeVNlbFBVUWloMG5MZXBRN01sU1BtNVh0UWZGbGZiaVpyWmNUNThCMHlsYm9aUWNTQTZhRHhmNzRXVUNPOFVmVm42ZnlLejBDVXVtVDdGY0IxTGNGdUU2MnZOUk1kU0lhS2hNS3NoQWkxaC1oYzJWV0g?oc=5",
-      "snippet": "Financial Times",
-      "published": "2026-10-05T20:01:03+00:00"
-    },
-    {
-      "n": 51,
+      "n": 42,
       "title": "Report of Possible $5 Billion Takeover Bid Sends Option Care Health Stock Higher",
       "source": "Barron's",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa2xrZ3lJY3dDbUdTQUxsUWE2LXNCZ2p0UGJacE5CenphbzBDNmtVWDhGaWczMjJIb2FfMTNpY19mLVZRS2w0SjU3SlJfbkVFM3dXTmRKZWpWdzU4YmJZOEg5YlBPUlBBaS0wZU9Da1AyZm0tZUl0dmE2cGNvekNWUlAwYzhOTXdXbmVfWmZxZWlzN0doN3c?oc=5",
@@ -825,7 +740,63 @@
       "published": "2026-10-05T21:16:00+00:00"
     },
     {
-      "n": 52,
+      "n": 43,
+      "title": "McKesson and CD&R near $5bn-plus deal to buy infusion services provider",
+      "source": "Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYVU4a0NOelNfRmlBeVNlbFBVUWloMG5MZXBRN01sU1BtNVh0UWZGbGZiaVpyWmNUNThCMHlsYm9aUWNTQTZhRHhmNzRXVUNPOFVmVm42ZnlLejBDVXVtVDdGY0IxTGNGdUU2MnZOUk1kU0lhS2hNS3NoQWkxaC1oYzJWV0g?oc=5",
+      "snippet": "Financial Times",
+      "published": "2026-10-05T20:01:03+00:00"
+    },
+    {
+      "n": 44,
+      "title": "Bed Bath & Beyond drops $53M deal to acquire Fathom",
+      "source": "RealEstateNews.com",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd3M3NE9Ud2FlM2NGbW1NWEY5SEtGUE8yTGplOUROMm9ic3hzX0FMd3hjSHZfZE83VUFYM0R1TGQtZEd6ejBzQm1mMW9sVnNvTVB2U2htQ2RMYVJoS2E2Sng1RlRZbXhEblZoVWR4TTNBMnJSTWFYRHN1bEhmTW82dno5S0pzN3ZnUGloMndZclZyRE41cFFkZnBB?oc=5",
+      "snippet": "RealEstateNews.com",
+      "published": "2026-10-05T19:34:49+00:00"
+    },
+    {
+      "n": 45,
+      "title": "Fathom, Bed Bath & Beyond Parent Merger Is Called Off",
+      "source": "rismedia.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUkJ4bUZnRU85Zk5rdl9VanRYWDNZejNBSWVpb0RqTnRCTGlwWjl2clNhTlZ6b1c1N1VFQ2gybVJhWTB6ZVNCQUZWQ3BLRXJCWlJQQTVLVXVndHQ0RU90dHVPVjNPV0wwR1JERDBLUTlXY0xtVnZLZ09jVmF6b2RlaEtmOW9JWi1nSTNVeA?oc=5",
+      "snippet": "rismedia.com",
+      "published": "2026-10-05T18:58:14+00:00"
+    },
+    {
+      "n": 46,
+      "title": "Fathom and Bed Bath & Beyond parent scrap merger deal",
+      "source": "Inman Real Estate News",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb0RpM2hXQ3ZnQjJEc3g5TnVYcE9VR2VsRWxTTU1PanMzeUl5bWxUVngzdzItWVRvT1lqU0JoLU9JeGRzVVgyYkFJZVVFazlsTGQzOEdTMVdMUUN0NUJpcFlrZEJ6OWpDcS0wTW56LTBfQWRGN1luYkNjMDZtdGNpVlV6dS04YThrSnNwYw?oc=5",
+      "snippet": "Inman Real Estate News",
+      "published": "2026-10-05T21:39:52+00:00"
+    },
+    {
+      "n": 47,
+      "title": "Fathom, Bed Bath and Beyond terminate merger",
+      "source": "HousingWire",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaDU0Y1lTdUJBci1KOFptRWJkdDRqVzdJWTl6RTFtUUlEbnpNTGJpTjlXM0RxSHVQeDBMeVcyRjBOanhNVzh0WXJhSG9raTZOc3JyMmljcHBKNTJUeExMNDB6TlZQWFdiNnZyRk1qNlN5SjRDWml5TVFGV0p2QmxJVg?oc=5",
+      "snippet": "HousingWire",
+      "published": "2026-10-05T18:25:00+00:00"
+    },
+    {
+      "n": 48,
+      "title": "Fathom Holdings and Neighborhood Intelligence Announce Mutual Termination of Proposed Merger",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMlF5S2NsaWJlbUxZcjBXMGY1TWdyTWRLQ29WdEd6am5wQzg0ZDBXeDJCTWp1Z0V3a3J4QktmQ0V2TjNzOC1jMUY2MGNDUTJzMnd4S1lTM09aUlJqNDhQR3hPSm1lMGc4RHF5ZmFmNXQwSFk3bVFpYS1QZVVZOTdsX1pkbXJlVE0xTmhzbE1NZEVaQl9BNzNwNlRwdWR4eFg1X0E0T1JZWF9aOFp6OFVPT1JiTjMwMXJSRkdwWG5zWFVhRUFva1FaX1BVR3NTVkhobDg4OHNnOHQxOEFVa0trbW05NA?oc=5",
+      "snippet": "Business Wire",
+      "published": "2026-10-05T11:01:00+00:00"
+    },
+    {
+      "n": 49,
+      "title": "Fathom Holdings, Neighborhood Intelligence announce mutual termination of proposed merger",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWTdvQy1NdHJWMHRha24xcmtGdVNvejBhVWhDejh4QXctYlNrWlpQRTFjRjZkZTVXZV80WThURThINFdnWldkLUpib3RYQmloT1lQSHE3RlZYNXYxMkxZeE5WVFRZdjgyTzczLUVSREhfTzlCb3ZBNUFhcDNEdTBRa1JUTExoRkt5bHVqemduMkpxTzJzQUw4ZU8wZDVERGJqQkVfWVc5dWxSMFBrRU5iLWUwNnNQWkd5VUZYWWU3NFV2eFpCcVdzVm1TSnpKTFl3RThRd25RZkNLZHJLZ0l1R0M5dkR0Zw?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-05T11:35:43+00:00"
+    },
+    {
+      "n": 50,
       "title": "CMA CGM Group’s $1.4 billion acquisition of FedEx Supply Chain is a done deal",
       "source": "DredgeWire",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMk1zRlpoNC1OWVo1U19TVEw3UlF4OG5SMU5QQjZJN2EzdlhhZlNBNi16dHhkZnNjZWVKejJ0MUgxa2RieDJTUjJ0NzhzYWJQUGs5VUtHYWVTcWUxby1ic3dGeFl1aVpxRnlfRUVYT253NzVmNUMwTnpnMEJNRXljdHQ0M0JER3llOW9yN0NOY2JMQnJzelBzMzhBOVZxZEp6?oc=5",
@@ -833,7 +804,7 @@
       "published": "2026-10-05T18:15:26+00:00"
     },
     {
-      "n": 53,
+      "n": 51,
       "title": "CMA CGM Completes FedEx Supply Chain Deal",
       "source": "Logistics Business",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeEYzNkZBVzVheWhPc1p4SXFFWlJmRnEta2VvOGVNNmQxU2VXalozS2hfVHlmcmNzandabW5oLW5OeURtU3ZLRUVrdVNEWFA4clZ1alBSMk9COWZ5QWtJcVBINnpEQ0lseF83bFVrWTNQbGJ1S1UxS1NzQUlIVXVPX0V2R01DQ3RaRUllcWFLeGpMQUxtTmw2a0xXOA?oc=5",
@@ -841,15 +812,15 @@
       "published": "2026-10-05T14:31:57+00:00"
     },
     {
-      "n": 54,
+      "n": 52,
       "title": "PYPL Stock Jumps 4% — PayPal’s $60.50 Buyout Offer Has Wall Street And Retail On The Same Side",
-      "source": "Stocktwits",
+      "source": "stocktwits.com",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbWpfaldFSVRSZk4yaUJkNHJZa0tUQld4ZVZGMGZQbjdrM1B2YnRnWmVnUDNrZXVQQ1VaQXRsZU5yTlhpeG1OUnJuOWxtdUZjV3N4QkFrWFgtMEFIcEw5aDNQWmJyVVNYTTBBTGd6V3JHSXg2U3J4Mk5IVnFibXhfODdfalA5b0JyMG8wbTFzUUZGZjAzaFNmcFRZVW9OLURNYUJsT2F3WTFFQy0tVWg0M3pQTTR4RnlMZ2RxVVd2RC1aeGhhUUZ5R0d0c0x0cEZ5TkN6NWhQam02M21jcWd1ZUdrZy1LWG52OGc?oc=5",
-      "snippet": "Stocktwits",
+      "snippet": "stocktwits.com",
       "published": "2026-10-06T00:06:20+00:00"
     },
     {
-      "n": 55,
+      "n": 53,
       "title": "Exclusive | Electronic Arts Bondholders Allege Default Following Largest LBO",
       "source": "WSJ",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZnpmM3d6Tjh4SVFKSF9VZ0l0SklwQU5lTmp5MUVSSnBwS0toY3RNdjU0R2thT0d6cVNON1BJaVExTUs3REI0UjgzOUdKcVRZNUZ1ZUZ2aWJZOFNDU1Z2Q1BaZDJOZDQ3bjNwT1ZNNnp2aE5iNlhsSmZYUmJEYlMyVXpfYWszYUk0SElxZmpGcnU2bjMyTFZpck51RGJvaUpIaGpnQ1JNdFBMNXFS?oc=5",
@@ -857,7 +828,7 @@
       "published": "2026-10-05T23:20:38+00:00"
     },
     {
-      "n": 56,
+      "n": 54,
       "title": "Pentair stock completes USD 1.4 billion Taco acquisition",
       "source": "AD HOC NEWS",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZktKQzUwaHBkTmU0cDAwbzdRMUhkLU9lSWVzQlItbVhXaFE1QWdLTUtxeWwxZGF5Sl9iUWNSY1g2YkJXbEo4djBxWjltYkY5RjhPZ01fMGhvemw4bGVtekMzRzBncnRqVGF6N1phaHE5eS1Qd2MtZVV1a3dLQTRuZmZldUd6ZERldFg0THlxVzZFY01UeDczdFZxblhtc1RuTWpLTjEwSFJ5RzZZRHFOd1hGRVh2TXJoWmhv?oc=5",
@@ -865,7 +836,7 @@
       "published": "2026-10-05T21:43:21+00:00"
     },
     {
-      "n": 57,
+      "n": 55,
       "title": "Mobix Labs Acquisition Target SPD Strikes Deal for Rare Earth Company Winner Water",
       "source": "citybiz",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQlNJMG9yaVM4U3BjN3JONHM0WTYwZVcwenB0YlUxYWFldXRzcEVOV0phU2dHaTVuSHZfU1pqbnpMaHpTbzJ4QTI2SlZ4ellDbzNUUlZrNHRxTFlLaUpXOFJnV29PcDNkanhHY3VGVEVqT2JZb2tENGlkNjI1NVQzWmtLcmhOVFNMZXUya1pvMVR3cF9iV1N2OTNHUXR1WU9ZalgyVkM3ZGpzN1FYS3ZXWVlIRHZRNEZpUGdabk1B?oc=5",
@@ -873,7 +844,7 @@
       "published": "2026-10-05T21:11:13+00:00"
     },
     {
-      "n": 58,
+      "n": 56,
       "title": "Exclusive | KKR Strikes Deal to Buy Private-Capital Fund Administrator Gen II",
       "source": "WSJ",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRWZudVNxdXFZQktZalJqQXRUS1NDSWdhVk1NTFFqa1pzUlBrVDlrUTdVbnpPTUxYWHJwMVR4YnN4bktxeGhvNm9JRGFDVkYzWVJkNDVHbEZ3QkZCVklZWkdHbTlLVG5EUG0yRmY4dDBoTWdBTHhQeWVGcVk0aDFLUy1aNzdua09BUm83VVZPaTR5U1ZZaVc2YVI1c2ZkU3hCNXFnT3Y5SjJOR2x6Ukg0ZnNn?oc=5",
@@ -881,7 +852,7 @@
       "published": "2026-10-05T21:09:00+00:00"
     },
     {
-      "n": 59,
+      "n": 57,
       "title": "Defense, data centers and AI driving private equity manufacturing investments",
       "source": "Manufacturing Dive",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUTdXUFFENWoyU3ItOEhnNWdjX2FsUGlaQV9qa3lYUlRtOFhVV3dZTm5CNkppZUI3aTdDQm9fU1huemtMVnd6Yi1iQnZlZUtaNHlNRFBUSW1POENuRkRfdEJSQVFHbGh2SDR5d1dVZkhRT2JrMjU1RTQyckwzOHRQNFlCWllwZGdWeHFlS0ZNZ0xuTXp2d1B4YjZMZE91anA1b2JVQmNucFVrNkxzSHQ5VHFUdVc?oc=5",
@@ -889,7 +860,7 @@
       "published": "2026-10-05T20:59:22+00:00"
     },
     {
-      "n": 60,
+      "n": 58,
       "title": "Old Glory Bank raises $8M, chides Fed over blocked deal",
       "source": "American Banker",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcDBjLUViZjVfWFVIN1pJNVJ1NEt2MTdiOGhoOFpBZUhEWFBzS3dRZGpLRWU1Y2E4Y1hxQm1PU2hnaElwVVJSa1NSWkRzcWQ3THpOcnoxVVFkZFBtaVdoMUdJcE04QWpla3lGUWxPRmI4eDRyQjYtZWFlTzB0NXM1b0Q5V1ZiQUpaU3JGeU5xeF9nOVk?oc=5",
@@ -897,7 +868,7 @@
       "published": "2026-10-05T20:58:00+00:00"
     },
     {
-      "n": 61,
+      "n": 59,
       "title": "OpenAI in $30 Billion Round Talks With UAE Funds, BlackRock",
       "source": "Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTEFudVN0U3NjbUtUYXpkVVZmdWJnU3QxaXhmYXEwVFdsMDg2LV9POGNWMGtQdktuOTZhbmZVNzZKQk05UWwwSjRpYnlDbXpUTnF5Z0VWMXNiMmZJMzFJT1NUaWF0amxob0I1Sm5Ka0Vma3RkUy1OWWwxSk1IUjV1SGRhUWFfOGZhTjkxNTl4bGlBYkR2VjZpMzdBaS1xQ3BuSTA3MGcwSnlnX0xJOEZkWlhR?oc=5",
@@ -910,26 +881,29 @@
     2,
     3,
     4,
-    5,
-    6,
-    7,
     8,
-    9,
-    10,
-    11,
+    12,
+    13,
     14,
     15,
     16,
+    17,
+    18,
+    20,
+    21,
     22,
     23,
     24,
     25,
     26,
     27,
-    28,
+    29,
+    30,
     31,
     32,
     33,
+    35,
+    36,
     37,
     38,
     39,
@@ -937,80 +911,71 @@
     41,
     42,
     43,
-    44,
-    45,
-    46,
-    47,
     48,
     49,
     50,
-    51,
-    52,
-    53,
-    54,
-    55,
-    56
+    51
   ],
   "invalid_citations": [],
-  "example_prompt": "Deal: C.H. Robinson and RXO.\nStage: Announced.\n\nHeadlines:\n[1] qz.com, Oct 05 05:06 PM ET: C.H. Robinson to acquire freight broker RXO for $5.8 billion\n    qz.com\n[2] finchannel.com, Oct 05 03:54 PM ET: RXO Shares Jump as C.H. Robinson Agrees to $5.8 Billion Acquisition\n    finchannel.com\n[3] Land Line Media, Oct 05 02:14 PM ET: C.H. Robinson to buy RXO: What could it mean for truckers?\n    Land Line Media\n[4] Logistics Management, Oct 05 01:28 PM ET: C.H. Robinson agrees to acquire RXO in $5.8 billion cash-and-stock deal\n    Logistics Management\n[5] citybiz, Oct 05 12:38 PM ET: C.H. Robinson to Acquire RXO in $5.8 Billion Logistics Deal\n    citybiz\n[6] grafa.com, Oct 05 11:45 AM ET: C.H. Robinson Acquires RXO in $5.8 Billion Deal\n    grafa.com\n[7] Modern Distribution Management, Oct 05 10:41 AM ET: C.H. Robinson to Acquire RXO in $5.8B Logistics Deal\n    Modern Distribution Management\n[8] finance.biggo.com, Oct 05 10:35 AM ET: C.H. Robinson to Acquire RXO in $5.8 Billion Logistics Mega-Deal\n    finance.biggo.com\n\nWrite the subheading and sentences.",
+  "example_prompt": "Deal: Schneider Electric and PTC.\nStage: Announced.\n\nHeadlines:\n[1] Gulf Business, Oct 05 09:41 PM ET: Schneider Electric to acquire PTC in $22.6bn deal\n    Gulf Business\n[2] Construction Digital, Oct 05 03:16 PM ET: Schneider’s PTC Acquisition to Boost Industrial Intelligence\n    Construction Digital\n[3] PYMNTS.com, Oct 05 02:30 PM ET: Schneider Electric Agrees to Buy PTC in $22.6 Billion Software Deal\n    PYMNTS.com\n[4] Morningstar, Oct 05 02:04 PM ET: Schneider Electric to Buy PTC in French Industrial Giant’s Largest-Ever Acquisition\n    Morningstar\n[5] The Next Web, Oct 05 01:26 PM ET: Schneider Electric to buy US software maker PTC for $22.6bn in cash\n    The Next Web\n[6] Mexico Business News, Oct 05 01:04 PM ET: Schneider Electric to Buy PTC, Expanding Industrial AI\n    Mexico Business News\n[7] Межа. Новини України., Oct 05 11:49 AM ET: Schneider Electric Agrees to Acquire PTC in $22.6 Billion Deal\n    Межа. Новини України.\n[8] Global Banking & Finance Review, Oct 05 11:14 AM ET: Schneider Electric to Acquire PTC for $22.6 Billion in Cash Deal\n    Global Banking & Finance Review\n\nWrite the subheading and sentences.",
   "retrieval": [
-    {
-      "deal": "C.H. Robinson / RXO",
-      "query": "C.H. Robinson RXO acquisition merger deal",
-      "hits": [
-        {
-          "n": 6,
-          "similarity": 0.871
-        },
-        {
-          "n": 4,
-          "similarity": 0.862
-        },
-        {
-          "n": 8,
-          "similarity": 0.856
-        },
-        {
-          "n": 5,
-          "similarity": 0.848
-        },
-        {
-          "n": 2,
-          "similarity": 0.842
-        },
-        {
-          "n": 7,
-          "similarity": 0.836
-        }
-      ]
-    },
     {
       "deal": "Schneider Electric / PTC",
       "query": "Schneider Electric PTC acquisition merger deal",
       "hits": [
         {
-          "n": 14,
+          "n": 8,
           "similarity": 0.881
         },
         {
-          "n": 17,
+          "n": 7,
           "similarity": 0.876
         },
         {
-          "n": 18,
+          "n": 9,
           "similarity": 0.868
         },
         {
-          "n": 19,
+          "n": 1,
+          "similarity": 0.867
+        },
+        {
+          "n": 10,
           "similarity": 0.866
         },
         {
-          "n": 20,
+          "n": 11,
           "similarity": 0.865
+        }
+      ]
+    },
+    {
+      "deal": "C.H. Robinson / RXO",
+      "query": "C.H. Robinson RXO acquisition merger deal",
+      "hits": [
+        {
+          "n": 17,
+          "similarity": 0.871
         },
         {
-          "n": 21,
-          "similarity": 0.853
+          "n": 15,
+          "similarity": 0.862
+        },
+        {
+          "n": 19,
+          "similarity": 0.856
+        },
+        {
+          "n": 16,
+          "similarity": 0.848
+        },
+        {
+          "n": 13,
+          "similarity": 0.842
+        },
+        {
+          "n": 18,
+          "similarity": 0.836
         }
       ]
     },
@@ -1019,27 +984,27 @@
       "query": "Curaleaf Aurora Cannabis acquisition merger deal",
       "hits": [
         {
-          "n": 26,
-          "similarity": 0.854
-        },
-        {
           "n": 24,
           "similarity": 0.854
         },
         {
-          "n": 22,
+          "n": 23,
+          "similarity": 0.854
+        },
+        {
+          "n": 21,
           "similarity": 0.828
         },
         {
-          "n": 28,
+          "n": 26,
           "similarity": 0.825
         },
         {
-          "n": 23,
+          "n": 22,
           "similarity": 0.818
         },
         {
-          "n": 29,
+          "n": 27,
           "similarity": 0.809
         }
       ]
@@ -1049,27 +1014,27 @@
       "query": "Cenovus Athabasca Oil acquisition merger deal",
       "hits": [
         {
-          "n": 32,
+          "n": 30,
           "similarity": 0.888
         },
         {
-          "n": 30,
+          "n": 28,
           "similarity": 0.885
         },
         {
-          "n": 33,
+          "n": 31,
           "similarity": 0.883
         },
         {
-          "n": 34,
+          "n": 32,
           "similarity": 0.88
         },
         {
-          "n": 35,
+          "n": 33,
           "similarity": 0.872
         },
         {
-          "n": 36,
+          "n": 34,
           "similarity": 0.843
         }
       ]
@@ -1079,15 +1044,15 @@
       "query": "Basware Trustpair acquisition merger deal",
       "hits": [
         {
-          "n": 37,
+          "n": 35,
           "similarity": 0.827
         },
         {
-          "n": 39,
+          "n": 36,
           "similarity": 0.82
         },
         {
-          "n": 40,
+          "n": 37,
           "similarity": 0.807
         },
         {
@@ -1097,58 +1062,58 @@
       ]
     },
     {
-      "deal": "Fathom / Bed Bath & Beyond",
-      "query": "Fathom Bed Bath & Beyond acquisition merger deal",
+      "deal": "CD&R / Option Care",
+      "query": "CD&R Option Care acquisition merger deal",
       "hits": [
         {
-          "n": 42,
-          "similarity": 0.854
+          "n": 40,
+          "similarity": 0.766
         },
         {
           "n": 41,
-          "similarity": 0.837
+          "similarity": 0.729
+        },
+        {
+          "n": 42,
+          "similarity": 0.669
+        },
+        {
+          "n": 39,
+          "similarity": 0.666
         },
         {
           "n": 43,
-          "similarity": 0.817
-        },
-        {
-          "n": 44,
-          "similarity": 0.812
-        },
-        {
-          "n": 45,
-          "similarity": 0.722
-        },
-        {
-          "n": 46,
-          "similarity": 0.714
+          "similarity": 0.652
         }
       ]
     },
     {
-      "deal": "McKesson / Option Care",
-      "query": "McKesson Option Care acquisition merger deal",
+      "deal": "Bed Bath & Beyond / Fathom",
+      "query": "Bed Bath & Beyond Fathom acquisition merger deal",
       "hits": [
         {
-          "n": 48,
-          "similarity": 0.769
+          "n": 44,
+          "similarity": 0.876
+        },
+        {
+          "n": 46,
+          "similarity": 0.86
         },
         {
           "n": 47,
-          "similarity": 0.766
+          "similarity": 0.834
+        },
+        {
+          "n": 45,
+          "similarity": 0.833
+        },
+        {
+          "n": 48,
+          "similarity": 0.73
         },
         {
           "n": 49,
-          "similarity": 0.71
-        },
-        {
-          "n": 50,
-          "similarity": 0.67
-        },
-        {
-          "n": 51,
-          "similarity": 0.667
+          "similarity": 0.717
         }
       ]
     },
@@ -1157,21 +1122,21 @@
       "query": "CMA CGM Group FedEx Supply Chain acquisition merger deal",
       "hits": [
         {
-          "n": 52,
+          "n": 50,
           "similarity": 0.903
         },
         {
-          "n": 53,
+          "n": 51,
           "similarity": 0.847
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 182,
-    "headlines_new": 4,
-    "index_size": 187,
-    "deals_found": 26,
+    "headlines_fetched": 183,
+    "headlines_new": 2,
+    "index_size": 189,
+    "deals_found": 27,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19
