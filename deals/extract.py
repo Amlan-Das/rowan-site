@@ -263,18 +263,43 @@ def group_deals(records, headlines, seeds=None):
     return out
 
 
-def rank_deals(groups, limit):
+def _backed(g, headlines):
+    """How many of a deal's headlines have its target right after a buying verb, "to buy Option Care"."""
+    first = re.sub(r"[^\w&.-]", "", (g["target"].split() or [""])[0])
+    if not first:
+        return 0
+    pat = re.compile(r"\b(?:buy\w*|acqui\w*|purchas\w*|takeover of|bid for|offer for|deal for|merge\w* with)\s+(?:\S+\s+){0,2}" + re.escape(first), re.I)
+    return sum(1 for r in g["records"] if pat.search(headlines[r["idx"]]["title"]))
+
+
+def _same_story(g, c, headlines):
+    """One target, or each deal's two companies are named together in the other deal's headlines."""
+    if same_party(g["target"], c["target"]):
+        return True
+    if not headlines:
+        return False
+
+    def names_both(a, b):
+        return any(appears(a["acquirer"], t) and appears(a["target"], t)
+                   for t in (headlines[i]["title"] + " " + headlines[i].get("snippet", "") for i in b["idxs"]))
+    return names_both(g, c) and names_both(c, g)
+
+
+def rank_deals(groups, limit, headlines=None):
     """Pinned deals first, then the best covered of the rest."""
     pinned = [g for g in groups if g["pinned"]]
     rest = [g for g in groups if not g["pinned"] and g["idxs"]]
     rest.sort(key=lambda g: (g["outlets"], len(g["idxs"]), g["latest"]), reverse=True)
-    # A second bidder, or an investor taking a stake, for a company that already has
-    # a deal on the page would only repeat that story, so each target appears once
+    # A second bidder, an investor taking a stake, or the same deal read the other
+    # way round would only repeat a story already on the page. When two groups are
+    # the same story, the one whose headlines say "to buy <target>" is kept.
     chosen = list(pinned)
     for g in rest:
-        if len(chosen) >= limit:
-            break
-        if any(same_party(g["target"], c["target"]) for c in chosen):
+        twin = next((c for c in chosen if _same_story(g, c, headlines)), None)
+        if twin is not None:
+            if not twin["pinned"] and headlines and _backed(g, headlines) > _backed(twin, headlines):
+                chosen[chosen.index(twin)] = g
             continue
-        chosen.append(g)
+        if len(chosen) < limit:
+            chosen.append(g)
     return chosen

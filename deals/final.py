@@ -315,7 +315,7 @@ def build_deals():
     print(f"Reading {len(fresh)} headlines for deals...")
     records, extraction_calls = extract.extract_deals(fresh[:MAX_READ])
     groups = extract.group_deals(records, fresh, load_pins())
-    deals = extract.rank_deals(groups, MAX_DEALS)
+    deals = extract.rank_deals(groups, MAX_DEALS, fresh)
 
     # 4. Retrieve, and 5. Augment
     numberer = Numberer()

@@ -393,3 +393,23 @@ def test_each_target_appears_once():
     groups = [g("C.H. Robinson", "RXO", 9), g("MFN Partners", "RXO", 3), g("Cenovus", "Athabasca Oil", 5)]
     picked = extract.rank_deals(groups, 8)
     assert [d["acquirer"] for d in picked] == ["C.H. Robinson", "Cenovus"]
+
+
+def test_the_same_deal_read_two_ways_is_shown_once():
+    heads = [
+        {"title": "McKesson Eyes Option Care Deal With CD&R", "snippet": "", "source": "Wire", "published": NOW.isoformat()},
+        {"title": "McKesson and CD&R near $5bn-plus deal to buy infusion services provider", "snippet": "", "source": "Wire", "published": NOW.isoformat()},
+        {"title": "McKesson, CD&R near $5 billion-plus deal to buy Option Care, FT reports", "snippet": "", "source": "Wire", "published": NOW.isoformat()},
+        {"title": "Option Care Health surges 22% on report of $5 billion takeover by McKesson, CD&R", "snippet": "", "source": "Wire", "published": NOW.isoformat()},
+        {"title": "Cenovus to buy Athabasca Oil for $4 billion", "snippet": "", "source": "Wire", "published": NOW.isoformat()},
+    ]
+    recs = [
+        {"idx": 0, "acquirer": "CD&R", "target": "McKesson", "stage": "Rumored", "value": ""},
+        {"idx": 1, "acquirer": "CD&R", "target": "McKesson", "stage": "Rumored", "value": ""},
+        {"idx": 2, "acquirer": "McKesson", "target": "Option Care", "stage": "Rumored", "value": ""},
+        {"idx": 3, "acquirer": "McKesson", "target": "Option Care Health", "stage": "Rumored", "value": ""},
+        {"idx": 4, "acquirer": "Cenovus", "target": "Athabasca Oil", "stage": "Announced", "value": ""},
+    ]
+    groups = extract.group_deals(recs, heads)
+    picked = extract.rank_deals(groups, 8, heads)
+    assert sorted((d["acquirer"], d["target"].split()[0]) for d in picked) == [("Cenovus", "Athabasca"), ("McKesson", "Option")]
