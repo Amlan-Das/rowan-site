@@ -117,10 +117,13 @@ def retrieve_for_deal(deal):
     query = f"{deal['acquirer']} {deal['target']} acquisition merger deal"
     hits = store.search(query, k=TOP_K, days=RETRIEVE_DAYS)
     # Any merger headline sounds a bit like this deal to the embedding model, so
-    # keep only the ones that actually name one of the two companies
-    hits = [h for h in hits
-            if extract.appears(deal["acquirer"], h["title"] + " " + h["snippet"])
-            or extract.appears(deal["target"], h["title"] + " " + h["snippet"])]
+    # keep only the ones that actually name the companies. A headline that names
+    # both is the same deal; one that names a single company (a common word like
+    # "Fathom") may be a different deal, so those only fill in when few name both.
+    def names(h, who):
+        return extract.appears(deal[who], h["title"] + " " + h["snippet"])
+    both = [h for h in hits if names(h, "acquirer") and names(h, "target")]
+    hits = both if len(both) >= 2 else [h for h in hits if names(h, "acquirer") or names(h, "target")]
     return query, hits
 
 

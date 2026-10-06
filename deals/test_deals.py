@@ -349,3 +349,28 @@ def test_stage_looks_at_every_headline_gathered_for_the_deal():
     agreed = doc("Fathom agrees to buy Bed Bath parent for $53M", 50)
     assert final.deal_stage([agreed, called_off], "Announced") == "Terminated"        # the newest clear headline wins
     assert final.deal_stage([doc("Fathom agrees to buy Bed Bath parent", 2), doc("Fathom merger is called off", 90)], "Announced") == "Announced"
+
+
+def test_dropped_and_possible_deals_are_read_correctly():
+    assert extract.infer_stage("Bed Bath & Beyond drops $53M deal to acquire Fathom") == "Terminated"
+    assert extract.infer_stage("Fathom and Bed Bath & Beyond parent scrap merger deal") == "Terminated"
+    assert extract.infer_stage("Report of Possible $5 Billion Takeover Bid Sends Option Care Higher") == "Rumored"
+    assert extract.infer_stage("McKesson near $5 billion deal to buy Option Care, FT reports") == "Rumored"
+    assert extract.infer_stage("CMA CGM acquisition of FedEx Supply Chain is a done deal") == "Completed"
+    # Ordinary words that look similar do not change the stage
+    assert extract.infer_stage("Stock drops 5% after Acme to buy Widget") == "Announced"
+    assert extract.infer_stage("Scrap metal firm Acme to acquire Widget") == "Announced"
+    assert extract.infer_stage("Acme to acquire Widget, unlocking potential in AI") == "Announced"
+
+
+def test_retrieval_prefers_headlines_naming_both_companies(monkeypatch):
+    def hit(title):
+        return {"id": title, "title": title, "snippet": "", "similarity": .8}
+    both = [hit("Fathom, Bed Bath & Beyond parent merger called off"), hit("Fathom and Bed Bath and Beyond scrap deal")]
+    other = hit("Fathom Holdings and Neighborhood Intelligence end merger")
+    deal = {"acquirer": "Bed Bath & Beyond", "target": "Fathom"}
+    monkeypatch.setattr(store, "search", lambda q, k=6, days=30: both + [other])
+    assert final.retrieve_for_deal(deal)[1] == both
+    # With fewer than two that name both, one-company headlines are kept
+    monkeypatch.setattr(store, "search", lambda q, k=6, days=30: both[:1] + [other])
+    assert other in final.retrieve_for_deal(deal)[1]
