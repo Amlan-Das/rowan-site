@@ -340,7 +340,7 @@ def build_deals():
     for h in fresh:
         if len(general) >= MAX_GENERAL:
             break
-        if h["id"] not in numberer.index and not about_a_shown_deal(h):
+        if h["id"] not in numberer.index and not about_a_shown_deal(h) and not extract.is_funding(h["title"]):
             general.append(numberer.add(h))
     sources = numberer.sources
     by_n = {s["n"]: s for s in sources}
