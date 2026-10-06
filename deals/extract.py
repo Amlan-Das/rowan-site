@@ -20,7 +20,7 @@ Rules:
 - Copy company names exactly as the headline writes them. Never guess or add a name.
 - "stage" is one of: Rumored (talks, an approach, reported interest), Announced (a signed agreement or a formal offer), Pending approval (waiting on regulators or shareholders), Completed (closed), Terminated (called off, blocked or withdrawn).
 - "value" is the deal value if the headline states one, written the way the headline writes it, otherwise an empty string.
-- Skip headlines that are not about a specific deal between two named companies.
+- Skip headlines that are not about a specific deal between two named companies. Funding rounds, investments, IPOs and bond sales are not deals.
 
 Reply in JSON as {"deals": [...]} with one item per headline that reports a deal. Each item has "n" (the headline number), "acquirer", "target", "stage" and "value"."""
 
@@ -91,7 +91,7 @@ def same_party(a, b):
 # ---------- Values and stages are checked against the headline text ----------
 
 _NO_VALUE = {"", "null", "none", "n/a", "na", "unknown", "undisclosed", "not disclosed", "-"}
-_MONEY = re.compile(r"[$\u00a3\u20ac]\s?\d[\d,]*(?:\.\d+)?\s?(?:billion|million|trillion|bn|mn|m|b)?\b", re.I)
+_MONEY = re.compile(r"[$\u00a3\u20ac]\s?\d[\d,]*(?:\.\d+)?\s?(?:billion|million|trillion|bln|mln|trn|bn|mn|m|b)?\b", re.I)
 
 
 def canon_value(value, text):
@@ -147,9 +147,18 @@ def decide_stage(texts, fallback):
     return fallback if fallback in ("Rumored", "Announced", "Pending approval") else "Announced"
 
 
+_FUNDING = re.compile(r"\b(funding|round|ipo|series [a-f]|raises?|raised|bond|bonds|debt offering|share sale)\b", re.I)
+_BUYING = re.compile(r"\b(acqui\w*|buy\w*|bought|takeover|merg\w*|buyout|lbo|purchase\w*|offer|bid)\b", re.I)
+
+
+def is_funding(text):
+    """A funding round or share sale is not a deal between two companies."""
+    return bool(_FUNDING.search(text)) and not _BUYING.search(text)
+
+
 def valid_record(rec, text):
     acq, tgt = (rec.get("acquirer") or "").strip(), (rec.get("target") or "").strip()
-    if not acq or not tgt or same_party(acq, tgt):
+    if not acq or not tgt or same_party(acq, tgt) or is_funding(text):
         return False
     return appears(acq, text) and appears(tgt, text)
 
@@ -259,4 +268,13 @@ def rank_deals(groups, limit):
     pinned = [g for g in groups if g["pinned"]]
     rest = [g for g in groups if not g["pinned"] and g["idxs"]]
     rest.sort(key=lambda g: (g["outlets"], len(g["idxs"]), g["latest"]), reverse=True)
-    return pinned + rest[:max(limit - len(pinned), 0)]
+    # A second bidder, or an investor taking a stake, for a company that already has
+    # a deal on the page would only repeat that story, so each target appears once
+    chosen = list(pinned)
+    for g in rest:
+        if len(chosen) >= limit:
+            break
+        if any(same_party(g["target"], c["target"]) for c in chosen):
+            continue
+        chosen.append(g)
+    return chosen

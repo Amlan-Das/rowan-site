@@ -374,3 +374,22 @@ def test_retrieval_prefers_headlines_naming_both_companies(monkeypatch):
     # With fewer than two that name both, one-company headlines are kept
     monkeypatch.setattr(store, "search", lambda q, k=6, days=30: both[:1] + [other])
     assert other in final.retrieve_for_deal(deal)[1]
+
+
+def test_values_written_as_bln_keep_their_unit():
+    assert extract.canon_value("$30", "OpenAI in talks with UAE funds to anchor $30 bln funding round") == "$30 bln"
+    assert extract.canon_value("$4", "Cenovus to buy Athabasca for $4 billion") == "$4 billion"
+
+
+def test_a_funding_round_is_not_a_deal():
+    rec = {"acquirer": "OpenAI", "target": "UAE funds"}
+    assert not extract.valid_record(rec, "OpenAI in talks with UAE funds to anchor $30 bln funding round")
+    assert extract.valid_record({"acquirer": "Curaleaf", "target": "Aurora Cannabis"}, "Curaleaf raises offer for Aurora Cannabis")
+
+
+def test_each_target_appears_once():
+    def g(a, t, outlets, pinned=False):
+        return {"acquirer": a, "target": t, "outlets": outlets, "idxs": [0], "latest": "2026-10-05", "pinned": pinned}
+    groups = [g("C.H. Robinson", "RXO", 9), g("MFN Partners", "RXO", 3), g("Cenovus", "Athabasca Oil", 5)]
+    picked = extract.rank_deals(groups, 8)
+    assert [d["acquirer"] for d in picked] == ["C.H. Robinson", "Cenovus"]
