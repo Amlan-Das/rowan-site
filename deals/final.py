@@ -159,6 +159,16 @@ def prompt_docs(deal, headlines, hits):
     return docs
 
 
+def deal_stage(docs, fallback):
+    """Where the deal stands, from every headline gathered for it, newest first.
+
+    The fresh headlines alone can miss a turn the search found, such as a deal
+    that was called off in a story the extraction read as a different pair.
+    """
+    newest_first = sorted(docs, key=lambda h: datetime.fromisoformat(iso(h["published"])), reverse=True)
+    return extract.decide_stage([f"{h['title']} {h.get('snippet', '')}" for h in newest_first], fallback)
+
+
 def _fmt_time(value):
     return datetime.fromisoformat(iso(value)).astimezone(MARKET_TZ).strftime("%b %d %I:%M %p ET")
 
@@ -310,6 +320,8 @@ def build_deals():
     for d in deals:
         query, hits = retrieve_for_deal(d)
         docs = prompt_docs(d, fresh, hits)
+        if d["idxs"]:
+            d["stage"] = deal_stage(docs, d["stage"])
         numbers = [numberer.add(doc) for doc in docs]
         for h in hits:
             numberer.add(h)

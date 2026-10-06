@@ -330,3 +330,22 @@ def test_assemble_body_needs_a_source_for_every_sentence():
     ], {3, 7})
     assert body == "Agreed terms [3]. Said twice [3, 7]."
     assert removed == [99]
+
+
+def test_cma_the_regulator_is_not_cma_cgm_the_shipper():
+    assert extract.infer_stage("CMA CGM Group acquires FedEx Supply Chain") == "Announced"
+    assert extract.infer_stage("CMA opens review of the merger") == "Pending approval"
+
+
+def test_per_share_price_is_not_a_deal_value():
+    text = "Curaleaf sweetens its Aurora offer to $5 per share in a C$300 million bid"
+    assert extract.canon_value("$5", text) == ""
+
+
+def test_stage_looks_at_every_headline_gathered_for_the_deal():
+    def doc(title, hours_ago):
+        return {"title": title, "snippet": "", "published": (NOW - timedelta(hours=hours_ago)).isoformat()}
+    called_off = doc("Fathom, Bed Bath merger is called off", 5)
+    agreed = doc("Fathom agrees to buy Bed Bath parent for $53M", 50)
+    assert final.deal_stage([agreed, called_off], "Announced") == "Terminated"        # the newest clear headline wins
+    assert final.deal_stage([doc("Fathom agrees to buy Bed Bath parent", 2), doc("Fathom merger is called off", 90)], "Announced") == "Announced"

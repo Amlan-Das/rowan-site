@@ -103,6 +103,8 @@ def canon_value(value, text):
     if not nums:
         return ""
     for m in _MONEY.finditer(text):
+        if re.match(r"\s*(?:per|a|/)\s*share", text[m.end():m.end() + 12], re.I):
+            continue   # "$5 per share" is a price, not the size of the deal
         if nums[0].replace(",", "") in m.group(0).replace(",", ""):
             return m.group(0).strip()
     return ""
@@ -111,7 +113,7 @@ def canon_value(value, text):
 _TERMINATED = re.compile(r"\b(terminat\w*|called off|calls? off|scrapp\w*|abandon\w*|walks? away|collaps\w*|blocked|blocks|withdr[ae]w\w*|torpedo\w*)\b", re.I)
 _COMPLETED = re.compile(r"\b(completes|completed|completion of|closes|closed|finalizes|finalized|finalises|finalised|wraps up|wrapped up|has acquired|now owns)\b", re.I)
 _FUTURE = re.compile(r"\b(expected|expects|set|aims?|seeks?|to be|will|would|plans?|could|may|once|after|before|pending|until)\b[^.;]{0,40}\b(complet\w*|clos\w*|finali[sz]\w*)", re.I)
-_PENDING = re.compile(r"\b(regulator\w*|antitrust|competition (?:authority|commission|bureau)|CMA|FTC|DOJ|approval|approves?|approved|review|shareholder vote|vote|clearance|cleared|second request|scrutiny|probe)\b", re.I)
+_PENDING = re.compile(r"\b(regulator\w*|antitrust|competition (?:authority|commission|bureau)|CMA\b(?!\s+CGM)|FTC|DOJ|approval|approves?|approved|review|shareholder vote|vote|clearance|cleared|second request|scrutiny|probe)\b", re.I)
 _SIGNED = re.compile(r"\b(agrees?|agreed|announces?|announced|acquires|signs?|signed|definitive)\b", re.I)
 _ANNOUNCED = re.compile(r"\b(agrees?|agreed|announces?|announced|acquires|to (?:buy|acquire|purchase)|will (?:buy|acquire)|signs?|signed|definitive|offer|bid|launches|sweetens|raises)\b", re.I)
 _RUMORED = re.compile(r"\b(in talks|talks|nears?|weighs?|considering|exploring|explores|approach\w*|interest in|people familiar|sources|rumou?r\w*|mulls?|eyes|considers)\b", re.I)
