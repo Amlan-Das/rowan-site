@@ -1,10 +1,12 @@
 /* =====================================================
-   EDIT HERE. This file is shared by index.html and pitches.html,
-   so anything you change here updates both pages at once.
+   EDIT HERE. This file is shared by index.html, pitches.html and
+   brief.html, so anything you change here updates every page at once.
+   Do not reformat the PITCHES block: scripts/pitch_prices.py reads
+   ticker, date, direction and target from it.
    ===================================================== */
 
-// Your links. Both pages' nav, hero, contact section, and terminal read from here.
-const CONTACT = { 
+// Your links. The hero and contact section read from here.
+const CONTACT = {
   email: "rowanamlan@gmail.com",
   linkedin: "https://www.linkedin.com/in/dasrowan",
   github: "https://github.com/Amlan-Das"
@@ -13,59 +15,50 @@ const CONTACT = {
 // Upload your résumé PDF next to index.html with this exact file name.
 const RESUME = "resume.pdf";
 
-const TAPE = [
-  "Rotman Commerce, Finance and Economics, class of 2028",
-  "PwC, U.S. Corporate Tax, Montreal",
-  "RCSF, Industrials coverage",
-  "KKR PE Case Competition, Top 8",
-  "UofT AI Collective, VP Finance",
-  "Allure Ventures, Vancouver, 2025"
-];
-
-// status: "Pending", "Working" or "Filled"
-// result: your finding in 2-3 sentences (leave "" until you have one)
-// link:   GitHub repo, deck or write-up (leave "" until it exists)
+// status: "Planned", "In progress" or "Complete"
+// result: your finding in 1-2 sentences (leave "" until you have one)
+// link:   page, repo or write-up (leave "" until it exists); linkLabel is the button text
 const PROJECTS = [
-
   {
-    ticker: "$BRIEF", color: "#A4E36B", status: "Complete",
+    status: "Complete",
     title: "Morning market brief",
     question: "What moved overnight, and why?",
     approach: "Pulls overnight moves in equity indices, rates, FX and commodities, plus the morning's headlines. Every headline is embedded and stored in a vector database, and for each move the pipeline retrieves the stories most likely to explain it. A local Llama model writes the brief from only those stories and cites each one.",
     stack: "Python, yfinance, Chroma, Ollama",
-    result: "Success", link: "brief.html"
+    result: "Publishes every weekday at 6:30 AM ET, with each claim linked to the headline behind it.",
+    link: "brief.html", linkLabel: "Read today's brief"
   },
   {
-    ticker: "$TONE", color: "#FFC730", status: "Pending",
+    status: "Planned",
     title: "Earnings call and Fed reader",
     question: "Did the tone change, and did the market care?",
     approach: "Reads earnings call transcripts and FOMC statements, pulls out guidance changes and shifts in tone from the last release, then lines them up against the stock or yield move that followed.",
     stack: "Python, pandas, LLM API",
-    result: "", link: ""
+    result: "", link: "", linkLabel: ""
   },
   {
-    ticker: "$NOTE", color: "#3CD6A0", status: "Pending",
+    status: "Planned",
     title: "Structured note parser",
     question: "What does this note actually pay, and when?",
     approach: "Reads pricing supplements for structured notes filed on SEC EDGAR and pulls the key terms into a table: underlying, barrier, coupon, maturity and call features. Anything unusual gets flagged for a closer read.",
     stack: "Python, SEC EDGAR, LLM API",
-    result: "", link: ""
+    result: "", link: "", linkLabel: ""
   },
   {
-    ticker: "$SENT", color: "#61C3FF", status: "Pending",
+    status: "Planned",
     title: "News sentiment vs. price",
     question: "Does the news move the stock, or is it already priced in?",
     approach: "Builds on the deal news aggregator. Scores the sentiment of news on a group of stocks, then tests whether sentiment shifts show up before price moves, or only after.",
     stack: "Python, pandas, LLM API",
-    result: "", link: ""
+    result: "", link: "", linkLabel: ""
   },
   {
-    ticker: "$BKTS", color: "#C26EFF", status: "Pending",
+    status: "Planned",
     title: "Strategy backtest",
     question: "Would this trade have made money after costs?",
     approach: "Backtests a simple momentum or mean-reversion strategy with transaction costs and no look-ahead bias, and reports the Sharpe ratio and worst drawdown.",
     stack: "Python, pandas, price data",
-    result: "", link: ""
+    result: "", link: "", linkLabel: ""
   }
 ];
 
@@ -139,11 +132,11 @@ const PITCHES = [
   }
 ];
 
-// Toolbox: the spinning sphere and the list beside it both use this.
+// Toolbox section on the home page.
 const SKILLS = [
-  { group: "Valuation and modeling", color: "#FF8F42", items: ["DCF", "Comparable companies", "3-statement modeling", "Sensitivity tables", "Football field", "Pitch decks"] },
-  { group: "Tax and accounting", color: "#FFC730", items: ["ASC 740", "NOLs", "Section 382", "Deferred taxes", "Book-to-tax", "Tax due diligence", "CPA (in progress)"] },
-  { group: "Code and AI", color: "#3CD6A0", items: ["Python", "RSS pipelines", "LLM workflows", "Agentic workflows", "Claude Code", "Excel automation"] },
-  { group: "Data and tools", color: "#61C3FF", items: ["Excel", "S&P Capital IQ", "PowerPoint"] }
+  { group: "Valuation and modeling", items: ["DCF", "Comparable companies", "3-statement modeling", "Sensitivity tables", "Football field", "Pitch decks"] },
+  { group: "Tax and accounting", items: ["ASC 740", "NOLs", "Section 382", "Deferred taxes", "Book-to-tax", "Tax due diligence", "CPA (in progress)"] },
+  { group: "Code and AI", items: ["Python", "RSS pipelines", "LLM workflows", "Agentic workflows", "Claude Code", "Excel automation"] },
+  { group: "Data and tools", items: ["Excel", "S&P Capital IQ", "PowerPoint"] }
 ];
 /* ============ End of the part you edit ============ */
