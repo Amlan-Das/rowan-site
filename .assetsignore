@@ -1,7 +1,8 @@
 # Keep the Python pipeline, its database and the CI config off the public site.
-# brief.json at the repo root is still served.
+# brief.json and deals.json at the repo root are still served.
 .git/
 brief/
 .github/
 .gitignore
 scripts/
+deals/

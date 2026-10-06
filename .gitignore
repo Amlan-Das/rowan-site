@@ -2,3 +2,6 @@ brief/.venv/
 brief/output/
 __pycache__/
 .DS_Store
+deals/.venv/
+deals/output/
+.pytest_cache/

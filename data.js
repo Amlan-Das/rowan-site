@@ -1,6 +1,6 @@
 /* =====================================================
-   EDIT HERE. This file is shared by index.html, pitches.html and
-   brief.html, so anything you change here updates every page at once.
+   EDIT HERE. This file is shared by index.html, pitches.html, brief.html
+   and deals.html, so anything you change here updates every page at once.
    Do not reformat the PITCHES block: scripts/pitch_prices.py reads
    ticker, date, direction and target from it.
    ===================================================== */
@@ -27,6 +27,15 @@ const PROJECTS = [
     stack: "Python, yfinance, Chroma, Ollama",
     result: "Publishes every weekday at 6:30 AM ET, with each claim linked to the headline behind it.",
     link: "brief.html", linkLabel: "Read today's brief"
+  },
+  {
+    status: "In progress",
+    title: "Deals aggregator",
+    question: "Who is buying whom, and where does each deal stand?",
+    approach: "Reads M&A headlines every weekday, uses a local Llama model to pull out the buyer, target and stage of each deal, and groups the headlines about the same deal together. For each deal, the pipeline retrieves earlier coverage from a vector database, so a deal rumored two weeks ago is connected to today's news. The model writes a short update per deal and cites every headline.",
+    stack: "Python, Chroma, Ollama",
+    result: "Shows each deal's stage and value, with a link to every headline behind it.",
+    link: "deals.html", linkLabel: "See the deals"
   },
   {
     status: "Planned",

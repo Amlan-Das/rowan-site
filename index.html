@@ -21,50 +21,77 @@
     <nav aria-label="Main">
       <a href="#pitches">Pitches</a>
       <a href="#projects">Projects</a>
-      <a href="#experience" class="more">Experience</a>
-      <a href="#about" class="more">About</a>
-      <a href="#toolbox" class="more">Toolbox</a>
-      <a href="#contact" class="more">Contact</a>
-      <a href="resume.pdf" class="cta" data-resume>Résumé</a>
+      <a href="brief.html" class="tool">Morning brief</a>
+      <a href="deals.html" class="tool">Deals</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a href="#toolbox">Toolbox</a>
+      <a href="#contact">Contact</a>
     </nav>
+    <a class="cta" href="resume.pdf" data-resume>Résumé</a>
   </div>
 </header>
 
 <main id="top">
-<section class="hero wrap">
-  <h1>Rowan Das</h1>
-  <div class="cols">
-    <p class="lede">I pitch stocks and build small AI tools that answer the questions an analyst asks every day.</p>
-    <div>
-      <p class="who">Rotman Commerce at the University of Toronto, Finance and Economics, class of 2028. Analyst on the Rotman Commerce Student Fund, covering Industrials. Based in Toronto.</p>
-      <div class="actions">
-        <a class="btn solid" href="#pitches">See the pitches</a>
-        <a class="btn" href="resume.pdf" data-resume>Résumé</a>
-        <span class="textlinks" id="heroLinks"></span>
+<section class="band hero">
+  <div class="wrap">
+    <h1>Rowan Das</h1>
+    <div class="cols">
+      <p class="lede">I pitch stocks and build small AI tools that answer the questions an analyst asks every day.</p>
+      <div>
+        <p class="who">Rotman Commerce at the University of Toronto, Finance and Economics, class of 2028. Analyst on the Rotman Commerce Student Fund, covering Industrials. Based in Toronto.</p>
+        <div class="actions">
+          <a class="btn solid" href="#pitches">See the pitches</a>
+          <a class="btn" href="resume.pdf" data-resume>Résumé</a>
+          <span class="textlinks" id="heroLinks"></span>
+        </div>
       </div>
+    </div>
+    <div class="pulse">
+      <a class="pcell" href="#pitches">
+        <span class="chip">Pitches</span>
+        <p class="pv" id="pulsePitch">Open calls</p>
+        <p class="ps" id="pulsePitchSub">Prices update after every market close.</p>
+      </a>
+      <a class="pcell" href="brief.html">
+        <span class="chip acc">Morning brief</span>
+        <p class="pv" id="pulseBrief">Every weekday, 6:30 AM ET</p>
+        <p class="ps" id="pulseBriefSub">What moved overnight, with every claim linked to its headline.</p>
+      </a>
+      <a class="pcell" href="deals.html">
+        <span class="chip acc">Deals</span>
+        <p class="pv" id="pulseDeals">Every weekday morning</p>
+        <p class="ps" id="pulseDealsSub">Who is buying whom, and where each deal stands.</p>
+      </a>
     </div>
   </div>
 </section>
 
-<section id="pitches" class="sec wrap">
-  <div class="sechead">
-    <h2>Pitches</h2>
-    <p class="note">Stock calls, each with a target price and a horizon. Prices update after every market close.</p>
+<section id="pitches" class="band dark">
+  <div class="wrap">
+    <div class="sechead">
+      <div class="ttl"><h2>Pitches</h2><span class="chip acc" id="pitchChip">Live prices</span></div>
+      <p class="note">Stock calls, each with a target price and a horizon. Prices update after every market close.</p>
+    </div>
+    <div class="ledger" id="pitchlist"></div>
+    <p class="fine">Open a row for the thesis, the full pitch and the model. Live charts are on the <a href="pitches.html">pitches page</a>. Not investment advice.</p>
   </div>
-  <div class="ledger" id="pitchlist"></div>
-  <p class="fine">Open a row for the thesis, the full pitch and the model. Live charts are on the <a href="pitches.html">pitches page</a>. Not investment advice.</p>
 </section>
 
-<section id="projects" class="sec wrap">
-  <div class="sechead">
-    <h2>Projects</h2>
-    <p class="note">Small tools that answer the questions an analyst asks every day. One is live and four are planned.</p>
+<section id="projects" class="band wash">
+  <div class="wrap">
+    <div class="sechead">
+      <div class="ttl"><h2>Projects</h2><span class="chip" id="projChip"></span></div>
+      <p class="note">Small tools that answer the questions an analyst asks every day.</p>
+    </div>
+    <div class="feat" id="feat"></div>
+    <div class="ledger projects" id="list"></div>
   </div>
-  <div class="ledger projects" id="list"></div>
 </section>
 
-<section id="experience" class="sec wrap">
-  <div class="sechead"><h2>Experience</h2></div>
+<section id="experience" class="band">
+<div class="wrap">
+  <div class="sechead"><div class="ttl"><h2>Experience</h2></div></div>
   <div class="rows">
     <article class="erow">
       <p class="when">May 2026 to Aug 2026</p>
@@ -114,63 +141,66 @@
       </div>
     </article>
   </div>
+</div>
 </section>
 
-<section id="about" class="sec wrap">
-  <div class="sechead"><h2>About</h2></div>
-  <div class="about">
-    <p class="statement">Third-year Commerce student at the University of Toronto, very interested in financial markets and learning them by building. Also a big Vancouver Canucks fan.</p>
-    <div class="rows">
-      <div class="erow stat">
-        <p class="lead">2nd</p>
-        <p class="desc">RSM 100 Case Competition ($4,000+, 900 students)</p>
-      </div>
-      <div class="erow stat">
-        <p class="lead">Top 8</p>
-        <p class="desc">KKR Wharton PE Case Competition, globally</p>
-      </div>
-      <div class="erow stat">
-        <p class="lead">7</p>
-        <p class="desc">Case competitions in total</p>
-      </div>
-      <div class="erow stat">
-        <p class="lead">$250K</p>
-        <p class="desc">AUM student fund, where I was one of 20 analysts selected</p>
+<section id="about" class="band wash">
+  <div class="wrap">
+    <div class="sechead"><div class="ttl"><h2>About</h2></div></div>
+    <div class="about">
+      <p class="statement">Third-year Commerce student at the University of Toronto, very interested in financial markets and learning them by building. Also a big Vancouver Canucks fan.</p>
+      <div class="tiles">
+        <div class="tilebox"><p class="lead">2nd</p><p class="desc">RSM 100 Case Competition ($4,000+, 900 students)</p></div>
+        <div class="tilebox"><p class="lead">Top 8</p><p class="desc">KKR Wharton PE Case Competition, globally</p></div>
+        <div class="tilebox"><p class="lead">7</p><p class="desc">Case competitions in total</p></div>
+        <div class="tilebox"><p class="lead">$250K</p><p class="desc">AUM student fund, where I was one of 20 analysts selected</p></div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="toolbox" class="sec wrap">
-  <div class="sechead"><h2>Toolbox</h2></div>
-  <div class="rows" id="skills"></div>
+<section id="toolbox" class="band">
+  <div class="wrap">
+    <div class="sechead"><div class="ttl"><h2>Toolbox</h2></div></div>
+    <div class="tbox" id="skills"></div>
+  </div>
 </section>
 
-<section id="contact" class="sec wrap contact">
-  <div class="sechead"><h2>Contact</h2></div>
-  <p class="big"><a id="mailBig" href="mailto:rowanamlan@gmail.com">rowanamlan@gmail.com</a></p>
-  <p class="say">If you work on a desk and have a view on any of these pitches or projects, I'd like to hear it.</p>
-  <div class="actions" id="contactLinks"></div>
+<section id="contact" class="band dark contact">
+  <div class="wrap">
+    <div class="sechead"><div class="ttl"><h2>Contact</h2></div></div>
+    <p class="big"><a id="mailBig" href="mailto:rowanamlan@gmail.com">rowanamlan@gmail.com</a></p>
+    <p class="say">If you work on a desk and have a view on any of these pitches or projects, I'd like to hear it.</p>
+    <div class="actions" id="contactLinks"></div>
+  </div>
 </section>
 </main>
 
-<footer class="wrap">
-  <div class="foot">
-    <p>Designed and built by Rowan Das. Toronto, Ontario.</p>
-    <p>Not investment advice.</p>
+<footer class="dark">
+  <div class="wrap">
+    <div class="foot">
+      <p>Designed and built by Rowan Das. Toronto, Ontario.</p>
+      <p>Not investment advice.</p>
+    </div>
   </div>
 </footer>
+
 
 <script src="data.js"></script>
 <script src="common.js"></script>
 <script>
+const $ = (id) => document.getElementById(id);
+const plural = (n, one, many) => n + " " + (n === 1 ? one : many);
+const getJSON = (url) => fetch(url, { cache: "no-store" }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); });
+const etDay = (iso) => new Date(iso).toLocaleDateString("en-US", { timeZone: "America/New_York", weekday: "short", month: "short", day: "numeric" });
+
 // Links that come from data.js
 (function () {
   const ext = (href, label) => '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + label + "</a>";
-  document.getElementById("heroLinks").innerHTML = ext(CONTACT.linkedin, "LinkedIn") + ext(CONTACT.github, "GitHub");
-  document.getElementById("mailBig").href = "mailto:" + CONTACT.email;
-  document.getElementById("mailBig").textContent = CONTACT.email;
-  document.getElementById("contactLinks").innerHTML =
+  $("heroLinks").innerHTML = ext(CONTACT.linkedin, "LinkedIn") + ext(CONTACT.github, "GitHub");
+  $("mailBig").href = "mailto:" + CONTACT.email;
+  $("mailBig").textContent = CONTACT.email;
+  $("contactLinks").innerHTML =
     '<a class="btn solid" href="mailto:' + esc(CONTACT.email) + '">Send an email</a>' +
     '<a class="btn" href="' + esc(CONTACT.linkedin) + '" target="_blank" rel="noopener">LinkedIn</a>' +
     '<a class="btn" href="' + esc(CONTACT.github) + '" target="_blank" rel="noopener">GitHub</a>' +
@@ -178,26 +208,46 @@
 })();
 
 // Pitches
-renderPitches(document.getElementById("pitchlist"), { charts: false });
-
-// Projects
+renderPitches($("pitchlist"), { charts: false });
 (function () {
-  const list = document.getElementById("list");
-  const kind = (s) => /complete/i.test(s) ? "done" : /progress|working/i.test(s) ? "wip" : "plan";
+  const longs = PITCHES.filter((p) => !/short/i.test(p.direction || "")).length, shorts = PITCHES.length - longs;
+  $("pulsePitch").textContent = plural(PITCHES.length, "open call", "open calls");
+  $("pulsePitchSub").textContent = longs + " long, " + shorts + " short. Prices update after every market close.";
+  $("pitchChip").textContent = longs + " long, " + shorts + " short";
+})();
+
+// Projects: the live tools get a card, the planned ones a list
+(function () {
+  const live = PROJECTS.filter((p) => p.link), planned = PROJECTS.filter((p) => !p.link);
+  const isDone = (s) => /complete/i.test(s);
+  $("projChip").textContent = plural(live.length, "live tool", "live tools") + ", " + planned.length + " planned";
+
+  $("feat").innerHTML = live.map((p) =>
+    '<article class="fcard">' +
+      '<span class="chip"><i></i>' + (isDone(p.status) ? "Live" : esc(p.status)) + "</span>" +
+      "<h3>" + esc(p.title) + "</h3>" +
+      '<p class="fq">' + esc(p.question) + "</p>" +
+      '<p class="fa">' + esc(p.approach) + "</p>" +
+      (p.result ? '<p class="flive" data-src="' + esc(p.link.replace(/\.html$/, ".json")) + '">' + esc(p.result) + "</p>" : "") +
+      '<div class="tags">' + p.stack.split(",").map((t) => "<span>" + esc(t.trim()) + "</span>").join("") + "</div>" +
+      '<a class="btn" href="' + esc(p.link) + '">' + esc(p.linkLabel || "Open") + "</a>" +
+    "</article>"
+  ).join("");
+
+  const chipFor = (s) => /progress|working/i.test(s) ? '<span class="chip acc"><i></i>' + esc(s) + "</span>" : '<span class="chip soft">' + esc(s) + "</span>";
+  const list = $("list");
   list.innerHTML =
-    '<div class="lhead" aria-hidden="true"><span>Project</span><span>Question</span><span>Status</span><span></span></div>' +
-    PROJECTS.map((p, i) =>
-      '<div class="lrow' + (i === 0 ? " open" : "") + '">' +
+    '<div class="lhead" aria-hidden="true"><span>Planned</span><span>Question</span><span>Status</span><span></span></div>' +
+    planned.map((p, i) =>
+      '<div class="lrow">' +
         '<button class="lbtn" type="button" id="pb' + i + '" aria-controls="pp' + i + '" aria-expanded="false">' +
           '<span class="c-co"><span class="co">' + esc(p.title) + "</span></span>" +
           '<span class="q-col">' + esc(p.question) + "</span>" +
-          '<span class="status"><i class="sdot ' + kind(p.status) + '"></i>' + esc(p.status) + "</span>" +
+          '<span class="status">' + chipFor(p.status) + "</span>" +
           '<span class="ind" aria-hidden="true"></span>' +
         "</button>" +
         '<div class="lpanel" id="pp' + i + '" role="region" aria-labelledby="pb' + i + '"><div class="inner"><div class="pbody">' +
-          "<div><p class=\"a\">" + esc(p.approach) + "</p>" +
-            (p.link ? '<div class="btns"><a class="btn solid" href="' + esc(p.link) + '">' + esc(p.linkLabel || "Open") + "</a></div>" : "") +
-          "</div>" +
+          "<div><p class=\"a\">" + esc(p.approach) + "</p></div>" +
           '<dl class="facts">' +
             "<div><dt>Built with</dt><dd>" + esc(p.stack) + "</dd></div>" +
             "<div><dt>Result</dt><dd>" + (p.result ? esc(p.result) : "Coming soon") + "</dd></div>" +
@@ -205,13 +255,30 @@ renderPitches(document.getElementById("pitchlist"), { charts: false });
         "</div></div></div>" +
       "</div>"
     ).join("");
-  makeAccordion(list);
+  if (planned.length) makeAccordion(list); else list.hidden = true;
 })();
 
 // Toolbox
-document.getElementById("skills").innerHTML = SKILLS.map((g) =>
-  '<div class="erow skill"><p class="group">' + esc(g.group) + '</p><p class="items">' + g.items.map(esc).join(", ") + "</p></div>"
+$("skills").innerHTML = SKILLS.map((g) =>
+  '<div class="tgroup"><h3>' + esc(g.group) + '</h3><div class="chips">' + g.items.map((x) => "<span>" + esc(x) + "</span>").join("") + "</div></div>"
 ).join("");
+
+// What the two tools published most recently. If a file isn't there yet, the page keeps its default text.
+getJSON("brief.json").then((b) => {
+  if (b.generated_at) $("pulseBrief").textContent = "Brief for " + etDay(b.generated_at);
+  if (b.lede) $("pulseBriefSub").textContent = b.lede;
+  document.querySelectorAll('.flive[data-src="brief.json"]').forEach((el) => {
+    if (b.lede) el.innerHTML = "<b>Latest" + (b.generated_at ? ", " + esc(etDay(b.generated_at)) : "") + ".</b> " + esc(b.lede);
+  });
+}).catch(() => {});
+getJSON("deals.json").then((d) => {
+  const n = (d.deals || []).length;
+  if (n) $("pulseDeals").textContent = plural(n, "deal", "deals") + " in play";
+  if (d.lede) $("pulseDealsSub").textContent = d.lede;
+  document.querySelectorAll('.flive[data-src="deals.json"]').forEach((el) => {
+    if (d.lede) el.innerHTML = "<b>Latest" + (d.generated_at ? ", " + esc(etDay(d.generated_at)) : "") + ".</b> " + esc(d.lede);
+  });
+}).catch(() => {});
 </script>
 </body>
 </html>

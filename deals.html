@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deals | Rowan Das</title>
+<meta name="description" content="A deals aggregator: M&A headlines read by a local Llama model, grouped by deal, with the stage of each deal and every source shown.">
+<meta property="og:title" content="Deals | Rowan Das">
+<meta property="og:description" content="Who is buying whom, and where each deal stands, with every claim linked to the headline behind it.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap bar">
+    <a class="mark" href="index.html">Rowan Das</a>
+    <nav aria-label="Main">
+      <a href="pitches.html">Pitches</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="brief.html" class="tool">Morning brief</a>
+      <a href="deals.html" class="tool" aria-current="page">Deals</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#toolbox">Toolbox</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <a class="cta" href="resume.pdf" data-resume>Résumé</a>
+  </div>
+</header>
+
+<section class="band dark ed-band">
+  <div class="wrap">
+    <a href="index.html" class="backlink">&larr; Back to the main page</a>
+    <p class="ed-kicker" id="edDate">Deals aggregator</p>
+    <h1 class="ed-h1">Who is buying whom</h1>
+    <p class="ed-dek">The M&amp;A headlines of the last few days, read each weekday by a Llama model and grouped by deal. Each deal shows where it stands, and the small numbers link to the headline behind every claim.</p>
+    <p class="ed-byline" id="edByline"><span>Loading the latest update</span></p>
+  </div>
+</section>
+
+<main class="wrap">
+<article class="ed">
+
+  <div class="ed-top">
+    <div class="ed-body" id="edBody"></div>
+    <aside class="ed-markets ed-glance" aria-label="This update">
+      <p class="ed-label">This update in numbers</p>
+      <table><tbody id="edGlance"></tbody></table>
+      <p class="ed-note">Deal value and stage come from the headlines. Nothing here is verified against a filing.</p>
+    </aside>
+  </div>
+
+  <section class="ed-sec" id="deals" aria-labelledby="dealsTitle">
+    <div class="ed-sechead">
+      <h2 class="ed-h2" id="dealsTitle">Deals in play</h2>
+      <p id="dealsNote">The best covered deals first. A deal shows once, however many headlines reported it.</p>
+    </div>
+    <div class="dgrid" id="edDeals"></div>
+  </section>
+
+  <section class="ed-sec" id="sources" aria-labelledby="srcTitle">
+    <div class="ed-sechead">
+      <h2 class="ed-h2" id="srcTitle">Sources</h2>
+      <p id="srcNote">Every headline the model was given, numbered the way it cites them.</p>
+    </div>
+    <ol class="ed-srclist" id="edSources"></ol>
+  </section>
+
+  <section class="ed-sec" id="how" aria-labelledby="howTitle">
+    <div class="ed-sechead"><h2 class="ed-h2" id="howTitle">How this page was made</h2></div>
+
+    <div class="ed-intros">
+    <p class="ed-intro">This is the same retrieval-augmented generation (RAG) design as the morning brief, pointed at one question: who is buying whom? A language model on its own knows nothing about this week's deals, and if you ask it anyway it will make one up. RAG searches for the relevant news first, then hands only that news to the model with instructions to write from it and cite it.</p>
+    <p class="ed-intro">The brief knows in advance what to look for: six instruments. Deals are different, because nobody tells the pipeline which companies are about to merge. So there is an extra step, between storing the headlines and searching them, where the model reads each headline and works out which deal it is about. Code does everything that can be checked, and the model does the reading and writing. Both run through Ollama on the same machine as the code, so no text goes to an outside AI service.</p>
+    </div>
+
+    <div class="ed-howgrid">
+      <ol class="ed-steps" id="edSteps">
+        <li class="ed-step" data-step="1">
+          <p class="snum">Step 1</p>
+          <h3>Pull deal headlines</h3>
+          <p>Python reads Google News RSS feeds for twelve searches worded the way deal stories are worded: "agrees to acquire", "in talks to acquire", "antitrust review", "merger terminated" and so on. Between them they catch rumors, signed deals, regulatory reviews, closings and collapses. The code parses each item, drops anything older than 72 hours, strips the HTML out of the snippet and removes stories that came back under more than one search.</p>
+          <p>Deals move more slowly than markets, so the window is three days, not one. Each story gets an ID made from a hash of its link, so the same article is never stored twice.</p>
+          <div class="ed-code"><span class="c"># headlines.py</span>
+"id": hashlib.sha1(link.encode()).hexdigest()[:16]</div>
+          <p class="ed-run" id="run1"></p>
+        </li>
+
+        <li class="ed-step" data-step="2">
+          <p class="snum">Step 2</p>
+          <h3>Turn each headline into a vector</h3>
+          <p>An embedding model, <code>nomic-embed-text</code>, reads each headline and its snippet and returns a list of 768 numbers. Those numbers work like coordinates: headlines that mean similar things land close together, even when they share no words. "Buyout talks with Acme" and "Acme nears sale to private equity" end up neighbours. That is what lets later steps search by meaning instead of keywords.</p>
+          <div class="ed-code"><span class="c"># llm.py: Ollama serves the model on this machine</span>
+POST localhost:11434/api/embed
+{"model": "nomic-embed-text",
+ "input": ["search_document: Buyer agrees to acquire Target ..."]}</div>
+          <p class="ed-run" id="run2"></p>
+        </li>
+
+        <li class="ed-step" data-step="3">
+          <p class="snum">Step 3</p>
+          <h3>Store them in a vector database</h3>
+          <p>The vectors go into Chroma, a vector database saved as files next to the code. Each entry keeps its vector, its text, and the title, source, link and publish time. Headlines stay for 30 days, because a deal plays out over weeks.</p>
+          <p>This is the memory of the system. The language model never changes and never learns from these runs. What grows is the database, so today's note can draw on the story that first reported a deal two weeks ago, long after the three-day fetch window has moved on.</p>
+          <p class="ed-run" id="run3"></p>
+        </li>
+
+        <li class="ed-step" data-step="4">
+          <p class="snum">Step 4</p>
+          <h3>Find the deals in the headlines</h3>
+          <p>The model reads the headlines ten at a time and returns, for each one that reports a deal, the buyer, the target, the stage and the value, in a JSON shape Ollama enforces. A model this small will sometimes invent a company or swap buyer and target, so the code doesn't take its word. Every name has to appear in the headline text, or the record is dropped.</p>
+          <p>The records that survive are grouped, so five headlines about one takeover become one deal. If the headlines disagree about who is buying, the majority wins. Here is what was found this time, with the headlines each deal was read from:</p>
+          <div class="ed-rtab" id="edDetect"></div>
+          <p class="ed-run" id="run4"></p>
+        </li>
+
+        <li class="ed-step" data-step="5">
+          <p class="snum">Step 5</p>
+          <h3>Search the database for each deal</h3>
+          <p>For each deal the code writes a plain-English question in the words a headline would use, embeds it the same way, and asks Chroma for the six closest headlines from the last 30 days. Closeness is cosine similarity: 1 means the same meaning, 0 means unrelated.</p>
+          <p>A vector search always returns its nearest results, even when nothing is actually near, so anything below a similarity cutoff is thrown away. So is any hit that names neither company, because to an embedding model every merger headline sounds a little like every other one. These were this update's searches:</p>
+          <div class="ed-rtab" id="edRetrieval"></div>
+        </li>
+
+        <li class="ed-step" data-step="6">
+          <p class="snum">Step 6</p>
+          <h3>Build one prompt per deal</h3>
+          <p>Each deal gets its own prompt with only its headlines, up to eight: the ones that revealed it plus whatever the search found, numbered the same way as the source list. A small local model stays on topic far better with a handful of relevant headlines than with a hundred mixed ones.</p>
+          <p>The rules come first: use only these headlines, ignore any that are about other deals, cite by number, and say so when nothing is new. A pinned deal with no coverage skips the model, and the page says there is nothing to report.</p>
+          <div class="ed-code" id="code6"><span class="c"># one of this update's prompts</span>
+Deal: Buyer and Target.
+
+Headlines:
+[4] Reuters, Oct 5 09:12 AM ET: Buyer to acquire Target ...</div>
+          <p class="ed-run" id="run6"></p>
+        </li>
+
+        <li class="ed-step" data-step="7">
+          <p class="snum">Step 7</p>
+          <h3>Write in a fixed shape, then check</h3>
+          <p>A Llama model running on Ollama answers each prompt at a low temperature, in a JSON shape Ollama enforces with a schema: a subheading of up to eight words, a stage and two or three sentences with citations. The deal value and the article counts come from the code, so the model never retypes a number.</p>
+          <p>A last call reads the deal summaries and writes the headline sentence at the top, then picks up to three other deals worth knowing. Finally the code checks every citation against the source list and flags any number that doesn't exist. That catches invented citations, though it can't prove a source supports its sentence, so the sources are listed above to check.</p>
+          <div class="ed-code"><span class="c"># final.py: Ollama holds the reply to this shape</span>
+"format": {"type": "object",
+           "properties": {"headline": {"type": "string"},
+                          "stage": {"enum": ["Rumored", "Announced", ...]},
+                          "body": {"type": "string"}}}</div>
+          <p class="ed-run" id="run7"></p>
+        </li>
+      </ol>
+
+      <figure class="ed-fig" id="figHost" hidden aria-label="Figure: headlines in embedding space"></figure>
+    </div>
+
+    <p class="ed-where" id="edWhere">A GitHub Actions job runs the pipeline each weekday at about 7:15 AM Eastern. It installs Ollama on a fresh machine, downloads a small Llama model and the embedding model, runs the same Python, and commits the new deals file and the vector database to this site's repository, which redeploys the page. Models are set by environment variables, so the same code runs with a bigger model on a laptop. A deal can also be pinned to a watchlist file, so it stays on the page on days when nobody writes about it.</p>
+  </section>
+</article>
+</main>
+
+<footer class="dark">
+  <div class="wrap">
+    <div class="foot">
+      <p>Designed and built by Rowan Das. Toronto, Ontario.</p>
+      <p>Not investment advice.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="common.js"></script>
+<script src="rag-figure.js"></script>
+<script>
+// Everything below reads deals.json, which the Python pipeline in deals/ writes each weekday morning.
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const fmtVal = (v) => esc(v);
+  const plural = (n, one, many) => n + " " + (n === 1 ? one : many);
+  const STEPS = ["Rumored", "Announced", "Pending approval", "Completed"];
+
+  function dealCard(d) {
+    const quiet = d.stage === "No recent news";
+    const at = STEPS.indexOf(d.stage);
+    const stepper = at < 0 ? "" :
+      '<div class="stepper" aria-hidden="true">' + STEPS.map((_, i) => '<i class="' + (i <= at ? "on" : "") + '"></i>').join("") + "</div>" +
+      '<div class="steplabels" aria-hidden="true">' + STEPS.map((s, i) => '<span class="' + (i === at ? "on" : "") + '">' + (s === "Pending approval" ? "Pending" : s) + "</span>").join("") + "</div>";
+    const foot = [];
+    if (d.articles) foot.push("<span>" + plural(d.articles, "headline", "headlines") + " from " + plural(d.outlets, "outlet", "outlets") + "</span>");
+    if (d.latest) foot.push("<span>Latest " + etTime(d.latest, true) + "</span>");
+    if ((d.sources || []).length) foot.push('<span class="deal-srcs" aria-label="Sources">' + d.sources.map((n) => '<a href="#s' + n + '">' + n + "</a>").join("") + "</span>");
+    return '<article class="deal' + (quiet ? " quiet" : "") + '" data-stage="' + esc(d.stage) + '">' +
+      '<div class="deal-top"><div class="left"><span class="stagechip">' + esc(d.stage) + "</span>" + (d.pinned ? '<span class="chip soft">Pinned</span>' : "") + "</div>" +
+        (d.value ? '<span class="deal-val">' + fmtVal(d.value) + "</span>" : "") + "</div>" +
+      "<h3>" + esc(d.acquirer) + '<span class="to">buys</span>' + esc(d.target) + "</h3>" +
+      '<p class="deal-sub">' + esc(d.headline || "") + "</p>" +
+      '<p class="deal-body">' + citeHtml(d.body || "") + "</p>" +
+      stepper +
+      '<div class="deal-foot">' + foot.join("") + "</div>" +
+    "</article>";
+  }
+
+  function render(d) {
+    const sources = d.sources || [], deals = d.deals || [], retrieval = d.retrieval || [], st = d.stats || {};
+    const cited = new Set(d.cited || []);
+    const byN = {}; sources.forEach((s) => (byN[s.n] = s));
+
+    if (d.date) $("edDate").textContent = "Deals aggregator, " + d.date;
+    $("edByline").innerHTML = "<span>Updated " + etTime(d.generated_at, true) + "</span><span>Written by " + esc(d.model || "a Llama model") + " on Ollama</span><span>" + plural(sources.length, "source", "sources") + "</span>";
+
+    // Top of the page: one sentence on the day, then other deals worth knowing
+    $("edBody").innerHTML = '<p class="ed-lede ed-lede-big">' + citeHtml(d.lede || "") + "</p>" +
+      ((d.also || []).length
+        ? '<div class="ed-also"><p class="ed-label">Also worth knowing</p><div class="ed-alsolist">' + d.also.map((a) => "<p>" + citeHtml(a.note) + "</p>").join("") + "</div></div>" : "");
+
+    const row = (k, v) => '<tr><td>' + k + '</td><td class="num">' + (v == null ? "-" : v) + "</td></tr>";
+    $("edGlance").innerHTML =
+      row("Headlines read", st.headlines_fetched) + row("New to the database", st.headlines_new) +
+      row("Deals found", st.deals_found) + row("Deals shown", st.deals_shown) +
+      row("In the database", st.index_size) + row("Model calls", st.llm_calls);
+
+    $("edDeals").innerHTML = deals.length ? deals.map(dealCard).join("")
+      : '<p class="ed-intro">No deals could be pulled out of the headlines in this update. The stories themselves are listed below.</p>';
+    $("dealsNote").textContent = deals.length
+      ? plural(deals.length, "deal", "deals") + " shown, best covered first. A deal appears once, however many headlines reported it."
+      : "Nothing to show yet.";
+
+    $("edSources").innerHTML = sources.map((s) =>
+      '<li class="ed-src' + (cited.has(s.n) ? "" : " uncited") + '" id="s' + s.n + '"><span class="n">' + s.n + "</span><span>" +
+      '<a href="' + esc(s.link) + '" target="_blank" rel="noopener">' + esc(s.title) + "</a>" +
+      '<span class="meta">' + esc(s.source) + ", " + etTime(s.published, true) + (cited.has(s.n) ? "" : ", not cited") + "</span></span></li>"
+    ).join("");
+    $("srcNote").textContent = "Every headline the model was given, numbered the way it cites them. It cited " + cited.size + " of " + sources.length + ".";
+
+    // Step 4: what was found, and which headlines each deal was read from
+    $("edDetect").innerHTML = deals.map((x) => {
+      const found = (x.found || []);
+      return '<div class="ed-rrow"><span class="mv">' + esc(x.acquirer) + " / " + esc(x.target) + '</span><div class="ed-found">' +
+        (found.length ? "Read from " + found.map((f) => '<a href="#s' + f.n + '">' + f.n + "</a>").join("") + " as " + esc(x.stage)
+          : (x.pinned ? "Pinned. No headline mentioned it." : "")) + "</div></div>";
+    }).join("");
+
+    // Step 5: the searches
+    $("edRetrieval").innerHTML = retrieval.map((r) =>
+      '<div class="ed-rrow"><span class="mv">' + esc(r.deal) + '</span><div><span class="q">"' + esc(r.query) + '"</span>' +
+      (r.hits.length ? r.hits.map((h) => '<div class="ed-hit"><a class="n" href="#s' + h.n + '">' + h.n + '</a><span class="s">' + h.similarity.toFixed(2) + '</span><span class="t">' + esc((byN[h.n] || {}).title || "") + "</span></div>").join("")
+        : '<div class="ed-hit"><span></span><span></span><span class="t">Nothing passed the cutoff.</span></div>') + "</div></div>"
+    ).join("");
+
+    const hits = retrieval.reduce((a, r) => a + r.hits.length, 0);
+    const prompts = deals.filter((x) => (x.sources || []).length).length;
+    $("run1").innerHTML = "This update: <b>" + (st.headlines_fetched ?? "-") + "</b> headlines after parsing and de-duplicating.";
+    $("run2").innerHTML = "This update: <b>" + (st.headlines_new ?? "-") + "</b> new headlines embedded with " + esc(d.embed_model || "nomic-embed-text") + ".";
+    $("run3").innerHTML = "The store now holds <b>" + (st.index_size ?? "-") + "</b> searchable headlines.";
+    $("run4").innerHTML = "This update: <b>" + (st.extraction_calls ?? "-") + "</b> calls read <b>" + (st.headlines_fetched ?? "-") + "</b> headlines and found <b>" + (st.deals_found ?? "-") + "</b> deals. The <b>" + deals.length + "</b> best covered are shown.";
+    $("run6").innerHTML = "This update: <b>" + hits + "</b> matches across " + plural(retrieval.length, "search", "searches") + ", written into <b>" + prompts + "</b> focused prompts.";
+    $("run7").innerHTML = "This update: <b>" + (st.llm_calls ?? "-") + "</b> calls to " + esc(d.model || "") + " in all, <b>" + cited.size + "</b> of " + sources.length + " sources cited. " +
+      ((d.invalid_citations || []).length ? '<span class="down">Invented citations: ' + d.invalid_citations.join(", ") + ".</span>" : "No invented citations.");
+
+    // A real prompt from this update (first three headlines, trimmed)
+    if (d.example_prompt) {
+      const lines = d.example_prompt.split("\n").filter((l) => !/^\s{4}/.test(l) && !/^Write the/.test(l));
+      const cut = []; let heads = 0;
+      for (const l of lines) { if (/^\[\d+\]/.test(l) && ++heads > 3) { cut.push("..."); break; } cut.push(l.length > 92 ? l.slice(0, 92).trimEnd() + " ..." : l); }
+      $("code6").innerHTML = '<span class="c"># one of this update\'s prompts</span>\n' + esc(cut.join("\n").trim());
+    }
+
+    initFigure(d);
+    initDealSteps();
+  }
+
+  citeHover();
+
+  let setStep = () => {};
+  const initDealSteps = () => initSteps($("edSteps"), (n) => setStep(n));
+
+  // Fig. 1: headlines in embedding space (rag-figure.js)
+  function initFigure(d) {
+    const short = (r) => r.deal.split(" / ")[0];
+    const fig = RagFigure.mount($("figHost"), {
+      noun: "deal",
+      groups: (d.retrieval || []).map((r) => ({ name: r.deal, label: short(r), query: r.query, hits: r.hits })),
+      sources: d.sources, cited: d.cited,
+      steps: [
+        { label: "raw text", mode: "raw", note: "Each dot is a headline, still just text from the feed. Scroll on to watch it become a vector." },
+        { label: "embed", mode: "embed", note: "The embedding model moves every headline to a point in space. Similar stories pull together." },
+        { label: "store", mode: "store", note: "Stored in Chroma, headlines about the same company or deal sit near each other while unrelated stories drift apart." },
+        { label: "find deals", mode: "store", note: "The model reads each headline for a buyer and a target. Headlines that describe the same deal are grouped into one." },
+        { label: "search", mode: "search" },
+        { label: "prompt", mode: "prompt", note: "Only the retrieved headlines leave the database. Each gets a number, and each deal's prompt holds just its own." },
+        { label: "write", mode: "write", note: "The model writes from the numbered list. Blue sources were cited in the update." }
+      ]
+    });
+    setStep = fig.setStep;
+  }
+
+  fetch("deals.json", { cache: "no-store" })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(() => {
+      $("edByline").innerHTML = "<span>No update has been published yet. Check back on a weekday morning.</span>";
+      $("edBody").innerHTML = '<p class="ed-lede ed-lede-big">The first update is on its way.</p>';
+      $("edGlance").innerHTML = "";
+      document.querySelector(".ed-markets").hidden = true;
+      $("deals").hidden = true; $("sources").hidden = true;
+      initDealSteps();
+    });
+})();
+</script>
+</body>
+</html>
