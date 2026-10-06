@@ -72,9 +72,12 @@ def fake_generate(system, prompt, schema=None):
         return {"deals": deals}
     if system is final.DEAL_SYSTEM:
         nums = [int(n) for n in re.findall(r"^\[(\d+)\]", prompt, flags=re.M)]
-        # [9999] is a headline that isn't in this deal's prompt, and "[missing date]" isn't a citation
-        return {"headline": "Moving along.",
-                "body": "The companies agreed terms [%d]. It was announced in [missing date] [9999]. More coverage followed [%d]." % (nums[0], nums[-1])}
+        # 9999 is a headline that isn't in this deal's prompt; "[missing date]" isn't a citation
+        return {"headline": "Moving along.", "sentences": [
+            {"text": "The companies agreed terms.", "sources": [nums[0]]},
+            {"text": "This one cites a headline that isn't there.", "sources": [9999]},
+            {"text": "More coverage followed [missing date].", "sources": [nums[-1], nums[0], 9999]},
+        ]}
     if system is final.OVERVIEW_SYSTEM:
         tail = prompt.split("Extra headlines:")[1] if "Extra headlines:" in prompt else ""
         extra = [int(n) for n in re.findall(r"^\[(\d+)\]", tail, flags=re.M)]
@@ -212,6 +215,8 @@ def test_pipeline_end_to_end(monkeypatch):
     assert [a["n"] for a in res["also"]] and all(a["n"] != 4242 for a in res["also"])
     # Off-list citations and bracketed placeholders are stripped from the text, and the stripped ones are reported
     assert "missing date" not in ald["body"] and "9999" not in ald["body"]
+    assert "isn't there" not in ald["body"]           # a sentence with no valid source is dropped
+    assert ald["body"].count("[") == 2                # the two sentences that kept a source
     assert 9999 in res["invalid_citations"]
     # The extra story gets its citation added by the code
     assert res["also"][0]["note"].endswith("[%d]." % res["also"][0]["n"])
@@ -314,3 +319,14 @@ def test_only_the_newest_headlines_are_read(monkeypatch):
     monkeypatch.setattr(final, "MAX_READ", 3)
     res = run(monkeypatch, old=())
     assert res["stats"]["extraction_calls"] == 1 and res["stats"]["deals_found"] == 1
+
+
+def test_assemble_body_needs_a_source_for_every_sentence():
+    body, removed = final.assemble_body([
+        {"text": "Agreed terms.", "sources": [3]},
+        {"text": "Nobody says this.", "sources": [99]},
+        {"text": "Said twice [oops]", "sources": [3, 3, 7]},
+        {"text": "", "sources": [3]},
+    ], {3, 7})
+    assert body == "Agreed terms [3]. Said twice [3, 7]."
+    assert removed == [99]

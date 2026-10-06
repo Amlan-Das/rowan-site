@@ -43,22 +43,32 @@ DEAL_SYSTEM = """You are an M&A news writer giving a finance student the latest 
 Rules:
 - Use only the numbered headlines you are given. Do not add facts, numbers, names, dates or deal values that are not in them.
 - Some headlines may be about other deals involving the same companies. Ignore those.
-- Put the headline number in square brackets after each claim, like [3]. Only use the numbers you are given. Never write other text in square brackets.
+- Write two to four short sentences. For each one, list the numbers of the headlines that say it. Use only the numbers you are given.
 - The "Stage" line says where the deal stands. Write so that your text agrees with it.
 - Say what the deal is, where it stands, and what happens next if the headlines say so. Plain language, no hype.
 - If the headlines say nothing new, say that.
 
 Reply in JSON with:
 "headline": a subheading of at most 8 words, no brackets
-"body": two or three sentences with citations"""
+"sentences": a list of {"text": one sentence, "sources": [headline numbers that say it]}"""
 
 DEAL_SCHEMA = {
     "type": "object",
     "properties": {
         "headline": {"type": "string"},
-        "body": {"type": "string"},
+        "sentences": {
+            "type": "array", "minItems": 2, "maxItems": 4,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "text": {"type": "string"},
+                    "sources": {"type": "array", "items": {"type": "integer"}, "minItems": 1, "maxItems": 3},
+                },
+                "required": ["text", "sources"],
+            },
+        },
     },
-    "required": ["headline", "body"],
+    "required": ["headline", "sentences"],
 }
 
 OVERVIEW_SYSTEM = """You write the top of a daily M&A note.
@@ -163,7 +173,7 @@ def deal_prompt(deal, sources):
              "Stage: nothing new in the last three days. Say what the older headlines report, and that there is no fresh news.")
     return (f"Deal: {deal['acquirer']} and {deal['target']}.\n{stage}\n\n"
             "Headlines:\n" + "\n".join(_source_line(s) for s in sources) +
-            "\n\nWrite the subheading and body.")
+            "\n\nWrite the subheading and sentences.")
 
 
 # ---------- 6. Generate ----------
@@ -191,6 +201,29 @@ def clean_body(body, allowed):
     return re.sub(r"\s{2,}", " ", body).strip(), sorted(removed)
 
 
+def assemble_body(sentences, allowed):
+    """Turn the model's sentences and their source numbers into text with citations.
+
+    The citations come from the model's list, not from brackets it typed. A
+    number that isn't one of this deal's headlines is removed, and a sentence
+    left with no valid source is dropped: no source, no claim. Returns the text
+    and the numbers that were removed.
+    """
+    parts, removed = [], set()
+    for sent in sentences or []:
+        text = re.sub(r"\[[^\]]*\]", "", str(sent.get("text", ""))).strip().rstrip(".!? ")
+        nums = []
+        for n in sent.get("sources") or []:
+            if isinstance(n, int) and n in allowed:
+                if n not in nums:
+                    nums.append(n)
+            elif isinstance(n, int):
+                removed.add(n)
+        if text and nums:
+            parts.append(f"{text} [{', '.join(map(str, nums))}].")
+    return " ".join(parts), sorted(removed)
+
+
 def write_deal(deal, by_n, numbers):
     """One focused LLM call per deal, with only the headlines gathered for it."""
     out = {
@@ -206,7 +239,9 @@ def write_deal(deal, by_n, numbers):
         return out
     reply = llm.generate(DEAL_SYSTEM, deal_prompt(deal, [by_n[n] for n in numbers]), schema=DEAL_SCHEMA)
     out["headline"] = re.sub(r"\[[^\]]*\]", "", reply["headline"]).strip().rstrip(".")
-    out["body"], out["stripped"] = clean_body(reply["body"], set(numbers))
+    out["body"], out["stripped"] = assemble_body(reply["sentences"], set(numbers))
+    if not out["body"]:
+        out["body"] = "The headlines gathered for this deal are listed in the sources, but none of the model's sentences could be traced to them."
     return out
 
 

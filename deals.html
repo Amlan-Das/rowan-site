@@ -142,13 +142,13 @@ Headlines:
         <li class="ed-step" data-step="7">
           <p class="snum">Step 7</p>
           <h3>Write in a fixed shape, then check</h3>
-          <p>A Llama model running on Ollama answers each prompt at a low temperature, in a JSON shape Ollama enforces with a schema: a subheading of up to eight words and two or three sentences with citations. The deal value, the stage and the article counts come from the code, so the model never retypes a number.</p>
-          <p>A last call reads the deal summaries and writes the headline sentence at the top, then picks up to three other deals worth knowing, from headlines that aren't about the deals shown. Finally the code checks every citation against that deal's own headlines and removes any that point somewhere else. That catches invented citations, though it can't prove a source supports its sentence, so the sources are listed above to check.</p>
+          <p>A Llama model running on Ollama answers each prompt at a low temperature, in a JSON shape Ollama enforces with a schema: a subheading of up to eight words, then two to four sentences, each with the numbers of the headlines that say it. The deal value, the stage and the article counts come from the code, so the model never retypes a number.</p>
+          <p>A last call reads the deal summaries and writes the headline sentence at the top, then picks up to three other deals worth knowing, from headlines that aren't about the deals shown. Finally the code checks every source number against that deal's own headlines, removes any that point somewhere else, and drops a sentence that is left with no source. That catches invented citations, though it can't prove a source supports its sentence, so the sources are listed above to check.</p>
           <div class="ed-code"><span class="c"># final.py: Ollama holds the reply to this shape</span>
 "format": {"type": "object",
            "properties": {"headline": {"type": "string"},
-                          "body": {"type": "string"}},
-           "required": ["headline", "body"]}</div>
+                          "sentences": [{"text": "...", "sources": [3, 7]}]},
+           "required": ["headline", "sentences"]}</div>
           <p class="ed-run" id="run7"></p>
         </li>
       </ol>
