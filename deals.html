@@ -112,8 +112,8 @@ POST localhost:11434/api/embed
         <li class="ed-step" data-step="4">
           <p class="snum">Step 4</p>
           <h3>Find the deals in the headlines</h3>
-          <p>The model reads the headlines ten at a time and returns, for each one that reports a deal, the buyer, the target, the stage and the value, in a JSON shape Ollama enforces. A model this small will sometimes invent a company or swap buyer and target, so the code doesn't take its word. Every name has to appear in the headline text, or the record is dropped.</p>
-          <p>The records that survive are grouped, so five headlines about one takeover become one deal. If the headlines disagree about who is buying, the majority wins. Here is what was found this time, with the headlines each deal was read from:</p>
+          <p>The model reads the headlines ten at a time and returns, for each one that reports a deal, the buyer, the target and the value, in a JSON shape Ollama enforces. A model this small will sometimes invent a company, swap buyer and target, or make up a number, so the code doesn't take its word. Every name has to appear in the headline text, and so does the value, or the record is dropped.</p>
+          <p>The records that survive are grouped, so five headlines about one takeover become one deal. If the headlines disagree about who is buying, the majority wins. The stage comes from the words in the newest clear headline ("agrees to acquire", "completes", "called off", "regulators"), because in testing the small model called almost every deal completed. Here is what was found this time, with the headlines each deal was read from:</p>
           <div class="ed-rtab" id="edDetect"></div>
           <p class="ed-run" id="run4"></p>
         </li>
@@ -130,7 +130,7 @@ POST localhost:11434/api/embed
           <p class="snum">Step 6</p>
           <h3>Build one prompt per deal</h3>
           <p>Each deal gets its own prompt with only its headlines, up to eight: the ones that revealed it plus whatever the search found, numbered the same way as the source list. A small local model stays on topic far better with a handful of relevant headlines than with a hundred mixed ones.</p>
-          <p>The rules come first: use only these headlines, ignore any that are about other deals, cite by number, and say so when nothing is new. A pinned deal with no coverage skips the model, and the page says there is nothing to report.</p>
+          <p>The rules come first: use only these headlines, ignore any that are about other deals, cite by number, match the stage the code decided, and say so when nothing is new. A pinned deal with no coverage skips the model, and the page says there is nothing to report.</p>
           <div class="ed-code" id="code6"><span class="c"># one of this update's prompts</span>
 Deal: Buyer and Target.
 
@@ -142,13 +142,13 @@ Headlines:
         <li class="ed-step" data-step="7">
           <p class="snum">Step 7</p>
           <h3>Write in a fixed shape, then check</h3>
-          <p>A Llama model running on Ollama answers each prompt at a low temperature, in a JSON shape Ollama enforces with a schema: a subheading of up to eight words, a stage and two or three sentences with citations. The deal value and the article counts come from the code, so the model never retypes a number.</p>
-          <p>A last call reads the deal summaries and writes the headline sentence at the top, then picks up to three other deals worth knowing. Finally the code checks every citation against the source list and flags any number that doesn't exist. That catches invented citations, though it can't prove a source supports its sentence, so the sources are listed above to check.</p>
+          <p>A Llama model running on Ollama answers each prompt at a low temperature, in a JSON shape Ollama enforces with a schema: a subheading of up to eight words and two or three sentences with citations. The deal value, the stage and the article counts come from the code, so the model never retypes a number.</p>
+          <p>A last call reads the deal summaries and writes the headline sentence at the top, then picks up to three other deals worth knowing, from headlines that aren't about the deals shown. Finally the code checks every citation against that deal's own headlines and removes any that point somewhere else. That catches invented citations, though it can't prove a source supports its sentence, so the sources are listed above to check.</p>
           <div class="ed-code"><span class="c"># final.py: Ollama holds the reply to this shape</span>
 "format": {"type": "object",
            "properties": {"headline": {"type": "string"},
-                          "stage": {"enum": ["Rumored", "Announced", ...]},
-                          "body": {"type": "string"}}}</div>
+                          "body": {"type": "string"}},
+           "required": ["headline", "body"]}</div>
           <p class="ed-run" id="run7"></p>
         </li>
       </ol>
@@ -257,7 +257,7 @@ Headlines:
     $("run4").innerHTML = "This update: <b>" + (st.extraction_calls ?? "-") + "</b> calls read <b>" + (st.headlines_fetched ?? "-") + "</b> headlines and found <b>" + (st.deals_found ?? "-") + "</b> deals. The <b>" + deals.length + "</b> best covered are shown.";
     $("run6").innerHTML = "This update: <b>" + hits + "</b> matches across " + plural(retrieval.length, "search", "searches") + ", written into <b>" + prompts + "</b> focused prompts.";
     $("run7").innerHTML = "This update: <b>" + (st.llm_calls ?? "-") + "</b> calls to " + esc(d.model || "") + " in all, <b>" + cited.size + "</b> of " + sources.length + " sources cited. " +
-      ((d.invalid_citations || []).length ? '<span class="down">Invented citations: ' + d.invalid_citations.join(", ") + ".</span>" : "No invented citations.");
+      ((d.invalid_citations || []).length ? '<span class="down">Removed citations that pointed to the wrong headline: ' + d.invalid_citations.join(", ") + ".</span>" : "No citations had to be removed.");
 
     // A real prompt from this update (first three headlines, trimmed)
     if (d.example_prompt) {

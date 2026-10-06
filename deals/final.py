@@ -2,8 +2,9 @@
 
 1. Ingest    pull fresh M&A headlines (Google News RSS)
 2. Index     embed each headline and store it in a local vector DB (Chroma)
-3. Detect    the model pulls buyer, target and stage out of each headline; code checks
-             the names are really in the text and groups headlines about the same deal
+3. Detect    the model pulls buyer and target out of each headline; code checks the names
+             and the deal value are really in the text, groups headlines about the same
+             deal and decides its stage from the words the headlines use
 4. Retrieve  for each deal, search the DB for more coverage of it, back up to a month
 5. Augment   build one prompt per deal with only that deal's numbered headlines
 6. Generate  a local LLM (Ollama) writes a short update per deal as JSON, then a one
@@ -35,37 +36,36 @@ TOP_K = 6             # headlines retrieved per deal
 MAX_PROMPT = 8        # most headlines put in one deal's prompt
 MAX_DEALS = 8         # deals shown on the page
 MAX_GENERAL = 8       # extra fresh headlines offered for "also worth knowing"
+MAX_READ = 100        # most headlines the model reads for deals in one run (newest first)
 
 DEAL_SYSTEM = """You are an M&A news writer giving a finance student the latest on one deal.
 
 Rules:
-- Use only the numbered headlines you are given. Do not add facts, numbers, names or dates that are not in them.
+- Use only the numbered headlines you are given. Do not add facts, numbers, names, dates or deal values that are not in them.
 - Some headlines may be about other deals involving the same companies. Ignore those.
-- Put the headline number in square brackets after each claim, like [3].
+- Put the headline number in square brackets after each claim, like [3]. Only use the numbers you are given. Never write other text in square brackets.
+- The "Stage" line says where the deal stands. Write so that your text agrees with it.
 - Say what the deal is, where it stands, and what happens next if the headlines say so. Plain language, no hype.
-- "stage" must reflect the newest headlines.
 - If the headlines say nothing new, say that.
 
 Reply in JSON with:
 "headline": a subheading of at most 8 words, no brackets
-"stage": one of Rumored, Announced, Pending approval, Completed, Terminated
 "body": two or three sentences with citations"""
 
 DEAL_SCHEMA = {
     "type": "object",
     "properties": {
         "headline": {"type": "string"},
-        "stage": {"type": "string", "enum": extract.STAGES},
         "body": {"type": "string"},
     },
-    "required": ["headline", "stage", "body"],
+    "required": ["headline", "body"],
 }
 
 OVERVIEW_SYSTEM = """You write the top of a daily M&A note.
 
 Rules:
 - "lede": one sentence of at most 35 words that sums up today's deal news, based only on the deal summaries given. No brackets.
-- "also": pick up to three of the numbered extra headlines that report a deal not covered above. For each, give its number as "n" and one sentence on what it says, using only what the headline says, ending with its citation like [7].
+- "also": pick up to three of the numbered extra headlines that report a deal between two companies. For each, give its number as "n" and one sentence on what it says, using only what the headline says, ending with its citation like [7].
 
 Reply in JSON."""
 
@@ -159,12 +159,37 @@ def _source_line(s):
 
 
 def deal_prompt(deal, sources):
-    return (f"Deal: {deal['acquirer']} and {deal['target']}.\n\n"
+    stage = (f"Stage: {deal['stage']}." if deal["stage"] in extract.STAGES else
+             "Stage: nothing new in the last three days. Say what the older headlines report, and that there is no fresh news.")
+    return (f"Deal: {deal['acquirer']} and {deal['target']}.\n{stage}\n\n"
             "Headlines:\n" + "\n".join(_source_line(s) for s in sources) +
-            "\n\nWrite the subheading, stage and body.")
+            "\n\nWrite the subheading and body.")
 
 
 # ---------- 6. Generate ----------
+
+def clean_body(body, allowed):
+    """Keep only real citations to this deal's own headlines.
+
+    Drops bracketed text that isn't a citation (a small model sometimes writes
+    "[missing date]") and citations to headlines that aren't in this deal's
+    prompt. Returns the cleaned text and the citation numbers that were removed.
+    """
+    removed = set()
+
+    def fix(m):
+        inner = m.group(1).strip()
+        if not re.fullmatch(r"\d+(?:\s*,\s*\d+)*", inner):
+            return ""
+        nums = [int(x) for x in re.split(r"\s*,\s*", inner)]
+        removed.update(n for n in nums if n not in allowed)
+        keep = [n for n in nums if n in allowed]
+        return "[" + ", ".join(map(str, keep)) + "]" if keep else ""
+
+    body = re.sub(r"\[([^\]]*)\]", fix, body)
+    body = re.sub(r"\s+([.,;])", r"\1", body)
+    return re.sub(r"\s{2,}", " ", body).strip(), sorted(removed)
+
 
 def write_deal(deal, by_n, numbers):
     """One focused LLM call per deal, with only the headlines gathered for it."""
@@ -173,17 +198,15 @@ def write_deal(deal, by_n, numbers):
         "pinned": deal["pinned"], "stage": deal["stage"],
         "articles": len(deal["idxs"]), "outlets": deal["outlets"],
         "latest": iso(deal["latest"]) if deal["latest"] else None,
-        "sources": numbers,
+        "sources": numbers, "stripped": [],
     }
     if not numbers:
         out.update(headline="No recent coverage",
                    body="None of the stored headlines mention this deal, so there is nothing new to report.")
         return out
     reply = llm.generate(DEAL_SYSTEM, deal_prompt(deal, [by_n[n] for n in numbers]), schema=DEAL_SCHEMA)
-    out["headline"] = reply["headline"].strip().rstrip(".")
-    out["body"] = reply["body"].strip()
-    if reply.get("stage") in extract.STAGES:
-        out["stage"] = reply["stage"]
+    out["headline"] = re.sub(r"\[[^\]]*\]", "", reply["headline"]).strip().rstrip(".")
+    out["body"], out["stripped"] = clean_body(reply["body"], set(numbers))
     return out
 
 
@@ -196,8 +219,15 @@ def write_overview(deals, extras):
         prompt += "\n\nExtra headlines:\n" + "\n".join(_source_line(s) for s in extras)
     out = llm.generate(OVERVIEW_SYSTEM, prompt, schema=OVERVIEW_SCHEMA)
     valid = {s["n"] for s in extras}
-    also = [{"n": a["n"], "note": a["note"].strip()} for a in out.get("also", []) if a.get("n") in valid][:3]
-    return out["lede"].strip(), also
+    also = []
+    for a in out.get("also", []):
+        n, note = a.get("n"), (a.get("note") or "").strip()
+        if n not in valid or not note or any(x["n"] == n for x in also):
+            continue
+        # The sentence has to carry its own citation, whatever the model did
+        note, _ = clean_body(note, {n})
+        also.append({"n": n, "note": note if f"[{n}]" in note else f"{note.rstrip('.')} [{n}]."})
+    return out["lede"].strip(), also[:3]
 
 
 def check_citations(text, n_sources):
@@ -235,7 +265,7 @@ def build_deals():
 
     # 3. Detect
     print(f"Reading {len(fresh)} headlines for deals...")
-    records, extraction_calls = extract.extract_deals(fresh)
+    records, extraction_calls = extract.extract_deals(fresh[:MAX_READ])
     groups = extract.group_deals(records, fresh, load_pins())
     deals = extract.rank_deals(groups, MAX_DEALS)
 
@@ -254,11 +284,13 @@ def build_deals():
         })
         prompt_numbers.append(numbers)
     # A few fresh headlines that weren't used for any deal, for "also worth knowing"
+    def about_a_shown_deal(h):
+        return any(extract.mentions(d["acquirer"], h["title"]) or extract.mentions(d["target"], h["title"]) for d in deals)
     general = []
     for h in fresh:
         if len(general) >= MAX_GENERAL:
             break
-        if h["id"] not in numberer.index:
+        if h["id"] not in numberer.index and not about_a_shown_deal(h):
             general.append(numberer.add(h))
     sources = numberer.sources
     by_n = {s["n"]: s for s in sources}
@@ -277,6 +309,8 @@ def build_deals():
 
     text = as_text(lede, written, also)
     cited, invalid = check_citations(text, len(sources))
+    # Citations the model made to headlines outside the deal's own prompt were removed above; they still count as invented
+    invalid = sorted(set(invalid) | {n for w in written for n in w["stripped"]})
     first = next((i for i, n in enumerate(prompt_numbers) if n), None)
 
     return {

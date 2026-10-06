@@ -51,8 +51,18 @@ _SKIP = {"inc", "incorporated", "corp", "corporation", "co", "company", "ltd", "
 
 
 def tokens(name):
-    """The words of a company name that matter, lowercase, without legal suffixes."""
-    return [w for w in re.findall(r"[a-z0-9]+", (name or "").lower()) if w not in _SKIP]
+    """The words of a company name that matter, lowercase, without legal suffixes or 's."""
+    name = re.sub(r"['\u2019]s\b", "", (name or "").lower())
+    return [w for w in re.findall(r"[a-z0-9]+", name) if w not in _SKIP]
+
+
+def mentions(name, text):
+    """Looser than appears(): does the text use the company's most distinctive word?"""
+    toks = tokens(name)
+    if not toks:
+        return False
+    words = set(re.findall(r"[a-z0-9]+", re.sub(r"['\u2019]s\b", "", text.lower())))
+    return max(toks, key=len) in words
 
 
 def appears(name, text):
@@ -60,7 +70,7 @@ def appears(name, text):
     toks = tokens(name)
     if not toks:
         return False
-    words = set(re.findall(r"[a-z0-9]+", text.lower()))
+    words = set(re.findall(r"[a-z0-9]+", re.sub(r"['\u2019]s\b", "", text.lower())))
     need = len(toks) if len(toks) <= 2 else (len(toks) + 1) // 2
     return sum(1 for t in toks if t in words) >= need
 
@@ -76,6 +86,63 @@ def same_party(a, b):
         return False
     short, long_ = (ta, tb) if len(ta) <= len(tb) else (tb, ta)
     return long_[:len(short)] == short
+
+
+# ---------- Values and stages are checked against the headline text ----------
+
+_NO_VALUE = {"", "null", "none", "n/a", "na", "unknown", "undisclosed", "not disclosed", "-"}
+_MONEY = re.compile(r"[$\u00a3\u20ac]\s?\d[\d,]*(?:\.\d+)?\s?(?:billion|million|trillion|bn|mn|m|b)?\b", re.I)
+
+
+def canon_value(value, text):
+    """The deal value as the headline writes it, or "" if the headline doesn't back it up."""
+    value = (value or "").strip()
+    if value.lower() in _NO_VALUE:
+        return ""
+    nums = re.findall(r"\d[\d,]*(?:\.\d+)?", value)
+    if not nums:
+        return ""
+    for m in _MONEY.finditer(text):
+        if nums[0].replace(",", "") in m.group(0).replace(",", ""):
+            return m.group(0).strip()
+    return ""
+
+
+_TERMINATED = re.compile(r"\b(terminat\w*|called off|calls? off|scrapp\w*|abandon\w*|walks? away|collaps\w*|blocked|blocks|withdr[ae]w\w*|torpedo\w*)\b", re.I)
+_COMPLETED = re.compile(r"\b(completes|completed|completion of|closes|closed|finalizes|finalized|finalises|finalised|wraps up|wrapped up|has acquired|now owns)\b", re.I)
+_FUTURE = re.compile(r"\b(expected|expects|set|aims?|seeks?|to be|will|would|plans?|could|may|once|after|before|pending|until)\b[^.;]{0,40}\b(complet\w*|clos\w*|finali[sz]\w*)", re.I)
+_PENDING = re.compile(r"\b(regulator\w*|antitrust|competition (?:authority|commission|bureau)|CMA|FTC|DOJ|approval|approves?|approved|review|shareholder vote|vote|clearance|cleared|second request|scrutiny|probe)\b", re.I)
+_SIGNED = re.compile(r"\b(agrees?|agreed|announces?|announced|acquires|signs?|signed|definitive)\b", re.I)
+_ANNOUNCED = re.compile(r"\b(agrees?|agreed|announces?|announced|acquires|to (?:buy|acquire|purchase)|will (?:buy|acquire)|signs?|signed|definitive|offer|bid|launches|sweetens|raises)\b", re.I)
+_RUMORED = re.compile(r"\b(in talks|talks|nears?|weighs?|considering|exploring|explores|approach\w*|interest in|people familiar|sources|rumou?r\w*|mulls?|eyes|considers)\b", re.I)
+
+
+def infer_stage(text):
+    """What one headline says about where a deal stands, from the words it uses. None if unclear."""
+    if _TERMINATED.search(text):
+        return "Terminated"
+    if _COMPLETED.search(text) and not _FUTURE.search(text):
+        return "Completed"
+    if _PENDING.search(text):
+        return "Pending approval"
+    if _RUMORED.search(text) and not _SIGNED.search(text):
+        return "Rumored"
+    if _ANNOUNCED.search(text):
+        return "Announced"
+    return None
+
+
+def decide_stage(texts, fallback):
+    """Stage of a deal from its headlines, newest first. The newest headline that is clear wins.
+
+    A small model likes to say "Completed" for everything, so the model's own
+    answer only counts when the words back it up; otherwise it is "Announced".
+    """
+    for t in texts:
+        stage = infer_stage(t)
+        if stage:
+            return stage
+    return fallback if fallback in ("Rumored", "Announced", "Pending approval") else "Announced"
 
 
 def valid_record(rec, text):
@@ -121,7 +188,7 @@ def extract_deals(headlines, batch=BATCH):
                 "acquirer": rec["acquirer"].strip(),
                 "target": rec["target"].strip(),
                 "stage": rec["stage"] if rec.get("stage") in STAGES else "Announced",
-                "value": (rec.get("value") or "").strip(),
+                "value": canon_value(rec.get("value"), h["title"] + " " + h.get("snippet", "")),
             })
     return records, calls
 
@@ -169,7 +236,8 @@ def group_deals(records, headlines, seeds=None):
                 target = Counter(r["target"] for r in recs).most_common(1)[0][0]
             values = [r["value"] for r in recs if r["value"]]
             value = Counter(values).most_common(1)[0][0] if values else ""
-            stage = recs[0]["stage"]
+            texts = [headlines[i]["title"] + " " + headlines[i].get("snippet", "") for i in sorted({r["idx"] for r in recs})]
+            stage = decide_stage(texts, recs[0]["stage"])
         else:
             value, stage = "", "No recent news"
         idxs = sorted({r["idx"] for r in recs})   # newest headlines have the lowest index

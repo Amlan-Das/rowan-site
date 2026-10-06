@@ -28,7 +28,7 @@ QUERIES = [
 # Deal news moves more slowly than market news and the run skips weekends, so
 # look back three days. Older stories stay in the vector store for retrieval.
 LOOKBACK_HOURS = 72
-PER_QUERY = 10
+PER_QUERY = 20
 
 
 def _clean(text):
@@ -81,7 +81,7 @@ def parse_feed(raw, now=None, lookback_hours=LOOKBACK_HOURS, limit=PER_QUERY):
 
 def fetch_headlines(query, limit=PER_QUERY):
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
-        "q": query,
+        "q": query + " when:3d",   # Google News operator: only stories from the last three days
         "hl": "en-US",
         "gl": "US",
         "ceid": "US:en",

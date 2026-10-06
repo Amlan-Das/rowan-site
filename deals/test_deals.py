@@ -72,14 +72,15 @@ def fake_generate(system, prompt, schema=None):
         return {"deals": deals}
     if system is final.DEAL_SYSTEM:
         nums = [int(n) for n in re.findall(r"^\[(\d+)\]", prompt, flags=re.M)]
-        return {"headline": "Moving along.", "stage": "Pending approval",
-                "body": "The companies agreed terms [%d]. More coverage followed [%d]." % (nums[0], nums[-1])}
+        # [9999] is a headline that isn't in this deal's prompt, and "[missing date]" isn't a citation
+        return {"headline": "Moving along.",
+                "body": "The companies agreed terms [%d]. It was announced in [missing date] [9999]. More coverage followed [%d]." % (nums[0], nums[-1])}
     if system is final.OVERVIEW_SYSTEM:
         tail = prompt.split("Extra headlines:")[1] if "Extra headlines:" in prompt else ""
         extra = [int(n) for n in re.findall(r"^\[(\d+)\]", tail, flags=re.M)]
         also = [{"n": 4242, "note": "A story that does not exist [4242]."}]
         if extra:
-            also.insert(0, {"n": extra[0], "note": "A real extra story [%d]." % extra[0]})
+            also.insert(0, {"n": extra[0], "note": "A real extra story without its citation."})
         return {"lede": "A busy day for deals.", "also": also}
     raise AssertionError("unexpected prompt")
 
@@ -204,10 +205,16 @@ def test_pipeline_end_to_end(monkeypatch):
     assert OLD["title"] in titles                     # retrieval pulled in the old story
     assert ald["articles"] == 3 and ald["outlets"] == 3
     assert ald["headline"] == "Moving along"          # trailing full stop stripped
+    assert ald["stage"] == "Announced"                # decided by the code from the headlines, not by the model
+    assert ald["value"] == "$4.2 billion"
 
     # The invented extra story is dropped, the real one kept
     assert [a["n"] for a in res["also"]] and all(a["n"] != 4242 for a in res["also"])
-    assert res["invalid_citations"] == []
+    # Off-list citations and bracketed placeholders are stripped from the text, and the stripped ones are reported
+    assert "missing date" not in ald["body"] and "9999" not in ald["body"]
+    assert 9999 in res["invalid_citations"]
+    # The extra story gets its citation added by the code
+    assert res["also"][0]["note"].endswith("[%d]." % res["also"][0]["n"])
     assert res["lede"] == "A busy day for deals."
     assert res["stats"]["deals_shown"] == 4 and res["stats"]["headlines_fetched"] == len(FRESH)
 
@@ -261,3 +268,49 @@ def test_console_report_prints(monkeypatch, capsys):
     final.print_report(run(monkeypatch))
     out = capsys.readouterr().out
     assert "How it was made" in out and "Alderwood Systems" in out
+
+
+# ---------- checks on what the model says ----------
+
+def test_possessives_do_not_split_a_company():
+    assert extract.tokens("Schneider\u2019s") == ["schneider"]
+    assert extract.same_party("Schneider's", "Schneider Electric")
+
+
+def test_value_must_be_in_the_headline():
+    text = "Schneider Electric to Buy PTC for $22.6 Billion"
+    assert extract.canon_value("22.6 Billion", text) == "$22.6 Billion"     # spelled the way the headline spells it
+    assert extract.canon_value("null", text) == ""
+    assert extract.canon_value("$9 billion", text) == ""                     # not in the headline
+    assert extract.canon_value("", text) == ""
+
+
+def test_stage_is_read_from_the_words():
+    assert extract.infer_stage("Basware completes acquisition of Trustpair") == "Completed"
+    assert extract.infer_stage("Deal expected to be completed in Q4") != "Completed"
+    assert extract.infer_stage("Fathom merger is called off") == "Terminated"
+    assert extract.infer_stage("Corvane in talks to buy Dunmore, sources say") == "Rumored"
+    assert extract.infer_stage("Kestrel agrees to buy Lumen after talks") == "Announced"
+    assert extract.infer_stage("Regulators open review of the takeover") == "Pending approval"
+    assert extract.infer_stage("Weather turns cold") is None
+
+
+def test_a_model_claim_of_completed_needs_backing():
+    texts = ["Cenovus Energy Agrees to Acquire Athabasca Oil in $4 Billion Deal"]
+    assert extract.decide_stage(texts, "Completed") == "Announced"
+    # With nothing clear in the words, a modest model answer stands
+    assert extract.decide_stage(["Odd headline"], "Rumored") == "Rumored"
+    # The newest clear headline wins
+    assert extract.decide_stage(["Kestrel completes purchase of Lumen", "Kestrel agrees to buy Lumen"], "Announced") == "Completed"
+
+
+def test_clean_body_keeps_only_this_deals_citations():
+    body, removed = final.clean_body("Agreed [3]. Date [missing date]. Also [2, 7] and [9].", {3, 7})
+    assert body == "Agreed [3]. Date. Also [7] and."
+    assert removed == [2, 9]
+
+
+def test_only_the_newest_headlines_are_read(monkeypatch):
+    monkeypatch.setattr(final, "MAX_READ", 3)
+    res = run(monkeypatch, old=())
+    assert res["stats"]["extraction_calls"] == 1 and res["stats"]["deals_found"] == 1
