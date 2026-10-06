@@ -1,0 +1,543 @@
+{
+  "date": "Monday, October 05",
+  "generated_at": "2026-10-06T01:57:32.369376+00:00",
+  "model": "llama3.2:3b",
+  "embed_model": "nomic-embed-text",
+  "lede": "Schneider Electric agreed to acquire PTC in a $22.6 billion deal, its largest-ever acquisition, to boost industrial intelligence.",
+  "deals": [
+    {
+      "acquirer": "Schneider Electric",
+      "target": "PTC",
+      "value": "22.6 Billion",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 7,
+      "outlets": 7,
+      "latest": "2026-10-05T18:04:23+00:00",
+      "sources": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "headline": "Schneider Electric to Buy PTC",
+      "body": "Schneider Electric has agreed to acquire PTC in a $22.6 billion deal. The acquisition is the French industrial giant's largest-ever acquisition. [1] [2] [3] [4] [5] [6] [7]",
+      "found": [
+        {
+          "n": 1,
+          "acquirer": "Schneider Electric",
+          "target": "PTC",
+          "stage": "Completed"
+        },
+        {
+          "n": 2,
+          "acquirer": "Schneider Electric",
+          "target": "PTC",
+          "stage": "Completed"
+        },
+        {
+          "n": 3,
+          "acquirer": "Schneider Electric",
+          "target": "PTC",
+          "stage": "Announced"
+        },
+        {
+          "n": 4,
+          "acquirer": "Schneider Electric",
+          "target": "PTC",
+          "stage": "Announced"
+        },
+        {
+          "n": 5,
+          "acquirer": "Schneider Electric",
+          "target": "PTC",
+          "stage": "Completed"
+        },
+        {
+          "n": 6,
+          "acquirer": "Schneider Electric",
+          "target": "PTC",
+          "stage": "Announced"
+        },
+        {
+          "n": 7,
+          "acquirer": "Schneider Electric",
+          "target": "PTC",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "Curaleaf",
+      "target": "Aurora Cannabis",
+      "value": "null",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-05T23:47:54+00:00",
+      "sources": [
+        8,
+        9
+      ],
+      "headline": "Curaleaf to Acquire Aurora Cannabis",
+      "body": "Curaleaf has made a new offer to acquire Aurora Cannabis, increasing the proposed purchase price. The deal is expected to close in the fourth quarter of 2023. [8] [9]",
+      "found": [
+        {
+          "n": 8,
+          "acquirer": "Curaleaf",
+          "target": "Aurora Cannabis",
+          "stage": "Announced"
+        },
+        {
+          "n": 9,
+          "acquirer": "Curaleaf",
+          "target": "Aurora Cannabis",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "Schneider's",
+      "target": "PTC",
+      "value": "22.6 Billion",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-05T19:16:45+00:00",
+      "sources": [
+        10,
+        2,
+        6,
+        5,
+        7,
+        4,
+        1
+      ],
+      "headline": "Schneider Electric to Buy PTC",
+      "body": "Schneider Electric has agreed to acquire PTC in a $22.6 billion deal. The acquisition is Schneider Electric's largest-ever deal. The deal is expected to boost industrial intelligence for Schneider Electric.",
+      "found": [
+        {
+          "n": 10,
+          "acquirer": "Schneider's",
+          "target": "PTC",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "C.H. Robinson",
+      "target": "RXO",
+      "value": "5.8 Billion",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-05T17:28:49+00:00",
+      "sources": [
+        11
+      ],
+      "headline": "C.H. Robinson to Acquire RXO",
+      "body": "C.H. Robinson has agreed to acquire RXO in a $5.8 billion cash-and-stock deal. The deal is expected to expand C.H. Robinson's capabilities in the digital freight market. [11]",
+      "found": [
+        {
+          "n": 11,
+          "acquirer": "C.H. Robinson",
+          "target": "RXO",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Basware",
+      "target": "Trustpair",
+      "value": "null",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-05T15:42:13+00:00",
+      "sources": [
+        12
+      ],
+      "headline": "Basware Acquires Trustpair",
+      "body": "Basware has completed its acquisition of Trustpair, a provider of AI-powered digital identity verification solutions. [12] The deal was announced in [missing date] and has now been finalized. The terms of the acquisition were not disclosed. [12]",
+      "found": [
+        {
+          "n": 12,
+          "acquirer": "Basware",
+          "target": "Trustpair",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Cenovus Energy",
+      "target": "Athabasca Oil",
+      "value": "$4 Billion",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-05T13:25:00+00:00",
+      "sources": [
+        13
+      ],
+      "headline": "Cenovus to Acquire Athabasca Oil",
+      "body": "Cenovus Energy has agreed to acquire Athabasca Oil in a $4 billion deal. [13] The deal is expected to be completed once regulatory approvals are received. The acquisition is expected to expand Cenovus' presence in the Canadian oil sands market. [13]",
+      "found": [
+        {
+          "n": 13,
+          "acquirer": "Cenovus Energy",
+          "target": "Athabasca Oil",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "CareTrust",
+      "target": "LNT",
+      "value": "approximately £1.1 billion",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-05T07:30:00+00:00",
+      "sources": [
+        14
+      ],
+      "headline": "CareTrust to Acquire UK Care Homes",
+      "body": "CareTrust has agreed to acquire 45 UK care homes from LNT for approximately £1.1 billion. [1] The deal is expected to be completed once regulatory approvals are obtained. [2]",
+      "found": [
+        {
+          "n": 14,
+          "acquirer": "CareTrust",
+          "target": "LNT",
+          "stage": "Announced"
+        }
+      ]
+    }
+  ],
+  "also": [
+    {
+      "n": 15,
+      "note": "Fathom, Bed Bath & Beyond Parent Merger Is Called Off"
+    },
+    {
+      "n": 16,
+      "note": "PTC Stock Forecast: $22.6 Billion Schneider Deal Resets the Investment Case"
+    },
+    {
+      "n": 17,
+      "note": "Schneider Expands in AI With Record $23 Billion Acquisition"
+    }
+  ],
+  "brief": "Schneider Electric agreed to acquire PTC in a $22.6 billion deal, its largest-ever acquisition, to boost industrial intelligence.\n\nSchneider Electric / PTC (Completed): Schneider Electric to Buy PTC. Schneider Electric has agreed to acquire PTC in a $22.6 billion deal. The acquisition is the French industrial giant's largest-ever acquisition. [1] [2] [3] [4] [5] [6] [7]\nCuraleaf / Aurora Cannabis (Completed): Curaleaf to Acquire Aurora Cannabis. Curaleaf has made a new offer to acquire Aurora Cannabis, increasing the proposed purchase price. The deal is expected to close in the fourth quarter of 2023. [8] [9]\nSchneider's / PTC (Completed): Schneider Electric to Buy PTC. Schneider Electric has agreed to acquire PTC in a $22.6 billion deal. The acquisition is Schneider Electric's largest-ever deal. The deal is expected to boost industrial intelligence for Schneider Electric.\nC.H. Robinson / RXO (Completed): C.H. Robinson to Acquire RXO. C.H. Robinson has agreed to acquire RXO in a $5.8 billion cash-and-stock deal. The deal is expected to expand C.H. Robinson's capabilities in the digital freight market. [11]\nBasware / Trustpair (Completed): Basware Acquires Trustpair. Basware has completed its acquisition of Trustpair, a provider of AI-powered digital identity verification solutions. [12] The deal was announced in [missing date] and has now been finalized. The terms of the acquisition were not disclosed. [12]\nCenovus Energy / Athabasca Oil (Completed): Cenovus to Acquire Athabasca Oil. Cenovus Energy has agreed to acquire Athabasca Oil in a $4 billion deal. [13] The deal is expected to be completed once regulatory approvals are received. The acquisition is expected to expand Cenovus' presence in the Canadian oil sands market. [13]\nCareTrust / LNT (Completed): CareTrust to Acquire UK Care Homes. CareTrust has agreed to acquire 45 UK care homes from LNT for approximately £1.1 billion. [1] The deal is expected to be completed once regulatory approvals are obtained. [2]\n\nAlso worth knowing:\n- Fathom, Bed Bath & Beyond Parent Merger Is Called Off\n- PTC Stock Forecast: $22.6 Billion Schneider Deal Resets the Investment Case\n- Schneider Expands in AI With Record $23 Billion Acquisition",
+  "sources": [
+    {
+      "n": 1,
+      "title": "Schneider Electric to Buy PTC in French Industrial Giant’s Largest-Ever Acquisition",
+      "source": "Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM0dVcnl5YS1henNUU0Y5Y2NBNkhpbWUyODhxRzdtNVUwVERBOW92SGhBLTFUaUYtX1FmWGhHaVRSb1R6V0ZfY2k3MzAtMk1SOHNob2ZqNzBMNVpjQU00anZRU18zSVJOT1JYNVE1a0JQeEZFUzAyWHlrNHN1Si1tYktTUktjaXJuaWhYaWpBQjdCbnFhb0pvWGtFMmkzUEtlbk1iaXd0RWlIbmZzR0xMcUlwZmxWM1BmdEZhZQ?oc=5",
+      "snippet": "Morningstar",
+      "published": "2026-10-05T18:04:23+00:00"
+    },
+    {
+      "n": 2,
+      "title": "Schneider Electric Agrees to Acquire PTC in $22.6 Billion Deal",
+      "source": "mezha.net",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE52eEFYSHV4ODFYR09ScExYOEFLQ0R4MU0yVWNTTThYNnZBNVF1aU04X3JaM2p4MjlWMWQ5SlRVQ2ctekpNWnptV2VVV0JEUlhMQVg0aHpDVE5FT0w4elRZYWVrNnQ0ZHV0Zi1pajJvUQ?oc=5",
+      "snippet": "mezha.net",
+      "published": "2026-10-05T15:49:22+00:00"
+    },
+    {
+      "n": 3,
+      "title": "Schneider Electric to buy industrial software group PTC for $23.7bn",
+      "source": "Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVjlvS3puWFdaOWw5NktJNk93YUlpQjR4bVpnVFpiVU03TUxZeGlLYl9fSHdud0pHZFdDTXk5U1dQbFJTWmxPdmo4M1NtUzh4bGxFMzBCVnNCVUp6WnJSWXM5ck5PUElOYmI4MVhtVEljVW4tRDRBWTV0QnF1ZGIwZjN1S0Y?oc=5",
+      "snippet": "Financial Times",
+      "published": "2026-10-05T10:54:05+00:00"
+    },
+    {
+      "n": 4,
+      "title": "Schneider Electric to Buy Software Maker PTC for $22.6 Billion",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTW90UWZMU2VUcHRXb2NZa3NpbTdqZUVfTXFTcGdFa2dYZkpRS0l0UXVzT25DTU53Z25aSUo5V250VzBTVGNLS01WZUprRGU3emdQNlhaRUN6VHVqLWZtYktRc3M4YnBPUlVVa002MkRLanVvY2gtODQ0UmRtbDRzTmFXTVQyY3VSdktYeWQyT3dBQlJvVVBMd3VYNnQtcTNvRF90S0RTN18?oc=5",
+      "snippet": "WSJ",
+      "published": "2026-10-05T08:47:00+00:00"
+    },
+    {
+      "n": 5,
+      "title": "Schneider Electric acquires PTC for 22.6 billion",
+      "source": "Techzine Global",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLUVxYWNzRk9aZUZSTkE1VHpUM1N4dnRPQ0NLX0c0dzFfOWtsUW9tWjNVMW5FajJma1owVEV3NWJXbUJ4d1p0cDhpMUlQb1A3c2JpREMyLVFpRzJvbTBJOE54aFl2MExNX3c3a1dMellvQnR2NHFVN1h2N3NRZ1hLVktFU0ZkRW5RQTB0T3EzVzY5OGdjdEE1S18xc3dtSTg?oc=5",
+      "snippet": "Techzine Global",
+      "published": "2026-10-05T06:57:00+00:00"
+    },
+    {
+      "n": 6,
+      "title": "Schneider Electric agrees to acquire PTC for $22.6 billion — Channel NewsAsia",
+      "source": "UA.NEWS",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMS02ZkJYckVUYTFjYkttMHhFTURzMzNDVlVpbGZfNkNLSkdDdmx1UHpJREEtcUdfY2pDRTFFUDQ2RmhlQnpfck1RTWd1TFVlMzdVcXVlaFNDQllIeURNcTVMcVU1UmhEUzVQUEVUTWVLbDRiRGdROGNYLXU5blNVT3E2YUZxX2N6dVBtR29nNEk4RjJZbHd1dUgzSW5rcTA?oc=5",
+      "snippet": "UA.NEWS",
+      "published": "2026-10-05T06:03:24+00:00"
+    },
+    {
+      "n": 7,
+      "title": "Schneider Electric to buy US software firm PTC in $22.6 billion deal",
+      "source": "reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbDYwbWo2TEdHQ1hRMWtvbWpHMGkwV1BfRmRNTUlfM0NfTFFQUzNyYXRJTEVGbHFLV28wZFl2WDF3d1JCZENIbExEZVE0SDJnelhla1V2azdUcFZSRUIyLVByMjBFRTQ4TGluUGE1N2g2MVRNeEhfX2diQ3JXTGcxOU5qM252VE5RWENadzR0SXl0bDFaUWlHbmZoOWVWXzNTOEY3cXFVQmxkMWtrU05ueHRWMG9pYlVZdG1XajZUcw?oc=5",
+      "snippet": "reuters.com",
+      "published": "2026-10-04T19:46:00+00:00"
+    },
+    {
+      "n": 8,
+      "title": "Curaleaf sweetens Aurora Cannabis takeover offer after past rejection",
+      "source": "Global News",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeV9MQnZnbDVVaGVvYjNpN3RZZlc1MHVzTEdnMmxYRE5lZ2hWbmxsbkt5RHJuUFlpVldHYkVtX0xzeGJLRzU1X2RjX2tjalpLQkZ0UEtCQk5tSncyNk1FX3kwTFVNV1ZORzNGRGw3Mjk2ck55VmRjWEkyNG5iV3ZBLWxOVmtGOWZNNWpmbGttaVo5UQ?oc=5",
+      "snippet": "Global News",
+      "published": "2026-10-05T23:47:54+00:00"
+    },
+    {
+      "n": 9,
+      "title": "Curaleaf sweetens takeover offer for Edmonton's Aurora Cannabis",
+      "source": "cbc.ca",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaGZyaVZmZllLZS1GR0RyMVZVeXBJXzlkWWgxQnM5aTVnbFdrOC0wbGxJb3FueDhXT0wtblJtRkRSS2g3Z2Z2U2pObFhBWVFDdDRmUVhkbkdqY0xqMnB3cnYyX05yanBfZ2JuRGRiWTVZS1lNTnltQnNKTldGNXM4V0tsbE1tRjg?oc=5",
+      "snippet": "cbc.ca",
+      "published": "2026-10-05T19:47:27+00:00"
+    },
+    {
+      "n": 10,
+      "title": "Schneider’s PTC Acquisition to Boost Industrial Intelligence",
+      "source": "Construction Digital",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT1dxb2tRM0xEV1JDUU9GdHF5V2hhYl9kNlM0LUpuMVNHUnNZQWZsUWo0RGR5RmdKM2NUODc2aXlwdnQ5TTRiOHdkSjFJdDdQdjFrX0NRc25TTDczMGxnVjFpOW1EQWgxMmZ1dmtiOFRTOHoxSkNQbzBDbHBBNkNNMW9YaExvdDdmeFJ3Z2RHSkp2dzR2WWVRYnVsY2s?oc=5",
+      "snippet": "Construction Digital",
+      "published": "2026-10-05T19:16:45+00:00"
+    },
+    {
+      "n": 11,
+      "title": "C.H. Robinson agrees to acquire RXO in $5.8 billion cash-and-stock deal",
+      "source": "Logistics Management",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb1pkazFvOGQ0R1ZyUVpfdEdoZEhON2pyMGpzVG5hU2VaSngwMGwwcTQ1bFpnaWdTSVhvVVRIT0MxUGw1SUtqZEZ0c3FBS1ZXMEJiSTVDMzJ4Ui1RRW5iU0VqdHFjc1FiQjVINXphdUZpMThFMVhYZElBTFlLOFBrdk85ZXE0VWF3RnNRaXctWi1CYlNLckZwVkhhbm1ZVkhFQXJ4dHBmUzVQdlE?oc=5",
+      "snippet": "Logistics Management",
+      "published": "2026-10-05T17:28:49+00:00"
+    },
+    {
+      "n": 12,
+      "title": "Basware completes acquisition of Trustpair",
+      "source": "FinTech Global",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaVlFSEhCQTY2ekQ4US1sLWJDQVFWd2tndXJtTHF5d3RtTHUydTh0TGVnVlNNZEN2M28tci1wMWdqd2dfOVNJWjRtRHlLNXpyTFQ4Vm50WC1mYk41MGJTYVZ4Q21USjUyNVdZSDNtelZ5NGpta1I4blZicUNLclBVemdSOA?oc=5",
+      "snippet": "FinTech Global",
+      "published": "2026-10-05T15:42:13+00:00"
+    },
+    {
+      "n": 13,
+      "title": "Cenovus Energy Agrees to Acquire Athabasca Oil in $4 Billion Deal",
+      "source": "finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5vb0prX2FhanpPQ0pZR2VPU3RDT1FwenhuTDdxaG9JS3hocXoxM0RxTXNvb1dwdzJoQWphOE9vUk1rc2l6Q2hSanFIMmhiYnJGYXRiMDN2cHBZNHBzaHRQUWxSRmtPRHVPVV85eGx5YVdVV2I5WFE?oc=5",
+      "snippet": "finance.biggo.com",
+      "published": "2026-10-05T13:25:00+00:00"
+    },
+    {
+      "n": 14,
+      "title": "CareTrust agrees to acquire 45 UK care homes from LNT for approximately £1.1 billion.",
+      "source": "finchannel",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcGtLeE1GWHBYRGwyOW5PRW9CUFF6ZHEtTFpKT1UxVlRhUGdqbnJqbVh3SkZ0TzBsTXd0UVNrcHdMcEJIVjNNVktmNXJ3cERTRjlnTEJuY0h5c3NYZjNRcTg4RGpuZlhqZW9Nd2ZyM3JxcjhCTFBRYkxoTHNVWWpmSXRyaXhnS2FTR3N1cjFhY2RpZl9GZE5sNHNkeGxJTGc0eDZ2Z1V6MjZvSXdYNTJLaWZwSQ?oc=5",
+      "snippet": "finchannel",
+      "published": "2026-10-05T07:30:00+00:00"
+    },
+    {
+      "n": 15,
+      "title": "Fathom, Bed Bath & Beyond Parent Merger Is Called Off",
+      "source": "RISMedia",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUkJ4bUZnRU85Zk5rdl9VanRYWDNZejNBSWVpb0RqTnRCTGlwWjl2clNhTlZ6b1c1N1VFQ2gybVJhWTB6ZVNCQUZWQ3BLRXJCWlJQQTVLVXVndHQ0RU90dHVPVjNPV0wwR1JERDBLUTlXY0xtVnZLZ09jVmF6b2RlaEtmOW9JWi1nSTNVeA?oc=5",
+      "snippet": "RISMedia",
+      "published": "2026-10-05T18:58:14+00:00"
+    },
+    {
+      "n": 16,
+      "title": "PTC Stock Forecast: $22.6 Billion Schneider Deal Resets the Investment Case",
+      "source": "TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTXFnSFZicEJPUzZ0TWE4TFoyNGdvQ3N4SDZLbjNsU0VWZGpOR0NnS1FBWjBjM0FxeHBpSUJuVXhZUEtBR1VuMUZRT3JNR2x6Y01JZFFCVks4Q05scEl5Q0J1R05nNHdIVy1INlFoTHBwa1E4bW9fNFBMT1VXNTBLNHNqdnNRZkJwc05RNzZLQmtyeGcza1IwQkx1T1lXXzVnUi1qQ29sWndtTjVwZ0d4MTZCWlB1X2huOGpjdW5ZUGxoMVZVTEE?oc=5",
+      "snippet": "TradingKey",
+      "published": "2026-10-05T18:56:15+00:00"
+    },
+    {
+      "n": 17,
+      "title": "Schneider Expands in AI With Record $23 Billion Acquisition",
+      "source": "Energy Connects",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQUFYR0JDMldCQ0ZVdHZZZm5penotYXMzYUtLd1ZOekw1X3V6MER2UHM1TUw5U2d3RVowTmZHWmZNQnZFdmZIS3pqem4yMlpVZDVxOGNheTAyMnVvMUo1TUlLcmV3OUtFaXFEMTdYS0pTaWxyZF90MHJJU2NWZkVPRXV6MTNPa3ZtSk9PQ2dJU0tmdl92Tm1IUnVQUnM4WTBzUDg1SVlRREhnbEt0VVBWOW1Dd1RRZ2E5ZFE?oc=5",
+      "snippet": "Energy Connects",
+      "published": "2026-10-05T17:47:35+00:00"
+    },
+    {
+      "n": 18,
+      "title": "SIM Acquisition to Merge With American Industrial Technologies in All-Stock Deal Issuing 50M Shares",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaDFuZFBGVjNncTR5VFZxZFNyRzZaeDhDdHpqNVhxaGVRRjYyTTMzekRZOWszOVZOZUJ1dTlvVTVjTzBJYzRKS3hUVzU0SFFKS3JHZzF3S3dYLXJXdC1meUFEVjcxUVlzeXhJVU1WWVZuVzdycjJuYm01UTE0U2h2OTFJYlhTMHRlSkkzTU1mWXg3MW4xQmh0c2NabzFkTS1IRTF1cXRfdjBncGV4N1Bza0tCTS1lVVMzYmhfT3BzRnVuVEpEOURkQTlobWYwT0tjbnBMNS1TRVVIVFF2U25qZlJfVk8yWHBFeDRiejB5bFdwZ1k?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-05T12:33:01+00:00"
+    },
+    {
+      "n": 19,
+      "title": "PTSB claims 'no offer has been made' by Axis Capital to compete with BAWAG takeover bid",
+      "source": "irishexaminer.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFakVKTTRIWmRwQ3Jwa216TmZBa2pJcEJJLUw2YmdMNllqUG5zSVlEUEVuVUV1Z3pqaTBXR0tGTEI5U1l3SDFVczJUWFJMUXdNVkdlSjJPUlR3Nm8yLUc5bE4zMnpvNXRQQW9jNkh1dXRFU1p4bGc?oc=5",
+      "snippet": "irishexaminer.com",
+      "published": "2026-10-05T11:11:00+00:00"
+    },
+    {
+      "n": 20,
+      "title": "Fathom Holdings and Neighborhood Intelligence Announce Mutual Termination of Proposed Merger",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMlF5S2NsaWJlbUxZcjBXMGY1TWdyTWRLQ29WdEd6am5wQzg0ZDBXeDJCTWp1Z0V3a3J4QktmQ0V2TjNzOC1jMUY2MGNDUTJzMnd4S1lTM09aUlJqNDhQR3hPSm1lMGc4RHF5ZmFmNXQwSFk3bVFpYS1QZVVZOTdsX1pkbXJlVE0xTmhzbE1NZEVaQl9BNzNwNlRwdWR4eFg1X0E0T1JZWF9aOFp6OFVPT1JiTjMwMXJSRkdwWG5zWFVhRUFva1FaX1BVR3NTVkhobDg4OHNnOHQxOEFVa0trbW05NA?oc=5",
+      "snippet": "Business Wire",
+      "published": "2026-10-05T11:01:00+00:00"
+    }
+  ],
+  "cited": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13
+  ],
+  "invalid_citations": [],
+  "example_prompt": "Deal: Schneider Electric and PTC.\n\nHeadlines:\n[1] Morningstar, Oct 05 02:04 PM ET: Schneider Electric to Buy PTC in French Industrial Giant’s Largest-Ever Acquisition\n    Morningstar\n[2] mezha.net, Oct 05 11:49 AM ET: Schneider Electric Agrees to Acquire PTC in $22.6 Billion Deal\n    mezha.net\n[3] Financial Times, Oct 05 06:54 AM ET: Schneider Electric to buy industrial software group PTC for $23.7bn\n    Financial Times\n[4] WSJ, Oct 05 04:47 AM ET: Schneider Electric to Buy Software Maker PTC for $22.6 Billion\n    WSJ\n[5] Techzine Global, Oct 05 02:57 AM ET: Schneider Electric acquires PTC for 22.6 billion\n    Techzine Global\n[6] UA.NEWS, Oct 05 02:03 AM ET: Schneider Electric agrees to acquire PTC for $22.6 billion — Channel NewsAsia\n    UA.NEWS\n[7] reuters.com, Oct 04 03:46 PM ET: Schneider Electric to buy US software firm PTC in $22.6 billion deal\n    reuters.com\n\nWrite the subheading, stage and body.",
+  "retrieval": [
+    {
+      "deal": "Schneider Electric / PTC",
+      "query": "Schneider Electric PTC acquisition merger deal",
+      "hits": [
+        {
+          "n": 2,
+          "similarity": 0.876
+        },
+        {
+          "n": 6,
+          "similarity": 0.868
+        },
+        {
+          "n": 5,
+          "similarity": 0.865
+        },
+        {
+          "n": 7,
+          "similarity": 0.847
+        },
+        {
+          "n": 4,
+          "similarity": 0.825
+        },
+        {
+          "n": 1,
+          "similarity": 0.824
+        }
+      ]
+    },
+    {
+      "deal": "Curaleaf / Aurora Cannabis",
+      "query": "Curaleaf Aurora Cannabis acquisition merger deal",
+      "hits": [
+        {
+          "n": 8,
+          "similarity": 0.818
+        },
+        {
+          "n": 9,
+          "similarity": 0.809
+        }
+      ]
+    },
+    {
+      "deal": "Schneider's / PTC",
+      "query": "Schneider's PTC acquisition merger deal",
+      "hits": [
+        {
+          "n": 2,
+          "similarity": 0.859
+        },
+        {
+          "n": 6,
+          "similarity": 0.854
+        },
+        {
+          "n": 5,
+          "similarity": 0.851
+        },
+        {
+          "n": 7,
+          "similarity": 0.84
+        },
+        {
+          "n": 4,
+          "similarity": 0.822
+        },
+        {
+          "n": 1,
+          "similarity": 0.815
+        }
+      ]
+    },
+    {
+      "deal": "C.H. Robinson / RXO",
+      "query": "C.H. Robinson RXO acquisition merger deal",
+      "hits": [
+        {
+          "n": 11,
+          "similarity": 0.862
+        }
+      ]
+    },
+    {
+      "deal": "Basware / Trustpair",
+      "query": "Basware Trustpair acquisition merger deal",
+      "hits": [
+        {
+          "n": 12,
+          "similarity": 0.82
+        }
+      ]
+    },
+    {
+      "deal": "Cenovus Energy / Athabasca Oil",
+      "query": "Cenovus Energy Athabasca Oil acquisition merger deal",
+      "hits": [
+        {
+          "n": 13,
+          "similarity": 0.905
+        }
+      ]
+    },
+    {
+      "deal": "CareTrust / LNT",
+      "query": "CareTrust LNT acquisition merger deal",
+      "hits": [
+        {
+          "n": 14,
+          "similarity": 0.797
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "headlines_fetched": 20,
+    "headlines_new": 20,
+    "index_size": 20,
+    "deals_found": 7,
+    "deals_shown": 7,
+    "extraction_calls": 2,
+    "llm_calls": 10
+  }
+}
