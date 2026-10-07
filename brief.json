@@ -1,29 +1,29 @@
 {
   "date": "Wednesday, October 07",
-  "generated_at": "2026-10-07T15:04:37.677899+00:00",
+  "generated_at": "2026-10-07T17:36:25.822323+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "The S&P 500 fell 0.66% to a record high, while the Nasdaq declined 0.81% despite a strong tech rally, as traders took profits and watched the impact of rising bond yields and oil prices.",
+  "lede": "The S&P 500 rose to a record high, driven by gains in AI stocks, as investors focus on growth stocks less affected by rising interest rates.",
   "sections": [
     {
       "move": "S&P 500",
-      "pct": -0.66,
-      "last": 7767.61,
-      "change": -51.32,
+      "pct": -0.21,
+      "last": 7802.45,
+      "change": -16.48,
       "sources": [
         1,
         2,
         3,
         4
       ],
-      "headline": "AI Stocks Push S&P 500 to Record High",
-      "body": "The S&P 500 fell 0.66% to 7767.61, despite hitting a record high earlier in the day, as traders took profits from the recent rally. The decline was attributed to a mixed day in the tech sector, with some stocks falling after a strong rally, and rising bond yields and oil prices. The market's focus is on the upcoming Federal Reserve meeting, where interest rate decisions are expected to be announced."
+      "headline": "AI Stocks Boost S&P 500",
+      "body": "The S&P 500 rose to a record high, driven by gains in AI stocks, which shrugged off a slump in the bond market. [1] This move suggests that investors are focusing on growth stocks, which are less affected by rising interest rates. [2]"
     },
     {
       "move": "Nasdaq",
-      "pct": -0.81,
-      "last": 27377.56,
-      "change": -222.23,
+      "pct": -0.37,
+      "last": 27496.83,
+      "change": -102.96,
       "sources": [
         5,
         6,
@@ -31,106 +31,110 @@
         7
       ],
       "headline": "Nasdaq Falls Despite Tech Rally",
-      "body": "The Nasdaq fell 0.81% to 27377.56 despite a strong performance from technology stocks, which lifted the index to a record high. Traders are watching the impact of rising bond yields and oil prices on the broader market, as well as the ongoing tech rally. [4]"
+      "body": "The Nasdaq fell 0.37% to 27496.83, despite a strong performance from technology stocks, as traders watched the market's sensitivity to interest rates. [5] The WSJ reported that technology shares lifted the Nasdaq, but the broader market slipped. [4] This suggests that traders are cautious about the market's momentum, despite the tech rally. [7]"
     },
     {
       "move": "10-Year Yield",
-      "pct": 0.8,
-      "last": 5.31,
-      "change": 0.04,
+      "pct": 0.15,
+      "last": 5.28,
+      "change": 0.01,
       "sources": [
         8,
         9,
         10,
         11
       ],
-      "headline": "Treasury Yields Rise",
-      "body": "Traders are watching the Federal Reserve's upcoming minutes release for clues on future interest rate decisions, which may impact bond yields. Rising yields could signal bigger market risks, according to Jim Cramer. [8]"
+      "headline": "Yields Rise Amid Market Uncertainty",
+      "body": "Traders are watching the Federal Reserve's upcoming minutes release for guidance on future interest rate hikes, which could impact bond yields. Rising yields may signal increased market risks, according to Jim Cramer. [8] [9]"
     },
     {
       "move": "USD/JPY",
-      "pct": 0.08,
-      "last": 158.09,
-      "change": 0.12,
+      "pct": 0.0,
+      "last": 157.97,
+      "change": 0.01,
       "sources": [
         12,
         13,
         14,
         15
       ],
-      "headline": "US Dollar Strengthens vs Yen",
-      "body": "The US dollar strengthened against the yen due to rising US yields, which revived dollar buying and led to a widening yield gap between the two currencies. Traders are watching the Bank of Japan's monetary policy, which has been slow to react to the rising yields, keeping the yen under pressure. The US 10-year yield climbed to 5.33%, supporting the dollar's gain."
+      "headline": "Yen's Slow Descent",
+      "body": "The USD/JPY pair remained flat as traders watched the Bank of Japan's cautious approach to monetary policy, which kept the yen under pressure against the dollar. [12] FXStreet reported that the BOJ's slow hand was keeping the yen on the back foot, while [13] FXStreet noted that the wide yield gap between the US and Japanese markets was supporting the dollar. [14] and [15] FXStreet cited analysts from UOB and Rabobank, who suggested that the yen was range-bound against the dollar, with traders questioning the Fed's path, which added to the yen's downward pressure. [15]"
     },
     {
       "move": "Crude Oil",
-      "pct": 0.28,
-      "last": 89.69,
-      "change": 0.25,
+      "pct": -1.25,
+      "last": 88.32,
+      "change": -1.12,
       "sources": [
         16,
         17,
         18,
         19
       ],
-      "headline": "Crude Oil Price Rise Explained",
-      "body": "Crude oil rose 0.28% to 89.69 as investors weighed supply threats, citing recent Houthi attacks and a US Gulf storm that raised concerns about potential supply disruptions. This move may have been driven by traders' focus on these potential risks, which could impact oil production and prices. The market is watching these developments closely, as they could have a significant impact on the global energy market."
+      "headline": "Crude Oil Price Drop Explained",
+      "body": "Crude oil prices fell due to a mix of factors, including the G-7's plan to release crude and diesel from their stocks, which increased Middle East crude exports, and traders weighing the risks of Gulf tensions against strong Mideast exports. [16] [17] Additionally, the decline in oil prices was also linked to a decrease in Treasury yields, as oil prices slide. [18] [19]"
     },
     {
       "move": "Gold",
-      "pct": -1.28,
-      "last": 4133.5,
-      "change": -53.6,
+      "pct": -1.0,
+      "last": 4145.1,
+      "change": -42.0,
       "sources": [
         20,
         21,
         22,
         23
       ],
-      "headline": "Gold Falls as Dollar Strengthens",
-      "body": "Gold prices fell overnight as the US dollar strengthened ahead of the Federal Reserve's minutes release, which is expected to provide insight into the central bank's monetary policy decisions. Traders are watching the dollar's move closely, as a stronger dollar typically makes gold more expensive for holders of other currencies. The drop in gold prices is also seen as a sign of a weakening US economy, which could lead to lower interest rates and a decrease in the value of the dollar."
+      "headline": "Gold Falls on Dollar Strength",
+      "body": "Gold fell 1.0% to 4145.1 as the dollar strengthened ahead of the Federal Reserve's minutes release, which could indicate a potential interest rate hike. [20] Traders are watching the Fed's decision, as a rate hike could increase the value of the dollar and make gold less attractive. [21]"
     }
   ],
   "also": [
     {
-      "n": 24,
-      "note": "The Dow tumbled 600 points as oil prices and bond yields pushed higher, with the 10-year yield reaching a 24-year high."
+      "n": 25,
+      "note": "The Dow fell 400 points as the 10-year yield rose to its highest level in 24 years, signaling increased market risks."
     },
     {
       "n": 28,
-      "note": "The Fed minutes could detail the rate-hike decision and policy path, which may impact the market's expectations for future interest rate decisions."
+      "note": "The Fed minutes could detail the rate-hike decision and policy path, which may impact bond yields and market sentiment."
+    },
+    {
+      "n": 29,
+      "note": "The SF Fed president said AI demand could extend the energy shock, suggesting a potential impact on the economy."
     }
   ],
-  "brief": "The S&P 500 fell 0.66% to a record high, while the Nasdaq declined 0.81% despite a strong tech rally, as traders took profits and watched the impact of rising bond yields and oil prices.\n\nS&P 500 (-0.66% to 7767.61): AI Stocks Push S&P 500 to Record High. The S&P 500 fell 0.66% to 7767.61, despite hitting a record high earlier in the day, as traders took profits from the recent rally. The decline was attributed to a mixed day in the tech sector, with some stocks falling after a strong rally, and rising bond yields and oil prices. The market's focus is on the upcoming Federal Reserve meeting, where interest rate decisions are expected to be announced.\nNasdaq (-0.81% to 27377.56): Nasdaq Falls Despite Tech Rally. The Nasdaq fell 0.81% to 27377.56 despite a strong performance from technology stocks, which lifted the index to a record high. Traders are watching the impact of rising bond yields and oil prices on the broader market, as well as the ongoing tech rally. [4]\n10-Year Yield (+0.8% to 5.31): Treasury Yields Rise. Traders are watching the Federal Reserve's upcoming minutes release for clues on future interest rate decisions, which may impact bond yields. Rising yields could signal bigger market risks, according to Jim Cramer. [8]\nUSD/JPY (+0.08% to 158.09): US Dollar Strengthens vs Yen. The US dollar strengthened against the yen due to rising US yields, which revived dollar buying and led to a widening yield gap between the two currencies. Traders are watching the Bank of Japan's monetary policy, which has been slow to react to the rising yields, keeping the yen under pressure. The US 10-year yield climbed to 5.33%, supporting the dollar's gain.\nCrude Oil (+0.28% to 89.69): Crude Oil Price Rise Explained. Crude oil rose 0.28% to 89.69 as investors weighed supply threats, citing recent Houthi attacks and a US Gulf storm that raised concerns about potential supply disruptions. This move may have been driven by traders' focus on these potential risks, which could impact oil production and prices. The market is watching these developments closely, as they could have a significant impact on the global energy market.\nGold (-1.28% to 4133.5): Gold Falls as Dollar Strengthens. Gold prices fell overnight as the US dollar strengthened ahead of the Federal Reserve's minutes release, which is expected to provide insight into the central bank's monetary policy decisions. Traders are watching the dollar's move closely, as a stronger dollar typically makes gold more expensive for holders of other currencies. The drop in gold prices is also seen as a sign of a weakening US economy, which could lead to lower interest rates and a decrease in the value of the dollar.\n\nAlso worth knowing:\n- The Dow tumbled 600 points as oil prices and bond yields pushed higher, with the 10-year yield reaching a 24-year high.\n- The Fed minutes could detail the rate-hike decision and policy path, which may impact the market's expectations for future interest rate decisions.",
+  "brief": "The S&P 500 rose to a record high, driven by gains in AI stocks, as investors focus on growth stocks less affected by rising interest rates.\n\nS&P 500 (-0.21% to 7802.45): AI Stocks Boost S&P 500. The S&P 500 rose to a record high, driven by gains in AI stocks, which shrugged off a slump in the bond market. [1] This move suggests that investors are focusing on growth stocks, which are less affected by rising interest rates. [2]\nNasdaq (-0.37% to 27496.83): Nasdaq Falls Despite Tech Rally. The Nasdaq fell 0.37% to 27496.83, despite a strong performance from technology stocks, as traders watched the market's sensitivity to interest rates. [5] The WSJ reported that technology shares lifted the Nasdaq, but the broader market slipped. [4] This suggests that traders are cautious about the market's momentum, despite the tech rally. [7]\n10-Year Yield (+0.15% to 5.28): Yields Rise Amid Market Uncertainty. Traders are watching the Federal Reserve's upcoming minutes release for guidance on future interest rate hikes, which could impact bond yields. Rising yields may signal increased market risks, according to Jim Cramer. [8] [9]\nUSD/JPY (+0.0% to 157.97): Yen's Slow Descent. The USD/JPY pair remained flat as traders watched the Bank of Japan's cautious approach to monetary policy, which kept the yen under pressure against the dollar. [12] FXStreet reported that the BOJ's slow hand was keeping the yen on the back foot, while [13] FXStreet noted that the wide yield gap between the US and Japanese markets was supporting the dollar. [14] and [15] FXStreet cited analysts from UOB and Rabobank, who suggested that the yen was range-bound against the dollar, with traders questioning the Fed's path, which added to the yen's downward pressure. [15]\nCrude Oil (-1.25% to 88.32): Crude Oil Price Drop Explained. Crude oil prices fell due to a mix of factors, including the G-7's plan to release crude and diesel from their stocks, which increased Middle East crude exports, and traders weighing the risks of Gulf tensions against strong Mideast exports. [16] [17] Additionally, the decline in oil prices was also linked to a decrease in Treasury yields, as oil prices slide. [18] [19]\nGold (-1.0% to 4145.1): Gold Falls on Dollar Strength. Gold fell 1.0% to 4145.1 as the dollar strengthened ahead of the Federal Reserve's minutes release, which could indicate a potential interest rate hike. [20] Traders are watching the Fed's decision, as a rate hike could increase the value of the dollar and make gold less attractive. [21]\n\nAlso worth knowing:\n- The Dow fell 400 points as the 10-year yield rose to its highest level in 24 years, signaling increased market risks.\n- The Fed minutes could detail the rate-hike decision and policy path, which may impact bond yields and market sentiment.\n- The SF Fed president said AI demand could extend the energy shock, suggesting a potential impact on the economy.",
   "moves": {
     "S&P 500": {
-      "last": 7767.61,
-      "change": -51.32,
-      "pct": -0.66
+      "last": 7802.45,
+      "change": -16.48,
+      "pct": -0.21
     },
     "Nasdaq": {
-      "last": 27377.56,
-      "change": -222.23,
-      "pct": -0.81
+      "last": 27496.83,
+      "change": -102.96,
+      "pct": -0.37
     },
     "10-Year Yield": {
-      "last": 5.31,
-      "change": 0.04,
-      "pct": 0.8
+      "last": 5.28,
+      "change": 0.01,
+      "pct": 0.15
     },
     "USD/JPY": {
-      "last": 158.09,
-      "change": 0.12,
-      "pct": 0.08
+      "last": 157.97,
+      "change": 0.01,
+      "pct": 0.0
     },
     "Crude Oil": {
-      "last": 89.69,
-      "change": 0.25,
-      "pct": 0.28
+      "last": 88.32,
+      "change": -1.12,
+      "pct": -1.25
     },
     "Gold": {
-      "last": 4133.5,
-      "change": -53.6,
-      "pct": -1.28
+      "last": 4145.1,
+      "change": -42.0,
+      "pct": -1.0
     }
   },
   "sources": [
@@ -216,22 +220,14 @@
     },
     {
       "n": 11,
-      "title": "10-year Treasury note yield hits highest level since 2002 as traders brace for key bond sale",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBydl83WVU4amtHYUl5MkVjQnJXZmdwN1dQZnNOYTNVeFBsRDJBMGcyd3hLaHd1N0JpN0lRTGl5NkhqR2N6S3ZFSlBVdzlwZ2pxYkVWMDNhUnFXbXNoaDV5SGJfUzA3LUNZLWxfMExUUzVMVFBORjBZWHJUZDM3UdIBgwFBVV95cUxNbGdtZkRaZURkVnlOMlgwY24wQ3JTeXUwQlNyQzRhdTZ1NXZWbHRlOXlqY2lvTG9GeG1fQnZSYXVkeEQwcUdDSzhSVlhjdjZES1FQWDY0dHN1Q0dwYVBnZzVqTE83bEE2VlVpMmRIOWpXRHIyLTF2RDRqMnQ4enZLdmdscw?oc=5",
-      "snippet": "CNBC U.S. 30-Year Yield Hits New 24-Year High; French Bonds Underperform on Budget Worries WSJ Dow drops 451 points as Treasury yields hit 24-year highs Quartz",
-      "published": "2026-10-07T08:31:25+00:00"
+      "title": "Will 30-Year US Treasury Yields Climb Higher?",
+      "source": "Goldman Sachs",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUC1EQ2IxSkxPWTQxRVQ0VG5DbklURTlXNEJqNzVycGxscEg5cU16QnEyRVJaQi13Tk55U0ZXWERqOVJJSWVRM2xRMFBEZkh5UFpTVWh0cERteVdMZVJaZjF2VXR3N2JyTE0tdUNtUDN1SWVxODF3am5kNWVTdnJnUERlVUdyWFgxVFFPbWRiVVFnSVNubkE?oc=5",
+      "snippet": "Goldman Sachs",
+      "published": "2026-10-07T07:01:06+00:00"
     },
     {
       "n": 12,
-      "title": "Dollar-yen approaches 158 as rising U.S. yields revive dollar buying",
-      "source": "finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA0M1BnbTJ5Z1RKMXJ1Tl8yQlBWd0hJTXdpUFloam9KdnRZR1FpM3QzR2l1NS1wb3VBRkMxQ3BSak85NW02aHZOeTJyWFJLR1EwU1ZYVWk3dFZ1Q2JFVF81TV93STdJM1k0NEZvSzA4TlJCM0s4Rmc?oc=5",
-      "snippet": "finance.biggo.com",
-      "published": "2026-10-05T11:55:00+00:00"
-    },
-    {
-      "n": 13,
       "title": "Bank of Japan's Slow Hand Keeps the Yen on the Back Foot Versus Dollar",
       "source": "StoneX",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWUdobGZ3Sm5lOWdneGRvbmR5c1NrdTUwSGxrN0lHbDZJM1ZyVXNVX0ZYVmJXVnZ5Qlktd1RPRVpjUXdISHlENFpua1hYajRrTEE5SHl1TjZvRzV4ckQ3aHQ3S2NnVFVrWEIyTFNkN1NtVllpVzBxcmgtT0U2VDNhdlpBTXdOQlRxTVBCNk8zT3BRWVJmVHZlMmlneFpOVTNUZDNyNWFrckNYUQ?oc=5",
@@ -239,15 +235,7 @@
       "published": "2026-10-06T14:16:36+00:00"
     },
     {
-      "n": 14,
-      "title": "Dollar-yen edges higher in 158-yen range as U.S. 10-year yield climbs to 5.33%",
-      "source": "finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82TV9VWVV6SHFvYzJrSEtYQ2htV0lqRHdIYkhFUlhmeVdCcmtfZWFTNDlNekFFUmZGRDVNTGZoVGRlblA0MjNJUHpYaE5STV9GalMtNWd2eS1kUXdDLUJWUFRlWjdzQXVqc0xFd0I4b2o0Umd5WHc?oc=5",
-      "snippet": "finance.biggo.com",
-      "published": "2026-10-07T12:25:00+00:00"
-    },
-    {
-      "n": 15,
+      "n": 13,
       "title": "Japanese Yen weakens as wide yield gap supports US Dollar",
       "source": "FXStreet",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQmFUczJrVmNzSTUtT0lxNjdGSEl1S21pR195amQxVUYtR2d6bGRjZXRSWE5qWjU5QmU3UmZyWFZIRXRSRDhvUEdLalBCc2o4Y3NDZFRsb3FaYWtJM0I0QzQtX2s0dnRGdnh1WEtkeHRkZGxxYm1YSFNjV3gyTURpX25YT3k3NU5XZ0FsdjVCekpFUVNQdENCVmRHSU96aTB6Z1E?oc=5",
@@ -255,15 +243,23 @@
       "published": "2026-10-05T18:26:23+00:00"
     },
     {
-      "n": 16,
-      "title": "Oil rises as investors weigh supply threats",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSHYwa2g1N1NQR1ZHcFR2eVJ3cjJySlZLVlA1UjBQeU9yNl81Z2tGYTk3TVk4V3JMcXh1LVpscTVDdTdrZGFOZjd4VWNzeXNEM1lHYmV5bDFzV2ZrN3NuQUE4VXV6cE16enQzSi1ZU3l1aXVPa00yVDkxeDRYbFI5WjhOVGR0VHFUMWNkWFMtNmxDSW9YRUtHY2pKWTlxTFRPclRzTA?oc=5",
-      "snippet": "Reuters Oil Prices Rise as Houthi Attacks, U.S. Gulf Storm Raise Supply Risks WSJ Oil climbs past $100 as Gulf storm and Houthi attacks on Saudi Arabia raise supply fears Quartz",
-      "published": "2026-10-07T00:48:00+00:00"
+      "n": 14,
+      "title": "Japanese Yen: Range-bound trade persists against US Dollar – UOB",
+      "source": "FXStreet",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWXdmcVR5WHZHVlBMb1c5Xzctd21oSE0zZS0xbUx2aEt4QkE2cHRvUV9kVS1DOGpwV21raU5FTE9GeFJoS0Q3QjN4dURWSTNlQTNQTGU1ano3YTFXcjRXQ3VIMDRZeUJBc2ViYkVwbFZ2N01rOEJ3RWZKY3RGUTNGeEpYQUlqQVZOaVlTOHMwb3Uyb0NxaFh3S2N4QVl2bHVSZ09yRXRiQQ?oc=5",
+      "snippet": "FXStreet",
+      "published": "2026-10-06T12:35:03+00:00"
     },
     {
-      "n": 17,
+      "n": 15,
+      "title": "Japanese Yen: Range trade holds against US Dollar as Fed path questioned – Rabobank",
+      "source": "FXStreet",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNR0NEODRtbDBDcWJyT0piLUhOY29KaklxTG9xLTVTZ0ljUHFuWjIzeE92Z1A3ZVdIRlU1WTJrWkZzZ2NTbFZrTUNRNTU1eFo2Ni1saW9XNk9mSmhOSXdMTXd4Z2RCZU9FdmZVcGd0ZDVUMmtrOExxdXNDeE1xV1hlTm1yeGtnb3hPSzV1WUJ4NmZvZEEtTmxnUGJXd3JwNHV0ZEpWMDZmUjFGZUNxcmVrdUk5cnJHN3V3V29MRWUyWjc?oc=5",
+      "snippet": "FXStreet",
+      "published": "2026-10-06T13:42:06+00:00"
+    },
+    {
+      "n": 16,
       "title": "Oil Prices Fall as G-7 Plans Crude, Diesel Release But Hormuz Shipping Risks Persist",
       "source": "WSJ",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOFA5UUZFdndtdnBodnFleklOcmpCZmdBUzlROTlFSkFiWkZsNG5sMHU4M0VoR2ZLNFVNYlhKbmpjYlc4Q0NObmdDdFNLenRmU0VQdVZfWXU1YU44NWFUcnlWeUNtQkhBMlAyZGpDemdPY3VkY3NzdDRpNWlOcTlabURzNE1udEdkOVVYeW5qcmhndjM3VHVHYVFSZy0yQzYyR1VnSnJGWVdZdEZTUV9IeF84OXpEaFcyNUxzNFIwaFAybGplVHN3cTM1THc?oc=5",
@@ -271,20 +267,28 @@
       "published": "2026-10-05T13:53:00+00:00"
     },
     {
+      "n": 17,
+      "title": "Oil prices fall as traders weigh strong Mideast exports against Gulf tensions",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdk44U1RuSUxfbjcwcjZJVjhxZHZxTENGNEVZRVJSaGxhcE1wSDcyZ1doVmhjaGRXUTZnOUhjUnFnVldLVmw0d3Z5MGlQaWNrdWR1MWhfMldZdTJHSnVwYnE2Z1Jpd3pnNnI2STlwdjNwYVNwbVBtUnlUWGRyWE5XZkdJb1NUNjZlQjhyWk9FWGNiSndreFFxZThkN0NrS1I4SVFUZVEtWHo3Y1HSAbABQVVfeXFMT1hYZTRrMHBieEI2T09WMDVrb2pISDFEeUJPOW05VGZhS0VoZlFWRmNpYnQybXJzV0tmX2NPV0Q3cXp6RThJQV9nY0hROFd0ZElIYXlFYjJnSUFWQWYwaWk4ZFNLT0pZZWFKOXNFalE1SS1jcjlYazJrbWktVFp4enY5SG44d3AwSHZTTkhqMTZIcVJXRDdYQXhadzdiNE1Pb2ZWSUFyRzhrQmswSFlteF8?oc=5",
+      "snippet": "CNBC",
+      "published": "2026-10-06T01:21:00+00:00"
+    },
+    {
       "n": 18,
+      "title": "Treasury yields fall as oil prices slide",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JN3hlTGd4VlZhb0g2Y1AzdHJ3ZVZYOHJ3UDI3X1NpekdCemxHTlpsbVl2NUxLTmdUU2dmTFB2QlFWQmJXN2syaVh3OHdMR294SzRUMUhzRktsbk50UG9JMks1dWZqQldIYmllQUpyWjhHRFZERVVhVtIBfkFVX3lxTFBiS2VYTXRVaXVCQXUzd0VTNXZSYXQxRWl5V18xSXVlZVBXeEdjMkIwWGloZlVKalh5SjU2RmF3dGxfNEpzd05SMjczOXNmQTFZTGloaUdOdzAxMVRuWXc1ME9mb0RCYThITTZrQnNKM3NuQ1NKUDBsY1lEVU1PUQ?oc=5",
+      "snippet": "CNBC",
+      "published": "2026-10-06T07:05:14+00:00"
+    },
+    {
+      "n": 19,
       "title": "Stocks Mostly Higher as Crude Prices Fall",
       "source": "Barchart.com",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSFBESHlGRG1QNE9ueTQ4cTUzZXljWWhGWG9fV20yeTJFRC1jV2oxaGdHclduQ2IwQzJ3S0NhTEY1aTVwbktuWWNsc2hvSktZLVU2bzdha1pEdjBoRmhDVVhHWXN1bHFwTFlFZDkxc0NHaGNFTUNWejBtZUxPcEVRR1VUYzRmUWUwTjJ1S053?oc=5",
       "snippet": "Barchart.com",
       "published": "2026-10-05T15:16:07+00:00"
-    },
-    {
-      "n": 19,
-      "title": "Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UNHVvaFVKbDdSWGlwbENDdE1vMjEyREVHNW85QUFBWmhGSkJ5b29IVFJQd3VFZ1dqdkRtdXNuUTk0TlhmVDkxVklYVzdGZ1cwMWlnTGVWWWhmR1ExSURkenJjVGZXTzNBYmlKUllWT1V3R3A50gF6QVVfeXFMT0pyNi1Sb20xNlRNOWt4Q3lHSjZCVko0c3ltU25zcWFPdFFEQlQtaVpvZm1USUdUUmJPZ0pCOU5QSzN6THZ5VGNYWnJXUGIwdXhvY09WREFTbHFmSFktbWlvQkw4TUVLV2FhdVo3azRkVjJWUUNiQk1ybkE?oc=5",
-      "snippet": "CNBC",
-      "published": "2026-10-07T12:35:01+00:00"
     },
     {
       "n": 20,
@@ -324,31 +328,31 @@
       "source": "WSJ",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX2lHZVNpMXR1TEt6VjhHNTZqbldCdmJncHA1WDZ1TXJ2TUdSbklFTmlVWnFoODM2Yy05RTJBVUQ0QU5VeG1zZlVTRFczSkdtVVlTNzRfNkpXWXBLQ2JwQ2FNVUVRUGZyTjJ3djdaUGgtdGhPOW9LVHZJcHVRMDhpVjhKUFEtV1U?oc=5",
       "snippet": "WSJ",
-      "published": "2026-10-07T14:39:00+00:00"
+      "published": "2026-10-07T16:00:00+00:00"
     },
     {
       "n": 25,
-      "title": "Dow falls 500 points as 10-year yield rises to highest level in 24 years: Live updates",
+      "title": "Dow falls 400 points as 10-year yield rises to highest level in 24 years: Live updates",
       "source": "CNBC",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMcmRHZjcwcGdXX1NxUXliUklxQlZWa3JwRDNzbXFzYzJCcHViTUtTekk2bmNTVDJKVUlHdkFRZlAzUnIzSFhKU0JwZUp3SzBxYnZrRXZHcm9wZWNTS0ZjZFVfa01uN3h1TUJ4TFV5UkxXNEl2Vy1j0gF8QVVfeXFMT2JydmdNdUwxSHhwUHF5b2RRbU1jdmN6NDNUcW52SjRNemlQQXVVMnNMdFpHbHdzLUV4ZFpMc2dNclhKWnBaVWVaTlpKbFdmazJLbXQzZTNUMWpOYUtnNGIwVkxKczZjSFZ0YTJXX3hud0dhbXJNYjN0NGphbA?oc=5",
       "snippet": "CNBC",
-      "published": "2026-10-07T13:36:48+00:00"
+      "published": "2026-10-07T16:26:00+00:00"
     },
     {
       "n": 26,
-      "title": "Stock Market Today: Dow Slides 400 Points As Yields Jump; Fed Minutes On Deck (Live Coverage)",
-      "source": "Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYnhQZUZxQWFqTTJxSTZXUzNReUppVm01ejBSenlYLTR2c1NQVjRYa2JiclBYTVVkZnVWMS03T25rbVdpSTA1dGdsMU9rTGRQaDVScXlkX1FDZUJnRGJsRHRDcFA4UEFXeU9PQVBDXzdCOXF1OVB0aXZBM3VjaU8wZjd5cGtCZXg2cC16c1FINkIxS3JiV1NXZFM1RmRxb3RfdzRrNXM5VGxhZFFYV1E?oc=5",
-      "snippet": "Investor's Business Daily",
-      "published": "2026-10-07T12:04:00+00:00"
+      "title": "Stock Market Today: Indexes Slide as 10-Year Treasury Yield Hits Highest Level Since 2002",
+      "source": "Investopedia",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZ0k4b0MwdjJLZy1uREZSVmN0RnpZblRTbXdxa3JOVDhLNjBRNFowdlFsbXRDd0o3ZEY2ZHNXaWJiS2NYLWRQaU1wSXZrRVd0UkJ2SW1ZU1UzQVNqeUNFOEZMWXRjeWljeG9Mcl9YNTRVRl9MeGhOdnFqNWItYjlIbHk5SkN5U2owUUNwM1NCZ1c?oc=5",
+      "snippet": "Investopedia",
+      "published": "2026-10-07T16:32:44+00:00"
     },
     {
       "n": 27,
-      "title": "Stock Market Today: Dow tumbles 600 points, S&P 500 and Nasdaq lower as oil prices, bond yields push higher; Fed minutes on tap",
+      "title": "Stock Market Today: Dow off 350 points, S&P 500 and Nasdaq lower as oil prices, bond yields come off session highs; Fed minutes on tap",
       "source": "MarketWatch",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYzdib3VXSUFMV01iY01fRm1Fa1p4TlhWR3hlQXRlX3BHd2Zya3FmQ3hqVUh1VlhSbzQwVGx4cVhPTGt4NTJHMVlUaHY0N3hpZ3ltMXF0dVRuelNRX1NNMGxXNzN6TkFIWXpLUXpvWmFZMzJUaHhOYldTaVV6WnFJQnlaaXNwRWZiZ1M4dkI4c0wtVGJOMEtsNy13OWdjbllWaE5BOThVWXZxamtnTm1xeG44ZUhWQXN1ek1zdmJTd1I?oc=5",
       "snippet": "MarketWatch",
-      "published": "2026-10-07T14:49:00+00:00"
+      "published": "2026-10-07T16:31:00+00:00"
     },
     {
       "n": 28,
@@ -360,6 +364,14 @@
     },
     {
       "n": 29,
+      "title": "SF Fed president: AI demand could extend energy shock",
+      "source": "Axios",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hTXg1dF82bUVSZnlrcl9QVFhsTGY5WXU5UGZUa3BFazM1Nm9ETkljMWdnY01hUGgxMG1Ba1VESXhhMDhXSmoxOGVMaUIwNWpncTkxYjdpTmZoUUM4XzRaRGlvcmo5aG5KVDJwYw?oc=5",
+      "snippet": "Axios",
+      "published": "2026-10-07T08:45:58+00:00"
+    },
+    {
+      "n": 30,
       "title": "Markets Look to Fed Minutes for Clues on Further Rate Increases",
       "source": "Barron's",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE12YldKeENTSzMzU0hTU0h2dnFJWWU5RTNBU3daWlZObEd2SjRNWVVOTVBHdFp0QnlsNTBBVGxKZV9MTHR0TE5oTjNraHprUmU0cWVENERBdkx2aHNQX2dYTXUxdjJITmZVX0VlOHFuUzdhNjBob3dCY3RxcjZMZw?oc=5",
@@ -368,11 +380,26 @@
     }
   ],
   "cited": [
+    1,
+    2,
     4,
-    8
+    5,
+    7,
+    8,
+    9,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
   ],
   "invalid_citations": [],
-  "example_prompt": "Move: S&P 500 fell 0.66% to 7767.61.\n\nHeadlines:\n[1] Financial Times, Oct 06 09:30 AM ET: S&P 500 hits record high as AI stocks shrug off bond market slump\n    Financial Times\n[2] Yahoo Finance, Oct 06 10:01 AM ET: S&P 500 hits record high as oil prices and yields fall\n    Yahoo Finance US stocks flirt with a record after oil prices ease WRAL Nasdaq hits record as dollar and Treasury yields climb, oil prices ease Reuters\n[3] Barron's, Oct 05 02:08 PM ET: The S&P 500 Keeps Climbing as Many Stocks Struggle With Higher Rates\n    Barron's\n[4] Yahoo Finance, Oct 07 10:45 AM ET: Stock market today: Dow, S&P 500, Nasdaq fall after tech rally as bond yields, oil prices rise\n    Yahoo Finance\n\nWrite the subheading and body.",
+  "example_prompt": "Move: S&P 500 fell 0.21% to 7802.45.\n\nHeadlines:\n[1] Financial Times, Oct 06 09:30 AM ET: S&P 500 hits record high as AI stocks shrug off bond market slump\n    Financial Times\n[2] Yahoo Finance, Oct 06 10:01 AM ET: S&P 500 hits record high as oil prices and yields fall\n    Yahoo Finance US stocks flirt with a record after oil prices ease WRAL Nasdaq hits record as dollar and Treasury yields climb, oil prices ease Reuters\n[3] Barron's, Oct 05 02:08 PM ET: The S&P 500 Keeps Climbing as Many Stocks Struggle With Higher Rates\n    Barron's\n[4] Yahoo Finance, Oct 07 10:45 AM ET: Stock market today: Dow, S&P 500, Nasdaq fall after tech rally as bond yields, oil prices rise\n    Yahoo Finance\n\nWrite the subheading and body.",
   "retrieval": [
     {
       "move": "S&P 500",
@@ -436,51 +463,51 @@
         },
         {
           "n": 11,
-          "similarity": 0.751
+          "similarity": 0.752
         }
       ]
     },
     {
       "move": "USD/JPY",
-      "query": "Why did yen dollar Bank of Japan rise",
+      "query": "Why did yen dollar Bank of Japan hold steady",
       "hits": [
         {
           "n": 12,
-          "similarity": 0.752
+          "similarity": 0.807
         },
         {
           "n": 13,
-          "similarity": 0.74
+          "similarity": 0.774
         },
         {
           "n": 14,
-          "similarity": 0.737
+          "similarity": 0.746
         },
         {
           "n": 15,
-          "similarity": 0.734
+          "similarity": 0.74
         }
       ]
     },
     {
       "move": "Crude Oil",
-      "query": "Why did oil prices crude OPEC rise",
+      "query": "Why did oil prices crude OPEC fall",
       "hits": [
         {
           "n": 16,
-          "similarity": 0.761
+          "similarity": 0.765
         },
         {
           "n": 17,
-          "similarity": 0.711
+          "similarity": 0.749
         },
         {
           "n": 18,
-          "similarity": 0.702
+          "similarity": 0.721
         },
         {
           "n": 19,
-          "similarity": 0.689
+          "similarity": 0.696
         }
       ]
     },
@@ -509,8 +536,8 @@
   ],
   "stats": {
     "headlines_fetched": 37,
-    "headlines_new": 34,
-    "index_size": 501,
+    "headlines_new": 11,
+    "index_size": 512,
     "llm_calls": 7
   }
 }
