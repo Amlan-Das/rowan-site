@@ -1,29 +1,29 @@
 {
   "date": "Thursday, October 08",
-  "generated_at": "2026-10-08T17:35:09.484751+00:00",
+  "generated_at": "2026-10-08T17:59:55.958448+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "The S&P 500 fell to a record high, only to fade as traders took profits and reassessed their positions, amid a decline in tech stocks and rising oil prices.",
+  "lede": "The S&P 500 fell 0.7% to a record high, while the Nasdaq declined 1.48% amid concerns about war in Iran and rising oil prices.",
   "sections": [
     {
       "move": "S&P 500",
-      "pct": -0.71,
-      "last": 7746.15,
-      "change": -55.62,
+      "pct": -0.7,
+      "last": 7746.99,
+      "change": -54.78,
       "sources": [
         1,
         2,
         3,
         4
       ],
-      "headline": "Record High Fades",
-      "body": "The S&P 500 fell to a record high just hours after it reached a new peak, as traders took profits and reassessed their positions. The move was likely driven by the realization that the recent surge in tech stocks was not sustainable, and that the market was due for a correction. As a result, traders sold their shares, leading to the decline in prices."
+      "headline": "S&P 500 Falls Despite Record High",
+      "body": "The S&P 500 fell 0.7% to 7746.99, despite hitting a record high earlier in the day, as traders took profits from the recent rally. The decline was likely due to concerns about the potential for war in Iran, which led to a surge in oil prices and a rise in Treasury yields. This shift in market sentiment may have led to a sell-off in tech stocks, contributing to the overall decline in the market."
     },
     {
       "move": "Nasdaq",
-      "pct": -1.41,
-      "last": 27149.3,
-      "change": -389.39,
+      "pct": -1.48,
+      "last": 27131.68,
+      "change": -407.01,
       "sources": [
         5,
         6,
@@ -31,27 +31,27 @@
         7
       ],
       "headline": "Nasdaq Falls Amid Tech Decline",
-      "body": "The Nasdaq fell 1.41% to 27149.3 as tech stocks retreated, with traders watching the impact of rising oil prices and a threat of war resuming in Iran on the market. [2] [5] [6] [7] The decline in tech stocks, which had been on a rally, was a major contributor to the Nasdaq's fall. Oil prices also rose, adding to the pressure on the market. [7]"
+      "body": "The Nasdaq fell 1.48% to 27131.68, as tech stocks retreated [5]. The decline was also attributed to rising oil prices and bond yields, which weighed on the market [6]. Traders are watching the situation in Iran, as a threat of war resuming in the region is seen as a catalyst for the market's decline [2, 7]."
     },
     {
       "move": "10-Year Yield",
-      "pct": -0.76,
-      "last": 5.24,
-      "change": -0.04,
+      "pct": -0.95,
+      "last": 5.23,
+      "change": -0.05,
       "sources": [
         8,
         9,
         10,
         11
       ],
-      "headline": "Oil Prices Slide, Treasury Yields Fall",
-      "body": "Oil prices slid overnight, leading to a decrease in Treasury yields. This move is likely due to the expectation that lower oil prices will reduce inflationary pressures, which in turn may lead to lower interest rates. As a result, traders are watching the 10-year yield's movement closely, as it is a key indicator of the Fed's future interest rate decisions."
+      "headline": "Bond Market Takes a Breather",
+      "body": "The 10-year yield fell 0.95% to 5.23 as oil prices slid, causing Treasury yields to fall [8]. This move was likely driven by traders' concerns about the impact of rising bond yields on the stock market, as warned by Ray Dalio [9]. The decline in Treasury yields also supported gold prices, which edged up [10]."
     },
     {
       "move": "USD/JPY",
-      "pct": -0.45,
-      "last": 157.59,
-      "change": -0.71,
+      "pct": -0.36,
+      "last": 157.73,
+      "change": -0.56,
       "sources": [
         12,
         13,
@@ -59,27 +59,27 @@
         15
       ],
       "headline": "USD/JPY Sell-Off Explained",
-      "body": "The USD/JPY pair fell 0.45% to 157.59, with traders watching the Bank of Japan's monetary policy stance and the Federal Reserve's hawkish minutes from the previous week. The wide yield gap between the US and Japanese bond markets also supported the US dollar, according to FXStreet [12]. Traders are taking a cautious stance ahead of the Bank of Japan's upcoming monetary policy decision, which may impact the yen's value against the dollar [15]."
+      "body": "The USD/JPY pair fell 0.36% to 157.73 as traders took advantage of the wide yield gap between the US and Japanese markets. The wide gap, which is the difference between the US 10-year yield and the Japanese 10-year yield, is seen as a support for the US dollar, making it more attractive to investors. This is also supported by the hawkish FOMC minutes, which indicated that the US Federal Reserve is likely to keep interest rates high, further strengthening the US dollar against the Japanese yen."
     },
     {
       "move": "Crude Oil",
-      "pct": 3.05,
-      "last": 90.97,
-      "change": 2.69,
+      "pct": 3.78,
+      "last": 91.62,
+      "change": 3.34,
       "sources": [
         16,
         17,
         18,
         19
       ],
-      "headline": "Oil Prices Jump Amid Middle East Tensions",
-      "body": "Oil prices rose due to concerns over supply disruptions in the Middle East, particularly after Iran stepped up tanker attacks, which raised fears of a potential disruption to global oil supplies. Traders are watching the situation closely, as a hurricane threatening the US Gulf production also added to the uncertainty. The jump in oil prices pushed Treasury yields higher and stocks lower, as investors sought safe-haven assets."
+      "headline": "Oil Prices Rise Amid Middle East Tensions",
+      "body": "Oil prices surged due to concerns over supply disruptions in the Middle East, with Houthi attacks on Saudi Arabia and a US hurricane threatening oil production in the Gulf. Traders are watching the situation closely, as any further disruptions could lead to higher prices. The jump in oil prices also pushed Treasury yields higher and stocks lower, as investors sought safe-haven assets."
     },
     {
       "move": "Gold",
-      "pct": 0.56,
-      "last": 4164.0,
-      "change": 23.3,
+      "pct": 0.31,
+      "last": 4153.4,
+      "change": 12.7,
       "sources": [
         20,
         21,
@@ -87,46 +87,54 @@
         23
       ],
       "headline": "Gold Prices Rise Amid Inflation Fears",
-      "body": "Gold prices rose as investors became increasingly concerned about inflationary pressures, with surging oil prices being a key driver of this sentiment. [20] According to Moomoo, the surge in oil prices has heightened inflationary pressures, prompting investors to seek safe-haven assets like gold. [21] This move was also influenced by the easing of interest rates, which reduced the risk of a Fed rate hike in December, further supporting gold prices. [21]"
+      "body": "Gold prices rose as investors became increasingly concerned about inflationary pressures, with surging oil prices being a key driver of this sentiment. [20] The news that inflationary pressures have heightened again, despite easing interest rates, likely contributed to the gold price increase. [21]"
     }
   ],
   "also": [
     {
       "n": 24,
-      "note": "Oil prices rose, reviving inflation worries, and led to a decline in stocks and bonds, as investors sought safe-haven assets like gold."
+      "note": "The Nasdaq led the Dow, but the S&P 500 fell as chip stocks sold off, weighed down by oil prices."
+    },
+    {
+      "n": 27,
+      "note": "Jim Cramer is in a buying mood and is considering certain stocks, but no specific details were given."
+    },
+    {
+      "n": 31,
+      "note": "Inflation on many everyday items was entirely due to tariffs, according to the NY Fed."
     }
   ],
-  "brief": "The S&P 500 fell to a record high, only to fade as traders took profits and reassessed their positions, amid a decline in tech stocks and rising oil prices.\n\nS&P 500 (-0.71% to 7746.15): Record High Fades. The S&P 500 fell to a record high just hours after it reached a new peak, as traders took profits and reassessed their positions. The move was likely driven by the realization that the recent surge in tech stocks was not sustainable, and that the market was due for a correction. As a result, traders sold their shares, leading to the decline in prices.\nNasdaq (-1.41% to 27149.3): Nasdaq Falls Amid Tech Decline. The Nasdaq fell 1.41% to 27149.3 as tech stocks retreated, with traders watching the impact of rising oil prices and a threat of war resuming in Iran on the market. [2] [5] [6] [7] The decline in tech stocks, which had been on a rally, was a major contributor to the Nasdaq's fall. Oil prices also rose, adding to the pressure on the market. [7]\n10-Year Yield (-0.76% to 5.24): Oil Prices Slide, Treasury Yields Fall. Oil prices slid overnight, leading to a decrease in Treasury yields. This move is likely due to the expectation that lower oil prices will reduce inflationary pressures, which in turn may lead to lower interest rates. As a result, traders are watching the 10-year yield's movement closely, as it is a key indicator of the Fed's future interest rate decisions.\nUSD/JPY (-0.45% to 157.59): USD/JPY Sell-Off Explained. The USD/JPY pair fell 0.45% to 157.59, with traders watching the Bank of Japan's monetary policy stance and the Federal Reserve's hawkish minutes from the previous week. The wide yield gap between the US and Japanese bond markets also supported the US dollar, according to FXStreet [12]. Traders are taking a cautious stance ahead of the Bank of Japan's upcoming monetary policy decision, which may impact the yen's value against the dollar [15].\nCrude Oil (+3.05% to 90.97): Oil Prices Jump Amid Middle East Tensions. Oil prices rose due to concerns over supply disruptions in the Middle East, particularly after Iran stepped up tanker attacks, which raised fears of a potential disruption to global oil supplies. Traders are watching the situation closely, as a hurricane threatening the US Gulf production also added to the uncertainty. The jump in oil prices pushed Treasury yields higher and stocks lower, as investors sought safe-haven assets.\nGold (+0.56% to 4164.0): Gold Prices Rise Amid Inflation Fears. Gold prices rose as investors became increasingly concerned about inflationary pressures, with surging oil prices being a key driver of this sentiment. [20] According to Moomoo, the surge in oil prices has heightened inflationary pressures, prompting investors to seek safe-haven assets like gold. [21] This move was also influenced by the easing of interest rates, which reduced the risk of a Fed rate hike in December, further supporting gold prices. [21]\n\nAlso worth knowing:\n- Oil prices rose, reviving inflation worries, and led to a decline in stocks and bonds, as investors sought safe-haven assets like gold.",
+  "brief": "The S&P 500 fell 0.7% to a record high, while the Nasdaq declined 1.48% amid concerns about war in Iran and rising oil prices.\n\nS&P 500 (-0.7% to 7746.99): S&P 500 Falls Despite Record High. The S&P 500 fell 0.7% to 7746.99, despite hitting a record high earlier in the day, as traders took profits from the recent rally. The decline was likely due to concerns about the potential for war in Iran, which led to a surge in oil prices and a rise in Treasury yields. This shift in market sentiment may have led to a sell-off in tech stocks, contributing to the overall decline in the market.\nNasdaq (-1.48% to 27131.68): Nasdaq Falls Amid Tech Decline. The Nasdaq fell 1.48% to 27131.68, as tech stocks retreated [5]. The decline was also attributed to rising oil prices and bond yields, which weighed on the market [6]. Traders are watching the situation in Iran, as a threat of war resuming in the region is seen as a catalyst for the market's decline [2, 7].\n10-Year Yield (-0.95% to 5.23): Bond Market Takes a Breather. The 10-year yield fell 0.95% to 5.23 as oil prices slid, causing Treasury yields to fall [8]. This move was likely driven by traders' concerns about the impact of rising bond yields on the stock market, as warned by Ray Dalio [9]. The decline in Treasury yields also supported gold prices, which edged up [10].\nUSD/JPY (-0.36% to 157.73): USD/JPY Sell-Off Explained. The USD/JPY pair fell 0.36% to 157.73 as traders took advantage of the wide yield gap between the US and Japanese markets. The wide gap, which is the difference between the US 10-year yield and the Japanese 10-year yield, is seen as a support for the US dollar, making it more attractive to investors. This is also supported by the hawkish FOMC minutes, which indicated that the US Federal Reserve is likely to keep interest rates high, further strengthening the US dollar against the Japanese yen.\nCrude Oil (+3.78% to 91.62): Oil Prices Rise Amid Middle East Tensions. Oil prices surged due to concerns over supply disruptions in the Middle East, with Houthi attacks on Saudi Arabia and a US hurricane threatening oil production in the Gulf. Traders are watching the situation closely, as any further disruptions could lead to higher prices. The jump in oil prices also pushed Treasury yields higher and stocks lower, as investors sought safe-haven assets.\nGold (+0.31% to 4153.4): Gold Prices Rise Amid Inflation Fears. Gold prices rose as investors became increasingly concerned about inflationary pressures, with surging oil prices being a key driver of this sentiment. [20] The news that inflationary pressures have heightened again, despite easing interest rates, likely contributed to the gold price increase. [21]\n\nAlso worth knowing:\n- The Nasdaq led the Dow, but the S&P 500 fell as chip stocks sold off, weighed down by oil prices.\n- Jim Cramer is in a buying mood and is considering certain stocks, but no specific details were given.\n- Inflation on many everyday items was entirely due to tariffs, according to the NY Fed.",
   "moves": {
     "S&P 500": {
-      "last": 7746.15,
-      "change": -55.62,
-      "pct": -0.71
+      "last": 7746.99,
+      "change": -54.78,
+      "pct": -0.7
     },
     "Nasdaq": {
-      "last": 27149.3,
-      "change": -389.39,
-      "pct": -1.41
+      "last": 27131.68,
+      "change": -407.01,
+      "pct": -1.48
     },
     "10-Year Yield": {
-      "last": 5.24,
-      "change": -0.04,
-      "pct": -0.76
+      "last": 5.23,
+      "change": -0.05,
+      "pct": -0.95
     },
     "USD/JPY": {
-      "last": 157.59,
-      "change": -0.71,
-      "pct": -0.45
+      "last": 157.73,
+      "change": -0.56,
+      "pct": -0.36
     },
     "Crude Oil": {
-      "last": 90.97,
-      "change": 2.69,
-      "pct": 3.05
+      "last": 91.62,
+      "change": 3.34,
+      "pct": 3.78
     },
     "Gold": {
-      "last": 4164.0,
-      "change": 23.3,
-      "pct": 0.56
+      "last": 4153.4,
+      "change": 12.7,
+      "pct": 0.31
     }
   },
   "sources": [
@@ -196,6 +204,14 @@
     },
     {
       "n": 9,
+      "title": "Ray Dalio warns the stock market's cushion against rising bond yields is shrinking",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHZ2RmTEVIR040SlByRGJBSHI2bU5LYV9GSjMxYjd0b2Rla2tadmJ4c0hqT2RtR2J3bEx6WE1ZZS13UW1BVE9UcHlLMktUQmJPX3NlUnhZTEZNWnhQUHJjT0J1QW1RSm1kd19PeTk2YTFpdlHSAXhBVV95cUxPOExNdndXTlBHTWozRXlmeUY1OEFLaU53MDBsR3RyWVY1YXVvVkNWRm85V0hXa3RWeVE1LU1jZXUyUDBUcnpaMTl5Nm9aTTN2ZUlyUHNBazBNT0RzQW1oMlFJQUJQaTRYMlVNZ0NBRmtCemEtU1J6NC0?oc=5",
+      "snippet": "CNBC S&P 500 retreats from record as elevated yields keep traders on guard: Live updates CNBC Stock Market News, Oct. 7, 2026: Treasury Yields Retreat After Strong Auction, Dow Slips WSJ",
+      "published": "2026-10-08T11:04:05+00:00"
+    },
+    {
+      "n": 10,
       "title": "Gold edges up as dollar, Treasury yields slip",
       "source": "Reuters",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS3Z3SEV1TFdScWdiaHBPbEVUTjFEYWV0WjJSQjRPRkl2LTZsNHJoNzU1RGEyM0V2bE5LYk9KUDUtZ0tNMGFKYWw3NWFoUEdkQU5MaklVVy1lUmNMRlJQOUk3VjFjNmJZWGk1bzZtRkpLVWxmTUMzZ0NadVJsZUs3TWNlY0JrdGNubHpXOWNTRXEyVXM0YkUxWGd2UDQ2dkJi?oc=5",
@@ -203,20 +219,12 @@
       "published": "2026-10-06T02:15:00+00:00"
     },
     {
-      "n": 10,
+      "n": 11,
       "title": "U.S. equities tumble while Treasury yields push higher",
       "source": "Seeking Alpha",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYXBOQzBOU3ZKNWVSM1YzM1BFd05Hc29fa0NKbndPQkpCb0pfeVVlLTE4S1M0SjVyRjFsdkRGTDlxdXJ3WUdidzBSRzZLX3ozSXQxT1JvbTFqWkNPR1dRVG5TclBfNlhldHJwbVg2aE9zNWZpeTRuSjlaOVVtb1BfWjNJa1ZzQ3piMTluU0lzTk1YS0s1?oc=5",
       "snippet": "Seeking Alpha",
       "published": "2026-10-07T13:52:13+00:00"
-    },
-    {
-      "n": 11,
-      "title": "10-year Treasury yield is little changed as Fed's Waller says more hikes needed, investors await 30-year auction",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNF9IY0FlbFM0NmU5dU1WSVlJMUQtSTd1UEwwTGNfUFI3SVhfU3RWczRMWU5SSnNjOUhRbm15Q3EyVkw0Q1NBdm16UEF4ZktEVUl5MDVuTEs3emhON09xa2c5MDZDX3paNUZCcWl4QTNkc3ZYX0M1a3ctSlJKUDBfNEdB0gGHAUFVX3lxTFBPQ2Y1aEJEU2JUYVlGMW8wTm9mVGFtT1liT2pLZ0J4RVR0ZDN3aG9KTHJrdGEtS2FjRzdzMUhNNXE0bWhYOWhKUnVsLWt6UkVkc01WV2FXOVdUbGlmSE9NcWVocVRoQnRZWEFPTE56WTVXQ1BLRHA3RnZRaGJvN0FXTEZxY3pRNA?oc=5",
-      "snippet": "CNBC Global bond sell-off pushes U.S. Treasury yields to fresh 24-year highs NBC News U.S. Treasury Yields, Eurozone Bond Yields Rise Relentlessly WSJ",
-      "published": "2026-10-08T09:19:44+00:00"
     },
     {
       "n": 12,
@@ -316,11 +324,11 @@
     },
     {
       "n": 24,
-      "title": "Stock Market Today: Oil Rises, Nasdaq Slips After Fresh Tanker Attack — Live Updates",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRXZ4MHZha2h5MTVsV0UxVGxlcFFqZ1lvWUk3VkNxbkd3RHVRNXRRVGZfbVItMXRJa3VTbUhDa1lUM0llR0Y0eVFBRFBoSVNSMjhNR3VmNGNfVndmWm9RNnFhR2MtU20wS015RV91QmFGQ0o2LTVmRGxvX1ZRdm9Wa1Y0SXQyN0U?oc=5",
-      "snippet": "WSJ Stock market today: Dow, S&P 500, Nasdaq futures fall as oil rises, reviving inflation worries Yahoo Finance Stocks fall, weighed down by oil prices and tech declines: Live updates CNBC Oil Rise Spurs Fresh Selling in Stocks and Bonds: Markets Wrap Bloomberg.com Stock Market Today: Nasdaq Slumps",
-      "published": "2026-10-08T17:15:00+00:00"
+      "title": "Stock market today: Oil rises, Nasdaq leads Dow, S&P 500 lower as chip stocks sell off",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN1hvWl9DMFlrdWI3MDJRYjRqb2hyeTI1eWVDSTBucWpWb2xRNTVFdk5PY0pHMWcxQ3djT2hkOHRpNks2cmEwQU5hT1F5SklzN1hTMi1maUJpN0pIaE9iaWlFS3BqcU9IbXRqYnBwaHR2NnF6Ujl1TVhKb2tzVmdRZUVHUmY0WWY3STZYLWcwaXpvQjlNTXhTbmQxdWV3Z3ZKNXcyNjgxaXVPeUdscXc?oc=5",
+      "snippet": "Yahoo Finance Stock Market Today: Nasdaq Slumps On War Worries; Oils Surges As Chevron Gains (Live Coverage) Investor's Business Daily Stocks fall, weighed down by oil prices and tech declines: Live updates CNBC",
+      "published": "2026-10-08T17:35:58+00:00"
     },
     {
       "n": 25,
@@ -332,27 +340,27 @@
     },
     {
       "n": 26,
-      "title": "5 Things to Know Before the Stock Market Opens on Thursday",
-      "source": "Investopedia",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM1cteUNUNDVUdEI1b0ljMXZvUUJrQzlVU2FaQ0JWaHVJU0ZRV3VYc2pBeXZtcXFCQVJCNUh4N2tUcnFwSUJtQmJNY25VdVZOaDY1VmVZUU0tSkhENHVKVHZPVFpBVzVrMDR0T0x3R1BXTGQ5akZlMnRSV3NlTnlrUkp1NDNySnI2bzc5T0tVR1d0czc5VEg0WmFjb3ViSTFfV2JtMVRVNE9fcDAtbzI0dQ?oc=5",
-      "snippet": "Investopedia",
-      "published": "2026-10-08T11:32:43+00:00"
-    },
-    {
-      "n": 27,
-      "title": "Dow Jones Futures Fall As Oil Prices, Treasury Yields Jump; Samsung, Micron, Taiwan Semi, Sandisk In Focus",
-      "source": "Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOGxRYlh2TThUalZYTVZjTVFVRk1wZkZjejJVY1dwZXB1dTQxZ0JjNnd4MjZRbW1XcVlVbXVCVUlpNS1FZmZRTXJUVElTaUZoeXFRdGVDZjJMejJockVXd25xRGd4UGdhNWVBb01BMWs3RkVVUEtRZXZUb3NCQU9Hanlkb0E2bHBGN2pkN3ZQblYzVkh6MENNUGpwOVd2TnVJSzBfWmJySVVHVEM1QzdyNDQ2aEJRYUhYcFE?oc=5",
-      "snippet": "Investor's Business Daily",
-      "published": "2026-10-08T12:10:00+00:00"
-    },
-    {
-      "n": 28,
       "title": "Fed minutes, Pepsi earnings, midterm megadonors and more in Morning Squawk",
       "source": "CNBC",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUEtVYzFNNC1IVlIxSS1kWURaNU0xYzhZYTM1R2FFQ3BnSm5KYm5WQmpNOVNBLW1GTXJycjdGSFcxYmRJbU5ZREpnc29FamhkNTUyM2JhbERVaHhvUVNsNmdhaE9hbHFRWE1uOHA1a0dIcEltSE9qMERtMUdkNjNTazQ0bjdlTXJkY3Fz0gGQAUFVX3lxTE5SaVo5ZTRoV1cyVE1uRldCbXhwaVl6ZnBQaUFyMzNDX1JfYjZuQkxQc0p6U2hhdU1Rd0JSNlFUZmp0U2ljMTQ2OUhlV1FiMWh0VmZTY1JyVmNsU0pqRlBxdnZWWmdibGxNWEU2LXo1RzBTQ19NNTBtUWk2NDdEYTFvdlUzVW5obGpPaXVXVkdnLQ?oc=5",
       "snippet": "CNBC",
       "published": "2026-10-08T12:39:08+00:00"
+    },
+    {
+      "n": 27,
+      "title": "Jim Cramer says he's in a buying mood. Here are some stocks he's considering",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeF9rVjVUM3lscm1ISmJiY2twQVJMdE5VUWFoY1dVUXB2N2VzTzNhbk9Vei1iVlU2QWNwanR0MG5WMEhEUWN2NjVubWJJN0FFcmRkNE1hY2Nsc2c5NG1RVWNFc2pnVW53Y2R6alBjaWJXbEMtX3pJVUlYaHAxdXNCWHJDTWlzbm05Z0YwY1hkbTZHN3hpVk1TZ2MwdFBveEFJOWlNUmo4eERJRVIyRkhzUEZPZ09relhVVVNSdnpkNE1PUQ?oc=5",
+      "snippet": "CNBC",
+      "published": "2026-10-08T15:15:03+00:00"
+    },
+    {
+      "n": 28,
+      "title": "Stock Market Today (Oct. 8, 2025): Nasdaq, Russell 2000 suffer on higher oil, Treasurys",
+      "source": "TheStreet",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ0tfN19FQ1N2UGtRbjJXcmJqU0tPaUNLd2JLYVdQcGpCTGdoSEU5eWZfVlMzRXQwWEl1V3BXWjlfd1d2SzRsVm16Z2JEaVRnbUszXzRZMTFwUVZGSW9BblJNWlRuZGJTeG50MXRUbTRfMWF1QjREd3pDbjVRSGFPUnpSWUNtUWRoU21mc25MUTNXUDA4WjVaUTJ6aW44dmlTNHJzQnNHQW9wMGs?oc=5",
+      "snippet": "TheStreet",
+      "published": "2026-10-08T17:33:44+00:00"
     },
     {
       "n": 29,
@@ -384,13 +392,14 @@
     5,
     6,
     7,
-    12,
-    15,
+    8,
+    9,
+    10,
     20,
     21
   ],
   "invalid_citations": [],
-  "example_prompt": "Move: S&P 500 fell 0.71% to 7746.15.\n\nHeadlines:\n[1] Financial Times, Oct 06 09:30 AM ET: S&P 500 hits record high as AI stocks shrug off bond market slump\n    Financial Times\n[2] MarketWatch, Oct 08 01:22 PM ET: Stock Market Today: Dow, S&P 500 and Nasdaq fall as tech stocks struggle and oil prices jump on threat of war resuming in Iran\n    MarketWatch\n[3] Yahoo Finance, Oct 06 10:01 AM ET: S&P 500 hits record high as oil prices and yields fall\n    Yahoo Finance US stocks flirt with a record after oil prices ease WRAL Nasdaq hits record as dollar and Treasury yields climb, oil prices ease Reuters\n[4] Barron's, Oct 05 02:08 PM ET: The S&P 500 Keeps Climbing as Many Stocks Struggle With Higher Rates\n    Barron's\n\nWrite the subheading and body.",
+  "example_prompt": "Move: S&P 500 fell 0.7% to 7746.99.\n\nHeadlines:\n[1] Financial Times, Oct 06 09:30 AM ET: S&P 500 hits record high as AI stocks shrug off bond market slump\n    Financial Times\n[2] MarketWatch, Oct 08 01:22 PM ET: Stock Market Today: Dow, S&P 500 and Nasdaq fall as tech stocks struggle and oil prices jump on threat of war resuming in Iran\n    MarketWatch\n[3] Yahoo Finance, Oct 06 10:01 AM ET: S&P 500 hits record high as oil prices and yields fall\n    Yahoo Finance US stocks flirt with a record after oil prices ease WRAL Nasdaq hits record as dollar and Treasury yields climb, oil prices ease Reuters\n[4] Barron's, Oct 05 02:08 PM ET: The S&P 500 Keeps Climbing as Many Stocks Struggle With Higher Rates\n    Barron's\n\nWrite the subheading and body.",
   "retrieval": [
     {
       "move": "S&P 500",
@@ -446,15 +455,15 @@
         },
         {
           "n": 9,
-          "similarity": 0.76
+          "similarity": 0.763
         },
         {
           "n": 10,
-          "similarity": 0.756
+          "similarity": 0.76
         },
         {
           "n": 11,
-          "similarity": 0.753
+          "similarity": 0.756
         }
       ]
     },
@@ -526,9 +535,9 @@
     }
   ],
   "stats": {
-    "headlines_fetched": 40,
-    "headlines_new": 40,
-    "index_size": 500,
+    "headlines_fetched": 39,
+    "headlines_new": 7,
+    "index_size": 507,
     "llm_calls": 7
   }
 }
