@@ -38,6 +38,11 @@ def _doc_text(h):
 def add_headlines(headlines):
     """Embed and store any headlines we haven't seen before. Returns how many were new."""
     col = _col()
+    # The same article can arrive from several feeds; keep one copy per ID
+    unique = {}
+    for h in headlines or []:
+        unique.setdefault(h["id"], h)
+    headlines = list(unique.values())
     if not headlines:
         return 0
     existing = set(col.get(ids=[h["id"] for h in headlines])["ids"])
