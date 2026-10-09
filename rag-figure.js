@@ -107,7 +107,7 @@ const RagFigure = (function () {
       return [p.ex, p.ey];
     }
 
-    const soft = "63,75,94", accent = "37,82,212", ink = "16,27,45", mist = "95,107,124";
+    const soft = "77,88,106", accent = "30,55,101", ink = "23,33,58", mist = "104,114,132";
     function size() {
       const dpr = Math.min(window.devicePixelRatio || 1, 2);
       W = cv.clientWidth;
@@ -139,7 +139,7 @@ const RagFigure = (function () {
         }
       });
 
-      ctx.font = '11px "IBM Plex Sans", Helvetica, Arial, sans-serif';
+      ctx.font = '11px "Libre Franklin", Helvetica, Arial, sans-serif';
       ctx.textAlign = "center";
       if (m === "store" || m === "search") {
         clusters.forEach((c, i) => {
@@ -160,7 +160,7 @@ const RagFigure = (function () {
         ctx.fillStyle = "rgba(" + ink + ",1)"; ctx.beginPath(); ctx.arc(qx, qy, 1.8, 0, Math.PI * 2); ctx.fill();
       }
       if (r >= 4) {
-        ctx.textAlign = "right"; ctx.font = '10px "IBM Plex Sans", Helvetica, Arial, sans-serif';
+        ctx.textAlign = "right"; ctx.font = '10px "Libre Franklin", Helvetica, Arial, sans-serif';
         sources.forEach((s, i) => {
           ctx.fillStyle = m === "write" && !cited.has(s.n) ? "rgba(" + mist + ",.8)" : "rgba(" + accent + ",.95)";
           ctx.fillText(String(s.n), .87 * W, (.1 + i * (.8 / Math.max(1, sources.length - 1))) * W + 3.5);
