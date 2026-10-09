@@ -11,8 +11,7 @@ import industries
 
 # Search terms to pull headlines for. The broad ones catch the overall market
 # story; the targeted ones give the retriever something to find for each
-# instrument on the watchlist. The industry desks add their own feeds at the
-# end, so the first headlines are still the general market ones.
+# instrument on the watchlist.
 QUERIES = [
     "stock market today",
     "Federal Reserve",
@@ -22,11 +21,17 @@ QUERIES = [
     "yen dollar",
     "oil prices",
     "gold prices",
-] + industries.feeds()
+]
 
 # Only keep headlines from roughly the last 16 hours. Older news still
 # lives in the vector store, so the retriever can reach back further.
 LOOKBACK_HOURS = 16
+
+# The industry desks' own searches come after the market ones, so the first
+# headlines are still the general market story. Industry news moves slower,
+# so these look back two days and ask Google for recent results only.
+DESK_QUERIES = industries.feeds()
+DESK_LOOKBACK_HOURS = 48
 
 
 def _clean(text):
@@ -35,7 +40,7 @@ def _clean(text):
     return re.sub(r"\s+", " ", html.unescape(text)).strip()
 
 
-def fetch_headlines(query, limit=5):
+def fetch_headlines(query, limit=5, lookback_hours=LOOKBACK_HOURS):
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
         "q": query,
         "hl": "en-US",
@@ -47,7 +52,7 @@ def fetch_headlines(query, limit=5):
         raw = resp.read()
 
     root = ET.fromstring(raw)
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
     items = []
     for item in root.iter("item"):
         title = item.findtext("title", "")
@@ -85,9 +90,11 @@ def fetch_headlines(query, limit=5):
 def get_headlines():
     all_headlines = []
     seen_titles = set()
-    for query in QUERIES:
+    searches = [(q, q, LOOKBACK_HOURS) for q in QUERIES] + \
+               [(q, q + " when:2d", DESK_LOOKBACK_HOURS) for q in DESK_QUERIES]
+    for query, q, hours in searches:
         try:
-            results = fetch_headlines(query)
+            results = fetch_headlines(q, lookback_hours=hours)
         except Exception as e:
             print(f"Headline fetch failed for '{query}': {e}")
             continue

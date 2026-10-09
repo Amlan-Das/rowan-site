@@ -29,7 +29,8 @@ OUTPUT_PATH = os.environ.get("BRIEF_OUT", "output/brief.json")
 RETRIEVE_DAYS = 3     # how far back the retriever can look
 TOP_K = 4             # headlines retrieved per move
 MAX_GENERAL = 8       # extra fresh headlines offered for "also worth knowing"
-DESK_TOP_K = 2        # headlines retrieved per instrument on an industry desk
+DESK_TOP_K = 2        # headlines kept per instrument on an industry desk
+DESK_CANDIDATES = 10  # nearest headlines checked for the instrument's keywords before keeping DESK_TOP_K
 DESK_MAX_SOURCES = 6  # most headlines one desk note is written from
 
 # Plain-English search text for each instrument. "Crude Oil fell" alone is a
@@ -66,14 +67,32 @@ DESK_SYSTEM = """You are a markets writer covering the {industry} industry for f
 
 Rules:
 - Use only the numbered headlines you are given. Do not add facts, numbers, names or dates that are not in them.
-- Put the headline number in square brackets after each claim, like [3].
-- Do not repeat prices or percentage moves. The page already shows them.
+- Ignore any headline that is not about {industry}.
 - Explain what is driving the industry right now and what people in it are watching, in plain language.
-- If none of the headlines are about this industry, say that no clear industry news appeared.
+- Do not give prices or percentage moves. The page already shows them.
 
 Reply in JSON with:
-"headline": a subheading of at most 8 words, no brackets
-"body": two to four sentences with citations"""
+"headline": a subheading of at most 8 words
+"sentences": two to four sentences. For each one, "text" is the sentence with no brackets, and "sources" lists the numbers of the headlines it comes from."""
+
+# Citations come back as a list per sentence rather than brackets in the text,
+# so the code can attach them and drop any sentence that has no real source
+DESK_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "headline": {"type": "string"},
+        "sentences": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {"text": {"type": "string"},
+                               "sources": {"type": "array", "items": {"type": "integer"}}},
+                "required": ["text", "sources"],
+            },
+        },
+    },
+    "required": ["headline", "sentences"],
+}
 
 OVERVIEW_SYSTEM = """You write the top of a morning markets note.
 
@@ -113,7 +132,12 @@ def retrieve_for_moves(moves):
 
 
 def retrieve_for_desk(ind, desk_moves):
-    """One search per instrument on an industry desk, worded like the move searches."""
+    """One search per instrument on an industry desk, worded like the move searches.
+
+    Meaning alone isn't enough here: "Why did corn prices fall" sits close to
+    "Stock futures fall" because of the shape of the sentence. So the search pulls
+    a wider set, and a headline only counts if it names the instrument's topic.
+    """
     log = []
     for inst in ind["instruments"]:
         m = desk_moves.get(inst["name"])
@@ -122,7 +146,8 @@ def retrieve_for_desk(ind, desk_moves):
             query = f"Why did {inst['hint']} {direction}"
         else:
             query = f"{inst['hint']} news"  # no price today, so search the topic itself
-        hits = store.search(query, k=DESK_TOP_K, days=RETRIEVE_DAYS)
+        found = store.search(query, k=DESK_CANDIDATES, days=RETRIEVE_DAYS)
+        hits = [h for h in found if industries.on_topic(inst, h["title"] + " " + h.get("snippet", ""))][:DESK_TOP_K]
         log.append({"desk": ind["slug"], "label": inst["name"], "query": query, "hits": hits})
 
     # Keep the note focused: if the searches found more different headlines than
@@ -182,14 +207,15 @@ def section_prompt(name, m, sources):
 
 
 def desk_prompt(ind, desk_moves, sources):
+    # Direction only: with no numbers in the prompt, the model can't repeat them
     moved = []
     for inst in ind["instruments"]:
         m = desk_moves.get(inst["name"])
         if m:
             verb = "rose" if m["pct"] > 0 else "fell" if m["pct"] < 0 else "was flat"
-            moved.append(f"{inst['name']} {verb} {abs(m['pct'])}%.")
+            moved.append(f"{inst['name']} {verb}.")
     return (f"Industry: {ind['name']}\n" +
-            (f"Moves at the last close: {' '.join(moved)}\n" if moved else "") +
+            (f"At the last close: {' '.join(moved)}\n" if moved else "") +
             "\nHeadlines:\n" + "\n".join(_source_line(s) for s in sources) +
             "\n\nWrite the subheading and body.")
 
@@ -227,13 +253,24 @@ def write_desk(ind, log, desk_moves, by_n):
     }
     if not ns:
         desk.update(headline="No clear industry news",
-                    body="None of the stored headlines were close enough to this desk's searches to write from.")
+                    body="No stored headline from the last three days was both close to this desk's searches and about the industry, so no note was written.")
         return desk
     try:
         out = llm.generate(DESK_SYSTEM.replace("{industry}", ind["name"]),
-                           desk_prompt(ind, desk_moves, [by_n[n] for n in ns]), schema=SECTION_SCHEMA)
-        desk["headline"] = out["headline"].strip().rstrip(".")
-        desk["body"] = out["body"].strip()
+                           desk_prompt(ind, desk_moves, [by_n[n] for n in ns]), schema=DESK_SCHEMA)
+        # Keep only sentences that cite a headline this desk was given, and attach the citations here
+        given, kept = set(ns), []
+        for s in (out.get("sentences") or [])[:4]:
+            text = re.sub(r"\s*\[[\d,\s]*\]", "", str(s.get("text", ""))).strip().rstrip(".")
+            cites = sorted({n for n in s.get("sources") or [] if isinstance(n, int) and n in given})
+            if text and cites:
+                kept.append(f"{text} [{', '.join(map(str, cites))}].")
+        if kept:
+            desk["headline"] = re.sub(r"\s*\[[\d,\s]*\]", "", out["headline"]).strip().rstrip(".")
+            desk["body"] = " ".join(kept)
+        else:
+            desk.update(headline="No clear industry news",
+                        body="The model couldn't tie any sentence to the headlines this desk retrieved, so no note was written.")
     except Exception as e:
         # A bad reply on one desk shouldn't cost the whole brief
         print(f"Desk note failed for {ind['name']}: {e}")

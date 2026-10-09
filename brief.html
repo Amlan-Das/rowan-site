@@ -81,7 +81,7 @@
         <li class="ed-step" data-step="1">
           <p class="snum">Step 1</p>
           <h3>Pull prices and headlines</h3>
-          <p>Python asks yfinance for the last two closes on six instruments: the S&amp;P 500, the Nasdaq, the 10-year yield, USD/JPY, crude and gold, plus the futures and ETFs each industry desk tracks. It then reads Google News RSS feeds for the market searches and each desk's own searches. RSS arrives as XML, so the code parses each item, drops anything older than 16 hours, strips the HTML out of the snippet and removes stories that showed up under more than one search.</p>
+          <p>Python asks yfinance for the last two closes on six instruments: the S&amp;P 500, the Nasdaq, the 10-year yield, USD/JPY, crude and gold, plus the futures and ETFs each industry desk tracks. It then reads Google News RSS feeds for the market searches and each desk's own searches. RSS arrives as XML, so the code parses each item, drops anything older than 16 hours (two days for the industry searches, since that news moves slower), strips the HTML out of the snippet and removes stories that showed up under more than one search.</p>
           <p>Each story gets an ID made from a hash of its link. The same article always gets the same ID, which is how it avoids being stored twice on later mornings.</p>
           <div class="ed-code"><span class="c"># headlines.py</span>
 "id": hashlib.sha1(link.encode()).hexdigest()[:16]</div>
@@ -281,7 +281,7 @@ Headlines:
       return '<div class="ind-note"><p class="ed-label">Today on the desk</p>' +
         "<h3>" + esc(d.headline || "") + '</h3><p class="ind-body">' + citeHtml(d.body || "") + "</p>" +
         (d.sources.length ? '<div class="ed-found">Written from ' + d.sources.map((n) => '<a href="#s' + n + '" data-n="' + n + '">' + n + "</a>").join("") + "</div>" : "") +
-        (how ? '<details class="ind-how"><summary>How this note was sourced</summary><p>One search per instrument against the same headline store, two closest headlines each, with the cosine similarity of every match.</p><div class="ed-rtab">' + how + "</div></details>" : "") +
+        (how ? '<details class="ind-how"><summary>How this note was sourced</summary><p>One search per instrument against the same headline store. A headline only counts if it names the instrument\'s topic, so a story about stock futures can\'t stand in for corn. The two closest that pass are kept, shown with their cosine similarity.</p><div class="ed-rtab">' + how + "</div></details>" : "") +
         "</div>";
     };
 
