@@ -1,422 +1,300 @@
 {
-  "date": "Thursday, October 08",
-  "generated_at": "2026-10-08T18:02:59.474602+00:00",
+  "date": "Friday, October 09",
+  "generated_at": "2026-10-09T17:39:07.338586+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "Paramount and Warner Bros. Discovery have completed their acquisition, forming a new global entertainment leader called Skydance, rivaling industry giants like Netflix and YouTube.",
+  "lede": "Viatris is acquiring Pacira BioSciences for $1.65 billion as part of its push into the non-opioid pain market.",
   "deals": [
-    {
-      "acquirer": "Paramount",
-      "target": "Warner Bros. Discovery",
-      "value": "",
-      "pinned": false,
-      "stage": "Completed",
-      "articles": 5,
-      "outlets": 5,
-      "latest": "2026-10-07T05:28:20+00:00",
-      "sources": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
-      "stripped": [],
-      "headline": "Paramount and Warner Bros. Discovery Deal Completed",
-      "body": "Paramount and Warner Bros. Discovery have completed their acquisition, forming a new global entertainment leader called Skydance [1, 2, 3]. The deal brings together studios, streaming services, and cable networks under one owner, rivaling industry giants like Netflix and YouTube [2, 3, 5]. The new company, Skydance, now owns CNN and CBS News under one roof [3, 5, 7]. The acquisition was officially completed on Tuesday, following a legal battle [2, 4, 5].",
-      "found": [
-        {
-          "n": 1,
-          "acquirer": "Paramount",
-          "target": "Warner Bros. Discovery",
-          "stage": "Completed"
-        },
-        {
-          "n": 2,
-          "acquirer": "Paramount",
-          "target": "Warner Bros. Discovery",
-          "stage": "Completed"
-        },
-        {
-          "n": 3,
-          "acquirer": "Paramount",
-          "target": "Warner Bros. Discovery",
-          "stage": "Completed"
-        },
-        {
-          "n": 4,
-          "acquirer": "Paramount",
-          "target": "Warner Bros",
-          "stage": "Completed"
-        },
-        {
-          "n": 5,
-          "acquirer": "Paramount",
-          "target": "Warner Bros",
-          "stage": "Completed"
-        }
-      ]
-    },
     {
       "acquirer": "Viatris",
       "target": "Pacira BioSciences",
       "value": "$1.65 Billion",
       "pinned": false,
       "stage": "Announced",
-      "articles": 4,
-      "outlets": 3,
-      "latest": "2026-10-08T16:35:00+00:00",
+      "articles": 6,
+      "outlets": 5,
+      "latest": "2026-10-08T21:14:43+00:00",
       "sources": [
-        11,
-        12,
-        13,
-        14
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
       ],
       "stripped": [],
       "headline": "Viatris to Acquire Pacira BioSciences",
-      "body": "Viatris is acquiring Pacira BioSciences for $1.65 billion [11, 12, 13]. The deal will bolster Viatris' non-opioid pain management portfolio [11, 12, 13]. Viatris will become a leader in non-opioid pain therapies after the acquisition [14].",
+      "body": "Viatris is acquiring Pacira BioSciences for $1.65 billion [2, 3, 4]. The deal is part of Viatris' push into the non-opioid pain market [2, 4, 6]. Pacira BioSciences is expected to become a leader in non-opioid pain therapies [6].",
       "found": [
         {
-          "n": 11,
+          "n": 1,
+          "acquirer": "Viatris",
+          "target": "Pacira BioSciences",
+          "stage": "Announced"
+        },
+        {
+          "n": 2,
           "acquirer": "Viatris",
           "target": "Pacira",
           "stage": "Announced"
         },
         {
-          "n": 12,
+          "n": 3,
           "acquirer": "Viatris",
           "target": "Pacira BioSciences",
           "stage": "Announced"
         },
         {
-          "n": 13,
+          "n": 4,
           "acquirer": "Viatris",
           "target": "Pacira BioSciences",
           "stage": "Announced"
         },
         {
-          "n": 14,
+          "n": 5,
           "acquirer": "Viatris",
           "target": "Pacira BioSciences",
-          "stage": "Completed"
+          "stage": "Announced"
+        },
+        {
+          "n": 6,
+          "acquirer": "Viatris",
+          "target": "Pacira BioSciences",
+          "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Third Coast",
-      "target": "Great Plains",
-      "value": "$240M",
+      "acquirer": "AkzoNobel",
+      "target": "Axalta",
+      "value": "$25 billion",
+      "pinned": false,
+      "stage": "Pending approval",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-08T18:48:04+00:00",
+      "sources": [
+        7,
+        8,
+        9
+      ],
+      "stripped": [],
+      "headline": "AkzoNobel and Axalta Deal",
+      "body": "AkzoNobel and Axalta are a $25 billion deal [7, 8, 9]. The deal is pending EU antitrust approval [7, 8, 9]. No new information is available [7, 8, 9].",
+      "found": [
+        {
+          "n": 7,
+          "acquirer": "AkzoNobel",
+          "target": "Axalta",
+          "stage": "Pending approval"
+        },
+        {
+          "n": 8,
+          "acquirer": "AkzoNobel",
+          "target": "Axalta",
+          "stage": "Pending approval"
+        }
+      ]
+    },
+    {
+      "acquirer": "Williams",
+      "target": "Momentum Midstream",
+      "value": "$5.5 Billion",
+      "pinned": false,
+      "stage": "Rumored",
+      "articles": 2,
+      "outlets": 1,
+      "latest": "2026-10-09T10:09:52+00:00",
+      "sources": [
+        10,
+        11
+      ],
+      "stripped": [],
+      "headline": "Williams to Buy Momentum Midstream",
+      "body": "Williams is in talks to buy Momentum Midstream for $5.5 billion [10, 11]. Williams has agreed to buy Momentum Midstream [10, 11]. No further information is available [10, 11].",
+      "found": [
+        {
+          "n": 10,
+          "acquirer": "Williams",
+          "target": "Momentum Midstream",
+          "stage": "Announced"
+        },
+        {
+          "n": 11,
+          "acquirer": "Williams",
+          "target": "Momentum Midstream",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "Curaleaf",
+      "target": "Aurora Cannabis",
+      "value": "",
       "pinned": false,
       "stage": "Announced",
-      "articles": 4,
-      "outlets": 3,
-      "latest": "2026-10-07T10:30:00+00:00",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-09T17:21:57+00:00",
       "sources": [
+        12,
+        13,
+        14,
         15,
         16,
         17,
         18
       ],
       "stripped": [],
-      "headline": "Third Coast and Great Plains Deal",
-      "body": "Third Coast Bancshares, Inc. is buying Great Plains Bancshares, Inc [15, 16, 17]. The deal was announced by both companies [18]. No further information is available [16, 17, 18].",
+      "headline": "Curaleaf and Aurora Cannabis Deal",
+      "body": "Curaleaf is acquiring Aurora Cannabis [12, 13, 14]. Curaleaf's takeover bid for Aurora Cannabis has been sweetened to $5 per share [16, 17, 18]. Curaleaf's offer for Aurora Cannabis has been improved [15, 18].",
       "found": [
         {
-          "n": 15,
-          "acquirer": "Third Coast",
-          "target": "Great Plains",
-          "stage": "Announced"
-        },
-        {
-          "n": 16,
-          "acquirer": "Third Coast",
-          "target": "Great Plains",
-          "stage": "Announced"
-        },
-        {
-          "n": 17,
-          "acquirer": "Third Coast",
-          "target": "Great Plains",
-          "stage": "Announced"
-        },
-        {
-          "n": 18,
-          "acquirer": "Third Coast",
-          "target": "Great Plains",
-          "stage": "Announced"
+          "n": 12,
+          "acquirer": "Curaleaf",
+          "target": "Aurora Cannabis",
+          "stage": "Rumored"
         }
       ]
     },
     {
-      "acquirer": "Weston family",
-      "target": "Boots",
-      "value": "$8.9bn",
+      "acquirer": "Mega Nova",
+      "target": "SMC Electric",
+      "value": "",
       "pinned": false,
       "stage": "Announced",
-      "articles": 3,
-      "outlets": 3,
-      "latest": "2026-10-08T12:31:42+00:00",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-09T17:06:18+00:00",
       "sources": [
-        19,
-        20,
-        21,
-        22
+        19
       ],
       "stripped": [],
-      "headline": "Weston family and Boots",
-      "body": "The Weston family is acquiring Boots for $8.9 billion [19, 20, 21]. The deal was announced by the Weston family, with Wittington to acquire Boots [22].",
+      "headline": "Mega Nova to Acquire SMC Electric",
+      "body": "Mega Nova is acquiring SMC Electric [19]. Baker McKenzie is advising Mega Nova [19].",
       "found": [
         {
           "n": 19,
-          "acquirer": "Weston family",
-          "target": "Boots",
-          "stage": "Completed"
-        },
-        {
-          "n": 20,
-          "acquirer": "Weston family",
-          "target": "Boots",
-          "stage": "Completed"
-        },
-        {
-          "n": 21,
-          "acquirer": "Weston family",
-          "target": "Boots",
+          "acquirer": "Mega Nova",
+          "target": "SMC Electric",
           "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "SpaceX",
-      "target": "Nvidia",
-      "value": "$40 billion",
+      "acquirer": "Salt Creek Capital",
+      "target": "MK Plastics",
+      "value": "",
       "pinned": false,
-      "stage": "Rumored",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-07T20:10:29+00:00",
+      "stage": "Announced",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-09T15:00:00+00:00",
       "sources": [
+        20
+      ],
+      "stripped": [],
+      "headline": "Salt Creek Capital Buys MK Plastics",
+      "body": "Salt Creek Capital has acquired MK Plastics [20]. The deal was announced [20]. No further information is available [20].",
+      "found": [
+        {
+          "n": 20,
+          "acquirer": "Salt Creek Capital",
+          "target": "MK Plastics",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Barclays",
+      "target": "McKesson",
+      "value": "",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-09T14:18:59+00:00",
+      "sources": [
+        21,
+        22,
         23,
         24,
         25,
-        26,
+        26
+      ],
+      "stripped": [],
+      "headline": "Barclays and McKesson Deal",
+      "body": "Barclays is targeting McKesson's stock at $1,000.00 [21, 26]. McKesson and CD&R are close to a $5bn-plus deal to buy Option Care Health [24, 25]. McKesson and CD&R have agreed to acquire Option Care Health for $5.8 billion [26]. The deal was announced by McKesson [21, 22, 23].",
+      "found": [
+        {
+          "n": 21,
+          "acquirer": "Barclays",
+          "target": "McKesson",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "TradingView",
+      "target": "Drilling Tools International",
+      "value": "",
+      "pinned": false,
+      "stage": "Terminated",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-09T13:00:00+00:00",
+      "sources": [
         27,
         28,
         29
       ],
       "stripped": [],
-      "headline": "SpaceX to Buy Nvidia Chips",
-      "body": "SpaceX is seeking $40 billion financing to buy Nvidia chips [23, 24, 25]. Apollo and banks are in talks to finance the deal [26, 27]. The deal is reportedly led by Apollo [28]. SpaceX is also looking to raise $40 billion to buy Nvidia chips [29].",
+      "headline": "TradingView Terminates Drilling Tools International Deal",
+      "body": "TradingView has terminated its deal with Drilling Tools International [27, 28, 29]. The deal was terminated after the parties failed to reach an agreement [27, 28, 29]. The termination marks the end of the proposed acquisition [27, 28, 29].",
       "found": [
         {
-          "n": 23,
-          "acquirer": "SpaceX",
-          "target": "Nvidia",
-          "stage": "Rumored"
-        },
-        {
-          "n": 24,
-          "acquirer": "SpaceX",
-          "target": "Nvidia",
-          "stage": "Rumored"
-        }
-      ]
-    },
-    {
-      "acquirer": "Schneider Electric",
-      "target": "PTC",
-      "value": "$22.6 Billion",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-07T17:48:11+00:00",
-      "sources": [
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37
-      ],
-      "stripped": [],
-      "headline": "Schneider Electric to Acquire PTC",
-      "body": "Schneider Electric is acquiring industrial software maker PTC [30, 31, 32]. The deal is valued at $22.6 billion [31, 34, 35]. The acquisition is expected to be completed in the future [36, 37].",
-      "found": [
-        {
-          "n": 30,
-          "acquirer": "Schneider Electric",
-          "target": "PTC",
+          "n": 27,
+          "acquirer": "TradingView",
+          "target": "Drilling Tools International",
           "stage": "Announced"
-        },
-        {
-          "n": 31,
-          "acquirer": "Schneider Electric",
-          "target": "PTC",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Magnolia Oil & Gas",
-      "target": "WildFire",
-      "value": "$4 Billion",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-10-08T16:02:08+00:00",
-      "sources": [
-        38
-      ],
-      "stripped": [],
-      "headline": "Magnolia Oil & Gas to Acquire WildFire",
-      "body": "Magnolia Oil & Gas is in the lead to acquire WildFire [38]. The deal is valued over $4 Billion [38]. No further information is available [38].",
-      "found": [
-        {
-          "n": 38,
-          "acquirer": "Magnolia Oil & Gas",
-          "target": "WildFire",
-          "stage": "Rumored"
-        }
-      ]
-    },
-    {
-      "acquirer": "Kuiken Brothers",
-      "target": "Paramus Building Supply",
-      "value": "",
-      "pinned": false,
-      "stage": "Completed",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-10-08T15:59:43+00:00",
-      "sources": [
-        39
-      ],
-      "stripped": [],
-      "headline": "Kuiken Brothers Acquires Paramus Building Supply",
-      "body": "Kuiken Brothers has acquired Paramus Building Supply [39]. The deal is now completed [39].",
-      "found": [
-        {
-          "n": 39,
-          "acquirer": "Kuiken Brothers",
-          "target": "Paramus Building Supply",
-          "stage": "Completed"
         }
       ]
     }
   ],
   "also": [
     {
-      "n": 40,
-      "note": "Mexico is betting on tech to enhance industrial platforms [40]."
+      "n": 30,
+      "note": "Alex Davis’ VC Firm Disruptive Targets $10 Billion for New Megafund [30]."
     },
     {
-      "n": 41,
-      "note": "Starbucks shares plunged over 5% on chipotle acquisition rumors as Niccol's six-year tenure becomes key focus [41]."
+      "n": 31,
+      "note": "OpenAI Leads Global AI Acquisition Spree: 195 Verified AI Mergers & Acquisitions Unveiled, Top Single Deal Hits $11 Billion Valuation [31]."
     },
     {
-      "n": 42,
-      "note": "Eventbrite shareholders approved a $500M sale to Bending Spoons, regulatory approval pending [42]."
+      "n": 32,
+      "note": "Gorilla Technology Plans First US Data Center Deal, Targets Over 100MW AI Infrastructure [32]."
     }
   ],
-  "brief": "Paramount and Warner Bros. Discovery have completed their acquisition, forming a new global entertainment leader called Skydance, rivaling industry giants like Netflix and YouTube.\n\nParamount / Warner Bros. Discovery (Completed): Paramount and Warner Bros. Discovery Deal Completed. Paramount and Warner Bros. Discovery have completed their acquisition, forming a new global entertainment leader called Skydance [1, 2, 3]. The deal brings together studios, streaming services, and cable networks under one owner, rivaling industry giants like Netflix and YouTube [2, 3, 5]. The new company, Skydance, now owns CNN and CBS News under one roof [3, 5, 7]. The acquisition was officially completed on Tuesday, following a legal battle [2, 4, 5].\nViatris / Pacira BioSciences (Announced): Viatris to Acquire Pacira BioSciences. Viatris is acquiring Pacira BioSciences for $1.65 billion [11, 12, 13]. The deal will bolster Viatris' non-opioid pain management portfolio [11, 12, 13]. Viatris will become a leader in non-opioid pain therapies after the acquisition [14].\nThird Coast / Great Plains (Announced): Third Coast and Great Plains Deal. Third Coast Bancshares, Inc. is buying Great Plains Bancshares, Inc [15, 16, 17]. The deal was announced by both companies [18]. No further information is available [16, 17, 18].\nWeston family / Boots (Announced): Weston family and Boots. The Weston family is acquiring Boots for $8.9 billion [19, 20, 21]. The deal was announced by the Weston family, with Wittington to acquire Boots [22].\nSpaceX / Nvidia (Rumored): SpaceX to Buy Nvidia Chips. SpaceX is seeking $40 billion financing to buy Nvidia chips [23, 24, 25]. Apollo and banks are in talks to finance the deal [26, 27]. The deal is reportedly led by Apollo [28]. SpaceX is also looking to raise $40 billion to buy Nvidia chips [29].\nSchneider Electric / PTC (Announced): Schneider Electric to Acquire PTC. Schneider Electric is acquiring industrial software maker PTC [30, 31, 32]. The deal is valued at $22.6 billion [31, 34, 35]. The acquisition is expected to be completed in the future [36, 37].\nMagnolia Oil & Gas / WildFire (Announced): Magnolia Oil & Gas to Acquire WildFire. Magnolia Oil & Gas is in the lead to acquire WildFire [38]. The deal is valued over $4 Billion [38]. No further information is available [38].\nKuiken Brothers / Paramus Building Supply (Completed): Kuiken Brothers Acquires Paramus Building Supply. Kuiken Brothers has acquired Paramus Building Supply [39]. The deal is now completed [39].\n\nAlso worth knowing:\n- Mexico is betting on tech to enhance industrial platforms [40].\n- Starbucks shares plunged over 5% on chipotle acquisition rumors as Niccol's six-year tenure becomes key focus [41].\n- Eventbrite shareholders approved a $500M sale to Bending Spoons, regulatory approval pending [42].",
+  "brief": "Viatris is acquiring Pacira BioSciences for $1.65 billion as part of its push into the non-opioid pain market.\n\nViatris / Pacira BioSciences (Announced): Viatris to Acquire Pacira BioSciences. Viatris is acquiring Pacira BioSciences for $1.65 billion [2, 3, 4]. The deal is part of Viatris' push into the non-opioid pain market [2, 4, 6]. Pacira BioSciences is expected to become a leader in non-opioid pain therapies [6].\nAkzoNobel / Axalta (Pending approval): AkzoNobel and Axalta Deal. AkzoNobel and Axalta are a $25 billion deal [7, 8, 9]. The deal is pending EU antitrust approval [7, 8, 9]. No new information is available [7, 8, 9].\nWilliams / Momentum Midstream (Rumored): Williams to Buy Momentum Midstream. Williams is in talks to buy Momentum Midstream for $5.5 billion [10, 11]. Williams has agreed to buy Momentum Midstream [10, 11]. No further information is available [10, 11].\nCuraleaf / Aurora Cannabis (Announced): Curaleaf and Aurora Cannabis Deal. Curaleaf is acquiring Aurora Cannabis [12, 13, 14]. Curaleaf's takeover bid for Aurora Cannabis has been sweetened to $5 per share [16, 17, 18]. Curaleaf's offer for Aurora Cannabis has been improved [15, 18].\nMega Nova / SMC Electric (Announced): Mega Nova to Acquire SMC Electric. Mega Nova is acquiring SMC Electric [19]. Baker McKenzie is advising Mega Nova [19].\nSalt Creek Capital / MK Plastics (Announced): Salt Creek Capital Buys MK Plastics. Salt Creek Capital has acquired MK Plastics [20]. The deal was announced [20]. No further information is available [20].\nBarclays / McKesson (Announced): Barclays and McKesson Deal. Barclays is targeting McKesson's stock at $1,000.00 [21, 26]. McKesson and CD&R are close to a $5bn-plus deal to buy Option Care Health [24, 25]. McKesson and CD&R have agreed to acquire Option Care Health for $5.8 billion [26]. The deal was announced by McKesson [21, 22, 23].\nTradingView / Drilling Tools International (Terminated): TradingView Terminates Drilling Tools International Deal. TradingView has terminated its deal with Drilling Tools International [27, 28, 29]. The deal was terminated after the parties failed to reach an agreement [27, 28, 29]. The termination marks the end of the proposed acquisition [27, 28, 29].\n\nAlso worth knowing:\n- Alex Davis’ VC Firm Disruptive Targets $10 Billion for New Megafund [30].\n- OpenAI Leads Global AI Acquisition Spree: 195 Verified AI Mergers & Acquisitions Unveiled, Top Single Deal Hits $11 Billion Valuation [31].\n- Gorilla Technology Plans First US Data Center Deal, Targets Over 100MW AI Infrastructure [32].",
   "sources": [
     {
       "n": 1,
-      "title": "Paramount Completes Acquisition of Warner Bros. Discovery, Creating a New Global Entertainment Leader, Skydance",
-      "source": "Celluloid Junkie",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQzY4dzBCTk5adFBCdktwTExiZDdVSVZhOWd5bHQyNGxOREdoVkVTMmVHdWFBNGxPckxpNUszVXR2dU1SXzRWWEcydDZyTXk4d190MGRlR1EzSXV0RDVmVG4yRHM5aGo0N1RpdGtFVUxzeDVhVFRvRXBUQUVybGQyblE4b1RYZWlOcTV1TWROSnFxQlp0MUF5bXp6aXl2bmFvMDFDVm9CeURUNEpqOFR3d0Z2c0FXS0UyenJGRnVyWXdCSkJPR082M1RXa21kQ3VFd0VIYzU3TjJMdw?oc=5",
-      "snippet": "Celluloid Junkie",
-      "published": "2026-10-07T05:28:20+00:00"
+      "title": "Pacira BioSciences jumps 44% after Viatris agre...",
+      "source": "Pluang",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9udjdqclAwZ2l3ZWxTOGFaSVhaX0JnWEhsbWZOd1BvcS01R002U05scXRDREdvemVHNVR6RUQ1YVFaVGlzOTl4Ung0dGYzYVFzdGRQTl9leE9wX3lmekZRb2hMc0tnOW1URkgyeTUxSDFBc0hoOGc?oc=5",
+      "snippet": "Pluang",
+      "published": "2026-10-08T21:14:43+00:00"
     },
     {
       "n": 2,
-      "title": "After a legal battle, Paramount officially closed its deal to acquire Warner Bros. Discovery on Tuesday. The new company, now called Skydance, combines studios, streaming services and cable networks to rival industry titans like Netflix and YouTube. https://ny",
-      "source": "Facebook",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdktvVkxrMVdPT3Awb3phTnBYS0I2ZGVqUE96TlFDYlhVZFZfS1FxQTlzblYzbkpReWkyV2JaUzJ2aFFXSEliT3g3R3ZNQmVGV0JvNkxWV3FIRFhHUWw4MW5rWTBqT1NqZVlQVFp2cllHamx5QTBvNUVVdl8wQ1E4OGpmZmppTWlGb0dpQ1VKWWpMVkNBUUtnMU5WY3JQbUhaM0ZNY0g0TGoxRnZmRHl0SHFyNFVoRm5hdW4xdXNPazNDOEd6YTQySi1HUnlEc1pvYTdv?oc=5",
-      "snippet": "Facebook",
-      "published": "2026-10-07T02:05:02+00:00"
-    },
-    {
-      "n": 3,
-      "title": "Paramount Skydance Completes Warner Bros. Discovery Acquisition, Bringing CNN and CBS Under One Owner",
-      "source": "XenoSpectrum",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9RbU9qSWRMQ1c4dkc4M2R4V21heUJldEc2OE10M2FNOXRrLU9STXRYc1prQWRGazF1T3VOT0RiaXBHNm1WVWZLaGFybGI3TXBDdEJyMnBiR2x0VV9meUVrTXQzdVQxb1lnSkRsa0tfMzZNS3dhY2pZR0NB?oc=5",
-      "snippet": "XenoSpectrum",
-      "published": "2026-10-07T01:17:13+00:00"
-    },
-    {
-      "n": 4,
-      "title": "Paramount completes its takeover of Warner Bros to become one Hollywood giant known as Skydance",
-      "source": "AP News",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdFA1Sm43WnNqUXFFUzdqVm5yZVF3d205aGJ5ZWVRTHNXNTJfZmZBSTlROTMwZUZjUTJJZlEwS2hWX3p5WTBqUFUzWmtudzFBSGlHRHRZdkhIMVIxMnRwV3ZwTkQybDdZcGRGcFdDdm9YaDV5eXY5al9xNHBIZjZMc01MTVRnNjdKVHN4dUxwY1pJUUdWcTlhYkNyc3dUd3Z2bS1tTEpvNks?oc=5",
-      "snippet": "AP News",
-      "published": "2026-10-07T01:06:00+00:00"
-    },
-    {
-      "n": 5,
-      "title": "CNN, CBS News now under one roof as Paramount-Warner Bros merger closes",
-      "source": "Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdXAyckEzNm1vSmNrdFVIemlEX3BETzY3YTBOYkFRaE5MVlFRTVVBeFJWcWN6TTNlMUg5bHI1REowLTFsR2RzRWtDa1NXdzJpUE4xQ25Rc3lyNFhnLXcxNzhpVDgtT3MxOGxFUjBjNHJsb180TnBLSUtJckdkUjlob3VYRVRIMHRRNkROaE5peVJPdTU1RUx0ZXdub2ozNk5XZlZlV21TYVJVaFZmT1Y4bEQyUznSAboBQVVfeXFMUF8yd1l2MndKSDN1R3pPR3JlMU1YZlhtRmxxcmdQV2ZEVnczX2prWDFYSW5uS1pQQ0c5UFhPRHN4Q2RsMmFQOVJOUFUxRTRVbVd1VjJZNTIwb21tVnI0Y2hSYkJYUlc5VWJlWFRIaTBmWnpPWjNlSGtvb21LVE1aZFl1dmlueGVlc3pvRlZjS1Y2T2hUZVFlU1g5cnl1X3ZxV2l0QVYyOUFEQk5FZGlmNG56UVkzRllWOTl3?oc=5",
-      "snippet": "Al Jazeera",
-      "published": "2026-10-06T21:38:57+00:00"
-    },
-    {
-      "n": 6,
-      "title": "David Ellison’s $81B merger of Paramount and Warner Bros. Discovery officially completed",
-      "source": "New York Post",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVU5qVkZiM2cyc0NTbVZwMk0xaFhyb0djVUN3Q1NIci1fMENQcnduUEdzLWJacldNbGRLS1RwYU96LWtjMmVWbXIzYjBXZzZlbkVVWXZHcHMyTWJSOVJTZTlRbVBnZUoyVWN1ZUo3cjNzWFExbnJ0OHo1Z1Rxd1c0Q0Y3VjU1T3hhQ3Q5SHZuMGlnUkRHcFVYdW1pZU9JbFA2d3ZGZGxka25CSWdvYzVsOEd1T18tbHlFRmhoMnc4ajFiOTg?oc=5",
-      "snippet": "New York Post",
-      "published": "2026-10-06T14:05:19+00:00"
-    },
-    {
-      "n": 7,
-      "title": "Paramount closes $110 billion deal to acquire Warner Bros. Discovery, creating Skydance",
-      "source": "CBS News",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTklkUV9pUE92dER2eFBrVHhKWFRXNWZnWEIzQkhIX2FqZVc5dGY5NDc2YU1qaWRGeUx1d2RlR1JUZmJUN0ktYUNRcjEwMmJRUVdRd3ZtUjE0NXl3YXR6bERzd3ZKMzNoWklvc0VCLTZtZUdMRFpFTGlESDdDbFd2RA?oc=5",
-      "snippet": "CBS News",
-      "published": "2026-10-06T15:15:00+00:00"
-    },
-    {
-      "n": 8,
-      "title": "Paramount takes over Warner Bros in $110bn Hollywood merger",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iWkJqZmxiVTl4aFBGOVNHYkphbG5kSmpDRElxcS1MYlI2VFhKbUkxVlQzZWItczByMVBDV1p3cnkxbzdHMFVoQzlBaHRVMHhuNzRTV3RfcWlCTFE?oc=5",
-      "snippet": "BBC",
-      "published": "2026-10-06T20:18:58+00:00"
-    },
-    {
-      "n": 9,
-      "title": "Paramount-Warner Bros. Discovery merger closes after nearly yearlong battle, paving the way for Skydance",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPWXlUX2FQdFJScGtaMFFnTm5oa2k3LXdwRnduX0xYV1RsSmFockhFSEpSQURGaGlHVU94dXFFaXpGd3h4ZWJXdkYwTENONGhqYkVDTW1XUTBncXd3Ql82cnR4V3ZWaGRjQmVpUHIxaEF3MThacnpKcVpVM2J2SHV6T0g3OXBtSm1JTmFWNlhUT2syYWFZUlNqT2luMVpPOF9JRGJJVXkwejJrRWdZb25Tck5tUGRaQjhuaUZRUF80cTRkc3B4eHF1TmtHR0xTX2Q2RUlqQ05qSk1wdVJTbWxfTWo5aTZRRDBHci1hWGtyUWQyWVdiQUlxM2dB?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-06T20:52:49+00:00"
-    },
-    {
-      "n": 10,
-      "title": "Paramount completes US$110 billion Warner Bros merger, creating Hollywood giant Skydance",
-      "source": "The Business Times",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYnRhajNGWmtFSjhpRl9Ra0V4T2FuZ2wyX1FGcWFaTGVLQl94b3RuT3dzOTVfeVJiY1BKVWlYOHFzZXVHbklNYm45SDh2cTVvVm5STWlZR0tVRFVVY3Y1cWRBZFMzbXFCWnA5NFBtdVlweHRxRE9BaHdiSWVnekpQS1hBenFPb1FHMTNRakttTkVXV09EdXFEeWVIVTl4VnViM3BIMl83b1ZqN09Yd3RDTGN0LVpkdlBDRXFBRTNaT0dDV24tbmtDQg?oc=5",
-      "snippet": "The Business Times",
-      "published": "2026-10-06T14:03:00+00:00"
-    },
-    {
-      "n": 11,
-      "title": "Viatris to Acquire Pacira for $1.65 Billion, Bolstering Non-Opioid Pain Management Portfolio",
+      "title": "Viatris to Acquire Pacira for $1.65 Billion in Push into Non-Opioid Pain Market",
       "source": "BigGo Finance",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91OGYxNGptenVnajFNM19PUnZ1YzZMcDNYRi10MEs4d2t2bFlVQ3ZNWTY0c0k5SHpqREp3MjZ1WjAtcmJudEdmWlZpUzJLamRISDliRUFOSDctNExBMUJPU3BKNUxsLUNqOVhGOXVkbmtJc2JOenc?oc=5",
       "snippet": "BigGo Finance",
       "published": "2026-10-08T16:35:00+00:00"
     },
     {
-      "n": 12,
+      "n": 3,
       "title": "Viatris Agrees to Acquire Pacira BioSciences in $1.65 Billion Deal",
       "source": "Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM0J0ZnJlSXdyLXQ1XzM1NnZWY05hTUMzWUFXRm03cTBtM1RraTVidmwwN3liTl9nMnJKeTlLX09PMEVoOXRocnBMZkdCWGhtUm1SMUFLOG54UHRNSU4zdF9URy1NajdjVkVITDg0QzY4SVZ0SGxkbmlodE44X3o5ejBWazFDcW9yTHdBZTdpOHIySnZVZEpWLW14aEZrMElZX2I4Zg?oc=5",
@@ -424,7 +302,7 @@
       "published": "2026-10-08T16:02:49+00:00"
     },
     {
-      "n": 13,
+      "n": 4,
       "title": "Viatris Agrees to Acquire Pacira BioSciences for $1.65 Billion in Non-Opioid Pain Therapy Expansion",
       "source": "Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSThBUXFReXRsa2t0YmUtTEpfNkdUQ0Y0YzUyT3FfNHJWZVVjYUd1alNWdVVHcjhnTjlSVHJ0TFVxVDZTWGJMMU1hVUMyNTdQdjJkZmVKZ2RIU1VzOUY0T3dZX1hEUFpDTjQ3bGlzMTZlSF9hSjB5NVVFcnhsdXZUYW5TS19GNGltNlpkSHlrWG1yMFhPWGdoY3ZGRm5DVlJCbFMxTg?oc=5",
@@ -432,7 +310,15 @@
       "published": "2026-10-08T14:37:08+00:00"
     },
     {
-      "n": 14,
+      "n": 5,
+      "title": "Viatris Acquires Pacira BioSciences for $1.65 Billion",
+      "source": "Pharmaceutical Executive",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYWVYYWJsNUpmS000elYwTzFMMVhwQnBRQkVRZm1nanYwam1ndWlkR25CQjFwR1c1NUVXMUliT2dTeTRKZHRHZzRMdkVWcDR5YU1QZ1NuemNneGZtNjBwZzR1N1RVUkl5Y05zNnFma3JpZm90SkpOSDB4aS1HZ0ZvRXVpWC1mdw?oc=5",
+      "snippet": "Pharmaceutical Executive",
+      "published": "2026-10-08T14:25:27+00:00"
+    },
+    {
+      "n": 6,
       "title": "Viatris Agrees to Acquire Pacira BioSciences, Advancing Its Innovative Medicines Strategy and Becoming a Leader in Non-Opioid Pain Therapies",
       "source": "Viatris Newsroom",
       "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQRzZKY0RTZi1lZS1wN0Vwd3VKSFM5VC1Sd2tYcWppNW05SjRMQXBHQ0dTOGhTZUt0WFhSN1lKWG1UR29laW53ZkRqNDZYUzhfVTk1X1pIdGJldWo2SnpidFZuTktqUWZ1UUM4d2dnZ3ptSE9tZFpyMTNqQkxOcmVDcUV1NWYzZ2NyR18zcFU1anBJdFlDb0lPbGV4RE10ZXVkcHZUa2pPeTdOSGg2TExUdUhUOU41aXdWR2dwQ0hCVlpHeUJubmJXc3FrREdLOUMySWVyMzZSeU5DbFlvdTFZelRyQndVQVBNZE8tek1lcDFMTzczelRhSm53ZkxNczVoM2o2MUtIc1BQYlZG?oc=5",
@@ -440,239 +326,23 @@
       "published": "2026-10-08T11:46:42+00:00"
     },
     {
-      "n": 15,
-      "title": "Third Coast Agrees to Buy Great Plains for About $240M | TCBX Stock News",
-      "source": "Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRzNDaUhWMmNnelNNQmVZTGM4YXNwbXFCS0pCc3JCeVp5dFhLV2JxdlZkWk1odjhEYzVfcDhId3Ntel8tRkl3VElDTVduaTl3bF82ZURqdUEtMmZPTEh4TGQxMXVvUktrUHhHb3NSNXhNX1BUQ3p2VDV3YWswOXBOaUd5cVNBbGhRb0hsN1VSdmlNSWtyTXcyeUpWMURWVHQ2TEZ3UVNLenhKRFE0dncxT0NWM2pfNUI2Ul9nUG0zNA?oc=5",
-      "snippet": "Stock Titan",
-      "published": "2026-10-07T10:30:00+00:00"
-    },
-    {
-      "n": 16,
-      "title": "Third Coast Bancshares, Inc. and Great Plains Bancshares, Inc. Announce Definitive Merger Agreement",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWFJHbW9rc2U5LU5hNkFybUJ0eXNvS2NaY1hWaFN6bGItcS1VQzhmZi11SDFYdlZ6bEJGeWJmNGpaWW41TTU4ZTdYeEhzN0hOc3dOTWoyVTQxcWpLOWhGdURRckNuNThTRmxZeUVndXZNbTlTTE5VZG1wWk9TTzlFS193bUY3LUxpUklSRUZEOHB0SzJPQURUbFYzbFhEdm42Q2xJTzdRTXNpU3BONU9hTUxPNFhIbUxISjF3YXJmVHVLQTRTTkprVW1hTERKUmVncmZrNU1samYwc0hOdzhwQi1aVU5vWGtYZG5nWg?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-07T10:30:00+00:00"
-    },
-    {
-      "n": 17,
-      "title": "Third Coast Bancshares, Inc. (TCBX) Signs Definitive Merger With Great Plains Bancshares",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbmtmOWJ2dEFyWVlBNERoMkdhZjNiV2JULWRNV19IRFIxZmxFR2QyNlNmQWg2UlBpWU5GNnFPNnRPd1hnYWFfbDBoT2JybDdmOEpHV3hadlhHVUhzeGtaQ25GQnNFWUxOR1BXdVFfbEdKRk1iRDBfVm5vSnVkOUFhdW1xbWRUZnlGQTlNX1I4YWlWeTItUmp5QWpqWmdPa3ZEbEhVNGpqZHZ3QW9VcDNTZVhkMWpTNnJGN2ZsNHpPYzRRcTFZZ0ltQkZaS2t5RHhFWi1YVUFiNmtHT1BTNmtj?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-07T10:30:00+00:00"
-    },
-    {
-      "n": 18,
-      "title": "Press Release: Third Coast Bancshares, Inc. and Great Plains Bancshares, Inc. Announce Definitive Merger Agreement",
-      "source": "Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOREM5RmFBbHY0dnZ4SWJ3ZlVoQVZMak1rdW95UTF6R2ZrUWszNlBUSGgtY1B1MnI5MlIxR3otZlFkZER1TkFIelJpYWtpM2JiRFpNWFFmTkVyck5GT1NEQWQwUENMWF9FUzNMNWxhOTdQN3RjUnUtVHkyTzFKaVpYNF9WSlR2T0RaNWRqUklEX0xESVcwcENIRGM1aDZuS1hta3hpVTI1SDI3UDAwbDZOYy1B?oc=5",
-      "snippet": "Moomoo",
-      "published": "2026-10-07T10:30:00+00:00"
-    },
-    {
-      "n": 19,
-      "title": "Weston family agrees $8.9bn deal to acquire Boots",
-      "source": "Home of Direct Commerce",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUlpUUDZUVDNfa2RrN0pxN0VQeUlwNVZsR091YlVaMGlUMWNRMTJ6d1dNbnd1SEpFOVl4Wi1aLTdLSGFIcUZ6UG5Ua3M0Zm5fTkRKTmFRTmZWWXhFdTUwVEl5UG5WYlNheHRvV2pMQzh2WkN0OThPZHQ0bExuZnV6LWRfTTRXeU5WeXluZVo0TjE?oc=5",
-      "snippet": "Home of Direct Commerce",
-      "published": "2026-10-08T12:31:42+00:00"
-    },
-    {
-      "n": 20,
-      "title": "Canada’s Weston family buys Boots for $8.9bn",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa1ZmXzR3SkZiOURnSEJKZjcyY2ItZlVBMWFoeTVoUnRqRmg4VXNhYUFJRWZiWmFSUmNBSVB4LWJHRTlkS2N0N2N0S1BjY1Y0c200YzlSeTlJNWdoc055dTRMUkpIWDFmRGgwX0NkdnFPZHhMckU4Wlo4RF8yZHozSDlsZ0JuTWduc2c4?oc=5",
-      "snippet": "The Guardian",
-      "published": "2026-10-07T15:12:00+00:00"
-    },
-    {
-      "n": 21,
-      "title": "Billionaire Weston family to buy Boots in $8.9bn deal",
-      "source": "Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcVQtTjdsT2doYnpUS3pUNTZxM2lrelhtRUsxb2R4VmRRMU9JUGFSM2ZPMEVPOTMyWU55eElDSnFsbTFQUU56aXRVam9tblNNRzZFTUlVcUVQckNwWkVlRngwMFRLNkdUTXh0SnlzWFc3VUhzMHVual9udzVqUmZMTnptNTY?oc=5",
-      "snippet": "Financial Times",
-      "published": "2026-10-07T13:50:35+00:00"
-    },
-    {
-      "n": 22,
-      "title": "Weston family’s Wittington to acquire Boots in $8.9 billion deal",
-      "source": "Mass Market Retailers",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc3lxYzhjbUxldUxveUdzcVRnbGd5WU01SWEzSXBpejdVeVJBeFhPbkllZ1dBaEZ3YTZxTm1PVlppc1FMck9xcHpvR05NWmtpZ0xFWjVod1dEZ2FxdFFlemlKYzhCelo0OVNFQ0ZEcXhzUWJYeTZjNHZWTFlwRGk5V1FSS0VkSXV0SE9nYzYzck45akxseDRJTFJGOA?oc=5",
-      "snippet": "Mass Market Retailers",
-      "published": "2026-10-07T15:02:37+00:00"
-    },
-    {
-      "n": 23,
-      "title": "SpaceX seeks $40 billion financing to buy Nvidia chips, sources say",
+      "n": 7,
+      "title": "AkzoNobel, Axalta set to win EU antitrust nod for $25 billion deal, sources say",
       "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZjBzanVwMDltRU1WZFNTWGF3VUw0ZEdQZmlmQWRsbG5lb21pU3VxTlUtM0tZbzNWaFlXY1JhbHcxV0FXX3RpTUVUQlVGenhSYnZ1VlprMzlqdEZwa1lPbEczRnJWRWZfU19nTDdtMzM2WFlMWm0zeWliejlSRUtrdXJsRmM4VFYtbmJXLVprajJ1U2cxVUZPdGhMaUgzRUVJV2R0Q3BiTGJiOHg0ZUYw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOXhNTjhLSmI1NTZVMGszNVhsdXFqSVFET190Ym5DTUVHbW82d2VOMHpIRG1ubzdSX2xnWkxBTHA0VmRFN1dXVWZlV0dKbW5FejdxNlc0NWtSVUlHZ3hNazAtcFdWb0xoZHJ4YUc0SVhNWDJuazB0Z0ROdkJGQUlsU3FGbm54bm04aUUwVmJDSjBFVDcxWGJiUlNUb1dGV2xHRUxuY0FYMW5ycDNtSm5qWGQ1SUZpZDdYOHc?oc=5",
       "snippet": "Reuters",
-      "published": "2026-10-07T20:10:29+00:00"
+      "published": "2026-10-08T18:48:04+00:00"
     },
     {
-      "n": 24,
-      "title": "SpaceX looks to raise $40bn to buy Nvidia chips",
-      "source": "Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdThuRWl1b3NtaUE5aFhSeXVUY0xfYjhBZXJJaG1VWWR0QXBSQ2txLTBrbTlKNm9KQmtqcG95Y3BLNlRQZF96a004TS1xaGlyQUVUaEdqNXZOTzZwdC1IU001ZmM5a191dGNRYjNCWXkwcEk0cjVhams2WUc5aGMxek13b1U?oc=5",
-      "snippet": "Financial Times",
-      "published": "2026-10-06T22:28:55+00:00"
+      "n": 8,
+      "title": "CPI | AkzoNobel, Axalta Near EU Approval for $25 Billion Merger",
+      "source": "PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdDVuRzBHUjdDNzIzNWtKQnlPalAwaTI2NDFOVm1nT2pqM0RCVVRucUxlUFJPMXo4MS1yR285VkZob01YTlpkaGFwaldRd1Z1ZjA4MW1UaFpRU1RlTDV5S2JuZ0ttcUVWLWlucWdBNlNPMFhDLWJqbzMxRzNGUXJFNmptb1lBVEdROHdDbjk5Y2hWV2s?oc=5",
+      "snippet": "PYMNTS.com",
+      "published": "2026-10-08T18:46:29+00:00"
     },
     {
-      "n": 25,
-      "title": "Watch SpaceX Eyes $40 Billion Deal to Buy Nvidia Chips",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYklLTURPMENZNGM1T21IbUlhcjZiRlpGMDhwNUR6aUpCODRjLXpiQTRIeVlHNTVGOUNGc3RaNFNmaXNjRGJQSVY4TWthLVEyTnZTNXhCTzFfbUhWTUpTb0ZwRE9CbzFBaEtudHN1NmdxTHZkOF9CRUxBcDdOZ2VLVi1vVDFoeFB1NDByOXRZeVljanMyV3poOWY0d3FLT3NhYzh0Mg?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-10-07T00:00:00+00:00"
-    },
-    {
-      "n": 26,
-      "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRkhleVRwMXRWMWZmdlB3NHI4VEY3QzlOakUyTG9oMjE4WFo0Vm1NbHNKcHJIaGg0SkJUaUxJNkxSdW5kWFluak5xQXF5WTV3ZlBUN084MkRWcEY2eUduWTRGU1RWUVRzVVl5QkRSU3FkOFBVTW1RLXhOWlkzampncy1uY9IBgwFBVV95cUxPRkhleVRwMXRWMWZmdlB3NHI4VEY3QzlOakUyTG9oMjE4WFo0Vm1NbHNKcHJIaGg0SkJUaUxJNkxSdW5kWFluak5xQXF5WTV3ZlBUN084MkRWcEY2eUduWTRGU1RWUVRzVVl5QkRSU3FkOFBVTW1RLXhOWlkzampncy1uYw?oc=5",
-      "snippet": "CNBC",
-      "published": "2026-10-07T16:32:30+00:00"
-    },
-    {
-      "n": 27,
-      "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zOVNOd0RRX1RUS0U5UzdXbkFtUklITjdsTmNQbHFzLTVOWWZ2OVJvWDh1X2tpR2VrM2dNajlNbXJ6MThlckFyaGsyS2VRNHlzcjJGcnRNa3Z3UlpaWHRnQTJ1TmhNcEJxRXVxejM2MlRTVFZ6aGhHeTdxcHNLUdIBgwFBVV95cUxPRkhleVRwMXRWMWZmdlB3NHI4VEY3QzlOakUyTG9oMjE4WFo0Vm1NbHNKcHJIaGg0SkJUaUxJNkxSdW5kWFluak5xQXF5WTV3ZlBUN084MkRWcEY2eUduWTRGU1RWUVRzVVl5QkRSU3FkOFBVTW1RLXhOWlkzampncy1uYw?oc=5",
-      "snippet": "CNBC",
-      "published": "2026-10-07T16:32:30+00:00"
-    },
-    {
-      "n": 28,
-      "title": "SpaceX seeks $40 billion financing led by Apollo to buy Nvidia chips, FT reports By Reuters",
-      "source": "Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUmNWNjlWajgtTmtlM09wbWhiOTNXd3BHOTBnWUl6cEpOT2hsUlFLcWdSaDd1bVBUMEJUUF93b3pXdmp5QkhDRl9Vc2daWl8zLXNTU3BkMWlNTWdUTDN1S0xEem1VRnFhdGNLMjZWeG9HNzRLdFZabUw4ZGo0WXIxMkhDNWFEcHhMSVZxaC12akpOb293SEpxajhVVVkxemo4d2UwcW1WNXg0eHBDMmNUVQ?oc=5",
-      "snippet": "Investing.com",
-      "published": "2026-10-07T07:21:05+00:00"
-    },
-    {
-      "n": 29,
-      "title": "SpaceX seeks $40 billion to buy Nvidia chips, FT reports",
-      "source": "Devdiscourse",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaExvOV9FODU2N0tqYWU3aXhycXA4aHpNOXNLSjRsQ0IybGJIcnRUWXB0V200MmRXbUE0bEZHM3hZMktqdTA3dktyZUtENW9GWUNCSlNCbXltZGtNRFFVOVU1VFk5SFNlc3hfNE44VFFGa1lCMTJKTURGdzNwX2trNnJ2eFp2MWhNSm1MM0ZMWWNPeVQ1ajBYeElqRHJyNFdpM2U2Z25jSGZJN2M2cmJIa3NaWdIBuAFBVV95cUxPWEtjSUFEcTVmWko4UkFLa1RUVV9IRlNvWC1SOEdKTVA2a2hNbTRwM3VBZDVPVHFvSmhWMmZ0ODFka1l2RnRSMGRfbzhLN1JfS3lXczlSN29NOFJmTmlJTXRaT0RYT0lYNnpFYlJ1YzVBUTc3ZEhhZzY0QUJnbzU0Rm5LeVBickhnV1lRaUY4N2thcDBrb3cxcGtxdnhXUnZDTE9fd1RsdHpSMmdIa0VCRnRRakFCTzNX?oc=5",
-      "snippet": "Devdiscourse",
-      "published": "2026-10-06T22:48:44+00:00"
-    },
-    {
-      "n": 30,
-      "title": "It’s Just Business: Schneider Electric to acquire industrial software maker PTC",
-      "source": "Plant Services",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNLUZfcnJpNGkyb0RkQTNualVPNGVDRWtCR0JNYktib1pUSE90aEtOZ0dydlBnNGktcVNiYi1QLWUtVE81OW5xU0pTTWZ0amRCVlpIV24xOFpRUEdVUTVkdEtBaGJXY09BcjZBNUtsX0FlTzExMVd4TmZtMlIwZkduVHEzRG5PZHpiQTE4VDAyN2lYdmRJOGMwRmhFVlpxRnZsbENYdnBwZzVMUTJpVEdBbGhzc19lRmVEZll5NjBvRjFxdmtPd3dqX1M4RVZuNFc0ZFg1WXR6aDJTU3NXWGJoSVdxZG1QMUdST2c?oc=5",
-      "snippet": "Plant Services",
-      "published": "2026-10-07T17:48:11+00:00"
-    },
-    {
-      "n": 31,
-      "title": "Schneider Electric’s $22.6 Billion PTC Deal Signals a New Era of Industrial AI and Software - Expert View by Spherical Insights",
-      "source": "Spherical Insights",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNk51aFhaZDJDcDZYTkIxYlpTbXFSQzZKVHFYZ0hSUy1zVUZod1B6MHJKMXdhZms2ZlVaVjJYVldYUVlPeHh6VEV2NEV0UVlNX1R4Q3JyV2xiQUN1dHd5NTFuOWlldG9RbER3WmtkWHVQTE96QVNSY0xPU3ozZmNvcXg2aGFqSzVYbndhLTVtUjVteTFXMmlJWTlSRnVGejl4YWxuNUlPUXUtWXJ3dXBKaWFNMVVzWDIyOUhvdTdzRXJ1b3JGYmxQcDJB?oc=5",
-      "snippet": "Spherical Insights",
-      "published": "2026-10-07T06:11:24+00:00"
-    },
-    {
-      "n": 32,
-      "title": "PTC to Be Acquired by Schneider Electric for $205 Per Share in All-Cash Merger",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSDYtUmVzSXdoZW9NNTdGd01mNVhzSVJ1azAzcl82aG5jRUo4RXV4Wi04Ti1kc1k1WkpNSk1WNFo2Ry1mYzdIaGtXdG9FU1pFZ09vMlJaNE0wQnNrYWU3YzV3MHUyS0FMNkVwRExqVnFvaVpDYk5RMmV5aVMtRjBqbzM0dE9jbG5sN19DQWxNSkNtVlQ2QzJqN0FXYS0zSUgzTGtqc2xydm54Z2tuWTNFRWg4OEphblU2bV9vTm0zMnhVenk2TndmM3k5bmp3QVdJbEY3UXdB?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-05T11:33:00+00:00"
-    },
-    {
-      "n": 33,
-      "title": "Schneider Electric to acquire PTC in $22.6 billion deal",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUkNKMzBPT2hkVHZ0ZHJKSjktampobGRPam5JYm9oY3ZJbTg0TVhURDFJWG1LTjN0dlZJRVVvSUtYYV8wV0hmLUxqN2hmSFR0N1lVNEt5QmcxREJXQWhlR3JnbXFnZUZLNThkblQxZVU3YXRBLU5xZWc5dWtZMllSRWxYTUNWSUxjaTFjRjRqU1JWZjR6VTItS2RTeFBIb2M?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-05T11:52:00+00:00"
-    },
-    {
-      "n": 34,
-      "title": "Schneider Electric to Acquire PTC for $22.6 Billion in Cash Deal",
-      "source": "Global Banking & Finance Review",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVnlpb3h5d0lPN3owaV90QVB1NWM1Q2lxd3AtcHFiM2tVSnUyYlVLSDBGQlNjN215VUVDaUlJcnZuajdpQUs3b3IwVkRfaUxIOEp4QUQzVVp4Zmc4UTByLUxhOFJJY3FoQWpfNEFVN3FyclBfdHVlMmZtaVlJTVlHdTlIaDNtaHpjRGc0Z0g2VUFodU4wZk9GSnV3?oc=5",
-      "snippet": "Global Banking & Finance Review",
-      "published": "2026-10-05T15:14:57+00:00"
-    },
-    {
-      "n": 35,
-      "title": "Schneider Electric acquires PTC for $22.6 billion",
-      "source": "news.lavx.hu",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQV2dlWjFPU3gzYUNGVTQwUjdtaFZFeEFKRFhKc0RacXJYXzJhXzBEbTJGOWZNbl9YdDRQUXI3ZDJFTlYyUGMyRk1vLUNZalc1WTc0d1pfUTRqT2VHRnNTQU5falRxd1A3MEpWV1NmOHBLVWlzRDZMT3lta2R2X19BMFJhZw?oc=5",
-      "snippet": "news.lavx.hu",
-      "published": "2026-10-06T00:36:00+00:00"
-    },
-    {
-      "n": 36,
-      "title": "Schneider Electric Agrees to Acquire PTC in $22.6 Billion Deal",
-      "source": "mezha.net",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE52eEFYSHV4ODFYR09ScExYOEFLQ0R4MU0yVWNTTThYNnZBNVF1aU04X3JaM2p4MjlWMWQ5SlRVQ2ctekpNWnptV2VVV0JEUlhMQVg0aHpDVE5FT0w4elRZYWVrNnQ0ZHV0Zi1pajJvUQ?oc=5",
-      "snippet": "mezha.net",
-      "published": "2026-10-05T15:49:22+00:00"
-    },
-    {
-      "n": 37,
-      "title": "Schneider Electric agrees to acquire PTC for $22.6 billion — Channel NewsAsia",
-      "source": "UA.NEWS",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMS02ZkJYckVUYTFjYkttMHhFTURzMzNDVlVpbGZfNkNLSkdDdmx1UHpJREEtcUdfY2pDRTFFUDQ2RmhlQnpfck1RTWd1TFVlMzdVcXVlaFNDQllIeURNcTVMcVU1UmhEUzVQUEVUTWVLbDRiRGdROGNYLXU5blNVT3E2YUZxX2N6dVBtR29nNEk4RjJZbHd1dUgzSW5rcTA?oc=5",
-      "snippet": "UA.NEWS",
-      "published": "2026-10-05T06:03:24+00:00"
-    },
-    {
-      "n": 38,
-      "title": "Magnolia Oil & Gas Is in Lead to Acquire WildFire for Over $4 Billion",
-      "source": "EnergyNow.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWmtLY0dNdjktSzUzMTNMeUZkb0Fqa2poNE14bmpUeS0xM00yODIzT2lHLXJnNmFreHoza0dybS1femRMV1FET1ZFbFBwcG1sSXNMeVR0QzZCclUxazBRVjF5X21kalpPUThLZU1kNFpJU3ZvN25QNWd3cjh6RzQ2ZlJvTDdrdmRWVzNwcFRiSFFjVVlHRXFicl9YSmtVQQ?oc=5",
-      "snippet": "EnergyNow.com",
-      "published": "2026-10-08T16:02:08+00:00"
-    },
-    {
-      "n": 39,
-      "title": "Kuiken Brothers Completes Acquisition of Paramus Building Supply",
-      "source": "LBM Journal",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQcTdDcF9YRm1adFlqaDN1NWxqVXJoNHpDcUVHNEszVWRaZEdQazBuRWFhb0U1Znc2ajJVQ2FyWllOdkVWazQzTGdtcU4wVmliZHo1OTV1M0twSWhYd2cwTGpfYUhLdXJ1ZmlkOXlUQWt4ZEFlYTZzN2h6T0NvRFFrNDd2eWFFSzVfN052LVZTRGtZcWpxY01zcjdLTzl5bDgwT0czQUo0Ty1oemRuclJxZWRGTHl4ei1nS0pCU1FQNThsZUJNd3RtcDBtSmlCblJQSlpLbjVYN0JrTk9MMkVfR204MGdmZjc0STNJVUJUWDZJM2tpWmNJaVRwUlBhMFhjbXk4?oc=5",
-      "snippet": "LBM Journal",
-      "published": "2026-10-08T15:59:43+00:00"
-    },
-    {
-      "n": 40,
-      "title": "Mexico Bets on Tech to Enhanced Industrial Platforms",
-      "source": "Mexico Business News",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZGZ1TjIzaEliek55WXhnc3BkRHdRejE1N1g5TkxhOUt1eEM0Znd4cVVJdkw0SGlQTXN6LXhuOGxVNDBDdDYtRkJ5Rzg5Z3U3TWpkZFNKTWFseGVjVlVQcERLMUo3VFU0bGV1c0cyUDZJUTY0dUFpSkJQR1ZvbTZOMU5Bcy10YmxQakJBTA?oc=5",
-      "snippet": "Mexico Business News",
-      "published": "2026-10-08T15:24:55+00:00"
-    },
-    {
-      "n": 41,
-      "title": "Starbucks Shares Plunge Over 5% on Chipotle Acquisition Rumors as Niccol’s Six-Year Tenure Becomes Key Focus",
-      "source": "TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRTdDLWVPU3dGczlSNE9BX1FoMDlveWJDUkJ2d081a2dTa0VtTG9fenQ3R0NmRlhUSkdxcERjcDlwQVJmckVtdm14VGN1bjNFbVRPaWI4RWN4SFVFVTh2ZHljeVdqdlJJTzVsMGVZVVJhNFBrS2RvcTJVUVptejhZSGNHbXoxSjl4blFQVTV3WS12MEljMTQtVmZhT0pmN2lZR3VGTkxqX3FpVWJxa3BPalJIcmdCTU1FdE1qa0xRLXBxT3ExUGppWTVYT1pKVnhSYnNKSlVuaDhkRUhFOTIzaU1ibw?oc=5",
-      "snippet": "TradingKey",
-      "published": "2026-10-08T15:23:40+00:00"
-    },
-    {
-      "n": 42,
-      "title": "Eventbrite Shareholders Approve $500M Sale to Bending Spoons, Regulatory Approval Pending",
-      "source": "TicketNews",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMjF6NTNfcFREcmtvMzNIVldQdzY0a0l6VV9Gbm1Qa0d6SC1MN05RSXVOUHJwOEFNR3lXd1ZyeFlkM1AxU203OG96QjVMTXFDbkMyX3ByUEtZWjgtbXhjbVFUZEdENXctY19HbF91dWlKM3M4ZkR6aXBZTXlVeWFBRjg2Zy1Qb1hIRTdrV2xJc09ESVFTZFNTRjNHemw3dVIxd2ZVNFlNY1ZhNFFKSk1jQmRtNXdpM1lUYlV3ekdBcGk?oc=5",
-      "snippet": "TicketNews",
-      "published": "2026-10-08T14:45:25+00:00"
-    },
-    {
-      "n": 43,
-      "title": "IIRM Holdings gets BSE nod for 15.59 lakh preferential shares",
-      "source": "scanx.trade",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRVdtSkdSRmhvT3plb0xTeVRVVGNRRmo3NU9KMTlSTDcwSXBOelVvMlJReDhIOHFRaTU0Q0l3UWFUWjEzNXNONFIyRzNRVmtSckszcnJRTWRmUTdPMVAyUU01aTQzVVM5eE9hSGNpdWR5T0Vsb2tRUjFmTHo1NkZPQzRTNC1Ic2pYbGRhRmo3dUx5em1MYXpyWEVRbE5wbWluRHBaZTJkclhOSzVYZ3FfRmRCMnQ?oc=5",
-      "snippet": "scanx.trade",
-      "published": "2026-10-08T14:04:31+00:00"
-    },
-    {
-      "n": 44,
+      "n": 9,
       "title": "Conditional EU antitrust approval expected for AkzoNobel, Axalta deal, sources say",
       "source": "Global Banking & Finance Review",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUXBzMUpKTE11bW43ZnJnMV9PdUVpZmFPVmJiUlR3RnJtbjM0a09aZU9BUEpCOG84X01Dajh2czBTdFdPOUo1SVdLSU9LMHg1cWNqMHlIQnp5TFRjRmNyNzR2M1FwVS01UlBNVmFaci1nenl2SnFicGNFSHpTR0pKdDlaNEl6N2hSdzZfamNENU9fVDVlUG5nckJ5T21GOTVId3c?oc=5",
@@ -680,37 +350,239 @@
       "published": "2026-10-08T14:03:51+00:00"
     },
     {
-      "n": 45,
-      "title": "Novonesis completes acquisition of MicroBioGen",
-      "source": "Milling Middle East & Africa",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45UGpwc0ZDUU5aY0c0cEVBSkFsenJFX1Fhb2lvY21EUWYyUUFOc01LaG1mVWYwWlJWMHY1VW1Wa3A1cjQtaHpPd1lwa0M3aDVWcVp4d2dRWm1TMXJCOTdkMTdQdDE2VlNZcHpkMzlPQjNHRnMxTjMxRzJR?oc=5",
-      "snippet": "Milling Middle East & Africa",
-      "published": "2026-10-08T13:07:12+00:00"
-    },
-    {
-      "n": 46,
-      "title": "Diversified Said to Near Deal for Elliott-Backed Birch",
-      "source": "EnergyNow.com",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTklMRVFjcWVfeGd0RmhkWDc0Q2hhanF2ZzQ3Z3ozbmV5Y2h5Q1pLMlVDM3lUV2N5RTlaY1FtQTh4SmF5eEhuNVhrZzh5bEZqOEtUbGRVcjBNVGIwM2hoUTQ4QjJiLU41d2RFY2F1REV2OFVqajFhbHcwc1BBZ1NGdkJLNUJGV25MMTM2emxn?oc=5",
-      "snippet": "EnergyNow.com",
-      "published": "2026-10-08T12:44:43+00:00"
-    },
-    {
-      "n": 47,
+      "n": 10,
       "title": "IN TALKS: Williams in Talks on $5.5 Billion Deal for Momentum Midstream – Report",
       "source": "EnergyNow.com",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSHpBam9nR19ndUxwZi1NSFo3LU5FSWNMc2MxenRSR05WY0hhWEVVcENMU2lzemUydDhtM0pXVS1vVVQyWV9hUldzWVgtR2dlQ2M3MEJCaVRJUDVsRmJrX2daVENPUVdpVnpJWE02WDRQRVRJR0t2MEwwN202dTFhMElxOXB1YXlxZkxSZnlRZnU1alRLdS1OOFhFN3FKS2Y5cWpWRjdJbU56TGc?oc=5",
       "snippet": "EnergyNow.com",
-      "published": "2026-10-08T12:41:01+00:00"
+      "published": "2026-10-09T10:09:52+00:00"
+    },
+    {
+      "n": 11,
+      "title": "M&A: Williams Agrees to Buy Momentum Midstream for $5.5 Billion",
+      "source": "EnergyNow.com",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaHh5Rkhxdmw3U0lqSFJyQll3NTRmR1gzR2J6M2pxeHhCckRCOWlsdWdHRHdCRDlUZHk2bURFb3RiVXhWOVF0el93andESkVKUkVfZ2V4SUE2QXg0bVdOakxsWWJPRVY3Vkc3dnlzT0FHWGdBaVVrVmJ4VEdFWWFTNXpZb0xVQVhicVl6ZnY4LXRHZw?oc=5",
+      "snippet": "EnergyNow.com",
+      "published": "2026-10-08T21:33:24+00:00"
+    },
+    {
+      "n": 12,
+      "title": "Curaleaf 'Outraged' by Reported Competing Offer for Aurora Cannabis",
+      "source": "Cannabis Equipment News",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbk0xM0tVZHVOMlBmd19xb2syWmJZMlVFQmUwTFpHcHRzaTVOMldSbFVNeHVzanNnMzZpYVlRcno4RFVHdUJwZ282SWZFSEFKb0xmWjZGTVlQSVJYc1d6QktKWTRfSmMza0lxbWhVcVcxdi1FYURuWm1Rd0VOYUltWjdxMWxmOVpJR2pqcnJvYWFxWlpkcVptdWdyaEgzTkFsUnVOaV94U1FUODF6VkpHUzgzcGN4VkpWWUpOb29vNA?oc=5",
+      "snippet": "Cannabis Equipment News",
+      "published": "2026-10-09T17:21:57+00:00"
+    },
+    {
+      "n": 13,
+      "title": "Curaleaf Sweetens the Deal to Acquire Aurora Cannabis by 25%",
+      "source": "Cannabis Equipment News",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU0k4NE5sU0ZlVkZLX2pLSjUtRElmZVVhcWg5U0xodkpmZkRMZ0dlbGE5bkdUZEw5VXhJTHRGckdPMW1PaXhaZjhOS1pJZWVXZmVBY0NYQmNIQ05WX3d1STU1elVzNi1uRXdINHhxSTVLTzhONUpVMHpEOFNxOC1hQnNOVGNXV2xhZ3NtdmY5VjBwSlBybjZNLVJFUF9IN2VGV05yS2JSa3Y5QzZmb2N3angxN3QxMEU?oc=5",
+      "snippet": "Cannabis Equipment News",
+      "published": "2026-10-05T19:45:24+00:00"
+    },
+    {
+      "n": 14,
+      "title": "Curaleaf Enhances Offer to Acquire Aurora Cannabis in Takeover Bid",
+      "source": "Cannabis Business Times",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOElmb2E0Smx1dG5JNDI3UWVEbThSRlJlY0NmVllnUTFOaTlNQktUamlZOVNhRFBoYmplc0pWTURsRTNTajhnSWVkNEcweGhzLTN6UFZ3RkJJdno0NU5pN2wxWVdHUWdFYnpGS0NMWXVXS0lnX2U5SnhOSnJTYy1DSU1lU0ZUMDNTS1c0VDdNclVFS0JVTFhSdnNuMmlnTFpaU2RSVEVmSlBLdW1wOXBZTVZKUVRveW5ZTkt3RFhqMWxxTk5Db0J6WkpKcm1CT3hjc0hTekxmRmo5QUJJUzRCY2lkcXplQmtjWHFuY2dLMy1iUHhvQTdrY0EwOFlFTFE?oc=5",
+      "snippet": "Cannabis Business Times",
+      "published": "2026-10-05T23:33:23+00:00"
+    },
+    {
+      "n": 15,
+      "title": "Curaleaf Improves Takeover Offer For Aurora Cannabis",
+      "source": "Baystreet.ca",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3ak5DZEtfS250YlhwQmVsODBaUGxXczBFMk9fR0hOUFJYRmhLTGRpVjVMTm5LeWVMMXVKbTZnbEl0OTZmbWpQTGZNTkJRUjRXVUxITVpHbTJZRUhoMUZQdFF6b3lpem5EQUxsZFZxMWtLYTNCWGNfd0UyZ3FXQdIBfkFVX3lxTFA3ak5DZEtfS250YlhwQmVsODBaUGxXczBFMk9fR0hOUFJYRmhLTGRpVjVMTm5LeWVMMXVKbTZnbEl0OTZmbWpQTGZNTkJRUjRXVUxITVpHbTJZRUhoMUZQdFF6b3lpem5EQUxsZFZxMWtLYTNCWGNfd0UyZ3FXQQ?oc=5",
+      "snippet": "Baystreet.ca",
+      "published": "2026-10-06T14:06:43+00:00"
+    },
+    {
+      "n": 16,
+      "title": "Curaleaf Sweetens Aurora Cannabis Takeover Bid to $5 a Share",
+      "source": "nai500.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGVfRlZxTkFBWlhuTUlRZnhQS2FrYXpKSGZkalZEZnhZbFNTWkRHR2hHdlVHcHFHRlJMRE10ODJqWWRTeUVXM3dQQ1Y2LS0zWkZybXFkd2xpbXY3b1FwTndtM2FySmxucVJWcHhYTzVHQmpmdUczelpVVlJPNnk3dVlxX2g3Y2I5VmNqT0w3eGJHM3BGVzJB?oc=5",
+      "snippet": "nai500.com",
+      "published": "2026-10-06T00:48:09+00:00"
+    },
+    {
+      "n": 17,
+      "title": "Curaleaf raises Aurora Cannabis takeover bid to $5 per share",
+      "source": "Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQTRVbDRXVHZUcEY1TFJrUkZELTJEQVl1TkNBdkhjV0I2MDFoR0pPaUdaSXZBQUdNRDRVeWZUbUdXY2tKUlhfRzdkQnRrT0p0aGMzTUdXaUhmRnhwVUNZYmF2ZlpEejVnbEdQMUg3b3dCVzJWOWpFZ2tSOWtsUFZWdEVDeVdLZ08yU1ZxR0NwZFNKcHZsM1dybTh3WVZ0RnpudTdWZ1BmQi1ZdGhkMHRpZ0tKeHRSQUU?oc=5",
+      "snippet": "Investing.com",
+      "published": "2026-10-05T13:55:30+00:00"
+    },
+    {
+      "n": 18,
+      "title": "Curaleaf Revises Takeover Bid for Aurora Cannabis (ACB) with $5.",
+      "source": "GuruFocus",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUVVXR0l1QVEzNWZYSm5jeWFZazJrYWhfOV9ITElBRDljOWRoMjZIM2ZXekVXQUhoQ0VjMk8wQmRHVW5kbE8xNUs5ei1UQ1U1czh6eGNxV2Njbkp5LXcybE8xLS13WGd2STdaSE5BUHFMMGNBZ0t1NTNUaE9iUzQ2QWNTWFZHR0owOFdVaXNNazVxUGdXWmt1bUNfVDd6YUl6UnNtdTZ4cTZ1a2lIUW1wRmFnb3BFaDFN?oc=5",
+      "snippet": "GuruFocus",
+      "published": "2026-10-06T21:06:02+00:00"
+    },
+    {
+      "n": 19,
+      "title": "Baker McKenzie Advises Mega Nova on SMC Electric Acquisition and Mandatory Offer",
+      "source": "Legal Desire",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYU90X0VXdzBLYUFzVHBCUUFCR1ZZSFRnTUpFdkxObFROWXZMSGJ6UEJCVGFmS2o3VV9UYm9WMXpaNGpvdUs1VDZlTERkM2JEOWVrYzl4ZEdGak5CcVhyQzNfTzE0NEs2WklGb1pmNS1wRFJfRGJzaFZ4bjkzT2o4Nmg3bzRvV3hDR0pzR2ttbThJZWtfUGJCM2VtNlE0ZkdaN3BxZXQ4TUM?oc=5",
+      "snippet": "Legal Desire",
+      "published": "2026-10-09T17:06:18+00:00"
+    },
+    {
+      "n": 20,
+      "title": "Salt Creek Capital acquires MK Plastics",
+      "source": "Plastics News",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNa01Ha1doYzg3ZDhoR1Y1R0dpcXVVTGFVeUdhMTVyYV9WY3pRd2tUMV9CWXBlUU1UQm9iRldxalR0eHNlYmFSQ3A1RWVyMDNvOEhrdDYwTzVnTXZRSFBydEFkbXA0bGg5cEJCQ04yT3lOZGxieWxNR0EzOG5DWmxXZTQ2QjFZTDhrU1l2ZUpid3hZa0N5eHAtVDFJelc?oc=5",
+      "snippet": "Plastics News",
+      "published": "2026-10-09T15:00:00+00:00"
+    },
+    {
+      "n": 21,
+      "title": "McKesson signed USD 5.8 billion deal: Barclays targets McKesson stock at USD 1,000.00",
+      "source": "AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPaDhreU5ERVVFVmNoUzZDVThMQjBmMVBESnlrZ0YxTW5RN3dEbXJKNWZ4aHpYdWg5ckNvZGlYaGlhSnY3V1o5Q29lb3FmRWRkY1NpZDdXTi01UTc3cXFvWUJwejc3LTI5V09SdjVhQ25JWHd5blFPVmN0NnVNRUlsWHNoYkQwVVBISHRyaEgyaTI2QWw1UVZERlZjU3hLNUVZcmE4OUk0Q094SzV3ZU1fM2l4Skk3TGxHSmVjbnMzWV9yWkNINHNhOTYtdXkwQldrV3hBaC1YbG1iUjZYM19Leg?oc=5",
+      "snippet": "AD HOC NEWS",
+      "published": "2026-10-09T14:18:59+00:00"
+    },
+    {
+      "n": 22,
+      "title": "McKesson part of $5.8 billion buyout; Energy Transfer to buy Vaquero for $2.6 billion",
+      "source": "The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUFZ4Q2l6ZnAzaGlvb0xmc1hwMDVDd2hWWW1XdDBDd0ZZQ3VTR1Yzcl9JZFNUT1RnYktHUFBCZXNaQUJtenZZWmQ3Nm14aVN6dzhwUWxzUE5lcmZrX3pyc0NyTmUtdm9SRDZVRkVPZkx3MjBGWG9CVXRGSWZNc1ZiSkdpNFFtUnh1YjJhQUNPUDc5NjBNMDlTZ091VzhxbGtMd05uSHBTWQ?oc=5",
+      "snippet": "The Business Journals",
+      "published": "2026-10-06T19:10:00+00:00"
+    },
+    {
+      "n": 23,
+      "title": "McKesson and CD&R close in on $5bn-plus acquisition of Option Care Health",
+      "source": "Private Equity Wire",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZVV2UkVXOUQyVktpSEllRXY0c0drR0NGbDZUcW5LNDVONmxJNnVuMDV4X1hucTlvYUxvOE1Md3dxZldXRDdEckQ1ZGtnUGp4UnE0bnJHdWZ5eEhxQlQtNElvQmR1Nk1VN3NCVHpxaDJFYm51VWRVdHV4RTBnSG9tbW0tUGIwWU5tYnFJSnNxNHIxdDZucEktOHNBY2U3cl9iekhBRi1pOWduZ3ot?oc=5",
+      "snippet": "Private Equity Wire",
+      "published": "2026-10-06T08:21:33+00:00"
+    },
+    {
+      "n": 24,
+      "title": "McKesson and CD&R near $5bn-plus deal to buy infusion services provider",
+      "source": "Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYVU4a0NOelNfRmlBeVNlbFBVUWloMG5MZXBRN01sU1BtNVh0UWZGbGZiaVpyWmNUNThCMHlsYm9aUWNTQTZhRHhmNzRXVUNPOFVmVm42ZnlLejBDVXVtVDdGY0IxTGNGdUU2MnZOUk1kU0lhS2hNS3NoQWkxaC1oYzJWV0g?oc=5",
+      "snippet": "Financial Times",
+      "published": "2026-10-05T20:01:03+00:00"
+    },
+    {
+      "n": 25,
+      "title": "Option Care Health Agrees to $5.8 Billion Acquisition by CD&R and McKesson at $32.05 Per Share",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWmxZd2pWaEFkaVJNS3dnaXJ5R3RjNHQ1ajFreWJ5UmVQTnluMFJ5OFp3MjJDeW5RUG01TkJ0QXVoRExWYjhGTEpudXhvVFZkdDNac0dlNkZITzk5b195UnFxVjdNenc0SEJaUk5lblh0OElTd01kcXVic1FzUWtramsyaUh6ZTdqeEI4cXhHM3czQQ?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-06T14:48:31+00:00"
+    },
+    {
+      "n": 26,
+      "title": "McKesson and CD&R agree to acquire Option Care Health for $5.8 billion",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOVJNTy1lcVo0Snl1dmROU1pZSGxfcHg4aURaYkJIUnZhWlU1VFN3UGNXTEh3eEt4M0RRUlRlS3RZTDNOS1k4a1FUMGdvcEdnZ2h2UGx6aUNYanpiNmoyMW5mdlpmWGVPTmMtVElKN0FINEFjTFFQSHFzalh1aDJZemRfQW9nTHpCSUVyZV84MV8wdw?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-06T12:37:00+00:00"
+    },
+    {
+      "n": 27,
+      "title": "Drilling Tools International Expands Global Reach With Saltire Deal",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUFhlN1RERWFPWnM3ZnBMZmM5LVV4M0s2VVJWVVdOcDZLMmRDcUVSa2liWWlvZzRtdkZ2VGM1cFZhWGwtanU0SHU1Um53RXVGamkwQVBIbTB6UjYwWlgxZ0VIY1p6SzlWT3RlV2pKNTFWRnZ2c0JReThwUlVER3JkY04zZHg3dUcxQ0psbWlmQk1rMnQ4RjlPd1ZTOEwzaTFZeU5UMDNfdE10X1N2MFVWTkRrRi1JSnI4VTRTTjE5S0o?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-09T13:00:00+00:00"
+    },
+    {
+      "n": 28,
+      "title": "SIM Acquisition to Merge With American Industrial Technologies in All-Stock Deal Issuing 50M Shares",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaDFuZFBGVjNncTR5VFZxZFNyRzZaeDhDdHpqNVhxaGVRRjYyTTMzekRZOWszOVZOZUJ1dTlvVTVjTzBJYzRKS3hUVzU0SFFKS3JHZzF3S3dYLXJXdC1meUFEVjcxUVlzeXhJVU1WWVZuVzdycjJuYm01UTE0U2h2OTFJYlhTMHRlSkkzTU1mWXg3MW4xQmh0c2NabzFkTS1IRTF1cXRfdjBncGV4N1Bza0tCTS1lVVMzYmhfT3BzRnVuVEpEOURkQTlobWYwT0tjbnBMNS1TRVVIVFF2U25qZlJfVk8yWHBFeDRiejB5bFdwZ1k?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-05T12:33:01+00:00"
+    },
+    {
+      "n": 29,
+      "title": "Fathom Holdings, Neighborhood Intelligence announce mutual termination of proposed merger",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWTdvQy1NdHJWMHRha24xcmtGdVNvejBhVWhDejh4QXctYlNrWlpQRTFjRjZkZTVXZV80WThURThINFdnWldkLUpib3RYQmloT1lQSHE3RlZYNXYxMkxZeE5WVFRZdjgyTzczLUVSREhfTzlCb3ZBNUFhcDNEdTBRa1JUTExoRkt5bHVqemduMkpxTzJzQUw4ZU8wZDVERGJqQkVfWVc5dWxSMFBrRU5iLWUwNnNQWkd5VUZYWWU3NFV2eFpCcVdzVm1TSnpKTFl3RThRd25RZkNLZHJLZ0l1R0M5dkR0Zw?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-05T11:35:43+00:00"
+    },
+    {
+      "n": 30,
+      "title": "Alex Davis’ VC Firm Disruptive Targets $10 Billion for New Megafund",
+      "source": "D Magazine",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdUkxOXJnLXBLS0Znb0trejJJb196ZHkyR1RLeDhWNHpyM2RCTkYzWVNKb0dlRUtGQnRhU1J0N21MYzY3WGhuYW5KY0pJTFJjNmFjRFZrS0piUGxNbFlha25FWTZZbkU5RktZQUowaWlVWXVReTNTXzY0U29kVHlvOHl4S3A?oc=5",
+      "snippet": "D Magazine",
+      "published": "2026-10-09T16:53:19+00:00"
+    },
+    {
+      "n": 31,
+      "title": "OpenAI Leads Global AI Acquisition Spree: 195 Verified AI Mergers & Acquisitions Unveiled, Top Single Deal Hits $11 Billion Valuation",
+      "source": "36Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1bnpycUNDRUx3bjdXd1FnVUhuWTFxWWhuQmdQY3NDNmd3bFdzOHE5bGxxblpuZ2cyaVp0ZUNVZk1YUlVXbHZVcXc4WVlaMVFueE9n?oc=5",
+      "snippet": "36Kr",
+      "published": "2026-10-09T15:54:34+00:00"
+    },
+    {
+      "n": 32,
+      "title": "Gorilla Technology Plans First US Data Center Deal, Targets Over 100MW AI Infrastructure",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONUY0c2dUallMcmVmaTJsMVg3QWwzdUhOWkJPRjhDRDFmWDc1LVpfZHg1TzFSOFB0VHc3MU42cFFrX1VPejU1anJtQkRFdUVSTXFRcVVDakxLNFplN2M0SjNleTJBeHpxMjRnZlhlUEd6NHYxTG5nY2MtZG83TDV0U09oc1hwcmdwbFRHaDlHMVB6cldSMjJoLWg5U0VROFlaaDFndmoyZk5tT3BIV0ZxM1NoRXNRUmVmRHpzUGRyY3JyTXo3Y240azRCTXI0aENIUENMcTRiWlpNZkRUWEdqTUhn?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-09T14:31:20+00:00"
+    },
+    {
+      "n": 33,
+      "title": "Networking startup Eliyan gets takeover interest, held early talks with Arm - report",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQl93bl9fN0gwUGZIam1kNGEzcTk5cU5VMXJjLUFLNUV4ZWpINDU1UEhsZC1UWXR5WklndUxfTXZndmdQWFFSXzBtM0VHMDVWb2R2WHVfNF8yOG1TRVZfTV9HTC1IMW1kb1FkdHg3Z1lpWm02ZXg3d2lDcS1vNGx3dXhBNEhEM2NSWTNoRmljZXhjZFZaMnNRdG94N1dTVHBmbUthNWlTZWNqaGxVRmlURlN0ZXBxaUNhRkZ2Vm1zNHZ6YlV2a2RDTXBackJVdVdDbU10Zzk5bGk0UWFM?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-09T13:30:39+00:00"
+    },
+    {
+      "n": 34,
+      "title": "Third Coast Bancshares announces merger agreement with Great Plains Bancshares",
+      "source": "Financial Regulation News",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSVNYeEdrRG5qZjJYYjBJLWVZUnE2NkM4ODlFeFROeTZmWU9GUFF5Y251MGo3Y2hvcDBZNmI4Vldtd25tMllqOWVVdXkyUFM4cm5PaV9CcFBIcEppZElENFpEWjN4YXNUVkRsUjNLeHMyS3FKUHB6Y0dQUFRwTDMxaFVlWXM1dlBhcGxRQXk1dUU3WWdCNmhLdTlwZWpaX3BMMUpGQ05VekFsa2Vw?oc=5",
+      "snippet": "Financial Regulation News",
+      "published": "2026-10-09T13:26:13+00:00"
+    },
+    {
+      "n": 35,
+      "title": "SpaceX agrees to USD 8 billion deal as SpaceX stock gains 1.73 percent",
+      "source": "AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNb1FGV2RrNzQ0WjE0TVU1UXFCRVdFMVdWV2JWQTBDRWFxMWpPREFqY0QyQmZIMW9MN0Ezemptci1oT2E0Y3F2ZllkLXl1YkpRdGl6dVpVTXVsa1dheTNUNl96eHJhak8yLXgzRDNqRUxzeThPTWVkaUtZR2lXV2FXZ0QxSm5LVUZ3QnJ6VlNHRXdNY0hhT1ZIZ09kZVk5bjhlWDIyUUs4N1FEWnJIbFBIX0EyUUFvZ3RGbC00QVcwVDl4MEMwM3htTE8yRGtwdw?oc=5",
+      "snippet": "AD HOC NEWS",
+      "published": "2026-10-09T13:02:00+00:00"
+    },
+    {
+      "n": 36,
+      "title": "Bending Spoons CEO Luca Ferrari hunting software deals amid AI slump",
+      "source": "Quartz",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdW5oZURScDBjN09Xdm9DNVpzeUJYa1NwdGh1NmI1SVZHVUlYZDhTZnlpT3BiT3g4d0tWcnQ3MkJWSUlDTE0zX3dzNVVOUGNoZFluYjBLcHJsVXk5cjNjeV9CbkJiSHZ0Y3ozakRHT2o0RzNicEdWR0xhbk1KM2tmdDJEN1N6UQ?oc=5",
+      "snippet": "Quartz",
+      "published": "2026-10-09T12:59:36+00:00"
+    },
+    {
+      "n": 37,
+      "title": "EU antitrust regulators to decide on UniCredit's Commerzbank deal by November 16",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMkJnR1gzbEQyd2ZabENkdHlMcUxQcU5JTFl5V3pXVVhpS2pDcDMwdzUyLUdkQ2J3RTZ1QWhpUWpHSS1QOFF4b2FTVkMtMWN3RnZNN0FGRms2d0hHVW11d2tKN01sR29GVEc4QkUtV0JPd2dVSkdLTnBWSGxCZjFiWlJ5VjREUFk5QWVWM2pyQnJaX0U1ZzBxUTczbmNZM0d3YVBnQnJTSjRUbTNhN3gweUlfRm5kTVVPa2I2eFBpbXJVUjRKUms0Ug?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-10-09T12:26:16+00:00"
     }
   ],
   "cited": [
-    1,
     2,
     3,
     4,
-    5,
+    6,
     7,
+    8,
+    9,
+    10,
     11,
     12,
     13,
@@ -732,198 +604,173 @@
     29,
     30,
     31,
-    32,
-    34,
-    35,
-    36,
-    37,
-    38,
-    39,
-    40,
-    41,
-    42
+    32
   ],
   "invalid_citations": [],
-  "example_prompt": "Deal: Paramount and Warner Bros. Discovery.\nStage: Completed.\n\nHeadlines:\n[1] Celluloid Junkie, Oct 07 01:28 AM ET: Paramount Completes Acquisition of Warner Bros. Discovery, Creating a New Global Entertainment Leader, Skydance\n    Celluloid Junkie\n[2] Facebook, Oct 06 10:05 PM ET: After a legal battle, Paramount officially closed its deal to acquire Warner Bros. Discovery on Tuesday. The new company, now called Skydance, combines studios, streaming services and cable networks to rival industry titans like Netflix and YouTube. https://ny\n    Facebook\n[3] XenoSpectrum, Oct 06 09:17 PM ET: Paramount Skydance Completes Warner Bros. Discovery Acquisition, Bringing CNN and CBS Under One Owner\n    XenoSpectrum\n[4] AP News, Oct 06 09:06 PM ET: Paramount completes its takeover of Warner Bros to become one Hollywood giant known as Skydance\n    AP News\n[5] Al Jazeera, Oct 06 05:38 PM ET: CNN, CBS News now under one roof as Paramount-Warner Bros merger closes\n    Al Jazeera\n[6] New York Post, Oct 06 10:05 AM ET: David Ellison’s $81B merger of Paramount and Warner Bros. Discovery officially completed\n    New York Post\n[7] CBS News, Oct 06 11:15 AM ET: Paramount closes $110 billion deal to acquire Warner Bros. Discovery, creating Skydance\n    CBS News\n[8] BBC, Oct 06 04:18 PM ET: Paramount takes over Warner Bros in $110bn Hollywood merger\n    BBC\n\nWrite the subheading and sentences.",
+  "example_prompt": "Deal: Viatris and Pacira BioSciences.\nStage: Announced.\n\nHeadlines:\n[1] Pluang, Oct 08 05:14 PM ET: Pacira BioSciences jumps 44% after Viatris agre...\n    Pluang\n[2] BigGo Finance, Oct 08 12:35 PM ET: Viatris to Acquire Pacira for $1.65 Billion in Push into Non-Opioid Pain Market\n    BigGo Finance\n[3] Yahoo Finance, Oct 08 12:02 PM ET: Viatris Agrees to Acquire Pacira BioSciences in $1.65 Billion Deal\n    Yahoo Finance\n[4] Yahoo Finance, Oct 08 10:37 AM ET: Viatris Agrees to Acquire Pacira BioSciences for $1.65 Billion in Non-Opioid Pain Therapy Expansion\n    Yahoo Finance\n[5] Pharmaceutical Executive, Oct 08 10:25 AM ET: Viatris Acquires Pacira BioSciences for $1.65 Billion\n    Pharmaceutical Executive\n[6] Viatris Newsroom, Oct 08 07:46 AM ET: Viatris Agrees to Acquire Pacira BioSciences, Advancing Its Innovative Medicines Strategy and Becoming a Leader in Non-Opioid Pain Therapies\n    Viatris Newsroom\n\nWrite the subheading and sentences.",
   "retrieval": [
-    {
-      "deal": "Paramount / Warner Bros. Discovery",
-      "query": "Paramount Warner Bros. Discovery acquisition merger deal",
-      "hits": [
-        {
-          "n": 6,
-          "similarity": 0.808
-        },
-        {
-          "n": 7,
-          "similarity": 0.805
-        },
-        {
-          "n": 2,
-          "similarity": 0.794
-        },
-        {
-          "n": 8,
-          "similarity": 0.787
-        },
-        {
-          "n": 9,
-          "similarity": 0.782
-        },
-        {
-          "n": 10,
-          "similarity": 0.773
-        }
-      ]
-    },
     {
       "deal": "Viatris / Pacira BioSciences",
       "query": "Viatris Pacira BioSciences acquisition merger deal",
       "hits": [
         {
-          "n": 12,
+          "n": 3,
           "similarity": 0.889
         },
         {
-          "n": 13,
+          "n": 5,
+          "similarity": 0.877
+        },
+        {
+          "n": 4,
           "similarity": 0.84
         },
         {
-          "n": 14,
+          "n": 6,
           "similarity": 0.835
+        },
+        {
+          "n": 1,
+          "similarity": 0.737
         }
       ]
     },
     {
-      "deal": "Third Coast / Great Plains",
-      "query": "Third Coast Great Plains acquisition merger deal",
+      "deal": "AkzoNobel / Axalta",
+      "query": "AkzoNobel Axalta acquisition merger deal",
       "hits": [
         {
-          "n": 16,
-          "similarity": 0.804
+          "n": 8,
+          "similarity": 0.824
+        },
+        {
+          "n": 7,
+          "similarity": 0.794
+        },
+        {
+          "n": 9,
+          "similarity": 0.749
+        }
+      ]
+    },
+    {
+      "deal": "Williams / Momentum Midstream",
+      "query": "Williams Momentum Midstream acquisition merger deal",
+      "hits": [
+        {
+          "n": 11,
+          "similarity": 0.85
+        },
+        {
+          "n": 10,
+          "similarity": 0.825
+        }
+      ]
+    },
+    {
+      "deal": "Curaleaf / Aurora Cannabis",
+      "query": "Curaleaf Aurora Cannabis acquisition merger deal",
+      "hits": [
+        {
+          "n": 13,
+          "similarity": 0.854
+        },
+        {
+          "n": 14,
+          "similarity": 0.854
         },
         {
           "n": 15,
-          "similarity": 0.801
+          "similarity": 0.834
         },
         {
-          "n": 18,
-          "similarity": 0.793
+          "n": 16,
+          "similarity": 0.828
         },
         {
           "n": 17,
-          "similarity": 0.778
+          "similarity": 0.825
+        },
+        {
+          "n": 18,
+          "similarity": 0.819
         }
       ]
     },
     {
-      "deal": "Weston family / Boots",
-      "query": "Weston family Boots acquisition merger deal",
+      "deal": "Mega Nova / SMC Electric",
+      "query": "Mega Nova SMC Electric acquisition merger deal",
       "hits": [
         {
           "n": 19,
-          "similarity": 0.819
-        },
+          "similarity": 0.774
+        }
+      ]
+    },
+    {
+      "deal": "Salt Creek Capital / MK Plastics",
+      "query": "Salt Creek Capital MK Plastics acquisition merger deal",
+      "hits": [
+        {
+          "n": 20,
+          "similarity": 0.883
+        }
+      ]
+    },
+    {
+      "deal": "Barclays / McKesson",
+      "query": "Barclays McKesson acquisition merger deal",
+      "hits": [
         {
           "n": 21,
-          "similarity": 0.816
+          "similarity": 0.813
         },
         {
           "n": 22,
-          "similarity": 0.804
-        },
-        {
-          "n": 20,
-          "similarity": 0.756
-        }
-      ]
-    },
-    {
-      "deal": "SpaceX / Nvidia",
-      "query": "SpaceX Nvidia acquisition merger deal",
-      "hits": [
-        {
-          "n": 25,
-          "similarity": 0.788
-        },
-        {
-          "n": 26,
-          "similarity": 0.76
-        },
-        {
-          "n": 27,
-          "similarity": 0.76
-        },
-        {
-          "n": 28,
-          "similarity": 0.755
-        },
-        {
-          "n": 29,
-          "similarity": 0.755
+          "similarity": 0.705
         },
         {
           "n": 23,
+          "similarity": 0.684
+        },
+        {
+          "n": 24,
+          "similarity": 0.664
+        },
+        {
+          "n": 25,
+          "similarity": 0.661
+        },
+        {
+          "n": 26,
+          "similarity": 0.652
+        }
+      ]
+    },
+    {
+      "deal": "TradingView / Drilling Tools International",
+      "query": "TradingView Drilling Tools International acquisition merger deal",
+      "hits": [
+        {
+          "n": 27,
           "similarity": 0.753
-        }
-      ]
-    },
-    {
-      "deal": "Schneider Electric / PTC",
-      "query": "Schneider Electric PTC acquisition merger deal",
-      "hits": [
-        {
-          "n": 32,
-          "similarity": 0.888
         },
         {
-          "n": 33,
-          "similarity": 0.886
+          "n": 28,
+          "similarity": 0.641
         },
         {
-          "n": 34,
-          "similarity": 0.881
-        },
-        {
-          "n": 35,
-          "similarity": 0.876
-        },
-        {
-          "n": 36,
-          "similarity": 0.876
-        },
-        {
-          "n": 37,
-          "similarity": 0.868
-        }
-      ]
-    },
-    {
-      "deal": "Magnolia Oil & Gas / WildFire",
-      "query": "Magnolia Oil & Gas WildFire acquisition merger deal",
-      "hits": [
-        {
-          "n": 38,
-          "similarity": 0.854
-        }
-      ]
-    },
-    {
-      "deal": "Kuiken Brothers / Paramus Building Supply",
-      "query": "Kuiken Brothers Paramus Building Supply acquisition merger deal",
-      "hits": [
-        {
-          "n": 39,
-          "similarity": 0.862
+          "n": 29,
+          "similarity": 0.617
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 192,
-    "headlines_new": 11,
-    "index_size": 482,
-    "deals_found": 34,
+    "headlines_fetched": 194,
+    "headlines_new": 89,
+    "index_size": 571,
+    "deals_found": 41,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19
