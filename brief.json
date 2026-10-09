@@ -1,42 +1,42 @@
 {
   "date": "Friday, October 09",
-  "generated_at": "2026-10-09T17:11:21.455358+00:00",
+  "generated_at": "2026-10-09T20:06:11.400227+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "The S&P 500 and Nasdaq rose to new highs, driven by a rebound in tech stocks, while the 10-year yield rose 0.29% amid concerns about market volatility.",
+  "lede": "Tech stocks drove the S&P 500 to a record close, with the Nasdaq also rebounding on the back of a tech-heavy index.",
   "sections": [
     {
       "move": "S&P 500",
-      "pct": 0.54,
-      "last": 7807.01,
-      "change": 41.65,
+      "pct": 0.59,
+      "last": 7811.51,
+      "change": 46.15,
       "sources": [
         1,
         2,
         3,
         4
       ],
-      "headline": "Tech Stocks Drive S&P 500 to New High",
-      "body": "Traders are watching the tech sector's recovery, which boosted the S&P 500 to a record close. [1] [2] [4] The rebound in tech stocks is seen as a positive sign for the overall market. [3]"
+      "headline": "Tech Stocks Boost S&P 500",
+      "body": "Traders are watching the recovery of tech stocks, which drove the S&P 500 to a record close. [1] According to Fox Business, the tech-heavy index helped push the S&P 500 to a new high. [1] [2] The rebound in tech stocks is seen as a positive sign for the market. [3]"
     },
     {
       "move": "Nasdaq",
-      "pct": 0.54,
-      "last": 27340.99,
-      "change": 147.65,
+      "pct": 0.64,
+      "last": 27366.17,
+      "change": 172.83,
       "sources": [
         5,
         6,
         4,
         7
       ],
-      "headline": "Nasdaq Rebounds from AI Stock Sell-Off",
-      "body": "The Nasdaq rose 0.54% after a report on OpenAI's revenue, which rattled AI stocks [5]. This move was also influenced by a rebound in tech shares following a recent sell-off [6]. Additionally, the Nasdaq's gain was partly driven by a decline in oil prices, which boosted the market's overall sentiment [4]."
+      "headline": "Nasdaq Rebounds on Tech Stocks",
+      "body": "The Nasdaq's 0.64% gain was likely driven by investors' reaction to OpenAI's revenue report, which raised concerns about the long-term prospects of AI stocks. [5] Traders are watching for further updates on the tech sector's performance, as the sell-off earlier in the week has been reversed. [6] The rebound in tech shares is also seen as a response to the decline in oil prices, which has boosted the overall market sentiment. [4]"
     },
     {
       "move": "10-Year Yield",
-      "pct": 0.29,
-      "last": 5.25,
+      "pct": 0.25,
+      "last": 5.24,
       "change": 0.01,
       "sources": [
         8,
@@ -44,97 +44,97 @@
         10,
         11
       ],
-      "headline": "Yield Hike Sparks Market Concerns",
-      "body": "The 10-year yield rose 0.29% to 5.25% as traders weighed the implications of Pimco's warning that US Treasury yields risk hitting 6% for the first time since 2000. Investors are also watching the upcoming 30-year bond auction, with some expecting further hikes. The recent sell-off in global bonds has pushed US Treasury yields to fresh 24-year highs, sparking concerns about market volatility."
+      "headline": "Yield Surge Sparks Concern",
+      "body": "The 10-year yield rose 0.25% to 5.24 as traders weighed the implications of Pimco's warning that US Treasury yields could hit 6% for the first time since 2000. Investors are also watching the 30-year yield, which has been climbing higher, and the impact of the Fed's recent statements on interest rates. The recent bond auction and French budget worries are also contributing to the market's concerns."
     },
     {
       "move": "USD/JPY",
-      "pct": 0.14,
-      "last": 158.29,
-      "change": 0.23,
+      "pct": 0.12,
+      "last": 158.25,
+      "change": 0.19,
       "sources": [
         12,
         13,
         14,
         15
       ],
-      "headline": "USD/JPY Rises on Yen Strength",
-      "body": "The USD/JPY pair rose as traders took advantage of the Japanese Yen's relative strength, with the yen's value weakening against the US Dollar amid hawkish Federal Open Market Committee (FOMC) minutes. This move was also influenced by the Euro's weakness, which led to a capitalization of the Yen's value. As a result, the USD/JPY pair edged higher in the 158-yen range, driven by the yen's downside risks near 158.50, according to MUFG."
+      "headline": "USD/JPY Rises Amid Yen Strength",
+      "body": "The USD/JPY pair rose as investors took a cautious stance on the Japanese yen, citing hawkish Federal Reserve minutes and a strong US 10-year yield. [12] The US 10-year yield's climb to 5.33% [12] and hawkish FOMC minutes [13] led to a sell-off in the yen, making it more attractive compared to the euro. [15] [14] This move was also attributed to the yen's capitalization on the euro's weakness [15]."
     },
     {
       "move": "Crude Oil",
-      "pct": -0.3,
-      "last": 91.22,
-      "change": -0.27,
+      "pct": -0.11,
+      "last": 91.39,
+      "change": -0.1,
       "sources": [
         16,
         17,
         18,
         19
       ],
-      "headline": "Oil Prices Fall Amid Trump's Iran Comments",
-      "body": "Oil prices fell as Trump paused talks of renewed strikes on Iran, which had caused a surge in prices. This move likely eased concerns among traders, who had been watching the situation closely. The decline in oil prices also contributed to a fall in stock futures, as seen in the early morning trading session [16]."
+      "headline": "Trump's Iran comments calm oil prices",
+      "body": "Traders are watching Trump's comments on Iran as a potential catalyst for oil price movements. The pause in Iran attacks and China's restart of fuel exports may have alleviated supply fears, leading to a decline in crude oil prices. This move suggests that traders are prioritizing geopolitical stability over concerns about oil supply."
     },
     {
       "move": "Gold",
-      "pct": 1.43,
-      "last": 4216.5,
-      "change": 59.5,
+      "pct": 1.48,
+      "last": 4218.6,
+      "change": 61.6,
       "sources": [
         20,
         21,
         22,
         23
       ],
-      "headline": "Gold Prices Rise Amid Easing Yields",
-      "body": "Gold prices rose as Treasury yields eased from 24-year highs, causing the dollar to pause, which made gold more attractive as a safe-haven asset [20]. This move was also influenced by the views of Peter Schiff, who sees rising yields as a bullish sign for gold [23]. Traders are watching the Fed's risk, particularly for December, which could impact gold prices [22, 23]."
+      "headline": "Gold Rises on Dollar Weakness",
+      "body": "Gold rose 1.48% to 4218.6 as the dollar paused, easing from 24-year highs, which reduced the metal's value. This move is attributed to the softer dollar and cooling oil prices, which have heightened inflationary pressures. Traders are watching the dollar's movement and the impact of easing yields on the gold market."
     }
   ],
   "also": [
     {
-      "n": 24,
-      "note": "The Nasdaq led the Dow after surprise economic data, with Nutanix nearing a buy point."
+      "n": 34,
+      "note": "Trump pauses sanctions on Russia in bid to lower diesel prices."
     },
     {
-      "n": 25,
-      "note": "Trump has established a committee to investigate Federal Reserve Governor Lisa Cook, amid efforts to fire her."
+      "n": 35,
+      "note": "Moderna stock jumps on planned national cancer vaccine effort."
     },
     {
-      "n": 27,
-      "note": "Trump has launched a probe into Federal Reserve Governor Lisa Cook, amid efforts to fire her."
+      "n": 37,
+      "note": "Trump escalates effort to fire Federal Reserve governor Lisa Cook."
     }
   ],
-  "brief": "The S&P 500 and Nasdaq rose to new highs, driven by a rebound in tech stocks, while the 10-year yield rose 0.29% amid concerns about market volatility.\n\nS&P 500 (+0.54% to 7807.01): Tech Stocks Drive S&P 500 to New High. Traders are watching the tech sector's recovery, which boosted the S&P 500 to a record close. [1] [2] [4] The rebound in tech stocks is seen as a positive sign for the overall market. [3]\nNasdaq (+0.54% to 27340.99): Nasdaq Rebounds from AI Stock Sell-Off. The Nasdaq rose 0.54% after a report on OpenAI's revenue, which rattled AI stocks [5]. This move was also influenced by a rebound in tech shares following a recent sell-off [6]. Additionally, the Nasdaq's gain was partly driven by a decline in oil prices, which boosted the market's overall sentiment [4].\n10-Year Yield (+0.29% to 5.25): Yield Hike Sparks Market Concerns. The 10-year yield rose 0.29% to 5.25% as traders weighed the implications of Pimco's warning that US Treasury yields risk hitting 6% for the first time since 2000. Investors are also watching the upcoming 30-year bond auction, with some expecting further hikes. The recent sell-off in global bonds has pushed US Treasury yields to fresh 24-year highs, sparking concerns about market volatility.\nUSD/JPY (+0.14% to 158.29): USD/JPY Rises on Yen Strength. The USD/JPY pair rose as traders took advantage of the Japanese Yen's relative strength, with the yen's value weakening against the US Dollar amid hawkish Federal Open Market Committee (FOMC) minutes. This move was also influenced by the Euro's weakness, which led to a capitalization of the Yen's value. As a result, the USD/JPY pair edged higher in the 158-yen range, driven by the yen's downside risks near 158.50, according to MUFG.\nCrude Oil (-0.3% to 91.22): Oil Prices Fall Amid Trump's Iran Comments. Oil prices fell as Trump paused talks of renewed strikes on Iran, which had caused a surge in prices. This move likely eased concerns among traders, who had been watching the situation closely. The decline in oil prices also contributed to a fall in stock futures, as seen in the early morning trading session [16].\nGold (+1.43% to 4216.5): Gold Prices Rise Amid Easing Yields. Gold prices rose as Treasury yields eased from 24-year highs, causing the dollar to pause, which made gold more attractive as a safe-haven asset [20]. This move was also influenced by the views of Peter Schiff, who sees rising yields as a bullish sign for gold [23]. Traders are watching the Fed's risk, particularly for December, which could impact gold prices [22, 23].\n\nAlso worth knowing:\n- The Nasdaq led the Dow after surprise economic data, with Nutanix nearing a buy point.\n- Trump has established a committee to investigate Federal Reserve Governor Lisa Cook, amid efforts to fire her.\n- Trump has launched a probe into Federal Reserve Governor Lisa Cook, amid efforts to fire her.",
+  "brief": "Tech stocks drove the S&P 500 to a record close, with the Nasdaq also rebounding on the back of a tech-heavy index.\n\nS&P 500 (+0.59% to 7811.51): Tech Stocks Boost S&P 500. Traders are watching the recovery of tech stocks, which drove the S&P 500 to a record close. [1] According to Fox Business, the tech-heavy index helped push the S&P 500 to a new high. [1] [2] The rebound in tech stocks is seen as a positive sign for the market. [3]\nNasdaq (+0.64% to 27366.17): Nasdaq Rebounds on Tech Stocks. The Nasdaq's 0.64% gain was likely driven by investors' reaction to OpenAI's revenue report, which raised concerns about the long-term prospects of AI stocks. [5] Traders are watching for further updates on the tech sector's performance, as the sell-off earlier in the week has been reversed. [6] The rebound in tech shares is also seen as a response to the decline in oil prices, which has boosted the overall market sentiment. [4]\n10-Year Yield (+0.25% to 5.24): Yield Surge Sparks Concern. The 10-year yield rose 0.25% to 5.24 as traders weighed the implications of Pimco's warning that US Treasury yields could hit 6% for the first time since 2000. Investors are also watching the 30-year yield, which has been climbing higher, and the impact of the Fed's recent statements on interest rates. The recent bond auction and French budget worries are also contributing to the market's concerns.\nUSD/JPY (+0.12% to 158.25): USD/JPY Rises Amid Yen Strength. The USD/JPY pair rose as investors took a cautious stance on the Japanese yen, citing hawkish Federal Reserve minutes and a strong US 10-year yield. [12] The US 10-year yield's climb to 5.33% [12] and hawkish FOMC minutes [13] led to a sell-off in the yen, making it more attractive compared to the euro. [15] [14] This move was also attributed to the yen's capitalization on the euro's weakness [15].\nCrude Oil (-0.11% to 91.39): Trump's Iran comments calm oil prices. Traders are watching Trump's comments on Iran as a potential catalyst for oil price movements. The pause in Iran attacks and China's restart of fuel exports may have alleviated supply fears, leading to a decline in crude oil prices. This move suggests that traders are prioritizing geopolitical stability over concerns about oil supply.\nGold (+1.48% to 4218.6): Gold Rises on Dollar Weakness. Gold rose 1.48% to 4218.6 as the dollar paused, easing from 24-year highs, which reduced the metal's value. This move is attributed to the softer dollar and cooling oil prices, which have heightened inflationary pressures. Traders are watching the dollar's movement and the impact of easing yields on the gold market.\n\nAlso worth knowing:\n- Trump pauses sanctions on Russia in bid to lower diesel prices.\n- Moderna stock jumps on planned national cancer vaccine effort.\n- Trump escalates effort to fire Federal Reserve governor Lisa Cook.\n\nIndustry desks:\n- Agriculture: Agriculture Futures Feel Oil's Pinch. The recent decline in oil prices is having a ripple effect on the agriculture industry, with corn and wheat futures falling as a result. Investors are watching the impact of higher oil prices on the overall market, and the potential for a pullback in AI-related stocks. Meanwhile, soybeans are bucking the trend, rising as investors look for alternative investments. The TSX futures are expected to edge higher ahead of jobs data, which may impact the market's sentiment.\n- Mining: Mining Stocks Soar Amid Rising Commodity Prices. The mining industry is experiencing a surge in stock prices due to rising commodity prices, particularly copper and silver. Copper prices rose 2.9% and silver rose 3.18%, with gold miners also seeing a 2.96% gain. This uptick is largely driven by concerns over mine supply risks and China's demand for these metals, as well as easing interest rates and a pause in the dollar's decline. As a result, investors are taking notice and are optimistic about the sector's performance.\n- Natural resources: Natural Gas Prices Rise Amid Winter Concerns. As El Niño strengthens, natural gas prices are rising due to concerns about winter supply. This is despite the strong El Niño, which typically leads to lower natural gas prices. Investors are watching supply threats, including Houthi attacks and a US Gulf storm, which could impact oil and natural gas production. Additionally, home heating oil prices are soaring, with users' winter bills potentially rising by 21%. [29] [31] [30]",
   "moves": {
     "S&P 500": {
-      "last": 7807.01,
-      "change": 41.65,
-      "pct": 0.54
+      "last": 7811.51,
+      "change": 46.15,
+      "pct": 0.59
     },
     "Nasdaq": {
-      "last": 27340.99,
-      "change": 147.65,
-      "pct": 0.54
+      "last": 27366.17,
+      "change": 172.83,
+      "pct": 0.64
     },
     "10-Year Yield": {
-      "last": 5.25,
+      "last": 5.24,
       "change": 0.01,
-      "pct": 0.29
+      "pct": 0.25
     },
     "USD/JPY": {
-      "last": 158.29,
-      "change": 0.23,
-      "pct": 0.14
+      "last": 158.25,
+      "change": 0.19,
+      "pct": 0.12
     },
     "Crude Oil": {
-      "last": 91.22,
-      "change": -0.27,
-      "pct": -0.3
+      "last": 91.39,
+      "change": -0.1,
+      "pct": -0.11
     },
     "Gold": {
-      "last": 4216.5,
-      "change": 59.5,
-      "pct": 1.43
+      "last": 4218.6,
+      "change": 61.6,
+      "pct": 1.48
     }
   },
   "sources": [
@@ -260,6 +260,14 @@
     },
     {
       "n": 16,
+      "title": "Oil prices fall as Trump pauses Iran attacks, China restarts fuel exports – as it happened",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOaDZhMFlMUWVqVWhEbGdZOW9ubzZ4aGZXSDJRVS12M3dkV2lBZE4yOXlaQ0JDUjBpazhhVENXSlpiQ0ViMXE2Mi1jZ0pqOUxkaXFSRl80TEdOb29BckdUZlBKMU4yUWxVSXl0QjJVWkhNNFhQRmlTeGNBMTkzdkwtRDVDT0lISXRYYVFadF9KVmtRVFFlWFl6YzliTVNKZUlMMDU3N1NOR3FVUTdhMXV5TW5HaTRvSFpXTWREUUp1TEJGQmdDOGRNUVk4d2tXOWQ0X0JzU1Nn?oc=5",
+      "snippet": "The Guardian Oil falls as Trump comments on Iran talks ease supply fears Reuters Trump promises not to resume strikes before midterm elections CBS News",
+      "published": "2026-10-09T06:52:00+00:00"
+    },
+    {
+      "n": 17,
       "title": "Stock Futures Fall on Higher Oil Prices, AI Pullback",
       "source": "Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdkN5NnZVVVUzdnhxX3pfZ1ViTWdSVnBZbWhraWRZaHBYcHhPdUd3YURyb3E4MTF5MDRtRXE1cEtNS3JwTUpaVlQ1dXR0UVY3elVsR0xaeE5mMjYzZzVXTkhRZFNzMURKWUtYamEwZldYaW5veTFvcmFyUWJ1X2JkYmRxbmI3S3dfbDg2c3A4MC0tMTNhdjhBbml3?oc=5",
@@ -267,7 +275,7 @@
       "published": "2026-10-08T12:35:00+00:00"
     },
     {
-      "n": 17,
+      "n": 18,
       "title": "Oil Prices Retreat After Trump Appears to Rule out Iran Strikes Before Midterms",
       "source": "WSJ",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPenNnUDYybWpPV1NGRGZCVnRjbGxHNEZVRnBobXR4YUlfZ3FuVDFrZF95enJwZUF1cm1vZEFCYkFLVmxTU2RwRzg1dGQyWVE2dDE2bks5YkxRNzhlaEt6eUJSVHpJdFlYRVpaMGtmX3l4T2NyUzZiSkhCMnFMWkFETjlZdG9WbVhqMkNqU0NzV0hxSzFKRE0yQWNZOFZxMFJMVF9meW1aa3FsZk9HV0luU0VVZVp0RE0xYXQyTTk1SlFoUW9uMEZ3?oc=5",
@@ -275,20 +283,12 @@
       "published": "2026-10-09T13:07:00+00:00"
     },
     {
-      "n": 18,
+      "n": 19,
       "title": "Oil prices hit $105 and stocks trade lower as Trump considers renewed strikes on Iran",
       "source": "NBC News",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTA0TXdyTldZVG9YbjBHRHJZUXJvN3JVZHlmRlRnVVgwOFJSVHZlM3ItWG9QeWUyVUJObVd0WjgtUGhES1NkOE9QSFJ1dFBZV3FtX2ctdkNHSjgyWU9RN184RTh3akIwcXE4SU9qaktLTGNlTE5WLW1OUC0xMzBEV0hneW9ZQQ?oc=5",
       "snippet": "NBC News",
       "published": "2026-10-08T14:01:03+00:00"
-    },
-    {
-      "n": 19,
-      "title": "Dow Jones Futures Fall As Oil Prices, Treasury Yields Jump; Samsung, Micron, Taiwan Semi, Sandisk In Focus",
-      "source": "Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOGxRYlh2TThUalZYTVZjTVFVRk1wZkZjejJVY1dwZXB1dTQxZ0JjNnd4MjZRbW1XcVlVbXVCVUlpNS1FZmZRTXJUVElTaUZoeXFRdGVDZjJMejJockVXd25xRGd4UGdhNWVBb01BMWs3RkVVUEtRZXZUb3NCQU9Hanlkb0E2bHBGN2pkN3ZQblYzVkh6MENNUGpwOVd2TnVJSzBfWmJySVVHVEM1QzdyNDQ2aEJRYUhYcFE?oc=5",
-      "snippet": "Investor's Business Daily",
-      "published": "2026-10-08T12:10:00+00:00"
     },
     {
       "n": 20,
@@ -308,6 +308,14 @@
     },
     {
       "n": 22,
+      "title": "Gold Rises on Softer Dollar and Cooling Oil",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcUJBUGMybi1vVkYxMmEtOWNyZVpqSUJrLXBxRHNHajdwdFNDdzVnZ2ZhMHk1TG9wODNhNGMtS0ZmNHBQYmwzRjZ3YkVxX0xyeXg5ckNXbU5ZbExXT290dVRkeEYzZjZLQnVEWTFsclc2azV0MEpSQXlQUThrUVd0RzFGeXhYMVlUYmVhVHk3UGVYRm94a1p5QTZB?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-09T12:26:59+00:00"
+    },
+    {
+      "n": 23,
       "title": "Gold, silver prices rise as yields ease but December Fed risk remains - Kitco AM Report",
       "source": "Kitco",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcmdOTXBpdDBOakU0eEExcUhoM2ZNYXRrZzRjWWlxN2tnd1c0TVhHUmZJcWctRXFhS0lBbkM5aWdIbGt2WXp0ZElPa3NLcEJWNG9HSEVpNkc4RWRlakFtSVJrclFBbC1RNnhZZThMbkVydFExVUh0NXJPSUU3UHZxQUpKU3h2bVliMjhOa0tUMWhxNHdwOW1MeWxscXVRanJBWHBxX0lBZWU0cFY2ZlNyLVdjZWx4dW8?oc=5",
@@ -315,39 +323,127 @@
       "published": "2026-10-07T14:47:15+00:00"
     },
     {
-      "n": 23,
-      "title": "Peter Schiff says rising yields are 'the most bullish thing' for gold, warns Washington could pay 50 cents on the dollar",
-      "source": "Kitco",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPS1QyWjlrN2F2aWdXTUpBdXpKLWI3bjcwaTdMb0M3aGNjMmQxaHd5c3JER1ZBMTVEbmEwdFBQS19kcV9jS0hlbEFTUDNuak9QY3V3QjNiZkw0cEllQy1hU1VrRy1aQVU3ajlVZE1naElGMmJpQUZoUXZqQU45elI3M19TeG94azNHREVodENpQ1Z0V1o2azE4amVCWkRiSFNHeFdGUlF1dlJKd3ZYWVZoaw?oc=5",
-      "snippet": "Kitco",
-      "published": "2026-10-09T05:09:11+00:00"
-    },
-    {
       "n": 24,
-      "title": "Stock Market Today: Nasdaq Leads Dow After Surprise Economic Data; Nutanix Nears Buy Point (Live Coverage)",
+      "title": "Dow Jones Futures Fall As Oil Prices, Treasury Yields Jump; Samsung, Micron, Taiwan Semi, Sandisk In Focus",
       "source": "Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaEtaSVRZUWhEcnRiZ3RkLUs2czBWaGRTYUFDb2pIWXlSeWpVcEg2YllrUm5VRTZoQVFwTmNRZ3RJMkFzemhTOVVkZkxjWWZiWEd4c0hxb1Jnbnd2dnhYSVN5b1VvTWJvbUtyc005NUIyR3JEY2hjVDVNVTNHMVpIdEU1bnd1X0JPeGp2YU1PRDZ0ejA0bm5CTzB1VXgtQ2tNcGd5U09EQ1l1cDdETW1vUXhQbw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOGxRYlh2TThUalZYTVZjTVFVRk1wZkZjejJVY1dwZXB1dTQxZ0JjNnd4MjZRbW1XcVlVbXVCVUlpNS1FZmZRTXJUVElTaUZoeXFRdGVDZjJMejJockVXd25xRGd4UGdhNWVBb01BMWs3RkVVUEtRZXZUb3NCQU9Hanlkb0E2bHBGN2pkN3ZQblYzVkh6MENNUGpwOVd2TnVJSzBfWmJySVVHVEM1QzdyNDQ2aEJRYUhYcFE?oc=5",
       "snippet": "Investor's Business Daily",
-      "published": "2026-10-09T14:59:00+00:00"
+      "published": "2026-10-08T12:10:00+00:00"
     },
     {
       "n": 25,
-      "title": "Trump establishes committee to investigate Federal Reserve's Lisa Cook in latest effort to fire her",
-      "source": "Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ3pvVzhrOV9hdHo3bF9RcUVNQnpiUDVWZkIyWk1UYmo1cUJwd0JLNTRXX01lTUhVNWdBX2hUN3VNMHN0MGRST1pzQkVQYWRFNVM4NmhQeWdNS2pIU0p1eFY3cnZlelhoeHYySVo2dW1ndnNMOUhuQ0hYY2ZnVVlzYkFVNUFrbDFIQ3dzeDhTNnYxTk1weWFpYU1IekdlQVRkUmtRTTl1Uy1hX2s?oc=5",
-      "snippet": "Yahoo Trump escalates effort to fire Federal Reserve governor Lisa Cook The Washington Post Trump establishes committee to investigate Federal Reserve's Lisa Cook in latest effort to fire her AP News",
-      "published": "2026-10-09T14:25:28+00:00"
+      "title": "TSX futures edge higher ahead of jobs data as gold prices rise, oil eases",
+      "source": "Kitco",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeE9kOGtRS1hyX3Zvb1U4MHNkTzdReC1GX1pHNW1MLVZmNmU1Y1JvLUtXSzEtWUY1OGNsOVlQTGJmZUdGVHg1ZGFzZHBoVmFUZGRGb2NvN012dExwQXdUX0EyNE95c2Z3WUIwOHd0UmM1czQzS1RHVi1VYkh1a2VzczZhdklRbnktbzlfTHlZbi01SXN0SnJiR3RsZFN6RDM1cFZMREZiaFYtTUFSamJzV3FBRklYWEF2?oc=5",
+      "snippet": "Kitco",
+      "published": "2026-10-09T11:50:23+00:00"
     },
     {
       "n": 26,
-      "title": "Trump establishes committee to investigate Federal Reserve’s Lisa Cook in latest effort to fire her",
-      "source": "Boston Herald",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE03WlFxNThvMEhCZk4xNUhkdmU5MUZzTm1pNERNbjI0WU5KWXh2VUtWWmhVR2wxZVNTN0pSZ2R2Y1lmWC1XZ1FOdVpnaF85UDJSWFZqNkNhSFdOQmd0Vk44RUVlb1NYX0MtdFE0THVVa3hkUnVRb2VZN3pR?oc=5",
-      "snippet": "Boston Herald",
-      "published": "2026-10-09T14:55:48+00:00"
+      "title": "Copper price heads for a weekly gain on mine supply risks, China demand",
+      "source": "Mining.com",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeTdrQW5JT09Eck1pYVo4eTRJTzZyc3VKMHc0dDAtZWx4eFkzNl9NNGpSVVFvaURkempqajJkRTNGNFV1NGR3bDJNaG5nTHZyY21GamlWeVNJOFNzdVZwSmh3YXlkdTRNV195QllTdFlJYnhTeGh6bTZKZXlrV1diQnM0RnZvZmpVb0lHby1wRWpvX0plQWphZHNtaUdBX0E?oc=5",
+      "snippet": "Mining.com",
+      "published": "2026-10-09T19:22:20+00:00"
     },
     {
       "n": 27,
+      "title": "Can Barrick Mining Sustain Its Dividend if Gold and Copper Prices Cool?",
+      "source": "kalkine.ca",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdTJvV2VUazQ2WFRfbXZJekJOU3ZrbW9MNTVBOHBONVVmTk9CWUtna1BYWkZCM2VEY205YW1xRVpRc0VHbnJNMHViMnZfdGFYN1BpYU1KdDd1cE5XQUF0MTNwdm5mTUhWVjFUZkUtbF9zOVp2YnhZSUxIVjB3Z002VWdIalk0RTA4YURGQ1pfWlNvdWpKWnI1SF9oazhjUGR1ZGR5UzB1dGo3MDNSMy0w?oc=5",
+      "snippet": "kalkine.ca",
+      "published": "2026-10-09T14:28:00+00:00"
+    },
+    {
+      "n": 28,
+      "title": "Frank Talk: Gold miners beat every S&P 500 sector in Q3 despite September selloff",
+      "source": "Proactive financial news",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZkxwY1ZDdU5aNVV3UmlPYVRGbVNJU1NFUmJ0US1EZ2FQUVJRTUllNEVGRVhVVkxIS1o4YnUwVTB1RnM3b0J4dEdCY1UzcDFCN3duM1ZOdDZOSUhuWFdkcDJkRWZiV2E1NGh1a18xNkx4ck12Y05uZjJwZnVNNXpKNFB4bGwxMnRCUTJ3aUpEZF9NZGhHTGQ1dkxlT1hZaTZuSzdkNGIwNFhwbFJSclNIelRDMms1VUJBX0Rlc2daNTN4RjVETDdQMGFRRzhZZDJ0eFlhQ2d0RzladUctZWtWZVQyT3AzUQ?oc=5",
+      "snippet": "Proactive financial news",
+      "published": "2026-10-09T17:14:00+00:00"
+    },
+    {
+      "n": 29,
+      "title": "If El Niño Is So Strong, Why Are Northeast Natural Gas Winter Prices So High?",
+      "source": "Natural Gas Intelligence",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS2YxRVIxeTRkZ1YzcmI4OEZxMHp3cmFoa0FHVjdxaGdyYXl4MWVuc25RUzc1TGI0cFMxTjhheE1acm9uQmlHVjdEWFVFZDNOekVvN3EwUGlkRDRiRmpKYzMzLW9YLTQ1ekY1NV92aVZHLUh1UlBxLUZhWm0yZUd0QWR6cTlUQzdCNExaOTVySjBabzBMT0w5NDA2cmNWODRWb1E0R1NveEhlV0Z2amNtRnZnUUk?oc=5",
+      "snippet": "Natural Gas Intelligence",
+      "published": "2026-10-09T14:48:00+00:00"
+    },
+    {
+      "n": 30,
+      "title": "Oil rises as investors weigh supply threats",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSHYwa2g1N1NQR1ZHcFR2eVJ3cjJySlZLVlA1UjBQeU9yNl81Z2tGYTk3TVk4V3JMcXh1LVpscTVDdTdrZGFOZjd4VWNzeXNEM1lHYmV5bDFzV2ZrN3NuQUE4VXV6cE16enQzSi1ZU3l1aXVPa00yVDkxeDRYbFI5WjhOVGR0VHFUMWNkWFMtNmxDSW9YRUtHY2pKWTlxTFRPclRzTA?oc=5",
+      "snippet": "Reuters Oil Prices Rise as Houthi Attacks, U.S. Gulf Storm Raise Supply Risks WSJ Oil climbs past $100 as Gulf storm and Houthi attacks on Saudi Arabia raise supply fears Quartz",
+      "published": "2026-10-07T00:48:00+00:00"
+    },
+    {
+      "n": 31,
+      "title": "Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UNHVvaFVKbDdSWGlwbENDdE1vMjEyREVHNW85QUFBWmhGSkJ5b29IVFJQd3VFZ1dqdkRtdXNuUTk0TlhmVDkxVklYVzdGZ1cwMWlnTGVWWWhmR1ExSURkenJjVGZXTzNBYmlKUllWT1V3R3A50gF6QVVfeXFMT0pyNi1Sb20xNlRNOWt4Q3lHSjZCVko0c3ltU25zcWFPdFFEQlQtaVpvZm1USUdUUmJPZ0pCOU5QSzN6THZ5VGNYWnJXUGIwdXhvY09WREFTbHFmSFktbWlvQkw4TUVLV2FhdVo3azRkVjJWUUNiQk1ybkE?oc=5",
+      "snippet": "CNBC",
+      "published": "2026-10-07T12:35:01+00:00"
+    },
+    {
+      "n": 32,
+      "title": "Grid Growth Pushes Long-Term Uranium Prices to $97 Per Pound",
+      "source": "Industrial Info",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMm1aQXZsSm1XdXJ3cnoySkpmYnBKUHhRWFlmZnhwR2VUWHN1UzRwMlBpWmF0c0ItVGdXbi10ajRkRkFtNGVULTl1enRXaTBPNjVVV0M4U2RWaDlMTGJteU9uRGxnOWNnZDMwb2M0bWozWk1HaUdtdl9NdHFwZ29laUVJNk10ZXJMbk9WdUs5cE1oUWxnM1RoT0s1UGxQRDFGQ3Buc2dVY19jX3R2S1JyaA?oc=5",
+      "snippet": "Industrial Info",
+      "published": "2026-10-09T12:05:21+00:00"
+    },
+    {
+      "n": 33,
+      "title": "Can BWX Technologies' Uranium Processing Capabilities Drive Growth?",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWUV0OF9MaEZoU3Zlc3dFWUZLMXRWZ0F4c1dWcUI2WnZEOVVHQVd1SC0xVGVBZzR1NWRXOGEwbWFNcTdfT2pVaXI5ZE9GRXVEZkkwTjZROXVfZzNMVnZRdzhRV0F4TmpYbWFTZUhfYURRUWtaNjZMYlduLU01WkRYY3Z5WkhPbl9OeWdBS3dFUXYxMWd3YW55VFUzT3IzcFlfY3FId3BNZDBLUURFUFFtZFZad3FWQmN4UmRxNlJn?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-09T15:04:00+00:00"
+    },
+    {
+      "n": 34,
+      "title": "Trump pauses sanctions on Russia in bid to lower diesel prices",
+      "source": "MarketWatch",
+      "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQOWoycm9zQkNIT1E1Y2hQcmZVanJDUnY2MmJVLWRWSlZ3T1oza3EzTml5eVV5VWRmdFpHVlNCci1aZ0F3VU5HYm02WC0yUnNoOXlFNnF4Ymh1TU5wY01XRHRuSEVObWFTVm1DWWZjMy1wZGRPZ3p0X3J2OTJaZDJjTXBqTDBQaE95UHkwUDQweWtZVFZGT0d3VzlmZWpLRnlWVXcweVVlUVpTdjJfVzdQVWhvNmtNQ0pGeDlUNTdPbkJsODBFWnFTQWczWWh6OEc5ZzdZM3NZbENLRVBTMGVGYWxPWjZEN0hZblFXTlptSFdaUUE2N283UW9DdDVlZ0kxYXFvcmFQR1owdkhENmhEdHZsdWhnMmFsbHZMZ3dncXhaQmo3Sl9jWmljR2lHRHE1Ulk0S0pQdVhUNzVheEhtWXJBdldpZWJhbWFSQjlLVlBSSGk1WkE?oc=5",
+      "snippet": "MarketWatch",
+      "published": "2026-10-09T19:27:00+00:00"
+    },
+    {
+      "n": 35,
+      "title": "Moderna stock jumps on planned national cancer vaccine effort",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVEpJaUZFc3YtMEQ3bngzMU1SRl84YzZEakZScnFjWjhYeFpCOFNJMW4tTFpEN0pjemhFanJ0MEQyOEVlNWl0QTZuNXhFT1M5QTJ2STAwOGNXNUE5cERjd2lkVFZZTVFET0dzZHgzTThDcG44YWxGMXVCcEp3UUNQa0tVVmNzYUV0a1pOTnNMU0hSSEZvQTc0MktsUjhHTmVrdEZEVjBSWktyVTdUeXo0TzhfcTRseHk2V0dfZHkyTFRRNDQ?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-09T16:14:58+00:00"
+    },
+    {
+      "n": 36,
+      "title": "Stock Market Today: Dow Rallies 400 Points As These Energy Stocks Hit Highs (Live Coverage)",
+      "source": "Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaEtaSVRZUWhEcnRiZ3RkLUs2czBWaGRTYUFDb2pIWXlSeWpVcEg2YllrUm5VRTZoQVFwTmNRZ3RJMkFzemhTOVVkZkxjWWZiWEd4c0hxb1Jnbnd2dnhYSVN5b1VvTWJvbUtyc005NUIyR3JEY2hjVDVNVTNHMVpIdEU1bnd1X0JPeGp2YU1PRDZ0ejA0bm5CTzB1VXgtQ2tNcGd5U09EQ1l1cDdETW1vUXhQbw?oc=5",
+      "snippet": "Investor's Business Daily",
+      "published": "2026-10-09T17:49:00+00:00"
+    },
+    {
+      "n": 37,
+      "title": "Trump escalates effort to fire Federal Reserve governor Lisa Cook",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYjlOZTQ4TndWWU5vZlFJRXZmTWpHemhxVnlsWi1RVE1aalh6MEhhRTNzU1Vvc2lpb050STlEWFJ5OVE1a0tjWnZGZkxtbnpUVWZocHBOSTR3MnREUXBmbTJpN2pRb0s1LXByRkRjekxYdXVxaVFGdlNib0JQUnptYndHUkplMURQUG5mcnFkbzY2QV9mRE44Z2dnUTZVUGVTbFBsQXJieHR5NG9lR2NFZk43enU?oc=5",
+      "snippet": "The Washington Post Trump establishes committee to investigate Federal Reserve's Lisa Cook in latest effort to fire her Yahoo Trump announces committee to investigate Federal Reserve’s Lisa Cook ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-10-09T18:42:52+00:00"
+    },
+    {
+      "n": 38,
+      "title": "Trump establishes panel to probe Fed governor Lisa Cook in latest attempt to fire her",
+      "source": "NBC News",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ1p0ZVQwNWZjSmliSmtvcHVQSlcwUWl2VmstZC1JVkJJb25vZkRZOXNZbTlLTDVIM1c2a2JqNGRDaWdOYjFCZDZEcEd4d083Wm1pLUc2MEZVb2R5X0hCbnBzLVp3QzJXdXhtT0lpX1lZZWtxOXNxeUNMNHozcVFELV9nbjRELXk2?oc=5",
+      "snippet": "NBC News",
+      "published": "2026-10-09T15:00:53+00:00"
+    },
+    {
+      "n": 39,
       "title": "Trump launches probe into Federal Reserve Governor Lisa Cook",
       "source": "Al Jazeera",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ2JMVFlBWUdLenV3SlJWX0s0bW01cmo5WWNpb1l3QkpUSGVfclpZS0ZfcnBUVnAwWXctUVZidFl0a09OM1lzMWdKMjFySzhDclFJaU5DNHdLNjNUV3lSSGhkOW9GZ1VUTm9mZG9KcU4zckl2Znk3cjJ5MUNIYTVibFF6YWtFNl9lcUFRSXVMSXVjRUt0V01oeEVBcnpORWY0aUl3ZEdlY9IBrAFBVV95cUxOTHRKdmZEUGkzR0gtRC1aOE10NHU2cVVpeUVXaHFlVTZ6WTJLOGpON3F1OXR2WTB4Y2tWekN0NWxBdnE1bEJ6bUZlUkkyMEhiMU1HN1FsTkVYVUhZbzJ5NDlKZU1UTENuUWo0d3lOd0Z5bkJMY1FTSDNIU1MwbTNCaWppU21tNHQ5QkJmUmNJSXJNcHRkRnNGZW40VkdVclJnYkt0Q0dCOEVCTmNJ?oc=5",
@@ -362,13 +458,16 @@
     4,
     5,
     6,
-    16,
-    20,
-    22,
-    23
+    12,
+    13,
+    14,
+    15,
+    29,
+    30,
+    31
   ],
   "invalid_citations": [],
-  "example_prompt": "Move: S&P 500 rose 0.54% to 7807.01.\n\nHeadlines:\n[1] Fox Business, Oct 07 08:58 AM ET: Tech stocks boost S&P 500 to record close\n    Fox Business\n[2] MarketWatch, Oct 09 12:44 PM ET: Stock Market Today: S&P 500 approaches fresh record high; Dow and Nasdaq climb as tech stocks rebound\n    MarketWatch\n[3] Axios, Oct 07 07:12 AM ET: S&P 500 high aside, rate surge is hitting stocks\n    Axios\n[4] Yahoo Finance, Oct 09 01:05 PM ET: Stock market today: Dow, S&P 500, Nasdaq rise as oil prices fall, tech recovers\n    Yahoo Finance\n\nWrite the subheading and body.",
+  "example_prompt": "Move: S&P 500 rose 0.59% to 7811.51.\n\nHeadlines:\n[1] Fox Business, Oct 07 08:58 AM ET: Tech stocks boost S&P 500 to record close\n    Fox Business\n[2] MarketWatch, Oct 09 12:44 PM ET: Stock Market Today: S&P 500 approaches fresh record high; Dow and Nasdaq climb as tech stocks rebound\n    MarketWatch\n[3] Axios, Oct 07 07:12 AM ET: S&P 500 high aside, rate surge is hitting stocks\n    Axios\n[4] Yahoo Finance, Oct 09 01:05 PM ET: Stock market today: Dow, S&P 500, Nasdaq rise as oil prices fall, tech recovers\n    Yahoo Finance\n\nWrite the subheading and body.",
   "retrieval": [
     {
       "move": "S&P 500",
@@ -432,7 +531,7 @@
         },
         {
           "n": 11,
-          "similarity": 0.751
+          "similarity": 0.752
         }
       ]
     },
@@ -446,7 +545,7 @@
         },
         {
           "n": 13,
-          "similarity": 0.731
+          "similarity": 0.732
         },
         {
           "n": 14,
@@ -464,11 +563,11 @@
       "hits": [
         {
           "n": 16,
-          "similarity": 0.723
+          "similarity": 0.734
         },
         {
           "n": 17,
-          "similarity": 0.721
+          "similarity": 0.723
         },
         {
           "n": 18,
@@ -476,7 +575,7 @@
         },
         {
           "n": 19,
-          "similarity": 0.699
+          "similarity": 0.721
         }
       ]
     },
@@ -494,19 +593,252 @@
         },
         {
           "n": 22,
-          "similarity": 0.745
+          "similarity": 0.747
         },
         {
           "n": 23,
-          "similarity": 0.731
+          "similarity": 0.745
         }
       ]
     }
   ],
+  "industries": [
+    {
+      "slug": "agriculture",
+      "name": "Agriculture",
+      "moves": {
+        "Corn": {
+          "last": 480.5,
+          "change": -19.75,
+          "pct": -3.95,
+          "unit": "cents/bu"
+        },
+        "Wheat": {
+          "last": 670.75,
+          "change": -12.5,
+          "pct": -1.83,
+          "unit": "cents/bu"
+        },
+        "Soybeans": {
+          "last": 1292.25,
+          "change": 4.75,
+          "pct": 0.37,
+          "unit": "cents/bu"
+        }
+      },
+      "sources": [
+        17,
+        24,
+        25
+      ],
+      "retrieval": [
+        {
+          "label": "Corn",
+          "query": "Why did corn futures crop prices fall",
+          "hits": [
+            {
+              "n": 17,
+              "similarity": 0.735
+            },
+            {
+              "n": 24,
+              "similarity": 0.719
+            }
+          ]
+        },
+        {
+          "label": "Wheat",
+          "query": "Why did wheat futures grain prices fall",
+          "hits": [
+            {
+              "n": 17,
+              "similarity": 0.72
+            },
+            {
+              "n": 24,
+              "similarity": 0.691
+            }
+          ]
+        },
+        {
+          "label": "Soybeans",
+          "query": "Why did soybean futures exports rise",
+          "hits": [
+            {
+              "n": 25,
+              "similarity": 0.67
+            },
+            {
+              "n": 17,
+              "similarity": 0.645
+            }
+          ]
+        }
+      ],
+      "headline": "Agriculture Futures Feel Oil's Pinch",
+      "body": "The recent decline in oil prices is having a ripple effect on the agriculture industry, with corn and wheat futures falling as a result. Investors are watching the impact of higher oil prices on the overall market, and the potential for a pullback in AI-related stocks. Meanwhile, soybeans are bucking the trend, rising as investors look for alternative investments. The TSX futures are expected to edge higher ahead of jobs data, which may impact the market's sentiment."
+    },
+    {
+      "slug": "mining",
+      "name": "Mining",
+      "moves": {
+        "Copper": {
+          "last": 6.71,
+          "change": 0.19,
+          "pct": 2.9,
+          "unit": "$/lb"
+        },
+        "Silver": {
+          "last": 60.94,
+          "change": 1.88,
+          "pct": 3.18,
+          "unit": "$/oz"
+        },
+        "Gold miners": {
+          "last": 89.29,
+          "change": 2.57,
+          "pct": 2.96,
+          "unit": "GDX ETF"
+        }
+      },
+      "sources": [
+        26,
+        27,
+        23,
+        21,
+        28,
+        20
+      ],
+      "retrieval": [
+        {
+          "label": "Copper",
+          "query": "Why did copper prices mining supply rise",
+          "hits": [
+            {
+              "n": 26,
+              "similarity": 0.729
+            },
+            {
+              "n": 27,
+              "similarity": 0.664
+            }
+          ]
+        },
+        {
+          "label": "Silver",
+          "query": "Why did silver prices precious metals rise",
+          "hits": [
+            {
+              "n": 23,
+              "similarity": 0.741
+            },
+            {
+              "n": 21,
+              "similarity": 0.722
+            }
+          ]
+        },
+        {
+          "label": "Gold miners",
+          "query": "Why did gold mining stocks miners rise",
+          "hits": [
+            {
+              "n": 28,
+              "similarity": 0.738
+            },
+            {
+              "n": 20,
+              "similarity": 0.709
+            }
+          ]
+        }
+      ],
+      "headline": "Mining Stocks Soar Amid Rising Commodity Prices",
+      "body": "The mining industry is experiencing a surge in stock prices due to rising commodity prices, particularly copper and silver. Copper prices rose 2.9% and silver rose 3.18%, with gold miners also seeing a 2.96% gain. This uptick is largely driven by concerns over mine supply risks and China's demand for these metals, as well as easing interest rates and a pause in the dollar's decline. As a result, investors are taking notice and are optimistic about the sector's performance."
+    },
+    {
+      "slug": "natural-resources",
+      "name": "Natural resources",
+      "moves": {
+        "Natural gas": {
+          "last": 3.2,
+          "change": 0.03,
+          "pct": 0.92,
+          "unit": "$/MMBtu"
+        },
+        "Lumber": {
+          "last": 532.5,
+          "change": 14.0,
+          "pct": 2.7,
+          "unit": "$/1,000 bd ft"
+        },
+        "Uranium": {
+          "last": 38.89,
+          "change": 0.33,
+          "pct": 0.86,
+          "unit": "URA ETF"
+        }
+      },
+      "sources": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "retrieval": [
+        {
+          "label": "Natural gas",
+          "query": "Why did natural gas prices LNG rise",
+          "hits": [
+            {
+              "n": 29,
+              "similarity": 0.714
+            },
+            {
+              "n": 30,
+              "similarity": 0.668
+            }
+          ]
+        },
+        {
+          "label": "Lumber",
+          "query": "Why did lumber prices sawmills housing rise",
+          "hits": [
+            {
+              "n": 31,
+              "similarity": 0.635
+            },
+            {
+              "n": 30,
+              "similarity": 0.603
+            }
+          ]
+        },
+        {
+          "label": "Uranium",
+          "query": "Why did uranium nuclear power rise",
+          "hits": [
+            {
+              "n": 32,
+              "similarity": 0.695
+            },
+            {
+              "n": 33,
+              "similarity": 0.661
+            }
+          ]
+        }
+      ],
+      "headline": "Natural Gas Prices Rise Amid Winter Concerns",
+      "body": "As El Niño strengthens, natural gas prices are rising due to concerns about winter supply. This is despite the strong El Niño, which typically leads to lower natural gas prices. Investors are watching supply threats, including Houthi attacks and a US Gulf storm, which could impact oil and natural gas production. Additionally, home heating oil prices are soaring, with users' winter bills potentially rising by 21%. [29] [31] [30]"
+    }
+  ],
   "stats": {
-    "headlines_fetched": 34,
-    "headlines_new": 34,
-    "index_size": 494,
-    "llm_calls": 7
+    "headlines_fetched": 58,
+    "headlines_new": 41,
+    "index_size": 535,
+    "desk_searches": 9,
+    "llm_calls": 10
   }
 }
