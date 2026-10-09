@@ -61,4 +61,8 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add "$BRIEF_OUT" "$BRIEF_DB"
           git commit -m "Morning brief $(date -u +%F)" || echo "Nothing new to commit"
-          git push
+          # The deals and price jobs push to this branch too, so catch up first
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push && break
+            sleep 5
+          done
