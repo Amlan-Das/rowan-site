@@ -6,6 +6,8 @@
 4. Augment   build one prompt per move with only that move's numbered headlines
 5. Generate  a local LLM (Ollama) writes a subheaded section per move as JSON,
              then a headline sentence and a few other stories worth knowing
+6. Desks     each industry desk (industries.py) gets its own prices, its own
+             searches and one short note, cited from the same source list
 
 Output goes to brief.json: the sections, the sources, and everything needed to
 show how it was made (queries, similarity scores, citations).
@@ -16,6 +18,7 @@ import re
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
+import industries
 import llm
 import store
 from headlines import get_headlines
@@ -26,6 +29,8 @@ OUTPUT_PATH = os.environ.get("BRIEF_OUT", "output/brief.json")
 RETRIEVE_DAYS = 3     # how far back the retriever can look
 TOP_K = 4             # headlines retrieved per move
 MAX_GENERAL = 8       # extra fresh headlines offered for "also worth knowing"
+DESK_TOP_K = 2        # headlines retrieved per instrument on an industry desk
+DESK_MAX_SOURCES = 6  # most headlines one desk note is written from
 
 # Plain-English search text for each instrument. "Crude Oil fell" alone is a
 # weak query; the words a news headline would actually use retrieve better.
@@ -56,6 +61,19 @@ SECTION_SCHEMA = {
     "properties": {"headline": {"type": "string"}, "body": {"type": "string"}},
     "required": ["headline", "body"],
 }
+
+DESK_SYSTEM = """You are a markets writer covering the {industry} industry for finance students.
+
+Rules:
+- Use only the numbered headlines you are given. Do not add facts, numbers, names or dates that are not in them.
+- Put the headline number in square brackets after each claim, like [3].
+- Do not repeat prices or percentage moves. The page already shows them.
+- Explain what is driving the industry right now and what people in it are watching, in plain language.
+- If none of the headlines are about this industry, say that no clear industry news appeared.
+
+Reply in JSON with:
+"headline": a subheading of at most 8 words, no brackets
+"body": two to four sentences with citations"""
 
 OVERVIEW_SYSTEM = """You write the top of a morning markets note.
 
@@ -91,6 +109,31 @@ def retrieve_for_moves(moves):
         query = f"Why did {SEARCH_HINTS.get(name, name)} {direction}"
         hits = store.search(query, k=TOP_K, days=RETRIEVE_DAYS)
         log.append({"move": name, "query": query, "hits": hits})
+    return log
+
+
+def retrieve_for_desk(ind, desk_moves):
+    """One search per instrument on an industry desk, worded like the move searches."""
+    log = []
+    for inst in ind["instruments"]:
+        m = desk_moves.get(inst["name"])
+        if m:
+            direction = "rise" if m["pct"] > 0 else "fall" if m["pct"] < 0 else "hold steady"
+            query = f"Why did {inst['hint']} {direction}"
+        else:
+            query = f"{inst['hint']} news"  # no price today, so search the topic itself
+        hits = store.search(query, k=DESK_TOP_K, days=RETRIEVE_DAYS)
+        log.append({"desk": ind["slug"], "label": inst["name"], "query": query, "hits": hits})
+
+    # Keep the note focused: if the searches found more different headlines than
+    # DESK_MAX_SOURCES, drop the least similar ones before anything gets a number
+    best = {}
+    for e in log:
+        for h in e["hits"]:
+            best[h["id"]] = max(best.get(h["id"], 0), h["similarity"])
+    keep = set(sorted(best, key=best.get, reverse=True)[:DESK_MAX_SOURCES])
+    for e in log:
+        e["hits"] = [h for h in e["hits"] if h["id"] in keep]
     return log
 
 
@@ -138,6 +181,19 @@ def section_prompt(name, m, sources):
             "\n\nWrite the subheading and body.")
 
 
+def desk_prompt(ind, desk_moves, sources):
+    moved = []
+    for inst in ind["instruments"]:
+        m = desk_moves.get(inst["name"])
+        if m:
+            verb = "rose" if m["pct"] > 0 else "fell" if m["pct"] < 0 else "was flat"
+            moved.append(f"{inst['name']} {verb} {abs(m['pct'])}%.")
+    return (f"Industry: {ind['name']}\n" +
+            (f"Moves at the last close: {' '.join(moved)}\n" if moved else "") +
+            "\nHeadlines:\n" + "\n".join(_source_line(s) for s in sources) +
+            "\n\nWrite the subheading and body.")
+
+
 # ---------- 5. Generate ----------
 
 def write_section(entry, m, by_n):
@@ -156,8 +212,38 @@ def write_section(entry, m, by_n):
     return section
 
 
-def write_overview(sections, sources):
-    covered = {n for s in sections for n in s["sources"]}
+def write_desk(ind, log, desk_moves, by_n):
+    """One LLM call per industry desk, with only the headlines its searches found."""
+    ns = []
+    for e in log:
+        for h in e["hits"]:
+            if h["n"] not in ns:
+                ns.append(h["n"])
+    desk = {
+        "slug": ind["slug"], "name": ind["name"], "moves": desk_moves, "sources": ns,
+        "retrieval": [{"label": e["label"], "query": e["query"],
+                       "hits": [{"n": h["n"], "similarity": h["similarity"]} for h in e["hits"]]}
+                      for e in log],
+    }
+    if not ns:
+        desk.update(headline="No clear industry news",
+                    body="None of the stored headlines were close enough to this desk's searches to write from.")
+        return desk
+    try:
+        out = llm.generate(DESK_SYSTEM.replace("{industry}", ind["name"]),
+                           desk_prompt(ind, desk_moves, [by_n[n] for n in ns]), schema=SECTION_SCHEMA)
+        desk["headline"] = out["headline"].strip().rstrip(".")
+        desk["body"] = out["body"].strip()
+    except Exception as e:
+        # A bad reply on one desk shouldn't cost the whole brief
+        print(f"Desk note failed for {ind['name']}: {e}")
+        desk.update(headline="Note unavailable this morning",
+                    body="The model's reply for this desk couldn't be read, so the headlines it was given are listed instead.")
+    return desk
+
+
+def write_overview(sections, sources, also_covered=()):
+    covered = {n for s in sections for n in s["sources"]} | set(also_covered)
     extras = [s for s in sources if s["n"] not in covered] or sources
     prompt = ("Section summaries:\n" +
               "\n".join(f"- {s['move']} ({'+' if s['pct'] >= 0 else ''}{s['pct']}%): {s['headline']}. {s['body']}"
@@ -179,7 +265,7 @@ def check_citations(text, n_sources):
     return valid, invalid
 
 
-def as_text(lede, sections, also):
+def as_text(lede, sections, also, desks=()):
     """Plain-text version, used by the site's terminal and the console report."""
     parts = [lede, ""]
     for s in sections:
@@ -187,6 +273,8 @@ def as_text(lede, sections, also):
         parts.append(f"{s['move']} ({sign}{s['pct']}% to {s['last']}): {s['headline']}. {s['body']}")
     if also:
         parts += ["", "Also worth knowing:"] + [f"- {a['note']}" for a in also]
+    if desks:
+        parts += ["", "Industry desks:"] + [f"- {d['name']}: {d['headline']}. {d['body']}" for d in desks]
     return "\n".join(parts)
 
 
@@ -196,6 +284,13 @@ def build_brief():
     # 1. Ingest
     moves = get_moves()
     fresh = get_headlines()
+    desk_moves = {}
+    for ind in industries.INDUSTRIES:
+        dm = get_moves(industries.watchlist(ind))
+        for inst in ind["instruments"]:
+            if inst["name"] in dm:
+                dm[inst["name"]]["unit"] = inst["unit"]
+        desk_moves[ind["slug"]] = dm
 
     # 2. Index
     added = store.add_headlines(fresh)
@@ -203,9 +298,10 @@ def build_brief():
 
     # 3. Retrieve
     retrieval_log = retrieve_for_moves(moves)
+    desk_logs = {ind["slug"]: retrieve_for_desk(ind, desk_moves[ind["slug"]]) for ind in industries.INDUSTRIES}
 
-    # 4. Augment
-    sources = number_sources(retrieval_log, fresh)
+    # 4. Augment: the moves' headlines take the first numbers, then the desks', then the extras
+    sources = number_sources(retrieval_log + [e for log in desk_logs.values() for e in log], fresh)
     by_n = {s["n"]: s for s in sources}
 
     # 5. Generate: one section per move, then the headline sentence
@@ -213,10 +309,17 @@ def build_brief():
     for entry in retrieval_log:
         print(f"Writing {entry['move']}...")
         sections.append(write_section(entry, moves[entry["move"]], by_n))
-    print("Writing the headline...")
-    lede, also = write_overview(sections, sources)
 
-    text = as_text(lede, sections, also)
+    # 6. One note per industry desk
+    desks = []
+    for ind in industries.INDUSTRIES:
+        print(f"Writing the {ind['name']} desk...")
+        desks.append(write_desk(ind, desk_logs[ind["slug"]], desk_moves[ind["slug"]], by_n))
+
+    print("Writing the headline...")
+    lede, also = write_overview(sections, sources, also_covered=[n for d in desks for n in d["sources"]])
+
+    text = as_text(lede, sections, also, desks)
     cited, invalid = check_citations(text, len(sources))
 
     return {
@@ -239,11 +342,13 @@ def build_brief():
              "hits": [{"n": h["n"], "similarity": h["similarity"]} for h in e["hits"]]}
             for e in retrieval_log
         ],
+        "industries": desks,
         "stats": {
             "headlines_fetched": len(fresh),
             "headlines_new": added,
             "index_size": store.count(),
-            "llm_calls": sum(1 for s in sections if s["sources"]) + 1,
+            "desk_searches": sum(len(log) for log in desk_logs.values()),
+            "llm_calls": sum(1 for s in sections if s["sources"]) + sum(1 for d in desks if d["sources"]) + 1,
         },
     }
 
@@ -263,6 +368,11 @@ def print_report(result):
         for h in e["hits"]:
             s = by_n[h["n"]]
             print(f"   [{h['n']}] {h['similarity']:.2f}  {s['source']}: {s['title'][:80]}")
+    for d in result.get("industries", []):
+        print(f"\n{d['name']} desk: sources {d['sources'] or 'none'}")
+        for e in d["retrieval"]:
+            found = ", ".join(f"[{h['n']}] {h['similarity']:.2f}" for h in e["hits"]) or "nothing passed the cutoff"
+            print(f"   {e['label']}  \"{e['query']}\"  {found}")
     print(f"\nCited: {result['cited'] or 'none'}")
     if result["invalid_citations"]:
         print(f"WARNING: cited sources that don't exist: {result['invalid_citations']}")

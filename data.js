@@ -71,6 +71,20 @@ const PROJECTS = [
   }
 ];
 
+// Industry desks: the tabs under the morning brief on brief.html.
+// Each desk shows a daily note from the brief pipeline and a primer you write yourself.
+//   slug     must match the slug in brief/industries.py (that file sets the prices and searches)
+//   name     the tab label
+//   primer   your primer, written in Markdown. Until the file has text in it, the page
+//            shows that the primer is in progress. The comment at the top of each file
+//            has a short Markdown guide.
+//   updated  when you last revised the primer, e.g. "October 2026" (leave "" to hide)
+const INDUSTRIES = [
+  { slug: "agriculture", name: "Agriculture", primer: "primers/agriculture.md", updated: "" },
+  { slug: "mining", name: "Mining", primer: "primers/mining.md", updated: "" },
+  { slug: "natural-resources", name: "Natural resources", primer: "primers/natural-resources.md", updated: "" }
+];
+
 // Pitches: stock calls you've made. Shown on pitches.html.
 // Fill in the real numbers as you go — leave a field "" or null if you
 // don't have it yet, and the page shows a placeholder instead of breaking.

@@ -65,6 +65,74 @@ function initSteps(list, onStep) {
   steps.forEach((s) => io.observe(s));
 }
 
+/* ---------- Primers (brief.html) ----------
+   Turns a hand-written Markdown primer into HTML. Covers what a primer needs:
+   headings, paragraphs, bullet and numbered lists, quotes, tables, dividers,
+   images, links, bold, italic and code. HTML comments are dropped, which is
+   where each primer file keeps its writing guide. */
+function mdToHtml(src) {
+  const text = String(src || "").replace(/<!--[\s\S]*?-->/g, "").replace(/\r\n?/g, "\n");
+  const url = (u) => /^\s*(javascript|data|vbscript):/i.test(u) ? "#" : u;
+  const inline = (t) => esc(t)
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (_, alt, u) => '<img src="' + url(u) + '" alt="' + alt + '" loading="lazy">')
+    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, t, u) =>
+      '<a href="' + url(u) + '"' + (/^https?:/i.test(u) ? ' target="_blank" rel="noopener"' : "") + ">" + t + "</a>")
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/(^|[^*\w])\*([^*\s](?:[^*]*[^*\s])?)\*/g, "$1<em>$2</em>")
+    .replace(/(^|[^\w])_([^_\s](?:[^_]*[^_\s])?)_(?=[^\w]|$)/g, "$1<em>$2</em>");
+  const cells = (row) => row.trim().replace(/^\||\|$/g, "").split("|").map((c) => c.trim());
+
+  const lines = text.split("\n"), out = [];
+  let para = [];
+  const flush = () => { if (para.length) { out.push("<p>" + inline(para.join(" ")) + "</p>"); para = []; } };
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i], t = line.trim();
+    if (!t) { flush(); continue; }
+    let m;
+    if ((m = t.match(/^(#{1,4})\s+(.*)$/))) {
+      flush();
+      const lv = Math.min(m[1].length + 2, 6);   // # becomes h3, so headings sit under the primer title
+      out.push("<h" + lv + ">" + inline(m[2].replace(/\s#+$/, "")) + "</h" + lv + ">");
+    } else if (/^([-*_])(\s*\1){2,}$/.test(t)) {
+      flush(); out.push("<hr>");
+    } else if (t.startsWith(">")) {
+      flush();
+      const q = [];
+      while (i < lines.length && lines[i].trim().startsWith(">")) q.push(lines[i++].trim().replace(/^>\s?/, ""));
+      i--;
+      out.push("<blockquote>" + q.join("\n").split(/\n\s*\n/).map((p) => "<p>" + inline(p.replace(/\n/g, " ")) + "</p>").join("") + "</blockquote>");
+    } else if (/^([-*+]|\d+[.)])\s+/.test(t)) {
+      flush();
+      const ordered = /^\d/.test(t), items = [];
+      while (i < lines.length) {
+        const l = lines[i].trim();
+        if (/^([-*+]|\d+[.)])\s+/.test(l)) items.push(l.replace(/^([-*+]|\d+[.)])\s+/, ""));
+        else if (l && items.length && /^\s+/.test(lines[i])) items[items.length - 1] += " " + l;  // wrapped line
+        else break;
+        i++;
+      }
+      i--;
+      out.push("<" + (ordered ? "ol" : "ul") + ">" + items.map((x) => "<li>" + inline(x) + "</li>").join("") + "</" + (ordered ? "ol" : "ul") + ">");
+    } else if (t.startsWith("|") && i + 1 < lines.length && /^\|?\s*:?-{2,}/.test(lines[i + 1].trim())) {
+      flush();
+      const head = cells(t), body = [];
+      const align = cells(lines[i + 1]).map((c) => /:$/.test(c) ? (/^:/.test(c) ? "center" : "right") : "");
+      i += 2;
+      while (i < lines.length && lines[i].trim().startsWith("|")) body.push(cells(lines[i++]));
+      i--;
+      const td = (tag, c, k) => "<" + tag + (align[k] ? ' style="text-align:' + align[k] + '"' : "") + ">" + inline(c) + "</" + tag + ">";
+      out.push('<div class="primer-table"><table><thead><tr>' + head.map((c, k) => td("th", c, k)).join("") + "</tr></thead><tbody>" +
+        body.map((r) => "<tr>" + r.map((c, k) => td("td", c, k)).join("") + "</tr>").join("") + "</tbody></table></div>");
+    } else {
+      para.push(t);
+    }
+  }
+  flush();
+  return out.join("\n");
+}
+
 /* ---------- Open and close rows (one open at a time) ---------- */
 function setRowOpen(row, open) {
   row.classList.toggle("open", open);

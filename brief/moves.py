@@ -10,9 +10,9 @@ WATCHLIST = {
 }
 
 
-def get_moves():
+def get_moves(watchlist=None):
     moves = {}
-    for name, ticker in WATCHLIST.items():
+    for name, ticker in (watchlist or WATCHLIST).items():
         try:
             # 5d instead of 2d so a holiday or a partial session doesn't leave us short
             hist = yf.Ticker(ticker).history(period="5d")

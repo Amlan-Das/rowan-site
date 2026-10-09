@@ -51,6 +51,15 @@
     </aside>
   </div>
 
+  <section class="ed-sec" id="industries" aria-labelledby="indTitle">
+    <div class="ed-sechead">
+      <h2 class="ed-h2" id="indTitle">Industry desks</h2>
+      <p>A note on each industry from the same pipeline and the same source list, with a primer I wrote by hand underneath.</p>
+    </div>
+    <div class="ind-tabs" role="tablist" aria-label="Industries" id="indTabs"></div>
+    <div id="indPanels"></div>
+  </section>
+
   <section class="ed-sec" id="sources" aria-labelledby="srcTitle">
     <div class="ed-sechead">
       <h2 class="ed-h2" id="srcTitle">Sources</h2>
@@ -72,7 +81,7 @@
         <li class="ed-step" data-step="1">
           <p class="snum">Step 1</p>
           <h3>Pull prices and headlines</h3>
-          <p>Python asks yfinance for the last two closes on six instruments: the S&amp;P 500, the Nasdaq, the 10-year yield, USD/JPY, crude and gold. It then reads Google News RSS feeds for eight searches. RSS arrives as XML, so the code parses each item, drops anything older than 16 hours, strips the HTML out of the snippet and removes stories that showed up under more than one search.</p>
+          <p>Python asks yfinance for the last two closes on six instruments: the S&amp;P 500, the Nasdaq, the 10-year yield, USD/JPY, crude and gold, plus the futures and ETFs each industry desk tracks. It then reads Google News RSS feeds for the market searches and each desk's own searches. RSS arrives as XML, so the code parses each item, drops anything older than 16 hours, strips the HTML out of the snippet and removes stories that showed up under more than one search.</p>
           <p>Each story gets an ID made from a hash of its link. The same article always gets the same ID, which is how it avoids being stored twice on later mornings.</p>
           <div class="ed-code"><span class="c"># headlines.py</span>
 "id": hashlib.sha1(link.encode()).hexdigest()[:16]</div>
@@ -220,12 +229,17 @@ Headlines:
         : '<div class="ed-hit"><span></span><span></span><span class="t">Nothing passed the cutoff.</span></div>') + "</div></div>"
     ).join("");
 
-    const hits = retrieval.reduce((a, r) => a + r.hits.length, 0);
-    $("run1").innerHTML = "This run: <b>6</b> instruments, <b>" + (st.headlines_fetched ?? "-") + "</b> headlines after parsing and de-duplicating.";
+    const desks = b.industries || [];
+    const deskSearches = desks.reduce((a, d) => a.concat(d.retrieval || []), []);
+    const hits = retrieval.concat(deskSearches).reduce((a, r) => a + r.hits.length, 0);
+    const instruments = Object.keys(b.moves || {}).length + desks.reduce((a, d) => a + Object.keys(d.moves || {}).length, 0);
+    $("run1").innerHTML = "This run: <b>" + (instruments || 6) + "</b> instruments, <b>" + (st.headlines_fetched ?? "-") + "</b> headlines after parsing and de-duplicating.";
     $("run2").innerHTML = "This run: <b>" + (st.headlines_new ?? "-") + "</b> new headlines embedded with " + esc(b.embed_model || "nomic-embed-text") + ".";
     $("run3").innerHTML = "The store now holds <b>" + (st.index_size ?? "-") + "</b> searchable headlines.";
     const calls = st.llm_calls || (b.sections ? b.sections.filter((x) => x.sources.length).length + 1 : 1);
-    $("run5").innerHTML = "This run: <b>" + hits + "</b> matches across six searches, written into <b>" + Math.max(calls - 1, 0) + "</b> focused prompts.";
+    $("run5").innerHTML = "This run: <b>" + hits + "</b> matches across " + (retrieval.length + deskSearches.length) + " searches" +
+      (deskSearches.length ? " (" + deskSearches.length + " for the industry desks)" : "") +
+      ", written into <b>" + Math.max(calls - 1, 0) + "</b> focused prompts.";
     $("run6").innerHTML = "This run: <b>" + calls + "</b> calls to " + esc(b.model || "") + ", <b>" + cited.size + "</b> of " + sources.length + " sources cited. " +
       ((b.invalid_citations || []).length ? '<span class="down">Invented citations: ' + b.invalid_citations.join(", ") + ".</span>" : "No invented citations.");
 
@@ -237,11 +251,135 @@ Headlines:
       $("code5").innerHTML = '<span class="c"># one of this morning\'s prompts</span>\n' + esc(cut.join("\n").trim());
     }
 
+    // The desks sit under the brief; a problem in one should never take the brief down with it
+    try { renderDesks(b); } catch (e) { console.error(e); }
     initFigure(b);
     initBriefSteps();
   }
 
   citeHover();
+
+  // ---------- Industry desks: one tab per industry, each with a note and a primer ----------
+  // The list of desks comes from INDUSTRIES in data.js; the notes come from brief.json.
+  function renderDesks(b) {
+    const written = (b && b.industries) || [];
+    const desks = (typeof INDUSTRIES !== "undefined" ? INDUSTRIES : []).slice();
+    // A desk the pipeline wrote but data.js doesn't list yet still gets a tab
+    written.forEach((d) => { if (!desks.some((x) => x.slug === d.slug)) desks.push({ slug: d.slug, name: d.name }); });
+    if (!desks.length || $("indTabs").childElementCount) { $("industries").hidden = !desks.length; return; }
+    const bySlug = {}; written.forEach((d) => (bySlug[d.slug] = d));
+    const bySrc = {}; ((b && b.sources) || []).forEach((s) => (bySrc[s.n] = s));
+
+    const noteHtml = (desk, d) => {
+      if (!d) return '<div class="ind-note"><p class="ed-label">Today on the desk</p><p class="ind-body">The first ' + esc(desk.name.toLowerCase()) +
+        " note arrives with the next morning's brief.</p></div>";
+      const how = (d.retrieval || []).map((r) =>
+        '<div class="ed-rrow"><span class="mv">' + esc(r.label) + '</span><div><span class="q">"' + esc(r.query) + '"</span>' +
+        (r.hits.length ? r.hits.map((h) => '<div class="ed-hit"><a class="n" href="#s' + h.n + '">' + h.n + '</a><span class="s">' + h.similarity.toFixed(2) + "</span>" +
+          '<span class="t">' + esc((bySrc[h.n] || {}).title || "") + "</span></div>").join("")
+          : '<div class="ed-hit"><span></span><span></span><span class="t">Nothing passed the cutoff.</span></div>') + "</div></div>").join("");
+      return '<div class="ind-note"><p class="ed-label">Today on the desk</p>' +
+        "<h3>" + esc(d.headline || "") + '</h3><p class="ind-body">' + citeHtml(d.body || "") + "</p>" +
+        (d.sources.length ? '<div class="ed-found">Written from ' + d.sources.map((n) => '<a href="#s' + n + '" data-n="' + n + '">' + n + "</a>").join("") + "</div>" : "") +
+        (how ? '<details class="ind-how"><summary>How this note was sourced</summary><p>One search per instrument against the same headline store, two closest headlines each, with the cosine similarity of every match.</p><div class="ed-rtab">' + how + "</div></details>" : "") +
+        "</div>";
+    };
+
+    const pricesHtml = (desk, d) => {
+      const rows = Object.entries((d && d.moves) || {});
+      if (!rows.length) return "";
+      return '<aside class="ed-markets ind-markets" aria-label="' + esc(desk.name) + ' prices"><p class="ed-label">' + esc(desk.name) + " at the last close</p><table><tbody>" +
+        rows.map(([name, m]) => {
+          const up = m.pct >= 0;
+          return "<tr><td>" + esc(name) + (m.unit ? "<small>" + esc(m.unit) + "</small>" : "") + '</td><td class="num">' + fmt(m.last) +
+            '</td><td class="num chg ' + (up ? "up" : "down") + '">' + (up ? "+" : "") + m.pct.toFixed(2) + "%</td></tr>";
+        }).join("") + '</tbody></table><p class="ed-note">Front-month futures and ETFs, last close against the one before.</p></aside>';
+    };
+
+    const primerHtml = (desk) =>
+      '<article class="primer" aria-labelledby="ph-' + esc(desk.slug) + '">' +
+        '<div class="primer-head"><h3 id="ph-' + esc(desk.slug) + '">Primer</h3>' +
+        '<p class="ed-byline"><span>' + esc(desk.name) + "</span><span>Written by Rowan Das</span>" + (desk.updated ? "<span>Updated " + esc(desk.updated) + "</span>" : "") + "</p></div>" +
+        '<div class="primer-body" id="pb-' + esc(desk.slug) + '"><p class="primer-wait">Loading the primer</p></div>' +
+        '<button type="button" class="btn primer-more" hidden aria-expanded="false">Read the full primer</button>' +
+      "</article>";
+
+    $("indTabs").innerHTML = desks.map((desk, i) =>
+      '<button type="button" class="ind-tab" role="tab" id="tab-' + esc(desk.slug) + '" aria-controls="' + esc(desk.slug) + '" aria-selected="' + (i === 0) + '" tabindex="' + (i === 0 ? 0 : -1) + '">' + esc(desk.name) + "</button>"
+    ).join("");
+    $("indPanels").innerHTML = desks.map((desk, i) => {
+      const d = bySlug[desk.slug];
+      return '<div class="ind-panel" role="tabpanel" id="' + esc(desk.slug) + '" aria-labelledby="tab-' + esc(desk.slug) + '"' + (i ? " hidden" : "") + ">" +
+        '<div class="ind-top' + (pricesHtml(desk, d) ? "" : " solo") + '">' + noteHtml(desk, d) + pricesHtml(desk, d) + "</div>" + primerHtml(desk) + "</div>";
+    }).join("");
+
+    // A long primer opens at a preview height with a button to read the rest.
+    // Panels that are hidden have no height yet, so each one is measured when it is first shown.
+    const fit = (panel) => {
+      const body = panel.querySelector(".primer-body"), more = panel.querySelector(".primer-more");
+      if (!body || body.dataset.fit || panel.hidden || !body.dataset.ready) return;
+      body.dataset.fit = "1";
+      if (body.scrollHeight > 760) { body.classList.add("clamped"); more.hidden = false; }
+    };
+    $("indPanels").addEventListener("click", (e) => {
+      const more = e.target.closest(".primer-more");
+      if (!more) return;
+      const body = more.parentElement.querySelector(".primer-body");
+      const open = body.classList.toggle("clamped") === false;
+      more.textContent = open ? "Show less" : "Read the full primer";
+      more.setAttribute("aria-expanded", String(open));
+      if (!open) more.parentElement.scrollIntoView({ block: "start", behavior: reduceMotion ? "auto" : "smooth" });
+    });
+
+    desks.forEach((desk) => {
+      const body = document.getElementById("pb-" + desk.slug);
+      const waiting = '<p class="primer-wait">In progress. I am writing this primer myself, and it will be posted here when it is finished.</p>';
+      const show = (html) => {
+        body.innerHTML = html || waiting;
+        body.closest(".primer").classList.toggle("empty", !html);
+        body.dataset.ready = "1";
+        fit(body.closest(".ind-panel"));
+      };
+      if (!desk.primer) { show(""); return; }
+      fetch(desk.primer, { cache: "no-cache" })
+        .then((r) => (r.ok && !/html/.test(r.headers.get("content-type") || "") ? r.text() : ""))
+        .then((t) => show(/^\s*<(!doctype|html)/i.test(t) ? "" : mdToHtml(t).trim()))
+        .catch(() => show(""));
+    });
+
+    // Tabs: click, arrow keys, and links like brief.html#mining
+    const tabs = Array.from($("indTabs").querySelectorAll(".ind-tab"));
+    const select = (tab, focus, link) => {
+      tabs.forEach((t) => {
+        const on = t === tab;
+        t.setAttribute("aria-selected", String(on)); t.tabIndex = on ? 0 : -1;
+        document.getElementById(t.getAttribute("aria-controls")).hidden = !on;
+      });
+      if (focus) tab.focus();
+      if (link) history.replaceState(null, "", "#" + tab.getAttribute("aria-controls"));  // so the tab can be shared
+      fit(document.getElementById(tab.getAttribute("aria-controls")));
+    };
+    $("indTabs").addEventListener("click", (e) => {
+      const t = e.target.closest(".ind-tab");
+      if (t) select(t, false, true);
+    });
+    $("indTabs").addEventListener("keydown", (e) => {
+      const i = tabs.indexOf(document.activeElement);
+      if (i < 0) return;
+      const j = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: tabs.length - 1 }[e.key];
+      if (j == null) return;
+      e.preventDefault();
+      select(tabs[(j + tabs.length) % tabs.length], true, true);
+    });
+    const fromHash = () => {
+      const t = tabs.find((x) => "#" + x.getAttribute("aria-controls") === location.hash);
+      if (!t) return;
+      select(t);
+      $("industries").scrollIntoView({ block: "start" });
+    };
+    fromHash();
+    window.addEventListener("hashchange", fromHash);
+  }
 
   // ---------- Steps ----------
   let setStep = () => {};
@@ -272,6 +410,7 @@ Headlines:
     .then(render)
     .catch(() => {
       $("edByline").innerHTML = "<span>No brief has been published yet. Check back on a weekday morning.</span>";
+      renderDesks(null);
       initBriefSteps();
     });
 })();

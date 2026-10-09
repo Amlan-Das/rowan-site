@@ -7,9 +7,12 @@ import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from datetime import datetime, timezone, timedelta
 
+import industries
+
 # Search terms to pull headlines for. The broad ones catch the overall market
 # story; the targeted ones give the retriever something to find for each
-# instrument on the watchlist.
+# instrument on the watchlist. The industry desks add their own feeds at the
+# end, so the first headlines are still the general market ones.
 QUERIES = [
     "stock market today",
     "Federal Reserve",
@@ -19,7 +22,7 @@ QUERIES = [
     "yen dollar",
     "oil prices",
     "gold prices",
-]
+] + industries.feeds()
 
 # Only keep headlines from roughly the last 16 hours. Older news still
 # lives in the vector store, so the retriever can reach back further.
