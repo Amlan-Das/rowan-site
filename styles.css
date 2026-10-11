@@ -619,3 +619,29 @@ footer.dark .foot { border-top: 0; }
 /* Markers inside the open panel sit on the soft colour, not the paper colour */
 .pslider .track .dot { box-shadow: 0 0 0 3px var(--soft); }
 .pslider .track .ring { background: var(--soft); }
+
+/* ------------------------------------------------------------------
+   Research cards and the deal case study tables
+------------------------------------------------------------------- */
+.rcard .rkind { margin: 0; color: var(--navy); font: 600 14px/1.4 var(--sans); }
+.rcard .btns { margin-top: auto; padding-top: 6px; }
+.rcard .btn { margin-top: 0; }
+
+.dtwrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.dtable { width: 100%; min-width: 600px; border-collapse: collapse; border-top: 1px solid var(--ink); font-size: 15px; font-variant-numeric: tabular-nums; }
+.dtable.narrow { min-width: 0; }
+.dtable th, .dtable td { padding: 9px 0 9px 18px; border-bottom: 1px solid var(--rule); text-align: right; white-space: nowrap; }
+.dtable thead th { padding-top: 10px; padding-bottom: 10px; border-bottom: 1px solid var(--rule-strong); color: var(--mist); font-size: 13px; font-weight: 500; }
+.dtable th:first-child, .dtable td:first-child { padding-left: 0; text-align: left; }
+.dtable tbody th { color: var(--ink); font-weight: 500; }
+.dtable td { color: var(--slate); }
+.dtable .txt { text-align: left; white-space: normal; }
+.dtable tr.tot th, .dtable tr.tot td { color: var(--ink); font-weight: 600; border-top: 1px solid var(--ink); }
+.dtable tr.sep th, .dtable tr.sep td { border-top: 1px solid var(--rule-strong); }
+.dpair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 48px; margin-top: 8px; }
+.dnote { margin: 12px 0 0; max-width: 72ch; color: var(--mist); font-size: 14px; line-height: 1.55; }
+.dafter { margin-top: 18px; }
+.dacts { margin-top: 26px; }
+@media (max-width: 860px) { .dpair { grid-template-columns: 1fr; } }
+/* Row labels stay put while a wide table scrolls sideways on a phone */
+.dtable th:first-child { position: sticky; left: 0; z-index: 1; background: var(--paper); padding-right: 12px; }

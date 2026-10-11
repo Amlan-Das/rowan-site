@@ -20,6 +20,7 @@
     <a class="mark" href="#top">Rowan Das</a>
     <nav aria-label="Main">
       <a href="#pitches">Pitches</a>
+      <a href="#research">Research</a>
       <a href="brief.html">Morning brief</a>
       <a href="deals.html">Deals</a>
       <a href="#projects">Projects</a>
@@ -51,6 +52,16 @@
     </div>
     <div class="ledger" id="pitchlist"></div>
     <p class="fine">Open a row for the thesis, the full write-up and the model. Live charts are on the <a href="pitches.html">pitches page</a>.</p>
+  </div>
+</section>
+
+<section id="research" class="band">
+  <div class="wrap">
+    <div class="sechead">
+      <h2>Research</h2>
+      <p class="note">Industry reports and deal case studies, with the models behind them.</p>
+    </div>
+    <div class="feat" id="researchlist"></div>
   </div>
 </section>
 
@@ -179,6 +190,9 @@ const etDay = (iso) => new Date(iso).toLocaleDateString("en-US", { timeZone: "Am
 
 // Pitches
 renderPitches($("pitchlist"), { charts: false });
+
+// Research
+renderResearch($("researchlist"));
 
 // Projects: the live tools get a column each, the planned ones a list
 (function () {

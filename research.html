@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research | Rowan Das</title>
+<meta name="description" content="Industry reports and deal case studies by Rowan Das, with the models behind them.">
+<meta property="og:title" content="Research | Rowan Das">
+<meta property="og:description" content="Industry reports and deal case studies, with the models behind them.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap bar">
+    <a class="mark" href="index.html">Rowan Das</a>
+    <nav aria-label="Main">
+      <a href="pitches.html">Pitches</a>
+      <a href="research.html" aria-current="page">Research</a>
+      <a href="brief.html">Morning brief</a>
+      <a href="deals.html">Deals</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <a class="cta" href="resume.pdf" data-resume>Résumé</a>
+  </div>
+</header>
+
+<main>
+  <section class="band">
+    <div class="wrap">
+      <div class="sechead">
+        <h1>Research</h1>
+        <p class="note">Industry reports and deal case studies, with the models behind them.</p>
+      </div>
+      <div class="feat" id="researchlist"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="dark">
+  <div class="wrap">
+    <div class="foot">
+      <p>&copy; 2026 Rowan Das</p>
+      <p>Not investment advice.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="common.js"></script>
+<script>
+renderResearch(document.getElementById("researchlist"));
+</script>
+</body>
+</html>
