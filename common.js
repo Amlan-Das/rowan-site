@@ -10,8 +10,80 @@ const onVisible = (el, fn, threshold) => {
   io.observe(el);
 };
 
-// Résumé links (any page)
+// Résumé and contact links (any page)
 document.querySelectorAll("[data-resume]").forEach((a) => { a.href = RESUME; a.target = "_blank"; a.rel = "noopener"; });
+document.querySelectorAll("[data-contact]").forEach((a) => {
+  const v = CONTACT[a.dataset.contact];
+  if (v) a.href = a.dataset.contact === "email" ? "mailto:" + v : v;
+});
+
+/* ---------- Getting around the long pages (brief.html and deals.html) ---------- */
+// Opens any folded section (a <details>) that holds the element with this id
+function revealTarget(id) {
+  const el = id ? document.getElementById(id) : null;
+  if (!el) return null;
+  for (let d = el.closest("details"); d; d = d.parentElement ? d.parentElement.closest("details") : null) d.open = true;
+  return el;
+}
+
+// After the page's content has loaded, go to the section named in the address bar.
+// The browser jumps there before the content above it exists, so the jump is redone here.
+function goToHash() {
+  let id = "";
+  try { id = decodeURIComponent(location.hash.slice(1)); } catch (e) { return; }
+  const el = revealTarget(id);
+  if (el && !el.matches('[role="tabpanel"]')) el.scrollIntoView({ block: "start" });
+}
+
+// The "on this page" bar: links to each section, with the one you are reading underlined.
+// Also makes citation links open the folded source list before the page jumps to it.
+function initPageNav() {
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest('a[href^="#"]');
+    if (a && a.getAttribute("href").length > 1) revealTarget(a.getAttribute("href").slice(1));
+  });
+  window.addEventListener("hashchange", () => revealTarget(location.hash.slice(1)));
+
+  const bar = document.querySelector(".subnav");
+  if (!bar) return;
+  const links = Array.from(bar.querySelectorAll('a[href^="#"]'));
+  const secs = links.map((a) => document.getElementById(a.getAttribute("href").slice(1)));
+  // A main menu link to a section of this page (Industries on the brief) lights up while that section is in view
+  const path = (p) => p.replace(/\.html$/, "").replace(/\/(index)?$/, "/");
+  const menu = Array.from(document.querySelectorAll(".site nav a"));
+  const pageLink = menu.find((a) => a.getAttribute("aria-current") === "page");
+  const sectionLink = (id) => menu.find((a) => a.hash === "#" + id && path(a.pathname) === path(location.pathname));
+  let queued = false;
+  const update = () => {
+    queued = false;
+    const line = bar.getBoundingClientRect().bottom + 40;
+    let cur = -1;
+    secs.forEach((s, i) => { if (s && !s.hidden && s.getBoundingClientRect().top <= line) cur = i; });
+    const atEnd = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4;
+    if (atEnd && cur >= 0) { const last = secs.map((s) => s && !s.hidden).lastIndexOf(true); if (last >= 0) cur = last; }
+    links.forEach((a, i) => {
+      const on = i === cur;
+      a.classList.toggle("on", on);
+      if (on) a.setAttribute("aria-current", "location"); else a.removeAttribute("aria-current");
+    });
+    if (pageLink) {
+      const mark = (cur >= 0 && sectionLink(secs[cur].id)) || pageLink;
+      menu.forEach((a) => { if (a !== mark && a.getAttribute("aria-current") === "page") a.removeAttribute("aria-current"); });
+      mark.setAttribute("aria-current", "page");
+    }
+    // On a phone the bar scrolls sideways, so keep the current link in view
+    const on = links[cur], row = on && on.parentElement;
+    if (row && row.scrollWidth > row.clientWidth) {
+      const r = on.getBoundingClientRect(), b = row.getBoundingClientRect();
+      if (r.left < b.left || r.right > b.right) row.scrollLeft += r.left - b.left - 16;
+    }
+  };
+  const queue = () => { if (!queued) { queued = true; requestAnimationFrame(update); } };
+  window.addEventListener("scroll", queue, { passive: true });
+  window.addEventListener("resize", queue);
+  document.addEventListener("toggle", queue, true);
+  update();
+}
 
 /* ---------- Formatting ---------- */
 const fmtUSD = (v) => (typeof v === "number" && isFinite(v))
@@ -267,7 +339,8 @@ async function renderPitches(host, opts) {
     const chart = opts.charts
       ? '<div class="lchart"><div class="tv" id="tv-' + esc(t) + '"></div><p>Live chart from TradingView. Not investment advice.</p></div>' : "";
 
-    return '<div class="lrow' + (i === 0 ? " open" : "") + '" data-ticker="' + esc(t) + '" id="' + esc(t) + '">' +
+    // On the pitches page the newest call opens by itself; on the home page every row starts closed
+    return '<div class="lrow' + (i === 0 && opts.charts ? " open" : "") + '" data-ticker="' + esc(t) + '" id="' + esc(t) + '">' +
       '<button class="lbtn" type="button" id="lb-' + esc(t) + '" aria-controls="lp-' + esc(t) + '" aria-expanded="false">' +
         '<span class="c-co"><span class="co">' + esc(p.company || t) + '</span><span class="tk">' + esc(t) + "</span></span>" +
         '<span class="c-call"><span class="call ' + (short ? "short" : "long") + '">' + esc(p.direction || "Pitch") + "</span></span>" +

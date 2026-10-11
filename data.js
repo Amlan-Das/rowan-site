@@ -79,8 +79,15 @@ const PROJECTS = [
 //            shows that the primer is in progress. The comment at the top of each file
 //            has a short Markdown guide.
 //   updated  when you last revised the primer, e.g. "October 2026" (leave "" to hide)
+//   files    optional downloads shown as buttons under the primer title: { label, href }
 const INDUSTRIES = [
-  { slug: "agriculture", name: "Agriculture", primer: "primers/agriculture.md", updated: "October 2026" },
+  {
+    slug: "agriculture", name: "Agriculture", primer: "primers/agriculture.md", updated: "October 2026",
+    files: [
+      { label: "Industry report (PDF)", href: "primers/agriculture/agriculture-industry-review.pdf" },
+      { label: "GardenCore LBO model (Excel)", href: "primers/agriculture/gardencore-lbo-model.xlsx" }
+    ]
+  },
   { slug: "mining", name: "Mining", primer: "primers/mining.md", updated: "" },
   { slug: "natural-resources", name: "Natural resources", primer: "primers/natural-resources.md", updated: "" }
 ];

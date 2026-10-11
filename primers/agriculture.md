@@ -19,8 +19,6 @@ Then set updated: "Month Year" for this desk in data.js.
 
 Agriculture is one of the oldest industries in the world, and almost every economy still runs on it. Farmland has held its value for centuries, which is why pensions and endowments still own it. Most farmers are price takers. They don't get to set what they pay for seed, fertilizer and fuel, or what they sell their crop for, so profits come down to input costs and when they decide to sell. Farming also takes a lot of capital. Land and equipment last for decades and are mostly bought with debt, so the industry gets hit hard by changes in interest rates, government policy, trade and currency. AI is starting to help, with tools like yield forecasting, satellite crop tracking and precision equipment that let farmers grow more per acre and waste less.
 
-**Full report:** [Agriculture industry review (PDF, 4 pages)](primers/agriculture/agriculture-industry-review.pdf). **Deal model:** [GardenCore LBO and debt waterfall (Excel)](primers/agriculture/gardencore-lbo-model.xlsx).
-
 ## Where the money is
 
 - **Pure-play agriculture and inputs (~C$190bn):** fertilizer, seed and crop protection makers like Nutrien, Mosaic, CF Industries and Corteva. The most direct exposure to crop prices and farm spending.
@@ -84,7 +82,7 @@ The top four companies in seeds, crop protection, machinery and animal health ho
 
 In May 2026, Pacific Avenue Capital Partners bought Oldcastle Lawn & Garden from CRH for $1.1bn out of its Fund II and renamed it GardenCore. It makes mulch, soil, stone and lime at 55+ U.S. plants with 1,400+ employees. Jefferies and Weil advised the buyer, Sidley handled the debt financing, and BofA ran the sale for CRH.
 
-**How it was funded.** The biggest piece was real estate. GardenCore sold all 43 of its plants to W. P. Carey for $400M and leased them back for 20 years, which covered about 36% of the price. The debt terms, revenue and EBITDA weren't disclosed, so the rest comes from my model.
+**How it was funded.** The biggest piece was real estate. GardenCore sold all 43 of its plants to W. P. Carey for $400M and leased them back for 20 years, which covered about 36% of the price. The debt terms, revenue and EBITDA weren't disclosed, so the rest comes from [my model](primers/agriculture/gardencore-lbo-model.xlsx).
 
 | Sources | $M | % of total |
 |---|---:|---:|

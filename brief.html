@@ -17,12 +17,10 @@
     <a class="mark" href="index.html">Rowan Das</a>
     <nav aria-label="Main">
       <a href="pitches.html">Pitches</a>
-      <a href="brief.html" aria-current="page">Morning brief</a>
+      <a href="brief.html" aria-current="page"><span class="nfull">Morning brief</span><span class="nshort" aria-hidden="true">Brief</span></a>
+      <a href="brief.html#industries">Industries</a>
       <a href="deals.html">Deals</a>
-      <a href="index.html#projects">Projects</a>
-      <a href="index.html#experience">Experience</a>
       <a href="index.html#about">About</a>
-      <a href="index.html#contact">Contact</a>
     </nav>
     <a class="cta" href="resume.pdf" data-resume>Résumé</a>
   </div>
@@ -37,10 +35,20 @@
   </div>
 </section>
 
+<nav class="subnav" aria-label="On this page">
+  <div class="wrap subnav-in">
+    <span class="subnav-lbl">On this page</span>
+    <a href="#today">Brief</a>
+    <a href="#industries">Industries</a>
+    <a href="#sources">Sources</a>
+    <a href="#how">How it's made</a>
+  </div>
+</nav>
+
 <main class="wrap">
 <article class="ed">
 
-  <div class="ed-top">
+  <div class="ed-top" id="today">
     <div class="ed-body" id="edBody"></div>
     <aside class="ed-markets" aria-label="Markets">
       <p class="ed-label">Markets at the last close</p>
@@ -63,7 +71,10 @@
       <h2 class="ed-h2" id="srcTitle">Sources</h2>
       <p id="srcNote">Every headline the model was given, numbered the way it cites them.</p>
     </div>
-    <ol class="ed-srclist" id="edSources"></ol>
+    <details class="ed-fold" id="srcFold">
+      <summary><span class="when-closed" id="srcShow">Show the source list</span><span class="when-open">Hide the source list</span></summary>
+      <ol class="ed-srclist" id="edSources"></ol>
+    </details>
   </section>
 
   <section class="ed-sec" id="how" aria-labelledby="howTitle">
@@ -74,6 +85,8 @@
     <p class="ed-intro">The split matters. Code handles the facts: fetching prices, parsing feeds, storing and searching headlines. The model handles the part code can't do well, which is reading the sources and writing the note. Both models run through Ollama on the same machine as the code, so no text goes to an outside AI service.</p>
     </div>
 
+    <details class="ed-fold" id="howFold">
+      <summary><span class="when-closed">Walk through the six steps</span><span class="when-open">Hide the steps</span></summary>
     <div class="ed-howgrid">
       <ol class="ed-steps" id="edSteps">
         <li class="ed-step" data-step="1">
@@ -144,12 +157,31 @@ Headlines:
     </div>
 
     <p class="ed-where" id="edWhere">I built and tested the pipeline on my laptop with Llama 3.1 8B. Each weekday at 6:30 AM Eastern, a GitHub Actions job installs Ollama on a fresh machine, downloads the models, runs the same Python and commits the new brief and database to this site's repository, which redeploys the page.</p>
+    </details>
   </section>
 </article>
 </main>
 
 <footer class="dark">
   <div class="wrap">
+    <div class="fnav">
+      <nav aria-label="Site">
+        <a href="index.html">Home</a>
+        <a href="pitches.html">Pitches</a>
+        <a href="brief.html">Morning brief</a>
+        <a href="brief.html#industries">Industries</a>
+        <a href="deals.html">Deals</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#about">About</a>
+      </nav>
+      <p class="fcontact">
+        <a data-contact="email" href="mailto:rowanamlan@gmail.com">Email</a>
+        <a data-contact="linkedin" href="https://www.linkedin.com/in/dasrowan" target="_blank" rel="noopener">LinkedIn</a>
+        <a data-contact="github" href="https://github.com/Amlan-Das" target="_blank" rel="noopener">GitHub</a>
+        <a href="resume.pdf" data-resume>Résumé</a>
+      </p>
+    </div>
     <div class="foot">
       <p>&copy; 2026 Rowan Das</p>
       <p>Not investment advice.</p>
@@ -220,6 +252,7 @@ Headlines:
       '<span class="meta">' + esc(s.source) + ", " + etTime(s.published, true) + (cited.has(s.n) ? "" : ", not cited") + "</span></span></li>"
     ).join("");
     $("srcNote").textContent = "Every headline the model was given, numbered the way it cites them. It cited " + cited.size + " of " + sources.length + ".";
+    $("srcShow").textContent = "Show all " + sources.length + " headlines";
 
     $("edRetrieval").innerHTML = retrieval.map((r) =>
       '<div class="ed-rrow"><span class="mv">' + esc(r.move) + '</span><div><span class="q">"' + esc(r.query) + '"</span>' +
@@ -253,9 +286,11 @@ Headlines:
     try { renderDesks(b); } catch (e) { console.error(e); }
     initFigure(b);
     initBriefSteps();
+    goToHash();
   }
 
   citeHover();
+  initPageNav();
 
   // ---------- Industry desks: one tab per industry, each with a note and a primer ----------
   // The list of desks comes from INDUSTRIES in data.js; the notes come from brief.json.
@@ -294,10 +329,17 @@ Headlines:
         }).join("") + '</tbody></table><p class="ed-note">Front-month futures and ETFs, last close against the one before.</p></aside>';
     };
 
+    // Files listed for a desk in data.js (a report, a model) sit as buttons under the primer's title
+    const filesHtml = (desk) => (desk.files || []).length
+      ? '<div class="primer-files">' + desk.files.map((f) =>
+          '<a class="btn" href="' + esc(f.href) + '" target="_blank" rel="noopener">' + esc(f.label) + "</a>").join("") + "</div>"
+      : "";
     const primerHtml = (desk) =>
       '<article class="primer" aria-labelledby="ph-' + esc(desk.slug) + '">' +
         '<div class="primer-head"><h3 id="ph-' + esc(desk.slug) + '">Primer</h3>' +
         '<p class="ed-byline"><span>' + esc(desk.name) + "</span><span>Written by Rowan Das</span>" + (desk.updated ? "<span>Updated " + esc(desk.updated) + "</span>" : "") + "</p></div>" +
+        filesHtml(desk) +
+        '<nav class="primer-toc" aria-label="' + esc(desk.name) + ' primer contents" hidden></nav>' +
         '<div class="primer-body" id="pb-' + esc(desk.slug) + '"><p class="primer-wait">Loading the primer</p></div>' +
         '<button type="button" class="btn primer-more" hidden aria-expanded="false">Read the full primer</button>' +
       "</article>";
@@ -319,7 +361,29 @@ Headlines:
       body.dataset.fit = "1";
       if (body.scrollHeight > 760) { body.classList.add("clamped"); more.hidden = false; }
     };
+    const unclamp = (primer) => {
+      const body = primer.querySelector(".primer-body"), more = primer.querySelector(".primer-more");
+      if (!body.classList.contains("clamped")) return;
+      body.classList.remove("clamped");
+      more.textContent = "Show less"; more.setAttribute("aria-expanded", "true");
+    };
     $("indPanels").addEventListener("click", (e) => {
+      // The contents row opens the whole primer and jumps to that part
+      const jump = e.target.closest(".primer-toc a");
+      if (jump) {
+        e.preventDefault();
+        const primer = jump.closest(".primer");
+        unclamp(primer);
+        const h = document.getElementById(jump.getAttribute("href").slice(1));
+        if (!h) return;
+        // Charts above the heading load lazily and would push it down mid-scroll, so load them first
+        const imgs = Array.from(primer.querySelectorAll(".primer-body img")).filter((img) => !img.complete);
+        imgs.forEach((img) => (img.loading = "eager"));
+        const ready = Promise.all(imgs.map((img) => new Promise((ok) => { img.addEventListener("load", ok, { once: true }); img.addEventListener("error", ok, { once: true }); })));
+        Promise.race([ready, new Promise((ok) => setTimeout(ok, 1500))])
+          .then(() => h.scrollIntoView({ block: "start", behavior: reduceMotion ? "auto" : "smooth" }));
+        return;
+      }
       const more = e.target.closest(".primer-more");
       if (!more) return;
       const body = more.parentElement.querySelector(".primer-body");
@@ -335,6 +399,16 @@ Headlines:
       const show = (html) => {
         body.innerHTML = html || waiting;
         body.closest(".primer").classList.toggle("empty", !html);
+        // A contents row built from the primer's own section headings
+        const toc = body.closest(".primer").querySelector(".primer-toc");
+        const h3 = Array.from(body.querySelectorAll("h3")), h4 = Array.from(body.querySelectorAll("h4"));
+        const heads = h3.length >= 2 ? h3 : h4;
+        if (heads.length >= 2) {
+          heads.forEach((h) => { h.id = desk.slug + "-" + h.textContent.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); });
+          toc.innerHTML = '<p class="ed-label">In this primer</p><ol>' +
+            heads.map((h) => '<li><a href="#' + h.id + '">' + esc(h.textContent) + "</a></li>").join("") + "</ol>";
+          toc.hidden = false;
+        }
         body.dataset.ready = "1";
         fit(body.closest(".ind-panel"));
       };
@@ -408,8 +482,11 @@ Headlines:
     .then(render)
     .catch(() => {
       $("edByline").innerHTML = "<span>No brief has been published yet. Check back on a weekday morning.</span>";
+      $("sources").hidden = true;
+      document.querySelector('.subnav a[href="#sources"]').hidden = true;
       renderDesks(null);
       initBriefSteps();
+      goToHash();
     });
 })();
 </script>

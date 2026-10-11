@@ -20,12 +20,10 @@
     <a class="mark" href="index.html">Rowan Das</a>
     <nav aria-label="Main">
       <a href="pitches.html">Pitches</a>
-      <a href="brief.html">Morning brief</a>
+      <a href="brief.html"><span class="nfull">Morning brief</span><span class="nshort" aria-hidden="true">Brief</span></a>
+      <a href="brief.html#industries">Industries</a>
       <a href="deals.html" aria-current="page">Deals</a>
-      <a href="index.html#projects">Projects</a>
-      <a href="index.html#experience">Experience</a>
       <a href="index.html#about">About</a>
-      <a href="index.html#contact">Contact</a>
     </nav>
     <a class="cta" href="resume.pdf" data-resume>Résumé</a>
   </div>
@@ -40,10 +38,20 @@
   </div>
 </section>
 
+<nav class="subnav" aria-label="On this page">
+  <div class="wrap subnav-in">
+    <span class="subnav-lbl">On this page</span>
+    <a href="#today">Overview</a>
+    <a href="#deals">Deals</a>
+    <a href="#sources">Sources</a>
+    <a href="#how">How it's made</a>
+  </div>
+</nav>
+
 <main class="wrap">
 <article class="ed">
 
-  <div class="ed-top">
+  <div class="ed-top" id="today">
     <div class="ed-body" id="edBody"></div>
     <aside class="ed-markets ed-glance" aria-label="This update">
       <p class="ed-label">This update in numbers</p>
@@ -65,7 +73,10 @@
       <h2 class="ed-h2" id="srcTitle">Sources</h2>
       <p id="srcNote">Every headline the model was given, numbered the way it cites them.</p>
     </div>
-    <ol class="ed-srclist" id="edSources"></ol>
+    <details class="ed-fold" id="srcFold">
+      <summary><span class="when-closed" id="srcShow">Show the source list</span><span class="when-open">Hide the source list</span></summary>
+      <ol class="ed-srclist" id="edSources"></ol>
+    </details>
   </section>
 
   <section class="ed-sec" id="how" aria-labelledby="howTitle">
@@ -76,6 +87,8 @@
     <p class="ed-intro">The brief knows in advance what to look for: six instruments. Deals are different, because nobody tells the pipeline which companies are about to merge. So there is an extra step, between storing the headlines and searching them, where the model reads each headline and works out which deal it is about. Code does everything that can be checked, and the model does the reading and writing. Both run through Ollama on the same machine as the code, so no text goes to an outside AI service.</p>
     </div>
 
+    <details class="ed-fold" id="howFold">
+      <summary><span class="when-closed">Walk through the seven steps</span><span class="when-open">Hide the steps</span></summary>
     <div class="ed-howgrid">
       <ol class="ed-steps" id="edSteps">
         <li class="ed-step" data-step="1">
@@ -155,12 +168,31 @@ Headlines:
     </div>
 
     <p class="ed-where" id="edWhere">A GitHub Actions job runs the pipeline each weekday at about 7:15 AM Eastern. It installs Ollama on a fresh machine, downloads a small Llama model and the embedding model, runs the same Python, and commits the new deals file and the vector database to this site's repository, which redeploys the page. Models are set by environment variables, so the same code runs with a bigger model on a laptop. A deal can also be pinned to a watchlist file, so it stays on the page on days when nobody writes about it.</p>
+    </details>
   </section>
 </article>
 </main>
 
 <footer class="dark">
   <div class="wrap">
+    <div class="fnav">
+      <nav aria-label="Site">
+        <a href="index.html">Home</a>
+        <a href="pitches.html">Pitches</a>
+        <a href="brief.html">Morning brief</a>
+        <a href="brief.html#industries">Industries</a>
+        <a href="deals.html">Deals</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#about">About</a>
+      </nav>
+      <p class="fcontact">
+        <a data-contact="email" href="mailto:rowanamlan@gmail.com">Email</a>
+        <a data-contact="linkedin" href="https://www.linkedin.com/in/dasrowan" target="_blank" rel="noopener">LinkedIn</a>
+        <a data-contact="github" href="https://github.com/Amlan-Das" target="_blank" rel="noopener">GitHub</a>
+        <a href="resume.pdf" data-resume>Résumé</a>
+      </p>
+    </div>
     <div class="foot">
       <p>&copy; 2026 Rowan Das</p>
       <p>Not investment advice.</p>
@@ -231,6 +263,7 @@ Headlines:
       '<span class="meta">' + esc(s.source) + ", " + etTime(s.published, true) + (cited.has(s.n) ? "" : ", not cited") + "</span></span></li>"
     ).join("");
     $("srcNote").textContent = "Every headline the model was given, numbered the way it cites them. It cited " + cited.size + " of " + sources.length + ".";
+    $("srcShow").textContent = "Show all " + sources.length + " headlines";
 
     // Step 4: what was found, and which headlines each deal was read from
     $("edDetect").innerHTML = deals.map((x) => {
@@ -267,9 +300,11 @@ Headlines:
 
     initFigure(d);
     initDealSteps();
+    goToHash();
   }
 
   citeHover();
+  initPageNav();
 
   let setStep = () => {};
   const initDealSteps = () => initSteps($("edSteps"), (n) => setStep(n));
@@ -303,6 +338,7 @@ Headlines:
       $("edGlance").innerHTML = "";
       document.querySelector(".ed-markets").hidden = true;
       $("deals").hidden = true; $("sources").hidden = true;
+      document.querySelectorAll('.subnav a[href="#deals"], .subnav a[href="#sources"]').forEach((a) => (a.hidden = true));
       initDealSteps();
     });
 })();
