@@ -80,7 +80,7 @@ const PROJECTS = [
 //            has a short Markdown guide.
 //   updated  when you last revised the primer, e.g. "October 2026" (leave "" to hide)
 const INDUSTRIES = [
-  { slug: "agriculture", name: "Agriculture", primer: "primers/agriculture.md", updated: "" },
+  { slug: "agriculture", name: "Agriculture", primer: "primers/agriculture.md", updated: "October 2026" },
   { slug: "mining", name: "Mining", primer: "primers/mining.md", updated: "" },
   { slug: "natural-resources", name: "Natural resources", primer: "primers/natural-resources.md", updated: "" }
 ];
@@ -152,34 +152,6 @@ const PITCHES = [
     current: null, currentAsOf: "",
     link: "pitches/ge-vernova-gev.pdf",
     model: "pitches/ge-vernova-gev-model.xlsx"
-  }
-];
-
-// Research: industry reports and deal work. Shown on research.html and the home page.
-// Put the files in the research/ folder.
-//   kind     "Industry report", "Deal case study", etc.
-//   date     how it reads on the page, e.g. "October 2026"
-//   summary  one or two sentences on what it covers
-//   links    buttons, first one is the main one; files ending in .xlsx download
-const RESEARCH = [
-  {
-    kind: "Industry report",
-    title: "Agriculture industry review",
-    date: "October 2026",
-    summary: "Four pages on agriculture: what moves farm profits (rates, policy, trade and currency), the trends changing the industry, the few companies that control each segment, and a case study on Pacific Avenue's $1.1bn buyout of GardenCore.",
-    links: [
-      { label: "Read the report", href: "research/agriculture-industry-review.pdf" }
-    ]
-  },
-  {
-    kind: "Deal case study",
-    title: "GardenCore LBO and debt waterfall",
-    date: "October 2026",
-    summary: "How Pacific Avenue funded its $1.1bn carve-out of CRH's lawn and garden business with a $400M sale-leaseback, an ABL and a private credit loan. The model runs the debt waterfall year by year and works out the exit multiple the fund needs to break even, clear its hurdle and hit 20%.",
-    links: [
-      { label: "Read the case study", href: "gardencore.html" },
-      { label: "Excel model", href: "research/gardencore-lbo-model.xlsx" }
-    ]
   }
 ];
 

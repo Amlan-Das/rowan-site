@@ -381,24 +381,3 @@ async function renderPitches(host, opts) {
   if (!fromHash()) { const first = host.querySelector(".lrow.open"); if (first) loadChart(first); }
   window.addEventListener("hashchange", fromHash);
 }
-
-/* ---------- Research ----------
-   Cards for reports and deal work, used on research.html and the home page. */
-function renderResearch(host) {
-  if (!host) return;
-  if (typeof RESEARCH === "undefined" || !RESEARCH.length) { host.innerHTML = '<p class="missing">No research yet. Add some in data.js.</p>'; return; }
-  const link = (l, i) => {
-    const file = /\.(pdf|xlsx?|pptx?)(#.*)?$/i.test(l.href);
-    const dl = /\.(xlsx?|pptx?)$/i.test(l.href);
-    return '<a class="btn' + (i === 0 ? " solid" : "") + '" href="' + esc(l.href) + '"' +
-      (dl ? " download" : file ? ' target="_blank" rel="noopener"' : "") + ">" + esc(l.label) + "</a>";
-  };
-  host.innerHTML = RESEARCH.map((r) =>
-    '<article class="fcard rcard">' +
-      '<p class="rkind">' + esc(r.kind) + (r.date ? " &middot; " + esc(r.date) : "") + "</p>" +
-      "<h3>" + esc(r.title) + "</h3>" +
-      '<p class="fa">' + esc(r.summary) + "</p>" +
-      '<div class="btns">' + (r.links || []).map(link).join("") + "</div>" +
-    "</article>"
-  ).join("");
-}
