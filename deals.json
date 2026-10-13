@@ -1,329 +1,301 @@
 {
-  "date": "Monday, October 12",
-  "generated_at": "2026-10-12T20:25:05.976277+00:00",
+  "date": "Tuesday, October 13",
+  "generated_at": "2026-10-13T18:28:28.501810+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "IonQ to acquire Elisity in an all-stock deal valued at up to $1.3 billion, expanding its quantum security platform.",
+  "lede": "Bumble is being acquired by Ithaca Holdings in a $1.3 billion deal.",
   "deals": [
     {
-      "acquirer": "IonQ",
-      "target": "Elisity",
-      "value": "$1.3 Billion",
+      "acquirer": "Ithaca Holdings",
+      "target": "Bumble",
+      "value": "$1.3 billion",
       "pinned": false,
       "stage": "Announced",
-      "articles": 11,
-      "outlets": 9,
-      "latest": "2026-10-12T16:32:00+00:00",
+      "articles": 4,
+      "outlets": 3,
+      "latest": "2026-10-13T15:35:20+00:00",
       "sources": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7,
-        8
+        6
       ],
       "stripped": [],
-      "headline": "IonQ to Acquire Elisity",
-      "body": "IonQ is acquiring Elisity in a deal worth up to $1.3 billion [1, 2, 3]. The deal is valued at up to $1.3 billion and is expected to expand IonQ's quantum security platform [4, 5, 6]. The acquisition is an all-stock deal and has been announced by IonQ [7, 8].",
+      "headline": "Bumble Buyout by Ithaca Holdings",
+      "body": "Bumble is being acquired by Ithaca Holdings in a $1.3 billion deal [1, 2, 3]. Bumble is in talks to go private with Ithaca Holdings [4, 5, 6].",
       "found": [
         {
           "n": 1,
-          "acquirer": "IonQ",
-          "target": "Elisity",
+          "acquirer": "Ithaca Holdings",
+          "target": "Bumble",
           "stage": "Announced"
         },
         {
           "n": 2,
-          "acquirer": "IonQ",
-          "target": "Elisity",
+          "acquirer": "Ithaca Holdings",
+          "target": "Bumble",
           "stage": "Announced"
         },
         {
           "n": 3,
-          "acquirer": "IonQ",
-          "target": "Elisity",
+          "acquirer": "Ithaca Holdco",
+          "target": "Bumble",
           "stage": "Announced"
         },
         {
           "n": 4,
-          "acquirer": "IonQ",
-          "target": "Elisity",
-          "stage": "Announced"
-        },
-        {
-          "n": 5,
-          "acquirer": "IonQ",
-          "target": "Elisity",
+          "acquirer": "Ithaca Holdings",
+          "target": "Bumble",
           "stage": "Rumored"
-        },
-        {
-          "n": 6,
-          "acquirer": "IonQ",
-          "target": "Elisity",
-          "stage": "Announced"
-        },
-        {
-          "n": 7,
-          "acquirer": "IonQ",
-          "target": "Elisity",
-          "stage": "Announced"
-        },
-        {
-          "n": 8,
-          "acquirer": "IonQ",
-          "target": "Elisity",
-          "stage": "Announced"
-        },
-        {
-          "n": 9,
-          "acquirer": "IonQ",
-          "target": "Elisity",
-          "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Amazon",
-      "target": "Decart",
-      "value": "$7 billion",
+      "acquirer": "Horizon Space Acquisition I",
+      "target": "ArcheNova Biotech",
+      "value": "$2 Billion",
       "pinned": false,
-      "stage": "Rumored",
-      "articles": 6,
-      "outlets": 5,
-      "latest": "2026-10-12T19:24:42+00:00",
+      "stage": "Announced",
+      "articles": 3,
+      "outlets": 3,
+      "latest": "2026-10-13T13:46:42+00:00",
       "sources": [
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17
+        7,
+        8,
+        9,
+        10
       ],
       "stripped": [],
-      "headline": "Amazon to Acquire AI Startup Decart",
-      "body": "Amazon is reportedly in talks to acquire AI startup Decart for around $7 billion [10, 11, 12]. The deal is said to be in advanced talks, with Amazon nearing a $7 billion acquisition of the Israeli AI startup Decart [13, 14]. The talks echo a deal that changed Amazon's cloud business, with the $7 billion Decart acquisition potentially impacting Amazon's AI chip race [15]. Amazon's interest in Decart is seen as part of its efforts to strengthen its AI capabilities, with the acquisition potentially worth $7 billion [16, 17].",
+      "headline": "Horizon Space Acquisition I and ArcheNova Biotech Merger",
+      "body": "Horizon Space Acquisition I and ArcheNova Biotech are merging [7, 8, 9]. The merger was announced on October 13 [7, 8, 9]. No further updates are available [10].",
       "found": [
         {
-          "n": 10,
-          "acquirer": "Amazon",
-          "target": "Decart",
-          "stage": "Rumored"
+          "n": 7,
+          "acquirer": "Horizon Space Acquisition I",
+          "target": "ArcheNova Biotech",
+          "stage": "Announced"
         },
         {
+          "n": 8,
+          "acquirer": "Horizon Space Acquisition I",
+          "target": "ArcheNova Biotech",
+          "stage": "Completed"
+        },
+        {
+          "n": 9,
+          "acquirer": "Horizon Space Acquisition I Corp.",
+          "target": "ArcheNova Biotech Corp.",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "SSR Mining",
+      "target": "Roxmore Resources",
+      "value": "$464 Million",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 3,
+      "outlets": 3,
+      "latest": "2026-10-13T12:21:40+00:00",
+      "sources": [
+        11,
+        12,
+        13
+      ],
+      "stripped": [],
+      "headline": "SSR Mining to Acquire Roxmore Resources",
+      "body": "SSR Mining is acquiring Roxmore Resources for $464 million [11, 12, 13]. The deal will expand SSR Mining's Nevada gold operations [11, 12, 13]. Roxmore Resources will spin out its exploration assets as part of the deal [11, 12, 13].",
+      "found": [
+        {
           "n": 11,
-          "acquirer": "Amazon",
-          "target": "Decart",
-          "stage": "Announced"
+          "acquirer": "SSR Mining",
+          "target": "Roxmore Resources",
+          "stage": "Completed"
         },
         {
           "n": 12,
-          "acquirer": "Amazon",
-          "target": "Decart",
-          "stage": "Rumored"
+          "acquirer": "SSR Mining",
+          "target": "Roxmore Resources",
+          "stage": "Announced"
         },
         {
           "n": 13,
-          "acquirer": "Amazon",
-          "target": "Decart",
-          "stage": "Announced"
-        },
-        {
-          "n": 14,
-          "acquirer": "Amazon",
-          "target": "Decart",
-          "stage": "Announced"
-        },
-        {
-          "n": 15,
-          "acquirer": "Amazon",
-          "target": "Decart",
-          "stage": "Announced"
+          "acquirer": "SSR Mining",
+          "target": "Roxmore Resources",
+          "stage": "Completed"
         }
       ]
     },
     {
       "acquirer": "Albertsons",
       "target": "Kroger",
-      "value": "$9 Billion",
+      "value": "$8B",
       "pinned": false,
-      "stage": "Pending approval",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-12T19:32:00+00:00",
+      "stage": "Announced",
+      "articles": 3,
+      "outlets": 3,
+      "latest": "2026-10-13T11:29:13+00:00",
       "sources": [
+        14,
+        15,
+        16,
+        17,
+        18,
         19,
-        20,
-        21,
-        22
+        20
       ],
-      "stripped": [
-        1
-      ],
+      "stripped": [],
       "headline": "Albertsons and Kroger Deal",
-      "body": "Albertsons and Kroger are in a dispute over a failed merger [19, 20]. Albertsons is seeking more than $9 billion from Kroger [19, 20]. Albertsons claims Kroger was 'reckless' in handling a key consultant [21, 22].",
+      "body": "Albertsons is demanding a large sum from Kroger over a failed merger [16, 17, 18]. The amount demanded is reportedly higher than initially stated [16, 17, 18]. The deal stands at the announced stage [14, 15, 20].",
       "found": [
         {
-          "n": 19,
+          "n": 14,
           "acquirer": "Albertsons",
           "target": "Kroger",
           "stage": "Announced"
         },
         {
-          "n": 20,
+          "n": 15,
           "acquirer": "Albertsons",
           "target": "Kroger",
           "stage": "Announced"
+        },
+        {
+          "n": 16,
+          "acquirer": "Albertsons",
+          "target": "Kroger",
+          "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "STERIS",
-      "target": "Xodus Medical",
-      "value": "$2.1 Billion",
+      "acquirer": "Omron",
+      "target": "OnLogic",
+      "value": "$675 Million",
       "pinned": false,
       "stage": "Announced",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-12T18:43:00+00:00",
+      "articles": 3,
+      "outlets": 3,
+      "latest": "2026-10-13T01:58:01+00:00",
       "sources": [
-        23,
-        24
+        21,
+        22,
+        23
       ],
       "stripped": [],
-      "headline": "STERIS to Acquire Xodus Medical",
-      "body": "STERIS is acquiring Xodus Medical [24]. The deal was announced on October 12 [23]. The acquisition will add operating-room supplies [23].",
+      "headline": "Omron to Acquire OnLogic",
+      "body": "Omron is acquiring OnLogic, a US industrial PC maker [21, 22, 23]. The deal is valued at $675 million [22]. The acquisition is part of Omron's physical AI push [21, 23].",
       "found": [
+        {
+          "n": 21,
+          "acquirer": "Omron",
+          "target": "OnLogic",
+          "stage": "Announced"
+        },
+        {
+          "n": 22,
+          "acquirer": "Omron",
+          "target": "OnLogic",
+          "stage": "Announced"
+        },
         {
           "n": 23,
-          "acquirer": "STERIS",
-          "target": "Xodus Medical",
-          "stage": "Completed"
-        },
+          "acquirer": "Omron",
+          "target": "OnLogic",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "Aslak",
+      "target": "Al Raeda",
+      "value": "",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-13T11:53:55+00:00",
+      "sources": [
+        24,
+        25
+      ],
+      "stripped": [],
+      "headline": "Aslak and Al Raeda Deal",
+      "body": "Aslak and Al Raeda have completed their deal [24, 25]. The deal was an acquisition of 40% of Al Raeda [24, 25].",
+      "found": [
         {
           "n": 24,
-          "acquirer": "Steris",
-          "target": "Xodus Medical",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "SkyAI",
-      "target": "Forward Industries",
-      "value": "$201 Million",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-12T14:58:24+00:00",
-      "sources": [
-        25,
-        26,
-        27
-      ],
-      "stripped": [],
-      "headline": "SkyAI and Forward Industries Deal",
-      "body": "SkyAI plans a $3 per share cash tender offer for up to 95% of shares [26, 27]. SkyAI rejects Forward Industries bid [26, 27]. SkyAI plans a $3 per share cash tender offer [25].",
-      "found": [
+          "acquirer": "Aslak",
+          "target": "Al Raeda",
+          "stage": "Completed"
+        },
         {
           "n": 25,
-          "acquirer": "SkyAI",
-          "target": "Forward Industries",
-          "stage": "Announced"
-        },
-        {
-          "n": 26,
-          "acquirer": "SkyAI",
-          "target": "Forward Industries",
+          "acquirer": "ASLAK",
+          "target": "Al Raeda Industrial Investment",
           "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Ascend Sport",
-      "target": "Evonext",
-      "value": "$625M",
+      "acquirer": "IonQ",
+      "target": "Elisity",
+      "value": "$1.15 Billion",
       "pinned": false,
       "stage": "Announced",
       "articles": 2,
       "outlets": 2,
-      "latest": "2026-10-12T09:52:29+00:00",
+      "latest": "2026-10-13T10:13:00+00:00",
       "sources": [
+        26,
+        27,
         28,
         29,
-        30
+        30,
+        31,
+        32
       ],
       "stripped": [],
-      "headline": "Ascend Sport and Evonext Deal",
-      "body": "Ascend Sport and Evonext are merging to list on the Swiss Stock Exchange [28, 29, 30]. The deal was announced and no further updates are available [28, 29, 30].",
+      "headline": "IonQ to Acquire Elisity",
+      "body": "IonQ is acquiring Elisity in a $1.3 billion deal [28, 29, 30]. The deal is valued at up to $1.3 billion [26, 27, 31]. The acquisition is an all-stock deal [32]. The deal has been announced [26, 27, 28].",
       "found": [
         {
-          "n": 28,
-          "acquirer": "Ascend Sport",
-          "target": "Evonext",
+          "n": 26,
+          "acquirer": "IonQ",
+          "target": "Elisity",
           "stage": "Announced"
         },
         {
-          "n": 29,
-          "acquirer": "Ascend Sport",
-          "target": "Evonext",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "Credit Agricole",
-      "target": "IKB",
-      "value": "",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-10-12T19:53:26+00:00",
-      "sources": [
-        31
-      ],
-      "stripped": [],
-      "headline": "Credit Agricole Buys IKB from Lone Star Funds",
-      "body": "Credit Agricole has agreed to buy IKB from Lone Star Funds [31]. The deal was announced on October 12, 2003 [31]. No further information is available [31].",
-      "found": [
-        {
-          "n": 31,
-          "acquirer": "Credit Agricole",
-          "target": "IKB",
+          "n": 27,
+          "acquirer": "IonQ",
+          "target": "Elisity",
           "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Weston family",
-      "target": "Boots",
+      "acquirer": "Aurum PropTech",
+      "target": "Aurum RealEstate",
       "value": "",
       "pinned": false,
       "stage": "Announced",
       "articles": 1,
       "outlets": 1,
-      "latest": "2026-10-12T19:52:30+00:00",
+      "latest": "2026-10-13T18:03:46+00:00",
       "sources": [
-        32,
-        33,
-        34,
-        35,
-        36,
-        37
+        33
       ],
       "stripped": [],
-      "headline": "Weston family to buy Boots",
-      "body": "The Weston family is acquiring Boots in an $8.9 billion deal [33, 34, 35]. The deal was announced on October 7 [36, 37]. No further information is available [32].",
+      "headline": "Aurum PropTech Allocates Warrants to Promoter",
+      "body": "Aurum PropTech has allotted ₹118 crore warrants to its promoter Aurum RealEstate [33]. The deal was announced on October 13 [33].",
       "found": [
         {
-          "n": 32,
-          "acquirer": "Weston family",
-          "target": "Boots",
+          "n": 33,
+          "acquirer": "Aurum PropTech",
+          "target": "Aurum RealEstate",
           "stage": "Announced"
         }
       ]
@@ -331,166 +303,150 @@
   ],
   "also": [
     {
-      "n": 38,
-      "note": "Struggling Leicester City owners seek takeover bids this week [38]."
+      "n": 34,
+      "note": "Beam Global Signs Definitive Agreement to Acquire Drone Technology Company ScoutDI, Creating a Vertically Integrated U.S. Drone Platform for Industrial and Defense Markets [34]."
     },
     {
-      "n": 39,
-      "note": "Getty Images to File for Bankruptcy, Go Private In Restructuring Deal [39]."
+      "n": 35,
+      "note": "Armstrong Bell acquires Tapcast in six-figure deal [35]."
     },
     {
-      "n": 40,
-      "note": "Iz Yatirim Holding Boosts Digital Portfolio with 25% Stake in Hızlı Çiçek [40]."
+      "n": 36,
+      "note": "Morrisons sales rise faster than those at would-be bidder Sainsbury's for first time in five years amid signs of recovery [36]."
     }
   ],
-  "brief": "IonQ to acquire Elisity in an all-stock deal valued at up to $1.3 billion, expanding its quantum security platform.\n\nIonQ / Elisity (Announced): IonQ to Acquire Elisity. IonQ is acquiring Elisity in a deal worth up to $1.3 billion [1, 2, 3]. The deal is valued at up to $1.3 billion and is expected to expand IonQ's quantum security platform [4, 5, 6]. The acquisition is an all-stock deal and has been announced by IonQ [7, 8].\nAmazon / Decart (Rumored): Amazon to Acquire AI Startup Decart. Amazon is reportedly in talks to acquire AI startup Decart for around $7 billion [10, 11, 12]. The deal is said to be in advanced talks, with Amazon nearing a $7 billion acquisition of the Israeli AI startup Decart [13, 14]. The talks echo a deal that changed Amazon's cloud business, with the $7 billion Decart acquisition potentially impacting Amazon's AI chip race [15]. Amazon's interest in Decart is seen as part of its efforts to strengthen its AI capabilities, with the acquisition potentially worth $7 billion [16, 17].\nAlbertsons / Kroger (Pending approval): Albertsons and Kroger Deal. Albertsons and Kroger are in a dispute over a failed merger [19, 20]. Albertsons is seeking more than $9 billion from Kroger [19, 20]. Albertsons claims Kroger was 'reckless' in handling a key consultant [21, 22].\nSTERIS / Xodus Medical (Announced): STERIS to Acquire Xodus Medical. STERIS is acquiring Xodus Medical [24]. The deal was announced on October 12 [23]. The acquisition will add operating-room supplies [23].\nSkyAI / Forward Industries (Announced): SkyAI and Forward Industries Deal. SkyAI plans a $3 per share cash tender offer for up to 95% of shares [26, 27]. SkyAI rejects Forward Industries bid [26, 27]. SkyAI plans a $3 per share cash tender offer [25].\nAscend Sport / Evonext (Announced): Ascend Sport and Evonext Deal. Ascend Sport and Evonext are merging to list on the Swiss Stock Exchange [28, 29, 30]. The deal was announced and no further updates are available [28, 29, 30].\nCredit Agricole / IKB (Announced): Credit Agricole Buys IKB from Lone Star Funds. Credit Agricole has agreed to buy IKB from Lone Star Funds [31]. The deal was announced on October 12, 2003 [31]. No further information is available [31].\nWeston family / Boots (Announced): Weston family to buy Boots. The Weston family is acquiring Boots in an $8.9 billion deal [33, 34, 35]. The deal was announced on October 7 [36, 37]. No further information is available [32].\n\nAlso worth knowing:\n- Struggling Leicester City owners seek takeover bids this week [38].\n- Getty Images to File for Bankruptcy, Go Private In Restructuring Deal [39].\n- Iz Yatirim Holding Boosts Digital Portfolio with 25% Stake in Hızlı Çiçek [40].",
+  "brief": "Bumble is being acquired by Ithaca Holdings in a $1.3 billion deal.\n\nIthaca Holdings / Bumble (Announced): Bumble Buyout by Ithaca Holdings. Bumble is being acquired by Ithaca Holdings in a $1.3 billion deal [1, 2, 3]. Bumble is in talks to go private with Ithaca Holdings [4, 5, 6].\nHorizon Space Acquisition I / ArcheNova Biotech (Announced): Horizon Space Acquisition I and ArcheNova Biotech Merger. Horizon Space Acquisition I and ArcheNova Biotech are merging [7, 8, 9]. The merger was announced on October 13 [7, 8, 9]. No further updates are available [10].\nSSR Mining / Roxmore Resources (Announced): SSR Mining to Acquire Roxmore Resources. SSR Mining is acquiring Roxmore Resources for $464 million [11, 12, 13]. The deal will expand SSR Mining's Nevada gold operations [11, 12, 13]. Roxmore Resources will spin out its exploration assets as part of the deal [11, 12, 13].\nAlbertsons / Kroger (Announced): Albertsons and Kroger Deal. Albertsons is demanding a large sum from Kroger over a failed merger [16, 17, 18]. The amount demanded is reportedly higher than initially stated [16, 17, 18]. The deal stands at the announced stage [14, 15, 20].\nOmron / OnLogic (Announced): Omron to Acquire OnLogic. Omron is acquiring OnLogic, a US industrial PC maker [21, 22, 23]. The deal is valued at $675 million [22]. The acquisition is part of Omron's physical AI push [21, 23].\nAslak / Al Raeda (Completed): Aslak and Al Raeda Deal. Aslak and Al Raeda have completed their deal [24, 25]. The deal was an acquisition of 40% of Al Raeda [24, 25].\nIonQ / Elisity (Announced): IonQ to Acquire Elisity. IonQ is acquiring Elisity in a $1.3 billion deal [28, 29, 30]. The deal is valued at up to $1.3 billion [26, 27, 31]. The acquisition is an all-stock deal [32]. The deal has been announced [26, 27, 28].\nAurum PropTech / Aurum RealEstate (Announced): Aurum PropTech Allocates Warrants to Promoter. Aurum PropTech has allotted ₹118 crore warrants to its promoter Aurum RealEstate [33]. The deal was announced on October 13 [33].\n\nAlso worth knowing:\n- Beam Global Signs Definitive Agreement to Acquire Drone Technology Company ScoutDI, Creating a Vertically Integrated U.S. Drone Platform for Industrial and Defense Markets [34].\n- Armstrong Bell acquires Tapcast in six-figure deal [35].\n- Morrisons sales rise faster than those at would-be bidder Sainsbury's for first time in five years amid signs of recovery [36].",
   "sources": [
     {
       "n": 1,
-      "title": "IonQ To Buy Elisity In $1.3 Billion Deal Amid Quantum Acquisition Spree",
-      "source": "Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnJFOFU5X2ZFc2hMTVVVRlMwbFlKcXIzLS1qVlhjSWhpQXBLR0FGc1ZUSHlnWkRNakFKTmJRUG5UeGNLMnRTbmhPMlI4WThaWlBHMGpzcTRlSUhHNnUzYzc5amlzaTZZMnJRYmlKNlJEdjVVTkNXTW9kN0xHSFh2Tm1sdzE4ZHUwSXNkS241V2JXYk1xanF5RlVULTdmcVJRVjBwWGF3?oc=5",
-      "snippet": "Investor's Business Daily",
-      "published": "2026-10-12T16:32:00+00:00"
+      "title": "Bumble agrees to $1.3 billion buyout by a brand-new Ithaca Holdings",
+      "source": "Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd19UcVo1YjR3SmNQRElYd0hKWnJGdGxmRl9sd2QzMnk3bEtycFZWZTNhTHNmTElSeXlLeTlRWk85Sl9BT0gzeXJhTmFBRGNBb2pDOUdPTmMwWXdZN3FXa2pSWmRvOTVHZkZtTGtWSWhQcTN5cF9ZajFjLXB5Snc2U0JQS0Y5bG1uS0FkaWZmalB6ekRCUXN4cg?oc=5",
+      "snippet": "Startup Fortune",
+      "published": "2026-10-13T15:35:20+00:00"
     },
     {
       "n": 2,
-      "title": "IonQ Agrees $1.3B Elisity Acquisition for Quantum Security",
-      "source": "grafa.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb29ieDQtaHRPYkFJc3BReVM3QWE3RDJkdE5TeEJ2MWRqY1RQdmNxQjhXREhHSVRQakMxSmw4M3U1RGdJUlJ6QmpMQ09FeV9WOFRNVGhLM1YtV3l6d3NtRW1HWmZFTFpJWEg1Y1lOQTRpNHBGQnlINHUtWE5IOHBXa0IwekdZVDliU0pQVU1XdmZPOURHMjRQU25NUDZTQVo3R0U4Z1MwT3NGUEpFMTBpR3k5ZGh5Zw?oc=5",
-      "snippet": "grafa.com",
-      "published": "2026-10-12T16:20:00+00:00"
+      "title": "Bumble Agrees to $1.3 Billion All-Cash Acquisition by Ithaca Holdings at $6.05 Per Share",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSWFGR0xUdldObXFQbWZHdTNYM01HTVYzNkxGY1gwbzlzWUt1MXIzUWpqODcweURVUzhoTU1PRVJfLUdtNUZlaHlEVnMxRVFWTVd5aWdSRDRVbGxBVi0xS0U5M1R1dUZjdlNKMmN2OTNGYUhiWU1EMFllMTAyVDhXSDFvOG1rNXY5ZkFqbVk3RURIdHpi?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-13T13:57:37+00:00"
     },
     {
       "n": 3,
-      "title": "IonQ To Acquire Elisity In Deal Valued At Up To $1.3 Billion To Expand Quantum Security Platform",
-      "source": "Pulse 2.0",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFLTM2cThVeTd0alc5THpZVzlXMHVlWTlXcVVpa0F4Y2JxVVNYeWptc1BHeG5hODFwd2FtLTdpaTcwdm9kRFBUSVFyUkRnd3JwaWk1dW53?oc=5",
-      "snippet": "Pulse 2.0",
-      "published": "2026-10-12T15:27:29+00:00"
+      "title": "Bumble Agrees to $6.05-Per-Share Sale to Ithaca Holdco in Two-Step Merger",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWkhQUXhzRUtheVpfdm95UmxTLWVWa3dfQXVxVktraExqZmN4U3I3MHliMVg0VlhWZWtnSHhEUlVnTTRFNmMzU0VXR1I0X0RtNTQ3cVY2cHBxM2stUEJmVzQ1WFhyc2VvajNicFNyMUdqWmZsRnU0b3E0TXVaQm9mYlk2RGQyUnZfMlloN1Q4a09HMHpXQ0h3OFhERVVtVTdsXzVfMVFUbUxUdk1xLVpWVFJselBxcENHTlhOeHc3VGotY1VuSGxpWEpURjNXZjA?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-13T13:03:00+00:00"
     },
     {
       "n": 4,
-      "title": "IonQ To Acquire Elisity In $1.3 Billion Deal",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbFh3ZXplYjBleHRLZk9pSWgyeTYxaExjRnZuNDU5c3pjWmlhc3FiLXBqNVFvekp3QnpobVVyNzhEb0NjWnBoR0JxUGxEZUJkV01wRUhIRlNrX0tsUEN0Q1dReUxFc24xVV9qV0RRQXlOTHliT0tvT0JLVFN6U184VXZKSHk2TXVGMlBiRHM1SkVxQzVNZ3VTRkRNYXhTeVdKbkxBZQ?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-12T14:34:45+00:00"
+      "title": "Bumble Is in Talks to Go Private With a New Firm Called Ithaca Holdings",
+      "source": "Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ1k2NlNFWW1KajJMcjJDTEN1TFVKeGE2RER1N2ZZRERsZFlCeU41ckNnTzhZaU9WN1pZb0NIbmFjck1QMlJPOGRMX015SWhvRDZnbU9EX3M0cnRkUDNoVm9pSWZIWVkzSDBDNG1MZUpBWVRUMkJaOWU2aHJYa2dqTGliNFh4UU10bG0tbnBiNW9fc2VBNDlucDVxbVQxb2VW?oc=5",
+      "snippet": "Startup Fortune",
+      "published": "2026-10-13T03:20:24+00:00"
     },
     {
       "n": 5,
-      "title": "IonQ to acquire cybersecurity firm Elisity in a deal worth up to $1.3 billion",
-      "source": "domain-b.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaElRSzdROU5XU3NyYkVDSGVFOUtmRDBDVml5cndWRXhMNGpacVJnZ0JLXzRYMjUzRVlmUWQxQ3g3b2k4VnZubjc2cU05Y1FjUWsxZU43dXQzbkZCc3Jzd2NfX0tTTVp2NGwtSXU1SHc1X0ZUcG50aXgzakdwVGgzV09OSTBBYm14NGU3aGpQREpvV3lXUHhxbWpkM2ZQRnE2RFhpZWJaRHhzS2ZYQVk0WXZJM0lSdzB60gG-AUFVX3lxTE1FY3ZCYVEzbV9YUWpveHRCMzdMYkpuR3ZLOXVoVVZVdFhreE44N2hIOWtWTjRhR3FMQlh1U3RWWExUeUZNeXhzWjNPQTAwTExhUDRUMGlTZlRwd2FPakNFUzAwam42NTJvYlRuYl9yM0ZHdE0xVjhpSnZnd2ExWXYtYXdERzBCd2phaG1fbXNfWTAwQkVQSExUY3M2aFVjbVhYX2t4eGxQaEZMNVM5Nzl5aXBUdkRfVzUwX2puU0E?oc=5",
-      "snippet": "domain-b.com",
-      "published": "2026-10-12T13:54:11+00:00"
+      "title": "Bumble Jumps on Report Ithaca Nears $1 Billion Buyout",
+      "source": "BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zQ2k3RzNkZVVBejFFUzdHWWdLc3J1alZuVmtNWXpfbXdWVmdnU3IwT1VDREFMLXJHVXZ5QUFOV013TFdEM2xDOTVuYk1nRWVCSzdOTGs3dVNaQ1hZYUZBOVRKNkZXaE8tdHZQZDk4LTBPcnpfd2c?oc=5",
+      "snippet": "BigGo Finance",
+      "published": "2026-10-12T19:05:00+00:00"
     },
     {
       "n": 6,
-      "title": "IonQ Agrees to Buy Elisity in Cybersecurity Deal Worth Up to $1.3 Billion",
-      "source": "The Quantum Insider",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa19mZWdack0tSG5PRi1QNTdUcHczcjZYa1RkVFZFZ3paX3lrbGxPY1lOODZHekJkMDlKM2hGY2d2aEk4OWpES2JONURDbzg0bEpYMmdxQ0hmMHg0Uk5EczlsLXBRTVBzZl95dnMyMHJUUkE1YzR4dWZLdmtlQ2stY0RMMmFfblFEUEFtQ0RUbWhSYmNTMVJtNVlXa1JrMTh3R2ppLWkwLVlJQlBBMllsN1hsRG0?oc=5",
-      "snippet": "The Quantum Insider",
-      "published": "2026-10-12T13:49:03+00:00"
+      "title": "Bumble is in talks to go private in a $1 billion deal with Ithaca Holdings",
+      "source": "Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY1N0Y2JoNXZ4WlBpMWViY2FWU2NoelB5amI1SWZfUHhDZC1kb2hUdWtvU2FNa29xUnptQlJJcEJDUnJTajFhWk1VYzBKX1J4ZUtfR2FaUG1UREFjQnowT1c1S05td1JRS19OdHBRNGp6Ykg5aTZreEhJdG1vQkJFS3d5cUI4R3hyMy1hcnVDTHdkdzZ1UjJJOVZRcHpqcXdYU3BV?oc=5",
+      "snippet": "Startup Fortune",
+      "published": "2026-10-12T19:59:58+00:00"
     },
     {
       "n": 7,
-      "title": "IonQ Announces Acquisition of Cybersecurity Firm Elisity in All-Stock Deal Worth Up to $1.3 Billion",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOG13R0tvZzhVbU15LXFScFlPejJIWml0RmtFQTF6Nm9VTXJseVc1WFFZZnoyQTAyb1lCSFljdVU0X1RYRVB3ekwzWWpGRWRzNGU4NDZxUTl3bVk0QmNuZTY0TnU1S0JlampRN0NQRmdKSW5BWmxmTmFIMEVudm5XaTlMNlpPelROWUpiOXZVQnlmeDllcFN1VEd5bWp6RlRCWkZRT09NUW1WNVRoQ2c?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-12T12:34:09+00:00"
+      "title": "Horizon Space Acquisition I to Merge with ArcheNova Biotech in Nasdaq Listing Deal",
+      "source": "citybiz",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSmJpdXE2cmwtNWRpTk9ucWNSa1ZTb3BDYnpYUWJRRmF1VjFaV0J1bkFnVFR0N0toZ1ZSdXZVeXhUMDJEczZ6bmVfYlkzNmlzQzJuNFJzSTJRaHVUbDJWRGR3eU9jNmlpUHZxYWd4d1ZneExDZmtIWkVPVG1SYVV2eHNXSF9HelE4dl9YTjIzZ0x6ZzJRLTB2UXVPdGtTSXFHb3VUNVhMTXZGeFFNNkdIbUhOb2xhOGpxNkR2VGlB?oc=5",
+      "snippet": "citybiz",
+      "published": "2026-10-13T13:46:42+00:00"
     },
     {
       "n": 8,
-      "title": "Update: IonQ to Acquire Elisity in Up to $1.3 Billion Deal",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSGl2RkV6TEVhQmhZb05MR2NJYTVCeTBtSm53M1RiNWNpdm5McWVTTnlWTzFBbTZnUU1KRWxaRUtqZmVTX2RSUVEzRWVOOV9TV1YzZUFkbTJ4LW1WdUJ0SW9SQmMzQk9UTW1MZ3VEd0s2c1QySEV2TU5IR2FqUHVpckFyajBsVE81UTM5cnFn?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-12T12:19:44+00:00"
+      "title": "Horizon Space Acquisition I Corp. and ArcheNova Biotech Finalize $2 Billion Merger Agreement",
+      "source": "Kalkine Media",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcUpYY3ZQSDFPVFY2VmVoWkNWZEdZZVQ3UWNtME5taGhFSVNVUlNZc2prN0NJLVVLaW0wLV9zLV85bzUzZUhVUUthYldCandfQTFGNk53cFJ6RnRMN1RjcHJIWUNWcThQMzVPdHVEZk1SV2E5TjN0MGNEQ285QmhNdzhIWmgxOW1lYU81OWtyaERhQnRmLWZpSW1iMzNFcS1xdUk5TkhfNFh6Q0NsR0w5THA5Rm1QV0xXZjQtV2NjQWRWMkN1UzRSU1Y1OUZ3LXRSTmpZ?oc=5",
+      "snippet": "Kalkine Media",
+      "published": "2026-10-13T12:39:11+00:00"
     },
     {
       "n": 9,
-      "title": "IonQ buys cybersecurity firm Elisity in $1.3B all-stock deal",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOenJVR0VsX3RzZk9wN2RkWnVkRXRRam8tZU4tZDZaYkVhbU4zNkU2NEpwVE5fRlBXQThQLXJMeWplcDVTbHZGVDlDZUFzNXZNaDRnamtra3RMcW5CT2ZjYmZiVHlqYUU5QnM2ak1UbEZZNU9nRzRLajlGLUhSbmVuZ0RFa0M2ZVJKTVRHWW5lMDZUd2pEWVhXM2NoZC1HblhuUUp0MkhETkI1aTdLM054R0J4ZVliM1FzNGljcWFsMA?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-12T12:14:25+00:00"
+      "title": "Horizon Space Acquisition I Corp. Announces Definitive Business Combination Agreement with ArcheNova Biotech Corp.",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcHRoY3daaXNWNjU0RFFyOUN0djVlSWVQUkFyNU5iNlBaRXo3T3E2TWJjRGVyWXp1dUJJd0Q5cFpUY3oyT0gzVFBCc1V3bERVSC1LXzlRMk9qTjJEWVdFZVpOcXQ3TkpiZUpxQWc5VDVpdEhWMnluS0YybDNaOHpfQXc3ZXhobnR2MlE5T1JoN1pYOFp4WDRDVVRHQU12N3p2VWtN?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-13T11:00:00+00:00"
     },
     {
       "n": 10,
-      "title": "Amazon Reportedly In Talks To Acquire AI Startup Decart For Around $7 Billion",
-      "source": "Pulse 2.0",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ0tFS1dJVHFybWI3alJnRWZ4bGREblRiWXVxVFNpZk5aUWsyUGNBcXZ5Q25HbkJpclRTRW1ndU1kcDM0TkRzZjkwZi1MY2RYUXh4cnJkM0JkZEF3bWJHSGlXejhNSGJRLTFnWDJYcERHdTFkWGtEajRiM3R6a1pkU3ZBaHlLbHV6LU83N25kTmxkNFdUM3BEQldyMmo?oc=5",
-      "snippet": "Pulse 2.0",
-      "published": "2026-10-12T19:24:42+00:00"
+      "title": "Horizon Space Acquisition and ArcheNova Biotech announce merger",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb3hUWTVNXzlINlNiMWJvWmoxdEswTGZoTVlxVnRXNElnakNLLWVYRF83RHBFa0NrdXdrSG9OREx1MnlnOXUxTGh4VTNDVGlTWHJGa0lFTVJZWC13dWZYaC1PSVpWYUNGVG1TekJTUXRORk5Cc051ZmdkM0J3bjV0VFAtTGNpUHNJZ0NsTFdUSTFfakF0cmwyTkxpb2J0Q1VWbEM5djZ2LUhLR19vZWstdEpYNHRpOEFiYTFZTDBwMlc2MVJn?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-13T12:16:02+00:00"
     },
     {
       "n": 11,
-      "title": "Amazon in talks to acquire AI startup Decart in $7 billion deal, report says",
-      "source": "The American Bazaar",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMllCb3QxX002M1NGRHUzbWRLUk1aX2xGZEJhNTYzMVdmTWd4WkFvNXNiYmlpZXBxd1VOdGpXVjV4YnNKajdRMWtSRHNJcktCODF1T2pJTmlmTFdNR29mZU1iMElabUJZX1FqdnBFZnRLNHNLbGpwYzRpeGhxUV9ENWlWbGRyU3NNX1ZfbldUWFV0LXlWV0J1YVlyUlQyemlRazF1aVpzQzlaSFU2NE9YMTFhQXg?oc=5",
-      "snippet": "The American Bazaar",
-      "published": "2026-10-12T17:46:35+00:00"
+      "title": "SSR Mining to Acquire Roxmore Resources for $464 Million, Expanding Nevada Gold Operations",
+      "source": "citybiz",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa21xSUJCTTdYVURjTHUzSC11LXRmWHRfMm1aemlkWEJzQ0lIQllmQ09ZckdtSkdFMERHd2ZBb3lmQXZFOVRFTEJReW9VNlVRUnpTdzJ4cV9HTkNvRld4OW55Nks5c3o1NDczeHdhbWVSdDBFNGZ4SEk4VHRQTW83MWYxZUQ3SkZCZHNDQmlwdzNvZEtTYVVFb1NxZ2NMaFp4RVRnMzFPaGVZNmE2VmpmUzhVWnUxU2NGeUliVXF0VUxxME1CVnc?oc=5",
+      "snippet": "citybiz",
+      "published": "2026-10-13T12:21:40+00:00"
     },
     {
       "n": 12,
-      "title": "Amazon is in talks to buy AI startup Decart for around $7 billion",
-      "source": "Quartz",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSbXNmdmswUXN1eXFqNXRJM0RZS3VYWEEybHNVbmFYMjdXYUhFLTJSSEN1VG16Z2NXR2JNZ2FzcmhFSU9jX1BFQlhvMHZocXJUeHlHbWV3YXFtN01vams1T2RDRU53VDJ5SXkxS1lGei0?oc=5",
-      "snippet": "Quartz",
-      "published": "2026-10-12T11:22:50+00:00"
+      "title": "SSR Mining Announces the Acquisition of Roxmore Resources",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTkRUSFNVOWtnWTFmSGlnY1M1UTFNZWRHOFNfLV8wQU9ucWJxcGpveFNLNWVIMlRRazVBQTMtYW5VSGp4Um0yV1JVZUtsQnRDYW12MGxvQmF6UUZqS3ptUkptRzBlQUV3d1pjT0xSUWdrUlc4aWtHd1JId29ySWJoZ1Z3TUU2T0RPYTZuek5idnBJVmZ0ZW5FNk5sa1NVZ2ZlY2hQd1FSN1liajU2NERCRnZjbFo?oc=5",
+      "snippet": "Business Wire",
+      "published": "2026-10-13T10:13:00+00:00"
     },
     {
       "n": 13,
-      "title": "Amazon nears $7 billion deal for Israeli AI start-up Decart",
-      "source": "The Jerusalem Post",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbUxuaV9CYmdJMVl4ZV9vNmJHRk5TaDhjVG5GVjBtMGRPeUd4RHR5N3RxLVgza0EzZ0dtbnFHQTFfU2phVlgzM2cyNnI2WWpSU3pUZzJXa0lkVE1OM1pMeG5LVzNoek9QRUpPQ2N4STBPNm4weE5KTGhEdEE5SGV5aDl5bjBWZw?oc=5",
-      "snippet": "The Jerusalem Post",
-      "published": "2026-10-12T08:44:29+00:00"
+      "title": "Roxmore Resources Announces Sale to SSR Mining and Spinout of Exploration Assets",
+      "source": "Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORjNwSkxWeThRVko5czE4emZ2cUpvSVFYMGZaVWdOZUhrNWxnVF9rS2JLajU4Y0VXNzZiRk5EbFphcE5pNEtqamR6aGhjUk9QWUtrTGNMTlZaVkRFS3hIWDJqZkF2NWdjdTE3S2M0bWd5cjcwRFFkV2swbnhnQ09objZiRHVvUE9TWk5lWXpiWjNoWVRtTXViWnR3eldHZjExZHVZZjNrY0xCdl8wY1BCZzdjNmVFdlRr?oc=5",
+      "snippet": "Stock Titan",
+      "published": "2026-10-13T10:00:00+00:00"
     },
     {
       "n": 14,
-      "title": "Report: Amazon in advanced talks to acquire Israeli startup Decart for $7b.",
-      "source": "The Jerusalem Post",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTjR5NVdfNU4yaGVNU2hpZUp6X2xMZlNwendqOUN4WDNPTG5WZUg1X3dVeVFteDRhSFFUQnY4T3gxcVRJb3J4MEpvMDRuOWtkTEZlMXVleEN0RDJVeDNzejVmMURhSVBkODRkRzcwaXVRVVZaUnpHWlU1NjZ3YzYzbHk1NG00UQ?oc=5",
-      "snippet": "The Jerusalem Post",
-      "published": "2026-10-12T07:57:12+00:00"
+      "title": "Albertsons Demands $8B From Kroger Over Failed Merger",
+      "source": "Progressive Grocer",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTDBVMFFZYi1JV012S2ljQW1fMEszYVE5TW9uTkMxQXB4dXUtemhfdEFCVVNQWWtqUThBSEZoVHFGOWw4Y3lLVjQxOGEwM1BaQWRtYXE4d1VacmdrX3Fqck5KUGhRLWJXeDVrRFJLaVNvdWxNMVk4VTVqZ1hUR0ZNSy02WQ?oc=5",
+      "snippet": "Progressive Grocer",
+      "published": "2026-10-13T11:29:13+00:00"
     },
     {
       "n": 15,
-      "title": "Amazon's $7 billion Decart talks echo a deal that changed its cloud business",
-      "source": "CTech",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tMEQwbE45TkFTVEF6ZGpKalFOeUxXVVZYUXJtbWFQLWRuaHJaVXo2V1hZZ213el9yRUNLbHYxczBQbkpVRV9OdHBvdERVZlJLelBfNjEySW4xUUNsMjZBVlpWUVZXcmc?oc=5",
-      "snippet": "CTech",
-      "published": "2026-10-12T07:00:00+00:00"
+      "title": "Albertsons seeks more than $8B from Kroger over failed merger",
+      "source": "Lexington Herald Leader",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xRmVjcGZ4UUtTTzhicjQtd0xkU3I2NlpNcDVOVXZ3N05iX2hyUWJkREdxQmVZSlpmTkhNbFVGM1F1UzV2a0o5a3pHS2VtZ2hxbFo5ZnFXVHRFajBfeDdRZS02Wlk4VlVaN2IzNkhGeHVIQmpNc3JOcEdhdVFaQQ?oc=5",
+      "snippet": "Lexington Herald Leader",
+      "published": "2026-10-13T11:27:00+00:00"
     },
     {
       "n": 16,
-      "title": "Amazon eyes Decart acquisition at $7 billion as AI chip race intensifies",
-      "source": "Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbWdSS2NSZ2M0WkxfWlhaWk1Hb0ZveXVsdHF6dUkwblFTcXNsV3dVQzdVejgwTXlXRXBrMEs3UWc0aGZBU25Qdy1HaGFJQ09tUXJ2VF8zcGNXenlYOEQ3WXRUS1FNdi1laTBDSnJoWUM4QTdEa290Zi0xbjNOM1pHc3UtQUp6bTkwRUlrNFRnMkNLZXRIZkxOa1hVLWlSckZzZk1PdVB4bTVCZHUzeEl0QzZIZTM2bEwzRDFrSNIBvAFBVV95cUxQbWdSS2NSZ2M0WkxfWlhaWk1Hb0ZveXVsdHF6dUkwblFTcXNsV3dVQzdVejgwTXlXRXBrMEs3UWc0aGZBU25Qdy1HaGFJQ09tUXJ2VF8zcGNXenlYOEQ3WXRUS1FNdi1laTBDSnJoWUM4QTdEa290Zi0xbjNOM1pHc3UtQUp6bTkwRUlrNFRnMkNLZXRIZkxOa1hVLWlSckZzZk1PdVB4bTVCZHUzeEl0QzZIZTM2bEwzRDFrSA?oc=5",
-      "snippet": "Business Standard",
-      "published": "2026-10-12T04:41:29+00:00"
+      "title": "Albertsons Seeks More Than $9 Billion for Busted Kroger Deal (1)",
+      "source": "Bloomberg Law News",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT0xuV0dWRnpkVTFleElKUm1WX3hXb2pETmhSR0RwNGFWSWQzYkh1b2RWaFdBZGxsTEZ3Z3RXNjdxMmVHMTlWUVkwYUJNTEIyNlUwaTJ0b3hhQ29zTzk0Y296U0Q0UkZDem1wMFdHc2Nleko0akJzWVZrV1lLd1V3RURGQ1g4WExnZ1otWmxsZzNuSDRpdmU5aEpWeVJqcGUzajdJ?oc=5",
+      "snippet": "Bloomberg Law News",
+      "published": "2026-10-12T21:28:00+00:00"
     },
     {
       "n": 17,
-      "title": "Amazon in talks to acquire AI startup Decart for around $7 billion",
-      "source": "Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRFQ5SXJkeXRJODhJSzBsOGR2THFnN1NTalRqMG55VzFYLUt2VkFZZzdVSTVzZkh5TGxETmZtQlBtOHJjZW5lUV83XzlWRXd6cHExOHpCTGs3NXU0NnI2MmdZSDBFQ3Q3dzJmRUt6VVdRVnk5TGVuV2dfcnlCSU5sWE85bFA0eFpsNmV5ZWQ3azNRLUppYzJ5LVlYVml2TGJXZUFUdjVZdDNsSjA1OXNuZDRFdVktQWNBVXliMldnQ0hYakRXMkhESDFVbXMxS0XSAc8BQVVfeXFMTURUOUlyZHl0STg4SUswbDhkdkxxZzdTU2pUajBueVcxWC1LdlZBWWc3VUk1c2ZIeUxsRE5mbUJQbThyY2VuZVFfN185VkV3enBxMTh6QkxrNzV1NDZyNjJnWUgwRUN0N3cyZkVLelVXUVZ5OUxlbldnX3J5QklObFhPOWxQNHhabDZleWVkN2szUS1KaWMyeS1ZWFZpdkxiV2VBVHY1WXQzbEowNTlzbmQ0RXVZLUFjQVV5YjJXZ0NIWGpEVzJIREgxVW1zMUtF?oc=5",
-      "snippet": "Business Standard",
-      "published": "2026-10-12T04:31:42+00:00"
-    },
-    {
-      "n": 18,
-      "title": "Amazon in talks to acquire AI startup Decart for $7 bln- WSJ",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ1RwcTZxUU1yZFpySzVmeEZFRlkza0V6LWY5WFZTczBFOEhrUF9wUXpqZjZRUnEtSll6c1h6OFJyWkpHcm9FemlEbHlXRVpNX0RoSWdXUU93bHVleEc5TnZ5MWlINTgwdHY0M095UURxM3poaWNoc3ljUWltLVZqeVotSWhab1JSYWxHZU5waWRITndNQzRHQWk4Yw?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-11T23:55:02+00:00"
-    },
-    {
-      "n": 19,
       "title": "Albertsons Seeks More Than $9 Billion From Kroger Over Failed Merger",
       "source": "SuaraGarut.ID",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DcVdCTnJDT0JJZXF2cTZJTmdIUm5WaUxYbWxQdlB0dXVOVUZweVFuaTU2NDZCR3NsWWlfd3p2cTJoekpxRElKanhqY3FvVWxWYzZWd0JwSXg0YnhnRzZfSjBRNkF4NlNj?oc=5",
@@ -498,212 +454,196 @@
       "published": "2026-10-12T19:32:00+00:00"
     },
     {
+      "n": 18,
+      "title": "Albertsons is demanding $9.3 billion from Kroger over failed merger",
+      "source": "Quartz",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fOXRXYzhqaE9WYXVwNjFJa0xzVnF1Y1dfcWhzSTJwaUIwWTFTMjJXbUFGMDh2c0NtdW9hM2tNNlM1b1FGZ2tpZllfYjVPUGc4RUhzdmswb2dBV0pYSzcxQng4UXdhbWlHWEQtT1RGcElGZw?oc=5",
+      "snippet": "Quartz",
+      "published": "2026-10-12T17:27:41+00:00"
+    },
+    {
+      "n": 19,
+      "title": "Albertsons Seeks $9.3 Billion From Kroger as Failed Grocery Merger Heads to Trial",
+      "source": "PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMTBsQTRIV2d5ak5IWWZveE1ub01lNzdJQnA1bXY1Q19TNDUtaTZlV2p5VnluTVVvcFVIeHAzUUNvb19iWnBja3pnTzBmY2NDbTFHSF9EUTVuSGd4STZjQk96RUlRVVVOWjRiakxXN1lVaGhmc2RlSHNKNGg5aUhDWXRpQlliUEZwTjd2R0RzTFlRVzJyOXVKa01fa05pQTZnN2Jsa3lWelBob2pTd1NsRzVXZF8?oc=5",
+      "snippet": "PYMNTS.com",
+      "published": "2026-10-12T20:19:31+00:00"
+    },
+    {
       "n": 20,
-      "title": "Albertsons seeks more than $9 Billion over busted Kroger deal",
-      "source": "The Spokesman-Review",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONHRvNHJTeE0xUjZvLVlubEhMM3dLZERjc3dwX2I0alBLaER2VGYzcDBqU2dKa0pUSm04MnlFQ2RSSUUwTE80WEc0bERhOHNYdDdPOFBoZ21JMmw4TEdOci1paGVkSVJFdVpNVU4wVnY4alRKZTRiak80eUE5MHE4TzRoYjRxSjdDU3lUaDY2TDh4VkdpdnZ2WE1CcE1LQQ?oc=5",
-      "snippet": "The Spokesman-Review",
-      "published": "2026-10-12T19:23:25+00:00"
+      "title": "Albertsons demands Kroger pay over $9 billion amid failed merger",
+      "source": "Yahoo! Finance Canada",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQM0t1YUJGVkgzT282bmVMeVRTX2FKRnN3UDlyeVc4VjZrZmhNdWZXdUhXdjRXUHhXYkRBSGtYa1VNVVNJX0hlR0N4cXA0SXBGbnFPVjlfUFMxSEMwQVNQbk9rVTVGaHpUVzRPaDdCQVRZQmxvRER5d1F5RHdkZVJnQVBraThIUUFWY0RR?oc=5",
+      "snippet": "Yahoo! Finance Canada",
+      "published": "2026-10-12T18:00:12+00:00"
     },
     {
       "n": 21,
-      "title": "Albertsons: Kroger was ‘reckless’ in letting key consultant shred notes ahead of $600M fee trial",
-      "source": "Boise Dev",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWTAzRXpNOFY5T1hMbXpvRG4zNnFyb2pvQXJzdTRjdVByN01abTUybFhteGpjOWM0X1o3WFRwMkVqMHdEcmxEOXVsdnVKRUUzVHhlMnc3ZjV2SEJKR3g0bG5PX29TMTZ3bUkzaTQ5dnVObXZ5Z0dXQmluMlpRY3lGQ3VYMGlpZ3VMRlVtbm1HQWpaZjY1R3VqclN1TmNsMHVHbFp1MHNrcjFmUzU4VldUMVZwZFJzVVdFOGU4bFp1cWdLTzA?oc=5",
-      "snippet": "Boise Dev",
-      "published": "2026-10-05T15:34:50+00:00"
+      "title": "Omron to Acquire Industrial PC Maker OnLogic in Physical AI Push",
+      "source": "Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ1lXX01hWFA0bXpBWmtWaDBObXVrTFJlYUZES19TWmZsaUFfTTJmeHJ4YjdwZVZqMjh1R1hhdnFnRkU3YWlHblN4ck5rR0ZpbEhWQ2lJWWswUml2dkpPaUo1eTB5LTBPQXRvSzZJWWtlUzlIQ1RKR0FJRFlKa095M1hGS0tEejlfTGxCdHpPUQ?oc=5",
+      "snippet": "Unite.AI",
+      "published": "2026-10-13T01:58:01+00:00"
     },
     {
       "n": 22,
-      "title": "Albertsons: Kroger was ‘reckless’ in letting key consultant shred notes ahead of $600M fee trial",
-      "source": "boisedev.com",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdk80ZV9pQXZ6VXpPM3BWR1B4dWlCYmFoNkRaaXNIb05hQkM5WGw2NWE1dldHY1pTNWZHNzc1Y0I3TmJ1T19lcjUxNHNPNXJwdlBCaHRUVGlGbnNidGFOcl9IMDdza01CX2V6aEdPX0ozOHQ1bW91d0xBdzJDZkxpTTcxSXFQWEJnWVU0dmlra1JLMkZkUnlrOFRIcnBOVjFySWY5QVM4dFJIWUhJNmFUM190eFMxdXpGYXdkcGs4cTJJUWdIY05VMTFB?oc=5",
-      "snippet": "boisedev.com",
-      "published": "2026-10-05T21:30:00+00:00"
+      "title": "Omron to Acquire U.S. Industrial PC Maker OnLogic for $675 Million to Expand Physical AI Foundation",
+      "source": "BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02U1lZU2lxNFVsRGJYcXlYYi1VWnRZUS1mWW5kZDM2T3lvY0FBbFNIMndHY3pJcnNBVWdUT2ZBenBBUTlnRDZJOTNBVUhoWXhNdzI2emthdzJ5YVRuYWVfSERRYW41LXFwSHFhTlEtMWNoZHl2SEE?oc=5",
+      "snippet": "BigGo Finance",
+      "published": "2026-10-13T01:25:00+00:00"
     },
     {
       "n": 23,
-      "title": "STERIS's agreed purchase of Xodus Medical would add operating-room supplies",
-      "source": "Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEVidElQb3JNWVdJYndsbk1GdGhMTjM2aG9uZjRKLWp3bGRhM3U1VktrOUJReFh1S3Zrb1hMRm5WS0ZWYVd3V3cxOWRncDE3WjAxRmwxOTBnTi0xdm44M3lWd0lBS1dZRmt4bjFzY2liOEhTV1NCZEN6VGpYc0VaOWE5SFozU1FEeTRBUmNIOW1QSTR5M2lNSzJSUE16YWhObFZXbDhGWVFuaHlTMUNfbE9tbHh3V05Z?oc=5",
-      "snippet": "Stock Titan",
-      "published": "2026-10-12T18:43:00+00:00"
+      "title": "Japan's Omron to buy US industrial PC firm Onlogic for $675 million in physical AI push",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT2FzdFBLeW5HT3V1UUYzYmN5UkxfdnNKdHI3Nzd1NnhXQkRCekFoQmJrd0hVMlVCRjRxOGpmOGRQRjJUdmJ4blZWZTZaQlJLdldhQlVrWVRmLXFJcGxSNGhwWHFZSGRUckNLZHI3QXJJZlpZNHVMcDJ4UHJMLTNJMXJWSlpBLXhTN3YxRWRqYndBR2RSakJqUzhhM0l0VjlhemN1YWZRSDJTaE1RTWpCWlBZRXYzNzFrdjh3OGNjRHM1UXRtcWh5YXFxSQ?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-10-13T01:04:00+00:00"
     },
     {
       "n": 24,
-      "title": "Steris to Acquire Xodus Medical for $2.1 Billion",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ1B2WHl2dE9scjhta0NNcTlBX2g4VWVYUmRQUkVvQUx6QWJlM2k0Qkg4dlFidmtBU0JOMmYza1NPamh4WU5LTkN6WnJsOXNXcGIzYnpILXNlclI4UTJoR2xWRzlyNkRrM05INkNjdmYwYWZOOXQ0QVNrQjNCN2dmV1daVWVnUTFiWXRoVE1LMjlqNzhna1E?oc=5",
-      "snippet": "WSJ",
-      "published": "2026-10-12T13:11:00+00:00"
+      "title": "Aslak updates 40% acquisition deal for Al Raeda",
+      "source": "ارقام",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wV3hRcnpXbzZXam5WUmhfd0ZDMElsSlJQMkpoczZBMDJfQW4td1pjQ2ZwWXl1am1RNHdoVl81eGg1aWxucWJSS0hVQnRqQ24zMF9YUlE5Uk9EbHo3THZSenZiSXc4dWM0RUE?oc=5",
+      "snippet": "ارقام",
+      "published": "2026-10-13T11:53:55+00:00"
     },
     {
       "n": 25,
-      "title": "SkyAI Plans $201 Million Cash Tender Offer at $3 Per Share, Rejects Forward Industries Bid",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNkR1S0JUd0NpU1dIUThvbHktZmgteG5KS2dLel9EcTBYZDFVUUNyMExkal9BSGI0cU5xVEZZOUVUMVlGT3JvWFBMMmFwMUdLd1V2Rm1BbTNPRVNPaGhvb0ZUREVCRGRfeS00VE5yV2pxX0cydGFuRWdqRHJUQWJUT1plT1VHOUM2VWFoaVhrcjNfRktDTGdsTg?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-12T14:58:24+00:00"
+      "title": "ASLAK Extends Deadline for Completion of 40% Acquisition of Al Raeda Industrial Investment",
+      "source": "صحيفة مال",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SanRlbnBSZUhwS2Nxd283c0Q5UXc2cmpaWlFXbm1CWGJzczJod3c0REJGcXdMYnpzZ3Juc3ppNWhrRXdLWi1GSUhoNE0wZXZ2Ulo2UzI1V0hkWG5MenpLWm9JVXY1RUxxLTJNWQ?oc=5",
+      "snippet": "صحيفة مال",
+      "published": "2026-10-13T07:46:02+00:00"
     },
     {
       "n": 26,
-      "title": "SkyAI rejects Forward Industries bid, plans $3.00/share tender offer for up to 95% of shares",
+      "title": "IonQ to Acquire Elisity in $1.15 Billion Stock Deal, With Up to $150 Million Earnout",
       "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPLVBZN0RtYkNUdnByVEVVb0xzR2J5UDQ5RFpxMXJkd1VZQ0NaUkloekdwRm5FQWQya18yUk5kMThlSkZpeVg3OVJLeEVqX3p5eEdKdGptN1VqQlNoa3lsX1BIdVpxOU1qemhSV2FGZ3MwVWNVdDI3dUtubjVBTXluVk9fVXZab21BUDdtSENfR0FTODNiVHdZWklqNUt6eHROSHZQaV9sNDRQXzVKak0tM0w5OS04RUVUN2I1c0dsY0JMdWRNUjJuRnpfcWFibnFYX1pDQzBFd0pCN0xOMHExLU5SNUhrTjg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPY1k5VTg3Tl9SVmsxUmtiR0pVeUYxSmlQYUlTN0VZdWZXUzR4RmZCR3hvcEQtTlVhTWQ5dUhhMHZ3ZFlSU2hKdDNlS3VITi1hczR0NU1PaGNuTnMyUGlKRzNTX1huS0xUMF9RWXR2eGpHV2V0bk85MldsV0lfWGdETDE5SGxrNjF3Vy0tcmc2WjhXR2h5VEh2eWtCWnJlbC1mamU2RkY0THpqcHVMX2ZRWHVzQ0UtQU9vbnE2WVRxOXJsSnRFcHVOY2NzMUJybXZyRFItM2xxRndrSnc?oc=5",
       "snippet": "TradingView",
-      "published": "2026-10-12T08:31:44+00:00"
+      "published": "2026-10-13T10:13:00+00:00"
     },
     {
       "n": 27,
-      "title": "SkyAI Announces Planned Tender Offer for Up to 95% of Outstanding Securities, Rejects Forward Industries Proposal",
-      "source": "Quiver Quantitative",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZTJTV1R2QlBMLW0wLVY3bWswT1BJckpTMkVRV0U2eWYxLWt5MzREeXRaMktHQkg3MUoxT2VVYU9zdllUSGdBekRMdkV6Umc4d3FjaWhpTFR6YU90bHBSTTdMV1pKTmVFdGhVR192ZVhtc3pGT2VzYWhxbzFtNXQyWXpwdWszTXB5Mi1GVVpmdXdyT25fbzMwX2JSM09DVURad3ZvRnp2NzlRWjRwYXdJZGtNSmE2ZVd3QlYyVGQ4OVdQaXZHbkFqNDUtZnV5UjFZWlcwYmNBR1d2YVR1VWNSQkRzN04?oc=5",
-      "snippet": "Quiver Quantitative",
-      "published": "2026-10-12T03:20:00+00:00"
+      "title": "IonQ agrees to acquire Zero Trust firm Elisity for up to $1.3bn",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONHJzYV9sUzNFcnIzYk9xVDF6U29sMlJXT05vclExTHMzaWt1cmUzR0o0ckF0N2FZSGFlakUzT3g4V0ZrOE55Yk5mbldCUGg4b3pBbndmZ0xjcGZoZGRXcVdHWnFOZ1oxd1NJcHNTX1Y1bGhkTXh2Nzd6VXg0ZGVHMDR3?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-13T08:54:24+00:00"
     },
     {
       "n": 28,
-      "title": "Ascend Sport to list in Zurich via $625M Evonext merger",
-      "source": "Dealroom",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQXlab21acVF5NS14WWtGZzJJUFpST2o3RHRDQkZKUzBJd3lEWmxxcVBmRE9hMnRJYllSY2lkVGxYNS1HMGl6NjBJT01fTVBweDdreGhoakIxNE9fUmNEbUFIZEZZb0ZLRkpjUE1rNk8xYno4Y2pKWm03UUpfVkxJMVktb1RHd21Bd2JQVUdpZkNSUQ?oc=5",
-      "snippet": "Dealroom",
-      "published": "2026-10-12T09:52:29+00:00"
+      "title": "IonQ To Acquire Elisity In $1.3 Billion Deal",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbFh3ZXplYjBleHRLZk9pSWgyeTYxaExjRnZuNDU5c3pjWmlhc3FiLXBqNVFvekp3QnpobVVyNzhEb0NjWnBoR0JxUGxEZUJkV01wRUhIRlNrX0tsUEN0Q1dReUxFc24xVV9qV0RRQXlOTHliT0tvT0JLVFN6U184VXZKSHk2TXVGMlBiRHM1SkVxQzVNZ3VTRkRNYXhTeVdKbkxBZQ?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-12T14:34:45+00:00"
     },
     {
       "n": 29,
-      "title": "Ascend Sport Plans to List on the Swiss Stock Exchange via Evonext",
-      "source": "blue News",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeDc4OUdDeXFEZ1BTY0t4c25wejEzaklTT1hVbzZTRFJLVkI5bV9oVzllWml1aEpGVkNCZThTY1czUUpJM0pQZENlWEcwNmt2STduS2FTMU40ZnplV0RRT21Yc1Q0amtfS3F1aGUtSmtZUHdGM1NiMDlLYXJGQzlWUXB2VmhwbUlXTWhIZ2txRXZPTzRlVm9RMi1xc0tPd1h0eks1Y3FnZXNSMmVk?oc=5",
-      "snippet": "blue News",
-      "published": "2026-10-12T06:20:12+00:00"
+      "title": "IonQ To Buy Elisity In $1.3 Billion Deal Amid Quantum Acquisition Spree",
+      "source": "Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnJFOFU5X2ZFc2hMTVVVRlMwbFlKcXIzLS1qVlhjSWhpQXBLR0FGc1ZUSHlnWkRNakFKTmJRUG5UeGNLMnRTbmhPMlI4WThaWlBHMGpzcTRlSUhHNnUzYzc5amlzaTZZMnJRYmlKNlJEdjVVTkNXTW9kN0xHSFh2Tm1sdzE4ZHUwSXNkS241V2JXYk1xanF5RlVULTdmcVJRVjBwWGF3?oc=5",
+      "snippet": "Investor's Business Daily",
+      "published": "2026-10-12T16:32:00+00:00"
     },
     {
       "n": 30,
-      "title": "EvoNext Holdings SA and Ascend Sport Technology AG sign transaction agreement",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZWNDZzBVeEJuQWR0b1ZRODJLMjVwUVlzWmNuZ0RYTlJ3amR4UDlxS2VkcTRidGlhNHpRMWh1MjRRZkRQV1gwSkJYYWVHZW8teU1ZN2pJZUhHY0JISGgwT0FTVk1kd0luY1FyVXJsN0xfMmFMa2xOclBYZFFVeXk3d09wTjE5SzI3SktMWms1bFZhTkk2c2c2b0VrU0pMQ2dGNjNnZndfMGltUHhJUk1lRkNhUmg3c1QwVExYcmJUZ19OVWh1VnFnaENlOA?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-12T05:00:00+00:00"
+      "title": "IonQ, Inc. entered into a definitive agreement to acquire Elisity, Inc. in a transaction valued at $1.3 billion.",
+      "source": "marketscreener.com",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVm5vMGVsMnJLUmhwTVh1X3kzZElrenNwZnMtR2xpajJLSUdXNzlxcUU3ZWNTZ1p3VGxZbng1a1Awc3UwZVdhVHdVMnpWMEl5azFvQmRmN1MyLVZ1dU9JeFV4X2lzN2ZjQUl4WXBVR0Rza0lReEhQb2N6TmEzd0Z3VlNlRFhsb1I2RUJMeFNUQ0NQLXotYm1acHkwbjBXdmEwZGRCaE5MV24yaDVOcUZkSkZoWmJUbUh0ck1rVmQ5X3d0Q3dkWUNrWmw1ZG1xSng1RTVBTlJNSlpfdUlkTE9zZVJ3?oc=5",
+      "snippet": "marketscreener.com",
+      "published": "2026-10-12T19:21:57+00:00"
     },
     {
       "n": 31,
-      "title": "Credit Agricole Strikes Deal to Buy Lone Star Funds-Backed IKB",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONkt3aGtqVWphcHUtU1dMLVMwWjNpUU5LZ2MtZ2l0QjRXVE9hYTRRQ0VERWYza2lfV0lpdjRVbjBHcnVULVk5aTRtT3pwaEdaQkxaQWtPOFZ2aDNjeThRRFU0TVlHSV9kSTRZVnVDV3lYSU9Tdl85Y3NMV1Jjb3JiYnBVdnNoa3M2cGJOQ3RHLWVTdmg4eVZkWXFmSWQwUnRLdl8tUGhIX2lwQS1OU3BBUXFkaw?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-10-12T19:53:26+00:00"
+      "title": "Update: IonQ to Acquire Elisity in Up to $1.3 Billion Deal",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSGl2RkV6TEVhQmhZb05MR2NJYTVCeTBtSm53M1RiNWNpdm5McWVTTnlWTzFBbTZnUU1KRWxaRUtqZmVTX2RSUVEzRWVOOV9TV1YzZUFkbTJ4LW1WdUJ0SW9SQmMzQk9UTW1MZ3VEd0s2c1QySEV2TU5IR2FqUHVpckFyajBsVE81UTM5cnFn?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-12T12:19:44+00:00"
     },
     {
       "n": 32,
-      "title": "Weston family agrees to buy Boots",
-      "source": "Clarity News",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE44c0V3Sks3dVRyQkRWSERtVEl3TmpaM2NJUXo4OFNWUXJfa2VPSEN0MVBGclVLX0t1NXh0UDlWZWRzand6WERXN0FxT2ZyejJFMmY1QjdXVTViM0gzeTlUR1JZYkxYRnpJUkNr?oc=5",
-      "snippet": "Clarity News",
-      "published": "2026-10-12T19:52:30+00:00"
+      "title": "IonQ Announces Acquisition of Cybersecurity Firm Elisity in All-Stock Deal Worth Up to $1.3 Billion",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOG13R0tvZzhVbU15LXFScFlPejJIWml0RmtFQTF6Nm9VTXJseVc1WFFZZnoyQTAyb1lCSFljdVU0X1RYRVB3ekwzWWpGRWRzNGU4NDZxUTl3bVk0QmNuZTY0TnU1S0JlampRN0NQRmdKSW5BWmxmTmFIMEVudm5XaTlMNlpPelROWUpiOXZVQnlmeDllcFN1VEd5bWp6RlRCWkZRT09NUW1WNVRoQ2c?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-12T12:34:09+00:00"
     },
     {
       "n": 33,
-      "title": "Weston family agrees $8.9bn deal to acquire Boots",
-      "source": "Home of Direct Commerce",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUlpUUDZUVDNfa2RrN0pxN0VQeUlwNVZsR091YlVaMGlUMWNRMTJ6d1dNbnd1SEpFOVl4Wi1aLTdLSGFIcUZ6UG5Ua3M0Zm5fTkRKTmFRTmZWWXhFdTUwVEl5UG5WYlNheHRvV2pMQzh2WkN0OThPZHQ0bExuZnV6LWRfTTRXeU5WeXluZVo0TjE?oc=5",
-      "snippet": "Home of Direct Commerce",
-      "published": "2026-10-08T12:07:02+00:00"
+      "title": "Aurum PropTech allots ₹118 crore warrants to promoter Aurum RealEstate",
+      "source": "scanx.trade",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY1lfWmxIdWhiRjZweTl4SlZKdVZydTlRaEFiUzFtN0IwNi04WTRLZUdxQnVqMkVQWXdVQ0Ywd3hXOVh6VlBOY2Ftd3RhWDZOckFUT21ad0RKZWpiNjFFSWJWZUlHMml4SHQ3R0xHdkdwbzhiY3VqRnpIbkFMTU5TbFhpRHVYdXN6RE5xWWVOTml5X2ptREc0SDlJTzI0SGFZc1ZFOHYxbEVoUU9qOFU5VVpSTDBNcDRTR2RfTm5KZlU?oc=5",
+      "snippet": "scanx.trade",
+      "published": "2026-10-13T18:03:46+00:00"
     },
     {
       "n": 34,
-      "title": "Billionaire Weston family to buy Boots in $8.9bn deal",
-      "source": "Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcVQtTjdsT2doYnpUS3pUNTZxM2lrelhtRUsxb2R4VmRRMU9JUGFSM2ZPMEVPOTMyWU55eElDSnFsbTFQUU56aXRVam9tblNNRzZFTUlVcUVQckNwWkVlRngwMFRLNkdUTXh0SnlzWFc3VUhzMHVual9udzVqUmZMTnptNTY?oc=5",
-      "snippet": "Financial Times",
-      "published": "2026-10-07T13:50:35+00:00"
+      "title": "Beam Global Signs Definitive Agreement to Acquire Drone Technology Company ScoutDI, Creating a Vertically Integrated U.S. Drone Platform for Industrial and Defense Markets",
+      "source": "sUAS News",
+      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQZUJVMDd0YUVhVEczMUdpQWt1QjlKSkE2MHphUEFseXJTbzZ0X1NQemJId05YRmtiRFd4bGpEMjQ2ZGFETVN4dTdBaXNWUGtJY2Zkd2ZsZTk4QW9reW95LUdtNm50ejRfc2JHSUlOYzBhaEh3RjMwOHFIQzJnbkwxSjlndlNaWGRiYWJONkE5Zy1xNE03SmU1RDRUU1lUSm11SlM1Qkl6QWh6TEhWdDg5U0pHVEM5WmprYkM3ODF4LWt4c3ljQWEtNlZacnFHOFAxb1VhT3FsRGRmTkZIOUxaMzJxREpnTkpIeWNKdU1kZUVrWFZ5SW9GMGkxVGhuSUk3MmtDV1dOWjdTSFBRb1dlcG5yZmVrdUxPT2lkT3JnNHk4OGMyMlJwanFWRQ?oc=5",
+      "snippet": "sUAS News",
+      "published": "2026-10-13T17:24:45+00:00"
     },
     {
       "n": 35,
-      "title": "Canada's Weston family to buy UK's Boots in $8.9 billion deal",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUG11N3dHZGxrZ1B6aTRhakp3TkRiZVFsUmtocWZwTkR6VVhQX1FPS19jR1c0aXRkSWZZUVhVbHoxUFJoZWlGbWdEWjlJT0pOMjVZZDJJRXlDSVUyaWR0dVdPTWp1bDJ4bzFhMTl4TmZEaGpjVXBKR0xHM0FvU29kVUFmZlNkZWRDQnZGNlFoSlIyZjhscXhmYWhSaXhPQ19hcExCNkVmYUs2bWQybm5sMlozWmk?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-07T22:20:07+00:00"
+      "title": "Armstrong Bell acquires Tapcast in six-figure deal",
+      "source": "IT Brief UK",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNd1AtWUY3b3hHX01MQi1jYXhhaEM4UFNXS2FGdTlRVlRmVjAtMmhXS3M5dzQyUXNicVpnMU9mUTRtdEZQRmp2SURQbzgwUFl0dHo1WThkbF84X213aGJzQjBxc0tvYXRxR002dVpESmozRnp4UXBuWWNVZmFab0Y4RzloNEo?oc=5",
+      "snippet": "IT Brief UK",
+      "published": "2026-10-13T16:54:00+00:00"
     },
     {
       "n": 36,
-      "title": "Weston family’s Wittington to acquire Boots in $8.9 billion deal",
-      "source": "Mass Market Retailers",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc3lxYzhjbUxldUxveUdzcVRnbGd5WU01SWEzSXBpejdVeVJBeFhPbkllZ1dBaEZ3YTZxTm1PVlppc1FMck9xcHpvR05NWmtpZ0xFWjVod1dEZ2FxdFFlemlKYzhCelo0OVNFQ0ZEcXhzUWJYeTZjNHZWTFlwRGk5V1FSS0VkSXV0SE9nYzYzck45akxseDRJTFJGOA?oc=5",
-      "snippet": "Mass Market Retailers",
-      "published": "2026-10-07T15:02:37+00:00"
+      "title": "Morrisons sales rise faster than those at would-be bidder Sainsbury's for first time in five years amid signs of recovery",
+      "source": "This is Money",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQll5VDlWNU9pU0g0VnFvb1BldHFxZ1pGdjNqeVVKbktyMTFtaVQ2RFZOcmRYc1FYU1hvVE5sOEUxUmpfZjlYSWhMbGV4NTlQMk5BR2VJTzVrVVUwSUlZSC1iMDB1MjVNUUQxMDM5NlNhSWxtcy1qODFFUHFKZ1FHMFVOVEdLT2djdWJ5clk2T2EyYkhsRlAyZTdRcTBIWFJNNUhmbFlSSXlsa0VOUVNPUDFYMlJDbGIxcG9lZnRhUVdsZnZwSzU5eHFNbkJhTUpJd0FqckhNOVlobjN3RXFiUA?oc=5",
+      "snippet": "This is Money",
+      "published": "2026-10-13T16:39:13+00:00"
     },
     {
       "n": 37,
-      "title": "Canada’s Weston family buys Boots for $8.9bn",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa1ZmXzR3SkZiOURnSEJKZjcyY2ItZlVBMWFoeTVoUnRqRmg4VXNhYUFJRWZiWmFSUmNBSVB4LWJHRTlkS2N0N2N0S1BjY1Y0c200YzlSeTlJNWdoc055dTRMUkpIWDFmRGgwX0NkdnFPZHhMckU4Wlo4RF8yZHozSDlsZ0JuTWduc2c4?oc=5",
-      "snippet": "The Guardian",
-      "published": "2026-10-07T15:12:00+00:00"
+      "title": "AI Agent Company Decagon Held Early M&A Talks With ServiceNow, Others",
+      "source": "Business Insider",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOGhsYzF4cmVvTjhWdjZLNW1JY1RFSVZBR1VxanlqcHBFZ2V0b2lTSGFtR1hIcWlVUnl6SjNQa2pJOHA1aThGN0F2alI3WkVsRVNEYVh3eGhIWU53NlZpbUtmbS1lZVB1dTVDSHFIYmVGOTZFaWVHQlk3cTBTTVczNmNNVTB2OVBBNTNCbFRzd0hpWnFPdEs4WEpmVnRnMEN0Ty1BTGpFUnRObHc?oc=5",
+      "snippet": "Business Insider",
+      "published": "2026-10-13T16:36:00+00:00"
     },
     {
       "n": 38,
-      "title": "Struggling Leicester City owners seek takeover bids this week",
-      "source": "Inbox.eu",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMGFUNVlSSXF5VDcyRTlRT1BsX0p0UlVWSWRKRFpaSFdiV1N4MVg3S19nSktUNDd0eHdhUlk3Y2l5YnZ5VEtNMFFSNnduTktwTU9WVXpvQV9WOWtsYnlkU1oxQ3k5b2V3RFlLcHRMZ2FWVmlfdHAzRUQzeC05X1pZRTFTTDdNVkw4QV9WaGlpOVR0RFdYNm9La2NMa3gyMVl0WDRuWHRn?oc=5",
-      "snippet": "Inbox.eu",
-      "published": "2026-10-12T19:40:06+00:00"
+      "title": "Poundstretcher owner withdraws rescue bid for rival Poundland",
+      "source": "Sky News",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNb0VvcUNuc0lQSTVma2lmZlBhODJuQndRRFFObWszcWpFRFVXa2FaTjdkVFE4cHVxUEpnZjV2X3VmMVdBa0JwLWpTUjVFT2RLUFh2RFlURjNsa1A3a3ZsN21adklWRU5XRnJ6aFFyaFMzcFJ4Q1pNWF9UM2xwUHowMENqTUpQb1JjckJUc2pNQU5PSDM1TUdqc0JOMUNEdw?oc=5",
+      "snippet": "Sky News",
+      "published": "2026-10-13T16:25:56+00:00"
     },
     {
       "n": 39,
-      "title": "Getty Images to File for Bankruptcy, Go Private In Restructuring Deal",
-      "source": "The Hollywood Reporter",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcFprSElfZ25Ib2NnTllYYWFfS1RrTkczTldBN0JzaTZHRWxPZlRhZXJ4dDAyeGtwTWNIOHUtclhseUg5VnNtR0tKRnYxQmhGbTgzZzE1bTl2SGpRSjZScEQ3OUZDNWs5eVZnTXRLZjVHV3h2YTU0dnRPV29CUTBBZXN4NVA2NjZ4NUJWbTFrcHM4WXc3czdacWs0RVoyOWZsWWgtNVNxbWZKUU1Uakh0STl2TjB6dw?oc=5",
-      "snippet": "The Hollywood Reporter",
-      "published": "2026-10-12T19:00:57+00:00"
+      "title": "Star Step Performance Coatings Group Acquires DAAS & Chemicals, Creating a Global Industrial Coatings Platform",
+      "source": "Knoxville News Sentinel",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZ2pueEZWdW1ac3c1aWw5bWR1R0c5dWFwa3ZrZDhYaG9fVG9OVktCVEx2Yjc3ZVBnSTN3aVA4Rm4tT0loVFBvRzZRVDhMdGpKbDdkMENGLUZMUlZTeTYwSGdxWUdHbG1mUG5PMjlJUUJjZ3l5S1llUlVfRUt1SFd6Wm1kdXRxWXNtOG1UZkhIZEJ2Szg1UU1tcjJOcy1xTWtTMS1xalRaN0EtWndZVXh2OXdOanpfOUttMklPUFRUcUlYZVRINzJCenc1dGJST3pIYWNtY255aGdzX1BfNUhjbWVyZFMtam5EWVh6LU84OTkyZw?oc=5",
+      "snippet": "Knoxville News Sentinel",
+      "published": "2026-10-13T16:03:06+00:00"
     },
     {
       "n": 40,
-      "title": "Iz Yatirim Holding Boosts Digital Portfolio with 25% Stake in Hızlı Çiçek",
-      "source": "The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNakxhdGM0TmZsODNRMk0teTZ3SmdlcDM4YURlRmJrVGtsdkNTQ0hSdW5nNzF6aFYxdUdqOE1kUXdNcHltQm16YVZ2aUFOSU9DbkVUeTdlcmI1T2tRektReTJENWRVc3VPa201c3YySWl0QjhySEhXeDhzbzFlRTI4TW9Odm9ZcjhaT1h6QTQtTS1wczRvWndzOTBlakxQeEJEeHBua3g5NV8ySFJERFlnRnBlSU9GUVBHcS1tRmJSdlZrRjdsdGFQWTRCOVhwbHEzV09FWVVPWS1fcWFVNVBiVTZrY0VhQ245?oc=5",
-      "snippet": "The Globe and Mail",
-      "published": "2026-10-12T18:40:03+00:00"
+      "title": "4 Energy Stocks Positioned for Growth as M&A Activity Picks Up",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeU9mbDNEbFRUY0thZjhKZlpXWEo1MFA3cmFvZ1pCa3h1NlBMUDhBbWtuNEJLdXFMX0hRd05odTQ5b1BmSkREWElKRkFuQWprYmt2OHZsb05HVFNXSHVSZ3ROSERycXFDU0xEaTMycFc2R2NFRmh0UVdSVHZnMFdRQW1LcXVMZllsX2YzNWZ2QVQzT2VrdS16YTN1LUM3ZDdUdnFhMm93azM1cFVoQ0Z3bVVTWFVCdkFVOEE?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-13T15:35:00+00:00"
     },
     {
       "n": 41,
-      "title": "Starbucks Shuts Down Chipotle Takeover Rumors. Here’s What Investors Need to Know.",
-      "source": "The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOeWMzcWxCTnhFOTdxTjgzZ2xrU3Y3WGNXcV82d1VjYnlyVi1kZkJPNUtOWGUtbnQwRFc2bW40cWJsMmdnYjRvMGRuSWxndXRLcU1XNkNqOEtFV0lLMkhBdGpTWGpYejVRN3RDRFNmZjhyR1BDNURJY3hZS1V4aXNfN3RhenRPS1RxdHVKaDZJZjlBel8xMDFlVmh5UFE0NjhuWDJBYkxvdHdzczNXQ09fRlNueU9UV3VDaUducDBYcGVuOHVGRzBYUV80TXVMSFNTc3NwV3hTTElfdTVSSFdxMXd4TGVWRy1BX081V2VaREpkLVc3Q3VBZA?oc=5",
-      "snippet": "The Globe and Mail",
-      "published": "2026-10-12T18:21:56+00:00"
-    },
-    {
-      "n": 42,
-      "title": "Compass Sued by Anywhere Shareholder Over ‘Backchannel’ Merger Approval",
-      "source": "RISMedia",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUy1xUGZMNUJhSUs2dFVJTUJKRnRuejVwQU81R08zY05keXhBS3ZpRm15dWFfMmg0NnpXQ3RTTkVkUWpKVjNwRGVDUUZuMnZpLU1CbEEwTlMxUjE2OVMyUEFuV181R3I5R1k5R3R6eUdZRUczOWUzNnVGT0c3MzFuQmEyWERWaGRhVDZvQk9xTTlyV3M?oc=5",
-      "snippet": "RISMedia",
-      "published": "2026-10-12T17:43:08+00:00"
-    },
-    {
-      "n": 43,
-      "title": "WSP Drops Arcadis Acquisition Bid After Two Rejected Offers",
-      "source": "USGlass Magazine",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMzJMSElfZUVQTUdmMVkxaGFSMWhpcnpaUWFzLWVVZHJ4N2FuUTFWeXl4VnNkRXhpdElJdXdfNHJFSVdSaVZ1OEFIelVFUFVOSFh6VENpb3FCclFfSGxWUW1NcjgtM245dnVQcVdaRVpIdFdfd0JDdXl3NkJmME4xbHNqV1V0cWdrOG00aVdqSWg?oc=5",
-      "snippet": "USGlass Magazine",
-      "published": "2026-10-12T17:35:05+00:00"
-    },
-    {
-      "n": 44,
-      "title": "Getty Images plans bankruptcy filing, to go private",
+      "title": "EXCLUSIVE: Mexico to approve Viva-Volaris airline merger by end of 2026, sources say",
       "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSDRBblViTjNERnBXRzN3QjNOa3Q2b2tqN1pQNEpwa21mTHVuLW1MSGg5UGFHWmRDM0ZfdV9udjhuUkVzTkJUVmxzR2NCQ3RzSFVuT2RsWFlWN1FTUUZfV1EyVElySnBZZHJnVWw2ZERITzNONmwyVDJuRmxCczY5V0o3OWpHU0pRRzFudW5YQVBPUXJMX1cxTw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZlNRYkRFS2JUM09ITUQ0eW50a3U0bDNpTmJvM2dwRGVsODNSQlc1ZVhVd1NUOEdXNWx2NC1QelRxN3gyaTVGVWVDM2lOd0FXMFlPWHdTT3hmVVlBNVVYNmdlUWdZZFU1aXdzZHQzeGV6ak9Bb2pQV3hFdktMZ0FNVElYcXdoVmVTTU9ya2lXdnRtSlplWlRHUjI4eGVQaFI5RUtZMmVPYUpQelgyTzhJV0FXX0J0UzZYdnBF?oc=5",
       "snippet": "Reuters",
-      "published": "2026-10-12T17:28:08+00:00"
-    },
-    {
-      "n": 45,
-      "title": "Grupo Fuertes acquires Spanish poultry integrator Nutrave",
-      "source": "WATTPoultry.com",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRkh3YnBYMEZra3V1b1hRek9EUXl3NWVVWXJLYmdBY0J2UVFQT3VEZ2RkSWZZSGhsdkc0OGk2RUR1QnYwd01yR05WVDQ0SFJFTFlyMERCM3JfYTVxVERNeEgtTFlLeDgzUGVJd2U4OXRESE1qSVVxVmVGSWJLWm5SVnNLV1hlMnktTV9yZVgzc3RWWXdlS1d5VnJoLUpiNGQtQjlzQ3BMOF9CQThUYzBrX200N1ByMzdZUEdhc2FZakpLQ09URXBma1pESDM3Wm9w?oc=5",
-      "snippet": "WATTPoultry.com",
-      "published": "2026-10-12T17:26:15+00:00"
+      "published": "2026-10-13T14:52:06+00:00"
     }
   ],
   "cited": [
@@ -715,6 +655,7 @@
     6,
     7,
     8,
+    9,
     10,
     11,
     12,
@@ -723,7 +664,7 @@
     15,
     16,
     17,
-    19,
+    18,
     20,
     21,
     22,
@@ -740,74 +681,78 @@
     33,
     34,
     35,
-    36,
-    37,
-    38,
-    39,
-    40
+    36
   ],
-  "invalid_citations": [
-    1
-  ],
-  "example_prompt": "Deal: IonQ and Elisity.\nStage: Announced.\n\nHeadlines:\n[1] Investor's Business Daily, Oct 12 12:32 PM ET: IonQ To Buy Elisity In $1.3 Billion Deal Amid Quantum Acquisition Spree\n    Investor's Business Daily\n[2] grafa.com, Oct 12 12:20 PM ET: IonQ Agrees $1.3B Elisity Acquisition for Quantum Security\n    grafa.com\n[3] Pulse 2.0, Oct 12 11:27 AM ET: IonQ To Acquire Elisity In Deal Valued At Up To $1.3 Billion To Expand Quantum Security Platform\n    Pulse 2.0\n[4] TradingView, Oct 12 10:34 AM ET: IonQ To Acquire Elisity In $1.3 Billion Deal\n    TradingView\n[5] domain-b.com, Oct 12 09:54 AM ET: IonQ to acquire cybersecurity firm Elisity in a deal worth up to $1.3 billion\n    domain-b.com\n[6] The Quantum Insider, Oct 12 09:49 AM ET: IonQ Agrees to Buy Elisity in Cybersecurity Deal Worth Up to $1.3 Billion\n    The Quantum Insider\n[7] Yahoo Finance, Oct 12 08:34 AM ET: IonQ Announces Acquisition of Cybersecurity Firm Elisity in All-Stock Deal Worth Up to $1.3 Billion\n    Yahoo Finance\n[8] Yahoo Finance, Oct 12 08:19 AM ET: Update: IonQ to Acquire Elisity in Up to $1.3 Billion Deal\n    Yahoo Finance\n\nWrite the subheading and sentences.",
+  "invalid_citations": [],
+  "example_prompt": "Deal: Ithaca Holdings and Bumble.\nStage: Announced.\n\nHeadlines:\n[1] Startup Fortune, Oct 13 11:35 AM ET: Bumble agrees to $1.3 billion buyout by a brand-new Ithaca Holdings\n    Startup Fortune\n[2] Yahoo Finance, Oct 13 09:57 AM ET: Bumble Agrees to $1.3 Billion All-Cash Acquisition by Ithaca Holdings at $6.05 Per Share\n    Yahoo Finance\n[3] TradingView, Oct 13 09:03 AM ET: Bumble Agrees to $6.05-Per-Share Sale to Ithaca Holdco in Two-Step Merger\n    TradingView\n[4] Startup Fortune, Oct 12 11:20 PM ET: Bumble Is in Talks to Go Private With a New Firm Called Ithaca Holdings\n    Startup Fortune\n[5] BigGo Finance, Oct 12 03:05 PM ET: Bumble Jumps on Report Ithaca Nears $1 Billion Buyout\n    BigGo Finance\n[6] Startup Fortune, Oct 12 03:59 PM ET: Bumble is in talks to go private in a $1 billion deal with Ithaca Holdings\n    Startup Fortune\n\nWrite the subheading and sentences.",
   "retrieval": [
     {
-      "deal": "IonQ / Elisity",
-      "query": "IonQ Elisity acquisition merger deal",
+      "deal": "Ithaca Holdings / Bumble",
+      "query": "Ithaca Holdings Bumble acquisition merger deal",
       "hits": [
         {
-          "n": 4,
-          "similarity": 0.854
+          "n": 2,
+          "similarity": 0.857
         },
         {
           "n": 1,
-          "similarity": 0.847
+          "similarity": 0.837
         },
         {
-          "n": 8,
-          "similarity": 0.845
-        },
-        {
-          "n": 7,
+          "n": 3,
           "similarity": 0.832
         },
         {
-          "n": 2,
-          "similarity": 0.816
+          "n": 5,
+          "similarity": 0.793
         },
         {
-          "n": 9,
-          "similarity": 0.815
+          "n": 6,
+          "similarity": 0.791
+        },
+        {
+          "n": 4,
+          "similarity": 0.758
         }
       ]
     },
     {
-      "deal": "Amazon / Decart",
-      "query": "Amazon Decart acquisition merger deal",
+      "deal": "Horizon Space Acquisition I / ArcheNova Biotech",
+      "query": "Horizon Space Acquisition I ArcheNova Biotech acquisition merger deal",
       "hits": [
         {
-          "n": 16,
-          "similarity": 0.8
+          "n": 10,
+          "similarity": 0.916
+        },
+        {
+          "n": 8,
+          "similarity": 0.915
+        },
+        {
+          "n": 9,
+          "similarity": 0.895
+        },
+        {
+          "n": 7,
+          "similarity": 0.881
+        }
+      ]
+    },
+    {
+      "deal": "SSR Mining / Roxmore Resources",
+      "query": "SSR Mining Roxmore Resources acquisition merger deal",
+      "hits": [
+        {
+          "n": 12,
+          "similarity": 0.874
         },
         {
           "n": 11,
+          "similarity": 0.826
+        },
+        {
+          "n": 13,
           "similarity": 0.795
-        },
-        {
-          "n": 17,
-          "similarity": 0.773
-        },
-        {
-          "n": 14,
-          "similarity": 0.769
-        },
-        {
-          "n": 18,
-          "similarity": 0.756
-        },
-        {
-          "n": 10,
-          "similarity": 0.753
         }
       ]
     },
@@ -816,119 +761,109 @@
       "query": "Albertsons Kroger acquisition merger deal",
       "hits": [
         {
-          "n": 19,
+          "n": 17,
           "similarity": 0.817
         },
         {
+          "n": 15,
+          "similarity": 0.811
+        },
+        {
+          "n": 18,
+          "similarity": 0.808
+        },
+        {
+          "n": 19,
+          "similarity": 0.807
+        },
+        {
           "n": 20,
-          "similarity": 0.788
+          "similarity": 0.795
         },
         {
-          "n": 21,
-          "similarity": 0.639
-        },
-        {
-          "n": 22,
-          "similarity": 0.632
+          "n": 14,
+          "similarity": 0.792
         }
       ]
     },
     {
-      "deal": "STERIS / Xodus Medical",
-      "query": "STERIS Xodus Medical acquisition merger deal",
+      "deal": "Omron / OnLogic",
+      "query": "Omron OnLogic acquisition merger deal",
       "hits": [
         {
-          "n": 24,
-          "similarity": 0.854
+          "n": 22,
+          "similarity": 0.777
         },
         {
           "n": 23,
-          "similarity": 0.764
+          "similarity": 0.728
+        },
+        {
+          "n": 21,
+          "similarity": 0.697
         }
       ]
     },
     {
-      "deal": "SkyAI / Forward Industries",
-      "query": "SkyAI Forward Industries acquisition merger deal",
+      "deal": "Aslak / Al Raeda",
+      "query": "Aslak Al Raeda acquisition merger deal",
       "hits": [
         {
+          "n": 24,
+          "similarity": 0.879
+        },
+        {
           "n": 25,
-          "similarity": 0.768
-        },
-        {
-          "n": 26,
-          "similarity": 0.767
-        },
-        {
-          "n": 27,
-          "similarity": 0.719
+          "similarity": 0.815
         }
       ]
     },
     {
-      "deal": "Ascend Sport / Evonext",
-      "query": "Ascend Sport Evonext acquisition merger deal",
+      "deal": "IonQ / Elisity",
+      "query": "IonQ Elisity acquisition merger deal",
       "hits": [
         {
           "n": 28,
-          "similarity": 0.816
-        },
-        {
-          "n": 30,
-          "similarity": 0.802
+          "similarity": 0.854
         },
         {
           "n": 29,
-          "similarity": 0.735
-        }
-      ]
-    },
-    {
-      "deal": "Credit Agricole / IKB",
-      "query": "Credit Agricole IKB acquisition merger deal",
-      "hits": [
-        {
-          "n": 31,
-          "similarity": 0.776
-        }
-      ]
-    },
-    {
-      "deal": "Weston family / Boots",
-      "query": "Weston family Boots acquisition merger deal",
-      "hits": [
-        {
-          "n": 33,
-          "similarity": 0.819
+          "similarity": 0.847
         },
         {
-          "n": 34,
-          "similarity": 0.816
+          "n": 30,
+          "similarity": 0.845
+        },
+        {
+          "n": 31,
+          "similarity": 0.845
         },
         {
           "n": 32,
-          "similarity": 0.806
+          "similarity": 0.832
         },
         {
-          "n": 35,
-          "similarity": 0.805
-        },
+          "n": 26,
+          "similarity": 0.827
+        }
+      ]
+    },
+    {
+      "deal": "Aurum PropTech / Aurum RealEstate",
+      "query": "Aurum PropTech Aurum RealEstate acquisition merger deal",
+      "hits": [
         {
-          "n": 36,
-          "similarity": 0.804
-        },
-        {
-          "n": 37,
-          "similarity": 0.756
+          "n": 33,
+          "similarity": 0.745
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 181,
-    "headlines_new": 172,
-    "index_size": 743,
-    "deals_found": 30,
+    "headlines_fetched": 192,
+    "headlines_new": 119,
+    "index_size": 862,
+    "deals_found": 33,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19
