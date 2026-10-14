@@ -7,14 +7,14 @@
 <meta name="description" content="A morning market brief written by a local Llama model from retrieved headlines, with every source and every step of the RAG pipeline shown.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header class="site">
   <div class="wrap bar">
-    <a class="mark" href="index.html">Rowan Das</a>
+    <a class="mark" href="index.html">Rowan Das<span class="mark-sub">Rotman Commerce</span></a>
     <nav aria-label="Main">
       <a href="pitches.html">Pitches</a>
       <a href="brief.html" aria-current="page"><span class="nfull">Morning brief</span><span class="nshort" aria-hidden="true">Brief</span></a>
@@ -28,7 +28,7 @@
 
 <section class="ed-band">
   <div class="wrap">
-    <p class="ed-kicker" id="edDate">Morning brief</p>
+    <p class="ed-kicker" id="edDate"><span>Morning brief</span></p>
     <h1 class="ed-h1">What moved overnight</h1>
     <p class="ed-dek">A short read on the overnight session, written each weekday by a Llama model that only sees the headlines my pipeline retrieves. The small numbers link to the headline behind each claim.</p>
     <p class="ed-byline" id="edByline"><span>Loading this morning's brief</span></p>
@@ -184,7 +184,7 @@ Headlines:
     </div>
     <div class="foot">
       <p>&copy; 2026 Rowan Das</p>
-      <p>Not investment advice.</p>
+      <p>Disclosures: personal student work. Not investment advice, and not a recommendation to buy or sell any security.</p>
     </div>
   </div>
 </footer>
@@ -237,7 +237,7 @@ Headlines:
     const cited = new Set(b.cited || []);
     const byN = {}; sources.forEach((s) => (byN[s.n] = s));
 
-    if (b.date) $("edDate").textContent = "Morning brief, " + b.date;
+    if (b.date) $("edDate").innerHTML = "<span>Morning brief</span><span>" + esc(b.date) + "</span>";
     $("edByline").innerHTML = "<span>Generated " + etTime(b.generated_at, true) + "</span><span>Written by " + esc(b.model || "a Llama model") + " on Ollama</span><span>" + sources.length + " sources</span>";
     $("edBody").innerHTML = b.sections ? renderSections(b) : renderBody(b.brief);
 
@@ -304,14 +304,14 @@ Headlines:
     const bySrc = {}; ((b && b.sources) || []).forEach((s) => (bySrc[s.n] = s));
 
     const noteHtml = (desk, d) => {
-      if (!d) return '<div class="ind-note"><p class="ed-label">Today on the desk</p><p class="ind-body">The first ' + esc(desk.name.toLowerCase()) +
+      if (!d) return '<div class="ind-note"><p class="ind-body">The first ' + esc(desk.name.toLowerCase()) +
         " note arrives with the next morning's brief.</p></div>";
       const how = (d.retrieval || []).map((r) =>
         '<div class="ed-rrow"><span class="mv">' + esc(r.label) + '</span><div><span class="q">"' + esc(r.query) + '"</span>' +
         (r.hits.length ? r.hits.map((h) => '<div class="ed-hit"><a class="n" href="#s' + h.n + '">' + h.n + '</a><span class="s">' + h.similarity.toFixed(2) + "</span>" +
           '<span class="t">' + esc((bySrc[h.n] || {}).title || "") + "</span></div>").join("")
           : '<div class="ed-hit"><span></span><span></span><span class="t">Nothing passed the cutoff.</span></div>') + "</div></div>").join("");
-      return '<div class="ind-note"><p class="ed-label">Today on the desk</p>' +
+      return '<div class="ind-note">' +
         "<h3>" + esc(d.headline || "") + '</h3><p class="ind-body">' + citeHtml(d.body || "") + "</p>" +
         (d.sources.length ? '<div class="ed-found">Written from ' + d.sources.map((n) => '<a href="#s' + n + '" data-n="' + n + '">' + n + "</a>").join("") + "</div>" : "") +
         (how ? '<details class="ind-how"><summary>How this note was sourced</summary><p>One search per instrument against the same headline store. A headline only counts if it names the instrument\'s topic, so a story about stock futures can\'t stand in for corn. The two closest that pass are kept, shown with their cosine similarity.</p><div class="ed-rtab">' + how + "</div></details>" : "") +

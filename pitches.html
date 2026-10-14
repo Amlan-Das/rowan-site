@@ -10,14 +10,14 @@
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header class="site">
   <div class="wrap bar">
-    <a class="mark" href="index.html">Rowan Das</a>
+    <a class="mark" href="index.html">Rowan Das<span class="mark-sub">Rotman Commerce</span></a>
     <nav aria-label="Main">
       <a href="pitches.html" aria-current="page">Pitches</a>
       <a href="brief.html"><span class="nfull">Morning brief</span><span class="nshort" aria-hidden="true">Brief</span></a>
@@ -36,7 +36,11 @@
         <h1>Pitches</h1>
         <p class="note">Each call with its thesis, the full write-up, the model and a live chart from TradingView. Prices update after every trading day.</p>
       </div>
-      <div class="ledger" id="pitchlist"></div>
+      <figure class="exhibit">
+        <figcaption class="exh">Every call against its target</figcaption>
+        <div class="ledger" id="pitchlist"></div>
+        <p class="src">Source: Yahoo Finance closes, updated after every trading day; charts from TradingView.</p>
+      </figure>
     </div>
   </section>
 </main>
@@ -63,7 +67,7 @@
     </div>
     <div class="foot">
       <p>&copy; 2026 Rowan Das</p>
-      <p>Not investment advice.</p>
+      <p>Disclosures: personal student work. Not investment advice, and not a recommendation to buy or sell any security.</p>
     </div>
   </div>
 </footer>

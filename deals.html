@@ -10,14 +10,14 @@
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header class="site">
   <div class="wrap bar">
-    <a class="mark" href="index.html">Rowan Das</a>
+    <a class="mark" href="index.html">Rowan Das<span class="mark-sub">Rotman Commerce</span></a>
     <nav aria-label="Main">
       <a href="pitches.html">Pitches</a>
       <a href="brief.html"><span class="nfull">Morning brief</span><span class="nshort" aria-hidden="true">Brief</span></a>
@@ -31,7 +31,7 @@
 
 <section class="ed-band">
   <div class="wrap">
-    <p class="ed-kicker" id="edDate">Deals aggregator</p>
+    <p class="ed-kicker" id="edDate"><span>Deals aggregator</span></p>
     <h1 class="ed-h1">Who is buying whom</h1>
     <p class="ed-dek">The M&amp;A headlines of the last few days, read each weekday by a Llama model and grouped by deal. Each deal shows where it stands, and the small numbers link to the headline behind every claim.</p>
     <p class="ed-byline" id="edByline"><span>Loading the latest update</span></p>
@@ -195,7 +195,7 @@ Headlines:
     </div>
     <div class="foot">
       <p>&copy; 2026 Rowan Das</p>
-      <p>Not investment advice.</p>
+      <p>Disclosures: personal student work. Not investment advice, and not a recommendation to buy or sell any security.</p>
     </div>
   </div>
 </footer>
@@ -222,7 +222,7 @@ Headlines:
     if (d.latest) foot.push("<span>Latest " + etTime(d.latest, true) + "</span>");
     if ((d.sources || []).length) foot.push('<span class="deal-srcs" aria-label="Sources">' + d.sources.map((n) => '<a href="#s' + n + '">' + n + "</a>").join("") + "</span>");
     return '<article class="deal' + (quiet ? " quiet" : "") + '" data-stage="' + esc(d.stage) + '">' +
-      '<div class="deal-top"><div class="left"><span class="stagechip">' + esc(d.stage) + "</span>" + (d.pinned ? '<span class="chip soft">Pinned</span>' : "") + "</div>" +
+      '<div class="deal-top"><div class="left">' + (d.pinned ? '<span class="chip soft">Pinned</span>' : "") + "</div>" +
         (d.value ? '<span class="deal-val">' + fmtVal(d.value) + "</span>" : "") + "</div>" +
       "<h3>" + esc(d.acquirer) + '<span class="to">buys</span>' + esc(d.target) + "</h3>" +
       '<p class="deal-sub">' + esc(d.headline || "") + "</p>" +
@@ -237,7 +237,7 @@ Headlines:
     const cited = new Set(d.cited || []);
     const byN = {}; sources.forEach((s) => (byN[s.n] = s));
 
-    if (d.date) $("edDate").textContent = "Deals aggregator, " + d.date;
+    if (d.date) $("edDate").innerHTML = "<span>Deals aggregator</span><span>" + esc(d.date) + "</span>";
     $("edByline").innerHTML = "<span>Updated " + etTime(d.generated_at, true) + "</span><span>Written by " + esc(d.model || "a Llama model") + " on Ollama</span><span>" + plural(sources.length, "source", "sources") + "</span>";
 
     // Top of the page: one sentence on the day, then other deals worth knowing

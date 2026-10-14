@@ -10,14 +10,14 @@
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header class="site">
   <div class="wrap bar">
-    <a class="mark" href="#top">Rowan Das</a>
+    <a class="mark" href="#top">Rowan Das<span class="mark-sub">Rotman Commerce</span></a>
     <nav aria-label="Main">
       <a href="pitches.html">Pitches</a>
       <a href="brief.html"><span class="nfull">Morning brief</span><span class="nshort" aria-hidden="true">Brief</span></a>
@@ -30,30 +30,40 @@
 </header>
 
 <main id="top">
-<section class="band hero">
-  <div class="wrap">
-    <h1>Rowan Das</h1>
-    <p class="intro">Commerce student at the University of Toronto, studying finance and economics at Rotman, class of 2029. Analyst on the Rotman Commerce Student Fund, covering Industrials.</p>
-    <div class="actions" id="heroLinks">
-      <a class="btn solid" href="resume.pdf" data-resume>Résumé</a>
-    </div>
-    <nav class="starts" aria-label="Start here">
-      <a class="start" href="pitches.html"><span class="sn">Pitches</span><span class="sd">Stocks I've pitched, each with a target and how the call is tracking.</span></a>
-      <a class="start" href="brief.html"><span class="sn">Morning brief</span><span class="sd">What moved overnight and why, every weekday at 6:30 AM ET.</span></a>
-      <a class="start" href="brief.html#industries"><span class="sn">Industries</span><span class="sd">Agriculture, mining and natural resources, with my agriculture report and LBO model.</span></a>
-      <a class="start" href="deals.html"><span class="sn">Deals</span><span class="sd">Who is buying whom, and where each deal stands.</span></a>
-    </nav>
-  </div>
-</section>
+<section class="cover">
+  <div class="wrap cover-in">
+    <aside class="dark cover-side" aria-label="Rowan Das">
+      <h1 class="cover-name">Rowan Das</h1>
+      <p class="cover-role">Analyst, Industrials<br>Rotman Commerce Student Fund</p>
+      <p class="cover-school">Commerce, University of Toronto, class of 2029</p>
+      <div class="cover-box">
+        <p class="cb-v" id="callCount">4 live calls</p>
+        <p class="cb-s">Marked to the last close after every trading day</p>
+      </div>
+      <nav class="cover-toc" aria-label="In this report">
+        <p class="toc-h">Contents</p>
+        <a href="pitches.html"><span>Pitches</span><span class="toc-d">Charts and models</span></a>
+        <a href="brief.html"><span>Morning brief</span><span class="toc-d">Weekdays, 6:30 AM ET</span></a>
+        <a href="brief.html#industries"><span>Industries</span><span class="toc-d">Primers and reports</span></a>
+        <a href="deals.html"><span>Deals</span><span class="toc-d">Who is buying whom</span></a>
+        <a href="#experience"><span>Experience</span><span class="toc-d">PwC, RCSF, Allure</span></a>
+      </nav>
+      <div class="cover-contact" id="heroLinks">
+        <a class="btn solid" href="resume.pdf" data-resume>Résumé</a>
+      </div>
+    </aside>
 
-<section id="pitches" class="band">
-  <div class="wrap">
-    <div class="sechead">
-      <h2>Pitches</h2>
-      <p class="note">Stocks I've pitched, each with a price target and a time horizon. Prices update after every trading day.</p>
+    <div class="cover-main">
+      <p class="rline"><span>Stock pitches and market tools</span><span id="rDate"></span></p>
+      <h2 class="cover-h"><span id="callWord">Four</span> stock calls, marked to market after every close.</h2>
+      <p class="intro">Commerce student at the University of Toronto, studying finance and economics at Rotman. Analyst on the Rotman Commerce Student Fund, covering Industrials. Below are the stocks I've pitched, each with a price target and how the call is tracking, plus two tools I built that publish here every weekday.</p>
+
+      <figure class="exhibit" id="pitches">
+        <figcaption class="exh">Pitches against their targets</figcaption>
+        <div class="ledger" id="pitchlist"></div>
+        <p class="src">Source: Yahoo Finance closes, updated after every trading day. Open a row for the thesis, the write-up and the model; live charts are on the <a href="pitches.html">pitches page</a>.</p>
+      </figure>
     </div>
-    <div class="ledger" id="pitchlist"></div>
-    <p class="fine">Open a row for the thesis, the full write-up and the model. Live charts are on the <a href="pitches.html">pitches page</a>.</p>
   </div>
 </section>
 
@@ -63,7 +73,10 @@
       <h2>Projects</h2>
       <p class="note">Two tools that run every weekday and publish to this site, and what I plan to build next.</p>
     </div>
-    <div class="feat" id="feat"></div>
+    <figure class="exhibit">
+      <figcaption class="exh">The two tools, with their latest output</figcaption>
+      <div class="feat" id="feat"></div>
+    </figure>
     <h3 class="subhead" id="nextTitle">Planned</h3>
     <div class="ledger projects" id="list"></div>
   </div>
@@ -74,12 +87,15 @@
     <div class="sechead"><h2>About</h2></div>
     <div class="about">
       <p class="statement">Third-year Commerce student at the University of Toronto, very interested in financial markets and learning them by building. Also a big Vancouver Canucks fan.</p>
+      <figure class="exhibit exhibit-wins">
+      <figcaption class="exh">Results</figcaption>
       <ul class="wins">
         <li><b>2nd</b><span>RSM 100 Case Competition ($4,000+, 900 students)</span></li>
         <li><b>Top 8</b><span>KKR Wharton PE Case Competition, globally</span></li>
         <li><b>7</b><span>Case competitions in total</span></li>
         <li><b>1 of 20</b><span>Analysts selected for the Rotman Commerce Student Fund ($250K AUM)</span></li>
       </ul>
+      </figure>
     </div>
     <h3 class="subhead" id="toolbox">Skills</h3>
     <div class="tbox" id="skills"></div>
@@ -166,7 +182,7 @@
     </div>
     <div class="foot">
       <p>&copy; 2026 Rowan Das</p>
-      <p>Not investment advice.</p>
+      <p>Disclosures: personal student work. Not investment advice, and not a recommendation to buy or sell any security.</p>
     </div>
   </div>
 </footer>
@@ -183,7 +199,11 @@ const etDay = (iso) => new Date(iso).toLocaleDateString("en-US", { timeZone: "Am
 (function () {
   const ext = (href, label) => '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + label + "</a>";
   $("heroLinks").insertAdjacentHTML("beforeend",
-    '<a href="mailto:' + esc(CONTACT.email) + '">Email</a>' + ext(CONTACT.linkedin, "LinkedIn") + ext(CONTACT.github, "GitHub"));
+    '<p class="cover-links"><a href="mailto:' + esc(CONTACT.email) + '">' + esc(CONTACT.email) + "</a>" + ext(CONTACT.linkedin, "LinkedIn") + ext(CONTACT.github, "GitHub") + "</p>");
+  $("callCount").textContent = PITCHES.length + (PITCHES.length === 1 ? " live call" : " live calls");
+  const words = ["No", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"];
+  $("callWord").textContent = words[PITCHES.length] || PITCHES.length;
+  $("rDate").textContent = new Date().toLocaleDateString("en-US", { timeZone: "America/New_York", weekday: "long", month: "long", day: "numeric", year: "numeric" });
   $("mailBig").href = "mailto:" + CONTACT.email;
   $("mailBig").textContent = CONTACT.email;
   $("contactLinks").innerHTML =

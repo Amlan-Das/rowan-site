@@ -308,7 +308,18 @@ async function renderPitches(host, opts) {
       '<span class="clock" data-time="' + f.toFixed(4) + '"><i class="cfill"></i><i class="cdot"></i></span>' +
       '<span class="cends"><span>Pitched</span><span>' + (m.elapsed >= m.total ? "Horizon ended" : "Ends " + fmtDateObj(m.end)) + "</span></span>" +
       (m.progress != null && m.elapsed < m.total
-        ? '<p class="pline">Price is ' + Math.round(Math.max(m.progress, 0) * 100) + "% of the way to the target with " + Math.round(f * 100) + "% of the horizon used.</p>" : "");
+        ? '<p class="pline">Price is ' + (m.progress < 0 ? Math.round(-m.progress * 100) + "% against the call" : Math.round(m.progress * 100) + "% of the way to the target") +
+          " with " + Math.round(f * 100) + "% of the horizon used.</p>" : "");
+  };
+
+  // The rating box at the top of an open row: the call, the target, what is left to go and progress
+  const ratingHtml = (p, m) => {
+    const cell = (label, value) => '<div><dt>' + label + "</dt><dd>" + value + "</dd></div>";
+    return '<div class="rating"><p class="rating-call">' + esc(p.direction || "Pitch") + "</p><dl>" +
+      cell("Price target", fmtUSD(p.target) || "–") +
+      cell("To target", m.toGo != null ? signedPct(m.toGo) : "–") +
+      cell("Progress", progText(m.progress)) +
+      "</dl></div>";
   };
 
   const tile = (label, value, sub) =>
@@ -356,6 +367,7 @@ async function renderPitches(host, opts) {
           '<p class="a">' + (p.thesis ? esc(p.thesis) : '<span class="missing">Add why you made this call.</span>') + "</p>" +
           '<div class="btns">' + pBtn + mBtn + cBtn + "</div></div>" +
           '<div class="pslider">' +
+            ratingHtml(p, m) +
             '<div class="phead"><b>Pitch price to target</b>' + legend + "</div>" +
             trackHtml(p, m, true) + '<p class="pline">' + progSentence(p, m) + "</p>" + clockHtml(m) +
           "</div>" +
