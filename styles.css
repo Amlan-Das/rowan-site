@@ -320,7 +320,6 @@ html { scrollbar-color: var(--rule-strong) var(--paper); }
 .pbody .a { margin: 0; max-width: 64ch; color: var(--slate); font-size: 16px; line-height: 1.65; }
 .btns { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
 
-.pslider { padding: 16px 20px 18px; background: var(--soft); }
 .phead { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 4px 16px; font-size: 14.5px; }
 .phead b { font-weight: 600; }
 .lgs { display: flex; flex-wrap: wrap; gap: 2px 16px; }
@@ -735,13 +734,19 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .ind-how[open] summary::after, .ed-fold[open] > summary::after { transform: rotate(0deg); }
 
 /* Rating box: the top of an opened pitch, framed by the house rule */
-.pslider { padding: 0 0 18px; background: none; }
-.rating { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 0 24px; align-items: center; margin-bottom: 18px; padding: 14px 18px; border: 1px solid var(--rule-strong); border-top: 3px solid var(--house); }
+.pslider { padding: 0 0 18px; container-type: inline-size; }
+.rating { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px 24px; align-items: center; margin-bottom: 18px; padding: 14px 18px; border: 1px solid var(--rule-strong); border-top: 3px solid var(--house); }
 .rating-call { margin: 0; color: var(--house); font: 800 30px/1 var(--sans); letter-spacing: .02em; text-transform: uppercase; }
-.rating dl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 16px; margin: 0; }
-.rating dt { color: var(--mist); font-size: 12.5px; font-weight: 500; }
-.rating dd { margin: 0; font: 700 18px/1.25 var(--sans); }
-@media (max-width: 480px) { .rating { grid-template-columns: 1fr; gap: 10px; } }
+/* Figures never break inside themselves; when the box is narrow the cells wrap instead */
+.rating dl { display: flex; flex-wrap: wrap; gap: 10px 28px; margin: 0; }
+.rating dl > div { flex: 1 0 auto; }
+.rating dt { color: var(--mist); font-size: 12.5px; font-weight: 500; white-space: nowrap; }
+.rating dd { margin: 0; font: 700 18px/1.25 var(--sans); white-space: nowrap; }
+/* A narrow panel (the home page beside the sidebar, or a phone) puts the call above the figures */
+@container (max-width: 500px) {
+  .rating { grid-template-columns: minmax(0, 1fr); }
+  .rating-call { font-size: 26px; }
+}
 .pslider .track .dot { box-shadow: 0 0 0 3px var(--paper); }
 .pslider .track .ring { background: var(--paper); }
 .cdot { box-shadow: 0 0 0 3px var(--paper); }
