@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-14T00:27:03+00:00",
+  "updated": "2026-10-14T05:36:54+00:00",
   "prices": {
     "V": {
-      "current": NaN,
+      "current": 396.06,
       "currentDate": "2026-10-13",
       "closest": {
         "price": 396.35,
@@ -11,7 +11,7 @@
       }
     },
     "OWL": {
-      "current": NaN,
+      "current": 9.29,
       "currentDate": "2026-10-13",
       "closest": {
         "price": 12.77,
@@ -20,7 +20,7 @@
       }
     },
     "CARR": {
-      "current": NaN,
+      "current": 55.03,
       "currentDate": "2026-10-13",
       "closest": {
         "price": 59.73,
@@ -29,10 +29,10 @@
       }
     },
     "GEV": {
-      "current": NaN,
+      "current": 1004.04,
       "currentDate": "2026-10-13",
       "closest": {
-        "price": 963.48,
+        "price": 963.29,
         "date": "2026-10-13",
         "hit": false
       }
