@@ -1,5 +1,5 @@
 <!--
-Natural resources primer. Write it below this comment and it appears under the Natural resources tab on brief.html.
+Timber primer. Write it below this comment and it appears under the Timber tab on brief.html.
 While there is no text below the comment, the page says the primer is in progress.
 
 Markdown that works here:
@@ -12,14 +12,14 @@ Markdown that works here:
   | Company | Ticker |       (a table: header row, then a |---|---| row, then one row per line)
   |---|---|
   | Nutrien | NTR |
-  ![what the chart shows](primers/images/natural-resources-chart.png)   (put image files in primers/images/)
+  ![what the chart shows](primers/images/timber-chart.png)   (put image files in primers/images/)
 
 Then set updated: "Month Year" for this desk in data.js.
 -->
 
 ## Timber and timberland
 
-Timber is a renewable natural resource: the land grows a crop of trees that takes 25 to 75 years to reach harvest. It works a lot like infrastructure. It's a real asset that lasts for decades, it keeps up with inflation, and it has given steady returns over long, slow cycles. [Read the full timber report (PDF, 5 pages)](primers/natural-resources/timber-industry-review.pdf).
+Timber is a renewable natural resource: the land grows a crop of trees that takes 25 to 75 years to reach harvest. It works a lot like infrastructure. It's a real asset that lasts for decades, it keeps up with inflation, and it has given steady returns over long, slow cycles. [Read the full timber report (PDF, 5 pages)](primers/timber/timber-industry-review.pdf).
 
 - **How it makes money:** harvest volume times log price, less the cost of cutting, hauling, roads and replanting. Volume depends on how fast the trees grow, so buyers value a forest off yield tables.
 - **MAI and CAI:** the mean annual increment is the average wood a stand has added per year (total volume / age), and the current annual increment is what it adds this year. When CAI falls back to meet MAI, average growth has peaked and it's the classic time to cut. Radiata pine in New Zealand grows about 27 m³ per hectare a year; Ontario's forest grows about 1.3.

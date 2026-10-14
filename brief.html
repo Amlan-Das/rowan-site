@@ -59,7 +59,7 @@
 
   <section class="ed-sec" id="industries" aria-labelledby="indTitle">
     <div class="ed-sechead">
-      <h2 class="ed-h2" id="indTitle">Industry desks</h2>
+      <h2 class="ed-h2" id="indTitle">Natural resources</h2>
       <p>A note on each industry from the same pipeline and the same source list, with a primer I wrote by hand underneath.</p>
     </div>
     <div class="ind-tabs" role="tablist" aria-label="Industries" id="indTabs"></div>
@@ -336,8 +336,8 @@ Headlines:
       : "";
     const primerHtml = (desk) =>
       '<article class="primer" aria-labelledby="ph-' + esc(desk.slug) + '">' +
-        '<div class="primer-head"><h3 id="ph-' + esc(desk.slug) + '">Primer</h3>' +
-        '<p class="ed-byline"><span>' + esc(desk.name) + "</span><span>Written by Rowan Das</span>" + (desk.updated ? "<span>Updated " + esc(desk.updated) + "</span>" : "") + "</p></div>" +
+        '<div class="primer-head"><h3 id="ph-' + esc(desk.slug) + '">' + esc(desk.name) + " primer</h3>" +
+        '<p class="ed-byline"><span>Written by Rowan Das</span>' + (desk.updated ? "<span>Updated " + esc(desk.updated) + "</span>" : "") + "</p></div>" +
         filesHtml(desk) +
         '<nav class="primer-toc" aria-label="' + esc(desk.name) + ' primer contents" hidden></nav>' +
         '<div class="primer-body" id="pb-' + esc(desk.slug) + '"><p class="primer-wait">Loading the primer</p></div>' +

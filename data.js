@@ -90,9 +90,9 @@ const INDUSTRIES = [
   },
   { slug: "mining", name: "Mining", primer: "primers/mining.md", updated: "" },
   {
-    slug: "natural-resources", name: "Natural resources", primer: "primers/natural-resources.md", updated: "October 2026",
+    slug: "timber", name: "Timber", primer: "primers/timber.md", updated: "October 2026",
     files: [
-      { label: "Timber report (PDF)", href: "primers/natural-resources/timber-industry-review.pdf" }
+      { label: "Timber report (PDF)", href: "primers/timber/timber-industry-review.pdf" }
     ]
   }
 ];
