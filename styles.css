@@ -409,6 +409,8 @@ html { scrollbar-color: var(--rule-strong) var(--paper); }
 ------------------------------------------------------------------- */
 .about { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px 64px; align-items: start; }
 .statement { margin: 0; max-width: 32em; font-size: 19px; line-height: 1.6; }
+/* The results table starts level with the statement beside it */
+.about .exhibit { margin: 0; }
 .wins { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--ink); }
 .wins li { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--rule); color: var(--slate); font-size: 15.5px; line-height: 1.45; }
 .wins b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
