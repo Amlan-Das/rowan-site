@@ -6,3 +6,6 @@ brief/
 .gitignore
 scripts/
 deals/
+# Design notes for working on the site, not for visitors.
+PRODUCT.md
+DESIGN.md
