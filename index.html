@@ -97,8 +97,14 @@
       </ul>
       </figure>
     </div>
-    <h3 class="subhead" id="toolbox">Skills</h3>
-    <div class="tbox" id="skills"></div>
+    <figure class="exhibit skills" id="toolbox">
+      <figcaption class="exh">Skills, by group</figcaption>
+      <div class="skills-in">
+        <div class="orb" id="orb" aria-hidden="true"><div class="orb-globe"></div></div>
+        <div class="tbox" id="skills"></div>
+      </div>
+      <p class="src">Drag the orb to turn it. Point at a group to light up its skills.</p>
+    </figure>
   </div>
 </section>
 
@@ -254,10 +260,84 @@ renderPitches($("pitchlist"), { charts: false });
   makeAccordion(list);
 })();
 
-// Skills
-$("skills").innerHTML = SKILLS.map((g) =>
-  '<div class="tgroup"><h3>' + esc(g.group) + "</h3><p>" + g.items.map(esc).join(", ") + "</p></div>"
+// Skills: the list, and the orb that shows the same skills on a slowly turning sphere
+$("skills").innerHTML = SKILLS.map((g, i) =>
+  '<div class="tgroup" tabindex="0" data-g="' + i + '"><h3>' + esc(g.group) + "</h3><p>" + g.items.map(esc).join(", ") + "</p></div>"
 ).join("");
+
+(function () {
+  const orb = $("orb");
+  const items = [];
+  SKILLS.forEach((g, gi) => g.items.forEach((name) => items.push({ name, gi })));
+  // Spread the labels evenly over the sphere (a Fibonacci lattice), mixing the groups
+  const n = items.length, golden = Math.PI * (3 - Math.sqrt(5));
+  const order = items.map((it, i) => ({ it, k: (i * 7) % n })).sort((a, b) => a.k - b.k).map((x) => x.it);
+  const pts = order.map((it, i) => {
+    const y = 1 - (i + .5) / n * 2, r = Math.sqrt(1 - y * y), t = i * golden;
+    const el = document.createElement("span");
+    el.className = "orb-tag";
+    el.dataset.g = it.gi;
+    el.textContent = it.name;
+    orb.appendChild(el);
+    return { x: Math.cos(t) * r, y, z: Math.sin(t) * r, el };
+  });
+
+  let ax = -0.35, ay = 0, vx = 0, vy = reduceMotion ? 0 : 0.0032, R = 0, on = true, raf = 0;
+  const size = () => { R = orb.clientWidth / 2 * (orb.clientWidth < 400 ? 0.7 : 0.78); };
+  const draw = () => {
+    const cx = Math.cos(ax), sx = Math.sin(ax), cy = Math.cos(ay), sy = Math.sin(ay);
+    pts.forEach((p) => {
+      const x1 = p.x * cy + p.z * sy, z1 = -p.x * sy + p.z * cy;
+      const y2 = p.y * cx - z1 * sx, z2 = p.y * sx + z1 * cx;
+      const s = 0.6 + 0.4 * (z2 + 1) / 2;               // 0.6 at the back, 1 at the front
+      p.el.style.transform = "translate(-50%, -50%) translate3d(" + (x1 * R).toFixed(1) + "px," + (y2 * R).toFixed(1) + "px,0) scale(" + s.toFixed(3) + ")";
+      p.el.style.opacity = (0.3 + 0.7 * (z2 + 1) / 2).toFixed(2);
+      p.el.style.zIndex = Math.round((z2 + 1) * 100);
+    });
+  };
+  const loop = () => {
+    ay += vy; ax += vx;
+    if (dragging === null) { vx *= 0.94; vy += ((reduceMotion ? 0 : 0.0032) - vy) * 0.03; }
+    ax = Math.max(-1.2, Math.min(1.2, ax));
+    draw();
+    raf = on ? requestAnimationFrame(loop) : 0;
+  };
+
+  // Drag to turn it; it keeps some spin when you let go
+  let dragging = null;
+  orb.addEventListener("pointerdown", (e) => { dragging = { x: e.clientX, y: e.clientY }; orb.setPointerCapture(e.pointerId); orb.classList.add("grab"); });
+  orb.addEventListener("pointermove", (e) => {
+    if (!dragging) return;
+    vy = (e.clientX - dragging.x) * 0.006; vx = -(e.clientY - dragging.y) * 0.006;
+    dragging = { x: e.clientX, y: e.clientY };
+  });
+  const drop = () => { dragging = null; orb.classList.remove("grab"); };
+  orb.addEventListener("pointerup", drop);
+  orb.addEventListener("pointercancel", drop);
+
+  // Pointing at a group in the list (or at a label) lights up that group's skills
+  const light = (g) => {
+    orb.classList.toggle("lit", g != null);
+    pts.forEach((p) => p.el.classList.toggle("on", String(g) === p.el.dataset.g));
+    document.querySelectorAll(".tgroup").forEach((t) => t.classList.toggle("on", String(g) === t.dataset.g));
+  };
+  document.querySelectorAll(".tgroup").forEach((t) => {
+    t.addEventListener("mouseenter", () => light(t.dataset.g));
+    t.addEventListener("focus", () => light(t.dataset.g));
+    t.addEventListener("mouseleave", () => light(null));
+    t.addEventListener("blur", () => light(null));
+  });
+  orb.addEventListener("mouseover", (e) => { const t = e.target.closest(".orb-tag"); light(t ? t.dataset.g : null); });
+  orb.addEventListener("mouseleave", () => light(null));
+
+  // Only turn while it is on screen
+  size(); draw();
+  new IntersectionObserver((en) => {
+    on = en[0].isIntersecting;
+    if (on && !raf) raf = requestAnimationFrame(loop);
+  }).observe(orb);
+  window.addEventListener("resize", () => { size(); draw(); });
+})();
 
 // The latest summary from each tool. If a file isn't there yet, the card keeps its default text.
 const showLatest = (src, d) => document.querySelectorAll('.flive[data-src="' + src + '"]').forEach((el) => {

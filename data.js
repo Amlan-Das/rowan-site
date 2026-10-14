@@ -168,10 +168,15 @@ const PITCHES = [
 ];
 
 // Toolbox section on the home page.
+// Skills: shown as the skill orb and the list beside it on the home page.
+// Added from work on this site (check and delete any you don't want to claim):
+//   LBO modeling and Industry research (the agriculture and timber reports, GardenCore LBO),
+//   Entity reorganizations (PwC), RAG, Vector databases, Local LLMs and GitHub Actions
+//   (the brief and deals pipelines), yfinance and TradingView (prices and charts).
 const SKILLS = [
-  { group: "Valuation and modeling", items: ["DCF", "Comparable companies", "3-statement modeling", "Sensitivity tables", "Football field", "Pitch decks"] },
-  { group: "Tax and accounting", items: ["ASC 740", "NOLs", "Section 382", "Deferred taxes", "Book-to-tax", "Tax due diligence", "CPA (in progress)"] },
-  { group: "Code and AI", items: ["Python", "RSS pipelines", "LLM workflows", "Agentic workflows", "Claude Code", "Excel automation"] },
-  { group: "Data and tools", items: ["Excel", "S&P Capital IQ", "PowerPoint"] }
+  { group: "Valuation and modeling", items: ["DCF", "Comparable companies", "3-statement modeling", "LBO modeling", "Sensitivity tables", "Football field", "Industry research", "Pitch decks"] },
+  { group: "Tax and accounting", items: ["ASC 740", "NOLs", "Section 382", "Deferred taxes", "Book-to-tax", "Tax due diligence", "Entity reorganizations", "CPA (in progress)"] },
+  { group: "Code and AI", items: ["Python", "RSS pipelines", "LLM workflows", "RAG", "Vector databases", "Local LLMs", "Agentic workflows", "Claude Code", "GitHub Actions", "Excel automation"] },
+  { group: "Data and tools", items: ["Excel", "S&P Capital IQ", "PowerPoint", "yfinance", "TradingView"] }
 ];
 /* ============ End of the part you edit ============ */

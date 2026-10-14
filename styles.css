@@ -418,6 +418,36 @@ html { scrollbar-color: var(--rule-strong) var(--paper); }
 .tgroup { padding: 14px 0 16px; border-bottom: 1px solid var(--rule); }
 .tgroup h3 { margin: 0 0 4px; font: 600 15px/1.3 var(--sans); }
 .tgroup p { margin: 0; color: var(--slate); font-size: 15.5px; line-height: 1.55; }
+
+/* Skills: the orb on the left, the same skills as a list on the right */
+.skills { margin-top: 56px; }
+.skills-in { display: grid; grid-template-columns: minmax(0, 480px) minmax(0, 1fr); gap: 32px 56px; align-items: center; border-top: 1px solid var(--ink); padding-top: 8px; }
+.skills .tbox { grid-template-columns: minmax(0, 1fr); border-top: 0; }
+.skills .tgroup { position: relative; padding-left: 18px; cursor: default; outline-offset: 0; transition: color .2s; }
+.skills .tgroup::before { content: ""; position: absolute; left: 0; top: 20px; width: 8px; height: 8px; border: 1.5px solid var(--rule-strong); border-radius: 50%; transition: background .2s, border-color .2s; }
+.skills .tgroup.on::before { background: var(--house); border-color: var(--house); }
+.skills .tgroup.on h3 { color: var(--house); }
+.skills .tgroup:last-child { border-bottom: 0; }
+
+.orb { position: relative; width: 100%; aspect-ratio: 1; touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; }
+.orb.grab { cursor: grabbing; }
+/* The globe: an outline, an equator and one meridian, in hairlines */
+.orb-globe { position: absolute; inset: 9%; border: 1px solid var(--rule-strong); border-radius: 50%; pointer-events: none; }
+.orb-globe::before, .orb-globe::after { content: ""; position: absolute; inset: 0; border: 1px solid var(--rule); border-radius: 50%; }
+.orb-globe::before { transform: scaleY(.28); }
+.orb-globe::after { transform: scaleX(.28); }
+.orb-tag {
+  position: absolute; left: 50%; top: 50%; padding: 2px 6px;
+  color: var(--ink); font: 600 15px/1.2 var(--sans); white-space: nowrap;
+  transition: color .2s, background .2s; will-change: transform, opacity;
+}
+.orb.lit .orb-tag { color: var(--rule-strong); }
+.orb.lit .orb-tag.on { color: #fff; background: var(--house); }
+@media (max-width: 860px) {
+  .skills-in { grid-template-columns: minmax(0, 1fr); }
+  .orb { max-width: 420px; margin: 0 auto; }
+  .orb-tag { font-size: 13px; }
+}
 @media (max-width: 860px) { .about, .tbox { grid-template-columns: 1fr; } }
 
 /* ------------------------------------------------------------------
