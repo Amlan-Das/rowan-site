@@ -84,13 +84,17 @@ const INDUSTRIES = [
   {
     slug: "agriculture", name: "Agriculture", primer: "primers/agriculture.md", updated: "October 2026",
     files: [
-      { label: "Agriculture report (PDF)", href: "primers/agriculture/agriculture-industry-review.pdf" },
-      { label: "GardenCore LBO model (Excel)", href: "primers/agriculture/gardencore-lbo-model.xlsx" },
-      { label: "Timber report (PDF)", href: "primers/agriculture/timber-industry-review.pdf" }
+      { label: "Industry report (PDF)", href: "primers/agriculture/agriculture-industry-review.pdf" },
+      { label: "GardenCore LBO model (Excel)", href: "primers/agriculture/gardencore-lbo-model.xlsx" }
     ]
   },
   { slug: "mining", name: "Mining", primer: "primers/mining.md", updated: "" },
-  { slug: "natural-resources", name: "Natural resources", primer: "primers/natural-resources.md", updated: "" }
+  {
+    slug: "natural-resources", name: "Natural resources", primer: "primers/natural-resources.md", updated: "October 2026",
+    files: [
+      { label: "Timber report (PDF)", href: "primers/natural-resources/timber-industry-review.pdf" }
+    ]
+  }
 ];
 
 // Pitches: stock calls you've made. Shown on pitches.html.
