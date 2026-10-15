@@ -129,6 +129,8 @@ html { scrollbar-color: var(--rule-strong) var(--paper); }
 }
 .site nav .nshort { display: none; }
 @media (max-width: 440px) {
+  .site nav { gap: 12px; }
+  .site nav a { font-size: 14px; }
   .site nav .nfull { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .site nav .nshort { display: inline; }
 }
