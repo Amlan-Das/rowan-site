@@ -6,6 +6,7 @@ Run by .github/workflows/pitch-prices.yml after each US trading day.
 """
 
 import json
+import math
 import re
 import sys
 from datetime import date, datetime, timedelta, timezone
@@ -62,13 +63,17 @@ def summarize(p, rows):
 def fetch(ticker, start):
     import yfinance as yf
     df = yf.Ticker(ticker).history(start=start.isoformat(), auto_adjust=False)
-    return [(idx.date(), float(r["High"]), float(r["Low"]), float(r["Close"]))
+    rows = [(idx.date(), float(r["High"]), float(r["Low"]), float(r["Close"]))
             for idx, r in df.iterrows()]
+    # Yahoo sometimes returns an empty row for a day that has not closed yet. Drop it,
+    # otherwise NaN reaches the JSON and the page cannot read the file at all.
+    return [row for row in rows if not any(math.isnan(v) for v in row[1:])]
 
 
 def main():
     pitches = read_pitches(DATA_JS.read_text())
     old = json.loads(OUT.read_text()) if OUT.exists() else {"prices": {}}
+    has_nan = lambda v: isinstance(v, float) and math.isnan(v)
     prices = {}
     for p in pitches:
         if not p["date"]:
@@ -79,13 +84,15 @@ def main():
         except Exception as e:  # keep yesterday's numbers rather than blanking the page
             print(f"{p['ticker']}: {e}", file=sys.stderr)
             summary = old["prices"].get(p["ticker"])
+        if summary and has_nan(summary.get("current")):
+            summary = None  # never carry a bad number forward
         if summary:
             prices[p["ticker"]] = summary
             print(p["ticker"], summary)
     OUT.write_text(json.dumps({
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "prices": prices,
-    }, indent=2) + "\n")
+    }, indent=2, allow_nan=False) + "\n")
 
 
 if __name__ == "__main__":
