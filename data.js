@@ -88,7 +88,12 @@ const INDUSTRIES = [
       { label: "GardenCore LBO model (Excel)", href: "primers/agriculture/gardencore-lbo-model.xlsx" }
     ]
   },
-  { slug: "mining", name: "Mining", primer: "primers/mining.md", updated: "" },
+  {
+    slug: "mining", name: "Mining", primer: "primers/mining.md", updated: "October 2026",
+    files: [
+      { label: "Mining report (PDF)", href: "primers/mining/mining-industry-review.pdf" }
+    ]
+  },
   {
     slug: "timber", name: "Timber", primer: "primers/timber.md", updated: "October 2026",
     files: [
