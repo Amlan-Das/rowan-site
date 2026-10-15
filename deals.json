@@ -1,138 +1,181 @@
 {
-  "date": "Wednesday, October 14",
-  "generated_at": "2026-10-14T16:00:11.528030+00:00",
+  "date": "Thursday, October 15",
+  "generated_at": "2026-10-15T15:41:32.605340+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "Ithaca Holdings is acquiring Bumble in an all-cash deal worth $1.3 billion, marking the latest major deal in the company's expansion plans.",
+  "lede": "Richemont is in advanced talks to join a consortium bidding for De Beers, as the luxury goods company seeks to expand its presence in the diamond market.",
   "deals": [
     {
-      "acquirer": "Ithaca Holdings",
-      "target": "Bumble",
-      "value": "$1.3 Billion",
+      "acquirer": "Richemont",
+      "target": "De Beers",
+      "value": "",
       "pinned": false,
-      "stage": "Announced",
-      "articles": 5,
-      "outlets": 5,
-      "latest": "2026-10-14T04:36:26+00:00",
+      "stage": "Rumored",
+      "articles": 3,
+      "outlets": 3,
+      "latest": "2026-10-15T10:53:08+00:00",
       "sources": [
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7,
-        8
+        4
       ],
       "stripped": [],
-      "headline": "Bumble Acquisition by Ithaca Holdings",
-      "body": "Bumble is being acquired by Ithaca Holdings in a $1.3 billion deal [1, 2, 3]. Ithaca Holdings will acquire Bumble in an all-cash deal worth $1.3 billion [4, 5, 6]. Bumble has agreed to be acquired by Ithaca Holdings in a $1.3 billion deal [7, 8].",
+      "headline": "Richemont and De Beers",
+      "body": "Richemont is in talks to join a bid for De Beers [1, 2, 3]. Richemont is in advanced talks to join a consortium bidding for De Beers [4].",
       "found": [
         {
           "n": 1,
-          "acquirer": "Ithaca Holdings",
-          "target": "Bumble",
+          "acquirer": "Richemont",
+          "target": "De Beers",
           "stage": "Announced"
         },
         {
           "n": 2,
-          "acquirer": "Ithaca Holdings",
-          "target": "Bumble",
-          "stage": "Completed"
+          "acquirer": "Richemont",
+          "target": "De Beers",
+          "stage": "Pending approval"
         },
         {
           "n": 3,
-          "acquirer": "Ithaca Holdings",
-          "target": "Bumble",
-          "stage": "Completed"
-        },
-        {
-          "n": 4,
-          "acquirer": "Ithaca Holdings",
-          "target": "Bumble",
-          "stage": "Announced"
-        },
-        {
-          "n": 5,
-          "acquirer": "Ithaca Holdings",
-          "target": "Bumble",
-          "stage": "Completed"
+          "acquirer": "Richemont",
+          "target": "De Beers",
+          "stage": "Pending approval"
         }
       ]
     },
     {
-      "acquirer": "SSR Mining",
-      "target": "Roxmore Resources",
-      "value": "$464 Million",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 4,
-      "outlets": 4,
-      "latest": "2026-10-14T12:15:46+00:00",
-      "sources": [
-        9,
-        10,
-        11,
-        12
-      ],
-      "stripped": [],
-      "headline": "SSR Mining to Acquire Roxmore Resources",
-      "body": "SSR Mining is acquiring Roxmore Resources for $464 million [9, 10, 11]. Roxmore Resources will spin out its exploration assets as part of the deal [12]. The deal has been announced [11].",
-      "found": [
-        {
-          "n": 9,
-          "acquirer": "SSR Mining",
-          "target": "Roxmore Resources",
-          "stage": "Completed"
-        },
-        {
-          "n": 10,
-          "acquirer": "SSR Mining",
-          "target": "Roxmore Resources",
-          "stage": "Completed"
-        },
-        {
-          "n": 11,
-          "acquirer": "SSR Mining",
-          "target": "Roxmore Resources",
-          "stage": "Announced"
-        },
-        {
-          "n": 12,
-          "acquirer": "SSR Mining",
-          "target": "Roxmore Resources",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "Porch Group",
-      "target": "Allied Trust",
-      "value": "$200M",
+      "acquirer": "Beam Global",
+      "target": "ScoutDI",
+      "value": "",
       "pinned": false,
       "stage": "Announced",
       "articles": 2,
       "outlets": 2,
-      "latest": "2026-10-14T13:43:39+00:00",
+      "latest": "2026-10-15T10:11:00+00:00",
       "sources": [
-        13,
-        14
+        5,
+        6,
+        7,
+        8,
+        9
       ],
       "stripped": [],
-      "headline": "Porch Group Acquires Allied Trust",
-      "body": "Porch Group has acquired Allied Trust in a $200M deal [13, 14]. The deal was announced by Porch Group [13, 14].",
+      "headline": "Beam Global Acquires ScoutDI",
+      "body": "Beam Global is acquiring ScoutDI, a drone technology company [7, 8, 9]. The deal is valued at about $24 million [7]. The acquisition is expected to create a vertically integrated U.S. drone platform for industrial and defense markets [8].",
       "found": [
         {
-          "n": 13,
-          "acquirer": "Porch Group",
-          "target": "Allied Trust",
-          "stage": "Completed"
+          "n": 5,
+          "acquirer": "Beam Global",
+          "target": "ScoutDI",
+          "stage": "Announced"
         },
         {
-          "n": 14,
-          "acquirer": "Porch Group",
-          "target": "Allied Trust",
+          "n": 6,
+          "acquirer": "Beam Global",
+          "target": "ScoutDI",
+          "stage": "Pending approval"
+        }
+      ]
+    },
+    {
+      "acquirer": "ByteDance",
+      "target": "MediaTek",
+      "value": "",
+      "pinned": false,
+      "stage": "Rumored",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-15T06:17:00+00:00",
+      "sources": [
+        10,
+        11
+      ],
+      "stripped": [],
+      "headline": "ByteDance to buy MediaTek AI chips",
+      "body": "ByteDance is in talks to buy MediaTek's data center AI chips [10, 11]. The deal is rumored to be in talks [10, 11].",
+      "found": [
+        {
+          "n": 10,
+          "acquirer": "ByteDance",
+          "target": "MediaTek",
+          "stage": "Rumored"
+        },
+        {
+          "n": 11,
+          "acquirer": "ByteDance",
+          "target": "MediaTek",
+          "stage": "Rumored"
+        }
+      ]
+    },
+    {
+      "acquirer": "Galderma",
+      "target": "ZO Skin Health",
+      "value": "$1.5 Billion",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-15T05:31:49+00:00",
+      "sources": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "stripped": [],
+      "headline": "Galderma Acquires ZO Skin Health",
+      "body": "Galderma is acquiring ZO Skin Health for $1.5 billion [12, 13, 14]. The deal was announced by Galderma [12, 13, 14]. Galderma will strengthen its physician-dispensed skincare offering [14].",
+      "found": [
+        {
+          "n": 12,
+          "acquirer": "Galderma",
+          "target": "ZO Skin Health",
           "stage": "Announced"
+        },
+        {
+          "n": 13,
+          "acquirer": "Galderma",
+          "target": "ZO Skin Health",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "Curaleaf",
+      "target": "Aurora Cannabis",
+      "value": "",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-14T20:40:29+00:00",
+      "sources": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "stripped": [],
+      "headline": "Curaleaf and Aurora Cannabis Deal",
+      "body": "Curaleaf is trying to acquire Aurora Cannabis [18, 19, 20]. Aurora Cannabis is opposed to the deal [16, 17]. The deal terms have been revised [18, 19, 20]. The revised bid is $5 per share [21, 22, 23].",
+      "found": [
+        {
+          "n": 16,
+          "acquirer": "Curaleaf",
+          "target": "Aurora Cannabis",
+          "stage": "Rumored"
+        },
+        {
+          "n": 17,
+          "acquirer": "Curaleaf",
+          "target": "Aurora Cannabis",
+          "stage": "Rumored"
         }
       ]
     },
@@ -146,149 +189,80 @@
       "outlets": 2,
       "latest": "2026-10-14T13:22:54+00:00",
       "sources": [
-        15,
-        16
+        24,
+        25
       ],
       "stripped": [],
       "headline": "Zocdoc Buys Sohar Health",
-      "body": "Zocdoc is acquiring insurance startup Sohar Health [15, 16]. The deal was announced on October 14 [15, 16]. No further information is available [15, 16].",
-      "found": [
-        {
-          "n": 15,
-          "acquirer": "Zocdoc",
-          "target": "Sohar Health",
-          "stage": "Completed"
-        },
-        {
-          "n": 16,
-          "acquirer": "Zocdoc",
-          "target": "Sohar Health",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "Matchbook",
-      "target": "Betdaq",
-      "value": "",
-      "pinned": false,
-      "stage": "Completed",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-14T10:23:33+00:00",
-      "sources": [
-        17,
-        18
-      ],
-      "stripped": [],
-      "headline": "Matchbook Acquires Betdaq",
-      "body": "Matchbook has acquired Betdaq, a rival betting exchange [17, 18]. The deal is now completed [17, 18]. No further information is available [17, 18].",
-      "found": [
-        {
-          "n": 17,
-          "acquirer": "Matchbook",
-          "target": "Betdaq",
-          "stage": "Completed"
-        },
-        {
-          "n": 18,
-          "acquirer": "Matchbook",
-          "target": "Betdaq",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "Omron",
-      "target": "OnLogic",
-      "value": "$675M",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-14T00:51:22+00:00",
-      "sources": [
-        19,
-        20,
-        21,
-        22,
-        23
-      ],
-      "stripped": [],
-      "headline": "Omron to Acquire OnLogic",
-      "body": "Omron is acquiring OnLogic for $675M in a physical AI deal [19, 20, 21]. The deal aims to expand Omron's physical AI foundation [19, 21, 23]. The acquisition was announced on October 12 [19, 20, 21].",
-      "found": [
-        {
-          "n": 19,
-          "acquirer": "Omron",
-          "target": "OnLogic",
-          "stage": "Completed"
-        },
-        {
-          "n": 20,
-          "acquirer": "OMRON",
-          "target": "OnLogic",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "Amazon",
-      "target": "Decart AI",
-      "value": "$7B",
-      "pinned": false,
-      "stage": "Rumored",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-13T19:21:14+00:00",
-      "sources": [
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31
-      ],
-      "stripped": [],
-      "headline": "Amazon to Buy AI Startup Decart",
-      "body": "Amazon is reportedly in talks to buy AI startup Decart for around $7 billion [24, 25, 26]. Amazon is said to be eyeing Decart acquisition at $7 billion as the AI chip race intensifies [27, 28]. Amazon reportedly in talks to acquire AI startup Decart for $7 billion [29, 30]. Amazon reportedly in talks to acquire AI startup Decart for $7 billion, stepping in after Anthropic walked away [31].",
+      "body": "Zocdoc is acquiring Sohar Health, its first-ever acquisition [24, 25]. The deal was announced by Zocdoc [24, 25]. No further information is available [24, 25].",
       "found": [
         {
           "n": 24,
-          "acquirer": "Amazon",
-          "target": "Decart AI",
-          "stage": "Announced"
+          "acquirer": "Zocdoc",
+          "target": "Sohar Health",
+          "stage": "Completed"
         },
         {
           "n": 25,
-          "acquirer": "Amazon",
-          "target": "Decart",
-          "stage": "Announced"
+          "acquirer": "Zocdoc",
+          "target": "Sohar Health",
+          "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "SKYX",
-      "target": "Leading AI Smart Home",
-      "value": "",
+      "acquirer": "Williams",
+      "target": "Momentum Midstream",
+      "value": "$5.5 Billion",
+      "pinned": false,
+      "stage": "Rumored",
+      "articles": 2,
+      "outlets": 1,
+      "latest": "2026-10-15T02:34:59+00:00",
+      "sources": [
+        26,
+        27
+      ],
+      "stripped": [],
+      "headline": "Williams to Buy Momentum Midstream",
+      "body": "Williams is in talks to buy Momentum Midstream for $5.5 billion [26, 27]. Williams has agreed to buy Momentum Midstream [26, 27].",
+      "found": [
+        {
+          "n": 26,
+          "acquirer": "Williams",
+          "target": "Momentum Midstream",
+          "stage": "Announced"
+        },
+        {
+          "n": 27,
+          "acquirer": "Williams",
+          "target": "Momentum Midstream",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "CCC Intelligent Solutions",
+      "target": "GTCR, Elliott",
+      "value": "$6.1 billion",
       "pinned": false,
       "stage": "Announced",
       "articles": 1,
       "outlets": 1,
-      "latest": "2026-10-14T13:22:30+00:00",
+      "latest": "2026-10-15T14:08:20+00:00",
       "sources": [
-        32
+        28,
+        29,
+        30
       ],
       "stripped": [],
-      "headline": "SKYX and Leading AI Smart Home",
-      "body": "SKYX has announced the closing of its merger with Leading AI Smart Home [32]. The deal was previously announced [32].",
+      "headline": "CCC Intelligent Solutions Deal Announced",
+      "body": "CCC Intelligent Solutions is being acquired by GTCR, Elliott [28, 29, 30]. The deal has not been finalized yet [28].",
       "found": [
         {
-          "n": 32,
-          "acquirer": "SKYX",
-          "target": "Leading AI Smart Home",
+          "n": 28,
+          "acquirer": "CCC Intelligent Solutions",
+          "target": "GTCR, Elliott",
           "stage": "Completed"
         }
       ]
@@ -296,134 +270,206 @@
   ],
   "also": [
     {
+      "n": 31,
+      "note": "International Paper rises on report of private equity interest in European arm [31]."
+    },
+    {
+      "n": 32,
+      "note": "COMP Shareholder Alert: Investors With Losses May Seek to Lead the Class Action in Compass, Inc. Securities Lawsuit - Contact SueWallSt [32]."
+    },
+    {
       "n": 33,
-      "note": "A securities class action lawsuit has been filed against Compass, Inc. with a lead plaintiff deadline of December 8, 2026 [33]."
-    },
-    {
-      "n": 34,
-      "note": "ADES has announced a SAR 1.13 billion bonus issue, which may impact the company's stock price [34]."
-    },
-    {
-      "n": 35,
-      "note": "Algoquant Fintech has invested ₹52.5 lakh in its subsidiary AQ Capital Services [35]."
+      "note": "Penske Automotive agreed to a $16.3 billion take-private merger [33]."
     }
   ],
-  "brief": "Ithaca Holdings is acquiring Bumble in an all-cash deal worth $1.3 billion, marking the latest major deal in the company's expansion plans.\n\nIthaca Holdings / Bumble (Announced): Bumble Acquisition by Ithaca Holdings. Bumble is being acquired by Ithaca Holdings in a $1.3 billion deal [1, 2, 3]. Ithaca Holdings will acquire Bumble in an all-cash deal worth $1.3 billion [4, 5, 6]. Bumble has agreed to be acquired by Ithaca Holdings in a $1.3 billion deal [7, 8].\nSSR Mining / Roxmore Resources (Announced): SSR Mining to Acquire Roxmore Resources. SSR Mining is acquiring Roxmore Resources for $464 million [9, 10, 11]. Roxmore Resources will spin out its exploration assets as part of the deal [12]. The deal has been announced [11].\nPorch Group / Allied Trust (Announced): Porch Group Acquires Allied Trust. Porch Group has acquired Allied Trust in a $200M deal [13, 14]. The deal was announced by Porch Group [13, 14].\nZocdoc / Sohar Health (Announced): Zocdoc Buys Sohar Health. Zocdoc is acquiring insurance startup Sohar Health [15, 16]. The deal was announced on October 14 [15, 16]. No further information is available [15, 16].\nMatchbook / Betdaq (Completed): Matchbook Acquires Betdaq. Matchbook has acquired Betdaq, a rival betting exchange [17, 18]. The deal is now completed [17, 18]. No further information is available [17, 18].\nOmron / OnLogic (Announced): Omron to Acquire OnLogic. Omron is acquiring OnLogic for $675M in a physical AI deal [19, 20, 21]. The deal aims to expand Omron's physical AI foundation [19, 21, 23]. The acquisition was announced on October 12 [19, 20, 21].\nAmazon / Decart AI (Rumored): Amazon to Buy AI Startup Decart. Amazon is reportedly in talks to buy AI startup Decart for around $7 billion [24, 25, 26]. Amazon is said to be eyeing Decart acquisition at $7 billion as the AI chip race intensifies [27, 28]. Amazon reportedly in talks to acquire AI startup Decart for $7 billion [29, 30]. Amazon reportedly in talks to acquire AI startup Decart for $7 billion, stepping in after Anthropic walked away [31].\nSKYX / Leading AI Smart Home (Announced): SKYX and Leading AI Smart Home. SKYX has announced the closing of its merger with Leading AI Smart Home [32]. The deal was previously announced [32].\n\nAlso worth knowing:\n- A securities class action lawsuit has been filed against Compass, Inc. with a lead plaintiff deadline of December 8, 2026 [33].\n- ADES has announced a SAR 1.13 billion bonus issue, which may impact the company's stock price [34].\n- Algoquant Fintech has invested ₹52.5 lakh in its subsidiary AQ Capital Services [35].",
+  "brief": "Richemont is in advanced talks to join a consortium bidding for De Beers, as the luxury goods company seeks to expand its presence in the diamond market.\n\nRichemont / De Beers (Rumored): Richemont and De Beers. Richemont is in talks to join a bid for De Beers [1, 2, 3]. Richemont is in advanced talks to join a consortium bidding for De Beers [4].\nBeam Global / ScoutDI (Announced): Beam Global Acquires ScoutDI. Beam Global is acquiring ScoutDI, a drone technology company [7, 8, 9]. The deal is valued at about $24 million [7]. The acquisition is expected to create a vertically integrated U.S. drone platform for industrial and defense markets [8].\nByteDance / MediaTek (Rumored): ByteDance to buy MediaTek AI chips. ByteDance is in talks to buy MediaTek's data center AI chips [10, 11]. The deal is rumored to be in talks [10, 11].\nGalderma / ZO Skin Health (Announced): Galderma Acquires ZO Skin Health. Galderma is acquiring ZO Skin Health for $1.5 billion [12, 13, 14]. The deal was announced by Galderma [12, 13, 14]. Galderma will strengthen its physician-dispensed skincare offering [14].\nCuraleaf / Aurora Cannabis (Announced): Curaleaf and Aurora Cannabis Deal. Curaleaf is trying to acquire Aurora Cannabis [18, 19, 20]. Aurora Cannabis is opposed to the deal [16, 17]. The deal terms have been revised [18, 19, 20]. The revised bid is $5 per share [21, 22, 23].\nZocdoc / Sohar Health (Announced): Zocdoc Buys Sohar Health. Zocdoc is acquiring Sohar Health, its first-ever acquisition [24, 25]. The deal was announced by Zocdoc [24, 25]. No further information is available [24, 25].\nWilliams / Momentum Midstream (Rumored): Williams to Buy Momentum Midstream. Williams is in talks to buy Momentum Midstream for $5.5 billion [26, 27]. Williams has agreed to buy Momentum Midstream [26, 27].\nCCC Intelligent Solutions / GTCR, Elliott (Announced): CCC Intelligent Solutions Deal Announced. CCC Intelligent Solutions is being acquired by GTCR, Elliott [28, 29, 30]. The deal has not been finalized yet [28].\n\nAlso worth knowing:\n- International Paper rises on report of private equity interest in European arm [31].\n- COMP Shareholder Alert: Investors With Losses May Seek to Lead the Class Action in Compass, Inc. Securities Lawsuit - Contact SueWallSt [32].\n- Penske Automotive agreed to a $16.3 billion take-private merger [33].",
   "sources": [
     {
       "n": 1,
-      "title": "Bumble to go private in USD 1.3 billion acquisition by Ithaca Holdings",
-      "source": "BMI",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNd0ZLTU1vVVBBdHh1X2hiS01ReWc5S2U5WTM0QnZWbkZRTzNmMGFwWkZtTHlRSnJIemNhbHdoRXVzTlp3bms4S0VnNlh1NFIwbndCUjBucTdxeHJUZGJpWDVtX3pQc0JKRXRjb3ZiYk5PRm9NZTFuNG9iMmhTbmMxUm80Mmg0d1ctM20welloY3lJeW1aVjJlRWI0WUpzazdFUW5XTmVtRlZuVnZvbDBmZ1FBTGMxa3NMaHpBT254a3hXVkE4TDBtVWNpWW_SAcwBQVVfeXFMTXdGS01Nb1VQQXR4dV9oYktNUXlnOUtlOVkzNEJ2Vm5GUU8zZjBhcFpGbUx5UUpySHpjYWx3aEV1c05ad25rOEtFZzZYdTRSMG53QlIwbnE3cXhyVGRiaVg1bV96UHNCSkV0Y292YmJOT0ZvTWUxbjRvYjJoU25jMVJvNDJoNHdXLTNtMHpZaGN5SXltWlYyZUViNFlKc2s3RVFuV05lbUZWblZ2b2wwZmdRQUxjMWtzTGh6QU9ueGt4V1ZBOEwwbVVjaVlv?oc=5",
-      "snippet": "BMI",
-      "published": "2026-10-14T04:36:26+00:00"
+      "title": "Cartier-owner Richemont in talks to join bid for diamond giant De Beers, source says",
+      "source": "Sacramento Bee",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hdEtKWEc1bV9oRU04bUZ4SllVSWtCbnFFVFpGUG5YMXBBSDVuUVFBV3BhVGhZZmI3a2ZGRXNzd3VjMWhJdVItQUpCY1hhci1KMExkOWNoMW11SjhSRTE5MXRiOEw2ak85ZVE?oc=5",
+      "snippet": "Sacramento Bee",
+      "published": "2026-10-15T10:53:08+00:00"
     },
     {
       "n": 2,
-      "title": "Bumble to be acquired by Ithaca Holdings in $1.3 billion deal",
-      "source": "Exchange4Media",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUkN1WTlfOEZmRzNfaXZqNkhUazNEUUZ0QXBpZHBiMnpFRTBiVkxzZXN5NXZHd09JYnk1MGlrSXgyVmNoRWhiX0Y4d2dqSDE1ZVMwLVR6LTdJMU92Q2Y5Nlk5Q2pNbDkzUGxZeHRGWG9qRXNKcVVtd3otM2ZvRjEyNGdLMnlDOVFhMnduTkdlODZ2S015Y1diX1pURXI2LWw4Zllza2FhU3VBUFNJVEc2aS1GM29JTkVX?oc=5",
-      "snippet": "Exchange4Media",
-      "published": "2026-10-14T02:36:22+00:00"
+      "title": "Richemont In Talks To Join Bidder For De Beers- Person Familiar With The Matter",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOT0JfUm1ITVRoNVA2Y1JFenNTeTRsSXQ3dnZrbUxhUlI2cEw5cFREREMyVnd5VklRczRwWWJjeFhLZkt3MlBSSEtYUjJMYXZXWDk1NlBQR2pBVEZvUmJaT3FhVUFfcXhCZnBXeGJ2Q0tkdlktQnZYUU1DSzVRaUdzZllpR09qa3Q0UlNZWHhfekdHVjBZMDA5UWhjcTFWWG53WURDY3NqdWVlcnFUY1pGblBvT3p4Qzk3bzdvYUhXblBSTjJ2ZFJOV0RYcldPcDlRenIwcS1fVWMweUttSWsybUZR?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-15T09:20:15+00:00"
     },
     {
       "n": 3,
-      "title": "Bumble Agrees to $1.3 Billion Acquisition by Ithaca Holdings",
-      "source": "Global Dating Insights",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMm9RYjVmakFCb3V4RTN3UDYxZEFhV1RVZHdSaXRKbG5NcXpsTEpqMlEwR1pJY3pmZmpVbm51dWZkRGxfa09qbzF2Y1RhUkZZakpLanRnQmNfMG9OYy1PYzFrRDhjZDR5SUhKQ1lodkpzRElYdFpzNW1iQWZ1SVVsYXhWQ0ZpNG1nZll5VjR3R2FkZzFWeHdwbmVZN2lYZ9IBngFBVV95cUxPMm9RYjVmakFCb3V4RTN3UDYxZEFhV1RVZHdSaXRKbG5NcXpsTEpqMlEwR1pJY3pmZmpVbm51dWZkRGxfa09qbzF2Y1RhUkZZakpLanRnQmNfMG9OYy1PYzFrRDhjZDR5SUhKQ1lodkpzRElYdFpzNW1iQWZ1SVVsYXhWQ0ZpNG1nZll5VjR3R2FkZzFWeHdwbmVZN2lYZw?oc=5",
-      "snippet": "Global Dating Insights",
-      "published": "2026-10-13T18:51:14+00:00"
+      "title": "Richemont and Signet In Talks to Join Bidder for De Beers",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV2RlU25ZVlBJVFRlNVVmejJlVTNEWDVwVGhrdU1MaWZMdGdaLXlFcFAycjlmdGtkTFFQb2hBYl96anVwRUJUNnFlTWEtMmtYcnZaR3MyX2FMV3pXOVh2NjVacXlyUm43VEtkbzhwTTBhcUpQV0xTZU1NLXFUZUJKRlc3N1g1dmNfVHJYRGJSWVJib0F5OHNXRGxhYzBTbEJPaVhodnVhTVJlVzY4NklFS0RhWQ?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-10-15T08:33:35+00:00"
     },
     {
       "n": 4,
-      "title": "Ithaca Holdings to Acquire Bumble for $1.3 Billion in All-Cash Deal",
-      "source": "citybiz",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNallHZjdrc01fLWItQ3RVNGthMm4xUm5ORlJhb0ZtMmVBT1l1Z2J6bmpNVEJUaGJmeThaRjJEbGh5R0ZOdmZ0MlY4MEdWR3ZIMENjd2haY2dYS05ZZERiVUZJUExLT1FYV2FsVm1fczBxYXpCZGk5SDN2cWg1WFo3Z3NmdlhrWEs2bFZXV2llM0ppSTdVZHVkTWxkYmNvblZOektlZUQ1akI?oc=5",
-      "snippet": "citybiz",
-      "published": "2026-10-13T16:42:17+00:00"
+      "title": "Richemont in Advanced Talks to Join Consortium Bidding for De Beers",
+      "source": "BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uTWlGRW44dkFiN2dhRVViSGJONnVUV05JS2RHakp1Um5qMVlSdlJ1S09SYXlzUG9lVGo5R2pkajdsNWVMVjRsTElZVTBuTjRiVlF4cWFyamJWejM1U19HT3NmOHkzM0Y3eURSVWdLcXM3SjY1MUE?oc=5",
+      "snippet": "BigGo Finance",
+      "published": "2026-10-15T13:05:00+00:00"
     },
     {
       "n": 5,
-      "title": "Bumble to Go Private in $1.3 Billion Deal With Ithaca Holdings",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXg0SmwtMXRROE8zUVE5V1NMNmNYcFYwcjV3MXNGd2FlUFp6TnJqZFRfMTdJb1hGYk9OTmxQSkRHcndjOW9lbjlJME94ZE9rWVlvc2ZYNUpKWkhrRFFBZEpCLWlEY3pYQXNvUGJoYWg1WVJqdlFWbkVLVjFMOVJjN3lFUFZCaXBCQldXMzJpZnY1Vk1WZEE?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-13T12:34:48+00:00"
+      "title": "Beam Global Announces ScoutDI Receives Nuclear Sector Order for Scout 137 Drone Inspection Systems",
+      "source": "Quiver Quantitative",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUjJGcHVFWkUybG4wOFg4ekJwQTZfQTVGVXViV3VtRXNxX25KNWtGMTVzcGhZMHdOTElTa2R4MEJHSHB5X2hvemQ1ZzR5ckVNbmktUVUwcFA0a1BZcENPTTBxZW1pbU56ckdOMEhzSmhncHAxOElNVG9Tc21HcS1EdDJUT0FrZFBkLUFxR0xWckdIa1lOVDRTeXlNX0hJU29PTE1LS0lrN1k0eS1PVUZZZnZkUF9KdEx0M1BucXh0ay1ib0NqbEhLSVZvdw?oc=5",
+      "snippet": "Quiver Quantitative",
+      "published": "2026-10-15T10:11:00+00:00"
     },
     {
       "n": 6,
-      "title": "Bumble Agrees to $1.3 Billion All-Cash Acquisition by Ithaca Holdings at $6.05 Per Share",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSWFGR0xUdldObXFQbWZHdTNYM01HTVYzNkxGY1gwbzlzWUt1MXIzUWpqODcweURVUzhoTU1PRVJfLUdtNUZlaHlEVnMxRVFWTVd5aWdSRDRVbGxBVi0xS0U5M1R1dUZjdlNKMmN2OTNGYUhiWU1EMFllMTAyVDhXSDFvOG1rNXY5ZkFqbVk3RURIdHpi?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-13T13:57:37+00:00"
+      "title": "Beam Global's Pending Drone Company Acquisition ScoutDI Wins Milestone Order from Nuclear Sector Customer",
+      "source": "GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNUEtjaHRkZVBoWWZ4N1ZOM2FVeWVld0tuMGhIUW5pMXRZVmR1UHFpODE4ejRyckF2N1l4cjlhOW9mckZrQnJwMm0zajVseWltdWJsckhwY1RxYWUtMnBhclpMcnU1T2ZnZTcySUFBa212cUxyTC11RHZTQ20wY05Jc25NUG1wT2l1OHJfYXByS0pvWTBVX095YldZeXdRTnVQdjJWU2xXdWxRRFNXa1c1N1hMWHY4V0RBNDdrZWVtZ0lSQ0cxWDFhZlNKakx2Z2hGclV1ZGllVFpTcW9saFRRUjhXLWdLSWt2NjdMaFBROUhXWVZxcXdKRzVCZ3RyLVI3azEwV1VfSEQ?oc=5",
+      "snippet": "GlobeNewswire",
+      "published": "2026-10-15T10:00:00+00:00"
     },
     {
       "n": 7,
-      "title": "Bumble agrees to $1.3 billion buyout by a brand-new Ithaca Holdings",
-      "source": "Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd19UcVo1YjR3SmNQRElYd0hKWnJGdGxmRl9sd2QzMnk3bEtycFZWZTNhTHNmTElSeXlLeTlRWk85Sl9BT0gzeXJhTmFBRGNBb2pDOUdPTmMwWXdZN3FXa2pSWmRvOTVHZkZtTGtWSWhQcTN5cF9ZajFjLXB5Snc2U0JQS0Y5bG1uS0FkaWZmalB6ekRCUXN4cg?oc=5",
-      "snippet": "Startup Fortune",
-      "published": "2026-10-13T15:35:20+00:00"
+      "title": "Beam Global Signs Agreement to Acquire Drone Technology Company ScoutDI for About $24 Million",
+      "source": "Quiver Quantitative",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZFl3NzJaQ2hmcXZpdkNLLWw3UEV4ZFAzZ3p6QzhUc25EbjdOc0h2R2w3N3VDTEl5MkxqWDV0cW9ENHZEaDAteFhMZExiVVR4cmtwSWZXQmlsRF9WQVVKcHRYd3VCNWVhc1QtRVF3OUtDR2xKbzlrazFsZmJOa2FVOEczbHdxYnNBWkZnWWFZUGZ1ZXFOdHlvVzE5UWtxVUhnYmpPMC11VTBVT3hBQmZETlk0ejhzU2tYUEFQNnBWaFozMGlQdzJj?oc=5",
+      "snippet": "Quiver Quantitative",
+      "published": "2026-10-07T11:41:00+00:00"
     },
     {
       "n": 8,
-      "title": "Bumble Agrees to $6.05-Per-Share Sale to Ithaca Holdco in Two-Step Merger",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWkhQUXhzRUtheVpfdm95UmxTLWVWa3dfQXVxVktraExqZmN4U3I3MHliMVg0VlhWZWtnSHhEUlVnTTRFNmMzU0VXR1I0X0RtNTQ3cVY2cHBxM2stUEJmVzQ1WFhyc2VvajNicFNyMUdqWmZsRnU0b3E0TXVaQm9mYlk2RGQyUnZfMlloN1Q4a09HMHpXQ0h3OFhERVVtVTdsXzVfMVFUbUxUdk1xLVpWVFJselBxcENHTlhOeHc3VGotY1VuSGxpWEpURjNXZjA?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-13T13:03:00+00:00"
+      "title": "Beam Global Signs Definitive Agreement to Acquire Drone Technology Company ScoutDI, Creating a Vertically Integrated U.S. Drone Platform for Industrial and Defense Markets",
+      "source": "sUAS News",
+      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQZUJVMDd0YUVhVEczMUdpQWt1QjlKSkE2MHphUEFseXJTbzZ0X1NQemJId05YRmtiRFd4bGpEMjQ2ZGFETVN4dTdBaXNWUGtJY2Zkd2ZsZTk4QW9reW95LUdtNm50ejRfc2JHSUlOYzBhaEh3RjMwOHFIQzJnbkwxSjlndlNaWGRiYWJONkE5Zy1xNE03SmU1RDRUU1lUSm11SlM1Qkl6QWh6TEhWdDg5U0pHVEM5WmprYkM3ODF4LWt4c3ljQWEtNlZacnFHOFAxb1VhT3FsRGRmTkZIOUxaMzJxREpnTkpIeWNKdU1kZUVrWFZ5SW9GMGkxVGhuSUk3MmtDV1dOWjdTSFBRb1dlcG5yZmVrdUxPT2lkT3JnNHk4OGMyMlJwanFWRQ?oc=5",
+      "snippet": "sUAS News",
+      "published": "2026-10-13T17:24:45+00:00"
     },
     {
       "n": 9,
-      "title": "SSR Mining To Acquire Roxmore Resources In $464 Million Deal",
-      "source": "Pulse 2.0",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMnRLbngyQkRxcG5WUC03V3RoUGNia3hJZVFIZXhYM3haODQ0VWRDVGFxbEFydENLTGVCX2haU2gwRllZQ1d4cXZhYXo3eVlxa01LT3JLODZ1cFRqakxZN1VuTG1BQ19lNEppdUNqcWVmLS1lRDVqSVlCSzIwZDd2eVF5VUF1Zw?oc=5",
-      "snippet": "Pulse 2.0",
-      "published": "2026-10-14T12:15:46+00:00"
+      "title": "Beam Global Signs Definitive Agreement to Acquire Drone Technology Company ScoutDI",
+      "source": "MundoGEO",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOTcweDN3Mk8ta2JINTl4ZnVaNFhJZXFvbEloTnQwTjZOOG1OMVlMcEVybDJ5OVItNl92bEsxSXU0aG5MbkFVNzZQalpwWFk1Q09sbkluNGg5SUJrdGFVM05FRWlrYWhYVGNxRzJMTVdydEROTXBEbzZuSkMwUHYyMG1JQzM4ZnNXeDdMaVNWY0pTMnFNZkYwN2hqaG5PaExXVWgzd3lKOUZQZ3ZsZWpjMTNPS3MtMDg0alHSAb8BQVVfeXFMTkwxam56cGlFUUIxUjZERmRjalFGQTFpYlRXOW9LYllTaHRIT0kyTDdpRDZlT1ZRWWo4eHZscWhlTnhnUGNWd2xrZmtGVV9lcGtWbm1zSTlOQkFYOHNwOC1ickNBZnBmSmZzWEFMdkNWZXBOdFdLd1BZNXYtS1l5LVlrUkZjY3RROXQzQmlTRkUzSklmQUNONVdEQTRwMVJ4SnE0LUNEVm9Yci1NWFlnYkpMUEZSVzlIRGJ6WUZzMjA?oc=5",
+      "snippet": "MundoGEO",
+      "published": "2026-10-13T19:26:00+00:00"
     },
     {
       "n": 10,
-      "title": "SSR Mining to Acquire Roxmore Resources for $464 Million, Expanding Nevada Gold Operations",
-      "source": "citybiz",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa21xSUJCTTdYVURjTHUzSC11LXRmWHRfMm1aemlkWEJzQ0lIQllmQ09ZckdtSkdFMERHd2ZBb3lmQXZFOVRFTEJReW9VNlVRUnpTdzJ4cV9HTkNvRld4OW55Nks5c3o1NDczeHdhbWVSdDBFNGZ4SEk4VHRQTW83MWYxZUQ3SkZCZHNDQmlwdzNvZEtTYVVFb1NxZ2NMaFp4RVRnMzFPaGVZNmE2VmpmUzhVWnUxU2NGeUliVXF0VUxxME1CVnc?oc=5",
-      "snippet": "citybiz",
-      "published": "2026-10-13T12:21:40+00:00"
+      "title": "ByteDance in talks to buy MediaTek data center AI chips",
+      "source": "Tech in Asia",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVmFSLVNvRUpuLWtONzBRbGx6ZkQ0c1lOUXl4amphQnk2WlN2cks0NlVOem51eXNkWjRtVEVWenlYeTAzdHp4bkRTbWdDeHdEd3pYWldNaERNRUM2TEJRaW5TeTRyT1d0WlBEdkRRemFBcXZhck5PdXlDRmhneDlNaTMyWGw0ZjdHXzA3NDJqcDU?oc=5",
+      "snippet": "Tech in Asia",
+      "published": "2026-10-15T06:17:00+00:00"
     },
     {
       "n": 11,
-      "title": "SSR Mining Announces the Acquisition of Roxmore Resources",
-      "source": "Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTkRUSFNVOWtnWTFmSGlnY1M1UTFNZWRHOFNfLV8wQU9ucWJxcGpveFNLNWVIMlRRazVBQTMtYW5VSGp4Um0yV1JVZUtsQnRDYW12MGxvQmF6UUZqS3ptUkptRzBlQUV3d1pjT0xSUWdrUlc4aWtHd1JId29ySWJoZ1Z3TUU2T0RPYTZuek5idnBJVmZ0ZW5FNk5sa1NVZ2ZlY2hQd1FSN1liajU2NERCRnZjbFo?oc=5",
-      "snippet": "Business Wire",
-      "published": "2026-10-13T10:13:00+00:00"
+      "title": "ByteDance in Talks to Secure MediaTek AI Chips for Data Centers",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaFlzZWE3cWRERDdpeHZBaFdCbFEtYkpCOUFaamFJNURYQmNVWExxWnQ2NmNHRUIwXzR1dFgzaVhOUnZkS25yQk1Sd3VvTDFTQnFlSlN5YzI0Q210bGVuS0NhZkFFRDJvU08wSjRqNEdxZXhtVVhYZTRaTGEybmxBWjgxUGNKMjZoclhLTDFSYnFGQlluaTdabW1hQjV4a1RORTRUbkxvdjFUQ256c2JGR0pvcnk?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-10-15T02:39:00+00:00"
     },
     {
       "n": 12,
-      "title": "Roxmore Resources Announces Sale to SSR Mining and Spinout of Exploration Assets",
-      "source": "Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORjNwSkxWeThRVko5czE4emZ2cUpvSVFYMGZaVWdOZUhrNWxnVF9rS2JLajU4Y0VXNzZiRk5EbFphcE5pNEtqamR6aGhjUk9QWUtrTGNMTlZaVkRFS3hIWDJqZkF2NWdjdTE3S2M0bWd5cjcwRFFkV2swbnhnQ09objZiRHVvUE9TWk5lWXpiWjNoWVRtTXViWnR3eldHZjExZHVZZjNrY0xCdl8wY1BCZzdjNmVFdlRr?oc=5",
-      "snippet": "Stock Titan",
-      "published": "2026-10-13T10:00:00+00:00"
+      "title": "Galderma to Acquire ZO Skin Health in US$1.5 Billion Deal",
+      "source": "Global Cosmetics News",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLVNrVGJkMnRoa0JUZEdIcW5aUnFHaExTMFgzeFhIMERQQmR3cW01QTRLRDc2R1VYLVhEazQ0Vnh1X1hkdVgwemt3OUhmMGhvT0d1ZHNRREVVcjVIZjVrS3lvZWxuRlBJN0VHZzNnUjRJU1I3ZTg0bFEyZTdSWDNxMHp0dVUxYU01STh5eENfNjdWU1l6LUR6Qg?oc=5",
+      "snippet": "Global Cosmetics News",
+      "published": "2026-10-15T05:31:49+00:00"
     },
     {
       "n": 13,
-      "title": "Porch Group acquires Allied Trust in $200M deal",
-      "source": "Insurance Business",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd3ZXNEJ5TDB1WVZtU09vMFdXOW1yT0tfMTJyYjZ5ajY0YWNSekVkRDdfMWlXMHlkRDZTX19FMzd0OHQtYXdVYXgxMjh4S1dPeXBhdDRDWVY3aHZYeUxwUmJaRXZiZkNOVkZINHl5aUladkt4ZlhydzI2b3NORVZGYXlCR0ZtdmtpbjNiMHlyWS1FVmRBMTVHblVSUXZ3eWgzLXhqamZFNWxEblJURTNPNlZQS2Z6MERsSGxseTNEWFk3dw?oc=5",
-      "snippet": "Insurance Business",
-      "published": "2026-10-14T13:43:39+00:00"
+      "title": "Galderma Bolsters Its Skincare-To-Syringes Portfolio With $1.5B Deal For ZO Skin Health",
+      "source": "Beauty Independent",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUGQ0R1VZT0xROXk4aFhlcFRBOHJmYWwzQ01ZbEhSb2dFOXRhSzdRYkt5RlR2QTJ5TGlJVjBRV3VNeUdmMmNyRXhHUFBrNHdKZ3YzMEtobEZ5TXk0cjRwYUo2VktheW1SampjaFFKaFE0NG5iSlZDVFlJNGJUTll6Vk5GUUVVa0UyajZSMkxPYjFaczBuNnRoVndsRlA?oc=5",
+      "snippet": "Beauty Independent",
+      "published": "2026-10-14T21:40:15+00:00"
     },
     {
       "n": 14,
-      "title": "Porch Group Announces Agreement to Acquire Allied Trust",
+      "title": "Galderma Signs Agreement to Acquire ZO Skin Health, Strengthening Its Physician-Dispensed Skincare Offering",
       "source": "Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmJ5U0I3UDFQLWxQaFU0cVV5MFJyeV9KaEZVZi1BbVpDZ0ZzUDNkTmtPQjNYMW5DcTJ4WWY5ako4M0ZPdU9yRmhEeDZqSEpvZFlPdUxzcnlfV3FZUUk4QTBWZEVUX3RLU1FYLTB4Z2x2TldublI4N3NFNWtGVElsWlJXNUt0VFpEZ09EcWcwNG94aVJXWGY0UkM1YUF6ZGNfVkxQVkRSb1BuN21Ob1lQcm1R?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQYVFXZ0w3TGVpUTlvR01JS2lwdUZibVhPc3BZbjNlMXZFSEJtVWZRUDh3Qlpwa3dDMWRPLUxUd2FaNHhLTHVJVWxTV2VFYzdscVNLZngtd3gxRkZXNkVEbVl4Wnk4X2ZYdFQ0ZEM4a3RtaXFVUHBOQnNsYWdkcXJfSldKSjhfM1FxMjF0V2FzM0lPTC1Zb1ZjVU11c29oZGVrdzZ4cGtlQ3ZSNUg2YkpjUDBmOTk3dElPX0RkZzA3VmhkOFRsSlQ4WU9OcVN2dzNyeFp6TzdFLWpXVWFraUlhNk1BeXdjZWQ1ZkJGZjJiSW1vaWhSRmc?oc=5",
       "snippet": "Business Wire",
-      "published": "2026-10-13T20:05:00+00:00"
+      "published": "2026-10-14T05:00:31+00:00"
     },
     {
       "n": 15,
+      "title": "EXCLUSIVE: Galderma agrees to buy ZO Skin Health for around $1.5 billion, sources say",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUWxpVzlpTVNNbm5VeHJROVRQeUFxTWRMZk9kOXh2LVdGUXRiZnBjb0xPY3BmSGU2Z2xTamM0aFItYmphOHY2ZmdDaGVGV0FQNzl2aS1NMV83ZEM0VnNTMDkzLUdnMzNmS0pod05TSUZBWS1kcTFkSktaMWxZUkdYOWxvMGV4NFhzTVA3N0J3YlFqbl8tQXdpdE9qUXh0czdhSnNMSm1qX2RnQQ?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-10-13T23:17:00+00:00"
+    },
+    {
+      "n": 16,
+      "title": "Aurora Cannabis Board Urges Shareholders to Reject Curaleaf’s Revised Hostile Bid",
+      "source": "TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPczdMd0pPUDhJVW0tRlUwLVFiLWZLYXhNekJmYWNBS3RhSHZxZURCZmlja3MzSzN5RWFPeGl5Y1MybTNMOWk5Y00yS21MX0U1aENHblNlQlJEX3lVbnZsZjdYM1BaZTZoY1JaZkZsUk5ISmpTRU5NVVVCLUl1aWN3dlhCNHAtZUdxa0d5aHgyMmE5dThiaWlNdUtHMk40aUlNak04Z0Y5T1dISEdRLUJOTUhySzl4QVFsRDVUVVFQM3NBcDl4VU9PaFplNTA?oc=5",
+      "snippet": "TipRanks",
+      "published": "2026-10-14T20:40:29+00:00"
+    },
+    {
+      "n": 17,
+      "title": "Aurora Cannabis Reiterates Opposition to Curaleaf's Takeover Offer",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdTBBLWtjcFlEOFRDaVNKTEhaQkhDbnhXd0VWczB4UGpfZjRBTmJueVVVOTVmamdOMlZPNk1jcnRiNjdGdDBjWno5TmpjOERhYUQ2UGFBQ0NNT2xSWDhVQV8yMGtOa3ZNUEtveHdTaWJyN2Z4a01aajFCZERtTzZndUZaSFg1X01NSi02X3BJd1ZzaENQQmwzNHQ4VlJpakswNmJzQ01RQjVRbWVpVXJCWA?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-14T20:25:06+00:00"
+    },
+    {
+      "n": 18,
+      "title": "Curaleaf Sweetens the Deal to Acquire Aurora Cannabis by 25%",
+      "source": "Cannabis Equipment News",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU0k4NE5sU0ZlVkZLX2pLSjUtRElmZVVhcWg5U0xodkpmZkRMZ0dlbGE5bkdUZEw5VXhJTHRGckdPMW1PaXhaZjhOS1pJZWVXZmVBY0NYQmNIQ05WX3d1STU1elVzNi1uRXdINHhxSTVLTzhONUpVMHpEOFNxOC1hQnNOVGNXV2xhZ3NtdmY5VjBwSlBybjZNLVJFUF9IN2VGV05yS2JSa3Y5QzZmb2N3angxN3QxMEU?oc=5",
+      "snippet": "Cannabis Equipment News",
+      "published": "2026-10-05T19:45:24+00:00"
+    },
+    {
+      "n": 19,
+      "title": "Curaleaf Enhances Offer to Acquire Aurora Cannabis in Takeover Bid",
+      "source": "Cannabis Business Times",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOElmb2E0Smx1dG5JNDI3UWVEbThSRlJlY0NmVllnUTFOaTlNQktUamlZOVNhRFBoYmplc0pWTURsRTNTajhnSWVkNEcweGhzLTN6UFZ3RkJJdno0NU5pN2wxWVdHUWdFYnpGS0NMWXVXS0lnX2U5SnhOSnJTYy1DSU1lU0ZUMDNTS1c0VDdNclVFS0JVTFhSdnNuMmlnTFpaU2RSVEVmSlBLdW1wOXBZTVZKUVRveW5ZTkt3RFhqMWxxTk5Db0J6WkpKcm1CT3hjc0hTekxmRmo5QUJJUzRCY2lkcXplQmtjWHFuY2dLMy1iUHhvQTdrY0EwOFlFTFE?oc=5",
+      "snippet": "Cannabis Business Times",
+      "published": "2026-10-05T23:33:23+00:00"
+    },
+    {
+      "n": 20,
+      "title": "Curaleaf Improves Takeover Offer For Aurora Cannabis",
+      "source": "Baystreet.ca",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3ak5DZEtfS250YlhwQmVsODBaUGxXczBFMk9fR0hOUFJYRmhLTGRpVjVMTm5LeWVMMXVKbTZnbEl0OTZmbWpQTGZNTkJRUjRXVUxITVpHbTJZRUhoMUZQdFF6b3lpem5EQUxsZFZxMWtLYTNCWGNfd0UyZ3FXQdIBfkFVX3lxTFA3ak5DZEtfS250YlhwQmVsODBaUGxXczBFMk9fR0hOUFJYRmhLTGRpVjVMTm5LeWVMMXVKbTZnbEl0OTZmbWpQTGZNTkJRUjRXVUxITVpHbTJZRUhoMUZQdFF6b3lpem5EQUxsZFZxMWtLYTNCWGNfd0UyZ3FXQQ?oc=5",
+      "snippet": "Baystreet.ca",
+      "published": "2026-10-06T14:06:43+00:00"
+    },
+    {
+      "n": 21,
+      "title": "Curaleaf Sweetens Aurora Cannabis Takeover Bid to $5 a Share",
+      "source": "nai500.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGVfRlZxTkFBWlhuTUlRZnhQS2FrYXpKSGZkalZEZnhZbFNTWkRHR2hHdlVHcHFHRlJMRE10ODJqWWRTeUVXM3dQQ1Y2LS0zWkZybXFkd2xpbXY3b1FwTndtM2FySmxucVJWcHhYTzVHQmpmdUczelpVVlJPNnk3dVlxX2g3Y2I5VmNqT0w3eGJHM3BGVzJB?oc=5",
+      "snippet": "nai500.com",
+      "published": "2026-10-06T00:48:09+00:00"
+    },
+    {
+      "n": 22,
+      "title": "Curaleaf raises Aurora Cannabis takeover bid to $5 per share",
+      "source": "Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQTRVbDRXVHZUcEY1TFJrUkZELTJEQVl1TkNBdkhjV0I2MDFoR0pPaUdaSXZBQUdNRDRVeWZUbUdXY2tKUlhfRzdkQnRrT0p0aGMzTUdXaUhmRnhwVUNZYmF2ZlpEejVnbEdQMUg3b3dCVzJWOWpFZ2tSOWtsUFZWdEVDeVdLZ08yU1ZxR0NwZFNKcHZsM1dybTh3WVZ0RnpudTdWZ1BmQi1ZdGhkMHRpZ0tKeHRSQUU?oc=5",
+      "snippet": "Investing.com",
+      "published": "2026-10-05T13:55:30+00:00"
+    },
+    {
+      "n": 23,
+      "title": "Curaleaf Revises Takeover Bid for Aurora Cannabis (ACB) with $5.",
+      "source": "GuruFocus",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUVVXR0l1QVEzNWZYSm5jeWFZazJrYWhfOV9ITElBRDljOWRoMjZIM2ZXekVXQUhoQ0VjMk8wQmRHVW5kbE8xNUs5ei1UQ1U1czh6eGNxV2Njbkp5LXcybE8xLS13WGd2STdaSE5BUHFMMGNBZ0t1NTNUaE9iUzQ2QWNTWFZHR0owOFdVaXNNazVxUGdXWmt1bUNfVDd6YUl6UnNtdTZ4cTZ1a2lIUW1wRmFnb3BFaDFN?oc=5",
+      "snippet": "GuruFocus",
+      "published": "2026-10-06T21:06:02+00:00"
+    },
+    {
+      "n": 24,
       "title": "Zocdoc makes first-ever acquisition, buying insurance startup Sohar Health",
       "source": "Dealroom",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMkFzc2xMZmNXUFp3bWgxNE1kV21jbmZObE9sbG1DRWhldFpMMlc5dmI1eTN5aDVmWVA3bnoybWVhWE5BSElFMlR5YnhPRW1DMnJ5T0phbVQ2R0ZuSno1WEVMTFJubDdoTFlNWWVyVGdQZHY1MEZHLXBucEJ5R2lGeFlOMFRwQVh2Vml5ajd6WFYwRk1jekFIYmNSTVBKeWx2azhENDJCVjhMNjg?oc=5",
@@ -431,7 +477,7 @@
       "published": "2026-10-14T13:22:54+00:00"
     },
     {
-      "n": 16,
+      "n": 25,
       "title": "Zocdoc acquires insurance tech company Sohar Health",
       "source": "Modern Healthcare",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORk9CczdaMDlfektwUldvcTBYb3VkamtMTTJrX3NfMWJVZzZDSWhlbnBIcDNBQm10WDJTNVl0QUZ6eUN6aU1yamRoTDVidkUtOVRkZHd6Ukxkd2hOWEpKelVISXFkZHVHWG1VdWhiRlhWa1NvMFo2RjRDS3ZnMzZHN1B4aG9rSm8?oc=5",
@@ -439,196 +485,108 @@
       "published": "2026-10-14T10:00:00+00:00"
     },
     {
-      "n": 17,
-      "title": "Matchbook completes acquisition of rival exchange Betdaq",
-      "source": "iGaming Business",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUE1mOUVka2czT2x1TEo0anJYYXZfWTFKakR5UVVCWHB1VTZvMWZUakZ1SzFiaHU0QjZUU0RhU25IajNCV0wzY0U0cktUb0RLeTlLYmx2dXdfbjlkNXA4RGRvNGplUlhYQW1fTV9xT3c0cnRIQzYtU1JKdkt0bnRWaVpRektnUUhsSTRvMGYwS21DcHgzLVJfdlh3?oc=5",
-      "snippet": "iGaming Business",
-      "published": "2026-10-14T10:23:33+00:00"
-    },
-    {
-      "n": 18,
-      "title": "Matchbook completes acquisition of fellow betting exchange Betdaq for undisclosed sum",
-      "source": "Racing Post",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQOTJOX1hkUmduWnlWNTA0SjRUSjc3OVlJZml1czdfMU0xdEc3N2JvVUFtNng0Ty01ejR2cHNZc1I3OU9MQUFudzRVc0RxTFl0SllNT0syRjNaLUR0dXBWUTVNT1RiaW51UmZpNUFhMjNLczRYUlBoQ1c0V2Y1SmVfQ3p0bS1HdWVsOThibDJkTXBjSUZkVkxscndIdVBOMFBwNzFLTXRSS0xrOEpJREFWaXE4aEpvMmlaNXpRZExMeTM4TExMbkN1WU1LNGhIMEozMi1kYldXeE83aHFSUE1EOGFHcXZVdldVaWJpZ1N3?oc=5",
-      "snippet": "Racing Post",
-      "published": "2026-10-14T08:00:00+00:00"
-    },
-    {
-      "n": 19,
-      "title": "Omron to acquire OnLogic in $675M physical AI deal",
-      "source": "TNGlobal",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YLWFMaU1LZzkxZHprZllZa29ON0JDQ2ZYQ2laMC04bEc1NldnMXE1V0xtZkRpeHVna3lTTzV4MXlSZlZya2VKTzJlcDBucFdZZkxJYk5YUWJaZkZBTXdlQzFlTmZOWTJIR2ZlWWhJNVRQbGM4bXRfbTN4VUp1Zw?oc=5",
-      "snippet": "TNGlobal",
-      "published": "2026-10-14T00:51:22+00:00"
-    },
-    {
-      "n": 20,
-      "title": "OMRON to acquire Vermont's OnLogic for $675 million",
-      "source": "Vermont Business Magazine",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSzczWF90ZUhfTUNEa0FwSVBzbF8tOG8xTHNxN2dPMXRPWWYzVFpjLWUtRkc3dFk1NnZGRVBGVTUxY3JQa3NGVEtPMzIxUVdxUTJCclZ0OGUxODdzaXZLWWlOSW9aRXAyaHFEcjRmS1ZxSE9USmZJV3VwTkNDOG1BVjJPN090TmRFSWl3ZFJrUQ?oc=5",
-      "snippet": "Vermont Business Magazine",
-      "published": "2026-10-13T21:07:36+00:00"
-    },
-    {
-      "n": 21,
-      "title": "Omron to Acquire U.S. Industrial PC Maker OnLogic for $675 Million to Expand Physical AI Foundation",
-      "source": "BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02U1lZU2lxNFVsRGJYcXlYYi1VWnRZUS1mWW5kZDM2T3lvY0FBbFNIMndHY3pJcnNBVWdUT2ZBenBBUTlnRDZJOTNBVUhoWXhNdzI2emthdzJ5YVRuYWVfSERRYW41LXFwSHFhTlEtMWNoZHl2SEE?oc=5",
-      "snippet": "BigGo Finance",
-      "published": "2026-10-13T01:25:00+00:00"
-    },
-    {
-      "n": 22,
-      "title": "Japan's Omron to buy US industrial PC firm Onlogic for $675 million in physical AI push",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT2FzdFBLeW5HT3V1UUYzYmN5UkxfdnNKdHI3Nzd1NnhXQkRCekFoQmJrd0hVMlVCRjRxOGpmOGRQRjJUdmJ4blZWZTZaQlJLdldhQlVrWVRmLXFJcGxSNGhwWHFZSGRUckNLZHI3QXJJZlpZNHVMcDJ4UHJMLTNJMXJWSlpBLXhTN3YxRWRqYndBR2RSakJqUzhhM0l0VjlhemN1YWZRSDJTaE1RTWpCWlBZRXYzNzFrdjh3OGNjRHM1UXRtcWh5YXFxSQ?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-13T01:04:00+00:00"
-    },
-    {
-      "n": 23,
-      "title": "Omron to Acquire Industrial PC Maker OnLogic in Physical AI Push",
-      "source": "Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ1lXX01hWFA0bXpBWmtWaDBObXVrTFJlYUZES19TWmZsaUFfTTJmeHJ4YjdwZVZqMjh1R1hhdnFnRkU3YWlHblN4ck5rR0ZpbEhWQ2lJWWswUml2dkpPaUo1eTB5LTBPQXRvSzZJWWtlUzlIQ1RKR0FJRFlKa095M1hGS0tEejlfTGxCdHpPUQ?oc=5",
-      "snippet": "Unite.AI",
-      "published": "2026-10-13T01:58:01+00:00"
-    },
-    {
-      "n": 24,
-      "title": "Amazon Reportedly in Talks to Buy Decart AI for Around $7B",
-      "source": "TechRepublic",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN3hJZ1F0SjB1d0RzS3A3MzA2aWJfTVVEZ0I2SUphM2NHdURXQXh6ODZyM3VtcFp4OEV3bTY1OUpXRHpzbExnRmpVUkJoX0gxbk1oMHlxdjUyOU9SYVcwM2NDcFhzTUtSRmRvM3piSXg3SFRhZkNUR0FNNlBNVDV5aW10bw?oc=5",
-      "snippet": "TechRepublic",
-      "published": "2026-10-13T19:21:14+00:00"
-    },
-    {
-      "n": 25,
-      "title": "Amazon in talks to buy AI chip software startup Decart for about $7bn",
-      "source": "The Next Web",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE15MTREM1pjMWYzRjFxS21fRzVHNi1kUW9KNUpTMUFFbHNfVXpIT21xN2E5NDJPTUFqWUwyeENoNllfNHNzc2pZU1FWSzFhY3R2MlhLNUhYWVYwekJ2TWN3ZFBRenVmcTVzX1pza0RzNzBDY2ZQREE?oc=5",
-      "snippet": "The Next Web",
-      "published": "2026-10-13T11:49:45+00:00"
-    },
-    {
       "n": 26,
-      "title": "Amazon in talks to acquire AI startup Decart in $7 billion deal, report says",
-      "source": "The American Bazaar",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMllCb3QxX002M1NGRHUzbWRLUk1aX2xGZEJhNTYzMVdmTWd4WkFvNXNiYmlpZXBxd1VOdGpXVjV4YnNKajdRMWtSRHNJcktCODF1T2pJTmlmTFdNR29mZU1iMElabUJZX1FqdnBFZnRLNHNLbGpwYzRpeGhxUV9ENWlWbGRyU3NNX1ZfbldUWFV0LXlWV0J1YVlyUlQyemlRazF1aVpzQzlaSFU2NE9YMTFhQXg?oc=5",
-      "snippet": "The American Bazaar",
-      "published": "2026-10-12T17:46:35+00:00"
+      "title": "IN TALKS: Williams in Talks on $5.5 Billion Deal for Momentum Midstream – Report",
+      "source": "EnergyNow.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSHpBam9nR19ndUxwZi1NSFo3LU5FSWNMc2MxenRSR05WY0hhWEVVcENMU2lzemUydDhtM0pXVS1vVVQyWV9hUldzWVgtR2dlQ2M3MEJCaVRJUDVsRmJrX2daVENPUVdpVnpJWE02WDRQRVRJR0t2MEwwN202dTFhMElxOXB1YXlxZkxSZnlRZnU1alRLdS1OOFhFN3FKS2Y5cWpWRjdJbU56TGc?oc=5",
+      "snippet": "EnergyNow.com",
+      "published": "2026-10-15T02:34:59+00:00"
     },
     {
       "n": 27,
-      "title": "Amazon eyes Decart acquisition at $7 billion as AI chip race intensifies",
-      "source": "Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbWdSS2NSZ2M0WkxfWlhaWk1Hb0ZveXVsdHF6dUkwblFTcXNsV3dVQzdVejgwTXlXRXBrMEs3UWc0aGZBU25Qdy1HaGFJQ09tUXJ2VF8zcGNXenlYOEQ3WXRUS1FNdi1laTBDSnJoWUM4QTdEa290Zi0xbjNOM1pHc3UtQUp6bTkwRUlrNFRnMkNLZXRIZkxOa1hVLWlSckZzZk1PdVB4bTVCZHUzeEl0QzZIZTM2bEwzRDFrSNIBvAFBVV95cUxQbWdSS2NSZ2M0WkxfWlhaWk1Hb0ZveXVsdHF6dUkwblFTcXNsV3dVQzdVejgwTXlXRXBrMEs3UWc0aGZBU25Qdy1HaGFJQ09tUXJ2VF8zcGNXenlYOEQ3WXRUS1FNdi1laTBDSnJoWUM4QTdEa290Zi0xbjNOM1pHc3UtQUp6bTkwRUlrNFRnMkNLZXRIZkxOa1hVLWlSckZzZk1PdVB4bTVCZHUzeEl0QzZIZTM2bEwzRDFrSA?oc=5",
-      "snippet": "Business Standard",
-      "published": "2026-10-12T04:41:29+00:00"
+      "title": "M&A: Williams Agrees to Buy Momentum Midstream for $5.5 Billion",
+      "source": "EnergyNow.com",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaHh5Rkhxdmw3U0lqSFJyQll3NTRmR1gzR2J6M2pxeHhCckRCOWlsdWdHRHdCRDlUZHk2bURFb3RiVXhWOVF0el93andESkVKUkVfZ2V4SUE2QXg0bVdOakxsWWJPRVY3Vkc3dnlzT0FHWGdBaVVrVmJ4VEdFWWFTNXpZb0xVQVhicVl6ZnY4LXRHZw?oc=5",
+      "snippet": "EnergyNow.com",
+      "published": "2026-10-14T22:37:30+00:00"
     },
     {
       "n": 28,
-      "title": "Amazon in talks to acquire AI startup Decart for around $7 billion",
-      "source": "Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRFQ5SXJkeXRJODhJSzBsOGR2THFnN1NTalRqMG55VzFYLUt2VkFZZzdVSTVzZkh5TGxETmZtQlBtOHJjZW5lUV83XzlWRXd6cHExOHpCTGs3NXU0NnI2MmdZSDBFQ3Q3dzJmRUt6VVdRVnk5TGVuV2dfcnlCSU5sWE85bFA0eFpsNmV5ZWQ3azNRLUppYzJ5LVlYVml2TGJXZUFUdjVZdDNsSjA1OXNuZDRFdVktQWNBVXliMldnQ0hYakRXMkhESDFVbXMxS0XSAc8BQVVfeXFMTURUOUlyZHl0STg4SUswbDhkdkxxZzdTU2pUajBueVcxWC1LdlZBWWc3VUk1c2ZIeUxsRE5mbUJQbThyY2VuZVFfN185VkV3enBxMTh6QkxrNzV1NDZyNjJnWUgwRUN0N3cyZkVLelVXUVZ5OUxlbldnX3J5QklObFhPOWxQNHhabDZleWVkN2szUS1KaWMyeS1ZWFZpdkxiV2VBVHY1WXQzbEowNTlzbmQ0RXVZLUFjQVV5YjJXZ0NIWGpEVzJIREgxVW1zMUtF?oc=5",
-      "snippet": "Business Standard",
-      "published": "2026-10-12T04:31:42+00:00"
+      "title": "CCC Intelligent Solutions agrees to $6.1 billion take-private deal with GTCR, Elliott",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQUdNcjdZbmllaVAyMXh0ejFIWWl0NEE4WTlUVWxPT1l6ckw2T01aT0VZLUZfMHJHV0E1cF9jandEV1p4djJWa0t6cHJaVnhqUGNHRTNvZE1kQk9vZ2xWaG4tZDZOaVMxOXlkLWxxU3dhZDViTmltNXp2UldwdF9sX3U0NFNDR3pIMDd5M3RUc05OVk1VRnY0MlJ0bXVBNUZQMDZkWGR5bURMOTZkaDNocHZTdHk?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-10-15T14:08:20+00:00"
     },
     {
       "n": 29,
-      "title": "Amazon in talks to acquire AI startup Decart for $7 bln- WSJ",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ1RwcTZxUU1yZFpySzVmeEZFRlkza0V6LWY5WFZTczBFOEhrUF9wUXpqZjZRUnEtSll6c1h6OFJyWkpHcm9FemlEbHlXRVpNX0RoSWdXUU93bHVleEc5TnZ5MWlINTgwdHY0M095UURxM3poaWNoc3ljUWltLVZqeVotSWhab1JSYWxHZU5waWRITndNQzRHQWk4Yw?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-11T23:55:02+00:00"
+      "title": "GTCR, Elliott Near Deal to Acquire CCC Intelligent Solutions as Shares Jump 13%",
+      "source": "Tekedia",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOelAzSDVrMEl3d21xNzQ2UTNwMHdnNUUtcGVFM1lSRFhHSU1MZzNtaFFQekUxUHhFZmw4VV84WURKYzFuU1V5OGdZYi0wLTRua0ZDdTA1aThsdnB2blM5dzdmUFdhRDZGVkQ0R1ZmQmIzM2NvLWR0VHZ3dEU2S2NXLWU0enowX3plUkJXVEdKSTgwbGkwNDRrR3drby1qZlR1aHNTbQ?oc=5",
+      "snippet": "Tekedia",
+      "published": "2026-10-11T08:34:59+00:00"
     },
     {
       "n": 30,
-      "title": "Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSTR0SUxydGYzRDJmaGtaWkRTYkkybS1GWlRkZFFnMjVXRFlZX0hHMUtVdFdIN0ZyQk0wMk1LNFhaUml3Y3FlRUV6SWFxVk9UUFg3MTUzelJtZU8tdjVpREpVS0owdkt2aVJhMUVObjg1TlRTREtZQzBINHJTTFloWDNBQTFCVl9yOE9HNXhBazJWMElncnlIZWNPdG5IY25ObFg0SGswNks5MkF0ODM4bEVRWkhjS3ZqcXVuWlVnamU0dw?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-11T21:16:00+00:00"
+      "title": "GTCR And Elliott Circle CCC Intelligent Solutions Deal",
+      "source": "Finimize",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX0I2d2VCMm9GTWVOZGU2dERRV2V1azFGTUVyRjZ1Q1Jvc2g4VnlEYUpBQWcwbno1US1BaUZfVExxcHRZdWxCTWtFSTVkOWNaTjlIbDdSb3UyamJhWmd2eFkzUUNuVXZ5Zm1rN2hEbUQwNkRLMVVzWmNvdkRIYk1saDBRZUEzZjhvQVVv?oc=5",
+      "snippet": "Finimize",
+      "published": "2026-10-10T07:42:13+00:00"
     },
     {
       "n": 31,
-      "title": "Amazon Reportedly in Talks to Acquire AI Startup Decart for $7 Billion, Stepping In After Anthropic Walked Away",
-      "source": "BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2c3lyMEE4N3lHT1NZYllDZnVxQVJzVUlRUC1oWFFHaGwtRkY5Y01fYVdrY1BKZHJsX3ZRRllMYnRhRElpODhjQmtpUFZ0VUk4NVYzbGthR18tczA4dFc3VEhoUGtjamI2cFBuNVY5eldfQmp3RHc?oc=5",
-      "snippet": "BigGo Finance",
-      "published": "2026-10-12T00:05:00+00:00"
+      "title": "International Paper rises on report of private equity interest in European arm",
+      "source": "StreetInsider",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPa3FyblVwdXh0SDJ5d2VSZ1NTU3RvdERuMG5pT1pKU0ZlekJ1emwyUWZNc2VPV3hXVFNsR1p2TEhfb1BxaE1UUDlFVjhtQzd3N2IwaUpRRkpTTHRIRGkwRlpGZUhpVm0tVFBZR3dreUJrZVlNOU5aZVNwdnZOZ3E0WTZkd09oRTROT1ZraEJYVDlZMHFlQjl4cEtBMjdPZnJTYmNmYVVWejNmbV9LSk1IU0FRc0dIYUl3Mjg3MnJqYkFjcXo2UnFnSWVsaThDRUhO?oc=5",
+      "snippet": "StreetInsider",
+      "published": "2026-10-15T14:24:23+00:00"
     },
     {
       "n": 32,
-      "title": "SKYX Announces Closing of Merger with Leading AI Smart Home",
-      "source": "GlobeNewswire",
-      "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxNcmh2SjNpOWZyZEZYcDhfVTV3cDh2VUlfMWF5MUoxU3hGam1kM1RzdDd6bWx4cW1oQm1Eb0kxUGd5WlNzUnhhRXQ4R2NjWlFSYXNkaDZSUXRlLTktZW5LLUNOaWRpRXhBZ2NRZGRfRUt4OTRWSHZZRTF1WDg0ejExZUIxR0YyX0tEa3l4UzJ0Y2NQZjlnZnVJUWJIcFMxdFdFallUYmJHTEJJc1NqUjB0Rm5ibjVLTmxTdGlJVlE1MFFHVnJpOFphZmtWcWJXcFRjeUFpeExDQVZBUDNrbXVtMW8zMENHdWtoMDVlamFsQWhQa1JMb1ZJMEFkUGZDTkpTUUxRQ21CQmFGN3ZLbHlaXzIteV9jNFc5SGRrWUpkQnc3bUljQ0g0MkoxYUNfblNma3gxRkFQcXd5bUlPamN0TUFjZk54Mk90RnI1NVdKX0NOeW1JTHE4?oc=5",
-      "snippet": "GlobeNewswire",
-      "published": "2026-10-14T13:22:30+00:00"
+      "title": "COMP Shareholder Alert: Investors With Losses May Seek to Lead the Class Action in Compass, Inc. Securities Lawsuit - Contact SueWallSt",
+      "source": "PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOLU9KNHNMQmFOMGRrZVNyOUpPMUZmUTVlODhjSGVpNVZBTnZNSC1wdDM4MTlDdmU3NFh2cHpkMHkwZVV6QVl3d1hSRjJOUVVvWk00TlU2Qk1yR0ljaW15dVAwSTdRdTRaLTk5RW5rTHJtRkVYX3M4MmQwa2szVk1xMEpUanZhUXV0Ukg0dGZJbWk4MDVqanRtRDZScW9RX3RDZWxBcHV2VEI1S3k2T19wU3VlTHFaWEV4bEt1YktCMFkxeF92ejJPX3E1RnBkc3docmNzOVpFeVFZNm9JMlcxOXBHSDZIcGdtY0xOa1N4YnllUldYSnV1dG8yTVB4OWZOOUJWUnJsbUpoWjhjQTEyUC1BZWhxSW8?oc=5",
+      "snippet": "PR Newswire",
+      "published": "2026-10-15T14:17:00+00:00"
     },
     {
       "n": 33,
-      "title": "COMP Shareholder Alert: December 8, 2026 Lead Plaintiff Deadline in Compass, Inc. Securities Class Action - Contact Levi & Korsinsky",
-      "source": "PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPeHcyWDhHUnRlVzRqYjJhTXg2OXBkSmNOSVUwbzItdklaZlQyYjZ5cUtoMGFKWVl3a19VYkVqUVlBTkVLZ0FqdXpfY1FuNjBVV3JQR1JfdVhMaHlidlpCbHdqVGhMZ3hEaW1kdW5IdmtpLXZmODFtQnFvanpPb0twejhESm85Z3I2d1lJZ2pPci1GQThteDR5VHc5YXlSWGxTX2FPZWFPVDc4RHdkUE02YlhUZEN0WFoyNzhXV1Z0NV9QQ3JtVVZpVVBybjYwZXVuRTRqek5yZWdraTlNWVprUG0wQ2d4NDVHSkF5aGM5dV9CM2xsalJQbmZDN0pqenIyTlhJRmdfY2FIcjN0aWF1TA?oc=5",
-      "snippet": "PR Newswire",
-      "published": "2026-10-14T14:18:00+00:00"
+      "title": "Penske Automotive agreed to a $16.3 billion take-private merger",
+      "source": "Quartz",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Qd3hwcFdwQnNHSEtjNFZfTzBIeGlqalczemdFdm5FOTNGaWh1Zjl1cldBd0pCU19KeV9XVEdDMWtweDA5ZTh1Z1JSYU5OS3EyZGR3NllwSEFRdWFuVWhid1RVZG54cEpGQ3ZlOTJmTGdwcUI2?oc=5",
+      "snippet": "Quartz",
+      "published": "2026-10-15T13:39:10+00:00"
     },
     {
       "n": 34,
-      "title": "ADES sets SAR 1.13 billion bonus issue: what it means for ADES stock",
-      "source": "ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaDd0dlVEeW4yanJfWW84cDJnaXlUNjFrODB6NnNMbUI0VFBzdllpd19jZFFZZm4weVhPNzBncmV5SjhrWl9qYUJjcGx3QTFiQ3JvR3pkMXQzc2VUaTVWT1hJemhtMzdwVVpIZmZSa3FRaEg0STduOXVSNHZhemt4bHcxcDRweEhsWXNCSk55TGdYTzJlaTZQU25UbEd1YWxlc0djbzBBWnlqRnpZMktZQkdCc0lzVXZlTUVTbl90TnFLdTBkcW1uenlR?oc=5",
-      "snippet": "ad-hoc-news.de",
-      "published": "2026-10-14T14:10:42+00:00"
+      "title": "PAG Stock Surges Today – Everything To Know About Its $16.3B Take-Private Deal",
+      "source": "Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdVloTFVtWEROUmFjTG5fWjdjRG8xLXRjbkoyazY4dm9SeGR1Rl9RU3l2Y0NHT1psTkNWSTdMYnFEY05xbGEtQXBWdGhudXVCZ2NaUEt6SjBpeVJBNU9feEhtRWhYMzZsNm5mbVhEdlNZN21WVkVRQldBUEx2bUJmZmRiMWstYTNucDhnWUo3YWctcnBjNVYyQmJTdGFvTUZ0MGtraWJ1RWtsLVZJWmdLNDE4UUw3ZUJaVDBrQUEycnJRSEVEbGNkWHNRMkVaUi10alFIOF9Paw?oc=5",
+      "snippet": "Stocktwits",
+      "published": "2026-10-15T13:33:00+00:00"
     },
     {
       "n": 35,
-      "title": "Algoquant Fintech invests ₹52.5 lakh in subsidiary AQ Capital Services",
-      "source": "scanx.trade",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUlLMFExYzdTeTFsa2szY0hmS3VWM0pkLUxPNU9CcE1qcFpweXFLR1V6cTVMOTNkTVFIampRcVZCbEJpQTVUSGtfQXdWQ085Y001Y3BpbVNsZEZOOEdZTGIwVFlUT0dtUXpKQ2FLejA3Uk9DS01mNW95VmdfN1I5eUJ6ZkdBeWZ1dDhDejBteWV2ankwSXNuc0ZBcFFoenNjUUxoaDIwQkNZSkJGek1Calp6MUdySi1PM0E4SGhxVVQ?oc=5",
-      "snippet": "scanx.trade",
-      "published": "2026-10-14T14:07:07+00:00"
+      "title": "H.B. Fuller Prices $850M Debt Offering to Fund AMS Acquisition",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYUtPbGxGVDg2Qy13cC05bUhlS18yX2tKQzV2My03bU4xU1dzZ2V4aDltNzM1VkNlM1lRcEhOSDZVMkFtd3N4N0JPVDNRaF9MZ2NTcmE2VEpWRFZOZHQwRG54aWJKN2U4NHpLZS1zYXN2ZHNRcEpyM08ta0ZGTGJ0Y3RTOWwxakdnVVVHMTJZMFA?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-15T13:27:00+00:00"
     },
     {
       "n": 36,
-      "title": "Flex (FLEX) Completes Acquisition of EPC Power",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdUlGc29ENXRrdkMwMk9wa0thQUc0bnFlTDVPcktSak5vd01xcE50NDdndG8xNV9SemhjbFNfZFBYb21XdEpiNDU0b2pmVGZKSlIybFl5blljRnl4QWNPOVBLd2gzbjJWV2xNWDNCNjdwZXJXZ3ZvRGFiUWkzdUhHU2h6NDduUTNlNC1EX1loTUVVdGJBd29weUVGZVdoQ0xCM0Y5T2pnTzFhZw?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-14T12:00:00+00:00"
+      "title": "Penske Automotive Agrees to $16.3 Billion Go-Private Deal With Major Shareholders Penske, Mitsui",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX1h5RlFfdHpMcVJNT25tVThwT3VXY3pxMmNqVl9mQ0lqd2p5YjV6d2VaLVdtY0VoaVZjM19IX3hDUkhTTEZRbEQtbERUNUFramlBYkxrZEt0X09sSWEzZ1JoUmc3VXhHbmxPRDNCTExVRmpSQUJfd1Y0aXBmQ0h3RXVxTzAwcXZMNUZKZXk0d0JybDdGd0NFV05n?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-15T13:10:47+00:00"
     },
     {
       "n": 37,
-      "title": "A robotics business is set to be bought with shares priced about 50% above the buyer's Oct. 12 close.",
-      "source": "Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaWVpUzhuaG55MkFEUmtUcjh6SDF0OUxjMFNxN2dlYWlHQ3VqSDNjZnp3UnowU1U4dXYtdWRveFRNUHhka0RBMlQzSDBZdDJHLXA1SUdRVVVLWV9Nd1dvVjhvLXlpNUJrWTUwNzZsT1hsYzRXUzhDUlR6alpRVk1yS0lNMy01bjdBRnVNZHJReE1KRmdQVWZRcGFpRXIwb3BOQlhxT0p4ZjVVdmFXOTdvbTk3NTh0U3ZXc3c?oc=5",
-      "snippet": "Stock Titan",
-      "published": "2026-10-14T11:30:00+00:00"
+      "title": "Autumn 2026 Aviation Update",
+      "source": "Dentons",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd1lyMGh2MWpsMnJXLXoyM0sySWpnRkJOUDVJakF5V1J3SjdtcGtieUtpNmFiWEpTNXczd3Y1TkxpaTMxb3VWc0NISnpWcnFZR2xwbGNuekZxR0NUZDgxY2RCc2lFOGttWGU2TldkUHhRUVFFdFZ3cmV2OVZoRXZzQzRpa1lNWEhQLWEwTTROOEFHUQ?oc=5",
+      "snippet": "Dentons",
+      "published": "2026-10-15T12:54:37+00:00"
     },
     {
       "n": 38,
-      "title": "BNP Paribas Reports Share Transactions in DCC Energy Plc Amid KKR and Energy Capital Partners Takeover Bid",
-      "source": "Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONTNZT1hKOVJ5aHlabUVGUzNjVE91RFpTNWxncVBud0lOdTN6bkxhRGt4M0x5cUt5VW1TNXNHdnNZbGVXOTd6N1RWdThoZUVtRUJnVkU5RkhDTFVKYzhlMVpQWkR4MHVjTktCZHFIT0ZWSkg2YjBXSkczVDhXSms1dHNxWEVWQjBLOHdmOTJQeDFwcmdPSmpxRjNtM0FqU1NZU3lFMHdCZ1Y4YTZITndyWk0tb1JZcERVUXd6LUJkYzlTLUluM01tNnU2WTZGTkV1RFM0cFlnN2ZhOHhqQko1X25FNGtmMlNo?oc=5",
-      "snippet": "Kalkine Media",
-      "published": "2026-10-14T10:44:08+00:00"
-    },
-    {
-      "n": 39,
-      "title": "Pioneer Acquisition I Corp Announces $300M Merger Deal with Green AI Cloud",
-      "source": "Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOEN6WVVCUFg3LTZ0R1Q3VkpUVDZXNUtyWUloZTEtSzJadnJtNVgyTFJQcDJjTHlRb3dtaXlLT0lJTV81R082aXpmNFV2MGJDelU2NWdPcl9MNXRXQXRDWDRHU1V6NUxXckFLR0tKcVMtVWpwb1NISGlRMDFMb2IwbU1QQUVQU3pxWC1aREFCZGhNakJDeFdEX1owY1BiUElndlBpMmNaRmdtR09YM2lSQ1JTVEtOWDNHb0hxLQ?oc=5",
-      "snippet": "Kalkine Media",
-      "published": "2026-10-14T10:04:35+00:00"
-    },
-    {
-      "n": 40,
-      "title": "Recordati: Palliser does not accept the takeover bid and seeks clarification from the board",
-      "source": "Il Sole 24 ORE",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYkFDRVVvdkJ6SE1fVUlvVW1panNDUGtRVHdTREFWY0Q1MHFJMHdXVDJOQUp2TWFQd28yb2I0Z0lDeU94NmQtVnBqVlJVc0Ryc1YxZUVrNmN0VVAwQ1FMdGhrYXFOdmFsOFlBVUY5WVFtNXRwVlMxeVlwYURYSmo1NWJ5ZFNWeGlaQzRJTElSUkNqWE1PNFF4SHNGVUhUSUs2TDZYUTRPWEpvYV9UZDAtbHg1emxqX3M2OUwwbzZMdGNkMm5nVDZN?oc=5",
-      "snippet": "Il Sole 24 ORE",
-      "published": "2026-10-14T09:15:19+00:00"
+      "title": "Pyrophyte Acquisition II to Merge With Sakuu in $600 Million Stock Deal, Will Redomicile to Delaware",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNmtqeVlmSUJXdnpmNlhPYk5kd1BqUWhpcU1GTVVHTWpVYVpPYWJjTHFlc2Y4LTdUbEtPcHFtQ3d0cEpVbUNFa19Lai16enR0MU9EZWRrUWpKUVJNTE5raWwxTkxnejV3X0lPWEN1OEFfWTcxcVU2TTVFUzF4Unk3YThySlhUb2JMVGtnMHhPTEhVMWQyVXlpSnl5eU5nQkhCUGc5SFhJa09LTXdZVWJRc0d6dC12OFBLSWVGc2VSSnhXRzN5N1hKU19FY1JuREEwemNBU3dCelFvVUM5S0VIcG1ubWstVjlGVHloVER0Z3JoUQ?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-15T12:33:00+00:00"
     }
   ],
   "cited": [
@@ -636,8 +594,6 @@
     2,
     3,
     4,
-    5,
-    6,
     7,
     8,
     9,
@@ -646,13 +602,13 @@
     12,
     13,
     14,
-    15,
     16,
     17,
     18,
     19,
     20,
     21,
+    22,
     23,
     24,
     25,
@@ -663,76 +619,122 @@
     30,
     31,
     32,
-    33,
-    34,
-    35
+    33
   ],
   "invalid_citations": [],
-  "example_prompt": "Deal: Ithaca Holdings and Bumble.\nStage: Announced.\n\nHeadlines:\n[1] BMI, Oct 14 12:36 AM ET: Bumble to go private in USD 1.3 billion acquisition by Ithaca Holdings\n    BMI\n[2] Exchange4Media, Oct 13 10:36 PM ET: Bumble to be acquired by Ithaca Holdings in $1.3 billion deal\n    Exchange4Media\n[3] Global Dating Insights, Oct 13 02:51 PM ET: Bumble Agrees to $1.3 Billion Acquisition by Ithaca Holdings\n    Global Dating Insights\n[4] citybiz, Oct 13 12:42 PM ET: Ithaca Holdings to Acquire Bumble for $1.3 Billion in All-Cash Deal\n    citybiz\n[5] Yahoo Finance, Oct 13 08:34 AM ET: Bumble to Go Private in $1.3 Billion Deal With Ithaca Holdings\n    Yahoo Finance\n[6] Yahoo Finance, Oct 13 09:57 AM ET: Bumble Agrees to $1.3 Billion All-Cash Acquisition by Ithaca Holdings at $6.05 Per Share\n    Yahoo Finance\n[7] Startup Fortune, Oct 13 11:35 AM ET: Bumble agrees to $1.3 billion buyout by a brand-new Ithaca Holdings\n    Startup Fortune\n[8] TradingView, Oct 13 09:03 AM ET: Bumble Agrees to $6.05-Per-Share Sale to Ithaca Holdco in Two-Step Merger\n    TradingView\n\nWrite the subheading and sentences.",
+  "example_prompt": "Deal: Richemont and De Beers.\nStage: Rumored.\n\nHeadlines:\n[1] Sacramento Bee, Oct 15 06:53 AM ET: Cartier-owner Richemont in talks to join bid for diamond giant De Beers, source says\n    Sacramento Bee\n[2] TradingView, Oct 15 05:20 AM ET: Richemont In Talks To Join Bidder For De Beers- Person Familiar With The Matter\n    TradingView\n[3] Bloomberg.com, Oct 15 04:33 AM ET: Richemont and Signet In Talks to Join Bidder for De Beers\n    Bloomberg.com\n[4] BigGo Finance, Oct 15 09:05 AM ET: Richemont in Advanced Talks to Join Consortium Bidding for De Beers\n    BigGo Finance\n\nWrite the subheading and sentences.",
   "retrieval": [
     {
-      "deal": "Ithaca Holdings / Bumble",
-      "query": "Ithaca Holdings Bumble acquisition merger deal",
+      "deal": "Richemont / De Beers",
+      "query": "Richemont De Beers acquisition merger deal",
       "hits": [
         {
-          "n": 4,
-          "similarity": 0.866
-        },
-        {
-          "n": 6,
-          "similarity": 0.857
+          "n": 1,
+          "similarity": 0.768
         },
         {
           "n": 2,
-          "similarity": 0.849
+          "similarity": 0.764
         },
         {
           "n": 3,
-          "similarity": 0.841
+          "similarity": 0.762
         },
         {
+          "n": 4,
+          "similarity": 0.754
+        }
+      ]
+    },
+    {
+      "deal": "Beam Global / ScoutDI",
+      "query": "Beam Global ScoutDI acquisition merger deal",
+      "hits": [
+        {
           "n": 7,
-          "similarity": 0.837
+          "similarity": 0.818
         },
         {
           "n": 8,
-          "similarity": 0.832
-        }
-      ]
-    },
-    {
-      "deal": "SSR Mining / Roxmore Resources",
-      "query": "SSR Mining Roxmore Resources acquisition merger deal",
-      "hits": [
-        {
-          "n": 11,
-          "similarity": 0.874
+          "similarity": 0.817
         },
         {
           "n": 9,
-          "similarity": 0.846
+          "similarity": 0.813
         },
         {
-          "n": 10,
-          "similarity": 0.826
+          "n": 6,
+          "similarity": 0.786
         },
         {
-          "n": 12,
-          "similarity": 0.795
+          "n": 5,
+          "similarity": 0.723
         }
       ]
     },
     {
-      "deal": "Porch Group / Allied Trust",
-      "query": "Porch Group Allied Trust acquisition merger deal",
+      "deal": "ByteDance / MediaTek",
+      "query": "ByteDance MediaTek acquisition merger deal",
       "hits": [
         {
-          "n": 13,
-          "similarity": 0.858
+          "n": 10,
+          "similarity": 0.759
+        },
+        {
+          "n": 11,
+          "similarity": 0.723
+        }
+      ]
+    },
+    {
+      "deal": "Galderma / ZO Skin Health",
+      "query": "Galderma ZO Skin Health acquisition merger deal",
+      "hits": [
+        {
+          "n": 12,
+          "similarity": 0.861
         },
         {
           "n": 14,
           "similarity": 0.84
+        },
+        {
+          "n": 15,
+          "similarity": 0.829
+        },
+        {
+          "n": 13,
+          "similarity": 0.799
+        }
+      ]
+    },
+    {
+      "deal": "Curaleaf / Aurora Cannabis",
+      "query": "Curaleaf Aurora Cannabis acquisition merger deal",
+      "hits": [
+        {
+          "n": 18,
+          "similarity": 0.854
+        },
+        {
+          "n": 19,
+          "similarity": 0.854
+        },
+        {
+          "n": 20,
+          "similarity": 0.834
+        },
+        {
+          "n": 21,
+          "similarity": 0.828
+        },
+        {
+          "n": 22,
+          "similarity": 0.825
+        },
+        {
+          "n": 23,
+          "similarity": 0.819
         }
       ]
     },
@@ -741,101 +743,53 @@
       "query": "Zocdoc Sohar Health acquisition merger deal",
       "hits": [
         {
-          "n": 16,
+          "n": 25,
           "similarity": 0.841
         },
         {
-          "n": 15,
+          "n": 24,
           "similarity": 0.807
         }
       ]
     },
     {
-      "deal": "Matchbook / Betdaq",
-      "query": "Matchbook Betdaq acquisition merger deal",
+      "deal": "Williams / Momentum Midstream",
+      "query": "Williams Momentum Midstream acquisition merger deal",
       "hits": [
-        {
-          "n": 18,
-          "similarity": 0.798
-        },
-        {
-          "n": 17,
-          "similarity": 0.783
-        }
-      ]
-    },
-    {
-      "deal": "Omron / OnLogic",
-      "query": "Omron OnLogic acquisition merger deal",
-      "hits": [
-        {
-          "n": 19,
-          "similarity": 0.814
-        },
-        {
-          "n": 20,
-          "similarity": 0.784
-        },
-        {
-          "n": 21,
-          "similarity": 0.777
-        },
-        {
-          "n": 22,
-          "similarity": 0.728
-        },
-        {
-          "n": 23,
-          "similarity": 0.697
-        }
-      ]
-    },
-    {
-      "deal": "Amazon / Decart AI",
-      "query": "Amazon Decart AI acquisition merger deal",
-      "hits": [
-        {
-          "n": 26,
-          "similarity": 0.845
-        },
         {
           "n": 27,
-          "similarity": 0.83
+          "similarity": 0.85
         },
         {
-          "n": 28,
-          "similarity": 0.828
-        },
+          "n": 26,
+          "similarity": 0.825
+        }
+      ]
+    },
+    {
+      "deal": "CCC Intelligent Solutions / GTCR, Elliott",
+      "query": "CCC Intelligent Solutions GTCR, Elliott acquisition merger deal",
+      "hits": [
         {
           "n": 29,
-          "similarity": 0.816
+          "similarity": 0.866
         },
         {
           "n": 30,
-          "similarity": 0.811
+          "similarity": 0.846
         },
         {
-          "n": 31,
-          "similarity": 0.804
-        }
-      ]
-    },
-    {
-      "deal": "SKYX / Leading AI Smart Home",
-      "query": "SKYX Leading AI Smart Home acquisition merger deal",
-      "hits": [
-        {
-          "n": 32,
-          "similarity": 0.863
+          "n": 28,
+          "similarity": 0.839
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 190,
-    "headlines_new": 80,
-    "index_size": 942,
-    "deals_found": 47,
+    "headlines_fetched": 205,
+    "headlines_new": 98,
+    "index_size": 1040,
+    "deals_found": 39,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19
