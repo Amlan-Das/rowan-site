@@ -164,6 +164,19 @@ const PITCHES = [
     current: 941.78, currentAsOf: "2026-10-14",
     link: "pitches/ge-vernova-gev.pdf",
     model: "pitches/ge-vernova-gev-model.xlsx"
+  },
+  {
+    ticker: "ETN", tvSymbol: "NYSE:ETN", color: "#F2C94C",
+    company: "Eaton Corporation plc",
+    direction: "Long",
+    date: "2026-10-15", dateLabel: "October 15, 2026",
+    horizonMonths: 6,
+    thesis: "At 22.9x FY26E EBITDA, the market treats Eaton as a data center trade that ends when hyperscaler budgets stop growing. We see a backlog business that pays for its own growth: backlog was $24.1B in June with 71% due within twelve months, Electrical backlog was up 43% year on year, and deferred revenue is under 5% of backlog, so there are no customer deposits flattering the cash flow. The price needs 9.4% annual revenue growth to FY30, close to our base case of 9.5% and well short of the Street's 12.1%. Our base-case DCF gives $454, and the six-month target of $480 is the rounded midpoint of that and our model on Street estimates ($503).",
+    pitchPrice: 408.85,
+    target: 480.00,
+    current: 402.40, currentAsOf: "2026-10-15",
+    link: "pitches/eaton-etn.pdf",
+    model: "pitches/eaton-etn-model.xlsx"
   }
 ];
 
