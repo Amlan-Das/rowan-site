@@ -125,7 +125,7 @@ const PITCHES = [
     thesis: "Visa's network is already built, so it doesn't need heavy new spending to grow. About 70% of VisaNet's costs are fixed, which means operating costs rise 7–8% a year while revenue grows 10–11%, taking EBIT margin from 68.3% toward 70.6% by FY2030. Client incentives also only come out of service revenue, so as cross-border and data processing grow from ~57% to ~70% of revenue, incentives take a smaller cut of each dollar.",
     pitchPrice: 317.36,
     target: 432.00,
-    current: null, currentAsOf: "",
+    current: 391.43, currentAsOf: "2026-10-14",
     link: "pitches/visa-v.pdf"
   },
   {
@@ -137,7 +137,7 @@ const PITCHES = [
     thesis: "The stock fell 44% between September 2025 and March 2026 because OBDC II, a non-traded BDC, gated about $1.6B of redemptions and was hit with a class action. That vehicle is under 1% of Blue Owl's AUM. The other $307B is mostly permanent capital with no redemption risk, and EBITDA grew 17% to $1.24B over the same stretch. The multiple halved from ~19x to ~10x on redemption fears, not on any problem in the credit book.",
     pitchPrice: 8.84,
     target: 16.00,
-    current: null, currentAsOf: "",
+    current: 8.79, currentAsOf: "2026-10-14",
     link: "pitches/blue-owl-owl.pdf"
   },
   {
@@ -149,7 +149,7 @@ const PITCHES = [
     thesis: "Carrier fell 23% from its high after one soft margin quarter, and the market priced it as a housing-linked HVAC name. The order book points somewhere else: data centre orders quadrupled, backlog passed $8B, and data centre revenue is guided to double to ~$2B this year with the second half already booked. It trades at ~13x EBITDA while Trane, selling into the same data centre build-out, trades at ~20x.",
     pitchPrice: 59.11,
     target: 77.00,
-    current: null, currentAsOf: "",
+    current: 54.24, currentAsOf: "2026-10-14",
     link: "pitches/carrier-carr-industrials-report.pdf#page=19"
   },
   {
@@ -161,7 +161,7 @@ const PITCHES = [
     thesis: "At 42.6x FY26E EBITDA, GE Vernova is priced as if turbine orders and pricing stay at their peak. The 116 GW headline backlog is 53 GW of firm orders and 63 GW of slot reservations, which are non-refundable slot deposits that sit outside RPO and are usually priced at conversion. Most of the FCF guide is customer float: H1 cash from operations was $10.7B, but $13.7B of that was growth in contract liabilities. Our base case assumes no cancellations, only slower conversions and flat orders, and still lands at a 16% FY28E EBITDA margin against the Street's 21.6%. That gives a DCF value of $701 and a six-month target of $860.",
     pitchPrice: 987.45,
     target: 860.00,
-    current: null, currentAsOf: "",
+    current: 941.78, currentAsOf: "2026-10-14",
     link: "pitches/ge-vernova-gev.pdf",
     model: "pitches/ge-vernova-gev-model.xlsx"
   }
