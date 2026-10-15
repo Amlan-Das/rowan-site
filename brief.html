@@ -351,7 +351,8 @@ Headlines:
     $("indPanels").innerHTML = desks.map((desk, i) => {
       const d = bySlug[desk.slug];
       return '<div class="ind-panel" role="tabpanel" id="' + esc(desk.slug) + '" aria-labelledby="tab-' + esc(desk.slug) + '"' + (i ? " hidden" : "") + ">" +
-        '<div class="ind-top' + (pricesHtml(desk, d) ? "" : " solo") + '">' + noteHtml(desk, d) + pricesHtml(desk, d) + "</div>" + primerHtml(desk) + "</div>";
+        '<div class="ind-top' + (pricesHtml(desk, d) ? "" : " solo") + '">' + noteHtml(desk, d) + pricesHtml(desk, d) + "</div>" +
+        '<div class="ind-more" id="more-' + esc(desk.slug) + '" hidden></div>' + primerHtml(desk) + "</div>";
     }).join("");
 
     // A long primer opens at a preview height with a button to read the rest.
@@ -418,6 +419,54 @@ Headlines:
         .then((r) => (r.ok && !/html/.test(r.headers.get("content-type") || "") ? r.text() : ""))
         .then((t) => show(/^\s*<(!doctype|html)/i.test(t) ? "" : mdToHtml(t).trim()))
         .catch(() => show(""));
+    });
+
+    // More news per desk, one dropdown per topic. industries.json is written by desks/build.py,
+    // which runs on its own schedule, so a missing file just leaves this section out.
+    const when = (iso) => new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "America/New_York" });
+    const moreHtml = (slug, d, j) => {
+      const topics = (d.topics || []).filter((t) => t.items.length);
+      if (!topics.length) return "";
+      const cites = (ns) => '<sup class="ind-cite">' + ns.map((n) =>
+        '<a href="#ds-' + slug + "-" + n + '" data-slug="' + slug + '" data-n="' + n + '" aria-label="Headline ' + n + '">' + n + "</a>").join(",") + "</sup>";
+      const dropdown = (t, i) => {
+        const sm = t.summary;
+        const latest = t.items.reduce((a, x) => (x.published > a ? x.published : a), "");
+        return '<details class="ind-topic"' + (i === 0 ? " open" : "") + '><summary><span class="t">' + esc(t.label) +
+          '</span><span class="c">' + t.items.length + " headlines, latest " + when(latest) + "</span></summary>" +
+          (sm ? '<p class="ind-tsum"><b>' + esc(sm.headline) + ".</b> " + sm.sentences.map((x) => esc(x.text) + cites(x.sources)).join(" ") + "</p>" : "") +
+          '<ol class="ind-news">' + t.items.map((it) =>
+            '<li id="ds-' + slug + "-" + it.n + '" value="' + it.n + '"><a href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(it.title) +
+            '</a><span class="ind-src">' + esc(it.source) + " &middot; " + when(it.published) + "</span></li>").join("") + "</ol></details>";
+      };
+      return '<p class="ed-label">More ' + esc(d.name.toLowerCase()) + " news</p>" +
+        '<p class="ind-more-note">' + d.count + " headlines from the last " + (j.lookback_days || 7) + " days, grouped by topic and updated " + etTime(j.generated_at, true) + ". " +
+        (j.model ? "The short summaries are written by a local model from only the headlines under them, and each sentence cites them. " : "") +
+        "Every headline links to the story.</p>" + topics.map(dropdown).join("");
+    };
+    fetch("industries.json", { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j) => {
+        if (!j || !j.desks) return;
+        Object.keys(j.desks).forEach((slug) => {
+          const host = document.getElementById("more-" + slug);
+          const html = host ? moreHtml(slug, j.desks[slug], j) : "";
+          if (host && html) { host.innerHTML = html; host.hidden = false; }
+        });
+      })
+      .catch(() => {});
+    // A citation opens its dropdown and jumps to the headline
+    $("indPanels").addEventListener("click", (e) => {
+      const a = e.target.closest(".ind-cite a");
+      if (!a) return;
+      e.preventDefault();
+      const li = document.getElementById("ds-" + a.dataset.slug + "-" + a.dataset.n);
+      if (!li) return;
+      const box = li.closest("details");
+      if (box) box.open = true;
+      li.scrollIntoView({ block: "center", behavior: reduceMotion ? "auto" : "smooth" });
+      li.classList.add("lit");
+      setTimeout(() => li.classList.remove("lit"), 1800);
     });
 
     // Tabs: click, arrow keys, and links like brief.html#mining

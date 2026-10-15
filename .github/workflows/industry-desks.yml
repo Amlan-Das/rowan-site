@@ -1,0 +1,66 @@
+name: Industry desks
+
+on:
+  schedule:
+    # 12:00 UTC = 8:00 AM Eastern and 20:00 UTC = 4:00 PM Eastern while daylight time is on
+    # (an hour earlier on the clock in winter). Both run after the morning brief and deals jobs.
+    - cron: "0 12 * * 1-5"
+    - cron: "0 20 * * 1-5"
+  workflow_dispatch:   # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write      # needed to commit industries.json back to the repo
+
+jobs:
+  desks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: desks
+    env:
+      # Runners have no GPU, so a 3B model keeps generation to a few minutes.
+      # No embedding model here: the desks read headlines straight from Google News.
+      LLM_MODEL: llama3.2:3b
+      # The site serves the repo root, so industries.json goes there
+      DESKS_OUT: ../industries.json
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests tzdata
+
+      - name: Cache Ollama models
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-${{ env.LLM_MODEL }}
+
+      - name: Install and start Ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          # The installer starts a system service; stop it and run our own so
+          # models are stored in ~/.ollama (the cached folder above)
+          sudo systemctl stop ollama || true
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          until curl -s http://localhost:11434 > /dev/null; do sleep 1; done
+          ollama pull "$LLM_MODEL"
+
+      - name: Build the desks
+        run: python build.py
+
+      - name: Commit industries.json
+        run: |
+          git config user.name "industry-desks-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add "$DESKS_OUT"
+          git commit -m "Industry desks $(date -u +%F-%H%M)" || echo "Nothing new to commit"
+          # The brief, deals and price jobs push to this branch too, so catch up first
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push && break
+            sleep 5
+          done
