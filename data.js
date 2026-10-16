@@ -202,7 +202,8 @@ const SKILLS = [
 //   type "equity"    value flows from the investor to the company it owns part of
 //   type "purchase"  money flows from the buyer to the seller
 // A company that is both a buyer and an investor in the same partner makes a two-way pair, which
-// the page marks as circular. kind sets the colour: "lab", "chips" or "cloud".
+// the page marks as circular. kind sets the colour: "lab", "chips", "cloud", "dc" (data centers),
+// "power" (power generation) or "finance".
 // flag shows a footnote on the deal. Amounts are as announced, and "up to" amounts are ceilings.
 const AI_NETWORK = {
   checked: "October 16, 2026",
@@ -216,7 +217,16 @@ const AI_NETWORK = {
     { id: "amazon", name: "Amazon / AWS", kind: "cloud" },
     { id: "google", name: "Google", kind: "cloud" },
     { id: "oracle", name: "Oracle", kind: "cloud" },
-    { id: "coreweave", name: "CoreWeave", kind: "cloud" }
+    { id: "coreweave", name: "CoreWeave", kind: "cloud" },
+    { id: "crusoe", name: "Crusoe", kind: "dc" },
+    { id: "vantage", name: "Vantage", kind: "dc" },
+    { id: "fluidstack", name: "Fluidstack", kind: "dc" },
+    { id: "blueowl", name: "Blue Owl", kind: "finance" },
+    { id: "constellation", name: "Constellation", kind: "power" },
+    { id: "talen", name: "Talen", kind: "power" },
+    { id: "nextera", name: "NextEra", kind: "power" },
+    { id: "bloom", name: "Bloom Energy", kind: "power" },
+    { id: "gevernova", name: "GE Vernova", kind: "power" }
   ],
   deals: [
     // Equity
@@ -234,6 +244,9 @@ const AI_NETWORK = {
     { from: "amazon", to: "anthropic", type: "equity", amount: "Up to $25B", what: "$5B up front and $20B tied to milestones. Announced April 2026." },
     { from: "nvidia", to: "coreweave", type: "equity", amount: "$350M + $2B",
       what: "$350M before the 2025 IPO, then $2B in January 2026 at $87.20 a share. Nvidia holds roughly 7%." },
+    { from: "blueowl", to: "crusoe", type: "equity", amount: "Part of a $15B venture",
+      what: "Blue Owl, Crusoe and Primary Digital Infrastructure fund the Abilene, Texas campus through a joint venture, alongside a construction loan led by JPMorgan.",
+      flag: "Reports differ on how the venture's debt and equity split." },
     // Purchase commitments
     { from: "openai", to: "nvidia", type: "purchase", amount: "Not disclosed", what: "Nvidia systems for at least 10 GW of data centers, under the September 2025 letter of intent." },
     { from: "openai", to: "microsoft", type: "purchase", amount: "$250B", what: "Azure cloud services.",
@@ -248,7 +261,21 @@ const AI_NETWORK = {
     { from: "anthropic", to: "amazon", type: "purchase", amount: "$100B+", what: "AWS spending over ten years, with up to 5 GW of Trainium capacity." },
     { from: "nvidia", to: "coreweave", type: "purchase", amount: "$6.3B", what: "Nvidia buys CoreWeave's unsold cloud capacity through 2032." },
     { from: "oracle", to: "nvidia", type: "purchase", amount: "Not disclosed", what: "GPUs for Oracle's data centers." },
-    { from: "xai", to: "nvidia", type: "purchase", amount: "Not disclosed", what: "GPUs for xAI's data centers." }
+    { from: "xai", to: "nvidia", type: "purchase", amount: "Not disclosed", what: "GPUs for xAI's data centers." },
+    // Data centers and power
+    { from: "oracle", to: "crusoe", type: "purchase", amount: "Not disclosed",
+      what: "Oracle leases Crusoe's Abilene, Texas campus, about 1.2 GW planned, which OpenAI uses for Stargate.",
+      flag: "Lease terms come from secondary reports. The companies haven't published them." },
+    { from: "oracle", to: "vantage", type: "purchase", amount: "Not disclosed",
+      what: "Vantage's Frontier campus in Shackelford County, Texas: 1.4 GW across ten buildings, a $25B+ build tied to Oracle and OpenAI's Stargate.",
+      flag: "The $25B is Vantage's own investment. Oracle's lease value isn't public." },
+    { from: "anthropic", to: "fluidstack", type: "purchase", amount: "$50B", what: "Anthropic's US data center plan, starting with Fluidstack sites in Texas and New York." },
+    { from: "crusoe", to: "gevernova", type: "purchase", amount: "29 turbines, ~1 GW", what: "LM2500XPRESS gas turbines to power Crusoe's AI data centers, ordered in two batches: 10 in December 2024 and 19 in June 2025." },
+    { from: "microsoft", to: "constellation", type: "purchase", amount: "Not disclosed", what: "A 20-year power purchase agreement that restarts Three Mile Island Unit 1 as the Crane Clean Energy Center, about 835 MW." },
+    { from: "amazon", to: "talen", type: "purchase", amount: "~$18B", what: "Up to 1,920 MW from the Susquehanna nuclear plant in Pennsylvania through 2042.",
+      flag: "The $18B is Talen's projected revenue at full volume." },
+    { from: "google", to: "nextera", type: "purchase", amount: "Not disclosed", what: "A 25-year power purchase agreement to restart the 615 MW Duane Arnold nuclear plant in Iowa. Power is expected in early 2029." },
+    { from: "oracle", to: "bloom", type: "purchase", amount: "Not disclosed", what: "Bloom Energy fuel cells to power Oracle's AI data centers." }
   ],
   sources: [
     { label: "Amazon, Anthropic", href: "https://www.geekwire.com/2026/04/amazon-doubles-down-on-anthropic-with-25b-investment-mirroring-its-openai-cloud-deal/" },
@@ -258,7 +285,15 @@ const AI_NETWORK = {
     { label: "AMD, OpenAI", href: "https://tomshardware.com/tech-industry/openai-and-amd-announce-multibillion-dollar-partnership-amd-to-supply-6-gigawatts-in-chips-openai-could-get-up-to-10-percent-of-amd-shares-in-return" },
     { label: "Nvidia, CoreWeave", href: "https://www.datacenterdynamics.com/en/news/nvidia-invests-another-2bn-in-coreweave/" },
     { label: "Nvidia, OpenAI", href: "https://www.datacenterdynamics.com/en/news/nvidia-plans-30bn-investment-in-upcoming-openai-funding-round/" },
-    { label: "CoreWeave, OpenAI", href: "https://www.bnnbloomberg.ca/business/2025/09/25/coreweave-expands-openai-pact-with-new-us65-billion-contract-sees-the-quarter-of-diversification/" }
+    { label: "CoreWeave, OpenAI", href: "https://www.bnnbloomberg.ca/business/2025/09/25/coreweave-expands-openai-pact-with-new-us65-billion-contract-sees-the-quarter-of-diversification/" },
+    { label: "Crusoe, Abilene", href: "https://www.globaldatacenterhub.com/p/crusoes-116b-bet-on-openais-texas" },
+    { label: "Vantage, Frontier", href: "https://www.datacenterdynamics.com/en/news/vantage-breaks-ground-on-texas-gigawatt-data-center-campus-for-openai/" },
+    { label: "Anthropic, Fluidstack", href: "https://datacenterdynamics.com/en/news/anthropic-plans-50bn-us-data-center-spend-starting-with-fluidstack-sites-in-texas-and-new-york" },
+    { label: "Crusoe, GE Vernova", href: "https://www.gevernova.com/news/press-releases/ge-vernova-crusoe-announce-major-29-unit-aeroderivative-gas-turbine-deliver-ai-data-centers" },
+    { label: "Microsoft, Constellation", href: "https://orrick.com/News/2024/10/Microsoft-Signs-20-Year-PPA-with-Constellation" },
+    { label: "Amazon, Talen", href: "https://www.utilitydive.com/news/talen-amazon-aws-susquehanna-nuclear-data-center-t/750440/" },
+    { label: "Google, NextEra", href: "https://www.ans.org/news/2025-10-28/article-7501/nextera-and-google-ink-a-deal-to-restart-duane-arnold/" },
+    { label: "Oracle, Bloom Energy", href: "https://finance.yahoo.com/news/brookfield-backs-bloom-energy-5-220121193.html" }
   ]
 };
 

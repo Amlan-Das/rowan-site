@@ -16,7 +16,8 @@
   const { nodes, deals } = AI_NETWORK;
   const N = nodes.length;
 
-  const COLORS = { equity: "#2b5fb3", purchase: "#b4531a", lab: "#0f5a44", chips: "#121614", cloud: "#5b6b7a" };
+  const COLORS = { equity: "#2b5fb3", purchase: "#b4531a", lab: "#0f5a44", chips: "#121614", cloud: "#5b6b7a", dc: "#6d4a9a", power: "#8a6a00", finance: "#a33a5c" };
+  const KIND_LABEL = { lab: "AI lab", chips: "Chipmaker", cloud: "Cloud", dc: "Data centers", power: "Power", finance: "Finance" };
   const TYPE_LABEL = { equity: "Equity investment", purchase: "Purchase commitment" };
 
   // ---------- Data ----------
@@ -107,10 +108,10 @@
     canvas.style.width = W + "px"; canvas.style.height = H + "px";
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     CX = W / 2; CY = H / 2;
-    R = Math.min(W, H) / 2 * 0.76;
-    fontPx = Math.max(10.5, Math.min(14, R * 0.052));
+    R = Math.min(W, H) / 2 * 0.78;
+    fontPx = Math.max(10, Math.min(14, R * 0.05));
     ctx.font = font(fontPx);
-    nameW = nodes.map((n) => ctx.measureText(n.name).width + fontPx * 1.6);
+    nameW = nodes.map((n) => ctx.measureText(n.name).width + fontPx * 1.3);
     dirty = true;
   };
 
@@ -235,7 +236,7 @@
     drawSphere();
     frame.nodes = nodes.map((_, i) => {
       const q = proj(P[i]);
-      return { x: q[0], y: q[1], z: q[2], sc: q[3], w: nameW[i] * q[3], h: fontPx * 2 * q[3] };
+      return { x: q[0], y: q[1], z: q[2], sc: q[3], w: nameW[i] * q[3], h: fontPx * 1.8 * q[3] };
     });
     links.forEach((l) => { l.sp = l.pts.map(proj); });
     const byDepth = nodes.map((_, i) => i).sort((p, q) => frame.nodes[p].z - frame.nodes[q].z);
@@ -301,6 +302,8 @@
   const setPinned = (p) => { pinned = same(p, pinned) ? null : p; dirty = true; renderDetail(); };
 
   // ---------- Build the page parts ----------
+  const kinds = Array.from(new Set(nodes.map((n) => n.kind)));
+  $("netKey").innerHTML = kinds.map((k) => '<span><i style="background:' + COLORS[k] + '"></i>' + KIND_LABEL[k] + "</span>").join("");
   $("netChips").innerHTML = nodes.map((n, i) =>
     '<button type="button" class="net-chip" data-i="' + i + '"><i style="background:' + COLORS[n.kind] + '"></i>' + esc(n.name) + "</button>").join("");
   $("netRows").innerHTML = links.map((l) =>
