@@ -61,7 +61,7 @@
   <section class="ed-sec" id="industries" aria-labelledby="indTitle">
     <div class="ed-sechead">
       <h2 class="ed-h2" id="indTitle">Natural resources</h2>
-      <p>A note on each industry from the same pipeline and the same source list, with a primer I wrote by hand underneath.</p>
+      <p>A note on each industry from the same pipeline and the same source list, with my industry report above it.</p>
     </div>
     <div class="ind-tabs" role="tablist" aria-label="Industries" id="indTabs"></div>
     <div id="indPanels"></div>
@@ -341,7 +341,7 @@ Headlines:
         '<summary class="primer-head"><h3 id="ph-' + esc(desk.slug) + '">' + esc(desk.name) + " primer</h3>" +
         '<span class="ed-byline"><span>Written by Rowan Das</span>' + (desk.updated ? "<span>Updated " + esc(desk.updated) + "</span>" : "") + "</span></summary>" +
         '<div class="primer-inner">' + filesHtml(desk) +
-        '<div class="primer-body" id="pb-' + esc(desk.slug) + '"><p class="primer-wait">Loading the primer</p></div></div>' +
+        (desk.primer ? '<div class="primer-body" id="pb-' + esc(desk.slug) + '"><p class="primer-wait">Loading the primer</p></div>' : "") + "</div>" +
       "</details>";
 
     $("indTabs").innerHTML = desks.map((desk, i) =>
@@ -356,6 +356,7 @@ Headlines:
     }).join("");
 
     desks.forEach((desk) => {
+      if (!desk.primer) return;  // no text file: the primer is just its title and the report buttons
       const body = document.getElementById("pb-" + desk.slug);
       const waiting = '<p class="primer-wait">In progress. I am writing this primer myself, and it will be posted here when it is finished.</p>';
       const show = (html) => {

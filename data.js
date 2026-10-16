@@ -75,27 +75,27 @@ const PROJECTS = [
 // Each desk shows a daily note from the brief pipeline and a primer you write yourself.
 //   slug     must match the slug in brief/industries.py (that file sets the prices and searches)
 //   name     the tab label
-//   primer   your primer, written in Markdown. Until the file has text in it, the page
-//            shows that the primer is in progress. The comment at the top of each file
+//   primer   optional: a Markdown file whose text shows inside the primer, e.g. "primers/timber.md".
+//            Leave it "" and the primer is just its title and the files below. The comment at the top of each file
 //            has a short Markdown guide.
 //   updated  when you last revised the primer, e.g. "October 2026" (leave "" to hide)
 //   files    optional downloads shown as buttons under the primer title: { label, href }
 const INDUSTRIES = [
   {
-    slug: "agriculture", name: "Agriculture", primer: "primers/agriculture.md", updated: "October 2026",
+    slug: "agriculture", name: "Agriculture", primer: "", updated: "October 2026",
     files: [
       { label: "Industry report (PDF)", href: "primers/agriculture/agriculture-industry-review.pdf" },
       { label: "GardenCore LBO model (Excel)", href: "primers/agriculture/gardencore-lbo-model.xlsx" }
     ]
   },
   {
-    slug: "mining", name: "Mining", primer: "primers/mining.md", updated: "October 2026",
+    slug: "mining", name: "Mining", primer: "", updated: "October 2026",
     files: [
       { label: "Mining report (PDF)", href: "primers/mining/mining-industry-review.pdf" }
     ]
   },
   {
-    slug: "timber", name: "Timber", primer: "primers/timber.md", updated: "October 2026",
+    slug: "timber", name: "Timber", primer: "", updated: "October 2026",
     files: [
       { label: "Timber report (PDF)", href: "primers/timber/timber-industry-review.pdf" }
     ]
