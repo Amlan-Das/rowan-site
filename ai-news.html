@@ -36,8 +36,38 @@
     <div class="wrap">
       <div class="sechead">
         <h1>AI news</h1>
-        <p class="note">Coming soon.</p>
+        <p class="note">Who is paying whom in the AI buildout: the equity investments and purchase commitments between the labs, the chipmakers and the clouds.</p>
       </div>
+      <figure class="exhibit net" id="aiNet">
+        <figcaption class="exh">The AI financing network</figcaption>
+        <p class="net-stats" id="netStats"></p>
+        <div class="net-grid">
+          <div class="net-stage" id="netStage">
+            <canvas id="netCanvas" role="img" aria-label="Interactive diagram of AI financing deals"></canvas>
+            <div class="net-tip" id="netTip" hidden></div>
+          </div>
+          <div class="net-side">
+            <div class="net-legend">
+              <span><i class="ln equity"></i>Equity investment</span>
+              <span><i class="ln purchase"></i>Purchase commitment</span>
+              <small>Arrows point to where the value goes: an investment to the company that receives it, a purchase to the seller.</small>
+            </div>
+            <div class="net-chips" id="netChips"></div>
+            <button type="button" class="net-toggle" id="netCircular" aria-pressed="false">Highlight two-way pairs</button>
+            <div class="net-detail" id="netDetail" aria-live="polite"></div>
+          </div>
+        </div>
+        <details class="ind-topic net-all">
+          <summary><span class="t" id="netCount"></span><span class="c">Every deal as text</span></summary>
+          <div class="primer-table net-table">
+            <table>
+              <thead><tr><th>Deal</th><th>Type</th><th>Amount</th><th>What it is</th></tr></thead>
+              <tbody id="netRows"></tbody>
+            </table>
+          </div>
+        </details>
+        <p class="src">Drag the sphere to turn it. Amounts are as announced, and &ldquo;up to&rdquo; amounts are ceilings that may depend on milestones. Checked <span id="netChecked"></span>. Sources: <span id="netSources"></span>.</p>
+      </figure>
     </div>
   </section>
 </main>
@@ -72,5 +102,6 @@
 
 <script src="data.js"></script>
 <script src="common.js"></script>
+<script src="ai-network.js"></script>
 </body>
 </html>

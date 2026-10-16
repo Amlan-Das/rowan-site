@@ -197,4 +197,69 @@ const SKILLS = [
   { group: "Code and AI", items: ["Python", "RSS pipelines", "LLM workflows", "RAG", "Vector databases", "Local LLMs", "Agentic workflows", "Claude Code", "GitHub Actions", "Excel automation"] },
   { group: "Data and tools", items: ["Excel", "S&P Capital IQ", "PowerPoint", "yfinance", "TradingView"] }
 ];
+// AI news page: the financing network. Each deal is one arrow, drawn from the company the value
+// flows FROM to the company it flows TO.
+//   type "equity"    value flows from the investor to the company it owns part of
+//   type "purchase"  money flows from the buyer to the seller
+// A company that is both a buyer and an investor in the same partner makes a two-way pair, which
+// the page marks as circular. kind sets the colour: "lab", "chips" or "cloud".
+// flag shows a footnote on the deal. Amounts are as announced, and "up to" amounts are ceilings.
+const AI_NETWORK = {
+  checked: "October 16, 2026",
+  nodes: [
+    { id: "openai", name: "OpenAI", kind: "lab" },
+    { id: "anthropic", name: "Anthropic", kind: "lab" },
+    { id: "xai", name: "xAI", kind: "lab" },
+    { id: "nvidia", name: "Nvidia", kind: "chips" },
+    { id: "amd", name: "AMD", kind: "chips" },
+    { id: "microsoft", name: "Microsoft", kind: "cloud" },
+    { id: "amazon", name: "Amazon / AWS", kind: "cloud" },
+    { id: "google", name: "Google", kind: "cloud" },
+    { id: "oracle", name: "Oracle", kind: "cloud" },
+    { id: "coreweave", name: "CoreWeave", kind: "cloud" }
+  ],
+  deals: [
+    // Equity
+    { from: "nvidia", to: "openai", type: "equity", amount: "~$30B",
+      what: "Equity in OpenAI's funding round. It replaced a September 2025 letter of intent for up to $100B that Nvidia's CEO has said was never a commitment.",
+      flag: "Reported in February 2026. The companies have not confirmed that it closed." },
+    { from: "microsoft", to: "openai", type: "equity", amount: "$13B", what: "Microsoft's investment in OpenAI." },
+    { from: "amazon", to: "openai", type: "equity", amount: "$50B", what: "Announced February 2026 together with the expanded AWS agreement." },
+    { from: "amd", to: "openai", type: "equity", amount: "Warrants, up to ~10% of AMD",
+      what: "AMD gave OpenAI warrants for up to 160M AMD shares, vesting as OpenAI deploys 6 GW of AMD chips." },
+    { from: "nvidia", to: "xai", type: "equity", amount: "$2B", what: "Nvidia's stake in xAI's financing." },
+    { from: "microsoft", to: "anthropic", type: "equity", amount: "Up to $5B", what: "Announced November 2025 with Anthropic's Azure commitment." },
+    { from: "nvidia", to: "anthropic", type: "equity", amount: "Up to $10B", what: "Announced November 2025 with Microsoft's investment." },
+    { from: "google", to: "anthropic", type: "equity", amount: "Up to $40B", what: "$10B up front and up to $30B more tied to milestones. Announced April 2026." },
+    { from: "amazon", to: "anthropic", type: "equity", amount: "Up to $25B", what: "$5B up front and $20B tied to milestones. Announced April 2026." },
+    { from: "nvidia", to: "coreweave", type: "equity", amount: "$350M + $2B",
+      what: "$350M before the 2025 IPO, then $2B in January 2026 at $87.20 a share. Nvidia holds roughly 7%." },
+    // Purchase commitments
+    { from: "openai", to: "nvidia", type: "purchase", amount: "Not disclosed", what: "Nvidia systems for at least 10 GW of data centers, under the September 2025 letter of intent." },
+    { from: "openai", to: "microsoft", type: "purchase", amount: "$250B", what: "Azure cloud services.",
+      flag: "Reported by one secondary source. Not confirmed by the companies." },
+    { from: "openai", to: "oracle", type: "purchase", amount: "$300B", what: "Stargate cloud capacity over about five years." },
+    { from: "openai", to: "coreweave", type: "purchase", amount: "$22.4B", what: "Cloud compute contracts: $11.9B (March 2025), $4B (May 2025) and $6.5B (September 2025)." },
+    { from: "openai", to: "amazon", type: "purchase", amount: "$138B", what: "AWS: the original $38B agreement plus a $100B expansion over eight years, with about 2 GW of Trainium chips." },
+    { from: "openai", to: "amd", type: "purchase", amount: "6 GW of chips", what: "AMD Instinct MI450 GPUs, starting with 1 GW in the second half of 2026.",
+      flag: "AMD has not disclosed a dollar value." },
+    { from: "anthropic", to: "microsoft", type: "purchase", amount: "$30B", what: "Azure compute, with up to 1 GW of extra capacity." },
+    { from: "anthropic", to: "google", type: "purchase", amount: "Not disclosed", what: "Google Cloud TPU capacity, up to 5 GW over five years." },
+    { from: "anthropic", to: "amazon", type: "purchase", amount: "$100B+", what: "AWS spending over ten years, with up to 5 GW of Trainium capacity." },
+    { from: "nvidia", to: "coreweave", type: "purchase", amount: "$6.3B", what: "Nvidia buys CoreWeave's unsold cloud capacity through 2032." },
+    { from: "oracle", to: "nvidia", type: "purchase", amount: "Not disclosed", what: "GPUs for Oracle's data centers." },
+    { from: "xai", to: "nvidia", type: "purchase", amount: "Not disclosed", what: "GPUs for xAI's data centers." }
+  ],
+  sources: [
+    { label: "Amazon, Anthropic", href: "https://www.geekwire.com/2026/04/amazon-doubles-down-on-anthropic-with-25b-investment-mirroring-its-openai-cloud-deal/" },
+    { label: "Amazon, OpenAI", href: "https://www.geekwire.com/2026/amazon-invests-50b-in-openai-deepens-aws-partnership-with-expanded-100b-cloud-deal/" },
+    { label: "Google, Anthropic", href: "https://aibusiness.com/generative-ai/google-could-invest-another-40-billion-anthropic" },
+    { label: "Anthropic, Microsoft, Nvidia", href: "https://www.constellationr.com/insights/news/anthropic-microsoft-azure-nvidia-ink-30-billion-compute-pact" },
+    { label: "AMD, OpenAI", href: "https://tomshardware.com/tech-industry/openai-and-amd-announce-multibillion-dollar-partnership-amd-to-supply-6-gigawatts-in-chips-openai-could-get-up-to-10-percent-of-amd-shares-in-return" },
+    { label: "Nvidia, CoreWeave", href: "https://www.datacenterdynamics.com/en/news/nvidia-invests-another-2bn-in-coreweave/" },
+    { label: "Nvidia, OpenAI", href: "https://www.datacenterdynamics.com/en/news/nvidia-plans-30bn-investment-in-upcoming-openai-funding-round/" },
+    { label: "CoreWeave, OpenAI", href: "https://www.bnnbloomberg.ca/business/2025/09/25/coreweave-expands-openai-pact-with-new-us65-billion-contract-sees-the-quarter-of-diversification/" }
+  ]
+};
+
 /* ============ End of the part you edit ============ */
