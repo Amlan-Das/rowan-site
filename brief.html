@@ -341,7 +341,6 @@ Headlines:
         '<summary class="primer-head"><h3 id="ph-' + esc(desk.slug) + '">' + esc(desk.name) + " primer</h3>" +
         '<span class="ed-byline"><span>Written by Rowan Das</span>' + (desk.updated ? "<span>Updated " + esc(desk.updated) + "</span>" : "") + "</span></summary>" +
         '<div class="primer-inner">' + filesHtml(desk) +
-        '<nav class="primer-toc" aria-label="' + esc(desk.name) + ' primer contents" hidden></nav>' +
         '<div class="primer-body" id="pb-' + esc(desk.slug) + '"><p class="primer-wait">Loading the primer</p></div></div>' +
       "</details>";
 
@@ -356,40 +355,12 @@ Headlines:
         '<div class="ind-more" id="more-' + esc(desk.slug) + '" hidden></div></div></div>';
     }).join("");
 
-    $("indPanels").addEventListener("click", (e) => {
-      // The contents row opens the whole primer and jumps to that part
-      const jump = e.target.closest(".primer-toc a");
-      if (jump) {
-        e.preventDefault();
-        const primer = jump.closest(".primer");
-        const h = document.getElementById(jump.getAttribute("href").slice(1));
-        if (!h) return;
-        // Charts above the heading load lazily and would push it down mid-scroll, so load them first
-        const imgs = Array.from(primer.querySelectorAll(".primer-body img")).filter((img) => !img.complete);
-        imgs.forEach((img) => (img.loading = "eager"));
-        const ready = Promise.all(imgs.map((img) => new Promise((ok) => { img.addEventListener("load", ok, { once: true }); img.addEventListener("error", ok, { once: true }); })));
-        Promise.race([ready, new Promise((ok) => setTimeout(ok, 1500))])
-          .then(() => h.scrollIntoView({ block: "start", behavior: reduceMotion ? "auto" : "smooth" }));
-        return;
-      }
-    });
-
     desks.forEach((desk) => {
       const body = document.getElementById("pb-" + desk.slug);
       const waiting = '<p class="primer-wait">In progress. I am writing this primer myself, and it will be posted here when it is finished.</p>';
       const show = (html) => {
         body.innerHTML = html || waiting;
         body.closest(".primer").classList.toggle("empty", !html);
-        // A contents row built from the primer's own section headings
-        const toc = body.closest(".primer").querySelector(".primer-toc");
-        const h3 = Array.from(body.querySelectorAll("h3")), h4 = Array.from(body.querySelectorAll("h4"));
-        const heads = h3.length >= 2 ? h3 : h4;
-        if (heads.length >= 2) {
-          heads.forEach((h) => { h.id = desk.slug + "-" + h.textContent.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); });
-          toc.innerHTML = '<p class="ed-label">In this primer</p><ol>' +
-            heads.map((h) => '<li><a href="#' + h.id + '">' + esc(h.textContent) + "</a></li>").join("") + "</ol>";
-          toc.hidden = false;
-        }
       };
       if (!desk.primer) { show(""); return; }
       fetch(desk.primer, { cache: "no-cache" })

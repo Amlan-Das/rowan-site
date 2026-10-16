@@ -772,13 +772,6 @@ footer.dark .foot { border-top: 0; }
 
 /* Primer: downloads and a row of its sections */
 .primer-files { display: flex; flex-wrap: wrap; gap: 10px; margin: -4px 0 20px; }
-.primer-toc { max-width: 70ch; margin: 0 0 26px; padding: 12px 0 14px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
-.primer-toc[hidden] { display: none; }
-.primer-toc ol { display: flex; flex-wrap: wrap; gap: 6px 26px; margin: 8px 0 0; padding: 0; list-style: none; counter-reset: toc; }
-.primer-toc li { counter-increment: toc; }
-.primer-toc a { color: var(--navy); font-size: 15px; font-weight: 500; text-decoration: none; }
-.primer-toc a::before { content: counter(toc); margin-right: 8px; color: var(--mist); font-size: 13px; font-weight: 600; }
-.primer-toc a:hover { text-decoration: underline; }
 .primer-body h3[id], .primer-body h4[id] { scroll-margin-top: 8px; }
 
 /* Footer links */
