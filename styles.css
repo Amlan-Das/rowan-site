@@ -817,9 +817,11 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 @media (prefers-reduced-motion: reduce) { .ind-how summary::after, .ed-fold > summary::after { transition: none; } }
 
 /* AI news: the financing network (ai-network.js) */
-/* The intro sits in the same two columns as the graphic, so its left edge is the side panel's */
-.net-head { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 10px 44px; }
-.net-head .note { max-width: none; }
+/* Opening statement on the AI news page */
+.ai-open { margin: 0 0 56px; }
+.ai-open p { max-width: 29em; margin: 0 0 16px; color: var(--ink); font: 500 clamp(20px, 2.3vw, 27px)/1.5 var(--sans); letter-spacing: -.012em; }
+.ai-open .ai-open-last { margin: 24px 0 0; font-weight: 800; letter-spacing: -.02em; }
+.net-lede { margin: 0 0 6px; max-width: 62ch; color: var(--slate); font-size: 15.5px; line-height: 1.55; }
 .net-stats { margin: 0 0 16px; color: var(--mist); font-size: 14.5px; }
 .net-grid { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 24px 44px; align-items: start; }
 .net-stage { position: relative; width: 100%; aspect-ratio: 1; max-height: 700px; touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; }
@@ -864,7 +866,7 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .net-table tr { cursor: pointer; }
 .net-table tr.on td { background: var(--house-tint); }
 @media (max-width: 900px) {
-  .net-head, .net-grid { grid-template-columns: minmax(0, 1fr); }
+  .net-grid { grid-template-columns: minmax(0, 1fr); }
   .net-stage { max-width: 640px; margin: 0 auto; }
   .net-table td:first-child { white-space: normal; }
 }
