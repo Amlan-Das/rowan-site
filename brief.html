@@ -335,15 +335,15 @@ Headlines:
       ? '<div class="primer-files">' + desk.files.map((f) =>
           '<a class="btn" href="' + esc(f.href) + '" target="_blank" rel="noopener">' + esc(f.label) + "</a>").join("") + "</div>"
       : "";
+    // The primer is one row until it is clicked: the title and byline show, the rest opens beneath them
     const primerHtml = (desk) =>
-      '<article class="primer" aria-labelledby="ph-' + esc(desk.slug) + '">' +
-        '<div class="primer-head"><h3 id="ph-' + esc(desk.slug) + '">' + esc(desk.name) + " primer</h3>" +
-        '<p class="ed-byline"><span>Written by Rowan Das</span>' + (desk.updated ? "<span>Updated " + esc(desk.updated) + "</span>" : "") + "</p></div>" +
-        filesHtml(desk) +
+      '<details class="primer" aria-labelledby="ph-' + esc(desk.slug) + '">' +
+        '<summary class="primer-head"><h3 id="ph-' + esc(desk.slug) + '">' + esc(desk.name) + " primer</h3>" +
+        '<span class="ed-byline"><span>Written by Rowan Das</span>' + (desk.updated ? "<span>Updated " + esc(desk.updated) + "</span>" : "") + "</span></summary>" +
+        '<div class="primer-inner">' + filesHtml(desk) +
         '<nav class="primer-toc" aria-label="' + esc(desk.name) + ' primer contents" hidden></nav>' +
-        '<div class="primer-body" id="pb-' + esc(desk.slug) + '"><p class="primer-wait">Loading the primer</p></div>' +
-        '<button type="button" class="btn primer-more" hidden aria-expanded="false">Read the full primer</button>' +
-      "</article>";
+        '<div class="primer-body" id="pb-' + esc(desk.slug) + '"><p class="primer-wait">Loading the primer</p></div></div>' +
+      "</details>";
 
     $("indTabs").innerHTML = desks.map((desk, i) =>
       '<button type="button" class="ind-tab" role="tab" id="tab-' + esc(desk.slug) + '" aria-controls="' + esc(desk.slug) + '" aria-selected="' + (i === 0) + '" tabindex="' + (i === 0 ? 0 : -1) + '">' + esc(desk.name) + "</button>"
@@ -351,31 +351,17 @@ Headlines:
     $("indPanels").innerHTML = desks.map((desk, i) => {
       const d = bySlug[desk.slug];
       return '<div class="ind-panel" role="tabpanel" id="' + esc(desk.slug) + '" aria-labelledby="tab-' + esc(desk.slug) + '"' + (i ? " hidden" : "") + ">" +
+        primerHtml(desk) +
         '<div class="ind-top' + (pricesHtml(desk, d) ? "" : " solo") + '">' + noteHtml(desk, d) + pricesHtml(desk, d) +
-        '<div class="ind-more" id="more-' + esc(desk.slug) + '" hidden></div></div>' + primerHtml(desk) + "</div>";
+        '<div class="ind-more" id="more-' + esc(desk.slug) + '" hidden></div></div></div>';
     }).join("");
 
-    // A long primer opens at a preview height with a button to read the rest.
-    // Panels that are hidden have no height yet, so each one is measured when it is first shown.
-    const fit = (panel) => {
-      const body = panel.querySelector(".primer-body"), more = panel.querySelector(".primer-more");
-      if (!body || body.dataset.fit || panel.hidden || !body.dataset.ready) return;
-      body.dataset.fit = "1";
-      if (body.scrollHeight > 760) { body.classList.add("clamped"); more.hidden = false; }
-    };
-    const unclamp = (primer) => {
-      const body = primer.querySelector(".primer-body"), more = primer.querySelector(".primer-more");
-      if (!body.classList.contains("clamped")) return;
-      body.classList.remove("clamped");
-      more.textContent = "Show less"; more.setAttribute("aria-expanded", "true");
-    };
     $("indPanels").addEventListener("click", (e) => {
       // The contents row opens the whole primer and jumps to that part
       const jump = e.target.closest(".primer-toc a");
       if (jump) {
         e.preventDefault();
         const primer = jump.closest(".primer");
-        unclamp(primer);
         const h = document.getElementById(jump.getAttribute("href").slice(1));
         if (!h) return;
         // Charts above the heading load lazily and would push it down mid-scroll, so load them first
@@ -386,13 +372,6 @@ Headlines:
           .then(() => h.scrollIntoView({ block: "start", behavior: reduceMotion ? "auto" : "smooth" }));
         return;
       }
-      const more = e.target.closest(".primer-more");
-      if (!more) return;
-      const body = more.parentElement.querySelector(".primer-body");
-      const open = body.classList.toggle("clamped") === false;
-      more.textContent = open ? "Show less" : "Read the full primer";
-      more.setAttribute("aria-expanded", String(open));
-      if (!open) more.parentElement.scrollIntoView({ block: "start", behavior: reduceMotion ? "auto" : "smooth" });
     });
 
     desks.forEach((desk) => {
@@ -411,8 +390,6 @@ Headlines:
             heads.map((h) => '<li><a href="#' + h.id + '">' + esc(h.textContent) + "</a></li>").join("") + "</ol>";
           toc.hidden = false;
         }
-        body.dataset.ready = "1";
-        fit(body.closest(".ind-panel"));
       };
       if (!desk.primer) { show(""); return; }
       fetch(desk.primer, { cache: "no-cache" })
@@ -479,7 +456,6 @@ Headlines:
       });
       if (focus) tab.focus();
       if (link) history.replaceState(null, "", "#" + tab.getAttribute("aria-controls"));  // so the tab can be shared
-      fit(document.getElementById(tab.getAttribute("aria-controls")));
     };
     $("indTabs").addEventListener("click", (e) => {
       const t = e.target.closest(".ind-tab");
