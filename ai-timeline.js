@@ -20,7 +20,6 @@
   // Oldest first, so the rail reads left to right. Entries on one date keep their order in data.js.
   const items = AI_TIMELINE.map((e, i) => Object.assign({ i }, e)).sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
   const count = (cat) => items.filter((e) => !cat || e.cat === cat).length;
-  const years = Array.from(new Set(items.map((e) => e.date.slice(0, 4))));
 
   let current = "";      // category shown, or "" for all
   let selected = null;   // the chosen milestone's index in AI_TIMELINE
@@ -29,9 +28,18 @@
   // ---------- The controls above the rail ----------
   const chip = (label, cat) => '<button type="button" class="net-chip' + (cat === current ? " on" : "") + '" data-cat="' + esc(cat) + '">' +
     (cat ? '<i style="background:' + colour(cat) + '"></i>' : "") + esc(label) + " <small>" + count(cat) + "</small></button>";
+  // Years before 2020 are grouped by decade so the jump links stay short
+  const jumpTargets = () => {
+    const seen = {}, out = [];
+    shown().forEach((e) => {
+      const y = e.date.slice(0, 4), key = +y < 2020 ? y.slice(0, 3) + "0s" : y;
+      if (!seen[key]) { seen[key] = true; out.push({ key, year: y }); }
+    });
+    return out;
+  };
   const renderBar = () => {
     bar.innerHTML = '<div class="aitl-chips">' + chip("All", "") + CATS.filter((c) => count(c)).map((c) => chip(c, c)).join("") + "</div>" +
-      '<div class="aitl-jump"><span>Jump to</span>' + years.map((y) => '<button type="button" data-year="' + y + '">' + y + "</button>").join("") + "</div>" +
+      '<div class="aitl-jump"><span>Jump to</span>' + jumpTargets().map((t) => '<button type="button" data-year="' + t.year + '">' + t.key + "</button>").join("") + "</div>" +
       '<div class="aitl-nav"><button type="button" class="net-toggle" data-step="-1" aria-label="Scroll to earlier milestones">&larr; Earlier</button>' +
       '<button type="button" class="net-toggle" data-step="1" aria-label="Scroll to later milestones">Later &rarr;</button></div>';
   };

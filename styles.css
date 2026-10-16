@@ -878,7 +878,8 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .aitl-chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .aitl-chips .net-chip small { color: var(--mist); font-size: 12px; font-weight: 600; }
 .aitl-chips .net-chip.on small { color: var(--slate); }
-.aitl-jump { display: flex; align-items: baseline; gap: 4px 12px; color: var(--mist); font-size: 13px; }
+.aitl-jump { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; max-width: 100%; color: var(--mist); font-size: 13px; }
+.aitl-jump span { white-space: nowrap; }
 .aitl-jump button { padding: 2px 0; background: none; border: 0; border-bottom: 2px solid transparent; color: var(--ink); font: 700 14px/1.4 var(--sans); cursor: pointer; }
 .aitl-jump button:hover { border-bottom-color: var(--house); color: var(--navy); }
 .aitl-nav { display: flex; gap: 8px; margin-left: auto; }
