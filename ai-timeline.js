@@ -39,9 +39,7 @@
   };
   const renderBar = () => {
     bar.innerHTML = '<div class="aitl-chips">' + chip("All", "") + CATS.filter((c) => count(c)).map((c) => chip(c, c)).join("") + "</div>" +
-      '<div class="aitl-jump"><span>Jump to</span>' + jumpTargets().map((t) => '<button type="button" data-year="' + t.year + '">' + t.key + "</button>").join("") + "</div>" +
-      '<div class="aitl-nav"><button type="button" class="net-toggle" data-step="-1" aria-label="Scroll to earlier milestones">&larr; Earlier</button>' +
-      '<button type="button" class="net-toggle" data-step="1" aria-label="Scroll to later milestones">Later &rarr;</button></div>';
+      '<div class="aitl-jump"><span>Jump to</span>' + jumpTargets().map((t) => '<button type="button" data-year="' + t.year + '">' + t.key + "</button>").join("") + "</div>";
   };
 
   // ---------- The rail ----------
@@ -52,8 +50,7 @@
       if (y !== year) { year = y; html += '<div class="aitl-yr" data-y="' + y + '"><b>' + y + "</b></div>"; }
       html += '<div class="aitl-col ' + (k % 2 ? "dn" : "up") + '" style="--c:' + colour(e.cat) + '"><span class="aitl-dot"></span>' +
         '<button type="button" class="aitl-card' + (e.i === selected ? " on" : "") + '" data-i="' + e.i + '" id="aitl-' + e.date + "-" + e.i + '" aria-controls="aitlDetail">' +
-          '<span class="aitl-date">' + dateLabel(e.date) + '</span><span class="aitl-title">' + esc(e.title) + '</span>' +
-          '<span class="aitl-cat">' + esc(e.cat) + "</span></button></div>";
+          '<span class="aitl-date">' + dateLabel(e.date) + '</span><span class="aitl-title">' + esc(e.title) + "</span></button></div>";
     });
     track.innerHTML = html;
   };
@@ -68,9 +65,9 @@
     }
     const links = (e.links || []).map((l) => '<a href="' + esc(l.href) + '" target="_blank" rel="noopener">' + esc(l.label) + "</a>").join("");
     detail.style.setProperty("--c", colour(e.cat));
-    detail.innerHTML = '<p class="aitl-meta"><span>' + dateLabel(e.date) + '</span><span class="aitl-cat">' + esc(e.cat) + "</span></p>" +
-      "<h3>" + esc(e.title) + '</h3><p class="aitl-lead">' + esc(e.summary) + "</p><p>" + esc(e.detail) + "</p>" +
-      (links ? '<p class="aitl-links"><b>Read more</b>' + links + "</p>" : "") +
+    detail.innerHTML = '<div class="aitl-d1"><p class="aitl-meta"><span>' + dateLabel(e.date) + '</span><span class="aitl-cat">' + esc(e.cat) + "</span></p>" +
+      "<h3>" + esc(e.title) + '</h3><p class="aitl-lead">' + esc(e.summary) + '</p></div><div class="aitl-d2"><p>' + esc(e.detail) + "</p>" +
+      (links ? '<p class="aitl-links"><b>Read more</b>' + links + "</p>" : "") + "</div>" +
       '<div class="aitl-step"><button type="button" class="net-toggle" data-go="-1"' + (at === 0 ? " disabled" : "") + '>&larr; Earlier</button>' +
       '<button type="button" class="net-toggle" data-go="1"' + (at === list.length - 1 ? " disabled" : "") + '>Later &rarr;</button></div>';
   };
@@ -91,8 +88,20 @@
     if (card) centre(card);
   };
 
+  const frame = document.getElementById("aitlFrame");
+  const arrows = frame ? Array.from(frame.querySelectorAll(".aitl-arrow")) : [];
+  const updateArrows = () => {
+    const max = scroller.scrollWidth - scroller.clientWidth;
+    arrows.forEach((a) => a.classList.toggle("dis", +a.dataset.step < 0 ? scroller.scrollLeft < 8 : scroller.scrollLeft > max - 8));
+  };
+  scroller.addEventListener("scroll", updateArrows, { passive: true });
+  if (frame) frame.addEventListener("click", (e) => {
+    const s = e.target.closest("[data-step]");
+    if (s) scroller.scrollBy({ left: +s.dataset.step * scroller.clientWidth * 0.8, behavior: smooth });
+  });
+
   bar.addEventListener("click", (e) => {
-    const c = e.target.closest(".net-chip"), y = e.target.closest("[data-year]"), s = e.target.closest("[data-step]");
+    const c = e.target.closest(".net-chip"), y = e.target.closest("[data-year]");
     if (c) {
       current = c.dataset.cat;
       if (selected != null && !shown().some((x) => x.i === selected)) selected = null;
@@ -100,8 +109,6 @@
     } else if (y) {
       const m = track.querySelector('.aitl-yr[data-y="' + y.dataset.year + '"]');
       if (m) scroller.scrollTo({ left: m.offsetLeft - 24, behavior: smooth });
-    } else if (s) {
-      scroller.scrollBy({ left: +s.dataset.step * scroller.clientWidth * 0.8, behavior: smooth });
     }
   });
 
@@ -139,6 +146,7 @@
   // ---------- Start ----------
   renderBar(); renderTrack(); renderDetail();
   toEnd();                                              // open on the newest milestones
+  updateArrows();
   window.addEventListener("load", () => { if (selected == null) toEnd(); });
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { if (selected == null) toEnd(); });
 

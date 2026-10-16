@@ -47,10 +47,14 @@
       </div>
       <figure class="exhibit aitl" id="aiTimeline">
         <figcaption class="exh">Two decades of AI, 2005 to October 2026</figcaption>
-        <p class="net-lede">Scroll sideways through two decades of AI milestones, from the research that made it possible to the deals reshaping the economy today: the models, the chips, the money and the rules. Click any one to read the story and its sources.</p>
+        <p class="net-lede">Two decades of AI, from the research that made it possible to the deals reshaping the economy today. Scroll sideways, and click any milestone to read the story.</p>
         <div class="aitl-bar" id="aitlBar"></div>
-        <div class="aitl-scroll" id="aitlScroll" tabindex="0" role="region" aria-label="AI milestones. Scroll sideways, or focus here and use the arrow keys.">
-          <div class="aitl-track" id="aitlTrack"></div>
+        <div class="aitl-frame" id="aitlFrame">
+          <button type="button" class="aitl-arrow l" data-step="-1" aria-label="Scroll to earlier milestones">&#8249;</button>
+          <div class="aitl-scroll" id="aitlScroll" tabindex="0" role="region" aria-label="AI milestones. Scroll sideways, or focus here and use the arrow keys.">
+            <div class="aitl-track" id="aitlTrack"></div>
+          </div>
+          <button type="button" class="aitl-arrow r" data-step="1" aria-label="Scroll to later milestones">&#8250;</button>
         </div>
         <div class="aitl-detail" id="aitlDetail" aria-live="polite"></div>
         <p class="src">Dates and figures come from the linked sources, and some 2026 figures are from trade press and trackers. Latest entry: <span id="aitlLatest"></span>. New entries are added as big stories break.</p>
