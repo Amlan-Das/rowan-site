@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-15T23:58:05+00:00",
+  "updated": "2026-10-16T15:03:24+00:00",
   "prices": {
     "V": {
-      "current": 399.75,
-      "currentDate": "2026-10-15",
+      "current": 403.14,
+      "currentDate": "2026-10-16",
       "closest": {
-        "price": 403.2,
-        "date": "2026-10-15",
+        "price": 404.74,
+        "date": "2026-10-16",
         "hit": false
       }
     },
     "OWL": {
       "current": 8.97,
-      "currentDate": "2026-10-15",
+      "currentDate": "2026-10-16",
       "closest": {
         "price": 12.77,
         "date": "2026-08-13",
@@ -20,8 +20,8 @@
       }
     },
     "CARR": {
-      "current": 54.96,
-      "currentDate": "2026-10-15",
+      "current": 55.37,
+      "currentDate": "2026-10-16",
       "closest": {
         "price": 59.73,
         "date": "2026-09-09",
@@ -29,11 +29,20 @@
       }
     },
     "GEV": {
-      "current": 926.44,
-      "currentDate": "2026-10-15",
+      "current": 931.97,
+      "currentDate": "2026-10-16",
       "closest": {
         "price": 871.16,
         "date": "2026-10-15",
+        "hit": false
+      }
+    },
+    "ETN": {
+      "current": 399.08,
+      "currentDate": "2026-10-16",
+      "closest": {
+        "price": 403.73,
+        "date": "2026-10-16",
         "hit": false
       }
     }
