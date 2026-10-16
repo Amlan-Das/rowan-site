@@ -817,10 +817,10 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 @media (prefers-reduced-motion: reduce) { .ind-how summary::after, .ed-fold > summary::after { transition: none; } }
 
 /* AI news: the financing network (ai-network.js) */
-/* Opening statement on the AI news page */
-.ai-open { margin: 0 0 56px; }
-.ai-open p { max-width: 29em; margin: 0 0 16px; color: var(--ink); font: 500 clamp(20px, 2.3vw, 27px)/1.5 var(--sans); letter-spacing: -.012em; }
-.ai-open .ai-open-last { margin: 24px 0 0; font-weight: 800; letter-spacing: -.02em; }
+/* Opening statement on the AI news page: body text size, in two columns on wide screens */
+.ai-open { column-count: 2; column-gap: 56px; margin: 0 0 48px; }
+.ai-open p { margin: 0 0 14px; color: var(--slate); font: 400 17px/1.65 var(--sans); break-inside: avoid; }
+.ai-open .ai-open-last { margin-top: 18px; color: var(--ink); font-weight: 700; }
 .net-lede { margin: 0 0 6px; max-width: 62ch; color: var(--slate); font-size: 15.5px; line-height: 1.55; }
 .net-stats { margin: 0 0 16px; color: var(--mist); font-size: 14.5px; }
 .net-grid { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 24px 44px; align-items: start; }
@@ -866,6 +866,7 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .net-table tr { cursor: pointer; }
 .net-table tr.on td { background: var(--house-tint); }
 @media (max-width: 900px) {
+  .ai-open { column-count: 1; }
   .net-grid { grid-template-columns: minmax(0, 1fr); }
   .net-stage { max-width: 640px; margin: 0 auto; }
   .net-table td:first-child { white-space: normal; }
