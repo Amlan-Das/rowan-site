@@ -611,7 +611,13 @@ footer.dark .foot { border-top: 0; }
 .ed-markets.ind-markets { position: static; }
 
 /* More news per desk: one dropdown per topic (written by desks/build.py into industries.json) */
-.ind-more { margin-top: 40px; max-width: 74ch; }
+.ind-more { margin-top: 16px; max-width: 74ch; }
+/* On wide screens the dropdowns sit under the note, beside the price table, so a tall table leaves no gap */
+@media (min-width: 961px) {
+  .ind-top > .ind-note { grid-column: 1; grid-row: 1; }
+  .ind-top > .ind-more { grid-column: 1; grid-row: 2; }
+  .ind-top > .ind-markets { grid-column: 2; grid-row: 1 / span 2; }
+}
 .ind-more[hidden] { display: none; }
 .ind-more-note { margin: 0 0 16px; color: var(--mist); font-size: 14.5px; line-height: 1.55; }
 .ind-topic { border-top: 1px solid var(--rule); }

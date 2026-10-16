@@ -351,8 +351,8 @@ Headlines:
     $("indPanels").innerHTML = desks.map((desk, i) => {
       const d = bySlug[desk.slug];
       return '<div class="ind-panel" role="tabpanel" id="' + esc(desk.slug) + '" aria-labelledby="tab-' + esc(desk.slug) + '"' + (i ? " hidden" : "") + ">" +
-        '<div class="ind-top' + (pricesHtml(desk, d) ? "" : " solo") + '">' + noteHtml(desk, d) + pricesHtml(desk, d) + "</div>" +
-        '<div class="ind-more" id="more-' + esc(desk.slug) + '" hidden></div>' + primerHtml(desk) + "</div>";
+        '<div class="ind-top' + (pricesHtml(desk, d) ? "" : " solo") + '">' + noteHtml(desk, d) + pricesHtml(desk, d) +
+        '<div class="ind-more" id="more-' + esc(desk.slug) + '" hidden></div></div>' + primerHtml(desk) + "</div>";
     }).join("");
 
     // A long primer opens at a preview height with a button to read the rest.
@@ -429,10 +429,10 @@ Headlines:
       if (!topics.length) return "";
       const cites = (ns) => '<sup class="ind-cite">' + ns.map((n) =>
         '<a href="#ds-' + slug + "-" + n + '" data-slug="' + slug + '" data-n="' + n + '" aria-label="Headline ' + n + '">' + n + "</a>").join(",") + "</sup>";
-      const dropdown = (t, i) => {
+      const dropdown = (t) => {
         const sm = t.summary;
         const latest = t.items.reduce((a, x) => (x.published > a ? x.published : a), "");
-        return '<details class="ind-topic"' + (i === 0 ? " open" : "") + '><summary><span class="t">' + esc(t.label) +
+        return '<details class="ind-topic"><summary><span class="t">' + esc(t.label) +
           '</span><span class="c">' + t.items.length + " headlines, latest " + when(latest) + "</span></summary>" +
           (sm ? '<p class="ind-tsum"><b>' + esc(sm.headline) + ".</b> " + sm.sentences.map((x) => esc(x.text) + cites(x.sources)).join(" ") + "</p>" : "") +
           '<ol class="ind-news">' + t.items.map((it) =>
