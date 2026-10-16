@@ -307,7 +307,7 @@ const AI_NETWORK = {
 
 // AI news page: the timeline of milestones, shown newest first.
 //   date     "YYYY-MM-DD", or "YYYY-MM" when the day is not a single moment
-//   cat      Models, Products, Chips and compute, Money and markets, Policy and safety, Science or Power
+//   cat      optional label, not shown on the page
 //   title    the headline
 //   summary  one line, always visible
 //   detail   a short paragraph that opens when the entry is clicked
