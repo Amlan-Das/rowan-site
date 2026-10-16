@@ -1,83 +1,149 @@
-/* The AI timeline on ai-news.html.
+/* The AI timeline on ai-news.html: a horizontal rail you scroll sideways.
 
-   Every milestone in AI_TIMELINE (data.js) becomes one row, newest first and grouped by year.
-   A row shows the date, headline and a one-line summary. Clicking it opens a longer write-up and
-   links to the sources. The filter chips narrow the list to one kind of milestone. */
+   Every milestone in AI_TIMELINE (data.js) is a card on the rail, oldest on the left and newest on the
+   right, alternating above and below so they sit close together. Click a card to read the full story
+   and its sources in the panel underneath. You can swipe, drag, use the arrow buttons, jump to a year,
+   or focus the rail and use the arrow keys. The chips narrow it to one kind of milestone. */
 (function () {
   "use strict";
-  const list = document.getElementById("aitlList"), filters = document.getElementById("aitlFilters");
-  if (!list || !filters || typeof AI_TIMELINE === "undefined") return;
+  const scroller = document.getElementById("aitlScroll"), track = document.getElementById("aitlTrack");
+  const bar = document.getElementById("aitlBar"), detail = document.getElementById("aitlDetail");
+  if (!scroller || !track || !bar || !detail || typeof AI_TIMELINE === "undefined") return;
 
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const CATS = ["Models", "Products", "Chips and compute", "Money and markets", "Policy and safety", "Science", "Power"];
   const COLORS = { "Models": "#0f5a44", "Products": "#2b5fb3", "Chips and compute": "#121614", "Money and markets": "#b4531a", "Policy and safety": "#6d4a9a", "Science": "#2f7f8f", "Power": "#8a6a00" };
   const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const colour = (cat) => COLORS[cat] || "#5b6b7a";
+  const dateLabel = (d) => { const p = d.split("-"); return MONTHS[+p[1] - 1] + (p[2] ? " " + +p[2] : "") + ", " + p[0]; };
 
-  // Newest first. Entries on the same date keep the order they have in data.js.
-  const items = AI_TIMELINE.map((e, i) => Object.assign({ i }, e)).sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
-  const dateLabel = (d) => { const p = d.split("-"); return MONTHS[+p[1] - 1] + (p[2] ? " " + +p[2] : ""); };
+  // Oldest first, so the rail reads left to right. Entries on one date keep their order in data.js.
+  const items = AI_TIMELINE.map((e, i) => Object.assign({ i }, e)).sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
   const count = (cat) => items.filter((e) => !cat || e.cat === cat).length;
+  const years = Array.from(new Set(items.map((e) => e.date.slice(0, 4))));
 
-  let current = "";   // the category being shown, or "" for all
+  let current = "";      // category shown, or "" for all
+  let selected = null;   // the chosen milestone's index in AI_TIMELINE
+  const shown = () => items.filter((e) => !current || e.cat === current);
 
-  const rowHtml = (e) => {
-    const c = COLORS[e.cat] || "#5b6b7a";
-    const links = (e.links || []).map((l) => '<a href="' + esc(l.href) + '" target="_blank" rel="noopener">' + esc(l.label) + "</a>").join("");
-    return '<details class="aitl-item" style="--c:' + c + '" id="aitl-' + e.date + "-" + e.i + '">' +
-      "<summary>" +
-        '<span class="aitl-date">' + dateLabel(e.date) + "</span>" +
-        '<span class="aitl-dot"></span>' +
-        '<span class="aitl-main"><span class="aitl-title">' + esc(e.title) + '</span><span class="aitl-cat">' + esc(e.cat) + "</span>" +
-        '<span class="aitl-sum">' + esc(e.summary) + "</span></span>" +
-      "</summary>" +
-      '<div class="aitl-more"><p>' + esc(e.detail) + "</p>" + (links ? '<p class="aitl-links"><b>Read more</b>' + links + "</p>" : "") + "</div>" +
-    "</details>";
-  };
-
-  const render = () => {
-    const shown = items.filter((e) => !current || e.cat === current);
-    let html = "", year = "";
-    shown.forEach((e) => {
-      const y = e.date.slice(0, 4);
-      if (y !== year) {
-        year = y;
-        const n = shown.filter((x) => x.date.slice(0, 4) === y).length;
-        html += '<div class="aitl-year"><h3>' + y + "</h3><span>" + n + (n === 1 ? " milestone" : " milestones") + "</span></div>";
-      }
-      html += rowHtml(e);
-    });
-    list.innerHTML = html || '<p class="net-hint">Nothing in this group yet.</p>';
-  };
-
+  // ---------- The controls above the rail ----------
   const chip = (label, cat) => '<button type="button" class="net-chip' + (cat === current ? " on" : "") + '" data-cat="' + esc(cat) + '">' +
-    (cat ? '<i style="background:' + COLORS[cat] + '"></i>' : "") + esc(label) + " <small>" + count(cat) + "</small></button>";
-  const renderFilters = () => {
-    filters.innerHTML = chip("All", "") + CATS.filter((c) => count(c)).map((c) => chip(c, c)).join("") +
-      '<button type="button" class="net-toggle aitl-expand" id="aitlExpand">Open all</button>';
+    (cat ? '<i style="background:' + colour(cat) + '"></i>' : "") + esc(label) + " <small>" + count(cat) + "</small></button>";
+  const renderBar = () => {
+    bar.innerHTML = '<div class="aitl-chips">' + chip("All", "") + CATS.filter((c) => count(c)).map((c) => chip(c, c)).join("") + "</div>" +
+      '<div class="aitl-jump"><span>Jump to</span>' + years.map((y) => '<button type="button" data-year="' + y + '">' + y + "</button>").join("") + "</div>" +
+      '<div class="aitl-nav"><button type="button" class="net-toggle" data-step="-1" aria-label="Scroll to earlier milestones">&larr; Earlier</button>' +
+      '<button type="button" class="net-toggle" data-step="1" aria-label="Scroll to later milestones">Later &rarr;</button></div>';
   };
 
-  filters.addEventListener("click", (e) => {
-    const c = e.target.closest(".net-chip");
-    if (c) { current = c.dataset.cat; renderFilters(); render(); return; }
-    if (e.target.closest("#aitlExpand")) {
-      const all = Array.from(list.querySelectorAll(".aitl-item")), open = all.some((d) => !d.open);
-      all.forEach((d) => (d.open = open));
-      e.target.closest("#aitlExpand").textContent = open ? "Close all" : "Open all";
+  // ---------- The rail ----------
+  const renderTrack = () => {
+    let html = '<div class="aitl-rail"></div>', year = "";
+    shown().forEach((e, k) => {
+      const y = e.date.slice(0, 4);
+      if (y !== year) { year = y; html += '<div class="aitl-yr" data-y="' + y + '"><b>' + y + "</b></div>"; }
+      html += '<div class="aitl-col ' + (k % 2 ? "dn" : "up") + '" style="--c:' + colour(e.cat) + '"><span class="aitl-dot"></span>' +
+        '<button type="button" class="aitl-card' + (e.i === selected ? " on" : "") + '" data-i="' + e.i + '" id="aitl-' + e.date + "-" + e.i + '" aria-controls="aitlDetail">' +
+          '<span class="aitl-date">' + dateLabel(e.date) + '</span><span class="aitl-title">' + esc(e.title) + '</span>' +
+          '<span class="aitl-cat">' + esc(e.cat) + "</span></button></div>";
+    });
+    track.innerHTML = html;
+  };
+
+  // ---------- The reading panel ----------
+  const renderDetail = () => {
+    const list = shown(), at = list.findIndex((e) => e.i === selected), e = list[at];
+    if (!e) {
+      detail.style.removeProperty("--c");
+      detail.innerHTML = '<p class="aitl-hint">Click any milestone to read the story and see its sources. The newest are on the right, so scroll left to go back in time.</p>';
+      return;
+    }
+    const links = (e.links || []).map((l) => '<a href="' + esc(l.href) + '" target="_blank" rel="noopener">' + esc(l.label) + "</a>").join("");
+    detail.style.setProperty("--c", colour(e.cat));
+    detail.innerHTML = '<p class="aitl-meta"><span>' + dateLabel(e.date) + '</span><span class="aitl-cat">' + esc(e.cat) + "</span></p>" +
+      "<h3>" + esc(e.title) + '</h3><p class="aitl-lead">' + esc(e.summary) + "</p><p>" + esc(e.detail) + "</p>" +
+      (links ? '<p class="aitl-links"><b>Read more</b>' + links + "</p>" : "") +
+      '<div class="aitl-step"><button type="button" class="net-toggle" data-go="-1"' + (at === 0 ? " disabled" : "") + '>&larr; Earlier</button>' +
+      '<button type="button" class="net-toggle" data-go="1"' + (at === list.length - 1 ? " disabled" : "") + '>Later &rarr;</button></div>';
+  };
+
+  // ---------- Scrolling ----------
+  const smooth = reduceMotion ? "auto" : "smooth";
+  const toEnd = () => { scroller.scrollLeft = scroller.scrollWidth; };
+  const centre = (el) => {
+    const left = el.getBoundingClientRect().left - scroller.getBoundingClientRect().left + scroller.scrollLeft;
+    scroller.scrollTo({ left: left - (scroller.clientWidth - el.offsetWidth) / 2, behavior: smooth });
+  };
+
+  const select = (i) => {
+    selected = i;
+    track.querySelectorAll(".aitl-card").forEach((c) => c.classList.toggle("on", +c.dataset.i === i));
+    renderDetail();
+    const card = i == null ? null : track.querySelector('.aitl-card[data-i="' + i + '"]');
+    if (card) centre(card);
+  };
+
+  bar.addEventListener("click", (e) => {
+    const c = e.target.closest(".net-chip"), y = e.target.closest("[data-year]"), s = e.target.closest("[data-step]");
+    if (c) {
+      current = c.dataset.cat;
+      if (selected != null && !shown().some((x) => x.i === selected)) selected = null;
+      renderBar(); renderTrack(); renderDetail(); toEnd();
+    } else if (y) {
+      const m = track.querySelector('.aitl-yr[data-y="' + y.dataset.year + '"]');
+      if (m) scroller.scrollTo({ left: m.offsetLeft - 24, behavior: smooth });
+    } else if (s) {
+      scroller.scrollBy({ left: +s.dataset.step * scroller.clientWidth * 0.8, behavior: smooth });
     }
   });
 
-  renderFilters();
-  render();
+  let dragged = false;
+  track.addEventListener("click", (e) => {
+    if (dragged) { dragged = false; return; }     // the end of a drag is not a click
+    const card = e.target.closest(".aitl-card");
+    if (card) select(selected === +card.dataset.i ? null : +card.dataset.i);
+  });
+  detail.addEventListener("click", (e) => {
+    const g = e.target.closest("[data-go]");
+    if (!g) return;
+    const list = shown(), at = list.findIndex((x) => x.i === selected), next = list[at + +g.dataset.go];
+    if (next) select(next.i);
+  });
+
+  // Drag to scroll with a mouse. Touch and trackpads already scroll on their own.
+  let drag = null;
+  scroller.addEventListener("pointerdown", (e) => {
+    if (e.pointerType !== "mouse" || e.button !== 0) return;
+    drag = { x: e.clientX, left: scroller.scrollLeft, moved: false };
+  });
+  window.addEventListener("pointermove", (e) => {
+    if (!drag) return;
+    const dx = e.clientX - drag.x;
+    if (!drag.moved && Math.abs(dx) < 5) return;
+    drag.moved = true; scroller.classList.add("grab");
+    scroller.scrollLeft = drag.left - dx;
+  });
+  window.addEventListener("pointerup", () => {
+    if (drag && drag.moved) { dragged = true; setTimeout(() => (dragged = false), 0); }
+    drag = null; scroller.classList.remove("grab");
+  });
+
+  // ---------- Start ----------
+  renderBar(); renderTrack(); renderDetail();
+  toEnd();                                              // open on the newest milestones
+  window.addEventListener("load", () => { if (selected == null) toEnd(); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { if (selected == null) toEnd(); });
 
   // A link like ai-news.html#aitl-2025-01-27-12 opens that milestone
   const fromHash = () => {
-    const t = location.hash.indexOf("#aitl-") === 0 ? document.getElementById(location.hash.slice(1)) : null;
-    if (t) { t.open = true; t.scrollIntoView({ block: "center" }); }
+    if (location.hash.indexOf("#aitl-") !== 0) return;
+    const card = document.getElementById(location.hash.slice(1));
+    if (card) select(+card.dataset.i);
   };
   fromHash();
   window.addEventListener("hashchange", fromHash);
 
-  // The latest entry, so the page says how fresh it is
-  const latest = $("aitlLatest");
-  if (latest && items.length) latest.textContent = dateLabel(items[0].date) + " " + items[0].date.slice(0, 4);
-  function $(id) { return document.getElementById(id); }
+  // Say how fresh it is
+  const latest = document.getElementById("aitlLatest"), n = items[items.length - 1];
+  if (latest && n) latest.textContent = (n.date.length > 4 ? MONTHS[+n.date.slice(5, 7) - 1] + " " : "") + n.date.slice(0, 4);
 })();
