@@ -201,9 +201,10 @@ const SKILLS = [
 // flows FROM to the company it flows TO.
 //   type "equity"    value flows from the investor to the company it owns part of
 //   type "purchase"  money flows from the buyer to the seller
+//   type "collab"    a named technology partnership with no money disclosed (drawn dotted, no arrow)
 // A company that is both a buyer and an investor in the same partner makes a two-way pair, which
 // the page marks as circular. kind sets the colour: "lab", "chips", "cloud", "dc" (data centers),
-// "power" (power generation) or "finance".
+// "power" (power generation), "electrical" (electrical equipment) or "finance".
 // flag shows a footnote on the deal. Amounts are as announced, and "up to" amounts are ceilings.
 const AI_NETWORK = {
   checked: "October 16, 2026",
@@ -226,7 +227,9 @@ const AI_NETWORK = {
     { id: "talen", name: "Talen", kind: "power" },
     { id: "nextera", name: "NextEra", kind: "power" },
     { id: "bloom", name: "Bloom Energy", kind: "power" },
-    { id: "gevernova", name: "GE Vernova", kind: "power" }
+    { id: "gevernova", name: "GE Vernova", kind: "power" },
+    { id: "eaton", name: "Eaton", kind: "electrical" },
+    { id: "schneider", name: "Schneider Electric", kind: "electrical" }
   ],
   deals: [
     // Equity
@@ -275,7 +278,10 @@ const AI_NETWORK = {
     { from: "amazon", to: "talen", type: "purchase", amount: "~$18B", what: "Up to 1,920 MW from the Susquehanna nuclear plant in Pennsylvania through 2042.",
       flag: "The $18B is Talen's projected revenue at full volume." },
     { from: "google", to: "nextera", type: "purchase", amount: "Not disclosed", what: "A 25-year power purchase agreement to restart the 615 MW Duane Arnold nuclear plant in Iowa. Power is expected in early 2029." },
-    { from: "oracle", to: "bloom", type: "purchase", amount: "Not disclosed", what: "Bloom Energy fuel cells to power Oracle's AI data centers." }
+    { from: "oracle", to: "bloom", type: "purchase", amount: "Not disclosed", what: "Bloom Energy fuel cells to power Oracle's AI data centers." },
+    // Electrical equipment: named partnerships only. No money is disclosed.
+    { from: "eaton", to: "nvidia", type: "collab", amount: "No money disclosed", what: "A reference design for 800 VDC power in AI factories, announced October 2025: busbar power distribution, supercapacitor backup and DC connectors." },
+    { from: "schneider", to: "nvidia", type: "collab", amount: "No money disclosed", what: "A global partnership announced at Nvidia's GTC Paris in June 2025, with joint reference designs for power and liquid cooling in AI data centers." }
   ],
   sources: [
     { label: "Amazon, Anthropic", href: "https://www.geekwire.com/2026/04/amazon-doubles-down-on-anthropic-with-25b-investment-mirroring-its-openai-cloud-deal/" },
@@ -293,7 +299,9 @@ const AI_NETWORK = {
     { label: "Microsoft, Constellation", href: "https://orrick.com/News/2024/10/Microsoft-Signs-20-Year-PPA-with-Constellation" },
     { label: "Amazon, Talen", href: "https://www.utilitydive.com/news/talen-amazon-aws-susquehanna-nuclear-data-center-t/750440/" },
     { label: "Google, NextEra", href: "https://www.ans.org/news/2025-10-28/article-7501/nextera-and-google-ink-a-deal-to-restart-duane-arnold/" },
-    { label: "Oracle, Bloom Energy", href: "https://finance.yahoo.com/news/brookfield-backs-bloom-energy-5-220121193.html" }
+    { label: "Oracle, Bloom Energy", href: "https://finance.yahoo.com/news/brookfield-backs-bloom-energy-5-220121193.html" },
+    { label: "Eaton, Nvidia", href: "https://www.businesswire.com/news/home/20251010367772/en/Eaton-Unveils-Next-generation-Architecture-to-Advance-800-VDC-Power-Infrastructure-for-AI-Factories" },
+    { label: "Schneider Electric, Nvidia", href: "https://itbrief.co.uk/story/schneider-electric-collaborates-with-nvidia-for-advanced-ai-solutions" }
   ]
 };
 

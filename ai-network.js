@@ -16,15 +16,16 @@
   const { nodes, deals } = AI_NETWORK;
   const N = nodes.length;
 
-  const COLORS = { equity: "#2b5fb3", purchase: "#b4531a", lab: "#0f5a44", chips: "#121614", cloud: "#5b6b7a", dc: "#6d4a9a", power: "#8a6a00", finance: "#a33a5c" };
-  const KIND_LABEL = { lab: "AI lab", chips: "Chipmaker", cloud: "Cloud", dc: "Data centers", power: "Power", finance: "Finance" };
-  const TYPE_LABEL = { equity: "Equity investment", purchase: "Purchase commitment" };
+  const COLORS = { equity: "#2b5fb3", purchase: "#b4531a", lab: "#0f5a44", chips: "#121614", cloud: "#5b6b7a", dc: "#6d4a9a", power: "#8a6a00", finance: "#a33a5c", electrical: "#2f7f8f", collab: "#7a8a84" };
+  const KIND_LABEL = { lab: "AI lab", chips: "Chipmaker", cloud: "Cloud", dc: "Data centers", power: "Power", finance: "Finance", electrical: "Electrical equipment" };
+  const TYPE_LABEL = { equity: "Equity investment", purchase: "Purchase commitment", collab: "Technology collaboration" };
 
   // ---------- Data ----------
   const idx = {};
   nodes.forEach((n, i) => (idx[n.id] = i));
   const links = deals.map((d, k) => Object.assign({ k, a: idx[d.from], b: idx[d.to] }, d));
-  links.forEach((l) => { l.twoWay = links.some((m) => m.a === l.b && m.b === l.a); });
+  const money = (l) => l.type !== "collab";
+  links.forEach((l) => { l.twoWay = money(l) && links.some((m) => money(m) && m.a === l.b && m.b === l.a); });
   const pairKey = (l) => Math.min(l.a, l.b) + "-" + Math.max(l.a, l.b);
   const groups = {};
   links.forEach((l) => (groups[pairKey(l)] = groups[pairKey(l)] || []).push(l));
@@ -188,13 +189,14 @@
       const zm = (sp[i][2] + sp[i + 1][2]) / 2;
       if ((zm < 0 ? 0 : 1) !== pass) continue;
       if (l.type === "purchase" && Math.floor((i + 0.5) / M * dashes) % 2 === 1) continue;
+      if (l.type === "collab" && Math.floor((i + 0.5) / M * dashes * 3) % 2 === 1) continue;
       ctx.globalAlpha = al * depthOf(zm);
-      ctx.lineWidth = (l.type === "equity" ? 2.1 : 1.8) * (sp[i][3] + sp[i + 1][3]) / 2 + (strong ? 0.9 : 0);
+      ctx.lineWidth = (l.type === "equity" ? 2.1 : l.type === "purchase" ? 1.8 : 1.6) * (sp[i][3] + sp[i + 1][3]) / 2 + (strong ? 0.9 : 0);
       ctx.beginPath(); ctx.moveTo(sp[i][0], sp[i][1]); ctx.lineTo(sp[i + 1][0], sp[i + 1][1]); ctx.stroke();
     }
     // Arrowhead where the arc meets the destination
     const e = sp[s1], f = sp[Math.max(s1 - 2, 0)];
-    if ((e[2] < 0 ? 0 : 1) === pass) {
+    if (l.type !== "collab" && (e[2] < 0 ? 0 : 1) === pass) {
       const ang = Math.atan2(e[1] - f[1], e[0] - f[0]), sz = 8.5 * e[3];
       ctx.globalAlpha = Math.min(1, al * depthOf(e[2]) + 0.15);
       ctx.beginPath();
@@ -204,7 +206,7 @@
       ctx.closePath(); ctx.fill();
     }
     // Dots travelling from source to destination
-    if (!reduceMotion && al > 0.4) {
+    if (!reduceMotion && al > 0.4 && l.type !== "collab") {
       for (let q = 0; q < 3; q++) {
         const u = (time * 0.00007 + q / 3 + l.k * 0.137) % 1;
         const fi = s0 + u * (s1 - s0), i = Math.min(Math.floor(fi), s1 - 1), fr = fi - i;
@@ -270,7 +272,7 @@
 
   // ---------- Text panels ----------
   const name = (i) => nodes[i].name;
-  const dealName = (l) => name(l.a) + " to " + name(l.b);
+  const dealName = (l) => name(l.a) + (l.type === "collab" ? " and " : " to ") + name(l.b);
   const flagMark = (l) => (l.flag ? " *" : "");
   const detail = $("netDetail");
   const renderDetail = () => {
@@ -295,7 +297,8 @@
       group("Invests in", links.filter((l) => l.type === "equity" && l.a === i), (l) => l.b) +
       group("Funded by", links.filter((l) => l.type === "equity" && l.b === i), (l) => l.a) +
       group("Commits to buy from", links.filter((l) => l.type === "purchase" && l.a === i), (l) => l.b) +
-      group("Receives purchase commitments from", links.filter((l) => l.type === "purchase" && l.b === i), (l) => l.a);
+      group("Receives purchase commitments from", links.filter((l) => l.type === "purchase" && l.b === i), (l) => l.a) +
+      group("Collaborates with", links.filter((l) => l.type === "collab" && (l.a === i || l.b === i)), (l) => (l.a === i ? l.b : l.a));
   };
 
   const setHover = (h) => { if (same(h, hover)) return; hover = h; dirty = true; if (!pinned) renderDetail(); };
@@ -309,8 +312,9 @@
   $("netRows").innerHTML = links.map((l) =>
     '<tr data-k="' + l.k + '"><td>' + esc(dealName(l)) + '</td><td class="net-t ' + l.type + '">' + TYPE_LABEL[l.type] + "</td><td>" + esc(l.amount) + "</td><td>" + esc(l.what) +
     (l.flag ? ' <span class="net-dflag">* ' + esc(l.flag) + "</span>" : "") + "</td></tr>").join("");
-  $("netStats").textContent = links.length + " deals between " + N + " companies. " + twoWayPairs + " pairs pay each other in both directions.";
-  $("netCount").textContent = "All " + links.length + " deals";
+  const nMoney = links.filter(money).length, nCollab = links.length - nMoney;
+  $("netStats").textContent = nMoney + " deals" + (nCollab ? " and " + nCollab + " technology collaborations" : "") + " between " + N + " companies. " + twoWayPairs + " pairs pay each other in both directions.";
+  $("netCount").textContent = "All " + links.length + " deals and collaborations";
   $("netSources").innerHTML = (AI_NETWORK.sources || []).map((s) => '<a href="' + esc(s.href) + '" target="_blank" rel="noopener">' + esc(s.label) + "</a>").join(", ");
   $("netChecked").textContent = AI_NETWORK.checked || "";
   canvas.setAttribute("aria-label", "Interactive 3D diagram of " + links.length + " financing deals between " + N + " AI companies. Every deal is also listed in the table below.");

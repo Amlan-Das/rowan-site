@@ -830,6 +830,7 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .net-legend small { flex-basis: 100%; color: var(--mist); font: 400 13.5px/1.45 var(--sans); }
 .ln { display: inline-block; width: 30px; height: 0; margin-right: 9px; border-top: 2.5px solid #2b5fb3; vertical-align: middle; }
 .ln.purchase { border-top-style: dashed; border-color: #b4531a; }
+.ln.collab { border-top-style: dotted; border-color: #7a8a84; }
 .net-key { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 16px; color: var(--slate); font-size: 13px; }
 .net-key span { display: inline-flex; align-items: center; gap: 6px; }
 .net-key i { width: 9px; height: 9px; border-radius: 50%; }
@@ -845,6 +846,7 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .net-dkind { font-weight: 600; }
 .net-dkind.equity, .net-t.equity { color: #2b5fb3; }
 .net-dkind.purchase, .net-t.purchase { color: #b4531a; }
+.net-dkind.collab, .net-t.collab { color: var(--mist); }
 .net-dflag { color: var(--mist); font-size: 13px; }
 .net-grp { margin: 14px 0 2px; color: var(--mist); font-size: 12.5px; font-weight: 600; letter-spacing: .03em; }
 .net-detail ul { margin: 0; padding: 0; list-style: none; }
