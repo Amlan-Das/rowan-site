@@ -49,6 +49,76 @@
   }
 
   // ======================================================================
+  // 0. Real handwriting: a wall of MNIST digits and the picture -> x explorer
+  // ======================================================================
+  const samples = fetch("ai/mnist-samples.json")
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then((d) => ({ labels: d.labels, imgs: d.px.map((s) => { const a = new Uint8Array(784); for (let i = 0; i < 784; i++) a[i] = parseInt(s.substr(i * 2, 2), 16); return a; }) }));
+  const INK = [18, 22, 20];
+  const paint = (cv, img, thr) => {                 // thr undefined: grey scan, otherwise ink / no ink
+    const c = cv.getContext("2d"), d = c.createImageData(28, 28);
+    for (let i = 0; i < 784; i++) {
+      const v = img[i], o = i * 4, on = thr == null ? v : v > thr ? 255 : 0;
+      d.data[o] = INK[0]; d.data[o + 1] = INK[1]; d.data[o + 2] = INK[2]; d.data[o + 3] = on;
+    }
+    c.putImageData(d, 0, 0);
+  };
+
+  (function wall() {
+    const host = $("alWall");
+    if (!host) return;
+    samples.then((s) => {
+      host.innerHTML = s.imgs.map(() => '<canvas width="28" height="28"></canvas>').join("");
+      host.querySelectorAll("canvas").forEach((cv, i) => paint(cv, s.imgs[i]));
+    }).catch(() => { $("alWallFig").hidden = true; });
+  })();
+
+  (function see() {
+    const host = $("alSee");
+    if (!host) return;
+    samples.then((s) => {
+      let at = 0, thr = 127;
+      host.innerHTML =
+        '<div class="al-see-pic"><div class="al-see-cv"><canvas id="alSeeG" width="28" height="28"></canvas><i class="al-hov"></i></div>' +
+          '<p class="al-cap"><b>What the scanner saw</b><br>784 brightness values, 0 to 255</p></div>' +
+        '<div class="al-see-pic"><div class="al-see-cv bin"><canvas id="alSeeB" width="28" height="28"></canvas><i class="al-hov"></i></div>' +
+          '<p class="al-cap"><b>x</b>, ink or no ink<br><span id="alSeeInk"></span></p></div>' +
+        '<div class="al-see-side"><p class="al-label">Pick a digit</p><div class="al-see-pick" id="alSeePick"></div>' +
+          '<label class="al-cut">Ink if brighter than <b id="alSeeThrV">127</b><input type="range" id="alSeeThr" min="1" max="254" value="127"></label>' +
+          '<p class="al-read" id="alSeeRead" aria-live="polite"></p></div>';
+      const G = $("alSeeG"), B = $("alSeeB"), pick = $("alSeePick"), read = $("alSeeRead");
+      pick.innerHTML = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((d) => '<button type="button" data-d="' + d + '" aria-label="Show a ' + d + '"><canvas width="28" height="28"></canvas></button>').join("");
+      pick.querySelectorAll("button").forEach((b, d) => paint(b.firstChild, s.imgs[s.labels.indexOf(d)]));
+      const inkCount = () => { let n = 0; const im = s.imgs[at]; for (let i = 0; i < 784; i++) if (im[i] > thr) n++; return n; };
+      const hint = () => { read.textContent = "Point at a pixel. The pixels are numbered 0 to 783, left to right and then down, so pixel 28 is the first one on the second row."; };
+      const draw = () => {
+        paint(G, s.imgs[at]); paint(B, s.imgs[at], thr);
+        $("alSeeInk").textContent = inkCount() + " of 784 pixels are 1";
+        pick.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(+b.dataset.d === s.labels[at])));
+      };
+      pick.addEventListener("click", (e) => {
+        const b = e.target.closest("button"); if (!b) return;
+        const d = +b.dataset.d, same = s.labels.map((l, i) => (l === d ? i : -1)).filter((i) => i >= 0);
+        at = s.labels[at] === d ? same[(same.indexOf(at) + 1) % same.length] : same[0];   // press the same digit again for another handwriting
+        draw();
+      });
+      $("alSeeThr").addEventListener("input", (e) => { thr = +e.target.value; $("alSeeThrV").textContent = thr; draw(); });
+      const point = (e) => {
+        const cv = e.currentTarget, b = cv.getBoundingClientRect();
+        const c = Math.min(27, Math.max(0, Math.floor((e.clientX - b.left) / b.width * 28))), r = Math.min(27, Math.max(0, Math.floor((e.clientY - b.top) / b.height * 28)));
+        host.querySelectorAll(".al-hov").forEach((m) => { m.style.display = "block"; m.style.left = c / 28 * 100 + "%"; m.style.top = r / 28 * 100 + "%"; });
+        const v = s.imgs[at][r * 28 + c];
+        read.textContent = "Pixel " + (r * 28 + c) + " (row " + (r + 1) + ", column " + (c + 1) + "): brightness " + v + ", so x is " + (v > thr ? 1 : 0) + ".";
+      };
+      host.querySelectorAll(".al-see-cv").forEach((el) => {
+        el.addEventListener("pointermove", point); el.addEventListener("pointerdown", point);
+        el.addEventListener("pointerleave", () => { host.querySelectorAll(".al-hov").forEach((m) => (m.style.display = "none")); hint(); });
+      });
+      hint(); draw();
+    }).catch(() => { host.hidden = true; });
+  })();
+
+  // ======================================================================
   // 1. By hand: 3 shapes, 9 pixels
   // ======================================================================
   (function hand() {
@@ -65,7 +135,7 @@
     host.innerHTML =
       '<div class="al-hand-x"><p class="al-label">x, your picture</p><div class="al-px" id="alHandX"></div>' +
         '<div class="al-row" id="alHandPre"></div></div>' +
-      '<div class="al-hand-w"><p class="al-label">W, the three templates <span>(one row each)</span></p><div class="al-tpls3" id="alHandW"></div></div>' +
+      '<div class="al-hand-w"><p class="al-label">W, the three templates <span>(one row each; a dot marks ink in x)</span></p><div class="al-tpls3" id="alHandW"></div></div>' +
       '<div class="al-hand-do"><p class="al-label">What is it really?</p><div class="al-row" id="alHandTruth"></div>' +
         '<button type="button" class="net-toggle al-go" id="alHandGo">Show it to the model</button>' +
         '<button type="button" class="al-link" id="alHandReset">Reset W to zeros</button>' +
@@ -83,7 +153,7 @@
       host.querySelectorAll("[data-truth]").forEach((b) => b.setAttribute("aria-pressed", String(+b.dataset.truth === truth)));
       const { guess, scores } = net.predict(x), m = Math.max(2, net.maxAbs());
       gw.querySelectorAll(".al-tpl3").forEach((card) => {
-        const c = +card.dataset.c, parts = [];
+        const c = +card.dataset.c;
         card.classList.toggle("guess", guess === c);
         card.querySelectorAll(".al-w").forEach((cell) => {
           const p = +cell.dataset.p, w = net.W[c * 9 + p];
@@ -92,10 +162,14 @@
           cell.style.color = Math.abs(w) / m > 0.55 ? "#fff" : "";
           cell.classList.toggle("ink", !!x[p]);
           cell.classList.remove("up", "dn");
-          if (x[p]) parts.push(signed(w));
         });
-        card.querySelector(".al-score").textContent = "score " + scores[c];
-        card.querySelector(".al-sum").textContent = parts.length ? "sum of the weights under the ink: " + parts.join(" + ").replace(/\+ \u2212/g, "\u2212 ") + " = " + scores[c] : "No ink yet, so every score is 0.";
+        const minus = (n) => String(n).replace("-", "\u2212");
+        card.querySelector(".al-score").textContent = "score " + minus(scores[c]);
+        const under = []; for (let p = 0; p < 9; p++) if (x[p]) under.push(net.W[c * 9 + p]);
+        const blank = net.W.every((w) => w === 0);
+        card.querySelector(".al-sum").textContent = !under.length ? "No ink drawn, so there is nothing to add up."
+          : under.every((w) => w === 0) ? (blank ? "Every weight is still 0, so the score is 0. Nothing has been learned yet." : "The weights under the ink are all 0, so the score is 0.")
+          : "Weights under the ink: " + under.map((w) => (w < 0 ? "(" + minus(w) + ")" : String(w))).join(" + ") + " = " + minus(scores[c]);
       });
       if (flash) {
         flash.forEach((f) => {
@@ -104,7 +178,7 @@
         });
         flash = null;
       }
-      msg.textContent = note || "Draw something, say what it is, and show it to the model. With W at zero every score ties, so the first row wins.";
+      msg.textContent = note || "Draw a picture and say what it really is, then show it to the model. While W is all zeros every score ties, so it guesses the first row, Vertical.";
     };
 
     host.addEventListener("click", (e) => {

@@ -113,6 +113,11 @@
         <p>The numbers live in a table called <b>W</b>, for weights. The picture it is looking at is a list called <b>x</b>. Nothing else is needed: it is about thirty lines of Python, and you can train it right here.</p>
       </div>
 
+      <figure class="al-wallfig" id="alWallFig">
+        <div class="al-wall" id="alWall" aria-hidden="true"></div>
+        <figcaption class="src">Sixty real handwritten digits from MNIST, the training set used below. The model is shown 60,000 of these.</figcaption>
+      </figure>
+
       <ol class="al-steps">
         <li><span>1</span><h3>Look</h3><p>Turn the picture into <b>x</b>: one number per pixel, 1 where there is ink and 0 where there is not. A 28 by 28 picture becomes 784 ones and zeros.</p></li>
         <li><span>2</span><h3>Score</h3><p>W has one row of weights for each digit. Add up that row&rsquo;s weights wherever x has ink. That is the digit&rsquo;s score. The biggest score is the guess.</p></li>
@@ -121,8 +126,14 @@
       </ol>
 
       <figure class="exhibit">
+        <figcaption class="exh">What the model sees: a picture becomes x</figcaption>
+        <p class="net-lede">The model never sees a picture, only numbers. A scanner gives each of the 784 pixels a brightness from 0 to 255. Anything brighter than the cutoff counts as ink (1) and the rest as no ink (0). Pick a digit, move the cutoff, and point at a pixel to see its number.</p>
+        <div class="al-see" id="alSee"></div>
+      </figure>
+
+      <figure class="exhibit">
         <figcaption class="exh">Do it by hand: three shapes, nine pixels</figcaption>
-        <p class="net-lede">This is the whole model on a table you can read. Pick or draw a picture (click the squares), say what it really is, and show it to the model. Watch the three rows of W and the scores underneath.</p>
+        <p class="net-lede">The same model shrunk until you can read every number: three shapes and nine pixels. Pick or draw a picture (click the squares), say what it really is, and show it to the model. Each score is the weights under the ink added together.</p>
         <div class="al-hand" id="alHand"></div>
         <div class="al-math">
           <div><h4>x</h4><p>The picture as a list: here 9 numbers, on a real image 784. Each is 1 (ink) or 0 (no ink). It is not a match against a template. It is only what the picture looks like.</p></div>
