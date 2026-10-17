@@ -66,7 +66,7 @@
       resp.innerHTML = "<p class='ax-label gap'>How strongly each kernel fires</p><table class='ax-mini'><tr><th></th><th>Kernel A</th><th>Kernel B</th></tr><tr><th>vertical line</th><td>" + minus(fv.m[0].toFixed(1)) + "</td><td>" + minus(fv.m[1].toFixed(1)) + "</td></tr><tr><th>horizontal line</th><td>" + minus(fh.m[0].toFixed(1)) + "</td><td>" + minus(fh.m[1].toFixed(1)) + "</td></tr></table>";
       // chart
       const ctx = chart.getContext("2d"), W = chart.width, H = chart.height, mx = Math.max(600, steps), px = (s) => 38 + s / mx * (W - 52), py = (v) => H - 26 - v * (H - 44);
-      ctx.clearRect(0, 0, W, H); ctx.strokeStyle = "#dde2df"; ctx.fillStyle = "#646d69"; ctx.font = "12px sans-serif"; ctx.lineWidth = 1;
+      ctx.clearRect(0, 0, W, H); ctx.strokeStyle = "#ddd7ca"; ctx.fillStyle = "#6e695d"; ctx.font = "12px sans-serif"; ctx.lineWidth = 1;
       [0, 0.5, 1].forEach((v) => { ctx.beginPath(); ctx.moveTo(38, py(v)); ctx.lineTo(W - 10, py(v)); ctx.stroke(); ctx.fillText(Math.round(v * 100) + "%", 2, py(v) + 4); }); ctx.fillText("steps: " + fmt(steps), 38, H - 6);
       ctx.strokeStyle = "#0f5a44"; ctx.lineWidth = 2.4; ctx.beginPath(); hist.forEach(([s, a], i) => (i ? ctx.lineTo(px(s), py(a)) : ctx.moveTo(px(s), py(a)))); ctx.stroke();
       ctx.strokeStyle = "#b3261e"; ctx.lineWidth = 1.6; ctx.beginPath(); hist.forEach(([s, , l], i) => { const v = Math.min(1, l / 0.8); i ? ctx.lineTo(px(s), py(v)) : ctx.moveTo(px(s), py(v)); }); ctx.stroke();
@@ -109,13 +109,13 @@
     const L = (p) => 0.5 * (A * p[0] * p[0] + B * p[1] * p[1]);
     function draw() {
       const ctx = cv.getContext("2d"), W = cv.width, H = cv.height, sx = W / 7, sy = H / 3.4; const px = (x) => W / 2 + x * sx, py = (y) => H / 2 - y * sy;
-      ctx.clearRect(0, 0, W, H); ctx.lineWidth = 1; ctx.strokeStyle = "#dde2df";
+      ctx.clearRect(0, 0, W, H); ctx.lineWidth = 1; ctx.strokeStyle = "#ddd7ca";
       [0.1, 0.4, 1, 2, 3.5, 5.5].forEach((l) => { ctx.beginPath(); for (let i = 0; i <= 120; i++) { const t = i / 120 * Math.PI * 2, x = Math.sqrt(2 * l / A) * Math.cos(t), y = Math.sqrt(2 * l / B) * Math.sin(t); i ? ctx.lineTo(px(x), py(y)) : ctx.moveTo(px(x), py(y)); } ctx.closePath(); ctx.stroke(); });
-      ctx.strokeStyle = "#b9c2bd"; ctx.beginPath(); ctx.moveTo(0, py(0)); ctx.lineTo(W, py(0)); ctx.moveTo(px(0), 0); ctx.lineTo(px(0), H); ctx.stroke();
+      ctx.strokeStyle = "#bdb6a6"; ctx.beginPath(); ctx.moveTo(0, py(0)); ctx.lineTo(W, py(0)); ctx.moveTo(px(0), 0); ctx.lineTo(px(0), H); ctx.stroke();
       ctx.strokeStyle = "#0f5a44"; ctx.lineWidth = 2; ctx.beginPath(); path.forEach((p, i) => (i ? ctx.lineTo(px(p[0]), py(p[1])) : ctx.moveTo(px(p[0]), py(p[1])))); ctx.stroke();
       ctx.fillStyle = "#0f5a44"; path.forEach((p, i) => { if (i % 3 === 0 || i === path.length - 1) { ctx.beginPath(); ctx.arc(px(p[0]), py(p[1]), 2.6, 0, 7); ctx.fill(); } });
       ctx.fillStyle = "#b3261e"; ctx.beginPath(); ctx.arc(px(pos[0]), py(pos[1]), 5.5, 0, 7); ctx.fill();
-      ctx.fillStyle = "#121614"; ctx.font = "600 12px sans-serif"; ctx.fillText("start", px(path[0][0]) + 8, py(path[0][1]) - 8); ctx.fillStyle = "#646d69"; ctx.fillText("lowest loss", px(0) + 8, py(0) + 16);
+      ctx.fillStyle = "#121614"; ctx.font = "600 12px sans-serif"; ctx.fillText("start", px(path[0][0]) + 8, py(path[0][1]) - 8); ctx.fillStyle = "#6e695d"; ctx.fillText("lowest loss", px(0) + 8, py(0) + 16);
       read.innerHTML = last ? "step " + it + ": w = (" + minus(pos[0].toFixed(2)) + ", " + minus(pos[1].toFixed(2)) + "), loss " + L(pos).toFixed(3) + "<br>slope used (" + minus(last.g[0].toFixed(2)) + ", " + minus(last.g[1].toFixed(2)) + "), new velocity (" + minus(vel[0].toFixed(3)) + ", " + minus(vel[1].toFixed(3)) + ")" : "Press Run or One step. Loss " + L(pos).toFixed(2) + " at the start.";
     }
     function loop() { if (!run) return; stepOnce(); if (it > 600 || (Math.abs(pos[0]) + Math.abs(pos[1]) < 0.01 && noise === 0)) { run = false; runB.textContent = "Run"; draw(); return; } draw(); if (AX.reduceMotion) { for (let i = 0; i < 200 && run; i++) stepOnce(); draw(); run = false; runB.textContent = "Run"; return; } setTimeout(() => requestAnimationFrame(loop), 40); }
@@ -184,8 +184,8 @@
       let sc = selIdx >= 0 ? scoresOf(data.W, shiftX(data.X[selIdx], dx)) : null; const all = sc ? xs.concat(sc[ax]) : xs, allY = sc ? ys.concat(sc[ay]) : ys;
       const lox = Math.min(...all, 0) - 20, hix = Math.max(...all, 0) + 20, loy = Math.min(...allY, 0) - 20, hiy = Math.max(...allY, 0) + 20;
       const X = (v) => px(v, lox, hix, m, W - 12), Y = (v) => px(v, loy, hiy, H - m, 40);
-      ctx.clearRect(0, 0, W, H); ctx.strokeStyle = "#b9c2bd"; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(m, Y(0)); ctx.lineTo(W - 12, Y(0)); ctx.moveTo(X(0), 36); ctx.lineTo(X(0), H - m); ctx.stroke();
-      ctx.fillStyle = "#646d69"; ctx.font = "600 12.5px sans-serif"; ctx.fillText("score along the " + ax + " template →", W / 2 - 60, H - 12); ctx.save(); ctx.translate(14, H / 2 + 60); ctx.rotate(-Math.PI / 2); ctx.fillText("score along the " + ay + " template →", 0, 0); ctx.restore();
+      ctx.clearRect(0, 0, W, H); ctx.strokeStyle = "#bdb6a6"; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(m, Y(0)); ctx.lineTo(W - 12, Y(0)); ctx.moveTo(X(0), 36); ctx.lineTo(X(0), H - m); ctx.stroke();
+      ctx.fillStyle = "#6e695d"; ctx.font = "600 12.5px sans-serif"; ctx.fillText("score along the " + ax + " template →", W / 2 - 60, H - 12); ctx.save(); ctx.translate(14, H / 2 + 60); ctx.rotate(-Math.PI / 2); ctx.fillText("score along the " + ay + " template →", 0, 0); ctx.restore();
       data.S.forEach((s, i) => { const l = data.labels[i], c = l === ax ? "#0f5a44" : l === ay ? "#2b5fb3" : "#9aa5a0", big = l === ax || l === ay; ctx.globalAlpha = big ? 1 : 0.7; ctx.fillStyle = c; ctx.beginPath(); ctx.arc(X(s[ax]), Y(s[ay]), i === selIdx ? 8 : big ? 5.5 : 4, 0, 7); ctx.fill(); if (big || i === selIdx) { ctx.fillStyle = "#fff"; ctx.font = "700 9px sans-serif"; ctx.textAlign = "center"; ctx.fillText(l, X(s[ax]), Y(s[ay]) + 3); ctx.textAlign = "left"; } });
       ctx.globalAlpha = 1;
       if (selIdx >= 0) { const s0 = data.S[selIdx]; if (dx) { ctx.strokeStyle = "#b3261e"; ctx.setLineDash([4, 3]); ctx.beginPath(); ctx.moveTo(X(s0[ax]), Y(s0[ay])); ctx.lineTo(X(sc[ax]), Y(sc[ay])); ctx.stroke(); ctx.setLineDash([]); ctx.fillStyle = "#fff"; ctx.strokeStyle = "#b3261e"; ctx.lineWidth = 2.4; ctx.beginPath(); ctx.arc(X(sc[ax]), Y(sc[ay]), 8, 0, 7); ctx.fill(); ctx.stroke(); } }

@@ -117,7 +117,7 @@
     function render() {
       if (!gray) return;
       const ctx = photoCv.getContext("2d"), im = ctx.createImageData(N, N); for (let i = 0; i < N * N; i++) { const g = 18 + gray[i] * 237; im.data[i * 4] = im.data[i * 4 + 1] = im.data[i * 4 + 2] = g; im.data[i * 4 + 3] = 255; } ctx.putImageData(im, 0, 0);
-      AX.drawGrid(mapCv, sc, O, O, (v, x, y) => (painted[y * O + x] ? AX.tint(v / scale, 1) : "#eef2f0"));
+      AX.drawGrid(mapCv, sc, O, O, (v, x, y) => (painted[y * O + x] ? AX.tint(v / scale, 1) : "#ebe7de"));
       srcChips.querySelectorAll(".ax-chip").forEach((b) => b.setAttribute("aria-pressed", String(+b.dataset.i === src)));
       stChips.querySelectorAll(".ax-card").forEach((b) => b.setAttribute("aria-pressed", String(+b.dataset.i === ki)));
       insetS.replaceChildren(stencilTile(STENCILS[ki].k, "lg")); inset();
@@ -175,7 +175,7 @@
       h("div.ax-rc", h("label.ax-slide", h("span", "Workers on the right"), val, sl), h("div.ax-cv.sq", cvs[1]), outs[1]),
       h("div.ax-rc.side", h("p.ax-label", "The job"), h("p.ax-note", "Every square is one match score for a 3 × 3 stencil on a 28 × 28 picture: 26 × 26 = 676 sums. A worker does one sum per round. Each round the workers on the right take the next batch."), h("div.ax-row", go, rs), h("p.ax-note", "A GTX 580 has 512 cores. Real chips lose some time to memory and scheduling, but the idea is exactly this."))));
     cap(fig, "Try it.", "Press Go with 512 workers: the right grid is done in two rounds while the left one is still crawling. Drag the slider down to see how much the number of workers matters. Every worker needs the same instruction and the same kind of data, which is why the work has to be lined up first.");
-    const draw = (i) => { AX.drawGrid(cvs[i], marks[i], G, G, (v) => (v === 2 ? "#0f5a44" : v === 1 ? "#6fb59b" : "#eef2f0")); };
+    const draw = (i) => { AX.drawGrid(cvs[i], marks[i], G, G, (v) => (v === 2 ? "#0f5a44" : v === 1 ? "#6fb59b" : "#ebe7de")); };
     function text() { [1, N2].forEach((w, i) => { const need = Math.ceil(TOTAL / w); outs[i].innerHTML = "Needs <b>" + need.toLocaleString("en-US") + " round" + (need === 1 ? "" : "s") + "</b>. " + (done[i] >= TOTAL ? "Finished after " + rounds[i] + " round" + (rounds[i] === 1 ? "" : "s") + "." : done[i] ? "Round " + rounds[i] + ", " + done[i] + " of " + TOTAL + " done." : "Waiting."); }); labs[1].textContent = N2 + " worker" + (N2 === 1 ? "" : "s"); val.textContent = N2; }
     function reset() { cancelAnimationFrame(raf); raf = 0; done = [0, 0]; rounds = [0, 0]; marks = [new Uint8Array(TOTAL), new Uint8Array(TOTAL)]; draw(0); draw(1); text(); go.textContent = "Go"; }
     function start() {
@@ -196,7 +196,7 @@
   (function stack() {
     const fig = $("axStack"); if (!fig) return;
     const N = 6, O = 4;
-    let im = "001100001100001100111111001100001100".split("").map(Number).map((v) => (v ? 1 : 0.1)), sid = 0, n = 0, timer = 0;
+    let im = "001100001100001100111111001100001100".split("").map(Number).map((v) => (v ? 1 : 0.1)), sid = 0, n = 3, timer = 0;
     const SK = [STENCILS[0], STENCILS[1], STENCILS[3]];
     const grid = h("div.ax-g6"), cells = [];
     for (let i = 0; i < 36; i++) { const c = h("button.ax-tile.sm", { type: "button", "aria-label": "Picture square " + (i + 1) + ", click to change", onclick: () => { im[i] = im[i] > 0.7 ? 0.1 : im[i] > 0.3 ? 1 : 0.55; reset(); } }); cells.push(c); grid.append(c); }

@@ -39,7 +39,7 @@
       const X0 = 30; let x = X0; const parts = [];
       const dims = L.map((l) => {
         if (l.kind === "input") return { w: 10, hh: 150, d: 8 };
-        if (l.kind === "conv") return { w: 12 + Math.sqrt(l.K) * 2.6, hh: 30 + l.out[0] * 2.7, d: 0 };
+        if (l.kind === "conv") return { w: 12 + Math.sqrt(l.K) * 2.6, hh: 30 + l.out[0] * 2.15, d: 0 };
         return { w: 14, hh: Math.min(170, 28 + Math.log2(l.m) * 11), d: 0 };
       });
       L.forEach((l, i) => {
@@ -129,8 +129,8 @@
         const draw = () => {
           const ctx = cv.getContext("2d"), W = cv.width, H = cv.height, x0 = +slider.value / 10; ctx.clearRect(0, 0, W, H);
           const px = (x) => W / 2 + x * (W / 12), py = (y) => H * 0.78 - y * (H * 0.22);
-          ctx.strokeStyle = "#dde2df"; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(0, py(0)); ctx.lineTo(W, py(0)); ctx.moveTo(px(0), 0); ctx.lineTo(px(0), H); ctx.stroke();
-          ctx.font = "600 12px sans-serif"; ctx.fillStyle = "#646d69"; for (let t = -5; t <= 5; t += 5) ctx.fillText(t, px(t) - 3, py(0) + 16);
+          ctx.strokeStyle = "#ddd7ca"; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(0, py(0)); ctx.lineTo(W, py(0)); ctx.moveTo(px(0), 0); ctx.lineTo(px(0), H); ctx.stroke();
+          ctx.font = "600 12px sans-serif"; ctx.fillStyle = "#6e695d"; for (let t = -5; t <= 5; t += 5) ctx.fillText(t, px(t) - 3, py(0) + 16);
           for (const [n, [f, , c]] of Object.entries(F)) { ctx.strokeStyle = c; ctx.lineWidth = 2.4; ctx.beginPath(); for (let i = 0; i <= 240; i++) { const x = -6 + 12 * i / 240, y = Math.min(f(x), 4); i ? ctx.lineTo(px(x), py(y)) : ctx.moveTo(px(x), py(y)); } ctx.stroke(); ctx.fillStyle = c; ctx.fillText(n, n === "ReLU" ? px(3.7) : n === "tanh" ? px(-5.9) : px(-5.9), n === "ReLU" ? py(3.9) : n === "tanh" ? py(-1) - 12 : py(0) - 8); }
           ctx.strokeStyle = "#121614"; ctx.setLineDash([4, 3]); ctx.beginPath(); ctx.moveTo(px(x0), 0); ctx.lineTo(px(x0), H); ctx.stroke(); ctx.setLineDash([]);
           read.innerHTML = "<dl>" + Object.entries(F).map(([n, [f, d, c]]) => "<div><dt style='color:" + c + "'>" + n + "</dt><dd>" + minus(f(x0).toFixed(2)) + "<small> slope " + d(x0).toFixed(3) + "</small></dd></div>").join("") + "</dl>";

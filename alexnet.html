@@ -10,7 +10,7 @@
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -39,30 +39,31 @@
 
   <!-- ============ Opening ============ -->
   <section class="ax-hero">
-    <div class="wrap">
-      <p class="ax-back"><a href="ai-news.html#learn">&larr; AI news: how a machine learns</a></p>
-      <div class="ax-hero-grid">
-        <div class="ax-hero-text">
-          <h1>How AlexNet learned to see</h1>
-          <p class="ax-stand">In 2012 a neural network called AlexNet won an image-recognition contest by a margin nobody expected. Its recipe was not new. What was new was how it was computed: everything turned into vectors and matrices, so a graphics card could do millions of the same small calculation at once.</p>
-          <p class="ax-stand">This page walks through that idea one step at a time, with the math, and lets you play with each step.</p>
-          <p class="ax-credit">This is a summary, not original research. It follows the 2012 paper <a href="https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html" target="_blank" rel="noopener">&ldquo;ImageNet Classification with Deep Convolutional Neural Networks&rdquo;</a> by Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton, plus my own study notes. Everything interactive here was built to explain their work.</p>
-        </div>
-        <figure class="ax-hero-img">
+    <div class="ax-hero-l">
+      <div class="ax-hero-in">
+        <p class="ax-back"><a href="ai-news.html#learn">&larr; AI news: how a machine learns</a></p>
+        <p class="ax-eyebrow">An interactive explainer &middot; NeurIPS 2012</p>
+        <h1>How AlexNet <em>learned to see</em></h1>
+        <p class="ax-stand">In 2012 a neural network called AlexNet won an image-recognition contest by a margin nobody expected. Its recipe was not new. What was new was how it was computed: everything turned into vectors and matrices, so a graphics card could do millions of the same small calculation at once.</p>
+        <p class="ax-stand">This page walks through that idea one step at a time, with the math, and lets you play with each step.</p>
+        <p class="ax-credit">This is a summary, not original research. It follows the 2012 paper <a href="https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html" target="_blank" rel="noopener">&ldquo;ImageNet Classification with Deep Convolutional Neural Networks&rdquo;</a> by Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton, plus my own study notes. Everything interactive here was built to explain their work.</p>
+      </div>
+    </div>
+    <figure class="ax-hero-r">
           <img src="alexnet/img/gtx580.jpg" width="960" height="623" alt="An NVIDIA GeForce GTX 580 graphics card with its cooler lifted off, and the GF110 chip lying on the circuit board beside it">
           <figcaption>The hardware behind the result: an NVIDIA GTX 580 graphics card with its GF110 chip beside it. AlexNet trained on two of these. Photo: Fritzchens Fritz, <a href="https://commons.wikimedia.org/wiki/File:NVIDIA@40nm@Fermi@GF110@GeForce_GTX_580@UA10B338_1041A1_N2Y540.000_GF110-375-A1_DSC04152_(27576804994).jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, CC0.</figcaption>
         </figure>
-      </div>
-      <dl class="ax-stats">
+  </section>
+  <div class="wrap ax-top">
+    <dl class="ax-stats">
         <div><dt>60 million</dt><dd>weights to learn</dd></div>
         <div><dt>650,000</dt><dd>artificial neurons</dd></div>
         <div><dt>1.2 million</dt><dd>training images</dd></div>
         <div><dt>5&ndash;6 days</dt><dd>on two GTX 580 GPUs</dd></div>
         <div><dt>15.3%</dt><dd>top-5 error in 2012, against 26.2% for second place</dd></div>
       </dl>
-      <p class="ax-recap">On the <a href="ai-news.html#learn">last page</a> a one-layer model scored a whole digit against one rigid template: <code>W @ x</code>. That is a dot product. This page asks what happens if the templates are small, slide across the picture, and are stacked in layers.</p>
-    </div>
-  </section>
+    <p class="ax-recap">On the <a href="ai-news.html#learn">last page</a> a one-layer model scored a whole digit against one rigid template: <code>W @ x</code>. That is a dot product. This page asks what happens if the templates are small, slide across the picture, and are stacked in layers.</p>
+  </div>
 
   <nav class="ax-toc" aria-label="On this page">
     <div class="wrap">
@@ -80,114 +81,159 @@
 
   <!-- ============ 1 ============ -->
   <section class="ax-sec" id="s1">
-    <div class="wrap">
-      <div class="ax-head"><span class="ax-n">1</span><h2>Does this look like that?</h2></div>
+    <div class="wrap ax-grid">
+      <aside class="ax-rail"><span class="ax-n">1</span><p class="ax-rk">The question</p><p class="ax-rn">Multiply pairs, add them up. That is a dot product.</p></aside>
+      <div class="ax-main">
+      <h2>Does this look like that?</h2>
       <div class="ax-prose">
         <p>A computer has no eyes. All it has is numbers. So the first question is a tiny one: how do you ask whether a small piece of a picture looks like something you are hunting for?</p>
         <p>Try it below. On the left is a 3 &times; 3 snapshot. In the middle is a <b>stencil</b> of what you want: green squares mean &ldquo;I want this bright&rdquo;, red means &ldquo;I want this dark&rdquo;, blank means &ldquo;I don&rsquo;t care&rdquo;. Multiply each square by the stencil and add it all up. It works like a shopping bill: every pixel is a line item, and the total is the match score.</p>
       </div>
       <figure class="ax-fig" id="axMatch"></figure>
       <div class="ax-name">
-        <p><b>What you just did has a name.</b> Multiplying matching pairs and adding them up is a <b>dot product</b>. AlexNet calls its stencils <b>kernels</b>, and a dot product is biggest when the snapshot looks like the kernel. The last page's score, <code>W[class] &middot; x</code>, was exactly this, but with a stencil as big as the whole digit.</p>
+        <p class="ax-nl">In one line</p>
+        <p>A dot product multiplies matching pairs and adds them up. It is biggest when the snapshot looks like the stencil.</p>
         <p class="ax-eq">a &middot; b = a<sub>1</sub>b<sub>1</sub> + a<sub>2</sub>b<sub>2</sub> + &hellip; + a<sub>n</sub>b<sub>n</sub></p>
+      </div>
+      <a class="ax-bridge" href="#s2"><span>Next</span><em>That scores one spot. Next: how do you find where it is in the whole picture?</em><i aria-hidden="true">&darr;</i></a>
       </div>
     </div>
   </section>
 
   <!-- ============ 2 ============ -->
   <section class="ax-sec" id="s2">
-    <div class="wrap">
-      <div class="ax-head"><span class="ax-n">2</span><h2>Where in the picture is it?</h2></div>
+    <div class="wrap ax-grid">
+      <aside class="ax-rail"><span class="ax-n">2</span><p class="ax-rk">Finding it</p><p class="ax-rn">Slide the same stencil everywhere. That is convolution.</p></aside>
+      <div class="ax-main">
+      <h2>Where in the picture is it?</h2>
       <div class="ax-prose">
         <p>One snapshot tells you about one spot. To find <em>where</em> something is, you slide the stencil over the whole picture and check every spot, like a detective with a magnifying glass.</p>
         <p>Pick what you are looking for, then drag the magnifier over the picture. Every spot you check paints one pixel on the map on the right: green means &ldquo;the stencil matches here&rdquo;, red means &ldquo;the opposite&rdquo;. Or press Scan and let it check everywhere.</p>
       </div>
       <figure class="ax-fig" id="axScan"></figure>
       <div class="ax-name">
-        <p><b>Notice what is reused.</b> The same nine numbers are used at every spot. That is why this is cheap, and why it finds an edge wherever it sits: slide the picture and the green slides with it. Sliding a stencil across a picture is called <b>convolution</b>, and the map it makes is a <b>feature map</b>.</p>
+        <p class="ax-nl">In one line</p>
+        <p>Slide one stencil to every spot and keep each score. The grid of scores is a feature map, and the same few weights are reused everywhere.</p>
         <p class="ax-eq">map[i, j] = &Sigma; K[u, v] &middot; X[i + u, j + v]</p>
+      </div>
+      <a class="ax-bridge" href="#s3"><span>Next</span><em>That finds one pattern. Next: how do you do it millions of times?</em><i aria-hidden="true">&darr;</i></a>
       </div>
     </div>
   </section>
 
   <!-- ============ 3 ============ -->
   <section class="ax-sec" id="s3">
-    <div class="wrap">
-      <div class="ax-head"><span class="ax-n">3</span><h2>How do you do that millions of times? Line everything up.</h2></div>
+    <div class="wrap ax-grid">
+      <aside class="ax-rail"><span class="ax-n">3</span><p class="ax-rk">Scale</p><p class="ax-rn">Line the work up so thousands of workers can do it at once.</p></aside>
+      <div class="ax-main">
+      <h2>How do you do that millions of times? Line everything up.</h2>
       <div class="ax-prose">
         <p>Checking 676 spots for one stencil is already 676 separate sums. AlexNet&rsquo;s first layer checks 3,025 spots for each of 96 stencils, for every one of over a million photos, over and over. One worker doing one sum at a time would never finish.</p>
         <p>A graphics card is more like a stadium of 512 workers who can all do the same simple job at the same moment. Race them below.</p>
       </div>
+      <p class="ax-sub"><b>3A</b><span>Race the workers</span></p>
       <figure class="ax-fig" id="axRace"></figure>
+      <p class="ax-sub"><b>3B</b><span>Line the work up</span></p>
       <div class="ax-prose ax-prose-gap">
         <p>There is a catch: the workers only help if their jobs are <b>identical and lined up</b>. So you rearrange the work first. Cut out every patch, flatten it into a row of numbers, and stack the rows into a table. Now each sum is one row times the stencil, and the whole table is a single multiplication. Making everything a list of numbers (a <b>vector</b>) and a stack of lists (a <b>matrix</b>) is called <b>vectorization</b>.</p>
       </div>
       <figure class="ax-fig" id="axStack"></figure>
-      <div class="ax-name">
-        <p class="ax-eq">Output (N &times; M) = P (N &times; k&sup2;C) &times; K (k&sup2;C &times; M)</p>
-        <p>P has one flattened patch per row, K has one stencil per column. In the demo above N = 16 patches, M = 1 stencil and each row has k&sup2;C = 9 numbers. In AlexNet&rsquo;s first layer N = 3,025, M = 96 and k&sup2;C = 363. This is how convolutions are really run on GPUs.</p>
-      </div>
+      <p class="ax-sub"><b>3C</b><span>The same trick for text</span></p>
       <div class="ax-prose ax-prose-gap">
         <p>It is also the idea behind ChatGPT. Words are chunked up, turned into vectors, stacked into a matrix, and operated on again and again (the biggest GPT-3 model repeats the step 96 times). AlexNet puts a label on an image; ChatGPT predicts the next word of a text.</p>
       </div>
       <figure class="ax-fig ax-fig-slim" id="axWords"></figure>
+      <div class="ax-name">
+        <p class="ax-nl">In one line</p>
+        <p>Flatten every patch into a row, stack the rows, and one multiplication does every sum at once. In AlexNet&rsquo;s first layer that is 3,025 rows, 96 stencils and 363 numbers per row.</p>
+        <p class="ax-eq">Output (N &times; M) = P (N &times; k&sup2;C) &times; K (k&sup2;C &times; M)</p>
+      </div>
+      <a class="ax-bridge" href="#s4"><span>Next</span><em>Now the work is fast. Next: what does a stencil for a colour photograph look like?</em><i aria-hidden="true">&darr;</i></a>
+      </div>
     </div>
   </section>
 
   <!-- ============ 4 ============ -->
   <section class="ax-sec" id="s4">
-    <div class="wrap">
-      <div class="ax-head"><span class="ax-n">4</span><h2>Tensors: height &times; width &times; channels</h2></div>
+    <div class="wrap ax-grid">
+      <aside class="ax-rail"><span class="ax-n">4</span><p class="ax-rk">Shape</p><p class="ax-rn">A kernel for a colour picture is a stack: 11 × 11 × 3.</p></aside>
+      <div class="ax-main">
+      <h2>What does a stencil for a colour photo look like?</h2>
       <div class="ax-prose">
         <p>A colour image is three grids stacked: red, green and blue. Height &times; width &times; channels. A stack of matrices like that is called a <b>tensor</b>. A kernel for a colour image is a tensor too, and its depth must equal the depth of what it looks at. AlexNet's first layer uses 96 kernels of size 11 &times; 11 &times; 3.</p>
         <p>Take the 11 &times; 11 &times; 3 chunk of the image under a kernel, multiply each kernel weight by the pixel value beneath it, and add everything up. That is 363 multiplications and one number out. A kernel has 363 numbers it can set freely, its <em>degrees of freedom</em>, and training chooses them. Each kernel is one more way of looking: the more of them, the more the layer can notice.</p>
       </div>
+      <p class="ax-sub"><b>4A</b><span>Count what a kernel sees</span></p>
       <figure class="ax-fig" id="axShape"></figure>
-      <div class="ax-math">
-        <p class="ax-eq">output size = &lfloor;(n + 2p &minus; k) / s&rfloor; + 1 &nbsp;&nbsp;&nbsp; weights per kernel = k &times; k &times; depth</p>
-        <p>n is the input size, k the kernel size, s the stride (how far the kernel jumps each time) and p the padding. For AlexNet's first layer, &lfloor;(227 &minus; 11) / 4&rfloor; + 1 = 55. The paper says the input is 224 &times; 224, but 224 does not divide evenly (it gives 54.25), so implementations use 227. Try both in the calculator.</p>
-      </div>
+      <p class="ax-sub"><b>4B</b><span>What do the first-layer kernels look like?</span></p>
       <div class="ax-prose ax-prose-gap">
-        <h3>What do the first-layer kernels look like?</h3>
         <p>The paper shows the 96 kernels its first layer learned. Some are <b>stripes</b>: edge and angle detectors. Some are <b>checkerboards</b>, which respond to fine texture. Some are <b>colourful blobs</b>, which say &ldquo;green on this side, pink on the other.&rdquo; The grid below is not the learned weights. I generated kernels in the same three families so you can see what each kind finds in a real photo.</p>
       </div>
       <figure class="ax-fig" id="axZoo"></figure>
+      <div class="ax-name">
+        <p class="ax-nl">In one line</p>
+        <p>A colour kernel is a stack as deep as its input, and the output size follows from four numbers. AlexNet&rsquo;s first layer is (227 &minus; 11) / 4 + 1 = 55; the paper says 224, which does not divide evenly.</p>
+        <p class="ax-eq">&lfloor;(n + 2p &minus; k) / s&rfloor; + 1</p>
+      </div>
+      <a class="ax-bridge" href="#s5"><span>Next</span><em>One layer is not enough. Next: stack them.</em><i aria-hidden="true">&darr;</i></a>
+      </div>
     </div>
   </section>
 
   <!-- ============ 5 ============ -->
   <section class="ax-sec" id="s5">
-    <div class="wrap">
-      <div class="ax-head"><span class="ax-n">5</span><h2>Stack the layers</h2></div>
+    <div class="wrap ax-grid">
+      <aside class="ax-rail"><span class="ax-n">5</span><p class="ax-rk">Depth</p><p class="ax-rn">The output of one layer is the input of the next.</p></aside>
+      <div class="ax-main">
+      <h2>What happens after the first layer?</h2>
       <div class="ax-prose">
         <p>After the first layer you are left with 96 maps. They become the input of the next layer, whose kernels take dot products over those maps. The output of each step is the input of the next, so by the end every image has passed through a vast number of multiplications. AlexNet has five convolutional layers, then three <b>fully connected</b> layers that look at everything at once.</p>
         <p>Where do the numbers go? Click a layer. A surprising split appears: almost all of the <em>computation</em> happens in the convolutional layers, but almost all of the <em>weights</em> sit in the fully connected ones.</p>
       </div>
       <figure class="ax-fig" id="axArch"></figure>
+      <div class="ax-name">
+        <p class="ax-nl">In one line</p>
+        <p>Each layer&rsquo;s output is the next layer&rsquo;s input. Convolution does most of the arithmetic (92%), while the fully connected layers hold most of the weights (96%).</p>
+        <p class="ax-eq">60,965,224 weights<br>724,406,816 multiplications</p>
+      </div>
+      <a class="ax-bridge" href="#s6"><span>Next</span><em>Where do all those weights come from? Next: learning.</em><i aria-hidden="true">&darr;</i></a>
+      </div>
     </div>
   </section>
 
   <!-- ============ 6 ============ -->
   <section class="ax-sec" id="s6">
-    <div class="wrap">
-      <div class="ax-head"><span class="ax-n">6</span><h2>Learning: change the weights, not the operations</h2></div>
+    <div class="wrap ax-grid">
+      <aside class="ax-rail"><span class="ax-n">6</span><p class="ax-rk">Learning</p><p class="ax-rn">Training changes the weights, never the operations.</p></aside>
+      <div class="ax-main">
+      <h2>How does it learn its stencils?</h2>
       <div class="ax-prose">
         <p>The operations inside AlexNet never change: dot products, a rectifier, pooling. Training changes only the <b>weights</b> those operations use. <b>Backpropagation</b> works out, for every single weight, which direction to nudge it so the answer is a little less wrong, by passing the error backwards through the layers.</p>
         <p>On the last page the nudge was a flat plus or minus the picture. Here it is the slope of the error: <code>w &larr; w &minus; &epsilon; &middot; &part;L/&part;w</code>. Below, a tiny network starts with random kernels and has to learn to tell vertical lines from horizontal ones. Nobody tells it what an edge detector looks like.</p>
       </div>
+      <p class="ax-sub"><b>6A</b><span>Watch a kernel learn</span></p>
       <figure class="ax-fig" id="axLearn"></figure>
+      <p class="ax-sub"><b>6B</b><span>The paper&rsquo;s update rule</span></p>
       <div class="ax-prose ax-prose-gap">
-        <h3>The paper's update rule</h3>
         <p>AlexNet used a slightly richer version of that nudge. It keeps a running <b>momentum</b> so steps build speed in a consistent direction, and a little <b>weight decay</b> that pulls weights gently towards zero. The authors found the decay was not just a regulariser: it lowered the training error. Change the three knobs and watch a weight roll down a valley.</p>
       </div>
       <figure class="ax-fig" id="axUpdate"></figure>
+      <div class="ax-name">
+        <p class="ax-nl">In one line</p>
+        <p>Training never changes the operations, only the weights. Each weight is nudged against its slope, with momentum and a pinch of weight decay.</p>
+        <p class="ax-eq">v &larr; 0.9v &minus; 0.0005&epsilon;w &minus; &epsilon;&middot;&part;L/&part;w<br>w &larr; w + v</p>
+      </div>
+      <a class="ax-bridge" href="#s7"><span>Next</span><em>That is the idea. Next: the paper&rsquo;s own choices, section by section.</em><i aria-hidden="true">&darr;</i></a>
+      </div>
     </div>
   </section>
 
   <!-- ============ 7 ============ -->
   <section class="ax-sec" id="s7">
-    <div class="wrap">
-      <div class="ax-head"><span class="ax-n">7</span><h2>The paper, section by section</h2></div>
+    <div class="wrap ax-grid">
+      <aside class="ax-rail"><span class="ax-n">7</span><p class="ax-rk">The paper</p><p class="ax-rn">Every section of the paper, in plain English.</p></aside>
+      <div class="ax-main">
+      <h2>What did the paper actually do?</h2>
       <div class="ax-prose">
         <p>The authors credit their result to a short list of choices, which they sort by importance in Section 3. Here is the paper in plain English, one section at a time. Each one has something to try.</p>
       </div>
@@ -203,33 +249,53 @@
         </figure>
         <p class="ax-authors-note">The paper&rsquo;s three authors were all at the University of Toronto. The first author, <b>Alex Krizhevsky</b>, wrote the GPU code that made the training fast enough; I couldn&rsquo;t find a freely licensed photo of him. Photos: Cmichel67 and Eladkarmel, Wikimedia Commons, CC BY-SA 4.0.</p>
       </div>
+      <div class="ax-name">
+        <p class="ax-nl">In one line</p>
+        <p>The paper credits a short list of choices: ReLU neurons, two GPUs, normalisation and overlapping pooling, then augmentation and dropout against overfitting.</p>
+        <p class="ax-eq">top-5 error<br>26.2% &rarr; 15.3%</p>
+      </div>
+      <a class="ax-bridge" href="#s8"><span>Next</span><em>So what did all that produce? Next: the 4,096 numbers.</em><i aria-hidden="true">&darr;</i></a>
+      </div>
     </div>
   </section>
 
   <!-- ============ 8 ============ -->
   <section class="ax-sec" id="s8">
-    <div class="wrap">
-      <div class="ax-head"><span class="ax-n">8</span><h2>The last step: an image becomes a point in space</h2></div>
+    <div class="wrap ax-grid">
+      <aside class="ax-rail"><span class="ax-n">8</span><p class="ax-rk">Meaning</p><p class="ax-rn">Distance in a learned space follows content, not pixels.</p></aside>
+      <div class="ax-main">
+      <h2>What does the network end up with?</h2>
       <div class="ax-prose">
         <p>Every image the network sees is mapped through those levels of multiplications into a long list of numbers. Stop one layer early and grab it: a vector with <b>4,096</b> numbers. A vector is a point in 4,096-dimensional space. Just as you can measure the distance between two points on a map, you can measure it in that space.</p>
         <p>The authors did exactly that. They took a test image&rsquo;s vector, found the training images whose vectors were closest, and the nearest images were, for example, all elephants. Yet they note that at the pixel level those pictures are generally <em>not</em> close, because the elephants appear in a variety of poses. This is an <b>embedding space</b>: distance and direction mean something about the content, not just the colours.</p>
       </div>
+      <p class="ax-sub"><b>8A</b><span>Elephants in pixel space</span></p>
       <figure class="ax-fig" id="axElephants"></figure>
+      <p class="ax-sub"><b>8B</b><span>A small embedding you can explore</span></p>
       <div class="ax-prose ax-prose-gap">
-        <h3>A small embedding you can explore</h3>
         <p>I can&rsquo;t run AlexNet itself in a web page, but the digit model from the last page is a very small embedding. Its ten learned templates are ten <b>directions</b>, and a digit&rsquo;s score for each is how far it lies along that direction. Pick two directions and every digit becomes a point on a map.</p>
       </div>
       <figure class="ax-fig" id="axMap"></figure>
+      <div class="ax-name">
+        <p class="ax-nl">In one line</p>
+        <p>Compare two images by the distance between their 4,096-number vectors, not their pixels. Close in that space means similar in content.</p>
+        <p class="ax-eq">d(a, b) = &radic;( &Sigma; (a<sub>i</sub> &minus; b<sub>i</sub>)&sup2; )</p>
+      </div>
+      <a class="ax-bridge" href="#s9"><span>Next</span><em>And why did this happen in 2012? Next: the history and the hardware.</em><i aria-hidden="true">&darr;</i></a>
+      </div>
     </div>
   </section>
 
   <!-- ============ 9 ============ -->
   <section class="ax-sec" id="s9">
-    <div class="wrap">
-      <div class="ax-head"><span class="ax-n">9</span><h2>Why 2012? An old algorithm meets new hardware</h2></div>
+    <div class="wrap ax-grid">
+      <aside class="ax-rail"><span class="ax-n">9</span><p class="ax-rk">Timing</p><p class="ax-rn">An old idea, waiting for new hardware.</p></aside>
+      <div class="ax-main">
+      <h2>Why did this happen in 2012?</h2>
       <div class="ax-prose">
         <p>Almost none of AlexNet's ingredients were new. Convolutional networks that learn their kernels were already reading ZIP codes in 1989. Backpropagation was published in 1986. What blocked a network this large was <b>hardware</b> and <b>data</b>: there were too few labelled images and not enough computing power to train something so big. The authors were explicit that their results should improve simply by waiting for faster GPUs and bigger datasets.</p>
       </div>
+      <p class="ax-sub"><b>9A</b><span>The ingredients</span></p>
       <div class="ax-lineage">
         <article><div class="ax-ph"><svg viewBox="0 0 160 200" role="img" aria-label="Three layers of small feature detectors, each layer smaller than the one before, with one detector wired to a patch of the layer below"><g><rect x="12" y="38" width="11" height="11" fill="#cfdad4"/><rect x="26" y="38" width="11" height="11" fill="#cfdad4"/><rect x="40" y="38" width="11" height="11" fill="#cfdad4"/><rect x="54" y="38" width="11" height="11" fill="#cfdad4"/><rect x="68" y="38" width="11" height="11" fill="#cfdad4"/><rect x="82" y="38" width="11" height="11" fill="#cfdad4"/><rect x="12" y="52" width="11" height="11" fill="#cfdad4"/><rect x="26" y="52" width="11" height="11" fill="#cfdad4"/><rect x="40" y="52" width="11" height="11" fill="#cfdad4"/><rect x="54" y="52" width="11" height="11" fill="#cfdad4"/><rect x="68" y="52" width="11" height="11" fill="#cfdad4"/><rect x="82" y="52" width="11" height="11" fill="#cfdad4"/><rect x="12" y="66" width="11" height="11" fill="#cfdad4"/><rect x="26" y="66" width="11" height="11" fill="#cfdad4"/><rect x="40" y="66" width="11" height="11" fill="#cfdad4"/><rect x="54" y="66" width="11" height="11" fill="#cfdad4"/><rect x="68" y="66" width="11" height="11" fill="#cfdad4"/><rect x="82" y="66" width="11" height="11" fill="#cfdad4"/><rect x="12" y="80" width="11" height="11" fill="#cfdad4"/><rect x="26" y="80" width="11" height="11" fill="#cfdad4"/><rect x="40" y="80" width="11" height="11" fill="#cfdad4"/><rect x="54" y="80" width="11" height="11" fill="#cfdad4"/><rect x="68" y="80" width="11" height="11" fill="#cfdad4"/><rect x="82" y="80" width="11" height="11" fill="#cfdad4"/><rect x="12" y="94" width="11" height="11" fill="#cfdad4"/><rect x="26" y="94" width="11" height="11" fill="#cfdad4"/><rect x="40" y="94" width="11" height="11" fill="#cfdad4"/><rect x="54" y="94" width="11" height="11" fill="#cfdad4"/><rect x="68" y="94" width="11" height="11" fill="#cfdad4"/><rect x="82" y="94" width="11" height="11" fill="#cfdad4"/><rect x="12" y="108" width="11" height="11" fill="#cfdad4"/><rect x="26" y="108" width="11" height="11" fill="#cfdad4"/><rect x="40" y="108" width="11" height="11" fill="#cfdad4"/><rect x="54" y="108" width="11" height="11" fill="#cfdad4"/><rect x="68" y="108" width="11" height="11" fill="#cfdad4"/><rect x="82" y="108" width="11" height="11" fill="#cfdad4"/></g><g><rect x="92" y="64" width="11" height="11" fill="#8bb5a5"/><rect x="108" y="64" width="11" height="11" fill="#8bb5a5"/><rect x="124" y="64" width="11" height="11" fill="#8bb5a5"/><rect x="92" y="80" width="11" height="11" fill="#8bb5a5"/><rect x="108" y="80" width="11" height="11" fill="#8bb5a5"/><rect x="124" y="80" width="11" height="11" fill="#8bb5a5"/><rect x="92" y="96" width="11" height="11" fill="#8bb5a5"/><rect x="108" y="96" width="11" height="11" fill="#8bb5a5"/><rect x="124" y="96" width="11" height="11" fill="#8bb5a5"/></g><g><rect x="132" y="82" width="14" height="14" fill="#4d5c68"/></g><g fill="#0f5a44" opacity=".9"><rect x="26" y="52" width="11" height="11"/><rect x="40" y="52" width="11" height="11"/><rect x="26" y="66" width="11" height="11"/><rect x="40" y="66" width="11" height="11"/></g><g stroke="#0f5a44" stroke-width="1" opacity=".55" fill="none"><line x1="51" y1="52" x2="92" y2="64"/><line x1="51" y1="77" x2="92" y2="75"/><line x1="103" y1="75" x2="132" y2="82"/><line x1="103" y1="64" x2="132" y2="88"/></g><rect x="92" y="64" width="11" height="11" fill="#0f5a44"/></svg></div><p class="ax-yr">1979&ndash;80</p><h3>Neocognitron</h3><p>Kunihiko Fukushima builds a layered network of small, repeated feature detectors that inspired convolutional networks.</p></article>
         <article><img src="ai/people/david-rumelhart.jpg" width="500" height="577" loading="lazy" alt="David Rumelhart at a conference"><p class="ax-yr">1986</p><h3>Backpropagation</h3><p>Rumelhart, Hinton and Williams show how to train many layers of weights by passing the error backwards.</p></article>
@@ -238,7 +304,14 @@
         <article><img src="alexnet/img/gtx580.jpg" width="960" height="623" loading="lazy" alt="An NVIDIA GTX 580 graphics card"><p class="ax-yr">2010</p><h3>GPUs for general computing</h3><p>The GTX 580 arrives in November with 512 cores and a programming system that lets researchers use it for maths, not only games.</p></article>
         <article class="on"><img src="ai/people/geoffrey-hinton.jpg" width="500" height="700" loading="lazy" alt="Portrait of Geoffrey Hinton"><p class="ax-yr">2012</p><h3>AlexNet</h3><p>All of it combined, on two GTX 580s, wins the ImageNet contest by a wide margin.</p></article>
       </div>
+      <p class="ax-sub"><b>9B</b><span>The arithmetic</span></p>
       <figure class="ax-fig" id="axCompute"></figure>
+      <div class="ax-name">
+        <p class="ax-nl">In one line</p>
+        <p>The recipe was decades old. Big data and GPUs supplied the missing arithmetic: by my estimate about 200,000 times LeNet-5&rsquo;s training operations, done in about five days.</p>
+        <p class="ax-eq">about 4.7 &times; 10<sup>17</sup><br>operations to train</p>
+      </div>
+      </div>
     </div>
   </section>
 
