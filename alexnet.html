@@ -103,17 +103,18 @@
   <!-- ============ 2 ============ -->
   <section class="ax-sec" id="s2">
     <div class="wrap ax-grid">
-      <aside class="ax-rail"><span class="ax-n">2</span><p class="ax-rk">Finding it</p><p class="ax-rn">Slide the same stencil everywhere. That is convolution.</p></aside>
+      <aside class="ax-rail"><span class="ax-n">2</span><p class="ax-rk">Finding it</p><p class="ax-rn">One stencil, checked against every spot in the picture.</p></aside>
       <div class="ax-main">
       <h2>Where in the picture is it?</h2>
       <div class="ax-prose">
-        <p>Why would you want to find that in a whole picture? Because you want to know <em>where things are</em>: where the elephant&rsquo;s body stops and the grass starts. That boundary is an edge, and an edge is exactly what the stencil from step 1 looks for. Slide it over every spot, like a detective with a magnifying glass, and you get a map of where the edges are.</p>
-        <p>Drag the magnifier over the elephant. Every spot you check paints one pixel of the map: green where dark meets light, red where light meets dark. Or press Scan and let it check everywhere.</p>
+        <p>Step 1 compared one stencil with one small piece of a picture. But a real photo has thousands of pieces. So we do the same check at <b>every spot</b>, one after another, using the <b>same stencil each time</b>.</p>
+        <p>Think of the stencil as a set of <b>expectations</b>: &ldquo;I expect dark on the left and light on the right.&rdquo; At each spot we ask one question: do the real pixels here meet that expectation? The answer is a match score. Write every score into a grid, in the same position as the spot it came from, and you get a <b>map</b> of where the picture meets your expectation. For an edge stencil, that is a map of where the edges are.</p>
+        <p>Below, you play the detective. Choose what you expect to see, then drag the magnifier over the elephant. Or press Scan and let it check everywhere.</p>
       </div>
       <figure class="ax-fig" id="axScan"></figure>
       <div class="ax-name">
         <p class="ax-nl">In one line</p>
-        <p>Slide one stencil to every spot and keep each score. The grid of scores is a feature map, and the same few weights are reused everywhere.</p>
+        <p>One stencil, the same nine numbers, is compared with every spot in the picture. The grid of scores is a <b>feature map</b>: it shows where the picture meets your expectation. Doing this sliding check is called <b>convolution</b>.</p>
         <p class="ax-eq">map[i, j] = &Sigma; K[u, v] &middot; X[i + u, j + v]</p>
       </div>
       <a class="ax-bridge" href="#s3"><span>Next</span><em>That finds one pattern. Next: how do you do it millions of times?</em><i aria-hidden="true">&darr;</i></a>
