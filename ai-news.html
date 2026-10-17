@@ -126,6 +126,31 @@
       </ol>
 
       <figure class="exhibit">
+        <figcaption class="exh">Who came up with it</figcaption>
+        <p class="net-lede">The rule on this page is more than sixty years old. One person invented it, and another spent a career turning it into what you read about above.</p>
+        <div class="al-people">
+          <article class="al-person">
+            <img src="ai/people/frank-rosenblatt.jpg" width="350" height="455" loading="lazy" alt="Black and white portrait photo of Frank Rosenblatt as a young man in a jacket and tie">
+            <div>
+              <h3>Frank Rosenblatt</h3>
+              <p class="al-role">1928&ndash;1971 &middot; Psychologist, Cornell Aeronautical Laboratory</p>
+              <p>Invented the <b>perceptron</b>, the learning rule this page runs: guess, and if the guess is wrong, nudge the weights toward the right answer and away from the wrong one. He first simulated it on an IBM 704 in 1957, then built the Mark I Perceptron in 1960, a machine that learned to recognise letters by trial and error. In 1958 the New York Times headlined it &ldquo;New Navy Device Learns By Doing.&rdquo; He died in a boating accident in 1971, on his 43rd birthday.</p>
+              <p class="src">Photo: Heinz Nixdorf MuseumsForum, via <a href="https://commons.wikimedia.org/wiki/File:Frank_Rosenblatt.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, CC BY-SA 4.0. <a href="https://en.wikipedia.org/wiki/Frank_Rosenblatt" target="_blank" rel="noopener">More on Wikipedia</a>.</p>
+            </div>
+          </article>
+          <article class="al-person">
+            <img src="ai/people/geoffrey-hinton.jpg" width="500" height="700" loading="lazy" alt="Portrait photo of Geoffrey Hinton resting his chin on his hand">
+            <div>
+              <h3>Geoffrey Hinton</h3>
+              <p class="al-role">Born 1947 &middot; Computer scientist, University of Toronto</p>
+              <p>Spent a career stretching this idea from one layer of weights to many, including the 1986 paper with David Rumelhart and Ronald Williams that popularised backpropagation. AlexNet, built with his students, won the 2012 ImageNet contest. He shared the 2018 Turing Award and the 2024 Nobel Prize in Physics. The &ldquo;learned weights&rdquo; picture this page is built on, one template per digit, comes from his lectures, and the Python below is a version of it.</p>
+              <p class="src">Photo: Cmichel67, via <a href="https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, CC BY-SA 4.0. <a href="https://en.wikipedia.org/wiki/Geoffrey_Hinton" target="_blank" rel="noopener">More on Wikipedia</a>.</p>
+            </div>
+          </article>
+        </div>
+      </figure>
+
+      <figure class="exhibit">
         <figcaption class="exh">What the model sees: a picture becomes x</figcaption>
         <p class="net-lede">The model never sees a picture, only numbers. A scanner gives each of the 784 pixels a brightness from 0 to 255. Anything brighter than the cutoff counts as ink (1) and the rest as no ink (0). Pick a digit, move the cutoff, and point at a pixel to see its number.</p>
         <div class="al-see" id="alSee"></div>
