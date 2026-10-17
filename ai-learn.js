@@ -571,4 +571,20 @@
       }
     });
   })();
+
+  // ======================================================================
+  // Chapters: open or close them all, and open the one a link points at
+  // ======================================================================
+  (function chapters() {
+    const chs = Array.from(document.querySelectorAll(".al-ch")), btn = $("alChAll");
+    if (!chs.length) return;
+    const sync = () => { if (btn) btn.textContent = chs.every((c) => c.open) ? "Close all" : "Open all"; };
+    if (btn) btn.addEventListener("click", () => { const all = chs.every((c) => c.open); chs.forEach((c) => (c.open = !all)); sync(); });
+    chs.forEach((c) => c.addEventListener("toggle", sync));
+    const fromHash = () => {
+      const el = location.hash.length > 1 ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : null, ch = el && el.closest(".al-ch");
+      if (ch) { ch.open = true; el.scrollIntoView(); }
+    };
+    fromHash(); window.addEventListener("hashchange", fromHash);
+  })();
 })();

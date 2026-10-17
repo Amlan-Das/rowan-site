@@ -125,6 +125,89 @@
         <li><span>4</span><h3>Correct</h3><p>Add x to the right row and subtract x from the guessed row. Do it for the next picture, and the next, tens of thousands of times.</p></li>
       </ol>
 
+      <div class="al-chs">
+        <p class="al-guide">New here? Open 1 and 2, which cover the whole idea in a few minutes. The rest goes deeper and you can skip any of it. <button type="button" class="al-link" id="alChAll">Open all</button></p>
+      <details class="al-ch" id="ch-see">
+        <summary><span class="al-ch-n">1</span><span class="al-ch-h"><span class="al-ch-t">See what the model sees</span><span class="al-ch-b">A picture becomes a list of ones and zeros. Point at a pixel to read its number.</span></span><span class="al-ch-tag">Start here</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+        <div class="al-ch-body">
+      <figure class="exhibit">
+        <figcaption class="exh">What the model sees: a picture becomes x</figcaption>
+        <p class="net-lede">The model never sees a picture, only numbers. A scanner gives each of the 784 pixels a brightness from 0 to 255. Anything brighter than the cutoff counts as ink (1) and the rest as no ink (0). Pick a digit, move the cutoff, and point at a pixel to see its number.</p>
+        <div class="al-see" id="alSee"></div>
+      </figure>
+        </div>
+      </details>
+      <details class="al-ch" id="ch-train">
+        <summary><span class="al-ch-n">2</span><span class="al-ch-h"><span class="al-ch-t">Train it yourself</span><span class="al-ch-b">Ten digits, thousands of corrections. Watch blank templates sharpen.</span></span><span class="al-ch-tag">Start here</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+        <div class="al-ch-body">
+      <figure class="exhibit">
+        <figcaption class="exh">Train it: ten digits, thousands of corrections</figcaption>
+        <p class="net-lede">The same rule, running live in your browser on ten digits drawn in a 5 by 7 grid, with some pixels flipped at random (marked with a red dot) so no two pictures are alike. Turn the messiness up and the digits get hard to read, even for you. Each template starts blank. Green means the pixel votes for that digit, red means it votes against.</p>
+        <div class="al-live" id="alLive"></div>
+        <p class="src">The templates are drawn from W. The percentage is measured on 400 messy pictures the model never trained on. With a lot of mess it plateaus: one layer of weights can only draw a straight line between digits.</p>
+      </figure>
+        </div>
+      </details>
+      <details class="al-ch" id="ch-deeper">
+        <summary><span class="al-ch-n">3</span><span class="al-ch-h"><span class="al-ch-t">Go deeper: the update, step by step</span><span class="al-ch-b">Exactly what the two learning lines do, cell by cell, then a five-step walkthrough.</span></span><span class="al-ch-tag">Go deeper</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+        <div class="al-ch-body">
+      <figure class="exhibit">
+        <figcaption class="exh">The update, one cell at a time</figcaption>
+        <p class="net-lede">The two lines that do all the learning are <code>W[y] += x</code> and <code>W[guess] -= x</code>. Here they are on a 3 by 3 picture of a vertical bar (the middle column is inked, so x is 1 there and 0 everywhere else), with every cell's arithmetic shown.</p>
+        <div class="al-upd" id="alUpd"></div>
+      </figure>
+      <figure class="exhibit">
+        <figcaption class="exh">Watch it learn: three shapes, nine pixels</figcaption>
+        <p class="net-lede">The same model shrunk until you can read every number. It has to tell a vertical bar, a horizontal bar and a diagonal apart. Press the button to step through five rounds of the loop: look, score, guess, check, fix.</p>
+        <div class="al-hand" id="alHand"></div>
+        <div class="al-math">
+          <div><h4>x</h4><p>The picture as a list: here 9 numbers, on a real image 784. Each is 1 (ink) or 0 (no ink). It is not a match against a template. It is only what the picture looks like.</p></div>
+          <div><h4>W</h4><p>The weights, a table with a row per digit and a column per pixel. A positive number says &ldquo;ink here is evidence for this digit&rdquo;. A negative one says &ldquo;ink here is evidence against&rdquo;. The model is nothing but this table.</p></div>
+          <div><h4>W @ x</h4><p>Multiply each row by x and add up. Because x is only ones and zeros, that is just the weights that sit under the ink, added together. One total per row: the scores.</p></div>
+          <div><h4>The update</h4><p>The right row gets x added, so the ink in this picture now counts for the right digit. The guessed row gets x subtracted, so it counts a little less for the wrong one. Right guess, and the two cancel.</p></div>
+        </div>
+      </figure>
+        </div>
+      </details>
+      <details class="al-ch" id="ch-real">
+        <summary><span class="al-ch-n">4</span><span class="al-ch-h"><span class="al-ch-t">What it learned, and where it stops</span><span class="al-ch-b">The templates from real handwriting, and what happens when a digit is slid sideways.</span></span><span class="al-ch-tag">Hands-on</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+        <div class="al-ch-body">
+      <figure class="exhibit">
+        <figcaption class="exh">What it learned from real handwriting</figcaption>
+        <p class="net-lede">The same rule, on 60,000 real handwritten digits from the MNIST data set, run as the Python below. Each picture is one row of W folded back into a 28 by 28 square. You can see a rough 0 ring, a 1 stroke and so on, with red where ink argues against the digit.</p>
+        <div id="alReal"></div>
+        <p class="src">Real output from the script below, run once with a fixed random seed. Accuracy is measured on the 10,000 test images, which are never used for training. It wobbles between passes because a perceptron keeps correcting itself rather than settling.</p>
+      </figure>
+      <figure class="exhibit">
+        <figcaption class="exh">Where it stops: one rigid template per digit</figcaption>
+        <p class="net-lede">Each digit gets a single template, and the winner is whichever template overlaps the ink the most. That only works while every digit is written the same way in the same place. Slide a real digit and watch the scores.</p>
+        <div class="al-lim" id="alStop"></div>
+        <p class="al-prose">Nothing about the digit changed, but its ink now lands on different weights, so the right template loses its lead. People write the same digit at different sizes, slants and positions, and one template cannot cover all of them. Hinton makes this point in his lectures: handwritten digits vary too much for &ldquo;simple template matches of whole shapes.&rdquo; The fix is more layers, which first learn small parts such as strokes and curves, then combine them.</p>
+        <p class="src">Uses the real learned weights above, on the 60 sample digits from the wall. Shifting moves the whole digit and fills the gap with blank pixels.</p>
+      </figure>
+        </div>
+      </details>
+      <details class="al-ch" id="ch-used">
+        <summary><span class="al-ch-n">5</span><span class="al-ch-h"><span class="al-ch-t">Where it is used</span><span class="al-ch-b">Reading a ZIP code with the real weights, and where this recipe turns up.</span></span><span class="al-ch-tag">Hands-on</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+        <div class="al-ch-body">
+      <figure class="exhibit">
+        <figcaption class="exh">Where it is used</figcaption>
+        <p class="net-lede">The same recipe, a table of weights nudged whenever it is wrong, turns up in real products. Here is this page&rsquo;s one-layer model reading a ZIP code.</p>
+        <div class="al-zip" id="alZip"></div>
+        <p class="src">Digits are from the MNIST training set, read with the real weights from the script below. About one digit in eight comes out wrong, so nearly half of all five-digit ZIP codes would contain a mistake. The system LeCun&rsquo;s team built for the US Postal Service in 1989 had an error rate of about 1%, and declined to answer on about 9% of digits instead of guessing.</p>
+        <div class="al-uses">
+          <div><h4>Reading handwriting</h4><p>Convolutional networks, which add layers to this idea, read US ZIP codes in the late 1980s. NCR&rsquo;s check readers, in banks from 1996, were estimated to read about 20 million checks a day by 2001, around 10% of all checks in the US.</p></div>
+          <div><h4>Language</h4><p>Since 2002, perceptron training has been popular in natural language processing, for jobs like tagging each word in a sentence as a noun or verb and working out its grammatical structure.</p></div>
+          <div><h4>Scoring with weights</h4><p>Spam filters and ad-click predictors often start as a weight for each signal: a word, a website, a time of day. Add up the weights that apply and compare the total with a cutoff. That sum is W @ x.</p></div>
+          <div><h4>Today&rsquo;s AI</h4><p>Image, speech and language models are the same loop at enormous scale: many layers and billions of weights, each guess compared with the answer and the weights adjusted. Calculus decides how much to change each one, instead of a flat plus or minus 1.</p></div>
+        </div>
+        <p class="src">Check and ZIP code figures are from Wikipedia&rsquo;s article on LeNet, which cites LeCun and colleagues. The 2002 language result is Michael Collins&rsquo;s, as described in Wikipedia&rsquo;s article on the perceptron.</p>
+      </figure>
+        </div>
+      </details>
+      <details class="al-ch" id="ch-people">
+        <summary><span class="al-ch-n">6</span><span class="al-ch-h"><span class="al-ch-t">The people behind it</span><span class="al-ch-b">Rosenblatt, Hinton, the Mark I machine, and who took the idea further.</span></span><span class="al-ch-tag">Background</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+        <div class="al-ch-body">
       <figure class="exhibit">
         <figcaption class="exh">Who came up with it</figcaption>
         <p class="net-lede">The rule on this page is more than sixty years old. One person invented it, and another spent a career turning it into what you read about above.</p>
@@ -159,78 +242,62 @@
           </div>
         </div>
       </figure>
-
       <figure class="exhibit">
-        <figcaption class="exh">What the model sees: a picture becomes x</figcaption>
-        <p class="net-lede">The model never sees a picture, only numbers. A scanner gives each of the 784 pixels a brightness from 0 to 255. Anything brighter than the cutoff counts as ink (1) and the rest as no ink (0). Pick a digit, move the cutoff, and point at a pixel to see its number.</p>
-        <div class="al-see" id="alSee"></div>
-      </figure>
-
-      <figure class="exhibit">
-        <figcaption class="exh">Train it: ten digits, thousands of corrections</figcaption>
-        <p class="net-lede">The same rule, running live in your browser on ten digits drawn in a 5 by 7 grid, with some pixels flipped at random (marked with a red dot) so no two pictures are alike. Turn the messiness up and the digits get hard to read, even for you. Each template starts blank. Green means the pixel votes for that digit, red means it votes against.</p>
-        <div class="al-live" id="alLive"></div>
-        <p class="src">The templates are drawn from W. The percentage is measured on 400 messy pictures the model never trained on. With a lot of mess it plateaus: one layer of weights can only draw a straight line between digits.</p>
-      </figure>
-
-      <details class="al-details al-more">
-        <summary>Learn more: the update rule, step by step</summary>
-      <figure class="exhibit al-sub">
-        <figcaption class="al-subh">The update, one cell at a time</figcaption>
-        <p class="net-lede">The two lines that do all the learning are <code>W[y] += x</code> and <code>W[guess] -= x</code>. Here they are on a 3 by 3 picture of a vertical bar (the middle column is inked, so x is 1 there and 0 everywhere else), with every cell's arithmetic shown.</p>
-        <div class="al-upd" id="alUpd"></div>
-      </figure>
-
-      <figure class="exhibit al-sub">
-        <figcaption class="al-subh">Watch it learn: three shapes, nine pixels</figcaption>
-        <p class="net-lede">The same model shrunk until you can read every number. It has to tell a vertical bar, a horizontal bar and a diagonal apart. Press the button to step through five rounds of the loop: look, score, guess, check, fix.</p>
-        <div class="al-hand" id="alHand"></div>
-        <div class="al-math">
-          <div><h4>x</h4><p>The picture as a list: here 9 numbers, on a real image 784. Each is 1 (ink) or 0 (no ink). It is not a match against a template. It is only what the picture looks like.</p></div>
-          <div><h4>W</h4><p>The weights, a table with a row per digit and a column per pixel. A positive number says &ldquo;ink here is evidence for this digit&rdquo;. A negative one says &ldquo;ink here is evidence against&rdquo;. The model is nothing but this table.</p></div>
-          <div><h4>W @ x</h4><p>Multiply each row by x and add up. Because x is only ones and zeros, that is just the weights that sit under the ink, added together. One total per row: the scores.</p></div>
-          <div><h4>The update</h4><p>The right row gets x added, so the ink in this picture now counts for the right digit. The guessed row gets x subtracted, so it counts a little less for the wrong one. Right guess, and the two cancel.</p></div>
+        <figcaption class="exh">What came next: the people who took it further</figcaption>
+        <p class="net-lede">Rosenblatt&rsquo;s rule can only draw one straight line between classes. Most of what followed is the story of getting past that.</p>
+        <div class="al-cards">
+          <article class="al-card">
+            <img src="ai/people/marvin-minsky.jpg" width="500" height="666" loading="lazy" alt="Portrait of Marvin Minsky in a beige jacket and checked shirt">
+            <p class="al-when">1969</p>
+            <h3>Marvin Minsky</h3>
+            <p class="al-role">1927&ndash;2016</p>
+            <p>With Seymour Papert he wrote <i>Perceptrons</i>, which analysed what a single layer of weights cannot do. It is often credited with cooling interest in neural networks for years. The book was dedicated to Rosenblatt, who went to the same high school a year behind him.</p>
+          </article>
+          <article class="al-card">
+            <img src="ai/people/seymour-papert.jpg" width="500" height="690" loading="lazy" alt="Black and white portrait of Seymour Papert with long hair and a beard, resting his hands on a table beside a small domed robot">
+            <p class="al-when">1969</p>
+            <h3>Seymour Papert</h3>
+            <p class="al-role">1928&ndash;2016</p>
+            <p>Co-author of <i>Perceptrons</i> and an early AI pioneer at MIT. He later co-invented Logo, a programming language made for children.</p>
+          </article>
+          <article class="al-card">
+            <img src="ai/people/david-rumelhart.jpg" width="500" height="577" loading="lazy" alt="Photo of David Rumelhart speaking into a microphone at a conference, wearing a grey jacket and red tie">
+            <p class="al-when">1986</p>
+            <h3>David Rumelhart</h3>
+            <p class="al-role">1942&ndash;2011</p>
+            <p>A psychologist who, with Hinton and Ronald Williams, published the paper that popularised backpropagation, a way to train many layers of weights instead of one. That is what gets past the straight-line limit.</p>
+          </article>
+          <article class="al-card">
+            <img src="ai/people/yann-lecun.jpg" width="500" height="633" loading="lazy" alt="Portrait of Yann LeCun smiling, wearing dark-rimmed glasses and a navy jacket">
+            <p class="al-when">1988</p>
+            <h3>Yann LeCun</h3>
+            <p class="al-role">Born 1960</p>
+            <p>Briefly a postdoc under Hinton, he led the LeNet networks that read handwritten characters, and co-created MNIST, the 70,000 digits on this page. He shared the 2018 Turing Award with Hinton and Yoshua Bengio.</p>
+          </article>
+          <article class="al-card wide">
+            <img src="ai/people/hinton-hopfield-nobel.jpg" width="960" height="758" loading="lazy" alt="Geoffrey Hinton and John Hopfield standing side by side on a dark stage during Nobel Prize week 2024">
+            <p class="al-when">2024</p>
+            <h3>Hinton and John Hopfield</h3>
+            <p class="al-role">Nobel Prize in Physics</p>
+            <p>Hopfield&rsquo;s 1982 network helped revive interest in neural networks. In 2024 he and Hinton shared the Nobel Prize in Physics for foundational discoveries that enable machine learning with artificial neural networks.</p>
+          </article>
         </div>
+        <p class="src">Photos from Wikimedia Commons, shown in black and white and otherwise unaltered:
+          <a href="https://commons.wikimedia.org/wiki/File:Marvin_Minsky_at_OLPCb_(3x4_cropped).jpg" target="_blank" rel="noopener">Minsky</a> by Sethwoodworth (CC BY 3.0);
+          <a href="https://commons.wikimedia.org/wiki/File:Seymour_Papert.jpg" target="_blank" rel="noopener">Papert</a> by Matematicamente.it (CC BY-SA 3.0);
+          <a href="https://commons.wikimedia.org/wiki/File:DavidRumelhart-IJCNNseattle1991-07-08.jpg" target="_blank" rel="noopener">Rumelhart</a> by Rolf Kickuth (CC BY-SA 4.0);
+          <a href="https://commons.wikimedia.org/wiki/File:Laura_Chaubard_%26_Yann_Le_Cun_-_2024_(53814052697)_(cropped).jpg" target="_blank" rel="noopener">LeCun</a> by J&eacute;r&eacute;my Barande (CC BY-SA 2.0);
+          <a href="https://commons.wikimedia.org/wiki/File:John_J._Hopfield_and_Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics.jpg" target="_blank" rel="noopener">Hopfield and Hinton</a> by Arthur Petron (CC BY-SA 4.0).</p>
       </figure>
+        </div>
       </details>
-
-
-      <figure class="exhibit">
-        <figcaption class="exh">What it learned from real handwriting</figcaption>
-        <p class="net-lede">The same rule, on 60,000 real handwritten digits from the MNIST data set, run as the Python below. Each picture is one row of W folded back into a 28 by 28 square. You can see a rough 0 ring, a 1 stroke and so on, with red where ink argues against the digit.</p>
-        <div id="alReal"></div>
-        <p class="src">Real output from the script below, run once with a fixed random seed. Accuracy is measured on the 10,000 test images, which are never used for training. It wobbles between passes because a perceptron keeps correcting itself rather than settling.</p>
-      </figure>
-
-      <figure class="exhibit">
-        <figcaption class="exh">Where it stops: one rigid template per digit</figcaption>
-        <p class="net-lede">Each digit gets a single template, and the winner is whichever template overlaps the ink the most. That only works while every digit is written the same way in the same place. Slide a real digit and watch the scores.</p>
-        <div class="al-lim" id="alStop"></div>
-        <p class="al-prose">Nothing about the digit changed, but its ink now lands on different weights, so the right template loses its lead. People write the same digit at different sizes, slants and positions, and one template cannot cover all of them. Hinton makes this point in his lectures: handwritten digits vary too much for &ldquo;simple template matches of whole shapes.&rdquo; The fix is more layers, which first learn small parts such as strokes and curves, then combine them.</p>
-        <p class="src">Uses the real learned weights above, on the 60 sample digits from the wall. Shifting moves the whole digit and fills the gap with blank pixels.</p>
-      </figure>
-
-      <figure class="exhibit">
-        <figcaption class="exh">Where it is used</figcaption>
-        <p class="net-lede">The same recipe, a table of weights nudged whenever it is wrong, turns up in real products. Here is this page&rsquo;s one-layer model reading a ZIP code.</p>
-        <div class="al-zip" id="alZip"></div>
-        <p class="src">Digits are from the MNIST training set, read with the real weights from the script below. About one digit in eight comes out wrong, so nearly half of all five-digit ZIP codes would contain a mistake. The system LeCun&rsquo;s team built for the US Postal Service in 1989 had an error rate of about 1%, and declined to answer on about 9% of digits instead of guessing.</p>
-        <div class="al-uses">
-          <div><h4>Reading handwriting</h4><p>Convolutional networks, which add layers to this idea, read US ZIP codes in the late 1980s. NCR&rsquo;s check readers, in banks from 1996, were estimated to read about 20 million checks a day by 2001, around 10% of all checks in the US.</p></div>
-          <div><h4>Language</h4><p>Since 2002, perceptron training has been popular in natural language processing, for jobs like tagging each word in a sentence as a noun or verb and working out its grammatical structure.</p></div>
-          <div><h4>Scoring with weights</h4><p>Spam filters and ad-click predictors often start as a weight for each signal: a word, a website, a time of day. Add up the weights that apply and compare the total with a cutoff. That sum is W @ x.</p></div>
-          <div><h4>Today&rsquo;s AI</h4><p>Image, speech and language models are the same loop at enormous scale: many layers and billions of weights, each guess compared with the answer and the weights adjusted. Calculus decides how much to change each one, instead of a flat plus or minus 1.</p></div>
-        </div>
-        <p class="src">Check and ZIP code figures are from Wikipedia&rsquo;s article on LeNet, which cites LeCun and colleagues. The 2002 language result is Michael Collins&rsquo;s, as described in Wikipedia&rsquo;s article on the perceptron.</p>
-      </figure>
-
+      <details class="al-ch" id="ch-code">
+        <summary><span class="al-ch-n">7</span><span class="al-ch-h"><span class="al-ch-t">The code, line by line</span><span class="al-ch-b">The whole Python script, with a note on every part.</span></span><span class="al-ch-tag">For coders</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+        <div class="al-ch-body">
       <figure class="exhibit">
         <figcaption class="exh">The code, line by line</figcaption>
         <p class="net-lede">This is the whole program, unchanged. Each section is followed by notes: hover (or tap) a note and the line it explains lights up.</p>
-        <details class="al-details">
-          <summary>Open the code and the notes</summary>
-          <div class="al-code" id="alCode"></div>
-        </details>
+        <div class="al-code" id="alCode"></div>
         <script type="text/plain" id="alCodeSrc">
 """
 Hinton's "learned weights" example: one weight template per digit.
@@ -338,54 +405,9 @@ plt.tight_layout()
 plt.show()
 </script>
       </figure>
-
-      <figure class="exhibit">
-        <figcaption class="exh">What came next: the people who took it further</figcaption>
-        <p class="net-lede">Rosenblatt&rsquo;s rule can only draw one straight line between classes. Most of what followed is the story of getting past that.</p>
-        <div class="al-cards">
-          <article class="al-card">
-            <img src="ai/people/marvin-minsky.jpg" width="500" height="666" loading="lazy" alt="Portrait of Marvin Minsky in a beige jacket and checked shirt">
-            <p class="al-when">1969</p>
-            <h3>Marvin Minsky</h3>
-            <p class="al-role">1927&ndash;2016</p>
-            <p>With Seymour Papert he wrote <i>Perceptrons</i>, which analysed what a single layer of weights cannot do. It is often credited with cooling interest in neural networks for years. The book was dedicated to Rosenblatt, who went to the same high school a year behind him.</p>
-          </article>
-          <article class="al-card">
-            <img src="ai/people/seymour-papert.jpg" width="500" height="690" loading="lazy" alt="Black and white portrait of Seymour Papert with long hair and a beard, resting his hands on a table beside a small domed robot">
-            <p class="al-when">1969</p>
-            <h3>Seymour Papert</h3>
-            <p class="al-role">1928&ndash;2016</p>
-            <p>Co-author of <i>Perceptrons</i> and an early AI pioneer at MIT. He later co-invented Logo, a programming language made for children.</p>
-          </article>
-          <article class="al-card">
-            <img src="ai/people/david-rumelhart.jpg" width="500" height="577" loading="lazy" alt="Photo of David Rumelhart speaking into a microphone at a conference, wearing a grey jacket and red tie">
-            <p class="al-when">1986</p>
-            <h3>David Rumelhart</h3>
-            <p class="al-role">1942&ndash;2011</p>
-            <p>A psychologist who, with Hinton and Ronald Williams, published the paper that popularised backpropagation, a way to train many layers of weights instead of one. That is what gets past the straight-line limit.</p>
-          </article>
-          <article class="al-card">
-            <img src="ai/people/yann-lecun.jpg" width="500" height="633" loading="lazy" alt="Portrait of Yann LeCun smiling, wearing dark-rimmed glasses and a navy jacket">
-            <p class="al-when">1988</p>
-            <h3>Yann LeCun</h3>
-            <p class="al-role">Born 1960</p>
-            <p>Briefly a postdoc under Hinton, he led the LeNet networks that read handwritten characters, and co-created MNIST, the 70,000 digits on this page. He shared the 2018 Turing Award with Hinton and Yoshua Bengio.</p>
-          </article>
-          <article class="al-card wide">
-            <img src="ai/people/hinton-hopfield-nobel.jpg" width="960" height="758" loading="lazy" alt="Geoffrey Hinton and John Hopfield standing side by side on a dark stage during Nobel Prize week 2024">
-            <p class="al-when">2024</p>
-            <h3>Hinton and John Hopfield</h3>
-            <p class="al-role">Nobel Prize in Physics</p>
-            <p>Hopfield&rsquo;s 1982 network helped revive interest in neural networks. In 2024 he and Hinton shared the Nobel Prize in Physics for foundational discoveries that enable machine learning with artificial neural networks.</p>
-          </article>
         </div>
-        <p class="src">Photos from Wikimedia Commons, shown in black and white and otherwise unaltered:
-          <a href="https://commons.wikimedia.org/wiki/File:Marvin_Minsky_at_OLPCb_(3x4_cropped).jpg" target="_blank" rel="noopener">Minsky</a> by Sethwoodworth (CC BY 3.0);
-          <a href="https://commons.wikimedia.org/wiki/File:Seymour_Papert.jpg" target="_blank" rel="noopener">Papert</a> by Matematicamente.it (CC BY-SA 3.0);
-          <a href="https://commons.wikimedia.org/wiki/File:DavidRumelhart-IJCNNseattle1991-07-08.jpg" target="_blank" rel="noopener">Rumelhart</a> by Rolf Kickuth (CC BY-SA 4.0);
-          <a href="https://commons.wikimedia.org/wiki/File:Laura_Chaubard_%26_Yann_Le_Cun_-_2024_(53814052697)_(cropped).jpg" target="_blank" rel="noopener">LeCun</a> by J&eacute;r&eacute;my Barande (CC BY-SA 2.0);
-          <a href="https://commons.wikimedia.org/wiki/File:John_J._Hopfield_and_Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics.jpg" target="_blank" rel="noopener">Hopfield and Hinton</a> by Arthur Petron (CC BY-SA 4.0).</p>
-      </figure>
+      </details>
+      </div>
 
       <div class="al-wrap-up">
         <h3>What to take from it</h3>
