@@ -205,94 +205,8 @@
       </figure>
         </div>
       </details>
-      <details class="al-ch" id="ch-people">
-        <summary><span class="al-ch-n">6</span><span class="al-ch-h"><span class="al-ch-t">The people behind it</span><span class="al-ch-b">Rosenblatt, Hinton, the Mark I machine, and who took the idea further.</span></span><span class="al-ch-tag">Background</span><span class="al-ch-i" aria-hidden="true"></span></summary>
-        <div class="al-ch-body">
-      <figure class="exhibit">
-        <figcaption class="exh">Who came up with it</figcaption>
-        <p class="net-lede">The rule on this page is more than sixty years old. One person invented it, and another spent a career turning it into what you read about above.</p>
-        <div class="al-people">
-          <article class="al-person">
-            <img src="ai/people/frank-rosenblatt.jpg" width="350" height="455" loading="lazy" alt="Black and white portrait photo of Frank Rosenblatt as a young man in a jacket and tie">
-            <div>
-              <h3>Frank Rosenblatt</h3>
-              <p class="al-role">1928&ndash;1971 &middot; Psychologist, Cornell Aeronautical Laboratory</p>
-              <p>Invented the <b>perceptron</b>, the learning rule this page runs: guess, and if the guess is wrong, nudge the weights toward the right answer and away from the wrong one. He first simulated it on an IBM 704 in 1957, then built the Mark I Perceptron in 1960, a machine that learned to recognise letters by trial and error. In 1958 the New York Times headlined it &ldquo;New Navy Device Learns By Doing.&rdquo; He died in a boating accident in 1971, on his 43rd birthday.</p>
-              <p class="src">Photo: Heinz Nixdorf MuseumsForum, via <a href="https://commons.wikimedia.org/wiki/File:Frank_Rosenblatt.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, CC BY-SA 4.0. <a href="https://en.wikipedia.org/wiki/Frank_Rosenblatt" target="_blank" rel="noopener">More on Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="al-person">
-            <img src="ai/people/geoffrey-hinton.jpg" width="500" height="700" loading="lazy" alt="Portrait photo of Geoffrey Hinton resting his chin on his hand">
-            <div>
-              <h3>Geoffrey Hinton</h3>
-              <p class="al-role">Born 1947 &middot; Computer scientist, University of Toronto</p>
-              <p>Spent a career stretching this idea from one layer of weights to many, including the 1986 paper with David Rumelhart and Ronald Williams that popularised backpropagation. AlexNet, built with his students, won the 2012 ImageNet contest. He shared the 2018 Turing Award and the 2024 Nobel Prize in Physics. The &ldquo;learned weights&rdquo; picture this page is built on, one template per digit, comes from his lectures, and the Python below is a version of it.</p>
-              <p class="src">Photo: Cmichel67, via <a href="https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, CC BY-SA 4.0. <a href="https://en.wikipedia.org/wiki/Geoffrey_Hinton" target="_blank" rel="noopener">More on Wikipedia</a>.</p>
-            </div>
-          </article>
-        </div>
-        <div class="al-machine">
-          <img src="ai/people/mark-i-perceptron.jpg" width="960" height="751" loading="lazy" alt="Black and white US Navy photo of a man at the Mark I Perceptron, with a large letter C lit up in front of the machine's photocell camera">
-          <div>
-            <h3>The Mark I Perceptron</h3>
-            <p class="al-role">Cornell Aeronautical Laboratory, funded by the US Navy</p>
-            <p>Rosenblatt's idea ran on real hardware. Letters like the C on the left were held in front of the machine's photoelectric &ldquo;eye&rdquo;. The Navy's own caption says that when the machine misidentified a letter, the trainer forced it to respond correctly, and that with a second typeface mixed in it was right 85 percent of the time.</p>
-            <p>That is the loop on this page: guess, check, correct. It was done here with electromechanical parts instead of Python.</p>
-            <p class="src">Photo: US Navy, via the National Museum of the U.S. Navy and <a href="https://commons.wikimedia.org/wiki/File:330-PSA-80-60_(USN_710739)_(20897323365).jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, public domain.</p>
-          </div>
-        </div>
-      </figure>
-      <figure class="exhibit">
-        <figcaption class="exh">What came next: the people who took it further</figcaption>
-        <p class="net-lede">Rosenblatt&rsquo;s rule can only draw one straight line between classes. Most of what followed is the story of getting past that.</p>
-        <div class="al-cards">
-          <article class="al-card">
-            <img src="ai/people/marvin-minsky.jpg" width="500" height="666" loading="lazy" alt="Portrait of Marvin Minsky in a beige jacket and checked shirt">
-            <p class="al-when">1969</p>
-            <h3>Marvin Minsky</h3>
-            <p class="al-role">1927&ndash;2016</p>
-            <p>With Seymour Papert he wrote <i>Perceptrons</i>, which analysed what a single layer of weights cannot do. It is often credited with cooling interest in neural networks for years. The book was dedicated to Rosenblatt, who went to the same high school a year behind him.</p>
-          </article>
-          <article class="al-card">
-            <img src="ai/people/seymour-papert.jpg" width="500" height="690" loading="lazy" alt="Black and white portrait of Seymour Papert with long hair and a beard, resting his hands on a table beside a small domed robot">
-            <p class="al-when">1969</p>
-            <h3>Seymour Papert</h3>
-            <p class="al-role">1928&ndash;2016</p>
-            <p>Co-author of <i>Perceptrons</i> and an early AI pioneer at MIT. He later co-invented Logo, a programming language made for children.</p>
-          </article>
-          <article class="al-card">
-            <img src="ai/people/david-rumelhart.jpg" width="500" height="577" loading="lazy" alt="Photo of David Rumelhart speaking into a microphone at a conference, wearing a grey jacket and red tie">
-            <p class="al-when">1986</p>
-            <h3>David Rumelhart</h3>
-            <p class="al-role">1942&ndash;2011</p>
-            <p>A psychologist who, with Hinton and Ronald Williams, published the paper that popularised backpropagation, a way to train many layers of weights instead of one. That is what gets past the straight-line limit.</p>
-          </article>
-          <article class="al-card">
-            <img src="ai/people/yann-lecun.jpg" width="500" height="633" loading="lazy" alt="Portrait of Yann LeCun smiling, wearing dark-rimmed glasses and a navy jacket">
-            <p class="al-when">1988</p>
-            <h3>Yann LeCun</h3>
-            <p class="al-role">Born 1960</p>
-            <p>Briefly a postdoc under Hinton, he led the LeNet networks that read handwritten characters, and co-created MNIST, the 70,000 digits on this page. He shared the 2018 Turing Award with Hinton and Yoshua Bengio.</p>
-          </article>
-          <article class="al-card wide">
-            <img src="ai/people/hinton-hopfield-nobel.jpg" width="960" height="758" loading="lazy" alt="Geoffrey Hinton and John Hopfield standing side by side on a dark stage during Nobel Prize week 2024">
-            <p class="al-when">2024</p>
-            <h3>Hinton and John Hopfield</h3>
-            <p class="al-role">Nobel Prize in Physics</p>
-            <p>Hopfield&rsquo;s 1982 network helped revive interest in neural networks. In 2024 he and Hinton shared the Nobel Prize in Physics for foundational discoveries that enable machine learning with artificial neural networks.</p>
-          </article>
-        </div>
-        <p class="src">Photos from Wikimedia Commons, shown in black and white and otherwise unaltered:
-          <a href="https://commons.wikimedia.org/wiki/File:Marvin_Minsky_at_OLPCb_(3x4_cropped).jpg" target="_blank" rel="noopener">Minsky</a> by Sethwoodworth (CC BY 3.0);
-          <a href="https://commons.wikimedia.org/wiki/File:Seymour_Papert.jpg" target="_blank" rel="noopener">Papert</a> by Matematicamente.it (CC BY-SA 3.0);
-          <a href="https://commons.wikimedia.org/wiki/File:DavidRumelhart-IJCNNseattle1991-07-08.jpg" target="_blank" rel="noopener">Rumelhart</a> by Rolf Kickuth (CC BY-SA 4.0);
-          <a href="https://commons.wikimedia.org/wiki/File:Laura_Chaubard_%26_Yann_Le_Cun_-_2024_(53814052697)_(cropped).jpg" target="_blank" rel="noopener">LeCun</a> by J&eacute;r&eacute;my Barande (CC BY-SA 2.0);
-          <a href="https://commons.wikimedia.org/wiki/File:John_J._Hopfield_and_Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics.jpg" target="_blank" rel="noopener">Hopfield and Hinton</a> by Arthur Petron (CC BY-SA 4.0).</p>
-      </figure>
-        </div>
-      </details>
       <details class="al-ch" id="ch-code">
-        <summary><span class="al-ch-n">7</span><span class="al-ch-h"><span class="al-ch-t">The code, line by line</span><span class="al-ch-b">The whole Python script, with a note on every part.</span></span><span class="al-ch-tag">For coders</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+        <summary><span class="al-ch-n">6</span><span class="al-ch-h"><span class="al-ch-t">The code, line by line</span><span class="al-ch-b">The whole Python script, with a note on every part.</span></span><span class="al-ch-tag">For coders</span><span class="al-ch-i" aria-hidden="true"></span></summary>
         <div class="al-ch-body">
       <figure class="exhibit">
         <figcaption class="exh">The code, line by line</figcaption>
@@ -415,6 +329,104 @@ plt.show()
         <p><b>Training and testing are different pictures.</b> Training runs over 60,000 images, three times, so 180,000 corrections. The 10,000 test images only measure the result, which is how you know it learned handwriting rather than memorised pictures.</p>
         <p><b>This is the smallest case.</b> Modern models stack many layers of W, add a step that lets them bend the lines between classes, and replace &ldquo;add or subtract x&rdquo; with calculus that works out how much each weight caused the mistake. They also have billions of weights rather than 7,840. The loop is the same: score, compare, adjust.</p>
       </div>
+    </div>
+  </section>
+
+  <section class="band gf" id="godfathers">
+    <div class="wrap">
+      <div class="sechead">
+        <div class="ttl"><h2>The godfathers of AI</h2></div>
+      </div>
+      <p class="gf-lede">Three researchers who kept working on neural networks through the long years when the approach was out of favour. In 2018 they shared the Turing Award, computing&rsquo;s highest honour, and they are often called the godfathers of AI. Behind them stands a line of people going back to the 1950s.</p>
+
+      <div class="gf-trio">
+        <article class="gf-big">
+          <img src="ai/people/geoffrey-hinton.jpg" width="500" height="700" loading="lazy" alt="Portrait photo of Geoffrey Hinton resting his chin on his hand">
+          <p class="gf-tag">Turing Award 2018 &middot; Nobel Prize 2024</p>
+          <h3>Geoffrey Hinton</h3>
+          <p class="gf-role">Born 1947 &middot; University of Toronto</p>
+          <p>The one most often called the Godfather of AI. He worked on neural networks for decades and co-authored the 1986 paper that popularised backpropagation. With his students Alex Krizhevsky and Ilya Sutskever he built AlexNet, which won the 2012 ImageNet contest. He shared the 2024 Nobel Prize in Physics, and in 2023 he left Google to speak openly about the risks of AI.</p>
+        </article>
+        <article class="gf-big">
+          <img src="ai/people/yann-lecun.jpg" width="500" height="633" loading="lazy" alt="Portrait of Yann LeCun smiling, wearing dark-rimmed glasses and a navy jacket">
+          <p class="gf-tag">Turing Award 2018</p>
+          <h3>Yann LeCun</h3>
+          <p class="gf-role">Born 1960 &middot; New York University</p>
+          <p>Briefly a postdoc under Hinton. From 1988 he led LeNet, convolutional networks that read handwritten characters, and he co-created MNIST, the digits in the explainer above. A check-reading system he helped develop was widely deployed by NCR. He was Meta&rsquo;s chief AI scientist before co-founding Advanced Machine Intelligence Labs in December 2025.</p>
+        </article>
+        <article class="gf-big">
+          <img src="ai/people/yoshua-bengio.jpg" width="500" height="603" loading="lazy" alt="Portrait of Yoshua Bengio with grey hair and a beard, smiling at the camera">
+          <p class="gf-tag">Turing Award 2018</p>
+          <h3>Yoshua Bengio</h3>
+          <p class="gf-role">Born 1964 &middot; Universit&eacute; de Montr&eacute;al</p>
+          <p>He founded Mila, the Quebec AI institute, and was its scientific director until 2025. He is the most-cited computer scientist in the world, and in 2025 became the first AI researcher with more than a million Google Scholar citations. He now co-leads LawZero, a nonprofit.</p>
+        </article>
+      </div>
+
+      <h3 class="gf-sub">Where it all started</h3>
+      <div class="gf-origin">
+        <div class="gf-origin-text">
+          <article class="gf-rosen">
+            <img src="ai/people/frank-rosenblatt.jpg" width="350" height="455" loading="lazy" alt="Black and white portrait photo of Frank Rosenblatt as a young man in a jacket and tie">
+            <div>
+              <p class="gf-when">1958</p>
+              <h3>Frank Rosenblatt</h3>
+              <p class="gf-role">1928&ndash;1971 &middot; Psychologist, Cornell Aeronautical Laboratory</p>
+              <p>Invented the <b>perceptron</b>, the learning rule in the explainer above: guess, and if the guess is wrong, nudge the weights toward the right answer and away from the wrong one. He first simulated it on an IBM 704 in 1957. In 1958 the New York Times headlined it &ldquo;New Navy Device Learns By Doing.&rdquo; He died in a boating accident in 1971, on his 43rd birthday.</p>
+            </div>
+          </article>
+          <div class="gf-machine-text">
+            <p class="gf-when">The Mark I Perceptron</p>
+            <p>Rosenblatt&rsquo;s idea in hardware, built at Cornell Aeronautical Laboratory with Navy funding. Letters like the C in the photo were held in front of its photoelectric &ldquo;eye&rdquo;. The Navy&rsquo;s own caption says that when it misidentified a letter, the trainer forced it to respond correctly, and that with a second typeface mixed in it was right 85 percent of the time.</p>
+          </div>
+        </div>
+        <img class="gf-machine" src="ai/people/mark-i-perceptron.jpg" width="960" height="751" loading="lazy" alt="Black and white US Navy photo of a man at the Mark I Perceptron, with a large letter C lit up in front of the machine's photocell camera">
+      </div>
+
+      <h3 class="gf-sub">The people in between</h3>
+      <p class="gf-lede">Rosenblatt&rsquo;s rule can only draw one straight line between classes. Most of what followed is the story of getting past that.</p>
+      <div class="gf-cards">
+        <article class="gf-card">
+          <img src="ai/people/marvin-minsky.jpg" width="500" height="666" loading="lazy" alt="Portrait of Marvin Minsky in a beige jacket and checked shirt">
+          <p class="gf-when">1969</p>
+          <h3>Marvin Minsky</h3>
+          <p class="gf-role">1927&ndash;2016</p>
+          <p>With Seymour Papert he wrote <i>Perceptrons</i>, which analysed what a single layer of weights cannot do. It is often credited with cooling interest in neural networks for years. The book was dedicated to Rosenblatt, who went to the same high school a year behind him.</p>
+        </article>
+        <article class="gf-card">
+          <img src="ai/people/seymour-papert.jpg" width="500" height="690" loading="lazy" alt="Black and white portrait of Seymour Papert with long hair and a beard, resting his hands on a table beside a small domed robot">
+          <p class="gf-when">1969</p>
+          <h3>Seymour Papert</h3>
+          <p class="gf-role">1928&ndash;2016</p>
+          <p>Co-author of <i>Perceptrons</i> and an early AI pioneer at MIT. He later co-invented Logo, a programming language made for children.</p>
+        </article>
+        <article class="gf-card">
+          <img src="ai/people/david-rumelhart.jpg" width="500" height="577" loading="lazy" alt="Photo of David Rumelhart speaking into a microphone at a conference, wearing a grey jacket and red tie">
+          <p class="gf-when">1986</p>
+          <h3>David Rumelhart</h3>
+          <p class="gf-role">1942&ndash;2011</p>
+          <p>A psychologist who, with Hinton and Ronald Williams, published the paper that popularised backpropagation, a way to train many layers of weights instead of one. That is what gets past the straight-line limit.</p>
+        </article>
+        <article class="gf-card wide">
+          <img src="ai/people/hinton-hopfield-nobel.jpg" width="960" height="758" loading="lazy" alt="Geoffrey Hinton and John Hopfield standing side by side on a dark stage during Nobel Prize week 2024">
+          <p class="gf-when">2024</p>
+          <h3>Hinton and John Hopfield</h3>
+          <p class="gf-role">Nobel Prize in Physics</p>
+          <p>Hopfield&rsquo;s 1982 network helped revive interest in neural networks. In 2024 he and Hinton shared the Nobel Prize in Physics for foundational discoveries that enable machine learning with artificial neural networks.</p>
+        </article>
+      </div>
+
+      <p class="src">Photos from Wikimedia Commons, shown in black and white and otherwise unaltered:
+        <a href="https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg" target="_blank" rel="noopener">Hinton</a> by Cmichel67 (CC BY-SA 4.0);
+        <a href="https://commons.wikimedia.org/wiki/File:Laura_Chaubard_%26_Yann_Le_Cun_-_2024_(53814052697)_(cropped).jpg" target="_blank" rel="noopener">LeCun</a> by J&eacute;r&eacute;my Barande (CC BY-SA 2.0);
+        <a href="https://commons.wikimedia.org/wiki/File:ICLR_2025_-_Yoshua_Bengio_02.jpg" target="_blank" rel="noopener">Bengio</a> by Xuthoria (CC BY-SA 4.0);
+        <a href="https://commons.wikimedia.org/wiki/File:Frank_Rosenblatt.jpg" target="_blank" rel="noopener">Rosenblatt</a> by Heinz Nixdorf MuseumsForum (CC BY-SA 4.0);
+        <a href="https://commons.wikimedia.org/wiki/File:330-PSA-80-60_(USN_710739)_(20897323365).jpg" target="_blank" rel="noopener">Mark I Perceptron</a> by the US Navy (public domain);
+        <a href="https://commons.wikimedia.org/wiki/File:Marvin_Minsky_at_OLPCb_(3x4_cropped).jpg" target="_blank" rel="noopener">Minsky</a> by Sethwoodworth (CC BY 3.0);
+        <a href="https://commons.wikimedia.org/wiki/File:Seymour_Papert.jpg" target="_blank" rel="noopener">Papert</a> by Matematicamente.it (CC BY-SA 3.0);
+        <a href="https://commons.wikimedia.org/wiki/File:DavidRumelhart-IJCNNseattle1991-07-08.jpg" target="_blank" rel="noopener">Rumelhart</a> by Rolf Kickuth (CC BY-SA 4.0);
+        <a href="https://commons.wikimedia.org/wiki/File:John_J._Hopfield_and_Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics.jpg" target="_blank" rel="noopener">Hopfield and Hinton</a> by Arthur Petron (CC BY-SA 4.0).
+        Biographical details are from Wikipedia, the Navy&rsquo;s caption for the Mark I photo, and the Nobel and Turing Award announcements as summarised there.</p>
     </div>
   </section>
 </main>
