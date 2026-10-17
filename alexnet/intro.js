@@ -68,7 +68,7 @@
     }
     function stop() { if (timer) { clearInterval(timer); timer = 0; } hot = -1; }
     function run() { stop(); step = 0; hot = -1; render(); if (AX.reduceMotion) { step = 9; render(); return; } timer = setInterval(() => { step++; hot = step - 1; if (step >= 9) { stop(); step = 9; } render(); }, 380); }
-    function settle() { stop(); step = 9; render(); }
+    function settle() { stop(); step = 9; render(); document.dispatchEvent(new CustomEvent("ax-stencil", { detail: STENCILS[sid].id })); }
     render();
   })();
 
@@ -78,21 +78,23 @@
   (function scan() {
     const fig = $("axScan"); if (!fig) return;
     const N = 64, O = 62;
-    let gray = null, base = null, ki = 0, mx = 30, my = 22, painted = new Uint8Array(O * O), sc = new Float32Array(O * O), scale = 1, src = 0, anim = 0, prev = null, shifted = 0;
-    const SRC = [["Shapes", "shapes"], ["Elephant", "elephant-calf"], ["Tusker", "elephant-tusker"], ["A handwritten 7", "digit"]];
+    let gray = null, base = null, ki = 0, mx = 24, my = 30, painted = new Uint8Array(O * O), sc = new Float32Array(O * O), scale = 1, src = 0, anim = 0, prev = null, shifted = 0;
+    const SRC = [["An elephant", "elephant-river"], ["On the savanna", "elephant-away"], ["Mother and calf", "elephant-calf"], ["A handwritten 7", "digit"], ["Test shapes", "shapes"]];
+    const SC = [STENCILS[0], STENCILS[1], { id: "outline", name: "Outline", hint: "both together", combo: true, k: STENCILS[0].k }, STENCILS[2], STENCILS[3]];
+    const ID2KI = { edge: 0, across: 1, diag: 3, dot: 4, outline: 2 };
     const photoCv = h("canvas", { width: N, height: N, "aria-label": "The picture to search. Drag across it." }), mapCv = h("canvas", { width: O, height: O, "aria-label": "The map of match scores" });
     const win = h("i.ax-win.m"), ring = h("i.ax-ring"), mwin = h("i.ax-win.mm");
     const pwrap = h("div.ax-cv.big", photoCv, win, ring), mwrap = h("div.ax-cv.big", mapCv, mwin, h("p.ax-empty", "Drag the magnifier over the picture, or press Scan."));
     const insetP = h("canvas", { width: 3, height: 3 }), insetS = h("div.ax-insetS"), insetT = h("div.ax-insetT", { "aria-live": "polite" });
     const srcChips = h("div.ax-chips", SRC.map(([n], i) => h("button.ax-chip", { type: "button", "data-i": i, onclick: () => { src = i; shifted = 0; load(); } }, n)));
-    const stChips = h("div.ax-cards.small", STENCILS.map((s, i) => h("button.ax-card", { type: "button", "data-i": i, onclick: () => { ki = i; recompute(); render(); } }, stencilTile(s.k), h("span.n", s.name))));
+    const stChips = h("div.ax-cards.small", SC.map((s, i) => h("button.ax-card", { type: "button", "data-i": i, onclick: () => { ki = i; recompute(); render(); } }, stencilTile(s.k), h("span.n", s.name), s.combo ? h("span.t", s.hint) : null)));
     const scanB = h("button.ax-btn", { type: "button", onclick: scanAll }, "Scan the whole picture"), showB = h("button.ax-btn.ghost", { type: "button", onclick: () => { stopAnim(); painted.fill(1); render(); } }, "Show the whole map"), clrB = h("button.ax-btn.ghost", { type: "button", onclick: () => { stopAnim(); painted.fill(0); render(); } }, "Clear the map");
     const shL = h("button.ax-chip", { type: "button", onclick: () => shift(-6) }, "Slide the picture left"), shR = h("button.ax-chip", { type: "button", onclick: () => shift(6) }, "Slide the picture right");
     fig.append(h("div.ax-lab.scan",
       h("div", h("p.ax-label", "1. Pick a picture"), srcChips, h("p.ax-label.gap", "2. What are you looking for?"), stChips),
       h("div", h("p.ax-label", "3. Drag the magnifier ", h("span", "(red square)")), pwrap, h("div.ax-row", shL, shR), h("div.ax-inset", h("div", h("p.ax-label", "Under the magnifier"), insetP, h("p.ax-x", "×")), h("div", h("p.ax-label", "The stencil"), insetS), insetT)),
       h("div", h("p.ax-label", "4. The map: one pixel per spot checked"), mwrap, h("div.ax-row", scanB, showB, clrB), h("p.ax-say", { "aria-live": "polite" }))));
-    cap(fig, "Try it.", "Choose the vertical edge stencil and the Shapes picture, then drag the magnifier along the left side of the rectangle: the map paints green where dark meets light and red where light meets dark. Switch to the horizontal edge and the top and bottom light up instead. Slide the picture and the map slides with it.");
+    cap(fig, "Try it.", "Start with the vertical edge stencil from step 1 and drag the magnifier across the elephant's legs and the edge of its back: the map lights up wherever dark meets light, and goes red where light meets dark. Then press Outline, which adds the vertical and horizontal edges together, and Scan. The whole silhouette appears, curves and all, from nothing but 3 \u00d7 3 stencils. Slide the picture and the outline slides with it.");
     const say = fig.querySelector(".ax-say"), emptyMsg = mwrap.querySelector(".ax-empty");
     // ---- pictures, shrunk to 64 x 64 and stretched so the contrast is easy to see
     const stretch = (g) => { const a = Float32Array.from(g).sort(), lo = a[Math.floor(a.length * 0.02)], hi = a[Math.floor(a.length * 0.98)], d = Math.max(1e-3, hi - lo); return g.map((v) => AX.clamp((v - lo) / d, 0, 1)); };
@@ -110,8 +112,8 @@
     function applyShift() { gray = new Float32Array(N * N); for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) gray[y * N + x] = base[y * N + AX.clamp(x - shifted, 0, N - 1)]; }
     function shift(d) { stopAnim(); shifted += d; applyShift(); recompute(); render(); }
     function recompute() {
-      if (!gray) return; const k = STENCILS[ki].k;
-      for (let y = 0; y < O; y++) for (let x = 0; x < O; x++) { let s = 0; for (let u = 0; u < 3; u++) for (let v = 0; v < 3; v++) s += k[u * 3 + v] * gray[(y + u) * N + x + v]; sc[y * O + x] = s; }
+      if (!gray) return; const k = SC[ki].k, k2 = STENCILS[1].k, combo = !!SC[ki].combo;
+      for (let y = 0; y < O; y++) for (let x = 0; x < O; x++) { let s = 0, t = 0; for (let u = 0; u < 3; u++) for (let v = 0; v < 3; v++) { const g = gray[(y + u) * N + x + v]; s += k[u * 3 + v] * g; if (combo) t += k2[u * 3 + v] * g; } sc[y * O + x] = combo ? Math.hypot(s, t) : s; }
       const a = Float32Array.from(sc, Math.abs).sort(); scale = Math.max(0.05, a[Math.floor(a.length * 0.99)]);
     }
     function render() {
@@ -120,7 +122,7 @@
       AX.drawGrid(mapCv, sc, O, O, (v, x, y) => (painted[y * O + x] ? AX.tint(v / scale, 1) : "#ebe7de"));
       srcChips.querySelectorAll(".ax-chip").forEach((b) => b.setAttribute("aria-pressed", String(+b.dataset.i === src)));
       stChips.querySelectorAll(".ax-card").forEach((b) => b.setAttribute("aria-pressed", String(+b.dataset.i === ki)));
-      insetS.replaceChildren(stencilTile(STENCILS[ki].k, "lg")); inset();
+      insetS.replaceChildren(stencilTile(SC[ki].k, "lg"), ...(SC[ki].combo ? [h("span.ax-plus", "+"), stencilTile(STENCILS[1].k, "lg")] : [])); inset();
       const n = painted.reduce((s, v) => s + v, 0); emptyMsg.style.display = n ? "none" : "block";
       ring.style.display = "none";
       if (n === O * O) { let bi = 0; for (let i = 1; i < sc.length; i++) if (sc[i] > sc[bi]) bi = i; const bx = bi % O, by = Math.floor(bi / O); ring.style.display = "block"; ring.style.left = (bx - 3) / N * 100 + "%"; ring.style.top = (by - 3) / N * 100 + "%"; ring.style.width = ring.style.height = 9 / N * 100 + "%"; say.textContent = "The whole map is filled in. The circle on the picture marks the strongest match of all."; }
@@ -128,10 +130,11 @@
     }
     const fmtN = (n) => n.toLocaleString("en-US");
     function inset() {
-      if (!gray) return; const ctx = insetP.getContext("2d"), im = ctx.createImageData(3, 3), k = STENCILS[ki].k; let s = 0;
-      for (let u = 0; u < 3; u++) for (let v = 0; v < 3; v++) { const g = gray[(my + u) * N + mx + v]; s += k[u * 3 + v] * g; const o = (u * 3 + v) * 4; im.data[o] = im.data[o + 1] = im.data[o + 2] = 18 + g * 237; im.data[o + 3] = 255; }
-      ctx.putImageData(im, 0, 0); const pct = AX.clamp(s / posSum(k), -1, 1);
-      insetT.innerHTML = "<b class='" + (pct > 0.15 ? "up" : pct < -0.15 ? "dn" : "") + "'>" + minus(Math.round(pct * 100)) + "% match</b><span>score " + num(s) + "</span>";
+      if (!gray) return; const ctx = insetP.getContext("2d"), im = ctx.createImageData(3, 3), k = SC[ki].k, k2 = STENCILS[1].k, combo = !!SC[ki].combo; let s = 0, t2 = 0;
+      for (let u = 0; u < 3; u++) for (let v = 0; v < 3; v++) { const g = gray[(my + u) * N + mx + v]; s += k[u * 3 + v] * g; if (combo) t2 += k2[u * 3 + v] * g; const o = (u * 3 + v) * 4; im.data[o] = im.data[o + 1] = im.data[o + 2] = 18 + g * 237; im.data[o + 3] = 255; }
+      ctx.putImageData(im, 0, 0);
+      if (combo) { const st = Math.hypot(s, t2), pc = AX.clamp(st / (scale * 1.0), 0, 1); insetT.innerHTML = "<b class='" + (pc > 0.15 ? "up" : "") + "'>" + Math.round(pc * 100) + "% edge</b><span>strength " + num(st) + ": how strongly there is an edge of any direction here</span>"; }
+      else { const pct = AX.clamp(s / posSum(k), -1, 1); insetT.innerHTML = "<b class='" + (pct > 0.15 ? "up" : pct < -0.15 ? "dn" : "") + "'>" + minus(Math.round(pct * 100)) + "% match</b><span>score " + num(s) + "</span>"; }
       win.style.left = mx / N * 100 + "%"; win.style.top = my / N * 100 + "%"; win.style.width = win.style.height = 3 / N * 100 + "%";
       mwin.style.left = mx / O * 100 + "%"; mwin.style.top = my / O * 100 + "%"; mwin.style.width = mwin.style.height = 1 / O * 100 + "%";
     }
@@ -154,6 +157,7 @@
       painted.fill(0); let i = 0; scanB.textContent = "Stop"; prev = null;
       (function frame() { const end = Math.min(O * O, i + 31); for (; i < end; i++) painted[i] = 1; mx = (i - 1) % O; my = Math.floor((i - 1) / O); render(); if (i < O * O) anim = requestAnimationFrame(frame); else { anim = 0; scanB.textContent = "Scan the whole picture"; } })();
     }
+    document.addEventListener("ax-stencil", (e) => { const i = ID2KI[e.detail]; if (i != null && i !== ki) { ki = i; recompute(); render(); } });
     load();
   })();
 

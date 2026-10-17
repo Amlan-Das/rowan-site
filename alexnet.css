@@ -747,3 +747,7 @@ button.ax-cell:hover { border-color: var(--ink); }
 .ax-sec { padding-bottom: 72px; }
 @media (max-width: 640px) { .ax-fig > .ax-cap { padding-right: 0; } .ax-sub span { font-size: 21px; } .ax-bridge { grid-template-columns: minmax(0, 1fr) auto; } .ax-bridge span { grid-column: 1 / -1; margin-bottom: 6px; } .ax-bridge em { font-size: 18px; } }
 .ax-name p.ax-nl { color: var(--house); font: 700 11px/1 var(--sans); }
+
+.ax-insetS { display: flex; align-items: center; gap: 10px; }
+.ax-plus { color: var(--mist); font: 300 24px/1 var(--sans); }
+.ax-insetS .ax-st.lg { width: 78px; }
