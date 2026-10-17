@@ -224,7 +224,7 @@
 
     const net = new Net(10, P);
     let rng = mulberry(7), noise = 0.08, seen = 0, recent = [], history = [], cur = null, busy = false, testSet = [];
-    const makeSample = (r) => { const y = Math.floor(r() * 10); return { y, x: GLYPHS[y].map((v) => (r() < noise ? 1 - v : v)) }; };
+    const makeSample = (r) => { const y = Math.floor(r() * 10), f = []; return { y, f, x: GLYPHS[y].map((v, i) => { if (r() < noise) { f.push(i); return 1 - v; } return v; }) }; };
     const makeTests = () => { const r = mulberry(99); testSet = Array.from({ length: 400 }, () => makeSample(r)); };
     const testAcc = () => testSet.reduce((n, s) => n + (net.predict(s.x).guess === s.y ? 1 : 0), 0) / testSet.length;
 
@@ -248,12 +248,14 @@
     const drawGrid = (ctx, cells, cw, ch, fn) => {
       for (let r = 0; r < ROWS; r++) for (let c = 0; c < COLS; c++) { ctx.fillStyle = fn(cells[r * COLS + c]); ctx.fillRect(c * cw, r * ch, cw - 1, ch - 1); }
     };
+    const flips = (s) => (s.f.length === 1 ? "1 pixel was" : s.f.length + " pixels were") + " flipped by noise";
     const draw = (info) => {
       const m = Math.max(2, net.maxAbs());
       cvs.forEach((cv, d) => drawGrid(cv.getContext("2d"), Array.from(net.W.slice(d * P, d * P + P)), 8, 8, (v) => tint(v, m)));
       const lx = $("alLx").getContext("2d");
       lx.clearRect(0, 0, 125, 175);
       drawGrid(lx, cur ? cur.x : new Array(P).fill(0), 25, 25, (v) => (v ? "#121614" : "#eef2f0"));
+      if (cur) { lx.fillStyle = "#d4372c"; cur.f.forEach((i) => lx.fillRect((i % COLS) * 25 + 3, Math.floor(i / COLS) * 25 + 3, 8, 8)); }   // red dot: this pixel was flipped
       const sc = info ? info.scores : net.predict(cur ? cur.x : new Array(P).fill(0)).scores;
       const top = Math.max(1, ...sc.map(Math.abs));
       tpls.querySelectorAll(".al-tplc").forEach((card, d) => {
@@ -283,7 +285,7 @@
       return { guess, scores, y: cur.y, wrong };
     };
     const say = (info) => {
-      $("alLxl").textContent = "It was a " + info.y;
+      $("alLxl").textContent = "It was a " + info.y + ". " + (cur.f.length ? flips(cur) : "No pixels were flipped") + ".";
       $("alLmsg").textContent = info.wrong
         ? "Guessed " + info.guess + ", but it was a " + info.y + ". So: add x to template " + info.y + ", subtract x from template " + info.guess + "."
         : "Guessed " + info.guess + ", which is right. Adding x and subtracting x from the same row cancel, so nothing changed.";
@@ -304,7 +306,7 @@
         if (left > 0) requestAnimationFrame(frame);
         else {
           busy = false; host.classList.remove("busy");
-          $("alLxl").textContent = "It was a " + last.y;
+          $("alLxl").textContent = "It was a " + last.y + ". " + (cur.f.length ? flips(cur) : "No pixels were flipped") + ".";
           $("alLmsg").textContent = "Trained on " + n.toLocaleString("en-US") + " more pictures. Each one made one small correction to W, and only where a mistake was made.";
           draw(last);
         }
