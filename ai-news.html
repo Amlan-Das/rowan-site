@@ -40,10 +40,20 @@
       <div class="sechead">
         <h1>AI news</h1>
       </div>
-      <div class="ai-open">
-        <p>Nobody really knows where AI is going, including the people building it. Most technologies show you their shape before they change anything. This one keeps surprising its own makers, and it has already become one of the forces behind almost everything happening right now: where the money goes, where the power plants go, what gets built, who gets hired, who gets nervous.</p>
-        <p>We are arranging the world around something we cannot predict. Maybe that is simply what living through a turning point feels like: plenty of headlines and very little explanation.</p>
-        <p class="ai-open-last">Now read the news.</p>
+      <div class="ai-hero">
+        <div class="ai-open">
+          <p>Nobody really knows where AI is going, including the people building it. Most technologies show you their shape before they change anything. This one keeps surprising its own makers, and it has already become one of the forces behind almost everything happening right now: where the money goes, where the power plants go, what gets built, who gets hired, who gets nervous.</p>
+          <p>We are arranging the world around something we cannot predict. Maybe that is simply what living through a turning point feels like: plenty of headlines and very little explanation.</p>
+          <p class="ai-open-last">Now read the news.</p>
+        </div>
+        <figure class="ai-globe">
+          <div class="net-stage" id="netStage">
+            <canvas id="netCanvas" role="img" aria-label="Interactive diagram of AI financing deals"></canvas>
+            <div class="net-tip" id="netTip" hidden></div>
+          </div>
+          <p class="ai-globe-read" id="netMini" aria-live="polite"></p>
+          <figcaption><b>The AI financing network.</b> Who is paying whom in the AI buildout. Drag to turn it. <a href="#aiNet">See every deal &darr;</a></figcaption>
+        </figure>
       </div>
       <figure class="exhibit aitl" id="aiTimeline">
         <figcaption class="exh">Two decades of AI, 2005 to October 2026</figcaption>
@@ -67,14 +77,11 @@
         <p class="src">Dates and figures come from the linked sources, and some 2026 figures are from trade press and trackers. Latest entry: <span id="aitlLatest"></span>. New entries are added as big stories break.</p>
       </figure>
       <figure class="exhibit net" id="aiNet">
-        <figcaption class="exh">The AI financing network</figcaption>
+        <figcaption class="exh">The AI financing network, deal by deal</figcaption>
         <p class="net-lede">Who is paying whom in the AI buildout: the equity investments and purchase commitments between the AI labs, chipmakers, clouds, data center builders and power producers.</p>
         <p class="net-stats" id="netStats"></p>
+        <p class="net-hint">Pick a company to see its deals. The globe at the top of the page lights up the same selection.</p>
         <div class="net-grid">
-          <div class="net-stage" id="netStage">
-            <canvas id="netCanvas" role="img" aria-label="Interactive diagram of AI financing deals"></canvas>
-            <div class="net-tip" id="netTip" hidden></div>
-          </div>
           <div class="net-side">
             <div class="net-legend">
               <span><i class="ln equity"></i>Equity investment</span>

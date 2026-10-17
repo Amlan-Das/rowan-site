@@ -818,7 +818,8 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 
 /* AI news: the financing network (ai-network.js) */
 /* Opening statement on the AI news page: body text size, in two columns on wide screens */
-.ai-open { column-count: 2; column-gap: 56px; margin: 0 0 48px; }
+.ai-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 540px); gap: 0 64px; align-items: start; margin: 0 0 48px; }
+.ai-open { margin: 0; }
 .ai-open p { margin: 0 0 14px; color: var(--slate); font: 400 17px/1.65 var(--sans); break-inside: avoid; }
 .ai-open .ai-open-last { margin-top: 18px; color: var(--ink); font-weight: 700; }
 .net-lede { margin: 0 0 6px; max-width: 62ch; color: var(--slate); font-size: 15.5px; line-height: 1.55; }
@@ -1318,4 +1319,24 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
   .gf-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 16px; }
   .gf-card.wide, .gf-card:nth-child(3) { grid-column: span 2; }
   .gf-card.wide img, .gf-card:nth-child(3) img { aspect-ratio: 17 / 10; }
+}
+
+/* The globe lives in the intro now; the exhibit below keeps the controls and the table */
+.ai-globe { margin: 0; min-width: 0; }
+.ai-globe .net-stage { max-height: none; }
+.ai-globe-read { min-height: 2.9em; margin: 4px 0 0; color: var(--ink); font-size: 14px; font-weight: 600; line-height: 1.45; }
+.ai-globe figcaption { margin-top: 6px; padding-top: 10px; border-top: 1px solid var(--rule); color: var(--slate); font-size: 13.5px; line-height: 1.5; }
+.ai-globe figcaption b { color: var(--ink); }
+.ai-globe figcaption a { white-space: nowrap; }
+.net-grid { display: block; }
+.net-side { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); grid-template-areas: "legend chips" "key chips" "toggle chips" "detail detail"; gap: 16px 44px; align-items: start; }
+.net-side .net-legend { grid-area: legend; }
+.net-side .net-key { grid-area: key; }
+.net-side #netCircular { grid-area: toggle; justify-self: start; }
+.net-side .net-chips { grid-area: chips; margin: 0; align-content: start; }
+.net-side .net-detail { grid-area: detail; min-height: 0; margin-top: 6px; }
+@media (max-width: 980px) {
+  .ai-hero { grid-template-columns: 1fr; gap: 28px 0; }
+  .ai-globe .net-stage { max-width: 520px; margin: 0 auto; }
+  .net-side { grid-template-columns: 1fr; grid-template-areas: "legend" "key" "chips" "toggle" "detail"; gap: 14px 0; }
 }

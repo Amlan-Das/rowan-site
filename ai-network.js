@@ -279,6 +279,12 @@
     const a = active();
     document.querySelectorAll(".net-chip").forEach((c) => c.classList.toggle("on", !!a && ((a.kind === "node" && +c.dataset.i === a.i) || (a.kind === "edge" && (+c.dataset.i === links[a.k].a || +c.dataset.i === links[a.k].b)))));
     document.querySelectorAll("#netRows tr").forEach((r) => r.classList.toggle("on", !!a && a.kind === "edge" && +r.dataset.k === a.k));
+    const mini = $("netMini");
+    if (mini) {
+      mini.textContent = !a ? "Point at a company or a line to see its deals."
+        : a.kind === "edge" ? dealName(links[a.k]) + ": " + TYPE_LABEL[links[a.k].type].toLowerCase() + ", " + links[a.k].amount
+        : name(a.i) + ": " + links.filter((l) => l.a === a.i || l.b === a.i).length + " deals";
+    }
     if (!a) {
       detail.innerHTML = '<p class="net-hint">Point at a company or a line, or pick one above, to see its deals. Tap to hold a selection.</p>';
       return;
