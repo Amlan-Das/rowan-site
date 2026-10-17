@@ -139,7 +139,7 @@
         rule: "W[7] -= x means: for every cell, new value = old value \u2212 the picture's value.",
         why: "Every inked pixel goes down by 1 and blank pixels stay the same. Those pixels now count for less as evidence for 7." }
     ];
-    host.innerHTML = '<div class="al-ux"><p class="al-label">x, the picture <span>(1 is ink, 0 is blank)</span></p>' + grid(X, "x") + "</div>" + rows.map((r) => {
+    host.innerHTML = rows.map((r) => {
       const after = r.W.map((w, i) => w + r.sign * X[i]);
       const notes = r.W.map((w, i) => minus(w) + (r.sign > 0 ? " + " : " \u2212 ") + X[i]);
       return '<div class="al-urow"><h4>' + r.head + '</h4><div class="al-ueq">' +

@@ -1045,9 +1045,9 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .al-notes li { margin: 0 0 6px; padding: 6px 8px; border-radius: 4px; color: var(--slate); font-size: 14px; line-height: 1.55; cursor: default; }
 .al-notes li::marker { color: var(--house); font-weight: 700; }
 .al-notes li:hover, .al-notes li:focus { background: var(--house-tint); outline: 0; }
-.al-wrap-up { max-width: 70ch; margin-top: 40px; padding-top: 22px; border-top: 2px solid var(--ink); }
-.al-wrap-up h3 { margin: 0 0 12px; font: 700 20px/1.2 var(--sans); }
-.al-wrap-up p { margin: 0 0 12px; color: var(--slate); font-size: 16px; line-height: 1.7; }
+.al-wrap-up { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 40px; margin-top: 40px; padding-top: 22px; border-top: 2px solid var(--ink); }
+.al-wrap-up h3 { grid-column: 1 / -1; margin: 0 0 14px; font: 700 20px/1.2 var(--sans); }
+.al-wrap-up p { margin: 0 0 12px; color: var(--slate); font-size: 16px; line-height: 1.65; }
 
 @media (max-width: 980px) {
   .al-intro { grid-template-columns: 1fr; gap: 14px; }
@@ -1098,43 +1098,43 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .al-wall canvas { display: block; width: 100%; aspect-ratio: 1; background: var(--soft); }
 .al-wallfig figcaption { margin-top: 10px; }
 .al-see { display: flex; flex-wrap: wrap; gap: 24px 36px; align-items: flex-start; margin-top: 20px; }
-.al-see-pic { width: 224px; max-width: 100%; }
-.al-see-cv { position: relative; width: 224px; max-width: 100%; aspect-ratio: 1; background: #fff; border: 1px solid var(--rule-strong); touch-action: none; cursor: crosshair; }
+.al-see-pic { width: 280px; max-width: 100%; }
+.al-see-cv { position: relative; width: 280px; max-width: 100%; aspect-ratio: 1; background: #fff; border: 1px solid var(--rule-strong); touch-action: none; cursor: crosshair; }
 .al-see-cv canvas { display: block; width: 100%; height: 100%; image-rendering: pixelated; }
 .al-see-cv.bin::before { content: ""; position: absolute; inset: 0; pointer-events: none; background-image: linear-gradient(to right, rgba(18,22,20,.13) 1px, transparent 1px), linear-gradient(to bottom, rgba(18,22,20,.13) 1px, transparent 1px); background-size: calc(100% / 28) calc(100% / 28); }
 .al-hov { display: none; position: absolute; width: calc(100% / 28); height: calc(100% / 28); box-shadow: 0 0 0 2px var(--down); pointer-events: none; z-index: 2; }
 .al-cap { margin: 9px 0 0; color: var(--mist); font-size: 13px; line-height: 1.5; }
 .al-cap b { color: var(--ink); }
-.al-see-side { flex: 1 1 260px; min-width: 0; max-width: 360px; }
-.al-see-pick { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-bottom: 18px; }
+.al-see-side { flex: 1 1 260px; min-width: 0; }
+.al-see-pick { display: grid; grid-template-columns: repeat(10, 1fr); gap: 6px; margin-bottom: 20px; }
 .al-see-pick button { padding: 0; background: var(--soft); border: 1px solid var(--rule); border-radius: 2px; cursor: pointer; }
 .al-see-pick button:hover { border-color: var(--ink); }
 .al-see-pick button[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
 .al-see-pick canvas { display: block; width: 100%; aspect-ratio: 1; }
 .al-cut { display: flex; flex-direction: column; gap: 8px; color: var(--slate); font-size: 14px; }
 .al-cut b { color: var(--ink); }
-.al-cut input { width: 100%; accent-color: var(--house); }
+.al-cut input { width: 100%; max-width: 460px; accent-color: var(--house); }
 .al-read { min-height: 4.8em; margin: 14px 0 0; padding-top: 12px; border-top: 1px solid var(--rule); color: var(--slate); font-size: 14px; line-height: 1.55; }
 @media (max-width: 980px) { .al-wall { grid-template-columns: repeat(15, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .al-wall { grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 2px; } .al-see { gap: 20px; } .al-see-pic { width: calc(50% - 10px); } .al-see-cv { width: 100%; } .al-see-side { max-width: none; flex-basis: 100%; } }
 
 /* the update, cell by cell */
-.al-upd { margin-top: 18px; }
+.al-upd { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 56px; margin-top: 8px; }
 .al-ux { margin-bottom: 8px; }
 .al-ux .al-g3 { width: 132px; }
 .al-urow { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--rule); }
 .al-urow h4 { margin: 0 0 14px; font: 700 16px/1.35 var(--sans); }
-.al-urow p { margin: 12px 0 0; max-width: 72ch; color: var(--slate); font-size: 15px; line-height: 1.6; }
+.al-urow p { margin: 12px 0 0; color: var(--slate); font-size: 15px; line-height: 1.6; }
 .al-urow code, .al-lede code, .net-lede code { padding: 1px 5px; background: var(--soft); border-radius: 2px; font: 600 .92em var(--mono); color: var(--ink); }
-.al-ueq { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px 14px; }
+.al-ueq { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr); align-items: end; gap: 0 12px; }
 .al-op { padding-bottom: 46px; color: var(--mist); font: 600 26px/1 var(--sans); }
-.al-g3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3px; width: 150px; }
-.al-g3.x { width: 132px; }
+.al-g3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3px; width: 100%; max-width: 172px; }
+.al-g3.x { max-width: 172px; }
 .al-gc { position: relative; display: grid; place-items: center; align-content: center; aspect-ratio: 1; padding: 2px; border: 1px solid var(--rule); font: 700 17px/1 var(--sans); font-variant-numeric: tabular-nums; }
 .al-gc small { margin-top: 3px; font: 500 10.5px/1 var(--sans); opacity: .78; white-space: nowrap; }
 .al-g3.x .al-gc { border-color: var(--rule-strong); }
 .al-uscore b { color: var(--ink); }
-.al-uend { max-width: 72ch; margin: 24px 0 0; padding: 14px 0 0; border-top: 1px solid var(--rule); color: var(--ink); font-size: 15.5px; line-height: 1.6; }
+.al-uend { grid-column: 1 / -1; max-width: 90ch; margin: 28px 0 0; padding: 14px 0 0; border-top: 1px solid var(--rule); color: var(--ink); font-size: 15.5px; line-height: 1.6; }
 @media (max-width: 600px) { .al-g3 { width: 118px; } .al-g3.x, .al-ux .al-g3 { width: 100px; } .al-op { padding-bottom: 40px; } .al-gc { font-size: 15px; } .al-gc small { font-size: 9.5px; } }
 
 /* guided walkthrough */
@@ -1169,4 +1169,15 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
   .al-stages li { padding-right: 14px; font-size: 13.5px; }
   .al-gd-text { font-size: 16px; min-height: 8em; }
   .al-tag { font-size: 11px; }
+}
+
+@media (max-width: 980px) {
+  .al-upd { grid-template-columns: 1fr; }
+  .al-wrap-up { grid-template-columns: 1fr; }
+  .al-see-pick { grid-template-columns: repeat(5, 1fr); }
+}
+@media (max-width: 600px) {
+  .al-ueq { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px 14px; }
+  .al-g3, .al-g3.x { width: 118px; }
+  .al-see-pic { width: calc(50% - 10px); }
 }
