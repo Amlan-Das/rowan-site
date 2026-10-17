@@ -403,13 +403,13 @@
       const read0 = bins.map((x) => best(scoresOf(t.W, x)));
       let at = read0.findIndex((g, i) => g === s.labels[i]), dx = 0, dy = 0, cache = null;
       host.innerHTML =
-        '<div class="al-lim-pic"><div class="al-lim-cv"><canvas id="alLimC" width="28" height="28"></canvas></div><p class="al-cap" id="alLimCap"></p>' +
+        '<div class="al-lim-left"><div class="al-lim-pic"><div class="al-lim-cv"><canvas id="alLimC" width="28" height="28"></canvas></div><p class="al-cap" id="alLimCap"></p>' +
           '<button type="button" class="al-link" id="alLimNext">Try another digit</button></div>' +
-        '<div class="al-lim-mid"><label class="al-cut">Slide sideways: <b id="alLimXv">0</b><input type="range" id="alLimX" min="-' + R + '" max="' + R + '" value="0"></label>' +
-          '<label class="al-cut">Slide up or down: <b id="alLimYv">0</b><input type="range" id="alLimY" min="-' + R + '" max="' + R + '" value="0"></label>' +
-          '<p class="al-label">Score of each template <span>(W @ x)</span></p><div class="al-bars" id="alLimBars"></div><p class="al-read" id="alLimRead" aria-live="polite"></p></div>' +
         '<div class="al-lim-acc"><p class="al-label">Right out of ' + N + ' sample digits, at each sideways shift</p><div class="al-acc" id="alLimAcc"></div>' +
-          '<div class="al-acc-ax"><span>' + R + ' left</span><span>no shift</span><span>' + R + ' right</span></div><p class="al-read" id="alLimAccTxt"></p></div>';
+          '<div class="al-acc-ax"><span>' + R + ' left</span><span>no shift</span><span>' + R + ' right</span></div><p class="al-read" id="alLimAccTxt"></p></div></div>' +
+        '<div class="al-lim-right"><div class="al-lim-sl"><label class="al-cut">Slide sideways: <b id="alLimXv">0</b><input type="range" id="alLimX" min="-' + R + '" max="' + R + '" value="0"></label>' +
+          '<label class="al-cut">Slide up or down: <b id="alLimYv">0</b><input type="range" id="alLimY" min="-' + R + '" max="' + R + '" value="0"></label></div>' +
+          '<p class="al-label">Score of each template <span>(W @ x)</span></p><div class="al-bars" id="alLimBars"></div><p class="al-read" id="alLimRead" aria-live="polite"></p></div>';
       $("alLimBars").innerHTML = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((k) => '<div class="al-bar-row"><b>' + k + '</b><span class="al-bar-t"><i></i></span><em></em></div>').join("");
       const accAt = (sx, sy) => { let n = 0; for (let i = 0; i < N; i++) if (best(scoresOf(t.W, shiftBy(bins[i], sx, sy))) === s.labels[i]) n++; return n; };
       const curve = () => { if (!cache || cache.dy !== dy) { const v = []; for (let sx = -R; sx <= R; sx++) v.push(accAt(sx, dy)); cache = { dy, v }; } return cache.v; };
