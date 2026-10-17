@@ -119,6 +119,40 @@
   })();
 
   // ======================================================================
+  // The update on paper: W[y] += x and W[guess] -= x, cell by cell
+  // ======================================================================
+  (function update() {
+    const host = $("alUpd");
+    if (!host) return;
+    const X = [0, 1, 0, 0, 1, 0, 0, 1, 0];
+    const minus = (n) => String(n).replace("-", "\u2212");
+    const grid = (vals, kind, notes) => '<div class="al-g3 ' + kind + '">' + vals.map((v, i) =>
+      '<span class="al-gc" style="' + (kind === "x" ? (v ? "background:#121614;color:#fff" : "") : "background:" + tint(v, 4) + (Math.abs(v) / 4 > 0.55 ? ";color:#fff" : "")) + '">' + minus(v) + (notes ? "<small>" + notes[i] + "</small>" : "") + "</span>").join("") + "</div>";
+    const score = (w) => w.reduce((t, v, i) => t + v * X[i], 0);
+    const rows = [
+      { row: "1", sign: 1, W: [0, 2, 0, -1, 3, -1, 0, 1, 0],
+        head: "The picture is a 1, so the 1 template gets the picture added",
+        rule: "W[1] += x means: for every cell, new value = old value + the picture's value.",
+        why: "The picture is only 0s and 1s, so every inked pixel goes up by 1 and every blank pixel stays the same. The 1 template gets a little more 1-shaped in exactly the spots where this 1 had ink." },
+      { row: "7", sign: -1, W: [2, 2, 2, 0, 1, 1, 0, 1, 0],
+        head: "Say the model wrongly guessed 7, so the 7 template gets the picture taken away",
+        rule: "W[7] -= x means: for every cell, new value = old value \u2212 the picture's value.",
+        why: "Every inked pixel goes down by 1 and blank pixels stay the same. Those pixels now count for less as evidence for 7." }
+    ];
+    host.innerHTML = '<div class="al-ux"><p class="al-label">x, the picture <span>(1 is ink, 0 is blank)</span></p>' + grid(X, "x") + "</div>" + rows.map((r) => {
+      const after = r.W.map((w, i) => w + r.sign * X[i]);
+      const notes = r.W.map((w, i) => minus(w) + (r.sign > 0 ? " + " : " \u2212 ") + X[i]);
+      return '<div class="al-urow"><h4>' + r.head + '</h4><div class="al-ueq">' +
+        '<div><p class="al-label">W[' + r.row + '] before</p>' + grid(r.W, "w") + "</div>" +
+        '<span class="al-op">' + (r.sign > 0 ? "+" : "\u2212") + '</span><div><p class="al-label">x</p>' + grid(X, "x") + "</div>" +
+        '<span class="al-op">=</span><div><p class="al-label">W[' + r.row + '] after</p>' + grid(after, "w", notes) + "</div></div>" +
+        '<p class="al-urule"><code>' + r.rule.split(" means")[0] + "</code> means" + r.rule.split(" means")[1] + "</p><p>" + r.why + "</p>" +
+        '<p class="al-uscore">Score for this picture, which adds up the weights under the ink: <b>' + minus(score(r.W)) + " before, " + minus(score(after)) + " after.</b> " +
+        (r.sign > 0 ? "The 1 template now rates this picture higher." : "The 7 template now rates this picture lower.") + "</p></div>";
+    }).join("") + '<p class="al-uend">Put together, the same picture will score higher for 1 and lower for 7 next time. If the model had guessed right, both lines would hit the same row, one adding x and one taking it away, and nothing would change.</p>';
+  })();
+
+  // ======================================================================
   // 1. By hand: 3 shapes, 9 pixels
   // ======================================================================
   (function hand() {
