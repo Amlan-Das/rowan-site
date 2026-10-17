@@ -1193,3 +1193,9 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .al-person .src { margin-top: 12px; font-size: 12.5px; }
 @media (max-width: 980px) { .al-people { grid-template-columns: 1fr; gap: 32px 0; } }
 @media (max-width: 600px) { .al-person { grid-template-columns: 96px minmax(0, 1fr); gap: 0 16px; } .al-person h3 { font-size: 19px; } .al-person p { font-size: 14.5px; } }
+
+/* "Learn more" fold */
+.al-more { margin-top: 30px; }
+.al-more[open] > summary { margin-bottom: 4px; }
+.al-sub { margin-top: 30px; padding-top: 22px; border-top: 1px solid var(--rule); }
+.al-subh { margin: 0 0 12px; font: 700 17px/1.35 var(--sans); }

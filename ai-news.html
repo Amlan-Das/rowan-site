@@ -157,13 +157,22 @@
       </figure>
 
       <figure class="exhibit">
-        <figcaption class="exh">The update, one cell at a time</figcaption>
+        <figcaption class="exh">Train it: ten digits, thousands of corrections</figcaption>
+        <p class="net-lede">The same rule, running live in your browser on ten digits drawn in a 5 by 7 grid, with some pixels flipped at random (marked with a red dot) so no two pictures are alike. Turn the messiness up and the digits get hard to read, even for you. Each template starts blank. Green means the pixel votes for that digit, red means it votes against.</p>
+        <div class="al-live" id="alLive"></div>
+        <p class="src">The templates are drawn from W. The percentage is measured on 400 messy pictures the model never trained on. With a lot of mess it plateaus: one layer of weights can only draw a straight line between digits.</p>
+      </figure>
+
+      <details class="al-details al-more">
+        <summary>Learn more: the update rule, step by step</summary>
+      <figure class="exhibit al-sub">
+        <figcaption class="al-subh">The update, one cell at a time</figcaption>
         <p class="net-lede">The two lines that do all the learning are <code>W[y] += x</code> and <code>W[guess] -= x</code>. Here they are on a 3 by 3 picture of a vertical bar (the middle column is inked, so x is 1 there and 0 everywhere else), with every cell's arithmetic shown.</p>
         <div class="al-upd" id="alUpd"></div>
       </figure>
 
-      <figure class="exhibit">
-        <figcaption class="exh">Watch it learn: three shapes, nine pixels</figcaption>
+      <figure class="exhibit al-sub">
+        <figcaption class="al-subh">Watch it learn: three shapes, nine pixels</figcaption>
         <p class="net-lede">The same model shrunk until you can read every number. It has to tell a vertical bar, a horizontal bar and a diagonal apart. Press the button to step through five rounds of the loop: look, score, guess, check, fix.</p>
         <div class="al-hand" id="alHand"></div>
         <div class="al-math">
@@ -173,13 +182,8 @@
           <div><h4>The update</h4><p>The right row gets x added, so the ink in this picture now counts for the right digit. The guessed row gets x subtracted, so it counts a little less for the wrong one. Right guess, and the two cancel.</p></div>
         </div>
       </figure>
+      </details>
 
-      <figure class="exhibit">
-        <figcaption class="exh">Train it: ten digits, thousands of corrections</figcaption>
-        <p class="net-lede">Now the same rule on ten digits drawn in a 5 by 7 grid, with some pixels flipped at random (marked with a red dot) so no two pictures are alike. Turn the messiness up and the digits get hard to read, even for you. Each template starts blank. Green means the pixel votes for that digit, red means it votes against.</p>
-        <div class="al-live" id="alLive"></div>
-        <p class="src">The templates are drawn from W. The percentage is measured on 400 messy pictures the model never trained on. With a lot of mess it plateaus: one layer of weights can only draw a straight line between digits.</p>
-      </figure>
 
       <figure class="exhibit">
         <figcaption class="exh">What it learned from real handwriting</figcaption>
