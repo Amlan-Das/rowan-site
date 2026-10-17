@@ -153,7 +153,7 @@
   })();
 
   // ======================================================================
-  // 1. By hand: 3 shapes, 9 pixels
+  // 1. Guided by hand: 3 shapes, 9 pixels, one step at a time
   // ======================================================================
   (function hand() {
     const host = $("alHand");
@@ -163,80 +163,81 @@
       { name: "Horizontal", glyph: "\u2014", px: [0, 0, 0, 1, 1, 1, 0, 0, 0] },
       { name: "Diagonal", glyph: "\\", px: [1, 0, 0, 0, 1, 0, 0, 0, 1] }
     ];
+    const LESSON = [2, 0, 1];                       // pictures cycle Diagonal, Vertical, Horizontal
+    const STAGES = ["Look", "Score", "Guess", "Check", "Fix"];
+    const minus = (n) => String(n).replace("-", "\u2212");
     const net = new Net(3, 9);
-    let x = SHAPES[2].px.slice(), truth = 2, note = "", flash = null;
+    let round = 0, st = 0, right = 0, flash = null, cur = null;
 
     host.innerHTML =
-      '<div class="al-hand-x"><p class="al-label">x, your picture</p><div class="al-px" id="alHandX"></div>' +
-        '<div class="al-row" id="alHandPre"></div></div>' +
-      '<div class="al-hand-w"><p class="al-label">W, the three templates <span>(one row each; a dot marks ink in x)</span></p><div class="al-tpls3" id="alHandW"></div></div>' +
-      '<div class="al-hand-do"><p class="al-label">What is it really?</p><div class="al-row" id="alHandTruth"></div>' +
-        '<button type="button" class="net-toggle al-go" id="alHandGo">Show it to the model</button>' +
-        '<button type="button" class="al-link" id="alHandReset">Reset W to zeros</button>' +
-        '<p class="al-msg" id="alHandMsg" aria-live="polite"></p></div>';
+      '<ol class="al-stages" id="alStages">' + STAGES.map((s) => "<li>" + s + "</li>").join("") + "</ol>" +
+      '<div class="al-gd-main"><div class="al-gd-pic"><p class="al-label" id="alGdRound"></p><div class="al-g3 x" id="alGdX"></div>' +
+        '<p class="al-gd-ans">Right answer: <b id="alGdAns"></b></p></div>' +
+      '<div class="al-gd-tpls" id="alGdW">' + SHAPES.map((s, c) => '<div class="al-tpl3" data-c="' + c + '"><div class="al-tpl3-head"><b>' + s.glyph + " " + s.name + '</b><span class="al-score"></span></div>' +
+        '<div class="al-w3">' + new Array(9).fill(0).map((_, p) => '<span class="al-w" data-p="' + p + '"></span>').join("") + '</div><p class="al-sum"></p><p class="al-tag"></p></div>').join("") + "</div></div>" +
+      '<div class="al-gd-say"><p class="al-gd-text" id="alGdText" aria-live="polite"></p><div class="al-gd-btns"><button type="button" class="al-next" id="alGdNext"></button>' +
+        '<button type="button" class="al-link" id="alGdReset">Start over</button><span class="al-gd-tally" id="alGdTally"></span></div></div>';
 
-    const gx = $("alHandX"), gw = $("alHandW"), msg = $("alHandMsg");
-    gx.innerHTML = x.map((_, p) => '<button type="button" class="al-cell" data-p="' + p + '" aria-pressed="false" aria-label="Pixel ' + (p + 1) + '"></button>').join("");
-    $("alHandPre").innerHTML = SHAPES.map((s, i) => '<button type="button" class="al-chipbtn" data-pre="' + i + '">' + s.glyph + " " + s.name + "</button>").join("") + '<button type="button" class="al-chipbtn" data-pre="clear">Clear</button>';
-    $("alHandTruth").innerHTML = SHAPES.map((s, i) => '<button type="button" class="al-chipbtn" data-truth="' + i + '" aria-pressed="false">' + s.glyph + " " + s.name + "</button>").join("");
-    gw.innerHTML = SHAPES.map((s, c) => '<div class="al-tpl3" data-c="' + c + '"><div class="al-tpl3-head"><b>' + s.glyph + " " + s.name + '</b><span class="al-score"></span></div>' +
-      '<div class="al-w3">' + x.map((_, p) => '<span class="al-w" data-p="' + p + '"></span>').join("") + '</div><p class="al-sum"></p></div>').join("");
-
-    const render = () => {
-      gx.querySelectorAll(".al-cell").forEach((b, p) => { b.classList.toggle("on", !!x[p]); b.setAttribute("aria-pressed", String(!!x[p])); });
-      host.querySelectorAll("[data-truth]").forEach((b) => b.setAttribute("aria-pressed", String(+b.dataset.truth === truth)));
-      const { guess, scores } = net.predict(x), m = Math.max(2, net.maxAbs());
-      gw.querySelectorAll(".al-tpl3").forEach((card) => {
-        const c = +card.dataset.c;
-        card.classList.toggle("guess", guess === c);
-        card.querySelectorAll(".al-w").forEach((cell) => {
-          const p = +cell.dataset.p, w = net.W[c * 9 + p];
-          cell.textContent = signed(w);
-          cell.style.background = tint(w, m);
-          cell.style.color = Math.abs(w) / m > 0.55 ? "#fff" : "";
-          cell.classList.toggle("ink", !!x[p]);
-          cell.classList.remove("up", "dn");
-        });
-        const minus = (n) => String(n).replace("-", "\u2212");
-        card.querySelector(".al-score").textContent = "score " + minus(scores[c]);
-        const under = []; for (let p = 0; p < 9; p++) if (x[p]) under.push(net.W[c * 9 + p]);
-        const blank = net.W.every((w) => w === 0);
-        card.querySelector(".al-sum").textContent = !under.length ? "No ink drawn, so there is nothing to add up."
-          : under.every((w) => w === 0) ? (blank ? "Every weight is still 0, so the score is 0. Nothing has been learned yet." : "The weights under the ink are all 0, so the score is 0.")
-          : "Weights under the ink: " + under.map((w) => (w < 0 ? "(" + minus(w) + ")" : String(w))).join(" + ") + " = " + minus(scores[c]);
-      });
-      if (flash) {
-        flash.forEach((f) => {
-          const cell = gw.querySelector('.al-tpl3[data-c="' + f.c + '"] .al-w[data-p="' + f.p + '"]');
-          if (cell) cell.classList.add(f.d > 0 ? "up" : "dn");
-        });
-        flash = null;
-      }
-      msg.textContent = note || "Draw a picture and say what it really is, then show it to the model. While W is all zeros every score ties, so it guesses the first row, Vertical.";
+    const gx = $("alGdX"), gw = $("alGdW");
+    const state = () => {
+      const x = SHAPES[LESSON[round % LESSON.length]].px, truth = LESSON[round % LESSON.length];
+      const { guess, scores } = net.predict(x);
+      return { x, truth, guess, scores };
+    };
+    const sumText = (x, c, score) => {
+      const under = []; for (let p = 0; p < 9; p++) if (x[p]) under.push(net.W[c * 9 + p]);
+      if (under.every((w) => w === 0)) return net.W.every((w) => w === 0) ? "All its weights are 0, so it adds up to 0." : "The weights under the ink are 0, so it adds up to 0.";
+      return under.map((w) => (w < 0 ? "(" + minus(w) + ")" : String(w))).join(" + ") + " = " + minus(score);
+    };
+    cur = state();                                   // the round's guess is frozen before any learning happens
+    const narrate = (s) => {
+      const T = SHAPES[s.truth].name, G = SHAPES[s.guess].name, top = Math.max.apply(null, s.scores), tied = s.scores.filter((v) => v === top).length > 1;
+      if (st === 0) return "Round " + (round + 1) + ". Here is a picture, and we know it is a " + T + ". The model does not. All it gets is x: a 1 for every square with ink and a 0 for every blank one." + (round === 0 ? " The three grids on the right are its templates, W. They start at all zeros, so right now it knows nothing." : "");
+      if (st === 1) return "Each template adds up its weights wherever the picture has ink (the dot marks those squares). That total is the template's score." + (net.W.every((w) => w === 0) ? " Every weight is 0 so far, so every score is 0." : "");
+      if (st === 2) return "The highest score wins, so the model guesses " + G + "." + (tied ? " Several templates tied for the top score, and a tie goes to the first one in the list." : "");
+      if (st === 3) return s.guess === s.truth ? "Check: it is a " + T + ". The model was right." : "Check: it is a " + T + ", so the model was wrong.";
+      return s.guess === s.truth
+        ? "Nothing to fix. We would add the picture to the " + T + " template and take it away from the " + G + " template, but that is the same template, so the two cancel."
+        : "The fix: add the picture to the " + T + " template (+1 on every inked square) and take it away from the " + G + " template (\u22121 on every inked square). Look at the weights change. Next time this picture scores higher for " + T + " and lower for " + G + ".";
     };
 
-    host.addEventListener("click", (e) => {
-      const cell = e.target.closest(".al-cell"), pre = e.target.closest("[data-pre]"), tr = e.target.closest("[data-truth]");
-      if (cell) { x[+cell.dataset.p] = x[+cell.dataset.p] ? 0 : 1; note = ""; }
-      else if (pre) { x = pre.dataset.pre === "clear" ? x.map(() => 0) : SHAPES[+pre.dataset.pre].px.slice(); if (pre.dataset.pre !== "clear") truth = +pre.dataset.pre; note = ""; }
-      else if (tr) { truth = +tr.dataset.truth; note = ""; }
-      else if (e.target.closest("#alHandReset")) { net.reset(); note = "W is back to all zeros: the model knows nothing."; }
-      else if (e.target.closest("#alHandGo")) {
-        if (!x.some(Boolean)) { note = "Draw something first. A blank picture has no ink to add or take away."; }
-        else {
-          const { guess } = net.predict(x), before = Array.from(net.W);
-          const ok = guess === truth;
-          net.learn(x, truth, guess);
-          flash = [];
-          net.W.forEach((w, i) => { if (w !== before[i]) flash.push({ c: Math.floor(i / 9), p: i % 9, d: w - before[i] }); });
-          const again = net.predict(x).guess;
-          note = ok
-            ? "It guessed " + SHAPES[guess].name + ", which is right. W[truth] += x and W[guess] -= x hit the same row, so they cancel and nothing changes."
-            : "It guessed " + SHAPES[guess].name + " but the picture is " + SHAPES[truth].name + ". So the " + SHAPES[truth].name + " row gets x added (+1 under every ink pixel) and the " + SHAPES[guess].name + " row gets x subtracted (\u22121 under every ink pixel). Shown the same picture again it would now guess " + SHAPES[again].name + ".";
-        }
-      } else return;
+    const render = () => {
+      const s = cur, m = Math.max(2, net.maxAbs()), now = st === 4 ? net.scores(s.x) : null;
+      $("alGdRound").textContent = "Round " + (round + 1);
+      $("alGdAns").textContent = SHAPES[s.truth].name;
+      gx.innerHTML = s.x.map((v) => '<span class="al-gc" style="' + (v ? "background:#121614;color:#fff" : "") + '">' + v + "</span>").join("");
+      host.querySelectorAll("#alStages li").forEach((li, i) => li.classList.toggle("on", i === st));
+      gw.querySelectorAll(".al-tpl3").forEach((card) => {
+        const c = +card.dataset.c, isGuess = c === s.guess && st >= 2, isTruth = c === s.truth && st >= 3;
+        card.classList.toggle("guess", isGuess); card.classList.toggle("truth", isTruth);
+        card.querySelectorAll(".al-w").forEach((cell) => {
+          const p = +cell.dataset.p, w = net.W[c * 9 + p];
+          cell.textContent = minus(w); cell.style.background = tint(w, m); cell.style.color = Math.abs(w) / m > 0.55 ? "#fff" : "";
+          cell.classList.toggle("ink", !!s.x[p]); cell.classList.remove("up", "dn");
+        });
+        const show = st >= 1;
+        card.querySelector(".al-score").textContent = !show ? "" : now ? "score " + minus(s.scores[c]) + " \u2192 " + minus(now[c]) : "score " + minus(s.scores[c]);
+        card.querySelector(".al-sum").textContent = !show ? "" : now ? (now[c] === s.scores[c] ? "No change." : "Its score for this picture " + (now[c] > s.scores[c] ? "went up." : "went down.")) : sumText(s.x, c, s.scores[c]);
+        card.querySelector(".al-tag").textContent = isGuess && isTruth ? "Guess, and the right answer" : isGuess ? "Its guess" : isTruth ? "The right answer" : "";
+      });
+      if (flash) { flash.forEach((f) => { const cell = gw.querySelector('.al-tpl3[data-c="' + f.c + '"] .al-w[data-p="' + f.p + '"]'); if (cell) cell.classList.add(f.d > 0 ? "up" : "dn"); }); flash = null; }
+      $("alGdText").textContent = narrate(s);
+      $("alGdNext").textContent = st === 4 ? "Next picture \u2192" : st === 3 ? (s.guess === s.truth ? "Continue" : "Fix it") : "Next step \u2192";
+      $("alGdTally").textContent = round ? "Right so far: " + right + " of " + round : "";
+    };
+
+    $("alGdNext").addEventListener("click", () => {
+      const s = cur;
+      if (st === 3) {                                    // the model learns here, then the fix is shown
+        if (s.guess === s.truth) right++;
+        const before = Array.from(net.W); net.learn(s.x, s.truth, s.guess);
+        flash = []; net.W.forEach((w, i) => { if (w !== before[i]) flash.push({ c: Math.floor(i / 9), p: i % 9, d: w - before[i] }); });
+        st = 4;
+      } else if (st === 4) { round++; st = 0; cur = state(); }
+      else st++;
       render();
     });
+    $("alGdReset").addEventListener("click", () => { net.reset(); round = 0; st = 0; right = 0; flash = null; cur = state(); render(); });
     render();
   })();
 
