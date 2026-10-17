@@ -94,6 +94,175 @@
       </figure>
     </div>
   </section>
+
+  <section class="band al" id="learn">
+    <div class="wrap">
+      <div class="sechead">
+        <div class="ttl"><h2>How a machine learns</h2></div>
+        <p class="note">The smallest learning model there is, about thirty lines of Python, and you can train it right here.</p>
+      </div>
+
+      <div class="al-intro">
+        <p>Every AI system you read about above is, underneath, a stack of numbers that gets nudged every time it is wrong. The version below has a single layer of them. It reads handwritten digits, and it learns the way the big ones do: guess, check, correct, repeat.</p>
+        <p>The numbers live in a table called <b>W</b>, for weights. The picture it is looking at is a list called <b>x</b>. Nothing else is needed.</p>
+      </div>
+
+      <ol class="al-steps">
+        <li><span>1</span><h3>Look</h3><p>Turn the picture into <b>x</b>: one number per pixel, 1 where there is ink and 0 where there is not. A 28 by 28 picture becomes 784 ones and zeros.</p></li>
+        <li><span>2</span><h3>Score</h3><p>W has one row of weights for each digit. Add up that row&rsquo;s weights wherever x has ink. That is the digit&rsquo;s score. The biggest score is the guess.</p></li>
+        <li><span>3</span><h3>Check</h3><p>Compare the guess with the right answer, <b>y</b>. This is the only moment the model is told anything about the world.</p></li>
+        <li><span>4</span><h3>Correct</h3><p>Add x to the right row and subtract x from the guessed row. Do it for the next picture, and the next, tens of thousands of times.</p></li>
+      </ol>
+
+      <figure class="exhibit">
+        <figcaption class="exh">Do it by hand: three shapes, nine pixels</figcaption>
+        <p class="net-lede">This is the whole model on a table you can read. Pick or draw a picture (click the squares), say what it really is, and show it to the model. Watch the three rows of W and the scores underneath.</p>
+        <div class="al-hand" id="alHand"></div>
+        <div class="al-math">
+          <div><h4>x</h4><p>The picture as a list: here 9 numbers, on a real image 784. Each is 1 (ink) or 0 (no ink). It is not a match against a template. It is only what the picture looks like.</p></div>
+          <div><h4>W</h4><p>The weights, a table with a row per digit and a column per pixel. A positive number says &ldquo;ink here is evidence for this digit&rdquo;. A negative one says &ldquo;ink here is evidence against&rdquo;. The model is nothing but this table.</p></div>
+          <div><h4>W @ x</h4><p>Multiply each row by x and add up. Because x is only ones and zeros, that is just the weights that sit under the ink, added together. One total per row: the scores.</p></div>
+          <div><h4>The update</h4><p>The right row gets x added, so the ink in this picture now counts for the right digit. The guessed row gets x subtracted, so it counts a little less for the wrong one. Right guess, and the two cancel.</p></div>
+        </div>
+      </figure>
+
+      <figure class="exhibit">
+        <figcaption class="exh">Train it: ten digits, thousands of corrections</figcaption>
+        <p class="net-lede">Now the same rule on ten digits drawn in a 5 by 7 grid, with some pixels flipped at random so no two pictures are alike. Each template starts blank. Green means the pixel votes for that digit, red means it votes against.</p>
+        <div class="al-live" id="alLive"></div>
+        <p class="src">The templates are drawn from W. The percentage is measured on 400 messy pictures the model never trained on. With a lot of mess it plateaus: one layer of weights can only draw a straight line between digits.</p>
+      </figure>
+
+      <figure class="exhibit">
+        <figcaption class="exh">What it learned from real handwriting</figcaption>
+        <p class="net-lede">The same rule, on 60,000 real handwritten digits from the MNIST data set, run as the Python below. Each picture is one row of W folded back into a 28 by 28 square. You can see a rough 0 ring, a 1 stroke and so on, with red where ink argues against the digit.</p>
+        <div id="alReal"></div>
+        <p class="src">Real output from the script below, run once with a fixed random seed. Accuracy is measured on the 10,000 test images, which are never used for training. It wobbles between passes because a perceptron keeps correcting itself rather than settling.</p>
+      </figure>
+
+      <figure class="exhibit">
+        <figcaption class="exh">The code, line by line</figcaption>
+        <p class="net-lede">This is the whole program, unchanged. Each section is followed by notes: hover (or tap) a note and the line it explains lights up.</p>
+        <details class="al-details">
+          <summary>Open the code and the notes</summary>
+          <div class="al-code" id="alCode"></div>
+        </details>
+        <script type="text/plain" id="alCodeSrc">
+"""
+Hinton's "learned weights" example: one weight template per digit.
+
+Learning rule (for each training image):
+  1. guess = the class whose template overlaps the image most
+  2. add the image's ink to the CORRECT class template
+  3. subtract the image's ink from the GUESSED class template
+  (if the guess was right, 2 and 3 cancel out)
+
+Run:  python template_digits.py
+"""
+
+import gzip
+import os
+import urllib.request
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# ---------- 1. Download and load MNIST (only the first run downloads) ----------
+URL = "https://storage.googleapis.com/cvdf-datasets/mnist/"
+FILES = {
+    "train_x": "train-images-idx3-ubyte.gz",
+    "train_y": "train-labels-idx1-ubyte.gz",
+    "test_x": "t10k-images-idx3-ubyte.gz",
+    "test_y": "t10k-labels-idx1-ubyte.gz",
+}
+DATA_DIR = "mnist_data"
+
+
+def load(key):
+    os.makedirs(DATA_DIR, exist_ok=True)
+    path = os.path.join(DATA_DIR, FILES[key])
+    if not os.path.exists(path):
+        print("Downloading", FILES[key])
+        urllib.request.urlretrieve(URL + FILES[key], path)
+    with gzip.open(path, "rb") as f:
+        raw = f.read()
+    if key.endswith("_x"):
+        return np.frombuffer(raw, np.uint8, offset=16).reshape(-1, 784)
+    return np.frombuffer(raw, np.uint8, offset=8)
+
+
+train_x, train_y = load("train_x"), load("train_y")
+test_x, test_y = load("test_x"), load("test_y")
+
+# Turn each pixel into "ink" (1) or "no ink" (0), like the slide
+train_x = (train_x > 127).astype(np.float32)
+test_x = (test_x > 127).astype(np.float32)
+
+# ---------- 2. The model: 10 templates, each 28x28 = 784 weights ----------
+W = np.zeros((10, 784), dtype=np.float32)
+
+
+def predict(x):
+    scores = W @ x          # overlap of the image with each template
+    return np.argmax(scores)
+
+
+def accuracy(xs, ys):
+    guesses = np.argmax(xs @ W.T, axis=1)
+    return (guesses == ys).mean()
+
+
+# ---------- 3. Train ----------
+EPOCHS = 3
+rng = np.random.default_rng(0)
+
+for epoch in range(EPOCHS):
+    order = rng.permutation(len(train_x))
+    mistakes = 0
+    for i in order:
+        x, y = train_x[i], train_y[i]
+        guess = predict(x)
+        if guess != y:
+            mistakes += 1
+        W[y] += x       # pull the correct template toward this image
+        W[guess] -= x   # push the guessed template away from it
+    print(f"epoch {epoch + 1}: {mistakes} training mistakes, "
+          f"test accuracy {accuracy(test_x, test_y):.1%}")
+
+# ---------- 4. Show the learned templates (like the slide) ----------
+fig, axes = plt.subplots(2, 5, figsize=(10, 4.5))
+for digit, ax in enumerate(axes.flat):
+    ax.imshow(W[digit].reshape(28, 28), cmap="gray")
+    ax.set_title(str(digit))
+    ax.axis("off")
+fig.suptitle("Learned templates (light = positive weight, dark = negative)")
+plt.tight_layout()
+plt.show()
+
+# ---------- 5. Score one test image against every template ----------
+idx = rng.integers(len(test_x))
+x = test_x[idx]
+scores = W @ x
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9, 3.5))
+ax1.imshow(x.reshape(28, 28), cmap="gray")
+ax1.set_title(f"true label {test_y[idx]}, guess {np.argmax(scores)}")
+ax1.axis("off")
+ax2.bar(range(10), scores)
+ax2.set_xticks(range(10))
+ax2.set_title("score for each template")
+plt.tight_layout()
+plt.show()
+</script>
+      </figure>
+
+      <div class="al-wrap-up">
+        <h3>What to take from it</h3>
+        <p><b>Learning is repeated correction.</b> The model is never told what a 7 looks like. It guesses, is told it was wrong, and moves the weights a little. After 60,000 pictures a 7-shaped pattern has built up in row 7.</p>
+        <p><b>Training and testing are different pictures.</b> Training runs over 60,000 images, three times, so 180,000 corrections. The 10,000 test images only measure the result, which is how you know it learned handwriting rather than memorised pictures.</p>
+        <p><b>This is the smallest case.</b> Modern models stack many layers of W, add a step that lets them bend the lines between classes, and replace &ldquo;add or subtract x&rdquo; with calculus that works out how much each weight caused the mistake. They also have billions of weights rather than 7,840. The loop is the same: score, compare, adjust.</p>
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer class="dark">
@@ -128,5 +297,6 @@
 <script src="common.js"></script>
 <script src="ai-timeline.js"></script>
 <script src="ai-network.js"></script>
+<script src="ai-learn.js"></script>
 </body>
 </html>
