@@ -18,6 +18,13 @@
   const items = AI_TIMELINE.map((e, i) => Object.assign({ i }, e)).sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
   let selected = null;   // the chosen milestone's index in AI_TIMELINE
 
+  // The newest few, as headlines beside the page's intro
+  const latestEl = document.getElementById("aiLatest");
+  if (latestEl) latestEl.innerHTML = items.slice(-4).reverse().map((e) => {
+    const p = e.date.split("-");
+    return '<li><a href="#aitl-' + e.date + "-" + e.i + '"><span>' + MONTHS[+p[1] - 1] + (p[2] ? " " + +p[2] + "," : "") + " " + p[0] + "</span>" + esc(e.title) + "</a></li>";
+  }).join("");
+
   // ---------- Year links above the rail ----------
   // Years before 2020 are grouped by decade so the row stays short
   const renderBar = () => {

@@ -41,10 +41,17 @@
         <h1>AI news</h1>
       </div>
       <div class="ai-hero">
-        <div class="ai-open">
-          <p>Nobody really knows where AI is going, including the people building it. Most technologies show you their shape before they change anything. This one keeps surprising its own makers, and it has already become one of the forces behind almost everything happening right now: where the money goes, where the power plants go, what gets built, who gets hired, who gets nervous.</p>
-          <p>We are arranging the world around something we cannot predict. Maybe that is simply what living through a turning point feels like: plenty of headlines and very little explanation.</p>
-          <p class="ai-open-last">Now read the news.</p>
+        <div class="ai-left">
+          <div class="ai-open">
+            <p>Nobody really knows where AI is going, including the people building it. Most technologies show you their shape before they change anything. This one keeps surprising its own makers, and it has already become one of the forces behind almost everything happening right now: where the money goes, where the power plants go, what gets built, who gets hired, who gets nervous.</p>
+            <p>We are arranging the world around something we cannot predict. Maybe that is simply what living through a turning point feels like: plenty of headlines and very little explanation.</p>
+            <p class="ai-open-last">Now read the news.</p>
+          </div>
+          <div class="ai-latest">
+            <p class="ai-side-h">Latest on the timeline</p>
+            <ul class="ai-latest-list" id="aiLatest"></ul>
+          </div>
+          <p class="ai-jump"><span>On this page</span><a href="#aiTimeline">Timeline</a><a href="#aiNet">Deals</a><a href="#learn">Machine learning</a><a href="#godfathers">Godfathers of AI</a></p>
         </div>
         <figure class="ai-globe">
           <div class="net-stage" id="netStage">
@@ -80,31 +87,37 @@
         <figcaption class="exh">The AI financing network, deal by deal</figcaption>
         <p class="net-lede">Who is paying whom in the AI buildout: the equity investments and purchase commitments between the AI labs, chipmakers, clouds, data center builders and power producers.</p>
         <p class="net-stats" id="netStats"></p>
-        <p class="net-hint">Pick a company to see its deals. The globe at the top of the page lights up the same selection.</p>
-        <div class="net-grid">
-          <div class="net-side">
-            <div class="net-legend">
-              <span><i class="ln equity"></i>Equity investment</span>
-              <span><i class="ln purchase"></i>Purchase commitment</span>
-              <span><i class="ln collab"></i>Technology collaboration</span>
-              <small>Arrows point to where the value goes: an investment to the company that receives it, a purchase to the seller. A dotted line is a partnership with no money disclosed.</small>
+        <details class="al-ch net-fold">
+          <summary><span class="al-ch-h"><span class="al-ch-t">Explore every deal</span><span class="al-ch-b">Pick a company to see who pays whom, filter to the two-way pairs, or read all the deals as a table.</span></span><span class="al-ch-tag">Hands-on</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+          <div class="al-ch-body">
+            <p class="net-hint">Pick a company to see its deals. The globe at the top of the page lights up the same selection.</p>
+            <div class="net-grid">
+              <div class="net-side">
+                <div class="net-legend">
+                  <span><i class="ln equity"></i>Equity investment</span>
+                  <span><i class="ln purchase"></i>Purchase commitment</span>
+                  <span><i class="ln collab"></i>Technology collaboration</span>
+                  <small>Arrows point to where the value goes: an investment to the company that receives it, a purchase to the seller. A dotted line is a partnership with no money disclosed.</small>
+                </div>
+                <div class="net-key" id="netKey" aria-label="Company types"></div>
+                <div class="net-chips" id="netChips"></div>
+                <button type="button" class="net-toggle" id="netCircular" aria-pressed="false">Highlight two-way pairs</button>
+                <div class="net-detail" id="netDetail" aria-live="polite"></div>
+              </div>
             </div>
-            <div class="net-key" id="netKey" aria-label="Company types"></div>
-            <div class="net-chips" id="netChips"></div>
-            <button type="button" class="net-toggle" id="netCircular" aria-pressed="false">Highlight two-way pairs</button>
-            <div class="net-detail" id="netDetail" aria-live="polite"></div>
-          </div>
-        </div>
-        <details class="ind-topic net-all">
-          <summary><span class="t" id="netCount"></span><span class="c">Every deal as text</span></summary>
-          <div class="primer-table net-table">
-            <table>
-              <thead><tr><th>Deal</th><th>Type</th><th>Amount</th><th>What it is</th></tr></thead>
-              <tbody id="netRows"></tbody>
-            </table>
+            <details class="ind-topic net-all">
+              <summary><span class="t" id="netCount"></span><span class="c">Every deal as text</span></summary>
+              <div class="primer-table net-table">
+                <table>
+                  <thead><tr><th>Deal</th><th>Type</th><th>Amount</th><th>What it is</th></tr></thead>
+                  <tbody id="netRows"></tbody>
+                </table>
+              </div>
+            </details>
+            <p class="src">Drag the sphere to turn it. Amounts are as announced, and &ldquo;up to&rdquo; amounts are ceilings that may depend on milestones. Checked <span id="netChecked"></span>. Sources: <span id="netSources"></span>.</p>
+      
           </div>
         </details>
-        <p class="src">Drag the sphere to turn it. Amounts are as announced, and &ldquo;up to&rdquo; amounts are ceilings that may depend on milestones. Checked <span id="netChecked"></span>. Sources: <span id="netSources"></span>.</p>
       </figure>
     </div>
   </section>

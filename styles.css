@@ -1334,9 +1334,37 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .net-side .net-key { grid-area: key; }
 .net-side #netCircular { grid-area: toggle; justify-self: start; }
 .net-side .net-chips { grid-area: chips; margin: 0; align-content: start; }
-.net-side .net-detail { grid-area: detail; min-height: 0; margin-top: 6px; }
+.net-side .net-detail { grid-area: detail; min-height: 0; max-width: 640px; margin-top: 6px; }
 @media (max-width: 980px) {
   .ai-hero { grid-template-columns: 1fr; gap: 28px 0; }
   .ai-globe .net-stage { max-width: 520px; margin: 0 auto; }
   .net-side { grid-template-columns: 1fr; grid-template-areas: "legend" "key" "chips" "toggle" "detail"; gap: 14px 0; }
 }
+
+/* Under the intro text: the newest milestones and a jump row, so the column matches the globe's height */
+.ai-left { min-width: 0; }
+.ai-latest { margin-top: 36px; }
+.ai-side-h { margin: 0; padding-top: 12px; border-top: 2px solid var(--ink); font: 700 15px/1.3 var(--sans); }
+.ai-latest-list { list-style: none; margin: 6px 0 0; padding: 0; }
+.ai-latest-list li { border-bottom: 1px solid var(--rule); }
+.ai-latest-list a { display: grid; grid-template-columns: 116px minmax(0, 1fr); gap: 0 14px; align-items: baseline; padding: 13px 4px; color: var(--ink); font: 600 16.5px/1.4 var(--sans); text-decoration: none; }
+.ai-latest-list a:hover { background: var(--soft); }
+.ai-latest-list span { color: var(--mist); font: 600 12px/1.6 var(--sans); letter-spacing: .06em; text-transform: uppercase; }
+.ai-jump { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 20px; margin: 20px 0 0; font-size: 14.5px; }
+.ai-jump span { color: var(--mist); }
+.ai-jump a { color: var(--ink); font-weight: 600; text-decoration-color: var(--rule-strong); text-underline-offset: 3px; }
+.ai-jump a:hover { text-decoration-color: var(--house); }
+@media (max-width: 980px) {
+  .ai-left { display: contents; }
+  .ai-open { order: 1; }
+  .ai-globe { order: 2; }
+  .ai-latest { order: 3; margin-top: 4px; }
+  .ai-jump { order: 4; margin-top: 0; }
+}
+@media (max-width: 600px) { .ai-latest-list a { grid-template-columns: 1fr; gap: 2px 0; } }
+
+/* the financing explorer folds away; its summary reuses the chapter row but has no number column */
+.net-fold { margin-top: 18px; border-top: 2px solid var(--ink); }
+.net-fold > summary { grid-template-columns: minmax(0, 1fr) auto 26px; }
+.net-fold .al-ch-body { padding-top: 22px; }
+@media (max-width: 600px) { .net-fold > summary { grid-template-columns: minmax(0, 1fr) 22px; } }
