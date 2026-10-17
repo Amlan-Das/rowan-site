@@ -92,6 +92,52 @@
     if (m) scroller.scrollTo({ left: m.offsetLeft - 24, behavior: smooth });
   });
 
+  // ---------- Slider: how far along the timeline you are ----------
+  const slider = document.getElementById("aitlSlTrack"), thumb = document.getElementById("aitlSlThumb");
+  const fill = document.getElementById("aitlSlFill"), ticks = document.getElementById("aitlSlTicks"), now = document.getElementById("aitlSlNow");
+  const maxScroll = () => Math.max(1, scroller.scrollWidth - scroller.clientWidth);
+  let marks = null;
+  const renderTicks = () => {
+    marks = Array.from(track.querySelectorAll(".aitl-yr"));
+    const w = slider.getBoundingClientRect().width || 1;
+    let last = -1e9;
+    ticks.innerHTML = marks.map((m) => {
+      const r = Math.min(1, m.offsetLeft / maxScroll()), big = r * w - last >= 54;   // label a year only when there is room
+      if (big) last = r * w;
+      return '<i class="' + (big ? "big" : "") + '" style="left:' + (r * 100).toFixed(2) + '%">' + (big ? "<b>" + m.dataset.y + "</b>" : "") + "</i>";
+    }).join("");
+  };
+  const updateSlider = () => {
+    const r = Math.min(1, Math.max(0, scroller.scrollLeft / maxScroll())), mid = scroller.scrollLeft + scroller.clientWidth / 2;
+    thumb.style.left = fill.style.width = (r * 100).toFixed(2) + "%";
+    thumb.setAttribute("aria-valuenow", String(Math.round(r * 100)));
+    let year = marks && marks.length ? marks[0].dataset.y : "";
+    (marks || []).forEach((m) => { if (m.offsetLeft <= mid) year = m.dataset.y; });
+    now.textContent = year;
+  };
+  scroller.addEventListener("scroll", updateSlider, { passive: true });
+  window.addEventListener("resize", () => { renderTicks(); updateSlider(); });
+  const setFromX = (clientX) => {
+    const b = slider.getBoundingClientRect();
+    scroller.scrollLeft = Math.min(1, Math.max(0, (clientX - b.left) / b.width)) * maxScroll();
+    updateSlider();
+  };
+  let sliding = false;
+  slider.addEventListener("pointerdown", (e) => {
+    if (e.button !== 0) return;
+    sliding = true; slider.classList.add("on"); slider.setPointerCapture(e.pointerId); setFromX(e.clientX); e.preventDefault();
+  });
+  slider.addEventListener("pointermove", (e) => { if (sliding) setFromX(e.clientX); });
+  const stopSlide = () => { sliding = false; slider.classList.remove("on"); };
+  slider.addEventListener("pointerup", stopSlide);
+  slider.addEventListener("pointercancel", stopSlide);
+  thumb.addEventListener("keydown", (e) => {
+    const step = maxScroll() * 0.05, to = { ArrowLeft: -step, ArrowDown: -step, ArrowRight: step, ArrowUp: step, PageDown: step * 4, PageUp: -step * 4 }[e.key];
+    if (to != null) { scroller.scrollLeft += to; e.preventDefault(); }
+    else if (e.key === "Home") { scroller.scrollLeft = 0; e.preventDefault(); }
+    else if (e.key === "End") { scroller.scrollLeft = maxScroll(); e.preventDefault(); }
+  });
+
   let dragged = false;
   track.addEventListener("click", (e) => {
     if (dragged) { dragged = false; return; }     // the end of a drag is not a click
@@ -124,11 +170,12 @@
   });
 
   // ---------- Start ----------
-  renderBar(); renderTrack(); renderDetail();
+  renderBar(); renderTrack(); renderDetail(); renderTicks();
   toEnd();                                              // open on the newest milestones
-  updateArrows();
-  window.addEventListener("load", () => { if (selected == null) toEnd(); });
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { if (selected == null) toEnd(); });
+  updateArrows(); updateSlider();
+  const settle = () => { if (selected == null) toEnd(); renderTicks(); updateSlider(); };
+  window.addEventListener("load", settle);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(settle);
 
   // A link like ai-news.html#aitl-2025-01-27-12 opens that milestone
   const fromHash = () => {
