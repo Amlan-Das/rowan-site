@@ -203,6 +203,28 @@
       </figure>
 
       <figure class="exhibit">
+        <figcaption class="exh">Where it stops: one rigid template per digit</figcaption>
+        <p class="net-lede">Each digit gets a single template, and the winner is whichever template overlaps the ink the most. That only works while every digit is written the same way in the same place. Slide a real digit and watch the scores.</p>
+        <div class="al-lim" id="alStop"></div>
+        <p class="al-prose">Nothing about the digit changed, but its ink now lands on different weights, so the right template loses its lead. People write the same digit at different sizes, slants and positions, and one template cannot cover all of them. Hinton makes this point in his lectures: handwritten digits vary too much for &ldquo;simple template matches of whole shapes.&rdquo; The fix is more layers, which first learn small parts such as strokes and curves, then combine them.</p>
+        <p class="src">Uses the real learned weights above, on the 60 sample digits from the wall. Shifting moves the whole digit and fills the gap with blank pixels.</p>
+      </figure>
+
+      <figure class="exhibit">
+        <figcaption class="exh">Where it is used</figcaption>
+        <p class="net-lede">The same recipe, a table of weights nudged whenever it is wrong, turns up in real products. Here is this page&rsquo;s one-layer model reading a ZIP code.</p>
+        <div class="al-zip" id="alZip"></div>
+        <p class="src">Digits are from the MNIST training set, read with the real weights from the script below. About one digit in eight comes out wrong, so nearly half of all five-digit ZIP codes would contain a mistake. The system LeCun&rsquo;s team built for the US Postal Service in 1989 had an error rate of about 1%, and declined to answer on about 9% of digits instead of guessing.</p>
+        <div class="al-uses">
+          <div><h4>Reading handwriting</h4><p>Convolutional networks, which add layers to this idea, read US ZIP codes in the late 1980s. NCR&rsquo;s check readers, in banks from 1996, were estimated to read about 20 million checks a day by 2001, around 10% of all checks in the US.</p></div>
+          <div><h4>Language</h4><p>Since 2002, perceptron training has been popular in natural language processing, for jobs like tagging each word in a sentence as a noun or verb and working out its grammatical structure.</p></div>
+          <div><h4>Scoring with weights</h4><p>Spam filters and ad-click predictors often start as a weight for each signal: a word, a website, a time of day. Add up the weights that apply and compare the total with a cutoff. That sum is W @ x.</p></div>
+          <div><h4>Today&rsquo;s AI</h4><p>Image, speech and language models are the same loop at enormous scale: many layers and billions of weights, each guess compared with the answer and the weights adjusted. Calculus decides how much to change each one, instead of a flat plus or minus 1.</p></div>
+        </div>
+        <p class="src">Check and ZIP code figures are from Wikipedia&rsquo;s article on LeNet, which cites LeCun and colleagues. The 2002 language result is Michael Collins&rsquo;s, as described in Wikipedia&rsquo;s article on the perceptron.</p>
+      </figure>
+
+      <figure class="exhibit">
         <figcaption class="exh">The code, line by line</figcaption>
         <p class="net-lede">This is the whole program, unchanged. Each section is followed by notes: hover (or tap) a note and the line it explains lights up.</p>
         <details class="al-details">

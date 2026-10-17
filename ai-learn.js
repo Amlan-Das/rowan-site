@@ -54,6 +54,17 @@
   const samples = fetch("ai/mnist-samples.json")
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then((d) => ({ labels: d.labels, imgs: d.px.map((s) => { const a = new Uint8Array(784); for (let i = 0; i < 784; i++) a[i] = parseInt(s.substr(i * 2, 2), 16); return a; }) }));
+  const templatesP = fetch("ai/mnist-templates.json", { cache: "no-store" })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then((d) => { const W = new Float32Array(10 * 784); d.W.forEach((row, c) => row.forEach((v, p) => (W[c * 784 + p] = v))); return { d, W }; });
+  const inkOf = (img) => { const x = new Uint8Array(784); for (let i = 0; i < 784; i++) x[i] = img[i] > 127 ? 1 : 0; return x; };   // the script's "> 127"
+  const shiftBy = (x, dx, dy) => {
+    const o = new Uint8Array(784);
+    for (let r = 0; r < 28; r++) { const sr = r - dy; if (sr < 0 || sr > 27) continue; for (let c = 0; c < 28; c++) { const sc = c - dx; if (sc >= 0 && sc < 28) o[r * 28 + c] = x[sr * 28 + sc]; } }
+    return o;
+  };
+  const scoresOf = (W, x) => { const s = new Array(10); for (let k = 0; k < 10; k++) { let t = 0; const o = k * 784; for (let p = 0; p < 784; p++) if (x[p]) t += W[o + p]; s[k] = t; } return s; };   // W @ x
+  const best = (s) => { let g = 0; for (let k = 1; k < s.length; k++) if (s[k] > s[g]) g = k; return g; };                                              // argmax
   const INK = [18, 22, 20];
   const paint = (cv, img, thr) => {                 // thr undefined: grey scan, otherwise ink / no ink
     const c = cv.getContext("2d"), d = c.createImageData(28, 28);
@@ -366,9 +377,8 @@
   (function real() {
     const host = $("alReal");
     if (!host) return;
-    fetch("ai/mnist-templates.json", { cache: "no-store" })
-      .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then((d) => {
+    templatesP
+      .then(({ d }) => {
         const m = Math.max(Math.abs(d.min), Math.abs(d.max));
         host.innerHTML = '<div class="al-real-grid">' + d.W.map((_, i) => '<figure><canvas width="28" height="28" aria-label="Learned template for digit ' + i + '"></canvas><figcaption>' + i + "</figcaption></figure>").join("") + "</div>" +
           '<div class="al-legend"><span>votes against</span><i></i><span>votes for</span></div>' +
@@ -380,6 +390,78 @@
         });
       })
       .catch(() => { host.hidden = true; });
+  })();
+
+  // ======================================================================
+  // 3b. Where it stops: slide a real digit and the rigid templates fail
+  // ======================================================================
+  (function limits() {
+    const host = $("alStop");
+    if (!host) return;
+    Promise.all([samples, templatesP]).then(([s, t]) => {
+      const bins = s.imgs.map(inkOf), N = bins.length, R = 8;
+      const read0 = bins.map((x) => best(scoresOf(t.W, x)));
+      let at = read0.findIndex((g, i) => g === s.labels[i]), dx = 0, dy = 0, cache = null;
+      host.innerHTML =
+        '<div class="al-lim-pic"><div class="al-lim-cv"><canvas id="alLimC" width="28" height="28"></canvas></div><p class="al-cap" id="alLimCap"></p>' +
+          '<button type="button" class="al-link" id="alLimNext">Try another digit</button></div>' +
+        '<div class="al-lim-mid"><label class="al-cut">Slide sideways: <b id="alLimXv">0</b><input type="range" id="alLimX" min="-' + R + '" max="' + R + '" value="0"></label>' +
+          '<label class="al-cut">Slide up or down: <b id="alLimYv">0</b><input type="range" id="alLimY" min="-' + R + '" max="' + R + '" value="0"></label>' +
+          '<p class="al-label">Score of each template <span>(W @ x)</span></p><div class="al-bars" id="alLimBars"></div><p class="al-read" id="alLimRead" aria-live="polite"></p></div>' +
+        '<div class="al-lim-acc"><p class="al-label">Right out of ' + N + ' sample digits, at each sideways shift</p><div class="al-acc" id="alLimAcc"></div>' +
+          '<div class="al-acc-ax"><span>' + R + ' left</span><span>no shift</span><span>' + R + ' right</span></div><p class="al-read" id="alLimAccTxt"></p></div>';
+      $("alLimBars").innerHTML = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((k) => '<div class="al-bar-row"><b>' + k + '</b><span class="al-bar-t"><i></i></span><em></em></div>').join("");
+      const accAt = (sx, sy) => { let n = 0; for (let i = 0; i < N; i++) if (best(scoresOf(t.W, shiftBy(bins[i], sx, sy))) === s.labels[i]) n++; return n; };
+      const curve = () => { if (!cache || cache.dy !== dy) { const v = []; for (let sx = -R; sx <= R; sx++) v.push(accAt(sx, dy)); cache = { dy, v }; } return cache.v; };
+      const draw = () => {
+        const x = shiftBy(bins[at], dx, dy), sc = scoresOf(t.W, x), g = best(sc), truth = s.labels[at];
+        const cv = $("alLimC").getContext("2d"), im = cv.createImageData(28, 28);
+        for (let i = 0; i < 784; i++) { const o = i * 4; im.data[o] = INK[0]; im.data[o + 1] = INK[1]; im.data[o + 2] = INK[2]; im.data[o + 3] = x[i] ? 255 : 0; }
+        cv.putImageData(im, 0, 0);
+        $("alLimCap").innerHTML = "A real handwritten <b>" + truth + "</b>, with its ink as x";
+        const top = Math.max(1, Math.max.apply(null, sc));
+        host.querySelectorAll(".al-bar-row").forEach((row, k) => {
+          row.querySelector("i").style.width = Math.max(0, sc[k]) / top * 100 + "%";
+          row.querySelector("em").textContent = String(sc[k]).replace("-", "\u2212");
+          row.classList.toggle("win", k === g); row.classList.toggle("truth", k === truth);
+        });
+        $("alLimRead").textContent = "The model reads it as " + g + (g === truth ? ", which is right." : ", but it is a " + truth + ".");
+        const v = curve(), now = v[dx + R];
+        host.querySelectorAll("#alLimAcc span").forEach((b, i) => b.classList.toggle("on", i === dx + R));
+        $("alLimAcc").innerHTML = v.map((n, i) => '<span class="' + (i === dx + R ? "on" : "") + '" title="' + n + ' of ' + N + '"><i style="height:' + n / N * 100 + '%"></i></span>').join("");
+        $("alLimAccTxt").textContent = "Right on " + now + " of " + N + " (" + Math.round(now / N * 100) + "%) at this shift. With the digits in place: " + v[R] + " of " + N + " (" + Math.round(v[R] / N * 100) + "%).";
+      };
+      host.addEventListener("input", (e) => {
+        if (e.target.id === "alLimX") { dx = +e.target.value; $("alLimXv").textContent = dx; }
+        else if (e.target.id === "alLimY") { dy = +e.target.value; $("alLimYv").textContent = dy; }
+        else return;
+        draw();
+      });
+      $("alLimNext").addEventListener("click", () => { let n = at; while (n === at) n = Math.floor(Math.random() * N); at = n; draw(); });
+      draw();
+    }).catch(() => { host.hidden = true; });
+  })();
+
+  // ======================================================================
+  // 3c. Where it is used: reading a ZIP code with the real weights
+  // ======================================================================
+  (function zip() {
+    const host = $("alZip");
+    if (!host) return;
+    Promise.all([samples, templatesP]).then(([s, t]) => {
+      const reads = s.imgs.map((img) => best(scoresOf(t.W, inkOf(img))));
+      host.innerHTML = '<div class="al-zip-row" id="alZipRow"></div><div class="al-zip-foot"><button type="button" class="al-next" id="alZipGo">Read another ZIP code</button><p class="al-zip-res" id="alZipRes" aria-live="polite"></p></div>';
+      const draw = () => {
+        const idx = Array.from({ length: 5 }, () => Math.floor(Math.random() * s.imgs.length)), wrong = idx.filter((i) => reads[i] !== s.labels[i]).length;
+        $("alZipRow").innerHTML = idx.map((i) => '<div class="al-zd' + (reads[i] === s.labels[i] ? "" : " bad") + '"><canvas width="28" height="28"></canvas><b>' + reads[i] + "</b><small>" + (reads[i] === s.labels[i] ? "right" : "it is a " + s.labels[i]) + "</small></div>").join("");
+        $("alZipRow").querySelectorAll("canvas").forEach((cv, k) => paint(cv, s.imgs[idx[k]]));
+        const read = idx.map((i) => reads[i]).join(""), real = idx.map((i) => s.labels[i]).join("");
+        $("alZipRes").innerHTML = wrong ? "Read as <b>" + read + "</b>, but the ZIP code is <b>" + real + "</b>. " + wrong + (wrong === 1 ? " digit is" : " digits are") + " wrong, so the letter goes to the wrong place."
+          : "Read as <b>" + read + "</b>, which is right. Try a few more and see how often it slips.";
+      };
+      $("alZipGo").addEventListener("click", draw);
+      draw();
+    }).catch(() => { host.hidden = true; });
   })();
 
   // ======================================================================
