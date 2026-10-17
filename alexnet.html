@@ -66,9 +66,9 @@
 
   <nav class="ax-toc" aria-label="On this page">
     <div class="wrap">
-      <a href="#s1"><b>1</b>Dot product</a>
-      <a href="#s2"><b>2</b>Sliding</a>
-      <a href="#s3"><b>3</b>Vectors</a>
+      <a href="#s1"><b>1</b>Match</a>
+      <a href="#s2"><b>2</b>Scan</a>
+      <a href="#s3"><b>3</b>Line up</a>
       <a href="#s4"><b>4</b>Tensors</a>
       <a href="#s5"><b>5</b>Layers</a>
       <a href="#s6"><b>6</b>Learning</a>
@@ -81,15 +81,15 @@
   <!-- ============ 1 ============ -->
   <section class="ax-sec" id="s1">
     <div class="wrap">
-      <div class="ax-head"><span class="ax-n">1</span><h2>A dot product is a similarity score</h2></div>
+      <div class="ax-head"><span class="ax-n">1</span><h2>Does this look like that?</h2></div>
       <div class="ax-prose">
-        <p>Take two lists of numbers of the same length. Multiply them pair by pair, then add up the results. That is a <b>dot product</b>. If both lists are large in the same places, the answer is large. If one is large where the other is small, the answer is small or negative. So a dot product measures how much one list looks like the other.</p>
-        <p>In AlexNet the first list is a small patch of the image. The second is a <b>kernel</b>: a little template of weights. <b>A dot product is biggest when the patch looks like the kernel.</b> The kernels are not written by hand. Training finds them.</p>
+        <p>A computer has no eyes. All it has is numbers. So the first question is a tiny one: how do you ask whether a small piece of a picture looks like something you are hunting for?</p>
+        <p>Try it below. On the left is a 3 &times; 3 snapshot. In the middle is a <b>stencil</b> of what you want: green squares mean &ldquo;I want this bright&rdquo;, red means &ldquo;I want this dark&rdquo;, blank means &ldquo;I don&rsquo;t care&rdquo;. Multiply each square by the stencil and add it all up. It works like a shopping bill: every pixel is a line item, and the total is the match score.</p>
       </div>
-      <figure class="ax-fig" id="axDot"></figure>
-      <div class="ax-math">
-        <p class="ax-eq">a &middot; b = a<sub>1</sub>b<sub>1</sub> + a<sub>2</sub>b<sub>2</sub> + &hellip; + a<sub>n</sub>b<sub>n</sub> = |a| |b| cos &theta;</p>
-        <p>The right-hand form says the same thing geometrically: the dot product is the lengths of the two lists times the cosine of the angle between them, largest when they point the same way. The last page's score, <code>W[class] &middot; x</code>, was this exact operation.</p>
+      <figure class="ax-fig" id="axMatch"></figure>
+      <div class="ax-name">
+        <p><b>What you just did has a name.</b> Multiplying matching pairs and adding them up is a <b>dot product</b>. AlexNet calls its stencils <b>kernels</b>, and a dot product is biggest when the snapshot looks like the kernel. The last page's score, <code>W[class] &middot; x</code>, was exactly this, but with a stencil as big as the whole digit.</p>
+        <p class="ax-eq">a &middot; b = a<sub>1</sub>b<sub>1</sub> + a<sub>2</sub>b<sub>2</sub> + &hellip; + a<sub>n</sub>b<sub>n</sub></p>
       </div>
     </div>
   </section>
@@ -97,15 +97,15 @@
   <!-- ============ 2 ============ -->
   <section class="ax-sec" id="s2">
     <div class="wrap">
-      <div class="ax-head"><span class="ax-n">2</span><h2>Slide the same kernel everywhere</h2></div>
+      <div class="ax-head"><span class="ax-n">2</span><h2>Where in the picture is it?</h2></div>
       <div class="ax-prose">
-        <p>One dot product tells you how well one patch matches. To find <em>where</em> a pattern appears, slide the kernel across every position and take the dot product each time. The grid of answers is a <b>feature map</b>: bright where the pattern is, dark where it is not. This operation is called a <b>convolution</b>.</p>
-        <p>Because the same few weights are used at every position, the model needs far fewer numbers than a template for the whole picture, and it finds a stroke wherever it sits. The last page's templates fell apart when a digit moved a few pixels. A sliding kernel does not mind.</p>
+        <p>One snapshot tells you about one spot. To find <em>where</em> something is, you slide the stencil over the whole picture and check every spot, like a detective with a magnifying glass.</p>
+        <p>Pick what you are looking for, then drag the magnifier over the picture. Every spot you check paints one pixel on the map on the right: green means &ldquo;the stencil matches here&rdquo;, red means &ldquo;the opposite&rdquo;. Or press Scan and let it check everywhere.</p>
       </div>
-      <figure class="ax-fig" id="axConv"></figure>
-      <div class="ax-math">
-        <p class="ax-eq">feature map[i, j] = &Sigma;<sub>u</sub> &Sigma;<sub>v</sub> K[u, v] &middot; X[i + u, j + v]</p>
-        <p>For a 28 &times; 28 picture and a 3 &times; 3 kernel there are 26 &times; 26 = 676 positions, so 676 dot products of 9 numbers each. Add a rectifier, <code>max(0, value)</code>, and negative responses are switched off.</p>
+      <figure class="ax-fig" id="axScan"></figure>
+      <div class="ax-name">
+        <p><b>Notice what is reused.</b> The same nine numbers are used at every spot. That is why this is cheap, and why it finds an edge wherever it sits: slide the picture and the green slides with it. Sliding a stencil across a picture is called <b>convolution</b>, and the map it makes is a <b>feature map</b>.</p>
+        <p class="ax-eq">map[i, j] = &Sigma; K[u, v] &middot; X[i + u, j + v]</p>
       </div>
     </div>
   </section>
@@ -113,17 +113,24 @@
   <!-- ============ 3 ============ -->
   <section class="ax-sec" id="s3">
     <div class="wrap">
-      <div class="ax-head"><span class="ax-n">3</span><h2>Vectorization: turn everything into vectors, stack them into a matrix</h2></div>
+      <div class="ax-head"><span class="ax-n">3</span><h2>How do you do that millions of times? Line everything up.</h2></div>
       <div class="ax-prose">
-        <p>A dot product is cheap, but a network needs billions of them. The trick is to stop doing them one at a time. Unroll each patch of the image into a row of numbers, a <b>vector</b>. Stack all those rows into one matrix. Put the kernels side by side as another matrix. Now every dot product at every position is a single <b>matrix multiplication</b>, and matrix multiplication is the one job a graphics card is built to do at enormous scale.</p>
-        <p>This is <b>vectorization</b>, and it is the same idea behind ChatGPT. There, words are chunked up, split into vectors, and stacked into a matrix that is operated on over and over; the biggest GPT-3 model repeats the step 96 times. One big difference: AlexNet puts a label on an image, while ChatGPT predicts the next word of a text.</p>
+        <p>Checking 676 spots for one stencil is already 676 separate sums. AlexNet&rsquo;s first layer checks 3,025 spots for each of 96 stencils, for every one of over a million photos, over and over. One worker doing one sum at a time would never finish.</p>
+        <p>A graphics card is more like a stadium of 512 workers who can all do the same simple job at the same moment. Race them below.</p>
       </div>
-      <figure class="ax-fig" id="axVec"></figure>
-      <figure class="ax-fig ax-fig-slim" id="axWords"></figure>
-      <div class="ax-math">
+      <figure class="ax-fig" id="axRace"></figure>
+      <div class="ax-prose ax-prose-gap">
+        <p>There is a catch: the workers only help if their jobs are <b>identical and lined up</b>. So you rearrange the work first. Cut out every patch, flatten it into a row of numbers, and stack the rows into a table. Now each sum is one row times the stencil, and the whole table is a single multiplication. Making everything a list of numbers (a <b>vector</b>) and a stack of lists (a <b>matrix</b>) is called <b>vectorization</b>.</p>
+      </div>
+      <figure class="ax-fig" id="axStack"></figure>
+      <div class="ax-name">
         <p class="ax-eq">Output (N &times; M) = P (N &times; k&sup2;C) &times; K (k&sup2;C &times; M)</p>
-        <p>N is the number of positions, M the number of kernels, and k&sup2;C the length of one unrolled patch. In the demo above N = 16, M = 2 and k&sup2;C = 9. In AlexNet's first layer N = 3,025, M = 96 and k&sup2;C = 363. This is the standard way convolutions are run on GPUs.</p>
+        <p>P has one flattened patch per row, K has one stencil per column. In the demo above N = 16 patches, M = 1 stencil and each row has k&sup2;C = 9 numbers. In AlexNet&rsquo;s first layer N = 3,025, M = 96 and k&sup2;C = 363. This is how convolutions are really run on GPUs.</p>
       </div>
+      <div class="ax-prose ax-prose-gap">
+        <p>It is also the idea behind ChatGPT. Words are chunked up, turned into vectors, stacked into a matrix, and operated on again and again (the biggest GPT-3 model repeats the step 96 times). AlexNet puts a label on an image; ChatGPT predicts the next word of a text.</p>
+      </div>
+      <figure class="ax-fig ax-fig-slim" id="axWords"></figure>
     </div>
   </section>
 
@@ -299,6 +306,7 @@
 <script src="data.js"></script>
 <script src="common.js"></script>
 <script src="alexnet/core.js"></script>
+<script src="alexnet/intro.js"></script>
 <script src="alexnet/lab.js"></script>
 <script src="alexnet/net.js"></script>
 <script src="alexnet/mind.js"></script>
