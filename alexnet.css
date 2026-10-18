@@ -1154,3 +1154,26 @@ body:has(#axGL) header.site a.cta { font: 700 14px var(--ui); letter-spacing: 0;
 .ax-kzoo { grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 3px; }
 .ax-k.dim { display: none; }
 @media (max-width: 900px) { .ax-kzoo { grid-template-columns: repeat(8, minmax(0, 1fr)); } }
+
+/* ---------- tighten: no tall figures leaving blank areas ---------- */
+.ax-prose:has(.ax-hist) { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 0 44px; align-items: center; }
+.ax-prose:has(.ax-hist) > * { grid-column: 1; }
+.ax-prose:has(.ax-hist) > .ax-hist { grid-column: 2; grid-row: 1 / span 6; float: none; width: auto; margin: 0; align-self: center; }
+.ax-hist img { max-height: 210px; width: 100%; object-fit: cover; object-position: top; }
+.ax-hist .pair img { max-height: 150px; } .ax-hist .pair.mix img { max-height: 150px; }
+.ax-hist .wide { max-height: 120px; } .ax-hist .crop { height: 120px; }
+.ax-hist img.top { height: 130px; }
+.ax-rgb canvas { max-height: 150px; object-fit: cover; }
+.ax-hist .ax-ksample { max-width: 300px; }
+@media (max-width: 820px) { .ax-prose:has(.ax-hist) { display: block; } .ax-prose:has(.ax-hist) > .ax-hist { margin: 0 0 20px; max-width: 420px; } .ax-hist img { max-height: 260px; } }
+
+/* plates: drawing left, caption right, so they stay short */
+.ax-plate { display: grid; grid-template-columns: minmax(0, 1.9fr) minmax(0, 1fr); gap: 0 28px; align-items: center; padding: 14px 24px 14px 14px; margin: 28px 0; }
+.ax-plate figcaption { margin: 0; padding: 0 0 0 24px; border: 0; border-left: 1px solid #cfd8d3; font-size: 15px; line-height: 1.55; color: #1a1a1a; }
+.ax-plate figcaption b { display: block; margin: 0 0 8px; width: max-content; }
+@media (max-width: 820px) { .ax-plate { display: block; padding: 12px; } .ax-plate figcaption { padding: 10px 0 0; margin-top: 10px; border-left: 0; border-top: 1px solid #cfd8d3; font-size: 14px; } }
+
+.ax-top .ax-sheet { padding-bottom: 36px; }
+.ax-sec .ax-sheet { padding-bottom: 36px; }
+.ax-close .ax-sheet p, .ax-close .ax-sheet li { font-size: 16px; }
+.ax-close .ax-sheet h2 { margin-top: 0; }
