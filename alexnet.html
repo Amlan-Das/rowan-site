@@ -226,6 +226,11 @@
         <p>AlexNet used a slightly richer version of that nudge. It keeps a running <b>momentum</b> so steps build speed in a consistent direction, and a little <b>weight decay</b> that pulls weights gently towards zero. The authors found the decay was not just a regulariser: it lowered the training error. Change the three knobs and watch a weight roll down a valley.</p>
       </div>
       <figure class="ax-fig" id="axUpdate"></figure>
+      <p class="ax-sub"><b>6C</b><span>Learning, seen in weight space</span></p>
+      <div class="ax-prose">
+        <p>There is a picture that makes training click. Forget the image for a moment and treat the <b>weights themselves</b> as a point. A kernel with three weights is one point in 3D space; AlexNet is one point in a space with 60 million directions. Each training example puts a flat wall through the origin: weights on one side get it right, weights on the other get it wrong. Where every example&rsquo;s right-hand side overlaps is a <b>cone of feasible solutions</b>. Training is just moving the point until it is inside the cone. Geoffrey Hinton draws exactly this picture when he teaches the perceptron.</p>
+      </div>
+      <figure class="ax-fig" id="axWeights"></figure>
       <div class="ax-name">
         <p class="ax-nl">In one line</p>
         <p>Training never changes the operations, only the weights. Each weight is nudged against its slope, with momentum and a pinch of weight decay.</p>
@@ -394,6 +399,7 @@
 <script src="alexnet/pick.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="alexnet/scene.js"></script>
+<script src="alexnet/weights.js"></script>
 <script src="alexnet/plates.js"></script>
 <script src="alexnet/preloader.js"></script>
 </body>
