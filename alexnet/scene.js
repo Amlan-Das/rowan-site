@@ -169,12 +169,12 @@
     [[0, 12, 58], [-3, 0, 0]]        // 10 close
   ];
   // ---------- chapter counter ----------
-  let voLast = -1, voT = 0, voC = 0; const stageEls = [...document.querySelectorAll(".ax-hero, .ax-stage")];
+  let onStage = false, voXLast = 0, voLast = -1, voT = 0, voC = 0; const stageEls = [...document.querySelectorAll(".ax-hero, .ax-stage")];
   const cnt = document.getElementById("axCount"); let cntK = -1;
   const updateOrb = (p) => {
     if (!cnt) return;
     const k = Math.max(0, Math.min(10, Math.round(p)));
-    cnt.classList.toggle("on", p > 0.6 && p < 9.7);
+    cnt.classList.toggle("on", onStage);
     if (k !== cntK) { cntK = k; const n = Math.max(1, Math.min(9, k)); cnt.querySelector(".ax-cn").textContent = ("0" + n).slice(-2); cnt.querySelector("a").setAttribute("href", k >= 9 ? "#close" : "#s" + (k + 1)); }
   };
   const NAMES = ["AlexNet", "Match", "Scan", "Line up", "Tensors", "Layers", "Learning", "The paper", "Embeddings", "Why 2012", "Summary"];
@@ -201,12 +201,12 @@
     const k = reduce ? 1 : 1 - Math.pow(0.0009, dt);
     for (let a = 0; a < 3; a++) { cur[a] += (tp[a] - cur[a]) * k; look[a] += (tl[a] - look[a]) * k; }
     // orbit: the camera circles whatever it is looking at, a little further with every step
-    const zf = 1 + 0.5 * smooth(0, 0.8, p), th = reduce ? p * 0.5 : p * 0.5 + Math.sin(t * 0.25) * 0.12, dx = cur[0] - look[0], dz = cur[2] - look[2], cs = Math.cos(th), sn = Math.sin(th);
+    const zf = 1.25 + 0.27 * smooth(0, 0.8, p), th = reduce ? p * 0.5 : p * 0.5 + Math.sin(t * 0.25) * 0.12, dx = cur[0] - look[0], dz = cur[2] - look[2], cs = Math.cos(th), sn = Math.sin(th);
     camera.position.set(look[0] + (dx * cs + dz * sn) * zf, look[1] + (cur[1] - look[1]) * zf, look[2] + (-dx * sn + dz * cs) * zf); camera.lookAt(look[0], look[1], look[2]);
     // keep the model in the part of the chapter screen that is still visible
     { let best = null, bestA = 0; const vh = innerHeight; for (let q = 0; q < stageEls.length; q++) { const r = stageEls[q].getBoundingClientRect(), a = Math.min(r.bottom, vh) - Math.max(r.top, 0); if (a > bestA) { bestA = a; best = [r, stageEls[q]]; } }
-      if (best && bestA > vh * 0.12) { const cv = (Math.max(best[0].top, 0) + Math.min(best[0].bottom, vh)) / 2; voT = vh / 2 - cv + (best[1].classList.contains("ax-hero") ? vh * 0.1 : 0); }
-      voC += (voT - voC) * (reduce ? 1 : 1 - Math.pow(0.0008, dt)); const vo = Math.round(voC); if (vo !== voLast) { voLast = vo; camera.setViewOffset(innerWidth, innerHeight, 0, vo, innerWidth, innerHeight); camera.updateProjectionMatrix(); } }
+      if (best && bestA > vh * 0.12) { const cv = (Math.max(best[0].top, 0) + Math.min(best[0].bottom, vh)) / 2; voT = vh / 2 - cv + (best[1].classList.contains("ax-hero") ? vh * (innerWidth > 900 ? 0.02 : 0.3) : -vh * 0.1); onStage = bestA > vh * 0.4 && best[1].classList.contains("ax-stage"); }
+      voC += (voT - voC) * (reduce ? 1 : 1 - Math.pow(0.0008, dt)); const vo = Math.round(voC), hero = 1 - smooth(0, 0.8, p), voX = Math.round(innerWidth > 1000 ? innerWidth * (-0.27 * hero + 0.13 * (1 - hero)) : 0); if (vo !== voLast || voX !== voXLast) { voLast = vo; voXLast = voX; camera.setViewOffset(innerWidth, innerHeight, voX, vo, innerWidth, innerHeight); camera.updateProjectionMatrix(); } }
     updateOrb(p, th, t);
     warm.position.set(cur[0] * 0.5 + 6, cur[1] + 4, cur[2] * 0.5 + 4);
 
