@@ -777,3 +777,66 @@ button.ax-cell:hover { border-color: var(--ink); }
 .ax-lab.stack > div:nth-child(3) { min-width: 0; }
 .ax-kstrip { max-width: 228px; }
 .ax-lab.stack .ax-label { overflow-wrap: anywhere; }
+
+/* =====================================================================
+   The 3D world: a fixed olive scene, big type stages, paper sheets
+   ===================================================================== */
+body:has(#axGL) { background: #4a5937; }
+#axGL { position: fixed; inset: 0; width: 100%; height: 100%; display: block; z-index: 0; }
+.ax { position: relative; z-index: 1; background: transparent; }
+
+/* hero: type over the scene, the photo as a pinned print */
+.ax-hero { background: transparent; grid-template-columns: minmax(0, 1fr) 290px; align-items: end; gap: 40px; min-height: calc(100vh - 70px); padding: 0 var(--ax-edge) 64px; }
+.ax-hero-l { padding: 0; color: #f2ecda; }
+.ax-hero-in { max-width: 700px; }
+.ax-hero h1 { color: #fff; text-shadow: 0 4px 50px rgba(20, 28, 12, .5); font-size: clamp(52px, 8vw, 118px); }
+.ax-hero h1 em { color: #ffb070; }
+.ax-hero .ax-stand { color: #efe9d6; text-shadow: 0 2px 24px rgba(20, 28, 12, .5); }
+.ax-eyebrow { color: #ffb070; }
+.ax-hero .ax-credit { color: #dcd6c0; border-top-color: rgba(255, 255, 255, .25); }
+.ax-hero .ax-back a { color: #f2ecda; }
+.ax-hero-r { padding: 14px 14px 12px; background: #f8f5ee; box-shadow: 0 30px 70px rgba(14, 18, 8, .5); transform: rotate(2.2deg); align-self: end; }
+.ax-hero-r img { mix-blend-mode: normal; }
+.ax-hero-r figcaption { font-size: 11.5px; line-height: 1.45; }
+.ax-top { padding-top: 0; }
+
+/* contents bar over the scene */
+.ax-toc { background: rgba(30, 38, 20, .82); border-color: rgba(255, 255, 255, .12); }
+.ax-toc a { color: #d6cfb8; }
+.ax-toc a b { color: #ffb070; }
+.ax-toc a:hover { color: #fff; }
+.ax-toc a.on { color: #fff; border-bottom-color: #ffb070; }
+
+/* each step opens with a stage: the scene shows, the type sits on it */
+.ax-sec { padding: 0 0 14vh; border-top: 0; background: none !important; }
+.ax-stage { position: relative; min-height: 98vh; display: flex; flex-direction: column; justify-content: flex-end; padding-top: 14vh; padding-bottom: 8vh; pointer-events: none; }
+.ax-stage > * { pointer-events: auto; }
+.ax-stage .ax-n { display: block; color: rgba(242, 236, 218, .96); font: 300 clamp(110px, 17vw, 250px)/.78 var(--ax-serif); letter-spacing: -.05em; text-shadow: 0 6px 60px rgba(20, 28, 12, .45); }
+.ax-stage h2 { max-width: 15ch; margin: 22px 0 22px; color: #f7f2e2; font: 400 clamp(38px, 6.2vw, 94px)/1 var(--ax-serif); letter-spacing: -.03em; text-shadow: 0 4px 44px rgba(20, 28, 12, .5); }
+.ax-stage .ax-rk { margin: 0 0 8px; padding: 0; border: 0; color: #ffb070; font: 700 12px/1 var(--sans); letter-spacing: .2em; text-transform: uppercase; }
+.ax-stage .ax-rn { max-width: 34ch; margin: 0; color: #ebe4cc; font: italic 400 22px/1.45 var(--ax-serif); text-shadow: 0 2px 20px rgba(20, 28, 12, .5); }
+
+/* the content is a sheet of paper laid over the scene */
+.ax-sheet { background: var(--ax-bg); padding: 56px 60px 46px; box-shadow: 0 60px 120px rgba(14, 18, 8, .55); }
+.ax-sheet > .ax-prose:first-child { margin-top: 0; }
+.ax-close { background: transparent; padding-bottom: 12vh; }
+.ax-close .ax-sheet { padding-top: 56px; }
+.ax-close-grid { padding-top: 0; }
+
+@media (max-width: 1100px) { .ax-hero { grid-template-columns: 1fr; min-height: 0; padding-top: 12vh; } .ax-hero-r { max-width: 280px; margin-top: 10px; } }
+@media (max-width: 860px) {
+  .ax-stage { min-height: 80vh; padding-top: 10vh; }
+  .ax-sheet { padding: 34px 22px 30px; }
+  .ax-stage .ax-rn { font-size: 19px; }
+}
+@media (max-width: 860px) { .ax-stage::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: linear-gradient(to top, rgba(28, 36, 18, .72), rgba(28, 36, 18, .25) 65%, transparent); } }
+@media (max-width: 640px) {
+  .ax-lab.stack, .ax-lab.stack > div { min-width: 0; }
+  .ax-srow { grid-template-columns: 20px minmax(0, 150px) 44px; }
+  .ax-strip { grid-template-columns: repeat(9, 1fr); width: 100%; }
+  .ax-strip i { height: 15px; }
+  .ax-sheet { overflow-wrap: anywhere; }
+  .ax-hero .ax-credit, .ax-hero .ax-stand { overflow-wrap: anywhere; }
+}
+@media (max-width: 1100px) { .ax-lab.stack { grid-template-columns: 210px minmax(0, 1fr); } .ax-lab.stack > div:nth-child(3) { grid-column: 1 / -1; } }
+@media (max-width: 640px) { .ax-lab.stack { grid-template-columns: 1fr; } }
