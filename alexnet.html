@@ -279,6 +279,11 @@
         <p>I can&rsquo;t run AlexNet itself in a web page, but the digit model from the last page is a very small embedding. Its ten learned templates are ten <b>directions</b>, and a digit&rsquo;s score for each is how far it lies along that direction. Pick two directions and every digit becomes a point on a map.</p>
       </div>
       <figure class="ax-fig" id="axMap"></figure>
+      <p class="ax-sub"><b>8C</b><span>Picking the closest one</span></p>
+      <div class="ax-prose">
+        <p>Now the last step. When a new picture comes in, the network turns it into its vector, which is a single point. Every picture it has seen before is already a point in the same space. To recognise the new one, find the points nearest to it and let them vote. If most of the closest points are elephants, it is probably an elephant.</p>
+      </div>
+      <figure class="ax-fig" id="axPick"></figure>
       <div class="ax-name">
         <p class="ax-nl">In one line</p>
         <p>Compare two images by the distance between their 4,096-number vectors, not their pixels. Close in that space means similar in content.</p>
@@ -386,6 +391,7 @@
 <script src="alexnet/lab.js"></script>
 <script src="alexnet/net.js"></script>
 <script src="alexnet/mind.js"></script>
+<script src="alexnet/pick.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="alexnet/scene.js"></script>
 <script src="alexnet/plates.js"></script>

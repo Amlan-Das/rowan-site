@@ -1177,3 +1177,15 @@ body:has(#axGL) header.site a.cta { font: 700 14px var(--ui); letter-spacing: 0;
 .ax-sec .ax-sheet { padding-bottom: 36px; }
 .ax-close .ax-sheet p, .ax-close .ax-sheet li { font-size: 16px; }
 .ax-close .ax-sheet h2 { margin-top: 0; }
+
+/* 8C: pick the closest */
+.pk { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 28px 40px; align-items: stretch; margin-top: 8px; }
+.pk-stage { position: relative; border: 1px solid #0a0a0a; background: #f6f8f7; min-height: 420px; } .pk-stage canvas { display: block; width: 100%; height: 100%; min-height: 420px; cursor: grab; touch-action: none; } .pk-stage canvas:active { cursor: grabbing; }
+.pk-ax { position: absolute; font: 600 12px var(--ui, sans-serif); color: #4a4a4a; } .pk-ax.x { right: 18px; bottom: 8px; } .pk-ax.y { left: 44px; top: 6px; }
+.pk-side { display: flex; flex-direction: column; justify-content: center; gap: 4px; }
+.pk-cells { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; } .pk-cells i { aspect-ratio: 1.4; border: 1px solid rgba(15, 90, 68, .35); }
+.pk-note { margin: 8px 0 0; font: 400 13px/1.5 ui-monospace, Menlo, monospace; color: #3a3a3a; }
+.pk-votes { display: grid; gap: 8px; margin: 6px 0 4px; }
+.pk-vote { display: grid; grid-template-columns: 76px 1fr 56px; align-items: center; gap: 10px; font: 600 14px var(--ui, sans-serif); } .pk-vote i { display: block; height: 12px; border-radius: 6px; transition: width .25s; } .pk-vote em { font-style: normal; font-weight: 500; color: #555; font-size: 13px; }
+.pk-verdict { margin: 10px 0 12px; padding: 14px 16px; background: #fff; border-left: 4px solid #0f5a44; font: 400 17px/1.4 var(--ui, sans-serif); }
+@media (max-width: 900px) { .pk { grid-template-columns: 1fr; } .pk-stage, .pk-stage canvas { min-height: 340px; } }
