@@ -160,6 +160,7 @@
       <figure class="ax-fig" id="axRace"></figure>
       <p class="ax-sub"><b>3B</b><span>Line the work up</span></p>
       <div class="ax-prose ax-prose-gap">
+        <figure class="ax-hist"><img src="alexnet/img/mnist-examples.png" width="594" height="361" loading="lazy" alt="Grid of handwritten digits from the MNIST dataset"><figcaption><span class="yr">Same trick</span> Every one of these digits is a 28 &times; 28 grid. Flatten it and it becomes one row of 784 numbers; stack thousands of rows and you have a table a graphics card can multiply in one go.</figcaption></figure>
         <p>There is a catch: the workers only help if their jobs are <b>identical and lined up</b>. So you rearrange the work first. Cut out every patch, flatten it into a row of numbers, and stack the rows into a table. Now each sum is one row times the stencil, and the whole table is a single multiplication. Making everything a list of numbers (a <b>vector</b>) and a stack of lists (a <b>matrix</b>) is called <b>vectorization</b>.</p>
       </div>
       <figure class="ax-fig" id="axStack"></figure>
@@ -190,6 +191,7 @@
       <figure class="ax-fig" id="axShape"></figure>
       <p class="ax-sub"><b>4B</b><span>What do the first-layer kernels look like?</span></p>
       <div class="ax-prose ax-prose-gap">
+        <figure class="ax-hist"><div class="ax-kzoo"></div><figcaption><span class="yr">Generated</span> A sample of stencils of the kinds the first layer learns: stripes, checkerboards and colour blobs. These are my own generated examples, not the paper&rsquo;s learned weights.</figcaption></figure>
         <p>The paper shows the 96 kernels its first layer learned. Some are <b>stripes</b>: edge and angle detectors. Some are <b>checkerboards</b>, which respond to fine texture. Some are <b>colourful blobs</b>, which say &ldquo;green on this side, pink on the other.&rdquo; The grid below is not the learned weights. I generated kernels in the same three families so you can see what each kind finds in a real photo.</p>
       </div>
       <figure class="ax-fig" id="axZoo"></figure>
@@ -279,7 +281,7 @@
     <div class="wrap ax-stage"><span class="ax-n">8</span><span class="ax-ch">Embeddings</span><h2>What does the network end up with?</h2><p class="ax-rk">Meaning</p><p class="ax-rn">Distance in a learned space follows content, not pixels.</p></div>
     <div class="wrap"><div class="ax-sheet">
       <div class="ax-prose">
-        <figure class="ax-hist"><img src="alexnet/img/mnist-examples.png" width="594" height="361" loading="lazy" alt="Grid of handwritten digits from the MNIST dataset"><figcaption><span class="yr">1998</span> <b>MNIST</b>: 70,000 handwritten digits, collected for LeCun&rsquo;s group and used as the standard test for decades. The map above is made from 60 of them.</figcaption></figure>
+        <figure class="ax-hist"><div class="pair two"><img src="alexnet/img/elephant-calf.jpg" width="640" height="480" loading="lazy" alt="An African forest elephant mother and calf drinking"><img src="alexnet/img/elephant-away.jpg" width="640" height="480" loading="lazy" alt="An elephant walking away across the savanna"></div><img class="wide" src="alexnet/img/elephant-tusker.jpg" width="640" height="480" loading="lazy" alt="A tusker elephant standing in the open"><figcaption><span class="yr">Same animal</span> Different poses, light and backgrounds: far apart as raw pixels, but close together in the network&rsquo;s 4,096-number space. That is what the paper&rsquo;s nearest-neighbour test shows.</figcaption></figure>
         <p>Every image the network sees is mapped through those levels of multiplications into a long list of numbers. Stop one layer early and grab it: a vector with <b>4,096</b> numbers. A vector is a point in 4,096-dimensional space. Just as you can measure the distance between two points on a map, you can measure it in that space.</p>
         <p>The authors did exactly that. They took a test image&rsquo;s vector, found the training images whose vectors were closest, and the nearest images were, for example, all elephants. Yet they note that at the pixel level those pictures are generally <em>not</em> close, because the elephants appear in a variety of poses. This is an <b>embedding space</b>: distance and direction mean something about the content, not just the colours.</p>
       </div>

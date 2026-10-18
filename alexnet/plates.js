@@ -148,4 +148,13 @@
         for (var i = 0; i < a.length; i += 4) { a[i] *= m[0]; a[i + 1] *= m[1]; a[i + 2] *= m[2]; }
         x.putImageData(d, 0, 0); box.appendChild(c); }); };
     im.src = box.getAttribute('data-src'); });
+  // step 4B: a small sample of generated first-layer-style stencils
+  document.querySelectorAll('.ax-kzoo').forEach(function (box) {
+    if (!window.AX || !AX.makeZoo) return; var z = AX.makeZoo(), pick = [0, 3, 6, 9, 13, 16, 20, 24, 28, 33, 38, 45, 52, 60, 70, 82];
+    box.style.cssText = 'display:grid;grid-template-columns:repeat(4,1fr);gap:4px';
+    pick.forEach(function (i) { if (!z[i]) return; var c = document.createElement('canvas'); c.width = c.height = 11; c.style.cssText = 'width:100%;height:auto;image-rendering:pixelated;display:block';
+      AX.putRGB(c, AX.kernelRGB(z[i].k), 11, 11); box.appendChild(c); }); });
+  // step 3A: start the race once when it scrolls into view so the grids are not blank
+  var rg = document.getElementById('axRace');
+  if (rg && 'IntersectionObserver' in window && !reduce) { var io2 = new IntersectionObserver(function (es) { if (es[0].isIntersecting) { var b = rg.querySelector('button.ax-btn'); if (b) b.click(); io2.disconnect(); } }, { threshold: 0.6 }); io2.observe(rg); }
 })();

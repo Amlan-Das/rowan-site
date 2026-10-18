@@ -131,6 +131,28 @@
   });
 
   // ======================================================================
+  // The tensor: one real photo as three stacked grids (red, green, blue) with a colour kernel through them
+  // ======================================================================
+  const tensor = new T.Group(); tensor.position.set(0, 45, 0); scene.add(tensor);
+  const tplanes = [];
+  [["red", 0xff6b5a, [1, 0, 0]], ["green", 0x7be39a, [0, 1, 0]], ["blue", 0x6aa8ff, [0, 0, 1]]].forEach((c, k) => {
+    const m = new T.Mesh(new T.PlaneGeometry(9, 9), new T.MeshBasicMaterial({ color: c[1], transparent: true, opacity: 0.8, side: T.DoubleSide }));
+    m.position.z = (k - 1) * 3; tensor.add(m); tplanes.push(m);
+    const fr = new T.LineSegments(new T.EdgesGeometry(new T.PlaneGeometry(9, 9)), new T.LineBasicMaterial({ color: CREAM })); fr.position.copy(m.position); tensor.add(fr);
+    const nm = label(c[0], 0.5, "#ffffff"); nm.position.set(5.9, -3.6 + k * 0.01, m.position.z); tensor.add(nm);
+  });
+  const kb = new T.Mesh(new T.BoxGeometry(2.4, 2.4, 7.4), new T.MeshBasicMaterial({ color: ORANGE, transparent: true, opacity: 0.35 })); kb.position.set(-1.2, 1.2, 0); tensor.add(kb);
+  const kbe = new T.LineSegments(new T.EdgesGeometry(kb.geometry), new T.LineBasicMaterial({ color: ORANGE })); kbe.position.copy(kb.position); tensor.add(kbe);
+  const tl1 = label("height x width x 3 channels", 0.8); tl1.position.set(0, -5.9, 0); tensor.add(tl1);
+  const tl2 = label("one colour kernel: 11 x 11 x 3", 0.7, "#8fd8b6"); tl2.position.set(0, 5.9, 0); tensor.add(tl2);
+  AX.loadImage("alexnet/img/elephant-river.jpg").then((img) => {
+    [[1, 0, 0], [0, 1, 0], [0, 0, 1]].forEach((m, k) => {
+      const c = document.createElement("canvas"); c.width = c.height = 128; const x = c.getContext("2d"); x.drawImage(img, 0, 0, 128, 128);
+      const d = x.getImageData(0, 0, 128, 128), a = d.data; for (let i = 0; i < a.length; i += 4) { a[i] *= m[0]; a[i + 1] *= m[1]; a[i + 2] *= m[2]; } x.putImageData(d, 0, 0);
+      const tx = new T.CanvasTexture(c); tplanes[k].material.map = tx; tplanes[k].material.color.set(0xffffff); tplanes[k].material.needsUpdate = true; });
+  });
+
+  // ======================================================================
   // Camera: one keyframe per scene
   // ======================================================================
   const KEYS = [
@@ -138,7 +160,7 @@
     [[-36, 4, 17], [-21, 0, 0]],     // 1 match
     [[-32, 5, 16], [-17.5, 0, 0]],   // 2 scan
     [[0, -6, 48], [0, -26, 0]],      // 3 line up
-    [[-30, 2.5, 9], [-21.3, 0, 0]],  // 4 tensors
+    [[6, 47, 22], [0, 45, 0]],       // 4 tensors
     [[-4, 10, 40], [-4, 0, 0]],      // 5 layers
     [[10, 7, 27], [1, 0, 0]],        // 6 learning
     [[-2, 16, 36], [-3, 0, 0]],      // 7 paper
@@ -147,7 +169,7 @@
     [[0, 12, 58], [-3, 0, 0]]        // 10 close
   ];
   // ---------- chapter counter ----------
-  let voLast = -1;
+  let voLast = -1, voT = 0, voC = 0; const stageEls = [...document.querySelectorAll(".ax-hero, .ax-stage")];
   const cnt = document.getElementById("axCount"); let cntK = -1;
   const updateOrb = (p) => {
     if (!cnt) return;
@@ -159,8 +181,9 @@
   const anchors = () => [document.querySelector(".ax-hero")].concat([...Array(9).keys()].map((i) => document.querySelector("#s" + (i + 1) + " .ax-stage")), [document.querySelector(".ax-close")]).filter(Boolean);
   let anch = [], cur = KEYS[0][0].slice(), look = KEYS[0][1].slice(), mouse = [0, 0], progress = 0, last = performance.now();
   const smooth = (a, b, x) => { const t = AX.clamp((x - a) / (b - a), 0, 1); return t * t * (3 - 2 * t); };
-  const measure = () => { anch = anchors().map((el) => { const r = el.getBoundingClientRect(); return r.top + scrollY + r.height * 0.5; }); };
-  const where = () => { const y = scrollY + innerHeight * 0.5; if (!anch.length) return 0; if (y <= anch[0]) return 0; for (let i = 0; i < anch.length - 1; i++) if (y < anch[i + 1]) return i + (y - anch[i]) / (anch[i + 1] - anch[i]); return anch.length - 1; };
+  const measure = () => { anch = anchors().map((el) => { const r = el.getBoundingClientRect(); return [r.top + scrollY, r.bottom + scrollY]; }); };
+  // p holds on a chapter for as long as any of its screen is visible, then glides to the next one while the sheet is read
+  const where = () => { const vh = innerHeight, y = scrollY + vh * 0.5; if (!anch.length) return 0; for (let i = 0; i < anch.length; i++) { const s = anch[i][0] - vh * 0.5; if (y < s) { if (i === 0) return 0; const e = anch[i - 1][1] + vh * 0.5; return i - 1 + AX.clamp((y - e) / Math.max(1, s - e), 0, 1); } if (y <= anch[i][1] + vh * 0.5) return i; } return anch.length - 1; };
   const resize = () => { const w = innerWidth, h = innerHeight; renderer.setSize(w, h, false); camera.aspect = w / h;  camera.fov = w < 700 ? 52 : 40; camera.updateProjectionMatrix(); measure(); };
   addEventListener("resize", resize); addEventListener("load", () => setTimeout(measure, 300)); setTimeout(measure, 1200); setTimeout(measure, 3500);
   addEventListener("pointermove", (e) => { mouse = [e.clientX / innerWidth - 0.5, e.clientY / innerHeight - 0.5]; }, { passive: true });
@@ -180,7 +203,10 @@
     // orbit: the camera circles whatever it is looking at, a little further with every step
     const zf = 1 + 0.5 * smooth(0, 0.8, p), th = reduce ? p * 0.5 : p * 0.5 + Math.sin(t * 0.25) * 0.12, dx = cur[0] - look[0], dz = cur[2] - look[2], cs = Math.cos(th), sn = Math.sin(th);
     camera.position.set(look[0] + (dx * cs + dz * sn) * zf, look[1] + (cur[1] - look[1]) * zf, look[2] + (-dx * sn + dz * cs) * zf); camera.lookAt(look[0], look[1], look[2]);
-    const vo = Math.round(innerHeight * 0.13 * (1 - smooth(0, 0.8, p))); if (vo !== voLast) { voLast = vo; if (vo) camera.setViewOffset(innerWidth, innerHeight, 0, vo, innerWidth, innerHeight); else camera.clearViewOffset(); camera.updateProjectionMatrix(); }
+    // keep the model in the part of the chapter screen that is still visible
+    { let best = null, bestA = 0; const vh = innerHeight; for (let q = 0; q < stageEls.length; q++) { const r = stageEls[q].getBoundingClientRect(), a = Math.min(r.bottom, vh) - Math.max(r.top, 0); if (a > bestA) { bestA = a; best = [r, stageEls[q]]; } }
+      if (best && bestA > vh * 0.12) { const cv = (Math.max(best[0].top, 0) + Math.min(best[0].bottom, vh)) / 2; voT = vh / 2 - cv + (best[1].classList.contains("ax-hero") ? vh * 0.1 : 0); }
+      voC += (voT - voC) * (reduce ? 1 : 1 - Math.pow(0.0008, dt)); const vo = Math.round(voC); if (vo !== voLast) { voLast = vo; camera.setViewOffset(innerWidth, innerHeight, 0, vo, innerWidth, innerHeight); camera.updateProjectionMatrix(); } }
     updateOrb(p, th, t);
     warm.position.set(cur[0] * 0.5 + 6, cur[1] + 4, cur[2] * 0.5 + 4);
 
@@ -205,7 +231,7 @@
       }
       solo.instanceMatrix.needsUpdate = gang.instanceMatrix.needsUpdate = true; solo.instanceColor.needsUpdate = gang.instanceColor.needsUpdate = true;
     }
-    cloud.visible = Math.abs(p - 8) < 1.3; cores.visible = Math.abs(p - 3) < 1.5 || Math.abs(p - 9) < 1.5 || reduce; net.visible = !(Math.abs(p - 3) < 0.9 || Math.abs(p - 9) < 0.9);
+    cloud.visible = Math.abs(p - 8) < 1.3; cores.visible = Math.abs(p - 3) < 1.5 || Math.abs(p - 9) < 1.5 || reduce; net.visible = !(Math.abs(p - 3) < 0.9 || Math.abs(p - 9) < 0.9 || Math.abs(p - 4) < 0.8); tensor.visible = Math.abs(p - 4) < 1.2;
     // the cloud turns slowly
     cloud.rotation.y = t * 0.12;
     renderer.render(scene, camera); progress = p; void progress; void tmp;

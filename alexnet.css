@@ -1037,3 +1037,35 @@ body:has(#axGL) header.site .mark-sub { font: 500 12px var(--sans); text-transfo
 .ax-hist .pair.mix { grid-template-columns: 38fr 62fr; align-items: end; }
 .ax-hist .crop { height: 170px; object-fit: cover; object-position: top; }
 .ax-hist img.top { height: 240px; object-fit: cover; object-position: top; }
+
+/* ---------- round 2 fixes ---------- */
+:root { --gx: max(28px, calc((100vw - 1120px) / 2 + 28px)); }
+
+/* statement band: larger photos, clean edges, no clipped highlights */
+.ax-state { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1.5fr) minmax(0, 1.15fr); gap: 3vw; padding: 12vh var(--gx); }
+.ax-ph { background: none; padding: 0; } .ax-ph img { aspect-ratio: 4 / 5; border-radius: 0; background: none; }
+.ax-ph figcaption { background: none; padding: 0; }
+.ax-ph-l { transform: translateY(-6%); } .ax-ph-r { transform: translateY(8%); }
+.ax-quote { font-size: clamp(30px, 3.9vw, 66px); line-height: 1.08; }
+.ax-quote mark { line-height: 1; padding: 0 .12em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+
+/* chapter screen: aligned to the sheet below, one solid text block (no see-through boxes) */
+.ax-stage.wrap { padding-left: var(--gx); padding-right: var(--gx); }
+.ax-stage h2, .ax-stage .ax-rk, .ax-stage .ax-rn { background: var(--m-black); margin: 0; border-left: 2px solid var(--m-mint); padding-left: 18px; padding-right: 16px; }
+.ax-stage h2 { padding-top: 16px; padding-bottom: 6px; }
+.ax-stage .ax-rk { padding-top: 0; padding-bottom: 6px; }
+.ax-stage .ax-rn { padding-top: 0; padding-bottom: 16px; }
+@media (max-width: 900px) { .ax-stage h2, .ax-stage .ax-rk, .ax-stage .ax-rn { background: none; border-left: 0; padding: 0; } }
+
+/* prose blocks: no empty right-hand side */
+.ax-prose p { max-width: 70ch; }
+.ax-hist { width: min(340px, 38%); }
+.ax-hist img.top { height: 150px; }
+
+/* widgets: balanced columns instead of big gaps */
+.ax-lab.stack { grid-template-columns: 250px 340px 270px; justify-content: space-between; gap: 26px 28px; }
+.ax-omap { width: 250px; } .ax-omap > * { aspect-ratio: 1; }
+.ax-lab.race { grid-template-columns: 250px 250px minmax(0, 1fr); gap: 24px 40px; }
+.ax-cv.sq canvas { width: 100%; height: auto; image-rendering: pixelated; background: repeating-linear-gradient(90deg, rgba(15, 90, 68, .08) 0 1px, transparent 1px 3.846%), #ebe7de; }
+@media (max-width: 1100px) { .ax-lab.stack { grid-template-columns: 220px minmax(0, 1fr); } .ax-lab.stack > div:nth-child(3) { grid-column: 1 / -1; } }
+@media (max-width: 640px) { .ax-lab.stack, .ax-lab.race { grid-template-columns: 1fr; } }
