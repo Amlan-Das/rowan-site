@@ -80,16 +80,16 @@
     const N = 64, O = 62;
     let gray = null, base = null, ki = 0, mx = 24, my = 30, painted = new Uint8Array(O * O), sc = new Float32Array(O * O), scale = 1, src = 0, anim = 0, prev = null, shifted = 0;
     const SRC = [["An elephant", "elephant-river"], ["On the savanna", "elephant-away"], ["Mother and calf", "elephant-calf"], ["A handwritten 7", "digit"], ["Test shapes", "shapes"]];
-    const SC = [STENCILS[0], STENCILS[1], { id: "outline", name: "Outline", hint: "both together", combo: true, k: STENCILS[0].k }, STENCILS[2], STENCILS[3]];
-    const ID2KI = { edge: 0, across: 1, diag: 3, dot: 4, outline: 2 };
+    const SC = [STENCILS[0], STENCILS[1], { id: "outline", name: "Outline", hint: "an edge in any direction", combo: true, k: STENCILS[0].k }, STENCILS[2]];
+    const ID2KI = { edge: 0, across: 1, diag: 3, outline: 2 };
     const photoCv = h("canvas", { width: N, height: N, "aria-label": "The picture to search. Drag across it." }), mapCv = h("canvas", { width: O, height: O, "aria-label": "The map of match scores" });
     const win = h("i.ax-win.m"), ring = h("i.ax-ring"), mwin = h("i.ax-win.mm");
     const pwrap = h("div.ax-cv.big", photoCv, win, ring), mwrap = h("div.ax-cv.big", mapCv, mwin, h("p.ax-empty", "Drag the magnifier over the picture, or press Scan."));
     const insetP = h("canvas", { width: 3, height: 3 }), insetS = h("div.ax-insetS"), insetT = h("div.ax-insetT", { "aria-live": "polite" });
     const srcChips = h("div.ax-chips", SRC.map(([n], i) => h("button.ax-chip", { type: "button", "data-i": i, onclick: () => { src = i; shifted = 0; load(); } }, n)));
-    const stChips = h("div.ax-cards.small", SC.map((s, i) => h("button.ax-card", { type: "button", "data-i": i, onclick: () => { ki = i; recompute(); render(); } }, stencilTile(s.k), h("span.n", s.name), s.combo ? h("span.t", s.hint) : null)));
+    const stChips = h("div.ax-cards.small", SC.map((s, i) => h("button.ax-card", { type: "button", "data-i": i, onclick: () => { ki = i; recompute(); render(); } }, stencilTile(s.k), h("span.n", s.name))));
     const scanB = h("button.ax-btn", { type: "button", onclick: scanAll }, "Scan the whole picture"), showB = h("button.ax-btn.ghost", { type: "button", onclick: () => { stopAnim(); painted.fill(1); render(); } }, "Show the whole map"), clrB = h("button.ax-btn.ghost", { type: "button", onclick: () => { stopAnim(); painted.fill(0); render(); } }, "Clear the map");
-    const shL = h("button.ax-chip", { type: "button", onclick: () => shift(-6) }, "Slide the picture left"), shR = h("button.ax-chip", { type: "button", onclick: () => shift(6) }, "Slide the picture right");
+    const shL = h("button.ax-chip", { type: "button", onclick: () => shift(-6) }, "\u2190 Slide left"), shR = h("button.ax-chip", { type: "button", onclick: () => shift(6) }, "Slide right \u2192");
     fig.append(h("div.ax-lab.scan",
       h("div", h("p.ax-label", "1. Pick a picture"), srcChips, h("p.ax-label.gap", "2. What do you expect to see?"), stChips),
       h("div", h("p.ax-label", "3. Check one spot at a time ", h("span", "(drag the red square)")), pwrap, h("div.ax-row", shL, shR), h("div.ax-inset", h("div", h("p.ax-label", "The spot you are checking"), insetP, h("p.ax-x", "×")), h("div", h("p.ax-label", "Your expectation"), insetS), insetT)),
@@ -201,7 +201,7 @@
     const fig = $("axStack"); if (!fig) return;
     const N = 6, O = 4;
     let im = "001100001100001100111111001100001100".split("").map(Number).map((v) => (v ? 1 : 0.1)), sid = 0, n = 3, timer = 0;
-    const SK = [STENCILS[0], STENCILS[1], STENCILS[3]];
+    const SK = [STENCILS[0], STENCILS[1]];
     const grid = h("div.ax-g6"), cells = [];
     for (let i = 0; i < 36; i++) { const c = h("button.ax-tile.sm", { type: "button", "aria-label": "Picture square " + (i + 1) + ", click to change", onclick: () => { im[i] = im[i] > 0.7 ? 0.1 : im[i] > 0.3 ? 1 : 0.55; reset(); } }); cells.push(c); grid.append(c); }
     const stCards = h("div.ax-cards.small", SK.map((s, i) => h("button.ax-card", { type: "button", "data-i": i, onclick: () => { sid = i; render(); } }, stencilTile(s.k), h("span.n", s.name))));

@@ -103,7 +103,7 @@
       } },
 
       // ---------------- Dataset ----------------
-      { title: "The dataset", render(body) {
+      { title: "Data", render(body) {
         const photos = [["elephant-away", "Savanna"], ["elephant-bathing", "River"], ["savanna-plain", "Wide landscape"]]; let pi = 0, sq = true, mean = false;
         const cv = h("canvas"), chips = h("div.ax-chips", photos.map(([f, l], i) => h("button.ax-chip", { type: "button", "data-i": i, onclick: () => { pi = i; draw(); } }, l)));
         const bq = h("button.ax-chip", { type: "button", onclick: () => { sq = !sq; draw(); } }, "Crop to the centre square"), bm = h("button.ax-chip", { type: "button", onclick: () => { mean = !mean; draw(); } }, "Subtract the average pixel");
@@ -157,7 +157,7 @@
       } },
 
       // ---------------- Normalise and pool ----------------
-      { title: "Normalise and pool", render(body) {
+      { title: "Norm & pool", render(body) {
         const lrn = h("div.ax-lrn"), pool = h("div.ax-pool"), ps = h("input", { type: "range", min: 1, max: 60, value: 12, "aria-label": "Size of the activations" });
         const act = [5, 38, 120, 64, 22, 9, 95, 31, 12]; let overlap = true, sel = [0, 0];
         const drawLrn = () => {
@@ -246,7 +246,7 @@
       } },
 
       // ---------------- What it learned ----------------
-      { title: "What it learned", render(body) {
+      { title: "Learned", render(body) {
         body.append(two(sec("Section 6.1",
           h("p", h("b", "The first-layer kernels."), " Figure 3 of the paper shows all 96. The network learned kernels selective for frequency and orientation, plus coloured blobs, without being told to."),
           h("p", h("b", "The 4,096-number vector."), " Figure 4 shows test images next to the six training images whose last-hidden-layer vectors are closest in Euclidean distance. The authors note that, at the pixel level, the retrieved images are generally not close to the query. For example, the retrieved dogs and elephants appear in a variety of poses."),

@@ -751,3 +751,29 @@ button.ax-cell:hover { border-color: var(--ink); }
 .ax-insetS { display: flex; align-items: center; gap: 10px; }
 .ax-plus { color: var(--mist); font: 300 24px/1 var(--sans); }
 .ax-insetS .ax-st.lg { width: 78px; }
+
+/* ---------- Tidy pass ---------- */
+.ax-cards.small { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: 8px; }
+.ax-cards.small .ax-card { align-content: space-between; min-height: 96px; padding: 12px; }
+.ax-cards.small .ax-card .ax-st { width: 54px; }
+.ax-cards.small .ax-card .n { font-size: 13.5px; }
+.ax-lab.scan .ax-row, .ax-lab.stack .ax-chips { flex-wrap: nowrap; }
+.ax-lab.scan .ax-row .ax-chip { white-space: nowrap; margin-right: 8px; }
+.ax-lab.scan .ax-chips { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 14px; }
+.ax-lab.scan .ax-chips .ax-chip { margin: 0; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ax-inset { display: grid; grid-template-columns: auto auto; justify-content: start; align-items: end; gap: 10px 36px; }
+.ax-inset > div:first-child { position: relative; }
+.ax-inset .ax-x { position: absolute; right: -26px; bottom: 30px; margin: 0; }
+.ax-inset canvas { width: 76px; height: 76px; }
+.ax-insetS .ax-st.lg { width: 76px; }
+.ax-insetT { grid-column: 1 / -1; margin-top: 2px; }
+.ax-insetT span { max-width: 44ch; line-height: 1.5; }
+.ax-tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+.ax-tabs::-webkit-scrollbar { display: none; }
+.ax-tab { flex: none; padding-right: 14px; margin-right: 10px; letter-spacing: .06em; }
+.ax-lab.scan > div:nth-child(3) .ax-row { flex-wrap: wrap; }
+.ax-lab.scan .ax-btn { white-space: nowrap; }
+.ax-lab.stack { grid-template-columns: 210px minmax(0, 1fr) 228px; gap: 26px 32px; }
+.ax-lab.stack > div:nth-child(3) { min-width: 0; }
+.ax-kstrip { max-width: 228px; }
+.ax-lab.stack .ax-label { overflow-wrap: anywhere; }
