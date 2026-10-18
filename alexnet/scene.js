@@ -78,6 +78,7 @@
   const beamGeo = new T.BufferGeometry().setFromPoints([new T.Vector3(), new T.Vector3()]), beam = new T.Line(beamGeo, new T.LineBasicMaterial({ color: ORANGE, transparent: true, opacity: 0.85 })); scene.add(beam);
   const cell = new T.Mesh(new T.SphereGeometry(0.2, 12, 12), new T.MeshBasicMaterial({ color: ORANGE })); scene.add(cell);
   const kLab = label("Kernel window", 0.5, "#ff4a14"); scene.add(kLab);
+  [kbox, beam, cell, kLab].forEach((o) => { o.visible = false; });
 
   // feature map painted on the first slab as the box sweeps
   const MAPN = 55, mapCv = document.createElement("canvas"); mapCv.width = mapCv.height = MAPN;
@@ -170,7 +171,7 @@
     warm.position.set(cur[0] * 0.5 + 6, cur[1] + 4, cur[2] * 0.5 + 4);
 
     // kernel sweep over the photo, painting the first slab's map
-    if (photoLoaded && mapPix) {
+    if (false && photoLoaded && mapPix) {
       sweepIdx = reduce ? MAPN * MAPN * 0.6 : (sweepIdx + dt * 55 * 4.5) % (MAPN * MAPN + 220);
       const idx = Math.min(MAPN * MAPN - 1, Math.floor(sweepIdx)), col = idx % MAPN, row = Math.floor(idx / MAPN);
       if (idx < wrote) { mapCtx.fillStyle = "#e4e0d3"; mapCtx.fillRect(0, 0, MAPN, MAPN); wrote = 0; }
