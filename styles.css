@@ -1398,3 +1398,5 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .ws-host .ax-btn { padding: 11px 18px; background: var(--ink); color: #fff; border: 0; font: 700 14px var(--sans); cursor: pointer; } .ws-host .ax-btn:disabled { background: #9aa; cursor: default; }
 .ws-host .ax-btn.ghost, .ws-host .ax-chip { background: none; color: var(--ink); border: 1px solid var(--rule-strong); padding: 10px 14px; font: 600 14px var(--sans); cursor: pointer; } .ws-host .ax-chip[aria-pressed="true"] { background: var(--house-tint); border-color: var(--house); }
 .ws-host .ax-cap { margin: 14px 0 0; color: var(--slate); font-size: 14.5px; line-height: 1.55; }
+.al-vecnote { margin: 16px 0 0; padding: 12px 16px; border-left: 4px solid var(--house); background: var(--house-tint); font-size: 15px; line-height: 1.55; max-width: 70ch; }
+.al-vecnote b { color: var(--house); }

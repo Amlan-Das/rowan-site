@@ -175,6 +175,7 @@
         <figcaption class="exh">The update, one cell at a time</figcaption>
         <p class="net-lede">The two lines that do all the learning are <code>W[y] += x</code> and <code>W[guess] -= x</code>. Here they are on a 3 by 3 picture of a vertical bar (the middle column is inked, so x is 1 there and 0 everywhere else), with every cell's arithmetic shown.</p>
         <div class="al-upd" id="alUpd"></div>
+        <p class="al-vecnote"><b>Squares are a drawing of vectors.</b> The 3 &times; 3 picture is really 9 numbers in a row, and each row of W is another 9 numbers. &ldquo;Add up the weights under the ink&rdquo; is a dot product of two vectors. The grid only shows which number belongs to which pixel; the model works on the list.</p>
       </figure>
       <figure class="exhibit">
         <figcaption class="exh">Watch it learn: three shapes, nine pixels</figcaption>
@@ -189,7 +190,7 @@
       </figure>
       <figure class="exhibit">
         <figcaption class="exh">Weight space: the cone of weights that get everything right</figcaption>
-        <p class="net-lede">Here is another way to see the same learning. Treat the three weights as a point in 3D space. Each training example is a flat wall through the origin: weights on one side get it right, weights on the other get it wrong. The weights that get <i>every</i> example right fill a cone. Learning is just walking the point into the cone. Hinton draws this picture when he teaches the perceptron.</p>
+        <p class="net-lede">Here is another way to see the same learning. Treat the three weights as a point in 3D space. Each training example is a flat wall through the origin: weights on one side get it right, weights on the other get it wrong. The weights that get <i>every</i> example right fill a cone. Learning is just walking the point into the cone. Hinton draws this picture when he teaches the perceptron. Only three weights fit on screen, so this is 3 of the 784 you would have for a real digit.</p>
         <div id="axWeights" class="ws-host"></div>
       </figure>
         </div>

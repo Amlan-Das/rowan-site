@@ -104,6 +104,7 @@
         <p>A computer has no eyes. All it has is numbers. So the first question is a tiny one: how do you ask whether a small piece of a picture looks like something you are hunting for?</p>
         <p>Try it below. On the left is a 3 &times; 3 snapshot. In the middle is a <b>stencil</b> of what you want: green squares mean &ldquo;I want this bright&rdquo;, red means &ldquo;I want this dark&rdquo;, blank means &ldquo;I don&rsquo;t care&rdquo;. Multiply each square by the stencil and add it all up. It works like a shopping bill: every pixel is a line item, and the total is the match score.</p>
       </div>
+      <aside class="ax-vecnote"><b>Squares are a drawing of vectors.</b> The 3 &times; 3 snapshot is really a list of 9 numbers, one per pixel, and the stencil is another list of 9. The match score is their dot product. The grid only shows you which number belongs to which pixel; the maths treats each list as a single point (a vector) in 9-dimensional space.</aside>
       <figure class="ax-fig" id="axMatch"></figure>
       <div class="ax-name">
         <p class="ax-nl">In one line</p>
@@ -124,6 +125,7 @@
         <p>Think of the stencil as a set of <b>expectations</b>: &ldquo;I expect dark on the left and light on the right.&rdquo; At each spot we ask one question: do the real pixels here meet that expectation? The answer is a match score. Write every score into a grid, in the same position as the spot it came from, and you get a <b>map</b> of where the picture meets your expectation. For an edge stencil, that is a map of where the edges are.</p>
         <p>Below, you play the detective. Choose what you expect to see, then drag the magnifier over the elephant. Or press Scan and let it check everywhere.</p>
       </div>
+      <aside class="ax-vecnote"><b>Squares are a drawing of vectors.</b> Sliding the stencil means taking the same list of weights and dot-multiplying it with a different patch&rsquo;s list of numbers at every position. Each patch is a vector; the picture is just how we lay them out for the eye.</aside>
       <figure class="ax-fig" id="axScan"></figure>
       <div class="ax-name">
         <p class="ax-nl">In one line</p>
@@ -150,6 +152,7 @@
         <figure class="ax-hist"><img src="alexnet/img/mnist-examples.png" width="594" height="361" loading="lazy" alt="Grid of handwritten digits from the MNIST dataset"><figcaption><span class="yr">Same trick</span> Every one of these digits is a 28 &times; 28 grid. Flatten it and it becomes one row of 784 numbers; stack thousands of rows and you have a table a graphics card can multiply in one go.</figcaption></figure>
         <p>There is a catch: the workers only help if their jobs are <b>identical and lined up</b>. So you rearrange the work first. Cut out every patch, flatten it into a row of numbers, and stack the rows into a table. Now each sum is one row times the stencil, and the whole table is a single multiplication. Making everything a list of numbers (a <b>vector</b>) and a stack of lists (a <b>matrix</b>) is called <b>vectorization</b>.</p>
       </div>
+      <aside class="ax-vecnote"><b>Squares are a drawing of vectors.</b> This step makes it literal. Flattening a patch into a row drops the picture and keeps only the vector. A graphics card never sees squares, only long lists of numbers being multiplied.</aside>
       <figure class="ax-fig" id="axStack"></figure>
       <p class="ax-sub"><b>3C</b><span>The same trick for text</span></p>
       <div class="ax-prose ax-prose-gap">
@@ -175,6 +178,7 @@
         <p>Take the 11 &times; 11 &times; 3 chunk of the image under a kernel, multiply each kernel weight by the pixel value beneath it, and add everything up. That is 363 multiplications and one number out. A kernel has 363 numbers it can set freely, its <em>degrees of freedom</em>, and training chooses them. Each kernel is one more way of looking: the more of them, the more the layer can notice.</p>
       </div>
       <p class="ax-sub"><b>4A</b><span>Count what a kernel sees</span></p>
+      <aside class="ax-vecnote"><b>Squares are a drawing of vectors.</b> A kernel for a colour photo has 11 &times; 11 &times; 3 = 363 weights. You cannot draw 363 axes, but it is still one vector, and its dot product with a 363-number patch is still a single score.</aside>
       <figure class="ax-fig" id="axShape"></figure>
       <p class="ax-sub"><b>4B</b><span>What do the first-layer kernels look like?</span></p>
       <div class="ax-prose ax-prose-gap">
@@ -230,6 +234,7 @@
       <div class="ax-prose">
         <p>There is a picture that makes training click. Forget the image for a moment and treat the <b>weights themselves</b> as a point. A kernel with three weights is one point in 3D space; AlexNet is one point in a space with 60 million directions. Each training example puts a flat wall through the origin: weights on one side get it right, weights on the other get it wrong. Where every example&rsquo;s right-hand side overlaps is a <b>cone of feasible solutions</b>. Training is just moving the point until it is inside the cone. Geoffrey Hinton draws exactly this picture when he teaches the perceptron.</p>
       </div>
+      <aside class="ax-vecnote"><b>Squares are a drawing of vectors.</b> The three sliders show three weights because three is the most we can draw. A real kernel has hundreds of weights and AlexNet has 60 million, so its &ldquo;space&rdquo; has that many axes. The walls, the cone and the dot-product test work exactly the same way in any number of dimensions.</aside>
       <figure class="ax-fig" id="axWeights"></figure>
       <div class="ax-name">
         <p class="ax-nl">In one line</p>
@@ -288,6 +293,7 @@
       <div class="ax-prose">
         <p>Now the last step. When a new picture comes in, the network turns it into its vector, which is a single point. Every picture it has seen before is already a point in the same space. To recognise the new one, find the points nearest to it and let them vote. If most of the closest points are elephants, it is probably an elephant.</p>
       </div>
+      <aside class="ax-vecnote"><b>Squares are a drawing of vectors.</b> The map shows two axes, but the real vector has 4,096. &ldquo;Nearest&rdquo; means the shortest distance between two 4,096-number lists, found with the same sum-of-squared-differences formula as in two dimensions.</aside>
       <figure class="ax-fig" id="axPick"></figure>
       <div class="ax-name">
         <p class="ax-nl">In one line</p>
