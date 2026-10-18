@@ -187,6 +187,11 @@
           <div><h4>The update</h4><p>The right row gets x added, so the ink in this picture now counts for the right digit. The guessed row gets x subtracted, so it counts a little less for the wrong one. Right guess, and the two cancel.</p></div>
         </div>
       </figure>
+      <figure class="exhibit">
+        <figcaption class="exh">Weight space: the cone of weights that get everything right</figcaption>
+        <p class="net-lede">Here is another way to see the same learning. Treat the three weights as a point in 3D space. Each training example is a flat wall through the origin: weights on one side get it right, weights on the other get it wrong. The weights that get <i>every</i> example right fill a cone. Learning is just walking the point into the cone. Hinton draws this picture when he teaches the perceptron.</p>
+        <div id="axWeights" class="ws-host"></div>
+      </figure>
         </div>
       </details>
       <details class="al-ch" id="ch-real">
@@ -491,5 +496,7 @@ plt.show()
 <script src="ai-timeline.js"></script>
 <script src="ai-network.js"></script>
 <script src="ai-learn.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="alexnet/weights.js"></script>
 </body>
 </html>

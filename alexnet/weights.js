@@ -2,7 +2,11 @@
    the weights that get every example right fill a cone where all the right-hand sides overlap. Needs Three.js. */
 (function () {
   "use strict";
-  const AX = window.AX, T = window.THREE, $ = AX && AX.$, h = AX && AX.h, fig = $ && $("axWeights");
+  const T = window.THREE, AX = window.AX || { reduceMotion: matchMedia("(prefers-reduced-motion: reduce)").matches };
+  // tiny element builder, used when the page has no AX helpers (the AI news page)
+  const h = AX.h || ((sel, ...a) => { const [tag, ...cls] = sel.split("."), el = document.createElement(tag || "div"); cls.forEach((c) => c && el.classList.add(c));
+    a.forEach((c) => { if (c == null) return; if (typeof c === "object" && !(c instanceof Node)) { Object.keys(c).forEach((k) => (k.startsWith("on") ? (el[k] = c[k]) : el.setAttribute(k, c[k]))); } else el.append(c); }); return el; });
+  const fig = document.getElementById("axWeights");
   if (!fig || !T) return;
   const INK = 0x0a0a0a, GREEN = 0x0f5a44, RED = 0xc0392b;
   const X = [
