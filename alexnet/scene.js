@@ -15,17 +15,17 @@
   let renderer;
   try { renderer = new T.WebGLRenderer({ canvas, antialias: true, powerPreference: "high-performance" }); } catch (e) { document.documentElement.classList.add("ax-nogl"); return; }
   const reduce = AX.reduceMotion;
-  const OLIVE = 0xf4f2ea, CREAM = 0x14130f, ORANGE = 0xff4a14, CORK = 0xe9e5d9, BROWN = 0x14130f;
+  const OLIVE = 0x0a0a0a, CREAM = 0xffffff, ORANGE = 0xffd60a, CORK = 0x3a3a3a, BROWN = 0xffffff;
   renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
   renderer.setClearColor(OLIVE, 1);
   const scene = new T.Scene(); scene.fog = new T.Fog(OLIVE, 110, 300);
   const camera = new T.PerspectiveCamera(40, 1, 0.1, 260);
-  scene.add(new T.HemisphereLight(0xffffff, 0xcfcabb, 0.95));
-  const sun = new T.DirectionalLight(0xffffff, 0.35); sun.position.set(14, 22, 16); scene.add(sun);
-  const warm = new T.PointLight(ORANGE, 0.25, 40); scene.add(warm);
+  scene.add(new T.HemisphereLight(0xffffff, 0x222222, 1.05));
+  const sun = new T.DirectionalLight(0xffffff, 0.8); sun.position.set(14, 22, 16); scene.add(sun);
+  const warm = new T.PointLight(ORANGE, 0.5, 60); scene.add(warm);
 
   // ---------- helpers ----------
-  const label = (text, size = 1, color = "#14130f") => {
+  const label = (text, size = 1, color = "#ffffff") => {
     const c = document.createElement("canvas"); c.width = 1024; c.height = 128; const x = c.getContext("2d");
     let px = 54; x.font = "500 " + px + "px 'Geist Mono', Menlo, monospace";
     const t = text.toUpperCase(); while (x.measureText(t).width > 980 && px > 20) { px -= 2; x.font = "500 " + px + "px 'Geist Mono', Menlo, monospace"; }
@@ -46,7 +46,7 @@
     if (L.kind === "input") return;
     const thick = L.kind === "conv" ? 0.5 + Math.sqrt(L.K) * 0.14 : 0.6, hh = L.kind === "conv" ? (L.id === "conv1" ? 9 : L.id === "conv2" ? 6.6 : 4.4) : (L.id === "fc8" ? 3.4 : 7);
     const geo = new T.BoxGeometry(thick, hh, L.kind === "conv" ? hh : 0.6);
-    let mat = cork(); if (L.kind === "fc") mat = new T.MeshStandardMaterial({ color: 0xd9d4c5, roughness: 0.9, transparent: true, opacity: 0.95 });
+    let mat = cork(); if (L.kind === "fc") mat = new T.MeshStandardMaterial({ color: 0x262626, roughness: 0.9, transparent: true, opacity: 0.95 });
     const mesh = new T.Mesh(geo, L.id === "conv1" ? [mat, null, mat, mat, mat, mat] : mat);
     mesh.position.set(XS[L.id], 0, 0); mesh.userData = { thick, hh, base: mat.color.clone() };
     edges(mesh); net.add(mesh); slabs[L.id] = mesh;
@@ -55,7 +55,7 @@
   // thin sheets inside each convolution slab, so they read as stacks of maps
   AX.LAYERS.filter((L) => L.kind === "conv").forEach((L) => {
     const m = slabs[L.id], n = Math.min(10, Math.round(Math.sqrt(L.K) / 1.6));
-    for (let i = 1; i < n; i++) { const f = new T.Mesh(new T.PlaneGeometry(m.userData.hh * 0.98, m.userData.hh * 0.98), new T.MeshBasicMaterial({ color: BROWN, transparent: true, opacity: 0.22, side: T.DoubleSide })); f.rotation.y = Math.PI / 2; f.position.x = XS[L.id] - m.userData.thick / 2 + (i / n) * m.userData.thick; net.add(f); }
+    for (let i = 1; i < n; i++) { const f = new T.Mesh(new T.PlaneGeometry(m.userData.hh * 0.98, m.userData.hh * 0.98), new T.MeshBasicMaterial({ color: BROWN, transparent: true, opacity: 0.16, side: T.DoubleSide })); f.rotation.y = Math.PI / 2; f.position.x = XS[L.id] - m.userData.thick / 2 + (i / n) * m.userData.thick; net.add(f); }
   });
   // thin connection lines between neighbouring layers
   const links = new T.Group(); net.add(links);
@@ -77,7 +77,7 @@
   const kEdge = new T.LineSegments(new T.EdgesGeometry(new T.BoxGeometry(0.46, 1.0, 1.0)), new T.LineBasicMaterial({ color: ORANGE })); kbox.add(kEdge);
   const beamGeo = new T.BufferGeometry().setFromPoints([new T.Vector3(), new T.Vector3()]), beam = new T.Line(beamGeo, new T.LineBasicMaterial({ color: ORANGE, transparent: true, opacity: 0.85 })); scene.add(beam);
   const cell = new T.Mesh(new T.SphereGeometry(0.2, 12, 12), new T.MeshBasicMaterial({ color: ORANGE })); scene.add(cell);
-  const kLab = label("Kernel window", 0.5, "#ff4a14"); scene.add(kLab);
+  const kLab = label("Kernel window", 0.5, "#ffd60a"); scene.add(kLab);
   [kbox, beam, cell, kLab].forEach((o) => { o.visible = false; });
 
   // feature map painted on the first slab as the box sweeps
@@ -103,14 +103,14 @@
   const G = 26, CELL = 0.5, cubeGeo = new T.BoxGeometry(0.38, 0.38, 0.38), meshes = [];
   [-9, 9].forEach((cx) => {
     const m = new T.InstancedMesh(cubeGeo, new T.MeshStandardMaterial({ color: 0xffffff, roughness: 0.7 }), G * G); m.position.x = cx; cores.add(m); meshes.push(m);
-    const dummy = new T.Object3D(), col = new T.Color(0xd9d5c7);
+    const dummy = new T.Object3D(), col = new T.Color(0x2c2c2c);
     for (let i = 0; i < G * G; i++) { dummy.position.set((i % G - G / 2) * CELL, 0, (Math.floor(i / G) - G / 2) * CELL); dummy.updateMatrix(); m.setMatrixAt(i, dummy.matrix); m.setColorAt(i, col); }
     m.instanceMatrix.needsUpdate = true; m.instanceColor.needsUpdate = true;
   });
   const l1 = label("1 worker", 0.8); l1.position.set(-9, 1.2, 8.8); cores.add(l1);
-  const l2 = label("512 workers", 0.8, "#ff4a14"); l2.position.set(9, 1.2, 8.8); cores.add(l2);
+  const l2 = label("512 workers", 0.8, "#ffd60a"); l2.position.set(9, 1.2, 8.8); cores.add(l2);
   const l3 = label("676 sums, 3 x 3 stencil", 0.9); l3.position.set(0, 4.6, -8); cores.add(l3);
-  const dumC = new T.Object3D(), cDim = new T.Color(0xd9d5c7), cOn = new T.Color(CREAM), cNew = new T.Color(ORANGE);
+  const dumC = new T.Object3D(), cDim = new T.Color(0x2c2c2c), cOn = new T.Color(CREAM), cNew = new T.Color(ORANGE);
   const setCell = (m, i, state) => { dumC.position.set((i % G - G / 2) * CELL, state ? 0.35 : 0, (Math.floor(i / G) - G / 2) * CELL); dumC.scale.set(1, state ? 2.1 : 1, 1); dumC.updateMatrix(); m.setMatrixAt(i, dumC.matrix); m.setColorAt(i, state === 2 ? cNew : state === 1 ? cOn : cDim); };
 
   // ======================================================================
@@ -124,9 +124,9 @@
     for (let k = 0; k < 3; k++) { let v = Array.from({ length: d }, (_, i) => Math.sin(i * 1.7 + k + 1)); for (let it = 0; it < 120; it++) { const w = cov.map((row) => row.reduce((s2, x, j) => s2 + x * v[j], 0)), nm = Math.hypot(...w) || 1; v = w.map((x) => x / nm); } const lam = cov.map((row) => row.reduce((s2, x, j) => s2 + x * v[j], 0)).reduce((s2, x, j) => s2 + x * v[j], 0); comps.push(v); for (let a = 0; a < d; a++) for (let b = 0; b < d; b++) cov[a][b] -= lam * v[a] * v[b]; }
     const P = C.map((r) => comps.map((v) => r.reduce((s2, x, j) => s2 + x * v[j], 0))), sd = [0, 1, 2].map((k) => Math.sqrt(P.reduce((a, r) => a + r[k] * r[k], 0) / n) || 1);
     const dots = new T.InstancedMesh(new T.SphereGeometry(0.55, 16, 16), new T.MeshStandardMaterial({ color: 0xffffff, roughness: 0.55 }), n), dm = new T.Object3D();
-    P.forEach((r, i) => { dm.position.set(r[0] / sd[0] * 6, r[1] / sd[1] * 5, r[2] / sd[2] * 6); dm.updateMatrix(); dots.setMatrixAt(i, dm.matrix); dots.setColorAt(i, new T.Color().setHSL(s.labels[i] / 10, 0.7, 0.45)); });
+    P.forEach((r, i) => { dm.position.set(r[0] / sd[0] * 6, r[1] / sd[1] * 5, r[2] / sd[2] * 6); dm.updateMatrix(); dots.setMatrixAt(i, dm.matrix); dots.setColorAt(i, new T.Color().setHSL(s.labels[i] / 10, 0.75, 0.6)); });
     dots.instanceMatrix.needsUpdate = true; dots.instanceColor.needsUpdate = true; cloud.add(dots);
-    const ring = new T.LineSegments(new T.EdgesGeometry(new T.BoxGeometry(17, 14, 17)), new T.LineBasicMaterial({ color: CREAM, transparent: true, opacity: 0.35 })); cloud.add(ring);
+    const ring = new T.LineSegments(new T.EdgesGeometry(new T.BoxGeometry(17, 14, 17)), new T.LineBasicMaterial({ color: CREAM, transparent: true, opacity: 0.3 })); cloud.add(ring);
     const lb = label("60 digits, 3 numbers each", 1); lb.position.set(0, -10, 0); cloud.add(lb);
   });
 
@@ -146,27 +146,14 @@
     [[-14, -8, 38], [0, -26, 0]],    // 9 why 2012
     [[0, 12, 58], [-3, 0, 0]]        // 10 close
   ];
-  // ---------- information orbiting the model ----------
-  const CH = [
-    [["60 million", "weights to learn"], ["650,000", "artificial neurons"], ["1.2 million", "training images"], ["5\u20136 days", "on two GTX 580s"], ["15.3%", "top-5 error in 2012"]],
-    [["9 pixels", "in a 3 \u00d7 3 patch"], ["9 weights", "in the stencil"], ["1 number", "the match score"]],
-    [["676 spots", "for one stencil"], ["1 stencil", "reused everywhere"], ["1 map", "of where it matched"]],
-    [["3,025 rows", "one per patch"], ["363 numbers", "in every row"], ["96 stencils", "side by side"]],
-    [["11 \u00d7 11 \u00d7 3", "one colour kernel"], ["363 weights", "per kernel"], ["96 kernels", "in the first layer"]],
-    [["5 conv layers", "most of the maths"], ["3 dense layers", "most of the weights"], ["60 million", "weights in all"]],
-    [["w \u2190 w \u2212 \u03b5\u00b7slope", "the update rule"], ["batch of 128", "images per nudge"], ["momentum 0.9", "smooths the steps"]],
-    [["8 layers", "5 conv + 3 dense"], ["650,000", "neurons"], ["60 million", "parameters"]],
-    [["4,096 numbers", "per image"], ["nearest points", "look alike"], ["2-D sketch", "of that space"]],
-    [["2 GPUs", "GTX 580, 3 GB each"], ["1.2 million", "labelled images"], ["5\u20136 days", "of training"]],
-    [["old idea", "convolution, 1989"], ["new hardware", "GPUs"], ["big data", "ImageNet"]]
-  ];
-  const orb = document.getElementById("axOrb"); let orbK = -1, chips = [];
-  const updateOrb = (p, th, t) => {
-    if (!orb) return;
+  // ---------- chapter counter ----------
+  let voLast = -1;
+  const cnt = document.getElementById("axCount"); let cntK = -1;
+  const updateOrb = (p) => {
+    if (!cnt) return;
     const k = Math.max(0, Math.min(10, Math.round(p)));
-    if (k !== orbK) { orbK = k; orb.innerHTML = ""; chips = CH[k].map((c) => { const d = document.createElement("div"); d.className = "ax-chip3"; d.innerHTML = "<b>" + c[0] + "</b><span>" + c[1] + "</span>"; orb.appendChild(d); return d; }); }
-    const vis = Math.max(0, 1 - Math.abs(p - Math.round(p)) * 2.6), w = innerWidth, h = innerHeight, rx = Math.min(w * (w < 700 ? 0.36 : 0.34), 560), ry = h * (w < 700 ? 0.17 : 0.24), cx = w / 2, cy = h * (0.52 - 0.075 * smooth(0, 0.8, p));
-    chips.forEach((d, j) => { const a = th * 1.15 + j * 6.2832 / chips.length + 0.5, dep = (Math.sin(a) + 1) / 2; d.style.transform = "translate(" + (cx + Math.cos(a) * rx).toFixed(1) + "px," + (cy + Math.sin(a) * ry).toFixed(1) + "px) translate(-50%,-50%) scale(" + (0.82 + dep * 0.22).toFixed(3) + ")"; d.style.opacity = ((0.4 + dep * 0.6) * vis).toFixed(3); d.style.zIndex = Math.round(dep * 10); });
+    cnt.classList.toggle("on", p > 0.6 && p < 9.7);
+    if (k !== cntK) { cntK = k; const n = Math.max(1, Math.min(9, k)); cnt.querySelector(".ax-cn").textContent = ("0" + n).slice(-2); cnt.querySelector("a").setAttribute("href", k >= 9 ? "#close" : "#s" + (k + 1)); }
   };
   const NAMES = ["AlexNet", "Match", "Scan", "Line up", "Tensors", "Layers", "Learning", "The paper", "Embeddings", "Why 2012", "Summary"];
   const anchors = () => [document.querySelector(".ax-hero")].concat([...Array(9).keys()].map((i) => document.querySelector("#s" + (i + 1) + " .ax-stage")), [document.querySelector(".ax-close")]).filter(Boolean);
@@ -174,7 +161,7 @@
   const smooth = (a, b, x) => { const t = AX.clamp((x - a) / (b - a), 0, 1); return t * t * (3 - 2 * t); };
   const measure = () => { anch = anchors().map((el) => { const r = el.getBoundingClientRect(); return r.top + scrollY + r.height * 0.5; }); };
   const where = () => { const y = scrollY + innerHeight * 0.5; if (!anch.length) return 0; if (y <= anch[0]) return 0; for (let i = 0; i < anch.length - 1; i++) if (y < anch[i + 1]) return i + (y - anch[i]) / (anch[i + 1] - anch[i]); return anch.length - 1; };
-  const resize = () => { const w = innerWidth, h = innerHeight; renderer.setSize(w, h, false); camera.aspect = w / h; camera.setViewOffset(w, h, 0, -h * 0.03, w, h); camera.fov = w < 700 ? 52 : 40; camera.updateProjectionMatrix(); measure(); };
+  const resize = () => { const w = innerWidth, h = innerHeight; renderer.setSize(w, h, false); camera.aspect = w / h;  camera.fov = w < 700 ? 52 : 40; camera.updateProjectionMatrix(); measure(); };
   addEventListener("resize", resize); addEventListener("load", () => setTimeout(measure, 300)); setTimeout(measure, 1200); setTimeout(measure, 3500);
   addEventListener("pointermove", (e) => { mouse = [e.clientX / innerWidth - 0.5, e.clientY / innerHeight - 0.5]; }, { passive: true });
   resize();
@@ -191,9 +178,9 @@
     const k = reduce ? 1 : 1 - Math.pow(0.0009, dt);
     for (let a = 0; a < 3; a++) { cur[a] += (tp[a] - cur[a]) * k; look[a] += (tl[a] - look[a]) * k; }
     // orbit: the camera circles whatever it is looking at, a little further with every step
-    const zf = 1 + 0.4 * smooth(0, 0.8, p), th = reduce ? p * 0.5 : p * 0.5 + Math.sin(t * 0.25) * 0.12, dx = cur[0] - look[0], dz = cur[2] - look[2], cs = Math.cos(th), sn = Math.sin(th);
+    const zf = 1 + 0.5 * smooth(0, 0.8, p), th = reduce ? p * 0.5 : p * 0.5 + Math.sin(t * 0.25) * 0.12, dx = cur[0] - look[0], dz = cur[2] - look[2], cs = Math.cos(th), sn = Math.sin(th);
     camera.position.set(look[0] + (dx * cs + dz * sn) * zf, look[1] + (cur[1] - look[1]) * zf, look[2] + (-dx * sn + dz * cs) * zf); camera.lookAt(look[0], look[1], look[2]);
-    const sf = smooth(0, 0.8, p); camera.setViewOffset(innerWidth, innerHeight, 0, innerHeight * (-0.03 + 0.15 * sf), innerWidth, innerHeight);
+    const vo = Math.round(innerHeight * 0.13 * (1 - smooth(0, 0.8, p))); if (vo !== voLast) { voLast = vo; if (vo) camera.setViewOffset(innerWidth, innerHeight, 0, vo, innerWidth, innerHeight); else camera.clearViewOffset(); camera.updateProjectionMatrix(); }
     updateOrb(p, th, t);
     warm.position.set(cur[0] * 0.5 + 6, cur[1] + 4, cur[2] * 0.5 + 4);
 
