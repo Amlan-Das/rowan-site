@@ -910,3 +910,42 @@ body:has(#axGL) header.site .cta { background: transparent; color: var(--bp-or);
 .ax-toc { border-top: 0; }
 .ax-hero h1 { font-size: clamp(44px, 6.6vw, 98px); }
 body:has(#axGL) header.site nav a[aria-current]::after { background: var(--bp-or); }
+
+/* Line-art plates */
+.ax-plate { margin: 34px 0 30px; padding: 18px 18px 12px; border: 1px solid var(--bp-ink); background: var(--bp-paper); }
+.ax-plate svg.pl { display: block; width: 100%; height: auto; overflow: visible; fill: none; stroke: var(--bp-ink); stroke-width: 1.2; }
+.ax-plate figcaption { margin-top: 10px; padding-top: 10px; border-top: 1px dashed rgba(20, 19, 15, .45); font: 400 11.5px/1.5 var(--bp-mono); color: #3a382f; text-transform: uppercase; letter-spacing: .02em; }
+.ax-plate figcaption b { color: var(--bp-or); font-weight: 500; margin-right: 8px; }
+.pl text.t { stroke: none; fill: var(--bp-ink); font-family: var(--bp-mono); }
+.pl text.m { font-size: 11px; letter-spacing: .04em; } .pl text.s { font-size: 9.5px; } .pl text.big { font: 700 26px var(--bp-sans); }
+.pl .dim { fill: #77746a; } .pl line.dim { stroke: #77746a; }
+.pl .or { stroke: var(--bp-or); } .pl text.or { fill: var(--bp-or); stroke: none; } .pl .or.ring { stroke: var(--bp-or); }
+.pl rect.or:not(.thick) { fill: var(--bp-or); stroke: none; } .pl .thick { fill: none; stroke: var(--bp-or); stroke-width: 2.2; }
+.pl .orf { fill: var(--bp-or); stroke: none; } .pl .ring { stroke: var(--bp-or); stroke-dasharray: 4 5; }
+.pl .cell { fill: #faf8f2; stroke: rgba(20, 19, 15, .5); } .pl .cell.ink { fill: var(--bp-ink); } .pl .cell.or { fill: var(--bp-or); stroke: var(--bp-or); }
+.pl .box { fill: none; } .pl .box.ph { fill: rgba(20, 19, 15, .06); }
+.pl .grid { stroke: rgba(20, 19, 15, .3); stroke-width: .8; } .pl .link { stroke: rgba(20, 19, 15, .22); }
+.pl .txl { fill: rgba(20, 19, 15, .22); stroke: none; } .pl .hl { fill: rgba(255, 74, 20, .2); stroke: var(--bp-or); }
+.pl .gauge { fill: var(--bp-or); stroke: none; } .pl .sheet { stroke-width: 1.4; }
+.pl .pt { fill: var(--bp-ink); stroke: none; } .pl .pt.or { fill: var(--bp-or); }
+.pl .pulse { fill: var(--bp-or); stroke: none; opacity: 0; }
+.pl .d { stroke-dasharray: 1; stroke-dashoffset: 1; } 
+.pl rect.d, .pl polygon.d { stroke-dasharray: none; stroke-dashoffset: 0; opacity: 0; }
+.ax-plate.in .pl .d { animation: plDraw 1.4s ease forwards; }
+.ax-plate.in .pl rect.d, .ax-plate.in .pl polygon.d { animation: plFade .9s ease forwards; }
+.ax-plate.in .pl .pulse { animation: plPulse 3s ease-in-out infinite; }
+.ax-plate.in .pl .float { animation: plFloat 4s ease-in-out infinite alternate; }
+.ax-plate.in .pl .pt { animation: plBlink 3.2s ease-in-out infinite; }
+.ax-plate.in .pl .nn { stroke-dasharray: 5 4; animation: plDash 1.2s linear infinite; }
+.ax-plate.in .pl .pop { animation: plPop .5s cubic-bezier(.2, 1.6, .4, 1) both; }
+.ax-plate.in .pl .ring { animation: plSpin 8s linear infinite; transform-box: fill-box; transform-origin: center; }
+.pl .pop { opacity: 0; }
+@keyframes plDraw { to { stroke-dashoffset: 0; } } @keyframes plFade { to { opacity: 1; } }
+@keyframes plPulse { 0%, 100% { opacity: 0; } 20%, 45% { opacity: .9; } }
+@keyframes plFloat { to { transform: translateY(-8px); } } @keyframes plBlink { 50% { opacity: .35; } }
+@keyframes plDash { to { stroke-dashoffset: -9; } } @keyframes plPop { from { opacity: 0; transform: scale(.2); transform-box: fill-box; transform-origin: center; } to { opacity: 1; transform: scale(1); transform-box: fill-box; transform-origin: center; } }
+@keyframes plSpin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .pl .d, .pl rect.d, .pl polygon.d, .pl .pop { opacity: 1; stroke-dashoffset: 0; animation: none !important; } }
+@media (max-width: 640px) { .ax-plate { padding: 12px 10px 8px; } .ax-plate figcaption { font-size: 10.5px; } }
+.pl .ink { fill: var(--bp-ink); }
+.pl .txl { fill: rgba(20, 19, 15, .38); }
