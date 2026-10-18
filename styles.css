@@ -1378,3 +1378,5 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .al-nx-a { grid-column: 3; grid-row: 1 / span 2; align-self: center; font-size: 28px; transition: transform .15s; }
 .al-nextpage:hover .al-nx-a { transform: translateX(4px); }
 @media (max-width: 600px) { .al-nextpage { grid-template-columns: minmax(0, 1fr) auto; } .al-nx-k { grid-column: 1; } .al-nx-t, .al-nx-b { grid-column: 1; } .al-nx-a { grid-column: 2; grid-row: 1 / span 3; } }
+
+.al-nextpage .al-nx-k { font-size: clamp(30px, 4vw, 48px); letter-spacing: -.02em; line-height: 1; font-weight: 800; }
