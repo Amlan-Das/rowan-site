@@ -134,7 +134,7 @@
   // Camera: one keyframe per scene
   // ======================================================================
   const KEYS = [
-    [[2, 9, 52], [-9, 0, 0]],        // 0 hero
+    [[2, 9, 54], [-3.7, 0, 0]],      // 0 hero
     [[-36, 4, 17], [-21, 0, 0]],     // 1 match
     [[-32, 5, 16], [-17.5, 0, 0]],   // 2 scan
     [[0, -6, 48], [0, -26, 0]],      // 3 line up
@@ -146,14 +146,35 @@
     [[-14, -8, 38], [0, -26, 0]],    // 9 why 2012
     [[0, 12, 58], [-3, 0, 0]]        // 10 close
   ];
+  // ---------- information orbiting the model ----------
+  const CH = [
+    [["60 million", "weights to learn"], ["650,000", "artificial neurons"], ["1.2 million", "training images"], ["5\u20136 days", "on two GTX 580s"], ["15.3%", "top-5 error in 2012"]],
+    [["9 pixels", "in a 3 \u00d7 3 patch"], ["9 weights", "in the stencil"], ["1 number", "the match score"]],
+    [["676 spots", "for one stencil"], ["1 stencil", "reused everywhere"], ["1 map", "of where it matched"]],
+    [["3,025 rows", "one per patch"], ["363 numbers", "in every row"], ["96 stencils", "side by side"]],
+    [["11 \u00d7 11 \u00d7 3", "one colour kernel"], ["363 weights", "per kernel"], ["96 kernels", "in the first layer"]],
+    [["5 conv layers", "most of the maths"], ["3 dense layers", "most of the weights"], ["60 million", "weights in all"]],
+    [["w \u2190 w \u2212 \u03b5\u00b7slope", "the update rule"], ["batch of 128", "images per nudge"], ["momentum 0.9", "smooths the steps"]],
+    [["8 layers", "5 conv + 3 dense"], ["650,000", "neurons"], ["60 million", "parameters"]],
+    [["4,096 numbers", "per image"], ["nearest points", "look alike"], ["2-D sketch", "of that space"]],
+    [["2 GPUs", "GTX 580, 3 GB each"], ["1.2 million", "labelled images"], ["5\u20136 days", "of training"]],
+    [["old idea", "convolution, 1989"], ["new hardware", "GPUs"], ["big data", "ImageNet"]]
+  ];
+  const orb = document.getElementById("axOrb"); let orbK = -1, chips = [];
+  const updateOrb = (p, th, t) => {
+    if (!orb) return;
+    const k = Math.max(0, Math.min(10, Math.round(p)));
+    if (k !== orbK) { orbK = k; orb.innerHTML = ""; chips = CH[k].map((c) => { const d = document.createElement("div"); d.className = "ax-chip3"; d.innerHTML = "<b>" + c[0] + "</b><span>" + c[1] + "</span>"; orb.appendChild(d); return d; }); }
+    const vis = Math.max(0, 1 - Math.abs(p - Math.round(p)) * 2.6), w = innerWidth, h = innerHeight, rx = Math.min(w * (w < 700 ? 0.36 : 0.34), 560), ry = h * (w < 700 ? 0.17 : 0.24), cx = w / 2, cy = h * (0.52 - 0.075 * smooth(0, 0.8, p));
+    chips.forEach((d, j) => { const a = th * 1.15 + j * 6.2832 / chips.length + 0.5, dep = (Math.sin(a) + 1) / 2; d.style.transform = "translate(" + (cx + Math.cos(a) * rx).toFixed(1) + "px," + (cy + Math.sin(a) * ry).toFixed(1) + "px) translate(-50%,-50%) scale(" + (0.82 + dep * 0.22).toFixed(3) + ")"; d.style.opacity = ((0.4 + dep * 0.6) * vis).toFixed(3); d.style.zIndex = Math.round(dep * 10); });
+  };
   const NAMES = ["AlexNet", "Match", "Scan", "Line up", "Tensors", "Layers", "Learning", "The paper", "Embeddings", "Why 2012", "Summary"];
-  const uiEl = document.getElementById("axStageUi"), ui = uiEl ? { n: uiEl.querySelector(".sn"), l: uiEl.querySelector(".sl"), a: uiEl.querySelector(".sa") } : null; let uiK = -1;
   const anchors = () => [document.querySelector(".ax-hero")].concat([...Array(9).keys()].map((i) => document.querySelector("#s" + (i + 1) + " .ax-stage")), [document.querySelector(".ax-close")]).filter(Boolean);
   let anch = [], cur = KEYS[0][0].slice(), look = KEYS[0][1].slice(), mouse = [0, 0], progress = 0, last = performance.now();
   const smooth = (a, b, x) => { const t = AX.clamp((x - a) / (b - a), 0, 1); return t * t * (3 - 2 * t); };
   const measure = () => { anch = anchors().map((el) => { const r = el.getBoundingClientRect(); return r.top + scrollY + r.height * 0.5; }); };
   const where = () => { const y = scrollY + innerHeight * 0.5; if (!anch.length) return 0; if (y <= anch[0]) return 0; for (let i = 0; i < anch.length - 1; i++) if (y < anch[i + 1]) return i + (y - anch[i]) / (anch[i + 1] - anch[i]); return anch.length - 1; };
-  const resize = () => { const w = canvas.clientWidth || innerWidth, h = canvas.clientHeight || innerHeight; renderer.setSize(w, h, false); camera.aspect = w / h; if (innerWidth > 980 && innerWidth < 1000) camera.setViewOffset(w, h, -w * 0.22, 0, w, h); else camera.clearViewOffset(); camera.fov = innerWidth >= 1000 ? 34 : 40; camera.updateProjectionMatrix(); measure(); };
+  const resize = () => { const w = innerWidth, h = innerHeight; renderer.setSize(w, h, false); camera.aspect = w / h; camera.setViewOffset(w, h, 0, -h * 0.03, w, h); camera.fov = w < 700 ? 52 : 40; camera.updateProjectionMatrix(); measure(); };
   addEventListener("resize", resize); addEventListener("load", () => setTimeout(measure, 300)); setTimeout(measure, 1200); setTimeout(measure, 3500);
   addEventListener("pointermove", (e) => { mouse = [e.clientX / innerWidth - 0.5, e.clientY / innerHeight - 0.5]; }, { passive: true });
   resize();
@@ -170,9 +191,10 @@
     const k = reduce ? 1 : 1 - Math.pow(0.0009, dt);
     for (let a = 0; a < 3; a++) { cur[a] += (tp[a] - cur[a]) * k; look[a] += (tl[a] - look[a]) * k; }
     // orbit: the camera circles whatever it is looking at, a little further with every step
-    const ZF = [2.5, 1.6, 1.6, 1.6, 1.6, 2.3, 1.9, 2.3, 1.6, 1.6, 2.5], zi = Math.min(10, Math.floor(p)), zf = innerWidth >= 1000 ? ZF[zi] + (ZF[Math.min(10, zi + 1)] - ZF[zi]) * (p - zi) : 1, th = reduce ? p * 0.5 : p * 0.5 + Math.sin(t * 0.25) * 0.12, dx = cur[0] - look[0], dz = cur[2] - look[2], cs = Math.cos(th), sn = Math.sin(th);
+    const zf = 1 + 0.4 * smooth(0, 0.8, p), th = reduce ? p * 0.5 : p * 0.5 + Math.sin(t * 0.25) * 0.12, dx = cur[0] - look[0], dz = cur[2] - look[2], cs = Math.cos(th), sn = Math.sin(th);
     camera.position.set(look[0] + (dx * cs + dz * sn) * zf, look[1] + (cur[1] - look[1]) * zf, look[2] + (-dx * sn + dz * cs) * zf); camera.lookAt(look[0], look[1], look[2]);
-    if (ui) { const k2 = Math.max(0, Math.min(10, Math.round(p))); if (k2 !== uiK) { uiK = k2; ui.n.textContent = ("0" + k2).slice(-2); ui.l.textContent = NAMES[k2]; } ui.a.textContent = Math.round(((th % 6.2832) + 6.2832) % 6.2832 * 57.2958) + "\u00b0"; }
+    const sf = smooth(0, 0.8, p); camera.setViewOffset(innerWidth, innerHeight, 0, innerHeight * (-0.03 + 0.15 * sf), innerWidth, innerHeight);
+    updateOrb(p, th, t);
     warm.position.set(cur[0] * 0.5 + 6, cur[1] + 4, cur[2] * 0.5 + 4);
 
     // kernel sweep over the photo, painting the first slab's map
