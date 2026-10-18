@@ -15,25 +15,25 @@
   let renderer;
   try { renderer = new T.WebGLRenderer({ canvas, antialias: true, powerPreference: "high-performance" }); } catch (e) { document.documentElement.classList.add("ax-nogl"); return; }
   const reduce = AX.reduceMotion;
-  const OLIVE = 0x4a5937, CREAM = 0xf2ecda, ORANGE = 0xf0803c, CORK = 0xbf9a62, BROWN = 0x3b2e1a;
+  const OLIVE = 0xf4f2ea, CREAM = 0x14130f, ORANGE = 0xff4a14, CORK = 0xe9e5d9, BROWN = 0x14130f;
   renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
   renderer.setClearColor(OLIVE, 1);
-  const scene = new T.Scene(); scene.fog = new T.Fog(OLIVE, 38, 110);
+  const scene = new T.Scene(); scene.fog = new T.Fog(OLIVE, 30, 85);
   const camera = new T.PerspectiveCamera(40, 1, 0.1, 260);
-  scene.add(new T.HemisphereLight(0xfff4dc, 0x35422a, 0.62));
-  const sun = new T.DirectionalLight(0xffffff, 0.55); sun.position.set(14, 22, 16); scene.add(sun);
-  const warm = new T.PointLight(ORANGE, 0.9, 40); scene.add(warm);
+  scene.add(new T.HemisphereLight(0xffffff, 0xcfcabb, 0.95));
+  const sun = new T.DirectionalLight(0xffffff, 0.35); sun.position.set(14, 22, 16); scene.add(sun);
+  const warm = new T.PointLight(ORANGE, 0.25, 40); scene.add(warm);
 
   // ---------- helpers ----------
-  const label = (text, size = 1, color = "#f2ecda") => {
+  const label = (text, size = 1, color = "#14130f") => {
     const c = document.createElement("canvas"); c.width = 1024; c.height = 128; const x = c.getContext("2d");
-    let px = 54; x.font = "700 " + px + "px 'Libre Franklin', Helvetica, Arial, sans-serif";
-    const t = text.toUpperCase(); while (x.measureText(t).width > 980 && px > 20) { px -= 2; x.font = "700 " + px + "px 'Libre Franklin', Helvetica, Arial, sans-serif"; }
+    let px = 54; x.font = "500 " + px + "px 'Geist Mono', Menlo, monospace";
+    const t = text.toUpperCase(); while (x.measureText(t).width > 980 && px > 20) { px -= 2; x.font = "500 " + px + "px 'Geist Mono', Menlo, monospace"; }
     x.fillStyle = color; x.textAlign = "center"; x.textBaseline = "middle"; x.fillText(t, 512, 66);
     const s = new T.Sprite(new T.SpriteMaterial({ map: new T.CanvasTexture(c), transparent: true, depthWrite: false }));
     s.scale.set(16 * size, 2 * size, 1); return s;
   };
-  const edges = (mesh, color = BROWN, opacity = 0.7) => { const l = new T.LineSegments(new T.EdgesGeometry(mesh.geometry), new T.LineBasicMaterial({ color, transparent: true, opacity })); mesh.add(l); return l; };
+  const edges = (mesh, color = BROWN, opacity = 0.85) => { const l = new T.LineSegments(new T.EdgesGeometry(mesh.geometry), new T.LineBasicMaterial({ color, transparent: true, opacity })); mesh.add(l); return l; };
   const cork = (opacity = 0.94) => new T.MeshStandardMaterial({ color: CORK, roughness: 0.85, metalness: 0, transparent: true, opacity });
 
   // ======================================================================
@@ -46,7 +46,7 @@
     if (L.kind === "input") return;
     const thick = L.kind === "conv" ? 0.5 + Math.sqrt(L.K) * 0.14 : 0.6, hh = L.kind === "conv" ? (L.id === "conv1" ? 9 : L.id === "conv2" ? 6.6 : 4.4) : (L.id === "fc8" ? 3.4 : 7);
     const geo = new T.BoxGeometry(thick, hh, L.kind === "conv" ? hh : 0.6);
-    let mat = cork(); if (L.kind === "fc") mat = new T.MeshStandardMaterial({ color: 0x8a6a3c, roughness: 0.8, transparent: true, opacity: 0.95 });
+    let mat = cork(); if (L.kind === "fc") mat = new T.MeshStandardMaterial({ color: 0xd9d4c5, roughness: 0.9, transparent: true, opacity: 0.95 });
     const mesh = new T.Mesh(geo, L.id === "conv1" ? [mat, null, mat, mat, mat, mat] : mat);
     mesh.position.set(XS[L.id], 0, 0); mesh.userData = { thick, hh, base: mat.color.clone() };
     edges(mesh); net.add(mesh); slabs[L.id] = mesh;
@@ -55,7 +55,7 @@
   // thin sheets inside each convolution slab, so they read as stacks of maps
   AX.LAYERS.filter((L) => L.kind === "conv").forEach((L) => {
     const m = slabs[L.id], n = Math.min(10, Math.round(Math.sqrt(L.K) / 1.6));
-    for (let i = 1; i < n; i++) { const f = new T.Mesh(new T.PlaneGeometry(m.userData.hh * 0.98, m.userData.hh * 0.98), new T.MeshBasicMaterial({ color: BROWN, transparent: true, opacity: 0.16, side: T.DoubleSide })); f.rotation.y = Math.PI / 2; f.position.x = XS[L.id] - m.userData.thick / 2 + (i / n) * m.userData.thick; net.add(f); }
+    for (let i = 1; i < n; i++) { const f = new T.Mesh(new T.PlaneGeometry(m.userData.hh * 0.98, m.userData.hh * 0.98), new T.MeshBasicMaterial({ color: BROWN, transparent: true, opacity: 0.22, side: T.DoubleSide })); f.rotation.y = Math.PI / 2; f.position.x = XS[L.id] - m.userData.thick / 2 + (i / n) * m.userData.thick; net.add(f); }
   });
   // thin connection lines between neighbouring layers
   const links = new T.Group(); net.add(links);
@@ -63,7 +63,7 @@
   for (let i = 0; i < ids.length - 1; i++) {
     const a = ids[i], b = ids[i + 1], ha = (slabs[a] ? slabs[a].userData.hh : 9) / 2, hb = slabs[b].userData.hh / 2;
     const pts = [[-ha, -hb], [ha, hb], [-ha, hb], [ha, -hb]].map(([ya, yb]) => [new T.Vector3(XS[a] + (slabs[a] ? slabs[a].userData.thick / 2 : 0), ya, 0), new T.Vector3(XS[b] - slabs[b].userData.thick / 2, yb, 0)]).flat();
-    links.add(new T.LineSegments(new T.BufferGeometry().setFromPoints(pts), new T.LineBasicMaterial({ color: CREAM, transparent: true, opacity: 0.12 })));
+    links.add(new T.LineSegments(new T.BufferGeometry().setFromPoints(pts), new T.LineBasicMaterial({ color: CREAM, transparent: true, opacity: 0.2 })));
   }
   // the input photograph
   const photo = new T.Mesh(new T.PlaneGeometry(9, 9), new T.MeshBasicMaterial({ color: 0x777777, side: T.DoubleSide }));
@@ -77,12 +77,12 @@
   const kEdge = new T.LineSegments(new T.EdgesGeometry(new T.BoxGeometry(0.46, 1.0, 1.0)), new T.LineBasicMaterial({ color: ORANGE })); kbox.add(kEdge);
   const beamGeo = new T.BufferGeometry().setFromPoints([new T.Vector3(), new T.Vector3()]), beam = new T.Line(beamGeo, new T.LineBasicMaterial({ color: ORANGE, transparent: true, opacity: 0.85 })); scene.add(beam);
   const cell = new T.Mesh(new T.SphereGeometry(0.2, 12, 12), new T.MeshBasicMaterial({ color: ORANGE })); scene.add(cell);
-  const kLab = label("Kernel window", 0.5, "#f0803c"); scene.add(kLab);
+  const kLab = label("Kernel window", 0.5, "#ff4a14"); scene.add(kLab);
 
   // feature map painted on the first slab as the box sweeps
   const MAPN = 55, mapCv = document.createElement("canvas"); mapCv.width = mapCv.height = MAPN;
   const mapCtx = mapCv.getContext("2d"), mapTex = new T.CanvasTexture(mapCv); mapTex.magFilter = T.NearestFilter; mapTex.minFilter = T.NearestFilter;
-  mapCtx.fillStyle = "#2c3820"; mapCtx.fillRect(0, 0, MAPN, MAPN);
+  mapCtx.fillStyle = "#e4e0d3"; mapCtx.fillRect(0, 0, MAPN, MAPN);
   slabs.conv1.material[1] = new T.MeshBasicMaterial({ map: mapTex });
   let mapPix = null, photoLoaded = false;
   const zoo = AX.makeZoo();
@@ -102,14 +102,14 @@
   const G = 26, CELL = 0.5, cubeGeo = new T.BoxGeometry(0.38, 0.38, 0.38), meshes = [];
   [-9, 9].forEach((cx) => {
     const m = new T.InstancedMesh(cubeGeo, new T.MeshStandardMaterial({ color: 0xffffff, roughness: 0.7 }), G * G); m.position.x = cx; cores.add(m); meshes.push(m);
-    const dummy = new T.Object3D(), col = new T.Color(0x56653d);
+    const dummy = new T.Object3D(), col = new T.Color(0xd9d5c7);
     for (let i = 0; i < G * G; i++) { dummy.position.set((i % G - G / 2) * CELL, 0, (Math.floor(i / G) - G / 2) * CELL); dummy.updateMatrix(); m.setMatrixAt(i, dummy.matrix); m.setColorAt(i, col); }
     m.instanceMatrix.needsUpdate = true; m.instanceColor.needsUpdate = true;
   });
   const l1 = label("1 worker", 0.8); l1.position.set(-9, 1.2, 8.8); cores.add(l1);
-  const l2 = label("512 workers", 0.8, "#f0803c"); l2.position.set(9, 1.2, 8.8); cores.add(l2);
+  const l2 = label("512 workers", 0.8, "#ff4a14"); l2.position.set(9, 1.2, 8.8); cores.add(l2);
   const l3 = label("676 sums, 3 x 3 stencil", 0.9); l3.position.set(0, 4.6, -8); cores.add(l3);
-  const dumC = new T.Object3D(), cDim = new T.Color(0x56653d), cOn = new T.Color(CREAM), cNew = new T.Color(ORANGE);
+  const dumC = new T.Object3D(), cDim = new T.Color(0xd9d5c7), cOn = new T.Color(CREAM), cNew = new T.Color(ORANGE);
   const setCell = (m, i, state) => { dumC.position.set((i % G - G / 2) * CELL, state ? 0.35 : 0, (Math.floor(i / G) - G / 2) * CELL); dumC.scale.set(1, state ? 2.1 : 1, 1); dumC.updateMatrix(); m.setMatrixAt(i, dumC.matrix); m.setColorAt(i, state === 2 ? cNew : state === 1 ? cOn : cDim); };
 
   // ======================================================================
@@ -123,9 +123,9 @@
     for (let k = 0; k < 3; k++) { let v = Array.from({ length: d }, (_, i) => Math.sin(i * 1.7 + k + 1)); for (let it = 0; it < 120; it++) { const w = cov.map((row) => row.reduce((s2, x, j) => s2 + x * v[j], 0)), nm = Math.hypot(...w) || 1; v = w.map((x) => x / nm); } const lam = cov.map((row) => row.reduce((s2, x, j) => s2 + x * v[j], 0)).reduce((s2, x, j) => s2 + x * v[j], 0); comps.push(v); for (let a = 0; a < d; a++) for (let b = 0; b < d; b++) cov[a][b] -= lam * v[a] * v[b]; }
     const P = C.map((r) => comps.map((v) => r.reduce((s2, x, j) => s2 + x * v[j], 0))), sd = [0, 1, 2].map((k) => Math.sqrt(P.reduce((a, r) => a + r[k] * r[k], 0) / n) || 1);
     const dots = new T.InstancedMesh(new T.SphereGeometry(0.55, 16, 16), new T.MeshStandardMaterial({ color: 0xffffff, roughness: 0.55 }), n), dm = new T.Object3D();
-    P.forEach((r, i) => { dm.position.set(r[0] / sd[0] * 6, r[1] / sd[1] * 5, r[2] / sd[2] * 6); dm.updateMatrix(); dots.setMatrixAt(i, dm.matrix); dots.setColorAt(i, new T.Color().setHSL(s.labels[i] / 10, 0.62, 0.62)); });
+    P.forEach((r, i) => { dm.position.set(r[0] / sd[0] * 6, r[1] / sd[1] * 5, r[2] / sd[2] * 6); dm.updateMatrix(); dots.setMatrixAt(i, dm.matrix); dots.setColorAt(i, new T.Color().setHSL(s.labels[i] / 10, 0.7, 0.45)); });
     dots.instanceMatrix.needsUpdate = true; dots.instanceColor.needsUpdate = true; cloud.add(dots);
-    const ring = new T.LineSegments(new T.EdgesGeometry(new T.BoxGeometry(17, 14, 17)), new T.LineBasicMaterial({ color: CREAM, transparent: true, opacity: 0.18 })); cloud.add(ring);
+    const ring = new T.LineSegments(new T.EdgesGeometry(new T.BoxGeometry(17, 14, 17)), new T.LineBasicMaterial({ color: CREAM, transparent: true, opacity: 0.35 })); cloud.add(ring);
     const lb = label("60 digits, 3 numbers each", 1); lb.position.set(0, -10, 0); cloud.add(lb);
   });
 
@@ -173,14 +173,14 @@
     if (photoLoaded && mapPix) {
       sweepIdx = reduce ? MAPN * MAPN * 0.6 : (sweepIdx + dt * 55 * 4.5) % (MAPN * MAPN + 220);
       const idx = Math.min(MAPN * MAPN - 1, Math.floor(sweepIdx)), col = idx % MAPN, row = Math.floor(idx / MAPN);
-      if (idx < wrote) { mapCtx.fillStyle = "#2c3820"; mapCtx.fillRect(0, 0, MAPN, MAPN); wrote = 0; }
+      if (idx < wrote) { mapCtx.fillStyle = "#e4e0d3"; mapCtx.fillRect(0, 0, MAPN, MAPN); wrote = 0; }
       if (idx > wrote) { for (let q = wrote; q < idx; q++) { const c = mapPix[q]; mapCtx.fillStyle = "rgb(" + c[0] + "," + c[1] + "," + c[2] + ")"; mapCtx.fillRect(q % MAPN, Math.floor(q / MAPN), 1, 1); } wrote = idx; mapTex.needsUpdate = true; }
       const y = 4.5 - (row + 0.5) / MAPN * 9, z = -4.5 + (col + 0.5) / MAPN * 9, slabFace = XS.conv1 - slabs.conv1.userData.thick / 2 - 0.02;
       kbox.position.set(XS.input - 0.32, y, z); beam.geometry.setFromPoints([new T.Vector3(XS.input - 0.32, y, z), new T.Vector3(slabFace, y, z)]); cell.position.set(slabFace - 0.05, y, z); kLab.position.set(XS.input - 1.8, y + 1.3, z);
     }
     // the pulse: forward in the middle scenes, backward when learning
     const learning = p > 5.6 && p < 6.9, pulseX = learning ? 16 - ((t * 7) % 40) : -22 + ((t * 7) % 40);
-    Object.keys(slabs).forEach((id) => { const m = slabs[id], near = Math.max(0, 1 - Math.abs(m.position.x - pulseX) / 5), mats = Array.isArray(m.material) ? m.material.filter(Boolean) : [m.material]; mats.forEach((mm) => { if (mm.emissive) { mm.emissive.setHex(learning ? ORANGE : 0xfff0cf); mm.emissiveIntensity = near * (learning ? 0.8 : 0.45); } }); });
+    Object.keys(slabs).forEach((id) => { const m = slabs[id], near = Math.max(0, 1 - Math.abs(m.position.x - pulseX) / 5), mats = Array.isArray(m.material) ? m.material.filter(Boolean) : [m.material]; mats.forEach((mm) => { if (mm.emissive) { mm.emissive.setHex(ORANGE); mm.emissiveIntensity = near * (learning ? 0.4 : 0.18); } }); });
     // cores: one worker against many, on a repeating 7.5 second cycle
     if (Math.abs(p - 3) < 1.4 || Math.abs(p - 9) < 1.4 || reduce) {
       coreClock = (coreClock + dt) % 7.5; const tc = reduce ? 5 : coreClock, solo = meshes[0], gang = meshes[1], sd = Math.min(G * G, Math.floor(tc * 180));
