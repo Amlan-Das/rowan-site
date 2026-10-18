@@ -139,4 +139,13 @@
   if (!('IntersectionObserver' in window)) { plates.forEach(start); return; }
   var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { start(e.target); io.unobserve(e.target); } }); }, { threshold: 0.35 });
   plates.forEach(function (p) { io.observe(p); });
+  // step 4: one real photo split into its red, green and blue grids
+  document.querySelectorAll('.ax-rgb').forEach(function (box) {
+    var im = new Image(); im.onload = function () {
+      [[1, 0, 0], [0, 1, 0], [0, 0, 1]].forEach(function (m) {
+        var c = document.createElement('canvas'), w = 180, h = Math.round(w * im.height / im.width); c.width = w; c.height = h;
+        var x = c.getContext('2d'); x.drawImage(im, 0, 0, w, h); var d = x.getImageData(0, 0, w, h), a = d.data;
+        for (var i = 0; i < a.length; i += 4) { a[i] *= m[0]; a[i + 1] *= m[1]; a[i + 2] *= m[2]; }
+        x.putImageData(d, 0, 0); box.appendChild(c); }); };
+    im.src = box.getAttribute('data-src'); });
 })();

@@ -15,12 +15,12 @@
   let renderer;
   try { renderer = new T.WebGLRenderer({ canvas, antialias: true, powerPreference: "high-performance" }); } catch (e) { document.documentElement.classList.add("ax-nogl"); return; }
   const reduce = AX.reduceMotion;
-  const OLIVE = 0x0a0a0a, CREAM = 0xffffff, ORANGE = 0xffd60a, CORK = 0x3a3a3a, BROWN = 0xffffff;
+  const OLIVE = 0x0a4433, CREAM = 0xffffff, ORANGE = 0x8fd8b6, CORK = 0xdbe7e1, BROWN = 0x06251c;
   renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
   renderer.setClearColor(OLIVE, 1);
   const scene = new T.Scene(); scene.fog = new T.Fog(OLIVE, 110, 300);
   const camera = new T.PerspectiveCamera(40, 1, 0.1, 260);
-  scene.add(new T.HemisphereLight(0xffffff, 0x222222, 1.05));
+  scene.add(new T.HemisphereLight(0xffffff, 0x4f8a76, 1.0));
   const sun = new T.DirectionalLight(0xffffff, 0.8); sun.position.set(14, 22, 16); scene.add(sun);
   const warm = new T.PointLight(ORANGE, 0.5, 60); scene.add(warm);
 
@@ -46,7 +46,7 @@
     if (L.kind === "input") return;
     const thick = L.kind === "conv" ? 0.5 + Math.sqrt(L.K) * 0.14 : 0.6, hh = L.kind === "conv" ? (L.id === "conv1" ? 9 : L.id === "conv2" ? 6.6 : 4.4) : (L.id === "fc8" ? 3.4 : 7);
     const geo = new T.BoxGeometry(thick, hh, L.kind === "conv" ? hh : 0.6);
-    let mat = cork(); if (L.kind === "fc") mat = new T.MeshStandardMaterial({ color: 0x262626, roughness: 0.9, transparent: true, opacity: 0.95 });
+    let mat = cork(); if (L.kind === "fc") mat = new T.MeshStandardMaterial({ color: 0xbcd3c9, roughness: 0.9, transparent: true, opacity: 0.95 });
     const mesh = new T.Mesh(geo, L.id === "conv1" ? [mat, null, mat, mat, mat, mat] : mat);
     mesh.position.set(XS[L.id], 0, 0); mesh.userData = { thick, hh, base: mat.color.clone() };
     edges(mesh); net.add(mesh); slabs[L.id] = mesh;
@@ -77,7 +77,7 @@
   const kEdge = new T.LineSegments(new T.EdgesGeometry(new T.BoxGeometry(0.46, 1.0, 1.0)), new T.LineBasicMaterial({ color: ORANGE })); kbox.add(kEdge);
   const beamGeo = new T.BufferGeometry().setFromPoints([new T.Vector3(), new T.Vector3()]), beam = new T.Line(beamGeo, new T.LineBasicMaterial({ color: ORANGE, transparent: true, opacity: 0.85 })); scene.add(beam);
   const cell = new T.Mesh(new T.SphereGeometry(0.2, 12, 12), new T.MeshBasicMaterial({ color: ORANGE })); scene.add(cell);
-  const kLab = label("Kernel window", 0.5, "#ffd60a"); scene.add(kLab);
+  const kLab = label("Kernel window", 0.5, "#8fd8b6"); scene.add(kLab);
   [kbox, beam, cell, kLab].forEach((o) => { o.visible = false; });
 
   // feature map painted on the first slab as the box sweeps
@@ -103,14 +103,14 @@
   const G = 26, CELL = 0.5, cubeGeo = new T.BoxGeometry(0.38, 0.38, 0.38), meshes = [];
   [-9, 9].forEach((cx) => {
     const m = new T.InstancedMesh(cubeGeo, new T.MeshStandardMaterial({ color: 0xffffff, roughness: 0.7 }), G * G); m.position.x = cx; cores.add(m); meshes.push(m);
-    const dummy = new T.Object3D(), col = new T.Color(0x2c2c2c);
+    const dummy = new T.Object3D(), col = new T.Color(0x14664e);
     for (let i = 0; i < G * G; i++) { dummy.position.set((i % G - G / 2) * CELL, 0, (Math.floor(i / G) - G / 2) * CELL); dummy.updateMatrix(); m.setMatrixAt(i, dummy.matrix); m.setColorAt(i, col); }
     m.instanceMatrix.needsUpdate = true; m.instanceColor.needsUpdate = true;
   });
   const l1 = label("1 worker", 0.8); l1.position.set(-9, 1.2, 8.8); cores.add(l1);
-  const l2 = label("512 workers", 0.8, "#ffd60a"); l2.position.set(9, 1.2, 8.8); cores.add(l2);
+  const l2 = label("512 workers", 0.8, "#8fd8b6"); l2.position.set(9, 1.2, 8.8); cores.add(l2);
   const l3 = label("676 sums, 3 x 3 stencil", 0.9); l3.position.set(0, 4.6, -8); cores.add(l3);
-  const dumC = new T.Object3D(), cDim = new T.Color(0x2c2c2c), cOn = new T.Color(CREAM), cNew = new T.Color(ORANGE);
+  const dumC = new T.Object3D(), cDim = new T.Color(0x14664e), cOn = new T.Color(CREAM), cNew = new T.Color(ORANGE);
   const setCell = (m, i, state) => { dumC.position.set((i % G - G / 2) * CELL, state ? 0.35 : 0, (Math.floor(i / G) - G / 2) * CELL); dumC.scale.set(1, state ? 2.1 : 1, 1); dumC.updateMatrix(); m.setMatrixAt(i, dumC.matrix); m.setColorAt(i, state === 2 ? cNew : state === 1 ? cOn : cDim); };
 
   // ======================================================================
