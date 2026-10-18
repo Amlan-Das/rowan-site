@@ -18,7 +18,7 @@
   const OLIVE = 0xf4f2ea, CREAM = 0x14130f, ORANGE = 0xff4a14, CORK = 0xe9e5d9, BROWN = 0x14130f;
   renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
   renderer.setClearColor(OLIVE, 1);
-  const scene = new T.Scene(); scene.fog = new T.Fog(OLIVE, 30, 85);
+  const scene = new T.Scene(); scene.fog = new T.Fog(OLIVE, 110, 300);
   const camera = new T.PerspectiveCamera(40, 1, 0.1, 260);
   scene.add(new T.HemisphereLight(0xffffff, 0xcfcabb, 0.95));
   const sun = new T.DirectionalLight(0xffffff, 0.35); sun.position.set(14, 22, 16); scene.add(sun);
@@ -146,12 +146,14 @@
     [[-14, -8, 38], [0, -26, 0]],    // 9 why 2012
     [[0, 12, 58], [-3, 0, 0]]        // 10 close
   ];
+  const NAMES = ["AlexNet", "Match", "Scan", "Line up", "Tensors", "Layers", "Learning", "The paper", "Embeddings", "Why 2012", "Summary"];
+  const uiEl = document.getElementById("axStageUi"), ui = uiEl ? { n: uiEl.querySelector(".sn"), l: uiEl.querySelector(".sl"), a: uiEl.querySelector(".sa") } : null; let uiK = -1;
   const anchors = () => [document.querySelector(".ax-hero")].concat([...Array(9).keys()].map((i) => document.querySelector("#s" + (i + 1) + " .ax-stage")), [document.querySelector(".ax-close")]).filter(Boolean);
   let anch = [], cur = KEYS[0][0].slice(), look = KEYS[0][1].slice(), mouse = [0, 0], progress = 0, last = performance.now();
   const smooth = (a, b, x) => { const t = AX.clamp((x - a) / (b - a), 0, 1); return t * t * (3 - 2 * t); };
   const measure = () => { anch = anchors().map((el) => { const r = el.getBoundingClientRect(); return r.top + scrollY + r.height * 0.5; }); };
   const where = () => { const y = scrollY + innerHeight * 0.5; if (!anch.length) return 0; if (y <= anch[0]) return 0; for (let i = 0; i < anch.length - 1; i++) if (y < anch[i + 1]) return i + (y - anch[i]) / (anch[i + 1] - anch[i]); return anch.length - 1; };
-  const resize = () => { const w = innerWidth, h = innerHeight; renderer.setSize(w, h, false); camera.aspect = w / h; if (w > 980) camera.setViewOffset(w, h, -w * 0.22, 0, w, h); else camera.clearViewOffset(); camera.updateProjectionMatrix(); measure(); };
+  const resize = () => { const w = canvas.clientWidth || innerWidth, h = canvas.clientHeight || innerHeight; renderer.setSize(w, h, false); camera.aspect = w / h; if (innerWidth > 980 && innerWidth < 1000) camera.setViewOffset(w, h, -w * 0.22, 0, w, h); else camera.clearViewOffset(); camera.fov = innerWidth >= 1000 ? 34 : 40; camera.updateProjectionMatrix(); measure(); };
   addEventListener("resize", resize); addEventListener("load", () => setTimeout(measure, 300)); setTimeout(measure, 1200); setTimeout(measure, 3500);
   addEventListener("pointermove", (e) => { mouse = [e.clientX / innerWidth - 0.5, e.clientY / innerHeight - 0.5]; }, { passive: true });
   resize();
@@ -167,7 +169,10 @@
     tp[0] += Math.sin(t * 0.18) * 5 * hero + mouse[0] * 3; tp[1] += -mouse[1] * 2 + Math.sin(t * 0.13) * 1.2 * hero; tl[1] += 0.0;
     const k = reduce ? 1 : 1 - Math.pow(0.0009, dt);
     for (let a = 0; a < 3; a++) { cur[a] += (tp[a] - cur[a]) * k; look[a] += (tl[a] - look[a]) * k; }
-    camera.position.set(cur[0], cur[1], cur[2]); camera.lookAt(look[0], look[1], look[2]);
+    // orbit: the camera circles whatever it is looking at, a little further with every step
+    const ZF = [2.5, 1.6, 1.6, 1.6, 1.6, 2.3, 1.9, 2.3, 1.6, 1.6, 2.5], zi = Math.min(10, Math.floor(p)), zf = innerWidth >= 1000 ? ZF[zi] + (ZF[Math.min(10, zi + 1)] - ZF[zi]) * (p - zi) : 1, th = reduce ? p * 0.5 : p * 0.5 + Math.sin(t * 0.25) * 0.12, dx = cur[0] - look[0], dz = cur[2] - look[2], cs = Math.cos(th), sn = Math.sin(th);
+    camera.position.set(look[0] + (dx * cs + dz * sn) * zf, look[1] + (cur[1] - look[1]) * zf, look[2] + (-dx * sn + dz * cs) * zf); camera.lookAt(look[0], look[1], look[2]);
+    if (ui) { const k2 = Math.max(0, Math.min(10, Math.round(p))); if (k2 !== uiK) { uiK = k2; ui.n.textContent = ("0" + k2).slice(-2); ui.l.textContent = NAMES[k2]; } ui.a.textContent = Math.round(((th % 6.2832) + 6.2832) % 6.2832 * 57.2958) + "\u00b0"; }
     warm.position.set(cur[0] * 0.5 + 6, cur[1] + 4, cur[2] * 0.5 + 4);
 
     // kernel sweep over the photo, painting the first slab's map
@@ -191,6 +196,7 @@
       }
       solo.instanceMatrix.needsUpdate = gang.instanceMatrix.needsUpdate = true; solo.instanceColor.needsUpdate = gang.instanceColor.needsUpdate = true;
     }
+    cloud.visible = Math.abs(p - 8) < 1.3; cores.visible = Math.abs(p - 3) < 1.5 || Math.abs(p - 9) < 1.5 || reduce; net.visible = !(Math.abs(p - 3) < 0.9 || Math.abs(p - 9) < 0.9);
     // the cloud turns slowly
     cloud.rotation.y = t * 0.12;
     renderer.render(scene, camera); progress = p; void progress; void tmp;
