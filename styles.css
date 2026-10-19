@@ -1408,3 +1408,29 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .al-proj dt { margin: 0 0 4px; color: var(--house); font: 700 12.5px/1 var(--mono); text-transform: uppercase; letter-spacing: .06em; }
 .al-proj dd { margin: 0; color: var(--ink); font-size: 15.5px; line-height: 1.45; } .al-proj dd b { font-size: 17px; }
 @media (max-width: 800px) { .al-proj { grid-template-columns: 1fr; } .al-proj > div:nth-last-child(-n+3) { border-bottom: 1px solid var(--rule); } .al-proj > div:last-child { border-bottom: 0; } }
+
+/* Project 1: the perceptron (ai-news.html, ai-perceptron.js) */
+.pt { margin: 4px 0 56px; padding: 28px 0 8px; border-top: 2px solid var(--ink); }
+.pt-k { margin: 0 0 6px; color: var(--house); font: 700 13px/1 var(--mono); text-transform: uppercase; letter-spacing: .08em; }
+.pt h2 { margin: 0; font: 800 clamp(28px, 3.4vw, 44px)/1.08 var(--sans); letter-spacing: -.03em; }
+.pt-sub { margin: 8px 0 24px; color: var(--slate); font-size: 19px; }
+.pt-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 32px 48px; align-items: start; }
+.pt-text p { margin: 0 0 14px; font-size: 17px; line-height: 1.6; max-width: 62ch; }
+.pt-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 0 20px; margin: 18px 0; border-top: 1px solid var(--rule-strong); }
+.pt-facts > div { padding: 10px 0; border-bottom: 1px solid var(--rule); } .pt-facts dt { color: var(--house); font: 700 12px/1 var(--mono); text-transform: uppercase; letter-spacing: .06em; } .pt-facts dd { margin: 4px 0 0; font-size: 15.5px; }
+.pt-link { color: var(--slate); font-size: 15.5px !important; }
+.pt-fig { margin: 0; padding: 18px; border: 1px solid var(--ink); background: #fff; } .pt-fig figcaption { margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--rule); color: var(--slate); font-size: 14px; line-height: 1.5; }
+#ptRun { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; align-items: center; }
+.pt-plot svg { display: block; width: 100%; height: auto; background: #f6f8f7; } .pt-plot .box { fill: #fff; stroke: var(--ink); stroke-width: 1.2; } .pt-plot .pos { fill: var(--house); opacity: .14; } .pt-plot .ln { stroke: var(--house); stroke-width: 2.6; }
+.pt-plot .pt1 { fill: var(--house); stroke: var(--house); stroke-width: 2; } .pt-plot .pt0 { fill: #fff; stroke: var(--ink); stroke-width: 2; } .pt-plot .bad { stroke: #c0392b; stroke-width: 3.5; }
+.pt-plot .tx { text-anchor: middle; font: 700 11px var(--sans); fill: var(--ink); } .pt-plot .tx.w { fill: #fff; } .pt-plot .ax { font: 500 11px var(--sans); fill: var(--mist); }
+.pt-ctl { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin-bottom: 10px; }
+.pt-btn { padding: 9px 16px; background: var(--ink); color: #fff; border: 0; font: 700 14px var(--sans); cursor: pointer; }
+.pt-sl { display: grid; grid-template-columns: auto auto 1fr; gap: 8px; align-items: center; flex: 1; min-width: 160px; font: 600 14px var(--sans); } .pt-sl input { width: 100%; accent-color: var(--house); }
+.pt-eq { margin: 0 0 10px; font: 500 14.5px var(--mono); } .pt-eq b { color: var(--house); }
+.pt-tbl { font: 500 13.5px var(--mono); border-top: 1px solid var(--rule-strong); } .pt-tbl > div { display: grid; grid-template-columns: 1.1fr .8fr .8fr 1fr; gap: 6px; padding: 5px 0; border-bottom: 1px solid var(--rule); } .pt-tbl .h { color: var(--mist); font: 700 11.5px var(--sans); text-transform: uppercase; letter-spacing: .04em; } .pt-tbl .ok span:last-child { color: var(--house); font-weight: 700; } .pt-tbl .no span:last-child { color: #c0392b; font-weight: 700; }
+.pt-say { margin: 12px 0 0; font-size: 15px; line-height: 1.5; min-height: 3em; }
+.pt-code { margin-top: 22px; border-top: 1px solid var(--rule-strong); } .pt-code summary { padding: 14px 0; font: 700 15px var(--sans); cursor: pointer; }
+.pt-code pre { margin: 0; padding: 18px; max-height: 460px; overflow: auto; background: #101614; color: #e8f1ed; font: 13px/1.55 var(--mono); border-radius: 2px; }
+.pt-src { margin: 10px 0 0; color: var(--mist); font-size: 13.5px; }
+@media (max-width: 900px) { .pt-grid { grid-template-columns: 1fr; } #ptRun { grid-template-columns: 1fr; } }
