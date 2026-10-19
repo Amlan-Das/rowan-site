@@ -1400,3 +1400,11 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .ws-host .ax-cap { margin: 14px 0 0; color: var(--slate); font-size: 14.5px; line-height: 1.55; }
 .al-vecnote { margin: 16px 0 0; padding: 12px 16px; border-left: 4px solid var(--house); background: var(--house-tint); font-size: 15px; line-height: 1.55; max-width: 70ch; }
 .al-vecnote b { color: var(--house); }
+
+/* project summary on the AI news page */
+.al-proj { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin: 30px 0 4px; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule-strong); }
+.al-proj > div { padding: 14px 20px 16px 0; border-bottom: 1px solid var(--rule); }
+.al-proj > div:nth-last-child(-n+3) { border-bottom: 0; }
+.al-proj dt { margin: 0 0 4px; color: var(--house); font: 700 12.5px/1 var(--mono); text-transform: uppercase; letter-spacing: .06em; }
+.al-proj dd { margin: 0; color: var(--ink); font-size: 15.5px; line-height: 1.45; } .al-proj dd b { font-size: 17px; }
+@media (max-width: 800px) { .al-proj { grid-template-columns: 1fr; } .al-proj > div:nth-last-child(-n+3) { border-bottom: 1px solid var(--rule); } .al-proj > div:last-child { border-bottom: 0; } }

@@ -125,13 +125,21 @@
   <section class="band al" id="learn">
     <div class="wrap">
       <div class="sechead">
-        <div class="ttl"><h2>How a machine learns</h2></div>
+        <div class="ttl"><h2>Project: how a machine learns</h2></div>
       </div>
 
       <div class="al-intro">
-        <p>Every AI system you read about above is, underneath, a stack of numbers that gets nudged every time it is wrong. The version below has a single layer of them. It reads handwritten digits, and it learns the way the big ones do: guess, check, correct, repeat.</p>
-        <p>The numbers live in a table called <b>W</b>, for weights. The picture it is looking at is a list called <b>x</b>. Nothing else is needed: it is about thirty lines of Python, and you can train it right here.</p>
+        <p>I wanted to know what &ldquo;learning&rdquo; means in machine learning, below the headlines in the timeline above. So I built the smallest version that still learns: one layer of weights that reads handwritten digits, written in about thirty lines of Python with NumPy and trained on the MNIST data set. This section is the write-up of that project: what I built, how it works, what it achieved, where it fails, and what I took from it.</p>
+        <p>The idea comes from Geoffrey Hinton&rsquo;s lectures on the perceptron. The numbers live in a table called <b>W</b>, for weights, and the picture is a list called <b>x</b>. Everything below runs in your browser from the real weights my script produced, so each claim can be checked.</p>
       </div>
+      <dl class="al-proj" aria-label="Project summary">
+        <div><dt>Question</dt><dd>Can a table of weights, nudged only when it is wrong, learn to read handwriting?</dd></div>
+        <div><dt>Data</dt><dd>MNIST: 60,000 training and 10,000 test digits, 28 &times; 28 pixels</dd></div>
+        <div><dt>Model</dt><dd>One layer: 10 rows &times; 784 weights = 7,840 numbers</dd></div>
+        <div><dt>Training</dt><dd>3 passes, 180,000 updates, rule: add x to the right row, subtract it from the guessed row</dd></div>
+        <div><dt>Result</dt><dd><b>88.1%</b> on the 10,000 unseen test digits (87.2%, 85.5%, 88.1% after each pass)</dd></div>
+        <div><dt>Limit</dt><dd>One rigid template per digit: slide a digit sideways and it fails</dd></div>
+      </dl>
 
       <figure class="al-wallfig" id="alWallFig">
         <div class="al-wall" id="alWall" aria-hidden="true"></div>
@@ -146,9 +154,9 @@
       </ol>
 
       <div class="al-chs">
-        <p class="al-guide">New here? Open 1 and 2, which cover the whole idea in a few minutes. The rest goes deeper and you can skip any of it. <button type="button" class="al-link" id="alChAll">Open all</button></p>
+        <p class="al-guide">The write-up has six parts: how the data is represented, training, the update rule worked by hand, results and limits, where the idea is used, and the code. Each opens to a working demo. <button type="button" class="al-link" id="alChAll">Open all</button></p>
       <details class="al-ch" id="ch-see">
-        <summary><span class="al-ch-n">1</span><span class="al-ch-h"><span class="al-ch-t">See what the model sees</span><span class="al-ch-b">A picture becomes a list of ones and zeros. Point at a pixel to read its number.</span></span><span class="al-ch-tag">Start here</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+        <summary><span class="al-ch-n">1</span><span class="al-ch-h"><span class="al-ch-t">Representation: what the model sees</span><span class="al-ch-b">How I turn a picture into a list of ones and zeros. Point at a pixel to read its number.</span></span><span class="al-ch-tag">Method</span><span class="al-ch-i" aria-hidden="true"></span></summary>
         <div class="al-ch-body">
       <figure class="exhibit">
         <figcaption class="exh">What the model sees: a picture becomes x</figcaption>
@@ -158,7 +166,7 @@
         </div>
       </details>
       <details class="al-ch" id="ch-train">
-        <summary><span class="al-ch-n">2</span><span class="al-ch-h"><span class="al-ch-t">Train it yourself</span><span class="al-ch-b">Ten digits, thousands of corrections. Watch blank templates sharpen.</span></span><span class="al-ch-tag">Start here</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+        <summary><span class="al-ch-n">2</span><span class="al-ch-h"><span class="al-ch-t">Training, live</span><span class="al-ch-b">A smaller version of the model you can train in the page. Watch blank templates sharpen.</span></span><span class="al-ch-tag">Demo</span><span class="al-ch-i" aria-hidden="true"></span></summary>
         <div class="al-ch-body">
       <figure class="exhibit">
         <figcaption class="exh">Train it: ten digits, thousands of corrections</figcaption>
@@ -169,7 +177,7 @@
         </div>
       </details>
       <details class="al-ch" id="ch-deeper">
-        <summary><span class="al-ch-n">3</span><span class="al-ch-h"><span class="al-ch-t">Go deeper: the update, step by step</span><span class="al-ch-b">Exactly what the two learning lines do, cell by cell, then a five-step walkthrough.</span></span><span class="al-ch-tag">Go deeper</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+        <summary><span class="al-ch-n">3</span><span class="al-ch-h"><span class="al-ch-t">The update rule, worked by hand</span><span class="al-ch-b">Exactly what the two learning lines do, cell by cell, then a five-step walkthrough.</span></span><span class="al-ch-tag">Maths</span><span class="al-ch-i" aria-hidden="true"></span></summary>
         <div class="al-ch-body">
       <figure class="exhibit">
         <figcaption class="exh">The update, one cell at a time</figcaption>
@@ -196,7 +204,7 @@
         </div>
       </details>
       <details class="al-ch" id="ch-real">
-        <summary><span class="al-ch-n">4</span><span class="al-ch-h"><span class="al-ch-t">What it learned, and where it stops</span><span class="al-ch-b">The templates from real handwriting, and what happens when a digit is slid sideways.</span></span><span class="al-ch-tag">Hands-on</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+        <summary><span class="al-ch-n">4</span><span class="al-ch-h"><span class="al-ch-t">Results and limits</span><span class="al-ch-b">The templates it learned from real handwriting, its test accuracy, and what breaks it.</span></span><span class="al-ch-tag">Results</span><span class="al-ch-i" aria-hidden="true"></span></summary>
         <div class="al-ch-body">
       <figure class="exhibit">
         <figcaption class="exh">What it learned from real handwriting</figcaption>
@@ -214,7 +222,7 @@
         </div>
       </details>
       <details class="al-ch" id="ch-used">
-        <summary><span class="al-ch-n">5</span><span class="al-ch-h"><span class="al-ch-t">Where it is used</span><span class="al-ch-b">Reading a ZIP code with the real weights, and where this recipe turns up.</span></span><span class="al-ch-tag">Hands-on</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+        <summary><span class="al-ch-n">5</span><span class="al-ch-h"><span class="al-ch-t">Where this idea shows up</span><span class="al-ch-b">My model reading a ZIP code, and the real systems built on the same recipe.</span></span><span class="al-ch-tag">Context</span><span class="al-ch-i" aria-hidden="true"></span></summary>
         <div class="al-ch-body">
       <figure class="exhibit">
         <figcaption class="exh">Where it is used</figcaption>
@@ -232,7 +240,7 @@
         </div>
       </details>
       <details class="al-ch" id="ch-code">
-        <summary><span class="al-ch-n">6</span><span class="al-ch-h"><span class="al-ch-t">The code, line by line</span><span class="al-ch-b">The whole Python script, with a note on every part.</span></span><span class="al-ch-tag">For coders</span><span class="al-ch-i" aria-hidden="true"></span></summary>
+        <summary><span class="al-ch-n">6</span><span class="al-ch-h"><span class="al-ch-t">The code</span><span class="al-ch-b">The whole Python script, with a note on every part.</span></span><span class="al-ch-tag">Code</span><span class="al-ch-i" aria-hidden="true"></span></summary>
         <div class="al-ch-body">
       <figure class="exhibit">
         <figcaption class="exh">The code, line by line</figcaption>
@@ -350,15 +358,15 @@ plt.show()
       </div>
 
       <div class="al-wrap-up">
-        <h3>What to take from it</h3>
+        <h3>What I took from it</h3>
         <p><b>Learning is repeated correction.</b> The model is never told what a 7 looks like. It guesses, is told it was wrong, and moves the weights a little. After 60,000 pictures a 7-shaped pattern has built up in row 7.</p>
         <p><b>Training and testing are different pictures.</b> Training runs over 60,000 images, three times, so 180,000 corrections. The 10,000 test images only measure the result, which is how you know it learned handwriting rather than memorised pictures.</p>
         <p><b>This is the smallest case.</b> Modern models stack many layers of W, add a step that lets them bend the lines between classes, and replace &ldquo;add or subtract x&rdquo; with calculus that works out how much each weight caused the mistake. They also have billions of weights rather than 7,840. The loop is the same: score, compare, adjust.</p>
       </div>
       <a class="al-nextpage" href="alexnet.html">
         <span class="al-nx-k">2012</span>
-        <span class="al-nx-t">How AlexNet learned to see</span>
-        <span class="al-nx-b">The same idea scaled up: sliding kernels, vectorization, and the 2012 paper that made image recognition work. With the math, and things to play with.</span>
+        <span class="al-nx-t">Extension project: how AlexNet learned to see</span>
+        <span class="al-nx-b">I took this one-layer model and asked what changes when it grows up: sliding kernels, vectorization, and the 2012 paper that made image recognition work. A second write-up, with the math and interactive demos.</span>
         <span class="al-nx-a" aria-hidden="true">&rarr;</span>
       </a>
     </div>
