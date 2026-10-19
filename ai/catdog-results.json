@@ -1,0 +1,10 @@
+{
+  "note": "Fill these in from my own run of ai/catdog/catdog.py. The results block on the AI projects page only appears when train_images is a number.",
+  "train_images": null,
+  "test_images": null,
+  "class_to_idx": null,
+  "training_accuracy_printed": null,
+  "test_accuracy": null,
+  "curve_image": null,
+  "weights_image": null
+}
