@@ -54,6 +54,7 @@
               <div><dt>Learning rate</dt><dd>0.1</dd></div>
               <div><dt>Learned</dt><dd id="ptFinal">weights [0.2, 0.1], bias &minus;0.2</dd></div>
             </dl>
+            <a class="cd-gh" href="https://github.com/Amlan-Das/rowan-site/blob/main/ai/perceptron/perceptron.py" target="_blank" rel="noopener"><span class="mk" aria-hidden="true">&lt;/&gt;</span><span class="tx"><b>View the code on GitHub</b><i>Amlan-Das/rowan-site &middot; ai/perceptron/perceptron.py</i></span><span class="ar" aria-hidden="true">&rarr;</span></a>
             <p class="pt-link">The digit reader below is this same machine with 784 inputs per digit instead of 2. The <a href="alexnet.html">AlexNet project</a> is what happens when many of them are stacked and the weights are shared.</p>
           </div>
           <figure class="pt-fig">
@@ -102,28 +103,29 @@ print(f"Final Weights: {weights}, Final Bias: {bias}")
       </section>
             <section class="pt cd" id="catdog" aria-labelledby="cdH">
         <p class="pt-k">Project 2</p>
-        <h2 id="cdH">Cat or dog: a perceptron on real photos</h2>
+        <h2 id="cdH">Cat or dog: a perceptron on pixels</h2>
         <p class="pt-sub">The same machine as Project 1, taken from 2 inputs to 1,024 pixels.</p>
         <div class="pt-grid">
           <div class="pt-text">
-            <p>After the AND gate I wanted to see what the perceptron does on something real. So I pointed it at photos of cats and dogs. I wrote the whole thing myself in Python with NumPy, using torchvision only to load and shrink the images.</p>
-            <p>Each photo is squashed to 32 &times; 32 pixels, turned to grayscale and flattened into a list of 1,024 brightness values. The model is one weight per pixel plus a bias, all starting at zero. It adds up weight &times; brightness, answers 1 if the total is above 0 and 0 if not, and nudges the weights by <code>learning rate &times; error &times; pixels</code> whenever it is wrong. I trained it for 1,000 passes over the training folder, reshuffling the order each time, then ran it on a separate test folder it had never seen. The code is unchanged below.</p>
+            <p>After the AND gate I wanted to see what the perceptron does on actual pictures. So I pointed it at images of cats and dogs: 300 for training and 70 for testing, which are small silhouette drawings rather than photographs. I wrote the whole thing myself in Python with NumPy, using torchvision only to load and shrink the images.</p>
+            <p>Each picture is squashed to 32 &times; 32 pixels, turned to grayscale and flattened into a list of 1,024 brightness values. The model is one weight per pixel plus a bias, all starting at zero. It adds up weight &times; brightness, answers 1 if the total is above 0 and 0 if not, and nudges the weights by <code>learning rate &times; error &times; pixels</code> whenever it is wrong. I trained it for 1,000 passes over the training folder, reshuffling the order each time, then ran it on a separate test folder it had never seen. The code is unchanged below.</p>
             <dl class="pt-facts">
+              <div><dt>Data</dt><dd>300 train + 70 test drawings, half cats and half dogs</dd></div>
               <div><dt>Input</dt><dd>32 &times; 32 grayscale = 1,024 numbers</dd></div>
-              <div><dt>Model</dt><dd>1,024 weights + 1 bias</dd></div>
-              <div><dt>Rule</dt><dd>w &larr; w + 0.01 &middot; error &middot; x</dd></div>
+              <div><dt>Model</dt><dd>1,024 weights + 1 bias, rule w &larr; w + 0.01 &middot; error &middot; x</dd></div>
               <div><dt>Training</dt><dd>1,000 epochs, shuffled</dd></div>
             </dl>
+            <a class="cd-gh" href="https://github.com/Amlan-Das/rowan-site/blob/main/ai/catdog/catdog.py" target="_blank" rel="noopener"><span class="mk" aria-hidden="true">&lt;/&gt;</span><span class="tx"><b>View the code on GitHub</b><i>Amlan-Das/rowan-site &middot; ai/catdog/catdog.py</i></span><span class="ar" aria-hidden="true">&rarr;</span></a>
+            <div class="cd-results" id="cdResults"></div>
           </div>
-          <figure class="pt-fig">
+          <div class="cd-right"><figure class="pt-fig">
             <div id="cdDemo"></div>
-            <figcaption>The pipeline and the first update, on two illustration photos (not my training data), using the same steps as the code. The folders are numbered alphabetically by ImageFolder, so I show cat as label 0 and dog as label 1. Cat: <a href="https://commons.wikimedia.org/wiki/File:Cat_November_2010-1a_(cropped_2023).jpg" target="_blank" rel="noopener">Alvesgaspar</a>, CC BY-SA 3.0. Dog: <a href="https://commons.wikimedia.org/wiki/File:Golden_retriever_portrait.jpg" target="_blank" rel="noopener">Henry aw</a>, CC BY-SA 3.0.</figcaption>
+            <figcaption>The pipeline and the first update, run on one cat and one dog from my training folder, with the same steps as the code. ImageFolder numbers the folders alphabetically, so cat is label 0 and dog is label 1. The drawings are modified Font Awesome Free icons (<a href="https://fontawesome.com" target="_blank" rel="noopener">Fonticons, Inc.</a>, CC BY 4.0), randomly rotated, resized, shifted and noised.</figcaption>
           </figure>
-        </div>
-        <div class="cd-results" id="cdResults" hidden></div>
-        <div class="cd-notes">
-          <div><h3>What the model can and cannot see</h3><p>One weight per pixel means the model only knows how bright each fixed position is. It has no idea of ears, eyes or shape, and a cat shifted a few pixels lands on different weights. That is the limit of this design, and it is what the AlexNet project below goes after: small shared filters that look for shapes anywhere in the picture.</p></div>
-          <div><h3>How the accuracy is counted</h3><p>The script counts a photo as correct when the model&rsquo;s guess matches its label <i>before</i> that photo changes the weights, adds this up over all 1,000 epochs, and prints it divided by the total number of guesses. So it is a running training accuracy, not a score on unseen photos. The test folder is run once at the end and the predictions are printed next to the true labels.</p></div>
+          <div class="cd-notes">
+          <div><h3>What the model can and cannot see</h3><p>One weight per pixel means the model only knows how bright each fixed position is. It has no idea of ears, eyes or shape, and a cat shifted a few pixels lands on different weights. The training and test drawings are all variations of one icon per class, so a good score here says little about real photographs. That is the limit of this design, and it is what the AlexNet project below goes after: small shared filters that look for shapes anywhere in the picture.</p></div>
+          <div><h3>How the accuracy is counted</h3><p>The script counts a picture as correct when the model&rsquo;s guess matches its label <i>before</i> that picture changes the weights, adds this up over all 1,000 epochs, and prints it divided by the total number of guesses. So it is a running training accuracy, not a score on unseen pictures. The test folder is run once at the end and the predictions are printed next to the true labels.</p></div>
+        </div></div>
         </div>
         <details class="pt-code"><summary>Read the code</summary>
 <pre><code>import torchvision.transforms as transforms

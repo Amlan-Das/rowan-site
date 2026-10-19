@@ -3,11 +3,11 @@
 (function () {
   "use strict";
   const host = document.getElementById("cdDemo"); if (!host) return;
-  const PHOTOS = { cat: { src: "ai/catdog/cat.jpg", label: 0 }, dog: { src: "ai/catdog/dog.jpg", label: 1 } }, N = 32, LR = 0.01;
+  const PHOTOS = { cat: { src: "ai/catdog/cat.png", label: 0 }, dog: { src: "ai/catdog/dog.png", label: 1 } }, N = 32, LR = 0.01;
   let who = "dog"; const imgs = {};
-  host.innerHTML = '<div class="cd-tabs" role="group" aria-label="Photo"><button type="button" data-w="cat">Cat photo</button><button type="button" data-w="dog">Dog photo</button></div>' +
+  host.innerHTML = '<div class="cd-tabs" role="group" aria-label="Photo"><button type="button" data-w="cat">Cat drawing</button><button type="button" data-w="dog">Dog drawing</button></div>' +
     '<div class="cd-flow">' +
-    '<figure><canvas id="cdA" width="200" height="200"></canvas><figcaption><b>1. Photo</b>any size</figcaption></figure><span class="ar">&rarr;</span>' +
+    '<figure><canvas id="cdA" width="200" height="200"></canvas><figcaption><b>1. Picture</b>48 &times; 48 as stored</figcaption></figure><span class="ar">&rarr;</span>' +
     '<figure><canvas id="cdB" width="32" height="32"></canvas><figcaption><b>2. Resize</b>squashed to 32 &times; 32</figcaption></figure><span class="ar">&rarr;</span>' +
     '<figure><canvas id="cdC" width="32" height="32"></canvas><figcaption><b>3. Grayscale</b>one brightness per pixel</figcaption></figure><span class="ar">&rarr;</span>' +
     '<figure class="vec"><div id="cdV" class="cd-vec"></div><figcaption><b>4. Flatten</b>1,024 numbers</figcaption></figure></div>' +
@@ -30,22 +30,33 @@
     w.forEach((v, i) => { const c = err === 0 ? [240, 244, 242] : ramp(v, m); wd.data.set([c[0], c[1], c[2], 255], i * 4); });
     W.putImageData(wd, 0, 0);
     $("cdSay").innerHTML = "<p><b>The very first update.</b> All 1,024 weights and the bias start at 0, so the score is 0 &times; every pixel + 0 = <b>0</b>, which is not above 0, so the guess is <b>0</b>.</p>" +
-      "<p>This photo&rsquo;s label is <b>" + ph.label + "</b>, so <code>error = label &minus; guess = " + ph.label + " &minus; " + guess + " = " + err + "</code>.</p>" +
-      (err === 0 ? "<p>The guess was right, so <code>error &times; pixels</code> is all zeros and <b>nothing changes</b>. Weights that start at zero only start moving when the model is wrong about a label-1 photo.</p>"
-        : "<p>The new weights are <code>0 + 0.01 &times; " + err + " &times; pixels</code>: the weight picture becomes a faint copy of this photo, and the bias becomes " + (LR * err).toFixed(2) + ". Every later mistake adds or subtracts another photo, so over many images the weights drift toward &ldquo;what the label-1 photos have more of than the label-0 photos&rdquo;.</p>");
-    $("cdWc").innerHTML = err === 0 ? "<b>Weights after this photo</b>unchanged (all zero)" : "<b>Weights after this photo</b>blue = positive, red = negative";
+      "<p>This picture&rsquo;s label is <b>" + ph.label + "</b>, so <code>error = label &minus; guess = " + ph.label + " &minus; " + guess + " = " + err + "</code>.</p>" +
+      (err === 0 ? "<p>The guess was right, so <code>error &times; pixels</code> is all zeros and <b>nothing changes</b>. Weights that start at zero only start moving when the model is wrong about a label-1 picture.</p>"
+        : "<p>The new weights are <code>0 + 0.01 &times; " + err + " &times; pixels</code>: the weight picture becomes a faint copy of this picture, and the bias becomes " + (LR * err).toFixed(2) + ". Every later mistake adds or subtracts another picture, so over many images the weights drift toward &ldquo;what the label-1 pictures have more of than the label-0 pictures&rdquo;.</p>");
+    $("cdWc").innerHTML = err === 0 ? "<b>Weights after this picture</b>unchanged (all zero)" : "<b>Weights after this picture</b>blue = positive, red = negative";
     host.querySelectorAll(".cd-tabs button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.w === who)));
   }
   host.querySelectorAll(".cd-tabs button").forEach((b) => b.addEventListener("click", () => { who = b.dataset.w; run(); }));
   run();
 
-  // results from my own run, shown only once ai/catdog-results.json has real numbers
+  // results from my own run (ai/catdog-results.json), drawn as an accuracy graph, the learned weights and the headline numbers
   fetch("ai/catdog-results.json").then((r) => r.json()).then((d) => {
-    const box = document.getElementById("cdResults"); if (!box || typeof d.train_images !== "number") return;
-    const f = (v, u) => (typeof v === "number" ? (u === "%" ? (v * 100).toFixed(1) + "%" : v.toLocaleString("en-US")) : "n/a");
-    let html = '<dl class="pt-facts cd-facts"><div><dt>Training photos</dt><dd>' + f(d.train_images) + '</dd></div><div><dt>Test photos</dt><dd>' + f(d.test_images) + '</dd></div>' +
-      '<div><dt>Training accuracy</dt><dd>' + f(d.training_accuracy_printed, "%") + '</dd></div><div><dt>Test accuracy</dt><dd>' + f(d.test_accuracy, "%") + "</dd></div></dl>";
-    if (d.curve_image || d.weights_image) html += '<div class="cd-imgs">' + (d.curve_image ? '<figure><img src="' + d.curve_image + '" alt="Training accuracy over epochs, from my run"><figcaption>Training curve from my run</figcaption></figure>' : "") + (d.weights_image ? '<figure><img src="' + d.weights_image + '" alt="The learned pixel weights as a 32 by 32 picture"><figcaption>The learned pixel weights, 32 &times; 32</figcaption></figure>' : "") + "</div>";
-    box.innerHTML = '<h3>What actually happened</h3>' + html; box.hidden = false;
+    const box = document.getElementById("cdResults"); if (!box || !d.per_epoch_accuracy) return;
+    const pc = (v) => (v * 100).toFixed(1) + "%", acc = d.per_epoch_accuracy, E = acc.length, W = 520, H = 240, L = 44, R = 12, T = 14, B = 44;
+    const x = (e) => L + e / (E - 1) * (W - L - R), y = (v) => T + (1 - v) * (H - T - B);
+    const path = acc.map((v, e) => (e ? "L" : "M") + x(e).toFixed(1) + " " + y(v).toFixed(1)).join("");
+    let g = ""; [0, 0.25, 0.5, 0.75, 1].forEach((v) => { g += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(v) + '" y2="' + y(v) + '" class="gl' + (v === 0.5 ? " ch" : "") + '"/><text x="' + (L - 6) + '" y="' + (y(v) + 4) + '" class="ty">' + Math.round(v * 100) + "%</text>"; });
+    [0, 250, 500, 750, 1000].forEach((e) => { if (e <= E) g += '<text x="' + x(Math.min(e, E - 1)) + '" y="' + (H - 24) + '" class="tx">' + e + "</text>"; });
+    g += '<text x="' + (L + (W - L - R) / 2) + '" y="' + (H - 6) + '" class="tx">epoch</text>';
+    g += '<text x="' + (W - R - 4) + '" y="' + (y(0.5) - 5) + '" class="ty chl">coin flip: 50%</text>';
+    if (typeof d.test_accuracy === "number") g += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(d.test_accuracy) + '" y2="' + y(d.test_accuracy) + '" class="tline"/><text x="' + (W - R - 4) + '" y="' + (y(d.test_accuracy) + 14) + '" class="tt">test accuracy on unseen drawings: ' + pc(d.test_accuracy) + "</text>";
+    box.innerHTML = '<h3>What actually happened</h3><p class="cd-run">One run of my script on my machine: ' + d.train_images + " training and " + d.test_images + " test drawings, " + E + " epochs.</p>" +
+      '<figure class="cd-chart"><svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Training accuracy for each of ' + E + ' epochs"><g>' + g + '</g><path d="' + path + '" class="ln"/></svg><figcaption>Training accuracy in each epoch: the share of pictures guessed right before the weights changed.</figcaption></figure>' +
+      '<div class="cd-row"><figure class="cd-wm"><canvas id="cdWm" width="32" height="32" aria-label="The learned weights as a 32 by 32 picture"></canvas><figcaption><b>The learned weights</b>red = positive, blue = negative</figcaption></figure>' +
+      '<dl class="cd-num"><div><dt>Test accuracy</dt><dd>' + (typeof d.test_accuracy === "number" ? pc(d.test_accuracy) : "n/a") + "<small>" + (d.test_correct != null ? d.test_correct + " of " + d.test_images + " unseen drawings" : "") + "</small></dd></div><div><dt>Last epoch, training</dt><dd>" + pc(acc[E - 1]) + "<small>first epoch: " + pc(acc[0]) + "</small></dd></div><div><dt>Script&rsquo;s printed <code>correct</code></dt><dd>" + (d.printed_correct != null ? Number(d.printed_correct).toFixed(4) : "n/a") + "<small>average over all epochs</small></dd></div></dl></div>";
+    box.hidden = false;
+    const wm = box.querySelector("#cdWm"), c = wm.getContext("2d"), img = c.createImageData(32, 32), m = Math.max(...d.weights.map(Math.abs)) || 1;
+    d.weights.forEach((v, i) => { const t = v / m, col = t >= 0 ? [255, Math.round(255 - t * 190), Math.round(255 - t * 200)] : [Math.round(255 + t * 200), Math.round(255 + t * 130), 255]; img.data.set([col[0], col[1], col[2], 255], i * 4); });
+    c.putImageData(img, 0, 0);
   }).catch(() => {});
 })();
