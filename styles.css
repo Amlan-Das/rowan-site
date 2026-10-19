@@ -1460,3 +1460,21 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 @media (max-width: 520px) { .cd-row { grid-template-columns: 1fr; } }
 .cd-right { display: grid; gap: 22px; align-content: start; } .cd-right .cd-notes { grid-template-columns: 1fr; gap: 18px; margin: 0; padding-top: 0; border-top: 0; }
 .cd-chart .tt { text-anchor: end; fill: #c0392b; font-weight: 700; }
+
+/* Coverage since launch (deals.html, deals-history.js) */
+.ed-left { min-width: 0; } .ed-left .ed-body { max-width: none; }
+.hist { margin: 36px 0 0; padding-top: 14px; border-top: 2px solid var(--ink); max-width: 760px; } .hist[hidden] { display: none; }
+.hist-n { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 20px; margin: 10px 0 14px; } .hist-n > div { padding: 8px 0; border-bottom: 1px solid var(--rule); }
+.hist-n dt { color: var(--house); font: 700 12px/1.3 var(--mono); text-transform: uppercase; letter-spacing: .05em; } .hist-n dd { margin: 4px 0 0; font: 800 clamp(24px, 2.6vw, 32px)/1.1 var(--sans); letter-spacing: -.02em; } .hist-n small { display: block; margin-top: 2px; color: var(--mist); font-size: 12.5px; line-height: 1.35; }
+.hist-chart svg { display: block; width: 100%; height: auto; } .hist-chart .gl { stroke: var(--rule); stroke-width: 1; } .hist-chart text { font: 500 11px var(--sans); fill: var(--mist); } .hist-chart .ty { text-anchor: end; } .hist-chart .tx { text-anchor: middle; } .hist-chart .tv { text-anchor: middle; font-weight: 700; fill: var(--ink); }
+.hist-chart .b1 { fill: #b9d6c8; } .hist-chart .b2 { fill: var(--house); }
+.hist-key { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 4px 0 6px; font: 600 13px var(--sans); color: var(--slate); } .hist-key i { display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; } .hist-key i.b1 { background: #b9d6c8; } .hist-key i.b2 { background: var(--house); }
+@media (max-width: 700px) { .hist-n { grid-template-columns: 1fr; } }
+
+/* clean cuts between sections: one hairline and a modest gap, no wide empty bands */
+.band { padding-block: clamp(32px, 3.6vw, 52px); }
+.ed-sec { margin-top: 40px; padding-top: 14px; }
+.ed-band { padding-bottom: clamp(20px, 2.4vw, 32px); }
+.pt { margin: 0 0 8px; padding: 26px 0 6px; } .pt + .pt { margin-top: 20px; }
+.pt-code { margin-top: 14px; border-bottom: 0; } .pt-code[open] { padding-bottom: 8px; }
+.al-wrap-up { margin-top: 36px; }

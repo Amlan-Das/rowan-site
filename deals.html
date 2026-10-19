@@ -57,7 +57,15 @@
 <article class="ed">
 
   <div class="ed-top" id="today">
-    <div class="ed-body" id="edBody"></div>
+    <div class="ed-left">
+      <div class="ed-body" id="edBody"></div>
+      <section class="hist" id="edHist" aria-labelledby="histT" hidden>
+        <p class="ed-label" id="histT">Coverage since launch</p>
+        <dl class="hist-n" id="histN"></dl>
+        <div class="hist-chart" id="histChart"></div>
+        <p class="ed-note" id="histNote"></p>
+      </section>
+    </div>
     <aside class="ed-markets ed-glance" aria-label="This update">
       <p class="ed-label">This update in numbers</p>
       <table><tbody id="edGlance"></tbody></table>
@@ -209,6 +217,7 @@ Headlines:
 <script src="data.js"></script>
 <script src="common.js"></script>
 <script src="rag-figure.js"></script>
+<script src="deals-history.js"></script>
 <script>
 // Everything below reads deals.json, which the Python pipeline in deals/ writes each weekday morning.
 (function () {

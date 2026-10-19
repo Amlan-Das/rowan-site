@@ -62,11 +62,14 @@ jobs:
       - name: Build the deals page data
         run: python final.py
 
+      - name: Update the coverage history
+        run: python history.py update
+
       - name: Commit deals.json and vector store
         run: |
           git config user.name "deals-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add "$DEALS_OUT" "$DEALS_DB"
+          git add "$DEALS_OUT" "$DEALS_DB" ../deals-history.json
           git commit -m "Deals update $(date -u +%F)" || echo "Nothing new to commit"
           # The brief and price jobs push to this branch too, so catch up first
           for i in 1 2 3; do
