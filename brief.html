@@ -34,7 +34,7 @@
 <section class="ed-band">
   <div class="wrap">
     <p class="ed-kicker" id="edDate"><span>Morning brief</span></p>
-    <h1 class="ed-h1">What moved overnight</h1>
+    <h1 class="ed-h1">What Moved Overnight</h1>
     <p class="ed-dek">A short read on the overnight session, written each weekday by a Llama model that only sees the headlines my pipeline retrieves. The small numbers link to the headline behind each claim.</p>
     <p class="ed-byline" id="edByline"><span>Loading this morning's brief</span></p>
   </div>
@@ -64,7 +64,7 @@
 
   <section class="ed-sec" id="industries" aria-labelledby="indTitle">
     <div class="ed-sechead">
-      <h2 class="ed-h2" id="indTitle">Natural resources</h2>
+      <h2 class="ed-h2" id="indTitle">Natural Resources</h2>
       <p>A note on each industry from the same pipeline and the same source list, with my industry report above it.</p>
     </div>
     <div class="ind-tabs" role="tablist" aria-label="Industries" id="indTabs"></div>
@@ -83,7 +83,7 @@
   </section>
 
   <section class="ed-sec" id="how" aria-labelledby="howTitle">
-    <div class="ed-sechead"><h2 class="ed-h2" id="howTitle">How this brief was made</h2></div>
+    <div class="ed-sechead"><h2 class="ed-h2" id="howTitle">How This Brief Was Made</h2></div>
 
     <div class="ed-intros">
     <p class="ed-intro">This page is built with retrieval-augmented generation, or RAG. A language model on its own has no idea what happened in markets this morning, and if you ask it anyway it will make up a plausible answer. RAG fixes that by searching for the relevant news first, then handing only that news to the model with instructions to write from it and cite it.</p>
@@ -96,7 +96,7 @@
       <ol class="ed-steps" id="edSteps">
         <li class="ed-step" data-step="1">
           <p class="snum">Step 1</p>
-          <h3>Pull prices and headlines</h3>
+          <h3>Pull Prices and Headlines</h3>
           <p>Python asks yfinance for the last two closes on six instruments: the S&amp;P 500, the Nasdaq, the 10-year yield, USD/JPY, crude and gold, plus the futures and ETFs each industry desk tracks. It then reads Google News RSS feeds for the market searches and each desk's own searches. RSS arrives as XML, so the code parses each item, drops anything older than 16 hours (two days for the industry searches, since that news moves slower), strips the HTML out of the snippet and removes stories that showed up under more than one search.</p>
           <p>Each story gets an ID made from a hash of its link. The same article always gets the same ID, which is how it avoids being stored twice on later mornings.</p>
           <div class="ed-code"><span class="c"># headlines.py</span>
@@ -106,7 +106,7 @@
 
         <li class="ed-step" data-step="2">
           <p class="snum">Step 2</p>
-          <h3>Turn each headline into a vector</h3>
+          <h3>Turn Each Headline Into a Vector</h3>
           <p>An embedding model, <code>nomic-embed-text</code>, reads each headline and its snippet and returns a list of 768 numbers. Those numbers work like coordinates: headlines that mean similar things land close together, even when they share no words. "Brent climbs on Iran fears" and "Oil prices rise" end up neighbours. That is what lets the next steps search by meaning instead of keywords.</p>
           <p>Headlines and search questions get different prefixes before embedding, because that is how this model was trained to tell them apart.</p>
           <div class="ed-code"><span class="c"># llm.py: Ollama serves the model on this machine</span>
@@ -118,7 +118,7 @@ POST localhost:11434/api/embed
 
         <li class="ed-step" data-step="3">
           <p class="snum">Step 3</p>
-          <h3>Store them in a vector database</h3>
+          <h3>Store Them in a Vector Database</h3>
           <p>The vectors go into Chroma, a vector database saved as files next to the code. Each entry keeps its vector, its text, and the title, source, link and publish time. Headlines stay for 14 days before they are deleted.</p>
           <p>This is the memory of the system. The language model never changes and never learns from these runs. What grows is the database, so each morning can draw on a story from two days ago that today's 16-hour window would have missed.</p>
           <p class="ed-run" id="run3"></p>
@@ -126,7 +126,7 @@ POST localhost:11434/api/embed
 
         <li class="ed-step" data-step="4">
           <p class="snum">Step 4</p>
-          <h3>Search the database for each move</h3>
+          <h3>Search the Database for Each Move</h3>
           <p>For every instrument the code writes a plain-English question in the words a headline would use, embeds it the same way, and asks Chroma for the four closest headlines from the last three days. Closeness is cosine similarity: 1 means the same meaning, 0 means unrelated.</p>
           <p>A vector search always returns its nearest results, even when nothing is actually near. So anything below a similarity cutoff is thrown away, and a quiet day gets no sources instead of the wrong ones. These were this morning's searches:</p>
           <div class="ed-rtab" id="edRetrieval"></div>
@@ -134,7 +134,7 @@ POST localhost:11434/api/embed
 
         <li class="ed-step" data-step="5">
           <p class="snum">Step 5</p>
-          <h3>Build one prompt per move</h3>
+          <h3>Build One Prompt per Move</h3>
           <p>Each move gets its own prompt with only the headlines retrieved for it, plus their snippets, numbered the same way as the source list. A small local model stays on topic far better with four relevant headlines than with thirty mixed ones.</p>
           <p>The rules come first: use only these headlines, cite them by number, don't repeat the price, and say so when nothing explains the move. If a move retrieved nothing, the code skips the model and prints "no clear catalyst" itself.</p>
           <div class="ed-code" id="code5"><span class="c"># one of this morning's prompts</span>
@@ -147,7 +147,7 @@ Headlines:
 
         <li class="ed-step" data-step="6">
           <p class="snum">Step 6</p>
-          <h3>Write in a fixed shape, then check</h3>
+          <h3>Write in a Fixed Shape, Then Check</h3>
           <p>A Llama model running on Ollama answers each prompt at a low temperature, in a JSON shape Ollama enforces with a schema: a subheading of up to eight words and two or three sentences with citations. The code adds the prices from yfinance itself, so the model never retypes a number.</p>
           <p>A last call reads the six sections and writes the headline sentence at the top, then picks up to three other stories worth knowing. Finally the code checks every citation against the source list and flags any number that doesn't exist. That catches invented citations, though it can't prove a source supports its sentence, so the sources are listed above to check.</p>
           <div class="ed-code"><span class="c"># llm.py: Ollama holds the reply to this shape</span>
