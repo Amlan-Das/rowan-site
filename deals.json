@@ -1,615 +1,397 @@
 {
-  "date": "Friday, October 16",
-  "generated_at": "2026-10-16T15:36:41.648729+00:00",
+  "date": "Monday, October 19",
+  "generated_at": "2026-10-19T17:37:22.211773+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "Proofpoint is acquiring Varonis in a $6.3 billion all-cash deal that is expected to expand its AI security capabilities.",
+  "lede": "Silgan and Trivium Packaging are in a $3.4 billion deal, while Merck KGaA is acquiring Silence Therapeutics for $1.3 Billion at a 130% premium.",
   "deals": [
     {
-      "acquirer": "Proofpoint",
-      "target": "Varonis",
-      "value": "$6.3 Billion",
+      "acquirer": "Silgan",
+      "target": "Trivium Packaging",
+      "value": "$3.4 Billion",
       "pinned": false,
       "stage": "Announced",
-      "articles": 9,
-      "outlets": 9,
-      "latest": "2026-10-16T08:41:33+00:00",
+      "articles": 5,
+      "outlets": 5,
+      "latest": "2026-10-19T14:58:30+00:00",
       "sources": [
         1,
         2,
         3,
         4,
-        5,
-        6,
-        7,
-        8
+        5
       ],
       "stripped": [],
-      "headline": "Proofpoint to Acquire Varonis",
-      "body": "Proofpoint is acquiring Varonis in a $6.3 billion all-cash deal [1, 2, 3]. The deal is expected to expand Proofpoint's AI security capabilities [2, 4, 5]. The acquisition is valued at $6.3 billion [1, 2, 3].",
+      "headline": "Silgan and Trivium Packaging Deal",
+      "body": "Silgan and Trivium Packaging are in a $3.4 billion deal [1, 2, 3]. Silgan and Trivium Packaging are in a $3.4 billion deal [4, 5]. The deal has been announced [1, 2, 3].",
       "found": [
         {
           "n": 1,
-          "acquirer": "Proofpoint",
-          "target": "Varonis",
-          "stage": "Announced"
+          "acquirer": "Silgan",
+          "target": "Trivium Packaging",
+          "stage": "Completed"
         },
         {
           "n": 2,
-          "acquirer": "Proofpoint",
-          "target": "Varonis",
-          "stage": "Announced"
+          "acquirer": "Silgan",
+          "target": "Trivium Packaging",
+          "stage": "Completed"
         },
         {
           "n": 3,
-          "acquirer": "Proofpoint",
-          "target": "Varonis",
+          "acquirer": "Silgan",
+          "target": "Trivium Packaging",
           "stage": "Announced"
         },
         {
           "n": 4,
-          "acquirer": "Proofpoint",
-          "target": "Varonis",
+          "acquirer": "Silgan, American Industrial",
+          "target": "Trivium Packaging",
           "stage": "Announced"
         },
         {
           "n": 5,
-          "acquirer": "Proofpoint",
-          "target": "Varonis",
-          "stage": "Completed"
-        },
-        {
-          "n": 6,
-          "acquirer": "Proofpoint",
-          "target": "Varonis",
-          "stage": "Announced"
-        },
-        {
-          "n": 7,
-          "acquirer": "Proofpoint",
-          "target": "Varonis",
-          "stage": "Completed"
-        },
-        {
-          "n": 8,
-          "acquirer": "Proofpoint",
-          "target": "Varonis",
-          "stage": "Completed"
-        },
-        {
-          "n": 9,
-          "acquirer": "Proofpoint",
-          "target": "Varonis",
-          "stage": "Announced"
+          "acquirer": "Silgan",
+          "target": "Trivium Packaging",
+          "stage": "Pending approval"
         }
       ]
     },
     {
-      "acquirer": "Cronos",
-      "target": "CanAdelaar",
-      "value": "€57.5 Million",
-      "pinned": false,
-      "stage": "Completed",
-      "articles": 5,
-      "outlets": 5,
-      "latest": "2026-10-15T22:46:48+00:00",
-      "sources": [
-        10,
-        11,
-        12,
-        13,
-        14
-      ],
-      "stripped": [],
-      "headline": "Cronos Completes Acquisition of CanAdelaar",
-      "body": "Cronos Group has acquired CanAdelaar, Europe's largest adult-use cannabis company [12, 13, 14]. The deal was completed on October 15 [11, 10, 14]. The acquisition adds a Dutch cannabis license to Cronos' portfolio [14].",
-      "found": [
-        {
-          "n": 10,
-          "acquirer": "Cronos Group",
-          "target": "CanAdelaar",
-          "stage": "Completed"
-        },
-        {
-          "n": 11,
-          "acquirer": "Cronos",
-          "target": "CanAdelaar",
-          "stage": "Completed"
-        },
-        {
-          "n": 12,
-          "acquirer": "Cronos",
-          "target": "CanAdelaar",
-          "stage": "Completed"
-        },
-        {
-          "n": 13,
-          "acquirer": "Cronos",
-          "target": "CanAdelaar",
-          "stage": "Completed"
-        },
-        {
-          "n": 14,
-          "acquirer": "Cronos Group",
-          "target": "CanAdelaar",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "Mitsui",
-      "target": "Penske Automotive",
-      "value": "$1.5bn",
+      "acquirer": "Merck KGaA",
+      "target": "Silence Therapeutics",
+      "value": "$1.3 Billion",
       "pinned": false,
       "stage": "Announced",
       "articles": 4,
       "outlets": 4,
-      "latest": "2026-10-15T21:06:00+00:00",
+      "latest": "2026-10-19T15:23:34+00:00",
       "sources": [
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21
+        6,
+        7,
+        8,
+        9
       ],
       "stripped": [],
-      "headline": "Mitsui and Penske Automotive Deal",
-      "body": "Mitsui and Penske Automotive are taking the company private in a $16.3 billion deal [16, 19, 20]. The deal was announced by Penske Automotive Group [21]. The deal is expected to be completed soon [16, 19, 20].",
+      "headline": "Merck KGaA to Acquire Silence Therapeutics",
+      "body": "Merck KGaA is acquiring Silence Therapeutics for $1.3 Billion at a 130% premium [6, 7, 8]. The acquisition was announced on October 19th [8, 9]. Silence Therapeutics will be acquired for cash [9].",
       "found": [
         {
-          "n": 15,
-          "acquirer": "Mitsui",
-          "target": "Penske Automotive",
+          "n": 6,
+          "acquirer": "Merck KGaA",
+          "target": "Silence Therapeutics",
           "stage": "Completed"
         },
         {
-          "n": 16,
-          "acquirer": "Mitsui & Co.",
-          "target": "Penske Automotive Group",
-          "stage": "Completed"
+          "n": 7,
+          "acquirer": "Merck",
+          "target": "Silence Therapeutics",
+          "stage": "Announced"
         },
         {
-          "n": 17,
-          "acquirer": "Mitsui",
-          "target": "Penske Automotive",
-          "stage": "Completed"
+          "n": 8,
+          "acquirer": "Merck KGaA",
+          "target": "Silence Therapeutics",
+          "stage": "Announced"
         },
         {
-          "n": 18,
-          "acquirer": "Mitsui",
-          "target": "Penske Automotive",
-          "stage": "Completed"
+          "n": 9,
+          "acquirer": "Merck KGaA",
+          "target": "Silence Therapeutics",
+          "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Tata Motors",
-      "target": "Iveco",
+      "acquirer": "Systematic Industries",
+      "target": "Wire Brigade Industries",
       "value": "",
       "pinned": false,
-      "stage": "Pending approval",
-      "articles": 3,
-      "outlets": 3,
-      "latest": "2026-10-16T13:53:05+00:00",
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-19T15:52:41+00:00",
       "sources": [
-        22,
-        23,
-        24,
-        25
+        10,
+        11
       ],
       "stripped": [],
-      "headline": "Tata Motors Acquires Iveco",
-      "body": "Tata Motors is acquiring Iveco [22, 23, 24]. Iveco shareholders have approved the takeover bid [22, 23]. Tata Motors has raised its offer to €14.40 per share [24]. Shareholder resistance complicates the acquisition [25].",
+      "headline": "Systematic Industries to Acquire Wire Brigade",
+      "body": "Systematic Industries is acquiring full ownership of Wire Brigade Industries [10, 11]. The deal was announced today [10, 11].",
       "found": [
         {
-          "n": 22,
-          "acquirer": "Tata Motors",
-          "target": "Iveco",
+          "n": 10,
+          "acquirer": "Systematic Industries",
+          "target": "Wire Brigade Industries",
           "stage": "Announced"
         },
         {
-          "n": 23,
-          "acquirer": "Tata Motors",
-          "target": "Iveco",
-          "stage": "Completed"
-        },
-        {
-          "n": 24,
-          "acquirer": "Tata Motors",
-          "target": "Iveco",
+          "n": 11,
+          "acquirer": "Systematic Industries",
+          "target": "Wire Brigade",
           "stage": "Announced"
         }
       ]
     },
     {
       "acquirer": "Curaleaf",
-      "target": "Aurora Cannabis",
+      "target": "Aurora",
       "value": "",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 3,
-      "outlets": 3,
-      "latest": "2026-10-15T20:30:52+00:00",
-      "sources": [
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33
-      ],
-      "stripped": [],
-      "headline": "Curaleaf and Aurora Cannabis Deal",
-      "body": "Curaleaf is trying to acquire Aurora Cannabis [29, 30, 31]. Aurora Cannabis has rejected Curaleaf's revised takeover bid [26, 27]. Aurora Cannabis is exploring new deals after rejecting Curaleaf's offer [28]. Curaleaf's offer for Aurora Cannabis has been sweetened to $5 a share [32, 33].",
-      "found": [
-        {
-          "n": 26,
-          "acquirer": "Curaleaf",
-          "target": "Aurora Cannabis",
-          "stage": "Rumored"
-        },
-        {
-          "n": 27,
-          "acquirer": "Curaleaf",
-          "target": "Aurora Cannabis",
-          "stage": "Pending approval"
-        },
-        {
-          "n": 28,
-          "acquirer": "Curaleaf",
-          "target": "Aurora Cannabis",
-          "stage": "Pending approval"
-        }
-      ]
-    },
-    {
-      "acquirer": "GTCR and Elliott Affiliates",
-      "target": "CCC Intelligent Solutions",
-      "value": "$6.1 billion",
       "pinned": false,
       "stage": "Announced",
       "articles": 2,
       "outlets": 2,
-      "latest": "2026-10-16T12:04:43+00:00",
+      "latest": "2026-10-19T14:22:06+00:00",
       "sources": [
-        35,
-        36,
-        37,
-        38
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
       ],
       "stripped": [],
-      "headline": "GTCR and Elliott Acquire CCC Intelligent Solutions",
-      "body": "GTCR and Elliott Affiliates are acquiring CCC Intelligent Solutions [37, 38]. The deal is worth $6.1 billion [36]. The deal was announced on October 15, 2026 [35].",
+      "headline": "Curaleaf and Aurora Deal",
+      "body": "Curaleaf is challenging Aurora's rejection of an enhanced bid [12, 13]. Curaleaf has sweetened its offer to acquire Aurora Cannabis [14, 15, 16]. Curaleaf's takeover bid for Aurora Cannabis has been revised to $5 per share [17, 18, 19].",
       "found": [
         {
-          "n": 35,
-          "acquirer": "GTCR and Elliott Affiliates",
-          "target": "CCC Intelligent Solutions",
-          "stage": "Announced"
+          "n": 12,
+          "acquirer": "Curaleaf",
+          "target": "Aurora",
+          "stage": "Rumored"
         },
         {
-          "n": 36,
-          "acquirer": "GTCR, Elliott",
-          "target": "CCC Intelligent Solutions",
+          "n": 13,
+          "acquirer": "Curaleaf",
+          "target": "Aurora",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "Albertsons",
+      "target": "Kroger",
+      "value": "$8 billion",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-19T11:22:30+00:00",
+      "sources": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "stripped": [],
+      "headline": "Albertsons and Kroger Merger Trial",
+      "body": "Albertsons and Kroger are going to trial over their failed merger deal [20, 21, 22]. Albertsons is seeking more than $9 billion from Kroger over the failed merger [22, 25, 26]. Albertsons is demanding $8M from Kroger over the failed merger [27].",
+      "found": [
+        {
+          "n": 20,
+          "acquirer": "Albertsons",
+          "target": "Kroger",
+          "stage": "Completed"
+        },
+        {
+          "n": 21,
+          "acquirer": "Albertsons",
+          "target": "Kroger",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "Williams",
-      "target": "Momentum Midstream",
-      "value": "$5.5 Billion",
+      "acquirer": "DXC",
+      "target": "WSAU",
+      "value": "$2.4 billion",
       "pinned": false,
-      "stage": "Announced",
-      "articles": 2,
+      "stage": "Rumored",
+      "articles": 1,
       "outlets": 1,
-      "latest": "2026-10-15T23:06:24+00:00",
+      "latest": "2026-10-19T17:19:47+00:00",
       "sources": [
-        39,
-        40
+        28
       ],
       "stripped": [],
-      "headline": "Williams to Buy Momentum Midstream",
-      "body": "Williams is buying Momentum Midstream for $5.5 Billion [39, 40]. The deal was announced by Williams [39, 40]. No further information is available [39, 40].",
+      "headline": "DXC to Sell Insurance Software Unit",
+      "body": "DXC is in advanced talks to sell its insurance software unit [28]. The deal is reportedly worth $2.4 billion [28]. No further details have been disclosed [28].",
       "found": [
         {
-          "n": 39,
-          "acquirer": "Williams",
-          "target": "Momentum Midstream",
-          "stage": "Announced"
-        },
-        {
-          "n": 40,
-          "acquirer": "Williams",
-          "target": "Momentum Midstream",
+          "n": 28,
+          "acquirer": "DXC",
+          "target": "WSAU",
           "stage": "Rumored"
         }
       ]
     },
     {
-      "acquirer": "AkzoNobel",
-      "target": "Axalta",
-      "value": "$25B",
+      "acquirer": "Dream Finders Homes",
+      "target": "Beazer Homes",
+      "value": "",
       "pinned": false,
       "stage": "Pending approval",
       "articles": 1,
       "outlets": 1,
-      "latest": "2026-10-16T14:03:19+00:00",
+      "latest": "2026-10-19T14:39:22+00:00",
       "sources": [
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
+        29,
+        30
       ],
       "stripped": [],
-      "headline": "AkzoNobel and Axalta Merger",
-      "body": "AkzoNobel and Axalta are proposing remedies for EU approval of their $25B merger deal [41, 42]. The companies are expected to be called Axanzo following their merger [43, 44]. AkzoNobel and Axalta are set to win EU antitrust nod for their $25 billion deal, sources say [45]. Conditional EU antitrust approval expected for AkzoNobel, Axalta deal, sources say [46].",
+      "headline": "Dream Finders Homes and Beazer Homes",
+      "body": "Dream Finders Homes and Beazer Homes are acquiring each other [29, 30]. The deal is pending approval [29, 30]. Nothing new has been reported [29, 30].",
       "found": [
         {
-          "n": 41,
-          "acquirer": "AkzoNobel",
-          "target": "Axalta",
-          "stage": "Announced"
+          "n": 29,
+          "acquirer": "Dream Finders Homes",
+          "target": "Beazer Homes",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Bruton Limited",
+      "target": "INSW",
+      "value": "",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-19T13:55:00+00:00",
+      "sources": [
+        31,
+        32,
+        33
+      ],
+      "stripped": [],
+      "headline": "Bruton Limited and INSW",
+      "body": "Bruton Limited and INSW are merging [32, 31]. The deal is expected to expand International Seaways' VLCC fleet [33]. A special general meeting (SGM) has been set for October 30 [31].",
+      "found": [
+        {
+          "n": 31,
+          "acquirer": "Bruton Limited",
+          "target": "INSW",
+          "stage": "Pending approval"
         }
       ]
     }
   ],
-  "also": [
-    {
-      "n": 47,
-      "note": "Schneider’s $23.6bn bid for PTC faces investor scepticism [47]."
-    },
-    {
-      "n": 48,
-      "note": "DOJ takes closer look at Patrick-LCI merger [48]."
-    },
-    {
-      "n": 49,
-      "note": "SpaceX Spectrum Deal, Rocket Lab Delays, Tesla Merger Chatter [49]."
-    }
-  ],
-  "brief": "Proofpoint is acquiring Varonis in a $6.3 billion all-cash deal that is expected to expand its AI security capabilities.\n\nProofpoint / Varonis (Announced): Proofpoint to Acquire Varonis. Proofpoint is acquiring Varonis in a $6.3 billion all-cash deal [1, 2, 3]. The deal is expected to expand Proofpoint's AI security capabilities [2, 4, 5]. The acquisition is valued at $6.3 billion [1, 2, 3].\nCronos / CanAdelaar (Completed): Cronos Completes Acquisition of CanAdelaar. Cronos Group has acquired CanAdelaar, Europe's largest adult-use cannabis company [12, 13, 14]. The deal was completed on October 15 [11, 10, 14]. The acquisition adds a Dutch cannabis license to Cronos' portfolio [14].\nMitsui / Penske Automotive (Announced): Mitsui and Penske Automotive Deal. Mitsui and Penske Automotive are taking the company private in a $16.3 billion deal [16, 19, 20]. The deal was announced by Penske Automotive Group [21]. The deal is expected to be completed soon [16, 19, 20].\nTata Motors / Iveco (Pending approval): Tata Motors Acquires Iveco. Tata Motors is acquiring Iveco [22, 23, 24]. Iveco shareholders have approved the takeover bid [22, 23]. Tata Motors has raised its offer to €14.40 per share [24]. Shareholder resistance complicates the acquisition [25].\nCuraleaf / Aurora Cannabis (Announced): Curaleaf and Aurora Cannabis Deal. Curaleaf is trying to acquire Aurora Cannabis [29, 30, 31]. Aurora Cannabis has rejected Curaleaf's revised takeover bid [26, 27]. Aurora Cannabis is exploring new deals after rejecting Curaleaf's offer [28]. Curaleaf's offer for Aurora Cannabis has been sweetened to $5 a share [32, 33].\nGTCR and Elliott Affiliates / CCC Intelligent Solutions (Announced): GTCR and Elliott Acquire CCC Intelligent Solutions. GTCR and Elliott Affiliates are acquiring CCC Intelligent Solutions [37, 38]. The deal is worth $6.1 billion [36]. The deal was announced on October 15, 2026 [35].\nWilliams / Momentum Midstream (Announced): Williams to Buy Momentum Midstream. Williams is buying Momentum Midstream for $5.5 Billion [39, 40]. The deal was announced by Williams [39, 40]. No further information is available [39, 40].\nAkzoNobel / Axalta (Pending approval): AkzoNobel and Axalta Merger. AkzoNobel and Axalta are proposing remedies for EU approval of their $25B merger deal [41, 42]. The companies are expected to be called Axanzo following their merger [43, 44]. AkzoNobel and Axalta are set to win EU antitrust nod for their $25 billion deal, sources say [45]. Conditional EU antitrust approval expected for AkzoNobel, Axalta deal, sources say [46].\n\nAlso worth knowing:\n- Schneider’s $23.6bn bid for PTC faces investor scepticism [47].\n- DOJ takes closer look at Patrick-LCI merger [48].\n- SpaceX Spectrum Deal, Rocket Lab Delays, Tesla Merger Chatter [49].",
+  "also": [],
+  "brief": "Silgan and Trivium Packaging are in a $3.4 billion deal, while Merck KGaA is acquiring Silence Therapeutics for $1.3 Billion at a 130% premium.\n\nSilgan / Trivium Packaging (Announced): Silgan and Trivium Packaging Deal. Silgan and Trivium Packaging are in a $3.4 billion deal [1, 2, 3]. Silgan and Trivium Packaging are in a $3.4 billion deal [4, 5]. The deal has been announced [1, 2, 3].\nMerck KGaA / Silence Therapeutics (Announced): Merck KGaA to Acquire Silence Therapeutics. Merck KGaA is acquiring Silence Therapeutics for $1.3 Billion at a 130% premium [6, 7, 8]. The acquisition was announced on October 19th [8, 9]. Silence Therapeutics will be acquired for cash [9].\nSystematic Industries / Wire Brigade Industries (Announced): Systematic Industries to Acquire Wire Brigade. Systematic Industries is acquiring full ownership of Wire Brigade Industries [10, 11]. The deal was announced today [10, 11].\nCuraleaf / Aurora (Announced): Curaleaf and Aurora Deal. Curaleaf is challenging Aurora's rejection of an enhanced bid [12, 13]. Curaleaf has sweetened its offer to acquire Aurora Cannabis [14, 15, 16]. Curaleaf's takeover bid for Aurora Cannabis has been revised to $5 per share [17, 18, 19].\nAlbertsons / Kroger (Announced): Albertsons and Kroger Merger Trial. Albertsons and Kroger are going to trial over their failed merger deal [20, 21, 22]. Albertsons is seeking more than $9 billion from Kroger over the failed merger [22, 25, 26]. Albertsons is demanding $8M from Kroger over the failed merger [27].\nDXC / WSAU (Rumored): DXC to Sell Insurance Software Unit. DXC is in advanced talks to sell its insurance software unit [28]. The deal is reportedly worth $2.4 billion [28]. No further details have been disclosed [28].\nDream Finders Homes / Beazer Homes (Pending approval): Dream Finders Homes and Beazer Homes. Dream Finders Homes and Beazer Homes are acquiring each other [29, 30]. The deal is pending approval [29, 30]. Nothing new has been reported [29, 30].\nBruton Limited / INSW (Announced): Bruton Limited and INSW. Bruton Limited and INSW are merging [32, 31]. The deal is expected to expand International Seaways' VLCC fleet [33]. A special general meeting (SGM) has been set for October 30 [31].",
   "sources": [
     {
       "n": 1,
-      "title": "Proofpoint to Acquire Varonis in USD 6.3 Bn",
-      "source": "Entrepreneur India",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZHdQQTR1eklkakx3RVd1NlZTVU9Ra0oxMlZWZk1CYWJxWGt5S0c2d095bUdsaGJEM09JZjhqUWRFSmh4Y0ZicldwSDUya1oySlJvb2lFOXpLRzltd1dlY3FmYWtMbzZ1dnMzaXlsN1ZiS1J5RzZPY2o5VFlaYklQbmR3SzhVVmRJTC1QQ2xROGprVmZZX2VXYXVBYw?oc=5",
-      "snippet": "Entrepreneur India",
-      "published": "2026-10-16T08:41:33+00:00"
+      "title": "Silgan, American Industrial Partners to Acquire Trivium Packaging in $3.4 Billion Deal",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVVkwWVhFRXBWNkZlQTA0UmVKdS1oNzdXRC14VkE1TmY1TVVaelEwZnBKM0R3RUJtb2lKVHhOQl9hbXEyZ01rc1I1QlFwZzdYVmV2TUltTU1rM0RuVndQemUyUG1xZlJzTWhGMmo5S05KakdQWjdnOEFCYWk0d292NmpjVm9NcmtXU05nY1dQWlFocW9qTzl6amZRRndNMXA5LTVLbWxNaktJNG1T?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-19T14:58:30+00:00"
     },
     {
       "n": 2,
-      "title": "Proofpoint Acquires Varonis in $6.3 Billion Deal to Expand AI Security",
-      "source": "Cyber Press",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9qWnhyZ0hIVm9YOFR3ZXM2ZG5aTndqQXlpaDZHRmxZLVFDYU1MMGNwZzRsVkp4SzRHLXp5T21QdTdSZkstZUhfSU1nWl96ZmdwU3E3aTE0QWJPZ0VuVlc5d2c4OE3SAWRBVV95cUxPalp4cmdISFZvWDhUd2VzNmRuWk53akF5aWg2R0ZsWS1RQ2FNTDBjcGc0bFZKeEs0Ry16eU9tUHU3UmZLLWVIX0lNZ1pfemZncFNxN2kxNEFiT2dFblZXOXdnODhN?oc=5",
-      "snippet": "Cyber Press",
-      "published": "2026-10-16T08:09:05+00:00"
+      "title": "Silgan Agrees $3.4 Billion Deal to Acquire Trivium Packaging",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdnh1eG4wQVRtVEd5QXRGazlYUVF5MWRIS05RamEzQmZ1RW5ieFV0VVlZX1gwaGt2WlAtbmF2Uml3Yk1CY3ByQzV3amFIemE2akFGT0tTMUVYT08tREtlWEpzdWM2N3JxemtPbkhxMU9LRUFNazNFNk9kSmlTejZudlNicVQ0eDZaaEo0R3g2Tk9aUElNMVNPSlQxLVNMeDdLOGtCTEhRNXU?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-10-19T14:48:36+00:00"
     },
     {
       "n": 3,
-      "title": "Proofpoint acquires Varonis for 6.3 billion",
-      "source": "Techzine Global",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbDhkaEdQb1ctazZEa1RtWEw3U3FNTGN6R2VsVG8zREpEMjViN0NPbnltcDdtTjRlc09DdnhvdmRuaUpCUmI0YmVUbE9ZdkROSlhQbTVZZjBCZmtWN18tdEU4dWJxdWozQWRaNTJsMXJCRUoxSnE5VTVzbVVUdkZLRmFMV3JoeEJuQXdnT2NmRm43SnM?oc=5",
-      "snippet": "Techzine Global",
-      "published": "2026-10-16T07:31:19+00:00"
+      "title": "Packaging firm Silgan and American Industrial to buy Trivium Packaging in $3.4 billion deal",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOEdMeldoeXh5S1E5X09DMUkzX25jY1NjMmJpbDRFQVlaMWhiZ2tFN3hBM2VvUzBIOUEtM3RieENqY0Ezczg5SHhteHdmWHdEU2w3NGRZZXVWdHdwWkkwXzBGcU10S2lQcjdNaGpvbDV1RmR1aUhxWGNFRGU0bWZxWUxtUUVzb0d0MjJ1V3EyZG1VaFJ5X1BFbG9TRkZxbnR4YzhZWlZTMUF3YWxfdFVhWVdKeFJYY3hFUGlaRA?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-10-19T13:33:29+00:00"
     },
     {
       "n": 4,
-      "title": "Proofpoint to Acquire Varonis in Massive $6.3 Billion AI Cybersecurity Deal",
-      "source": "CyberSecurityNews",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51UjlKNFZpSG1IdFNrUkI3S2R4bHEzckJrMUxaRUVxUDNocVpFQTZJNGtMcE9ubHNfLUhSZnhBR0htaU04Z2ZqZHlSbGZtaVJybWt6bnlCVEp1NG1rVzUtUFVjbUFsRWRqU1JpaNIBckFVX3lxTE9GQlJsbnlJMi03Yjc0VllXb1A5eGxqVUlvc1gyejZIOUYyTGpDSVRrUURqenFnelpuVmFXSmU5TFQwNlZtRXluOThVMmlIUW1SMXRpazZ4V2RJVnhYSFlfQ2laeXFfOW9tLV9IbWJWcU9pUQ?oc=5",
-      "snippet": "CyberSecurityNews",
-      "published": "2026-10-16T06:53:56+00:00"
+      "title": "Silgan, American Industrial to buy Trivium Packaging in $3.4 bill",
+      "source": "Global Banking & Finance Review",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMTU4Nm9KRVZOSlFOVHBkdEk2bjJJbWRqTHVCQm1QWlNWSzN1S0hSbGFmVG1XTndjeG5BVDZyYW1Ja2lNSWlEd1l2SnV3RERwa2JuUzZmVlM5OHBaQWlLWkp4WTFSdlZBNlVHcWZHX0ZZQWQ3Y2RuRjJTd3ppMHQ2R3VlWkVKdlVVN1VMOGdzNUo3QUZaWFI3cnFZV0dOWm1HVmlv?oc=5",
+      "snippet": "Global Banking & Finance Review",
+      "published": "2026-10-19T11:31:16+00:00"
     },
     {
       "n": 5,
-      "title": "Proofpoint Agrees to Acquire Varonis in $6.3 Billion Cash Deal",
-      "source": "TOKENPOST",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1tbGZmNTYxbFBRSGpQMTZKTHZSTUZqd1NlV0ZpTmZtRmdJU2FMUzVWRDdJdk9OZjRTcmRTRXM1MEVKOWE5ZHVWQ3EtZEhtUlVuLUJsTWtHRnA?oc=5",
-      "snippet": "TOKENPOST",
-      "published": "2026-10-16T05:26:15+00:00"
+      "title": "Silgan Nears $3.4 Billion Purchase of Trivium Packaging",
+      "source": "Yahoo Finance UK",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1UNlpraGZYYTZQS2YwRkllUm9vRzMxTWhoRXBtVGhBTXpxUUFHeEZFaGZ2WjU5Vm5la25UUl96YlpHYkpZWHFNeks4SzJaWDBOSUNYaGZRZU9lV2JWRW4zRkxBOXk2MWwzWXAzR0kxdWhuXzVDOHl2bXpEaXRuUQ?oc=5",
+      "snippet": "Yahoo Finance UK",
+      "published": "2026-10-19T10:00:32+00:00"
     },
     {
       "n": 6,
-      "title": "Proofpoint agrees to buy Varonis for US$6.3B in cash",
-      "source": "Mugglehead Investment Magazine",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tVzdTbWVtT2czenFGSElUNkVOZHVRbXk4eWNZWFNtb09wQUJOSzcxLTE3RzNSQ2plRVVseDlZV1FtR0YydUJHcGZWeEc2bTRyYUdycUFSM2M2NGlwVHVEcU4td3JTSDc3cE9j?oc=5",
-      "snippet": "Mugglehead Investment Magazine",
-      "published": "2026-10-16T04:21:44+00:00"
+      "title": "Silence Therapeutics Agrees to $1.3 Billion Merck KGaA Acquisition at 130% Premium",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYi00a010RWg1TzJMeEFQbHp3c1J3elRiWXFObFJOM0FhRzVJMEhEVy1PYjdpUEJ3UU93N0pvU19zeXR4NVdGRjg3MWJCTDIxUm5nbnV1cHA2aEZidmZLLWFhQXRFRE1LdzdYN2RVU3drUGJQOEEyR3dVX0ZXMktGcUpIdWpmZlA2Tk1QcUI0MkY0QzRPUm5B?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-19T15:23:34+00:00"
     },
     {
       "n": 7,
-      "title": "Proofpoint to buy Varonis in USD $6.3 billion deal",
-      "source": "SecurityBrief UK",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQ0FhTnpmanJlRVVlREtmN21Yal9fdHBuVUZ1a2VDMWVJdWRxTnllTklNRnh2bnlWcU1rQlM1WUFTSHpsVXBWbEl3SlpmMG44bDZ2UklQRkFId2VlbzUtWkhhTGxWc25YTHVZVmR0VXlnYkNQQTQ4c3FoMS1UVUxyRWludFJQaGNsb3dF?oc=5",
-      "snippet": "SecurityBrief UK",
-      "published": "2026-10-16T01:08:00+00:00"
+      "title": "Merck to Acquire Silence Therapeutics for $1.3 Billion",
+      "source": "grafa.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRy1ST3Q2MDh4enBDSU9pS1B6TERSOWthMGFyUWJvbkEzUkp0cEZnZURQbE40MFExckFoR1NkUnI5VDBhTHJJeTJUMzBQWkxhZEdjczZ1WTZZZUFjV1NuVUUzTkdUOFc1RjhZajBIRnhLT09IckVhM2V3WHY3dngwSWFEdms1cFotN0NIVDVYQ2ZXQ1FQ?oc=5",
+      "snippet": "grafa.com",
+      "published": "2026-10-19T13:26:28+00:00"
     },
     {
       "n": 8,
-      "title": "Proofpoint to acquire Israeli-founded Varonis in $6.3 billion all-cash deal",
-      "source": "CTech",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtektCR0hQaVIxbXJqeWE4RF91SG8tQnBFWkV0dDQtTk1nQjhKN0JvMzBzWlU0ajFDR0FlLUdLSjVHanJFUHFpMmRmRENZVUx1SmdKTUdHbElKS19jSm9abWdFdEEwV0k?oc=5",
-      "snippet": "CTech",
-      "published": "2026-10-15T21:04:00+00:00"
+      "title": "Silence Therapeutics Enters into Agreement to be Acquired by Merck KGaA, Darmstadt, Germany",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbnpKbnFRUXVoU2lVcXROczZnRzJCX3RhZUxKTmlsbHVBb21Cd1hUb3BvRno4Tk9RWkJIaFdXODBhVndhb3k1ZExZYmltNHVsLWdjTDdnUnRiYms0dmJFb0hIMFVmWUdpTXFNU25wc21UclY1d0RXaHNTN1NHbU5UNml5R3ZfbVJUSDdQNEZZN2JTTnFTOVl2dWZoSmxWMzFhd0RobEw4STktX2VZeWRFb3Q5ZXRSS1diZU1naXVFeDVMenBKR2M1LU40WjdOQ3U3X3hlRVdJeWk1VXhLM0dR?oc=5",
+      "snippet": "Business Wire",
+      "published": "2026-10-19T12:00:00+00:00"
     },
     {
       "n": 9,
-      "title": "Proofpoint to Acquire Varonis in a $6.3 Billion Transaction",
-      "source": "Proofpoint",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObXkxZFFFUXN6ODRWYm9VMWhsMDZDZHVxWDV1YldEeHRDYU9rSlVEZ1d0WVMtaDBFZWJTWUgyTjlxdzR5ZmpObEJvVnZ1Y1FYRU0yQXNJamZYMWFKUGlqY19HelZqQnp6WG1rWl9nbDUxQzF3SnQ3NEdBSllXUVBIRUYxM1JqWEcwdnp4ckRCRE1hQ3pFd0J5cnJKdFM5eGZralZNUjV5c3FsYldKdlZZSWhuTF9oaWRMWmZGSXc0SHpoUQ?oc=5",
-      "snippet": "Proofpoint",
-      "published": "2026-10-15T18:55:41+00:00"
+      "title": "Merck KGaA agreed to buy Silence Therapeutics for cash at a 130% premium to its Oct. 16 closing price.",
+      "source": "Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdDA4MEtlSWJGNUg1QXhpRmpkemZYeTJGUmp0UGRZejFzdS1uT1FYRXExODV0bW1paENDTWJQLWJxX01LX19QSnNzRDRjbWV3N3loVHNVWERlbTJvMjFURUZ3UXN1UzdxY3V5dklMQ2oyVFhRRlh3d0J2ZlpYN1Q5OFFVYzBCSUItOW8tU1Zvd21QdUJqYlMzZThHbXNvbk1WdHRVTkgwaXh1R0JyXzRiZ250TDlpckRnNURrWWZwQQ?oc=5",
+      "snippet": "Stock Titan",
+      "published": "2026-10-19T12:00:00+00:00"
     },
     {
       "n": 10,
-      "title": "Cronos Group Completes Acquisition of Netherlands Cannabis Producer CanAdelaar",
-      "source": "StratCann",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PZS1mNzhRWFo2OXFvX3VDaHZURXhNMXEtdzYwSHh6Q01MTGJjZndHRGxuWkJZcEdaR00xTjVuZl9yT1RTRVpFNU94LWFISnJvWlZiWkhMOXlEOFZWazk5T09zaFI5SDM4bG04NmRYUGQtTGNOZE1Ub2tR?oc=5",
-      "snippet": "StratCann",
-      "published": "2026-10-15T22:46:48+00:00"
+      "title": "Systematic Industries to Acquire Full Ownership of Wire Brigade Industries for ₹21.50 Crore",
+      "source": "Sahi",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbkVCRHFtVmJRZlo4OW5RWDBKbzdLLU5ZOUFkM2RWeW13cnd2dUNWenZmbm1DQ3JBQ09lS3BVWlRubFFMVWl6aEZpRTZVal9TQjd4VHMwS2dYcXJtZW1UOFozel9HRUczS21HblNNOHVjTlFmdnI5YTVORUcta3JjZV9YczMzUC1yUkxFQnRLVEc3bWJLdTVzSVRRNVBCSjl6RmJXT1B4NXk2cGx4Q21ZY19vRVlDanc?oc=5",
+      "snippet": "Sahi",
+      "published": "2026-10-19T15:52:41+00:00"
     },
     {
       "n": 11,
-      "title": "Cronos Completes Acquisition of CanAdelaar",
-      "source": "Cannabis Equipment News",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMWpMZUduY0V0RTl2dHVoaGVzcWlaSmtzRUhmSjlkNC14TU9zTk8wVXhpam9vdEZRTlNvQWZxZnFHQmJsY0h2U0RtNG1DcERhazFOeVA5R2dSd1ZMQU5zLXBBOS10ZzZENHd2RFZ2YWV1Q1U0TXEzT3B1T3JzMERWS2JOT2wtNWVlM3hEZ1dFenluVUxVdE9YRmdZNS1OeXUy?oc=5",
-      "snippet": "Cannabis Equipment News",
-      "published": "2026-10-15T18:00:59+00:00"
+      "title": "Systematic Industries enters deal to acquire Wire Brigade for ₹21.50 crore",
+      "source": "scanx.trade",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPem5HbDBBa0RVZF9iYklyUWF5V1JnZndyLVIwMFFYeVBvSEtKeU1sV1dDTm1mNnZHRlhEak9UM1BmVEh6UGgzNW85SUJHMTdueU9lWUVfdXQ0cEVUYzdrRVpPaFN6aGVfWWpfVmtUWXp1Y2RPOUNta1ZrU3FCek9ORm13Z0tFMXVqei1sQzNfQ3V6UEVvclEyUTk3Rm5ZWkZUWDFoQklIR1B6RlRwdlFpVjBEVkowQW1UeHJOS0hCRVE?oc=5",
+      "snippet": "scanx.trade",
+      "published": "2026-10-19T15:45:48+00:00"
     },
     {
       "n": 12,
-      "title": "Cronos Acquires CanAdelaar, Europe’s Largest Adult-Use Cannabis Company",
-      "source": "Cannabis Business Times",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPNS1lcVJ5V3JvWHBSVHlBM0JrRWs3VW5odFRZQWpkSEcxOTIwU0dzelBKeHlnNG5LUmdYNzNOZGJHYWJ4cjRHUXNOS01WQ0t0R0EyZEd3RWVfMWlRVlEteTVhR3BINFFYcFRFbHI5YUZNSVJoX2F6TmZ6VlAxdkxGTnNXTFU1SVNUaVVqQktRaW1XQ1ZPTV9fVHhKbW1aUm5iY2dtWGJUbldnc1I4azNfaVpQQi1URlhCMGZJOWsxMEp3dmJMcWpkRFFBSjN2TzNQNnFSTHhJM0xSUWNPalRxV1JWVnQtVm42N05hdVp0eWYzeHZyck83UURUcEgxRnd3TlE?oc=5",
-      "snippet": "Cannabis Business Times",
-      "published": "2026-10-15T15:47:16+00:00"
+      "title": "Curaleaf challenges Aurora's rejection of enhanced bid",
+      "source": "Mugglehead Investment Magazine",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yWEtSUi1oT2l2dGtjd01KTjlPcldEVDFUd0lpYXk3TVY3UTNHamVfNER0VF9maHRhSWlmcW1ERlJaNldlaHh3ZzA1c2c3NlY2QlJZV3NxVzFITXYtbTRZa1k1TWxCbUNRUzRNcU9aRklBb2xER093alVSZjRfQQ?oc=5",
+      "snippet": "Mugglehead Investment Magazine",
+      "published": "2026-10-19T14:22:06+00:00"
     },
     {
       "n": 13,
-      "title": "Cronos Completes Acquisition of CanAdelaar, Europe’s Largest Adult-Use Cannabis Company",
-      "source": "The Manila Times",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZkZfcXoyaWUyeFlTbVVxQ0NITU5jZERBYUMwc3R6LVJITHNseUhYenZvc0VPTmJhNHh0V0RuUFJTSDJLVXo5b0N3TGVfQlVKdWh2N0tZLTNTQ3FUeWpxalU5cmEyWWtESmxFaWhqTmZTYTV5Y1dhMjFCY1hVRzJqOHhWSDBTN21TRUZRdlVxeHdITzR2V2N2d3p3RlNsUjBlbmpEUG5SOWhfNzZyUlE5QkxXaENIVm1HT2d5VVVPaEZOa0dNczI5aThPUTRUSHVCQ01BeGswa1QzcHRmSmptNHVuWkUtUjlNWXVxTHNYUXrSAfYBQVVfeXFMTlczR3VZVHNtZWxpY1JYZU8xaklIMmZpVWdlY0I2WkZfZFpPTG1HbWE5WjctN21QZ1hZczlhQnR4T0d6NzZVSHpLdGhDMWZFcE82aFBCU1Jxd0V3M0VSOUw0NTFRV0wybXhjd3NfVFN4Yk4wcUc3NVFaTXM0N0tmelJsUXVFcTdZRlFkWWl0NE1SZm9FZFBtUFM1aEY2M25SZjY0blhpV0xSbUh1MDN5cnlWQjU0YTJYLWJhUm9KbHNBOG43bWlFRGRMS0toc2JMRW5ySThXV2tIcTFDYk8wRGpQU2lrNGlXU3hzMjlCa1ZqdzVGdGdB?oc=5",
-      "snippet": "The Manila Times",
-      "published": "2026-10-15T11:16:10+00:00"
+      "title": "Curaleaf Challenges Aurora's Unilateral Rejection of Its Enhanced Proposal",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLU9mSWtCbTFMWXh1dUhJWUlmQXotbTZVclhsLVgzaGN2YnVPQnhYOFM4TEMwV2laQUM1cXNNckpYYlY2Q1l4WDlsT2VvOFdySnNjU3BHNVlGWFpFTzlWRGgyTmlDYklzWmctOWxteHJIbjdLVnZVc3NQZEswcjNKYlBoTEd2aVlqOFFPSDJGTkplRldwMmNrSnk2dlBiWm9uZ1VtOXVjdk9MNjllU29oTjRLMA?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-19T11:15:00+00:00"
     },
     {
       "n": 14,
-      "title": "Cronos Group Completes €57.5 Million CanAdelaar Acquisition; Adds Dutch Cannabis License",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOR0Z0Z2ItXzgtWTVkXzFvY25TQndlbmlNWnFKb1VJejV2TW9namNCZjdLX1E4UUtEa0drSVdtZk9SVmNRWFdENW11ZXFHeEFxUndaaWhzeXlCTFNELTRpcy0zaUZuUHF6Y29wSmVaeW1QbklqSTMxNldpZmw3aHJkdXF2UGtQZGhyM0Nab2lTUUgtRkNfRFhBcC0wRldKb3dzOS1tclUwcGZpZFJLUHplcG1DY1h5bW1mamU2ZmhQUTZhd3BrOWVIYWhUX0FqdjREakQ4b0FmQjAxcFFILUN0QW9B?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-15T11:03:00+00:00"
-    },
-    {
-      "n": 15,
-      "title": "Japan's Mitsui to spend $1.5bn on bid to take Penske Automotive private",
-      "source": "Nikkei Asia",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPR2Vqbm5LN1RTSHYyeWdxV18xb1AtQWsyXzhURzlZUEYzNmVucmdYWXZjWWg0OXJ2a0NWaWRvSjVtSHFpMG5rME9LWExhNDZrYW1DOG52UGdiQUhZa3BYUmkzSlRXUWhhTHRsNjJ6R0tLbGw2T01nci15dDRyS2llbVphYmU5YVJkMEtBQW5GVmRFY0hqRDJMaXdNS0xWNjU4bHdNRlB2Y1psamhTVlpYRUg0YkNEUFpNTEE?oc=5",
-      "snippet": "Nikkei Asia",
-      "published": "2026-10-15T21:06:00+00:00"
-    },
-    {
-      "n": 16,
-      "title": "Penske Automotive Group reaches $16.3B deal with Mitsui & Co. to go private",
-      "source": "The Business Journals",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT3NIcEhlWDc2XzVDU3RYWTh1aXVLVmNCdEdBLVpSeUI1cGlUQ1VPLUt3bzJhYm13MC14bjhNbzdTcDhTSHcxN0pKT2NuVDNBRDVrSHJ2VTZPbDhxNzJONWNqQ3ZkeUQ4TEhpZDFTN0R5eFRvSjhFajNsVjNrT0lidGMxTFM5R3hZeUd3Wk4waXVjOWpxUXl5TEY2dS1yYm8?oc=5",
-      "snippet": "The Business Journals",
-      "published": "2026-10-15T19:14:00+00:00"
-    },
-    {
-      "n": 17,
-      "title": "Penske Automotive Agrees to $16.3 Billion Go-Private Deal With Major Shareholders Penske, Mitsui",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX1h5RlFfdHpMcVJNT25tVThwT3VXY3pxMmNqVl9mQ0lqd2p5YjV6d2VaLVdtY0VoaVZjM19IX3hDUkhTTEZRbEQtbERUNUFramlBYkxrZEt0X09sSWEzZ1JoUmc3VXhHbmxPRDNCTExVRmpSQUJfd1Y0aXBmQ0h3RXVxTzAwcXZMNUZKZXk0d0JybDdGd0NFV05n?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-15T13:10:47+00:00"
-    },
-    {
-      "n": 18,
-      "title": "Penske Automotive Group to Be Taken Private by Penske, Mitsui",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQ0g5NVlYYVNnZmlDQXAweUdHd1d4OTRWMUlXdUtyNU9mWWNkTmxtQUlrVHQ3UTJvbW92RUxpSjZ6S0RETzVTNlhfQjNRbmpsbUV6RVJLSndiLU15dDlfNTkwLWFQc3o1Smhpc2t3V0puQ25yd0RlUUZoVDQ1bFhYdmx5b1hpdUh3aEktSElmTWgyenVpR1duUTQzR2JlWkR3WUUzelRJNA?oc=5",
-      "snippet": "WSJ",
-      "published": "2026-10-15T12:26:00+00:00"
-    },
-    {
-      "n": 19,
-      "title": "Penske Automotive Agrees to $16.3 Billion Buyout by Penske Corp and Mitsui",
-      "source": "finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LOGpPSmVBNTg0U2RScHBmQURQTVFyRl9KV2lUR3VYV2l1cmV1SlJ0T0J4dnFZdWZLbmQwR0JOUzBBcnd3YWFvaDh0X1RBQjYtc2Qta1QyQmpRVDNWUHZVUmw1SXZ5VUtJUXFNN0hnSG5RSl9GRlE?oc=5",
-      "snippet": "finance.biggo.com",
-      "published": "2026-10-15T18:18:00+00:00"
-    },
-    {
-      "n": 20,
-      "title": "Penske Automotive Group To Be Taken Private By Penske Corporation And Mitsui In $16.3 Billion Deal",
-      "source": "Pulse 2.0",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaEphM1lMSlVLQzhaUU11VHR3b0hRa1EyYmZicWVLRVBqckRBcDB1UmdMNWxxdTZBczdNZXlaZjgxOTBUeDhiTUc0ejVlRFh4MTktbGo4anhOUzU4Uk1oTVdORS1qNFRScHAyNHpkek1hOUdzUE14Y0FSa1NjeF9uUWI4VUtkMFhETW5oUF9QdnR5V04xU3Bjc3p1TV9uX1JNR1l1bWYzeHpJdXBieGcxREV6b0M3aGNY?oc=5",
-      "snippet": "Pulse 2.0",
-      "published": "2026-10-15T11:49:46+00:00"
-    },
-    {
-      "n": 21,
-      "title": "Penske Automotive Group Announces Agreement to be Taken Private by Penske Corporation and Mitsui & Co.",
-      "source": "PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeDBYeFBlamFnTm1ycldfcEdFWDJxSE1YQ09qSXgyTkhCWGwyQjFJNkZZQUpGLWQtV2FCUWVoYkFmdzg5eTlHZS0yR1VpNV9rVDNqbmlwTjBkbXlULXRtXzZRb1g0c3BXTWFYNDVYVktZRUhULS1TX3BnLVNjRmVXY0ozY3pWcWtwa0tNNFNzVmM3UFJuUXcxRUwxcWZ2VW8tUEVEajg4bUNRZzVfTXRHX19EdE5jZE9ycUhwQVZDOWhOTE1BMERPaVRpNVhadUZXWHNtN09qM2x5M2Rfc2ZiY1pwMmJKMndSbXBZQg?oc=5",
-      "snippet": "PR Newswire",
-      "published": "2026-10-15T10:50:00+00:00"
-    },
-    {
-      "n": 22,
-      "title": "Iveco shareholders approve Tata Motors' takeover bid; acceptance threshold cut to 80 pc",
-      "source": "The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOazk0Z290SzNZSUZiSm1tOVRlbWtVVzJhbllDWVF1MDlPREg1eEZpSGxHcDdfblNuWXNqaWM4cFp3VmJjM2k0QV9EZjliem80UUZDTm1GSWZwN0ROWmt3b3FCTmlRcjRBTmpJdUc5SGF0Y1hmUnhFSENKU0hja0hIbHh5cE8yT3lYNDBQME5QTWg3Nk91d2MwdWJzS2VwR3FjWlh0MVYtODRjdE0zY1ZDbmRlZldTaExsTnBFR29vZ0lLdHE2Yzlld3laeFhGRHhlYmRsNWRoT3VVelBDR3lTSWtoQ3ZXbkdPMkRkWDFZUmZ4MW_SAfgBQVVfeXFMTW1wa3NPc25VdmxVS2FUTGc3SndIbjhQR1ZORkl5SmNRSHFWbXFvQ1k5YVJrb1EzZU9SaVppUFNLU2Z6OUY0TnRXN3NwaF96UllTUkl0M0VhRm9DendCaGpmd0MzU0ZuNzF0QjFFMDRyOWgzLVhDelJVWnoxQ0R4NUhHb2hkdFFFZkd6VWpVYmFORzFMdnZaMFlvMTNPTGZhQWUwaVJHeDBCeDhBZEZZdGVQdktweWNNZ1Z6bkJpS29LTTNxYnNVY3RVVXl5ZHhsUDRfYVozdlBVenBIYVI4M25NNThDSWNBWDlnOU5SakdUZkVRUXkxb1c?oc=5",
-      "snippet": "The Economic Times",
-      "published": "2026-10-16T13:53:05+00:00"
-    },
-    {
-      "n": 23,
-      "title": "Iveco shareholders approve resolutions paving way for Tata Motors acquisition and delisting",
-      "source": "Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNkZvMDFHa1hxZHBiWEw2NkJ4ejJMdDJTcDhEVUlUZWRBZllBY1VJYlNaVXlpeDQ5QlFtbmxLaHdvNThhUUJXSGVvaU0zSzQ1LUZLallDSGRjcS1fU0VNaWpUSFNkM0h6YWRxT2UxWjVhMnFsc1AwQ3d4Y2RxdHhPMmZ0Z1VtWTJMMEZ2RXhrdy1XQzcyZG9FWDRHcUI4T1ZGLThNOExicFoxbENobkZUT3ozdmdhYlNhR3BCbW9QdllfUHhaX3pLYVVLcy1xS0dIcDZVU1hfaDBjNjF1WTgzMXNyX3VmVEdDbER5bXlR0gHuAUFVX3lxTE82Rm8wMUdrWHFkcGJYTDY2Qnh6Mkx0MlNwOERVSVRlZEFmWUFjVUliU1pVeWl4NDlCUW1ubEtod281OGFRQldIZW9pTTNLNDUtRktqWUNIZGNxLV9TRU1palRIU2QzSHphZHFPZTFaNWEycWxzUDBDd3hjZHF0eE8yZnRnVW1ZMkwwRnZFeGt3LVdDNzJkb0VYNEdxQjhPVkYtOE04TGJwWjFsQ2huRlRPejN2Z2FiU2FHcEJtb1B2WV9QeFpfekthVUtzLXFLR0hwNlVTWF9oMGM2MXVZODMxc3JfdWZUR0NsRHlteVE?oc=5",
-      "snippet": "Moneycontrol.com",
-      "published": "2026-10-16T12:42:47+00:00"
-    },
-    {
-      "n": 24,
-      "title": "Tata Motors raises Iveco takeover offer to €14.40 per share",
-      "source": "BusinessLine",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnd0RFlEYlJQdTNXMnBKbkNLYXNTN0NuckNzRHBONHlUS2JEUnhUSk14R2JtVXA4dFlkei11UXpZbGU3eTVpUEZtNG1JZFZKODN3MzZnZ19adThITEhrN1dLVDc2V05keURTeDh0X2ItNFFzaW1XbmFzUHN4TlRpSlhHUzJMRWFsS0szWE5URnlEMFpLZnlLdWZZZGJYaGtzOXBIZ29sYWFPTTIyWTN0NEVRVmV3UEdEMmQyeXo1cnZxd9IByAFBVV95cUxOY0xmU3hqa1p0RkZMNVBoLVA4NTNoM24xUEpNZkE5V2tSU3ZEUzFkX3M3empJTUM3eEY5bE9BMF9fTlJ3NXRQdUhGMU5nVzlleDJzS1hQZXdTLXppR2dOQ3hZQUJkbFBMY3prdXpzOW55VVhRVUw0bm5XbTBIX2ZfeHJGRTJNLUE2bG5pTDNkakduNGlmX09UYkEtNFhqVkYza0dWR2duR0JDeTd0NS1HNnJXY1VodUJBY1p5UUZnbzdiNlpGeHFKdg?oc=5",
-      "snippet": "BusinessLine",
-      "published": "2026-10-16T05:57:33+00:00"
-    },
-    {
-      "n": 25,
-      "title": "Shareholder resistance complicates Iveco acquisition as Tata Motors raises its offer",
-      "source": "Magyarbusz [Info]",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdUhIQVdJd3JCMEJ2UWVpaDkybjFBN0V6Qzg3VjBrbU01MUM0a0laX0l2ZkxMV0NNRlpGck9QZmwzUXRrWEFybWt4Q01FUGszb2tha0N5UzF4TGp1XzdrVnRlUFFWRU9wVEVDb1hKZW5ZS3NSSm5PbnZmaUh0Sk9sNGYzQ3dEMm1wQ1lZeGtjN0N0eTJFMHdkbmdBY3o5QW56aGh3V1NWU1dXY3pDSGpkOWNvcDJqOE1MUjYtUkQtR2U?oc=5",
-      "snippet": "Magyarbusz [Info]",
-      "published": "2026-10-13T15:17:27+00:00"
-    },
-    {
-      "n": 26,
-      "title": "Aurora Cannabis board rebuffs Curaleaf takeover again, welcomes other bids",
-      "source": "MJBizDaily",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUDlkZVN3ZDNBUzE1bmw2b3l2UG5lT2tFYzVoS3RjWmRqNlRIdHlfbGNrWEM3eVpEMlF5TUJnUFNnRWJaNnpzckRtX0NUNEs3QVFPTUVpYjBsV3Y2NjFEaURZVjJfWGN4Y3BJbWg1MmtPTmt2c05LYXp3cGVpYVl1alZITmYyXy1qZ1dORVFrcTRMSjVxS1Rsd1VMVElMWnJ2VzVNcXByWW1Dbm13bUE?oc=5",
-      "snippet": "MJBizDaily",
-      "published": "2026-10-15T20:30:52+00:00"
-    },
-    {
-      "n": 27,
-      "title": "Aurora Cannabis Reaffirms Recommendation to Shareholders to Reject Curaleaf's Revised Hostile Bid",
-      "source": "Cannabis Business Times",
-      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPc2pFbjVYWG5BdGVkRkh5Z1gyQmMta181el9QVzZfeS1weFY1d1hGWEYzVU5Edzl5RHNQekJxakVBZTFKazRPdWFyUnJZeFZXN2Nwb1MxSGt1MlB0aXN6UWJwYmRmTHJjMU4xcG1QNVlpMjJoZE1MNkdXSV9jUy1UQXFLTW9tWG9hVnBrVVpUMV9iODJrYTE0M0VxT1hLLWQwazFjUXdGOVNJZC1CR3FEYWl0ZDUxbllHc3dtY0RGbEY4RTc0VWQtQl9NYmxBbUUxQnY3WFowWVJVX3ZUVTZBSk1EYmxRWThrcW50SnRrODhLNWpwSUNzZ1ZSbzFYQnZORjRnUjRxN1FwSWd6cWM5Y0dQUGdpVnhYaHNuZmhqUkFGT2R0SWpB?oc=5",
-      "snippet": "Cannabis Business Times",
-      "published": "2026-10-15T15:47:15+00:00"
-    },
-    {
-      "n": 28,
-      "title": "Aurora Cannabis explores new deals after rejecting revised Curaleaf offer",
-      "source": "Cannabis News Australia",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdkJzWjgyUHlweTNYaDJBdGJGb3MzSXVDT1Y2dkU4a21XaG13Qk9OZVJCNV82WmdKYXI0Y1B2Rjd2ZWduSlpiVGpUdUpiWUpjMVU4cDhYV1NzOVFlMkpvSW52YlZlc1JVWTRUSUc0b0F2c0QyV3BkUEdCUmVyWk9veFY5SU1maThRdS11SG5TZEdPazNXODdDYmZheU54MjBlQmtVZA?oc=5",
-      "snippet": "Cannabis News Australia",
-      "published": "2026-10-15T15:09:20+00:00"
-    },
-    {
-      "n": 29,
-      "title": "Curaleaf Sweetens the Deal to Acquire Aurora Cannabis by 25%",
-      "source": "Cannabis Equipment News",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU0k4NE5sU0ZlVkZLX2pLSjUtRElmZVVhcWg5U0xodkpmZkRMZ0dlbGE5bkdUZEw5VXhJTHRGckdPMW1PaXhaZjhOS1pJZWVXZmVBY0NYQmNIQ05WX3d1STU1elVzNi1uRXdINHhxSTVLTzhONUpVMHpEOFNxOC1hQnNOVGNXV2xhZ3NtdmY5VjBwSlBybjZNLVJFUF9IN2VGV05yS2JSa3Y5QzZmb2N3angxN3QxMEU?oc=5",
-      "snippet": "Cannabis Equipment News",
-      "published": "2026-10-05T19:45:24+00:00"
-    },
-    {
-      "n": 30,
       "title": "Curaleaf Enhances Offer to Acquire Aurora Cannabis in Takeover Bid",
       "source": "Cannabis Business Times",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOElmb2E0Smx1dG5JNDI3UWVEbThSRlJlY0NmVllnUTFOaTlNQktUamlZOVNhRFBoYmplc0pWTURsRTNTajhnSWVkNEcweGhzLTN6UFZ3RkJJdno0NU5pN2wxWVdHUWdFYnpGS0NMWXVXS0lnX2U5SnhOSnJTYy1DSU1lU0ZUMDNTS1c0VDdNclVFS0JVTFhSdnNuMmlnTFpaU2RSVEVmSlBLdW1wOXBZTVZKUVRveW5ZTkt3RFhqMWxxTk5Db0J6WkpKcm1CT3hjc0hTekxmRmo5QUJJUzRCY2lkcXplQmtjWHFuY2dLMy1iUHhvQTdrY0EwOFlFTFE?oc=5",
@@ -617,7 +399,15 @@
       "published": "2026-10-05T23:33:23+00:00"
     },
     {
-      "n": 31,
+      "n": 15,
+      "title": "Curaleaf Sweetens the Deal to Acquire Aurora Cannabis by 25%",
+      "source": "Cannabis Equipment News",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU0k4NE5sU0ZlVkZLX2pLSjUtRElmZVVhcWg5U0xodkpmZkRMZ0dlbGE5bkdUZEw5VXhJTHRGckdPMW1PaXhaZjhOS1pJZWVXZmVBY0NYQmNIQ05WX3d1STU1elVzNi1uRXdINHhxSTVLTzhONUpVMHpEOFNxOC1hQnNOVGNXV2xhZ3NtdmY5VjBwSlBybjZNLVJFUF9IN2VGV05yS2JSa3Y5QzZmb2N3angxN3QxMEU?oc=5",
+      "snippet": "Cannabis Equipment News",
+      "published": "2026-10-05T19:45:24+00:00"
+    },
+    {
+      "n": 16,
       "title": "Curaleaf Improves Takeover Offer For Aurora Cannabis",
       "source": "Baystreet.ca",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3ak5DZEtfS250YlhwQmVsODBaUGxXczBFMk9fR0hOUFJYRmhLTGRpVjVMTm5LeWVMMXVKbTZnbEl0OTZmbWpQTGZNTkJRUjRXVUxITVpHbTJZRUhoMUZQdFF6b3lpem5EQUxsZFZxMWtLYTNCWGNfd0UyZ3FXQdIBfkFVX3lxTFA3ak5DZEtfS250YlhwQmVsODBaUGxXczBFMk9fR0hOUFJYRmhLTGRpVjVMTm5LeWVMMXVKbTZnbEl0OTZmbWpQTGZNTkJRUjRXVUxITVpHbTJZRUhoMUZQdFF6b3lpem5EQUxsZFZxMWtLYTNCWGNfd0UyZ3FXQQ?oc=5",
@@ -625,15 +415,7 @@
       "published": "2026-10-06T14:06:43+00:00"
     },
     {
-      "n": 32,
-      "title": "Curaleaf Sweetens Aurora Cannabis Takeover Bid to $5 a Share",
-      "source": "nai500.com",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGVfRlZxTkFBWlhuTUlRZnhQS2FrYXpKSGZkalZEZnhZbFNTWkRHR2hHdlVHcHFHRlJMRE10ODJqWWRTeUVXM3dQQ1Y2LS0zWkZybXFkd2xpbXY3b1FwTndtM2FySmxucVJWcHhYTzVHQmpmdUczelpVVlJPNnk3dVlxX2g3Y2I5VmNqT0w3eGJHM3BGVzJB?oc=5",
-      "snippet": "nai500.com",
-      "published": "2026-10-06T00:48:09+00:00"
-    },
-    {
-      "n": 33,
+      "n": 17,
       "title": "Curaleaf raises Aurora Cannabis takeover bid to $5 per share",
       "source": "Investing.com",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQTRVbDRXVHZUcEY1TFJrUkZELTJEQVl1TkNBdkhjV0I2MDFoR0pPaUdaSXZBQUdNRDRVeWZUbUdXY2tKUlhfRzdkQnRrT0p0aGMzTUdXaUhmRnhwVUNZYmF2ZlpEejVnbEdQMUg3b3dCVzJWOWpFZ2tSOWtsUFZWdEVDeVdLZ08yU1ZxR0NwZFNKcHZsM1dybTh3WVZ0RnpudTdWZ1BmQi1ZdGhkMHRpZ0tKeHRSQUU?oc=5",
@@ -641,7 +423,15 @@
       "published": "2026-10-05T13:55:30+00:00"
     },
     {
-      "n": 34,
+      "n": 18,
+      "title": "Curaleaf Sweetens Aurora Cannabis Takeover Bid to $5 a Share",
+      "source": "nai500.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGVfRlZxTkFBWlhuTUlRZnhQS2FrYXpKSGZkalZEZnhZbFNTWkRHR2hHdlVHcHFHRlJMRE10ODJqWWRTeUVXM3dQQ1Y2LS0zWkZybXFkd2xpbXY3b1FwTndtM2FySmxucVJWcHhYTzVHQmpmdUczelpVVlJPNnk3dVlxX2g3Y2I5VmNqT0w3eGJHM3BGVzJB?oc=5",
+      "snippet": "nai500.com",
+      "published": "2026-10-06T00:48:09+00:00"
+    },
+    {
+      "n": 19,
       "title": "Curaleaf Revises Takeover Bid for Aurora Cannabis (ACB) with $5.",
       "source": "GuruFocus",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUVVXR0l1QVEzNWZYSm5jeWFZazJrYWhfOV9ITElBRDljOWRoMjZIM2ZXekVXQUhoQ0VjMk8wQmRHVW5kbE8xNUs5ei1UQ1U1czh6eGNxV2Njbkp5LXcybE8xLS13WGd2STdaSE5BUHFMMGNBZ0t1NTNUaE9iUzQ2QWNTWFZHR0owOFdVaXNNazVxUGdXWmt1bUNfVDd6YUl6UnNtdTZ4cTZ1a2lIUW1wRmFnb3BFaDFN?oc=5",
@@ -649,164 +439,180 @@
       "published": "2026-10-06T21:06:02+00:00"
     },
     {
+      "n": 20,
+      "title": "Albertsons and Kroger are set for trial over failed merger deal",
+      "source": "Quartz",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5UNndGbWh2REk3OWtWaUhHMDFRbWEzZXpjWUx4UWpZa2t6WXNiQy1sQXJTWFFEdF9JWnRMMTBsYko2bVpNYkJELVdtTFhaa25Ca29nQW9CQ3RTNWw3dl92c1g2TEdwQVBWMFJ6U05mQUwwZ1BpS3c?oc=5",
+      "snippet": "Quartz",
+      "published": "2026-10-19T11:22:30+00:00"
+    },
+    {
+      "n": 21,
+      "title": "Albertsons begins its $8 billion trial against Kroger over failed merger",
+      "source": "WTVB",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR2cxWWVxTTd5aXdoQUVQVThSa3ZXQjdVLTh0SnR6Q3E1X1AxSHQxdVNSeWRnR2huZGNSM1hIRC02TWV5ZmtRYV9iTGJxSE0xc1AtUnM0X0trRDgxeE1MRDZaX2VuSHRDblJBSjhDYnk2cmV4Y0hBaVFWR3JRdzdsaXJkQkVuMDVSMWlYSVk5U08xVDdoVHN2Z2ZRSGd2S25JT2kycQ?oc=5",
+      "snippet": "WTVB",
+      "published": "2026-10-19T10:31:12+00:00"
+    },
+    {
+      "n": 22,
+      "title": "Albertsons Seeks More Than $9 Billion From Kroger Over Failed Merger",
+      "source": "SuaraGarut.ID",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DcVdCTnJDT0JJZXF2cTZJTmdIUm5WaUxYbWxQdlB0dXVOVUZweVFuaTU2NDZCR3NsWWlfd3p2cTJoekpxRElKanhqY3FvVWxWYzZWd0JwSXg0YnhnRzZfSjBRNkF4NlNj?oc=5",
+      "snippet": "SuaraGarut.ID",
+      "published": "2026-10-12T19:32:00+00:00"
+    },
+    {
+      "n": 23,
+      "title": "Albertsons seeks more than $8B from Kroger over failed merger",
+      "source": "Cincinnati Enquirer",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd2dnN280OUUtYUhQYnpQaWFlVkdrLVJOMlpSOW5DVlIyaDdpRU5Ib3NlWXN3R3FFd0NCdGlVN041YVpKaE94dmZBdWFGN09YeE1wU2tNR1o4TkEzN0ZBTWx1M2dqaEhVdGZvWk5YanBsME5oU2RqaGs5VnM3YTBGc2tURWJCWWxHY21MZHItcEZJQ0poZjZabmlydHVGQXFHTUs0NE5JUm1BZHZtTzkxMzBTMXlNd1VTblFydW4zQ2IwY1pnVlNF?oc=5",
+      "snippet": "Cincinnati Enquirer",
+      "published": "2026-10-13T17:24:00+00:00"
+    },
+    {
+      "n": 24,
+      "title": "Albertsons seeks more than $8B from Kroger over failed merger",
+      "source": "Lexington Herald Leader",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xRmVjcGZ4UUtTTzhicjQtd0xkU3I2NlpNcDVOVXZ3N05iX2hyUWJkREdxQmVZSlpmTkhNbFVGM1F1UzV2a0o5a3pHS2VtZ2hxbFo5ZnFXVHRFajBfeDdRZS02Wlk4VlVaN2IzNkhGeHVIQmpNc3JOcEdhdVFaQQ?oc=5",
+      "snippet": "Lexington Herald Leader",
+      "published": "2026-10-13T11:27:00+00:00"
+    },
+    {
+      "n": 25,
+      "title": "Albertsons is demanding $9.3 billion from Kroger over failed merger",
+      "source": "Quartz",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fOXRXYzhqaE9WYXVwNjFJa0xzVnF1Y1dfcWhzSTJwaUIwWTFTMjJXbUFGMDh2c0NtdW9hM2tNNlM1b1FGZ2tpZllfYjVPUGc4RUhzdmswb2dBV0pYSzcxQng4UXdhbWlHWEQtT1RGcElGZw?oc=5",
+      "snippet": "Quartz",
+      "published": "2026-10-12T17:27:41+00:00"
+    },
+    {
+      "n": 26,
+      "title": "Albertsons Seeks $9.3 Billion From Kroger as Failed Grocery Merger Heads to Trial",
+      "source": "PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMTBsQTRIV2d5ak5IWWZveE1ub01lNzdJQnA1bXY1Q19TNDUtaTZlV2p5VnluTVVvcFVIeHAzUUNvb19iWnBja3pnTzBmY2NDbTFHSF9EUTVuSGd4STZjQk96RUlRVVVOWjRiakxXN1lVaGhmc2RlSHNKNGg5aUhDWXRpQlliUEZwTjd2R0RzTFlRVzJyOXVKa01fa05pQTZnN2Jsa3lWelBob2pTd1NsRzVXZF8?oc=5",
+      "snippet": "PYMNTS.com",
+      "published": "2026-10-12T20:19:31+00:00"
+    },
+    {
+      "n": 27,
+      "title": "Albertsons demanding $8M from Kroger over failed merger",
+      "source": "Drug Store News",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZmMxTVJiWEJ2V1JaYUNqVlhxQzlKQVJueEhXbVpxTGpqWk9UTk01ekVzanpOU3lJQ3NDc3ZNdHRXbGh4dG1ZVEVSY3lDLUJPcjQ5UXgxWEJiTGJYOTlSUzlyZ280cTl4VjY1cXRINk9rd2F2UDkxa3FpakxzZzlZZg?oc=5",
+      "snippet": "Drug Store News",
+      "published": "2026-10-14T15:31:44+00:00"
+    },
+    {
+      "n": 28,
+      "title": "Exclusive-DXC in advanced talks to sell insurance software unit for $2.4 billion, sources say",
+      "source": "WSAU",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMlF6a2F0cTBLamNzbTBXOE5lN2lRckRDU0tmZC1TLTdhNE43Z2xmUGtNQmVXM0R6aHduUmhRNUozeUdvQUR6MEpmdzZxUnlXZFZjSHphLTREOGFHakFqVU1QdlVvYW9XMlZoU182eDNPYzZaUnNXbVJrcnRGdEVTbW5LN2F4b0d0aDRmc3V3M3lXOTFsSjAxMkpBcDE0czhWcE15REFQbnp1OGdhdDV2TVVtSWdzdm4tQjUzeQ?oc=5",
+      "snippet": "WSAU",
+      "published": "2026-10-19T17:19:47+00:00"
+    },
+    {
+      "n": 29,
+      "title": "Beazer Homes Stockholders Approve Proposed Dream Finders Homes Acquisition",
+      "source": "Builder Magazine",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMzQ0QTN0OGU5QjRpb0dTZExFbmtWeXlaVmFfWDVLb3ZjUjNpemhJMmpnR1g1TVZkWGZVRzFQZmg4NVByMnBieDE3RUQwVFQ5NVF5bGpJbUpYMGJSVXNoX0VYSGN3OFBRcHZlRjQzeHRtRm1SUGtReXlpZ0ZtbndQU2FSeXNTMlVPTzZwSTFHVU54VjZFMS1lZHdkWlJObS1KQ2NTelJYbEkydXM2UUZpc2piQlU?oc=5",
+      "snippet": "Builder Magazine",
+      "published": "2026-10-19T14:39:22+00:00"
+    },
+    {
+      "n": 30,
+      "title": "Beazer Homes USA (BZH) Shareholders Approve $2.2 Billion Acquisi",
+      "source": "GuruFocus",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDA3ZHozQmhfaGllQmtSNWNLN291aVdpaGNjbHJFODVNR1N3SGNNbVRjUzdCWE5wZVJETms3MlNBQXJFZUxEajlqa1Fhb1VYM0c3cGhIUlBxdzZ2TjJxRFpDOC1DRmlGOEM1VFZoYzNScEhKVk5jMDl4Q2ZRZG1NMDhhTDFZMmdtci1kcy0yNDB3ZGRDSHdGcEtXRmFucDNiZ1ZNbGlkTTBwbDVsWXphTUM2TGVpc1lmNlB1dzg1QzFDVFgz?oc=5",
+      "snippet": "GuruFocus",
+      "published": "2026-10-15T21:09:42+00:00"
+    },
+    {
+      "n": 31,
+      "title": "Bruton Limited Sets Oct. 30 SGM on INSW Merger",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVjhLRk5jeDh2T1lXQnlPVHR3LV9ZdEwybTBvTTM4Qm9OQlBla2I4R3A2OHMzUmpmNVBQd0o3YnlKTzZRbFU0T3J1Y1FUMnRjUlNEejhrekFnQUVnMkNYckJFbHhzaHpUWEtSd1o1MGxveWxzVVJNZ01XdkVwOEVZb2dDSFM1VlB3ZE04S3hvUi04NTZpT041RW5IeW12MjFDbDhjby1GdDN3TFE?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-19T13:55:00+00:00"
+    },
+    {
+      "n": 32,
+      "title": "Bruton Limited (BRUT) – Agreement to Merge with International Seaways, Inc.",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYVNlRlhibUR6dlIwVEZpaDBNSllTN0dpREJMbkJjSldhM0hzM1QwSlFiRkp3am9helhZSkl5Qzh2MDNNOUxwaE1iYkFneVMza0duRVJpNFZCTEJDRDZHMVpnZURBMzdlS3o0X01MSzNpSzcxc3BBVzJPYlk4VXdkakpmZ19sa1V2czRoTmxRR0tBUzgzUmdnN21kcGNVa1ZKTngtUlJ5VE91WFg2eWtNeHNmVXJrQjhjb3hTdWlwU2RYeHdrMG5iWHMxVHdqY1Rk?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-16T06:30:00+00:00"
+    },
+    {
+      "n": 33,
+      "title": "International Seaways To Acquire Bruton In $370 Million Deal To Expand VLCC Fleet",
+      "source": "Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMFhZdnFSZVN5TGJJN2V6V1YzckFpWVlaclpvYUtscWpJNkp4LTZ2aHNWSUp3eUdTSzQ5OHh5d0JHaTlTMTRMOEo0RmFIbHhBRlp0TEQ5N3FLajFUUGJRbjdGVkJ5M2VJckJ4aktaaHNzemFxZTVNa0RRcjUtaXdnbU1aTVdXSVFJZGR1RW1Xejl1N09JQkVoSFRxV2RTbHpPT0E?oc=5",
+      "snippet": "Pulse 2.0",
+      "published": "2026-10-19T01:15:49+00:00"
+    },
+    {
+      "n": 34,
+      "title": "New Mergon CEO targets engineering growth, healthcare expansion",
+      "source": "Plastics News",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdWZUTDlNNWlFWFF6WEpZX3lHLU96Mm9mY2lXdURVX0hHbGZmMkRXenV4YVR2U05KZTI5cWQ1cjlnTWpjQzZQRHZidGFqNGVWbkRzVlNYUGR3elhCZU5DUUdBSk5OTWJDa1ZSWmlwZmhzRXNSR0FZNENUU0E2NEFiUXc1aFRBWnJqQ05uMk1TZUM4N0VidDJscF90LVZjNmhMVUx3SE5B?oc=5",
+      "snippet": "Plastics News",
+      "published": "2026-10-19T16:11:00+00:00"
+    },
+    {
       "n": 35,
-      "title": "CCC Intelligent Solutions Announces Merger Agreement with GTCR and Elliott Affiliates in October 2026",
-      "source": "Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNa1pLX0NYOC1CS09zSTJncWF4SVlwVUVpR0Z1ck90YWtIeEVEOGhYdGtsRE9TdWs3XzRiVHdhcjhuTGx6ZVBDeW1qeG9sNzFVZ1lsbDZIeTdMNk94dWE2SURsUFUxWmpJbFdrNFA4VGFxVmtqZ0o1UjRzbnBQalVndjZQQzNMR04xdG5rX2ppWUhhMGFVcVozVi1MT1JEeWFQazBvVUVweDhuYjlPZWRBZTV3bUQxamRYYWlfb05EbnRHSlppeUxhS19mM3VhWVVkbzhsQkZybzRuOFR2TTlKLVZB?oc=5",
-      "snippet": "Kalkine Media",
-      "published": "2026-10-16T12:04:43+00:00"
+      "title": "Anthropic grants outside evaluator METR employee-level access in AI safety push (Oct 15)",
+      "source": "Central Oregon Daily",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNcmVYMmE0MmY0d3ZmbnMtVDR3VlduTjF6QUsyZ095TGNRTHN4MWxmTkR5WU0wTkRZZi1BellDSnllRWUybDFSSzVob0NWUEx4bDFSZ2FJaWVYVExObm9WdDdrZ1VTVUlhcGFEOHlFcGc0OFE2ZTFCMGluOWRWWXRNQjI3MVktREFGTHNaNlIzUkszM0VNZnBkYmZTdVZiZ1p3THpFWmFtZHdhMDRrcTFXMnNpZ1lYVFM4ZE9MYmZMbzR2S2RXbG81MzBZaGxWNmRIZE5TTlNqZ1d5YjJrTVVWZ1NaS19BbHBXUmNxYW1TX2pPYnhrcEwwcmZZVHBfYmpkdGk1TEp6N1VfdTROaXlWOXRRMA?oc=5",
+      "snippet": "Central Oregon Daily",
+      "published": "2026-10-19T15:34:09+00:00"
     },
     {
       "n": 36,
-      "title": "CCC Intelligent Solutions agrees to $6.1 billion take-private deal with GTCR, Elliott",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQUdNcjdZbmllaVAyMXh0ejFIWWl0NEE4WTlUVWxPT1l6ckw2T01aT0VZLUZfMHJHV0E1cF9jandEV1p4djJWa0t6cHJaVnhqUGNHRTNvZE1kQk9vZ2xWaG4tZDZOaVMxOXlkLWxxU3dhZDViTmltNXp2UldwdF9sX3U0NFNDR3pIMDd5M3RUc05OVk1VRnY0MlJ0bXVBNUZQMDZkWGR5bURMOTZkaDNocHZTdHk?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-15T21:50:23+00:00"
+      "title": "J-Star Holding Advances U.S. Drone Manufacturing Plans With Houston Facility Acquisition Negotiations",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWlJkVUlpczJ1ZmtBWGFjT3hUNnNEcmhOVk53MWlabnlLcFl0TXlCLTluTVloQUNucHBoWEs1eGFEWUVvTE8wTjQzTTdFVGZFa2hkX3JKUGxqSlFuWXJpV0tpTmtsY2FVTXZ2cnhkZElLNUw1SzN5LVEtcXE3SGs5T2lCREZiRFprWVRBMW9EQQ?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-19T15:24:53+00:00"
     },
     {
       "n": 37,
-      "title": "GTCR, Elliott Near Deal to Acquire CCC Intelligent Solutions as Shares Jump 13%",
-      "source": "Tekedia",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOelAzSDVrMEl3d21xNzQ2UTNwMHdnNUUtcGVFM1lSRFhHSU1MZzNtaFFQekUxUHhFZmw4VV84WURKYzFuU1V5OGdZYi0wLTRua0ZDdTA1aThsdnB2blM5dzdmUFdhRDZGVkQ0R1ZmQmIzM2NvLWR0VHZ3dEU2S2NXLWU0enowX3plUkJXVEdKSTgwbGkwNDRrR3drby1qZlR1aHNTbQ?oc=5",
-      "snippet": "Tekedia",
-      "published": "2026-10-11T08:34:59+00:00"
+      "title": "Tving-Wavve merger stalls as streaming rivals surge ahead",
+      "source": "Korea JoongAng Daily",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQld2N1htWmt2b2ozQ1JScFBEa24tR0thQWlrV1BuRmpSUmJ2a0xwVG51OVl2cW1hQ0NIRjAzNXNVM2lGTnFFWlRQLWpJS1diNGxtQlE2c3E2dVhlM045bTVSbWVBaFYyeGw5REVTY2dTd2p3THQxNDFZS1VqOU1mR1BPa01fWVdKMnZDWWJtZ1BJOWpwVkM0dWYxVWxjdC15Zk56ZmRsRFhaUQ?oc=5",
+      "snippet": "Korea JoongAng Daily",
+      "published": "2026-10-19T15:04:49+00:00"
     },
     {
       "n": 38,
-      "title": "GTCR And Elliott Circle CCC Intelligent Solutions Deal",
-      "source": "Finimize",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX0I2d2VCMm9GTWVOZGU2dERRV2V1azFGTUVyRjZ1Q1Jvc2g4VnlEYUpBQWcwbno1US1BaUZfVExxcHRZdWxCTWtFSTVkOWNaTjlIbDdSb3UyamJhWmd2eFkzUUNuVXZ5Zm1rN2hEbUQwNkRLMVVzWmNvdkRIYk1saDBRZUEzZjhvQVVv?oc=5",
-      "snippet": "Finimize",
-      "published": "2026-10-10T07:42:13+00:00"
+      "title": "Private Take: Private equity’s unwritten track record",
+      "source": "Private Equity International | PEI",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVVpXcTRTQmtlOGlkQkdWY2l0bi1SZ1hHWjhFc19BeTBpUXRLbGhPRFZzMW8ybXFLd2dmRVlYLVJIWW1ZSEdNOVpyRFZieXJaWV9LZ3VaQl94SWpGS0NsS0FTMTFYVEpwSkpyWUxWY212dnNENEViU0hRWGtWWWVjOXdWeGIwZVhsbjM0S0FSWFUyVU05UGhNZFRlcw?oc=5",
+      "snippet": "Private Equity International | PEI",
+      "published": "2026-10-19T14:53:51+00:00"
     },
     {
       "n": 39,
-      "title": "M&A: Williams Agrees to Buy Momentum Midstream for $5.5 Billion",
-      "source": "EnergyNow.com",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaHh5Rkhxdmw3U0lqSFJyQll3NTRmR1gzR2J6M2pxeHhCckRCOWlsdWdHRHdCRDlUZHk2bURFb3RiVXhWOVF0el93andESkVKUkVfZ2V4SUE2QXg0bVdOakxsWWJPRVY3Vkc3dnlzT0FHWGdBaVVrVmJ4VEdFWWFTNXpZb0xVQVhicVl6ZnY4LXRHZw?oc=5",
-      "snippet": "EnergyNow.com",
-      "published": "2026-10-15T23:06:24+00:00"
+      "title": "Green Rise Foods to go private in C$20.5M insider buyout",
+      "source": "Dealroom",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWHBoM3Vja0dTVHNoYUNXQm9kTGpnam5nc1M3Nk9wc0E5d3RpVjJTbVNBeTlkLUpfWVktbC1XRzFYR2hzaTAzX2ktRE5hdmlQOGdCQ2xieTBXU1NscFppRDNPRmRHZElKNHRpT2dMU0w3RUdfUW1ub0VtTFgzakN4TjRUSlhNX2lZVzJzclpUWXpXNHBq?oc=5",
+      "snippet": "Dealroom",
+      "published": "2026-10-19T14:14:24+00:00"
     },
     {
       "n": 40,
-      "title": "IN TALKS: Williams in Talks on $5.5 Billion Deal for Momentum Midstream – Report",
-      "source": "EnergyNow.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSHpBam9nR19ndUxwZi1NSFo3LU5FSWNMc2MxenRSR05WY0hhWEVVcENMU2lzemUydDhtM0pXVS1vVVQyWV9hUldzWVgtR2dlQ2M3MEJCaVRJUDVsRmJrX2daVENPUVdpVnpJWE02WDRQRVRJR0t2MEwwN202dTFhMElxOXB1YXlxZkxSZnlRZnU1alRLdS1OOFhFN3FKS2Y5cWpWRjdJbU56TGc?oc=5",
-      "snippet": "EnergyNow.com",
-      "published": "2026-10-15T22:48:39+00:00"
+      "title": "The PA to buy RAS Technology in A$49.8m racing data deal",
+      "source": "European Gaming",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZkpoTFZmTk55emRtYVhzZldsYnNPTnZmU1RpNnlDWUFQdDZPZmZ3NHk4UUdUdkNHYnJOMVA2X0VFTlVoOTFMc2xtN2RONllaTi11elN2Rk0xTWgwaGdIUWk3WC1TVEQxdDltN2NzSDFpbXBiLW9LZm5RMXk5dDFhYVhQRHVIUHZDM3FOdXJxeHpaVG16ckUzOA?oc=5",
+      "snippet": "European Gaming",
+      "published": "2026-10-19T13:54:04+00:00"
     },
     {
       "n": 41,
-      "title": "AkzoNobel, Axalta Propose Remedies for EU Approval of $25B Merger Deal",
-      "source": "Global Banking & Finance Review",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZmJOdWNkNXVLV2VCX0dSX1duV1owcXFpRzY5elFfWEtWTkx5SEtnUUlpckl2cHNmVGRDbXRVVGhhQmRrSVRtOTNXS0RlOWtFT01QS2hiem9zSnE3TmFfY1R5WFVQc2c2SHBNT0VHX2ZoaENpeDZWY0N3ZlZQSWhQSDdzaDJSUjNpM0doQzNoQktUd3BVNXB0QzJjY2VIQ2lI?oc=5",
-      "snippet": "Global Banking & Finance Review",
-      "published": "2026-10-16T14:03:19+00:00"
-    },
-    {
-      "n": 42,
-      "title": "CPI | AkzoNobel, Axalta Near EU Approval for $25 Billion Merger",
-      "source": "PYMNTS.com",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdDVuRzBHUjdDNzIzNWtKQnlPalAwaTI2NDFOVm1nT2pqM0RCVVRucUxlUFJPMXo4MS1yR285VkZob01YTlpkaGFwaldRd1Z1ZjA4MW1UaFpRU1RlTDV5S2JuZ0ttcUVWLWlucWdBNlNPMFhDLWJqbzMxRzNGUXJFNmptb1lBVEdROHdDbjk5Y2hWV2s?oc=5",
-      "snippet": "PYMNTS.com",
-      "published": "2026-10-08T18:46:29+00:00"
-    },
-    {
-      "n": 43,
-      "title": "AkzoNobel and Axalta to be called Axanzo following merger",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdnVxZ3dCV1ZEcnZTS1BySWR3RTBSS1BfLXBOTTVOOW1WTjNPdkhGcFg2SzNnOU9QMDBZaFRZLUZlWGJ4eHplUkR3UHAzWW80XzMtLXBXNmxVeGs1cDVtQ3FSaTliOXFXZkRub0tJNDZNaW0wOWlBZzE1NWlpNEJ5OFFCTnplNGtoR1Y0MVpacERCVmdrUHB5OVRuRkhGU0xyNVpRLXBsenA?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-15T14:00:00+00:00"
-    },
-    {
-      "n": 44,
-      "title": "AkzoNobel & Axalta to be Called Axanzo Post-Merger",
-      "source": "Coatings World",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOGZUR1RpZDN1Yk40a1hyTWZtMVpSTFN2cnVFbXNtbjdnYlRxUzZLZFNhZTNycHA5ekotNDFEN0xtQldmY1U5eGszZWFQX0ZhTkV5bE96VHVweUk5N3RJYUF1T3ZHLTQ5Y1hGTlo5ZklZZC1WVmZiOHRoTjIwYVk5VmlVdS1WcWpWbThtSWJzcXBCNUdscmQ5Zw?oc=5",
-      "snippet": "Coatings World",
-      "published": "2026-10-15T14:24:04+00:00"
-    },
-    {
-      "n": 45,
-      "title": "AkzoNobel, Axalta set to win EU antitrust nod for $25 billion deal, sources say",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOXhNTjhLSmI1NTZVMGszNVhsdXFqSVFET190Ym5DTUVHbW82d2VOMHpIRG1ubzdSX2xnWkxBTHA0VmRFN1dXVWZlV0dKbW5FejdxNlc0NWtSVUlHZ3hNazAtcFdWb0xoZHJ4YUc0SVhNWDJuazB0Z0ROdkJGQUlsU3FGbm54bm04aUUwVmJDSjBFVDcxWGJiUlNUb1dGV2xHRUxuY0FYMW5ycDNtSm5qWGQ1SUZpZDdYOHc?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-08T18:48:04+00:00"
-    },
-    {
-      "n": 46,
-      "title": "Conditional EU antitrust approval expected for AkzoNobel, Axalta deal, sources say",
-      "source": "Global Banking & Finance Review",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUXBzMUpKTE11bW43ZnJnMV9PdUVpZmFPVmJiUlR3RnJtbjM0a09aZU9BUEpCOG84X01Dajh2czBTdFdPOUo1SVdLSU9LMHg1cWNqMHlIQnp5TFRjRmNyNzR2M1FwVS01UlBNVmFaci1nenl2SnFicGNFSHpTR0pKdDlaNEl6N2hSdzZfamNENU9fVDVlUG5nckJ5T21GOTVId3c?oc=5",
-      "snippet": "Global Banking & Finance Review",
-      "published": "2026-10-08T14:03:51+00:00"
-    },
-    {
-      "n": 47,
-      "title": "Schneider’s $23.6bn bid for PTC faces investor scepticism",
-      "source": "TheBanker.com",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE91Q0dleXdzSVhEdGN0ZWc4ZTZqUk1LTGhOWllMeXoxcnpDRGRiX3k2NFc2OXFiclBsQ0lmNU1YcXhrQi04d3JSM1hGTEx0WTRHcTRzNmN3cXVvTzNiTHkxMnpDVzk4SWR5Tmltc2t2aFNNVXp6RlA5c29B?oc=5",
-      "snippet": "TheBanker.com",
-      "published": "2026-10-16T13:47:59+00:00"
-    },
-    {
-      "n": 48,
-      "title": "DOJ takes closer look at Patrick-LCI merger",
-      "source": "Plastics News",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcGpVdjlHZXNhbVpkXzhidm5CZTB4eG1CRlJfdThoaXJRWlMwR1hFa3JfNGZfMUNYZGdNcEVpWHY1ZzlidUdQajRYU0pCNDhZMHZPSTAtT2NZaEMtYkszVXlsODdJUlp4VEUxXzkxRXo5UGpaNF83RkF0UWNYN3JIWU91WGQxSTRFaWJZRnl1RUVCY3BCczZUYmJyRzNlVV9DMktj?oc=5",
-      "snippet": "Plastics News",
-      "published": "2026-10-16T13:47:00+00:00"
-    },
-    {
-      "n": 49,
-      "title": "Space Stock Watch: SpaceX Spectrum Deal, Rocket Lab Delays, Tesla Merger Chatter",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTUpkWGhlLWZWQWg1MGprcHozVUNyel9MblZ5ZnhacEV3WGhSeWhCenB4SmlnYUpJWk1aZTd2OTVIQTUzVy1COXh2MWNvMTRFVUN1R0RGMWgtbXUtRjFvYnRFUFJoTE9xMWtiaGFsbEVveUJTN1d1VHBqTkUtNHNISmhMLUlWd29BWS1wYXBvdFB5RkE4Ql9nT3YwbTYwQnVwZ25JZ2IxRHd5aXBlVmNPREZCOXFsRXc0OWNoemFzaDFrUmNEQ3JuRENVeHl4N0tMYWc?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-16T13:41:59+00:00"
-    },
-    {
-      "n": 50,
-      "title": "Copart acquires ACV in $1.9 billion deal",
-      "source": "The Business Journals",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ2N0Y21XcEpBTmRFTmFLQmxjNWJ4cGRlaFJuOFMzZVhUMmVHVk9PWEJlNWE2WGNuM29zYjNXZ05yQ1NEbEl1bE9RUXdmZjl0dkZ0RmdtMjVMYTJxMDdyUFlKVmVuTzNXVUljQnFiX20wTkp3ZzFDZlFLWERQU3V4d1Z3a3ZPalV1MGoxRVBXZXNpQ3F0OGhv?oc=5",
-      "snippet": "The Business Journals",
-      "published": "2026-10-16T13:37:00+00:00"
-    },
-    {
-      "n": 51,
-      "title": "Inteplast Announces Agreement to Acquire Fiberon",
-      "source": "LBM Journal",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRXZ4eE04M0xzTEZBZlBLYlY4aklXd0U5eDZFeXpDZEtKaXIxeS11RUZXVzd2dVRqSHpQbDFtS21WakJueHBRN0cyMlpyUzRYb2w5SzB3ZEx1eFhQakEyVENXczN4QU5NSW9MTFMzZEZNQTJwUk1nRjRhOWVLOFpidEZIM3ExZkV6N2pCUFAxOGt6SEYtYUl3XzJxdEk1cVVXVnB3cy1vTWtjanlpLVVtbVFyX01zQmI3aGZnTFdDV1R5cDUyX3JzbzVyTm9pODBYT21LRlNYbndPOGtoSDNMSVY5VQ?oc=5",
-      "snippet": "LBM Journal",
-      "published": "2026-10-16T13:13:22+00:00"
-    },
-    {
-      "n": 52,
-      "title": "Lundell Plastics acquires Georgia agricultural plastics maker Poly Tech",
-      "source": "Plastics News",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRVo3VDA3Tzlnd2tCemZob2dKamlzU1Y3b2pvUXBkZzFLblR6Sl9CTGpBR2p6WUlXZ0dtalJRM2l6bExQMjI0dXJnbjQtc2s4TFlNRmpVMGtCdHRTVVpXa1FTS18tLWxkakJZd3dlOFktUEw2LUFxV2JlY1JnaTBxS3NVTnJYQkMwV2dIbVlGQWltcXk1M2pEN3I0dGo?oc=5",
-      "snippet": "Plastics News",
-      "published": "2026-10-16T13:11:00+00:00"
-    },
-    {
-      "n": 53,
-      "title": "Odyssey Marine Exploration Advances American Ocean Minerals Merger, Announces 1-for-25 Reverse Stock Split",
-      "source": "citybiz",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQMVRsOFJpLWxGand4SUtBUUhyXzZzWk52eHo3QU03b1IxS2Z4RU5TNHcybjdBVVhyTWFCSUo1dVFNc0loczI2RlIxdkdPem41WXVhQ3U3S21rWVo1VERZN0t2b2ROOFBkcko2bExBdVhlZnl3cGpNSEF3UVNWRnNyM0pmNUFPSHluMmxhX1ZOSU9rVXhuWXgxbUhVQ2VsYkh3aTlRX0xYRFo5Q2cxMlk1dTFPZlpPNHhUMzBSOW5qblZYVGtGb3FrRFBIRmlNWXFSeENvNHBUTnA5N2FK?oc=5",
-      "snippet": "citybiz",
-      "published": "2026-10-16T12:44:46+00:00"
-    },
-    {
-      "n": 54,
-      "title": "Beretta acquires 25 per cent of US firm Ruger: take-up exceeds expectations",
-      "source": "Il Sole 24 ORE",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMTVOUktyaXpILWFZOGxKWXZZTnlwUFR3MGMzNnFWSUY4cU9kX2xlakhyYjdRY1k4U1RYTkhiWEZSMVFHRm1mQWI2d1g0ZGRxMkVzbUpDQmNORmlaeEVEd2dBa016akM1VVlrYm9XdEsyQl9SS0JyTm92akF4LXkybmtraDFkRTlOOEIza2pZM0M5OE8xNU8wSWFXUGxSWGU1czFtTDR3MUs5ZC1YTV9Ga1g4MTB2bGdIeEVBcGRubEZJdw?oc=5",
-      "snippet": "Il Sole 24 ORE",
-      "published": "2026-10-16T12:03:50+00:00"
+      "title": "Exclusive: PE Firm Arlington Capital Partners Takes British Photonics Company Private in £346M Deal",
+      "source": "Tectonic Defense",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdmpPQzVxWHhFYVBMUVNHcWxac3pPTE5ScWFIelgyQ2VPaDdGNHFyMVI0WnpzTjI4dWFGM2g2ZENZb1NTOGRpNlZnZk5fdGROTlNtS2lXUEZxTVV2bGc0QktjcUl6LTdTVERFS3B2OENiRlA0U1VmaGxTRmhINm45YXN1ZDhBRHZxb0tJR19kZF9SYnlhNVp5aXJ2d0M0enhxYW93R3ZwWnB1c1I4YnZDRGNFSEVyNlRkUmt3TWY0eFRRd0RPem1NVE5R?oc=5",
+      "snippet": "Tectonic Defense",
+      "published": "2026-10-19T13:41:08+00:00"
     }
   ],
   "cited": [
@@ -815,18 +621,23 @@
     3,
     4,
     5,
+    6,
+    7,
+    8,
+    9,
     10,
     11,
     12,
     13,
     14,
+    15,
     16,
+    17,
+    18,
     19,
     20,
     21,
     22,
-    23,
-    24,
     25,
     26,
     27,
@@ -835,232 +646,177 @@
     30,
     31,
     32,
-    33,
-    35,
-    36,
-    37,
-    38,
-    39,
-    40,
-    41,
-    42,
-    43,
-    44,
-    45,
-    46,
-    47,
-    48,
-    49
+    33
   ],
   "invalid_citations": [],
-  "example_prompt": "Deal: Proofpoint and Varonis.\nStage: Announced.\n\nHeadlines:\n[1] Entrepreneur India, Oct 16 04:41 AM ET: Proofpoint to Acquire Varonis in USD 6.3 Bn\n    Entrepreneur India\n[2] Cyber Press, Oct 16 04:09 AM ET: Proofpoint Acquires Varonis in $6.3 Billion Deal to Expand AI Security\n    Cyber Press\n[3] Techzine Global, Oct 16 03:31 AM ET: Proofpoint acquires Varonis for 6.3 billion\n    Techzine Global\n[4] CyberSecurityNews, Oct 16 02:53 AM ET: Proofpoint to Acquire Varonis in Massive $6.3 Billion AI Cybersecurity Deal\n    CyberSecurityNews\n[5] TOKENPOST, Oct 16 01:26 AM ET: Proofpoint Agrees to Acquire Varonis in $6.3 Billion Cash Deal\n    TOKENPOST\n[6] Mugglehead Investment Magazine, Oct 16 12:21 AM ET: Proofpoint agrees to buy Varonis for US$6.3B in cash\n    Mugglehead Investment Magazine\n[7] SecurityBrief UK, Oct 15 09:08 PM ET: Proofpoint to buy Varonis in USD $6.3 billion deal\n    SecurityBrief UK\n[8] CTech, Oct 15 05:04 PM ET: Proofpoint to acquire Israeli-founded Varonis in $6.3 billion all-cash deal\n    CTech\n\nWrite the subheading and sentences.",
+  "example_prompt": "Deal: Silgan and Trivium Packaging.\nStage: Announced.\n\nHeadlines:\n[1] Yahoo Finance, Oct 19 10:58 AM ET: Silgan, American Industrial Partners to Acquire Trivium Packaging in $3.4 Billion Deal\n    Yahoo Finance\n[2] Bloomberg.com, Oct 19 10:48 AM ET: Silgan Agrees $3.4 Billion Deal to Acquire Trivium Packaging\n    Bloomberg.com\n[3] Reuters, Oct 19 09:33 AM ET: Packaging firm Silgan and American Industrial to buy Trivium Packaging in $3.4 billion deal\n    Reuters\n[4] Global Banking & Finance Review, Oct 19 07:31 AM ET: Silgan, American Industrial to buy Trivium Packaging in $3.4 bill\n    Global Banking & Finance Review\n[5] Yahoo Finance UK, Oct 19 06:00 AM ET: Silgan Nears $3.4 Billion Purchase of Trivium Packaging\n    Yahoo Finance UK\n\nWrite the subheading and sentences.",
   "retrieval": [
     {
-      "deal": "Proofpoint / Varonis",
-      "query": "Proofpoint Varonis acquisition merger deal",
+      "deal": "Silgan / Trivium Packaging",
+      "query": "Silgan Trivium Packaging acquisition merger deal",
       "hits": [
         {
-          "n": 5,
-          "similarity": 0.831
+          "n": 2,
+          "similarity": 0.881
+        },
+        {
+          "n": 1,
+          "similarity": 0.864
         },
         {
           "n": 3,
-          "similarity": 0.823
+          "similarity": 0.858
         },
         {
-          "n": 2,
-          "similarity": 0.808
+          "n": 5,
+          "similarity": 0.842
         },
         {
           "n": 4,
-          "similarity": 0.804
-        },
+          "similarity": 0.813
+        }
+      ]
+    },
+    {
+      "deal": "Merck KGaA / Silence Therapeutics",
+      "query": "Merck KGaA Silence Therapeutics acquisition merger deal",
+      "hits": [
         {
-          "n": 9,
-          "similarity": 0.794
+          "n": 6,
+          "similarity": 0.882
         },
         {
           "n": 8,
-          "similarity": 0.793
+          "similarity": 0.855
+        },
+        {
+          "n": 9,
+          "similarity": 0.839
         }
       ]
     },
     {
-      "deal": "Cronos / CanAdelaar",
-      "query": "Cronos CanAdelaar acquisition merger deal",
+      "deal": "Systematic Industries / Wire Brigade Industries",
+      "query": "Systematic Industries Wire Brigade Industries acquisition merger deal",
       "hits": [
         {
           "n": 11,
-          "similarity": 0.827
-        },
-        {
-          "n": 14,
-          "similarity": 0.802
-        },
-        {
-          "n": 13,
-          "similarity": 0.783
-        },
-        {
-          "n": 10,
-          "similarity": 0.781
-        },
-        {
-          "n": 12,
-          "similarity": 0.774
-        }
-      ]
-    },
-    {
-      "deal": "Mitsui / Penske Automotive",
-      "query": "Mitsui Penske Automotive acquisition merger deal",
-      "hits": [
-        {
-          "n": 19,
-          "similarity": 0.848
-        },
-        {
-          "n": 16,
-          "similarity": 0.832
-        },
-        {
-          "n": 20,
-          "similarity": 0.825
-        },
-        {
-          "n": 17,
-          "similarity": 0.811
-        },
-        {
-          "n": 21,
-          "similarity": 0.805
-        }
-      ]
-    },
-    {
-      "deal": "Tata Motors / Iveco",
-      "query": "Tata Motors Iveco acquisition merger deal",
-      "hits": [
-        {
-          "n": 24,
-          "similarity": 0.822
-        },
-        {
-          "n": 23,
-          "similarity": 0.809
-        },
-        {
-          "n": 22,
-          "similarity": 0.801
-        },
-        {
-          "n": 25,
-          "similarity": 0.76
-        }
-      ]
-    },
-    {
-      "deal": "Curaleaf / Aurora Cannabis",
-      "query": "Curaleaf Aurora Cannabis acquisition merger deal",
-      "hits": [
-        {
-          "n": 29,
-          "similarity": 0.854
-        },
-        {
-          "n": 30,
-          "similarity": 0.854
-        },
-        {
-          "n": 31,
-          "similarity": 0.834
-        },
-        {
-          "n": 32,
-          "similarity": 0.828
-        },
-        {
-          "n": 33,
-          "similarity": 0.825
-        },
-        {
-          "n": 34,
-          "similarity": 0.819
-        }
-      ]
-    },
-    {
-      "deal": "GTCR and Elliott Affiliates / CCC Intelligent Solutions",
-      "query": "GTCR and Elliott Affiliates CCC Intelligent Solutions acquisition merger deal",
-      "hits": [
-        {
-          "n": 35,
-          "similarity": 0.895
-        },
-        {
-          "n": 37,
-          "similarity": 0.859
-        },
-        {
-          "n": 38,
-          "similarity": 0.843
-        },
-        {
-          "n": 36,
-          "similarity": 0.821
-        }
-      ]
-    },
-    {
-      "deal": "Williams / Momentum Midstream",
-      "query": "Williams Momentum Midstream acquisition merger deal",
-      "hits": [
-        {
-          "n": 39,
           "similarity": 0.85
         },
         {
-          "n": 40,
-          "similarity": 0.825
+          "n": 10,
+          "similarity": 0.835
         }
       ]
     },
     {
-      "deal": "AkzoNobel / Axalta",
-      "query": "AkzoNobel Axalta acquisition merger deal",
+      "deal": "Curaleaf / Aurora",
+      "query": "Curaleaf Aurora acquisition merger deal",
       "hits": [
         {
-          "n": 41,
-          "similarity": 0.845
+          "n": 14,
+          "similarity": 0.795
         },
         {
-          "n": 42,
-          "similarity": 0.824
-        },
-        {
-          "n": 43,
-          "similarity": 0.807
-        },
-        {
-          "n": 44,
-          "similarity": 0.798
-        },
-        {
-          "n": 45,
+          "n": 15,
           "similarity": 0.794
         },
         {
-          "n": 46,
-          "similarity": 0.749
+          "n": 16,
+          "similarity": 0.778
+        },
+        {
+          "n": 17,
+          "similarity": 0.774
+        },
+        {
+          "n": 18,
+          "similarity": 0.77
+        },
+        {
+          "n": 19,
+          "similarity": 0.77
+        }
+      ]
+    },
+    {
+      "deal": "Albertsons / Kroger",
+      "query": "Albertsons Kroger acquisition merger deal",
+      "hits": [
+        {
+          "n": 22,
+          "similarity": 0.817
+        },
+        {
+          "n": 23,
+          "similarity": 0.812
+        },
+        {
+          "n": 24,
+          "similarity": 0.811
+        },
+        {
+          "n": 25,
+          "similarity": 0.808
+        },
+        {
+          "n": 26,
+          "similarity": 0.807
+        },
+        {
+          "n": 27,
+          "similarity": 0.802
+        }
+      ]
+    },
+    {
+      "deal": "DXC / WSAU",
+      "query": "DXC WSAU acquisition merger deal",
+      "hits": [
+        {
+          "n": 28,
+          "similarity": 0.688
+        }
+      ]
+    },
+    {
+      "deal": "Dream Finders Homes / Beazer Homes",
+      "query": "Dream Finders Homes Beazer Homes acquisition merger deal",
+      "hits": [
+        {
+          "n": 29,
+          "similarity": 0.801
+        },
+        {
+          "n": 30,
+          "similarity": 0.66
+        }
+      ]
+    },
+    {
+      "deal": "Bruton Limited / INSW",
+      "query": "Bruton Limited INSW acquisition merger deal",
+      "hits": [
+        {
+          "n": 31,
+          "similarity": 0.821
+        },
+        {
+          "n": 32,
+          "similarity": 0.77
+        },
+        {
+          "n": 33,
+          "similarity": 0.728
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 202,
-    "headlines_new": 94,
-    "index_size": 1134,
-    "deals_found": 34,
+    "headlines_fetched": 182,
+    "headlines_new": 174,
+    "index_size": 1308,
+    "deals_found": 42,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19
