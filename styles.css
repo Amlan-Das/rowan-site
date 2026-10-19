@@ -1478,3 +1478,13 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .pt { margin: 0 0 8px; padding: 26px 0 6px; } .pt + .pt { margin-top: 20px; }
 .pt-code { margin-top: 14px; border-bottom: 0; } .pt-code[open] { padding-bottom: 8px; }
 .al-wrap-up { margin-top: 36px; }
+.cd-row.moved { padding-top: 16px; border-top: 1px solid var(--rule); grid-template-columns: 130px 1fr; }
+.ai-divide { margin: 36px 0 28px; padding: 16px 0 0; border-top: 2px solid var(--ink); display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 20px; } .ai-divide .pt-k { margin: 0; } .ai-divide p:last-child { margin: 0; color: var(--slate); font-size: 17px; }
+.pt-code { margin-bottom: 0; } .pt:last-of-type { padding-bottom: 0; }
+/* results row: graph on the left, weights and numbers on the right, full width under the two columns */
+#catdog > .cd-results { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 0 40px; margin: 28px 0 4px; padding-top: 18px; border-top: 1px solid var(--rule-strong); align-items: start; }
+#catdog > .cd-results[hidden] { display: none; }
+#catdog > .cd-results h3, #catdog > .cd-results .cd-run { grid-column: 1 / -1; }
+#catdog > .cd-results .cd-chart { margin: 0; } #catdog > .cd-results .cd-row { align-self: stretch; grid-template-columns: 150px 1fr; } #catdog > .cd-results .cd-wm canvas { width: 150px; height: 150px; }
+@media (max-width: 900px) { #catdog > .cd-results { grid-template-columns: 1fr; gap: 14px; } #catdog > .cd-results .cd-row { grid-template-columns: 130px 1fr; } }
+.cd-lim { margin-top: 22px; } .cd-lim h3 { margin: 0 0 6px; font: 700 16px var(--sans); } .cd-lim p { margin: 0; color: var(--slate); font-size: 15px !important; line-height: 1.55; }

@@ -116,17 +116,18 @@ print(f"Final Weights: {weights}, Final Bias: {bias}")
               <div><dt>Training</dt><dd>1,000 epochs, shuffled</dd></div>
             </dl>
             <a class="cd-gh" href="https://github.com/Amlan-Das/rowan-site/blob/main/ai/catdog/catdog.py" target="_blank" rel="noopener"><span class="mk" aria-hidden="true">&lt;/&gt;</span><span class="tx"><b>View the code on GitHub</b><i>Amlan-Das/rowan-site &middot; ai/catdog/catdog.py</i></span><span class="ar" aria-hidden="true">&rarr;</span></a>
-            <div class="cd-results" id="cdResults"></div>
+            <div class="cd-lim"><h3>What the model can and cannot see</h3><p>One weight per pixel means the model only knows how bright each fixed position is. It has no idea of ears, eyes or shape, and a cat shifted a few pixels lands on different weights. The training and test drawings are all variations of one icon per class, so a good score here says little about real photographs. That is the limit of this design, and it is what the AlexNet project below goes after: small shared filters that look for shapes anywhere in the picture.</p></div>
           </div>
           <div class="cd-right"><figure class="pt-fig">
             <div id="cdDemo"></div>
             <figcaption>The pipeline and the first update, run on one cat and one dog from my training folder, with the same steps as the code. ImageFolder numbers the folders alphabetically, so cat is label 0 and dog is label 1. The drawings are modified Font Awesome Free icons (<a href="https://fontawesome.com" target="_blank" rel="noopener">Fonticons, Inc.</a>, CC BY 4.0), randomly rotated, resized, shifted and noised.</figcaption>
           </figure>
           <div class="cd-notes">
-          <div><h3>What the model can and cannot see</h3><p>One weight per pixel means the model only knows how bright each fixed position is. It has no idea of ears, eyes or shape, and a cat shifted a few pixels lands on different weights. The training and test drawings are all variations of one icon per class, so a good score here says little about real photographs. That is the limit of this design, and it is what the AlexNet project below goes after: small shared filters that look for shapes anywhere in the picture.</p></div>
+          
           <div><h3>How the accuracy is counted</h3><p>The script counts a picture as correct when the model&rsquo;s guess matches its label <i>before</i> that picture changes the weights, adds this up over all 1,000 epochs, and prints it divided by the total number of guesses. So it is a running training accuracy, not a score on unseen pictures. The test folder is run once at the end and the predictions are printed next to the true labels.</p></div>
         </div></div>
         </div>
+        <div class="cd-results" id="cdResults"></div>
         <details class="pt-code"><summary>Read the code</summary>
 <pre><code>import torchvision.transforms as transforms
 from torchvision.datasets import ImageFolder
@@ -236,6 +237,7 @@ for tensor , dog in imagefolder:
           <p class="pt-src">This is the script exactly as I wrote it, including my variable names. It expects <code>data/train</code> and <code>data/test</code> folders with one sub-folder per class.</p>
         </details>
       </section>
+      <div class="ai-divide"><p class="pt-k">Research</p><p>The money, the people and the milestones behind modern AI.</p></div>
       <div class="ai-hero">
         <div class="ai-left">
           <div class="ai-open">
