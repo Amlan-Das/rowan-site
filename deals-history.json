@@ -70,6 +70,13 @@
    "found": 42,
    "new": 7,
    "cumulative": 53
+  },
+  {
+   "date": "2026-10-20",
+   "shown": 8,
+   "found": 33,
+   "new": 5,
+   "cumulative": 57
   }
  ],
  "deals": {
@@ -477,9 +484,9 @@
    "acquirer": "Proofpoint",
    "target": "Varonis",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-20",
    "stage": "Announced",
-   "value": "$6.3 Billion",
+   "value": "$6.3bn",
    "usd": 6300000000.0
   },
   "cronos|canadelaar": {
@@ -520,9 +527,9 @@
    "acquirer": "Silgan",
    "target": "Trivium Packaging",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "stage": "Announced",
-   "value": "$3.4 Billion",
+   "last_seen": "2026-10-20",
+   "stage": "Pending approval",
+   "value": "$3.4B",
    "usd": 3400000000.0
   },
   "merck kgaa|silence therapeutics": {
@@ -545,7 +552,7 @@
    "acquirer": "Curaleaf",
    "target": "Aurora",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "stage": "Announced"
   },
   "dxc|wsau": {
@@ -570,11 +577,56 @@
    "first_seen": "2026-10-19",
    "last_seen": "2026-10-19",
    "stage": "Announced"
+  },
+  "tradeweb|trumid": {
+   "acquirer": "Tradeweb",
+   "target": "Trumid",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "stage": "Announced",
+   "value": "$1.97 Billion",
+   "usd": 1970000000.0
+  },
+  "dream finders|beazer homes": {
+   "acquirer": "Dream Finders",
+   "target": "Beazer Homes",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "stage": "Completed",
+   "value": "$2.2 billion",
+   "usd": 2200000000.0
+  },
+  "salesforce|braze": {
+   "acquirer": "Salesforce",
+   "target": "Braze",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "stage": "Announced",
+   "value": "$5.66 billion",
+   "usd": 5660000000.0
+  },
+  "maximus|agile defense": {
+   "acquirer": "Maximus",
+   "target": "Agile Defense",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "stage": "Announced",
+   "value": "$660M",
+   "usd": 660000000.0
+  },
+  "eqt|cleanaway": {
+   "acquirer": "EQT",
+   "target": "Cleanaway",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "stage": "Announced",
+   "value": "$9.3 Billion",
+   "usd": 9300000000.0
   }
  },
  "totals": {
-  "deals": 53,
-  "with_usd_value": 31,
-  "usd": 285005000000.0
+  "deals": 57,
+  "with_usd_value": 36,
+  "usd": 304795000000.0
  }
 }
