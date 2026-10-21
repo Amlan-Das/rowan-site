@@ -77,6 +77,13 @@
    "found": 33,
    "new": 5,
    "cumulative": 57
+  },
+  {
+   "date": "2026-10-21",
+   "shown": 8,
+   "found": 32,
+   "new": 6,
+   "cumulative": 63
   }
  ],
  "deals": {
@@ -591,7 +598,7 @@
    "acquirer": "Dream Finders",
    "target": "Beazer Homes",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-21",
    "stage": "Completed",
    "value": "$2.2 billion",
    "usd": 2200000000.0
@@ -600,9 +607,9 @@
    "acquirer": "Salesforce",
    "target": "Braze",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-21",
    "stage": "Announced",
-   "value": "$5.66 billion",
+   "value": "$5.66 Billion",
    "usd": 5660000000.0
   },
   "maximus|agile defense": {
@@ -622,11 +629,57 @@
    "stage": "Announced",
    "value": "$9.3 Billion",
    "usd": 9300000000.0
+  },
+  "eqt|qiagen": {
+   "acquirer": "EQT",
+   "target": "Qiagen",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "stage": "Rumored"
+  },
+  "hackensack meridian health|hunterdon health": {
+   "acquirer": "Hackensack Meridian Health",
+   "target": "Hunterdon Health",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "stage": "Announced",
+   "value": "$230M",
+   "usd": 230000000.0
+  },
+  "plurilock|quantum emotion": {
+   "acquirer": "Plurilock",
+   "target": "Quantum eMotion",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "stage": "Pending approval"
+  },
+  "shanghai top numerical control|cnc acquisition": {
+   "acquirer": "Shanghai Top Numerical Control",
+   "target": "CNC Acquisition",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "stage": "Announced"
+  },
+  "metso|manufacturer of bronze alloy components": {
+   "acquirer": "Metso",
+   "target": "manufacturer of bronze alloy components",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "stage": "Announced"
+  },
+  "spanish firm|mobico": {
+   "acquirer": "Spanish firm",
+   "target": "Mobico",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "stage": "Rumored",
+   "value": "\u00a3282m",
+   "usd": null
   }
  },
  "totals": {
-  "deals": 57,
-  "with_usd_value": 36,
-  "usd": 304795000000.0
+  "deals": 63,
+  "with_usd_value": 37,
+  "usd": 305025000000.0
  }
 }
