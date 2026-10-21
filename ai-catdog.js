@@ -60,3 +60,48 @@
     c.putImageData(img, 0, 0);
   }).catch(() => {});
 })();
+
+/* "Which pixels matter": uses the 1,024 weights my run learned. A pixel's vote on one picture is weight x brightness, and the
+   score is the sum of the votes plus the bias, so pixels with big weights move the answer far more than pixels with small ones. */
+(function () {
+  "use strict";
+  const host = document.getElementById("cdPx"); if (!host) return;
+  const N = 32, SRC = { cat: "ai/catdog/cat.png", dog: "ai/catdog/dog.png" };
+  fetch("ai/catdog-results.json").then((r) => r.json()).then((d) => {
+    const w = d.weights, b = d.bias; if (!w || w.length !== N * N) return;
+    let who = "dog", keep = N * N, pick = -1, x = null; const imgs = {};
+    const order = w.map((v, i) => i).sort((p, q) => Math.abs(w[q]) - Math.abs(w[p])), rank = new Array(N * N); order.forEach((i, r) => (rank[i] = r));
+    const mw = Math.max(...w.map(Math.abs));
+    host.innerHTML = '<h3>Which Pixels Matter</h3><p class="cd-run">Every pixel gets its own weight, and the weights are not equal. Here are the 1,024 weights my run learned, used on a drawing.</p>' +
+      '<div class="px-tabs"><button type="button" data-w="cat">Cat drawing</button><button type="button" data-w="dog">Dog drawing</button></div>' +
+      '<div class="px-grid"><figure><canvas id="pxA" width="32" height="32"></canvas><figcaption><b>The pixels</b>brightness, 0 to 1</figcaption></figure><span class="op">&times;</span>' +
+      '<figure><canvas id="pxW" width="32" height="32"></canvas><figcaption><b>Their weights</b>red pushes toward dog, blue toward cat; faint means it barely counts</figcaption></figure><span class="op">=</span>' +
+      '<figure><canvas id="pxC" width="32" height="32"></canvas><figcaption><b>Each pixel&rsquo;s vote</b>weight &times; brightness</figcaption></figure></div>' +
+      '<label class="px-sl"><span>Count only the heaviest pixels</span><b id="pxN"></b><input id="pxR" type="range" min="1" max="100" value="100" aria-label="Percent of pixels counted, heaviest weights first"></label>' +
+      '<div class="px-out" id="pxO" aria-live="polite"></div><p class="px-hint" id="pxH">Point at a pixel in any of the pictures to read its numbers.</p>' +
+      '<p class="px-why"><b>Why some pixels weigh more.</b> A weight only changes when the model gets a picture wrong, and then it moves by that pixel&rsquo;s brightness. A pixel that looks the same in every cat and dog (the corners, the background) is pushed up by one class and down by the other, so its weight stays near zero. A pixel that is bright in dogs and dark in cats keeps being pushed the same way, so its weight grows. The size of a weight is how much that pixel has helped separate the classes.</p>';
+    const $ = (id) => host.querySelector("#" + id);
+    const ramp = (t) => (t >= 0 ? [255, Math.round(255 - t * 200), Math.round(255 - t * 210)] : [Math.round(255 + t * 210), Math.round(255 + t * 130), 255]);
+    function paint(id, f) { const c = $(id), g = c.getContext("2d"), im = g.createImageData(N, N); for (let i = 0; i < N * N; i++) { const col = f(i); im.data.set([col[0], col[1], col[2], 255], i * 4); } g.putImageData(im, 0, 0); }
+    function load(k) { return imgs[k] ? Promise.resolve(imgs[k]) : new Promise((res) => { const im = new Image(); im.onload = () => { imgs[k] = im; res(im); }; im.src = SRC[k]; }); }
+    function draw() {
+      const on = (i) => rank[i] < keep, vote = (i) => (on(i) ? w[i] * x[i] : 0);
+      paint("pxA", (i) => { const g = Math.round(x[i] * 255); return [g, g, g]; });
+      paint("pxW", (i) => (on(i) ? ramp(w[i] / mw) : [235, 238, 236]));
+      const mv = Math.max(0.001, ...Array.from({ length: N * N }, (_, i) => Math.abs(w[i] * x[i])));
+      paint("pxC", (i) => (on(i) ? ramp(vote(i) / mv) : [235, 238, 236]));
+      let s = b, pos = 0, neg = 0; for (let i = 0; i < N * N; i++) { const v = vote(i); s += v; if (v > 0) pos += v; else neg -= v; }
+      const tot = Array.from({ length: N * N }, (_, i) => Math.abs(w[i] * x[i])), all = tot.reduce((a, c) => a + c, 0), top = tot.slice().sort((p, q) => q - p).slice(0, 102).reduce((a, c) => a + c, 0);
+      const say = s > 0 ? "dog" : "cat", right = say === who;
+      $("pxN").textContent = Math.round(keep / 10.24) + "% (" + keep + " pixels)";
+      $("pxO").innerHTML = '<div><dt>Votes toward dog</dt><dd>+' + pos.toFixed(1) + '</dd></div><div><dt>Votes toward cat</dt><dd>&minus;' + neg.toFixed(1) + '</dd></div><div><dt>Bias</dt><dd>' + (b >= 0 ? "+" : "&minus;") + Math.abs(b).toFixed(2) + '</dd></div><div class="ans"><dt>Score &rarr; answer</dt><dd>' + (s >= 0 ? "+" : "&minus;") + Math.abs(s).toFixed(1) + " &rarr; " + say + (right ? " &#10003;" : " &#10007;") + "</dd></div>" +
+        '<p class="px-top">The 10% of pixels with the biggest votes carry <b>' + Math.round(top / all * 100) + '%</b> of all the vote on this drawing.</p>';
+    }
+    async function run() { const im = await load(who), c = document.createElement("canvas"); c.width = c.height = N; const g = c.getContext("2d"); g.drawImage(im, 0, 0, im.width, im.height, 0, 0, N, N); const dd = g.getImageData(0, 0, N, N).data; x = Array.from({ length: N * N }, (_, i) => (0.2989 * dd[i * 4] + 0.587 * dd[i * 4 + 1] + 0.114 * dd[i * 4 + 2]) / 255); host.querySelectorAll(".px-tabs button").forEach((q) => q.setAttribute("aria-pressed", String(q.dataset.w === who))); draw(); }
+    host.querySelectorAll(".px-tabs button").forEach((q) => q.addEventListener("click", () => { who = q.dataset.w; run(); }));
+    $("pxR").addEventListener("input", (e) => { keep = Math.max(1, Math.round(+e.target.value * 10.24)); draw(); });
+    ["pxA", "pxW", "pxC"].forEach((id) => { const c = $(id); c.addEventListener("pointermove", (e) => { const r = c.getBoundingClientRect(), i = Math.min(N - 1, Math.floor((e.clientY - r.top) / r.height * N)) * N + Math.min(N - 1, Math.floor((e.clientX - r.left) / r.width * N)); if (!x) return;
+      $("pxH").innerHTML = "Pixel (" + (i % N) + ", " + Math.floor(i / N) + "): brightness <b>" + x[i].toFixed(2) + "</b> &times; weight <b>" + w[i].toFixed(2) + "</b> = vote <b>" + (w[i] * x[i] >= 0 ? "+" : "&minus;") + Math.abs(w[i] * x[i]).toFixed(2) + "</b>. Its weight is the " + (rank[i] + 1) + (rank[i] % 100 > 9 && rank[i] % 100 < 14 ? "th" : ["th", "st", "nd", "rd"][(rank[i] + 1) % 10 > 3 ? 0 : (rank[i] + 1) % 10]) + " biggest of 1,024."; }); });
+    host.hidden = false; run();
+  }).catch(() => {});
+})();
