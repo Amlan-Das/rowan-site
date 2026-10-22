@@ -1,19 +1,19 @@
 {
-  "date": "Wednesday, October 21",
-  "generated_at": "2026-10-21T16:04:32.176538+00:00",
+  "date": "Thursday, October 22",
+  "generated_at": "2026-10-22T16:04:10.289244+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "Salesforce is acquiring Braze for $5.66 billion in an all-cash transaction, part of its strategy to deepen its AI bets.",
+  "lede": "EQT to acquire Qiagen for €10.8 billion, while LSEG is acquiring Octus for $3.5 billion, in two of today's major M&A announcements.",
   "deals": [
     {
-      "acquirer": "Salesforce",
-      "target": "Braze",
-      "value": "$5.66 Billion",
+      "acquirer": "EQT",
+      "target": "Qiagen",
+      "value": "€10.8bn",
       "pinned": false,
       "stage": "Announced",
-      "articles": 11,
-      "outlets": 11,
-      "latest": "2026-10-21T08:03:47+00:00",
+      "articles": 9,
+      "outlets": 9,
+      "latest": "2026-10-22T12:00:00+00:00",
       "sources": [
         1,
         2,
@@ -25,210 +25,216 @@
         8
       ],
       "stripped": [],
-      "headline": "Salesforce Acquires Braze",
-      "body": "Salesforce is acquiring Braze for $5.66 billion [1, 2, 3]. The deal is an all-cash transaction and pays a 58% premium to Braze's current stock price [6]. The acquisition is part of Salesforce's strategy to deepen its AI bets [7]. The deal is expected to close in the fourth quarter of this year [8].",
+      "headline": "EQT to Acquire Qiagen",
+      "body": "EQT is buying Qiagen for €10.8 billion [1, 2, 3]. The deal was announced on October 21 [6, 7, 8]. No further information is available [4, 5, 7].",
       "found": [
         {
           "n": 1,
-          "acquirer": "Salesforce",
-          "target": "Braze",
+          "acquirer": "EQT",
+          "target": "Qiagen",
           "stage": "Completed"
         },
         {
           "n": 2,
-          "acquirer": "Salesforce",
-          "target": "Braze",
+          "acquirer": "EQT",
+          "target": "Qiagen",
           "stage": "Completed"
         },
         {
           "n": 3,
-          "acquirer": "Salesforce",
-          "target": "Braze",
-          "stage": "Announced"
+          "acquirer": "EQT",
+          "target": "Qiagen",
+          "stage": "Completed"
         },
         {
           "n": 4,
-          "acquirer": "Salesforce",
-          "target": "Braze",
-          "stage": "Announced"
+          "acquirer": "EQT",
+          "target": "Qiagen",
+          "stage": "Completed"
         },
         {
           "n": 5,
-          "acquirer": "Salesforce",
-          "target": "Braze",
+          "acquirer": "EQT",
+          "target": "QIAGEN",
           "stage": "Announced"
         },
         {
           "n": 6,
-          "acquirer": "Salesforce",
-          "target": "Braze",
+          "acquirer": "EQT",
+          "target": "QIAGEN",
           "stage": "Announced"
         },
         {
           "n": 7,
-          "acquirer": "Salesforce",
-          "target": "Braze",
+          "acquirer": "EQT",
+          "target": "QIAGEN",
           "stage": "Announced"
         },
         {
           "n": 8,
-          "acquirer": "Salesforce",
-          "target": "Braze",
+          "acquirer": "EQT Private Equity",
+          "target": "QIAGEN",
           "stage": "Announced"
-        },
-        {
-          "n": 9,
-          "acquirer": "Salesforce",
-          "target": "Braze",
-          "stage": "Completed"
-        },
-        {
-          "n": 11,
-          "acquirer": "Salesforce",
-          "target": "Braze",
-          "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "EQT",
-      "target": "Qiagen",
-      "value": "",
-      "pinned": false,
-      "stage": "Rumored",
-      "articles": 4,
-      "outlets": 4,
-      "latest": "2026-10-21T04:26:20+00:00",
-      "sources": [
-        12,
-        13,
-        14,
-        15,
-        16
-      ],
-      "stripped": [],
-      "headline": "EQT to Acquire Qiagen",
-      "body": "EQT is in advanced talks to acquire Qiagen [13, 14, 15]. The deal is rumored, with no official announcement yet [12, 16]. Qiagen's stock price has jumped on the news [16].",
-      "found": [
-        {
-          "n": 12,
-          "acquirer": "EQT",
-          "target": "Qiagen",
-          "stage": "Pending approval"
-        },
-        {
-          "n": 13,
-          "acquirer": "EQT",
-          "target": "Qiagen",
-          "stage": "Announced"
-        },
-        {
-          "n": 14,
-          "acquirer": "EQT",
-          "target": "Qiagen",
-          "stage": "Announced"
-        },
-        {
-          "n": 15,
-          "acquirer": "EQT",
-          "target": "Qiagen",
-          "stage": "Rumored"
-        }
-      ]
-    },
-    {
-      "acquirer": "Hackensack Meridian Health",
-      "target": "Hunterdon Health",
-      "value": "$230M",
+      "acquirer": "LSEG",
+      "target": "Octus",
+      "value": "$3.5 Billion",
       "pinned": false,
       "stage": "Announced",
       "articles": 3,
       "outlets": 3,
-      "latest": "2026-10-20T20:24:26+00:00",
+      "latest": "2026-10-22T08:15:51+00:00",
       "sources": [
-        17,
-        18,
-        19
+        11,
+        12,
+        13,
+        14
       ],
       "stripped": [],
-      "headline": "Hackensack Meridian Health Acquires Hunterdon Health",
-      "body": "Hackensack Meridian Health is acquiring Hunterdon Health for $230M [17, 18, 19]. The deal was announced on October 20 [17, 18, 19].",
+      "headline": "LSEG to Acquire Octus",
+      "body": "LSEG is acquiring Octus for $3.5 billion [11, 12, 13]. The deal is aimed at shielding LSEG from AI disruption [11, 13]. The acquisition was first announced on October 13 [14].",
       "found": [
         {
-          "n": 17,
-          "acquirer": "Hackensack Meridian Health",
-          "target": "Hunterdon Health",
+          "n": 11,
+          "acquirer": "LSEG",
+          "target": "Octus",
           "stage": "Completed"
         },
         {
-          "n": 18,
-          "acquirer": "Hackensack Meridian Health",
-          "target": "Hunterdon Health",
-          "stage": "Announced"
+          "n": 12,
+          "acquirer": "LSEG",
+          "target": "Octus",
+          "stage": "Completed"
         },
         {
-          "n": 19,
-          "acquirer": "Hackensack Meridian Health",
-          "target": "Hunterdon Health",
+          "n": 13,
+          "acquirer": "LSEG",
+          "target": "Octus",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "Dream Finders",
-      "target": "Beazer Homes",
-      "value": "$2.2 billion",
+      "acquirer": "Circle8",
+      "target": "SThree",
+      "value": "",
       "pinned": false,
-      "stage": "Completed",
-      "articles": 3,
-      "outlets": 3,
-      "latest": "2026-10-20T15:01:15+00:00",
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-22T11:57:38+00:00",
       "sources": [
-        20,
-        21,
-        22,
-        23
+        15,
+        16,
+        17,
+        18
       ],
       "stripped": [],
-      "headline": "Dream Finders and Beazer Homes Deal",
-      "body": "Dream Finders has acquired Beazer Homes in an all-cash deal [20, 21, 22]. The acquisition was approved by Beazer Homes' stockholders [23]. The deal is now completed [21, 22].",
+      "headline": "Circle8 and SThree Deal",
+      "body": "Circle8 is making a takeover bid for SThree [17, 18]. Circle8 has been granted two extensions to firm up its bid [15, 16]. The deal is still in the early stages [15, 16, 17].",
       "found": [
         {
-          "n": 20,
-          "acquirer": "Dream Finders",
-          "target": "Beazer Homes",
+          "n": 15,
+          "acquirer": "Circle8",
+          "target": "SThree",
+          "stage": "Pending approval"
+        },
+        {
+          "n": 16,
+          "acquirer": "Circle8",
+          "target": "SThree",
+          "stage": "Pending approval"
+        }
+      ]
+    },
+    {
+      "acquirer": "Cencora",
+      "target": "American Oncology Network",
+      "value": "$2.4 Billion",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-22T09:49:58+00:00",
+      "sources": [
+        19,
+        20
+      ],
+      "stripped": [],
+      "headline": "Cencora to Acquire American Oncology Network",
+      "body": "Cencora is acquiring American Oncology Network in a $2.4 billion deal [19, 20]. The deal has been announced [19, 20]. No further information is available [19, 20].",
+      "found": [
+        {
+          "n": 19,
+          "acquirer": "Cencora",
+          "target": "American Oncology Network",
           "stage": "Completed"
         },
         {
+          "n": 20,
+          "acquirer": "Cencora",
+          "target": "American Oncology Network",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "Blackstone",
+      "target": "Apollo",
+      "value": "",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-21T17:34:44+00:00",
+      "sources": [
+        21,
+        22
+      ],
+      "stripped": [],
+      "headline": "Blackstone and Apollo NFL Deal",
+      "body": "Blackstone and Apollo are exploring the possibility of buying minority stakes in NFL teams [21, 22]. The deal has not been finalized and is still in the early stages [21, 22].",
+      "found": [
+        {
           "n": 21,
-          "acquirer": "Dream Finders",
-          "target": "Beazer",
-          "stage": "Completed"
+          "acquirer": "Blackstone",
+          "target": "Apollo",
+          "stage": "Rumored"
         },
         {
           "n": 22,
-          "acquirer": "Dream Finders",
-          "target": "Beazer Homes",
-          "stage": "Completed"
+          "acquirer": "Blackstone",
+          "target": "Apollo",
+          "stage": "Rumored"
         }
       ]
     },
     {
       "acquirer": "Plurilock",
       "target": "Quantum eMotion",
-      "value": "",
+      "value": "$33.8M",
       "pinned": false,
       "stage": "Pending approval",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-10-21T15:42:26+00:00",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-21T15:41:50+00:00",
       "sources": [
+        23,
         24
       ],
       "stripped": [],
-      "headline": "Plurilock to Vote on Quantum eMotion Acquisition",
-      "body": "Plurilock is set to vote on the acquisition of Quantum eMotion [24]. The deal is currently pending approval [24].",
+      "headline": "Plurilock to Acquire Quantum eMotion",
+      "body": "Plurilock is acquiring Quantum eMotion for $24M USD [24]. The deal is pending shareholder approval [23, 24]. Plurilock will vote on the acquisition [23].",
       "found": [
+        {
+          "n": 23,
+          "acquirer": "Plurilock",
+          "target": "Quantum eMotion",
+          "stage": "Announced"
+        },
         {
           "n": 24,
           "acquirer": "Plurilock",
@@ -238,192 +244,136 @@
       ]
     },
     {
-      "acquirer": "Shanghai Top Numerical Control",
-      "target": "CNC Acquisition",
-      "value": "",
+      "acquirer": "Smith & Wesson",
+      "target": "Savage Arms",
+      "value": "$160 million",
       "pinned": false,
       "stage": "Announced",
       "articles": 1,
       "outlets": 1,
-      "latest": "2026-10-21T13:49:29+00:00",
+      "latest": "2026-10-22T12:56:21+00:00",
       "sources": [
         25
       ],
       "stripped": [],
-      "headline": "Shanghai Top Numerical Control and CNC Acquisition",
-      "body": "Shanghai Top Numerical Control plans to acquire CNC company [25]. Deal aims to enter high-growth sectors [25]. Company plans strategic acquisition [25].",
+      "headline": "Smith & Wesson Acquires Savage Arms",
+      "body": "Smith & Wesson is acquiring Savage Arms for $160 million [25]. The deal brings together two historic brands in the firearms industry [25]. The acquisition is the latest move by Smith & Wesson in its efforts to expand its product line [25].",
       "found": [
         {
           "n": 25,
-          "acquirer": "Shanghai Top Numerical Control",
-          "target": "CNC Acquisition",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Metso",
-      "target": "manufacturer of bronze alloy components",
-      "value": "",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-10-21T13:41:42+00:00",
-      "sources": [
-        26
-      ],
-      "stripped": [],
-      "headline": "Metso Acquires Bronze Alloy Component Maker",
-      "body": "Metso acquires manufacturer of bronze alloy components in Brazil [26]. The deal was announced [26].",
-      "found": [
-        {
-          "n": 26,
-          "acquirer": "Metso",
-          "target": "manufacturer of bronze alloy components",
+          "acquirer": "Smith & Wesson",
+          "target": "Savage Arms",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "Spanish firm",
-      "target": "Mobico",
-      "value": "£282m",
+      "acquirer": "Techouse",
+      "target": "Ambio",
+      "value": "",
       "pinned": false,
-      "stage": "Rumored",
+      "stage": "Announced",
       "articles": 1,
       "outlets": 1,
-      "latest": "2026-10-21T13:00:00+00:00",
+      "latest": "2026-10-22T12:27:24+00:00",
       "sources": [
-        27
+        26
       ],
       "stripped": [],
-      "headline": "Mobico in £282m takeover talks",
-      "body": "Mobico is in talks with a Spanish firm over a £282m takeover [27]. The talks are reportedly with a Spanish firm [27].",
+      "headline": "Techouse Acquires Ambio",
+      "body": "Techouse is acquiring Ambio, expanding its offshore water treatment business [26]. The deal was announced [26].",
       "found": [
         {
-          "n": 27,
-          "acquirer": "Spanish firm",
-          "target": "Mobico",
-          "stage": "Pending approval"
+          "n": 26,
+          "acquirer": "Techouse",
+          "target": "Ambio",
+          "stage": "Completed"
         }
       ]
     }
   ],
   "also": [
     {
+      "n": 27,
+      "note": "Shareholder Investigation Launched by Kaskela Law Firm into Fairness of GoPro Inc. Proposed Merger; GPRO Investors Encouraged to Contact the Firm [27]."
+    },
+    {
       "n": 28,
-      "note": "Albertsons didn’t risk fiscal health with $4B pre-merger dividend, former CEO testifies [28]."
+      "note": "Perfect Corp.: A Merger With Little Upside Left [28]."
     },
     {
       "n": 29,
-      "note": "US-based Circle8 gets second deadline extension for SThree takeover bid [29]."
-    },
-    {
-      "n": 31,
-      "note": "Kroger’s ex-CEO defends effort to close failed Albertsons deal [31]."
+      "note": "DataMEDS AI Expands Healthcare Technology Strategy With Proposed IP Acquisition and Licensing Deal [29]."
     }
   ],
-  "brief": "Salesforce is acquiring Braze for $5.66 billion in an all-cash transaction, part of its strategy to deepen its AI bets.\n\nSalesforce / Braze (Announced): Salesforce Acquires Braze. Salesforce is acquiring Braze for $5.66 billion [1, 2, 3]. The deal is an all-cash transaction and pays a 58% premium to Braze's current stock price [6]. The acquisition is part of Salesforce's strategy to deepen its AI bets [7]. The deal is expected to close in the fourth quarter of this year [8].\nEQT / Qiagen (Rumored): EQT to Acquire Qiagen. EQT is in advanced talks to acquire Qiagen [13, 14, 15]. The deal is rumored, with no official announcement yet [12, 16]. Qiagen's stock price has jumped on the news [16].\nHackensack Meridian Health / Hunterdon Health (Announced): Hackensack Meridian Health Acquires Hunterdon Health. Hackensack Meridian Health is acquiring Hunterdon Health for $230M [17, 18, 19]. The deal was announced on October 20 [17, 18, 19].\nDream Finders / Beazer Homes (Completed): Dream Finders and Beazer Homes Deal. Dream Finders has acquired Beazer Homes in an all-cash deal [20, 21, 22]. The acquisition was approved by Beazer Homes' stockholders [23]. The deal is now completed [21, 22].\nPlurilock / Quantum eMotion (Pending approval): Plurilock to Vote on Quantum eMotion Acquisition. Plurilock is set to vote on the acquisition of Quantum eMotion [24]. The deal is currently pending approval [24].\nShanghai Top Numerical Control / CNC Acquisition (Announced): Shanghai Top Numerical Control and CNC Acquisition. Shanghai Top Numerical Control plans to acquire CNC company [25]. Deal aims to enter high-growth sectors [25]. Company plans strategic acquisition [25].\nMetso / manufacturer of bronze alloy components (Announced): Metso Acquires Bronze Alloy Component Maker. Metso acquires manufacturer of bronze alloy components in Brazil [26]. The deal was announced [26].\nSpanish firm / Mobico (Rumored): Mobico in £282m takeover talks. Mobico is in talks with a Spanish firm over a £282m takeover [27]. The talks are reportedly with a Spanish firm [27].\n\nAlso worth knowing:\n- Albertsons didn’t risk fiscal health with $4B pre-merger dividend, former CEO testifies [28].\n- US-based Circle8 gets second deadline extension for SThree takeover bid [29].\n- Kroger’s ex-CEO defends effort to close failed Albertsons deal [31].",
+  "brief": "EQT to acquire Qiagen for €10.8 billion, while LSEG is acquiring Octus for $3.5 billion, in two of today's major M&A announcements.\n\nEQT / Qiagen (Announced): EQT to Acquire Qiagen. EQT is buying Qiagen for €10.8 billion [1, 2, 3]. The deal was announced on October 21 [6, 7, 8]. No further information is available [4, 5, 7].\nLSEG / Octus (Announced): LSEG to Acquire Octus. LSEG is acquiring Octus for $3.5 billion [11, 12, 13]. The deal is aimed at shielding LSEG from AI disruption [11, 13]. The acquisition was first announced on October 13 [14].\nCircle8 / SThree (Announced): Circle8 and SThree Deal. Circle8 is making a takeover bid for SThree [17, 18]. Circle8 has been granted two extensions to firm up its bid [15, 16]. The deal is still in the early stages [15, 16, 17].\nCencora / American Oncology Network (Announced): Cencora to Acquire American Oncology Network. Cencora is acquiring American Oncology Network in a $2.4 billion deal [19, 20]. The deal has been announced [19, 20]. No further information is available [19, 20].\nBlackstone / Apollo (Announced): Blackstone and Apollo NFL Deal. Blackstone and Apollo are exploring the possibility of buying minority stakes in NFL teams [21, 22]. The deal has not been finalized and is still in the early stages [21, 22].\nPlurilock / Quantum eMotion (Pending approval): Plurilock to Acquire Quantum eMotion. Plurilock is acquiring Quantum eMotion for $24M USD [24]. The deal is pending shareholder approval [23, 24]. Plurilock will vote on the acquisition [23].\nSmith & Wesson / Savage Arms (Announced): Smith & Wesson Acquires Savage Arms. Smith & Wesson is acquiring Savage Arms for $160 million [25]. The deal brings together two historic brands in the firearms industry [25]. The acquisition is the latest move by Smith & Wesson in its efforts to expand its product line [25].\nTechouse / Ambio (Announced): Techouse Acquires Ambio. Techouse is acquiring Ambio, expanding its offshore water treatment business [26]. The deal was announced [26].\n\nAlso worth knowing:\n- Shareholder Investigation Launched by Kaskela Law Firm into Fairness of GoPro Inc. Proposed Merger; GPRO Investors Encouraged to Contact the Firm [27].\n- Perfect Corp.: A Merger With Little Upside Left [28].\n- DataMEDS AI Expands Healthcare Technology Strategy With Proposed IP Acquisition and Licensing Deal [29].",
   "sources": [
     {
       "n": 1,
-      "title": "Salesforce's Braze Acquisition Leads Revenue Tech M&A Rush",
-      "source": "CX Today",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95bmV1Rm1kNEI2Y2FFVU8zU3BqeDRKMXN5TkgxUFNONkVvd0ZKX09YTkgtNHl5bnA4RDdFUzZqNEFGTmMxWHdUYnp6UW1rUmdTS05fMmZIVHdNWnFXaGJBUnFGMy1WbmVQZWRRRDR1NEJHc1ZTZEN5dFFZUk0?oc=5",
-      "snippet": "CX Today",
-      "published": "2026-10-21T08:03:47+00:00"
+      "title": "EQT’s €10.8bn Qiagen buyout is built to outvote holdouts who sank Thermo Fisher’s bid",
+      "source": "Martin Cid Magazine",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSUZuN1RPdm84emUwaUZXWnpQcXRhb0xiR3FQRG51cGRhc0xxWnVmSUJtam9nLUdmRmU3b1NKSDFnakZsVXNFYU10TVRMOHk4aFdfRURNdjVCVWl1TlFqb0pXUzRUVXEyOTRqMl9pT1ZXVVpVaEVVZlh1REZYM3dlTkZvTFIyanJFWEtTbg?oc=5",
+      "snippet": "Martin Cid Magazine",
+      "published": "2026-10-22T12:00:00+00:00"
     },
     {
       "n": 2,
-      "title": "Braze Shares Jump 51.7% After Salesforce Agrees to $5.66 Billion Deal",
-      "source": "TOKENPOST",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5pbFdia3BXTmUtLVVOMElpVFJnZm51bExZYTFkVlNYN3ByQjRqcWY1eExrSVJfNWVKRkJjenF0LXdtQnpfR1dySHB2YmNrb3d6VkhUcW1TM1A?oc=5",
-      "snippet": "TOKENPOST",
-      "published": "2026-10-21T05:04:01+00:00"
+      "title": "EQT leads €46.50-a-share buyout of Qiagen in €10.8B take-private",
+      "source": "Dealroom",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY1VpWDVhZWs2NmdMQzR6UXk2ZTVLY0hEYTlXcHFWMEdBbU02NDJ5MW9mU2x0bmNuay1LWmpCTURBeEZoLXBSbUxHZEFkX0pfWWNQMC10bjhtOGZjWDM3ZWhHS3lTelFMYXZqbVpKUnJOZzhZWWlTMHduUWxKN0NjZE9pb2JISjZIbTZaV05sZmIzVWhwSUc2cE45dno?oc=5",
+      "snippet": "Dealroom",
+      "published": "2026-10-22T11:53:18+00:00"
     },
     {
       "n": 3,
-      "title": "Stock Market Today, Oct. 20: Salesforce Agrees to Acquire Braze for $5.66 Billion: BRZE Stock Soars 52%",
-      "source": "The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbUhjUGNHUW41OE1sRGgwZDBfRkk5aDlSc2kzelM5TEFSdEhXSFdGZzNYZGYwUGxrVmd5dkE5M0xoZHZlS3hFNmpnMXEyck5RdTh3elM2UXFMdkEzb1JhN00yaGNrSG5yZDlza241MVlQSVk1NXhZUlk4NVQ3THJ2WFo2WUxkM3Iwblc4R0ZTWVlZMmU2V2ktSWlsOGFvZGtCN2tOQXY2Q0cxaGZqYVJaSTZfYl9venFSZlY1NTVyREh1UjVZbV9paEtac1pIVFlXLTVKQUJydHZYbm0weWhOTmFzRER1SXk5VUd0WUI3S1NpcGc?oc=5",
-      "snippet": "The Motley Fool",
-      "published": "2026-10-20T20:54:04+00:00"
+      "title": "Raft of firms guide Qiagen's $10.8bn take-private acquisition by Sweden's EQT",
+      "source": "The Global Legal Post",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaGlhWWppeU9MSVBVY2N3QkFmYnNFN3RINVFGdDd1MXlrbTJiLUVubFE1UGZOOWZFS0UtZDdkY3pGaWg1bUNUTGkweG9oaDh3TjMtZ1daai1TaHNyYmM1SFNObDFvaVhyUzJGMU1vS0RpM0pGVTRCRUNXZUt6WHlYczRsZHdFSDQ2bm01OVd1Z2U1VW02YmR0RHZVR0k3VGdXVk9haHQ3bTJ3WWJqVzR1eXdSenFzRlVnLVpYYUN3?oc=5",
+      "snippet": "The Global Legal Post",
+      "published": "2026-10-22T10:28:00+00:00"
     },
     {
       "n": 4,
-      "title": "Salesforce ponies up nearly $5.7 billion for competitor Braze as acquisition spree continues",
-      "source": "The Business Journals",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNmgtRlVBZmZCMXJuWU1aTldaMkJ2OWJ2Ujk0eTJkQmhJZElySjMyV2NwcHJZT203UUQ4aFpteVRfNGpXNTNWazUtSkg0S2UtZE14Y1k3RlJTemxoR3lDVUdOQWtoUXJTU1RNejI5UUxxRFNPeUQ4Umd2Zm1aeEJpZ0dWQ2xGMzlFeUxKdE12UDk4ajB2WTcwbHhQUTBWTlN3RmFPUGpBSm9rUHdqd0dj?oc=5",
-      "snippet": "The Business Journals",
-      "published": "2026-10-20T20:06:00+00:00"
+      "title": "EQT agrees EUR 10.8bn takeover of Qiagen",
+      "source": "MedWatch",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HWE96eGNKTUYwc0ZqUFhMMk9Ha3U4Q3ZXd180X1pMS0VhQWpYQ2g3cUt4V2RoeVQtMFVrSk1XR0RZenV3STQ3N290T2VFamt0TElmcEZYRUJCNnhpYmZJdlFvQzdWejRR?oc=5",
+      "snippet": "MedWatch",
+      "published": "2026-10-22T09:09:17+00:00"
     },
     {
       "n": 5,
-      "title": "CPI | Salesforce Strikes $5.66 Billion Deal to Acquire Braze",
-      "source": "PYMNTS.com",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOY3dZT2RNOWR0UFg3OTBEc2oyV3d6WV93c1FiSXBBaUw1YWRScF8wbmoyLUZmQ3FxQUp3Tld4blA2MVlVNFJDRXFyVkZCbTFaNHh5NDE4cFFyTmlQekd2Tm01a1lhNlYtRVNVUVpyUmJpbEQ4bDdHODJKSFBBam9lakE4eTRyUWVkZmNoRGVEeGY?oc=5",
-      "snippet": "PYMNTS.com",
-      "published": "2026-10-20T18:57:59+00:00"
+      "title": "EQT to Acquire QIAGEN in Landmark €10.8 Billion Take-Private Deal",
+      "source": "BioSpectrum Asia",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSWk1MXhCYVRRLXJGTkxlVUV6Y3BjU1pHLTBaMG40dmF5ZVVzbmRabk51Z3FuZlpJbF9wQUVRY3ZGMjc3YV9YWHNlbFdTNmpwMTU1VThpR25HMWZjemNDSjhZd0JqWWtacWhIRmx2Ny10QmQyc21QZjRyUFZpLVp3dEk0cTByV2lyY1dta0dOaEFjbXJzRm9tR3dnOTZCVmQxUXpoQUdLR0ZRRlNvTjFUUVBxbmk5QQ?oc=5",
+      "snippet": "BioSpectrum Asia",
+      "published": "2026-10-22T04:00:20+00:00"
     },
     {
       "n": 6,
-      "title": "Salesforce to Buy Braze for $5.66 Billion in Cash, Paying 58% Premium",
-      "source": "finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UX3dDWFpHM1p0X1JYNUxrRV9TczRvdGREUkQxbEFZQl90Qm16ZkdTbkhoNXg1UHNYNzdjUGJoOWJ3YnlyZm5RUXVDTnJrcG9qdEVpRWxqWGEwU29IQWV6Zk1WWUMtNXNTOXJnNzFGZXVBVDNWaVE?oc=5",
-      "snippet": "finance.biggo.com",
-      "published": "2026-10-20T18:19:00+00:00"
+      "title": "EQT to Acquire Qiagen in $10.8 Billion Molecular Testing Deal",
+      "source": "Global Banking & Finance Review",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNR0xvcGpDNGtIc2lwOEFxMEdMTzQwSHk5dVE0T05fR0xNT2w1Z29mMVpsNGpSR0YtbXRBZFdILUh5MGx0VkJ6c3QwMVQ5bms3NE55bWZqLUZKZGN6bWNNYzhuQ2VGdFJfUlRXNWwzZzZSYy1ER3Brd2V2eGRkdlRfaWNmNjZwMjNKRU5fYQ?oc=5",
+      "snippet": "Global Banking & Finance Review",
+      "published": "2026-10-22T02:29:02+00:00"
     },
     {
       "n": 7,
-      "title": "Salesforce deepens AI bets with $5.66 billion Braze deal",
+      "title": "EQT to buy molecular testing firm Qiagen for $10.8 billion",
       "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUVE0QXkyR1NSaXY3LTNJTE9uQmY1bXhaV19YNzFMejJRZEhFeDJwd1VCdWg3ZjFFM29VYUNkMWRkSVlsMzlpcmZrdzFudjM0MS02dVJOVGFJZW94cFpHSU9JeGNtSHZtbFQzX3VsaWVTYXFIdzIxbmdhbUVncWRZbFc0T25aUDRMVGwzT01LNA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVHkyNW5pTXVNT2J0VFpZaGVHcW95Q3lkRWZ0clJYMVdva0M4b3BDUkwzQkNnRk41T2x3M1E1bDlxUUlCYTI5cVFHc093UU5rYndOcGRpa2FjSHBreml6WGJrbHFBSXhmaTB3QUozeDVQRERJMkhpTDFCUy1zZHk0aWIxcEhpdnJjTUd3bERiNmZleEM1enEyQlpuUDNYekE?oc=5",
       "snippet": "Reuters",
-      "published": "2026-10-20T18:16:00+00:00"
+      "published": "2026-10-21T22:48:21+00:00"
     },
     {
       "n": 8,
-      "title": "Salesforce To Buy Braze In $5.7 Billion, All-Cash Deal As Acquisitions Continue",
-      "source": "Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZjNDS0xvLV83dVFjYnl0dUZXZERlNU51R0RzQmZZcnQxRld0N1JaNTAtaDd4U2xVczJUUnZCSGtMejZZbHBDVXRnTXJ5UUQtRDdpY1ZYQUJPajJ3T3V1WG9UbW1waW5pSzBFaEpIbFBCYmNjaWJVc0xqWVdiMGRLWEJiclJHbXphOF9CTThoVXZOTTNSdURNaXBqSkNzemM?oc=5",
-      "snippet": "Investor's Business Daily",
-      "published": "2026-10-20T17:11:00+00:00"
+      "title": "QIAGEN and EQT Private Equity announce agreement on a recommended voluntary all-cash public takeover offer",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPSW85Znh5SVc5c195OEdmVlZEUnJiNEdFMnh0dFNwOGlUb1phclFaaFVrcWZLbDlad3J0NGJlTTV5dFEtcDBNVlZadGJIcXcwMnVMZWQ1R21rMEk2OFo5VG9wWDJxVWMxSkJ4WVhmb1ZPdjFadVFOampPbkJWVklYVmRpUTF1M1N5LXVOOGlyZEppMlU4bXFua2d4VGI2Z1Q4dVZkRUpVQVhkVUoxajhHSFQybTNWMjlQRXJLVXJaekVPVWVaNGZxQ09iLXB2MG9LQUNRekVGNmFIQkx3NVM0aXFqMzFsVWwwVEdNRldHR25HWXF1THc?oc=5",
+      "snippet": "Business Wire",
+      "published": "2026-10-21T21:43:00+00:00"
     },
     {
       "n": 9,
-      "title": "Salesforce announces $5.66 billion deal for Braze, sending BRZE stock soaring 51%",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pZ01RcjBwTEVaSGJSWEJBRnQ4Y05WZnBuOHEtNlMyUWljdmVlUjFyNmpTNEVRdXVKajk3YUYyNHdVMHhxNHNfNkJCeUJJVkVCbS1CZjE4eWhZMGRWRC1yQUFJMHVoXzdFWFN5WGJBcE1FdzdLdUdXY19B0gF_QVVfeXFMUG02ZWQxek5oajI4THN2V1Rpejc3T2VfM0lJZElPMTVuSWhjTC1xMWNaYzczd1ptYmtWRHdQQXdlbVpvbzFOMUZhNkpKRkZRMmpFcjVqd2F5WmVHai03eEwtRGNka215a0JRaXNtalVkWmZjQllzV1JZTENVblplZw?oc=5",
-      "snippet": "CNBC",
-      "published": "2026-10-20T13:34:57+00:00"
-    },
-    {
-      "n": 10,
-      "title": "Salesforce Signs Definitive Agreement to Acquire Braze",
-      "source": "Salesforce",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNXhmdXRROEJ5N1RhZGJZU2t1WG52UWRYSmZ0VDNmZmFmNWtDRHlqcC1Ha2RNbW1RVkdQb2w3eFhQcXRIcXVxaUs2bHZOVzhEeWZZNWNsNEEtdUZJb29fODllOTQ4S1RiSThzOEN2a2VuUGQ3dTJFOUlycUpwNWpjWExYRVhSN2tXUHNmbG5QVF81MWNYVHJ3cTRfYjRCRmhzam1lM0lwYkhQMnJBZkFRNk1qYw?oc=5",
-      "snippet": "Salesforce",
-      "published": "2026-10-20T12:03:58+00:00"
-    },
-    {
-      "n": 11,
-      "title": "Salesforce to acquire Braze for $5.66 billion in enterprise value",
-      "source": "Quartz",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtX0FVbjZlY0tKMnJVTXUwQVc5T2I1c3FQOWtsaEdVWV9nSFNqdjVyN3BHdkFMUW5zLWJGYTlTanJiTlhLS1lQRjBDQ095a3p0cmMyV2pJMWdwVzhMNzBybVZLV2kwYWdCLUpNaFl1dVE?oc=5",
-      "snippet": "Quartz",
-      "published": "2026-10-20T12:46:10+00:00"
-    },
-    {
-      "n": 12,
-      "title": "Sources: EQT in advanced talks to acquire Qiagen - BN",
-      "source": "marketscreener.com",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUFVDX082U19uN2gzOGFQdWljWGhSMkg5MXU3eEV4WnZsNlRtbVpjSktBd2ZPc20ySkhNN3hUZllDQ1BWUF9HZVFKcWJaRXZfUEk1RERGTlNEcWtuVV9wVWJfaXFPY1VJQXg3YlBhR1pId09Bby0zZ21yczM1UElwZkR5ZWpRVWl1bGMwY010Nlpod2FIcU5LN2U1ZmlXZ3pwQ0ZTZ0F3?oc=5",
-      "snippet": "marketscreener.com",
-      "published": "2026-10-21T04:26:20+00:00"
-    },
-    {
-      "n": 13,
       "title": "EQT in Advanced Talks to Acquire Qiagen Amid Competing Bids",
       "source": "Global Banking & Finance Review",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVkwa3lncFZmY08tTXlCOGVwcjFkV2dFX3IwMDRCeU1QczJaQjMyUkFTNVl5NlJiSlpGTFVGRVlraGc2TDJGc0hxVTVWank0QndnZFI4TnRjVmlrTGJQRkxZcWhNekhGdU9NOEdBVGg2c3hxUm16aWt0aDNRemNNNDlxVkpVNzdycDNScmFrSHZpSXVzbHNFenJUdGNsNnM?oc=5",
@@ -431,189 +381,216 @@
       "published": "2026-10-20T23:54:14+00:00"
     },
     {
-      "n": 14,
-      "title": "EQT in advanced talks to buy testing firm Qiagen, Bloomberg News reports",
+      "n": 10,
+      "title": "Sources: EQT in advanced talks to acquire Qiagen - BN",
+      "source": "marketscreener.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUFVDX082U19uN2gzOGFQdWljWGhSMkg5MXU3eEV4WnZsNlRtbVpjSktBd2ZPc20ySkhNN3hUZllDQ1BWUF9HZVFKcWJaRXZfUEk1RERGTlNEcWtuVV9wVWJfaXFPY1VJQXg3YlBhR1pId09Bby0zZ21yczM1UElwZkR5ZWpRVWl1bGMwY010Nlpod2FIcU5LN2U1ZmlXZ3pwQ0ZTZ0F3?oc=5",
+      "snippet": "marketscreener.com",
+      "published": "2026-10-21T04:26:20+00:00"
+    },
+    {
+      "n": 11,
+      "title": "LSEG Seals $3.5 Billion Octus Deal as Group Fights Back AI Fears",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTUxhTWcwY0RIRHhvby1mdXQ2dk9qRnhKNDloT3dRYXZFUXREYVpQNXNsNjFXSE1ydVhrQjkwWjBpSllBVlpJbUQ0a1hNVXpvbzFxUWtYcldhc0oyeERMbzhXVzRnbXllUm1naVpyY1hsem1SNFFqMWg1V2FKeTQ1YThuSmMtdGtPdERQd0ZpN1JvdE5sbzUydGdCczQxMV9jZmVMZXlySQ?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-10-22T08:15:51+00:00"
+    },
+    {
+      "n": 12,
+      "title": "LSEG agrees $3.54 billion Octus deal, lifts 2026 revenue, margin outlook",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMzhhQ2tvZGZNUlM1T1UzSGhfTnU5SmdrYnR0Y09vUG1aZm9DVXJrQTFqQkFsZUhHXzZ6RUpScGRmLTVPR3ViS2dGOUgzS1lCU3BEMk11aDdCakZqWWpCUUNySVZIVXBCRUUxaVV1cEo2Z05fMUlXamFrT3JXSGFnQ082WER1REQzUXNuLWN3aUk0eUE?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-22T07:39:47+00:00"
+    },
+    {
+      "n": 13,
+      "title": "LSEG to buy Octus in $3.5 billion deal to shield from AI disruption",
       "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTEw5R3RCcmpmT1Y1ZWRURTFGN0VvU2RHLXJWTVFKSm9JcVN0cUhqNW84eENZS01KelVabkFIZmhOXzdXaG9lcWR1N2ZodDlWVDlDVnV4ejhnNHR2UFdobHp0SGVPbkxNMFhkR0dHdjJOeHo3QXdMZVA3MHVpM0RTX1R4TmlOVmVRQnBpR1IxZ2VfcURSa2NIaHhETzFIZVdDUGVNY1NoSDJTZFp2M3Q0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYlhBWjdBekVLajlGM3MwN1ZnWjRRMGR5OWxkalNveEVuNEJrUTBVOFBNM0x1dENhckFRUzFzMnh6VHVJd2dHMXFLa1ZGdkU4Qk1hUTRuYU9MRGJmcnJXNjRnOWEzdW83cktMemxLYUdyX0F5bTJfSTZFOU1wclRsWlkwRkdodHBEeG1qVW5GUFRsVXBsV05ScEdjbTJHNDg?oc=5",
       "snippet": "Reuters",
-      "published": "2026-10-20T22:15:39+00:00"
+      "published": "2026-10-22T06:05:00+00:00"
+    },
+    {
+      "n": 14,
+      "title": "LSEG in Talks to Buy Permira-Owned Credit Firm Octus",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOUNkN012T2Utd2J6NDVXNFFnNjdvMFlNWndrNXlOd1k3VzBKTmo3SUpVNXZjRVR2WEdXdWxZeGNNS1F2R21xZllkZEF5Rk0zTHMwNVpUdjJES05ldlF0dTdnY3g1RUJTMHFhWmVtMGEyM01fc2NvUmRtOGNDRXVfOExYWUhrUllWcXY3aDZGT0hWYXR2a2gwanRSMHV6MmdMRFFFU25HSXBvd2YzcS16VTN5eklZQTBRakpRbjdOTXVLTFJX?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-10-13T12:00:26+00:00"
     },
     {
       "n": 15,
-      "title": "EQT Is in Advanced Talks to Buy Testing Firm Qiagen",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNnlYSV9qcTdtYmZCTVk2b2xzeGFmYU5QbTVpT1FsTFo3SEhQNnlCdkRvZFZNR1R3SHVTNGIzY2JGM0hwSVZ4b2M3b1hFNzdlaTQwdzBYVjlaWlNkeXVuWG9DMjJSaDhLMkpEeTl6azJzWFk2Rkt1VjQ0azF2X0x2QTJTa1pKeVNWYkw5XzJFYm1oMVRWV3RheHNWMEdyYWFIY2Z4VA?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-10-20T17:00:59+00:00"
+      "title": "Circle8 granted second extension to firm up SThree takeover bid",
+      "source": "Staffing Industry Analysts",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWGEteXJEZzBOS1NNNDJGc1R3RWtwTUJaYXlWNV9nc3JuZ2swOEVfcEs2MjZSWTNlRE85eVpYTFlndVJaTkgydkNkRkZGS2pWdU01MmVLd0pZNEJURzRXU1RHYU40dGRkdlJxMFhRS2RqZV9VMFFfalBmbFpQM2d1QTR0cnJHQVMtaUJqdmd2dy1ZZlFrbmNaa3o5UkhXaDZJRUZ0RExwS1ZXQlNHRll6NTh2TWp3dVc5ZTc4?oc=5",
+      "snippet": "Staffing Industry Analysts",
+      "published": "2026-10-22T11:57:38+00:00"
     },
     {
       "n": 16,
-      "title": "Qiagen jumps on report EQT in advanced talks to purchase the testing firm",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOLXNtUklkd0dqbXh3VUMzZnBnSjlCVDhKbzNxUmZFSnpuSXV6cTdIMEVLUGtvSWRNWFFZb0hVekFZRTNVN0ZsUldTMDhENjZlaENUYXdZSHRqYzQyaENuRjl4TFZJVXVrUGdsdVE2d0NhdVJGN0I2dHRpMk01NkdkT1UycVZXNkJUcXU3dFFhSjZma2VGekg5TW1TQjFLS0gxV1ljWnZORjdaYV9nTjRzNW1mVVVzOFJac1pPZWlxNDNadmQ2WFBta290V1FBUU5qU0E?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-20T16:43:55+00:00"
-    },
-    {
-      "n": 17,
-      "title": "Hackensack Meridian Health signs definitive agreement to acquire Hunterdon Health, commits $230M",
-      "source": "Fierce Healthcare",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdnloa2xiR3AyVjhWbERhWHJqNXdrNVFzREtqbE0zdmhmeW5Md0h6Vkl2aHVvb25OQ1VQUTJLVDFKMWdhalZ6OXhDZzF4aHRyRkY4NEg3SGFmeWtkNE9Oai0xQk9qS0Z0Vm1IRTBtTjBaTG5BakVOblBRaFRqcmd5NjJjbjBmb09WWWNFck4yMmNlNE52dExWWWJIQWp1TjBSQWVjSDE4WDhSVzZRUEVmZ3ZxMExJT2VCc1FENV9jWmg3VzFU?oc=5",
-      "snippet": "Fierce Healthcare",
-      "published": "2026-10-20T20:24:26+00:00"
-    },
-    {
-      "n": 18,
-      "title": "Hackensack Meridian, Hunterdon Health sign $230M merger deal",
-      "source": "Central New Jersey News",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ2xYaTdMUElVQndVVzF4TjBKMmIyUHZ5aHVzSE1MeXhjdlRST3NoTXo5aThGSjhSZTN0UlEwX3dlcWZsSFhmQkdKSGlOck5laUkyZFFlWVhaaGFXSEg2SkQxNHlrYjRldGxuM2FiTnNOWURHRnh2dGNxN3pROFdEQS1xbDBSX2xmSHpuMmsteVhldFAzOGt1TjdQMTBYUm1OZmVXVEZJNXVWTFNISHlBQS1hMV9nQUZydEczUl9xWQ?oc=5",
-      "snippet": "Central New Jersey News",
-      "published": "2026-10-20T14:42:00+00:00"
-    },
-    {
-      "n": 19,
-      "title": "Hackensack Meridian Health and Hunterdon Health Sign Definitive Agreement to Merge",
-      "source": "Hackensack Meridian Health",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQ3E5OGYxSG9GYnhjZkswd1pLcWpPRkFzalZWQzBtdmthQ2xmbkhmUFJOTHpRRnBLeDRGTnpmdWlTMDhuUzFaZHRtejVMSmNZTGNSTEVpbWUxdnJrd1JCTEp3Y29YUzBxZGpMS2R6N3JIUnJGeHc2eWxna1BwZ0s0VEloc3JNdkRHVmk4VDE0SVlIZGlJcnlEaWFvb3ZsRHBVRDJPQ3NZUzBnSmJZTHBsdV9QWjV5NFZVSkJWdkJjaDBVZXg5QllVd3o1c2VTczVZYy1Hck5mZVhMQQ?oc=5",
-      "snippet": "Hackensack Meridian Health",
-      "published": "2026-10-20T14:40:11+00:00"
-    },
-    {
-      "n": 20,
-      "title": "Dream Finders closes $2.2 billion all-cash acquisition of Beazer Homes",
-      "source": "HousingWire",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVGU5cmYtREhTczI0Q3RPS1BOTWRxZXIzYUIzcnU1aExJWVFSYjkzV1BlNU0ybGNhM2VsVmRFQWlIeFpQckRzc0ZQUkJEZHlRTW45enJTNXBhNEtWdTNFc1BGR3NXN0MzQU5HVlNTNFkzTkNsa1hLTWw2RHNxell6WDd4cw?oc=5",
-      "snippet": "HousingWire",
-      "published": "2026-10-20T15:01:15+00:00"
-    },
-    {
-      "n": 21,
-      "title": "Dream Finders completes acquisition of Beazer",
-      "source": "Jacksonville Daily Record",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZWYzNTZ2VExiODZ1NERCb3hsb1dqSlotdWs4a1AyNkk0TUNzU3hJUEN1YW5NMDBkdmFVRlFYNjlqMzFtSHBZd2R6VXBYcFlGUnhaX0M3aGdkVmhkdlFRenBLNEEwdWpyeHpQWWlXcFN1OW1CSjJEZ25GX0ZlSHcxN0tVTjlyYVJtTHlkWTNxbWhCc1IwcWxrUUNB?oc=5",
-      "snippet": "Jacksonville Daily Record",
-      "published": "2026-10-20T13:58:00+00:00"
-    },
-    {
-      "n": 22,
-      "title": "Dream Finders closes $2.2B Beazer Homes acquisition, becoming nation's sixth-largest homebuilder",
-      "source": "The Business Journals",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWU5UejVhcjBDOFpUQlE1bThQSklVQi1KS0phNzE1TkJ3b2t2V0g5ZjRpRHl3X1IzQTk1cTg1RFJvVVhEUmJvUGlYdVNnQTV3TmVwVC00NGROY2tTZDIyMXdXSVNrNnpWNHU2MXNqdHkxaHloYjFnTXZZN0FLaGZjaDdfX21xNVd5ZGQ2S3NCSVA3LXFIOWxBVEc0M3RPNDA?oc=5",
-      "snippet": "The Business Journals",
-      "published": "2026-10-20T13:19:00+00:00"
-    },
-    {
-      "n": 23,
-      "title": "Beazer Homes Stockholders Approve Proposed Dream Finders Homes Acquisition",
-      "source": "Builder Magazine",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMzQ0QTN0OGU5QjRpb0dTZExFbmtWeXlaVmFfWDVLb3ZjUjNpemhJMmpnR1g1TVZkWGZVRzFQZmg4NVByMnBieDE3RUQwVFQ5NVF5bGpJbUpYMGJSVXNoX0VYSGN3OFBRcHZlRjQzeHRtRm1SUGtReXlpZ0ZtbndQU2FSeXNTMlVPTzZwSTFHVU54VjZFMS1lZHdkWlJObS1KQ2NTelJYbEkydXM2UUZpc2piQlU?oc=5",
-      "snippet": "Builder Magazine",
-      "published": "2026-10-19T14:39:22+00:00"
-    },
-    {
-      "n": 24,
-      "title": "Plurilock Sets Vote on Quantum eMotion Acquisition",
-      "source": "The Quantum Insider",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSFNCVEUzeUdLQjdUN21XVnhCSE5CaGdzS2V1bXRlX0VYM055TDVkbkc2MzYxSE1fMG1MR1FLWDB6dE5ONVoybEZPM3hMVjYtc0UtYzVSTklIWVQtcDBTRG5NQ25ibGFIUGhMMHVJcGRETjB1VUY4RHFXekVrX0gzNkxPZzlEWWwzSjdKdGIwSmlCWWJrOXd3?oc=5",
-      "snippet": "The Quantum Insider",
-      "published": "2026-10-21T15:42:26+00:00"
-    },
-    {
-      "n": 25,
-      "title": "Shanghai Top Numerical Control Plans Strategic CNC Acquisition to Enter High-Growth Sectors",
-      "source": "The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNVDUzNi1zUThBT0EtNGhkMHpYR3JOQTZ0X2RNNkI3NGxGcFVIYUQyeTk1THROU2JwYzB4YUtOalhPVWhCVjVNWlVrWkpqaVZnbnpnOTZydGJyNXVSbUc1a3BrMDNaVUxTWkpabUdmOVYtZmVlWW1rMFhnVE13d2VCM05JSHZ1NnNjUmxkRWo3dGlCLU5oaWFOT3VlNkpjUThNRjY5NmUxVkJ6ajNULUVjZlJkSzlLNGdiNWNtODJTTVFWOW1PZ09XSndOZmZDQkFrODc0cWhnZi1JUjAtNENCN2lFQzhkR3FvYmtOV1haS2Y0S2dSTVdERHFVbTVLeFdTN2c?oc=5",
-      "snippet": "The Globe and Mail",
-      "published": "2026-10-21T13:49:29+00:00"
-    },
-    {
-      "n": 26,
-      "title": "Finnish Metso acquires manufacturer of bronze alloy components in Brazil",
-      "source": "BNamericas",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeWVIcmNwSl9LQlpfM1l6dTR4aDlBdVJBeHMxeUJkUnBOeHczNzg5YThFWG9GdnNzdFdDcFB1QTFxVjFyUkdyaWhjVmZ3bVFxQ1RLNU5nUTE5ZTNYQmxBUmRmeDZDRVBXcTEyazJBRkhSODNES0x1Q0ZJQ1VXX2ZWSW9hTS1zSGNHN1MyRlo3OFZsWTVJU05qQjU4RzN6UHZTSTFJc3haQ1h2Wnc?oc=5",
-      "snippet": "BNamericas",
-      "published": "2026-10-21T13:41:42+00:00"
-    },
-    {
-      "n": 27,
-      "title": "National Express owner Mobico in £282m takeover talks with Spanish firm",
-      "source": "Business Live",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcDc1RXRtM0NSX25aTk1GZm0wQWI4eXlLTkVQWmdQM3dOQUVnX3d6aWwyYjJaMDRmUG5vbGVOVWpUTTNHRHkwbjNXd3hiS2plSHpDMS1JV0IzVGx2elA5VHAwZ05OaU80eS1LM2RLUFFCN0tXVENyN2MzVllwS3A4eXhaalpqdVBLeGdxRFhRRGlyVEUtQ24xMk10Z9IBmwFBVV95cUxOcDc1RXRtM0NSX25aTk1GZm0wQWI4eXlLTkVQWmdQM3dOQUVnX3d6aWwyYjJaMDRmUG5vbGVOVWpUTTNHRHkwbjNXd3hiS2plSHpDMS1JV0IzVGx2elA5VHAwZ05OaU80eS1LM2RLUFFCN0tXVENyN2MzVllwS3A4eXhaalpqdVBLeGdxRFhRRGlyVEUtQ24xMk10Zw?oc=5",
-      "snippet": "Business Live",
-      "published": "2026-10-21T13:00:00+00:00"
-    },
-    {
-      "n": 28,
-      "title": "Albertsons didn’t risk fiscal health with $4B pre-merger dividend, former CEO testifies",
-      "source": "Grocery Dive",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbTlUMmdWMWVRcVd6U2Q3bmRXc2ZwdE9JR2VnTFp0RkgzdUlKeXJHbjNtX3JKWlZQQXJ4WGJia3JyQXdPNnVXeXByTF85SjQwVEdJWDF5YmxrU05XSEdaN2p2WnA3TEFXYWtPZ1BhbmR2VkRoa2ZlM2xHcndiU2FwVHNmZmt4ZkVFWGFfOG54T0RWbUZMNDRNUUZfTjhMMmJLVmJOM3Nzdw?oc=5",
-      "snippet": "Grocery Dive",
-      "published": "2026-10-21T15:56:34+00:00"
-    },
-    {
-      "n": 29,
       "title": "US-based Circle8 gets second deadline extension for SThree takeover bid",
       "source": "Reuters",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSlhsVmctcXc0WjdWSFg2S081YU1QbFEtT3g4cVhvUVF0Z1VHZ2tvLUowWktsN3Y3bk1XeWJyRTVJMjgySlVoLVBRSFl3cEpuNl9BanVaOHNoSTZwR3NiSEhFdDlJQzJJTExNZzNHVlBrbnRQYm5ZNkxWbVU2NTU0eHpZZlZpMVFTT1d1SE9zNkxCZlZ4ZDgwdmRUWVZlREc4YVlRa0xJVVhXeTA2TThrMjZjbDBHcldLX0JfUzFlMTQ?oc=5",
       "snippet": "Reuters",
-      "published": "2026-10-21T15:43:00+00:00"
+      "published": "2026-10-21T20:16:23+00:00"
+    },
+    {
+      "n": 17,
+      "title": "SThree extends deadline for possible Circle8 takeover offer",
+      "source": "Staffing Industry Analysts",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFQ3dl9IUm4ta1FOVWo0c29KOG5LTkJSdU42aU9tOGZNMjVPWmxNM0JmTVJscEVJWllON2NYTlRzQVU4cGZtbmhEdEc2elF5WGg0NWZNNnFfUGdVM0VvVU9SNnJoRThGWDA2SWxkZFktVkdkNjNvS00xNFp2TGxJY2xNY2hhYjhwLS15MERSZHZSOTk4V1NRcDBxcjRCZEo4NzBJbkQzeDZvU3lNLUFoYnJ5QlBSUQ?oc=5",
+      "snippet": "Staffing Industry Analysts",
+      "published": "2026-10-08T12:47:14+00:00"
+    },
+    {
+      "n": 18,
+      "title": "US-based Circle8 gets deadline extension to bid for British recruiter SThree",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQTF2V0tydDBfLUdGLWxvS0ltX0tjNUw1UEFNSVhtMDVfaXF3ZGxySl9iMjM0dlIyLWJOZllXY2xDM2FBMnlMMVF5MW5wZ1dfd09MMlR6VTdROVY0QTZPaWpxZUZNa0c4b2s4bzBhazZCYWFvVGF0OWFmeUpocUVXck1hd0dKTjRYS09Vb2dzeUlrTXQyVmJVT19Felo?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-10-07T16:04:09+00:00"
+    },
+    {
+      "n": 19,
+      "title": "Cencora To Acquire American Oncology Network In $2.4 Billion Deal",
+      "source": "Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMGxWWk9zWVRDd0dkbEtQSEh0RlRaVldjOUtYaG95bnB4RWd2aVhmSkpuTE5YbmpPRDBvRnlzZklTdDVoMXpPMkxBZHVjRG1ILThkczM5U3dVYWhRa1BhTVBGR09NOGNlTk4yM1VndWN4RVVYT0huZlNDRjdfMkxBMmxHSVZTQVNEbGpWdw?oc=5",
+      "snippet": "Pulse 2.0",
+      "published": "2026-10-22T09:49:58+00:00"
+    },
+    {
+      "n": 20,
+      "title": "Deals tracker: Cencora to acquire American Oncology Network",
+      "source": "Modern Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOFRqZk11amFzZnlZQnpGLWRMLUZDaXF3bUJGcUVMSTRXNVoxQzRzY2FHY3FpWjM2WWV3LVFReTJmQ0R6X2NWa3RwQ1BTcVBnT3pjV0JabVRaQ1QwNTd4MVZXeDNzR1MyRFdwT1ZXRHd0cDNJbUluYnFoUGNxM2s0dXZpNC1vaXN4ZEY4SWdHQjE?oc=5",
+      "snippet": "Modern Healthcare",
+      "published": "2026-10-21T16:03:00+00:00"
+    },
+    {
+      "n": 21,
+      "title": "Blackstone, Apollo unit may be able to buy minority stakes in NFL teams - report",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQa3pyR3dmVmU5TFRzZFdOdnFtMzlUamEzQlVlZ2VoMGpwZjVtaVdqNk1JSTJNc3FnZHptYXJCd2Z2Nm90V182M3J5ZDBUekJHNUMtM3hWQ2NWc3NqdUpBSXlwemN0ZW82UjBseWVKTlpVakZGYjVicFNGZU1NRWlHR0s4Szd1eUdNTFNCRnMzOGJNYXdCMVFMdnhSXzVzcHVkal9fU25UZENnQmZTZWlET3FEQWZhR2FfTGMyOVVRTm9tYzc0OEt3dEpXamRQN0VKZHRURE9xaw?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-21T17:34:44+00:00"
+    },
+    {
+      "n": 22,
+      "title": "Apollo, Blackstone Have NFL Aspirations, Seek Approval to Buy Stakes in Teams",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVUU2NnN3TndOdy1rS2pvaU5vSVVSZXREU2dCUDRHU3MyMUdoN1dMNVBRMzlsODlqY04zRDMyM0tfTmQ1OTZkdHU5QlBUNjM5M2twWWVLWEJkN0praTZMdFZ0Q0NQUVVWYkExbkpfZ0hWQ3htMEFlWEFqVTFVWjllaWtaN00yT2NicG9hY1VHMmpCdnRpQzRfcnFkTklfeEd1QjZGUFI1RlN2WW81VzNjaDJ2WlgyLTIyVl83UGlEQmJ0aFls?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-10-21T16:15:21+00:00"
+    },
+    {
+      "n": 23,
+      "title": "Plurilock Sets Vote on Quantum eMotion Acquisition",
+      "source": "The Quantum Insider",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSFNCVEUzeUdLQjdUN21XVnhCSE5CaGdzS2V1bXRlX0VYM055TDVkbkc2MzYxSE1fMG1MR1FLWDB6dE5ONVoybEZPM3hMVjYtc0UtYzVSTklIWVQtcDBTRG5NQ25ibGFIUGhMMHVJcGRETjB1VUY4RHFXekVrX0gzNkxPZzlEWWwzSjdKdGIwSmlCWWJrOXd3?oc=5",
+      "snippet": "The Quantum Insider",
+      "published": "2026-10-21T15:41:50+00:00"
+    },
+    {
+      "n": 24,
+      "title": "Plurilock Files Information Circular and Schedules Shareholder Vote for C$33.8M ($24M USD) Acquisition by Quantum eMotion",
+      "source": "Quantum Computing Report",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZFg1Y291dVAyQmN0WjBrdnVLMzB3TGF6b0xUMVR2bVVfeFE4YzlEejVIanY3VlRIWEM0T2s2WGdNS1FhNEMwX1dPQ1BvRVJDaWQwOXNiNzVxQklrc3YyNFFCVHlELW9TZTZ3ODBkR1ZWZHhmaXY0UFVNeUFKc1ZDcnViM3RyQzlHSHpOdTVvbkhKYmNZanJzTjcta1BSY1M5ejhCN2Vma2dVSFlVS2g2OHVJY2ZLQUNQLXNTWmk4R2FSd2dPRVVJZU5mNXJUbWVlalpEWDc0dThXRTJfLW1nRWhncHFXcUdU0gHuAUFVX3lxTE5nR3g3VzJjSFV0ZF9GUEdmdGpfV1htaDRUbUdUT0wxYXFxR3d6S0ZyOG1majJhT3FraXZScEp5bFEzUFY1N0hFRmM4WTBacDNRbVp2N0ZpWHE1TDYxTHpfWWpuNzFTQ1hjTS1fVWFRdTFfZEFJYjl4ZVg2TTdYc19GQ1dfeDU5dl9qanFWQ3FsbTZlNmZZQWxVNTZTWlhsNFdncWUzbmh3S0NzYmQ5SjRQVVNzWlRITU9jV1M2Tmk1MUJvenlrTW54UlhETkk4Q0d3Y1VMVkVCS1YxNVV5QWFmRzVJWXNCRUMyT09mR0E?oc=5",
+      "snippet": "Quantum Computing Report",
+      "published": "2026-10-21T13:49:17+00:00"
+    },
+    {
+      "n": 25,
+      "title": "Smith & Wesson acquires Savage Arms: $160 million deal brings together two historic brands",
+      "source": "All4Shooters.com",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVTJFeXJ5XzdId3k3VkRUTjdYTTRGT2lHVFdVRUNuUjBEUTNaYTRSWUgxVkdoZU52M0NrYU9xeDBKWnR2QTBGcE50TzVtdjBOclRIbl9XaF9aaGpheG9WWk43Q1FZVXU2UWdHdjZHSWdRTzJKRGlCSzNWR0RSZ3ZjdzhROU04cmJyUV84?oc=5",
+      "snippet": "All4Shooters.com",
+      "published": "2026-10-22T12:56:21+00:00"
+    },
+    {
+      "n": 26,
+      "title": "Techouse Expands Offshore Water Treatment Business with Ambio Acquisition",
+      "source": "Offshore Engineer Magazine",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcnhOdHFwbjlkX04zdzZWLVdBZE9iNXlHcVNiVkNBNzEwUEhxX1VSYUJTRlNIX3YtX0tBUHRQaVdFU3BueHN5V0dFbzZHcml3STNmQWVSc0lGSGRqNTgxVGs1a0lFWDlBWXZleHNmOTU2TEpyVERZNjhNaENnZnQzQlpScy1lS29EOThQVDVQY0VBRjJBM0hId0tVVHFXQTVBQ3BRRHk5U1RnZDRzWGoxQg?oc=5",
+      "snippet": "Offshore Engineer Magazine",
+      "published": "2026-10-22T12:27:24+00:00"
+    },
+    {
+      "n": 27,
+      "title": "Shareholder Investigation Launched by Kaskela Law Firm into Fairness of GoPro Inc. (NASDAQ: GPRO) Proposed Merger; GPRO Investors Encouraged to Contact the Firm",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPQXctcjVxUTRSd0xVbmY5a1dxSlBUWXN2TjdWbkFqeWx3OWlPaHdZR190LXdiWERfaDVkdGhtRFVYUkhMUUtEZTlscmJ2U3ZCcmdtVjZDQUJ5Q19EQmUwTzRfVU10dVN0QVJDY0o2eXMtdlM0eFozQk1Wb3pnSThnTlFiTlVudjlFaXNmXzhwRXQ2bWVzaFluSy1mUHBXQUlkQndpeFVsNnlwVTJyR2lid002MVVyal80ajFETXZfYUVWQUJkTHp0WlFfdndwd3FvLTRIVkNNU1NqTHdTNmhLSEt6NkhQbkw5a3pZbkl4djhabTNuY3EyZG1IWU40RzI5Z0VoMUljWkxDeDhDV0dVcHlHOXBwamJORGkxSU1fTElYM25Yc3BRRHNMLW1sVG0waUpmb0dLOWJrdGtj?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-22T14:02:00+00:00"
+    },
+    {
+      "n": 28,
+      "title": "Perfect Corp.: A Merger With Little Upside Left",
+      "source": "Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRDdkM3ByaTVLd0JBYU5jeUVmV0lwUjZPcjRWYkJUamdfZlhfd0xNcU1FV2pmUVVKaDlxbnd2Q2VwX0ZyVjI1R0Jpb291d2NLNF9RMVFUaXdGeEw3aElfU0lOd3hDa2QwZTN5ZWpCWVJaTzR5V0h3ME83T1NiV0MyRXdxaUJacXBZTzJXenZfZw?oc=5",
+      "snippet": "Seeking Alpha",
+      "published": "2026-10-22T13:43:30+00:00"
+    },
+    {
+      "n": 29,
+      "title": "DataMEDS AI Expands Healthcare Technology Strategy With Proposed IP Acquisition and Licensing Deal",
+      "source": "citybiz",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdDFvOGtJM0o3eDBuMkZ5Y2p0dV9NODJDc2RWR0V6aGtPZXFnVnA3VU5vWFVtcnF0OFQ3VDZ5aUhHTkI0clFLVG5hTUttaEN2WHR6UktzR0dEZ2hndHdjUUdTWm5OdU9iYjZJY3FNY2xXOEdKRVFNNE9rVEhqZ1hOeEkwVmhCSEhoZzBQS21yYV9qUWszV1RQUzVoNGNYdnhIeHRqaHJ4TVlZSFpJNnoyVWxwX3BKYVlheFFqb1JKUTZHWHVVMjRjZWFfeWNxbFM3TnRV?oc=5",
+      "snippet": "citybiz",
+      "published": "2026-10-22T13:03:41+00:00"
     },
     {
       "n": 30,
-      "title": "Strikes called off at four Lincolnshire schools after 'challenging time'",
-      "source": "Yahoo News UK",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbHNyX09OTmJ5dHZySURUcXdKMjJ0cW4ySTVUVXZKbi05VFFTcmdjcVl3M3MxMUxZM2NzX0puZDBhbzd0V1dMaDdDWnNhZDdMQkh3MjBYT05va1FwaldSbDFXc2NMQ2UwSXE1d2xjd29jY1dqaTExZmo0dDkzaUpnMFM5NA?oc=5",
-      "snippet": "Yahoo News UK",
-      "published": "2026-10-21T14:34:40+00:00"
+      "title": "PE Weekly: M&A Roundup Oct. 16-22",
+      "source": "ACG Insights",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54ZVczanFublV3TnZZd3dpMzVnU1RFb1hoWDhwcHAzWGdJamhkT0lUQjdveHp0ZC1EcUFvTVE3NHpHc2JUQjdDVmdkY09xclYxOExlQk5lUG1SYWFqeEdtWm44OVVjQQ?oc=5",
+      "snippet": "ACG Insights",
+      "published": "2026-10-22T13:00:58+00:00"
     },
     {
       "n": 31,
-      "title": "Kroger’s ex-CEO defends effort to close failed Albertsons deal",
-      "source": "Crain's Chicago Business",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQWcxUHBOcnl3NkpXQXNabFMtSm5QSkl1RkJLQmlBSTVPVUlGaXZ3UlpDVThreTNEQ2lXVDFKeG50a1VKMEdIS1dxQk1JSi1EMnZaNXZodDZERzNacjFhSURMUTcwSE5Ma1ctMEtySU82ZDFaRHRlU1R3ZU5HbXQ0OGpLMlU?oc=5",
-      "snippet": "Crain's Chicago Business",
-      "published": "2026-10-21T14:18:00+00:00"
+      "title": "Charter Hall Buys Brisbane Industrial Portfolio From Garda for $211M",
+      "source": "Mingtiandi",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV2laWnhuOVpWbXdGY0ZEYm1jQU4takdjdWg5TGVnVEFzRVlMVWdjYzNfZkozSExhNmFkb2pUWWRjNUNpazgxcjVmMElaYndyZUphRW9IMGQ1dWFhaHg3M3FfMV9maXY2dEhGYkxDdDdCR1d3NnNKc0Rld1dtVGt0b0dXOTNLMVlzRm9Dekx4MmZ1ckFha3BQZGZDMkkyTW9SUzdEV2NyOGtfa3NsSWgxRjA2V2owdGF5?oc=5",
+      "snippet": "Mingtiandi",
+      "published": "2026-10-22T12:59:57+00:00"
     },
     {
       "n": 32,
-      "title": "Will Elon Musk value Tesla at $420 for SpaceX merger?",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVk9GVXJCZmtpMTA1VWFsdGIxZm1JY2pFeGtDWW5ZT0kwZTBsaUhUeFVPbHk4dk1zQXZzaTlYUDRZbC1YajZEeTFTOE5sZkt4dlBmakRXV3h5T1BSYXFwQ0hyS1oxa0dkNjhzUFhMNk5CSlVKRTVwSkoxMWNvdFlPUS12S0hfazlsbmF5WVZQRXpqXzZJMnZITmNvckNNdGI5TTdfQldvemtZcEJDWkhiYXdHYmg?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-21T13:38:09+00:00"
+      "title": "ADNOC's XRG in talks to buy stake in Eni's Libya oil and gas business, sources say",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR1g2NkVwaGlBeGlfNkxLTFhLYzdVOW42cThDUFRoVDJJa3RsSF9xdGxleFhFTXdHbHdTZFJFNk9UaTMwOXhtZHYteGJKWWgtNVctU0lwcWppNUZQWGl4SlpQUHhUbWZmbXFxWVNxbUlBNkx0U0NSTFQybWExWU9aLWVGa0lHaWNDOGNoYm4weENEVU9GbmtoZzlSVVZEdHNJbU9QU2JxQjNsM1B5NFNYcEtuSWw1TGVEMHc?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-10-22T11:51:43+00:00"
     },
     {
       "n": 33,
-      "title": "South Korea's Korai Flix to go public in US via $3.5 billion SPAC deal",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc1pCMlU4VTlsRDdnMExmakNfNl90NTR2Q2pxM0g0ZVFxZExvSHowUkl5VFlPLWtkNTc2UjVzU3FoTmZDYlJ3c2FHaUpQekdHR3VlMWtOTmt5QjNkYThBa2dSb1RvWWJtdE51MWxoQU1qTzZOSnlZMTZxc2JNSkVyLVBRczE3MTRwLTI2Y0lURHBaY2l6N1ROZ0ZQdHlZa2lz?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-21T13:02:09+00:00"
+      "title": "Dan Ives Sees 90% Odds Of A Tesla-SpaceX Merger: Eyes ‘More And More M&A’ Across Space, Industrials",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQZF9RWjdSVUtCWkd5Z3FrUGtuRUhNODh0c1Y3OGxSeHZsWkw1dFl5a0hsRm5ZOUdSNmFfLUJsdHNQYmRDbi1JZGJpb2ZwZmlna1RSVk9rTVJDa1JDb2RkQkdPV3JOYmpFMkFhLU12U2llUjQwTnltTFRMeVpPcUcyRVdvM3dHbjQ0VUlDTjhrMkRTQW1EY0UzTlEwYjZCSEtMUTIwdlB4dXFiR1ZFS1NCYU9GcVJEZUpRQnRrSGdrWmROUElEUFNyYThzUE03ZFFKQzBzbEFmMHVSaWlEY29uQVJMdFNNUTVfZUFZ?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-22T11:44:55+00:00"
     },
     {
       "n": 34,
-      "title": "HomeTrust Bancshares, Inc. Announces Financial Results for the Third Quarter of the Year Ending December 31, 2026 and Declaration of a Quarterly Dividend",
-      "source": "Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPU2N6TWxtSEJhdVBFbDdUWG8wTUlZeEV2Y3c1ZDJtMTI3QjVfcE9GTE9OVlN2cWNkTVljOUN2Q3VTU3luanpJdTFMVWpRYjFGVktHdEJSY1dnRW9OajdzeUt6RWl3UmdLSkNkcnZ2d0d2THdackpKWnRpbEoyVFhkMGNyS2RkdEJyQldaNlJVMFlpeFA5N05JUWpUb1NkRDMzc3E1NkRHT1Vmcm9IOUpFRi05MmRpNURUbmhSTHVXejFaR1Y0ZU5ZU2JCQUZfNEM2cU9GaGZTUlpqcllxdzhaaU5TYUdJY2Fsa0xJV0w4SkN2QU5RclZKOU5lTEdSQnBkRjRncXJId0J3UjhKUzJxUnlVVEJfSG1uSWRQV1NLSFJIcEpEdkVEelNkMDNoTHZjVEE?oc=5",
-      "snippet": "Business Wire",
-      "published": "2026-10-21T12:45:00+00:00"
-    },
-    {
-      "n": 35,
-      "title": "Futures orbit around SpaceX as Tesla merger talk cheers investors",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdHhXVDZJbEtBMTFpUDZWc3NNb3FpRFBRTkw1Z3BtaGExSW4wVlNpS2dVU1A5SjBRclBEMks1cGVtNW9IVmo2N3NjcUlsNHBHUjNTbXNtQlh4ZXZSVlBreVlrdjlRZVB3NXV3QU1EM09iWEhqWkNncmZ4eTMySnlaczhBN2JVNmt5TTZUQWQyNzRVbTJodE5sZHhXMEgxTmJKSmxuUi1neE5OUdIBqgFBVV95cUxPdHhXVDZJbEtBMTFpUDZWc3NNb3FpRFBRTkw1Z3BtaGExSW4wVlNpS2dVU1A5SjBRclBEMks1cGVtNW9IVmo2N3NjcUlsNHBHUjNTbXNtQlh4ZXZSVlBreVlrdjlRZVB3NXV3QU1EM09iWEhqWkNncmZ4eTMySnlaczhBN2JVNmt5TTZUQWQyNzRVbTJodE5sZHhXMEgxTmJKSmxuUi1neE5OUQ?oc=5",
-      "snippet": "CNBC",
-      "published": "2026-10-21T12:44:19+00:00"
+      "title": "Brixton Metals Announces Closing of Option Agreement to Acquire a 100% Interest in the Silver Focused Silvergruvan Project in Sweden",
+      "source": "Yahoo Finance UK",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbUE0SGc1c0EzTmlITEkzVml0Qmdvdno3aFU5NGJrSWxMeURZeHFhQ2ZnR080MUZqOGtLMXRHczNxOFVvdHVDd05uc01Kc0g2SU80dHQzQTgybFJjUnJ1ZTNTU1FtWkUxa3ZWQXZ2TVpEVjNraXV3bEpnYmJtSHNxVXFLc3d2dXp0MEhOQ2E3UHZQdw?oc=5",
+      "snippet": "Yahoo Finance UK",
+      "published": "2026-10-22T11:30:00+00:00"
     }
   ],
   "cited": [
     1,
     2,
     3,
+    4,
+    5,
     6,
     7,
     8,
+    11,
     12,
     13,
     14,
@@ -631,101 +608,106 @@
     26,
     27,
     28,
-    29,
-    31
+    29
   ],
   "invalid_citations": [],
-  "example_prompt": "Deal: Salesforce and Braze.\nStage: Announced.\n\nHeadlines:\n[1] CX Today, Oct 21 04:03 AM ET: Salesforce's Braze Acquisition Leads Revenue Tech M&A Rush\n    CX Today\n[2] TOKENPOST, Oct 21 01:04 AM ET: Braze Shares Jump 51.7% After Salesforce Agrees to $5.66 Billion Deal\n    TOKENPOST\n[3] The Motley Fool, Oct 20 04:54 PM ET: Stock Market Today, Oct. 20: Salesforce Agrees to Acquire Braze for $5.66 Billion: BRZE Stock Soars 52%\n    The Motley Fool\n[4] The Business Journals, Oct 20 04:06 PM ET: Salesforce ponies up nearly $5.7 billion for competitor Braze as acquisition spree continues\n    The Business Journals\n[5] PYMNTS.com, Oct 20 02:57 PM ET: CPI | Salesforce Strikes $5.66 Billion Deal to Acquire Braze\n    PYMNTS.com\n[6] finance.biggo.com, Oct 20 02:19 PM ET: Salesforce to Buy Braze for $5.66 Billion in Cash, Paying 58% Premium\n    finance.biggo.com\n[7] Reuters, Oct 20 02:16 PM ET: Salesforce deepens AI bets with $5.66 billion Braze deal\n    Reuters\n[8] Investor's Business Daily, Oct 20 01:11 PM ET: Salesforce To Buy Braze In $5.7 Billion, All-Cash Deal As Acquisitions Continue\n    Investor's Business Daily\n\nWrite the subheading and sentences.",
+  "example_prompt": "Deal: EQT and Qiagen.\nStage: Announced.\n\nHeadlines:\n[1] Martin Cid Magazine, Oct 22 08:00 AM ET: EQT’s €10.8bn Qiagen buyout is built to outvote holdouts who sank Thermo Fisher’s bid\n    Martin Cid Magazine\n[2] Dealroom, Oct 22 07:53 AM ET: EQT leads €46.50-a-share buyout of Qiagen in €10.8B take-private\n    Dealroom\n[3] The Global Legal Post, Oct 22 06:28 AM ET: Raft of firms guide Qiagen's $10.8bn take-private acquisition by Sweden's EQT\n    The Global Legal Post\n[4] MedWatch, Oct 22 05:09 AM ET: EQT agrees EUR 10.8bn takeover of Qiagen\n    MedWatch\n[5] BioSpectrum Asia, Oct 22 12:00 AM ET: EQT to Acquire QIAGEN in Landmark €10.8 Billion Take-Private Deal\n    BioSpectrum Asia\n[6] Global Banking & Finance Review, Oct 21 10:29 PM ET: EQT to Acquire Qiagen in $10.8 Billion Molecular Testing Deal\n    Global Banking & Finance Review\n[7] Reuters, Oct 21 06:48 PM ET: EQT to buy molecular testing firm Qiagen for $10.8 billion\n    Reuters\n[8] Business Wire, Oct 21 05:43 PM ET: QIAGEN and EQT Private Equity announce agreement on a recommended voluntary all-cash public takeover offer\n    Business Wire\n\nWrite the subheading and sentences.",
   "retrieval": [
-    {
-      "deal": "Salesforce / Braze",
-      "query": "Salesforce Braze acquisition merger deal",
-      "hits": [
-        {
-          "n": 8,
-          "similarity": 0.827
-        },
-        {
-          "n": 2,
-          "similarity": 0.817
-        },
-        {
-          "n": 9,
-          "similarity": 0.814
-        },
-        {
-          "n": 3,
-          "similarity": 0.802
-        },
-        {
-          "n": 10,
-          "similarity": 0.798
-        },
-        {
-          "n": 11,
-          "similarity": 0.797
-        }
-      ]
-    },
     {
       "deal": "EQT / Qiagen",
       "query": "EQT Qiagen acquisition merger deal",
       "hits": [
         {
-          "n": 13,
+          "n": 6,
+          "similarity": 0.844
+        },
+        {
+          "n": 5,
+          "similarity": 0.839
+        },
+        {
+          "n": 2,
+          "similarity": 0.835
+        },
+        {
+          "n": 4,
           "similarity": 0.819
         },
         {
-          "n": 12,
-          "similarity": 0.815
+          "n": 9,
+          "similarity": 0.819
         },
         {
-          "n": 15,
-          "similarity": 0.795
+          "n": 10,
+          "similarity": 0.815
+        }
+      ]
+    },
+    {
+      "deal": "LSEG / Octus",
+      "query": "LSEG Octus acquisition merger deal",
+      "hits": [
+        {
+          "n": 11,
+          "similarity": 0.81
+        },
+        {
+          "n": 13,
+          "similarity": 0.802
+        },
+        {
+          "n": 12,
+          "similarity": 0.796
         },
         {
           "n": 14,
-          "similarity": 0.788
+          "similarity": 0.774
+        }
+      ]
+    },
+    {
+      "deal": "Circle8 / SThree",
+      "query": "Circle8 SThree acquisition merger deal",
+      "hits": [
+        {
+          "n": 17,
+          "similarity": 0.753
+        },
+        {
+          "n": 15,
+          "similarity": 0.75
         },
         {
           "n": 16,
-          "similarity": 0.769
-        }
-      ]
-    },
-    {
-      "deal": "Hackensack Meridian Health / Hunterdon Health",
-      "query": "Hackensack Meridian Health Hunterdon Health acquisition merger deal",
-      "hits": [
+          "similarity": 0.742
+        },
         {
           "n": 18,
-          "similarity": 0.903
-        },
-        {
-          "n": 17,
-          "similarity": 0.883
-        },
-        {
-          "n": 19,
-          "similarity": 0.876
+          "similarity": 0.7
         }
       ]
     },
     {
-      "deal": "Dream Finders / Beazer Homes",
-      "query": "Dream Finders Beazer Homes acquisition merger deal",
+      "deal": "Cencora / American Oncology Network",
+      "query": "Cencora American Oncology Network acquisition merger deal",
       "hits": [
         {
-          "n": 20,
-          "similarity": 0.854
-        },
+          "n": 19,
+          "similarity": 0.858
+        }
+      ]
+    },
+    {
+      "deal": "Blackstone / Apollo",
+      "query": "Blackstone Apollo acquisition merger deal",
+      "hits": [
         {
           "n": 22,
-          "similarity": 0.821
+          "similarity": 0.677
         },
         {
-          "n": 23,
-          "similarity": 0.794
+          "n": 21,
+          "similarity": 0.667
         }
       ]
     },
@@ -735,46 +717,40 @@
       "hits": [
         {
           "n": 24,
+          "similarity": 0.822
+        },
+        {
+          "n": 23,
           "similarity": 0.771
         }
       ]
     },
     {
-      "deal": "Shanghai Top Numerical Control / CNC Acquisition",
-      "query": "Shanghai Top Numerical Control CNC Acquisition acquisition merger deal",
+      "deal": "Smith & Wesson / Savage Arms",
+      "query": "Smith & Wesson Savage Arms acquisition merger deal",
       "hits": [
         {
           "n": 25,
-          "similarity": 0.818
+          "similarity": 0.873
         }
       ]
     },
     {
-      "deal": "Metso / manufacturer of bronze alloy components",
-      "query": "Metso manufacturer of bronze alloy components acquisition merger deal",
+      "deal": "Techouse / Ambio",
+      "query": "Techouse Ambio acquisition merger deal",
       "hits": [
         {
           "n": 26,
-          "similarity": 0.835
-        }
-      ]
-    },
-    {
-      "deal": "Spanish firm / Mobico",
-      "query": "Spanish firm Mobico acquisition merger deal",
-      "hits": [
-        {
-          "n": 27,
-          "similarity": 0.791
+          "similarity": 0.77
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 204,
-    "headlines_new": 94,
-    "index_size": 1527,
-    "deals_found": 32,
+    "headlines_fetched": 205,
+    "headlines_new": 97,
+    "index_size": 1624,
+    "deals_found": 34,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19

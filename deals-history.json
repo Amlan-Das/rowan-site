@@ -84,6 +84,13 @@
    "found": 32,
    "new": 6,
    "cumulative": 63
+  },
+  {
+   "date": "2026-10-22",
+   "shown": 8,
+   "found": 34,
+   "new": 6,
+   "cumulative": 69
   }
  ],
  "deals": {
@@ -634,8 +641,10 @@
    "acquirer": "EQT",
    "target": "Qiagen",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-21",
-   "stage": "Rumored"
+   "last_seen": "2026-10-22",
+   "stage": "Announced",
+   "value": "\u20ac10.8bn",
+   "usd": null
   },
   "hackensack meridian health|hunterdon health": {
    "acquirer": "Hackensack Meridian Health",
@@ -650,8 +659,10 @@
    "acquirer": "Plurilock",
    "target": "Quantum eMotion",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-21",
-   "stage": "Pending approval"
+   "last_seen": "2026-10-22",
+   "stage": "Pending approval",
+   "value": "$33.8M",
+   "usd": 33800000.0
   },
   "shanghai top numerical control|cnc acquisition": {
    "acquirer": "Shanghai Top Numerical Control",
@@ -675,11 +686,59 @@
    "stage": "Rumored",
    "value": "\u00a3282m",
    "usd": null
+  },
+  "lseg|octus": {
+   "acquirer": "LSEG",
+   "target": "Octus",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "stage": "Announced",
+   "value": "$3.5 Billion",
+   "usd": 3500000000.0
+  },
+  "circle8|sthree": {
+   "acquirer": "Circle8",
+   "target": "SThree",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "stage": "Announced"
+  },
+  "cencora|american oncology network": {
+   "acquirer": "Cencora",
+   "target": "American Oncology Network",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "stage": "Announced",
+   "value": "$2.4 Billion",
+   "usd": 2400000000.0
+  },
+  "blackstone|apollo": {
+   "acquirer": "Blackstone",
+   "target": "Apollo",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "stage": "Announced"
+  },
+  "smith wesson|savage arms": {
+   "acquirer": "Smith & Wesson",
+   "target": "Savage Arms",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "stage": "Announced",
+   "value": "$160 million",
+   "usd": 160000000.0
+  },
+  "techouse|ambio": {
+   "acquirer": "Techouse",
+   "target": "Ambio",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "stage": "Announced"
   }
  },
  "totals": {
-  "deals": 63,
-  "with_usd_value": 37,
-  "usd": 305025000000.0
+  "deals": 69,
+  "with_usd_value": 41,
+  "usd": 311118800000.0
  }
 }
