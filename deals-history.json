@@ -91,6 +91,13 @@
    "found": 34,
    "new": 6,
    "cumulative": 69
+  },
+  {
+   "date": "2026-10-23",
+   "shown": 8,
+   "found": 36,
+   "new": 4,
+   "cumulative": 73
   }
  ],
  "deals": {
@@ -272,8 +279,8 @@
    "acquirer": "Williams",
    "target": "Momentum Midstream",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-16",
-   "stage": "Announced",
+   "last_seen": "2026-10-23",
+   "stage": "Rumored",
    "value": "$5.5 Billion",
    "usd": 5500000000.0
   },
@@ -614,9 +621,9 @@
    "acquirer": "Salesforce",
    "target": "Braze",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-23",
    "stage": "Announced",
-   "value": "$5.66 Billion",
+   "value": "$5.66 billion",
    "usd": 5660000000.0
   },
   "maximus|agile defense": {
@@ -641,9 +648,9 @@
    "acquirer": "EQT",
    "target": "Qiagen",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "stage": "Announced",
-   "value": "\u20ac10.8bn",
+   "value": "\u20ac9.6 Billion",
    "usd": null
   },
   "hackensack meridian health|hunterdon health": {
@@ -732,13 +739,45 @@
    "acquirer": "Techouse",
    "target": "Ambio",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "stage": "Announced"
+  },
+  "basf|evonik": {
+   "acquirer": "BASF",
+   "target": "Evonik",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "stage": "Rumored",
+   "value": "\u20ac11 Billion",
+   "usd": null
+  },
+  "vivakor|direct midstream": {
+   "acquirer": "Vivakor",
+   "target": "Direct Midstream",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "stage": "Completed",
+   "value": "$40M",
+   "usd": 40000000.0
+  },
+  "spacex|tesla": {
+   "acquirer": "SpaceX",
+   "target": "Tesla",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "stage": "Pending approval"
+  },
+  "centrus energy|westerman acquisition": {
+   "acquirer": "Centrus Energy",
+   "target": "Westerman Acquisition",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
    "stage": "Announced"
   }
  },
  "totals": {
-  "deals": 69,
-  "with_usd_value": 41,
-  "usd": 311118800000.0
+  "deals": 73,
+  "with_usd_value": 42,
+  "usd": 311158800000.0
  }
 }
