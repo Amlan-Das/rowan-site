@@ -47,6 +47,7 @@
     <span class="subnav-lbl">On this page</span>
     <a href="#today">Brief</a>
     <a href="#industries">Industries</a>
+    <a href="#chats">Coffee chats</a>
     <a href="#sources">Sources</a>
     <a href="#how">How it's made</a>
   </div>
@@ -71,6 +72,14 @@
     </div>
     <div class="ind-tabs" role="tablist" aria-label="Industries" id="indTabs"></div>
     <div id="indPanels"></div>
+  </section>
+
+  <section class="ed-sec" id="chats" aria-labelledby="chatTitle" hidden>
+    <div class="ed-sechead">
+      <h2 class="ed-h2" id="chatTitle">What I Learned From Coffee Chats</h2>
+      <p>Reports only show part of an industry. These are things professionals told me that I had not found in the reading.</p>
+    </div>
+    <div class="chats" id="chatList"></div>
   </section>
 
   <section class="ed-sec" id="sources" aria-labelledby="srcTitle">
@@ -200,6 +209,7 @@ Headlines:
 <script src="data.js"></script>
 <script src="common.js"></script>
 <script src="rag-figure.js"></script>
+<script src="coffee-chats.js"></script>
 <script>
 // Everything below reads brief.json, which the Python pipeline in brief/ writes each morning.
 (function () {

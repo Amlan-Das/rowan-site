@@ -1,0 +1,13 @@
+{
+  "note": "Add one object per chat, newest first. Fields: topic, title, role (who, without a name unless they are happy to be named), learned (what I took away), why (why it matters), date (e.g. Oct 2026, optional).",
+  "chats": [
+    {
+      "topic": "Carbon markets",
+      "title": "There is a whole market for carbon",
+      "role": "A professional I spoke with",
+      "learned": "I did not know carbon had its own market until this chat. Emissions are turned into something that can be priced and traded: a credit stands for one tonne of carbon dioxide avoided or removed, and companies buy and sell them.",
+      "why": "It changed how I read industry news. Energy, forestry and heavy industry are not only about what they produce. What they emit can show up on their income statement too.",
+      "date": ""
+    }
+  ]
+}

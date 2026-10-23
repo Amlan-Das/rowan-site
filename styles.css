@@ -1503,3 +1503,9 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .px-out { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0 16px; max-width: 760px; margin: 0; } .px-out > div { padding: 8px 0; border-bottom: 1px solid var(--rule); } .px-out dt { color: var(--house); font: 700 11.5px/1.2 var(--mono); text-transform: uppercase; letter-spacing: .04em; } .px-out dd { margin: 4px 0 0; font: 800 20px var(--sans); } .px-out .ans dd { color: var(--house); } .px-top { grid-column: 1 / -1; margin: 10px 0 0; font-size: 15px; }
 .px-hint { margin: 8px 0 0; min-height: 2.8em; color: var(--slate); font-size: 14px; line-height: 1.5; max-width: 760px; } .px-why { max-width: 760px; margin: 12px 0 0; font-size: 15.5px; line-height: 1.6; }
 @media (max-width: 640px) { .px-out { grid-template-columns: 1fr 1fr; } }
+
+/* coffee chats (brief.html) */
+.chats { display: grid; gap: 0; } .chat { padding: 20px 0 22px; border-top: 1px solid var(--rule-strong); } .chat:last-child { border-bottom: 1px solid var(--rule-strong); }
+.chat-k { margin: 0 0 6px; color: var(--house); font: 700 12.5px/1 var(--mono); text-transform: uppercase; letter-spacing: .06em; } .chat h3 { margin: 0; font: 800 clamp(22px, 2.4vw, 28px)/1.2 var(--sans); letter-spacing: -.02em; } .chat-who { margin: 4px 0 14px; color: var(--mist); font-size: 14.5px; }
+.chat-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 48px; max-width: 980px; } .chat h4 { margin: 0 0 4px; font: 700 14px var(--sans); } .chat-cols p { margin: 0; color: var(--slate); font-size: 16px; line-height: 1.6; }
+@media (max-width: 760px) { .chat-cols { grid-template-columns: 1fr; } }
