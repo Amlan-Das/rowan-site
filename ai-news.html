@@ -108,12 +108,12 @@ print(f"Final Weights: {weights}, Final Bias: {bias}")
         <div class="pt-grid">
           <div class="pt-text">
             <p>After the AND gate I wanted to see what the perceptron does on actual pictures. So I pointed it at images of cats and dogs: 300 for training and 70 for testing, which are small silhouette drawings rather than photographs. I wrote the whole thing myself in Python with NumPy, using torchvision only to load and shrink the images.</p>
-            <p>Each picture is squashed to 32 &times; 32 pixels, turned to grayscale and flattened into a list of 1,024 brightness values. The model is one weight per pixel plus a bias, all starting at zero. It adds up weight &times; brightness, answers 1 if the total is above 0 and 0 if not, and nudges the weights by <code>learning rate &times; error &times; pixels</code> whenever it is wrong. I trained it for 1,000 passes over the training folder, reshuffling the order each time, then ran it on a separate test folder it had never seen. The code is unchanged below.</p>
+            <p>Each picture is squashed to 32 &times; 32 pixels, turned to grayscale and flattened into a list of 1,024 brightness values. The model is one weight per pixel plus a bias, all starting at zero. It adds up weight &times; brightness, answers 1 if the total is above 0 and 0 if not, and nudges the weights by <code>learning rate &times; error &times; pixels</code> whenever it is wrong. I trained it for 100 passes over the training folder, reshuffling the order each time, then loaded a separate test folder it had never seen. The code is unchanged below.</p>
             <dl class="pt-facts">
               <div><dt>Data</dt><dd>300 train + 70 test drawings, half cats and half dogs</dd></div>
               <div><dt>Input</dt><dd>32 &times; 32 grayscale = 1,024 numbers</dd></div>
               <div><dt>Model</dt><dd>1,024 weights + 1 bias, rule w &larr; w + 0.01 &middot; error &middot; x</dd></div>
-              <div><dt>Training</dt><dd>1,000 epochs, shuffled</dd></div>
+              <div><dt>Training</dt><dd>100 epochs, shuffled</dd></div>
             </dl>
             <a class="cd-gh" href="https://github.com/Amlan-Das/rowan-site/blob/main/ai/catdog/catdog.py" target="_blank" rel="noopener"><span class="mk" aria-hidden="true">&lt;/&gt;</span><span class="tx"><b>View the code on GitHub</b><i>Amlan-Das/rowan-site &middot; ai/catdog/catdog.py</i></span><span class="ar" aria-hidden="true">&rarr;</span></a>
             <div class="cd-lim"><h3>What the Model Can and Cannot See</h3><p>One weight per pixel means the model only knows how bright each fixed position is. It has no idea of ears, eyes or shape, and a cat shifted a few pixels lands on different weights. The training and test drawings are all variations of one icon per class, so a good score here says little about real photographs. That is the limit of this design, and it is what the AlexNet project below goes after: small shared filters that look for shapes anywhere in the picture.</p></div>
@@ -124,7 +124,7 @@ print(f"Final Weights: {weights}, Final Bias: {bias}")
           </figure>
           <div class="cd-notes">
           
-          <div><h3>How the Accuracy Is Counted</h3><p>The script counts a picture as correct when the model&rsquo;s guess matches its label <i>before</i> that picture changes the weights, adds this up over all 1,000 epochs, and prints it divided by the total number of guesses. So it is a running training accuracy, not a score on unseen pictures. The test folder is run once at the end and the predictions are printed next to the true labels.</p></div>
+          <div><h3>How the Accuracy Is Counted</h3><p>The script counts a picture as correct when the model&rsquo;s guess matches its label <i>before</i> that picture changes the weights, adds this up over all 100 epochs, and prints it divided by the total number of guesses. So it is a running training accuracy, not a score on unseen pictures. The script loads the 70 test drawings but its prediction loop is commented out, so I ran that same rule on the learned weights afterwards to get the test score shown here. Also, the printed <code>correct</code> divides by 1,000 although there are 100 epochs, so it reads 10 times too small: 0.0892 means an 89.2% average.</p></div>
         </div></div>
         </div>
         <div class="cd-results" id="cdResults"></div>
@@ -150,12 +150,14 @@ transform = transforms.Compose([
 
 
 
+
+
 dataset = ImageFolder(root="data/train", transform=transform)
 
 print(dataset.class_to_idx)
 
 correct = 0 
-for epoch in range(1000):
+for epoch in range(100):
     image_tensore = np.random.permutation(len(dataset))
 
     for i in image_tensore:
@@ -222,6 +224,7 @@ test_dataset = ImageFolder(root="data/test", transform=transform)
 
 print("Number of test images:", len(test_dataset))
 
+'''
 for tensor , dog in imagefolder: 
     grey_image_transform = transforms.Grayscale(num_output_channels=1)
 
@@ -234,6 +237,8 @@ for tensor , dog in imagefolder:
     activation = 1 if weidghted_sum &gt; 0 else 0
 
     print("Predicted:", activation, "Actual:", dog)
+
+    '''
 </code></pre>
           <p class="pt-src">This is the script exactly as I wrote it, including my variable names. It expects <code>data/train</code> and <code>data/test</code> folders with one sub-folder per class.</p>
         </details>

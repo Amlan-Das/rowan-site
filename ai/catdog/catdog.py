@@ -18,12 +18,14 @@ transform = transforms.Compose([
 
 
 
+
+
 dataset = ImageFolder(root="data/train", transform=transform)
 
 print(dataset.class_to_idx)
 
 correct = 0 
-for epoch in range(1000):
+for epoch in range(100):
     image_tensore = np.random.permutation(len(dataset))
 
     for i in image_tensore:
@@ -90,6 +92,7 @@ test_dataset = ImageFolder(root="data/test", transform=transform)
 
 print("Number of test images:", len(test_dataset))
 
+'''
 for tensor , dog in imagefolder: 
     grey_image_transform = transforms.Grayscale(num_output_channels=1)
 
@@ -102,3 +105,5 @@ for tensor , dog in imagefolder:
     activation = 1 if weidghted_sum > 0 else 0
 
     print("Predicted:", activation, "Actual:", dog)
+
+    '''
