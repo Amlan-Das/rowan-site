@@ -312,6 +312,20 @@ async function renderPitches(host, opts) {
           " with " + Math.round(f * 100) + "% of the horizon used.</p>" : "");
   };
 
+  // A banner for a call that has reached its target: the check, the gain in the direction of the call and how long it took
+  const hitHtml = (p, m) => {
+    const cl = m.closest, hit = m.progress != null && m.progress >= 1;
+    if (!hit && !(cl && cl.hit)) return "";
+    const price = cl && cl.hit ? cl.price : m.cur, when = cl && cl.hit ? cl.date : m.curDate;
+    if (typeof price !== "number" || typeof p.pitchPrice !== "number") return "";
+    const short = /short/i.test(p.direction || ""), gain = (short ? p.pitchPrice - price : price - p.pitchPrice) / p.pitchPrice * 100;
+    const days = p.date && when ? Math.max(Math.round((new Date(when + "T00:00:00") - new Date(p.date + "T00:00:00")) / DAY), 0) : null;
+    return '<div class="hitbox"><svg class="hit-ck" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="23"/><path d="M15 27l8 8 15-17"/></svg>' +
+      '<div class="hit-t"><p class="hit-k">Successful call</p><p class="hit-h">Target hit' + (when ? " on " + esc(fmtShort(when)) : "") + "</p>" +
+      '<p class="hit-s">' + esc((p.direction || "Pitch")) + " pitched at " + fmtUSD(p.pitchPrice) + ", reached " + fmtUSD(price) + (days != null ? " in " + days + " day" + (days === 1 ? "" : "s") : "") + ".</p></div>" +
+      '<div class="hit-g"><b>' + (gain >= 0 ? "+" : "\u2212") + Math.abs(gain).toFixed(1) + '%</b><span>in the direction of the call</span></div></div>';
+  };
+
   // The rating box at the top of an open row: the call, the target, what is left to go and progress
   const ratingHtml = (p, m) => {
     const cell = (label, value) => '<div><dt>' + label + "</dt><dd>" + value + "</dd></div>";
@@ -354,7 +368,7 @@ async function renderPitches(host, opts) {
     return '<div class="lrow' + (i === 0 && opts.charts ? " open" : "") + '" data-ticker="' + esc(t) + '" id="' + esc(t) + '">' +
       '<button class="lbtn" type="button" id="lb-' + esc(t) + '" aria-controls="lp-' + esc(t) + '" aria-expanded="false">' +
         '<span class="c-co"><span class="co">' + esc(p.company || t) + '</span><span class="tk">' + esc(t) + "</span></span>" +
-        '<span class="c-call"><span class="call ' + (short ? "short" : "long") + '">' + esc(p.direction || "Pitch") + "</span></span>" +
+        '<span class="c-call"><span class="call ' + (short ? "short" : "long") + '">' + esc(p.direction || "Pitch") + "</span>" + (hitHtml(p, m) ? '<span class="hitchip" title="Target hit">&#10003;</span>' : "") + "</span>" +
         '<span class="c-date">' + (p.date ? esc(fmtDate(p.date)) : "") + "</span>" +
         '<span class="c-num" data-label="Pitch price">' + (fmtUSD(p.pitchPrice) || "–") + "</span>" +
         '<span class="c-num" data-label="Target">' + (fmtUSD(p.target) || "–") + (m.implied != null ? "<small>" + signedPct(m.implied) + "</small>" : "") + "</span>" +
@@ -367,7 +381,7 @@ async function renderPitches(host, opts) {
           '<p class="a">' + (p.thesis ? esc(p.thesis) : '<span class="missing">Add why you made this call.</span>') + "</p>" +
           '<div class="btns">' + pBtn + mBtn + cBtn + "</div></div>" +
           '<div class="pslider">' +
-            ratingHtml(p, m) +
+            hitHtml(p, m) + ratingHtml(p, m) +
             '<div class="phead"><b>Pitch price to target</b>' + legend + "</div>" +
             trackHtml(p, m, true) + '<p class="pline">' + progSentence(p, m) + "</p>" + clockHtml(m) +
           "</div>" +
