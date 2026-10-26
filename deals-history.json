@@ -98,6 +98,13 @@
    "found": 36,
    "new": 4,
    "cumulative": 73
+  },
+  {
+   "date": "2026-10-26",
+   "shown": 8,
+   "found": 39,
+   "new": 8,
+   "cumulative": 81
   }
  ],
  "deals": {
@@ -773,11 +780,77 @@
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "stage": "Announced"
+  },
+  "eqt|range resources": {
+   "acquirer": "EQT",
+   "target": "Range Resources",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "stage": "Announced",
+   "value": "$13 billion",
+   "usd": 13000000000.0
+  },
+  "right lane industries|capacity trucks and laymor": {
+   "acquirer": "Right Lane Industries",
+   "target": "Capacity Trucks and LayMor",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "stage": "Announced"
+  },
+  "healthspan partners|surgery partners": {
+   "acquirer": "HealthSpan Partners",
+   "target": "Surgery Partners",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "stage": "Announced",
+   "value": "$5.7 Billion",
+   "usd": 5700000000.0
+  },
+  "ovintiv|logan energy": {
+   "acquirer": "Ovintiv",
+   "target": "Logan Energy",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "stage": "Announced",
+   "value": "$890M",
+   "usd": 890000000.0
+  },
+  "acuity inc|parameter technologies": {
+   "acquirer": "Acuity Inc.",
+   "target": "Parameter Technologies",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "stage": "Announced"
+  },
+  "i tail|phelps pet products": {
+   "acquirer": "i-Tail",
+   "target": "Phelps Pet Products",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "stage": "Completed",
+   "value": "$160 million",
+   "usd": 160000000.0
+  },
+  "ufp industries|apache products": {
+   "acquirer": "UFP Industries",
+   "target": "Apache Products",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "stage": "Announced"
+  },
+  "onsemi|codasip": {
+   "acquirer": "Onsemi",
+   "target": "Codasip",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "stage": "Announced",
+   "value": "$14.5 million",
+   "usd": 14500000.0
   }
  },
  "totals": {
-  "deals": 73,
-  "with_usd_value": 42,
-  "usd": 311158800000.0
+  "deals": 81,
+  "with_usd_value": 47,
+  "usd": 330923300000.0
  }
 }

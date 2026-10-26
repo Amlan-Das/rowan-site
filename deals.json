@@ -1,19 +1,19 @@
 {
-  "date": "Friday, October 23",
-  "generated_at": "2026-10-23T15:49:59.609909+00:00",
+  "date": "Monday, October 26",
+  "generated_at": "2026-10-26T17:35:46.246902+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "EQT is acquiring Qiagen for €10.8 billion in an all-cash deal, while BASF is raising its offer for Evonik to €24 a share in a bid worth over €11 billion.",
+  "lede": "EQT to acquire Range Resources in an all-stock deal worth $13 billion, creating a top US gas producer.",
   "deals": [
     {
       "acquirer": "EQT",
-      "target": "Qiagen",
-      "value": "€9.6 Billion",
+      "target": "Range Resources",
+      "value": "$13 billion",
       "pinned": false,
       "stage": "Announced",
-      "articles": 8,
-      "outlets": 8,
-      "latest": "2026-10-23T02:44:18+00:00",
+      "articles": 9,
+      "outlets": 9,
+      "latest": "2026-10-26T15:58:46+00:00",
       "sources": [
         1,
         2,
@@ -25,279 +25,253 @@
         8
       ],
       "stripped": [],
-      "headline": "EQT to Acquire Qiagen",
-      "body": "EQT is acquiring Qiagen for €10.8 billion [3, 4, 6]. The deal was announced on October 22 [1, 2, 3]. No further information is available [4, 6].",
+      "headline": "EQT to Acquire Range Resources",
+      "body": "EQT agrees to acquire Range Resources in an all-stock deal [1, 8]. The deal is expected to create a top US gas producer [2, 5]. The acquisition is part of an all-stock deal worth $13 billion [2, 3, 5]. The deal was announced on October 26 [1, 7, 8].",
       "found": [
         {
           "n": 1,
           "acquirer": "EQT",
-          "target": "Qiagen",
-          "stage": "Completed"
+          "target": "Range Resources",
+          "stage": "Announced"
         },
         {
           "n": 2,
           "acquirer": "EQT",
-          "target": "Qiagen",
-          "stage": "Completed"
+          "target": "Range Resources",
+          "stage": "Announced"
         },
         {
           "n": 3,
           "acquirer": "EQT",
-          "target": "Qiagen",
+          "target": "Range Resources",
           "stage": "Announced"
         },
         {
           "n": 4,
           "acquirer": "EQT",
-          "target": "Qiagen",
-          "stage": "Completed"
+          "target": "Range Resources",
+          "stage": "Announced"
         },
         {
           "n": 5,
           "acquirer": "EQT",
-          "target": "Qiagen",
-          "stage": "Completed"
+          "target": "Range Resources",
+          "stage": "Announced"
         },
         {
           "n": 6,
           "acquirer": "EQT",
-          "target": "Qiagen",
-          "stage": "Completed"
+          "target": "Range Resources",
+          "stage": "Announced"
         },
         {
           "n": 7,
-          "acquirer": "EQT",
-          "target": "Qiagen",
+          "acquirer": "EQT Corporation",
+          "target": "Range Resources",
           "stage": "Announced"
         },
         {
           "n": 8,
           "acquirer": "EQT",
-          "target": "Qiagen",
+          "target": "Range Resources",
           "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "BASF",
-      "target": "Evonik",
-      "value": "€11 Billion",
+      "acquirer": "Right Lane Industries",
+      "target": "Capacity Trucks and LayMor",
+      "value": "",
       "pinned": false,
-      "stage": "Rumored",
-      "articles": 3,
-      "outlets": 3,
-      "latest": "2026-10-23T14:44:10+00:00",
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-26T16:13:52+00:00",
       "sources": [
-        12,
-        13,
-        14,
-        15,
-        16,
-        17
+        9,
+        10
       ],
       "stripped": [],
-      "headline": "BASF Raises Evonik Offer",
-      "body": "BASF is raising its offer for Evonik to €24 a share [12, 13, 16]. The bid is over €11 billion, according to Bloomberg [13, 16]. BASF's bid was rejected by Evonik earlier, but it's stepping up its push [14, 17].",
+      "headline": "Right Lane Industries Acquires Capacity Trucks and LayMor",
+      "body": "Right Lane Industries has acquired Capacity Trucks and LayMor from Terex [9, 10]. The deal was completed after a short period of time [10]. No further information is available [10].",
       "found": [
         {
-          "n": 12,
-          "acquirer": "BASF",
-          "target": "Evonik",
+          "n": 9,
+          "acquirer": "Right Lane Industries",
+          "target": "Capacity Trucks and LayMor",
+          "stage": "Completed"
+        },
+        {
+          "n": 10,
+          "acquirer": "Right Lane Industries",
+          "target": "Capacity Trucks and LayMor",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "HealthSpan Partners",
+      "target": "Surgery Partners",
+      "value": "$5.7 Billion",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-26T15:13:00+00:00",
+      "sources": [
+        11,
+        12
+      ],
+      "stripped": [],
+      "headline": "HealthSpan Partners Acquires Surgery Partners",
+      "body": "HealthSpan Partners is acquiring Surgery Partners in a $5.7 billion deal [11, 12]. The deal will take Surgery Partners private [11, 12]. Bain Capital will remain involved with the company [12].",
+      "found": [
+        {
+          "n": 11,
+          "acquirer": "HealthSpan Partners",
+          "target": "Surgery Partners",
           "stage": "Announced"
         },
         {
+          "n": 12,
+          "acquirer": "HealthSpan",
+          "target": "Surgery Partners",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "Ovintiv",
+      "target": "Logan Energy",
+      "value": "$890M",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-26T11:11:24+00:00",
+      "sources": [
+        13,
+        14
+      ],
+      "stripped": [],
+      "headline": "Ovintiv to Acquire Logan Energy",
+      "body": "Ovintiv is acquiring Logan Energy for $890M [13, 14]. The deal will be structured in cash and shares [14]. Logan Oil Corp will be spun out [14].",
+      "found": [
+        {
           "n": 13,
-          "acquirer": "BASF",
-          "target": "Evonik",
+          "acquirer": "Ovintiv",
+          "target": "Logan Energy",
           "stage": "Announced"
         },
         {
           "n": 14,
-          "acquirer": "BASF",
-          "target": "Evonik",
+          "acquirer": "Ovintiv Inc.",
+          "target": "Logan Energy Corp.",
           "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Vivakor",
-      "target": "Direct Midstream",
-      "value": "$40M",
+      "acquirer": "Acuity Inc.",
+      "target": "Parameter Technologies",
+      "value": "",
       "pinned": false,
-      "stage": "Completed",
+      "stage": "Announced",
       "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-23T13:25:26+00:00",
+      "outlets": 1,
+      "latest": "2026-10-26T12:35:00+00:00",
       "sources": [
-        18,
-        19
+        15,
+        16
       ],
       "stripped": [],
-      "headline": "Vivakor Acquires Direct Midstream",
-      "body": "Vivakor has acquired Direct Midstream [18, 19]. The deal is now completed [18, 19].",
+      "headline": "Acuity Inc. to Acquire Parameter Technologies",
+      "body": "Acuity Inc. is acquiring Parameter Technologies [16, 15]. The deal was announced by Acuity and Parameter [16, 15]. The acquisition is part of Distech Controls [15].",
+      "found": [
+        {
+          "n": 15,
+          "acquirer": "Acuity Inc.",
+          "target": "Parameter Technologies",
+          "stage": "Announced"
+        },
+        {
+          "n": 16,
+          "acquirer": "Acuity Inc.",
+          "target": "Parameter Technologies",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "i-Tail",
+      "target": "Phelps Pet Products",
+      "value": "$160 million",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-26T17:03:11+00:00",
+      "sources": [
+        17
+      ],
+      "stripped": [],
+      "headline": "i-Tail Acquires Phelps Pet Products",
+      "body": "i-Tail has completed its acquisition of Phelps Pet Products [17]. The deal was valued at $160 million [17]. The acquisition is now complete [17].",
+      "found": [
+        {
+          "n": 17,
+          "acquirer": "i-Tail",
+          "target": "Phelps Pet Products",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "UFP Industries",
+      "target": "Apache Products",
+      "value": "",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-26T16:45:00+00:00",
+      "sources": [
+        18
+      ],
+      "stripped": [],
+      "headline": "UFP Industries Acquires Apache Products",
+      "body": "UFP Industries is acquiring Apache Products [18]. The deal is expanding UFP Industries' pallet manufacturing network [18]. No further information is available [18].",
       "found": [
         {
           "n": 18,
-          "acquirer": "Vivakor",
-          "target": "Direct Midstream",
-          "stage": "Completed"
-        },
+          "acquirer": "UFP Industries",
+          "target": "Apache Products",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "Onsemi",
+      "target": "Codasip",
+      "value": "$14.5 million",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-26T16:13:34+00:00",
+      "sources": [
+        19,
+        20,
+        21
+      ],
+      "stripped": [],
+      "headline": "Onsemi Acquires Codasip",
+      "body": "Onsemi has acquired Codasip's low-end RISC-V business [19, 20]. The deal is valued at $14.5 million [19]. Synaptics shares surged 14% on the merger announcement with Onsemi [20]. Cirrus Logic is expected to bid for Synaptics after the Onsemi deal [21].",
+      "found": [
         {
           "n": 19,
-          "acquirer": "Vivakor",
-          "target": "Direct Midstream",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "Salesforce",
-      "target": "Braze",
-      "value": "$5.66 billion",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-23T01:24:04+00:00",
-      "sources": [
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26
-      ],
-      "stripped": [],
-      "headline": "Salesforce to Acquire Braze",
-      "body": "Salesforce is acquiring Braze in an all-cash deal worth $5.66 billion [20, 21, 22]. The deal was announced by Salesforce and has sent Braze's stock soaring [24, 25]. The acquisition is part of Salesforce's strategy to expand its customer engagement capabilities [26].",
-      "found": [
-        {
-          "n": 20,
-          "acquirer": "Salesforce",
-          "target": "Braze",
-          "stage": "Completed"
-        },
-        {
-          "n": 21,
-          "acquirer": "Salesforce",
-          "target": "Braze",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Williams",
-      "target": "Momentum Midstream",
-      "value": "$5.5 Billion",
-      "pinned": false,
-      "stage": "Rumored",
-      "articles": 2,
-      "outlets": 1,
-      "latest": "2026-10-23T07:32:44+00:00",
-      "sources": [
-        27,
-        28
-      ],
-      "stripped": [],
-      "headline": "Williams to Buy Momentum Midstream",
-      "body": "Williams is in talks to buy Momentum Midstream for $5.5 billion [27, 28]. The deal is rumored to be worth $5.5 billion [27, 28].",
-      "found": [
-        {
-          "n": 27,
-          "acquirer": "Williams",
-          "target": "Momentum Midstream",
-          "stage": "Rumored"
-        },
-        {
-          "n": 28,
-          "acquirer": "Williams",
-          "target": "Momentum Midstream",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Techouse",
-      "target": "Ambio",
-      "value": "",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 2,
-      "outlets": 1,
-      "latest": "2026-10-22T18:15:35+00:00",
-      "sources": [
-        29,
-        30
-      ],
-      "stripped": [],
-      "headline": "Techouse Acquires Ambio",
-      "body": "Techouse has acquired Ambio [29, 30]. The acquisition expands Techouse's offshore water treatment business [29, 30].",
-      "found": [
-        {
-          "n": 29,
-          "acquirer": "Techouse",
-          "target": "Ambio",
-          "stage": "Announced"
-        },
-        {
-          "n": 30,
-          "acquirer": "Techouse",
-          "target": "Ambio",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "SpaceX",
-      "target": "Tesla",
-      "value": "",
-      "pinned": false,
-      "stage": "Pending approval",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-10-23T14:48:03+00:00",
-      "sources": [
-        31,
-        32,
-        33,
-        34,
-        35,
-        36
-      ],
-      "stripped": [],
-      "headline": "SpaceX and Tesla Merger",
-      "body": "The SpaceX and Tesla merger is pending approval and faces antitrust risks [31, 34, 35]. Analysts are split on the value of the deal, with some predicting a $480 billion and others a $550 billion valuation [33]. Elon Musk has expressed confidence in the deal, calling it a good idea [35]. Some predict a potential historic largest tech M&A deal, with one analyst suggesting a $420 billion acquisition [36].",
-      "found": [
-        {
-          "n": 31,
-          "acquirer": "SpaceX",
-          "target": "Tesla",
-          "stage": "Rumored"
-        }
-      ]
-    },
-    {
-      "acquirer": "Centrus Energy",
-      "target": "Westerman Acquisition",
-      "value": "",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-10-23T14:01:48+00:00",
-      "sources": [
-        37,
-        38
-      ],
-      "stripped": [],
-      "headline": "Centrus Energy and Westerman Acquisition",
-      "body": "Centrus Energy and Westerman Acquisition is a deal where Centrus Energy acquires Westerman Acquisition [38, 37]. The deal was announced and no further updates are available [38].",
-      "found": [
-        {
-          "n": 37,
-          "acquirer": "Centrus Energy",
-          "target": "Westerman Acquisition",
+          "acquirer": "Onsemi",
+          "target": "Codasip",
           "stage": "Completed"
         }
       ]
@@ -305,398 +279,267 @@
   ],
   "also": [
     {
-      "n": 39,
-      "note": "General Musk [39]."
-    },
-    {
-      "n": 40,
-      "note": "Realbotix Announces Additional Draw under Bridge Loan from Onconetix [40]."
-    },
-    {
-      "n": 41,
-      "note": "Weil’s Merger With Willkie Is Dead, But Its Partner Exodus Is Very Much Alive [41]."
-    }
-  ],
-  "brief": "EQT is acquiring Qiagen for €10.8 billion in an all-cash deal, while BASF is raising its offer for Evonik to €24 a share in a bid worth over €11 billion.\n\nEQT / Qiagen (Announced): EQT to Acquire Qiagen. EQT is acquiring Qiagen for €10.8 billion [3, 4, 6]. The deal was announced on October 22 [1, 2, 3]. No further information is available [4, 6].\nBASF / Evonik (Rumored): BASF Raises Evonik Offer. BASF is raising its offer for Evonik to €24 a share [12, 13, 16]. The bid is over €11 billion, according to Bloomberg [13, 16]. BASF's bid was rejected by Evonik earlier, but it's stepping up its push [14, 17].\nVivakor / Direct Midstream (Completed): Vivakor Acquires Direct Midstream. Vivakor has acquired Direct Midstream [18, 19]. The deal is now completed [18, 19].\nSalesforce / Braze (Announced): Salesforce to Acquire Braze. Salesforce is acquiring Braze in an all-cash deal worth $5.66 billion [20, 21, 22]. The deal was announced by Salesforce and has sent Braze's stock soaring [24, 25]. The acquisition is part of Salesforce's strategy to expand its customer engagement capabilities [26].\nWilliams / Momentum Midstream (Rumored): Williams to Buy Momentum Midstream. Williams is in talks to buy Momentum Midstream for $5.5 billion [27, 28]. The deal is rumored to be worth $5.5 billion [27, 28].\nTechouse / Ambio (Announced): Techouse Acquires Ambio. Techouse has acquired Ambio [29, 30]. The acquisition expands Techouse's offshore water treatment business [29, 30].\nSpaceX / Tesla (Pending approval): SpaceX and Tesla Merger. The SpaceX and Tesla merger is pending approval and faces antitrust risks [31, 34, 35]. Analysts are split on the value of the deal, with some predicting a $480 billion and others a $550 billion valuation [33]. Elon Musk has expressed confidence in the deal, calling it a good idea [35]. Some predict a potential historic largest tech M&A deal, with one analyst suggesting a $420 billion acquisition [36].\nCentrus Energy / Westerman Acquisition (Announced): Centrus Energy and Westerman Acquisition. Centrus Energy and Westerman Acquisition is a deal where Centrus Energy acquires Westerman Acquisition [38, 37]. The deal was announced and no further updates are available [38].\n\nAlso worth knowing:\n- General Musk [39].\n- Realbotix Announces Additional Draw under Bridge Loan from Onconetix [40].\n- Weil’s Merger With Willkie Is Dead, But Its Partner Exodus Is Very Much Alive [41].",
-  "sources": [
-    {
-      "n": 1,
-      "title": "EQT Agrees to Buy Qiagen for €9.6 Billion, Ending Years of Takeover Speculation",
-      "source": "Tekedia",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORmo3VTB3R3A5VThYdnprWUxWdEYzRDJFTXJSSTF5QWZsbUY3Q2lBdW1jdnJmSU10ckRKT2dBLVZ3VDdJUFoweE9GcVlfczg2QnpDQnJkTkd5NzJSVmZ6Mjh0NzdDelphUmlSRU9ya1l3b0hGako4UzJEbUZvUDJ2d2J0eFhSMWVDc2ZoRU5sdE43VHd2WGg4OC1xQTN0UUgtMlpKdmd3?oc=5",
-      "snippet": "Tekedia",
-      "published": "2026-10-23T02:44:18+00:00"
-    },
-    {
-      "n": 2,
-      "title": "EQT to Acquire Qiagen for $12.1B, Plans to Take Tools, Diagnostics Provider Private",
-      "source": "Genetic Engineering and Biotechnology News",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORE51N0EzdGxYYXVoYVh2ZjNfamhtRlcwZ2g2QXRZem9tU3AxMWk3ZVFrTXlVbGlPcm96WTZMUmFJSUo1VEd2TXpHT0hSZ1VKc3cyWTI5dW9zREhPR0FQd3J5b1kwMmVzWGJScnlpRTRkTTVWNU94bWl5UklYc3AxMDNBdnE0TXJONmlEblJRb2ROVFRBUXpnS0lBY0xYUE02bEdRdEw5X1JIdG5aNUtKM3pqSExxUl8yM2E5N0hMQVZvX2xwbXVPcA?oc=5",
-      "snippet": "Genetic Engineering and Biotechnology News",
-      "published": "2026-10-22T18:33:39+00:00"
-    },
-    {
-      "n": 3,
-      "title": "Will Qiagen shareholders be tempted by EQT's €10.8B offer?",
-      "source": "BioWorld News",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUmJGaDZPTkRtQTNJSEJ2eUR4eW5UYVloamc1LWdiQmhPaXhVSGM2ZUtUTTFmQ2NzTUphSkpZUTljY3BWUVMwRkkyMFRqczFHcE9JdVdMMzY2N1ktUXREYmFCV2Z5bUFLZVB3N2lKZXh2T1FDaTJZb2N2a3RBVmZRaEhUdkdvNnQ5VzJFa3hFSnF6cTVkaVkzdGFqQQ?oc=5",
-      "snippet": "BioWorld News",
-      "published": "2026-10-22T16:00:00+00:00"
-    },
-    {
-      "n": 4,
-      "title": "EQT leads €46.50-a-share buyout of Qiagen in €10.8B take-private",
-      "source": "Dealroom",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY1VpWDVhZWs2NmdMQzR6UXk2ZTVLY0hEYTlXcHFWMEdBbU02NDJ5MW9mU2x0bmNuay1LWmpCTURBeEZoLXBSbUxHZEFkX0pfWWNQMC10bjhtOGZjWDM3ZWhHS3lTelFMYXZqbVpKUnJOZzhZWWlTMHduUWxKN0NjZE9pb2JISjZIbTZaV05sZmIzVWhwSUc2cE45dno?oc=5",
-      "snippet": "Dealroom",
-      "published": "2026-10-22T11:53:18+00:00"
-    },
-    {
-      "n": 5,
-      "title": "Raft of firms guide Qiagen’s $10.8bn take-private acquisition by Sweden’s EQT",
-      "source": "The Global Legal Post",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaGlhWWppeU9MSVBVY2N3QkFmYnNFN3RINVFGdDd1MXlrbTJiLUVubFE1UGZOOWZFS0UtZDdkY3pGaWg1bUNUTGkweG9oaDh3TjMtZ1daai1TaHNyYmM1SFNObDFvaVhyUzJGMU1vS0RpM0pGVTRCRUNXZUt6WHlYczRsZHdFSDQ2bm01OVd1Z2U1VW02YmR0RHZVR0k3VGdXVk9haHQ3bTJ3WWJqVzR1eXdSenFzRlVnLVpYYUN3?oc=5",
-      "snippet": "The Global Legal Post",
-      "published": "2026-10-22T10:28:00+00:00"
-    },
-    {
-      "n": 6,
-      "title": "EQT agrees EUR 10.8bn takeover of Qiagen",
-      "source": "MedWatch",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HWE96eGNKTUYwc0ZqUFhMMk9Ha3U4Q3ZXd180X1pMS0VhQWpYQ2g3cUt4V2RoeVQtMFVrSk1XR0RZenV3STQ3N290T2VFamt0TElmcEZYRUJCNnhpYmZJdlFvQzdWejRR?oc=5",
-      "snippet": "MedWatch",
-      "published": "2026-10-22T09:09:17+00:00"
-    },
-    {
-      "n": 7,
-      "title": "EQT Nears €9.6 Billion Deal for Molecular Testing Firm Qiagen",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY2h3aUlzSVhKcy10N0RHVjV6NWUwdXV1ajJLTHhNeG5ULVlWdERFNVhuaFdQX3pXWGhySE5SbWxHbTlIcUJUanBMUzZsak5kT3Z0ZXQteEFRQktfblBNOGtaeGF1RTFHSFJNVVd0UDFEaHh1M2E2bXdDN01OcmMtR3JZLVVDck5SU1lVTHI2UDBvNEFYTVpDRzNsWTYzOU5ib3NxMURRb1BaQUJwT2pmYw?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-10-22T08:48:16+00:00"
-    },
-    {
-      "n": 8,
-      "title": "Swedish investor EQT launches €10.8 billion bid for Germany's Qiagen",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTmtJZnpBNlhiQUVDU0U5ckZGUWVBT2E4cFZ4dmxleTZUUEI2YkZ6bGc2TXFycW1KbGVMN0tQekt4c3hVNXc2aGZIZWgtUks0eWN4OFNaeU04UkpUbHZGTUFxQ1ExdGc3QTU4V0duZ0JzcmJMajdrWi1FZWNKTWZSa2N6SlVqQkRNbUJXNkdzS0lXUUZ5S1E5ZA?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-22T06:33:00+00:00"
-    },
-    {
-      "n": 9,
-      "title": "EQT to Acquire Qiagen in $10.8 Billion Molecular Testing Deal",
-      "source": "Global Banking & Finance Review",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNR0xvcGpDNGtIc2lwOEFxMEdMTzQwSHk5dVE0T05fR0xNT2w1Z29mMVpsNGpSR0YtbXRBZFdILUh5MGx0VkJ6c3QwMVQ5bms3NE55bWZqLUZKZGN6bWNNYzhuQ2VGdFJfUlRXNWwzZzZSYy1ER3Brd2V2eGRkdlRfaWNmNjZwMjNKRU5fYQ?oc=5",
-      "snippet": "Global Banking & Finance Review",
-      "published": "2026-10-22T02:29:02+00:00"
-    },
-    {
-      "n": 10,
-      "title": "EQT to Acquire QIAGEN in Landmark €10.8 Billion Take-Private Deal",
-      "source": "BioSpectrum Asia",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSWk1MXhCYVRRLXJGTkxlVUV6Y3BjU1pHLTBaMG40dmF5ZVVzbmRabk51Z3FuZlpJbF9wQUVRY3ZGMjc3YV9YWHNlbFdTNmpwMTU1VThpR25HMWZjemNDSjhZd0JqWWtacWhIRmx2Ny10QmQyc21QZjRyUFZpLVp3dEk0cTByV2lyY1dta0dOaEFjbXJzRm9tR3dnOTZCVmQxUXpoQUdLR0ZRRlNvTjFUUVBxbmk5QQ?oc=5",
-      "snippet": "BioSpectrum Asia",
-      "published": "2026-10-22T04:00:20+00:00"
-    },
-    {
-      "n": 11,
-      "title": "EQT in Advanced Talks to Acquire Qiagen Amid Competing Bids",
-      "source": "Global Banking & Finance Review",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVkwa3lncFZmY08tTXlCOGVwcjFkV2dFX3IwMDRCeU1QczJaQjMyUkFTNVl5NlJiSlpGTFVGRVlraGc2TDJGc0hxVTVWank0QndnZFI4TnRjVmlrTGJQRkxZcWhNekhGdU9NOEdBVGg2c3hxUm16aWt0aDNRemNNNDlxVkpVNzdycDNScmFrSHZpSXVzbHNFenJUdGNsNnM?oc=5",
-      "snippet": "Global Banking & Finance Review",
-      "published": "2026-10-20T23:54:14+00:00"
-    },
-    {
-      "n": 12,
-      "title": "BASF raises Evonik offer to €24 a share, sources say",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNWgwOXQwV0N5WFlOZDQ3LWRhMElCdXh5MGZMZnpfd0dGS2Z1X0g5MFhVM3czNk1ZdUhrdEEyYzltc0RNQ2xWcmpVcTZmVUVILU9lQ1VDc2FYNDdxVkJOc0QyNXQwZFNydnh3bHl5SXRhY1ZGc0lVSjlVQUZ0b0RXc2NDR3JuWFZSZFFvUU1kN3dLOV9nRXRMTDdGaEdQdktma1hPN3ZscFdwX1JwdHl2aDBJa2JpV2xJdGdB?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-23T14:44:10+00:00"
-    },
-    {
-      "n": 13,
-      "title": "BASF Increases Bid for Chemicals Rival Evonik to Over €11 Billion",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOXBIWXdXb19WTnRUbmlyNFFveWxvTFBQbnVHUXA5SjdtNGJNbWZaaURLdTM3dzZzVS1FTmhHMzRyVnYyUmRnbll3ejRIMEhyajNIWlFTbGhUSzFkXzhFWjgzR29JMXZlVUVjc1RLZ1phaWhSX1RtRHFUOGVhVWlEMzBTOGJXYjVoMW45SGY4dFNURlRKNGE5ZUJ4dDRCQU5XZmwxamNHUC15Y3RhX3RvdDdjbkM5dw?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-10-23T14:17:17+00:00"
-    },
-    {
-      "n": 14,
-      "title": "BASF steps up push for Evonik takeover after $12B offer rejected",
-      "source": "Plastics News",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX205ZHdJSVd3SXhxU0VMUU1YRDlPZjFFcV9MWGZWRnplQ3dVc2hXc3dYWVFPX3phMEVFNTFTMnEzRlI0YS1KT2FsYm15bWFrZ0QzRk5qa05aS1ZWR2Fad2NHT05uZHo4cjYwR3RUVEpiTzhobmctdHc2SElUZF93Z1NQMkJBUjEzMzAxc3paT0Q?oc=5",
-      "snippet": "Plastics News",
-      "published": "2026-10-22T16:24:00+00:00"
-    },
-    {
-      "n": 15,
-      "title": "Evonik's Jobs and Independence Defended Amid BASF Takeover Bid",
-      "source": "Global Banking & Finance Review",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYkI3WHd5cWZFXy1uRndqYmJjX3RjLVNQS0tOZXVJRHU0N2pGSkdjcWxqU1FhVTlld2x0aV9HV1g4TTFJLXF0QnVTRS1UOHYzZ2hyNDFtU0UyeGN6VHlUWUV6aUpYblZZR3pHZTBGd1hGeW84RjBRN1lfWFozVUN2Z1BTcU9JeHpKV0pQZUpxWGk0bGpMbzJSWmZR?oc=5",
-      "snippet": "Global Banking & Finance Review",
-      "published": "2026-10-05T15:23:11+00:00"
-    },
-    {
-      "n": 16,
-      "title": "BASF holding internal talks on raising Evonik bid closer to €11B - Bloomberg",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUFJpQm92RUVJZUVxN29RYmZwbmdKX0JqMUc4M2JiVWtlU0dyb3FkWF9hVVpvNjNWU1RDUGI1RC1selU1WmtQcHBTZDBudTl5anZhVVBQX3pOM0pLMWZub292X0Z4a2dsSFI4LXViWE4zZmcwRnY4Ml9BaHlXaUNWd2txN3lSUEFUWjkyMGhCT3VDZ0pQQWlQd0lseE9DM2RsM1dKbkVaMVFGVU9uc2ItMGgtVThibWpXQTl4TkU2UTJIWEU0REVtTk5JQVVUT21ZN1E?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-06T15:41:26+00:00"
-    },
-    {
-      "n": 17,
-      "title": "Weekly Recap: BASF €10.3bn bid rejected and NRW backs Evonik jobs&independence",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOamdqWE5mNDVIby12a3hwOFhYTnR1b2YwN1FYeVI3VFdndWFzZThVcU54emxaSHNLdTNNd2Y0Q1pXNi1MeVlJa2RhZGlXX2NEUU01dlFaSFJLOWQ0dzU5WDhYRmFsTmp0NVBidGRWQXpSdkFJUjVXZkplOGQ0aTZMdUtVcWxwWHJzYzBsQUlHbTkyOHFrWjBwZVplOFF6d0lLN0w3WDJpckJiSmhjM29jXzhlTER4d0ZraktsMVpyZWJ6MkxXeldtcG56eDl0QUc2RHJqNQ?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-12T05:00:00+00:00"
-    },
-    {
-      "n": 18,
-      "title": "Vivakor Completes Due Diligence for Proposed $40M Direct Midstream Acquisition",
-      "source": "citybiz",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORUVQbGxXQWJCMi13QVJjZndrVm5OUkNSdlRDNFc3Y29aY3J6NTlPRlRPenNCdWVXS3ROVlFLUzBQN0ZDeUtzWnEyaExEUGpTY1hvTE1pRmhIbEVzU1JPUHVNTW9lNVNNU2hOUjV1Z3dRODljVE9hRjIxazJraU1ya3hCSUVGN0hkcGF3N2pmWVNwOTZrSmxPUnRMeE5OcDhlMkZUSG5JUmZZZGRRaXNOdUduSVZueUE?oc=5",
-      "snippet": "citybiz",
-      "published": "2026-10-23T13:25:26+00:00"
-    },
-    {
-      "n": 19,
-      "title": "Vivakor Completes Direct Midstream Due Diligence, Advancing Proposed $40 Million Acquisition Toward Definitive Agreement",
-      "source": "The Manila Times",
-      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNZm1TN1R2LUhsNm14SDhvSHZKVDFlR3AwTzVJVFB6ZVI2UXFtb1BlR2pfbUR6OFh1UjJYRG4wbEk5cUVwMlFLaEZTRzFKYm02S25UWlozVXRuamNLdXEwRE1xZEhIcEZidHExVnAwRFd1WHltRC1Vd3VjT0Fsc3lESHAzV3ctMEFLbHB6M1cxUVhVdmFSdXFkWTVFX0dobUtPSk9FU0dOM0gxQ21XM2M4R0lleXg5WVF1SjVaU1lJR282OGozNkVxaVZTdUd1TzVrNDVyZmJWNWVjU0VVcFpVTVZDVmZMT29tUXk2Q2tZSzF2ZExCREJaWE1jc2tXUkk1VXVCbWM4MF9PTW9hRzRCTGlCeGYwUHM2bzF4OdIBogJBVV95cUxORHlQdFZFZ0wtbjZwdk1VdnQwNTRpSUZPZG9TbDFCd3VTMkhlZzFpZlNmcTJlb2M1OXRBclpCT0JWZW9yQ01KMzJSUHpXN2VBU0djMnhOQmthWUsxNkJHVHdKWFl3LUtxM1hhbG8td1F0V0g2XzNEa3k2U2VpdkY1RzNyazY3LVdaVDM5Zk1KNUZwR0FyUEhPaE5lZ1JhTFg1NFRwcFZpQXBZd0NfNTRYNjMwRERrZDF4SlUzZ1YxMmZTYkdZS09ybFE1NUU1Wm5qVi0yUjBmSkZmVk10ZDE2eHVKZHJhWE9Uc1BtcGQ4QkpfNEF5YUd0Q1ZIQ0p5dk13SDVLUzFuazhBZlpZLXAyQXlQejZwb1FxOUZTQnlzZEU2Zw?oc=5",
-      "snippet": "The Manila Times",
-      "published": "2026-10-23T13:21:10+00:00"
-    },
-    {
-      "n": 20,
-      "title": "Salesforce agrees to acquire Braze for $5.66 billion",
-      "source": "Portal ERP",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaHJCMUpUbnZ4YXVsWEJYVWdMNWJZVk54dEM5OUF4bFoxbml2cWUtS1F4MTA3Uk92YlBkc3ZfdVVOSUJfVVE1bmxBQy1DXy1LR1JuQkJSa0w1QmR6ZWVOWUtJTDl5TzR0azhjazdDSEdJMDV6aTFVR1pmMF9pZnF6RURrQXRRM2Z3?oc=5",
-      "snippet": "Portal ERP",
-      "published": "2026-10-23T01:24:04+00:00"
-    },
-    {
-      "n": 21,
-      "title": "Salesforce's Braze Acquisition Leads Revenue Tech M&A Rush",
-      "source": "CX Today",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95bmV1Rm1kNEI2Y2FFVU8zU3BqeDRKMXN5TkgxUFNONkVvd0ZKX09YTkgtNHl5bnA4RDdFUzZqNEFGTmMxWHdUYnp6UW1rUmdTS05fMmZIVHdNWnFXaGJBUnFGMy1WbmVQZWRRRDR1NEJHc1ZTZEN5dFFZUk0?oc=5",
-      "snippet": "CX Today",
-      "published": "2026-10-22T19:48:56+00:00"
-    },
-    {
       "n": 22,
-      "title": "Salesforce To Buy Braze In $5.7 Billion, All-Cash Deal As Acquisitions Continue",
-      "source": "Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZjNDS0xvLV83dVFjYnl0dUZXZERlNU51R0RzQmZZcnQxRld0N1JaNTAtaDd4U2xVczJUUnZCSGtMejZZbHBDVXRnTXJ5UUQtRDdpY1ZYQUJPajJ3T3V1WG9UbW1waW5pSzBFaEpIbFBCYmNjaWJVc0xqWVdiMGRLWEJiclJHbXphOF9CTThoVXZOTTNSdURNaXBqSkNzemM?oc=5",
-      "snippet": "Investor's Business Daily",
-      "published": "2026-10-20T17:11:00+00:00"
+      "note": "ClearOne's Oct. 14 Filing Disclosed a $200,000 Working-Capital Loan [22]."
     },
     {
       "n": 23,
-      "title": "Braze Shares Jump 51.7% After Salesforce Agrees to $5.66 Billion Deal",
-      "source": "TOKENPOST",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5pbFdia3BXTmUtLVVOMElpVFJnZm51bExZYTFkVlNYN3ByQjRqcWY1eExrSVJfNWVKRkJjenF0LXdtQnpfR1dySHB2YmNrb3d6VkhUcW1TM1A?oc=5",
-      "snippet": "TOKENPOST",
-      "published": "2026-10-21T05:04:01+00:00"
+      "note": "IT Services M&A Slows, But Buyers Remain Hungry For MSPs And AI Solutions [23]."
     },
     {
       "n": 24,
-      "title": "Salesforce announces $5.66 billion deal for Braze, sending BRZE stock soaring 51%",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pZ01RcjBwTEVaSGJSWEJBRnQ4Y05WZnBuOHEtNlMyUWljdmVlUjFyNmpTNEVRdXVKajk3YUYyNHdVMHhxNHNfNkJCeUJJVkVCbS1CZjE4eWhZMGRWRC1yQUFJMHVoXzdFWFN5WGJBcE1FdzdLdUdXY19B0gF_QVVfeXFMUG02ZWQxek5oajI4THN2V1Rpejc3T2VfM0lJZElPMTVuSWhjTC1xMWNaYzczd1ptYmtWRHdQQXdlbVpvbzFOMUZhNkpKRkZRMmpFcjVqd2F5WmVHai03eEwtRGNka215a0JRaXNtalVkWmZjQllzV1JZTENVblplZw?oc=5",
-      "snippet": "CNBC",
-      "published": "2026-10-20T13:34:57+00:00"
+      "note": "Currier Plastics rebrands as Alentra following acquisitions [24]."
+    }
+  ],
+  "brief": "EQT to acquire Range Resources in an all-stock deal worth $13 billion, creating a top US gas producer.\n\nEQT / Range Resources (Announced): EQT to Acquire Range Resources. EQT agrees to acquire Range Resources in an all-stock deal [1, 8]. The deal is expected to create a top US gas producer [2, 5]. The acquisition is part of an all-stock deal worth $13 billion [2, 3, 5]. The deal was announced on October 26 [1, 7, 8].\nRight Lane Industries / Capacity Trucks and LayMor (Announced): Right Lane Industries Acquires Capacity Trucks and LayMor. Right Lane Industries has acquired Capacity Trucks and LayMor from Terex [9, 10]. The deal was completed after a short period of time [10]. No further information is available [10].\nHealthSpan Partners / Surgery Partners (Announced): HealthSpan Partners Acquires Surgery Partners. HealthSpan Partners is acquiring Surgery Partners in a $5.7 billion deal [11, 12]. The deal will take Surgery Partners private [11, 12]. Bain Capital will remain involved with the company [12].\nOvintiv / Logan Energy (Announced): Ovintiv to Acquire Logan Energy. Ovintiv is acquiring Logan Energy for $890M [13, 14]. The deal will be structured in cash and shares [14]. Logan Oil Corp will be spun out [14].\nAcuity Inc. / Parameter Technologies (Announced): Acuity Inc. to Acquire Parameter Technologies. Acuity Inc. is acquiring Parameter Technologies [16, 15]. The deal was announced by Acuity and Parameter [16, 15]. The acquisition is part of Distech Controls [15].\ni-Tail / Phelps Pet Products (Completed): i-Tail Acquires Phelps Pet Products. i-Tail has completed its acquisition of Phelps Pet Products [17]. The deal was valued at $160 million [17]. The acquisition is now complete [17].\nUFP Industries / Apache Products (Announced): UFP Industries Acquires Apache Products. UFP Industries is acquiring Apache Products [18]. The deal is expanding UFP Industries' pallet manufacturing network [18]. No further information is available [18].\nOnsemi / Codasip (Announced): Onsemi Acquires Codasip. Onsemi has acquired Codasip's low-end RISC-V business [19, 20]. The deal is valued at $14.5 million [19]. Synaptics shares surged 14% on the merger announcement with Onsemi [20]. Cirrus Logic is expected to bid for Synaptics after the Onsemi deal [21].\n\nAlso worth knowing:\n- ClearOne's Oct. 14 Filing Disclosed a $200,000 Working-Capital Loan [22].\n- IT Services M&A Slows, But Buyers Remain Hungry For MSPs And AI Solutions [23].\n- Currier Plastics rebrands as Alentra following acquisitions [24].",
+  "sources": [
+    {
+      "n": 1,
+      "title": "EQT agrees to acquire Range Resources in all-stock deal",
+      "source": "Drilling Contractor",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYXFRekhTVmpYNXNueEhaWUJJa1p4X3d3Wl9UTUlydDVydnB2alNSeFdHNUkxeXJTaUkwNEN4VGJtVkdNcmdOcFByMnZvTElXd25VRERqR25NWkNuNGdSa2diT2JwTjItOGFRUmhfSEp2OXN5X3pJcGd3OVNVYXBhSll2bm1HUFB0OUZ6MDFUV01BVVF5QnpR?oc=5",
+      "snippet": "Drilling Contractor",
+      "published": "2026-10-26T15:58:46+00:00"
+    },
+    {
+      "n": 2,
+      "title": "EQT to buy Range Resources in $13 billion deal to create top US gas producer",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUDJYcWR4d21YUDJHMFFqVWNnWFlwZDQ2M25TQmFzcVZKNGUzb0lGeWRCcEUxclB5eWJBV3ExWjBDTEVvY1RiYkd0cUlHaGx4SE5sMFpGV2ZCM2JJSWdYUFBvNUhzd0s5amc3NUtBbVZxbVVMQU5JU3JTbVhxOFFRak1IZTliVlRsM2llLThFRWVRZU0?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-10-26T15:18:25+00:00"
+    },
+    {
+      "n": 3,
+      "title": "EQT to Buy Range Resources in $13 Billion All-Stock Deal, Creating $50 Billion Gas Giant",
+      "source": "BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80Z1FsSzdfdFN2TTZ3UDY0LUg5QW1wMUZneXFhT1hDRVRIUG1OSWhuMm1FME9RZUlfX1RnOEdUMEtkemtZcjd3X0VXMUQ1Nk5SdGgyV1FsV1NxUnpFUzNuUTMzVzRTYUNDYnhRN04zaFJIUUR0Y2c?oc=5",
+      "snippet": "BigGo Finance",
+      "published": "2026-10-26T15:05:00+00:00"
+    },
+    {
+      "n": 4,
+      "title": "Range Resources Surges After EQT Agrees to Buy the Company in All-Stock Deal",
+      "source": "Quiver Quantitative",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOTJWa1ZHa1hVbkxqZVhHLWRPOFN5M1F1Qi0tcUV0SWZoOHQ3LTVSWTd3elMybWRhdFZFX3o1RUN6QWd3UHE1ZFk4cllVa19LZUVLTU5TTmxzWVFoMjktRDlKWG1vZXQ5WHhsdjNwVkN2QUl4SUc4VFc0Qk1xNGo3aF9tcFJMeW1yUFFSRmdxMFFFSDJLUE9QbER5WDNkaWwzemN6eUUwODJ0RDdDZUE?oc=5",
+      "snippet": "Quiver Quantitative",
+      "published": "2026-10-26T14:55:00+00:00"
+    },
+    {
+      "n": 5,
+      "title": "EQT’s $13B Range Resources Deal Creates Appalachian Powerhouse",
+      "source": "Hart Energy",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSkZtTTQ0QVpJRGI1OU4zUGgyNTZYQkFYRUpVQl9leXM5djRuRUYwSG8xU25PUmlTRkhZVFZEM3ZjRkh4enBPNjR1bUVhOHlnWUlkazFJT0pLMWRKLXI4OHNyWkM5X1owNmlUWDZLMVFNcmpEWE5EZnIwOVNLajlFLU9uUXcxcG1fbzZmM0JnVmgtendwRnRqMkVMZ2FxMHRSWk10VFBvTmQ0YXp0VE9vMUpnbGpDT1JlOF82RGZ5enE?oc=5",
+      "snippet": "Hart Energy",
+      "published": "2026-10-26T14:13:00+00:00"
+    },
+    {
+      "n": 6,
+      "title": "EQT Announces $50 Billion Range Resources Merger",
+      "source": "grafa.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQWp0ajI4T1NvaWZ1bTJES3VlOUlQMWdJUEprY1RDYzRZeTR5Vk9sbWN4VTZOVF9sdFZWbzI3ODZ5d0ROcURNWjFFWU1hdkgxakJBWHNFNDhNajhka2tCdGZHQUFEdTd0eXV1OWJxbXRqMjFHcnpmNUxFc092XzExVzRxY0ZWUi1GajFpX1FFWmo?oc=5",
+      "snippet": "grafa.com",
+      "published": "2026-10-26T14:07:00+00:00"
+    },
+    {
+      "n": 7,
+      "title": "Range Resources and EQT Corporation Announce All-Stock Merger Agreement",
+      "source": "Kalkine Media",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbFp3RnhXZEJxdUlicXA2Z2Q3al85MUVUaTBPZlZSdHc1MzRsaWxHd3FmaVFtN2g4eHd0OHdjaUtKUzE0WWlLbjFwSWttVWlUT2RzRmZQNGozODVON2FQX0w1LUdHbEU5VlV4Qi1qY29BblhKamVDcFRvV2U5UVh4TE9BTWdlOFJQU1FtX1RUVm9kdE5MeUVsWWs3TmZnMk9fUndEUUhyTEI0MURkNnVkZF93d2l1ZlhfZ1E?oc=5",
+      "snippet": "Kalkine Media",
+      "published": "2026-10-26T11:10:13+00:00"
+    },
+    {
+      "n": 8,
+      "title": "EQT Agrees to Acquire Range Resources in All-Stock Transaction",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWk53N1lUQU8wYWFEczJyR0xRejFSM015VnNXbjY1V1J4R0VQdGlJTTBjTVNZYkM4cERuQnRyVWpKS0lwNFVWTXVRVHczQVMxR21tSGJNYnBjdUVKbkZXcVBFd2NEeXNJdVRnRXRLQ01DY0dlNGRma193d2ZiR2lwLXZadjgwdkx2cWs5RlowZnk0SXI2Uy1uQ0pUS1dENVgw?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-26T10:50:18+00:00"
+    },
+    {
+      "n": 9,
+      "title": "Right Lane Industries Acquires Capacity Trucks and LayMor from Terex",
+      "source": "citybiz",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaGlyeVltc3IzeWRaU3R4VzZvcUZXTnJBcTlhaU82SDJnbzUwQ0djcjZvZTNvTGwxLUVsMEpKQjFVTjVOcDhwekxtX09ybk01LTRWeGJrOVlnaU9jWnF0eThTTG5zcXRNZm1EWFJJZGg5RlRiWFJXQUxwd2dSc2RpcVVIbFZseU1DTnUwZ3d6VENSQ2lhcXhSQUxweVYxTk1Mam9BTi1qSS1sd3M?oc=5",
+      "snippet": "citybiz",
+      "published": "2026-10-26T16:13:52+00:00"
+    },
+    {
+      "n": 10,
+      "title": "Right Lane Industries Completes Acquisition of Capacity Trucks and LayMor from Terex Corporation",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQmpMWVlsdURHODd2SUN4M2YxMmpxV2xSUkJzMTFBV29zMnBkR1poY2NNMnI5UUVXd0xGd3lSdjB5eWk4aTVrM3luS01Zd0RVZVI4TWkwLXF4VVdtajFsamV4VXN1M2xpbFo4M1FVQjhua2lFSnJVdEVCclNGOHduTVNqSWxfQVpfSHVNYS02c0lmenpVc3liM2FTVkNKYTNUWTE4WVJ4c2NaU1QtZzRDdmdCTjZWVFJTSXJTNG8xQ0VGbC10Vm9kVE1ia1Mwd21uWllnSUkyS0NlUGlnNzZJWV93MGUxSkRy?oc=5",
+      "snippet": "Business Wire",
+      "published": "2026-10-26T13:30:00+00:00"
+    },
+    {
+      "n": 11,
+      "title": "HealthSpan Partners to Acquire Surgery Partners in $5.7 Billion Deal, Taking Company Private",
+      "source": "citybiz",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQy1oRGxOeTN5RThFYWtSNWoxZFBZcjlFTTJkc3J4YXlTRlYydW1wQTg0YWxzY3R3Y0tHV1YzZDZXNVBwbFdhT0ZVUTZkOElXMjdYV3l5YXV2TnJyT2U1MENNa29qUFBOODE0N1VCUUxOTGUzWFgwNVJWZzNxVXJMYUZtY3daX1hFTG1DMmNCZ2NSQk1Hd3lraWR4WUNkV2p5Z0U5TDZUSkY1NGFldnZsanNlVTNJWjcyeGt4aXQ5SS0ydGgzWVEzSw?oc=5",
+      "snippet": "citybiz",
+      "published": "2026-10-26T15:13:00+00:00"
+    },
+    {
+      "n": 12,
+      "title": "Bain Capital to stay on as HealthSpan agrees $5.7bn Surgery Partners take-private",
+      "source": "PEI Private Equity",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOEdDc1AtX1RWYXdSZlJQQ2FOMkh0M3h5YlE1N0UxMXhWT2lzeTBxdDE1S2xLZTBzNWdEdWgwdWJWSFFWaHV0azE5NFFCVGVSTzZZYTI3V3BrUG42TjZzV2s5bDJtRmRsR1BNUTZzYzBaM2NsMlRlQmcyTHI3Zk0xNk9saTJrYzQ0a1Jsb040XzFkYUdDcjd0LUM1T25KN3JWR0RPS3p5Z3ZXMUlwRWY2cmpYTW1iM2tIVGNXOUdScllfQQ?oc=5",
+      "snippet": "PEI Private Equity",
+      "published": "2026-10-26T13:29:16+00:00"
+    },
+    {
+      "n": 13,
+      "title": "Ovintiv Announces $890M Logan Energy Acquisition",
+      "source": "grafa.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWmdQY2wxaG9CTlFIb3BJRDJGRnpsUkVRSzBMdkR5N0U2ZGNhOVBVSmxNZHBDNUZZN1ZUOXk3Q1JZeTNtNDBxTjB2eTh4bl9sbmZtOWR4S0Naem9BUFZ1NC1OWnM1T3RaMFA3djQxanVVYmZBZmtKTFk5d2RiUEsxZGVYdlZzSmlWQ0FEZg?oc=5",
+      "snippet": "grafa.com",
+      "published": "2026-10-26T11:11:24+00:00"
+    },
+    {
+      "n": 14,
+      "title": "Logan Energy Corp. announces agreement to be acquired by Ovintiv Inc. for $1.40 per share in cash and the spin-out of Logan Oil Corp., a new growth-oriented oil company",
+      "source": "BOE Report",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNajBRU2ttWWJva19Fb2M4SUV2THdNTkJubWlTZXhxeHdDOXRMZUgtSExUZllzdnNMMVJaQVgtM2tURnVKbGlKUGJ3Y0Jvd3NGMV9qanZMNnY0eTM4Y25lRFpZR3FOSGRCXzVEdERtUGprdzdnd25SakFSTXVRUEdrXzk5WTZRT3lFUm9YSExtVEtjdG5pM1lucnVLRXBndWVPTDhsbjRxWkFnVTNSaHhUc0l2SVE4U0IxZTNGMXFOLTU4TVJOVWlJTGFwMDNGUlVNWDVhdVpDYWl0MjUwMlM0YjRJa0tNd0Rta2s5cUYwN2lvRTYzYmRWVTU5NTZZeU1QdVRlVDJzeUtwWGMtZmhiQUVlSmJLTkdEOGZabGZvRjNibm_SAagCQVVfeXFMT1I2aEJpVzhHcHBOTmMzVkVMbjBWMmxEeXNoOGlSSHZLamh5S2dPeDJONVZZTUpxYVE4Q1lvNFp1VUItTVlMc1ZCM2ZfMTVVOUdBN21ZWmd6UlVmN21wTXZMRkwyaXNIQ0puYk4tc2I5dTItbmJ4SHJyeXFvSkV1R3p3ZW1PYlU0ZW55UlBnMkZ3Q1liOG1OWGlDeFlJdUZoMUN6X3FERU93MUlsVjdGUjlHMnFORXRlVGpkb2V5YTNpNzEyWmxZVnVfU0xRZ1R5RW5OYk5xMm9NTUEwR3lULUFyQVNlQjFiOG1WSEI3WUVwUjBLaE9HSWhmZmduM21Ya3M2NFRYTmlkb0V5MTQ0azNiU2pIT3IzUnd4b3R3SzRfaTgtWDgwX0s?oc=5",
+      "snippet": "BOE Report",
+      "published": "2026-10-26T10:45:00+00:00"
+    },
+    {
+      "n": 15,
+      "title": "Parameter Technologies Announces Agreement to Be Acquired by Acuity Inc. as Part of Distech Controls™",
+      "source": "Yahoo Finance Singapore",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVlliYkJ2LW1sNmtVNEhicDhuUDB2Q3RzRkNldHU3MnhHLWw3ampmS3lyU192M3pNSnRnUWhPMUVybk1LY2gxOUplNTNNdVNZV1hRSWxtZFVESVppOHNhN1FsNFRVLTYtWXFvbTc4YzJmMm1sVWd1U2hLX2pqUlg0ZXpXTk1aclBGSkVyc1RQRVlwZkQ1VUlCcUVnVGcyci1PREE?oc=5",
+      "snippet": "Yahoo Finance Singapore",
+      "published": "2026-10-26T12:35:00+00:00"
+    },
+    {
+      "n": 16,
+      "title": "Acuity Announces Agreement to Acquire Parameter Technologies",
+      "source": "Yahoo Finance Singapore",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbjdTODBUMWtIVlN5NlRnT1ZrVXZ5ZlZYTWZYdHpMYW5IM01MQ0J6cVdMZ3FMamdvMTBoQWw1YS1sVVpOeTd0amFQT1RDZ1V6QUExOVlIay1XTy1CcU5CaTk0MFlHME43cmRnZEFneWx5empvZUlXOTY4NHRkNFFPZ0o5a0Q3MXFxSVdlNWpqQnZvM2xhOGRSeA?oc=5",
+      "snippet": "Yahoo Finance Singapore",
+      "published": "2026-10-26T12:30:00+00:00"
+    },
+    {
+      "n": 17,
+      "title": "i-Tail completes $160 million Phelps Pet Products acquisition",
+      "source": "PetfoodIndustry",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPY1ZoS3kxWkhlck1FSmYtNVBablBmRFF5X0hvT1puaml6MVB0S3pfVklBNFVncnpPMDRBZTByU3owLS1YNTVCS2pQT2hiNmhiT0dXRlFZd0dFak5Ddl9aWkREbFZJdFVKX0ZWdFpqa0g2aF9uTWN3X0pCaUxBeTFwM1hBRGZJVktYeUVJUVc0cGxVYXZiQVdRbmF4YkV0cmxGX0VvcDZkQXRDMHQ2b1kxdEFZMzhQeDZIcl9KdThLcEhlV0ZCcVFJdHpCVnlKUTRxSTBUbVFYbV9qcGt0a1lz?oc=5",
+      "snippet": "PetfoodIndustry",
+      "published": "2026-10-26T17:03:11+00:00"
+    },
+    {
+      "n": 18,
+      "title": "UFP Industries Expands Pallet Manufacturing Network Through Acquisition of Apache Products",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNS0NpdTh2MEwzTUhqNGY3U09KWURNWDRkcW5VSnNlLWRLZnF5aXcydGZ6aGlZVjRsN1hGc0tvUVlmSFkxX20yWHhsUnZ1ZHVlbkFoUEtISnpMcm9melJKUUt6T0pVRDlWdXZCcnNBVk5saXhZTFhuenlzb01tWE0wME1qNHdSanpyYXp3X2FzRDZjUjNkQm42dUJvV25lMnVJbmtqbC1YaUlhbnN3ZDdFaGVIbTJtVkxCbVhoczk3OF91TU5vNDgySWFtTjRwWVZuNVNlMTFfajg0SFVOUm9DWmg2X0hPZw?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-26T16:45:00+00:00"
+    },
+    {
+      "n": 19,
+      "title": "Onsemi picks up Codasip’s low-end RISC-V business for $14.5 million",
+      "source": "Jon Peddie",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa3ZRTkt6MmJwbnA4ejNUUVB2QTRwTWFfQ0xRQmNtQVU3T1FEdDdjYnYwNUU5dHRMYjE2QjdoUjBPSWNNb0RGS1lBSWZJX1czUGhyMnFpdDNuOXBkR2VFZmZVY3h6UkVOR1NWRnJyYkI4U2dlZXJaNGlwTTFyRW05WW9HVnRNRk5FSmZZX2FUdXZtRmg5a2lXRV9KRjAzQQ?oc=5",
+      "snippet": "Jon Peddie",
+      "published": "2026-10-26T16:13:34+00:00"
+    },
+    {
+      "n": 20,
+      "title": "Synaptics (SYNA) Shares Surge 14% on Merger Announcement with onsemi",
+      "source": "GuruFocus",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORkNJa3VtenQtclE4YVFCc3pUaWtMcjhPOWJkemh4VGsyOFZtYlRzZEprTHlabVRXVTduMDNlYTlIbGdXQzdVV2F0NHgyd28tZzl3YnJUVnBYNnJvbU42Yk8yMzdhbWZfVmY0X2N4SG1XQWVqYnVYUEFybnJLcml6ZEI5T3BDLTN3dGNhSHRSb0huY1RHeWVLN1g0MENtckxPUGs5T0Excw?oc=5",
+      "snippet": "GuruFocus",
+      "published": "2026-10-03T02:04:14+00:00"
+    },
+    {
+      "n": 21,
+      "title": "Cirrus Logic to Have Bid for Synaptics After Onsemi Deal",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQTFvbE40MURObGZmN1RWNDRNamJqdEJlX1JzdEFDUGZRNEUxN08wOHREMUNDU3hWeUZuT3ZfVW5jb0hQRG9DaDVGaUw2VU1sbjNYZGU0cDBMSFUtZVhSSXRRY0hkWkluZUwxTF96ZzFSVWthRnJqSDN5Y0h0N1RrdjJRVV9DdjRVTzUyS21CRmd2cFJyWkZaT0tvZkxybzBDU1JEaUF0STRxcFQ3c3FYRE13OFpDQQ?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-10-09T23:25:37+00:00"
+    },
+    {
+      "n": 22,
+      "title": "ClearOne's Oct. 14 Filing Disclosed a $200,000 Working-Capital Loan",
+      "source": "www.tokenpost.com",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZdS1MMkh4a0lWREJEV1VWMEdteC1SR3BLbEpOc1otWXFiM1ZlV094TnFPUTVFcW0yU2dUT211MUFRa09DazFVaDJhUTZJZFY0R2Z3RFI5bWU?oc=5",
+      "snippet": "www.tokenpost.com",
+      "published": "2026-10-26T16:32:12+00:00"
+    },
+    {
+      "n": 23,
+      "title": "IT Services M&A Slows, But Buyers Remain Hungry For MSPs And AI Solutions",
+      "source": "www.crn.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMHliaDNXNTFiN0JaSXZNUDY4VS1uUzlzdUs3aDJ5cGNZbk9VTWxjRWloZjZoOUFwVkhaT3dqLVAxVW9icHRLTWIwSDV1ZVV1YklvN09FcFhnUWZ3LXNBVEYycFprUjJReUlFUEQ2Z1FTX3AzYkZZRksxeU93d2FDaDh4aGR6amRaWnRoQ1dqamJMMExNVGFmVldlX2pRUy1yQ2RFRzBKRldNQ2tOWHBlSzVUQ3lzQQ?oc=5",
+      "snippet": "www.crn.com",
+      "published": "2026-10-26T16:16:28+00:00"
+    },
+    {
+      "n": 24,
+      "title": "Currier Plastics rebrands as Alentra following acquisitions",
+      "source": "Plastics News",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTE1yYkY3QkszU3FMaUptUXB3WFBIRVZVbFNjaWVhZF9jTktWaGRQMnpsU092eWNENlgtSXpGZHhrUDdTTUFzWWVIS3lKX1U3d1pKMGFtZXJHSkJXZHdrN3k5YWdPX1ZCN3NfWFJBOHA4NWotQUkwOVlsdlVaaHpoRFN0S1JlcExRZy05V0dnTQ?oc=5",
+      "snippet": "Plastics News",
+      "published": "2026-10-26T16:08:00+00:00"
     },
     {
       "n": 25,
-      "title": "Braze Soars 51% as Salesforce Agrees to $5.66 Billion Buyout to Deliver That “Wow Moment”",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa2tNLVJ3cmZONTN5ZzE2WllDaWZaSmI4bW1CQXZPblMtTmtCVjFxS2d2NWI0SDlWR0FWZkd5dmxpMlpHa2xTUENXc09qMkxIT2tDeG15dEVTSHZYTmtQWFJ2ZFN4WFZueENmbTFFV0NNcG56WFBuMXNFTXlVYlNKTExTUHhMMzMyUkU4YjBqUG9VdHl6S1JaNUNkVy1JQQ?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-20T19:48:58+00:00"
+      "title": "Aurora: Alberta Securities Commission Dismisses Curaleaf’s Application to Halt ATM",
+      "source": "StratCann",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNkVrVExMME9FX25SNTZ2ZFk5WUZtVk42cF9kWlVqUFBNM01rSU9UaFNOTlpEREljYUVCUVlTZVV4bmQ0YXB1NDdWNjB4TTdNS1pkUWl6MUJiTDdDemN3Y09vMnJIZEU1QXRUTElGalNMc3IwWkh3bVY1YTVvYll0bEIyQ2s2ZGhXRWlGSFo5T0R2YUVBN3ZqVGdhZnoybDgzVERXOU9rdHRxeG5E?oc=5",
+      "snippet": "StratCann",
+      "published": "2026-10-26T16:04:20+00:00"
     },
     {
       "n": 26,
-      "title": "Stock Market Today, Oct. 20: Salesforce Agrees to Acquire Braze for $5.66 Billion: BRZE Stock Soars 52%",
-      "source": "The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbUhjUGNHUW41OE1sRGgwZDBfRkk5aDlSc2kzelM5TEFSdEhXSFdGZzNYZGYwUGxrVmd5dkE5M0xoZHZlS3hFNmpnMXEyck5RdTh3elM2UXFMdkEzb1JhN00yaGNrSG5yZDlza241MVlQSVk1NXhZUlk4NVQ3THJ2WFo2WUxkM3Iwblc4R0ZTWVlZMmU2V2ktSWlsOGFvZGtCN2tOQXY2Q0cxaGZqYVJaSTZfYl9venFSZlY1NTVyREh1UjVZbV9paEtac1pIVFlXLTVKQUJydHZYbm0weWhOTmFzRER1SXk5VUd0WUI3S1NpcGc?oc=5",
-      "snippet": "The Motley Fool",
-      "published": "2026-10-20T20:54:04+00:00"
+      "title": "Amsons Group Acquires Geneva-Based Oryx Energies' Downstream Business in $230 Million Transformative Infrastructure Deal",
+      "source": "Voice of Alexandria",
+      "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPcVMyQnVtRnYxWXAybkxUMmhGZnotbU9uSlJtOGp3LWh5UlRjX09Rdlp1Rjg2SG5SbnlVNXNLaTlDWUVtU1BjTzVVU25jY2N2bG8zd3BudlhFQUhVZVhjMDhidVN6Y1JZaFJSWmEzaUVHWDEtQ2hVZm82a3dzR2oyRVFrY2VCT3NoVkFSMXV1UXBrVU5xcUVuZ1Nlc01XaEdDX1oyYTU2QlpMblNVeEc4blJNUi1TQnpDbmZRYWkxcTIxMXoyVHI2R2QxTDNQX0xIWG43V1ZqamxENFJpZnlhV2M4TFpMZnFTM0ozM3RoQ3RPYjRkbUdITW5PSGFPTTZaX0FrSnB5ZmFJNVZvLVRudXZDZC1TOTQ2aDZzZGI2X2trTjhYU1FmVWQxSlNfYUdudHVGQUhjUFY2U2wxMUxoNV82Nk5lRmdLUGIyX01Sbw?oc=5",
+      "snippet": "Voice of Alexandria",
+      "published": "2026-10-26T16:01:27+00:00"
     },
     {
       "n": 27,
-      "title": "IN TALKS: Williams in Talks on $5.5 Billion Deal for Momentum Midstream – Report",
-      "source": "EnergyNow.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSHpBam9nR19ndUxwZi1NSFo3LU5FSWNMc2MxenRSR05WY0hhWEVVcENMU2lzemUydDhtM0pXVS1vVVQyWV9hUldzWVgtR2dlQ2M3MEJCaVRJUDVsRmJrX2daVENPUVdpVnpJWE02WDRQRVRJR0t2MEwwN202dTFhMElxOXB1YXlxZkxSZnlRZnU1alRLdS1OOFhFN3FKS2Y5cWpWRjdJbU56TGc?oc=5",
-      "snippet": "EnergyNow.com",
-      "published": "2026-10-23T07:32:44+00:00"
+      "title": "Galp, Moeve scrap downstream merger as Iran war boosts refinery valuations",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUdmRHBJcVJmcko1NVpEVHRETC1hVFI2NFhYLXdvcFBuVFJxRFA3X0FmWWR2ZWFEelRWbHJfdDc5b3RhNFI4SzB1OXBLWkcwbnF0amRmTXJYVXFKa1Z1eFV5T3FZSzV6SWlxUUpMenZ1WG5hbzAybGFWb1luMU10NjVFbHBrM0d3UlEwVWVqanVfLThBTXRNbWxhZ0ZodjZRZHFsTXhkMUVaMVVaaS1xdzJQNXY?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-10-26T15:51:19+00:00"
     },
     {
       "n": 28,
-      "title": "M&A: Williams Agrees to Buy Momentum Midstream for $5.5 Billion",
-      "source": "EnergyNow.com",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaHh5Rkhxdmw3U0lqSFJyQll3NTRmR1gzR2J6M2pxeHhCckRCOWlsdWdHRHdCRDlUZHk2bURFb3RiVXhWOVF0el93andESkVKUkVfZ2V4SUE2QXg0bVdOakxsWWJPRVY3Vkc3dnlzT0FHWGdBaVVrVmJ4VEdFWWFTNXpZb0xVQVhicVl6ZnY4LXRHZw?oc=5",
-      "snippet": "EnergyNow.com",
-      "published": "2026-10-22T18:11:33+00:00"
+      "title": "Persistent Systems closes QIP, allots shares at ₹5,550",
+      "source": "scanx.trade",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaU5fTXExNmpKZ2h1dDZZS1JIWFFPVHJfbXNRWnE4cDhhRXdOUVNwaTRvZF83OUhvcHhmTjFfQlJNSEZIVllycXhCakpLUnZKTXhGSS1PaDdBblgtN0VjZXREcV84VzNKMGpRSXlnd2Q1ZGs0Wl9SZVNpU3R0N1hwNkNuMFpFVnkxQkpZbXBWREJrb2JwUWZJUHFablhJLWVDYTZUUmM0RGt1dVlySE9WSkFDdw?oc=5",
+      "snippet": "scanx.trade",
+      "published": "2026-10-26T15:50:32+00:00"
     },
     {
       "n": 29,
-      "title": "Techouse Acquires Ambio",
-      "source": "Offshore Engineer Magazine",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SRktLTXVQWGtzMFZab21XNldjVGZTakxNdUNocXh4UkE3NFZQQi1FRDhib0Q2QUxZaExSRkJsS0dvWFg5WnlKWk1Tc2lKMEZhYWp3VXp0SlpLclEtajZsOHpFSnpMeXhyX0lkUkZuYUVkY1U?oc=5",
-      "snippet": "Offshore Engineer Magazine",
-      "published": "2026-10-22T18:15:35+00:00"
-    },
-    {
-      "n": 30,
-      "title": "Techouse Expands Offshore Water Treatment Business with Ambio Acquisition",
-      "source": "Offshore Engineer Magazine",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcnhOdHFwbjlkX04zdzZWLVdBZE9iNXlHcVNiVkNBNzEwUEhxX1VSYUJTRlNIX3YtX0tBUHRQaVdFU3BueHN5V0dFbzZHcml3STNmQWVSc0lGSGRqNTgxVGs1a0lFWDlBWXZleHNmOTU2TEpyVERZNjhNaENnZnQzQlpScy1lS29EOThQVDVQY0VBRjJBM0hId0tVVHFXQTVBQ3BRRHk5U1RnZDRzWGoxQg?oc=5",
-      "snippet": "Offshore Engineer Magazine",
-      "published": "2026-10-22T12:27:24+00:00"
-    },
-    {
-      "n": 31,
-      "title": "SpaceX-Tesla Merger: Antitrust Risks Emerge, S&P Inclusion May Bring About 10% Passive Buying",
-      "source": "TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObjJaMWtiY0x0c3paOHUzRkRDcWhMd0d5TlNMVDRScjJqbzdfVzhYS1AxMjQ2VDNSdUpySi1lR0xaa1FKTEdkOVBkMGNsVlB6RTZOZ0d1ZDRtdW5BQlpqblFnbEZsOU5sMjZTbmF1WnJFMWJ4MzRPY1RZMVdmeVFQQzRhU2xMalpMcDJidGFLbU55UHV5ejkxcEtTc2FKT2YwLTZKQlJMTElMQVN1R1JwTGhKUzd5YkhnZnBBaHZwcUJHWWpNYVhLWWF5YnZTUXpYa1l3?oc=5",
-      "snippet": "TradingKey",
-      "published": "2026-10-23T14:48:03+00:00"
-    },
-    {
-      "n": 32,
-      "title": "SpaceX-Tesla Merger: $2T Bid Draws Reuters Warning",
-      "source": "shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0R1ZIalF5WFNoVU9vM3dfZG1GcVhjM092eTBLaDEzVDhZV3duNDgwaVVyX1dyVkdnVThXaWQ0SXlpQWV0WWEwZDdZVXhraXR2a3ZWbE1CRnNlOWtkWVlpNFU5b2xiczA0YkdGbFZB?oc=5",
-      "snippet": "shattered.io",
-      "published": "2026-10-21T20:30:52+00:00"
-    },
-    {
-      "n": 33,
-      "title": "Tesla-SpaceX Merger: Analysts Split $480 vs $550 [2026]",
-      "source": "shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9hc0tNWVg2RllMS1lqb3pQRHZ5anFWNjlkVFhxT2RPVjhCQXZuOG9hbUE0TUE0OWhEbjEyQmJiQndoenFyUnA3OHRpN2FGbzAyQU1qTkNVa1ZvN1FmSjd4QmJyN2JrMUNjcTJ4M2J4bWNTcmZyZUh1aGV3?oc=5",
-      "snippet": "shattered.io",
-      "published": "2026-10-21T22:15:46+00:00"
-    },
-    {
-      "n": 34,
-      "title": "SpaceX-Tesla Merger Antitrust Risk at $3.5T [2026]",
-      "source": "https://tech-insider.org/",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaW4tLW1qZHpDVkVNcUszZEJBb3Rjbk5EcW9RWkZ6NUoteW5sZDZIZERYYVlpTW83YllWTkFUNGtCNkVDNkRzc25ZNlNlLXd3Nk5wWjdvRzNJOXZFWkNhTnRnaEVFLWJtM3IxM0l6T1pYb3kwUXlYTFhFdjJFeHRMT2NsU0pwQVFS?oc=5",
-      "snippet": "https://tech-insider.org/",
-      "published": "2026-10-23T10:22:11+00:00"
-    },
-    {
-      "n": 35,
-      "title": "SpaceX Tesla Merger: Elon Musk Just Called it a Good Idea",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTViR1lBWFh6Ul9RNmNkcmoydUowVEdMcm5WNEpEWGZYcTJmV09MRmx4SDBxa2xSeTA4bGRXR2ZCMnlJUzZDSW1ZX3dmTzFYenp3WnBtcjcxZEZhQmludFY5QkVJMUVsczNudk44TjFaMVpqb0VhWV85UmxENGktNVJNTVBsenlteFFtOFIyNks5dzh4M29la1JB?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-21T21:23:01+00:00"
-    },
-    {
-      "n": 36,
-      "title": "Prediction: SpaceX to Acquire Tesla for $420? Elon Musk’s Potential Historic Largest Tech M&A Deal",
-      "source": "36Kr",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lSkkxWjhRbWZQbXlZUEt2MHBoRkszMzBjRUJNWG5XWEdxYVJMLVRXYkZmQUdyN0RzdWUyUHllX3NLUG5GVGhhemlKWldjTlkyb3Rv?oc=5",
-      "snippet": "36Kr",
-      "published": "2026-10-20T02:43:05+00:00"
-    },
-    {
-      "n": 37,
-      "title": "Nuclear Fuel Capacity Expands via Centrus Energy Westerman Acquisition",
-      "source": "ETF Database",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSVN2LW9ONlE3U1kxcF9pLVh1Nml1RzZTbFpHTEZrcWlLdTROSVJMOW8tTGNXQTNZVUJHM2IwSUdEbE5tRDhjTUpBdE1COHM0YjRMU2xsYmpWYzh0OVJQVkczM0xJX0ItazItSmxxR3hqS0I0MW15M2paZUVNR2kzbXNiR1JzQUU0Q3JRYko5ZXVqWTd1cHc?oc=5",
-      "snippet": "ETF Database",
-      "published": "2026-10-23T14:01:48+00:00"
-    },
-    {
-      "n": 38,
-      "title": "Centrus Announces $116 Million Acquisition Of Centrifuge Component Supplier Westerman",
-      "source": "NucNet",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc2VvUHVhYkFWbnp4VXRVRU1adTZqTEZKc1ljY1A5VjAzR0JSYVpTZ0h3SkFEOXFsUnhJT1pqdmNuUVdjb2hrbWtZS2JiN0FXbnFNT19kNHR3MmZCV2hTeno3bXJUWUtwOGNCRndPVE93a25wTmctM2U2bW9wdTVvcUZkSGN3M040ckV6QTd5Tl9jVW83LWV4RVdmT1I3c3p3aW5VSGhGbEI5a1ZOdnQ5Z2tPVDlKOWY0UGE2Mkx1eS1mWDA?oc=5",
-      "snippet": "NucNet",
-      "published": "2026-10-19T13:30:51+00:00"
-    },
-    {
-      "n": 39,
-      "title": "General Musk",
-      "source": "Oligarch Watch",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53WXBvQWNxalBFZFR5M1pyYnBNZC1HeVUwV3dBX1JLblB1cTl6TC1GbTVQYTFXOEFuaGN6azVYVzctVERoMHQxM1BSUTFUVURNZFN6V3IxSFF5enY3ckE?oc=5",
-      "snippet": "Oligarch Watch",
-      "published": "2026-10-23T14:30:53+00:00"
-    },
-    {
-      "n": 40,
-      "title": "Realbotix Announces Additional Draw under Bridge Loan from Onconetix",
-      "source": "01net",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd0RQS1pOZVdDZDRnaTAtbTNxNDVOc2xEWWk1dXZkbGp5SjZHc3R2QVNIbkFzXzJ2ODNpY0dqSkdoc2lVUXRuNDA5RzQ2OW5LMHh0TU5aZkhHWk5KaGRJcEN6WXhUZ3haX1o4MWhod3VsYjBCZWs0SHNOeE5zMEVEb3J6U1h1RlppeXV6VFVuU3FxRmhf?oc=5",
-      "snippet": "01net",
-      "published": "2026-10-23T14:30:00+00:00"
-    },
-    {
-      "n": 41,
-      "title": "Weil’s Merger With Willkie Is Dead, But Its Partner Exodus Is Very Much Alive",
-      "source": "Above the Law",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQd1lNM0tUUVhnZXZwRkhoUDBqSW5uUVJjUXVZTUl3OG9rY2VmRmdudG1QRUxaMTQ4SVVYSzk4Y1VYOEhob3NwdjAtT2t6NEdralJpX05TM2hkRDJ2cEV3RUZSWGRfaUhTQjZsMUhWd2hxM3IxdDFWU2FRa1BHaUtLWHNqMmN5MU52NXRSRG85b1E2bFVqNy1FUThJekRyM19aZE8xSVdBNFVRTmZ6?oc=5",
-      "snippet": "Above the Law",
-      "published": "2026-10-23T14:10:00+00:00"
-    },
-    {
-      "n": 42,
-      "title": "Germany plans to buy thousands of missiles, including Ukraine's Bars, Bloomberg reports",
-      "source": "RBC-Ukraine",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNekV1SzJabW04Z1JnX2ZZbnBTNWc1YUZRWDZLUWo4aXF1QUFvQkIzTXpscmFBcUZPdHJ3TFhIRllHYktkcFFrd0NFTkRtM3JTM0NHUE9pb1Fxcmc1SHVwOE1FSkZJSTdiSmR0ZGNnZnFyQXcxRUtaX3ZvRjcyMGo2dWo0dS01STRrMzAwZUhlcy1ONHZU?oc=5",
-      "snippet": "RBC-Ukraine",
-      "published": "2026-10-23T14:00:01+00:00"
-    },
-    {
-      "n": 43,
-      "title": "Roundup: Gilead Acquires Oral IL-23R Inhibitor From PepStar for $1.275 Billion, Zymeworks Licenses DLL3-Targeting T Cell Engager to Roche",
-      "source": "Pharmaceutical Executive",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSmtTWjlxZURQc2w0NzM2QlNSOFZ0bjdaRzVkLVhhUlpuMGNKR3dOeTJQaU94SXItZEdrR185cWFJa3FCa3NTay1Eb3RUR29VUG40cVFlN00wUTlHMVJ6ZnBUbUNXazBlQVJTQ0VSRkwzRkh4aHE5dmNxUTRlbEI4X2JXY3V1Y0ZxbGFiMXR5clZsb0Rxano3Z1U1TWdfVDRtVG9SaERUb3hwX1R3Mi0yVEhScw?oc=5",
-      "snippet": "Pharmaceutical Executive",
-      "published": "2026-10-23T13:15:27+00:00"
-    },
-    {
-      "n": 44,
-      "title": "PenAir, Fort McClellan CUs Announce Merger Plans",
-      "source": "CU Today",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaUdnMUVQdHpqNHRKdnRHdzBfUVppV0Zsc3BxUlhGMlJ4ZFNjSFgwai1WcXVlRVhUVmRWRlVQd19aenVsT2VPS1F3NDY5U1lUaWhlRnV3SVMwNjNQVko1YmU2clVsS3YzczgzUXRCeDhQMDRhMmR6cGprZnhJM0NYVkZpTXJVaDEzY2R5Yw?oc=5",
-      "snippet": "CU Today",
-      "published": "2026-10-23T13:11:49+00:00"
-    },
-    {
-      "n": 45,
-      "title": "Weil and Willkie Call Off Merger Talks as More Partners Leave",
-      "source": "Law.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRXJlVGFDVTlBdWdmTU1hemdmN2h0SDU3SG9TeDh5b1lZU2M5QW1KYlYxSDJqSnp0MmxKSkFHcEtnM1JpbENXMWxaUUpsWnI1UjlfN1kxc2lQeXZxLWFpcVR5QWNiVUxWVkl2YXRmOTV2b3owVUFia0hfQXhTQ3ZHdW5JT1dSQWlNSTk0Zi0zb2dhUzNyaVQ5UDExUVFnSUNUbVkxT1V4NnhBclFR?oc=5",
-      "snippet": "Law.com",
-      "published": "2026-10-23T13:08:43+00:00"
-    },
-    {
-      "n": 46,
-      "title": "Report: O’Reilly Submits $10B Bid for Genuine Parts’ Automotive Unit",
-      "source": "National Association of Wholesaler-Distributors",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbTRFYzBtMWZfVnJBUjlCenZvQ0tzWjh0Zi1uenFjN3ROd21vREdtc05EMC1PdmNnaTR4ZHBDN29ncDZPanJoSGtkY0ZjRWNvTjZSWHBCMG9uZURpS3ZJUm1yR3JoaVhJYmx2UVdjTlZ2bzFWQ0ZLVmF3M1RYaExhWExwWjl2NFRYbEJFalZ1NjlGQlhHUUc0bm5B?oc=5",
-      "snippet": "National Association of Wholesaler-Distributors",
-      "published": "2026-10-23T12:23:49+00:00"
+      "title": "Days after Elon Musk said that Tesla-SpaceX merger would be a 'good idea', one of UK's largest banks send",
+      "source": "The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQQVJqNnZDdTB0TmhabmwwVGVFbmVpMlIyLUZZLUFiSG9yNlp2SVJTQmp6aUpPa1A0amgyWEs4a1N5RWUyeDlwQTNwMGo4SXJEZUFXamlxQThRdEpsRDhTb2dpMFhQTGRySkNTNWcya3JFUTkyQ0x4UDI3SG5GVk9QMTVUMk56cTlWWTAxamduQ3gxa1F3UVBuSDJXVFNjanlmRTdsek5CcUM5dS1takw5VnFlVW9zOHIwZklta3cwTG40TzVCY01rS1RzQmJsVl9pNDBjSjVsVEpLV2RPWFBGekVPcm9TVWRER1Mxb1pZNDhkRFFhaHd3X2VDQm44ZlVrSGVGTU82Qk1MekRnNmcxZXplWS1lRktxN0tQZGlXZjdGMXQzdWNMN0FwUUNPSEszbHlNUNIBugJBVV95cUxOQzh0TUhJT3BwLUo3eEdMcjdoOXJuV1lETHF2aklzVjB0dWhYVThockgxcGZ5eTNERWJ1c1BvcUVzZEptb01GVWFFNzg3Y2dUcnBJSURGOXpLX1Q3ai1zaDhkOWt6UHJ5YmRocFpXSXdyNlZMdXM2cE5Fb0l3V1RNRkh4VTd0ZVdjZUFWQWsyWTRzcURwQlhweUtSeFg5TW9BbXVhRUM1WC01cU9SYWJ2dm1LbzM4dmh6MTYxSWtKaFp0T3paS1NQUFhFRnB0c3RSaWJHWHVlUWM1VWY3WFlEZ1R3bElQcktQRmJSYjBYbXZYWVlfSlU0VkxiSjd0eXJCbkNHUnFHRWs3QlRmallJU1JPU1FLUGZrWmU2OTJzdzlrZk9BR3F0MkVwQnkwVU5mQnVkUGl5N2ttQQ?oc=5",
+      "snippet": "The Times of India",
+      "published": "2026-10-26T15:50:00+00:00"
     }
   ],
   "cited": [
     1,
     2,
     3,
-    4,
-    6,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
     12,
     13,
     14,
+    15,
     16,
     17,
     18,
@@ -704,209 +547,142 @@
     20,
     21,
     22,
-    24,
-    25,
-    26,
-    27,
-    28,
-    29,
-    30,
-    31,
-    33,
-    34,
-    35,
-    36,
-    37,
-    38,
-    39,
-    40,
-    41
+    23,
+    24
   ],
   "invalid_citations": [],
-  "example_prompt": "Deal: EQT and Qiagen.\nStage: Announced.\n\nHeadlines:\n[1] Tekedia, Oct 22 10:44 PM ET: EQT Agrees to Buy Qiagen for €9.6 Billion, Ending Years of Takeover Speculation\n    Tekedia\n[2] Genetic Engineering and Biotechnology News, Oct 22 02:33 PM ET: EQT to Acquire Qiagen for $12.1B, Plans to Take Tools, Diagnostics Provider Private\n    Genetic Engineering and Biotechnology News\n[3] BioWorld News, Oct 22 12:00 PM ET: Will Qiagen shareholders be tempted by EQT's €10.8B offer?\n    BioWorld News\n[4] Dealroom, Oct 22 07:53 AM ET: EQT leads €46.50-a-share buyout of Qiagen in €10.8B take-private\n    Dealroom\n[5] The Global Legal Post, Oct 22 06:28 AM ET: Raft of firms guide Qiagen’s $10.8bn take-private acquisition by Sweden’s EQT\n    The Global Legal Post\n[6] MedWatch, Oct 22 05:09 AM ET: EQT agrees EUR 10.8bn takeover of Qiagen\n    MedWatch\n[7] Bloomberg.com, Oct 22 04:48 AM ET: EQT Nears €9.6 Billion Deal for Molecular Testing Firm Qiagen\n    Bloomberg.com\n[8] Yahoo Finance, Oct 22 02:33 AM ET: Swedish investor EQT launches €10.8 billion bid for Germany's Qiagen\n    Yahoo Finance\n\nWrite the subheading and sentences.",
+  "example_prompt": "Deal: EQT and Range Resources.\nStage: Announced.\n\nHeadlines:\n[1] Drilling Contractor, Oct 26 11:58 AM ET: EQT agrees to acquire Range Resources in all-stock deal\n    Drilling Contractor\n[2] Reuters, Oct 26 11:18 AM ET: EQT to buy Range Resources in $13 billion deal to create top US gas producer\n    Reuters\n[3] BigGo Finance, Oct 26 11:05 AM ET: EQT to Buy Range Resources in $13 Billion All-Stock Deal, Creating $50 Billion Gas Giant\n    BigGo Finance\n[4] Quiver Quantitative, Oct 26 10:55 AM ET: Range Resources Surges After EQT Agrees to Buy the Company in All-Stock Deal\n    Quiver Quantitative\n[5] Hart Energy, Oct 26 10:13 AM ET: EQT’s $13B Range Resources Deal Creates Appalachian Powerhouse\n    Hart Energy\n[6] grafa.com, Oct 26 10:07 AM ET: EQT Announces $50 Billion Range Resources Merger\n    grafa.com\n[7] Kalkine Media, Oct 26 07:10 AM ET: Range Resources and EQT Corporation Announce All-Stock Merger Agreement\n    Kalkine Media\n[8] Yahoo Finance, Oct 26 06:50 AM ET: EQT Agrees to Acquire Range Resources in All-Stock Transaction\n    Yahoo Finance\n\nWrite the subheading and sentences.",
   "retrieval": [
     {
-      "deal": "EQT / Qiagen",
-      "query": "EQT Qiagen acquisition merger deal",
+      "deal": "EQT / Range Resources",
+      "query": "EQT Range Resources acquisition merger deal",
       "hits": [
         {
-          "n": 9,
-          "similarity": 0.844
+          "n": 6,
+          "similarity": 0.866
+        },
+        {
+          "n": 7,
+          "similarity": 0.801
+        },
+        {
+          "n": 8,
+          "similarity": 0.764
         },
         {
           "n": 1,
-          "similarity": 0.843
+          "similarity": 0.759
         },
+        {
+          "n": 3,
+          "similarity": 0.757
+        },
+        {
+          "n": 2,
+          "similarity": 0.757
+        }
+      ]
+    },
+    {
+      "deal": "Right Lane Industries / Capacity Trucks and LayMor",
+      "query": "Right Lane Industries Capacity Trucks and LayMor acquisition merger deal",
+      "hits": [
         {
           "n": 10,
-          "similarity": 0.839
+          "similarity": 0.874
         },
         {
-          "n": 4,
-          "similarity": 0.835
-        },
-        {
-          "n": 6,
-          "similarity": 0.819
-        },
+          "n": 9,
+          "similarity": 0.85
+        }
+      ]
+    },
+    {
+      "deal": "HealthSpan Partners / Surgery Partners",
+      "query": "HealthSpan Partners Surgery Partners acquisition merger deal",
+      "hits": [
         {
           "n": 11,
           "similarity": 0.819
-        }
-      ]
-    },
-    {
-      "deal": "BASF / Evonik",
-      "query": "BASF Evonik acquisition merger deal",
-      "hits": [
-        {
-          "n": 14,
-          "similarity": 0.817
-        },
-        {
-          "n": 13,
-          "similarity": 0.765
         },
         {
           "n": 12,
-          "similarity": 0.759
+          "similarity": 0.713
+        }
+      ]
+    },
+    {
+      "deal": "Ovintiv / Logan Energy",
+      "query": "Ovintiv Logan Energy acquisition merger deal",
+      "hits": [
+        {
+          "n": 13,
+          "similarity": 0.867
         },
         {
+          "n": 14,
+          "similarity": 0.857
+        }
+      ]
+    },
+    {
+      "deal": "Acuity Inc. / Parameter Technologies",
+      "query": "Acuity Inc. Parameter Technologies acquisition merger deal",
+      "hits": [
+        {
           "n": 15,
-          "similarity": 0.759
+          "similarity": 0.812
         },
         {
           "n": 16,
-          "similarity": 0.748
-        },
-        {
-          "n": 17,
-          "similarity": 0.724
+          "similarity": 0.808
         }
       ]
     },
     {
-      "deal": "Vivakor / Direct Midstream",
-      "query": "Vivakor Direct Midstream acquisition merger deal",
+      "deal": "i-Tail / Phelps Pet Products",
+      "query": "i-Tail Phelps Pet Products acquisition merger deal",
+      "hits": [
+        {
+          "n": 17,
+          "similarity": 0.865
+        }
+      ]
+    },
+    {
+      "deal": "UFP Industries / Apache Products",
+      "query": "UFP Industries Apache Products acquisition merger deal",
+      "hits": [
+        {
+          "n": 18,
+          "similarity": 0.773
+        }
+      ]
+    },
+    {
+      "deal": "Onsemi / Codasip",
+      "query": "Onsemi Codasip acquisition merger deal",
       "hits": [
         {
           "n": 19,
-          "similarity": 0.816
-        },
-        {
-          "n": 18,
-          "similarity": 0.809
-        }
-      ]
-    },
-    {
-      "deal": "Salesforce / Braze",
-      "query": "Salesforce Braze acquisition merger deal",
-      "hits": [
-        {
-          "n": 22,
-          "similarity": 0.827
+          "similarity": 0.743
         },
         {
           "n": 20,
-          "similarity": 0.823
+          "similarity": 0.676
         },
         {
-          "n": 23,
-          "similarity": 0.817
-        },
-        {
-          "n": 24,
-          "similarity": 0.814
-        },
-        {
-          "n": 25,
-          "similarity": 0.806
-        },
-        {
-          "n": 26,
-          "similarity": 0.802
-        }
-      ]
-    },
-    {
-      "deal": "Williams / Momentum Midstream",
-      "query": "Williams Momentum Midstream acquisition merger deal",
-      "hits": [
-        {
-          "n": 28,
-          "similarity": 0.85
-        },
-        {
-          "n": 27,
-          "similarity": 0.825
-        }
-      ]
-    },
-    {
-      "deal": "Techouse / Ambio",
-      "query": "Techouse Ambio acquisition merger deal",
-      "hits": [
-        {
-          "n": 29,
-          "similarity": 0.783
-        },
-        {
-          "n": 30,
-          "similarity": 0.77
-        }
-      ]
-    },
-    {
-      "deal": "SpaceX / Tesla",
-      "query": "SpaceX Tesla acquisition merger deal",
-      "hits": [
-        {
-          "n": 32,
-          "similarity": 0.829
-        },
-        {
-          "n": 33,
-          "similarity": 0.824
-        },
-        {
-          "n": 34,
-          "similarity": 0.823
-        },
-        {
-          "n": 35,
-          "similarity": 0.81
-        },
-        {
-          "n": 36,
-          "similarity": 0.809
-        },
-        {
-          "n": 31,
-          "similarity": 0.807
-        }
-      ]
-    },
-    {
-      "deal": "Centrus Energy / Westerman Acquisition",
-      "query": "Centrus Energy Westerman Acquisition acquisition merger deal",
-      "hits": [
-        {
-          "n": 38,
-          "similarity": 0.814
-        },
-        {
-          "n": 37,
-          "similarity": 0.764
+          "n": 21,
+          "similarity": 0.645
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 197,
-    "headlines_new": 102,
-    "index_size": 1726,
-    "deals_found": 36,
+    "headlines_fetched": 183,
+    "headlines_new": 172,
+    "index_size": 1898,
+    "deals_found": 39,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19
