@@ -1,19 +1,19 @@
 {
-  "date": "Monday, October 26",
-  "generated_at": "2026-10-26T17:35:46.246902+00:00",
+  "date": "Tuesday, October 27",
+  "generated_at": "2026-10-27T16:45:06.303821+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "EQT to acquire Range Resources in an all-stock deal worth $13 billion, creating a top US gas producer.",
+  "lede": "DoorDash is in advanced talks to acquire Instacart for $17 billion, while Intel is acquiring Israeli quantum computing startup Classiq for $2.3 billion, and Brookfield is in a take-private deal worth $5.2B with LXP.",
   "deals": [
     {
-      "acquirer": "EQT",
-      "target": "Range Resources",
-      "value": "$13 billion",
+      "acquirer": "DoorDash",
+      "target": "Instacart",
+      "value": "$17 billion",
       "pinned": false,
-      "stage": "Announced",
-      "articles": 9,
+      "stage": "Rumored",
+      "articles": 10,
       "outlets": 9,
-      "latest": "2026-10-26T15:58:46+00:00",
+      "latest": "2026-10-27T07:02:05+00:00",
       "sources": [
         1,
         2,
@@ -25,664 +25,852 @@
         8
       ],
       "stripped": [],
-      "headline": "EQT to Acquire Range Resources",
-      "body": "EQT agrees to acquire Range Resources in an all-stock deal [1, 8]. The deal is expected to create a top US gas producer [2, 5]. The acquisition is part of an all-stock deal worth $13 billion [2, 3, 5]. The deal was announced on October 26 [1, 7, 8].",
+      "headline": "DoorDash and Instacart Deal Rumors",
+      "body": "DoorDash is in advanced talks to acquire Instacart for $17 billion [2, 3, 4]. The deal is reportedly valued around $17 billion [3, 6]. The acquisition would involve winding down Caper Carts business [1].",
       "found": [
         {
           "n": 1,
-          "acquirer": "EQT",
-          "target": "Range Resources",
-          "stage": "Announced"
+          "acquirer": "DoorDash",
+          "target": "Instacart",
+          "stage": "Completed"
         },
         {
           "n": 2,
-          "acquirer": "EQT",
-          "target": "Range Resources",
-          "stage": "Announced"
+          "acquirer": "DoorDash",
+          "target": "Instacart",
+          "stage": "Pending approval"
         },
         {
           "n": 3,
-          "acquirer": "EQT",
-          "target": "Range Resources",
+          "acquirer": "DoorDash",
+          "target": "Instacart",
           "stage": "Announced"
         },
         {
           "n": 4,
-          "acquirer": "EQT",
-          "target": "Range Resources",
-          "stage": "Announced"
+          "acquirer": "DoorDash",
+          "target": "Instacart",
+          "stage": "Rumored"
         },
         {
           "n": 5,
-          "acquirer": "EQT",
-          "target": "Range Resources",
-          "stage": "Announced"
+          "acquirer": "DoorDash",
+          "target": "Instacart",
+          "stage": "Rumored"
         },
         {
           "n": 6,
-          "acquirer": "EQT",
-          "target": "Range Resources",
-          "stage": "Announced"
+          "acquirer": "DoorDash",
+          "target": "Instacart",
+          "stage": "Rumored"
         },
         {
           "n": 7,
-          "acquirer": "EQT Corporation",
-          "target": "Range Resources",
-          "stage": "Announced"
+          "acquirer": "DoorDash",
+          "target": "Instacart",
+          "stage": "Rumored"
         },
         {
           "n": 8,
-          "acquirer": "EQT",
-          "target": "Range Resources",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Right Lane Industries",
-      "target": "Capacity Trucks and LayMor",
-      "value": "",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-26T16:13:52+00:00",
-      "sources": [
-        9,
-        10
-      ],
-      "stripped": [],
-      "headline": "Right Lane Industries Acquires Capacity Trucks and LayMor",
-      "body": "Right Lane Industries has acquired Capacity Trucks and LayMor from Terex [9, 10]. The deal was completed after a short period of time [10]. No further information is available [10].",
-      "found": [
-        {
-          "n": 9,
-          "acquirer": "Right Lane Industries",
-          "target": "Capacity Trucks and LayMor",
-          "stage": "Completed"
+          "acquirer": "DoorDash",
+          "target": "Instacart",
+          "stage": "Rumored"
         },
         {
           "n": 10,
-          "acquirer": "Right Lane Industries",
-          "target": "Capacity Trucks and LayMor",
-          "stage": "Completed"
+          "acquirer": "DoorDash",
+          "target": "Instacart",
+          "stage": "Rumored"
         }
       ]
     },
     {
-      "acquirer": "HealthSpan Partners",
-      "target": "Surgery Partners",
-      "value": "$5.7 Billion",
+      "acquirer": "Intel",
+      "target": "Classiq",
+      "value": "$2.3 Billion",
       "pinned": false,
       "stage": "Announced",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-26T15:13:00+00:00",
+      "articles": 8,
+      "outlets": 8,
+      "latest": "2026-10-27T02:53:15+00:00",
       "sources": [
-        11,
-        12
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
       ],
       "stripped": [],
-      "headline": "HealthSpan Partners Acquires Surgery Partners",
-      "body": "HealthSpan Partners is acquiring Surgery Partners in a $5.7 billion deal [11, 12]. The deal will take Surgery Partners private [11, 12]. Bain Capital will remain involved with the company [12].",
+      "headline": "Intel Acquires Classiq",
+      "body": "Intel is acquiring Israeli quantum computing startup Classiq [12, 13, 14]. The deal is worth $2.3 billion [12, 13, 14]. The acquisition would set a record for a quantum computing deal [14, 16]. The deal was agreed upon for $2.2 billion [17].",
       "found": [
-        {
-          "n": 11,
-          "acquirer": "HealthSpan Partners",
-          "target": "Surgery Partners",
-          "stage": "Announced"
-        },
         {
           "n": 12,
-          "acquirer": "HealthSpan",
-          "target": "Surgery Partners",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Ovintiv",
-      "target": "Logan Energy",
-      "value": "$890M",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-26T11:11:24+00:00",
-      "sources": [
-        13,
-        14
-      ],
-      "stripped": [],
-      "headline": "Ovintiv to Acquire Logan Energy",
-      "body": "Ovintiv is acquiring Logan Energy for $890M [13, 14]. The deal will be structured in cash and shares [14]. Logan Oil Corp will be spun out [14].",
-      "found": [
+          "acquirer": "Intel",
+          "target": "Classiq",
+          "stage": "Completed"
+        },
         {
           "n": 13,
-          "acquirer": "Ovintiv",
-          "target": "Logan Energy",
+          "acquirer": "Intel",
+          "target": "Classiq",
           "stage": "Announced"
         },
         {
           "n": 14,
-          "acquirer": "Ovintiv Inc.",
-          "target": "Logan Energy Corp.",
+          "acquirer": "Intel",
+          "target": "Classiq",
+          "stage": "Announced"
+        },
+        {
+          "n": 15,
+          "acquirer": "Intel",
+          "target": "Classiq",
+          "stage": "Completed"
+        },
+        {
+          "n": 16,
+          "acquirer": "Intel",
+          "target": "Classiq",
+          "stage": "Completed"
+        },
+        {
+          "n": 17,
+          "acquirer": "Intel",
+          "target": "Classiq",
+          "stage": "Announced"
+        },
+        {
+          "n": 18,
+          "acquirer": "Intel",
+          "target": "Classiq",
+          "stage": "Announced"
+        },
+        {
+          "n": 19,
+          "acquirer": "Intel",
+          "target": "Classiq",
           "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Acuity Inc.",
-      "target": "Parameter Technologies",
+      "acquirer": "Brookfield",
+      "target": "LXP",
+      "value": "$5.2B",
+      "pinned": false,
+      "stage": "Pending approval",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-27T15:04:08+00:00",
+      "sources": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "stripped": [],
+      "headline": "Brookfield and LXP",
+      "body": "Brookfield and LXP are in a take-private deal worth $5.2B [20, 21, 22]. The deal is expected to be completed once approved [23]. The deal's status is currently pending approval [22].",
+      "found": [
+        {
+          "n": 20,
+          "acquirer": "Brookfield",
+          "target": "LXP",
+          "stage": "Completed"
+        },
+        {
+          "n": 21,
+          "acquirer": "Brookfield",
+          "target": "LXP Industrial Trust",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Ares Capital",
+      "target": "MidCap Financial Investment",
+      "value": "$2.6 Billion",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-27T12:23:21+00:00",
+      "sources": [
+        24,
+        25
+      ],
+      "stripped": [],
+      "headline": "Ares Capital to Acquire MidCap Financial",
+      "body": "Ares Capital is acquiring MidCap Financial Investment for $2.6 billion [24, 25]. The deal was announced on October 27 [24, 25]. No further information is available [24, 25].",
+      "found": [
+        {
+          "n": 24,
+          "acquirer": "Ares Capital",
+          "target": "MidCap Financial Investment",
+          "stage": "Announced"
+        },
+        {
+          "n": 25,
+          "acquirer": "Ares Capital",
+          "target": "MidCap Financial",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Tata Motors",
+      "target": "Iveco",
       "value": "",
       "pinned": false,
       "stage": "Announced",
       "articles": 2,
       "outlets": 1,
-      "latest": "2026-10-26T12:35:00+00:00",
+      "latest": "2026-10-27T03:45:09+00:00",
       "sources": [
-        15,
-        16
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
       ],
       "stripped": [],
-      "headline": "Acuity Inc. to Acquire Parameter Technologies",
-      "body": "Acuity Inc. is acquiring Parameter Technologies [16, 15]. The deal was announced by Acuity and Parameter [16, 15]. The acquisition is part of Distech Controls [15].",
+      "headline": "Tata Motors and Iveco Deal",
+      "body": "Tata Motors is acquiring Iveco [28, 29, 30]. The deal has cleared the 80% acceptance threshold [26, 27, 31]. The deal is expected to proceed after Iveco shareholders approve resolutions [29].",
       "found": [
         {
-          "n": 15,
-          "acquirer": "Acuity Inc.",
-          "target": "Parameter Technologies",
-          "stage": "Announced"
+          "n": 26,
+          "acquirer": "Tata Motors",
+          "target": "Iveco",
+          "stage": "Completed"
         },
         {
-          "n": 16,
-          "acquirer": "Acuity Inc.",
-          "target": "Parameter Technologies",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "i-Tail",
-      "target": "Phelps Pet Products",
-      "value": "$160 million",
-      "pinned": false,
-      "stage": "Completed",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-10-26T17:03:11+00:00",
-      "sources": [
-        17
-      ],
-      "stripped": [],
-      "headline": "i-Tail Acquires Phelps Pet Products",
-      "body": "i-Tail has completed its acquisition of Phelps Pet Products [17]. The deal was valued at $160 million [17]. The acquisition is now complete [17].",
-      "found": [
-        {
-          "n": 17,
-          "acquirer": "i-Tail",
-          "target": "Phelps Pet Products",
+          "n": 27,
+          "acquirer": "Tata Motors",
+          "target": "Iveco",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "UFP Industries",
-      "target": "Apache Products",
+      "acquirer": "T3 Defense",
+      "target": "KeepZone AI",
       "value": "",
       "pinned": false,
       "stage": "Announced",
       "articles": 1,
       "outlets": 1,
-      "latest": "2026-10-26T16:45:00+00:00",
+      "latest": "2026-10-27T15:33:32+00:00",
       "sources": [
-        18
+        32
       ],
       "stripped": [],
-      "headline": "UFP Industries Acquires Apache Products",
-      "body": "UFP Industries is acquiring Apache Products [18]. The deal is expanding UFP Industries' pallet manufacturing network [18]. No further information is available [18].",
+      "headline": "T3 Defense to Acquire KeepZone AI",
+      "body": "T3 Defense is acquiring KeepZone AI as part of its homeland security expansion [32]. The deal is aimed at enhancing T3 Defense's capabilities in the homeland security sector [32]. No further details on the acquisition have been disclosed [32].",
       "found": [
         {
-          "n": 18,
-          "acquirer": "UFP Industries",
-          "target": "Apache Products",
+          "n": 32,
+          "acquirer": "T3 Defense",
+          "target": "KeepZone AI",
           "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Onsemi",
-      "target": "Codasip",
-      "value": "$14.5 million",
+      "acquirer": "Williams",
+      "target": "Momentum Midstream",
+      "value": "$5.5 Billion",
       "pinned": false,
       "stage": "Announced",
       "articles": 1,
       "outlets": 1,
-      "latest": "2026-10-26T16:13:34+00:00",
+      "latest": "2026-10-27T14:22:59+00:00",
       "sources": [
-        19,
-        20,
-        21
+        33,
+        34
       ],
       "stripped": [],
-      "headline": "Onsemi Acquires Codasip",
-      "body": "Onsemi has acquired Codasip's low-end RISC-V business [19, 20]. The deal is valued at $14.5 million [19]. Synaptics shares surged 14% on the merger announcement with Onsemi [20]. Cirrus Logic is expected to bid for Synaptics after the Onsemi deal [21].",
+      "headline": "Williams to Buy Momentum Midstream",
+      "body": "Williams is buying Momentum Midstream for $5.5 Billion [33, 34]. The deal has been announced [33]. No further information is available [34].",
       "found": [
         {
-          "n": 19,
-          "acquirer": "Onsemi",
-          "target": "Codasip",
+          "n": 33,
+          "acquirer": "Williams",
+          "target": "Momentum Midstream",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "CopperPoint",
+      "target": "General Indemnity Group",
+      "value": "",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-27T12:56:34+00:00",
+      "sources": [
+        35
+      ],
+      "stripped": [],
+      "headline": "CopperPoint Acquires General Indemnity Group",
+      "body": "CopperPoint has acquired General Indemnity Group [35]. The deal is now completed [35].",
+      "found": [
+        {
+          "n": 35,
+          "acquirer": "CopperPoint",
+          "target": "General Indemnity Group",
           "stage": "Completed"
         }
       ]
     }
   ],
-  "also": [
-    {
-      "n": 22,
-      "note": "ClearOne's Oct. 14 Filing Disclosed a $200,000 Working-Capital Loan [22]."
-    },
-    {
-      "n": 23,
-      "note": "IT Services M&A Slows, But Buyers Remain Hungry For MSPs And AI Solutions [23]."
-    },
-    {
-      "n": 24,
-      "note": "Currier Plastics rebrands as Alentra following acquisitions [24]."
-    }
-  ],
-  "brief": "EQT to acquire Range Resources in an all-stock deal worth $13 billion, creating a top US gas producer.\n\nEQT / Range Resources (Announced): EQT to Acquire Range Resources. EQT agrees to acquire Range Resources in an all-stock deal [1, 8]. The deal is expected to create a top US gas producer [2, 5]. The acquisition is part of an all-stock deal worth $13 billion [2, 3, 5]. The deal was announced on October 26 [1, 7, 8].\nRight Lane Industries / Capacity Trucks and LayMor (Announced): Right Lane Industries Acquires Capacity Trucks and LayMor. Right Lane Industries has acquired Capacity Trucks and LayMor from Terex [9, 10]. The deal was completed after a short period of time [10]. No further information is available [10].\nHealthSpan Partners / Surgery Partners (Announced): HealthSpan Partners Acquires Surgery Partners. HealthSpan Partners is acquiring Surgery Partners in a $5.7 billion deal [11, 12]. The deal will take Surgery Partners private [11, 12]. Bain Capital will remain involved with the company [12].\nOvintiv / Logan Energy (Announced): Ovintiv to Acquire Logan Energy. Ovintiv is acquiring Logan Energy for $890M [13, 14]. The deal will be structured in cash and shares [14]. Logan Oil Corp will be spun out [14].\nAcuity Inc. / Parameter Technologies (Announced): Acuity Inc. to Acquire Parameter Technologies. Acuity Inc. is acquiring Parameter Technologies [16, 15]. The deal was announced by Acuity and Parameter [16, 15]. The acquisition is part of Distech Controls [15].\ni-Tail / Phelps Pet Products (Completed): i-Tail Acquires Phelps Pet Products. i-Tail has completed its acquisition of Phelps Pet Products [17]. The deal was valued at $160 million [17]. The acquisition is now complete [17].\nUFP Industries / Apache Products (Announced): UFP Industries Acquires Apache Products. UFP Industries is acquiring Apache Products [18]. The deal is expanding UFP Industries' pallet manufacturing network [18]. No further information is available [18].\nOnsemi / Codasip (Announced): Onsemi Acquires Codasip. Onsemi has acquired Codasip's low-end RISC-V business [19, 20]. The deal is valued at $14.5 million [19]. Synaptics shares surged 14% on the merger announcement with Onsemi [20]. Cirrus Logic is expected to bid for Synaptics after the Onsemi deal [21].\n\nAlso worth knowing:\n- ClearOne's Oct. 14 Filing Disclosed a $200,000 Working-Capital Loan [22].\n- IT Services M&A Slows, But Buyers Remain Hungry For MSPs And AI Solutions [23].\n- Currier Plastics rebrands as Alentra following acquisitions [24].",
+  "also": [],
+  "brief": "DoorDash is in advanced talks to acquire Instacart for $17 billion, while Intel is acquiring Israeli quantum computing startup Classiq for $2.3 billion, and Brookfield is in a take-private deal worth $5.2B with LXP.\n\nDoorDash / Instacart (Rumored): DoorDash and Instacart Deal Rumors. DoorDash is in advanced talks to acquire Instacart for $17 billion [2, 3, 4]. The deal is reportedly valued around $17 billion [3, 6]. The acquisition would involve winding down Caper Carts business [1].\nIntel / Classiq (Announced): Intel Acquires Classiq. Intel is acquiring Israeli quantum computing startup Classiq [12, 13, 14]. The deal is worth $2.3 billion [12, 13, 14]. The acquisition would set a record for a quantum computing deal [14, 16]. The deal was agreed upon for $2.2 billion [17].\nBrookfield / LXP (Pending approval): Brookfield and LXP. Brookfield and LXP are in a take-private deal worth $5.2B [20, 21, 22]. The deal is expected to be completed once approved [23]. The deal's status is currently pending approval [22].\nAres Capital / MidCap Financial Investment (Announced): Ares Capital to Acquire MidCap Financial. Ares Capital is acquiring MidCap Financial Investment for $2.6 billion [24, 25]. The deal was announced on October 27 [24, 25]. No further information is available [24, 25].\nTata Motors / Iveco (Announced): Tata Motors and Iveco Deal. Tata Motors is acquiring Iveco [28, 29, 30]. The deal has cleared the 80% acceptance threshold [26, 27, 31]. The deal is expected to proceed after Iveco shareholders approve resolutions [29].\nT3 Defense / KeepZone AI (Announced): T3 Defense to Acquire KeepZone AI. T3 Defense is acquiring KeepZone AI as part of its homeland security expansion [32]. The deal is aimed at enhancing T3 Defense's capabilities in the homeland security sector [32]. No further details on the acquisition have been disclosed [32].\nWilliams / Momentum Midstream (Announced): Williams to Buy Momentum Midstream. Williams is buying Momentum Midstream for $5.5 Billion [33, 34]. The deal has been announced [33]. No further information is available [34].\nCopperPoint / General Indemnity Group (Completed): CopperPoint Acquires General Indemnity Group. CopperPoint has acquired General Indemnity Group [35]. The deal is now completed [35].",
   "sources": [
     {
       "n": 1,
-      "title": "EQT agrees to acquire Range Resources in all-stock deal",
-      "source": "Drilling Contractor",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYXFRekhTVmpYNXNueEhaWUJJa1p4X3d3Wl9UTUlydDVydnB2alNSeFdHNUkxeXJTaUkwNEN4VGJtVkdNcmdOcFByMnZvTElXd25VRERqR25NWkNuNGdSa2diT2JwTjItOGFRUmhfSEp2OXN5X3pJcGd3OVNVYXBhSll2bm1HUFB0OUZ6MDFUV01BVVF5QnpR?oc=5",
-      "snippet": "Drilling Contractor",
-      "published": "2026-10-26T15:58:46+00:00"
+      "title": "DoorDash circles $17 billion Instacart acquisition as Caper Carts business is wound down",
+      "source": "Retail Technology Innovation Hub",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdnVZOTlveF9WR2NhUEpDLWdGekQzRUU4czUtQnlKd05aNmJpS0pfS0wzLWQ5RFZ0WlpnS2xiV1M0T2hhSE9Gd0l0QTQwd3NLVVdlQk1VMncxcU0tN3FRa0FDUnR5TmlTR1V5OU5iRXdybVpvNTJkQWtiZ0hITzNjSDhoclhuZXcwQWpSSDd6YWdQdV9VWlJvd3diTHBVVmU0cC14TVhySzdyczZvOTJ5TFR0bXdBZU9zMW93RTNySEV6RVZtNjk0dXBlX3BmMzEwang0N1BR?oc=5",
+      "snippet": "Retail Technology Innovation Hub",
+      "published": "2026-10-27T07:02:05+00:00"
     },
     {
       "n": 2,
-      "title": "EQT to buy Range Resources in $13 billion deal to create top US gas producer",
+      "title": "DoorDash in talks to buy Instacart in roughly $17 billion deal, source says",
       "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUDJYcWR4d21YUDJHMFFqVWNnWFlwZDQ2M25TQmFzcVZKNGUzb0lGeWRCcEUxclB5eWJBV3ExWjBDTEVvY1RiYkd0cUlHaGx4SE5sMFpGV2ZCM2JJSWdYUFBvNUhzd0s5amc3NUtBbVZxbVVMQU5JU3JTbVhxOFFRak1IZTliVlRsM2llLThFRWVRZU0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONkI1dVc1WGVsRGwyMkZtNFFfR3NpaFR2M2JTQ05POTBkZ29lSVpuelFJVWFCTC1tNEJ3Y0F6YUxHWUJkWjJqcm1KWnhNajVxNk5iUFZuck9ZV0tOVEdxYjlxcG0ycUk5UUlyU3l6bnpJY0NFMDJqcXJ4cWJGeUJRbTV5YTVtQy1CSXlTUmZn?oc=5",
       "snippet": "Reuters",
-      "published": "2026-10-26T15:18:25+00:00"
+      "published": "2026-10-26T21:47:43+00:00"
     },
     {
       "n": 3,
-      "title": "EQT to Buy Range Resources in $13 Billion All-Stock Deal, Creating $50 Billion Gas Giant",
-      "source": "BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80Z1FsSzdfdFN2TTZ3UDY0LUg5QW1wMUZneXFhT1hDRVRIUG1OSWhuMm1FME9RZUlfX1RnOEdUMEtkemtZcjd3X0VXMUQ1Nk5SdGgyV1FsV1NxUnpFUzNuUTMzVzRTYUNDYnhRN04zaFJIUUR0Y2c?oc=5",
-      "snippet": "BigGo Finance",
-      "published": "2026-10-26T15:05:00+00:00"
+      "title": "DoorDash in talks to buy Instacart in deal valued around $17-billion, source says",
+      "source": "The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTzdWUDBCSWh0dHZZZTlsWFBobktZWjEyRWhNWmNrVnI3NnhpZ19KMEhOS3lSYlRxSXVzTDQyWHFOdTlvVktSdEZvaGxlNGc4OUdkZFlIb3pOUFhESW1UdDRYZldLeWh4dzVyRHE3ekdQamFiRVdJRTVoYlFTU0VwMVFzcG00Ry0yY1F6ek5DWXhsb3B0b2dj?oc=5",
+      "snippet": "The Globe and Mail",
+      "published": "2026-10-26T20:38:53+00:00"
     },
     {
       "n": 4,
-      "title": "Range Resources Surges After EQT Agrees to Buy the Company in All-Stock Deal",
-      "source": "Quiver Quantitative",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOTJWa1ZHa1hVbkxqZVhHLWRPOFN5M1F1Qi0tcUV0SWZoOHQ3LTVSWTd3elMybWRhdFZFX3o1RUN6QWd3UHE1ZFk4cllVa19LZUVLTU5TTmxzWVFoMjktRDlKWG1vZXQ5WHhsdjNwVkN2QUl4SUc4VFc0Qk1xNGo3aF9tcFJMeW1yUFFSRmdxMFFFSDJLUE9QbER5WDNkaWwzemN6eUUwODJ0RDdDZUE?oc=5",
-      "snippet": "Quiver Quantitative",
-      "published": "2026-10-26T14:55:00+00:00"
+      "title": "Update: Market Chatter: DoorDash in Advanced Talks to Acquire Instacart",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMGRvRjBDREZYd1lnQUNmNU1ZZzdQV1VIN3Z0YWFfRWg2Z3NPQWUzbU9YODkwTS1UdHRnQm05OHJjUTNnRV9HeS0tNnBWTDNnb3pZWnNCTUhIXzZBU2JKVDFZMkx4ZXB0UXBCQmsxQ1FpODZ0cUxlRVh2OFRsMGsyM2hubmN5UnI4eXliQTNUSGsySnJ1R3NiSWY0QXhadUhHcEtaaE13?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-26T20:31:40+00:00"
     },
     {
       "n": 5,
-      "title": "EQT’s $13B Range Resources Deal Creates Appalachian Powerhouse",
-      "source": "Hart Energy",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSkZtTTQ0QVpJRGI1OU4zUGgyNTZYQkFYRUpVQl9leXM5djRuRUYwSG8xU25PUmlTRkhZVFZEM3ZjRkh4enBPNjR1bUVhOHlnWUlkazFJT0pLMWRKLXI4OHNyWkM5X1owNmlUWDZLMVFNcmpEWE5EZnIwOVNLajlFLU9uUXcxcG1fbzZmM0JnVmgtendwRnRqMkVMZ2FxMHRSWk10VFBvTmQ0YXp0VE9vMUpnbGpDT1JlOF82RGZ5enE?oc=5",
-      "snippet": "Hart Energy",
-      "published": "2026-10-26T14:13:00+00:00"
+      "title": "DoorDash in talks to buy Instacart, WSJ reports",
+      "source": "SRN News",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5weEZEd21SVVpRY1FSZDZzZzBhQnRTRlhLelppdmpWeDlhN2RhRGVOOFpRelhXbEhCdENiZXdQaWpXdnlqV0ZHdzZDcEppMzVSNGpkcVVLZVVqMGRWSFpOODdSUkFXZnZzSlh2Wmw0aFZKOHR6SXc?oc=5",
+      "snippet": "SRN News",
+      "published": "2026-10-26T20:27:43+00:00"
     },
     {
       "n": 6,
-      "title": "EQT Announces $50 Billion Range Resources Merger",
-      "source": "grafa.com",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQWp0ajI4T1NvaWZ1bTJES3VlOUlQMWdJUEprY1RDYzRZeTR5Vk9sbWN4VTZOVF9sdFZWbzI3ODZ5d0ROcURNWjFFWU1hdkgxakJBWHNFNDhNajhka2tCdGZHQUFEdTd0eXV1OWJxbXRqMjFHcnpmNUxFc092XzExVzRxY0ZWUi1GajFpX1FFWmo?oc=5",
-      "snippet": "grafa.com",
-      "published": "2026-10-26T14:07:00+00:00"
+      "title": "DoorDash in advanced talks to acquire Instacart, WSJ reports",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOVJxLXltSVc3NTZseUlFbWs0Ty1XMjB6ZEdRdUpMOVB1czA3OXpfdGRwQS12dHhzNGV1ajBhdDNxZlpyMGdaOUhVMG8zVjQ1RVdsNTNlU1VzajVyaE5nZzRLdVNOTXlTdkgxVXdlQkdWMmFoWDBEMkNrWUVWdHVVWVBhdlFDSkREemNLc3BzaG5xNHRmbFVEcXhpUzJkUzN5cEY5YWp1aE5jdw?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-26T20:04:18+00:00"
     },
     {
       "n": 7,
-      "title": "Range Resources and EQT Corporation Announce All-Stock Merger Agreement",
-      "source": "Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbFp3RnhXZEJxdUlicXA2Z2Q3al85MUVUaTBPZlZSdHc1MzRsaWxHd3FmaVFtN2g4eHd0OHdjaUtKUzE0WWlLbjFwSWttVWlUT2RzRmZQNGozODVON2FQX0w1LUdHbEU5VlV4Qi1qY29BblhKamVDcFRvV2U5UVh4TE9BTWdlOFJQU1FtX1RUVm9kdE5MeUVsWWs3TmZnMk9fUndEUUhyTEI0MURkNnVkZF93d2l1ZlhfZ1E?oc=5",
-      "snippet": "Kalkine Media",
-      "published": "2026-10-26T11:10:13+00:00"
+      "title": "DoorDash drops on report it's in talks to purchase Instacart for $17B (update)",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdkt4N3YyWk01VmpNcGVkSHVRVE4tQ2xDMnpPNXJMRGJLZGFZZlYxLXNZdE41UDNBUWNaenRYNzZsdDJLNkFNRm5fNEpzcFM0bjhNazJTclpMcXRBWEZPalo2c25ROWtkWFIwa1FmMmlCMnkwYlZ4WFFWX3FKSWlHZHkyaG1JY0g1TlpJdURLZU1Md3B1cFZTS3hmUGJjZDZkeFpHWHNucEFvREd1MndJNW43REZWb3ktSnBfMTdKTGh3TkYwaDhoSC1DMnNmTjZMSjlNaw?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-26T19:57:32+00:00"
     },
     {
       "n": 8,
-      "title": "EQT Agrees to Acquire Range Resources in All-Stock Transaction",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWk53N1lUQU8wYWFEczJyR0xRejFSM015VnNXbjY1V1J4R0VQdGlJTTBjTVNZYkM4cERuQnRyVWpKS0lwNFVWTXVRVHczQVMxR21tSGJNYnBjdUVKbkZXcVBFd2NEeXNJdVRnRXRLQ01DY0dlNGRma193d2ZiR2lwLXZadjgwdkx2cWs5RlowZnk0SXI2Uy1uQ0pUS1dENVgw?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-26T10:50:18+00:00"
+      "title": "Exclusive | DoorDash Is in Advanced Talks to Acquire Delivery Rival Instacart",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3ZvRlVFSjNDTHZIeTlnUWhXdjdyTkVZQk1rV0xtTmdjT3VBN05YeVI3cUpGLUlBRC1KaTdKVzMtekd4emZ5TU1nclhrajVLV0VlbmhfRGVOVHpCRG83RmdkOElvOHhyUkRKVkd6VU1LajNUa1JvcUdjdnlVLXBreF9nV3dhOHYzWnJLSm5XVVhmVnlHS0dJRmpxMWpEY2hBMl9Fd1pCNFpiZzBRaWRwcHlEZ1I1Zw?oc=5",
+      "snippet": "WSJ",
+      "published": "2026-10-26T19:52:00+00:00"
     },
     {
       "n": 9,
-      "title": "Right Lane Industries Acquires Capacity Trucks and LayMor from Terex",
-      "source": "citybiz",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaGlyeVltc3IzeWRaU3R4VzZvcUZXTnJBcTlhaU82SDJnbzUwQ0djcjZvZTNvTGwxLUVsMEpKQjFVTjVOcDhwekxtX09ybk01LTRWeGJrOVlnaU9jWnF0eThTTG5zcXRNZm1EWFJJZGg5RlRiWFJXQUxwd2dSc2RpcVVIbFZseU1DTnUwZ3d6VENSQ2lhcXhSQUxweVYxTk1Mam9BTi1qSS1sd3M?oc=5",
-      "snippet": "citybiz",
-      "published": "2026-10-26T16:13:52+00:00"
+      "title": "DoorDash in Talks to Acquire Instacart in Potential $17 Billion Deal",
+      "source": "FSR magazine",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQmRLZ3AtZmpiaU5uWi1XbVBkalpoZjZ3aFNvMldSN0JSeVdxN2VSN1piSTJuNTliSWV5Z1AxcmVvSlYydkVqVXJtSmowdUlDNnI5alNSbEgzeTBCcUFVOUdNbkQ0ekFjWGpLWk9KWkltVWEyWDgtRkxpVzdFam4wTkR5YTE5TG00OFE1UmlkeHVIR1lwT3hZa0RLNVJTNUlyeF8xNlBQOA?oc=5",
+      "snippet": "FSR magazine",
+      "published": "2026-10-27T11:29:26+00:00"
     },
     {
       "n": 10,
-      "title": "Right Lane Industries Completes Acquisition of Capacity Trucks and LayMor from Terex Corporation",
-      "source": "Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQmpMWVlsdURHODd2SUN4M2YxMmpxV2xSUkJzMTFBV29zMnBkR1poY2NNMnI5UUVXd0xGd3lSdjB5eWk4aTVrM3luS01Zd0RVZVI4TWkwLXF4VVdtajFsamV4VXN1M2xpbFo4M1FVQjhua2lFSnJVdEVCclNGOHduTVNqSWxfQVpfSHVNYS02c0lmenpVc3liM2FTVkNKYTNUWTE4WVJ4c2NaU1QtZzRDdmdCTjZWVFJTSXJTNG8xQ0VGbC10Vm9kVE1ia1Mwd21uWllnSUkyS0NlUGlnNzZJWV93MGUxSkRy?oc=5",
-      "snippet": "Business Wire",
-      "published": "2026-10-26T13:30:00+00:00"
+      "title": "DoorDash Is in Advanced Talks to Acquire Instacart, Report Says",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOTBEWFAtS0dpc3VVdDM4cVhOYWkyOUZaRUV6blZUNGppSFZBTFZxX0hpU3dobDhSaVplbEY1YVVpbGtvdGl6Z05jVWlmT0JuYWt2LXdwaVJCRDl6MDFPVUNIaWp6VDNZOUo4MW1FTWZxM25ZN0FpTElOV1JIMTJvZXNJTlc4WGlPUThOd0luTHlYX01RVzREdTFWQWhzTG5JcDJXYWJNVVdYcm44aTJ3?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-10-26T19:46:30+00:00"
     },
     {
       "n": 11,
-      "title": "HealthSpan Partners to Acquire Surgery Partners in $5.7 Billion Deal, Taking Company Private",
-      "source": "citybiz",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQy1oRGxOeTN5RThFYWtSNWoxZFBZcjlFTTJkc3J4YXlTRlYydW1wQTg0YWxzY3R3Y0tHV1YzZDZXNVBwbFdhT0ZVUTZkOElXMjdYV3l5YXV2TnJyT2U1MENNa29qUFBOODE0N1VCUUxOTGUzWFgwNVJWZzNxVXJMYUZtY3daX1hFTG1DMmNCZ2NSQk1Hd3lraWR4WUNkV2p5Z0U5TDZUSkY1NGFldnZsanNlVTNJWjcyeGt4aXQ5SS0ydGgzWVEzSw?oc=5",
-      "snippet": "citybiz",
-      "published": "2026-10-26T15:13:00+00:00"
+      "title": "DoorDash Is Said to Near $17 Billion Takeover of Instacart",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR1h3engtRmJtRWR5WHFUbWZzZXd2eTlJQTZMVnhaLUc4RHE0dDBwOVJDeUZGRlpvbkNUU0xsWjMtNVdlSEozNUxGejIybVBONnJwSXRjRHlIRmx6QlFaR0xuaEVvemp1dmNRNFZGLWw3WGdINGp3TjFYN1V3Q0ozaVhBdF9hRTl6SU5lZGd6cDBjOTdzX2tQZ01TSm41RFBJQ1FMcUFB?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-10-26T20:32:10+00:00"
     },
     {
       "n": 12,
-      "title": "Bain Capital to stay on as HealthSpan agrees $5.7bn Surgery Partners take-private",
-      "source": "PEI Private Equity",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOEdDc1AtX1RWYXdSZlJQQ2FOMkh0M3h5YlE1N0UxMXhWT2lzeTBxdDE1S2xLZTBzNWdEdWgwdWJWSFFWaHV0azE5NFFCVGVSTzZZYTI3V3BrUG42TjZzV2s5bDJtRmRsR1BNUTZzYzBaM2NsMlRlQmcyTHI3Zk0xNk9saTJrYzQ0a1Jsb040XzFkYUdDcjd0LUM1T25KN3JWR0RPS3p5Z3ZXMUlwRWY2cmpYTW1iM2tIVGNXOUdScllfQQ?oc=5",
-      "snippet": "PEI Private Equity",
-      "published": "2026-10-26T13:29:16+00:00"
+      "title": "Intel to acquire Israeli quantum computing startup Classiq for $2.3 billion",
+      "source": "Israel National News",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KbEtERGdPeEU5THBoTk1CNmdlTURFNGpIc3cySlliNG9RN09ad2MzcFZYeTZkMXhDODl1Z0JrcjdvOVllU2Y2Ykp5X19kSGVKTUJPQ213MTlOZw?oc=5",
+      "snippet": "Israel National News",
+      "published": "2026-10-27T02:53:15+00:00"
     },
     {
       "n": 13,
-      "title": "Ovintiv Announces $890M Logan Energy Acquisition",
-      "source": "grafa.com",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWmdQY2wxaG9CTlFIb3BJRDJGRnpsUkVRSzBMdkR5N0U2ZGNhOVBVSmxNZHBDNUZZN1ZUOXk3Q1JZeTNtNDBxTjB2eTh4bl9sbmZtOWR4S0Naem9BUFZ1NC1OWnM1T3RaMFA3djQxanVVYmZBZmtKTFk5d2RiUEsxZGVYdlZzSmlWQ0FEZg?oc=5",
-      "snippet": "grafa.com",
-      "published": "2026-10-26T11:11:24+00:00"
+      "title": "Intel to Acquire Classiq in $2.3 Billion Quantum Computing Deal",
+      "source": "Asia Business Outlook",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSE40ZEh4ZEU4dHo5N05SY3dZQmplQU95cDJ4TW5PV3NmRXd6dmJjdUxYV3hxUjVMRDFMV2JQMFB3R1FEM1FzUEFXM08ydmd2RWVtM3lCcXBVenltcG5oTUE4QnhGLUhlcGNvRUhzQzFlQm1VVkJfam1qaVZ5RW9GSGcyZTVPY0Q1d1ZOSG5oN1NoNVlsRWpMRUo5M0RadnVjODdJS0F5eW5pYmZCaU9jcFJqZE81Ylg5SEE?oc=5",
+      "snippet": "Asia Business Outlook",
+      "published": "2026-10-27T01:53:31+00:00"
     },
     {
       "n": 14,
-      "title": "Logan Energy Corp. announces agreement to be acquired by Ovintiv Inc. for $1.40 per share in cash and the spin-out of Logan Oil Corp., a new growth-oriented oil company",
-      "source": "BOE Report",
-      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNajBRU2ttWWJva19Fb2M4SUV2THdNTkJubWlTZXhxeHdDOXRMZUgtSExUZllzdnNMMVJaQVgtM2tURnVKbGlKUGJ3Y0Jvd3NGMV9qanZMNnY0eTM4Y25lRFpZR3FOSGRCXzVEdERtUGprdzdnd25SakFSTXVRUEdrXzk5WTZRT3lFUm9YSExtVEtjdG5pM1lucnVLRXBndWVPTDhsbjRxWkFnVTNSaHhUc0l2SVE4U0IxZTNGMXFOLTU4TVJOVWlJTGFwMDNGUlVNWDVhdVpDYWl0MjUwMlM0YjRJa0tNd0Rta2s5cUYwN2lvRTYzYmRWVTU5NTZZeU1QdVRlVDJzeUtwWGMtZmhiQUVlSmJLTkdEOGZabGZvRjNibm_SAagCQVVfeXFMT1I2aEJpVzhHcHBOTmMzVkVMbjBWMmxEeXNoOGlSSHZLamh5S2dPeDJONVZZTUpxYVE4Q1lvNFp1VUItTVlMc1ZCM2ZfMTVVOUdBN21ZWmd6UlVmN21wTXZMRkwyaXNIQ0puYk4tc2I5dTItbmJ4SHJyeXFvSkV1R3p3ZW1PYlU0ZW55UlBnMkZ3Q1liOG1OWGlDeFlJdUZoMUN6X3FERU93MUlsVjdGUjlHMnFORXRlVGpkb2V5YTNpNzEyWmxZVnVfU0xRZ1R5RW5OYk5xMm9NTUEwR3lULUFyQVNlQjFiOG1WSEI3WUVwUjBLaE9HSWhmZmduM21Ya3M2NFRYTmlkb0V5MTQ0azNiU2pIT3IzUnd4b3R3SzRfaTgtWDgwX0s?oc=5",
-      "snippet": "BOE Report",
-      "published": "2026-10-26T10:45:00+00:00"
+      "title": "Intel’s $2.3 Billion Classiq Deal Would Set Quantum Acquisition Record",
+      "source": "JournalArta",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMDNoRjVIdFRRTHRGNl82Ri1TU0dHVFNwY1IzVWlIR0M4X2w4Nl9HdUROcHA1S2xhSEg5ZXU5eFlOMWktakRwcW9XaHZmNHdSaXp6MEVJZlBCYTFvUE9TWlhEd0lPTVNsd0RJWm5sMWVyQ05Cb0twU3M3LXBBWllpNUZ3?oc=5",
+      "snippet": "JournalArta",
+      "published": "2026-10-27T00:54:23+00:00"
     },
     {
       "n": 15,
-      "title": "Parameter Technologies Announces Agreement to Be Acquired by Acuity Inc. as Part of Distech Controls™",
-      "source": "Yahoo Finance Singapore",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVlliYkJ2LW1sNmtVNEhicDhuUDB2Q3RzRkNldHU3MnhHLWw3ampmS3lyU192M3pNSnRnUWhPMUVybk1LY2gxOUplNTNNdVNZV1hRSWxtZFVESVppOHNhN1FsNFRVLTYtWXFvbTc4YzJmMm1sVWd1U2hLX2pqUlg0ZXpXTk1aclBGSkVyc1RQRVlwZkQ1VUlCcUVnVGcyci1PREE?oc=5",
-      "snippet": "Yahoo Finance Singapore",
-      "published": "2026-10-26T12:35:00+00:00"
+      "title": "At Quantum Speed: Forbes Israel’s Next Billion-Dollar Startup Classiq Sells to Intel for $2.3 Billion",
+      "source": "פורבס ישראל",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdHZ5UzBicXI5WnN4UXhZam9OQjNOS2JDbWkxei1TTHBoZGRCNDZqY3V1YVBzSzYySTV5RFJoOUo4dW9zSTU4aTBGeS1xUUZFbndHdzVsT2t1MzlleDRwLTN2UThManJqNTVsT0pfb3dyMjlnQWZUMVJQY21YUktmVEFYR3JlSUNIdFF0SnhPRmlfOTlmeDlFdm91ZGdiZUpGdXp4ZUY2eWVGY3AzWm9iM2hMOGZlbXQwQ3VJS0tGaw?oc=5",
+      "snippet": "פורבס ישראל",
+      "published": "2026-10-26T22:13:06+00:00"
     },
     {
       "n": 16,
-      "title": "Acuity Announces Agreement to Acquire Parameter Technologies",
-      "source": "Yahoo Finance Singapore",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbjdTODBUMWtIVlN5NlRnT1ZrVXZ5ZlZYTWZYdHpMYW5IM01MQ0J6cVdMZ3FMamdvMTBoQWw1YS1sVVpOeTd0amFQT1RDZ1V6QUExOVlIay1XTy1CcU5CaTk0MFlHME43cmRnZEFneWx5empvZUlXOTY4NHRkNFFPZ0o5a0Q3MXFxSVdlNWpqQnZvM2xhOGRSeA?oc=5",
-      "snippet": "Yahoo Finance Singapore",
-      "published": "2026-10-26T12:30:00+00:00"
+      "title": "Intel to Acquire Israeli Quantum Computing Startup Classiq in $2.3 Billion Deal",
+      "source": "Haaretz",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQM2JLOHhqZFdHZTZjcFpFVjhEanJoR3hsaGlZcG81aDdFekpVMTlqVkpmRGFEWFBwOTlkZE1XN1dRVHdhMnFza1ppdWlKRldSVTlTRHdaVXZRc2N6ai1HeVNaQ3k1Y3NwWjJkaG5WbHpyOHBUMGpCNDdvaklZM3U3NkNGOWNNTDF6a1o4REg1VEhKNHR5U0x3Yy13bUVCNWF4Ml9oOVRKdmptdzkxRWdWdmhrUl9MaGpfWXZHby1HYzY5c3h3ajVKLXhCVmFrWlFEaTJFVE0zVi1rUDJsdUlIcTFEdE1WejVxX0hMd1ZlMUhfLTZhcTIyREp6MlczUUFqVXE5Q19BX2VSSjdYRElBU2tkWkNieFlZZTE0ag?oc=5",
+      "snippet": "Haaretz",
+      "published": "2026-10-26T21:33:00+00:00"
     },
     {
       "n": 17,
-      "title": "i-Tail completes $160 million Phelps Pet Products acquisition",
-      "source": "PetfoodIndustry",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPY1ZoS3kxWkhlck1FSmYtNVBablBmRFF5X0hvT1puaml6MVB0S3pfVklBNFVncnpPMDRBZTByU3owLS1YNTVCS2pQT2hiNmhiT0dXRlFZd0dFak5Ddl9aWkREbFZJdFVKX0ZWdFpqa0g2aF9uTWN3X0pCaUxBeTFwM1hBRGZJVktYeUVJUVc0cGxVYXZiQVdRbmF4YkV0cmxGX0VvcDZkQXRDMHQ2b1kxdEFZMzhQeDZIcl9KdThLcEhlV0ZCcVFJdHpCVnlKUTRxSTBUbVFYbV9qcGt0a1lz?oc=5",
-      "snippet": "PetfoodIndustry",
-      "published": "2026-10-26T17:03:11+00:00"
+      "title": "Intel agrees to buy Israeli quantum software startup Classiq for $2.2 billion",
+      "source": "Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMVVIRVBZaW9ua1o5MUhEVVNzUDdqWm9vOE1zSDE5R3ItOE92ZW1mRjNoQ1MyVVE5eGJ4T1dBVWc5Y1VTbHVEMXdMa2RRM3gzUzE5VWxyTDlnYi0tU19Fc3FpNXhsSXowU01OXzNZd2dqLWQ1SlBNV21CS0tOUjJsVEJxbXREcHYyWjd6N0w1V0RRVFFLNDNYWl8wbDNpVHpvZ3FERXFR?oc=5",
+      "snippet": "Startup Fortune",
+      "published": "2026-10-26T20:26:10+00:00"
     },
     {
       "n": 18,
-      "title": "UFP Industries Expands Pallet Manufacturing Network Through Acquisition of Apache Products",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNS0NpdTh2MEwzTUhqNGY3U09KWURNWDRkcW5VSnNlLWRLZnF5aXcydGZ6aGlZVjRsN1hGc0tvUVlmSFkxX20yWHhsUnZ1ZHVlbkFoUEtISnpMcm9melJKUUt6T0pVRDlWdXZCcnNBVk5saXhZTFhuenlzb01tWE0wME1qNHdSanpyYXp3X2FzRDZjUjNkQm42dUJvV25lMnVJbmtqbC1YaUlhbnN3ZDdFaGVIbTJtVkxCbVhoczk3OF91TU5vNDgySWFtTjRwWVZuNVNlMTFfajg0SFVOUm9DWmg2X0hPZw?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-26T16:45:00+00:00"
+      "title": "Intel to acquire Israeli quantum startup Classiq for $2.3 billion in record deal",
+      "source": "Ynetnews",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92eFViZENvTXAwODNqckFNRl9yRE0xb1VRRjZDMS1HX0o2blNEZGxxSEg5cnY3cVdMbzM1YXpKT0RRMzFUSkctODVvdU5ETUlFVnU4aWxFSDRqRjFfaXVCZ2R3?oc=5",
+      "snippet": "Ynetnews",
+      "published": "2026-10-26T20:17:36+00:00"
     },
     {
       "n": 19,
-      "title": "Onsemi picks up Codasip’s low-end RISC-V business for $14.5 million",
-      "source": "Jon Peddie",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa3ZRTkt6MmJwbnA4ejNUUVB2QTRwTWFfQ0xRQmNtQVU3T1FEdDdjYnYwNUU5dHRMYjE2QjdoUjBPSWNNb0RGS1lBSWZJX1czUGhyMnFpdDNuOXBkR2VFZmZVY3h6UkVOR1NWRnJyYkI4U2dlZXJaNGlwTTFyRW05WW9HVnRNRk5FSmZZX2FUdXZtRmg5a2lXRV9KRjAzQQ?oc=5",
-      "snippet": "Jon Peddie",
-      "published": "2026-10-26T16:13:34+00:00"
+      "title": "Intel to acquire Israeli quantum startup Classiq for $2.3 billion",
+      "source": "CTech",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UcXJnaVYwVC1DNUFCVE1DNU8tMUh4WUpfemdQZnJwRDBhYnpQeG14cklZMjRMUGRpbkMzQlhBbU55U091Y2Uzc0lxLU5xOVZ3MXN6R2NzSnRfUUJwTzdzQkY4YzJUWmdi?oc=5",
+      "snippet": "CTech",
+      "published": "2026-10-26T20:06:00+00:00"
     },
     {
       "n": 20,
-      "title": "Synaptics (SYNA) Shares Surge 14% on Merger Announcement with onsemi",
-      "source": "GuruFocus",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORkNJa3VtenQtclE4YVFCc3pUaWtMcjhPOWJkemh4VGsyOFZtYlRzZEprTHlabVRXVTduMDNlYTlIbGdXQzdVV2F0NHgyd28tZzl3YnJUVnBYNnJvbU42Yk8yMzdhbWZfVmY0X2N4SG1XQWVqYnVYUEFybnJLcml6ZEI5T3BDLTN3dGNhSHRSb0huY1RHeWVLN1g0MENtckxPUGs5T0Excw?oc=5",
-      "snippet": "GuruFocus",
-      "published": "2026-10-03T02:04:14+00:00"
+      "title": "LXP shareholders approve $5.2B take-private by Brookfield and CPP Investments",
+      "source": "Dealroom",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeWFleGt3M1gtUHd6S3I2X1d4Z0JjNzJuRkhENXVkR1FOOXhZaVgtdXp6NVhPYXk3TEdwTDUzaHpJU25GcHRGLXpVN0hyN3l5Tm5GV2VWYm5WV0NINVVLTGIyUVR0TzZETkNDTUgyMzN4X21NVk5wTjgwLWJNNjdDOFA0SUtFVml6YTRDczljc0tjQmo5YzlGY3RPWkxoYmFPZk0zaFpBcW15WDF4OVlv?oc=5",
+      "snippet": "Dealroom",
+      "published": "2026-10-27T15:04:08+00:00"
     },
     {
       "n": 21,
-      "title": "Cirrus Logic to Have Bid for Synaptics After Onsemi Deal",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQTFvbE40MURObGZmN1RWNDRNamJqdEJlX1JzdEFDUGZRNEUxN08wOHREMUNDU3hWeUZuT3ZfVW5jb0hQRG9DaDVGaUw2VU1sbjNYZGU0cDBMSFUtZVhSSXRRY0hkWkluZUwxTF96ZzFSVWthRnJqSDN5Y0h0N1RrdjJRVV9DdjRVTzUyS21CRmd2cFJyWkZaT0tvZkxybzBDU1JEaUF0STRxcFQ3c3FYRE13OFpDQQ?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-10-09T23:25:37+00:00"
+      "title": "LXP Industrial Trust Shareholders Approve Acquisition by Brookfield, CPPIB",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdEJselRWMkZSZUtoejBpYjFoSURhUVJPR1dwV0QzTnQ1dzcxXzRzNG9UWmxnamN5R1JXSkswRjBUWkR3alFiR3pHOTdIdlBXbXY0bmtMU3pOWGdnc0JmemczblFuRzhSdDQ0ZHB3RzUyeDJaWTRZV3ROYTJNNFVxTUR6dlEzRUc5YTdrN1JiWEZ4SnE2bVdQUHdUTl9WbldiZGQzblBiWFBWQQ?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-26T21:22:12+00:00"
     },
     {
       "n": 22,
-      "title": "ClearOne's Oct. 14 Filing Disclosed a $200,000 Working-Capital Loan",
-      "source": "www.tokenpost.com",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZdS1MMkh4a0lWREJEV1VWMEdteC1SR3BLbEpOc1otWXFiM1ZlV094TnFPUTVFcW0yU2dUT211MUFRa09DazFVaDJhUTZJZFY0R2Z3RFI5bWU?oc=5",
-      "snippet": "www.tokenpost.com",
-      "published": "2026-10-26T16:32:12+00:00"
+      "title": "LXP Industrial Trust Shareholders Approve Acquisition by Brookfield and CPP Investments",
+      "source": "The Manila Times",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNcW10WlNPMDVMeks2d1JHdjFjNElqOGl3LUlKalRPbWQwTWVLZzNZbFlNUHpBUzU2TTJ0aUhSQVEtUUpxMmpEMFVIUnJHNzhDQ2xvT0J6NFBKdU03aDU1SHpMbkFZRktCeUJlbkMtNGFSbGhLbGlvQWxJLXlwcTZWeHYxSVZfMXN2M3hWeUo4QTVsYlgyaUhBOHpKZVppbUZ2TTVWZVlGbHJVV1pyVEZzajAxMFRDTmdUUWZlOXFwMDVLNzFtSUhvVk5hS3E4WFBiaHI3WkxBUjY2T0VueGpPSHktZUVSNVlZeGtDUWJRUzBROWZpNjlEWdIB-AFBVV95cUxNcW10WlNPMDVMeks2d1JHdjFjNElqOGl3LUlKalRPbWQwTWVLZzNZbFlNUHpBUzU2TTJ0aUhSQVEtUUpxMmpEMFVIUnJHNzhDQ2xvT0J6NFBKdU03aDU1SHpMbkFZRktCeUJlbkMtNGFSbGhLbGlvQWxJLXlwcTZWeHYxSVZfMXN2M3hWeUo4QTVsYlgyaUhBOHpKZVppbUZ2TTVWZVlGbHJVV1pyVEZzajAxMFRDTmdUUWZlOXFwMDVLNzFtSUhvVk5hS3E4WFBiaHI3WkxBUjY2T0VueGpPSHktZUVSNVlZeGtDUWJRUzBROWZpNjlEWQ?oc=5",
+      "snippet": "The Manila Times",
+      "published": "2026-10-26T20:34:37+00:00"
     },
     {
       "n": 23,
-      "title": "IT Services M&A Slows, But Buyers Remain Hungry For MSPs And AI Solutions",
-      "source": "www.crn.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMHliaDNXNTFiN0JaSXZNUDY4VS1uUzlzdUs3aDJ5cGNZbk9VTWxjRWloZjZoOUFwVkhaT3dqLVAxVW9icHRLTWIwSDV1ZVV1YklvN09FcFhnUWZ3LXNBVEYycFprUjJReUlFUEQ2Z1FTX3AzYkZZRksxeU93d2FDaDh4aGR6amRaWnRoQ1dqamJMMExNVGFmVldlX2pRUy1yQ2RFRzBKRldNQ2tOWHBlSzVUQ3lzQQ?oc=5",
-      "snippet": "www.crn.com",
-      "published": "2026-10-26T16:16:28+00:00"
+      "title": "LXP Industrial Trust Shareholders Approve $61.20 Per-Share Brookfield, CPP Acquisition",
+      "source": "citybiz",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOd1UyTW5KXy0xaktZTENYclRvcVJNQmcyYkpPeGhOM1pYR2RFWWdoZnpBeThFcWJFSmxSb3ZaRDM2MURiSmhMeUpfc2xzTWJxQThqS1Z6T291RDQzaGNqVXdDMmRTVnlna25MbTFqdEtlUUtVZjhURWREdWhMdDcxWlBfbUVHdnJDSERJY3BiY3RUYnNlRU9rcTZKZmp2R3N4UDRHbDc1Wk9ZYVBseno1aVJhdzVySHRxZ1ZHbTlZbVg?oc=5",
+      "snippet": "citybiz",
+      "published": "2026-10-27T11:23:19+00:00"
     },
     {
       "n": 24,
-      "title": "Currier Plastics rebrands as Alentra following acquisitions",
-      "source": "Plastics News",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTE1yYkY3QkszU3FMaUptUXB3WFBIRVZVbFNjaWVhZF9jTktWaGRQMnpsU092eWNENlgtSXpGZHhrUDdTTUFzWWVIS3lKX1U3d1pKMGFtZXJHSkJXZHdrN3k5YWdPX1ZCN3NfWFJBOHA4NWotQUkwOVlsdlVaaHpoRFN0S1JlcExRZy05V0dnTQ?oc=5",
-      "snippet": "Plastics News",
-      "published": "2026-10-26T16:08:00+00:00"
+      "title": "Ares Capital to Acquire MidCap Financial Investment in $2.6 Billion Deal",
+      "source": "citybiz",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcmNCdjBnN1NsRExYeGd6X3VuNkZZdC00ZTh3SEFQSkVxX3lyaW5XTnNpMHhvRGMteFNGX1otR3dCWV9EU2IyTnNkZDJBb203Ui1XV3VqSFhPWk8wYTBLVGJfRG80bklINGJOSUN5SzFuX19pWFJPM1UzZ0Z2aE5RMUN5bUNfSy1JRldNLXQydjlfLWFaYUJQSVhicjRCTTY1WGxuQzZSOEVxOHFMUWd3?oc=5",
+      "snippet": "citybiz",
+      "published": "2026-10-27T12:23:21+00:00"
     },
     {
       "n": 25,
-      "title": "Aurora: Alberta Securities Commission Dismisses Curaleaf’s Application to Halt ATM",
-      "source": "StratCann",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNkVrVExMME9FX25SNTZ2ZFk5WUZtVk42cF9kWlVqUFBNM01rSU9UaFNOTlpEREljYUVCUVlTZVV4bmQ0YXB1NDdWNjB4TTdNS1pkUWl6MUJiTDdDemN3Y09vMnJIZEU1QXRUTElGalNMc3IwWkh3bVY1YTVvYll0bEIyQ2s2ZGhXRWlGSFo5T0R2YUVBN3ZqVGdhZnoybDgzVERXOU9rdHRxeG5E?oc=5",
-      "snippet": "StratCann",
-      "published": "2026-10-26T16:04:20+00:00"
+      "title": "Ares Capital Agrees to Buy MidCap Financial in $2.6 Billion Deal",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWDR5dFhtaVRpTHJyVmtWdVhsNFMzY0hIZlR4czFiU05zUzFaMDBxWWRkQWc3VjVXZTRDV3UtaEhud2hmOXEyTkt6UU83RGkxckc5WjFSYnJkTHM2bnh0SlZuUU8tSXVVUXhJQlFjaFZWYnVTZWV4ZGpSLTNnWF92MUhUdzlKcHdkcm93RUJ1cnk0ZEVLdE1UcW5VVXR6VWgyc2xESU16eXRnSmdjOFRhcEpmUlo?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-10-27T10:28:49+00:00"
     },
     {
       "n": 26,
-      "title": "Amsons Group Acquires Geneva-Based Oryx Energies' Downstream Business in $230 Million Transformative Infrastructure Deal",
-      "source": "Voice of Alexandria",
-      "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPcVMyQnVtRnYxWXAybkxUMmhGZnotbU9uSlJtOGp3LWh5UlRjX09Rdlp1Rjg2SG5SbnlVNXNLaTlDWUVtU1BjTzVVU25jY2N2bG8zd3BudlhFQUhVZVhjMDhidVN6Y1JZaFJSWmEzaUVHWDEtQ2hVZm82a3dzR2oyRVFrY2VCT3NoVkFSMXV1UXBrVU5xcUVuZ1Nlc01XaEdDX1oyYTU2QlpMblNVeEc4blJNUi1TQnpDbmZRYWkxcTIxMXoyVHI2R2QxTDNQX0xIWG43V1ZqamxENFJpZnlhV2M4TFpMZnFTM0ozM3RoQ3RPYjRkbUdITW5PSGFPTTZaX0FrSnB5ZmFJNVZvLVRudXZDZC1TOTQ2aDZzZGI2X2trTjhYU1FmVWQxSlNfYUdudHVGQUhjUFY2U2wxMUxoNV82Nk5lRmdLUGIyX01Sbw?oc=5",
-      "snippet": "Voice of Alexandria",
-      "published": "2026-10-26T16:01:27+00:00"
+      "title": "Tata Motors' Iveco bid crosses 80% threshold as acceptances hit 87.81%",
+      "source": "Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaWd4YVJGOVVzd2dVaWxfa1BjYzVCLTdrVmthdk4wUnNzQ2hsbjd3STBCQ0RRaTBSdjdORUZMdDBQbXZ2YlMyZU9ISFR4VjJIR3hTOHRPdVdvRWNlWDVzVE0zYmRxZXVIYkpCNms5UlJrYjlSZUpHdE5MXzVaejdaNEtDZGZrejJJRzBCZ2piem5aWHhfLXpSeW5nc1pROGJqSWNUX3IyUURrTXVpWmNpUUoxbTRzYkwyVVFvUmZvX0x0aWJkUjhZdnJRdVTSAdIBQVVfeXFMTmpyVlgwbmRmVHJEckt3dVdlOHBCM1NMX2E2M3NWUFNZMWE1NG5zdWFTUUJGOERiNUFqdVZ3OENvZEpRdGs5TWgyVXAyNjN0Q1dpY0EzM1VBT0otQ1dMeGFxNWl5UzlxTmJlOWNXREpmal9PSVRIeVY5RWxPV2c3OTl6U1o5eHNNVGpKZXBWUmYtX3U2VWNXNEhmMVE0RVFGUndMZ3RvNG5fcjZUNmxXdnRDYVlrOFY1ZExJcUVTZFpUQXk4aHg4dDg4ZG5fTDk3VC1B?oc=5",
+      "snippet": "Business Standard",
+      "published": "2026-10-27T03:45:09+00:00"
     },
     {
       "n": 27,
-      "title": "Galp, Moeve scrap downstream merger as Iran war boosts refinery valuations",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUdmRHBJcVJmcko1NVpEVHRETC1hVFI2NFhYLXdvcFBuVFJxRFA3X0FmWWR2ZWFEelRWbHJfdDc5b3RhNFI4SzB1OXBLWkcwbnF0amRmTXJYVXFKa1Z1eFV5T3FZSzV6SWlxUUpMenZ1WG5hbzAybGFWb1luMU10NjVFbHBrM0d3UlEwVWVqanVfLThBTXRNbWxhZ0ZodjZRZHFsTXhkMUVaMVVaaS1xdzJQNXY?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-26T15:51:19+00:00"
+      "title": "Tata Motors' bid to takeover Iveco clears 80% acceptance threshold",
+      "source": "Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQalVIdEJtVFp4U2hSRmExcFFmSWZHYU50eDJaNXVjaFZXRkRiMVo4cWdFMUh3MG42bEMwUnBCYkc3ajJYYWxCcHpGOVpVMDVQZTA2Q2t2d2l2Y3hsOWgtYWw5OUZhTF94aW03X0VaR2h4TVZJY2c3dzhoZS1zNk1vUzJrYnRFRlJDZXd4U091TDRqNDVEWko4dG1TTzdKQVczWHVldVppT2JoWUJzTkJZMHJqZXZUNEpuckg5bG1sY3hSQ3RQcG9CZ1FUY1ZQUdIB0wFBVV95cUxPTG1kWDREekN0V1MzMWFJeU1INUFwWFQweTJ6MG5HM3RldlJ6SkpMWWxKcTY2QTBrQV9ZQUIyUUR6Y3ZQNFJqcDZHYnA5dmVRNUZEUkV2aWVFZUVHd1dCelZiRnVkaEZHMzdaOUV0eF90d2FhdzdMZzdhTjRiRUFtd3Zvb1RreGlMdWtZUHN3OXhfMGpkdGIxRHBXZGdWMEc5VDdBRmhZajJLMEFsTzJKTHhLV2pHd2U1QU9xbDM2TEhIREk4bW4wa0tIekJxRFM2a2l3?oc=5",
+      "snippet": "Business Standard",
+      "published": "2026-10-27T02:34:36+00:00"
     },
     {
       "n": 28,
-      "title": "Persistent Systems closes QIP, allots shares at ₹5,550",
-      "source": "scanx.trade",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaU5fTXExNmpKZ2h1dDZZS1JIWFFPVHJfbXNRWnE4cDhhRXdOUVNwaTRvZF83OUhvcHhmTjFfQlJNSEZIVllycXhCakpLUnZKTXhGSS1PaDdBblgtN0VjZXREcV84VzNKMGpRSXlnd2Q1ZGs0Wl9SZVNpU3R0N1hwNkNuMFpFVnkxQkpZbXBWREJrb2JwUWZJUHFablhJLWVDYTZUUmM0RGt1dVlySE9WSkFDdw?oc=5",
-      "snippet": "scanx.trade",
-      "published": "2026-10-26T15:50:32+00:00"
+      "title": "Tata Motors raises Iveco takeover offer to €14.40 per share",
+      "source": "BusinessLine",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnd0RFlEYlJQdTNXMnBKbkNLYXNTN0NuckNzRHBONHlUS2JEUnhUSk14R2JtVXA4dFlkei11UXpZbGU3eTVpUEZtNG1JZFZKODN3MzZnZ19adThITEhrN1dLVDc2V05keURTeDh0X2ItNFFzaW1XbmFzUHN4TlRpSlhHUzJMRWFsS0szWE5URnlEMFpLZnlLdWZZZGJYaGtzOXBIZ29sYWFPTTIyWTN0NEVRVmV3UEdEMmQyeXo1cnZxd9IByAFBVV95cUxOY0xmU3hqa1p0RkZMNVBoLVA4NTNoM24xUEpNZkE5V2tSU3ZEUzFkX3M3empJTUM3eEY5bE9BMF9fTlJ3NXRQdUhGMU5nVzlleDJzS1hQZXdTLXppR2dOQ3hZQUJkbFBMY3prdXpzOW55VVhRVUw0bm5XbTBIX2ZfeHJGRTJNLUE2bG5pTDNkakduNGlmX09UYkEtNFhqVkYza0dWR2duR0JDeTd0NS1HNnJXY1VodUJBY1p5UUZnbzdiNlpGeHFKdg?oc=5",
+      "snippet": "BusinessLine",
+      "published": "2026-10-16T05:57:33+00:00"
     },
     {
       "n": 29,
-      "title": "Days after Elon Musk said that Tesla-SpaceX merger would be a 'good idea', one of UK's largest banks send",
-      "source": "The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQQVJqNnZDdTB0TmhabmwwVGVFbmVpMlIyLUZZLUFiSG9yNlp2SVJTQmp6aUpPa1A0amgyWEs4a1N5RWUyeDlwQTNwMGo4SXJEZUFXamlxQThRdEpsRDhTb2dpMFhQTGRySkNTNWcya3JFUTkyQ0x4UDI3SG5GVk9QMTVUMk56cTlWWTAxamduQ3gxa1F3UVBuSDJXVFNjanlmRTdsek5CcUM5dS1takw5VnFlVW9zOHIwZklta3cwTG40TzVCY01rS1RzQmJsVl9pNDBjSjVsVEpLV2RPWFBGekVPcm9TVWRER1Mxb1pZNDhkRFFhaHd3X2VDQm44ZlVrSGVGTU82Qk1MekRnNmcxZXplWS1lRktxN0tQZGlXZjdGMXQzdWNMN0FwUUNPSEszbHlNUNIBugJBVV95cUxOQzh0TUhJT3BwLUo3eEdMcjdoOXJuV1lETHF2aklzVjB0dWhYVThockgxcGZ5eTNERWJ1c1BvcUVzZEptb01GVWFFNzg3Y2dUcnBJSURGOXpLX1Q3ai1zaDhkOWt6UHJ5YmRocFpXSXdyNlZMdXM2cE5Fb0l3V1RNRkh4VTd0ZVdjZUFWQWsyWTRzcURwQlhweUtSeFg5TW9BbXVhRUM1WC01cU9SYWJ2dm1LbzM4dmh6MTYxSWtKaFp0T3paS1NQUFhFRnB0c3RSaWJHWHVlUWM1VWY3WFlEZ1R3bElQcktQRmJSYjBYbXZYWVlfSlU0VkxiSjd0eXJCbkNHUnFHRWs3QlRmallJU1JPU1FLUGZrWmU2OTJzdzlrZk9BR3F0MkVwQnkwVU5mQnVkUGl5N2ttQQ?oc=5",
-      "snippet": "The Times of India",
-      "published": "2026-10-26T15:50:00+00:00"
+      "title": "Iveco shareholders approve resolutions paving way for Tata Motors acquisition and delisting",
+      "source": "Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNkZvMDFHa1hxZHBiWEw2NkJ4ejJMdDJTcDhEVUlUZWRBZllBY1VJYlNaVXlpeDQ5QlFtbmxLaHdvNThhUUJXSGVvaU0zSzQ1LUZLallDSGRjcS1fU0VNaWpUSFNkM0h6YWRxT2UxWjVhMnFsc1AwQ3d4Y2RxdHhPMmZ0Z1VtWTJMMEZ2RXhrdy1XQzcyZG9FWDRHcUI4T1ZGLThNOExicFoxbENobkZUT3ozdmdhYlNhR3BCbW9QdllfUHhaX3pLYVVLcy1xS0dIcDZVU1hfaDBjNjF1WTgzMXNyX3VmVEdDbER5bXlR0gHuAUFVX3lxTE82Rm8wMUdrWHFkcGJYTDY2Qnh6Mkx0MlNwOERVSVRlZEFmWUFjVUliU1pVeWl4NDlCUW1ubEtod281OGFRQldIZW9pTTNLNDUtRktqWUNIZGNxLV9TRU1palRIU2QzSHphZHFPZTFaNWEycWxzUDBDd3hjZHF0eE8yZnRnVW1ZMkwwRnZFeGt3LVdDNzJkb0VYNEdxQjhPVkYtOE04TGJwWjFsQ2huRlRPejN2Z2FiU2FHcEJtb1B2WV9QeFpfekthVUtzLXFLR0hwNlVTWF9oMGM2MXVZODMxc3JfdWZUR0NsRHlteVE?oc=5",
+      "snippet": "Moneycontrol.com",
+      "published": "2026-10-16T12:42:47+00:00"
+    },
+    {
+      "n": 30,
+      "title": "Tata Motors' takeover bid for Iveco clears 80% acceptance threshold",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM2w5ZThJT3ZkWmtQMERiUVFBM3JIU2JOcGlHQlZTMnl5V3JoeTJyM3FXSWZiTlY4T3JwQzZNbEtzQ2RnMDNfY1JiWEtMLTRnRU5rcnBNaVVGM0tiSDhxZUJkdmkyZnRmb2ZnR0JyRmJ3cG9DS0FHa2NCNnRENlh5TUFSTDd1bVMxMzk0RXgzVy1PcUF3RVEtNnNJSnR2NmJWMlFBSFEyd0VKUzcyTmc?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-10-26T20:26:52+00:00"
+    },
+    {
+      "n": 31,
+      "title": "Iveco shareholders approve Tata Motors' takeover bid; acceptance threshold cut to 80 pc",
+      "source": "The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOazk0Z290SzNZSUZiSm1tOVRlbWtVVzJhbllDWVF1MDlPREg1eEZpSGxHcDdfblNuWXNqaWM4cFp3VmJjM2k0QV9EZjliem80UUZDTm1GSWZwN0ROWmt3b3FCTmlRcjRBTmpJdUc5SGF0Y1hmUnhFSENKU0hja0hIbHh5cE8yT3lYNDBQME5QTWg3Nk91d2MwdWJzS2VwR3FjWlh0MVYtODRjdE0zY1ZDbmRlZldTaExsTnBFR29vZ0lLdHE2Yzlld3laeFhGRHhlYmRsNWRoT3VVelBDR3lTSWtoQ3ZXbkdPMkRkWDFZUmZ4MW_SAfgBQVVfeXFMTW1wa3NPc25VdmxVS2FUTGc3SndIbjhQR1ZORkl5SmNRSHFWbXFvQ1k5YVJrb1EzZU9SaVppUFNLU2Z6OUY0TnRXN3NwaF96UllTUkl0M0VhRm9DendCaGpmd0MzU0ZuNzF0QjFFMDRyOWgzLVhDelJVWnoxQ0R4NUhHb2hkdFFFZkd6VWpVYmFORzFMdnZaMFlvMTNPTGZhQWUwaVJHeDBCeDhBZEZZdGVQdktweWNNZ1Z6bkJpS29LTTNxYnNVY3RVVXl5ZHhsUDRfYVozdlBVenBIYVI4M25NNThDSWNBWDlnOU5SakdUZkVRUXkxb1c?oc=5",
+      "snippet": "The Economic Times",
+      "published": "2026-10-16T13:53:05+00:00"
+    },
+    {
+      "n": 32,
+      "title": "T3 Defense to Acquire KeepZone AI in Homeland Security Expansion Deal",
+      "source": "citybiz",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNemNXSTdzX2lrVVJQT1FBZDhxVnNOOUQzUWFUXzFRb0FjdkkxeW9LdnZUV0I0WXpsX2hSSWNubFU4cGMzSWVkOXVyYXJXOHVKcG5YOU9uYVU0dWoxeGFXMGszdEM1VE1VZko3dDNUYkFOOHJZejJ0WmZaV0h2Y08td0l3SnozekZENHk0RmFpZVdYQkNpcER3MkZ1anFfMVYzbi1BWk01T2RYSVZO?oc=5",
+      "snippet": "citybiz",
+      "published": "2026-10-27T15:33:32+00:00"
+    },
+    {
+      "n": 33,
+      "title": "M&A: Williams Agrees to Buy Momentum Midstream for $5.5 Billion",
+      "source": "EnergyNow.com",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaHh5Rkhxdmw3U0lqSFJyQll3NTRmR1gzR2J6M2pxeHhCckRCOWlsdWdHRHdCRDlUZHk2bURFb3RiVXhWOVF0el93andESkVKUkVfZ2V4SUE2QXg0bVdOakxsWWJPRVY3Vkc3dnlzT0FHWGdBaVVrVmJ4VEdFWWFTNXpZb0xVQVhicVl6ZnY4LXRHZw?oc=5",
+      "snippet": "EnergyNow.com",
+      "published": "2026-10-27T14:22:59+00:00"
+    },
+    {
+      "n": 34,
+      "title": "IN TALKS: Williams in Talks on $5.5 Billion Deal for Momentum Midstream – Report",
+      "source": "EnergyNow.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSHpBam9nR19ndUxwZi1NSFo3LU5FSWNMc2MxenRSR05WY0hhWEVVcENMU2lzemUydDhtM0pXVS1vVVQyWV9hUldzWVgtR2dlQ2M3MEJCaVRJUDVsRmJrX2daVENPUVdpVnpJWE02WDRQRVRJR0t2MEwwN202dTFhMElxOXB1YXlxZkxSZnlRZnU1alRLdS1OOFhFN3FKS2Y5cWpWRjdJbU56TGc?oc=5",
+      "snippet": "EnergyNow.com",
+      "published": "2026-10-05T20:32:16+00:00"
+    },
+    {
+      "n": 35,
+      "title": "CopperPoint completes acquisition of General Indemnity Group",
+      "source": "Life Insurance International",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSk9kNFhkN1M5dzhJdC1va1pneGxHb3B2U0d1Xzg3ekZIakNqa2JsNFBVb05ONVRxMHAxQTdWZWVhRmlrVTJlR003Uk15N0I2X1lzTi1LOVhoMGN2SENYRjc0QmtlMEpRTDNLUDRiWENOcUhUOWZLUEJSOHotcnBHTEZwUEJIQmdBSXl6SWtzb3E1d0stNnh5VWdELXpZRkJfd1NRVXJibEtLQQ?oc=5",
+      "snippet": "Life Insurance International",
+      "published": "2026-10-27T12:56:34+00:00"
+    },
+    {
+      "n": 36,
+      "title": "Europe’s busiest buyout law firms",
+      "source": "EU.COM",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE81OGNqQjFXSnctS3BBeVc1WjJUOUp6Rk9KSXhEQXBkS3hxNkRORnVVMDhMYnFrOGtYa3lMbURmX1hvUlBEWEJvUFRmRU1KWFdpeW9WcERqYTRzbHpXZmIzRmxoWjRYREJtRld5VTdyZHF5eUE?oc=5",
+      "snippet": "EU.COM",
+      "published": "2026-10-27T15:15:19+00:00"
+    },
+    {
+      "n": 37,
+      "title": "Curaleaf Responds to Alberta Securities Commission Decision",
+      "source": "Cannabis Business Times",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNeEUwaFNUQmVHOGFuZ2xwRUQ1R3BvZHNndzhHY1FDSHlDWlVhQ0pBN1JtdWs5WEZmd0xsWWVBRVdSRGFTRmNzYmNHaTN4bFlvWVBXVjFqRk5IODZwZnJBWkJpUWg2SHlpTlFjNFJYRjlyTWpZeXBucXJ6YjViX0FYVGJLTXBKTVZQLXRLd004aHBldEhCRW8yamRxYmJwTzYtNkRuX2Z4ZHhlcUI0UEQ2QTJrQXk2cWhqZ3MtYkhIdTlmSmhScDFBV0JPdXp3dGdxT1M0b1BWalhjMWN3MEhYWjhhelZDNTlZZVhocTFVRHRZdUJWVWc?oc=5",
+      "snippet": "Cannabis Business Times",
+      "published": "2026-10-27T13:47:35+00:00"
+    },
+    {
+      "n": 38,
+      "title": "Besi Shares Surge as Applied Materials Doubles Stake to 20%",
+      "source": "Global Banking & Finance Review",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTEVHaWtBOEJ3T2dyaGNuM0tzQVJ2djZGTWhkdkFrZ2xpNklWOXpwVjNIbGZrS3FCOWdrUEJXSFQyQlo0RWhFUGZsNjFBWGlYcl9QNlhWWG0ybXpteEtRTUJ2OG9WVzBWTnlUQmpiU3FnRFRqRXZsQmtGNWNyWEx0U2JubjRsWDNLYXQzeHdfSXF1ZnFjeURJQWlqYkNxUDg?oc=5",
+      "snippet": "Global Banking & Finance Review",
+      "published": "2026-10-27T13:05:14+00:00"
+    },
+    {
+      "n": 39,
+      "title": "Brielle Man Admits Role in Insider Trading Scheme That Generated Nearly $1.5 Million",
+      "source": "TAPinto",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQWUxIWDN1RThKY3JwMnVPMm5HQ3RYMWJlQUpaZF84aWJkVl9HT05uYWFzemJTTkZnak1SRWQ3cmZOMjhwLTNBM1RtdzMyenp2bm5JS3lxel93aFpuU3ktdUFLNlFBYlpnLWNEbUtXSEtmUWpvZE5RQ3g5bS1ENmxwMDU4bnRHWFBfM3F6dC1iNW9Mdi1GQVFxTk9vdFZxMmFkTFZ5N3dPaXlnTERKLU5oOTNZYXpISl95cjZKVEZUd1FrOFJkc2lRRlk1VW4wSk01ajVEald4b1AwNUxFR0lUSGRyaXpPaWY3TGFwamVncERlSk9RZTJxLVQzYjBudw?oc=5",
+      "snippet": "TAPinto",
+      "published": "2026-10-27T13:00:00+00:00"
+    },
+    {
+      "n": 40,
+      "title": "Americhem follows through on Pritzker-backed growth plans with Noble Biomaterials acquisition",
+      "source": "Plastics News",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjdac2EtRHJabENZY01OOHFmSUhUUVVkRy16UGp4aXdJcThzaEJKMElVNmhZdVY2VXlmdW45bmEzd2tQbDcwWFZvSlhrOFBiMndQYzNtM2tGN0Z1cHJjMW9OUll3NW51b0dwY1RJUDBuNXdmYVVHNEpaYjVZYnA1VmRmNHdPSDJyQ0RoUy1zaHE?oc=5",
+      "snippet": "Plastics News",
+      "published": "2026-10-27T13:00:00+00:00"
+    },
+    {
+      "n": 41,
+      "title": "Software Circle’s Gintech Deal Puts Acquisition Strategy in the Spotlight (LSE:SFT)",
+      "source": "kalkine.ca",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRXU2SlZSMFN6VTRkN0lTbzQ0dGlBbDlVLVNxelFhZUl0ck1lSmhXckFuQjVWRDIyMGpGRk5lZno0WVhZQ195cTV4bzlES2dCMFFISDh0aTRONklKMlN0ZTlJX1dlYWhEUFF6R0tlY1ZaTFBiZW5NS3lTamZFX0w0S3p2YXNBTFE1SW5tNS1DZkwwNkgtRkVSZzFxS01xY0tjM01ORmNueEJxQ3hKMnRRaEFvaWw?oc=5",
+      "snippet": "kalkine.ca",
+      "published": "2026-10-27T12:22:00+00:00"
+    },
+    {
+      "n": 42,
+      "title": "A $300 Billion ‘Debt Wall’ Is Looming Over Private-Equity Backed Companies",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUEZjTlN5RzBoUmYzU0xSRnRfOFZ0cXpMTmU3ZUd5dE9rdTlqSEd1cnB5N291S3dRZkJPWEdyaU5ORmpZMzhsczVIX1hyVHJTb1VRNFVrRXhDRUFHQ0lleGF4QXdpMHZoZFo4NFFuTDNnTVB4VXJJVDcwR3p2Z3FxYXZaUVJkcTZTNXVoam85c19uQWJSV212cU5heTNscXphQXVxMDk2MDhyRnE4U29NaDgxR2lJcVVIb0E?oc=5",
+      "snippet": "WSJ",
+      "published": "2026-10-27T12:17:00+00:00"
+    },
+    {
+      "n": 43,
+      "title": "Cannabis Stocks, Takeover Fights and Washington Rescheduling Drama",
+      "source": "The Dales Report",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObFE4MjJibVdZeGUwejY0M00yUkVFb2pkMnRVaHpNRlR3SllySmI3OTdxQkVsR0E5X0Y2VnowallMVzVONFNLNXN4Nlk4eFl1MVpvX3lJcUVWb2laRUF3V2NnTFA1S2U5ME0wTUtPSDJ3ZjZYWG9WQXFtLWlxR1Z1RFZqVkQ2d3RfVW9sVDJ1YUJybzRERVlhS1hDOG1jYzRNQnk4Zg?oc=5",
+      "snippet": "The Dales Report",
+      "published": "2026-10-27T12:02:00+00:00"
     }
   ],
   "cited": [
     1,
     2,
     3,
-    5,
-    7,
-    8,
-    9,
-    10,
-    11,
+    4,
+    6,
     12,
     13,
     14,
-    15,
     16,
     17,
-    18,
-    19,
     20,
     21,
     22,
     23,
-    24
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
   ],
   "invalid_citations": [],
-  "example_prompt": "Deal: EQT and Range Resources.\nStage: Announced.\n\nHeadlines:\n[1] Drilling Contractor, Oct 26 11:58 AM ET: EQT agrees to acquire Range Resources in all-stock deal\n    Drilling Contractor\n[2] Reuters, Oct 26 11:18 AM ET: EQT to buy Range Resources in $13 billion deal to create top US gas producer\n    Reuters\n[3] BigGo Finance, Oct 26 11:05 AM ET: EQT to Buy Range Resources in $13 Billion All-Stock Deal, Creating $50 Billion Gas Giant\n    BigGo Finance\n[4] Quiver Quantitative, Oct 26 10:55 AM ET: Range Resources Surges After EQT Agrees to Buy the Company in All-Stock Deal\n    Quiver Quantitative\n[5] Hart Energy, Oct 26 10:13 AM ET: EQT’s $13B Range Resources Deal Creates Appalachian Powerhouse\n    Hart Energy\n[6] grafa.com, Oct 26 10:07 AM ET: EQT Announces $50 Billion Range Resources Merger\n    grafa.com\n[7] Kalkine Media, Oct 26 07:10 AM ET: Range Resources and EQT Corporation Announce All-Stock Merger Agreement\n    Kalkine Media\n[8] Yahoo Finance, Oct 26 06:50 AM ET: EQT Agrees to Acquire Range Resources in All-Stock Transaction\n    Yahoo Finance\n\nWrite the subheading and sentences.",
+  "example_prompt": "Deal: DoorDash and Instacart.\nStage: Rumored.\n\nHeadlines:\n[1] Retail Technology Innovation Hub, Oct 27 03:02 AM ET: DoorDash circles $17 billion Instacart acquisition as Caper Carts business is wound down\n    Retail Technology Innovation Hub\n[2] Reuters, Oct 26 05:47 PM ET: DoorDash in talks to buy Instacart in roughly $17 billion deal, source says\n    Reuters\n[3] The Globe and Mail, Oct 26 04:38 PM ET: DoorDash in talks to buy Instacart in deal valued around $17-billion, source says\n    The Globe and Mail\n[4] Yahoo Finance, Oct 26 04:31 PM ET: Update: Market Chatter: DoorDash in Advanced Talks to Acquire Instacart\n    Yahoo Finance\n[5] SRN News, Oct 26 04:27 PM ET: DoorDash in talks to buy Instacart, WSJ reports\n    SRN News\n[6] Yahoo Finance, Oct 26 04:04 PM ET: DoorDash in advanced talks to acquire Instacart, WSJ reports\n    Yahoo Finance\n[7] TradingView, Oct 26 03:57 PM ET: DoorDash drops on report it's in talks to purchase Instacart for $17B (update)\n    TradingView\n[8] WSJ, Oct 26 03:52 PM ET: Exclusive | DoorDash Is in Advanced Talks to Acquire Delivery Rival Instacart\n    WSJ\n\nWrite the subheading and sentences.",
   "retrieval": [
     {
-      "deal": "EQT / Range Resources",
-      "query": "EQT Range Resources acquisition merger deal",
+      "deal": "DoorDash / Instacart",
+      "query": "DoorDash Instacart acquisition merger deal",
       "hits": [
         {
-          "n": 6,
-          "similarity": 0.866
-        },
-        {
-          "n": 7,
-          "similarity": 0.801
-        },
-        {
-          "n": 8,
-          "similarity": 0.764
-        },
-        {
-          "n": 1,
-          "similarity": 0.759
-        },
-        {
-          "n": 3,
-          "similarity": 0.757
+          "n": 9,
+          "similarity": 0.839
         },
         {
           "n": 2,
-          "similarity": 0.757
-        }
-      ]
-    },
-    {
-      "deal": "Right Lane Industries / Capacity Trucks and LayMor",
-      "query": "Right Lane Industries Capacity Trucks and LayMor acquisition merger deal",
-      "hits": [
-        {
-          "n": 10,
-          "similarity": 0.874
+          "similarity": 0.832
         },
         {
-          "n": 9,
-          "similarity": 0.85
-        }
-      ]
-    },
-    {
-      "deal": "HealthSpan Partners / Surgery Partners",
-      "query": "HealthSpan Partners Surgery Partners acquisition merger deal",
-      "hits": [
-        {
-          "n": 11,
+          "n": 10,
           "similarity": 0.819
         },
         {
-          "n": 12,
-          "similarity": 0.713
+          "n": 11,
+          "similarity": 0.813
+        },
+        {
+          "n": 3,
+          "similarity": 0.807
+        },
+        {
+          "n": 4,
+          "similarity": 0.798
         }
       ]
     },
     {
-      "deal": "Ovintiv / Logan Energy",
-      "query": "Ovintiv Logan Energy acquisition merger deal",
+      "deal": "Intel / Classiq",
+      "query": "Intel Classiq acquisition merger deal",
       "hits": [
         {
           "n": 13,
-          "similarity": 0.867
+          "similarity": 0.819
+        },
+        {
+          "n": 16,
+          "similarity": 0.802
         },
         {
           "n": 14,
-          "similarity": 0.857
+          "similarity": 0.799
+        },
+        {
+          "n": 18,
+          "similarity": 0.798
+        },
+        {
+          "n": 12,
+          "similarity": 0.792
+        },
+        {
+          "n": 19,
+          "similarity": 0.781
         }
       ]
     },
     {
-      "deal": "Acuity Inc. / Parameter Technologies",
-      "query": "Acuity Inc. Parameter Technologies acquisition merger deal",
+      "deal": "Brookfield / LXP",
+      "query": "Brookfield LXP acquisition merger deal",
       "hits": [
         {
-          "n": 15,
-          "similarity": 0.812
+          "n": 22,
+          "similarity": 0.805
         },
         {
-          "n": 16,
+          "n": 21,
+          "similarity": 0.789
+        },
+        {
+          "n": 23,
+          "similarity": 0.779
+        },
+        {
+          "n": 20,
+          "similarity": 0.768
+        }
+      ]
+    },
+    {
+      "deal": "Ares Capital / MidCap Financial Investment",
+      "query": "Ares Capital MidCap Financial Investment acquisition merger deal",
+      "hits": [
+        {
+          "n": 25,
+          "similarity": 0.858
+        },
+        {
+          "n": 24,
+          "similarity": 0.841
+        }
+      ]
+    },
+    {
+      "deal": "Tata Motors / Iveco",
+      "query": "Tata Motors Iveco acquisition merger deal",
+      "hits": [
+        {
+          "n": 28,
+          "similarity": 0.822
+        },
+        {
+          "n": 29,
+          "similarity": 0.809
+        },
+        {
+          "n": 30,
+          "similarity": 0.804
+        },
+        {
+          "n": 27,
+          "similarity": 0.803
+        },
+        {
+          "n": 31,
+          "similarity": 0.801
+        }
+      ]
+    },
+    {
+      "deal": "T3 Defense / KeepZone AI",
+      "query": "T3 Defense KeepZone AI acquisition merger deal",
+      "hits": [
+        {
+          "n": 32,
           "similarity": 0.808
         }
       ]
     },
     {
-      "deal": "i-Tail / Phelps Pet Products",
-      "query": "i-Tail Phelps Pet Products acquisition merger deal",
+      "deal": "Williams / Momentum Midstream",
+      "query": "Williams Momentum Midstream acquisition merger deal",
       "hits": [
         {
-          "n": 17,
-          "similarity": 0.865
+          "n": 33,
+          "similarity": 0.85
+        },
+        {
+          "n": 34,
+          "similarity": 0.825
         }
       ]
     },
     {
-      "deal": "UFP Industries / Apache Products",
-      "query": "UFP Industries Apache Products acquisition merger deal",
+      "deal": "CopperPoint / General Indemnity Group",
+      "query": "CopperPoint General Indemnity Group acquisition merger deal",
       "hits": [
         {
-          "n": 18,
-          "similarity": 0.773
-        }
-      ]
-    },
-    {
-      "deal": "Onsemi / Codasip",
-      "query": "Onsemi Codasip acquisition merger deal",
-      "hits": [
-        {
-          "n": 19,
-          "similarity": 0.743
-        },
-        {
-          "n": 20,
-          "similarity": 0.676
-        },
-        {
-          "n": 21,
-          "similarity": 0.645
+          "n": 35,
+          "similarity": 0.857
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 183,
-    "headlines_new": 172,
-    "index_size": 1898,
-    "deals_found": 39,
+    "headlines_fetched": 190,
+    "headlines_new": 125,
+    "index_size": 2023,
+    "deals_found": 25,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19

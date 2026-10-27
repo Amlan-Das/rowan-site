@@ -105,6 +105,13 @@
    "found": 39,
    "new": 8,
    "cumulative": 81
+  },
+  {
+   "date": "2026-10-27",
+   "shown": 8,
+   "found": 25,
+   "new": 6,
+   "cumulative": 87
   }
  ],
  "deals": {
@@ -286,8 +293,8 @@
    "acquirer": "Williams",
    "target": "Momentum Midstream",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-23",
-   "stage": "Rumored",
+   "last_seen": "2026-10-27",
+   "stage": "Announced",
    "value": "$5.5 Billion",
    "usd": 5500000000.0
   },
@@ -539,8 +546,8 @@
    "acquirer": "Tata Motors",
    "target": "Iveco",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-16",
-   "stage": "Pending approval"
+   "last_seen": "2026-10-27",
+   "stage": "Announced"
   },
   "gtcr and elliott affiliates|ccc intelligent solutions": {
    "acquirer": "GTCR and Elliott Affiliates",
@@ -846,11 +853,61 @@
    "stage": "Announced",
    "value": "$14.5 million",
    "usd": 14500000.0
+  },
+  "doordash|instacart": {
+   "acquirer": "DoorDash",
+   "target": "Instacart",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "stage": "Rumored",
+   "value": "$17 billion",
+   "usd": 17000000000.0
+  },
+  "intel|classiq": {
+   "acquirer": "Intel",
+   "target": "Classiq",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "stage": "Announced",
+   "value": "$2.3 Billion",
+   "usd": 2300000000.0
+  },
+  "brookfield|lxp": {
+   "acquirer": "Brookfield",
+   "target": "LXP",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "stage": "Pending approval",
+   "value": "$5.2B",
+   "usd": 5200000000.0
+  },
+  "ares capital|midcap financial investment": {
+   "acquirer": "Ares Capital",
+   "target": "MidCap Financial Investment",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "stage": "Announced",
+   "value": "$2.6 Billion",
+   "usd": 2600000000.0
+  },
+  "t3 defense|keepzone ai": {
+   "acquirer": "T3 Defense",
+   "target": "KeepZone AI",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "stage": "Announced"
+  },
+  "copperpoint|general indemnity group": {
+   "acquirer": "CopperPoint",
+   "target": "General Indemnity Group",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "stage": "Completed"
   }
  },
  "totals": {
-  "deals": 81,
-  "with_usd_value": 47,
-  "usd": 330923300000.0
+  "deals": 87,
+  "with_usd_value": 51,
+  "usd": 358023300000.0
  }
 }
