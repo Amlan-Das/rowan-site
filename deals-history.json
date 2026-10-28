@@ -112,6 +112,13 @@
    "found": 25,
    "new": 6,
    "cumulative": 87
+  },
+  {
+   "date": "2026-10-28",
+   "shown": 8,
+   "found": 45,
+   "new": 7,
+   "cumulative": 93
   }
  ],
  "deals": {
@@ -858,9 +865,9 @@
    "acquirer": "DoorDash",
    "target": "Instacart",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "stage": "Rumored",
-   "value": "$17 billion",
+   "value": "$17 Billion",
    "usd": 17000000000.0
   },
   "intel|classiq": {
@@ -903,11 +910,68 @@
    "first_seen": "2026-10-27",
    "last_seen": "2026-10-27",
    "stage": "Completed"
+  },
+  "ge vernova|trench group": {
+   "acquirer": "GE Vernova",
+   "target": "Trench Group",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "stage": "Announced",
+   "value": "$9 Billion",
+   "usd": 9000000000.0
+  },
+  "trian|wendy s": {
+   "acquirer": "Trian",
+   "target": "Wendy's",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "stage": "Announced",
+   "value": "$1.4 billion",
+   "usd": 1400000000.0
+  },
+  "ares capital|midcap financial": {
+   "acquirer": "Ares Capital",
+   "target": "MidCap Financial",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "stage": "Announced",
+   "value": "$2.6 Billion",
+   "usd": 2600000000.0
+  },
+  "i squared capital|orizon": {
+   "acquirer": "I Squared Capital",
+   "target": "Orizon",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "stage": "Announced"
+  },
+  "kyivstar|gigacloud": {
+   "acquirer": "Kyivstar",
+   "target": "GigaCloud",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "stage": "Announced",
+   "value": "$50 million",
+   "usd": 50000000.0
+  },
+  "alchemy|freeit": {
+   "acquirer": "Alchemy",
+   "target": "Freeit",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "stage": "Announced"
+  },
+  "barry diller|mgm": {
+   "acquirer": "Barry Diller",
+   "target": "MGM",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "stage": "Announced"
   }
  },
  "totals": {
-  "deals": 87,
-  "with_usd_value": 51,
-  "usd": 358023300000.0
+  "deals": 93,
+  "with_usd_value": 54,
+  "usd": 368473300000.0
  }
 }
