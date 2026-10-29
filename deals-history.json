@@ -119,6 +119,13 @@
    "found": 45,
    "new": 7,
    "cumulative": 93
+  },
+  {
+   "date": "2026-10-29",
+   "shown": 8,
+   "found": 29,
+   "new": 6,
+   "cumulative": 98
   }
  ],
  "deals": {
@@ -865,16 +872,16 @@
    "acquirer": "DoorDash",
    "target": "Instacart",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-10-28",
-   "stage": "Rumored",
-   "value": "$17 Billion",
+   "last_seen": "2026-10-29",
+   "stage": "Announced",
+   "value": "$17 billion",
    "usd": 17000000000.0
   },
   "intel|classiq": {
    "acquirer": "Intel",
    "target": "Classiq",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-29",
    "stage": "Announced",
    "value": "$2.3 Billion",
    "usd": 2300000000.0
@@ -967,11 +974,61 @@
    "first_seen": "2026-10-28",
    "last_seen": "2026-10-28",
    "stage": "Announced"
+  },
+  "marvell|lumentum": {
+   "acquirer": "Marvell",
+   "target": "Lumentum",
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "stage": "Rumored",
+   "value": "$221B",
+   "usd": 221000000000.0
+  },
+  "thrive holdings|adt": {
+   "acquirer": "Thrive Holdings",
+   "target": "ADT",
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "stage": "Announced",
+   "value": "$7.6 billion",
+   "usd": 7600000000.0
+  },
+  "vaisala|atmo": {
+   "acquirer": "Vaisala",
+   "target": "Atmo",
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "stage": "Completed"
+  },
+  "trian led group|wendy s": {
+   "acquirer": "Trian-led group",
+   "target": "Wendy's",
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "stage": "Announced",
+   "value": "$1.4bn",
+   "usd": 1400000000.0
+  },
+  "enerpac|sfe group": {
+   "acquirer": "Enerpac",
+   "target": "SFE Group",
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "stage": "Completed"
+  },
+  "ufp industries|texas pallet maker": {
+   "acquirer": "UFP Industries",
+   "target": "Texas pallet maker",
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "stage": "Announced",
+   "value": "$27M",
+   "usd": 27000000.0
   }
  },
  "totals": {
-  "deals": 93,
-  "with_usd_value": 54,
-  "usd": 368473300000.0
+  "deals": 98,
+  "with_usd_value": 57,
+  "usd": 597100300000.0
  }
 }
