@@ -1,19 +1,19 @@
 {
-  "date": "Thursday, October 29",
-  "generated_at": "2026-10-29T17:36:02.823505+00:00",
+  "date": "Friday, October 30",
+  "generated_at": "2026-10-30T17:11:45.271220+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "DoorDash is acquiring Instacart in a $17 billion deal to expand its grocery delivery business.",
+  "lede": "DoorDash is acquiring Instacart in a $17 billion deal pending antitrust review, aiming to expand its grocery delivery business.",
   "deals": [
     {
       "acquirer": "DoorDash",
       "target": "Instacart",
-      "value": "$17 billion",
+      "value": "$17 Billion",
       "pinned": false,
-      "stage": "Announced",
-      "articles": 13,
-      "outlets": 12,
-      "latest": "2026-10-29T17:08:32+00:00",
+      "stage": "Pending approval",
+      "articles": 19,
+      "outlets": 19,
+      "latest": "2026-10-30T16:16:46+00:00",
       "sources": [
         1,
         2,
@@ -25,8 +25,8 @@
         8
       ],
       "stripped": [],
-      "headline": "DoorDash to Acquire Instacart",
-      "body": "DoorDash is acquiring Instacart in a $17 billion deal [1, 2, 3]. The deal is for Instacart, a US rival in the grocery delivery business [1, 2, 3]. The acquisition is expected to expand DoorDash's grocery delivery business [1, 2, 3].",
+      "headline": "DoorDash to Buy Instacart",
+      "body": "DoorDash is acquiring Instacart in a $17 billion deal [1, 2, 3]. The deal is pending antitrust review [4, 5, 6]. The acquisition aims to expand DoorDash's grocery delivery business [7, 8].",
       "found": [
         {
           "n": 1,
@@ -44,7 +44,7 @@
           "n": 3,
           "acquirer": "DoorDash",
           "target": "Instacart",
-          "stage": "Announced"
+          "stage": "Completed"
         },
         {
           "n": 4,
@@ -74,74 +74,19 @@
           "n": 8,
           "acquirer": "DoorDash",
           "target": "Instacart",
-          "stage": "Completed"
-        },
-        {
-          "n": 10,
-          "acquirer": "DoorDash",
-          "target": "Instacart",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "Marvell",
-      "target": "Lumentum",
-      "value": "$221B",
-      "pinned": false,
-      "stage": "Rumored",
-      "articles": 6,
-      "outlets": 6,
-      "latest": "2026-10-29T15:38:02+00:00",
-      "sources": [
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20
-      ],
-      "stripped": [],
-      "headline": "Marvell and Lumentum Deal Rumors",
-      "body": "Marvell is reportedly in advanced talks to acquire Lumentum for its AI optics business [15, 17, 18]. The deal is said to be worth $221B, but no terms have been confirmed yet [16, 20]. The acquisition would be one of the 10 largest tech and telecom deals ever [19]. The deal is currently in the rumored stage, with no official confirmation from the companies [13, 14, 17].",
-      "found": [
-        {
-          "n": 13,
-          "acquirer": "Marvell",
-          "target": "Lumentum",
-          "stage": "Rumored"
-        },
-        {
-          "n": 14,
-          "acquirer": "Marvell",
-          "target": "Lumentum",
-          "stage": "Rumored"
-        },
-        {
-          "n": 15,
-          "acquirer": "Marvell",
-          "target": "Lumentum",
-          "stage": "Rumored"
-        },
-        {
-          "n": 16,
-          "acquirer": "Marvell",
-          "target": "Lumentum",
-          "stage": "Rumored"
-        },
-        {
-          "n": 17,
-          "acquirer": "Marvell Technology",
-          "target": "Lumentum",
           "stage": "Announced"
         },
         {
-          "n": 18,
-          "acquirer": "Marvell",
-          "target": "Lumentum",
-          "stage": "Rumored"
+          "n": 11,
+          "acquirer": "DoorDash",
+          "target": "Instacart",
+          "stage": "Announced"
+        },
+        {
+          "n": 9,
+          "acquirer": "DoorDash",
+          "target": "Instacart",
+          "stage": "Completed"
         }
       ]
     },
@@ -151,9 +96,75 @@
       "value": "$7.6 billion",
       "pinned": false,
       "stage": "Announced",
-      "articles": 4,
-      "outlets": 4,
-      "latest": "2026-10-29T16:12:35+00:00",
+      "articles": 7,
+      "outlets": 7,
+      "latest": "2026-10-29T19:06:30+00:00",
+      "sources": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stripped": [],
+      "headline": "Thrive Holdings to Acquire ADT",
+      "body": "Thrive Holdings is acquiring ADT for $7.6 billion [16, 18, 19]. The deal was announced on October 29th [14, 15, 20]. The acquisition is an all-cash deal [16, 18, 19].",
+      "found": [
+        {
+          "n": 14,
+          "acquirer": "Thrive Holdings",
+          "target": "ADT",
+          "stage": "Completed"
+        },
+        {
+          "n": 15,
+          "acquirer": "Thrive Holdings",
+          "target": "ADT",
+          "stage": "Completed"
+        },
+        {
+          "n": 16,
+          "acquirer": "Thrive Holdings",
+          "target": "ADT",
+          "stage": "Completed"
+        },
+        {
+          "n": 17,
+          "acquirer": "Thrive Holdings",
+          "target": "ADT",
+          "stage": "Announced"
+        },
+        {
+          "n": 18,
+          "acquirer": "Thrive Holdings",
+          "target": "ADT",
+          "stage": "Completed"
+        },
+        {
+          "n": 19,
+          "acquirer": "Thrive Holdings",
+          "target": "ADT",
+          "stage": "Completed"
+        },
+        {
+          "n": 20,
+          "acquirer": "Thrive Holdings",
+          "target": "ADT",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "BASF",
+      "target": "Evonik",
+      "value": "$12.5 billion",
+      "pinned": false,
+      "stage": "Rumored",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-10-30T05:58:00+00:00",
       "sources": [
         21,
         22,
@@ -163,188 +174,153 @@
         26
       ],
       "stripped": [],
-      "headline": "Thrive Holdings to Acquire ADT",
-      "body": "Thrive Holdings is acquiring ADT in an all-cash deal [21, 22, 23]. The deal is valued at $15.3 billion [22, 24]. The acquisition is expected to be completed soon [25, 26].",
+      "headline": "BASF and Evonik Takeover Rumors",
+      "body": "BASF is trying to acquire Evonik, but Evonik is likely to reject the offer [21, 22, 24]. BASF has increased its bid to €24 per share, but Evonik has rejected the offer [25, 26]. BASF is stepping up its push for Evonik after the initial offer was rejected [23].",
       "found": [
         {
           "n": 21,
-          "acquirer": "Thrive Holdings",
-          "target": "ADT",
+          "acquirer": "BASF",
+          "target": "Evonik",
           "stage": "Completed"
         },
         {
           "n": 22,
-          "acquirer": "Thrive Holdings",
-          "target": "ADT",
-          "stage": "Announced"
-        },
-        {
-          "n": 23,
-          "acquirer": "Thrive Holdings",
-          "target": "ADT",
-          "stage": "Announced"
-        },
-        {
-          "n": 24,
-          "acquirer": "Thrive Holdings",
-          "target": "ADT",
+          "acquirer": "BASF",
+          "target": "Evonik",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "Vaisala",
-      "target": "Atmo",
+      "acquirer": "Salesforce",
+      "target": "Rune Technologies",
       "value": "",
       "pinned": false,
-      "stage": "Completed",
+      "stage": "Announced",
       "articles": 2,
       "outlets": 2,
-      "latest": "2026-10-29T12:10:49+00:00",
+      "latest": "2026-10-29T20:17:26+00:00",
       "sources": [
         27,
-        28
+        28,
+        29,
+        30,
+        31,
+        32
       ],
       "stripped": [],
-      "headline": "Vaisala Acquires Atmo",
-      "body": "Vaisala has acquired Atmo, a company that provides AI weather products [27, 28]. The deal is now completed [27, 28].",
+      "headline": "Salesforce to Acquire Rune Technologies",
+      "body": "Salesforce has agreed to acquire Rune Technologies in its most significant defense acquisition to date [28, 27]. The deal is expected to be completed in the first half of 2024 [28]. No further details on the deal have been disclosed [28].",
       "found": [
         {
           "n": 27,
-          "acquirer": "Vaisala",
-          "target": "Atmo",
-          "stage": "Completed"
+          "acquirer": "Salesforce",
+          "target": "Rune Technologies",
+          "stage": "Announced"
         },
         {
           "n": 28,
-          "acquirer": "Vaisala",
-          "target": "Atmo, Inc.",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "Trian-led group",
-      "target": "Wendy's",
-      "value": "$1.4bn",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-29T01:53:20+00:00",
-      "sources": [
-        29,
-        30,
-        31
-      ],
-      "stripped": [
-        1
-      ],
-      "headline": "Trian-led Group Bids for Wendy's",
-      "body": "A Trian-led group has bid $1.4 billion to take Wendy's private [29, 30]. The deal is part of a larger trend of private equity firms taking companies private [31].",
-      "found": [
-        {
-          "n": 29,
-          "acquirer": "Trian-led group",
-          "target": "Wendy's",
-          "stage": "Rumored"
-        },
-        {
-          "n": 30,
-          "acquirer": "Trian",
-          "target": "Wendy's",
+          "acquirer": "Salesforce",
+          "target": "Rune",
           "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Intel",
-      "target": "Classiq",
-      "value": "",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-29T01:04:55+00:00",
-      "sources": [
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38
-      ],
-      "stripped": [],
-      "headline": "Intel Acquires Classiq",
-      "body": "Intel is acquiring Classiq, a quantum software company [32, 33, 34]. The deal is valued at $2.3 billion [34, 36, 37]. The acquisition is expected to set a record for a quantum computing deal [37, 38].",
-      "found": [
-        {
-          "n": 32,
-          "acquirer": "Intel",
-          "target": "Classiq",
-          "stage": "Announced"
-        },
-        {
-          "n": 33,
-          "acquirer": "Intel",
-          "target": "Classiq Technologies",
-          "stage": "Pending approval"
-        }
-      ]
-    },
-    {
-      "acquirer": "Enerpac",
-      "target": "SFE Group",
-      "value": "",
-      "pinned": false,
-      "stage": "Completed",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-10-28T22:24:35+00:00",
-      "sources": [
-        39,
-        40
-      ],
-      "stripped": [],
-      "headline": "Enerpac Acquires SFE Group",
-      "body": "Enerpac has acquired SFE Group [39, 40]. Three executives must buy shares as Enerpac closes its SFE Group acquisition [40].",
-      "found": [
-        {
-          "n": 39,
-          "acquirer": "Enerpac",
-          "target": "SFE Group",
-          "stage": "Completed"
-        },
-        {
-          "n": 40,
-          "acquirer": "Enerpac",
-          "target": "SFE Group",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "UFP Industries",
-      "target": "Texas pallet maker",
-      "value": "$27M",
+      "acquirer": "CD&R",
+      "target": "Global Payments",
+      "value": "$40bn",
       "pinned": false,
       "stage": "Announced",
       "articles": 1,
       "outlets": 1,
-      "latest": "2026-10-29T17:10:00+00:00",
+      "latest": "2026-10-30T16:27:55+00:00",
       "sources": [
-        41,
-        42
+        33,
+        34,
+        35,
+        36
       ],
       "stripped": [],
-      "headline": "UFP Industries Acquires Texas Pallet Maker",
-      "body": "UFP Industries has acquired a Texas pallet maker [41, 42]. The deal is the company's third acquisition this year [41]. The acquisition expands UFP Industries' pallet manufacturing network [42].",
+      "headline": "CD&R and Global Payments Deal",
+      "body": "CD&R is pursuing a buyout of Global Payments [33, 36]. The deal was announced [33]. The next step is unclear [33, 36].",
       "found": [
         {
-          "n": 41,
-          "acquirer": "UFP Industries",
-          "target": "Texas pallet maker",
+          "n": 33,
+          "acquirer": "CD&R",
+          "target": "Global Payments",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "AIG",
+      "target": "Everest's Chile business",
+      "value": "",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-30T15:56:45+00:00",
+      "sources": [
+        37
+      ],
+      "stripped": [],
+      "headline": "AIG to Acquire Everest's Chile Business",
+      "body": "AIG is acquiring Everest's Chile business as part of its expansion into Latin America [37]. The deal completes AIG's acquisition of Everest's Colombian business [37].",
+      "found": [
+        {
+          "n": 37,
+          "acquirer": "AIG",
+          "target": "Everest's Chile business",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Luda Technology Group",
+      "target": "AI Data Quant Tech",
+      "value": "",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-30T15:40:39+00:00",
+      "sources": [
+        38
+      ],
+      "stripped": [],
+      "headline": "Luda Technology Group to Acquire AI Data Quant Tech Stake",
+      "body": "Luda Technology Group is acquiring a 55% stake in AI Data Quant Tech [38]. The deal was announced by Luda Technology Group [38].",
+      "found": [
+        {
+          "n": 38,
+          "acquirer": "Luda Technology Group",
+          "target": "AI Data Quant Tech",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "Pateno Payments Inc.",
+      "target": "XTM Inc.'s EveryDay Platform",
+      "value": "",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-10-30T15:38:00+00:00",
+      "sources": [
+        39
+      ],
+      "stripped": [],
+      "headline": "Pateno Payments Inc. Acquires XTM Inc.'s EveryDay Platform",
+      "body": "Pateno Payments Inc. has acquired the EveryDay Platform from XTM Inc [39]. The acquisition is completed and the deal is now closed [39].",
+      "found": [
+        {
+          "n": 39,
+          "acquirer": "Pateno Payments Inc.",
+          "target": "XTM Inc.'s EveryDay Platform",
           "stage": "Completed"
         }
       ]
@@ -352,22 +328,78 @@
   ],
   "also": [
     {
+      "n": 41,
+      "note": "LCI Board Reiterates Support for Merger with Patrick [41]."
+    },
+    {
       "n": 43,
-      "note": "Axalta Coating Systems Ltd. is merging with Akzo Nobel, offering cost-saving potential, according to Ariel Global Fund [43]."
+      "note": "Dark Matter acquires House Numbers’ agentic AI platform [43]."
     },
     {
-      "n": 44,
-      "note": "GE Vernova has strengthened its grid energy business after a $9 billion acquisition deal [44]."
-    },
-    {
-      "n": 45,
-      "note": "Monte dei Paschi investors have rejected a defence plan, clearing the path for Intesa's €35 billion takeover [45]."
+      "n": 47,
+      "note": "LCI rejects $101-per-share takeover offer, sticks with Patrick merger [47]."
     }
   ],
-  "brief": "DoorDash is acquiring Instacart in a $17 billion deal to expand its grocery delivery business.\n\nDoorDash / Instacart (Announced): DoorDash to Acquire Instacart. DoorDash is acquiring Instacart in a $17 billion deal [1, 2, 3]. The deal is for Instacart, a US rival in the grocery delivery business [1, 2, 3]. The acquisition is expected to expand DoorDash's grocery delivery business [1, 2, 3].\nMarvell / Lumentum (Rumored): Marvell and Lumentum Deal Rumors. Marvell is reportedly in advanced talks to acquire Lumentum for its AI optics business [15, 17, 18]. The deal is said to be worth $221B, but no terms have been confirmed yet [16, 20]. The acquisition would be one of the 10 largest tech and telecom deals ever [19]. The deal is currently in the rumored stage, with no official confirmation from the companies [13, 14, 17].\nThrive Holdings / ADT (Announced): Thrive Holdings to Acquire ADT. Thrive Holdings is acquiring ADT in an all-cash deal [21, 22, 23]. The deal is valued at $15.3 billion [22, 24]. The acquisition is expected to be completed soon [25, 26].\nVaisala / Atmo (Completed): Vaisala Acquires Atmo. Vaisala has acquired Atmo, a company that provides AI weather products [27, 28]. The deal is now completed [27, 28].\nTrian-led group / Wendy's (Announced): Trian-led Group Bids for Wendy's. A Trian-led group has bid $1.4 billion to take Wendy's private [29, 30]. The deal is part of a larger trend of private equity firms taking companies private [31].\nIntel / Classiq (Announced): Intel Acquires Classiq. Intel is acquiring Classiq, a quantum software company [32, 33, 34]. The deal is valued at $2.3 billion [34, 36, 37]. The acquisition is expected to set a record for a quantum computing deal [37, 38].\nEnerpac / SFE Group (Completed): Enerpac Acquires SFE Group. Enerpac has acquired SFE Group [39, 40]. Three executives must buy shares as Enerpac closes its SFE Group acquisition [40].\nUFP Industries / Texas pallet maker (Announced): UFP Industries Acquires Texas Pallet Maker. UFP Industries has acquired a Texas pallet maker [41, 42]. The deal is the company's third acquisition this year [41]. The acquisition expands UFP Industries' pallet manufacturing network [42].\n\nAlso worth knowing:\n- Axalta Coating Systems Ltd. is merging with Akzo Nobel, offering cost-saving potential, according to Ariel Global Fund [43].\n- GE Vernova has strengthened its grid energy business after a $9 billion acquisition deal [44].\n- Monte dei Paschi investors have rejected a defence plan, clearing the path for Intesa's €35 billion takeover [45].",
+  "brief": "DoorDash is acquiring Instacart in a $17 billion deal pending antitrust review, aiming to expand its grocery delivery business.\n\nDoorDash / Instacart (Pending approval): DoorDash to Buy Instacart. DoorDash is acquiring Instacart in a $17 billion deal [1, 2, 3]. The deal is pending antitrust review [4, 5, 6]. The acquisition aims to expand DoorDash's grocery delivery business [7, 8].\nThrive Holdings / ADT (Announced): Thrive Holdings to Acquire ADT. Thrive Holdings is acquiring ADT for $7.6 billion [16, 18, 19]. The deal was announced on October 29th [14, 15, 20]. The acquisition is an all-cash deal [16, 18, 19].\nBASF / Evonik (Rumored): BASF and Evonik Takeover Rumors. BASF is trying to acquire Evonik, but Evonik is likely to reject the offer [21, 22, 24]. BASF has increased its bid to €24 per share, but Evonik has rejected the offer [25, 26]. BASF is stepping up its push for Evonik after the initial offer was rejected [23].\nSalesforce / Rune Technologies (Announced): Salesforce to Acquire Rune Technologies. Salesforce has agreed to acquire Rune Technologies in its most significant defense acquisition to date [28, 27]. The deal is expected to be completed in the first half of 2024 [28]. No further details on the deal have been disclosed [28].\nCD&R / Global Payments (Announced): CD&R and Global Payments Deal. CD&R is pursuing a buyout of Global Payments [33, 36]. The deal was announced [33]. The next step is unclear [33, 36].\nAIG / Everest's Chile business (Completed): AIG to Acquire Everest's Chile Business. AIG is acquiring Everest's Chile business as part of its expansion into Latin America [37]. The deal completes AIG's acquisition of Everest's Colombian business [37].\nLuda Technology Group / AI Data Quant Tech (Announced): Luda Technology Group to Acquire AI Data Quant Tech Stake. Luda Technology Group is acquiring a 55% stake in AI Data Quant Tech [38]. The deal was announced by Luda Technology Group [38].\nPateno Payments Inc. / XTM Inc.'s EveryDay Platform (Completed): Pateno Payments Inc. Acquires XTM Inc.'s EveryDay Platform. Pateno Payments Inc. has acquired the EveryDay Platform from XTM Inc [39]. The acquisition is completed and the deal is now closed [39].\n\nAlso worth knowing:\n- LCI Board Reiterates Support for Merger with Patrick [41].\n- Dark Matter acquires House Numbers’ agentic AI platform [43].\n- LCI rejects $101-per-share takeover offer, sticks with Patrick merger [47].",
   "sources": [
     {
       "n": 1,
+      "title": "DoorDash to Buy Instacart for $17B, Facing Antitrust Review",
+      "source": "Uprise RI",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTG9XOV9BZDQ5Q3VRd3dtdmgwelhIUDQ1MGN5ZklDTi01RVpidG1VbGFvOHhHaEg4bkZMTlpzMFlnT0o1UWlOOFI0X082WGV0elVlTS1RUW93SWFiNE9fbWp1SWFJUkplQm81OXk5d0M1RjFkVXVaMDN0dDBOb0t3SUlsTzhpaDBkNEI4dVRXTlVmTTNpbTFvMEZteFIwMXBJcTYw?oc=5",
+      "snippet": "Uprise RI",
+      "published": "2026-10-30T16:16:46+00:00"
+    },
+    {
+      "n": 2,
+      "title": "DoorDash to Buy Instacart for $17 Billion, Raising Antitrust Concerns",
+      "source": "Law Commentary",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa0dGck5kYkZIY0VVQklET2NUcTNVYWhBU3JTaHhNVjFnYzRPTmtoeHBtaDh0cFdRYVBrNlpwazY2ZXFLQlpKNWdnSHVoQU9STXV6TmdkRXQ2TDRiNDlxVGxXdFNGWm4taTF2RWtiZjZOakctMm1tTUpPZ3RPZlZRYjJScDhtM29aN2ItaENn?oc=5",
+      "snippet": "Law Commentary",
+      "published": "2026-10-30T13:52:03+00:00"
+    },
+    {
+      "n": 3,
+      "title": "DoorDash to Buy Instacart: $17B Deal Explained",
+      "source": "ASO World",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPNlJ4MXlxaHFvanhCUzhLbHR2X2ZKWE9temZLMFllTTV1QVU1UlpZa3daTnlKRW1lalRUWW5SSGdrM01YaTg4dWpFNDhXSE1vQzU1QTB6MFFVVUdjelN2YlNBSDh4WEJnNXZDVGhIZnJuX2hJTXZjbE1FbWViOVFCZzZmV1ZvcThqeXhqR0ExUnpXSHNidzNIclJwZE9FamVOTXd6MVFnS3prQnU0LUhMem5HbzhYVE1leG5CV0NpMzE4NlI1MUR0ZzltU1U4NGFQbjV0R29VZmtRVnlWZU9HNjVldzd5WEE5cHhqT2FpYjh3djNpUmxOTjVrODBiY0tUTE5KY20yS0RvVmM?oc=5",
+      "snippet": "ASO World",
+      "published": "2026-10-30T06:25:10+00:00"
+    },
+    {
+      "n": 4,
+      "title": "DoorDash agrees to acquire Instacart in $17 billion deal",
+      "source": "ABC10",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTDRUd2hDYUVrM3c1dlBmNXZfQllzWG1SbjM2S2JIcUh4NzN0THNnME1wVmxHWUl5ZEJPX3hKbVVoTGhxX2Rmc0ZZdWhNSTI0RU1Pc01nX1ZDaTU0SThwa0xyQnhUUzViWnRrV3ZhVnBzcjN0UHlCcnpoSmJGLWl4Yms3TG9DS0dvdkRfQWFoX2xOQU9XSUFZTXpCTVdBbGNtWXFhbUlTcEJfT0hRSDhUdGRFN21hdmZCOUdhemR5amtxSTMtQmNod3ZfV2dVSVU?oc=5",
+      "snippet": "ABC10",
+      "published": "2026-10-30T00:22:00+00:00"
+    },
+    {
+      "n": 5,
+      "title": "DoorDash Acquires Instacart for $17B, Pending Antitrust Review",
+      "source": "Gadget Review",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeTl1cUUxb1dfa2p1Ty1GUnh6LVd2UFZyZ2lfLU5UYTZnUXhOUUxHOGZmTVFqWTJ0SDBHc1VDZ1N1UVJndnR0cGN3WXhFVUtlZ1hvc0RUSVYxZWJQV1hudGE3WVJCR0ZIaHptc1NVWFd3M0RKNlFrU1hwdnR0SkNNTU02aVFqejl6RDJVa2t4T0ZSOEU?oc=5",
+      "snippet": "Gadget Review",
+      "published": "2026-10-29T19:11:06+00:00"
+    },
+    {
+      "n": 6,
+      "title": "CPI | DoorDash to Acquire Instacart in $17 Billion Grocery Delivery Deal",
+      "source": "PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdjUyRmdQSGUwQWxTNTd5OGpXUTVxb242aVFjZ3dYWmlmVVNtNFhKTlFtWWYxYndlZDFFaVdxWllVbXJ6aWI5ZkI0Q05neXFueTJuLUs2TXVSUzhaclMwQTFYT2pnNTlwenUxQTRRV2gzeGFSZURnamxlWXpJWnBTSG96ZDFBUGtkU2dydl83c0piZFB6OC1LYVRlV1FvLW1R?oc=5",
+      "snippet": "PYMNTS.com",
+      "published": "2026-10-29T19:01:39+00:00"
+    },
+    {
+      "n": 7,
+      "title": "DoorDash Agrees To Buy Instacart In About $17 Billion Deal: how 12 outlets framed it",
+      "source": "NewsCord",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOckI0SDJMQVIxUnVBMHdJX3lHUjhTSUpKQ2FTQndEMDBZUVFmQ2xEWnJ0b2R4ZU42ZGVHdjY2VjN2emVVbHR4LUpldzV3X2txTFhBYm5XbEt0dnVLRnBPM3dRajdPb2YzMzJjMExsVHpVbUpjWDF2U2pfMVZBS2xyV2RYZkFvSkVuUy1Hd1dzaXFIZ1VwWEVQOTNHbk85bml2eGUzNWZ1NGMxNEVGYXhsRkkzUnRIallySDlNM0VrRm56Q3lvbGQ4U1lkWQ?oc=5",
+      "snippet": "NewsCord",
+      "published": "2026-10-29T17:25:20+00:00"
+    },
+    {
+      "n": 8,
       "title": "DoorDash to Acquire Instacart in $17 Billion Deal to Expand Grocery Delivery Business",
       "source": "Android Headlines",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOM0FFLWs1X1FrUEJVRm1EWWo5WWRoMFRld19fN2dWcEFOR2FmNTlzelo3d0dleXZmMUYwX2xZYzRpaVhIRE5fYlhXYk1jR0ZmQ3pWb2s1TmZnd1hJSmVNWEZBRnZDaUtyc1Q2ZDVxVGVPcVhFa3BuZmFZdWphSk1WZEQ4YUxDVDBudVQxcTBKbG9iWUk?oc=5",
@@ -375,63 +407,15 @@
       "published": "2026-10-29T17:08:32+00:00"
     },
     {
-      "n": 2,
-      "title": "DoorDash to acquire Instacart in $17B deal as it expands grocery delivery business",
-      "source": "Invezz",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTEZFaHNSWEIxUnBGTC1VS3JyNGtVc2hyVUxHMUttdnd1UENtX0VPcDRVajlDN1hCQzlMRkxIcHQ2UXJuVjBaQ0kzUEpPZTFVQlhSdmtHN2JvbEZ0Wjl6RnRoa2JraUVvbzBMYzAyYzJiaWx4aGNRSkhuQ09aczBIWWZ5TWJoMm9mcldBRmxSU3hWUlZfWGV2QlNmZjNGa0Ntd05KYWR2RlpnUjBYeHF1ZjBnRmtoeGJ6Z2xvZmI3N3d1TG5h?oc=5",
-      "snippet": "Invezz",
-      "published": "2026-10-29T15:53:13+00:00"
-    },
-    {
-      "n": 3,
-      "title": "DoorDash strikes $17 billion deal for US rival Instacart in mega grocery delivery bet",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORW5SOWQwSzcyUFRocHlTSmRhdWJtN2QzXzRCM3FPSjdXeDlBREVZSERWdGRiZUQ3OU1kMldlT3J1TnpwUFl3dEk1S1hkM0lpYmlDTlNfcllDdWc4VkYzZ2hzT0FmNm4zY2JNOEtJYUx4OVN4X045a2pXLWs5Wk9sMHdrMWFFMFI5R0VXV09uLTV4TFpnNTBPV3BNUHMxM2o2dEloNlJpWks2NjJUci13Vzd3QXlPeXdVQVpsUlhaQ1JyZk81aU5sdw?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-29T15:38:15+00:00"
-    },
-    {
-      "n": 4,
-      "title": "DoorDash strikes $17 billion deal for Instacart in mega grocery delivery bet",
-      "source": "The Detroit News",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNU5QVlVMX05IZlVsa2tWMkhuMF80VHhuT29CVjlEOGJELS1Ed0JialZpc2MwLXNVdkM4aHhUS3hfWU9IRnN1YUlnSnpQcFdXVUxqRm5keGFKNUtBM1VOVGFoMVdUT1U1MUktTVNPd1JjRjBSbHd6WmlWZzI4cW9sT2U1ZHhOVk5MWGxVc25DaHBtZDJoUzZISWRDT09kMEJEUnBTckNobFNOMkU?oc=5",
-      "snippet": "The Detroit News",
-      "published": "2026-10-29T14:06:39+00:00"
-    },
-    {
-      "n": 5,
-      "title": "DoorDash agrees to buy Instacart for $17 billion in cash and stock deal",
-      "source": "Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcTYtaVlLeS1abXdWcXU2TkZubVhNYVBrVTV1WjdNZnNwR2x3amo2Vnp1SHU5UlhyWW5rcy1WYnN1WDVVUUlpeUwxX3lZY3lPMVQ0YUI5dXpBV3JBY25XTWptVEdYempPb0pxRWIwNzRVcDRWcGU5NXE1dzlRNl92TkJrZWFQZVFqWWMwSFg0UWFtSkFiNXdjVFlXc3ZiTDQ?oc=5",
-      "snippet": "Startup Fortune",
-      "published": "2026-10-29T13:24:56+00:00"
-    },
-    {
-      "n": 6,
-      "title": "DoorDash Agrees to Acquire Instacart for Roughly $17 Billion",
-      "source": "www.marketscreener.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNG1UUFlTbC03OFZINm1PMGtYeW9uNTdGQzEtQS1vRl92WnBuSjdpamtBa0djT1NkdWVITmwtUGNHdHR6T2lNeFNOWmdBXzVpY1JxY2prZVg2LTllbl9KUXhGTGtaZFBQN2RMczk3NUFWdzBFaWduS0dMVVJYcXhBNVdTRW1XbXBsMG9Yd00zTWFTYUl5Ym9YOXgtZEpvVzFzdHMyWmE2R3NlRjRVU0lWem53?oc=5",
-      "snippet": "www.marketscreener.com",
-      "published": "2026-10-29T12:54:48+00:00"
-    },
-    {
-      "n": 7,
-      "title": "DoorDash Agrees to Acquire Instacart for 17 Billion Dollars",
-      "source": "Demokratis.co.id",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WTDMzRUJfSDRaZVFGODQ3cjlnZ19kb0lSQ0xMMk1YcFBma01SQUNvUkgyaVc0RnRqY0RzN0RjZGw1MVpPY2hVUmQzUHVrUTdhRzJVUHZMelBVb3pwRTBKOU55UEp4V3k2N0x1MQ?oc=5",
-      "snippet": "Demokratis.co.id",
-      "published": "2026-10-29T12:46:28+00:00"
-    },
-    {
-      "n": 8,
-      "title": "DoorDash agrees to buy Instacart in $17B deal",
-      "source": "WSB-TV",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb3RMWU5QQ2FlRTdRQVFvVUNXQ190UWNMZHlNemkzZFE5ZV93NVZfNDJuZzdjeGhKRGtuYWNVYkJRbVA3bzBBX3dHYm5ROEFna3RlTnQ2RDZrSFphN1daLUJHd0k0YzJXZlJNNkdzNVpBVE03NWlwWkFUQUQ4UGR1VVlDVzctNXBxTDEyWU5ScndUMVp5RlMwbUNOQzQ4YnU3TVpXUNIBuAFBVV95cUxPSUppXzZuTGUxM0twLU93cWdpYVlBZk14SEVYcjgwUy1jYUp0VVRIYVY4TGo5Z3Rwcl9yblVLSVoyQ29TMTVNY0FTaTNNYkZselhrTkQ0YXlwTWJIQUk3Vk1JcDJ3d3JSMEFEd3d4bzhKZmZmcGJFei1CcDAwdHk0T01aLXNWRll1Wk9NYTc0UXJ5ejdET2h5QTRxc1pfd05CMVQ4ZnkwSU5ZYzA3M2VEUlhQX0d3ZjNi?oc=5",
-      "snippet": "WSB-TV",
-      "published": "2026-10-29T12:15:20+00:00"
-    },
-    {
       "n": 9,
+      "title": "DoorDash Acquires Instacart In $17bn Deal To Expand Grocery Delivery Business",
+      "source": "Arise News",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMHMyZ3c5bVpVdTZjSDJZQW41aUtLVWZPam9sSW5KVEx0Y0s5Y2FQMUJ1UW5WQXpFWkJKSzR3LVNqMWkwNDltZHRfUnMtSHhJeXdBTFpOS0ZLa0FXa19lSEtqTy1aMjJhQXJaMHVkUTlDU2FLeHpQVGhhRC0waV9jdVROUkprUy03SmJBb183WFNMSFJQaDYtZm40eUt6VWM?oc=5",
+      "snippet": "Arise News",
+      "published": "2026-10-29T13:34:46+00:00"
+    },
+    {
+      "n": 10,
       "title": "DoorDash in Talks to Acquire Instacart in Potential $17 Billion Deal",
       "source": "Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMkF4bVRod1l6YmQtNjFBaGRPZVE3N2oyRWw3SE5aWXFoS0lvczRmczlBLWVDT2tfSGtpcTFkaVAzOUR2SXBhOUhpSnMtZXRpenpCMnpWWURQVFpGbGp6Y1ZGMklGVU9GUUJGMWEzdDZnSDZ3aU5mWTJyTWtva1NVc2ljTnpXUXJQeHhQR3JLTHNSS2V4UHVjSTNOdTQ2aVJKU3o1cjNWR3hGdG8?oc=5",
@@ -439,7 +423,15 @@
       "published": "2026-10-27T10:57:56+00:00"
     },
     {
-      "n": 10,
+      "n": 11,
+      "title": "DoorDash to acquire Instacart in $17 billion deal",
+      "source": "Chain Drug Review",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOenFaU250UFQ0NUIzSDdSNlN1blhMYU90M1FONFJyeVhaZVE5cmx0dmFqTzZxX2V1dW5qQWFnQnJLeHBrUkxsNURqTEExMk54clNxQlZzM1FpU2x4VTZveld6dWtNNEw1c0l4R3RGUXp5ZkEtMnhlTkVtdE5YRHhaOUJpVQ?oc=5",
+      "snippet": "Chain Drug Review",
+      "published": "2026-10-29T14:14:30+00:00"
+    },
+    {
+      "n": 12,
       "title": "DoorDash to acquire Instacart in $17 billion deal",
       "source": "Moneycontrol.com",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVTZnazBiZFlXemp1VVNNWUVyQUtMRDZ5cVBDZjFiNnprVzlRbDFrUUtBQ0VOX0xDUVVoM05MVUoxWmFtQmxycF9POFZKcThTYl8yMTVrbXZSMTEtWHhEeWMtcndkMTBMQU5oNVNGS3pTNkcwOWwwd1hiMFk2TDVTVlZucVhXY0k0TlU2UEN3SjBuNUV5RmdVT1pPRUdpWm91MF9vUWN2S2_SAa4BQVVfeXFMTWJLbzFKbDR1RlhIRUFEQnlQdkQ4ZzR3c2laWGFBU1E1S3NBakhwVTkza3d6aG8yOUxfd3JwV3BJZS1vbENocWdLUHBkc25ET0RuSWRzU0hLMzQ2ejlOenJabllvbUhtbERtMHBRMGVBN28ydk55S1k3TGxyaHNnb1ppMUxmTFNSOFV5aV9zWS10WFdTajNVWk12eHVaSThLM2NDb2RjNkpyVzdRQTBn?oc=5",
@@ -447,7 +439,7 @@
       "published": "2026-10-29T11:42:21+00:00"
     },
     {
-      "n": 11,
+      "n": 13,
       "title": "DoorDash nearing $17B acquisition of Instacart, sources say",
       "source": "Indianapolis Business Journal",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYl9ZNnRXR0JxMnlLR0ltYTJHWHlURWhfU1hJbUNNaHc3VmE2bWRXR3cxZmFDOHlmY0J5Z3lkdlFPdlJ0bV8wMHpiVEsyZlJVQ0ZseHl0WkppTjFPR0J4MzlySU5YUUVzWHlDc25Kd2tPemg1Vi04aEZaWUNWOTVFSWtBdzZmMTBVSEdTVWhVVQ?oc=5",
@@ -455,79 +447,23 @@
       "published": "2026-10-27T01:28:02+00:00"
     },
     {
-      "n": 12,
-      "title": "DoorDash in Talks to Acquire Instacart in Potential $17 Billion Deal",
-      "source": "FSR magazine",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQmRLZ3AtZmpiaU5uWi1XbVBkalpoZjZ3aFNvMldSN0JSeVdxN2VSN1piSTJuNTliSWV5Z1AxcmVvSlYydkVqVXJtSmowdUlDNnI5alNSbEgzeTBCcUFVOUdNbkQ0ekFjWGpLWk9KWkltVWEyWDgtRkxpVzdFam4wTkR5YTE5TG00OFE1UmlkeHVIR1lwT3hZa0RLNVJTNUlyeF8xNlBQOA?oc=5",
-      "snippet": "FSR magazine",
-      "published": "2026-10-27T11:29:26+00:00"
-    },
-    {
-      "n": 13,
-      "title": "Marvell Is Said to Near Megadeal for Lumentum In AI Push",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTGdUMkpHa2JOcFhCMTFQU0tLaTJkTU54TmQ2aGJnVVVMR2VzeGdzLS1ONXd0U3hqQ0xPZUlEeTgyOWVXMHRQQ0hIeW5aX21JRkpNY3FlRUdNM1ZJMS1ZX3JwMWUteGVLdFFaVlNZMjZXUWtSSXNVRlEwdnRvbU9iQVBnNS1ycUgxMU5LTGtQQ0hSTWNOTkhBZ3FNRC1HaEZXZG9UMUd1QlBfeG1qZ044cTQtTk9Ydw?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-10-29T15:38:02+00:00"
-    },
-    {
       "n": 14,
-      "title": "Marvell’s Proposed Acquisition of Lumentum Sparks Pre-Market Divergence in Optical Communications Stocks: MRVL Falls Over 11%, LITE Rises Over 4%, COHR Slips 0.63%",
-      "source": "TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWFBaVnFtNS1sUW9feU9MZVlqc0Q2QlhuME1fM2paZWlOX3JlTmR4UXJEamp2V2JJbllVemhhNGJJNDgxOE12azY5Tkhmd0R3SHpub0Mtb2l2Y2hkam16Tks2SHktSHFRRFhTeVhQRzVJUzJJUmY1cUdSTnZOa29KSXJKVmdNRUZhZWRWTmRlMGJxSHpKczNWMy1kZW5pVEo1eXY0bkQ0d3hXdXZFXzc0MDk0Yzg3TFNpWjgtSGxn?oc=5",
-      "snippet": "TradingKey",
-      "published": "2026-10-29T10:59:34+00:00"
+      "title": "ADT stock surges to 5-year high after Thrive Holdings agrees to $7.6 billion buyout deal",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbVJhQ01ZcjFOTFJtZ0p1WUpPcFoxOHlVV0c3SHotMmpTR0hjbWdGRlZmWjhnMWJLdGdYWWdtVW95a1ZDX092VHpVLV9wdUJER1gwNkhxc3ZBSGhqYXRVVTJQaXR6Z2xkemZzRjgzR3YtZXhJM0hsaU0xaUlId00tV0ZlOEpLRVdSaFI2X1hWVDVkQkFSME9lbEwwY1FYY0lUWWhHMUxzSGI0WlNiOG84Y0FXeUw2cHJ6WXducUZDeW9KTlZPVmsxWkNfN0FqRFhBZFAtbHVieTlaU2RqNzNScXIxay0?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-29T19:06:30+00:00"
     },
     {
       "n": 15,
-      "title": "Marvell reportedly in advanced talks to acquire Lumentum in AI optics deal",
-      "source": "digitimes",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTnJsNUpVMVYxaGphT0lMMFl5UVQyNjR3OC1KXzgzVm1RNHNkN0dQbXVsaDVXdUk5blZUcjUzUTFYM0xFb3BqbWRvMnJCSmd6Sm9VcmhNYTRkVnpLdEVyTjNrV3Z1Xy1uT1dHT3d3Z3BFZ3p0MjB5blR3c1NYTEFKVi1uM3ZlRjMxM1VxbkRvUWc4eXItVHlueA?oc=5",
-      "snippet": "digitimes",
-      "published": "2026-10-29T07:45:00+00:00"
+      "title": "Thrive Holdings Inc entered into a definitive agreement to acquire ADT Inc. for $7.4 billion.",
+      "source": "marketscreener.com",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd2xRZkNHT1hzNThHZDJGQnQ3bk5KWE5EN2NPRkNORkRYa19faUNQRWZLMy1xa2FRS0pTWC1yN3RYUWJOUXFEaFFURVl4c3Rma0R5bmJZRmUtalItT3N6TVl3TkNDRVVIOFNwSDNoWVdWY0l6TWJhRjYzd3NUWDBrb0x1d1dDZ3A4d3JwaHpWRzNuOEV0b3E5UXduWk4wcXc3a01HSFdTMWRTWGlfZFpOZHA1aWp1NllsLU9kSDB6VUdPNHFXX2RubktLMlhFRHJUQWJGX2R0RTFOVnM?oc=5",
+      "snippet": "marketscreener.com",
+      "published": "2026-10-29T18:18:33+00:00"
     },
     {
       "n": 16,
-      "title": "Marvell Nears Lumentum Deal: $221B Meets $83B [2026]",
-      "source": "https://tech-insider.org/",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcm1TdDNXTlktUUZVTnRvTUhJUk5XMXY1NVB5TE5iWmg2eDFTZDgybm9EdXFUSzhSOGJVT3BwQm5YZGRwckVwY0hYS0p5X29HNEg3U3pydUx3WW9vVDU3Q2xXLWMyNS1JUkQtSmZ3VFM1YWhaSE9CUHhhbHQzY2x1aVJyblFiU3J4WE5MWg?oc=5",
-      "snippet": "https://tech-insider.org/",
-      "published": "2026-10-29T04:36:08+00:00"
-    },
-    {
-      "n": 17,
-      "title": "Marvell Technology in advanced talks to buy optics maker Lumentum, source says",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR2xWTFdaYmFQNV9rVnZVcmltcTJqWGoyUVBzUlVPcDJaZm4xLXVCMmt4Szk2YnF1VjVXUEdjV0xDbGxRdjc2WjBzQjVnTnU0SWpSWkJmdlg0WS15eGNhc09ZNWpHUVc2Znk0aE9haUpPVlZOeUdqNl9CSzdHaUtITm1BTWh1d0tKTWtCYWM1M183ekZkSGptb3B4MUthVzhiM1hUOEhR?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-28T23:10:00+00:00"
-    },
-    {
-      "n": 18,
-      "title": "Marvell Is Reportedly in Advanced Talks to Buy Lumentum for Its AI Optics",
-      "source": "Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc3FzWFFscEtKcjBlYXE0cGpCbERVaUZCdFdvQmgzNUZwRldBMm1Nckt2Z0MxTHViSXRtVnJNTVlCWkdib1FsN2ZuNVJFelhqUHE4ZmhQTG5YeWt1R2JQRVhqSjJBd2RiM1g0UmRZdXhlYk45MEprNnFVckFpNEh0R3p1NFg0MENlMGVHZmRzSzRTMG9fUmMwdlZ1WXZyWkNGeVpv?oc=5",
-      "snippet": "Startup Fortune",
-      "published": "2026-10-28T22:09:47+00:00"
-    },
-    {
-      "n": 19,
-      "title": "[News] Marvell Eyes Lumentum Acquisition in What Could Be One of the 10 Largest Tech and Telecom Deals Ever",
-      "source": "TrendForce",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTUptbnRNcTF5Tk9rd0J1UTE2cDBMVVg4VmtDY24yYkNPemw5Q0pNN2lEcmZwR2pIU2l2Z3BLUTVTOXhXVGRqek1BN1J2OUJ4XzhpVFZpRU9vMDJkRmRfX1d3Sk9GSXBrakowS3prV0xJWnFrOVRiU2Jlemh4UXFKYTRhUzhHdGZVcE4yaGlxc3BTdFFCZnM4WDZhbU5PeDBJVm1OZHNlcDhURnl6SHp3NHdKQWlkWDZvY2ZPRHo0bGJIM3FlQzJsMVh4WkpFSFZnMGhTN1BCaW4wUlREa0l5Qk1QNA?oc=5",
-      "snippet": "TrendForce",
-      "published": "2026-10-29T02:13:34+00:00"
-    },
-    {
-      "n": 20,
-      "title": "Marvell Nears Lumentum Deal, 0 Terms Confirmed [2026]",
-      "source": "shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGNBWVh0Y0dQdHVXaEtXSFJMZlV4bFJ3Ri03eEloZm52bzgxQ0VWQmRXeXBEY1dTRmRLZkczd1U3VHJPcW5hRTNMYkh1bXlFeHpTbWxVYmVZV3o1QlpEWWlSSkJ2N29qZnhFREpFQzMxS0NCSjdqemVsbmlqM3lacERxYTQ?oc=5",
-      "snippet": "shattered.io",
-      "published": "2026-10-28T23:00:35+00:00"
-    },
-    {
-      "n": 21,
       "title": "Home security firm ADT to be taken private by Thrive Holdings for $7.6 billion",
       "source": "Reuters",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORUlHQW1KZ0kxaWZMdzR5VGl5djVBRU9PMUVTeE5NTGcxYVpTWE1hRkpwRE9JQjVWTGt4NGUxbUJIazdheXQ3NHNfLXg0a080VWRrMUNPSDVCdjczTG96SXJiaURuOUJia0Y2ZGFVdGhqaElSTzFaaW04OXFRcFlQcEtPZWQ5NnlxSGRCWFc2Y1FKVFRLMmxxZExHT1g1RUpuZkZNYXpnU0hTNzNQTC1lOG9KQVBxOGlIRGtqRG5HbzA5TEEtZmlJYQ?oc=5",
@@ -535,7 +471,7 @@
       "published": "2026-10-29T16:12:35+00:00"
     },
     {
-      "n": 22,
+      "n": 17,
       "title": "Thrive Holdings to Acquire ADT in $15.3 Billion All-Cash Transaction",
       "source": "citybiz",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa2VBc0JMSTJOcEVPX1UwdnNSY3o4NllLYXl2Y1hzYl9kcHBaX3NIbHR5VTJrS0FINWt3Sm1mVTdWZEN2NWcyTWZ3NnA0YVRYZjFNaWFCT0c3MDVsMm16NzF5NlpYWkhtbE9KVldSeERxc1pHUGFYYnpobVJ5VDU2Q1FPak92WGtvdzVQcnVZQXJRYmRGTjdrU0U3OUhidTRXY0VlUEhfZkpqQQ?oc=5",
@@ -543,7 +479,7 @@
       "published": "2026-10-29T14:44:17+00:00"
     },
     {
-      "n": 23,
+      "n": 18,
       "title": "ADT to Be Acquired by Thrive Holdings in $7.6 Billion All-Cash Deal",
       "source": "Quiver Quantitative",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaUZaM3RPbjBETG8zNUJWTTlLMWhTQ3FmSWxOVXVrQzV3Y2dCRjRNaERoc2JzWllQYWpvWkZjaDJPZ0daLVVxVmJ5dTc2QzNMU3k1WTBUdGhGNWhFQzdleU1WUDhzWG0zYUE4Zmh5djRiNnh0eURMNnRGS1pKcU9YU1RNOFZnMk9IeEVTMkk5T2I1d3k2bmFNUUlnM2taTHhScUNoUA?oc=5",
@@ -551,7 +487,7 @@
       "published": "2026-10-29T13:30:00+00:00"
     },
     {
-      "n": 24,
+      "n": 19,
       "title": "ADT to be acquired by Thrive Holdings in $15.3B deal",
       "source": "TradingView",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOME5Laklud0VhaFNnWjFaeUF0V3dsX2taSnF0QXdnUjhkTjJVckFiNktiQ0c0dGtJbDVHNXJESjlWQzM1UVJtZ3VpM1Z6YWpRZ2ZVRXBpTjEyakVmNVA2dGJ1VGw4Y3FsQVE0WUoxSXBaLTltdWRKRGxQcUdmek9HQ3VublVNczdJejlWQXVENEFJQmtfVGhnNjRDQUtfTzVWVnBZRkl1VjVWQXBlUzFIeGhIdk4?oc=5",
@@ -559,223 +495,242 @@
       "published": "2026-10-29T13:27:39+00:00"
     },
     {
+      "n": 20,
+      "title": "ADT to be Acquired by Thrive Holdings in $15.3 Billion Transaction",
+      "source": "GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSjdJb1dlT0ZqSHFlR29BZlVGMUhtZURYYmVadDZ4RHFib3BVU2xoSlU0aTJFZjRvbHZQbm1EZV9id01YZUFHZE1DQU5sOExDbFlqTFBVdHBjclZvbkIwanMzUUhfWnlMX2ZGdWNVdlp6YUNzN1Q2UVpfLTNGQUJHdHltY2ZRaHZPMkZtUVdlcjM0eEJLWTBMMV81VjBGY01jQlhqUjl3aFZrOUxMck5wRFlrcnIwV3YtNHEyMkF1TTZtZjRGMFFUcnpDUndDbGI0UnV3?oc=5",
+      "snippet": "GlobeNewswire",
+      "published": "2026-10-29T13:20:50+00:00"
+    },
+    {
+      "n": 21,
+      "title": "Evonik likely to reject BASF's sweetened $12.5 billion bid, FT reports",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSG5TWUQ5VVJkZHhoSHd0UFp3cjNDaElVM0tnSkwxZEZzd1U1MGI1dk01UmIxLTRtRzExblJKVGxhdjZ1WF9taktFRExadjFzUE9icUVMZXFuUXB1TUkxNWR5NmZhY3AxNlRXd0VESE9SV3dlZ1B2djlhZU9GTHdYTFRSYXVDb3BiZ1RKZmdiUHZkcExCSW5hVnZGbjNDZGNXZDVLLTV0SGpsLUVN?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-10-30T05:58:00+00:00"
+    },
+    {
+      "n": 22,
+      "title": "Evonik rejects BASF’s sweetened €11bn takeover bid",
+      "source": "Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUV9Ra191NlU2TlNOY0ZFYjJSOWpUOW55eHhTMmgyczVHWjN5VXhWWEJKQ3JvdW5oanJYY1pJTHRMbGd3NTV4NFJIc3JnU2hMb2k1eThvM2FtZklRS1B4S2lSTGxJaVVtQUI5OTU5QTNwcTNFTkVDNEtST3o0aWx4Vk5nUUk?oc=5",
+      "snippet": "Financial Times",
+      "published": "2026-10-30T00:13:41+00:00"
+    },
+    {
+      "n": 23,
+      "title": "BASF steps up push for Evonik takeover after $12B offer rejected",
+      "source": "Plastics News",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX205ZHdJSVd3SXhxU0VMUU1YRDlPZjFFcV9MWGZWRnplQ3dVc2hXc3dYWVFPX3phMEVFNTFTMnEzRlI0YS1KT2FsYm15bWFrZ0QzRk5qa05aS1ZWR2Fad2NHT05uZHo4cjYwR3RUVEpiTzhobmctdHc2SElUZF93Z1NQMkJBUjEzMzAxc3paT0Q?oc=5",
+      "snippet": "Plastics News",
+      "published": "2026-10-22T16:24:00+00:00"
+    },
+    {
+      "n": 24,
+      "title": "Evonik rejects BASF’s $12.5B takeover bid but leaves opening for 'purely informational' talks",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdGp0WV9TZm14VVA3MVVLcnJ0WGEtSjNNTk82bTM1ZVN5U3pGWWE0ZWd0ZXMzMmtwc2Y1QkEwRHdqNmNkT0NNclNKbkdSRHZvdG9hak0xeDFzTDd5VG5QbzBFTTh5WUkwLUN3NFBocTZHWkZacUdhRGZ3WHJmSmZfNTlBX2ZGaE5Fa1gyTEhCblUzR1ZmOFFkY0tmRzEyWXNUNHpaRVFwVExfYTFvQ0w4ZGIwcmh2a3I5Nm14THkwOExpS2xmb2ViNmlUN1ptR2NqcFpYWTZJbXVOZUFDZndncXVGSkY2U2tM?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-10-30T14:28:13+00:00"
+    },
+    {
       "n": 25,
-      "title": "ADT Could Go Private as Thrive Capital Explores Deal",
-      "source": "Security Info Watch",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQVg3T2djbzJOaG9jQU0xYU5OLU5fSWsycVhZM3lyLW4xZWJLckNjRGdYbGhBTHFHMFBUSzNYc2pBd3dJMzJoWWxockRYdFNCOUg5YjltWnVHRnV3RWVBcllLOUt6V0pHbzBNYkNSendXc3B2dm9jQXRpRm5SVDRsazVDMXJrNjhJaWJqZDFjekQ2VG9CVG9ocFFzYlBVN2pJLUhMeW9paFpHZ3ctdFFpMkNB?oc=5",
-      "snippet": "Security Info Watch",
-      "published": "2026-10-28T22:28:35+00:00"
+      "title": "BASF Increases Bid for Chemicals Rival Evonik to Over €11 Billion",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOXBIWXdXb19WTnRUbmlyNFFveWxvTFBQbnVHUXA5SjdtNGJNbWZaaURLdTM3dzZzVS1FTmhHMzRyVnYyUmRnbll3ejRIMEhyajNIWlFTbGhUSzFkXzhFWjgzR29JMXZlVUVjc1RLZ1phaWhSX1RtRHFUOGVhVWlEMzBTOGJXYjVoMW45SGY4dFNURlRKNGE5ZUJ4dDRCQU5XZmwxamNHUC15Y3RhX3RvdDdjbkM5dw?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-10-23T14:17:17+00:00"
     },
     {
       "n": 26,
-      "title": "ADT (ADT) Could Go Private Under A Thrive Capital Led Deal",
-      "source": "Simply Wall St",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMGVuMGVBWk1kUGR6RlEtT2NhTGRiTDhQWENiTXJGZUU5enBKcjY5cE1sUVRBN0JqaWR5NFgzU2ZucHlGSjVfOUdpT25wTHNHcUlSVVNrTGtiSmNURkdDQzAxRDRjRUctOFRCaGlDMEFvSldYQUpGNDJfQUwwNXZtSUpJM25uT2xySnZuQ1dtcURUVEdvTGZzMFA2U2tNR21SNUNydUFlOFNFLWNOSTY3bVN5YS1kZW1tTTVROVBHMDZEZ9IBxwFBVV95cUxOODQxU0ZUT29XeTdqOURKUjgzZEVVSnMxSGE0X0VnUTRiUTNuVWtJWW1DanVjQnJoTWdHZjRUMV9IQ3lDeXNZRHE4QlJCNURIVkRfMjZBNWtGdUZPdHA2UEZqQmYwOGhZZndOdzlZVE03MnZOUUE2UWVGOWlUWVhJVmhaSnoyZlpRWDZDRkFNNEtFSUduSGhiVnNfLVozWHBueEVPQXhHcWF6UjczWkJtcDdvbXZXM3Qwd3oxUTRyUnFmTWVOVEY4?oc=5",
-      "snippet": "Simply Wall St",
-      "published": "2026-10-29T11:40:41+00:00"
+      "title": "BASF raises Evonik offer to €24 a share, sources say",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNWgwOXQwV0N5WFlOZDQ3LWRhMElCdXh5MGZMZnpfd0dGS2Z1X0g5MFhVM3czNk1ZdUhrdEEyYzltc0RNQ2xWcmpVcTZmVUVILU9lQ1VDc2FYNDdxVkJOc0QyNXQwZFNydnh3bHl5SXRhY1ZGc0lVSjlVQUZ0b0RXc2NDR3JuWFZSZFFvUU1kN3dLOV9nRXRMTDdGaEdQdktma1hPN3ZscFdwX1JwdHl2aDBJa2JpV2xJdGdB?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-10-23T14:44:10+00:00"
     },
     {
       "n": 27,
-      "title": "Vaisala closes Atmo acquisition as its first combined AI weather product remains ahead",
-      "source": "OpenTools",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNnA2ZEVvSWpUOFRBMjQ4LXNGRDBFTHNiSFhYdEZnOUh3Mjhld0FMbFNwV0hjQldKV0tOOC1EZTFlX3FLSVl3ZUF3Tlo2c0ZFRDFWeFFMYUFBYWNDcUhUOUFIM3MtRkhwQVZXYW9zcWtXbGJZczM4UVRYMHBKUFRLS0xrdjBwSGt4N2NNYWJjRTBqUVk?oc=5",
-      "snippet": "OpenTools",
-      "published": "2026-10-29T12:10:49+00:00"
+      "title": "Salesforce Signs Definitive Agreement to Acquire Rune Technologies",
+      "source": "Salesforce",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ0tKdlZreVpBOC1MZUY3N0p3dFVQa09aWG56SjhqaG5Wa1hJY1UwYlprZkdQMmdRYVRzUWZEUkQtLWN5VDJENDMwelNrMWNjQllCREFpMXhtV25rWE5rQXg3SGJIY1p2OF9tcTdIZmdVZU5YM2t3T2ZQb3Y2QnNSSE12ZlJRWmxYS1NJWkwtWHdtTF9UYWN2Rk13ZnJUUXhmWVpJNlhEaFFjMkk?oc=5",
+      "snippet": "Salesforce",
+      "published": "2026-10-29T20:17:26+00:00"
     },
     {
       "n": 28,
-      "title": "Vaisala completes acquisition of AI weather company Atmo, Inc.",
-      "source": "The Manila Times",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeFBoWi1WQ2JJQUF6S2pvLUN0N2lhaGxSYk81TEtYVEFqWUpxLXlEeEhkbl93YkljZFlCYXJNV0pkQjdBTFdSTnh3WUstTWgzSUtUdWVndWpQWHoyVTItU0hhLVBIcllESElwd19yMV8xWmkyRjR0bUY1d2s4QUNXUlJCUnh1ejJiV2VpYnJfRTJMazRZUHF3ekJFaE1TdldjTVpocmY5UGRHN0ItTy1jQW5Rc2dnMGszQk5qTDg1VEtzT3FDSEtpbzNockhQZVnSAdQBQVVfeXFMTTFMM29aZXRZTnpxczhfeFNUUG4yc3BhU0ZaMWZvWkx6bzl6Nm5Yb1A0bVVXdmJwMi0tVndQUFpqY01YVDYyOFBDZHBSN0tIODMzTGFpWkpGQW9CM1JrX1B6dE51YkdIMmo5YjdrbDhQT21yWXlZWmtoSGgtY2UwWWZkQlRGX05mRElLU0JNNEJJTDVfMmNDN0hQTEN4akhJQzlCQUhyNG4yOFdaak1JOWVLT1drZkdxUzFtbzhQTjFlS0xELUhzSnlrZGR1NGZpYXNPRUo?oc=5",
-      "snippet": "The Manila Times",
-      "published": "2026-10-29T07:12:51+00:00"
+      "title": "Salesforce to Buy Rune in its “Most Significant” Defense Acquisition to Date",
+      "source": "Tectonic Defense",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSXEzMnZSM1BRdVB5VmdFWHpLQmNPVHRuMjk4TTZwSlRJYmpZRG13djdnUmRSWE9nbWVhVzc4U3ZjeFF0Y0lpMXRWNnUtWG1xTDVKQ1hvcDdZbEg3YzF6UW45bkU2Y1M4SDlsbDVaT3Nsc29RU0ZqRzJEUFdDVDdpRGtFMG5kalczS2Z1QWhzZDBmVHQxNjdFQXN2anBoazM0ZXFVNGY5aGRxaXM?oc=5",
+      "snippet": "Tectonic Defense",
+      "published": "2026-10-29T13:56:53+00:00"
     },
     {
       "n": 29,
-      "title": "Trian-led group bids $1.4bn to take Wendy’s private",
-      "source": "Alternatives Watch",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVEFfTEljZi1rcTh4aFBMenZ4WDVoRXpNYnllRTQwM28xUHZyYjc3NDVWMWtnN0hVZ0FfTnFZeUplTFRGOE1ESWV5Z0E4MmdEUG85a21KUHpvRkkwN2pubGN2WjhHMXZhLUJVVW8yV1doeXNTQW1lMnRZLU00bkYwUUlsRmdCN0N5Zmc?oc=5",
-      "snippet": "Alternatives Watch",
-      "published": "2026-10-29T01:53:20+00:00"
+      "title": "Salesforce agrees to acquire Braze for $5.66 billion",
+      "source": "Portal ERP",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaHJCMUpUbnZ4YXVsWEJYVWdMNWJZVk54dEM5OUF4bFoxbml2cWUtS1F4MTA3Uk92YlBkc3ZfdVVOSUJfVVE1bmxBQy1DXy1LR1JuQkJSa0w1QmR6ZWVOWUtJTDl5TzR0azhjazdDSEdJMDV6aTFVR1pmMF9pZnF6RURrQXRRM2Z3?oc=5",
+      "snippet": "Portal ERP",
+      "published": "2026-10-23T01:24:04+00:00"
     },
     {
       "n": 30,
-      "title": "Exclusive | Nelson Peltz’s Trian Offers to Buy Wendy’s for $1.4 Billion",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcTd1dnBmMzBtZzQ0UzlFSFdDUWJSRkxOMUcwcm43cEpRUUpHaENfN2FMV1BEV1FRV0hleDZvSGRGckpkVzJIZThQTGplNXBLTE5xbTI2dFNMY1NKWC1nYTVRRDNSeGlWTWdlZ08zNHVaLU9xbEMtY3RnM2NqeV9reG5NdHhNSHBHQmg3TS1Gc2ZZRDluUWI5d2pra21lNlhfd0E?oc=5",
-      "snippet": "WSJ",
-      "published": "2026-10-28T18:52:09+00:00"
+      "title": "Salesforce (CRM) Agrees $5.7 Billion All Stock Acquisition",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOb3lyR09KOS1jaUZYaWxlT21pc1B2aGwtSVNUS0FiZUZDdUZ5dmV5ZU55TC1zVUIzT2NyWlRhWUNoVlFwWllnMkwxSHhWZ1NYTmIwUGhLSE1VMFVodGJKdjEtVjhrcS1xZUNpTlFFYjc5ekRER1dja29UNWRxOWJtRk1TOWs5RHBEelg2aTJ5VUxzMHdn?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-20T14:08:43+00:00"
     },
     {
       "n": 31,
-      "title": "Deal Roundup: Triton agrees $9bn Trench exit; Trian-led group makes $3.8bn Wendy's take-private proposal",
-      "source": "AltAssets Private Equity News",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOcVA5N2NlVGJjSnZEUm1YcGRGQjltdnhjQzJ4Mm9FaEM2RmdpbTNXQUdHb1lQNWlHT044Y2ZXM2Fpdndod2F5MWprcDdMUG1uTjUtVDlrazRpZzBpR0l6UElWX25xNDlPZUYxcnlveUJaVldpNDVzZVM0b1gwZHlBRzJpVEE0Xy1NX21VanFsNWpObjVaTUNRbGVPdGN5OGsxTXVsNlVNMFBvRGNHNU9LUXM5Q2wtYjB2MU9OSlBCZlFNMHAyYjdGMVdwRWFFbXp4THp6VElLQlZ4MzBpcTFyNVBFZEd5VFQySUVGMGFVWVpxS2FOVmFZMUhOeEp1ZzNFdmF5dWFSQi0?oc=5",
-      "snippet": "AltAssets Private Equity News",
-      "published": "2026-10-29T09:48:46+00:00"
+      "title": "Braze Soars 51% as Salesforce Agrees to $5.66 Billion Buyout to Deliver That “Wow Moment”",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa2tNLVJ3cmZONTN5ZzE2WllDaWZaSmI4bW1CQXZPblMtTmtCVjFxS2d2NWI0SDlWR0FWZkd5dmxpMlpHa2xTUENXc09qMkxIT2tDeG15dEVTSHZYTmtQWFJ2ZFN4WFZueENmbTFFV0NNcG56WFBuMXNFTXlVYlNKTExTUHhMMzMyUkU4YjBqUG9VdHl6S1JaNUNkVy1JQQ?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-20T19:48:58+00:00"
     },
     {
       "n": 32,
-      "title": "Intel Signs Deal to Acquire Classiq for Quantum Software",
-      "source": "FindArticles",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE91MlAtZ1FZQXlmUlMzTnVFclZOREtOVzJyZzdpT3lSdEtQZkwxY21ySFlGa0ltYk9zQzNBU2lEdEFCb0x5eUlwVGthMm83b0ItZDNNVThHbk52M3hwcTgtVUlGcmc4V1dQZjJRRFVEUjMwbEljUkMtS2Z2QVpNZ9IBhgFBVV95cUxQeGp6VURmQWQxYzJ5M3RVU283Tk5TdHFQZlBISmFrZFdydVV2QlV1ZDY3cnkzYVlYN2lTZWgtSUhQZ296aTZJem85c05OMkRZZXpwUmMwQU44QVo0azVtSVFySUpZY3YtYTJkUnpVd2xPUWVmSXJQeTMweGVFWG5GaU0xaGg2QQ?oc=5",
-      "snippet": "FindArticles",
-      "published": "2026-10-29T01:04:55+00:00"
+      "title": "Salesforce's Braze Acquisition Leads Revenue Tech M&A Rush",
+      "source": "CX Today",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95bmV1Rm1kNEI2Y2FFVU8zU3BqeDRKMXN5TkgxUFNONkVvd0ZKX09YTkgtNHl5bnA4RDdFUzZqNEFGTmMxWHdUYnp6UW1rUmdTS05fMmZIVHdNWnFXaGJBUnFGMy1WbmVQZWRRRDR1NEJHc1ZTZEN5dFFZUk0?oc=5",
+      "snippet": "CX Today",
+      "published": "2026-10-21T08:03:47+00:00"
     },
     {
       "n": 33,
-      "title": "Hogan Lovells Cadwalader Advises Intel in Pending Acquisition of Classiq Technologies",
-      "source": "The Quantum Insider",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOME1UbWs2WlZqczNIY0ZBNnVOckRQRGg4eEJWOEZRY2NMSGxMLUZfM1YyRDI4cGU5bjlxWExzanhHUldKTkZtS3IzLV9uREZVS0RtVHhXeW5hTkxvblJIZnR1c0szS0FJRThKUC1IbTB5NnMyMW02MmRrUVZqQ0pidE8yeTUxYU81a2FnTkxFb1N3ZmRhcmpYclNpTTFmSUVpZTdTOGcwVHFQOGUzSDluSFFndlJrb0hoNjBaZ0gwa3lQcnFTS0E?oc=5",
-      "snippet": "The Quantum Insider",
-      "published": "2026-10-28T16:51:43+00:00"
+      "title": "CD&R pursues buyout of $40bn payment processor Global Payments",
+      "source": "Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRGN2aXRDSDJnaHNpTWUtbHg1NVBlcFJjUjFXVHA1enhLUDNNTFlCRVRMS0VwaVRHSGxHMkNhRVdZamoxUWYtbG1ReFlhazF4WHF3VGt2RUt5YlpiV1FiY0RPbkRWalFJRlhyYVpXSWN5YTZKaWI2amphZnFwYUUxRTJZTEk?oc=5",
+      "snippet": "Financial Times",
+      "published": "2026-10-30T16:27:55+00:00"
     },
     {
       "n": 34,
-      "title": "Intel to Acquire Classiq in $2.3 Billion Quantum Computing Deal",
-      "source": "Asia Business Outlook",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSE40ZEh4ZEU4dHo5N05SY3dZQmplQU95cDJ4TW5PV3NmRXd6dmJjdUxYV3hxUjVMRDFMV2JQMFB3R1FEM1FzUEFXM08ydmd2RWVtM3lCcXBVenltcG5oTUE4QnhGLUhlcGNvRUhzQzFlQm1VVkJfam1qaVZ5RW9GSGcyZTVPY0Q1d1ZOSG5oN1NoNVlsRWpMRUo5M0RadnVjODdJS0F5eW5pYmZCaU9jcFJqZE81Ylg5SEE?oc=5",
-      "snippet": "Asia Business Outlook",
-      "published": "2026-10-27T01:53:31+00:00"
+      "title": "McKesson and CD&R close in on $5bn-plus acquisition of Option Care Health",
+      "source": "Private Equity Wire",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZVV2UkVXOUQyVktpSEllRXY0c0drR0NGbDZUcW5LNDVONmxJNnVuMDV4X1hucTlvYUxvOE1Md3dxZldXRDdEckQ1ZGtnUGp4UnE0bnJHdWZ5eEhxQlQtNElvQmR1Nk1VN3NCVHpxaDJFYm51VWRVdHV4RTBnSG9tbW0tUGIwWU5tYnFJSnNxNHIxdDZucEktOHNBY2U3cl9iekhBRi1pOWduZ3ot?oc=5",
+      "snippet": "Private Equity Wire",
+      "published": "2026-10-06T08:21:33+00:00"
     },
     {
       "n": 35,
-      "title": "Intel agrees to acquire Classiq with quantum deal price undisclosed",
-      "source": "Mugglehead Investment Magazine",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fZ3hqb1RZYUdTT2ZzdEMzalpMMDVEYUVWX0Rmb29oNS1XRGtTdzcwYTZTNHFmcXdyU0M1OUhBYW05QUtIeExNdEpoT051OVJDLXV1TXNjR0dSbHJIMnc0ZVVCcmxHaEhKb1VXUC1YTnI?oc=5",
-      "snippet": "Mugglehead Investment Magazine",
-      "published": "2026-10-26T21:00:27+00:00"
+      "title": "Option Care Health Agrees to $5.8 Billion Acquisition by CD&R and McKesson at $32.05 Per Share",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWmxZd2pWaEFkaVJNS3dnaXJ5R3RjNHQ1ajFreWJ5UmVQTnluMFJ5OFp3MjJDeW5RUG01TkJ0QXVoRExWYjhGTEpudXhvVFZkdDNac0dlNkZITzk5b195UnFxVjdNenc0SEJaUk5lblh0OElTd01kcXVic1FzUWtramsyaUh6ZTdqeEI4cXhHM3czQQ?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-06T14:48:31+00:00"
     },
     {
       "n": 36,
-      "title": "Intel to Acquire Israeli Quantum Computing Startup Classiq in $2.3 Billion Deal",
-      "source": "Haaretz",
-      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQM2JLOHhqZFdHZTZjcFpFVjhEanJoR3hsaGlZcG81aDdFekpVMTlqVkpmRGFEWFBwOTlkZE1XN1dRVHdhMnFza1ppdWlKRldSVTlTRHdaVXZRc2N6ai1HeVNaQ3k1Y3NwWjJkaG5WbHpyOHBUMGpCNDdvaklZM3U3NkNGOWNNTDF6a1o4REg1VEhKNHR5U0x3Yy13bUVCNWF4Ml9oOVRKdmptdzkxRWdWdmhrUl9MaGpfWXZHby1HYzY5c3h3ajVKLXhCVmFrWlFEaTJFVE0zVi1rUDJsdUlIcTFEdE1WejVxX0hMd1ZlMUhfLTZhcTIyREp6MlczUUFqVXE5Q19BX2VSSjdYRElBU2tkWkNieFlZZTE0ag?oc=5",
-      "snippet": "Haaretz",
-      "published": "2026-10-26T21:33:00+00:00"
+      "title": "McKesson and CD&R agree to acquire Option Care Health for $5.8 billion",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOVJNTy1lcVo0Snl1dmROU1pZSGxfcHg4aURaYkJIUnZhWlU1VFN3UGNXTEh3eEt4M0RRUlRlS3RZTDNOS1k4a1FUMGdvcEdnZ2h2UGx6aUNYanpiNmoyMW5mdlpmWGVPTmMtVElKN0FINEFjTFFQSHFzalh1aDJZemRfQW9nTHpCSUVyZV84MV8wdw?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-06T12:37:00+00:00"
     },
     {
       "n": 37,
-      "title": "Intel’s $2.3 Billion Classiq Deal Would Set Quantum Acquisition Record",
-      "source": "JournalArta",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMDNoRjVIdFRRTHRGNl82Ri1TU0dHVFNwY1IzVWlIR0M4X2w4Nl9HdUROcHA1S2xhSEg5ZXU5eFlOMWktakRwcW9XaHZmNHdSaXp6MEVJZlBCYTFvUE9TWlhEd0lPTVNsd0RJWm5sMWVyQ05Cb0twU3M3LXBBWllpNUZ3?oc=5",
-      "snippet": "JournalArta",
-      "published": "2026-10-27T00:54:23+00:00"
+      "title": "AIG to acquire Everest’s Chile business, completes Colombia deal",
+      "source": "Coverager",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT0xDU2JsTjFDVzBOZEZTakZCcnNEUUJVS1dEbms0Z3VZVVN1VElJZFN2dkZWZVZTeEZ4Y1QxaWpidmVlclhSaC11cGFpX0FuR1hnai1LaEhfSnNEYU9OakJ5SWQ3ZDd0dHRHZWgzQl9ZUFNhWkVVU2ZhZ01uNUhGM2ZUb0w5Yk9GVmk1cjVR?oc=5",
+      "snippet": "Coverager",
+      "published": "2026-10-30T15:56:45+00:00"
     },
     {
       "n": 38,
-      "title": "Intel to acquire Israeli quantum startup Classiq for $2.3 billion in record deal",
-      "source": "Ynetnews",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92eFViZENvTXAwODNqckFNRl9yRE0xb1VRRjZDMS1HX0o2blNEZGxxSEg5cnY3cVdMbzM1YXpKT0RRMzFUSkctODVvdU5ETUlFVnU4aWxFSDRqRjFfaXVCZ2R3?oc=5",
-      "snippet": "Ynetnews",
-      "published": "2026-10-26T20:17:36+00:00"
+      "title": "Luda Technology Group To Acquire 55% Stake In AI Data Quant Tech",
+      "source": "Quantum Zeitgeist",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zN0RibkZ0YkJ5OGpwMWN6ZVI1QzR4dzRZaWpfWXEyNHhyN1FGU3lRZzN2aG9XUUJYOVp4dGlhVzNueXNFODhiV2FlMUt3UFRWSk9vclZEdVJuRGR2WEczQlpjVHJTd1dtcG5iaXZpeGJpRk5YbVE?oc=5",
+      "snippet": "Quantum Zeitgeist",
+      "published": "2026-10-30T15:40:39+00:00"
     },
     {
       "n": 39,
-      "title": "Enerpac Closes on Deal for SFE Group",
-      "source": "Industrial Distribution",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVW1yUktaYUY5dGFDai14cXZvd2NWenVoekRCYUtRQVdFelBFMFpRc0lJbVJCX19DandfN3RkZHAxdVhuNG1KejYwbzZPN25WVnZrUVlHbzdGcXhtTmNGX3l1aEVOZGxIMHlNSGVka042MTI0Nzgwd3ZEMjg2QlM0Z2oxTXZyQkcyRFdQQ2J0N25KN2RhZExrN3lTVQ?oc=5",
-      "snippet": "Industrial Distribution",
-      "published": "2026-10-28T22:24:35+00:00"
+      "title": "Pateno Payments Inc. Completes Acquisition of the Assets of XTM Inc.’s EveryDay Platform",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdllBWmxjbGJDLXEzbURDQUdGeGJQNUt2OGZJOU9oZ2hNXzk1dTZQMG5MLWpENndDQjFSVGlySS0xWWFlSXNqcTJxXzIyeVBHcnluNWxKTk5mUXpJZDhwVkVaUS1Cc0ZjbWxwa3lJNDJxb3VRYnRrWDFHN1lodHhWUkNtTHpYcGxDdXFKUkFSSzFsSkdOS2lnVHdlTUZITVVpcEVnTFg5ZUk1dVhfWG1tUEltQlZMZ2dCYlVFOENDaXp5YmRfM2pzay1Xa2RBMmExUk5lbGNRUng0aUpU?oc=5",
+      "snippet": "Business Wire",
+      "published": "2026-10-30T15:38:00+00:00"
     },
     {
       "n": 40,
-      "title": "Three executives must buy shares as Enerpac (EPAC) closes its SFE Group acquisition.",
-      "source": "Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQclU3OVd3VF9qR19sR0Fta2NWMk9RQkhRbC1uX29Pd3BMeXMyTk5uTXhZQmFrRVdkSlJ0c0Y1WlBOcDVSMGc2NVRFOG82ME1PREp4VkZKOU96VG1fYUZQNEw3ZnloYVpZZzlJaTNLM1dXZl83bFRXY2lGb0x0akpDU19tejhReGMtNzVsZlkwdHprdDVJWHhSODBEOG5XRGs3OF9hdHNFeUhzUVlmWkFnNE93?oc=5",
-      "snippet": "Stock Titan",
-      "published": "2026-10-28T20:01:23+00:00"
+      "title": "Two Different Gamma-Ray Bursts Struck Four Minutes Apart, and Nobody Can Fully Explain Why",
+      "source": "Around Prague",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTjJnblpZbmx6UENJLTRUVGZxUFI2a051aHBJSUl6QXQyWTBYb3RVaENVTXdsVHJZcVl4dTZxMlA0Y29EendkdENtbFRsTFpSaEM2MEgxMHQ5bHdHa1oxOXVSUHpzeWJsSzE0ZnprZlFKY2s4RG5UTmRtdGRLZl9Ra1lTMUlkaVd6eXdob2xFd0h6VUVTUWNIaDloT1EyWTdlUlN1d19QOHpkQkJ1eVc4SEdqUWZLLXBW?oc=5",
+      "snippet": "Around Prague",
+      "published": "2026-10-30T16:45:57+00:00"
     },
     {
       "n": 41,
-      "title": "UFP Industries buys Texas pallet maker for $27M in third deal this year",
-      "source": "Crain's Grand Rapids Business",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaVVnOTlkbWZoS0lvbmdVYnpUOWN1cXFTNHVGT3R2SWFYZkZVQVNNRkF0SlZrTjdaN1Q1UmgtYWYxSUgtZkhzUHdfbzhZZmtHdV9UUm40MTRjTzVEQmpKUU1PU0ZTTjRrU09WdklodTIwV2R4Z2NYamZndXIyOTYzN3dTR1o1LVFLV054aTI2a3JuLUlGb3RMbnMtNG11SHFXWl9LTWFUMWYzOFQ1QlhLM01pUTY2RFI0MmhUc2NvaHZvNUhvRUE?oc=5",
-      "snippet": "Crain's Grand Rapids Business",
-      "published": "2026-10-29T17:10:00+00:00"
+      "title": "LCI Board Reiterates Support for Merger with Patrick",
+      "source": "RVBusiness",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcGhjZ0R1OFIxd0MwanI0ZVQ3Q3gzZ2wtbTNqVk55VEdpbXpFU3lxd2FpYkZEbU55Z1JSc1NCMzFGMWt3bWlnNUh5YUc3eHVCbks0blRCcnRXbHZGSFNTci1LYWREQnhCYlhoazU3RnlnWTVpelZCWFA2ZlplcnJRaXBn?oc=5",
+      "snippet": "RVBusiness",
+      "published": "2026-10-30T15:22:11+00:00"
     },
     {
       "n": 42,
-      "title": "UFP Industries Expands Pallet Manufacturing Network Through Acquisition of Apache Products",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNS0NpdTh2MEwzTUhqNGY3U09KWURNWDRkcW5VSnNlLWRLZnF5aXcydGZ6aGlZVjRsN1hGc0tvUVlmSFkxX20yWHhsUnZ1ZHVlbkFoUEtISnpMcm9melJKUUt6T0pVRDlWdXZCcnNBVk5saXhZTFhuenlzb01tWE0wME1qNHdSanpyYXp3X2FzRDZjUjNkQm42dUJvV25lMnVJbmtqbC1YaUlhbnN3ZDdFaGVIbTJtVkxCbVhoczk3OF91TU5vNDgySWFtTjRwWVZuNVNlMTFfajg0SFVOUm9DWmg2X0hPZw?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-26T16:45:00+00:00"
+      "title": "Rollatainers approves ₹50 crore warrant issue, name change to Amaxis Global",
+      "source": "scanx.trade",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUNta3A4N1k3MHhMRDVvdEEyR1lxZ1RjRzdmQWMydkw3dGI0Z2VxdVZBNXNXWW5qOHlzdGxkTHhyU0o1WlZ1YmtYWXBxQWVDZk1HYkY5RXN2d0pqWHl0b0lhZXk1TGt3SngyLUFQOXkzR1oxYVM5NTlJeE40ZW92MWJPcEx6YXBBNTV5eVJQeEE0SG0wNU5GaW5Dc2NzLXVac3hxQmRlNlFDbXBzdkpCVkFQcWo1aWtNcEcwUUhSWnI?oc=5",
+      "snippet": "scanx.trade",
+      "published": "2026-10-30T14:52:31+00:00"
     },
     {
       "n": 43,
-      "title": "Axalta Coating Systems Ltd. (AXTA) Merger With Akzo Nobel Offers Cost-Saving Potential, Ariel Global Fund Says",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTk9CUlUyWWxJTGhEazVyeGdJMGp0d1VyOXJmZUY2VXlnX2dLU0VGdGpuYnlBazBiWXBNME9zbjU1MHdFajhQbUwyUFhUcFRXSUc2Wkx6LW1xbFdHdllJT2Z3NVhjZjVNcS1NN1BaWDhXaWt1SWxsTjVSRVNLR1dQX05XeU0yeWV2UlFXSko0dVl2ZDBsbXBTN2NlRng?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-29T16:54:10+00:00"
+      "title": "Exclusive: Dark Matter acquires House Numbers’ agentic AI platform",
+      "source": "HousingWire",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWklELURnWjh5c19wVjhCejAtYnFla1V4QkZLaWptZXc0eWZPbkpQU0U2b2pacWluRDE1bGc2X3VqMXJzNTdrWWVnOE84OEdOZm1lOXRnWk9xVnRIamZ1UlZwdERfc2swT21HMEk0S1U1MzhULXc2VHNLNF9jOV9tOER2Sk5DaEIzUjFuOWxaLXFrbTQ2RjhEZmY1UWFpYnJCd05NdQ?oc=5",
+      "snippet": "HousingWire",
+      "published": "2026-10-30T14:34:56+00:00"
     },
     {
       "n": 44,
-      "title": "GE Vernova Strengthens Grid Energy Business After $9Bn Acquisition Deal",
-      "source": "LEADERSHIP Newspapers",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVlc5blZjZkdCU2xTM05UN2EtMmFkQW9UVzVOc0djYjBkTFR1QTRGX2ItYWNodjBIUklvQ3hrRmg0M0xTZktJUzRVLTFTYWZlckRqVDFya0Y1cnBZQVRpT0JHQkcweEhhSi1jd3VXNGlqTlkzWmFEYkNMYUhxN2FtVm9LWkN3NFQxM0pOYlltOFo0NklxSzlpbw?oc=5",
-      "snippet": "LEADERSHIP Newspapers",
-      "published": "2026-10-29T16:43:03+00:00"
+      "title": "nbkc bank Announces Agreement to Assume Consumer BaaS Programs of LSBX, a Division of Lincoln Savings Bank",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPU1VObU1pSGhLUThSS2hQbjh0V1M2RVZLSjhMVGczQWtHQ2dWS3FCVGJlXzdCbm5nNnBveUJxMC03blRUMVI3VDJZSjNzeDRWVnBYWlVNSWk3clNkMGlNWmd2SUsxSkZqWmVSWlhkWEVaenV5eGM5dHA1ZmdLdV95SFhudWdNcG9aUUZNWkNKWmM3cVdjSmFWanM3RXhKS2lPY1c4?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-30T14:00:00+00:00"
     },
     {
       "n": 45,
-      "title": "Monte dei Paschi investors reject defence plan, clearing path for Intesa takeover",
-      "source": "Traders Union",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQS3dscVlHRlZITndPMC1kdjVITmlEQkV6Z2tGbGY5U053WDdvay03MXlvU2EyNHJsUHM0R1dNc2NNRDVjaGNWMEZEYlVkbDgtY3RmcVcxWHBVVFFmYmk2NmNZQjdDdVNrdmRaa2QzSEc4bmtRWWJfSGZ0M01adFhWd3pEeElDRG1YR1p3VUdRZnVPcHdiUnhDRWpsbTNyaFZF?oc=5",
-      "snippet": "Traders Union",
-      "published": "2026-10-29T16:10:44+00:00"
+      "title": "Some Alabama banks are consolidating, but only under heavy regulatory watch",
+      "source": "Business Alabama Magazine",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbkVVcm5NQlZRYjRiWjM5THB5UHJFZ01KS09QYlJ6U1NKaHNjTEgyUWc0b3pwM0c0eTZ4U0lCaVhqbDJtd3p0dExsTGMyUTBpYlQ4N25meXJrNjMxY3BVR0M1OFRjS1RfX0EzcjRxRWVrdjFNN0Fwa05YUFBBUmwwdndNLWtQUmZWbExkbG5BbUV1U0xldEY4RmhCMzRsRUd0Q0kzbzFR?oc=5",
+      "snippet": "Business Alabama Magazine",
+      "published": "2026-10-30T13:29:43+00:00"
     },
     {
       "n": 46,
-      "title": "Monte dei Paschi investors reject CEO’s plan to fend off Intesa’s €35bn takeover",
-      "source": "Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOHIxRW1SNHlhcFptWDU4R2NjRHJlZ3ZQNVJuYVJKMlhJNG9TdDBHOFJqVFRJa0g5cW40MVAyRkkzWEI1aTBySXhQNGp1Z25zVGdPbDljUWRTQjh1Sk5LYVRFMFVkLWpYV2VIY2VSbXhfaVI5dkVVODR4d3ZFREV2bkZpZm4?oc=5",
-      "snippet": "Financial Times",
-      "published": "2026-10-29T15:46:12+00:00"
+      "title": "BigRep goes private as 3D printing growth falls short of expectations",
+      "source": "Plastics News",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQzROQkdlQWNqbHBsZFl1UEs4WG9tZTMyTjF2RFQ3Y29uUjZOUFFReFFSYXhVUmV2TDg3d0ZzWS1aS3lXeEc2MFFFZzRqeWw3VFk5bXpsNTFLajdPcW1KblBFQ2tZaVM2Z1p5ZUVKOER1YVdrdVNlNEViUlU2Y29pOWtITnptMUJBelRvSUdTV0p6Vkk0bk53dVRR?oc=5",
+      "snippet": "Plastics News",
+      "published": "2026-10-30T13:14:00+00:00"
     },
     {
       "n": 47,
-      "title": "Roundup: BioMarin Licenses Long-Acting Fabry Enzyme Therapy for $70 Million Upfront, Ferring to Acquire Fertility Biotech Gameto in Deal Worth Up to $1.38 Billion",
-      "source": "Pharmaceutical Executive",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY29yYzlrSWpMQmwtRVJJTWZici03NVRjQWM4eER5b1pqS1doY2pXSzBLSjU5NlRtQm1IdDMzZjlHcVFOVXFJWUg0WmFSNFZTbldvR2ZyUHViTGQ3MmcySFJKZ3hMWElzYkVHdnZ4czlwUF80UThrN2RwS1B1LUxLTUNpd21MMG5JUTh0cERlMks5SDFGeHF5UnhaOA?oc=5",
-      "snippet": "Pharmaceutical Executive",
-      "published": "2026-10-29T15:45:43+00:00"
-    },
-    {
-      "n": 48,
-      "title": "Musk Says A Tesla-SpaceX Merger Is \"A Good Idea,\" But Admits It Would Require 1.98 Billion \"Yes\" Votes. He Calls It \"Quite A High Hurdle\"",
-      "source": "24/7 Wall St.",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPU2tab2p1UFBlVjZoczhmYnZjWW04RFltM3lXV3VOby1LQ2F4LW5vN1hkTlVYYTFXUDVjQXZveFJTQ3BZTWdIelZNX0RXaE0tT3ZvR2lFYUxMcHNVSERsUUdnU3c4dll5RnpGSTlSUVNDa1JqWE9TRnFHYXdJUEtpcFRWRTNBOTBMZWlNZDI1OFBYWHktN1VxQ0lfdlVFMDFoMzdTWVBTbDN4VHZLUDcwdjVUR2ZIVHk1SGhUUjNrMW1aTGNzVnRnMWNhc1RZRkNwOWpPS3JmVnlmVGQwblVuSWhwckMtazMtb3gxem9BSmJpWnJ1OEdDQm51WS1ZckNhZzhZ?oc=5",
-      "snippet": "24/7 Wall St.",
-      "published": "2026-10-29T15:36:51+00:00"
-    },
-    {
-      "n": 49,
-      "title": "Monte dei Paschi Shareholders Reject Banco BPM Acquisition Offer",
-      "source": "Global Banking & Finance Review",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPalJBWFUtVEhfSVlTT2VGQzk2UW9sdmU1aFlDVnRJZ1B5ZzJXZHpSYVR2U0FtUlp3a2J2bU1lRENaRlFveWdFUXVsZDB1ZUxmWXhsS2RIb2hJR1ozQVZMY0toNWZ3MklUVHNUbG9Nb1FuenRQaDNsUHNWdFlrNzR1Zm1taHpFVUJaSDZPUk96V0F3LXFscUFlNUVSRnhsVi1IZkE?oc=5",
-      "snippet": "Global Banking & Finance Review",
-      "published": "2026-10-29T14:57:45+00:00"
-    },
-    {
-      "n": 50,
-      "title": "Former Carrboro chief left out of Chapel Hill police merger talks opposes plan",
-      "source": "Raleigh News & Observer",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQjhhMWVXMjA4YTdWdE9vcWJfejlKWWFwcVhxUmVOTFZabWQyalJOMXR3RzlobjJzREdzc3JtOEZqZUpnZGw1TThEVGxmcDZXQ1lOZ3N3SnBXV1E5em5VVFJOY2tBdjlZTTZydjlVNjlycDd5cERFX0lXVUl5OXVVdzBhcTg0YW1TMWUyddIBjAFBVV95cUxNaVBudTRTMFlCMTV1aGRhVThzTjcwNWo3Rjl4X0M1Z0dWbkd4OXhhaVJkLWkzdGMtaTBHamp4Wmw5VWpJNE41VzVmdmtIQ2N0Q3I2bXM2YXJFUkd4U1g2N1lxWUJ5UUY2eC1uZmo5UUZHTFdwT2R2SUFMRF84UHBHcS1TSUt2TXRoZ1pFZQ?oc=5",
-      "snippet": "Raleigh News & Observer",
-      "published": "2026-10-29T14:48:00+00:00"
+      "title": "LCI rejects $101-per-share takeover offer, sticks with Patrick merger",
+      "source": "Plastics News",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZS11OWttMUF0RDlyaTEwWjBITGpQLVdBNjhrbFBpMHJ6Z1JTcjRvNDU2cGlNMmxZalJJUlNVUlU4M3RqVUdDNHZQU05jbEEwQWRwNmlhRUk4d01kem15anhOQTNxNjV6TDhlY2Jub0xDbzhHQmpEMDhuX05wb25BbFA2LXo2S1A1NzAw?oc=5",
+      "snippet": "Plastics News",
+      "published": "2026-10-30T13:12:00+00:00"
     }
   ],
   "cited": [
     1,
     2,
     3,
-    13,
+    4,
+    5,
+    6,
+    7,
+    8,
     14,
     15,
     16,
-    17,
     18,
     19,
     20,
@@ -787,85 +742,45 @@
     26,
     27,
     28,
-    29,
-    30,
-    31,
-    32,
     33,
-    34,
     36,
     37,
     38,
     39,
-    40,
     41,
-    42,
     43,
-    44,
-    45
+    47
   ],
-  "invalid_citations": [
-    1
-  ],
-  "example_prompt": "Deal: DoorDash and Instacart.\nStage: Announced.\n\nHeadlines:\n[1] Android Headlines, Oct 29 01:08 PM ET: DoorDash to Acquire Instacart in $17 Billion Deal to Expand Grocery Delivery Business\n    Android Headlines\n[2] Invezz, Oct 29 11:53 AM ET: DoorDash to acquire Instacart in $17B deal as it expands grocery delivery business\n    Invezz\n[3] Reuters, Oct 29 11:38 AM ET: DoorDash strikes $17 billion deal for US rival Instacart in mega grocery delivery bet\n    Reuters\n[4] The Detroit News, Oct 29 10:06 AM ET: DoorDash strikes $17 billion deal for Instacart in mega grocery delivery bet\n    The Detroit News\n[5] Startup Fortune, Oct 29 09:24 AM ET: DoorDash agrees to buy Instacart for $17 billion in cash and stock deal\n    Startup Fortune\n[6] www.marketscreener.com, Oct 29 08:54 AM ET: DoorDash Agrees to Acquire Instacart for Roughly $17 Billion\n    www.marketscreener.com\n[7] Demokratis.co.id, Oct 29 08:46 AM ET: DoorDash Agrees to Acquire Instacart for 17 Billion Dollars\n    Demokratis.co.id\n[8] WSB-TV, Oct 29 08:15 AM ET: DoorDash agrees to buy Instacart in $17B deal\n    WSB-TV\n\nWrite the subheading and sentences.",
+  "invalid_citations": [],
+  "example_prompt": "Deal: DoorDash and Instacart.\nStage: Pending approval.\n\nHeadlines:\n[1] Uprise RI, Oct 30 12:16 PM ET: DoorDash to Buy Instacart for $17B, Facing Antitrust Review\n    Uprise RI\n[2] Law Commentary, Oct 30 09:52 AM ET: DoorDash to Buy Instacart for $17 Billion, Raising Antitrust Concerns\n    Law Commentary\n[3] ASO World, Oct 30 02:25 AM ET: DoorDash to Buy Instacart: $17B Deal Explained\n    ASO World\n[4] ABC10, Oct 29 08:22 PM ET: DoorDash agrees to acquire Instacart in $17 billion deal\n    ABC10\n[5] Gadget Review, Oct 29 03:11 PM ET: DoorDash Acquires Instacart for $17B, Pending Antitrust Review\n    Gadget Review\n[6] PYMNTS.com, Oct 29 03:01 PM ET: CPI | DoorDash to Acquire Instacart in $17 Billion Grocery Delivery Deal\n    PYMNTS.com\n[7] NewsCord, Oct 29 01:25 PM ET: DoorDash Agrees To Buy Instacart In About $17 Billion Deal: how 12 outlets framed it\n    NewsCord\n[8] Android Headlines, Oct 29 01:08 PM ET: DoorDash to Acquire Instacart in $17 Billion Deal to Expand Grocery Delivery Business\n    Android Headlines\n\nWrite the subheading and sentences.",
   "retrieval": [
     {
       "deal": "DoorDash / Instacart",
       "query": "DoorDash Instacart acquisition merger deal",
       "hits": [
         {
+          "n": 4,
+          "similarity": 0.861
+        },
+        {
           "n": 9,
-          "similarity": 0.849
+          "similarity": 0.851
         },
         {
           "n": 10,
-          "similarity": 0.847
+          "similarity": 0.849
         },
         {
           "n": 11,
-          "similarity": 0.846
-        },
-        {
-          "n": 1,
-          "similarity": 0.841
-        },
-        {
-          "n": 6,
-          "similarity": 0.841
+          "similarity": 0.848
         },
         {
           "n": 12,
-          "similarity": 0.839
-        }
-      ]
-    },
-    {
-      "deal": "Marvell / Lumentum",
-      "query": "Marvell Lumentum acquisition merger deal",
-      "hits": [
-        {
-          "n": 19,
-          "similarity": 0.819
+          "similarity": 0.847
         },
         {
-          "n": 16,
-          "similarity": 0.804
-        },
-        {
-          "n": 15,
-          "similarity": 0.803
-        },
-        {
-          "n": 18,
-          "similarity": 0.801
-        },
-        {
-          "n": 17,
-          "similarity": 0.78
-        },
-        {
-          "n": 20,
-          "similarity": 0.772
+          "n": 13,
+          "similarity": 0.846
         }
       ]
     },
@@ -874,123 +789,149 @@
       "query": "Thrive Holdings ADT acquisition merger deal",
       "hits": [
         {
-          "n": 24,
+          "n": 15,
+          "similarity": 0.865
+        },
+        {
+          "n": 19,
           "similarity": 0.856
         },
         {
-          "n": 22,
+          "n": 20,
+          "similarity": 0.85
+        },
+        {
+          "n": 17,
           "similarity": 0.836
         },
         {
-          "n": 23,
+          "n": 18,
           "similarity": 0.831
         },
         {
-          "n": 21,
-          "similarity": 0.765
-        },
-        {
-          "n": 25,
-          "similarity": 0.75
-        },
-        {
-          "n": 26,
-          "similarity": 0.744
+          "n": 14,
+          "similarity": 0.822
         }
       ]
     },
     {
-      "deal": "Vaisala / Atmo",
-      "query": "Vaisala Atmo acquisition merger deal",
+      "deal": "BASF / Evonik",
+      "query": "BASF Evonik acquisition merger deal",
       "hits": [
         {
-          "n": 28,
-          "similarity": 0.807
+          "n": 23,
+          "similarity": 0.817
         },
         {
-          "n": 27,
-          "similarity": 0.765
-        }
-      ]
-    },
-    {
-      "deal": "Trian-led group / Wendy's",
-      "query": "Trian-led group Wendy's acquisition merger deal",
-      "hits": [
-        {
-          "n": 29,
-          "similarity": 0.791
+          "n": 24,
+          "similarity": 0.804
         },
         {
-          "n": 31,
-          "similarity": 0.779
-        }
-      ]
-    },
-    {
-      "deal": "Intel / Classiq",
-      "query": "Intel Classiq acquisition merger deal",
-      "hits": [
-        {
-          "n": 34,
-          "similarity": 0.819
-        },
-        {
-          "n": 35,
-          "similarity": 0.809
-        },
-        {
-          "n": 36,
+          "n": 22,
           "similarity": 0.802
         },
         {
-          "n": 37,
-          "similarity": 0.799
+          "n": 21,
+          "similarity": 0.773
         },
         {
-          "n": 38,
-          "similarity": 0.798
+          "n": 25,
+          "similarity": 0.765
+        },
+        {
+          "n": 26,
+          "similarity": 0.759
+        }
+      ]
+    },
+    {
+      "deal": "Salesforce / Rune Technologies",
+      "query": "Salesforce Rune Technologies acquisition merger deal",
+      "hits": [
+        {
+          "n": 27,
+          "similarity": 0.828
+        },
+        {
+          "n": 29,
+          "similarity": 0.703
+        },
+        {
+          "n": 30,
+          "similarity": 0.699
+        },
+        {
+          "n": 28,
+          "similarity": 0.698
+        },
+        {
+          "n": 31,
+          "similarity": 0.698
         },
         {
           "n": 32,
-          "similarity": 0.794
+          "similarity": 0.687
         }
       ]
     },
     {
-      "deal": "Enerpac / SFE Group",
-      "query": "Enerpac SFE Group acquisition merger deal",
+      "deal": "CD&R / Global Payments",
+      "query": "CD&R Global Payments acquisition merger deal",
+      "hits": [
+        {
+          "n": 33,
+          "similarity": 0.813
+        },
+        {
+          "n": 34,
+          "similarity": 0.67
+        },
+        {
+          "n": 35,
+          "similarity": 0.663
+        },
+        {
+          "n": 36,
+          "similarity": 0.649
+        }
+      ]
+    },
+    {
+      "deal": "AIG / Everest's Chile business",
+      "query": "AIG Everest's Chile business acquisition merger deal",
+      "hits": [
+        {
+          "n": 37,
+          "similarity": 0.869
+        }
+      ]
+    },
+    {
+      "deal": "Luda Technology Group / AI Data Quant Tech",
+      "query": "Luda Technology Group AI Data Quant Tech acquisition merger deal",
+      "hits": [
+        {
+          "n": 38,
+          "similarity": 0.825
+        }
+      ]
+    },
+    {
+      "deal": "Pateno Payments Inc. / XTM Inc.'s EveryDay Platform",
+      "query": "Pateno Payments Inc. XTM Inc.'s EveryDay Platform acquisition merger deal",
       "hits": [
         {
           "n": 39,
-          "similarity": 0.785
-        },
-        {
-          "n": 40,
-          "similarity": 0.746
-        }
-      ]
-    },
-    {
-      "deal": "UFP Industries / Texas pallet maker",
-      "query": "UFP Industries Texas pallet maker acquisition merger deal",
-      "hits": [
-        {
-          "n": 41,
-          "similarity": 0.848
-        },
-        {
-          "n": 42,
-          "similarity": 0.753
+          "similarity": 0.873
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 208,
-    "headlines_new": 109,
-    "index_size": 2219,
-    "deals_found": 29,
+    "headlines_fetched": 197,
+    "headlines_new": 98,
+    "index_size": 2317,
+    "deals_found": 30,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19

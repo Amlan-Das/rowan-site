@@ -126,6 +126,13 @@
    "found": 29,
    "new": 6,
    "cumulative": 98
+  },
+  {
+   "date": "2026-10-30",
+   "shown": 8,
+   "found": 30,
+   "new": 5,
+   "cumulative": 103
   }
  ],
  "deals": {
@@ -774,10 +781,10 @@
    "acquirer": "BASF",
    "target": "Evonik",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-30",
    "stage": "Rumored",
-   "value": "\u20ac11 Billion",
-   "usd": null
+   "value": "$12.5 billion",
+   "usd": 12500000000.0
   },
   "vivakor|direct midstream": {
    "acquirer": "Vivakor",
@@ -872,9 +879,9 @@
    "acquirer": "DoorDash",
    "target": "Instacart",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-10-29",
-   "stage": "Announced",
-   "value": "$17 billion",
+   "last_seen": "2026-10-30",
+   "stage": "Pending approval",
+   "value": "$17 Billion",
    "usd": 17000000000.0
   },
   "intel|classiq": {
@@ -988,7 +995,7 @@
    "acquirer": "Thrive Holdings",
    "target": "ADT",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "stage": "Announced",
    "value": "$7.6 billion",
    "usd": 7600000000.0
@@ -1024,11 +1031,48 @@
    "stage": "Announced",
    "value": "$27M",
    "usd": 27000000.0
+  },
+  "salesforce|rune technologies": {
+   "acquirer": "Salesforce",
+   "target": "Rune Technologies",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "stage": "Announced"
+  },
+  "cd r|global payments": {
+   "acquirer": "CD&R",
+   "target": "Global Payments",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "stage": "Announced",
+   "value": "$40bn",
+   "usd": 40000000000.0
+  },
+  "aig|everest s chile business": {
+   "acquirer": "AIG",
+   "target": "Everest's Chile business",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "stage": "Completed"
+  },
+  "luda technology group|ai data quant tech": {
+   "acquirer": "Luda Technology Group",
+   "target": "AI Data Quant Tech",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "stage": "Announced"
+  },
+  "pateno payments inc|xtm inc s everyday platform": {
+   "acquirer": "Pateno Payments Inc.",
+   "target": "XTM Inc.'s EveryDay Platform",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "stage": "Completed"
   }
  },
  "totals": {
-  "deals": 98,
-  "with_usd_value": 57,
-  "usd": 597100300000.0
+  "deals": 103,
+  "with_usd_value": 59,
+  "usd": 649600300000.0
  }
 }
