@@ -1,521 +1,455 @@
 {
-  "date": "Friday, October 30",
-  "generated_at": "2026-10-30T16:52:32.734998+00:00",
+  "date": "Monday, November 02",
+  "generated_at": "2026-11-02T20:33:20.701640+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "The S&P 500 fell 1.59% to 7597.9 as tech stocks slumped after Amazon and Intel's earnings reports, with investors taking profits after a strong run.",
+  "lede": "The S&P 500 fell 0.23% as traders watched oil prices and the rotation out of tech stocks, while the Nasdaq rebounded 0.64% as oil prices dropped.",
   "sections": [
     {
       "move": "S&P 500",
-      "pct": -1.59,
-      "last": 7597.9,
-      "change": -122.49,
+      "pct": -0.23,
+      "last": 7562.69,
+      "change": -17.38,
       "sources": [
         1,
         2,
         3,
         4
       ],
-      "headline": "Tech Sell-Off Drives S&P 500 Fall",
-      "body": "The S&P 500 fell 1.59% to 7597.9 as tech stocks slumped after Amazon and Intel's earnings reports, with investors taking profits after a strong run. [1] The decline in tech stocks was also fueled by Alphabet's earnings miss, which added to the market's selling pressure. [4]"
+      "headline": "Oil Prices and Tech Rotation",
+      "body": "Traders were watching oil prices and the rotation out of tech stocks as the main drivers of the market's move. Falling oil prices supported a rebound in the stock market, but the Nasdaq's sputtering rebound and the S&P 500's slight decline suggested that the rotation out of tech was still ongoing. [2]"
     },
     {
       "move": "Nasdaq",
-      "pct": -2.89,
-      "last": 25428.3,
-      "change": -756.42,
+      "pct": -0.64,
+      "last": 25274.08,
+      "change": -162.92,
       "sources": [
         5,
-        1,
-        6,
-        7
+        2,
+        4,
+        6
       ],
-      "headline": "Nasdaq Falls After Tech Earnings",
-      "body": "The Nasdaq fell 2.89% to 25428.3 after investors rotated out of tech stocks following disappointing earnings from Amazon and Intel. Traders are watching the broader market's reaction to the tech sell-off, with the Dow and S&P 500 also falling. The tech sector's decline is attributed to concerns about the impact of artificial intelligence on the industry."
+      "headline": "Nasdaq Rebounds from Tech Selloff",
+      "body": "The Nasdaq fell initially due to a selloff in tech stocks, but recovered as oil prices dropped, easing concerns about an AI-led sell-off. Traders are watching for signs of rotation out of tech, which has been a key driver of the Nasdaq's performance. As a result, the index rebounded, closing the day at 25274.08."
     },
     {
       "move": "10-Year Yield",
-      "pct": -0.96,
-      "last": 4.94,
-      "change": -0.05,
+      "pct": -0.71,
+      "last": 4.89,
+      "change": -0.03,
       "sources": [
+        7,
         8,
         9,
-        10,
-        11
+        10
       ],
-      "headline": "Yields Fall Amid Economic Data",
-      "body": "Traders are watching for more economic data to see if it will impact interest rates, which is why yields fell. The strong GDP report and rising inflation data from the previous day may have investors waiting for more information before making big moves. This cautious approach led to a decrease in yields."
+      "headline": "Oil Prices Drop, Yields Fall",
+      "body": "Traders are watching oil prices as they drop, which is causing bond yields to fall. This is because when oil prices fall, it makes bonds more attractive, as investors are looking for alternative investments with lower risk. As a result, bond yields, including the 10-year yield, are falling as investors seek out these safer investments."
     },
     {
       "move": "USD/JPY",
-      "pct": -0.23,
-      "last": 157.47,
-      "change": -0.37,
+      "pct": 0.06,
+      "last": 157.9,
+      "change": 0.09,
       "sources": [
+        11,
         12,
         13,
-        14,
-        15
+        14
       ],
-      "headline": "USD/JPY Falls Ahead of Central Bank Decisions",
-      "body": "Traders are watching the Japanese Yen's reaction to upcoming decisions from the Federal Reserve and the Bank of Japan, which may impact the currency's value. The Yen's weakness ahead of these events suggests traders are concerned about potential policy changes that could affect the currency's value. The Yen's gains after the BOJ's decision, however, indicate that traders are reassessing their views on the currency's trajectory."
+      "headline": "USD/JPY Rise Amid Yen Uncertainty",
+      "body": "The USD/JPY pair rose 0.06% to 157.9 as traders watched the Japanese Yen's reaction to the US Dollar's moderate weakness. [11] FXStreet reported that the Yen was 'treading water' despite the US Dollar's decline, suggesting that market participants were cautious about the Yen's direction. [13] TradingPedia attributed the move to the Bank of Japan's doubts about the impact of its cap on the Yen, which added to the uncertainty surrounding the currency. [14] BigGo Finance noted that the US ISM Manufacturing data and the upcoming US Midterms were also taking focus, but the Yen's flatness was the primary driver of the USD/JPY move."
     },
     {
       "move": "Crude Oil",
-      "pct": 2.07,
-      "last": 104.11,
-      "change": 2.11,
+      "pct": -7.61,
+      "last": 96.2,
+      "change": -7.92,
       "sources": [
+        15,
         16,
-        17,
-        18,
-        19
+        4,
+        2
       ],
-      "headline": "Crude Oil Prices Rise Amid Middle East Tensions",
-      "body": "Crude oil prices rose due to concerns over supply disruptions in the Middle East, with the recent attack on a Saudi Arabian refinery reigniting fears of a potential shortage. Traders are watching the situation in Yemen, where fighting has escalated, and the potential impact on oil production. The rising prices are also attributed to diplomatic efforts to ease tensions in the region, which have offset some supply concerns."
+      "headline": "Oil Prices Plummet Amid Iran Peace Talks",
+      "body": "Traders are watching the hopes of a breakthrough in Iran peace talks, which could lead to a decrease in oil prices. The sell-off in oil prices is also seen as a sign of a rotation out of tech stocks, which have been under pressure in recent days. As a result, US stocks are recovering some of last week's losses, with the Nasdaq and S&P 500 turning negative."
     },
     {
       "move": "Gold",
-      "pct": -3.04,
-      "last": 3908.8,
-      "change": -122.6,
+      "pct": 1.32,
+      "last": 3950.2,
+      "change": 51.3,
       "sources": [
-        20,
-        21,
-        22,
-        23
+        17,
+        18,
+        19,
+        20
       ],
-      "headline": "Gold Falls Below $4,000",
-      "body": "Gold fell 3.04% to 3908.8 as concerns over the Middle East mounted, leading to a surge in oil prices. Traders are watching the situation closely, as a potential escalation could impact the global economy. The price drop was also influenced by expectations of further interest rate hikes by the Fed, which could put pressure on precious metals."
+      "headline": "Gold's Overnight Rally",
+      "body": "Gold rose 1.32% to 3950.2 as traders took profits from the previous day's sharp 11% plunge, which was attributed to pre-midterm election jitters. [20] The rally was also driven by softer oil prices, which are in focus ahead of the US midterms. [17]"
     }
   ],
-  "also": [
-    {
-      "n": 40,
-      "note": "The tech stock selloff deepens as investors take profits after a strong run, with oil prices rising amid concerns over supply disruptions in the Middle East."
-    },
-    {
-      "n": 41,
-      "note": "Concerns about artificial intelligence spending are driving the market's reaction, with traders watching the broader market's reaction to the tech sell-off."
-    },
-    {
-      "n": 42,
-      "note": "The Nasdaq hit a near three-month low as Amazon and Intel's disappointing earnings fueled concerns about the impact of artificial intelligence on the industry."
-    }
-  ],
-  "brief": "The S&P 500 fell 1.59% to 7597.9 as tech stocks slumped after Amazon and Intel's earnings reports, with investors taking profits after a strong run.\n\nS&P 500 (-1.59% to 7597.9): Tech Sell-Off Drives S&P 500 Fall. The S&P 500 fell 1.59% to 7597.9 as tech stocks slumped after Amazon and Intel's earnings reports, with investors taking profits after a strong run. [1] The decline in tech stocks was also fueled by Alphabet's earnings miss, which added to the market's selling pressure. [4]\nNasdaq (-2.89% to 25428.3): Nasdaq Falls After Tech Earnings. The Nasdaq fell 2.89% to 25428.3 after investors rotated out of tech stocks following disappointing earnings from Amazon and Intel. Traders are watching the broader market's reaction to the tech sell-off, with the Dow and S&P 500 also falling. The tech sector's decline is attributed to concerns about the impact of artificial intelligence on the industry.\n10-Year Yield (-0.96% to 4.94): Yields Fall Amid Economic Data. Traders are watching for more economic data to see if it will impact interest rates, which is why yields fell. The strong GDP report and rising inflation data from the previous day may have investors waiting for more information before making big moves. This cautious approach led to a decrease in yields.\nUSD/JPY (-0.23% to 157.47): USD/JPY Falls Ahead of Central Bank Decisions. Traders are watching the Japanese Yen's reaction to upcoming decisions from the Federal Reserve and the Bank of Japan, which may impact the currency's value. The Yen's weakness ahead of these events suggests traders are concerned about potential policy changes that could affect the currency's value. The Yen's gains after the BOJ's decision, however, indicate that traders are reassessing their views on the currency's trajectory.\nCrude Oil (+2.07% to 104.11): Crude Oil Prices Rise Amid Middle East Tensions. Crude oil prices rose due to concerns over supply disruptions in the Middle East, with the recent attack on a Saudi Arabian refinery reigniting fears of a potential shortage. Traders are watching the situation in Yemen, where fighting has escalated, and the potential impact on oil production. The rising prices are also attributed to diplomatic efforts to ease tensions in the region, which have offset some supply concerns.\nGold (-3.04% to 3908.8): Gold Falls Below $4,000. Gold fell 3.04% to 3908.8 as concerns over the Middle East mounted, leading to a surge in oil prices. Traders are watching the situation closely, as a potential escalation could impact the global economy. The price drop was also influenced by expectations of further interest rate hikes by the Fed, which could put pressure on precious metals.\n\nAlso worth knowing:\n- The tech stock selloff deepens as investors take profits after a strong run, with oil prices rising amid concerns over supply disruptions in the Middle East.\n- Concerns about artificial intelligence spending are driving the market's reaction, with traders watching the broader market's reaction to the tech sell-off.\n- The Nasdaq hit a near three-month low as Amazon and Intel's disappointing earnings fueled concerns about the impact of artificial intelligence on the industry.\n\nIndustry desks:\n- Agriculture: Corn and Soybeans Rise. Corn and soybean prices rose as traders adjusted to the latest USDA sales data [25, 28].\n- Mining: Mining Stocks Fall Amid Economic Uncertainty. The decline of copper, silver, and gold prices is causing concern among miners, who are watching inflation data and interest rate decisions closely [33, 34]. As the tech sector reports earnings, investors are worried about the impact on copper prices, while rising oil prices are also affecting the metal's value [29, 30]. The sudden drop in silver prices has also raised eyebrows, with some analysts attributing it to a cooling of AI hype and concerns about inflation [30, 32].\n- Timber: Timber Stocks Rise Amid Seasonal Slow-Down. Despite a seasonal slowdown in lumber prices, timber stocks are rising as investors look to the long-term potential of the industry [38, 39]. The usual seasonal slowdown in lumber prices has arrived, with some prices dropping as expected [35, 36]. However, timber stocks are bucking the trend, with some companies seeing a boost in profits [38, 39].",
+  "also": [],
+  "brief": "The S&P 500 fell 0.23% as traders watched oil prices and the rotation out of tech stocks, while the Nasdaq rebounded 0.64% as oil prices dropped.\n\nS&P 500 (-0.23% to 7562.69): Oil Prices and Tech Rotation. Traders were watching oil prices and the rotation out of tech stocks as the main drivers of the market's move. Falling oil prices supported a rebound in the stock market, but the Nasdaq's sputtering rebound and the S&P 500's slight decline suggested that the rotation out of tech was still ongoing. [2]\nNasdaq (-0.64% to 25274.08): Nasdaq Rebounds from Tech Selloff. The Nasdaq fell initially due to a selloff in tech stocks, but recovered as oil prices dropped, easing concerns about an AI-led sell-off. Traders are watching for signs of rotation out of tech, which has been a key driver of the Nasdaq's performance. As a result, the index rebounded, closing the day at 25274.08.\n10-Year Yield (-0.71% to 4.89): Oil Prices Drop, Yields Fall. Traders are watching oil prices as they drop, which is causing bond yields to fall. This is because when oil prices fall, it makes bonds more attractive, as investors are looking for alternative investments with lower risk. As a result, bond yields, including the 10-year yield, are falling as investors seek out these safer investments.\nUSD/JPY (+0.06% to 157.9): USD/JPY Rise Amid Yen Uncertainty. The USD/JPY pair rose 0.06% to 157.9 as traders watched the Japanese Yen's reaction to the US Dollar's moderate weakness. [11] FXStreet reported that the Yen was 'treading water' despite the US Dollar's decline, suggesting that market participants were cautious about the Yen's direction. [13] TradingPedia attributed the move to the Bank of Japan's doubts about the impact of its cap on the Yen, which added to the uncertainty surrounding the currency. [14] BigGo Finance noted that the US ISM Manufacturing data and the upcoming US Midterms were also taking focus, but the Yen's flatness was the primary driver of the USD/JPY move.\nCrude Oil (-7.61% to 96.2): Oil Prices Plummet Amid Iran Peace Talks. Traders are watching the hopes of a breakthrough in Iran peace talks, which could lead to a decrease in oil prices. The sell-off in oil prices is also seen as a sign of a rotation out of tech stocks, which have been under pressure in recent days. As a result, US stocks are recovering some of last week's losses, with the Nasdaq and S&P 500 turning negative.\nGold (+1.32% to 3950.2): Gold's Overnight Rally. Gold rose 1.32% to 3950.2 as traders took profits from the previous day's sharp 11% plunge, which was attributed to pre-midterm election jitters. [20] The rally was also driven by softer oil prices, which are in focus ahead of the US midterms. [17]\n\nIndustry desks:\n- Agriculture: Corn prices rise despite lower crude prices. Despite a drop in crude oil prices, corn prices rose, according to Pro Farmer. This is because corn is seen as a more stable and reliable commodity compared to oil [21]. The USDA data accuracy is now under scrutiny as corn prices move higher, as noted by Wisconsin Farmer. This is because the data is used to determine crop yields and prices [22]. The mixed trading of soybeans is a concern for farmers, as noted by UkrAgroConsult. This is because soybeans are a key crop for many farmers, and their prices can have a significant impact on their profits [23]. Farmers are watching for signs that high corn and soybean prices will start to drive buyers away, as noted by Successful Farming. This is because high prices can make it harder for farmers to sell their crops [24].\n- Mining: Copper Prices Rise Amid Supply Concerns. Copper prices rose as Chile cut its supply outlook, indicating a potential shortage in the market [19, 25].\n- Timber: Lumber Price Drops, Timber Stocks Rise. Lumber prices have fallen, causing timber stocks to rise as investors seek alternative investments [29, 30]. Weyerhaeuser's strong quarterly earnings report has also contributed to the surge in timber stocks [31]. Investors are watching for further developments in the timber market, including the impact of global demand and supply [32].",
   "moves": {
     "S&P 500": {
-      "last": 7597.9,
-      "change": -122.49,
-      "pct": -1.59
-    },
-    "Nasdaq": {
-      "last": 25428.3,
-      "change": -756.42,
-      "pct": -2.89
-    },
-    "10-Year Yield": {
-      "last": 4.94,
-      "change": -0.05,
-      "pct": -0.96
-    },
-    "USD/JPY": {
-      "last": 157.47,
-      "change": -0.37,
+      "last": 7562.69,
+      "change": -17.38,
       "pct": -0.23
     },
+    "Nasdaq": {
+      "last": 25274.08,
+      "change": -162.92,
+      "pct": -0.64
+    },
+    "10-Year Yield": {
+      "last": 4.89,
+      "change": -0.03,
+      "pct": -0.71
+    },
+    "USD/JPY": {
+      "last": 157.9,
+      "change": 0.09,
+      "pct": 0.06
+    },
     "Crude Oil": {
-      "last": 104.11,
-      "change": 2.11,
-      "pct": 2.07
+      "last": 96.2,
+      "change": -7.92,
+      "pct": -7.61
     },
     "Gold": {
-      "last": 3908.8,
-      "change": -122.6,
-      "pct": -3.04
+      "last": 3950.2,
+      "change": 51.3,
+      "pct": 1.32
     }
   },
   "sources": [
     {
       "n": 1,
-      "title": "Stock market today: Nasdaq dives, S&P 500 and Dow fall as Amazon, Intel earnings fuel tech rout",
+      "title": "Stock market today: S&P 500, Nasdaq rebound sputters, Dow edges higher as oil prices fall",
       "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMmNEai1SV3dYYlZwUk1QY3FtOXoxZTktbmpocFhsTzNfY0F0OVk2MHRBa2N4ZjEwUXQ3RWRyR250SlladGk0TXI5aF9wa1BHdDk4YkVacGFnTXJqaGswSTFHazB5MWxuNm5sMU1odjV4U0FXR01EQ3k5RmREM0F6d2VlQnh4U29TMXhvWG1VWmJqQjFfQWFvODZyX0djZ2ZHNjFrQzdOd0R1c0RSeHNOMEM0cUplbE5Ecm44Xzhn?oc=5",
-      "snippet": "Yahoo Finance Stock Market Today: Dow, S&P 500, Nasdaq fall as tech stocks slump after Amazon, Intel earnings; Treasury yields decline MarketWatch Stock Market Today: Nasdaq, S&P 500 Slide Amid Tech Sell-Off as Intel Plunges After Earnings; Gold Drops to One-Year Low Investopedia Tech Stocks Tumble,",
-      "published": "2026-10-30T16:43:51+00:00"
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWEN3YWd4QU9NOS12cVJFSVU2NGFBb3VpcXpaSmlCbXlYY1Q0bDNETEY2UDc5REw0Q3BndGhvb3ZCQVdhNDFOMTV3RVJBWkR2dlJibXZ1UnFEaVNhdkxCZlZKM1FLemVoeHZfY0VUNzFVRjJoeEtKWnZFSHJKZWdtd04zLW1ZT01WZ2FodENVNktQZDRuNGlNa1dncGdtQzdNeUNsNXBKanQyQnpI?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-11-02T19:41:44+00:00"
     },
     {
       "n": 2,
-      "title": "The S&P 500 Rose 30-Fold Since 1988. Reinvested Dividends Made It 67-Fold.",
+      "title": "Wall Street Futures Rise as Falling Oil Prices Support Rebound After Technology Sell-Off: Dow Jones, S&P, Nasdaq",
       "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc05YQnhUc21pdENRSTdpUm1lZ0k2TlV0NjJKcU13M3VyVWZYSkhCVE4yWlBXRlBjbVRJeS1ZNl9rVmUyYV9MNDVPQ2lmNlJuZ2RvSUVnZ3pxMEx5Z3JpTVp3UXVqdlNWbGs3aE1fRnFiZnFLeF9ESGFVZjJYRHBhSzRWUU1OcjhTN0ZZ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNb3FRSDF2SXFyTjI4eU5aUFdRNHhWdEhiR2hmM3ZNVnF6Mmt2SWpkUXRPR0tEaFBnb3RpY1RjMGJZUlh6RUJmT2U3cVRNcjZlSzd0SnVmSDUwRkpqRVdZTFpuWU9vd2h6S1pBNnUxTWdBNUFyYk5NUk9fZnhHNmszbmVpeDQ5S0tkNk12OXFNUS1SdVRjSFZOb1R4N2NXZw?oc=5",
       "snippet": "Yahoo Finance",
-      "published": "2026-10-30T12:48:01+00:00"
+      "published": "2026-11-02T14:16:38+00:00"
     },
     {
       "n": 3,
-      "title": "Morgan Stanley warns the S&P 500 could drop 8% before kicking off a fresh rally",
-      "source": "Business Insider",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNzE0SE90WVBuN3dWbEhBdXhCRmhOTGxPdGs1ZFhOYmtRY3UtWkVGd2ZmSENWMmlRTUpOSV9TNXAyb3hzXzVDRW1FSC1oeThObEExTUFUaWQ3UHluRkJHcXl0M1V4WDhVTVZYQWdaemUwN0xmaVBZQW0yMnBtSGFES1k1LWU5YXNoaWEtQTZacmZQMUJYYXd1QjAydnJJcXRIV2c?oc=5",
-      "snippet": "Business Insider",
-      "published": "2026-10-28T10:30:00+00:00"
+      "title": "Stock Market Today: Dow, S&P 500 and Nasdaq rise as oil prices and Treasury yields fall; Apple earnings on tap",
+      "source": "MarketWatch",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQl9sYzAzMExvX0pWb3d2dFczSlRqQ0Y4QjBuN0toQUdfUlBsUzlOTjVNSFY4ZmFlQ2xQRVR0Ymd3Q1cwWnZQbUNocUVwc1ZfZzZ3ay02YVhLY1l2YXVIN3kxTWRrYk1DcXBja2M1S3RXUmlkSXY3UEJkdTBfOS1venNZSlRrdmVNekVFTG1HT1VvNUVlQ1BVczRpS0s3VVZJcVBERE9Idm5ldnc3LVBldkoxV25lTzd3OTA0Qi1fM3BheW9QU1ZpR1R6cEw3dw?oc=5",
+      "snippet": "MarketWatch",
+      "published": "2026-11-02T18:49:00+00:00"
     },
     {
       "n": 4,
-      "title": "Stock Market Today (Oct. 29, 2026): S&P 500 falls on Alphabet earnings miss",
+      "title": "Stocks rebound as oil prices sink, Anthropic releases Q3 financials: AlphaCheck",
       "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVmw5c25SaXNka1owbVFKdjMxZV9UaVkwa0lyeTZBenpfVWh3TWxlQk15MHFtU0VEd0VWME45VVRULXQwYURJMENEWlJVX3liTXF6QXZXcW1iNkR3UjRIekJKWEpibWRwQkZDSUF0Z1lwUEJSc3JjemtMblJvWm4xcEl3dzhkQjBza2l4M0dKV1M1ODlv?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-29T13:46:23+00:00"
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVHBUcTNsM3U3T1MydjFBWU5TVVZZS0RHbkVlZjIweHVhT1dwdTFBZ0lJaE9WbGFQeDdWQkcwNE5ma0J2T0E0TzZLaW1LVHdzeE9VNXVwbThVQ2J3MkdaX3MwTFJKcWVPSlA0YV9HY1BQdUxvaE92ZHRZOGN1cTEtVzBvVEV6YktORXRwR3YydDMzTm5Cai0yVEJ1YU03MFo3Q0RQYkR6WTlHNUVGTEg2Z1NmUEZzSkZnU3phdzg1aDhmcWJad3RBdUY1dVdTTm5yY1RJR2J3Q2lmcVE?oc=5",
+      "snippet": "Yahoo Finance US Stock Futures Rise as Oil Prices Drop Easing AI-Led Selloff Bloomberg.com Nasdaq and S&P 500 roll over, turn negative, as rotation out of tech continues: Live updates CNBC",
+      "published": "2026-11-02T15:00:44+00:00"
     },
     {
       "n": 5,
-      "title": "Nasdaq falls more than 2% as investors rotate out of tech after Amazon, Intel earnings: Live updates",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZVVQzRnJqelRyUjFGQjZLZlhIbGsyQUxabzc5TE1TaEx6TWRnaTRRcXVmanBTWXZ0NmhmZWpHeVZFZ3lSX1kyaEhfMnBVMnprQ0xscEpBZzhOWFZLbnZCcUtDUnJJNmdROEhxOVhSRDdFVDd4THg00gF8QVVfeXFMTmgwT1lfNnJpUlczcFVnQW9lanFWbDZzYXRadlNsNmRoS1NSVURVS1VsRjlsWGlZOGhiTkF2X3FJRzJnTllYaTAxdVRCSjgyUlduRGRQTV9kUzNDdFVyQ0VWUHQ3ODU5bW1hZ0hvS2FubEFWMEJnWnAtdUN0bg?oc=5",
-      "snippet": "CNBC Stock market today: Nasdaq futures dive, S&P 500 futures fall as Amazon, Intel earnings rattle investors Yahoo Finance Stock Market News, Oct. 29, 2026: AI Jitters Spread as Intel, Amazon Results Disappoint WSJ Stock Market Today: Dow, S&P 500, Nasdaq fall as tech stocks slump after Amazon, Int",
-      "published": "2026-10-30T16:29:00+00:00"
+      "title": "Nasdaq Rallies as Tech Stocks Recover From Friday's Selloff",
+      "source": "Schaeffer's Investment Research",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVEUwTFJiQTE3NFMxYUVHSzRsLVBlclFFXzZ4MWptRlRWd1dHdVFfaGd0dlM2U0U4YkV1YTZEMTByTjZZNXRnVFRhOFE0c3V1YkY2WnhKUjF2VnRBM1VoNHkzUXFHNjJvZkxOdDlxaWdYVHBBLVJBeVlGdmNTemplU3ZxUENJeTZLMEtUdlByZkMtbDhrSXRPZm9zb1E2TV9zalY2T2Z6cXREUGR0aWhoQmIzVWFHd0pnaWF3?oc=5",
+      "snippet": "Schaeffer's Investment Research",
+      "published": "2026-11-02T17:16:12+00:00"
     },
     {
       "n": 6,
-      "title": "Nasdaq Edges Lower as Tech Rally Stalls Out",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQS02TUtVR24xWjdGNTJrLXR6bGtDYW5EclpiY2JOMDJvX1lMN1BDd3NEalhRb3lsdUpsNW1Uc0FjdlFDV3pCTHU3aEY0Mm1qajZaMmd0QWNRcl9JVE93M2txc2ExR3JkbU1qUk0tZDFPd1ZsQUx4dEJabmpSQ1RxQkljSVdqdlczX3JNaHVHWTJDMDQ2X285ZDhYZW9LaV9aMlVBVm5lZFJFZw?oc=5",
-      "snippet": "WSJ",
-      "published": "2026-10-28T16:25:00+00:00"
+      "title": "Nasdaq and S&P 500 roll over, turn negative, as rotation out of tech continues: Live updates",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBrbkQzMEJlOVN5RDBtcEZuU2VQSkZydW01ejJqY2hObWJXOUl0dUhUMWVoVXRwZWhsU3BIRkVGR0lhc3JmM0w4ak5ybUpCVElXOWxKMm1tQ3ByOE5TNzNJQm5YUDFaa2hRNENZNDJacnlMci1tZmU00gF8QVVfeXFMUHRLQWRCRkw3cUdsOVZINFdPc1VsLVN4UzJKT1BmX2ZaMlBrcDM2WER5cXY1LTdZQjZXMy1FVUU3RFhFcHVxcXA5eEx0a041Vlo2Y3BlVXN2S0hpTG9tVVV3SndoWVRMU2JweGZKUVNpVWxJeXk4Sno4a2hmZQ?oc=5",
+      "snippet": "CNBC",
+      "published": "2026-11-02T20:01:00+00:00"
     },
     {
       "n": 7,
-      "title": "Tech Stocks Tumble, but Broader Market Is Holding On",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1lZFpybG4tcVZURUg4djdncV81ck9kdS12V2Q5bW1VN0RyOEV2VkhQUVluLWd4ZkFiSmh6RzJuWFNZT2VOYm5CZ0pNRHZrQUhNNzlMdHBhZE9qUlY1bmJRVGxMOWRoLTRpaGpTelJwYzI1Q1E5Z3c3eUxhUzk?oc=5",
-      "snippet": "The New York Times",
-      "published": "2026-10-30T15:53:05+00:00"
+      "title": "U.S. Treasury, European Bond Yields Fall as Oil Prices Drop",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUGUwUW9rQ2ZHNURiZzhMRDEyQXVMUkQ0c3dreUlKakhxR2JRTzV1dUlKWm9KbWFqd3ZRVWF4Qk1rTi1jdDBSZm9aRVNFd1hOVlI5dUJSTTdKbFUtSGw1MGFac1pWUXUtcFRzd282c2RMdXh0bW12WUJnVUlkdDE2RllDTy04NE92aDlvTnBXaHBTSkVHVmJncUV6SkE3emxqbHZSX25FTTZFaGVhWm52QU1HbzdaYjNfRTQ0RnBzWkkxQmtEN0JtWA?oc=5",
+      "snippet": "WSJ",
+      "published": "2026-11-02T19:10:00+00:00"
     },
     {
       "n": 8,
-      "title": "U.S. Treasury yields fall as investors await more economic data",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NUzdmdnZUZHUxOE1CV0xGYzQwOENIc2xvcmdfSTVhWklWMkRRLUkwQktBdURkcHo1cVZHWmlzc1RBUFV5QlljNFJYajlRMGtlUEUwYTJ5LUtqZ1luS29qSDI0aGI0YUMxMjcxNFhQcG5xcW52Rk5wQmwzNEdYMGPSAYQBQVVfeXFMUEVTdlR1RDZpc1ZDalJPOXdkeWMwbFFnZnNzVVUwdEdCY0d6R21ZbTF4Q21LdE5MQTh3dW5feVg3cWxPVEZyQTlHT1ZpYzBzUm5uYkNFTWVmb0EtNjcxdVZOakFZWjRVZmFkTFRzQ3QwZ1Z2RTJnWnFwc0lMYTNoZWd6aUMw?oc=5",
-      "snippet": "CNBC",
-      "published": "2026-10-30T08:09:48+00:00"
+      "title": "Treasury Yields Extend Past Month’s Slide as Oil Prices Tumble",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYklzcjZIYkJLNGJ5eXZ0S3dQWTJXMk9Xd2QxSk9oandNUG9VdE5pQnFhc0ZLQnBrZGtqeDVlOGNRUnh3U3Rqd3VhM1JubTFPOVU5MzRudi00SUhtOHcyUkkwLUtPTjl5S2RkZmVpZXJNbENwN0h1NnRjM2piRm9uQThVdjhGRDFWbWVJa3VvYnpjdFdKa3VjeFdUYVpxM2ZBc1JKdnhMY215WUNCaElla19pUQ?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-11-02T17:44:40+00:00"
     },
     {
       "n": 9,
-      "title": "U.S. Treasury, European Bond Yields Fall After Fed, ECB Hold",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMVJzTU8waHdld3FnbVROOGw4ZEtGS2g3UHpKYVFXTXhzdW9DeW8xYmJrY1RmWGFvNUlqWThQR2FWaTRuaklmYWlhbTNQV0lfa3BNNmFjSHBUaTk0NDVNSHRFLUg5MFFhTFZZMWZrTHh5ZHpYVnVzMlpNZ2hqaEM3LVJuOUhrUV9kc3NGRHpfdFNkUEhTX2oyTzVRMUhvS1dyNkF1UVV4eEtFM3VXTXJvUG9Lc3dnRjRDc190d0Vzem5ZNmxfNktGcUl3?oc=5",
-      "snippet": "WSJ",
-      "published": "2026-10-29T15:23:00+00:00"
+      "title": "Treasury yields are mixed as oil prices tumble ahead of the midterms",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zeUV1S0FMQzdjaTU2S0djZmVVMjNSZ0hKMGdGdHpjU1p3NEs0ckRaNjJlemVySWtTeWZGMkNraWVmR1F5Y3RjUHhxZkxiRlpRXy1UY1VTYm9fWm5WTzhjRDlWOENzazhrWGhkZW130gFzQVVfeXFMUDNESWlyVGRXTEFHaHJxSFp1YXNkeWlQNkk2cXU4eG9maHROb3lZdzhMRzRJOWptcGF4bjZNZzlkTTE0cERiQ25vMGh1MUpvRGFHd3pMaE94N2dCcENocHJ3QlhVLWVlM1dpemVmV2QtWWhidw?oc=5",
+      "snippet": "CNBC",
+      "published": "2026-11-02T09:27:17+00:00"
     },
     {
       "n": 10,
-      "title": "U.S. Treasury Yields Fall; Eurozone Bond Yields Mixed After GDP Data",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS1p6ZkxEeDY0SlhyTDJKSXkyR1NkOUZVa1Z4NWJHU2cxdjFfVlI0TVBGZUZRR1dkLWpEY2RtNC1wSjZKb3ZKaTloVHlvVlF3cFZvdFI2Y3R4c3RIeFd3NU1NMWRpVDBlc3M3STVwa2ZxNVpTLTBIN0t5VTF5alltRGxFQWM3QUpibUF1LWN1Ykhmb3FvVkVmR1pDczZEa2YxTXZz?oc=5",
-      "snippet": "WSJ",
-      "published": "2026-10-30T10:31:00+00:00"
+      "title": "Update: US Equity Indexes Rise Amid Sinking Crude Oil, Treasury Yields",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSVhSa1pQX01UN0dhUVlsNGNBeDZNQ1J1S1k2Nzgyd242Vm5RR3RvR1lVWGdvWjE3ZHZodHMtMmtRQW51WDQtLW0tUXBIOXo0TDY1UXpwa2tkamtlV0VJUTNueXpHb1ZLV3FwSV83LUFVWnVmRnJfTWM4RlhpLWJhVXVuaU9BamU0NVBBUE90QkdJX05ZRHNN?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-11-02T19:18:26+00:00"
     },
     {
       "n": 11,
-      "title": "10-year Treasury yield hovers below 5% after strong GDP report, rising inflation data",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tUkpYWmlUR3kwRzB5cTZuejFRaTloS09XeThKc3hXUnVVem12eHNkN0ZnV2VpemJ2N09sZWNkenlUNGhHVUo4RmdxaDFIUFhSU0JmMHlKckhSbXhxWXpMUGNsZ0dWOVVmd25nNnRpTE1lbEpTbWhkNk9VTnRpeGPSAYQBQVVfeXFMUE1seWVoTlViUzNtNmZyRk1NekFwcWN2ZkZSMUhWOUY2UHJQWnVZcTB2d1NPRXNzcmhzWlFGWlNNYUd2RTlEbUR1WEZlLWVCQzhjclZPdjlVX29STXVDVW1GOFVaeVUxeUoxSk9GRkhEeGg4RmlXclBlb1ZGZFgydFl0SjJN?oc=5",
-      "snippet": "CNBC",
-      "published": "2026-10-29T10:48:54+00:00"
+      "title": "Japanese Yen treads water despite moderate US Dollar weakness",
+      "source": "FXStreet",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOXpPYk15U081S3VScThlN2FMM0o5VzRJeFNLdVFFTnY2d0dDVy1acjZva2REYldMR08yZk92TllJVlZueVVOb0NURXR6OWhQd0NzRUROZ1UxREZESzhGY3VlQk1TS0VaZldlTWc0ZHl4UG9YRHc4Z25tbTk1RklmOWJkV3JyNmhFYloydXE0QXVZVHQzYllRM2lQRV9ZTHJYaGctRTU0aw?oc=5",
+      "snippet": "FXStreet",
+      "published": "2026-11-02T09:35:09+00:00"
     },
     {
       "n": 12,
-      "title": "Yen weakens toward 158 per dollar ahead of Fed and Bank of Japan decisions",
-      "source": "Economies.com",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQXBQNmpvcGtLUzRQWnRnVHN0b1NfNmEzM2tJcGx2b0pTTjZidDVzdmJWaU5mZ2R0eE1sWEI4djJZekFWWHVXcEhiTGphUGoxSGZuNW9EWGdnTDFTdmtXQXFaa3A3dTdkZUcxVDZiaE1iU0ZiUVA3T0lYVnE2NUFBNWlJX180clotdjhpODhKWTZNZzNBU3o0V1IzWjdHYXotaVdGNW9FYnlSUVlrb3JFRXdrTi1lTm9venpBYWlmV2l1ekNHSVJHZkFGUEQ?oc=5",
-      "snippet": "Economies.com",
-      "published": "2026-10-28T16:06:00+00:00"
+      "title": "Why is the Japanese Yen flat despite a modestly weaker US Dollar?",
+      "source": "www.tmgm.com",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNb1d6RC1IdmFBYThPbnNYc0RQZEJaSXEtS2poYXo2X2xNS1loZVVCOUZEUWo0OXJ3amJMTEszNU1sWUNJN01Ld05jMlhwaEwydFN4OGY5a0t6QjVIMWtWc2pEUXExUVdqVGNYYlhOanZGcUtTN0IxOHNkZWx3WnJJbUtZdFJyaVBZYy1iXzZTU193MEhHanB0YlVhT2F6bkhsZThEeWw2VW5uYmZpcTBnR2xyY0lHT0hlYlFyZlQzWW90cGlTaUFLSUh3?oc=5",
+      "snippet": "www.tmgm.com",
+      "published": "2026-11-02T11:06:41+00:00"
     },
     {
       "n": 13,
-      "title": "Japanese Yen flattens against US Dollar, BoJ policy takes centre stage",
-      "source": "FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPakJmU1VkbWc4LURyTXV1Ynh6cnVRZTdiaUw0Ty1iUzBUa2VIRGhPMzhBNEtkeUdVOE1Ld3pPb2NaSXpUbkppZGNxaG0tMC10eU5Wc29JN0xNTml6NnhLWDBCaThIUXJPZy1tOEZSMnk5TzQ5bVBjY1R2a2R0Z09fcVZjS3hReHdMNmtUOTF3U3hXVXJ1NVVFanZWa2NoYlMtQk95OFYtQ2lZaXFNbExodUpR?oc=5",
-      "snippet": "FXStreet",
-      "published": "2026-10-29T06:08:37+00:00"
+      "title": "Dollar Advances vs Yen as BoJ Doubts Cap Warning Impact",
+      "source": "TradingPedia",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdFp1MHpnNVoycnRCZFc2TnBkQ1NOSTF4WUFxY2llX2E1MmhKRDk5VXBrMEt1eTFocmVockotMmVkY1Vkd083M2pKMUMyUTRuU29uYlA5ZUdreWZZZm9tbndwWFEtUUFnYnBOYW9TMHh3anFneldmcnZqWXlieW4xSWlfTHF2azUxU1BKLXB2Vmhjc2h2bDRsdGRMWXQ?oc=5",
+      "snippet": "TradingPedia",
+      "published": "2026-11-02T07:18:05+00:00"
     },
     {
       "n": 14,
-      "title": "Japanese Yen holds steady against US Dollar as focus shifts to BoJ policy",
-      "source": "www.tmgm.com",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObVVLUHZJTUw3UHdHal9rZmIzNVRYT19idzVBSGdidnUzTDlDbGtIaGhFc182cDQ4RVhQVE1lbGNZX3lZQWxNaDRNcjVUSDFGdXdXTGpMOVZ4NTl2THFRaWdzeXp5SjBhcmpmblEtaW5hSW1sUkE2VHhkQkdUTzdQM0dmT0g3OXd4T3BfYUdLT2dZMHFWWG9EdFVWMUtDYUNENTVPN3I5c3ktVjk3Y0hqSTRKeHlDSUYyRjRPcXNobW5lckg5dVQyMFNnc2xNandPaGc?oc=5",
-      "snippet": "www.tmgm.com",
-      "published": "2026-10-29T11:51:40+00:00"
+      "title": "Dollar-yen battles around 158 as U.S. ISM Manufacturing and Midterms Take Focus; Intervention Watch Caps Upside",
+      "source": "BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1UUW5tVkRZVWJTMmN0ampOaXROUHhHM2hhRmdzSzdyOXA5TDVrNTgzQUdzaGV1R1JDNmpoUTc4UmFOY3NPMjlVSEVCNk9WRmNEQWtSVHRRVmZQeGZDbDVpZHlQTzQxaE5XTGJQMTkwRi1BaTk3MFE?oc=5",
+      "snippet": "BigGo Finance",
+      "published": "2026-11-02T11:11:59+00:00"
     },
     {
       "n": 15,
-      "title": "Yen gains after BOJ; AI selloff weighs on dollar",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMHRlb2xFdjF1SUl3NUktRkR1WEpsOVktNG9kRlhNQWhVZm0wMGdPdlYzYUpxQVdTV3FnVkF4ekhmOUYyX3R1d1JQTmlGRGdrYVB6LTlWNTA4YXIzb1lOMDF0QW4zb25aaVNkRE5RaWlEQUZteXZMWnVmcGVTU19yVFlBY1FZZFIyWHRaYUhZbERiOHZvdXFhNUtIakZ5UmFjVy1vVzVjZmwzX0NKTHNXWWZFZ2M1bGlIVXNuZ3hn?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-30T01:48:00+00:00"
+      "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQXd1a2c2UEtTYmUxbDlrUGdYYmxXdWJJd19lbVVpa1NCZFNIT1ZpV2xBOEFmY195WVZSLXNIdktTTldXRHVlWHBYN0ZIRmhMb21lRWY0X1U2NERwSzNLSTFaVjNFTmVXWDBrM1BrNE8yTjBjVUdFWG9ET05OdGhPMUstRzljYTjSAYwBQVVfeXFMTVhDTDhNM0RuaF9EMUI4clJLbjhRWVNITUd3Z3BUX2dPaXgzOFVEYlFQajBfbTFpdGtoVzhsUm0tYkdST2VKYjZPbWZCZTNvVnJra1oyU3RWRUNkYmE2dElpVUVGRDBxLWVXYVZlOVBoUy1QNVJ6dHdnOVVJUjdSdm85QWRxWTFDUmMwTHY?oc=5",
+      "snippet": "CNBC Oil price falls amid hope of a breakthrough to end Iran war The Guardian Oil drops 7% as Iran signals openness to peace talks Reuters",
+      "published": "2026-11-02T05:04:26+00:00"
     },
     {
       "n": 16,
-      "title": "Oil Prices Rise After Hormuz Tanker Attack, Houthi Claims Stoke Supply Fears",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUnhpZVZHQUliUnJIQUJWb3JmbVl6VV9GZ3NJN0M3X0EzZU9pa2N4SEcybGNlakZkcmxyeVNqV0E5LWRxTU1VZUM4Uk9TdGZTS0RJLU1CZ1JVVFBlM0pTcWFPd2U0b1RFTkVyV2oxSzNwZzYzMjBwVmRtbUFvWUowS1RPSEQ3eE1Qa2ZQQVJ5SExsbzVXQTQtNlZYRC1Bbnh2YmpnZ2VGaHZLQlJDRWJRZEZOU2VCZ1hPcENQcTUtYw?oc=5",
-      "snippet": "WSJ Oil prices settles lower as diplomacy hopes offset some Mideast supply concerns Reuters Oil flows are up as Iran war turmoil eases. Why do prices keep rising? Al Jazeera",
-      "published": "2026-10-30T13:50:59+00:00"
+      "title": "US stocks recover some of last week’s sell-off after oil prices drop",
+      "source": "Orange County Register",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wUWJhT0J2UlliWGZCUlJRRW9qajVOaE1NUDhQdUlPdGdSX0t6bXcyTkN3LXBGTVI1c0IzeVFYY3VJZS11cDlTV05PNFFGbnl4anVZd0wtakFkWVAzTGdlUldROVFRMnBxVXpkRg?oc=5",
+      "snippet": "Orange County Register",
+      "published": "2026-11-02T13:58:23+00:00"
     },
     {
       "n": 17,
-      "title": "Oil Prices Rise as Houthi Militants Target Saudi Energy",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSlpYejlRTmd1MFprTGxzTHhIQi1taDhJVkMtTThYN1Y5UktONWZxcVM5TEJ2Sy1Jd25QZXFCem5uNDkzOGU3Z0NONzE1V0ZPT2E2QlJTdjZreDg0eXA5Z21MandpYmI3azQ5Q0h4azVTdHpYQnVQVGdYR3pEajBid0QtT0taZl9OVktOSUhIWjl6eGdqYlJ5RFZOd3p1LVRkVjVCVg?oc=5",
-      "snippet": "WSJ",
-      "published": "2026-10-28T13:29:34+00:00"
+      "title": "Gold rises over 2% from one-year low on softer oil prices; US midterms in focus",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXFkdElkaE5fVGZ6eUVZUFZnZjNuaUFoM2pPZ1ZJeEY4bmN0Wm9zSTRwLWpHcjNjLWRLRklsOV95a21mWjZWckhUam5qTVZVUzVDdWEwQXVOVWlpaHpCMktPLU41TGNkZjI3MFM1azNvSEtUai1pUGFpNi1mZFhISlB3TXFUSWtseGlhYmRISUpuWXdlVU5mLTJPRQ?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-11-02T05:04:00+00:00"
     },
     {
       "n": 18,
-      "title": "Oil prices rise after attack on Saudi Arabian refinery reignites supply concerns",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcDV4QmI2SFpkWVRwRDAxMTFvdThGR2taVFVxOGVaUkFVVkdVazljdVVuT1VMSEsxNnZTUWV4TUUtczRRSWhsWTItNm9nQnJJTTJNS0NUeTVvQVpHWUhiVU13YVhpQkpjN0NkQ2JUYXdHeGVqWHRyd2NMVGxEYWhXdWZmcHJ5TUVSR1ZPcFYwWUV6ZG96NTFINE13b1lNbG91aE81ZWtpTExzNVExSnRBZXlEV3QtT0sx0gG-AUFVX3lxTE5OSkNGaVh6UzFjX0s1cnNYYm5aOEpaTFBCYXJVS0pOM3Y4aXVnU1BLT3hYd25JRHZsUGdzMU9yS1oyRHdwc3VMaHd2Mmc2TEVsRWhfU3E3dkliUVZ6UEJLUmhyekxyVFdfMkVMaXlwZzVjLU5rRTZxb2pUTmRnOVQ1ZW9NbVhBd2dIR292SExTOEgzRUhXRzl4dzVORjVnUXpIRmhELWNGbHRQb0hOdU5WNWJKSF94aHRfc3UweHc?oc=5",
-      "snippet": "CNBC",
-      "published": "2026-10-28T02:43:00+00:00"
+      "title": "Gold and silver prices surge after sharp selloff, India set to ramp up silver imports into 2027 – Heraeus",
+      "source": "Kitco",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSW8yekFiaVlpY0t1QllHd3hxZW5YNk0weU9CU0dqZ01YWHVXV01RWlluZUtFR080TzhLd3AyMFdpSlI0bzBQVFhmMVJuUE1ycUd4X0d1Wk5oaEJVU29kT2dVMUpUNlhNSlA4eHdKNnRSODM3Z3Z3aVAtTmNhUlBXSTBCNHFiR3Eya2dzYnQxM3ZsN3RaenZyb2s2Z18wUUphSWJOSEUwZU1DSEZQejhEZG5PMjFhYXM?oc=5",
+      "snippet": "Kitco",
+      "published": "2026-11-02T16:12:03+00:00"
     },
     {
       "n": 19,
-      "title": "Oil prices rise about 2% as Yemen fighting stokes supply fears",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUhHblNqOGNPczlpdUR2NDFMWjZxX2FZYjVTTzREX2R4YU5jRzF2ckN1MG9sSnIxWG9hbDJ0TjV4YTZXRjdqSUc3aF9OcTJuUVlJZkZrdUd0V0RMUU1qUWxiNDdmdXhCTmJUczZWOFRUWTRKdzJQLUJYNXZBODhnTjJfOXMyNU01OGVreWM5TkNyamNjbzV5UzAxX3ZOdWcwcUE5SFZHSkEyUjZ1M1dUQ3ByRDdxbC13ZzRQR0xfcTZ0bjh6dnNPalJZRWI?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-28T01:49:00+00:00"
+      "title": "Copper Prices Rose As Chile Cut Its Supply Outlook",
+      "source": "Finimize",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQjhMTkxfYXBCalIwZllGWUgtcEcybmIxT2NWOGctbl9vZXBnU1dQVTdFcXE5UGRManZMa285TmlHLVAtRnlRc09SMUVxS0N3dDdZcHlPMzY2WWk5MC1qNVBmWXFBQ3pJcmF2MDYwdkhPQVRIZzFXZGtSQTNqY3QxSXZwUQ?oc=5",
+      "snippet": "Finimize",
+      "published": "2026-11-02T17:10:15+00:00"
     },
     {
       "n": 20,
-      "title": "Gold price today, Friday, October 30, 2026: Gold slips below $4,000 as Mid-East concerns mount",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONDZKVXFEUEtkWm8xRm1EWDNURkFBdjdQX212NzZGZk1lbHJwWEFUTkZFVWxnOG53MmstWTBwMmk1eUg3XzRMeXBpNFhKVUVMYmF5QWNwdFo4a3AwaWxkVXg4TmltM0QwSDMwTWJad2JBUnJaRXE1Qk5wTEI0OWNEQi1kZDFJRzRObHhLcVB5U3hXZ2czalI4a3BwLW43LVpDeEFpZ0tBRVNuMEE1Rk82RUtialg5aHc3UTctNzBPbmxTTkFOWFFLU1ByazNjLTBRSkR0Z0IyMjVteEktT1RJQVNQamttTHpPbDJjc0xWYlhodWxSZ3RB?oc=5",
-      "snippet": "Yahoo Finance Gold Drops Below $4,000 as US Inflation and Interest Rate Concerns Weigh on Precious Metals Yahoo Finance Gold drops below $4,000, silver tumbles as Hormuz attack lifts oil prices - Kitco AM Report Kitco",
-      "published": "2026-10-30T11:14:51+00:00"
+      "title": "Gold Rallies Nearly $75 After 11% Pre-Midterm Plunge; Silver Rebounds",
+      "source": "BullionVault",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaDdqTXpvMUhqdGpTWlpfSzNLMkg1UEVULWFLM05LOWRmaVFvb1pJdUdBZlpVZ3doaHBLQlJrR01sM0pIQmtIajkyVTR3WGZ2SmlkRUhULVZ4bkVHVEFBMTJkX0QzU0diRmNzVFhUZlMzVTNXSUQ5MC1uVmV5NWJ3U05vN2JTYVpRUmVMUU5VMWg?oc=5",
+      "snippet": "BullionVault",
+      "published": "2026-11-02T15:04:46+00:00"
     },
     {
       "n": 21,
-      "title": "Gold drops below $4,000, silver tumbles as Hormuz attack lifts oil prices - Kitco AM Report",
-      "source": "Kitco",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSmQ5alhCeHRlYUgzRWhfSmRhX3BUMGktZWtmMUxXaENCd0ZJRUFPdk55THVoWjNfUVByYzdRTHlsYVBQZm1za3dDQ19oMFJSM3o3VFl4Tlh6VS11MXpEdTFSdGZzU1hQMF9MY2pRbkJwQkJBNnpTdU9rZjh4eWh6bGRUX29Yb2l0QmY5Tkh4QnhBYmpQTVZBT01DWUJobFhKdTdVQ0pXSDVSeFFEQlJ5R1ZQc0luWXVpM2Zn?oc=5",
-      "snippet": "Kitco",
-      "published": "2026-10-30T12:52:14+00:00"
+      "title": "After the Bell | Corn inches higher despite sharply lower crude prices",
+      "source": "Pro Farmer",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMk1XX3JZejRORVItZUlkUFpIekdIUE80UGkxT0J4YlJ0QmVNRlZUWTFUNUEwQkxoR2xrZVMteGxJSzI3WjRIaU1sdHlYd1BVNGs5V1VEMlZpYXJhdGxWU0RUR0JwRGc5dnB1TDU0cThGTnlZd29pWTM2UzA3cVp0UmZVa21GcEl5aHpILTlDM1YxWmFFQzNQS2pRbzJPaDdmQmx4MlJVaUZkZw?oc=5",
+      "snippet": "Pro Farmer",
+      "published": "2026-11-02T20:09:13+00:00"
     },
     {
       "n": 22,
-      "title": "Gold Price Today: Gold Falls 3.76% on October 30, 2026",
-      "source": "USA Today",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRTltcHpuVjFIU3JCUEpqMERmdWZMRk0ycDBaM2N2S0tmVXNRaWctclJDM2wxWExnZFRHMlUtb3F2d0I2TFIxNWFnN2xWUkJCLUxkTHV6TW12cC1BTlJNaVo3RDg3M0o5NTRoQkR3X1owRm93WkNWTkJQeG9UYXNONE83MWNqcVhpWFRwOU16aVh5TTg5YlV6VjRtLXM0OC01MjBIY0dWblBSdw?oc=5",
-      "snippet": "USA Today",
-      "published": "2026-10-30T16:34:23+00:00"
+      "title": "A corn market surprise puts USDA data accuracy in focus",
+      "source": "Wisconsin Farmer",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOR1BvNWMwazlrMDh5ZGtCcThuS1ZEVmprZFR1ODVlb2d3UG00M0pJVzNzUEQzN25WVnFsc3JrYXFJR0MybGNDVkxqU1RyREQ5VVBSSDYyVk9mQUlCMm92MUNIem01akxYMlRjcjJBQm8tWHNqZld2cFJ6ZllVUVZPT09KSmJnbkJHU1Bpak0wVWpOTzJvN0tka1ZoQXBYVHpnczhJdDJPelR5QWdBRHp4MHo1SXVueDE4Vzg4U2dscw?oc=5",
+      "snippet": "Wisconsin Farmer",
+      "published": "2026-11-02T18:00:00+00:00"
     },
     {
       "n": 23,
-      "title": "Gold prices could fall to $3,900, silver to $50 as Fed tightening pressures precious metals – Sucden Financial",
-      "source": "Kitco",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWnF0bG92emZOM0VGZEhBbjRnLXkwTGpvbm9mU3ZHcXBqeVpkUmMxb2cxcVd6UWc1dENEMUtXaGphakxjTmtQY3lBVUFsZDdRY3E0UHBna1BYdl9QajFQLXJndzl5ZUttaWtISTZIbGhORE1kMGJ4UVZfQ19Ya1FHZVkxTU1rRXZiVEdvMUtBdGl5Q0ZMWFZRcEQwTGRkT09VbmQ5MjI0TEs1V0NXZUZ5eldURXBpenpr?oc=5",
-      "snippet": "Kitco Gold gains on softer oil prices ahead of Fed meeting Reuters Current price of gold as of October 27, 2026 Fortune Gold price today, Tuesday, October 27, 2026: Gold prices slipping closer to $4,000 ahead of Fed meeting Yahoo Finance Gold needs to build a floor or face further losses, Standard C",
-      "published": "2026-10-28T16:05:04+00:00"
+      "title": "Wheat and corn futures fall while soybeans trade mixed in Chicago on Friday",
+      "source": "UkrAgroConsult",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOEdxMlo5QUFkajlIdkdLMlM2Q2tiX2tyMmZrME02NDZrTldEanFGQmQyZ282WGU5VmJMY1RiMnNFTWxIUFBhMTJoLWYtRkEzX2Z6Y2ZKRURhd1kyUDAxS19fTm5fdW9wa0xFZVpFMThRTDlsM2pVRkQtZHNoczVINTNlRkUwWlVCcTB1OXNxLUF6UlRjQmY0RFFua2loa296YS1jLTFpX0RUUzlrbHRBbg?oc=5",
+      "snippet": "UkrAgroConsult",
+      "published": "2026-11-02T10:52:11+00:00"
     },
     {
       "n": 24,
-      "title": "AFBF: Corn estimates led to price decline",
-      "source": "norfolkneradio.com",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONi1JSWtHLTJRaGpoY0RSa1JfNlRjUnZBUDFMNkVoYldFeEJlTGdiY2RIWUN3dG9EZkZyVER1dFVPeHdLRE1udWhpZzhEZGZPV1QxWldnQ1A0WHIxS01KNW9CaFBLMERHZU1KbzZ5UFM0RXYxaXhiazRidnRxTURYMFZnN19ob3dnRE5VQ3ZKX1ducUVHZFlsaDBzekFhS0FZaXJjSTBMMUJsc3o0N2hHRnl0cjQyeXBfV2luYmQ0cDdWYW1Y?oc=5",
-      "snippet": "norfolkneradio.com",
-      "published": "2026-10-30T16:00:00+00:00"
+      "title": "When Will High Corn and Soybean Prices Start Driving Buyers Away? 3 Signs to Watch",
+      "source": "Successful Farming",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWVlvRW0xNHlrN0IwMER1NTloQmdaOWl0dGw3RzNLRXhJeGp3ZHVNSlQ2SExZdWxGZ2pkQmRURjFQQm5XMXgwaFZVM2E5X2dpejVCQjlOV0ZBYTI0VmxWUnkzS1JwQmZaLTBWWVhCOG1ZU2ZhRlJpaDVkU1lYV09iV0tGQ2lzbUhFclR4MVZNUFNBX3lKUDJYdHM3RGZXT1FfU3I3YVEzc2gySFR3QjZTRHE5YlVoWlVucjFGemJPbVZtY1JrUmln?oc=5",
+      "snippet": "Successful Farming",
+      "published": "2026-11-02T12:00:00+00:00"
     },
     {
       "n": 25,
-      "title": "Corn Prices Fall Below $4.50 as USDA Reports New Soybean Sales",
-      "source": "AgroLatam",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaGRpSE9MRk9wZXdkX1ZpZ19BZUx2bi0tNG9FUlcwUHA0dTFMT0JtclZkQzZyM3hwNklvYlVYQmNxbE04ME9QTnNuVUIteFJHZUVxQmtLNi1kRjQwdllMbGM2dWl2QXpRR3ItWlhvbDR3Q3Nsd29wdFgxUl9kRmZxNDFHb2JPR1VB?oc=5",
-      "snippet": "AgroLatam",
-      "published": "2026-10-30T14:40:54+00:00"
+      "title": "Why Copper Prices Are Falling Despite China Paying a Record Premium",
+      "source": "BeInCrypto",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yVGJZZWVoMDRrdjNjREhLVEdSazh0ZXJ1clVUaGhrdngyZmJET2tYeE5wazdDMTF1YnlScWxNZk9jTHZnR1dnMi1hcWNRSlJKMHlHS0llSnQ0Q0VyeVppX3BSOENubTRYT1o1UEowTHQ?oc=5",
+      "snippet": "BeInCrypto",
+      "published": "2026-11-02T08:00:00+00:00"
     },
     {
       "n": 26,
-      "title": "Wheat prices rise in Chicago on Thursday, while corn and soybeans trade mixed",
-      "source": "UkrAgroConsult",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWjJzc2NSdVM2Q1gtOUZldndQMU1oMThNZDg4MXZ3UEh0Wmk5WXZUeGlHR0h6U0Y4MU5qcEljRGQzM0c1ZnNwcXFWbnZsM19IZmZqcEQ4UEZjSnV3bzdkc1B3cS1JY2lSTHptYVVJUkNHWUtEMVFNczBRVmdfbXBnVndqN18tMzZvaXF3Q3lJZGV1VVVmZFRoRzUtR0d5SWpielAtZ3A1ZnppVTloNjRnMGJ3?oc=5",
-      "snippet": "UkrAgroConsult",
-      "published": "2026-10-30T11:03:37+00:00"
+      "title": "Silver prices today, Monday, November 2, 2026: Silver prices slide, opening at the lowest level since November 7, 2025",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOcV9ZUkluQk5wWUk2X2pzblIwWEtVQV90Nk5FNEdIRkhfTHhLZTRjUjFHbVNIWFJLLWlaSHcxbmt3Qzh2UVU3TzJYUVFtNGtjdFA1MG52TFF0RGJ5cG90TDBJSll2SldSb1FGWmgwUnNpcXRLd1lrb0lsXzdHdWpGZHlqNlNkbWJzVWI5U0JDZVUzODA1TkhScnhTSzN1bDYxbWZVR2xjM1R2bGE1S2xjeUZ4aUtHenFNX3RzOEJqX0FYVi1wMTZuaVF4VHhxalhsbWZENWdOcXBZSW85RnJrdEdQQnVtNnZOdFBJcWcwM0dsV1l3QTFCLUlOUjZYaWdWZW05ZkFhWFhkV1FxbWZ2TTVNZ0hUQW8?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-11-02T12:31:46+00:00"
     },
     {
       "n": 27,
-      "title": "Wheat futures bounce from oversold levels on strong export demand.",
-      "source": "CME Group",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUVd5aFZGM2pXTHRFdkRlS0k4U0czOUNvNG9QZmJ0cl85cWs5NThmd3AySk9mbTZJTllySFItZXR3eVdxamk2b3E0T2ZmNmJTUm0teFhIbEN2UEcySDlWYkJvbFN2YUxTLU1xUFgwVTdlWDhMcG1ZdjlEd1lOOWdod1dBTDc3d1VucG12Ti0ycEpya2pnN09pWEtZUUxPZi1PZDJCWjFoZnE0V1N6bGRGSlFB?oc=5",
-      "snippet": "CME Group",
-      "published": "2026-10-30T08:48:40+00:00"
+      "title": "Gold Has Cooled From Its First-Quarter Record, Yet Miners Still Sold Ounces at Prices More Than 20% Above Last Year",
+      "source": "Morgan County Citizen",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOcWhJZHo2SklObEdfeWZvTTB2eVgxMGtkM3g0YVNyNGpYeWx1NFZrXzVRdGFCYTFOSGNCVnFEbzd0Zk9Qcm5PSW50RDd1M0ZQZEV1c0p1dmFtelpiRnNWUFdDTTBVbF9ERUhsd3RoWG0xQVRHTEFMc1VPZkRtNzRaZHc2ck9adW9CLWVXX1hyOGNDcWprSk9BWTBnSjVkLW03R1RhSWFvQ1l2SFdjQlJyYWR2aTVjTWdXZHh5aVlNWE1YVlZkbXFUcU9uNHV4RE9tam0tUEc1UldKTEVOUjdzSm9wSXNtcDdmWkVEd0pZR29TWVlPY3ZYMTR3bFVXQmdxOWNfX1ZjQUdvN3hKMmpqVWFB?oc=5",
+      "snippet": "Morgan County Citizen",
+      "published": "2026-11-02T13:15:00+00:00"
     },
     {
       "n": 28,
-      "title": "How Should Farmers Respond to Lower Corn and Soybean Prices?",
-      "source": "Successful Farming",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVk9LT28tRTVnWHlZOXNZWVBJd2oxRXZ5RGFaaVc3N1Z3RklVMzN5cTdXMDJRcWFsS1ZkX2VvdlhyalRCUnk1Q1V2dTg0bUJOemNqSVpoa2M5S1FVSF9LU3BrallkNVdfelk4WlV2azRmTjZpUEZlMUdwX2p2ck15OVQxQ0JWY1A3U01YaXRNQk1lTHVXcTh3aXp3dnE?oc=5",
-      "snippet": "Successful Farming",
-      "published": "2026-10-30T16:01:49+00:00"
+      "title": "Not Newmont. Not Barrick. This Gold Stock Collects Cash Without Running a Mine.",
+      "source": "The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORTZWY0s0S1pOYmNwYThxZmcwSFpHR3JiRDFPQ3I5eG9GTndvMmozVS1qODZrZkJjSm5rYzdUc2YydmVKUE13ZHJZX1c3cFRkdm5hQVpHalhJZXNZdDNsS3YwNHVjQlBrdng4WmM5dHY3R1c3cU1SVkF3TEVld1huQ0pRRDk5enc5MnRiak1XbnlTS09xc1E?oc=5",
+      "snippet": "The Motley Fool",
+      "published": "2026-11-02T18:45:00+00:00"
     },
     {
       "n": 29,
-      "title": "Copper Falls Toward $6.5 on Tech Earnings Selloff and Fed Rate Fears - News and Statistics",
-      "source": "IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWEtzZmFKMm5UNERTU0piY3RoRE5nMW5UYVYyaENoZ1FKbGFTQV9lQ3RxZnBwbk9yX1B4aHVMYTBpRWVILVFxMHB1d1MxaDJGVEFkOUhfUzlGOXFVZzVWc3dUdFc0MHg3Ny02cmxwbjJOSkgxbDlQOVdLTmNZUnNaalRZZ2dxRU5JUXY1NVZXVldpamZxc3hJTFhR?oc=5",
-      "snippet": "IndexBox",
-      "published": "2026-10-30T12:20:28+00:00"
+      "title": "Madison’s lumber price index falls 8% in two weeks to US$459/mfbm",
+      "source": "Fordaq",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPek14Mm82YmhWWHkwaVhhUjdPREphSmVKcWJmUElQbGhlc2RzckpjaGNuS0lIbDh0T1hINE1RM2lseUpISVJ0OEdwcHpBOTZPZFhDRVdVYjRCOTV1NzhTczdkRmY2MUQ5ZjlMeGhIT0JnQUZRdjV1NGIxdFJaX1RXYVFwaHc1dFZGMlE?oc=5",
+      "snippet": "Fordaq",
+      "published": "2026-11-02T05:05:54+00:00"
     },
     {
       "n": 30,
-      "title": "Copper Prices Drift As Oil Rises And AI Hype Cools",
-      "source": "Finimize",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUmVpbk5tWUlETEdCWmxMNEFvU09hZENSai1uaXlJc2RCUmcwc1NRd05JZ1dQbTFRYkRTcmx5bXlGMWRKLUFxWUVkYUtuSjBkTEtJM0lMVU5KNjVORE1uWkpwM2hXZ0V3a3BJdmRtUGg3MnRkdVNxY0dtOXBDZ1QzZWF6NzA3dw?oc=5",
-      "snippet": "Finimize",
-      "published": "2026-10-30T04:19:27+00:00"
+      "title": "Lumber Remains Near 2-Year Low",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN3JxdUhRX0NteFRQZXl0S3Y3U29Oby1pOWw2OGNrOHhPTUdzY2EycU9wMXBWcHFTQS1YaVRlWHBSWjlZRWc3SDUzTFR3VjdmdDUyN19SXzdFVi1vM2RaMnByN0lXd1lEQXNBUUtILWgzdDYtRnd3UGxSTHh4cF82ZWhjRHg3LU40?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-02T13:51:44+00:00"
     },
     {
       "n": 31,
-      "title": "Silver loses its sparkle as prices crash below $50 (XAGUSD:CUR:Commodity)",
-      "source": "Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYWkyaU12cWxGMEdtMDBBM0VhOUtDWnhLckJFOXFORzRYX2tEZFhWQnR0RnVFc0dkMjBBYzZDTmliYkw0dVZCeHhfZ09iV3dUOFAzaFFaNVRQWFd1SWc4bkRWSktOb2lEekU4ZTlSazdSbkNXb0RRcDVUVkt4T3hTdGNGR3BCeEMwSnZONHRqajg?oc=5",
-      "snippet": "Seeking Alpha",
-      "published": "2026-10-30T13:14:04+00:00"
+      "title": "Weyerhaeuser reports $61 million Q3 profit, agrees $146 million Arkansas timberland sale",
+      "source": "Fordaq",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xUmprMTlTSWpKX1ZvSGZMUFhHSldrNE1yTmlreDZ2SkFHWEJsRnlDMkhLM29HUExEWUxRNVJPRkdwaEtxb3FiNl9kV0w0SjVlTk85dVF1aVpmTjZBTEpUeE82RTFLZmI3OFNqS0tINUhVbVJIOFJRLXZ1YTF1RFE?oc=5",
+      "snippet": "Fordaq",
+      "published": "2026-11-02T04:10:54+00:00"
     },
     {
       "n": 32,
-      "title": "Silver price today, Friday, October 30, 2026: Silver prices fall to 11-month lows amid inflation concerns",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPRGhLVHdCY3dzdk9FM0stMmN1dnNZNVhOa1RSbk1zdk5pSThMTFRWY2pWQ3QwUkRtTTZBZFJMSmZDNm9KbGRSak8wNS1kMmVpS2dORkJTeW5sWDJ6SkRUM3lVdjlJWWxaRGpfd0J1SGNleWpBZFFFaURILUhRX09NamhFTUtKaE5EUy1paFAySXhoN2taODR0R1ExcW5YM1lVUWd5Z1IwclFJbWNEdmFLaVU2cjJ3MnI2QkpMUDJ1TGRkTktxbjdVSEc2SGh6Y2RoeGlONmxIQm5EYXZRRXhqLTJGOU8xZmhDMG1ZSTM0Mmx6TEZxaFN1dlpWZDNFNkh2Y1VSVFVicWw?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-10-30T11:25:21+00:00"
+      "title": "Form 8K Timberland Bancorp Inc For: 2 November By Investing.com",
+      "source": "Investing.com Canada",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR3A4YzI4TVBHZFAxTzNFLU1WZG83MmdMNFNPM1lKSzQ2Q0hyeVEyRzRGdEhwTTFKYnBuZGhmcWVwTlJYSDVtMFlIT3NUTmFGMlliTWVtY3dZa2JMaURzY08xYmJWM2pkYVNwUWlDMml3NVAtLXpjNjYwLUtDY2diVDJuYUlRX3hBQzFrcEZDMlIza29aTlZRVkZXRV9QMUt2RkZfTVp6d1pZdw?oc=5",
+      "snippet": "Investing.com Canada",
+      "published": "2026-11-02T17:54:52+00:00"
     },
     {
       "n": 33,
-      "title": "TSX slips as gold miners tumble on earnings, US inflation data",
-      "source": "Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNGZweG9qN1BDLTdmczFscERvdlkxb1J5QjltRHJ1aFBVYUNOaVhyWFY4QmhhX2JQWThLSk0wVnpESEdJNXQ1OVBubFlZdWNPdTZIcTJYcllnY3dESGRiX2NvUEIzbFpVT1ppczBGRF9hMFQ2VXFoVWRPTTRVQlVfcE5SOENiTXQySXJwWlJLM3J1blBIMDNqekJ6MVpyZUQ1Y2M2QUVjLWcxcXZXdEJkajQyU2JBazFKOXc?oc=5",
-      "snippet": "Investing.com",
-      "published": "2026-10-29T15:34:21+00:00"
+      "title": "Stock Market Today: Oil Prices Slide on Mideast Hopes; Stocks Rebound After Friday's Selloff",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeE1wX0VMX3RqMkpRUmkyWE9SeV9rYlFqNzBTb2QyalVqQjl1Z1FjaWFVd3J3RDJRUnFMTHd3dzJjQlI1R0dPRWtiNjM0ZlIzTUtWV3BUWHhEU3gtN29FbVNfSENrREdRX2dZejFlbE1xRHF2U1ZMS3o5TnMxb0NwMUV2WHpwZ00?oc=5",
+      "snippet": "WSJ Stocks, Bonds Rise as Oil Tumbles on US-Iran Hopes: Markets Wrap Bloomberg.com Stock Market Today: Major Indexes Rise After Friday’s Sell-Off as Oil Prices Plunge; Apple, Palantir Earnings Due After the Closing Bell Investopedia",
+      "published": "2026-11-02T20:13:00+00:00"
     },
     {
       "n": 34,
-      "title": "Gold price slumps to one-year low, silver price breaks $50 as mining stocks tank",
-      "source": "Mining.com",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSWJnbS1JeHBpOHJBSFRHSk5wZ2stdmFPblE5YTdvUmVsbUpna0JQdm5NNTdDVEVVLWp3ZUJVb0RxUGhKc2V1MU1xOG5vRnZMMHktZElrSGJwbnJ5U2tBZTlmenlkMGp6OTdaRTBsZkZCX0hmWHdLSGZ3TUZnOVNWdkFZU2pDSzdUMDVxODJ1Mkd1UEx5S1czS2xMWnRTUzRnM1RKaQ?oc=5",
-      "snippet": "Mining.com",
-      "published": "2026-10-30T16:30:49+00:00"
+      "title": "Stock Market Today: Dow Rallies As Marvell, Lumentum Crater; These Stocks Clear Entries (Live Coverage)",
+      "source": "Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT3dfUUxzczdOZzNzbWdpRXlxcmV2NXNuRTN0Y0NyVW1HUlh1azJDY0UzZkhyb3JKbFdXdnFzWlhhZzJWS1lNUG5mZFZGaTdPd3dGaEZKWEl1cTEzQmNNWTF1U0hPLVV6TlNqRmZZYXBzajJndDNScWdtcmtPUFdzbVRQd2VLOGJmZWhEM2FUU0FOeEQzdVVvSXlzZ3RWZFNGOG52NWZCdzRzUmRzSEVQODh1b3BfUzhWWDNZ?oc=5",
+      "snippet": "Investor's Business Daily",
+      "published": "2026-11-02T19:09:00+00:00"
     },
     {
       "n": 35,
-      "title": "Madison's Reporter: Some Lumber Prices Dropped as the Usual Seasonal Slow-Down Arrived",
-      "source": "Red Book Lumber Data",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNlBUX2ljTmhpWjR4MDdXazlFNk1xamd2b2VERWRmdlZWQklLMVloX3RkX1VFSU1GX0N3ekdUcXNEc3hLTHBmN2tScHNfc0FlbWN2eERnNkJUcEJfWUd1cVJwWlVWeEdfa1Z4RGJsUGc2QUlzN3FTRC1zUDJKT3lROGNUUWdNWV9BenpjZjlTendWbVZZYlZ2a1JDY1AzeEZmUVVScDZOWnNFeUo0NENqdnhhZ2lxc2V1YnpPWmFzTjVzYlhwUm5qVzh3?oc=5",
-      "snippet": "Red Book Lumber Data",
-      "published": "2026-10-28T14:08:55+00:00"
+      "title": "Weekly market commentary",
+      "source": "BlackRock",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+      "snippet": "BlackRock",
+      "published": "2026-11-02T16:18:03+00:00"
     },
     {
       "n": 36,
-      "title": "Some Lumber Prices Dropped As The Usual Seasonal Slow-down Arrived",
-      "source": "Wood Business",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNTU0ODdMVkNxdmM0NldaZkVGaDNyNzhBRGU2b3NmLUFTY1dpcTFlaUU3dVNjSDJKc1poZUdNbGQ5bnl1UEVtbS03M2REWnFSUkFncHRMOUF2bVUtOFpCb3RnWXQzM09OM0MyMFlaX2VjM1ZCTUI5SmlVWEFvS1ZtTmtYUmdtQkRVd1g1WFJ6WkEteUplV1IxdG5TRQ?oc=5",
-      "snippet": "Wood Business",
-      "published": "2026-10-29T20:14:13+00:00"
+      "title": "Fed Chair Kevin Warsh is cutting the number of rate-setting votes",
+      "source": "Quartz",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9tTFUtVnJvQU9ycWduVGRoX3pqa0hkRGZ6bFUydUVrSDA2TklvLWRKb2RYak02OXNGS0JUWGl0ekFiNHBiaHBnZ0w3d3NpVFVhOUt5ZDNjd3hWUjR3VXFjeVNGb0ZfZUhqc00tU0U3Z3RKQ3dnUENR?oc=5",
+      "snippet": "Quartz",
+      "published": "2026-11-02T17:26:37+00:00"
     },
     {
       "n": 37,
-      "title": "West Fraser Announces Third Quarter 2026 Results and Indefinite Curtailments in its OSB and Lumber Portfolios",
-      "source": "West Fraser Timber Co.",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSU1jMmxEZllaczJ5ZWUxS1JQSnF3bkV2azhtdVZpY1hJcnlXbjZiMk9ENWVTcFZuV0tNOXVCZTAtbkZfblRLQTZKdjRvNTJLdUVCN2NldWRsekZsZDNva0pEZVdRaGF1UTJxWmZfbG14R1k1Y0dsS3A4QXFmUFhPancxekVLZ2RYMDc2SEVVXzVWUzFaTk94cmY3WldtYkRxc2VOd2RDSTJxUVNFbUlva0VPc3FydkxTMEJVQ0M4U3BwTnJDdEZES0JURUc5d3cyUVhxRzNNWXVSRks2bGtWcWtMa2drY0xfLTRsU01RdWZ6cXVl?oc=5",
-      "snippet": "West Fraser Timber Co.",
-      "published": "2026-10-28T12:00:00+00:00"
+      "title": "Warsh Fed Should Heed New Zealand's Cautionary Tale",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTDFxVjgwZG5CbWZyVUpwbVpaeFVVUm5VOHZsRGJ3cUl6SVh6bVA5WkdOeDJaeGtha0tmd0EyMk1uVVdkS3dRODdjSXNjYXdGdlhETFU5UEduTlk3bHhhVkJzZEhfMmVWcUJMQzRJTTY0dzhDendzZ0Rya25aTHBTZnFKai10R3FFeXFtdVI1dWphNC1saXY3MExiUFkzSnZjNmpDd0NfU2thTWdUekloUlNZcFkyQ3hUbXkw?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-11-02T18:01:13+00:00"
     },
     {
       "n": 38,
-      "title": "VF Profit Rises on Strength in The North Face and Timberland",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTjJEWmlSWjd1WnotQ09hcS1LcXFaVU9QYXRiYThjaDdCUU5WMkNJMURYWnNIUWgxeUlRTVdlRktLNzVRSlMzM3c4dklicUNTTHF6QVNZTjdHSTNOQU40UXVfbUp6ZDh0bHlCNV9BcVlPeWx6QmdJRDRNUlFnY0NQM0tpSnJxNTJKZG5vbDROajRNWjItQ1BlS19zSFZRM2lkZUdWejByTjMyVkF1?oc=5",
-      "snippet": "WSJ",
-      "published": "2026-10-28T11:23:30+00:00"
-    },
-    {
-      "n": 39,
-      "title": "Timberland Bancorp FY2026 Net Income Rises 7% to $31.17M",
-      "source": "grafa.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONGtOMFpGdGwzRGxMVU0zRHN4LWRsSnA2ejZUWTNJaURxLVJnVzJkd1VPS1cwM245VDdLbklDdTFLMEZ3RExiclJ0UWgxbTNLbFBRTDkwWVhmTFIxWWNpMXpfWlFIdVd3b3RyV0lHYkx3RWx2cmkwZXdtdVMyLTlLLTVJSUFNLU1nYXlfQUJLbmdRcEZVV2NTNTloQ0hnUQ?oc=5",
-      "snippet": "grafa.com",
-      "published": "2026-10-30T11:53:00+00:00"
-    },
-    {
-      "n": 40,
-      "title": "Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNLWZRMVRrOG1xQ1NBUE55MXNIWTFyTFBfUDBwVnUwbDRHOHNibGNUazhpRVVJamItaGc5UndhUngwMTFOLUE1M3dscmdtSDBvWUJrNmoyWnFGZ2tBcm9VZjZ5MXcyQXFuSDZmWmE4WVlheXZBeTVTci1CXzFQMUxnMkpFRXBVTjh0SlI0N0hobUZzOHh3?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-10-30T15:19:05+00:00"
-    },
-    {
-      "n": 41,
-      "title": "Watch live: Stock market reacts amid concerns about artificial intelligence spending",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdTM3TmZacWdPWmppcV9qZnFRV00yaGpnNmk1NFhKczFQMk5oX1FPa1NWRnlFcW5pVURlVGxRaDRheWR1RUZ3bnVFOEk4d0JLRDR1eF95ZWZMd1Uya2UtQmdBNWJRdW92emtYTFZ2VmZpX1VkMXczdFQ3SmNWMEFmN0YtYTFYcnBKN2tnSExQMXR6ZHVwbzcxeDg2UDZqLUVGWEZvVHRDc21LcG9SanJOQUF4Rm5ITHFVYjdNVDRLNW9XTXpP?oc=5",
-      "snippet": "NBC News",
-      "published": "2026-10-30T14:12:07+00:00"
-    },
-    {
-      "n": 42,
-      "title": "Nasdaq hits near three-month low as Amazon, Intel deepen AI capex concerns",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPblVtZktXRjdPbHJBWDM4WWJsV2RyMlhnOVFYRTZPc01udjZNZTVjeHdIN1dVY0w1M1NHbHpxNjV6Vm9jQ3FOUjBIaElyZEdSWWxycmNZdnJwNnBfdTJDc1FBMWVJZ19vR0s3Y1h2Uml2LThWc2NzQ2sxN3NnVzFEeGhvNnpPSElHSFRIQnJreHpCR2c3dnRQbEVYTDlJVjhzVVk3b1gxaFczMFhkb2NDSw?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-30T15:44:45+00:00"
-    },
-    {
-      "n": 43,
-      "title": "St. Louis Fed's Musalem: Tighter monetary policy is needed 'soon'",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ0hqSXZpT1VZTUNGSkRVSkVaa092QjVSaGt3ZHlpM0F6RENCYlA4U3A4V285MTE0eXp3aFNKNXVjSVVjTEMwbXE1aV95NFJHOFdxMElwWTBsZ05oYjdtWVlmZkFQNzlqMzV2cldpekQxZGVqSTJ6ZXpSc205THRQYdIBhgFBVV95cUxQSU5zQlBqM3NxZWNyWnU3a3NHOEMyNUFZdnh3WW9KOWVDNUh0Q3pIRUdkYzZoZ1lONi00cUF6NmNxM3FGN0ZYYzVoamo1ZHJ1LXBkLUFBVUFBREgtVWVEWFh0NTJnOGQ2T09TUmNpX3dFYjZRS29SSjlFMlk0T25DamNmVWtndw?oc=5",
-      "snippet": "CNBC",
-      "published": "2026-10-30T16:30:16+00:00"
-    },
-    {
-      "n": 44,
-      "title": "New economic data challenges Fed chief's not-too-hot perspective",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNV9seWt5MjlGeDJNRkdKLWxjUHQyb2R4QmUtM0ZvOU5hUExsYmpuVkhyZ2RnSGtPajEzZEFFRUluX0xHdTlaQ1NKc0JKcXhQTXB6NGJ4VXJ5NVhNWkZzTTU2WFplQl9zWUFtT3hmWG9FQXhyYVBWN1V4MEhoaGVEd2pfQWRDakQxcExBc3VjQmNNSzhEUDZjMEMwQnpVV1NTMEhZb0Q2LWF1SUZi?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-30T10:12:09+00:00"
-    },
-    {
-      "n": 45,
-      "title": "Fed’s Barkin Indicates Backing for ‘Gradual’ Rate Increases",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR3JPc1I0V3ktNV9veTdKY2l3SWVkVzA2dkhZM05nUkFKc1JfX2RvWjExbU1DaXlrdnM2Zk5HeHFXVE96aU5DSEhSX3B4anUyVzBKRDNBa2JnVUpMR0xmZmdiMlRrbEt6VXZrYnNiQmZCbUxIZGNwbGdBQ1RjSlU2MGxnTVREU3Nrdm9yR2N1ZWVrWUdwRkFJWV8tcWlEVmFvRlpVRE1ESkhWblpx?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-10-30T14:07:51+00:00"
+      "title": "Introducing Survey Practitioner’s Corner",
+      "source": "Federal Reserve Bank of Atlanta",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZ1lsYjNqZGtvS2l1bE95SFpRVk41TlVVTnVZTmdSWW5PeU9wVGVEUjZQZDUzQUpjOUtOTE9WdmhnS1pGRUhZN0tMcGk3eFRmald6NktjQ1Y2cFZTZEtwcU9wLWdDSnVsYlJPZWlZVFhXRGk5bmJfVnRsZjVES3ZNQmJaeUVMVmU0SThYZVVZRHVLMWtlbV9MLWRZc1RvUm5oZWowNjhSOEJFenAtaEoyYTdqejNqeEJ5SFZnNzFnRXFJclFWUkw3Sl9TOEo?oc=5",
+      "snippet": "Federal Reserve Bank of Atlanta",
+      "published": "2026-11-02T16:06:59+00:00"
     }
   ],
   "cited": [
-    1,
-    4,
+    2,
+    11,
+    13,
+    14,
+    17,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
     25,
-    28,
     29,
     30,
-    32,
-    33,
-    34,
-    35,
-    36,
-    38,
-    39
+    31,
+    32
   ],
   "invalid_citations": [],
-  "example_prompt": "Move: S&P 500 fell 1.59% to 7597.9.\n\nHeadlines:\n[1] Yahoo Finance, Oct 30 12:43 PM ET: Stock market today: Nasdaq dives, S&P 500 and Dow fall as Amazon, Intel earnings fuel tech rout\n    Yahoo Finance Stock Market Today: Dow, S&P 500, Nasdaq fall as tech stocks slump after Amazon, Intel earnings; Treasury yields decline MarketWatch Stock Market Today: Nasdaq, S&P 500 Slide Amid Tech Sell-Off as Intel Plunges After Earnings; Gold Drops to One-Year Low Investopedia Tech Stocks Tumble,\n[2] Yahoo Finance, Oct 30 08:48 AM ET: The S&P 500 Rose 30-Fold Since 1988. Reinvested Dividends Made It 67-Fold.\n    Yahoo Finance\n[3] Business Insider, Oct 28 06:30 AM ET: Morgan Stanley warns the S&P 500 could drop 8% before kicking off a fresh rally\n    Business Insider\n[4] Yahoo Finance, Oct 29 09:46 AM ET: Stock Market Today (Oct. 29, 2026): S&P 500 falls on Alphabet earnings miss\n    Yahoo Finance\n\nWrite the subheading and body.",
+  "example_prompt": "Move: S&P 500 fell 0.23% to 7562.69.\n\nHeadlines:\n[1] Yahoo Finance, Nov 02 02:41 PM ET: Stock market today: S&P 500, Nasdaq rebound sputters, Dow edges higher as oil prices fall\n    Yahoo Finance\n[2] Yahoo Finance, Nov 02 09:16 AM ET: Wall Street Futures Rise as Falling Oil Prices Support Rebound After Technology Sell-Off: Dow Jones, S&P, Nasdaq\n    Yahoo Finance\n[3] MarketWatch, Nov 02 01:49 PM ET: Stock Market Today: Dow, S&P 500 and Nasdaq rise as oil prices and Treasury yields fall; Apple earnings on tap\n    MarketWatch\n[4] Yahoo Finance, Nov 02 10:00 AM ET: Stocks rebound as oil prices sink, Anthropic releases Q3 financials: AlphaCheck\n    Yahoo Finance US Stock Futures Rise as Oil Prices Drop Easing AI-Led Selloff Bloomberg.com Nasdaq and S&P 500 roll over, turn negative, as rotation out of tech continues: Live updates CNBC\n\nWrite the subheading and body.",
   "retrieval": [
     {
       "move": "S&P 500",
@@ -523,19 +457,19 @@
       "hits": [
         {
           "n": 1,
-          "similarity": 0.765
+          "similarity": 0.744
         },
         {
           "n": 2,
-          "similarity": 0.76
+          "similarity": 0.731
         },
         {
           "n": 3,
-          "similarity": 0.758
+          "similarity": 0.73
         },
         {
           "n": 4,
-          "similarity": 0.757
+          "similarity": 0.711
         }
       ]
     },
@@ -545,19 +479,19 @@
       "hits": [
         {
           "n": 5,
-          "similarity": 0.791
+          "similarity": 0.787
         },
         {
-          "n": 1,
-          "similarity": 0.784
+          "n": 2,
+          "similarity": 0.721
+        },
+        {
+          "n": 4,
+          "similarity": 0.701
         },
         {
           "n": 6,
-          "similarity": 0.749
-        },
-        {
-          "n": 7,
-          "similarity": 0.734
+          "similarity": 0.682
         }
       ]
     },
@@ -566,86 +500,86 @@
       "query": "Why did Treasury yields bond market fall",
       "hits": [
         {
+          "n": 7,
+          "similarity": 0.8
+        },
+        {
           "n": 8,
-          "similarity": 0.802
+          "similarity": 0.75
         },
         {
           "n": 9,
-          "similarity": 0.795
+          "similarity": 0.74
         },
         {
           "n": 10,
-          "similarity": 0.771
-        },
-        {
-          "n": 11,
-          "similarity": 0.718
+          "similarity": 0.692
         }
       ]
     },
     {
       "move": "USD/JPY",
-      "query": "Why did yen dollar Bank of Japan fall",
+      "query": "Why did yen dollar Bank of Japan rise",
       "hits": [
         {
+          "n": 11,
+          "similarity": 0.726
+        },
+        {
           "n": 12,
-          "similarity": 0.788
+          "similarity": 0.723
         },
         {
           "n": 13,
-          "similarity": 0.751
+          "similarity": 0.698
         },
         {
           "n": 14,
-          "similarity": 0.748
-        },
-        {
-          "n": 15,
-          "similarity": 0.723
+          "similarity": 0.675
         }
       ]
     },
     {
       "move": "Crude Oil",
-      "query": "Why did oil prices crude OPEC rise",
+      "query": "Why did oil prices crude OPEC fall",
       "hits": [
         {
+          "n": 15,
+          "similarity": 0.74
+        },
+        {
           "n": 16,
-          "similarity": 0.783
+          "similarity": 0.719
         },
         {
-          "n": 17,
-          "similarity": 0.77
+          "n": 4,
+          "similarity": 0.696
         },
         {
-          "n": 18,
-          "similarity": 0.758
-        },
-        {
-          "n": 19,
-          "similarity": 0.755
+          "n": 2,
+          "similarity": 0.691
         }
       ]
     },
     {
       "move": "Gold",
-      "query": "Why did gold prices fall",
+      "query": "Why did gold prices rise",
       "hits": [
         {
+          "n": 17,
+          "similarity": 0.766
+        },
+        {
+          "n": 18,
+          "similarity": 0.712
+        },
+        {
+          "n": 19,
+          "similarity": 0.679
+        },
+        {
           "n": 20,
-          "similarity": 0.786
-        },
-        {
-          "n": 21,
-          "similarity": 0.779
-        },
-        {
-          "n": 22,
-          "similarity": 0.77
-        },
-        {
-          "n": 23,
-          "similarity": 0.768
+          "similarity": 0.676
         }
       ]
     }
@@ -656,43 +590,42 @@
       "name": "Agriculture",
       "moves": {
         "Corn": {
-          "last": 449.5,
-          "change": -1.75,
-          "pct": -0.39,
+          "last": 447.75,
+          "change": 0.0,
+          "pct": 0.0,
           "unit": "cents/bu"
         },
         "Wheat": {
-          "last": 604.0,
-          "change": 0.25,
-          "pct": 0.04,
+          "last": 606.0,
+          "change": 2.5,
+          "pct": 0.41,
           "unit": "cents/bu"
         },
         "Soybeans": {
-          "last": 1238.0,
-          "change": 18.25,
-          "pct": 1.5,
+          "last": 1216.0,
+          "change": -6.25,
+          "pct": -0.51,
           "unit": "cents/bu"
         }
       },
       "sources": [
-        24,
-        25,
-        26,
-        27,
-        28
+        21,
+        22,
+        23,
+        24
       ],
       "retrieval": [
         {
           "label": "Corn",
-          "query": "Why did corn prices crop harvest fall",
+          "query": "Why did corn prices crop harvest hold steady",
           "hits": [
             {
-              "n": 24,
-              "similarity": 0.761
+              "n": 21,
+              "similarity": 0.656
             },
             {
-              "n": 25,
-              "similarity": 0.752
+              "n": 22,
+              "similarity": 0.651
             }
           ]
         },
@@ -701,140 +634,135 @@
           "query": "Why did wheat prices grain harvest rise",
           "hits": [
             {
-              "n": 26,
-              "similarity": 0.728
-            },
-            {
-              "n": 27,
-              "similarity": 0.678
+              "n": 23,
+              "similarity": 0.62
             }
           ]
         },
         {
           "label": "Soybeans",
-          "query": "Why did soybean prices exports China rise",
+          "query": "Why did soybean prices exports China fall",
           "hits": [
             {
-              "n": 26,
-              "similarity": 0.672
+              "n": 23,
+              "similarity": 0.661
             },
             {
-              "n": 28,
+              "n": 24,
               "similarity": 0.65
             }
           ]
         }
       ],
-      "headline": "Corn and Soybeans Rise",
-      "body": "Corn and soybean prices rose as traders adjusted to the latest USDA sales data [25, 28]."
+      "headline": "Corn prices rise despite lower crude prices",
+      "body": "Despite a drop in crude oil prices, corn prices rose, according to Pro Farmer. This is because corn is seen as a more stable and reliable commodity compared to oil [21]. The USDA data accuracy is now under scrutiny as corn prices move higher, as noted by Wisconsin Farmer. This is because the data is used to determine crop yields and prices [22]. The mixed trading of soybeans is a concern for farmers, as noted by UkrAgroConsult. This is because soybeans are a key crop for many farmers, and their prices can have a significant impact on their profits [23]. Farmers are watching for signs that high corn and soybean prices will start to drive buyers away, as noted by Successful Farming. This is because high prices can make it harder for farmers to sell their crops [24]."
     },
     {
       "slug": "mining",
       "name": "Mining",
       "moves": {
         "Copper": {
-          "last": 6.47,
-          "change": -0.11,
-          "pct": -1.62,
+          "last": 6.54,
+          "change": 0.09,
+          "pct": 1.32,
           "unit": "$/lb"
         },
         "Silver": {
-          "last": 49.22,
-          "change": -2.97,
-          "pct": -5.68,
+          "last": 50.64,
+          "change": 1.54,
+          "pct": 3.14,
           "unit": "$/oz"
         },
         "Gold miners": {
-          "last": 77.06,
-          "change": -4.27,
-          "pct": -5.25,
+          "last": 79.26,
+          "change": 2.18,
+          "pct": 2.82,
           "unit": "GDX ETF"
         }
       },
       "sources": [
-        29,
-        30,
-        31,
-        32,
-        33,
-        34
+        19,
+        25,
+        18,
+        26,
+        27,
+        28
       ],
       "retrieval": [
         {
           "label": "Copper",
-          "query": "Why did copper prices mine supply fall",
+          "query": "Why did copper prices mine supply rise",
           "hits": [
             {
-              "n": 29,
-              "similarity": 0.729
+              "n": 19,
+              "similarity": 0.806
             },
             {
-              "n": 30,
-              "similarity": 0.72
+              "n": 25,
+              "similarity": 0.711
             }
           ]
         },
         {
           "label": "Silver",
-          "query": "Why did silver prices precious metals fall",
+          "query": "Why did silver prices precious metals rise",
           "hits": [
             {
-              "n": 31,
-              "similarity": 0.766
+              "n": 18,
+              "similarity": 0.755
             },
             {
-              "n": 32,
-              "similarity": 0.766
+              "n": 26,
+              "similarity": 0.687
             }
           ]
         },
         {
           "label": "Gold miners",
-          "query": "Why did gold mining stocks miners fall",
+          "query": "Why did gold mining stocks miners rise",
           "hits": [
             {
-              "n": 33,
-              "similarity": 0.725
+              "n": 27,
+              "similarity": 0.662
             },
             {
-              "n": 34,
-              "similarity": 0.72
+              "n": 28,
+              "similarity": 0.661
             }
           ]
         }
       ],
-      "headline": "Mining Stocks Fall Amid Economic Uncertainty",
-      "body": "The decline of copper, silver, and gold prices is causing concern among miners, who are watching inflation data and interest rate decisions closely [33, 34]. As the tech sector reports earnings, investors are worried about the impact on copper prices, while rising oil prices are also affecting the metal's value [29, 30]. The sudden drop in silver prices has also raised eyebrows, with some analysts attributing it to a cooling of AI hype and concerns about inflation [30, 32]."
+      "headline": "Copper Prices Rise Amid Supply Concerns",
+      "body": "Copper prices rose as Chile cut its supply outlook, indicating a potential shortage in the market [19, 25]."
     },
     {
       "slug": "timber",
       "name": "Timber",
       "moves": {
         "Lumber": {
-          "last": 510.5,
-          "change": -7.5,
-          "pct": -1.45,
+          "last": 521.0,
+          "change": -0.5,
+          "pct": -0.1,
           "unit": "$/1,000 bd ft"
         },
         "Timber stocks": {
-          "last": 64.97,
-          "change": -0.31,
-          "pct": -0.47,
+          "last": 65.96,
+          "change": 0.7,
+          "pct": 1.07,
           "unit": "WOOD ETF"
         },
         "Weyerhaeuser": {
-          "last": 20.08,
-          "change": 0.33,
-          "pct": 1.7,
+          "last": 21.33,
+          "change": 0.98,
+          "pct": 4.84,
           "unit": "WY"
         }
       },
       "sources": [
-        35,
-        36,
-        37,
-        38,
-        39
+        29,
+        30,
+        31,
+        32
       ],
       "retrieval": [
         {
@@ -842,22 +770,26 @@
           "query": "Why did lumber prices sawmills housing fall",
           "hits": [
             {
-              "n": 35,
-              "similarity": 0.756
+              "n": 29,
+              "similarity": 0.703
             },
             {
-              "n": 36,
-              "similarity": 0.75
+              "n": 30,
+              "similarity": 0.661
             }
           ]
         },
         {
           "label": "Timber stocks",
-          "query": "Why did timber forestry stocks paper fall",
+          "query": "Why did timber forestry stocks paper rise",
           "hits": [
             {
-              "n": 37,
-              "similarity": 0.649
+              "n": 31,
+              "similarity": 0.608
+            },
+            {
+              "n": 32,
+              "similarity": 0.597
             }
           ]
         },
@@ -866,24 +798,24 @@
           "query": "Why did Weyerhaeuser timberland REIT rise",
           "hits": [
             {
-              "n": 38,
-              "similarity": 0.695
+              "n": 31,
+              "similarity": 0.727
             },
             {
-              "n": 39,
-              "similarity": 0.681
+              "n": 32,
+              "similarity": 0.612
             }
           ]
         }
       ],
-      "headline": "Timber Stocks Rise Amid Seasonal Slow-Down",
-      "body": "Despite a seasonal slowdown in lumber prices, timber stocks are rising as investors look to the long-term potential of the industry [38, 39]. The usual seasonal slowdown in lumber prices has arrived, with some prices dropping as expected [35, 36]. However, timber stocks are bucking the trend, with some companies seeing a boost in profits [38, 39]."
+      "headline": "Lumber Price Drops, Timber Stocks Rise",
+      "body": "Lumber prices have fallen, causing timber stocks to rise as investors seek alternative investments [29, 30]. Weyerhaeuser's strong quarterly earnings report has also contributed to the surge in timber stocks [31]. Investors are watching for further developments in the timber market, including the impact of global demand and supply [32]."
     }
   ],
   "stats": {
-    "headlines_fetched": 93,
-    "headlines_new": 86,
-    "index_size": 841,
+    "headlines_fetched": 90,
+    "headlines_new": 90,
+    "index_size": 837,
     "desk_searches": 9,
     "llm_calls": 10
   }
