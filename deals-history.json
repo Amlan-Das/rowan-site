@@ -133,6 +133,13 @@
    "found": 30,
    "new": 5,
    "cumulative": 103
+  },
+  {
+   "date": "2026-11-02",
+   "shown": 8,
+   "found": 33,
+   "new": 6,
+   "cumulative": 109
   }
  ],
  "deals": {
@@ -986,19 +993,19 @@
    "acquirer": "Marvell",
    "target": "Lumentum",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "stage": "Rumored",
-   "value": "$221B",
-   "usd": 221000000000.0
+   "last_seen": "2026-11-02",
+   "stage": "Announced",
+   "value": "$115 Billion",
+   "usd": 115000000000.0
   },
   "thrive holdings|adt": {
    "acquirer": "Thrive Holdings",
    "target": "ADT",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-11-02",
    "stage": "Announced",
-   "value": "$7.6 billion",
-   "usd": 7600000000.0
+   "value": "$15.3B",
+   "usd": 15300000000.0
   },
   "vaisala|atmo": {
    "acquirer": "Vaisala",
@@ -1068,11 +1075,55 @@
    "first_seen": "2026-10-30",
    "last_seen": "2026-10-30",
    "stage": "Completed"
+  },
+  "skyline|cove kaz": {
+   "acquirer": "Skyline",
+   "target": "Cove Kaz",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "stage": "Announced",
+   "value": "$500 million",
+   "usd": 500000000.0
+  },
+  "kimberly clark|kenvue": {
+   "acquirer": "Kimberly-Clark",
+   "target": "Kenvue",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "stage": "Completed"
+  },
+  "neighborhood intelligence|tzero": {
+   "acquirer": "Neighborhood Intelligence",
+   "target": "tZero",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "stage": "Announced"
+  },
+  "buyers circle|mark walter s f1 team": {
+   "acquirer": "Buyers Circle",
+   "target": "Mark Walter\u2019s F1 Team",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "stage": "Announced"
+  },
+  "publicis|liveramp": {
+   "acquirer": "Publicis",
+   "target": "LiveRamp",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "stage": "Announced"
+  },
+  "vusion|in store media": {
+   "acquirer": "Vusion",
+   "target": "In-Store Media",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "stage": "Completed"
   }
  },
  "totals": {
-  "deals": 103,
-  "with_usd_value": 59,
-  "usd": 649600300000.0
+  "deals": 109,
+  "with_usd_value": 60,
+  "usd": 551800300000.0
  }
 }
