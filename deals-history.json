@@ -140,6 +140,13 @@
    "found": 33,
    "new": 6,
    "cumulative": 109
+  },
+  {
+   "date": "2026-11-03",
+   "shown": 8,
+   "found": 34,
+   "new": 6,
+   "cumulative": 115
   }
  ],
  "deals": {
@@ -788,10 +795,10 @@
    "acquirer": "BASF",
    "target": "Evonik",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-30",
-   "stage": "Rumored",
-   "value": "$12.5 billion",
-   "usd": 12500000000.0
+   "last_seen": "2026-11-03",
+   "stage": "Announced",
+   "value": "\u20ac24",
+   "usd": null
   },
   "vivakor|direct midstream": {
    "acquirer": "Vivakor",
@@ -993,9 +1000,9 @@
    "acquirer": "Marvell",
    "target": "Lumentum",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "stage": "Announced",
-   "value": "$115 Billion",
+   "value": "$115 billion",
    "usd": 115000000000.0
   },
   "thrive holdings|adt": {
@@ -1119,11 +1126,59 @@
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
    "stage": "Completed"
+  },
+  "organigram|aurora cannabis": {
+   "acquirer": "Organigram",
+   "target": "Aurora Cannabis",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "stage": "Announced",
+   "value": "$7.80",
+   "usd": null
+  },
+  "fox|roku": {
+   "acquirer": "Fox",
+   "target": "Roku",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "stage": "Pending approval",
+   "value": "$22 Billion",
+   "usd": 22000000000.0
+  },
+  "foodtastic|mty food": {
+   "acquirer": "Foodtastic",
+   "target": "MTY Food",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "stage": "Announced"
+  },
+  "rising dragon acquisition|hzjl": {
+   "acquirer": "Rising Dragon Acquisition",
+   "target": "HZJL",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "stage": "Terminated"
+  },
+  "shell|xrg": {
+   "acquirer": "Shell",
+   "target": "XRG",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "stage": "Rumored",
+   "value": "$1.45",
+   "usd": null
+  },
+  "edge industrial technologies|california blade sharpening company": {
+   "acquirer": "Edge Industrial Technologies",
+   "target": "California blade sharpening company",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "stage": "Announced"
   }
  },
  "totals": {
-  "deals": 109,
+  "deals": 115,
   "with_usd_value": 60,
-  "usd": 551800300000.0
+  "usd": 561300300000.0
  }
 }
