@@ -1521,3 +1521,7 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 @media (prefers-reduced-motion: reduce) { .hitbox::after { display: none; } .hit-ck circle, .hit-ck path { animation: none; stroke-dashoffset: 0; } }
 @media (max-width: 640px) { .hitbox { grid-template-columns: auto minmax(0, 1fr); } .hit-g { grid-column: 1 / -1; text-align: left; } }
 .c-call { white-space: nowrap; } .c-call .hitchip { margin-left: 8px; }
+
+/* download card (deals.html) */
+.dl-card { display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: center; margin-top: 18px; padding: 14px 14px; border: 1px solid var(--ink); background: #fff; color: var(--ink); text-decoration: none; } .dl-card:hover { background: var(--soft); }
+.dl-ic { display: grid; place-items: center; width: 36px; height: 36px; background: var(--house); color: #fff; font: 700 18px/1 var(--sans); } .dl-tx b { display: block; font: 700 15px/1.25 var(--sans); } .dl-tx i { display: block; margin-top: 3px; color: var(--slate); font-size: 12.5px; line-height: 1.4; font-style: normal; }
