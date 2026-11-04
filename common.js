@@ -252,7 +252,7 @@ async function renderPitches(host, opts) {
     const way = (price) => ((price - p.pitchPrice) / (p.target - p.pitchPrice));
     const m = {
       cur: cur, curDate: lp.currentDate || null,
-      progress: have && cur != null ? way(cur) : null,
+      progress: have && cur != null ? ((lp.closest && lp.closest.hit) ? Math.min(way(cur), 1) : way(cur)) : null,
       implied: have ? (p.target / p.pitchPrice - 1) * 100 : null,
       since: typeof p.pitchPrice === "number" && cur != null ? (cur / p.pitchPrice - 1) * 100 : null,
       toGo: typeof p.target === "number" && cur != null ? (p.target / cur - 1) * 100 : null,
@@ -331,7 +331,7 @@ async function renderPitches(host, opts) {
     const cell = (label, value) => '<div><dt>' + label + "</dt><dd>" + value + "</dd></div>";
     return '<div class="rating"><p class="rating-call">' + esc(p.direction || "Pitch") + "</p><dl>" +
       cell("Price target", fmtUSD(p.target) || "–") +
-      cell("To target", m.toGo != null ? signedPct(m.toGo) : "–") +
+      cell("To target", m.progress != null && m.progress >= 1 ? "Reached" : (m.toGo != null ? signedPct(m.toGo) : "–")) +
       cell("Progress", progText(m.progress)) +
       "</dl></div>";
   };

@@ -47,8 +47,10 @@ def summarize(p, rows):
         return out
     short = p["direction"].lower() == "short"
     # First day the target traded, if it has
-    for d, hi, lo, _ in rows:
+    for d, hi, lo, close in rows:
         if (lo <= target) if short else (hi >= target):
+            # Once a call hits, its numbers are frozen at that day's close and the page shows 100%
+            out["current"], out["currentDate"] = round(close, 2), d.isoformat()
             out["closest"] = {"price": round(target, 2), "date": d.isoformat(), "hit": True}
             return out
     # Otherwise the best print so far: highest high for a long, lowest low for a short
@@ -77,6 +79,11 @@ def main():
     prices = {}
     for p in pitches:
         if not p["date"]:
+            continue
+        prev = old["prices"].get(p["ticker"])
+        if prev and (prev.get("closest") or {}).get("hit"):
+            prices[p["ticker"]] = prev   # target already hit: leave it frozen
+            print(p["ticker"], "frozen", prev)
             continue
         start = date.fromisoformat(p["date"]) + timedelta(days=1)
         try:
