@@ -147,6 +147,13 @@
    "found": 34,
    "new": 6,
    "cumulative": 115
+  },
+  {
+   "date": "2026-11-04",
+   "shown": 8,
+   "found": 36,
+   "new": 6,
+   "cumulative": 118
   }
  ],
  "deals": {
@@ -1131,16 +1138,16 @@
    "acquirer": "Organigram",
    "target": "Aurora Cannabis",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "stage": "Announced",
-   "value": "$7.80",
+   "value": "$561",
    "usd": null
   },
   "fox|roku": {
    "acquirer": "Fox",
    "target": "Roku",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "stage": "Pending approval",
    "value": "$22 Billion",
    "usd": 22000000000.0
@@ -1174,11 +1181,61 @@
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03",
    "stage": "Announced"
+  },
+  "foodtastic|mty food group": {
+   "acquirer": "Foodtastic",
+   "target": "MTY Food Group",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "stage": "Announced",
+   "value": "$720M",
+   "usd": 720000000.0
+  },
+  "marvell technology|lumentum holdings": {
+   "acquirer": "Marvell Technology",
+   "target": "Lumentum Holdings",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "stage": "Announced",
+   "value": "$115 billion",
+   "usd": 115000000000.0
+  },
+  "array technologies|shoals": {
+   "acquirer": "Array Technologies",
+   "target": "Shoals",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "stage": "Announced"
+  },
+  "adkisson|houston s largest industrial campus": {
+   "acquirer": "Adkisson",
+   "target": "Houston\u2019s Largest Industrial Campus",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "stage": "Announced"
+  },
+  "spectrum brands|helen of troy": {
+   "acquirer": "Spectrum Brands",
+   "target": "Helen of Troy",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "stage": "Announced",
+   "value": "$37",
+   "usd": null
+  },
+  "brookfield|cpp": {
+   "acquirer": "Brookfield",
+   "target": "CPP",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "stage": "Pending approval",
+   "value": "$5.2B",
+   "usd": 5200000000.0
   }
  },
  "totals": {
-  "deals": 115,
-  "with_usd_value": 60,
-  "usd": 561300300000.0
+  "deals": 118,
+  "with_usd_value": 61,
+  "usd": 562020300000.0
  }
 }

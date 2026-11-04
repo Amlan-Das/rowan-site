@@ -1,19 +1,19 @@
 {
-  "date": "Tuesday, November 03",
-  "generated_at": "2026-11-03T18:33:38.851137+00:00",
+  "date": "Wednesday, November 04",
+  "generated_at": "2026-11-04T18:48:31.116429+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "Marvell is acquiring Lumentum in an all-stock deal worth $115 billion, the largest AI-focused acquisition in history.",
+  "lede": "Organigram is acquiring Aurora Cannabis for a reported $561 million, establishing itself as a global cannabis leader.",
   "deals": [
     {
-      "acquirer": "Marvell",
-      "target": "Lumentum",
-      "value": "$115 billion",
+      "acquirer": "Organigram",
+      "target": "Aurora Cannabis",
+      "value": "$561",
       "pinned": false,
       "stage": "Announced",
       "articles": 8,
       "outlets": 8,
-      "latest": "2026-11-03T16:00:00+00:00",
+      "latest": "2026-11-04T07:44:52+00:00",
       "sources": [
         1,
         2,
@@ -25,103 +25,129 @@
         8
       ],
       "stripped": [],
-      "headline": "Marvell to Acquire Lumentum",
-      "body": "Marvell Technology is acquiring Lumentum Holdings in a historic deal [1, 2, 4]. The deal is worth $115 billion and will be an all-stock transaction [1, 2, 6]. The acquisition is expected to draw attention due to its significant size and implications for the AI market [3, 7].",
+      "headline": "Organigram to Acquire Aurora Cannabis",
+      "body": "Organigram is acquiring Aurora Cannabis for a reported $561 million [1, 6, 8]. The deal is expected to establish Organigram as a global cannabis leader [7, 8]. Organigram is outbidding Curaleaf for Aurora Cannabis [8].",
       "found": [
         {
           "n": 1,
-          "acquirer": "Marvell Technology",
-          "target": "Lumentum Holdings",
-          "stage": "Completed"
+          "acquirer": "Organigram",
+          "target": "Aurora Cannabis",
+          "stage": "Announced"
         },
         {
           "n": 2,
-          "acquirer": "Marvell",
-          "target": "Lumentum",
+          "acquirer": "Organigram",
+          "target": "Aurora Cannabis",
           "stage": "Announced"
         },
         {
           "n": 3,
-          "acquirer": "Marvell",
-          "target": "Lumentum",
-          "stage": "Announced"
+          "acquirer": "Organigram",
+          "target": "Aurora Cannabis",
+          "stage": "Completed"
         },
         {
           "n": 4,
-          "acquirer": "Marvell",
-          "target": "Lumentum",
-          "stage": "Announced"
+          "acquirer": "Organigram",
+          "target": "Aurora Cannabis",
+          "stage": "Completed"
         },
         {
           "n": 5,
-          "acquirer": "Marvell Technology",
-          "target": "Lumentum",
-          "stage": "Announced"
-        },
-        {
-          "n": 6,
-          "acquirer": "Marvell",
-          "target": "Lumentum",
-          "stage": "Announced"
-        },
-        {
-          "n": 7,
-          "acquirer": "Marvell",
-          "target": "Lumentum",
-          "stage": "Completed"
-        },
-        {
-          "n": 8,
-          "acquirer": "Marvell",
-          "target": "Lumentum",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "Organigram",
-      "target": "Aurora Cannabis",
-      "value": "$7.80",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 4,
-      "outlets": 3,
-      "latest": "2026-11-03T16:50:18+00:00",
-      "sources": [
-        15,
-        16,
-        17,
-        18,
-        19,
-        20
-      ],
-      "stripped": [],
-      "headline": "Organigram to Acquire Aurora Cannabis",
-      "body": "Organigram is acquiring Aurora Cannabis for CA$7.80 per Common Share [15, 16, 17]. Organigram has outbid Curaleaf with a C$561 million deal for Aurora Cannabis [16, 20]. Organigram will establish a global cannabis leader after the acquisition [18].",
-      "found": [
-        {
-          "n": 15,
           "acquirer": "Organigram Global",
           "target": "Aurora Cannabis",
           "stage": "Announced"
         },
         {
-          "n": 16,
+          "n": 6,
           "acquirer": "Organigram",
           "target": "Aurora Cannabis",
-          "stage": "Completed"
+          "stage": "Announced"
         },
         {
-          "n": 17,
-          "acquirer": "Organigram",
-          "target": "Aurora Cannabis",
-          "stage": "Completed"
-        },
-        {
-          "n": 18,
+          "n": 7,
           "acquirer": "Organigram",
           "target": "Aurora",
+          "stage": "Completed"
+        },
+        {
+          "n": 8,
+          "acquirer": "Organigram",
+          "target": "Aurora Cannabis",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Foodtastic",
+      "target": "MTY Food Group",
+      "value": "$720M",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 3,
+      "outlets": 3,
+      "latest": "2026-11-04T15:51:04+00:00",
+      "sources": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "stripped": [],
+      "headline": "Foodtastic and MTY Food Group Deal",
+      "body": "Foodtastic is a restaurant franchiser that has made a hostile takeover bid for MTY Food Group [12, 13, 14]. MTY Food Group has rebuffed Foodtastic's $720M bid [10]. Foodtastic has offered a $1-billion takeover deal for MTY Food Group [11].",
+      "found": [
+        {
+          "n": 10,
+          "acquirer": "Foodtastic",
+          "target": "MTY Food Group",
           "stage": "Announced"
+        },
+        {
+          "n": 11,
+          "acquirer": "Foodtastic",
+          "target": "MTY",
+          "stage": "Announced"
+        },
+        {
+          "n": 12,
+          "acquirer": "Foodtastic",
+          "target": "MTY Food",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "Marvell Technology",
+      "target": "Lumentum Holdings",
+      "value": "$115 billion",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-03T16:00:00+00:00",
+      "sources": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "stripped": [],
+      "headline": "Marvell Technology to Acquire Lumentum",
+      "body": "Marvell Technology is acquiring Lumentum Holdings in a historic deal [15, 16, 17]. The deal is valued at US$115 billion and is an all-stock transaction [15, 16]. Marvell Technology and Lumentum Holdings have announced the merger agreement [17, 18].",
+      "found": [
+        {
+          "n": 15,
+          "acquirer": "Marvell Technology",
+          "target": "Lumentum Holdings",
+          "stage": "Announced"
+        },
+        {
+          "n": 16,
+          "acquirer": "Marvell",
+          "target": "Lumentum",
+          "stage": "Completed"
         }
       ]
     },
@@ -131,193 +157,142 @@
       "value": "$22 Billion",
       "pinned": false,
       "stage": "Pending approval",
-      "articles": 4,
-      "outlets": 3,
+      "articles": 2,
+      "outlets": 2,
       "latest": "2026-11-03T11:20:25+00:00",
       "sources": [
+        19,
+        20,
         21,
         22,
         23,
-        24,
+        24
+      ],
+      "stripped": [],
+      "headline": "Fox to Acquire Roku",
+      "body": "Fox is acquiring Roku in a $22 billion cash and stock deal [21, 22, 24]. The deal is pending US antitrust approval [19, 20, 23]. No further updates are available [19, 20, 21].",
+      "found": [
+        {
+          "n": 19,
+          "acquirer": "Fox",
+          "target": "Roku",
+          "stage": "Completed"
+        },
+        {
+          "n": 20,
+          "acquirer": "Fox",
+          "target": "Roku",
+          "stage": "Pending approval"
+        }
+      ]
+    },
+    {
+      "acquirer": "Array Technologies",
+      "target": "Shoals",
+      "value": "",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 1,
+      "latest": "2026-11-04T16:08:38+00:00",
+      "sources": [
         25,
         26
       ],
       "stripped": [],
-      "headline": "Fox and Roku Deal",
-      "body": "Fox is acquiring Roku in a $22 billion deal [25, 26]. The deal is pending US antitrust approval [21, 22, 23]. The acquisition is expected to be cleared after a consent decree [23].",
+      "headline": "Array Technologies and Shoals Merger Announced",
+      "body": "Array Technologies and Shoals are merging [25, 26]. The deal has been announced [25, 26].",
       "found": [
         {
-          "n": 21,
-          "acquirer": "Fox",
-          "target": "Roku",
-          "stage": "Completed"
-        },
-        {
-          "n": 22,
-          "acquirer": "Fox",
-          "target": "Roku",
+          "n": 25,
+          "acquirer": "Array Technologies",
+          "target": "Shoals",
           "stage": "Announced"
         },
         {
-          "n": 23,
-          "acquirer": "Fox",
-          "target": "Roku",
-          "stage": "Rumored"
-        },
-        {
-          "n": 24,
-          "acquirer": "Fox",
-          "target": "Roku",
-          "stage": "Completed"
+          "n": 26,
+          "acquirer": "Array Technologies",
+          "target": "Shoals Technologies Group",
+          "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Foodtastic",
-      "target": "MTY Food",
+      "acquirer": "Adkisson",
+      "target": "Houston’s Largest Industrial Campus",
       "value": "",
       "pinned": false,
       "stage": "Announced",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-11-03T15:25:00+00:00",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-11-04T18:27:00+00:00",
       "sources": [
         27,
-        28,
-        29
+        28
       ],
       "stripped": [],
-      "headline": "Foodtastic Makes Hostile Bid for MTY Food",
-      "body": "Foodtastic is making a hostile bid for MTY Food [27, 28, 29]. MTY Food Group has replaced its CEO [28, 29]. No further information is available [27, 28, 29].",
+      "headline": "Adkisson Lands Houston's Largest Industrial Campus",
+      "body": "Adkisson and Houston's Largest Industrial Campus has been announced [27, 28]. No new information is available [27, 28].",
       "found": [
         {
           "n": 27,
-          "acquirer": "Foodtastic",
-          "target": "MTY Food",
-          "stage": "Completed"
-        },
-        {
-          "n": 28,
-          "acquirer": "Foodtastic",
-          "target": "MTY Food Group",
+          "acquirer": "Adkisson",
+          "target": "Houston’s Largest Industrial Campus",
           "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Rising Dragon Acquisition",
-      "target": "HZJL",
-      "value": "",
+      "acquirer": "Spectrum Brands",
+      "target": "Helen of Troy",
+      "value": "$37",
       "pinned": false,
-      "stage": "Terminated",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-11-03T15:12:36+00:00",
+      "stage": "Announced",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-11-04T18:01:27+00:00",
       "sources": [
-        30,
-        31
+        29
       ],
-      "stripped": [],
-      "headline": "Rising Dragon Acquisition Terminates HZJL Merger",
-      "body": "Rising Dragon Acquisition and HZJL have terminated their merger agreement [30, 31]. The deal is no longer in progress [30, 31].",
+      "stripped": [
+        1
+      ],
+      "headline": "Spectrum Brands Makes Bid on Helen of Troy",
+      "body": "Spectrum Brands has made a $37-per-share takeover bid for Helen of Troy [29]. Helen of Troy has rejected the bid [29].",
       "found": [
         {
-          "n": 30,
-          "acquirer": "Rising Dragon Acquisition",
-          "target": "HZJL",
-          "stage": "Completed"
-        },
-        {
-          "n": 31,
-          "acquirer": "Rising Dragon Acquisition Corp.",
-          "target": "HZJL Cayman Limited",
-          "stage": "Terminated"
+          "n": 29,
+          "acquirer": "Spectrum Brands",
+          "target": "Helen of Troy",
+          "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "BASF",
-      "target": "Evonik",
-      "value": "€24",
+      "acquirer": "Brookfield",
+      "target": "CPP",
+      "value": "$5.2B",
       "pinned": false,
-      "stage": "Announced",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-11-03T13:03:09+00:00",
+      "stage": "Pending approval",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-11-04T17:25:59+00:00",
       "sources": [
+        30,
+        31,
         32,
         33,
         34,
-        35,
-        36,
-        37,
-        38,
-        39
+        35
       ],
       "stripped": [],
-      "headline": "BASF and Evonik Deal",
-      "body": "BASF is making a bid for Evonik [38, 39]. BASF's offer for Evonik has been rejected [33, 35, 36]. BASF has increased its offer for Evonik [38, 39]. BASF is still pursuing Evonik despite the rejections [34, 37].",
+      "headline": "Brookfield and CPP Complete LXP Acquisition",
+      "body": "Brookfield and CPP have completed the acquisition of LXP Industrial Trust [31, 32, 33]. The acquisition was approved by LXP Industrial Trust shareholders [34, 35]. The deal is pending approval from regulatory bodies [30, 31, 32].",
       "found": [
         {
-          "n": 32,
-          "acquirer": "BASF",
-          "target": "Evonik",
-          "stage": "Announced"
-        },
-        {
-          "n": 33,
-          "acquirer": "BASF",
-          "target": "Evonik",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "Shell",
-      "target": "XRG",
-      "value": "$1.45",
-      "pinned": false,
-      "stage": "Rumored",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-03T17:06:10+00:00",
-      "sources": [
-        40,
-        41,
-        42
-      ],
-      "stripped": [],
-      "headline": "Shell and XRG Deal Rumors",
-      "body": "Shell and XRG are in talks for a deal [40, 42]. ADNOC's XRG is in talks to buy a stake in Eni's Libya business [41, 42]. No new information on the Shell and XRG deal [40, 41].",
-      "found": [
-        {
-          "n": 40,
-          "acquirer": "Shell",
-          "target": "XRG",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "Edge Industrial Technologies",
-      "target": "California blade sharpening company",
-      "value": "",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-03T16:55:00+00:00",
-      "sources": [
-        43
-      ],
-      "stripped": [],
-      "headline": "Edge Industrial Technologies Acquires California Company",
-      "body": "Edge Industrial Technologies has acquired a California blade sharpening company [43]. The deal was announced recently [43].",
-      "found": [
-        {
-          "n": 43,
-          "acquirer": "Edge Industrial Technologies",
-          "target": "California blade sharpening company",
+          "n": 30,
+          "acquirer": "Brookfield",
+          "target": "CPP",
           "stage": "Completed"
         }
       ]
@@ -325,134 +300,54 @@
   ],
   "also": [
     {
-      "n": 44,
-      "note": "Government demands answers as Poundland owner rejects rescue offers for chain [44]."
+      "n": 36,
+      "note": "DoorDash is buying Instacart for $17 billion [36]."
     },
     {
-      "n": 45,
-      "note": "What’s Ahead for Private Equity: A More Selective Approach to Dealmaking [45]."
+      "n": 37,
+      "note": "CollPlant Proposes Name Change to OptiPhi Computing After LightSolver Acquisition [37]."
     },
     {
-      "n": 46,
-      "note": "4 big questions about the DoorDash-Instacart deal [46]."
+      "n": 38,
+      "note": "Is Private Equity Cooked? [38]."
     }
   ],
-  "brief": "Marvell is acquiring Lumentum in an all-stock deal worth $115 billion, the largest AI-focused acquisition in history.\n\nMarvell / Lumentum (Announced): Marvell to Acquire Lumentum. Marvell Technology is acquiring Lumentum Holdings in a historic deal [1, 2, 4]. The deal is worth $115 billion and will be an all-stock transaction [1, 2, 6]. The acquisition is expected to draw attention due to its significant size and implications for the AI market [3, 7].\nOrganigram / Aurora Cannabis (Announced): Organigram to Acquire Aurora Cannabis. Organigram is acquiring Aurora Cannabis for CA$7.80 per Common Share [15, 16, 17]. Organigram has outbid Curaleaf with a C$561 million deal for Aurora Cannabis [16, 20]. Organigram will establish a global cannabis leader after the acquisition [18].\nFox / Roku (Pending approval): Fox and Roku Deal. Fox is acquiring Roku in a $22 billion deal [25, 26]. The deal is pending US antitrust approval [21, 22, 23]. The acquisition is expected to be cleared after a consent decree [23].\nFoodtastic / MTY Food (Announced): Foodtastic Makes Hostile Bid for MTY Food. Foodtastic is making a hostile bid for MTY Food [27, 28, 29]. MTY Food Group has replaced its CEO [28, 29]. No further information is available [27, 28, 29].\nRising Dragon Acquisition / HZJL (Terminated): Rising Dragon Acquisition Terminates HZJL Merger. Rising Dragon Acquisition and HZJL have terminated their merger agreement [30, 31]. The deal is no longer in progress [30, 31].\nBASF / Evonik (Announced): BASF and Evonik Deal. BASF is making a bid for Evonik [38, 39]. BASF's offer for Evonik has been rejected [33, 35, 36]. BASF has increased its offer for Evonik [38, 39]. BASF is still pursuing Evonik despite the rejections [34, 37].\nShell / XRG (Rumored): Shell and XRG Deal Rumors. Shell and XRG are in talks for a deal [40, 42]. ADNOC's XRG is in talks to buy a stake in Eni's Libya business [41, 42]. No new information on the Shell and XRG deal [40, 41].\nEdge Industrial Technologies / California blade sharpening company (Announced): Edge Industrial Technologies Acquires California Company. Edge Industrial Technologies has acquired a California blade sharpening company [43]. The deal was announced recently [43].\n\nAlso worth knowing:\n- Government demands answers as Poundland owner rejects rescue offers for chain [44].\n- What’s Ahead for Private Equity: A More Selective Approach to Dealmaking [45].\n- 4 big questions about the DoorDash-Instacart deal [46].",
+  "brief": "Organigram is acquiring Aurora Cannabis for a reported $561 million, establishing itself as a global cannabis leader.\n\nOrganigram / Aurora Cannabis (Announced): Organigram to Acquire Aurora Cannabis. Organigram is acquiring Aurora Cannabis for a reported $561 million [1, 6, 8]. The deal is expected to establish Organigram as a global cannabis leader [7, 8]. Organigram is outbidding Curaleaf for Aurora Cannabis [8].\nFoodtastic / MTY Food Group (Announced): Foodtastic and MTY Food Group Deal. Foodtastic is a restaurant franchiser that has made a hostile takeover bid for MTY Food Group [12, 13, 14]. MTY Food Group has rebuffed Foodtastic's $720M bid [10]. Foodtastic has offered a $1-billion takeover deal for MTY Food Group [11].\nMarvell Technology / Lumentum Holdings (Announced): Marvell Technology to Acquire Lumentum. Marvell Technology is acquiring Lumentum Holdings in a historic deal [15, 16, 17]. The deal is valued at US$115 billion and is an all-stock transaction [15, 16]. Marvell Technology and Lumentum Holdings have announced the merger agreement [17, 18].\nFox / Roku (Pending approval): Fox to Acquire Roku. Fox is acquiring Roku in a $22 billion cash and stock deal [21, 22, 24]. The deal is pending US antitrust approval [19, 20, 23]. No further updates are available [19, 20, 21].\nArray Technologies / Shoals (Announced): Array Technologies and Shoals Merger Announced. Array Technologies and Shoals are merging [25, 26]. The deal has been announced [25, 26].\nAdkisson / Houston’s Largest Industrial Campus (Announced): Adkisson Lands Houston's Largest Industrial Campus. Adkisson and Houston's Largest Industrial Campus has been announced [27, 28]. No new information is available [27, 28].\nSpectrum Brands / Helen of Troy (Announced): Spectrum Brands Makes Bid on Helen of Troy. Spectrum Brands has made a $37-per-share takeover bid for Helen of Troy [29]. Helen of Troy has rejected the bid [29].\nBrookfield / CPP (Pending approval): Brookfield and CPP Complete LXP Acquisition. Brookfield and CPP have completed the acquisition of LXP Industrial Trust [31, 32, 33]. The acquisition was approved by LXP Industrial Trust shareholders [34, 35]. The deal is pending approval from regulatory bodies [30, 31, 32].\n\nAlso worth knowing:\n- DoorDash is buying Instacart for $17 billion [36].\n- CollPlant Proposes Name Change to OptiPhi Computing After LightSolver Acquisition [37].\n- Is Private Equity Cooked? [38].",
   "sources": [
     {
       "n": 1,
-      "title": "Marvell Technology to acquire Lumentum Holdings in historic US$115 billion deal",
-      "source": "Taipei Times",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TZExMZ2hZMHZ0aVZXby1sR3VJSHJUSU54dGpkQ2lXZDlYWU55aXdJbWdkOFVKdl9CejJiU2phMWN5RFZaeHNpSzdTQWtwVzk0Q21PaHNseWE1dFJMT3N3OE1TZXo5Z2pzdlhTa1NLY3U3U0R2eHc?oc=5",
-      "snippet": "Taipei Times",
-      "published": "2026-11-03T16:00:00+00:00"
+      "title": "Organigram launches $561-million takeover offer for Aurora Cannabis",
+      "source": "Rich Picks Daily",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObkI0dGdra2pJcnh2ZW9Ob3hnX2ZvTzY0RjJ2bjJvMkotT2l2UTY0bnFPSUNPdkx6NElQeTRnVDlIVmtDdXBPYUhHdjdwZU5YaUktOEhMbnVLLXFrbHdaUUdtNTEtYWNoYkJNY1JoelAzSHpQTm5oMGdiUVlreUYzY3o1dzFnVzFnclpKOGtLbnB2QTg?oc=5",
+      "snippet": "Rich Picks Daily",
+      "published": "2026-11-04T07:44:52+00:00"
     },
     {
       "n": 2,
-      "title": "Marvell to Acquire Lumentum for $115 Billion in All-Stock Deal",
-      "source": "THE ELEC, Korea Electronics Industry Media",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfaUgyNVVydER5ZndrQUd2clZMSGNrOExib1pQcUs0VzJJYjVqd1dGR2RGRl9BbmZQTUVyeUhKRWJtcjRQMlY2bDNqMVlHamxuMUZKTDljNDBDNC0yRndGYlNpTGVzZWM?oc=5",
-      "snippet": "THE ELEC, Korea Electronics Industry Media",
-      "published": "2026-11-03T09:19:37+00:00"
+      "title": "Organigram to Acquire Aurora Cannabis with BAT Support",
+      "source": "Tobacco Reporter",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbXJ6ckhuQnViVjMtTG9LZTZicHl5cG9hZ2F2YXpsaGhxX3VQZHN4ZFhMd1RkbDV5bXNlc2R4UWNZYkc2RDJwSGdVT3dkSXExdEhIdzBxc2tBdW5kZU8yMEdoQTZQaDRXejBqOWgzV2xNb0w1d0JVTEk4cjhXbXJXb3IwTmUyV3NSZk02aXViV0RuTXVFeXBGWE9n?oc=5",
+      "snippet": "Tobacco Reporter",
+      "published": "2026-11-03T22:09:33+00:00"
     },
     {
       "n": 3,
-      "title": "Lumentum (NASDAQ:LITE) Record Quarter Meets Marvell Merger as Deal Spread Draws Attention",
-      "source": "Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPX0hZeWV2NnU3bGc2THJnZWxmSU81WUlkeDBRUWhmcHVzSVc2M19sZnpWRnlRdzFhOFp6a09mdXhZQUsydEdQNC1UMnFhMHVYMUhSb0RBVXcyZzQ4ZU5EWTcwdTIwVXV3NVlXQ1BxaTB3Vk5MNEg4U1BpbTd0TExuN1BfWUlGclphdWc4X3QyRF9EZmFwV0JEOUZSX0FnVEVCY2dCX2dKSERqQUNOYTdaamx5RTdmaDZkRUM0aGhFNTZOaUhkbVlBRWFTcVY?oc=5",
-      "snippet": "Kalkine Media",
-      "published": "2026-11-03T09:16:00+00:00"
+      "title": "Organigram to acquire Aurora Cannabis in $400 million deal, topping Curaleaf bid",
+      "source": "MJBizDaily",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOekZNd0owU3NlZGl2bERzSlVHNHZaNzlHTzl5X1ZER0ljR1pOeGRhQ3I0ak5NbFJHZDNzTjVGaEYybHV6LVpHRlZ1X3FzU09HNjJlcmNKVlFDYm8tUFUwaGdhVk1WRTFVTkxzWlZxdi1MLURLMl9MMkRrQm55bmNRTTFlTGVZTzJxRUp6REpFdWN3ZEk0TFJpWHRGTnJkWHlEejEwQkh3VFc3NGtDXzFtSF9YQVk?oc=5",
+      "snippet": "MJBizDaily",
+      "published": "2026-11-03T19:07:43+00:00"
     },
     {
       "n": 4,
-      "title": "Marvell Agrees to Acquire Lumentum in All-Stock AI Connectivity Deal",
-      "source": "Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORTN5V2NLTlRTa2JxcG4xalNMaXl1aGpyWkdqY3oxeG9TQS1XUUFraWZ3X1J2Mkh6a05nVmJDa19nV3Y4d3Z2NzQ4UXhSWC1oTi1sVEJUcUc3MUw0bmZLWFlyeEp4Q3Q0SWt4QldGY2kwblVCOGdPcFRLLVU3ZnBkcTlSNzFmWEpHSGZILV9NNkZDVW5z?oc=5",
-      "snippet": "Unite.AI",
-      "published": "2026-11-03T00:04:02+00:00"
+      "title": "Organigram To Acquire Aurora Cannabis For $401 Million",
+      "source": "Forbes",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSUVnTmlLSUs2emhFRnVJR2hBdmEzWmZTSUgyczlkMnpSNWhwb3FHS0Y4QjFBaGNIZUlWeWZ4SnpBR1FaamxoQllNU25sSzFiaGU2MGJYQVIwcXNxTVcxU2hHUEpPVmoweC1uQm1HUTE0NVVGVkZWREduZXFZY3NjM1BTNDhvVUFfQUhuQjFiUmNlQ1piZW0tdWY0OHpweHhoYS1sdHZmUVk5eEU?oc=5",
+      "snippet": "Forbes",
+      "published": "2026-11-03T18:38:53+00:00"
     },
     {
       "n": 5,
-      "title": "Marvell Technology Is Acquiring Lumentum. Why Does the Market Hate the Move?",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdUVwbUxBa28ycnN0V25XakRCVlhMV3FTNm9lWHhLYzdPOV9PWk4wdTBQUlgzU2w3bnZUeFZwUk9QNVhMTU5jazE2R1U4c2pIVlVpMFdvM1JoZjZXM3hMS2xnakEwTHRZTTV3TnRkMmx5dUhzZDJtekY0QmlURUVOTXI3dUpnVEk2MmVURUlJVEtfcklvOWREa3VYbXUxZWdhSjlScy12X0taQQ?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-11-02T22:22:02+00:00"
-    },
-    {
-      "n": 6,
-      "title": "Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV2FXN0VKVjBIUDlmNF8xMXBEcE9BQkRrQk5GR2k1dmNLMjlBMVlCSmRLc19PNXVCTUNZVUZRY3pQNzEtZGJuQlNwcnMxQWdqME8xa1FtOVkyendLS0RFSTV3cjNwQXJaYmVxTy1fREcyNk81S29pYWRGOTdLN3ljXzVVX1pIaDlTMXRGTHB1ck1qNEZnSUlsUkJIMWFJSmpHT1U5UjkyMEs?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-02T21:09:22+00:00"
-    },
-    {
-      "n": 7,
-      "title": "Marvell doubles down on AI boom with costly $115 billion Lumentum deal",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelFpUlRuWUdrd3oyYkZTNkxFMW9mQlBTY01YTl9ERVRsYTc1VGNWQjR1VF90aEcwY01sTDNXN3NiWVBZNTY4aGVFSlR3WlBlb0laSkptRS1EMF9fMGlna1BXSVExN2dFVGlTNWMyQzYyM1RsYm5pMGxXOWxhbmp1UGRYVjk3RVA0b25WWVZPcFZMS05IOE1CTUgzY1BsQWY3MW5DbDF1bGs1M185UlM4cjlB?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-11-02T20:21:51+00:00"
-    },
-    {
-      "n": 8,
-      "title": "Marvell-Lumentum Merger: Implications Of A Major AI Photonics Deal (NASDAQ:MRVL)",
-      "source": "Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa2t6NVhRdDNKNFRmaE5IcFZYVlFKaXZQYkZQelE5OG9ZZ3BrVlR0WTZqQ3A5MUJMT2VKcDVHbjJDSXlSQnlld2hEblEtb21NS1M5ZWFNb3VhdDNEbTRPQm95OXZMeHZDWlR1SlNVY0NxV252UGNNOENkdHNOLVFfVThqZXc4SWJjYmxoVGJsdFBUYUl5NUJFcU9YbnAyQUM0WFY0LVJYejhUZw?oc=5",
-      "snippet": "Seeking Alpha",
-      "published": "2026-11-02T18:53:45+00:00"
-    },
-    {
-      "n": 9,
-      "title": "One of Tech's Largest Mergers Finalized: Marvell to Acquire Lumentum for $115 Billion in All-Stock Deal",
-      "source": "TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeWdsaXhrNUJrc2dyaXdUaHJDYVlGdjF4SGZ2SDJLYjYyZy10UTVaRGpiVFNFWTF6aTdDb1E1dWpWN0oyZktrVG81WEt0RUhnWWhxSThiQXJpdTJYNnMyZUZiZGpnUzhaRjA3YkhnaHJnNUlkdm5GMi1Qa2ZkZzNsanZ6cEZMRXY4RmJWVXdwTkNGdnprVmx2bC1CREMzazBzXzk5cTJHRnJySVVxdnMtbHM0dGE5OGFkdVlqY0d3UXg0aDdWSEx2Z25lakNQS0lZSXhfNExHUFZMZnRK?oc=5",
-      "snippet": "TradingKey",
-      "published": "2026-11-02T13:04:06+00:00"
-    },
-    {
-      "n": 10,
-      "title": "Marvell agrees to acquire Lumentum in $115 billion deal — Anadolu Agency",
-      "source": "UA.NEWS",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdmYyT0gxbTZKREYxLUp6SV9PcmVEVUd0VVNqQmZnZkU4S1ZJZlY2OTBvMm1UZ3VKdnpTUWxMWnpmS0VEQllsMzBxWG50Q2lYM3JHTGNzbXIyaVBNN25McElqVEM2TkltZnNlNjkySDZWRU40c1ljTlVKaDJlelpYQzdBSENCZ0FJWU5HVWZpdGc2MFZBRGMzdnhwN28yQ1g3TnNKVGRHOA?oc=5",
-      "snippet": "UA.NEWS",
-      "published": "2026-11-02T15:03:34+00:00"
-    },
-    {
-      "n": 11,
-      "title": "Marvell Technology Announces Merger Agreement with Lumentum",
-      "source": "TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTEY3TEFXWl9HRjVKdTJnQkFuRkhveGUwYW5qeDMtWmJSeV9qV0JaS0JDeGN4UUU2UVhzVGp2d3p3WXFmRTdDT3dxdjh3dWJUdDZvVnA3QWF3V1dmSzhrOUNZbmlxWWNYYXVYWjQ0U0lJTzJVRXItWEJxTE96MU4zcFVrZy0xak55NGNMQ21SZ2dBQWZwSGQ0UV9UNGozQ2xJU0JDS21WUkZyRUdXZnc5Yg?oc=5",
-      "snippet": "TipRanks",
-      "published": "2026-11-02T13:29:52+00:00"
-    },
-    {
-      "n": 12,
-      "title": "Marvell to Acquire Lumentum in $115B AI Deal",
-      "source": "Markets.com",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ1ViakJEMHhEcXhlc1AtTEJxVVVSZzhxYkxlX0FSWUp1MmtzZVZSQ0k5cl9WM0lIUi1MRXFWWGpad2V1WWF3cWI4TXQwRW5hcW9adHBEN1c0R1d4elVoLTlUX2VfbUQtVS14WVlQdlZ5TUFTOHhWWi1RenBwZWJiY2JLcWo?oc=5",
-      "snippet": "Markets.com",
-      "published": "2026-11-02T16:06:00+00:00"
-    },
-    {
-      "n": 13,
-      "title": "Marvell to acquire Lumentum in $115bn AI deal",
-      "source": "grafa.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMzdlSW5Jb1hJQXVyLXhpcDRRdWx3U1hkZ2FVcjJ6c183RERWRVpPUC1sUDcycFVnSU9CZFRwNk04S25sZFFFVGVVOU1haE1kbHo1akFneE9BQ3NuZnhtUmZaZzJ4MFR3Mk13QzdMM2VoSnlvVHE3N0lGYTQ2MWxMYlNlcmwyRjM5NWdGWEk2bUtLRGR3TlFaYUxYT1BYcXM?oc=5",
-      "snippet": "grafa.com",
-      "published": "2026-11-02T14:33:23+00:00"
-    },
-    {
-      "n": 14,
-      "title": "Marvell is acquiring Lumentum for $115 billion: what is known about the deal",
-      "source": "UkrMedia News",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKQUpjcWpOM1JVWlY0SldfZkM0REhYaWxnd01JUXlRbmN0aVlNYUhGTTFsdHhlSFBFc0NPWmlxYU04em5lbFlfZE9kZkd2dlUzOUcwQmp4VFFvc1ZySmZ2VnFWMlFBVkQ5bnpQMVBRMWtFbU5Qb3ZVbWRveEY?oc=5",
-      "snippet": "UkrMedia News",
-      "published": "2026-11-02T13:30:47+00:00"
-    },
-    {
-      "n": 15,
       "title": "Organigram Global to Acquire Aurora Cannabis for CA$7.80 per Common Share",
       "source": "Yahoo! Finance Canada",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaC1DNWtyRVQ1aDVZNy1ycngwWS1CSXRHa1AwVkxUbEw3cWhTcnRWeTJrd0xQZXY5Y3JfcmZZQkF6SjRoNnloM1ZBeU11bWc3blFPa3o1bUs2N010clpJMFZSN1N4T0V2dGFNU0YwazgtWG1NV011djBMVS04TlI3eDJUTERHSzVfaHp3Y3lwbzl1Y1V6?oc=5",
@@ -460,15 +355,7 @@
       "published": "2026-11-03T16:50:18+00:00"
     },
     {
-      "n": 16,
-      "title": "Organigram signs friendly deal to buy Aurora Cannabis after hostile Curaleaf offer",
-      "source": "Yahoo! Finance Canada",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOanlfUlJyOFotaVJ3ajBhWjNuODV4T3otTVRtdWlHZU00WEthdUlwTTdMQm4tQTV6THQ2WUVXVzk3aW9ocjBzVXBFOWxKd3YyaTdRQkxWMGlUUTc5R21PbVhHUDZtQk9TclNvZWllaHE1c2tTUFJGX2F1c283Rmt1amJwWWF2T0pOVkIw?oc=5",
-      "snippet": "Yahoo! Finance Canada",
-      "published": "2026-11-03T15:50:11+00:00"
-    },
-    {
-      "n": 17,
+      "n": 6,
       "title": "Organigram to Acquire Aurora Cannabis in C$561 Million Deal, Topping Curaleaf’s Hostile Takeover Offer",
       "source": "The Marijuana Herald",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQnN6VVlWcG5KQ2dwYTBPQ1pDZGZDdzc4SkZ4a2VBdHlmR29kRnhodGFzTjl2RlBFM2hYT3B4UjNkZUNJdHFENGZsMF9VYkdXajNTeXQ2clphQmU1b0NKeHlKeTJXQzRJWWN6TU1UTkRsenF5ckVJSXV4aFM3MldicXdON0NsQl95SjRlLTNGN2ZsOHliOHNuc0R1QlR5MGdYbzAtSXNsamRzQlBaSVUwWWQ2U2JzUGRJUlFFU1BSS2JOd1hfdV9rYklmWkZyclQ5SXlvU2lB?oc=5",
@@ -476,7 +363,7 @@
       "published": "2026-11-03T15:48:17+00:00"
     },
     {
-      "n": 18,
+      "n": 7,
       "title": "Organigram to Acquire Aurora and Establish a Global Cannabis Leader",
       "source": "Business Wire",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMU8zMHd2NHFFa2xIMkdkcm5qYnQ4NmdJeVhkRWxNU1Vrb1VNbXNpa0h3YXVCb0VRM3JwanhzZS14V0FWaEJiVUFIV0FxcUo3MFhQazhKZ1poVDNCbzBOcUtyZk1wejlmN1JneXJkeFViUHc3SGNZX2w3U1pKLURSVm5jSm1GRVZ4OFJFbktEa1N6VmV3OGpnQnZHZkh6RVhzS1JyMXU1VktBYnVUWU9vLUtxUGxHU3JKTVl2WG9sMmFIQQ?oc=5",
@@ -484,23 +371,95 @@
       "published": "2026-11-03T14:16:00+00:00"
     },
     {
-      "n": 19,
-      "title": "Canadian cannabis company Organigram enters fight for Aurora",
-      "source": "MJBizDaily",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVU96MDJ1czFRR0o2RXdaaklUOWhudVFRdUNLcUg0Zy1YS0RhT2MtNzZvVjA5U3QxUUlSd0R2cmRlZklwT3ZJYkFkSFFYbGFwX3FyM3FKX0RDeUs4UXBjR0pCZEZ1UnBxdTdkdG5NUDQybzk1bkR5cXJSOXFxWUFQQlo2bS1vbjI4R1AxVllISDV2Ymd3RHc?oc=5",
-      "snippet": "MJBizDaily",
-      "published": "2026-10-14T02:41:34+00:00"
-    },
-    {
-      "n": 20,
+      "n": 8,
       "title": "Organigram outbids Curaleaf with C$561M deal for Aurora Cannabis",
       "source": "Proactive financial news",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOS2ZXUmc0LUk0R1lVQVIwcFhHdmhyTjdHeGltdHNiTHRKR1p6bjVUODlyOUhveDctU0Q4Nkt5dFdLaW56SFNuVTNmUV9iM3RmamR4M0d2eE10WjZ0QkR1X0h2eGNrdWJjSHkxUXIwdnVpcGpYdmVlUEd6WWloZ3BRUE9WVDZJSFNyaWlCeDVpcnhRMmc4U0twS1k3amdvZl9oOUpEXzdaQ0FORng0cVJzdHUyUm40cHRuSWNmVElMUVdVc3pWclVmLVhncnMzRDlt?oc=5",
       "snippet": "Proactive financial news",
-      "published": "2026-11-03T17:00:00+00:00"
+      "published": "2026-11-03T12:00:00+00:00"
     },
     {
-      "n": 21,
+      "n": 9,
+      "title": "Organigram signs friendly deal to buy Aurora Cannabis after hostile Curaleaf offer",
+      "source": "Yahoo! Finance Canada",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOanlfUlJyOFotaVJ3ajBhWjNuODV4T3otTVRtdWlHZU00WEthdUlwTTdMQm4tQTV6THQ2WUVXVzk3aW9ocjBzVXBFOWxKd3YyaTdRQkxWMGlUUTc5R21PbVhHUDZtQk9TclNvZWllaHE1c2tTUFJGX2F1c283Rmt1amJwWWF2T0pOVkIw?oc=5",
+      "snippet": "Yahoo! Finance Canada",
+      "published": "2026-11-03T15:50:11+00:00"
+    },
+    {
+      "n": 10,
+      "title": "MTY Food Group rebuffs Foodtastic’s $720M bid",
+      "source": "Restaurant Dive",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWXRDV1VIMVdUcU5JOVFzbTh3OTd0WEVDY2lPUTI0MS1acHJ2MldQMGlsRlE2cVc2Y291YmJBYmlFcTBVZzZ5RHh3QlRXdlpBOTExd1RfNWN2Um0xQy1oT0JfWGZaNTlQQ1BuWU5PMHNjLWt2TUV2VzhPTkh2QXhqR0JrcFRCeHVzLTRhcW1CQQ?oc=5",
+      "snippet": "Restaurant Dive",
+      "published": "2026-11-04T15:51:04+00:00"
+    },
+    {
+      "n": 11,
+      "title": "Restaurant franchiser Foodtastic offers $1-billion takeover deal for MTY",
+      "source": "The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYUdvd0pGX28xQWRlTl8wS1E0b1dqaHhYWEhLQ0xTZDJsWk1UaDBTMF9nOFR0TWlRbmp2b0hmWjMwbnh6Y2hpVFhPbVlHM0FUcHpxSFA0b201OTBwaWdld2l6bVU3Q3Nod2xkQmJfOEJjWkhuVkJaNDZ2bE9BQmVKa1RMT1NUUGh2UmJNMzQ1QzVsS21mcFN5Q1pKRW5UZkJ5cHN0cm1iWTRRTzdYOVhr?oc=5",
+      "snippet": "The Globe and Mail",
+      "published": "2026-11-03T16:56:13+00:00"
+    },
+    {
+      "n": 12,
+      "title": "Foodtastic Makes Hostile Bid for Rival MTY Food After Being Rejected",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV3FNZTMzc0JnUWJJYWU0UTBNc2VOS29NRm1NRTdGdHNzd2RmazdrWnVwclF4aTN2ZVkxZVpIZ2EzYnhSMHh4NzV5NUFpWFg0a3JkV1A2eUdDVF9EMTF0VUdydjVSQ2JUenpoZFJUbHdkbjlEQlpkOHpTSUo1MllPejloc2RjdTcxZ1R6cUZMMGdqZzZzWk0tY2FaZnVTM2JrWDJDU1NpWTZ0dw?oc=5",
+      "snippet": "WSJ",
+      "published": "2026-11-03T15:25:00+00:00"
+    },
+    {
+      "n": 13,
+      "title": "Foodtastic makes takeover offer for MTY Food Group; MTY replaces CEO",
+      "source": "CTV News",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTVFCaGZEUmozdVllRjhLa2lBOHJyWXhONlVHV2dZY3Q1d0NaT1BHVXVfNGh4VGFaSWFXNHhSdlZ4X2NYTDVGMWNnLW9XSUJvNnU5VjFFVExIWDBpMVdpOThUV283YU16TnUtS1FKOUZyWXF5N0t2cHlQMUFoNjFnWVlYMDhDQjRyQnVtcDlGZXktVWxtS2Rub281b0dQbmI5RTB4bW1DeldRaUUy?oc=5",
+      "snippet": "CTV News",
+      "published": "2026-11-03T14:20:58+00:00"
+    },
+    {
+      "n": 14,
+      "title": "Small caps to watch: Foodtastic launches hostile takeover bid for MTY Food Group; Organigram to buy Aurora Cannabis; TransAlta rallies on earnings",
+      "source": "The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZk9Td05YQXpWYkFGaWhicGZvUGFreW1pQm5kMWVBM3otalhGVXJqUWpXLXpHYkJCcUFtX1FHajRpS1RqeWd3Wmt2UkszNWZmQlZsa3k4S1NFYXhyZTNaTnNITWI0VHpPWENvXzFUTXlHaHdSVzVWckZONW5YbGpOWEhTOFhNakhBMmJTZ0JWbHE5WU1YTmd3ZnJHS0tSNDZvWTNaSGFEYnRPemFNclhIcmI1dGhkLUVBX0RNTy1mNV8wWjlJUjVLOUZqWnRFTnB1bTlUbW9MWmJ6VDJ6ZGt3?oc=5",
+      "snippet": "The Globe and Mail",
+      "published": "2026-11-03T14:05:20+00:00"
+    },
+    {
+      "n": 15,
+      "title": "Marvell Technology to acquire Lumentum Holdings in historic US$115 billion deal",
+      "source": "Taipei Times",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TZExMZ2hZMHZ0aVZXby1sR3VJSHJUSU54dGpkQ2lXZDlYWU55aXdJbWdkOFVKdl9CejJiU2phMWN5RFZaeHNpSzdTQWtwVzk0Q21PaHNseWE1dFJMT3N3OE1TZXo5Z2pzdlhTa1NLY3U3U0R2eHc?oc=5",
+      "snippet": "Taipei Times",
+      "published": "2026-11-03T16:00:00+00:00"
+    },
+    {
+      "n": 16,
+      "title": "Marvell agrees to acquire Lumentum in $115bn all-stock deal",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd0lNTE5DZ0lNM1VrUFptaXhkMVdHZVNDem84S0ttcUVxTmtMSW8xNFVTTzRUWTRIQ1k5aERtd2NDQ093TWpublZLRkhtc3l4YUdvUmJ3X3NFa0xnUjlLNWQ1RnhuQWhYN3VhT1Z0ZVlJam1MNHhfQms3T053cFhscEtkbEhzZ244SFgw?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-11-03T10:10:02+00:00"
+    },
+    {
+      "n": 17,
+      "title": "Marvell Technology Announces Merger Agreement with Lumentum",
+      "source": "TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTEY3TEFXWl9HRjVKdTJnQkFuRkhveGUwYW5qeDMtWmJSeV9qV0JaS0JDeGN4UUU2UVhzVGp2d3p3WXFmRTdDT3dxdjh3dWJUdDZvVnA3QWF3V1dmSzhrOUNZbmlxWWNYYXVYWjQ0U0lJTzJVRXItWEJxTE96MU4zcFVrZy0xak55NGNMQ21SZ2dBQWZwSGQ0UV9UNGozQ2xJU0JDS21WUkZyRUdXZnc5Yg?oc=5",
+      "snippet": "TipRanks",
+      "published": "2026-11-02T13:29:52+00:00"
+    },
+    {
+      "n": 18,
+      "title": "Marvell Technology to Acquire Lumentum in US$115 Billion Deal",
+      "source": "Mexico Business News",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSUttbXNWcUt6bHZzNGtOS3gxZFlTaVYwY2FMLWtkM3BUeFRKSGZYRmlkUGxsX2ZiWHB4SE5BOGFBMllEam5GTHZJRHBmcm9LYmE5SURYTHJqU2dtaXFVOW5jcUUxX3hXcGZqTDNIbGVxNUI0aUxXYk9sSUtlRTBzdVlabk1jOFBvdlZQYkdDZFRkQ0R5NWcw?oc=5",
+      "snippet": "Mexico Business News",
+      "published": "2026-11-02T17:57:36+00:00"
+    },
+    {
+      "n": 19,
       "title": "Fox’s $22 Billion Roku Acquisition Nears US Antitrust Clearance, Semafor Reports",
       "source": "Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTVpwMml0VjE2cHRLMHE0OWI1d3RZLXhDMndMb0VQTG1CTy1PUkI5YmRyWUxfLWdtc3cxdnBadlpQa1J1dkROeEd3SndFQmYxRlNjbWh3VzJVRmVIWjR0TnpMdGV1c1U3MFlNTGIzOFpESVNTdHVjRlp5ektoN3NMaDV1TFFIQ1dBdjFZRDZzZ3RtWVluc2l4TGVJblhwSTND?oc=5",
@@ -508,12 +467,28 @@
       "published": "2026-11-03T11:20:25+00:00"
     },
     {
-      "n": 22,
+      "n": 20,
       "title": "Fox (FOX) Seeks Approval for $22 Billion Roku Acquisition Amid R",
       "source": "GuruFocus",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWkxuQnhpS2ZpaUtDZE5lQkxiQVhEMy0xb3Rpb0hWajFxNWM4akZQbFpzT3hiQXIxN09HeGpTNjZxV3ZOVjJiNXctYThTdUk1UW1TOWVraTFvVkU5R3NqNFRVdjdhNXJDMVhYMXNoMU5QV3oyRFA5d2lNbExpOEJzNUZZZ1docFhPOFg5dDFSbi1kdlhlVzlORS1qYjAtaW10NVR3MnlNUU9KdUoxN0xabHpKLUJucDA1eHc?oc=5",
       "snippet": "GuruFocus",
       "published": "2026-11-03T08:05:40+00:00"
+    },
+    {
+      "n": 21,
+      "title": "With media M&A in the air, shareholders of both companies have approved Fox’s planned acquisition of Roku in a cash and stock deal worth $22 billion. Read more below.",
+      "source": "Facebook",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMHNaTWctWDZDdjA3RUVsVzlWd2VURFNzc0paVzVzd3pESTdJeGFucTljZHd2bi0yeHp3bDZ1ckVyZTUxTnUxSG5vdm1VRE45X3dibC04dU5IeVBMcVQweWhNZ3QySENfUF9OeDhwclpwOC1IVm5hcGNNaTYtWVB3ak9PTERZYmdjUmxmMm1xcm1zZzFoS1dXQnBBSVMwVTlPSFVvdlFvdlljTThmVU5FNFFtNkx4OWtFeG5UOS1CRE5SS0trX1BIdGtuMzM2VzliR1dYbw?oc=5",
+      "snippet": "Facebook",
+      "published": "2026-10-15T10:00:11+00:00"
+    },
+    {
+      "n": 22,
+      "title": "Fox’s $22 Billion Roku Deal Approved by Shareholders of Both Companies",
+      "source": "Variety",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTlhna0FBMEV4YXJ6OUxnNVZQZ2k3SFRrdFhuVFN2ODNEX2xMUlBiVDBYaGx5WUZvanlyT3JuZXA5ZzNsNXduaTFWVFlsMVVJWjVxa1ZvaGwwYk41X3V3Z3dBRVJTZWE0YzMtajJqckNrRVhnZXlXdXZMRGpFTEU1TTgtTWVyQnQxYUZ3S19ud2I?oc=5",
+      "snippet": "Variety",
+      "published": "2026-10-14T20:42:00+00:00"
     },
     {
       "n": 23,
@@ -525,244 +500,185 @@
     },
     {
       "n": 24,
-      "title": "Fox’s $22 billion Roku deal poised to clear U.S. antitrust review - Semafor",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVDFfWkVtMjVfUkJSUzh0d29EeXE0a3NUdDF1ci1uc1g5UVVzLVFlSFQ4djhWdEpsSVhVNVE5SDB3YWZPUENiOTdZQ1lxX09RazVoeFVpQWFQLWwySmZZTTNOM3czOGtZRWJZYU01LWN6YlpoaldFMkswYU9jdjZCa01VbVBQb3ZMM3dLcUMyU00xQlBieENN?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-11-03T03:26:00+00:00"
+      "title": "CPI | Fox’s $22 Billion Roku Takeover Nears US Antitrust Approval",
+      "source": "PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYVRHNThTVm9NZ3R3ajJsWG5KY25SMTRuVHd4MFZJbzB2cEtPTS0yQURhVkQzTWhzc3A0WjMxbG40R1NNODM2MU9HQ05YcFpRZ2stbVlyUFlNd1JPTXhmalRadnduMS1DRE1pS3dlSUVXa01CSjVYOF8xMTh1Q19LNjJvY2Q2bkNvQlhNZURLNDhBNVlzX1E?oc=5",
+      "snippet": "PYMNTS.com",
+      "published": "2026-11-03T19:40:24+00:00"
     },
     {
       "n": 25,
-      "title": "With media M&A in the air, shareholders of both companies have approved Fox’s planned acquisition of Roku in a cash and stock deal worth $22 billion. Read more below.",
-      "source": "Facebook",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMHNaTWctWDZDdjA3RUVsVzlWd2VURFNzc0paVzVzd3pESTdJeGFucTljZHd2bi0yeHp3bDZ1ckVyZTUxTnUxSG5vdm1VRE45X3dibC04dU5IeVBMcVQweWhNZ3QySENfUF9OeDhwclpwOC1IVm5hcGNNaTYtWVB3ak9PTERZYmdjUmxmMm1xcm1zZzFoS1dXQnBBSVMwVTlPSFVvdlFvdlljTThmVU5FNFFtNkx4OWtFeG5UOS1CRE5SS0trX1BIdGtuMzM2VzliR1dYbw?oc=5",
-      "snippet": "Facebook",
-      "published": "2026-10-15T10:00:11+00:00"
+      "title": "Array Technologies Announces Merger Agreement with Shoals",
+      "source": "TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZlUzSXRPb0xWc2x1SXkyN09fZVpMakNibDYzOU5CYVZtTmZMMUZiZEdnRDg5YUxYeUN4cm9fbjJHcW5QM2lCemVOSENKRnNIRkdLdVc0V0FhNEJFNDhYZldOUjlCdmhBSnVMLWpDWFI4T2JibnQzM0hHR3NNRERYRWV4TTBjVEUxajN4MERxT19GT1BUSDlSNTJKdlRPNlo3QUdDMFc4Z21rcXJ1aWc?oc=5",
+      "snippet": "TipRanks",
+      "published": "2026-11-04T16:08:38+00:00"
     },
     {
       "n": 26,
-      "title": "Fox’s $22 Billion Roku Deal Approved by Shareholders of Both Companies",
-      "source": "Variety",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTlhna0FBMEV4YXJ6OUxnNVZQZ2k3SFRrdFhuVFN2ODNEX2xMUlBiVDBYaGx5WUZvanlyT3JuZXA5ZzNsNXduaTFWVFlsMVVJWjVxa1ZvaGwwYk41X3V3Z3dBRVJTZWE0YzMtajJqckNrRVhnZXlXdXZMRGpFTEU1TTgtTWVyQnQxYUZ3S19ud2I?oc=5",
-      "snippet": "Variety",
-      "published": "2026-10-14T20:42:00+00:00"
+      "title": "Shoals Technologies Group Announces Merger With Array Technologies",
+      "source": "TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdFlVS2F3OWRfc3BjZy02SGk0M2VPb1NzblB4TDdhQ2ZwZnAtd0Q3RHUzUEdqVXNSX3UyaEN3Qnd5dE1aaFRwTWRUa1VSTjF2MHB6UDV2Z1RMQnAya2R6Q2VxVE5DbWpRYUtGb2pNc0E5TVh0NGV0RWFrZmhNZmlTc1pUY3lsQWZJNUc1Q1VkQXU1YVo1b0JFdU52bGdTMi04RGF1UDJnNGpubGlSUmYzZFNscFlSSVF6RGc?oc=5",
+      "snippet": "TipRanks",
+      "published": "2026-11-04T16:04:56+00:00"
     },
     {
       "n": 27,
-      "title": "Foodtastic Makes Hostile Bid for Rival MTY Food After Being Rejected",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV3FNZTMzc0JnUWJJYWU0UTBNc2VOS29NRm1NRTdGdHNzd2RmazdrWnVwclF4aTN2ZVkxZVpIZ2EzYnhSMHh4NzV5NUFpWFg0a3JkV1A2eUdDVF9EMTF0VUdydjVSQ2JUenpoZFJUbHdkbjlEQlpkOHpTSUo1MllPejloc2RjdTcxZ1R6cUZMMGdqZzZzWk0tY2FaZnVTM2JrWDJDU1NpWTZ0dw?oc=5",
-      "snippet": "WSJ",
-      "published": "2026-11-03T15:25:00+00:00"
+      "title": "Adkisson Lands Houston’s Largest Industrial Campus Deal",
+      "source": "The Real Deal",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTW5Tc0twTnBjZDh5TWFienYyM0xHVm1tc29nSE5HVm0zUjFoME5jdkZUX0xPcURkQlB4T3VTd3F5akU4bllWWVpCNGowenRjWTBXY2xpX2w4aWxCR21Lb205RjdvSTE5VUV6VFFaeU16ZU5tU2VmR0UyZkR2NnktMldzbGp1NUxrOU1aLXl4MDRsQjZRMi1SN1NPeFA?oc=5",
+      "snippet": "The Real Deal",
+      "published": "2026-11-04T18:27:00+00:00"
     },
     {
       "n": 28,
-      "title": "Foodtastic makes takeover offer for MTY Food Group; MTY replaces CEO",
-      "source": "CTV News",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTVFCaGZEUmozdVllRjhLa2lBOHJyWXhONlVHV2dZY3Q1d0NaT1BHVXVfNGh4VGFaSWFXNHhSdlZ4X2NYTDVGMWNnLW9XSUJvNnU5VjFFVExIWDBpMVdpOThUV283YU16TnUtS1FKOUZyWXF5N0t2cHlQMUFoNjFnWVlYMDhDQjRyQnVtcDlGZXktVWxtS2Rub281b0dQbmI5RTB4bW1DeldRaUUy?oc=5",
-      "snippet": "CTV News",
-      "published": "2026-11-03T14:20:58+00:00"
+      "title": "Houston's Adkisson Group makes region's largest-ever industrial park acquisition",
+      "source": "The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ2s0MWthdm1wZF9ldDhSV0dITzU2NzM1LUVRM2lybGhldWJMcWFTNmFLLWxTN1BnUkdrLWJNV2cyVkV6cGUyYzVHSlRNQ0g5bUYyUkVuWEFaNUxFQ1ZXSHNjaEFFeXE0T2V4My1ZVFZlX3hLZVNQRV8xNUdSb0taandJc1FTMklNQUo0TFlEYlN0cWZlVHdIT1Y2SnU0ZnZKQ2RoeHNn?oc=5",
+      "snippet": "The Business Journals",
+      "published": "2026-11-03T20:35:00+00:00"
     },
     {
       "n": 29,
-      "title": "Small caps to watch: Foodtastic launches hostile takeover bid for MTY Food Group; Organigram to buy Aurora Cannabis; TransAlta rallies on earnings",
-      "source": "The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZk9Td05YQXpWYkFGaWhicGZvUGFreW1pQm5kMWVBM3otalhGVXJqUWpXLXpHYkJCcUFtX1FHajRpS1RqeWd3Wmt2UkszNWZmQlZsa3k4S1NFYXhyZTNaTnNITWI0VHpPWENvXzFUTXlHaHdSVzVWckZONW5YbGpOWEhTOFhNakhBMmJTZ0JWbHE5WU1YTmd3ZnJHS0tSNDZvWTNaSGFEYnRPemFNclhIcmI1dGhkLUVBX0RNTy1mNV8wWjlJUjVLOUZqWnRFTnB1bTlUbW9MWmJ6VDJ6ZGt3?oc=5",
-      "snippet": "The Globe and Mail",
-      "published": "2026-11-03T14:05:20+00:00"
+      "title": "Helen of Troy rejects $37-per-share takeover bid from Spectrum Brands",
+      "source": "StreetInsider",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcjdYSmJOU09LY29KTUFBM3plTzVDZEM0NlEzbVRtZVlhNzlPTnZtSnVGTDFNOEpMVW5UX1d6TnlEVkgtNHpZdGpvS3FYeG5ockdnSlVTSUQ0Q2FWeUJpby1CQjlKZlNlU21qWmRnM2pQQWhVLVA1V3FUTVlybERWRWFnNWZUenNPOWMyMG9CX0t1Qm9meEZDeXBYZzZVRXZ3bGNoR20xYTRUUFFhQkJaWGszQVpKQTZEb2VuSnRuUHNLWUJ3Qk85RkF3?oc=5",
+      "snippet": "StreetInsider",
+      "published": "2026-11-04T18:01:27+00:00"
     },
     {
       "n": 30,
-      "title": "Rising Dragon Acquisition Terminates Merger Agreement with HZJL",
-      "source": "TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNYVVqR3lYWXNmLV91Tjk4RU91ZExoZHJxc2FMajFubXg3OFA3YUJzTkY2T3hDMHBRQkJpaVUtNFdoLVI5QkNMb3dRM0ZnX3ZsV1lNZE1ISlZUM09nQmhVZ2cxZHZjUW93clp4dmw3NlBKVm5ZT0ZfNXZJbEJ6WmlMc2g1MG8wNHlNOVNReGllRlJaU08tWm92c0dRTUZhMDR1WXRhOUlwSS05Y3FseHBfN2VZOTFKODdWM2lSYW1HaGRidXliVXRSMjlkVlVuQUFVaUVJd2UxUTQ5dW5aeEh6TnNtamRXMFpLbW1GRUN5eTIzbW1o?oc=5",
-      "snippet": "TipRanks",
-      "published": "2026-11-03T15:12:36+00:00"
+      "title": "Brookfield and CPP Close LXP Buyout in $5.2B Take-Private",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSWlRV3YwTjZZMGxOejhQcEV0c01HZzVNYWozV3kxSWFZcW1OMmRDekF5dllrSmhfbFNHN1AzTmdJcVQ3eEoxdDZtQldQb0FucHVTd1pTSnRNMFBpMlg4eUlaVGhmaXZsWEtKUC1FcDgzWHVlWXNhaW13aTNGaWdyd3F6TF9BRVhxMFc3ZUtiSm9SX0Vvejh2TA?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-11-04T17:25:59+00:00"
     },
     {
       "n": 31,
-      "title": "Rising Dragon Acquisition Corp. and HZJL Cayman Limited Announce Mutual Termination of Merger Agreement",
+      "title": "Brookfield, CPP Investments Complete $5.2 Billion Acquisition of LXP Industrial Trust",
       "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZmRQX1k2OEhya2Jrc2NxQ1ozU1VhdWJ6UTd4Zm9VODRwcmpaaUtpcnZQT2N4amhlVm1HYS14Rm9hRzRKWGJpaVRiLXhyeno4QUZiZjVZczFnRkRzUHJlMC1sanN5NmNYRWFVZ3V6RjJwcVdQcmFkZ2lYRkRnNEdFcVVVaGJxY3FKVDZuVnd4OXF3bFJLc0p5aHBtVVd3TFJOMXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcHBFdVhjdkdKZXpFTHJ6ZUt6MmU5LUkzV05RMDM2dHZJZzRhbTdKVGZtRXNIUEFPd04td2ZvLXRjanNiRS02Z1Nqa2tKejE1UlhJZW44YlpHTXVwZ0FNVHhzYzdlWXdQWVhUX1VKOWF4RE9sd1hxeVQtM0dvSm8xb3hLamtZbm95U2hSdENINE40ZGkxcTRQX2hycnM5MExj?oc=5",
       "snippet": "Yahoo Finance",
-      "published": "2026-11-03T11:00:00+00:00"
+      "published": "2026-11-02T12:10:36+00:00"
     },
     {
       "n": 32,
-      "title": "BASF increases offer for Evonik",
-      "source": "Oils & Fats International",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE12MmM3QzR6QzhpWTgxd1E2NEJKU0gwYmZ6QW9rVktDOTA1ZE1jeF95cVcxRnFnd3lLWEh0dHZCYkRSWTg5OU9KUFVuMXQwYXNMSG95eEM2ZmdLWDFLLW5fM256aS14NnZlOGJnX0F4U05LZw?oc=5",
-      "snippet": "Oils & Fats International",
-      "published": "2026-11-03T13:03:09+00:00"
+      "title": "Brookfield And CPP Investments Complete $5.2 Billion Acquisition Of LXP Industrial Trust",
+      "source": "Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdl9yNEhSRWFOQS13VEFsRG8tc1NOWnJXOC13N1YxcDhFUm02Z3JmQ29KNlRMSHdvZ3RIVXg2VXFFb0xQVUpxSDBZMGNvRkkzNm5QdmlFeUF1bWFGdV82bGtINHBEQlBldnJRdVFhSkhvLTk1Yld2UGltR1ItOWNMRjlVMUpvZF8xdGVsdzdQMVV0Y013Qm9fdkhwS0lReUl5dEsxWkRnUmxQVlU?oc=5",
+      "snippet": "Pulse 2.0",
+      "published": "2026-11-03T22:22:21+00:00"
     },
     {
       "n": 33,
-      "title": "Evonik Rebuffs BASF's €24 Bid but Keeps a Channel Open for Information",
-      "source": "ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUWpQbDVucEFheWRRQVJMSzVZTEFkVUptYnkyb21SZDgyR0x4aHNWcjZNYkttU1ZOR1g0WTVFUnh6REk1YVVoek5yNXNCZXdIRm5tS0hJMjVzcUFQZDBYRXF1TllnSWRoUE5feFlBeDlDUVhCc2RWS0daZ3RvVllDTFJJdm5EV25TcXFfVXZJVklEVkJYUHk0d1JOX2E4YkhiRG1EUjE2QnhaS2wxajVwMS15aHhIQ3NQVHB5cGhEZlpyeTNXQlliWmdWU0kwY3MwV1FGQThfZUY?oc=5",
-      "snippet": "ad-hoc-news.de",
-      "published": "2026-11-03T01:51:27+00:00"
+      "title": "Brookfield and CPP Investments Complete Acquisition of LXP Industrial Trust",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSTFUdWFCZnZZbFRWV0xzNEJlUGZXRWd1eTZKQW5OVnoyZWVEbDljNDI3QnM1eWZOVG03QzhWN09rQ3luR2tXT2NLMEVrV1A3UjJwM0wzb3VEWkJsV0E1UEVNUW15eFV0dl8xeVM2WjloZTNsQUxNay1ac1JmUTF2QmZydUdpUFE2ZUxHQURyb0NlTUJBR3FRNUYwM2QzcFRuOTRUS0FBUUV5OFk3TFE?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-11-02T11:30:00+00:00"
     },
     {
       "n": 34,
-      "title": "BASF steps up push for Evonik takeover after $12B offer rejected",
-      "source": "Plastics News",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX205ZHdJSVd3SXhxU0VMUU1YRDlPZjFFcV9MWGZWRnplQ3dVc2hXc3dYWVFPX3phMEVFNTFTMnEzRlI0YS1KT2FsYm15bWFrZ0QzRk5qa05aS1ZWR2Fad2NHT05uZHo4cjYwR3RUVEpiTzhobmctdHc2SElUZF93Z1NQMkJBUjEzMzAxc3paT0Q?oc=5",
-      "snippet": "Plastics News",
-      "published": "2026-10-22T16:24:00+00:00"
+      "title": "LXP Industrial Trust Shareholders Approve Acquisition by Brookfield and CPP Investments",
+      "source": "The Manila Times",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNcW10WlNPMDVMeks2d1JHdjFjNElqOGl3LUlKalRPbWQwTWVLZzNZbFlNUHpBUzU2TTJ0aUhSQVEtUUpxMmpEMFVIUnJHNzhDQ2xvT0J6NFBKdU03aDU1SHpMbkFZRktCeUJlbkMtNGFSbGhLbGlvQWxJLXlwcTZWeHYxSVZfMXN2M3hWeUo4QTVsYlgyaUhBOHpKZVppbUZ2TTVWZVlGbHJVV1pyVEZzajAxMFRDTmdUUWZlOXFwMDVLNzFtSUhvVk5hS3E4WFBiaHI3WkxBUjY2T0VueGpPSHktZUVSNVlZeGtDUWJRUzBROWZpNjlEWdIB-AFBVV95cUxNcW10WlNPMDVMeks2d1JHdjFjNElqOGl3LUlKalRPbWQwTWVLZzNZbFlNUHpBUzU2TTJ0aUhSQVEtUUpxMmpEMFVIUnJHNzhDQ2xvT0J6NFBKdU03aDU1SHpMbkFZRktCeUJlbkMtNGFSbGhLbGlvQWxJLXlwcTZWeHYxSVZfMXN2M3hWeUo4QTVsYlgyaUhBOHpKZVppbUZ2TTVWZVlGbHJVV1pyVEZzajAxMFRDTmdUUWZlOXFwMDVLNzFtSUhvVk5hS3E4WFBiaHI3WkxBUjY2T0VueGpPSHktZUVSNVlZeGtDUWJRUzBROWZpNjlEWQ?oc=5",
+      "snippet": "The Manila Times",
+      "published": "2026-10-26T20:34:37+00:00"
     },
     {
       "n": 35,
-      "title": "Evonik rejects BASF’s $12.5B takeover bid but leaves opening for 'purely informational' talks",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdGp0WV9TZm14VVA3MVVLcnJ0WGEtSjNNTk82bTM1ZVN5U3pGWWE0ZWd0ZXMzMmtwc2Y1QkEwRHdqNmNkT0NNclNKbkdSRHZvdG9hak0xeDFzTDd5VG5QbzBFTTh5WUkwLUN3NFBocTZHWkZacUdhRGZ3WHJmSmZfNTlBX2ZGaE5Fa1gyTEhCblUzR1ZmOFFkY0tmRzEyWXNUNHpaRVFwVExfYTFvQ0w4ZGIwcmh2a3I5Nm14THkwOExpS2xmb2ViNmlUN1ptR2NqcFpYWTZJbXVOZUFDZndncXVGSkY2U2tM?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-30T14:28:13+00:00"
+      "title": "LXP Industrial Trust Shareholders Approve Acquisition by Brookfield and CPP Investments",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMV9QMzhQRlpOckp3elZoVmotLVB5ZDNpTzcyb3Z3WUdpUkdQbUNuWHNCTWQ4VkJHWkp4U2xZU25MTXVMR0o0MnFBSFRYOVV3M3ZzOExQM1BBbEFvNGQ0WnZVLVhabDNqS2gyQm42azVrdHdsQ0JqbVF1eHNlVnBXNGkyM3lKeFhzenpKb05rOHotdWlhS3ZnaktwQTVxT096MlRCQzlB?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-26T20:15:00+00:00"
     },
     {
       "n": 36,
-      "title": "Evonik rejects BASF’s sweetened €11bn takeover bid",
-      "source": "Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUV9Ra191NlU2TlNOY0ZFYjJSOWpUOW55eHhTMmgyczVHWjN5VXhWWEJKQ3JvdW5oanJYY1pJTHRMbGd3NTV4NFJIc3JnU2hMb2k1eThvM2FtZklRS1B4S2lSTGxJaVVtQUI5OTU5QTNwcTNFTkVDNEtST3o0aWx4Vk5nUUk?oc=5",
-      "snippet": "Financial Times",
-      "published": "2026-10-30T00:13:41+00:00"
+      "title": "DoorDash is buying Instacart for $17 billion. Its employees can’t add Instacart staff on LinkedIn",
+      "source": "Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOVRQRHY0S3pEcjVCUHM2QTBiUUQ2VzJwc2RsdWlhYl9VeVBOVlJ4SDFoNlg0UGc5ZU9tYlZWRVJud2J2d0V6cmpWV0YyU0NXc2JoTmVyR3Q4dGtPUWV0cFZNQUkySnY5bEs3VC00R3RQWmtuN2ZTTklWUnhqUGx1QTVJSjg3TFRDSkJZ?oc=5",
+      "snippet": "Fortune",
+      "published": "2026-11-04T17:24:00+00:00"
     },
     {
       "n": 37,
-      "title": "Evonik likely to reject BASF's sweetened $12.5 billion bid, FT reports",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSG5TWUQ5VVJkZHhoSHd0UFp3cjNDaElVM0tnSkwxZEZzd1U1MGI1dk01UmIxLTRtRzExblJKVGxhdjZ1WF9taktFRExadjFzUE9icUVMZXFuUXB1TUkxNWR5NmZhY3AxNlRXd0VESE9SV3dlZ1B2djlhZU9GTHdYTFRSYXVDb3BiZ1RKZmdiUHZkcExCSW5hVnZGbjNDZGNXZDVLLTV0SGpsLUVN?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-30T05:58:00+00:00"
+      "title": "CollPlant Proposes Name Change to OptiPhi Computing After LightSolver Acquisition",
+      "source": "TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMGdJckJCTkE4SlJqZ3pLd0JxRW9wcVVxZjNVUnJ6anJibEF4VFNvV1dfdE9xbVlKZ2VDSkRzWnNVQ0ROYmhOMmdGSlBLLUQ0OWNrSTBBRWZVRENONlZVRW5TR1ltbXhjOGlQNDhpamN1SkplZ0FjZEV5cUV3QjB2RXpacmZETEhjZGF4V2xVRTJKVmd5M0FDUUV4VnJMQWR1OHNIY0xyR1BDZnhLMlZ3aEMyYnc1RzdPV01CWmVvcnRIR2Z4STlTZmN6Y0tEdw?oc=5",
+      "snippet": "TipRanks",
+      "published": "2026-11-04T16:14:57+00:00"
     },
     {
       "n": 38,
-      "title": "BASF Increases Bid for Chemicals Rival Evonik to Over €11 Billion",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOXBIWXdXb19WTnRUbmlyNFFveWxvTFBQbnVHUXA5SjdtNGJNbWZaaURLdTM3dzZzVS1FTmhHMzRyVnYyUmRnbll3ejRIMEhyajNIWlFTbGhUSzFkXzhFWjgzR29JMXZlVUVjc1RLZ1phaWhSX1RtRHFUOGVhVWlEMzBTOGJXYjVoMW45SGY4dFNURlRKNGE5ZUJ4dDRCQU5XZmwxamNHUC15Y3RhX3RvdDdjbkM5dw?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-10-23T14:17:17+00:00"
+      "title": "Is Private Equity Cooked?",
+      "source": "Andreessen Horowitz",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ZWkRab0VKbGF2cWRreVpMMkQ5QldTcHp2STZBX3lUamJtQjdxN0ZZTUdTbGVPdXVWc0NHV3FqLWRqb2JWVE14b041VWNZLS1oQjV4QQ?oc=5",
+      "snippet": "Andreessen Horowitz",
+      "published": "2026-11-04T16:01:05+00:00"
     },
     {
       "n": 39,
-      "title": "BASF raises Evonik offer to €24 a share, sources say",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNWgwOXQwV0N5WFlOZDQ3LWRhMElCdXh5MGZMZnpfd0dGS2Z1X0g5MFhVM3czNk1ZdUhrdEEyYzltc0RNQ2xWcmpVcTZmVUVILU9lQ1VDc2FYNDdxVkJOc0QyNXQwZFNydnh3bHl5SXRhY1ZGc0lVSjlVQUZ0b0RXc2NDR3JuWFZSZFFvUU1kN3dLOV9nRXRMTDdGaEdQdktma1hPN3ZscFdwX1JwdHl2aDBJa2JpV2xJdGdB?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-23T14:44:10+00:00"
+      "title": "Private equity isn't dead. Its 2021 software is",
+      "source": "StartupHub.ai",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTm9NYWtDZWdZLW5YNnhzTHQwOTJvX1BlNTJpbGhpVERWcHBiOU8tWmZDMTZQT3VmRTV1dGtkeHlNZWhZLXBjMXdfMWwwNWVWVllfeWJqcVJXNjVRMUMtLUV0MDNyc0NiWUF6N2RUYVZuNkhBWklkX1ZKdVY5Q3dIcy16cjhpNlNjNUZPQW5MazZ6dkFWTEgybHRONFM3UFZFS1E?oc=5",
+      "snippet": "StartupHub.ai",
+      "published": "2026-11-04T15:37:06+00:00"
     },
     {
       "n": 40,
-      "title": "ADNOC’s XRG expands into Australian LNG in $1.45-billion deal with Shell",
-      "source": "Oil & Gas Journal",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNY3FrRGNMOTJKRGtCXzlMUHI5Zk5OZ0ZpaVpUS0RXeXo5WkVJd2QzWmFXVWtpTUhiM0NnVlMxZHoyQks5cUQ1MWFJTnk2em10LUdQREJwaHdPU2FaVjhEWWZtUjhJT3hMMXVfaUx2N2tKUWc4QjY5YnBaTWo2RDdaemEzSVFOY0ZaTlR0NDZjRDZuMFFQVVNMb1RHX1NWYXBCMG1KdjdhZUJkVlNoSzgwMFd2V01rY3ZKZmUwWkFVLUdON2VpZDFrU1RBOTM?oc=5",
-      "snippet": "Oil & Gas Journal",
-      "published": "2026-11-03T17:06:10+00:00"
+      "title": "Agilent Completes Acquisition of Proscia",
+      "source": "Quantisnow",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWDJma180ckdUT1B5VkpuRFRRWDQ2c0tCLUxHd2t1N3dGOVpYblkzY0JwZWpLM2lQdnFDYWh6Y0RFQmkwVUotSWNsc3BYRUNTb0IyQWhxTVhSem1YVWZfWVRyd0k2Wld4NHZYOE1nZy1BU1BXVTVLVXlJQ1FKdkx2eVB4MHZRbzZLVkN3?oc=5",
+      "snippet": "Quantisnow",
+      "published": "2026-11-04T15:19:39+00:00"
     },
     {
       "n": 41,
-      "title": "ADNOC's XRG in talks to buy stake in Eni's Libya oil and gas business, sources say",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR1g2NkVwaGlBeGlfNkxLTFhLYzdVOW42cThDUFRoVDJJa3RsSF9xdGxleFhFTXdHbHdTZFJFNk9UaTMwOXhtZHYteGJKWWgtNVctU0lwcWppNUZQWGl4SlpQUHhUbWZmbXFxWVNxbUlBNkx0U0NSTFQybWExWU9aLWVGa0lHaWNDOGNoYm4weENEVU9GbmtoZzlSVVZEdHNJbU9QU2JxQjNsM1B5NFNYcEtuSWw1TGVEMHc?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-10-22T11:51:43+00:00"
+      "title": "Private Equity Firm CD&R Explores Take-Private Of Global Payments In Potential $40B Deal",
+      "source": "Crowdfund Insider",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUGs5eFB5b1NueWQySDVEbGYxRVNtNFpQajdWSnJOLUF4M3lxQWl4U1U3anRhWFg4VDFvNWVnTC03T2doZG5xTnhaRWlkdUNyUm1vaHN1ZlBsemlHZzY4SVMwRUFPa3lUazBRdnUwMGpUd0J6M1NvNTB1UmFtYjJ1cnN5NVJ1ZFlBOUIwWUpqUmxDNzFOR2g5ZnIwWXQ5NDVrVGdZbGsxLW9BT1dTd2xwSVBQUVJxb0ZCRW1HNDh5WkkyeEhNU3BONVZOd0duT0RB?oc=5",
+      "snippet": "Crowdfund Insider",
+      "published": "2026-11-04T14:15:46+00:00"
     },
     {
       "n": 42,
-      "title": "ADNOC's XRG in Talks to Buy Stake in Eni's Libya Business",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLXZnamZEQkllM3I3QjZoSS1CZXV6S25ta3FLX1ZORGxiZERlNk9mMEE1Zi1fT3kzcWcyWWV6eGd2NXZmbTRlb0ZTTHVaQlUxdXFIcW1ESHF4VVRlNUtwVWhpZXZ2R1lEdTNlVHNJdDRsbWh3MkJSZ05GT21VTWstdWtlbHpGUUU2aVh6Um5zRlNJTkdLcXdPcDEtcjlWUUHSAZ8BQVVfeXFMUC12Z2pmREJJZTNyN0I2aEktQmV1ektubWtxS19WTkRsYmREZTZPZjBBNWYtX095M3FnMlllenhndjV2Zm00ZW9GU0x1WkJVMXVxSHFtREhxeFVUZTVLcFVoaWV2dkdZRHUzZVRzSXQ0bG1odzJCUmdORk9tVU1rLXVrZWx6RlFFNmlYelJuc0ZTSU5HS3F3T3AxLXI5VlFB?oc=5",
-      "snippet": "Crude Oil Prices Today | OilPrice.com",
-      "published": "2026-10-22T15:42:46+00:00"
+      "title": "eToro Agrees to Acquire Argentine Fintech LB Finanzas",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRG1Oa3J3aUJVMXd0MlpfNmFqb09wNTNiZnI4WVozZ25SR0VYSHoySFRlQko5Z1YwX1hqdngyUVF0MC0tYTBkRW0xMmRrX2YxY1dhY3JwS0tBQ25iTzJyRmlENEFiazFSam1wQ090X1VtemtjUS1WYlZkMkdqb1ZzMndoYm9qelQ5ZGZkaWdqd0pWMGpkcUYtVFJaZFhrUnA3YXJoTGNyUWQwRlUzajVOdnpSYVhLRVhLc0tV?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-04T14:03:19+00:00"
     },
     {
       "n": 43,
-      "title": "Edge Industrial Technologies acquires California blade sharpening company",
-      "source": "Plastics News",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYVdoTXhyT2pHOEoySUlTYXp3c1NMTmd0YXg1c3JyUGNiSG9OVW1aZEo2amdRM3oyd1l4S3Rzak1sRWxTN0hqU3Q2MXQ0TFhpWmtLbXFlSE5GNHdMV3NGbUpBRFdISnVDR3hKY25sOTV1SXR5dG9YV1dsekFKX05lMzlHYnRqLUx3Y2Z2MQ?oc=5",
-      "snippet": "Plastics News",
-      "published": "2026-11-03T16:55:00+00:00"
-    },
-    {
-      "n": 44,
-      "title": "Government demands answers as Poundland owner rejects rescue offers for chain",
-      "source": "The Worcester News",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWUVUVTJJaEtUQ3Z1ZjFtdE5lLWx6VVY4bDU1U0ttdTBKMjZ3ODA4R1VDTnBUallkd1J6WGtUMWJWNzUyMThEYU8tbzBkNmtUNEpiYnI5Z2pvVGE0cHZiNWNDclIxVXZDWWFDUWdBNW0xb0FCSE0wMVM4TlgtcWJxNHZNVVdRNURnUVIxd0Z6MnlfVVZoUFlaalp3T21CZGtPNmtB?oc=5",
-      "snippet": "The Worcester News",
-      "published": "2026-11-03T17:57:07+00:00"
-    },
-    {
-      "n": 45,
-      "title": "What’s Ahead for Private Equity: A More Selective Approach to Dealmaking",
-      "source": "Foley & Lardner LLP",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRHgyZ0FIUGpkWGh6MTlRWnNGWDRJMERTM1hZTVI2QmF0eGhCNTNlYmwtQXR5bDFBYlVWZWtBTnNkYVc3V2QyUEo5TnI1cUpfLXFJeEhoTnhKeUVNcDlqNDc5MkhTU1pCdTFRZEZzSk5LcTV5dmt3VXdCcnVKYXpudWxBNHcxbWg5dVhNWS05MHd3aExCUFA5eWwwNk82UllaQVI4Z1otX3ZMYVlZMjN5UkQ5a2J6clJBZ1VJOC1RTkE?oc=5",
-      "snippet": "Foley & Lardner LLP",
-      "published": "2026-11-03T16:47:04+00:00"
-    },
-    {
-      "n": 46,
-      "title": "4 big questions about the DoorDash-Instacart deal",
-      "source": "Restaurant Business",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMFZIcDlHT2JlUnl3cnBZQ21iWV85OS0zZWhULUpjTl9wMG9hOUpPQUxqWUhxRUhFZElPVDVCYW91ZVhqMmFxSlBnT3JrT1NFZG1nc2VEY0VpMHl0SzJzY1hZWkE3Ynh4SWFiYnZhbjUyMkdJSEd5VXdXaXllYnRqT2pGNjRiQnNQcXRwOFBWY3N4MW5yODBMNHJlSS1XUQ?oc=5",
-      "snippet": "Restaurant Business",
-      "published": "2026-11-03T16:17:21+00:00"
-    },
-    {
-      "n": 47,
-      "title": "Publicis' $2.2B LiveRamp Deal Creates an AI Access Divide",
-      "source": "DesignRush",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aSWRvc1VxeG5qQmpOM0xJUW9EZ29yYVJhN3lTQW1YazM3VnUyWGZYeWN2RnJVMVVnXzcwSnRnSkJ5TVBzWnkzVnBIMlJRQm9KaVJlV2YyUmlqR2R4Z1Z3N3FGLWZGTFlnb2FCamJ6cDh0eXp0MHZWc1FEa0htMjg?oc=5",
-      "snippet": "DesignRush",
-      "published": "2026-11-03T16:16:23+00:00"
-    },
-    {
-      "n": 48,
-      "title": "GPN's $40B Takeover Buzz: Can Private Equity Revive Its Growth?",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY2xORzRlSUJqdjA0Ql9jYjFFalVUUFlHVEZNMlhtY25EaEhMclF2WVRJR09nVjlwY2NWc1QzYUxXVE13UFc5ZDRUa3ZLcDBGa3BYVzdtdUdyMS1uOW5sMFR6Z3ZrZExzMnNKT19RQ1dqcllnZ0FhVUFXLTdXOUtXdmFZa1pSYUlJYTR6ejVwRFc3cWpPVzFVNGRFNA?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-11-03T15:27:00+00:00"
-    },
-    {
-      "n": 49,
-      "title": "HTB: SEC Form 424B3 filed by HomeTrust Bancshares Inc.",
-      "source": "Quantisnow",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTVdkcDFXMXE3ckUwRTZQLTRTVEZ6MWhMYTI2dmRMdkVSa1Jvbm1NRkJKNGY5ekJTVW41U2ZHS0xjcjI4M2lsMURLS0hVbDdFTDROdzlaSGZCMVRuNFNlRko1T2hHdFdxcHZMRlp4VzFkTzEzT0QyOVFZdnd1Y19OSGxlWlFNWUFqcl9xdkdDMEh6R3hhYUE?oc=5",
-      "snippet": "Quantisnow",
-      "published": "2026-11-03T15:08:37+00:00"
-    },
-    {
-      "n": 50,
-      "title": "Deep Dive: Why Asia-Pacific private equity is shifting from growth to control",
-      "source": "PEI Private Equity",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaVhCSjZiV3pma3IyaUtiWFZQcldfTXhrZnA5MnBVb3VXdDU3eWNPY25CcjBtT1FwVnpwNGMyaDRYLTdIRXRjQ0VqVnF2MVk3RV9lRHhUVU1xanRpVmMzT3Fvam1hbm00WWIybmF5SlJKWUFzcERQUy1MMGE2RUdGeDk3UnExNTVyMDBhbTcxRVhTclhoaUVtOUVYS3VMYXltUEZkc0hiaVhrNE9PcE9XTGRiNUFXbUY0dUhTYQ?oc=5",
-      "snippet": "PEI Private Equity",
-      "published": "2026-11-03T14:54:26+00:00"
-    },
-    {
-      "n": 51,
-      "title": "NextEra Agrees to More Safeguards for $67 Billion Dominion Deal",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUDRKSWpjT1p5dWRlc1doZzZEdUVJc19QVU50Rmw4MXRzRGxnVUJKZC1IamxNNDMtZ2Z4cHZ2N0hNMkpmR1JFU2pHNVgyVElTVlRUSjROT0RFSnFRLTRMazhRUXhCSDg3NURiT0FTeU1uZVB3MkVJMUM4dTZTMDQ1bEVPRXBXTmF0ODNrQkVXQ2lFRk1BYnBBaFJqa1F0UnJoNV9RcndkX2Vha2VjcjQtU2pHbw?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-03T14:41:54+00:00"
+      "title": "Seacon Shipping Announces Vessel Acquisition Agreement At USD 19.60 Million",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOU0VGa0EwMDBLODBHVlcxVFBJSGtUZXpuY2duVkJsVURlTG9FdUc0SlcyNm9weHFwVjVycGFpUUJMOW16dmdVTmNTVFJlbExtek11Q2t0VFRfVVRJSUMya05YMVZMZmxLY2RBU2ZGRkF2czRDYTNzLVQyLXNNc21lYnMxV1d1WHRmd2NTZ1RtbjA5VnFHempOUmFoX1pSb3ZYQThXQU5DSUg1cVhQVDFlNW83QXAxWWJGMmw4bkROTklYMm8zTmk3bG1MVF9WMnliTzI2VllXZno4ZC0tdGc?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-04T13:54:22+00:00"
     }
   ],
   "cited": [
     1,
-    2,
-    3,
-    4,
     6,
     7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
     15,
     16,
     17,
     18,
+    19,
     20,
     21,
     22,
     23,
+    24,
     25,
     26,
     27,
@@ -770,81 +686,86 @@
     29,
     30,
     31,
+    32,
     33,
     34,
     35,
     36,
     37,
-    38,
-    39,
-    40,
-    41,
-    42,
-    43,
-    44,
-    45,
-    46
+    38
   ],
-  "invalid_citations": [],
-  "example_prompt": "Deal: Marvell and Lumentum.\nStage: Announced.\n\nHeadlines:\n[1] Taipei Times, Nov 03 11:00 AM ET: Marvell Technology to acquire Lumentum Holdings in historic US$115 billion deal\n    Taipei Times\n[2] THE ELEC, Korea Electronics Industry Media, Nov 03 04:19 AM ET: Marvell to Acquire Lumentum for $115 Billion in All-Stock Deal\n    THE ELEC, Korea Electronics Industry Media\n[3] Kalkine Media, Nov 03 04:16 AM ET: Lumentum (NASDAQ:LITE) Record Quarter Meets Marvell Merger as Deal Spread Draws Attention\n    Kalkine Media\n[4] Unite.AI, Nov 02 07:04 PM ET: Marvell Agrees to Acquire Lumentum in All-Stock AI Connectivity Deal\n    Unite.AI\n[5] Yahoo Finance, Nov 02 05:22 PM ET: Marvell Technology Is Acquiring Lumentum. Why Does the Market Hate the Move?\n    Yahoo Finance\n[6] Bloomberg.com, Nov 02 04:09 PM ET: Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal\n    Bloomberg.com\n[7] Reuters, Nov 02 03:21 PM ET: Marvell doubles down on AI boom with costly $115 billion Lumentum deal\n    Reuters\n[8] Seeking Alpha, Nov 02 01:53 PM ET: Marvell-Lumentum Merger: Implications Of A Major AI Photonics Deal (NASDAQ:MRVL)\n    Seeking Alpha\n\nWrite the subheading and sentences.",
+  "invalid_citations": [
+    1
+  ],
+  "example_prompt": "Deal: Organigram and Aurora Cannabis.\nStage: Announced.\n\nHeadlines:\n[1] Rich Picks Daily, Nov 04 02:44 AM ET: Organigram launches $561-million takeover offer for Aurora Cannabis\n    Rich Picks Daily\n[2] Tobacco Reporter, Nov 03 05:09 PM ET: Organigram to Acquire Aurora Cannabis with BAT Support\n    Tobacco Reporter\n[3] MJBizDaily, Nov 03 02:07 PM ET: Organigram to acquire Aurora Cannabis in $400 million deal, topping Curaleaf bid\n    MJBizDaily\n[4] Forbes, Nov 03 01:38 PM ET: Organigram To Acquire Aurora Cannabis For $401 Million\n    Forbes\n[5] Yahoo! Finance Canada, Nov 03 11:50 AM ET: Organigram Global to Acquire Aurora Cannabis for CA$7.80 per Common Share\n    Yahoo! Finance Canada\n[6] The Marijuana Herald, Nov 03 10:48 AM ET: Organigram to Acquire Aurora Cannabis in C$561 Million Deal, Topping Curaleaf’s Hostile Takeover Offer\n    The Marijuana Herald\n[7] Business Wire, Nov 03 09:16 AM ET: Organigram to Acquire Aurora and Establish a Global Cannabis Leader\n    Business Wire\n[8] Proactive financial news, Nov 03 07:00 AM ET: Organigram outbids Curaleaf with C$561M deal for Aurora Cannabis\n    Proactive financial news\n\nWrite the subheading and sentences.",
   "retrieval": [
-    {
-      "deal": "Marvell / Lumentum",
-      "query": "Marvell Lumentum acquisition merger deal",
-      "hits": [
-        {
-          "n": 9,
-          "similarity": 0.877
-        },
-        {
-          "n": 10,
-          "similarity": 0.869
-        },
-        {
-          "n": 11,
-          "similarity": 0.867
-        },
-        {
-          "n": 12,
-          "similarity": 0.867
-        },
-        {
-          "n": 13,
-          "similarity": 0.863
-        },
-        {
-          "n": 14,
-          "similarity": 0.86
-        }
-      ]
-    },
     {
       "deal": "Organigram / Aurora Cannabis",
       "query": "Organigram Aurora Cannabis acquisition merger deal",
       "hits": [
         {
-          "n": 17,
+          "n": 4,
+          "similarity": 0.866
+        },
+        {
+          "n": 6,
           "similarity": 0.859
         },
         {
-          "n": 15,
+          "n": 1,
+          "similarity": 0.849
+        },
+        {
+          "n": 3,
+          "similarity": 0.847
+        },
+        {
+          "n": 5,
           "similarity": 0.841
         },
         {
-          "n": 16,
+          "n": 9,
           "similarity": 0.814
+        }
+      ]
+    },
+    {
+      "deal": "Foodtastic / MTY Food Group",
+      "query": "Foodtastic MTY Food Group acquisition merger deal",
+      "hits": [
+        {
+          "n": 13,
+          "similarity": 0.813
+        },
+        {
+          "n": 10,
+          "similarity": 0.744
+        },
+        {
+          "n": 14,
+          "similarity": 0.722
+        },
+        {
+          "n": 12,
+          "similarity": 0.707
+        }
+      ]
+    },
+    {
+      "deal": "Marvell Technology / Lumentum Holdings",
+      "query": "Marvell Technology Lumentum Holdings acquisition merger deal",
+      "hits": [
+        {
+          "n": 15,
+          "similarity": 0.892
+        },
+        {
+          "n": 17,
+          "similarity": 0.885
         },
         {
           "n": 18,
-          "similarity": 0.79
-        },
-        {
-          "n": 19,
-          "similarity": 0.775
-        },
-        {
-          "n": 20,
-          "similarity": 0.767
+          "similarity": 0.867
         }
       ]
     },
@@ -853,19 +774,19 @@
       "query": "Fox Roku acquisition merger deal",
       "hits": [
         {
-          "n": 25,
+          "n": 21,
           "similarity": 0.802
         },
         {
-          "n": 21,
+          "n": 19,
           "similarity": 0.794
         },
         {
-          "n": 22,
+          "n": 20,
           "similarity": 0.789
         },
         {
-          "n": 26,
+          "n": 22,
           "similarity": 0.762
         },
         {
@@ -874,106 +795,84 @@
         },
         {
           "n": 24,
-          "similarity": 0.754
+          "similarity": 0.756
         }
       ]
     },
     {
-      "deal": "Foodtastic / MTY Food",
-      "query": "Foodtastic MTY Food acquisition merger deal",
+      "deal": "Array Technologies / Shoals",
+      "query": "Array Technologies Shoals acquisition merger deal",
       "hits": [
         {
-          "n": 28,
-          "similarity": 0.791
+          "n": 25,
+          "similarity": 0.876
         },
         {
-          "n": 29,
-          "similarity": 0.705
-        },
+          "n": 26,
+          "similarity": 0.851
+        }
+      ]
+    },
+    {
+      "deal": "Adkisson / Houston’s Largest Industrial Campus",
+      "query": "Adkisson Houston’s Largest Industrial Campus acquisition merger deal",
+      "hits": [
         {
           "n": 27,
-          "similarity": 0.703
-        }
-      ]
-    },
-    {
-      "deal": "Rising Dragon Acquisition / HZJL",
-      "query": "Rising Dragon Acquisition HZJL acquisition merger deal",
-      "hits": [
-        {
-          "n": 30,
-          "similarity": 0.887
+          "similarity": 0.884
         },
         {
-          "n": 31,
-          "similarity": 0.857
+          "n": 28,
+          "similarity": 0.813
         }
       ]
     },
     {
-      "deal": "BASF / Evonik",
-      "query": "BASF Evonik acquisition merger deal",
+      "deal": "Spectrum Brands / Helen of Troy",
+      "query": "Spectrum Brands Helen of Troy acquisition merger deal",
       "hits": [
         {
+          "n": 29,
+          "similarity": 0.832
+        }
+      ]
+    },
+    {
+      "deal": "Brookfield / CPP",
+      "query": "Brookfield CPP acquisition merger deal",
+      "hits": [
+        {
+          "n": 31,
+          "similarity": 0.79
+        },
+        {
+          "n": 32,
+          "similarity": 0.78
+        },
+        {
+          "n": 30,
+          "similarity": 0.777
+        },
+        {
+          "n": 33,
+          "similarity": 0.769
+        },
+        {
           "n": 34,
-          "similarity": 0.817
+          "similarity": 0.753
         },
         {
           "n": 35,
-          "similarity": 0.804
-        },
-        {
-          "n": 36,
-          "similarity": 0.802
-        },
-        {
-          "n": 37,
-          "similarity": 0.773
-        },
-        {
-          "n": 38,
-          "similarity": 0.765
-        },
-        {
-          "n": 39,
-          "similarity": 0.759
-        }
-      ]
-    },
-    {
-      "deal": "Shell / XRG",
-      "query": "Shell XRG acquisition merger deal",
-      "hits": [
-        {
-          "n": 40,
-          "similarity": 0.739
-        },
-        {
-          "n": 41,
-          "similarity": 0.659
-        },
-        {
-          "n": 42,
-          "similarity": 0.641
-        }
-      ]
-    },
-    {
-      "deal": "Edge Industrial Technologies / California blade sharpening company",
-      "query": "Edge Industrial Technologies California blade sharpening company acquisition merger deal",
-      "hits": [
-        {
-          "n": 43,
-          "similarity": 0.876
+          "similarity": 0.75
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 197,
-    "headlines_new": 128,
-    "index_size": 2580,
-    "deals_found": 34,
+    "headlines_fetched": 201,
+    "headlines_new": 93,
+    "index_size": 2528,
+    "deals_found": 36,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19
