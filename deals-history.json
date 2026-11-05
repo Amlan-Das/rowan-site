@@ -154,6 +154,13 @@
    "found": 36,
    "new": 6,
    "cumulative": 118
+  },
+  {
+   "date": "2026-11-05",
+   "shown": 8,
+   "found": 36,
+   "new": 7,
+   "cumulative": 124
   }
  ],
  "deals": {
@@ -959,9 +966,9 @@
    "acquirer": "Trian",
    "target": "Wendy's",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-11-05",
    "stage": "Announced",
-   "value": "$1.4 billion",
+   "value": "$1.4bn",
    "usd": 1400000000.0
   },
   "ares capital|midcap financial": {
@@ -1231,11 +1238,66 @@
    "stage": "Pending approval",
    "value": "$5.2B",
    "usd": 5200000000.0
+  },
+  "array technologies|shoals technologies group": {
+   "acquirer": "Array Technologies",
+   "target": "Shoals Technologies Group",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "stage": "Announced"
+  },
+  "softbank|abb robotics business": {
+   "acquirer": "SoftBank",
+   "target": "ABB robotics business",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "stage": "Terminated",
+   "value": "$5.4B",
+   "usd": 5400000000.0
+  },
+  "ani pharmaceuticals|egetis therapeutics": {
+   "acquirer": "ANI Pharmaceuticals",
+   "target": "Egetis Therapeutics",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "stage": "Pending approval",
+   "value": "$190 Million",
+   "usd": 190000000.0
+  },
+  "first capital inc|quantisnow": {
+   "acquirer": "First Capital, Inc.",
+   "target": "Quantisnow",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "stage": "Completed"
+  },
+  "adani ports|evos": {
+   "acquirer": "Adani Ports",
+   "target": "Evos",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "stage": "Announced",
+   "value": "\u20ac2.56 Billion",
+   "usd": null
+  },
+  "pag|evergrande property services": {
+   "acquirer": "PAG",
+   "target": "Evergrande Property Services",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "stage": "Announced"
+  },
+  "terraflow|flowcellutions": {
+   "acquirer": "TerraFlow",
+   "target": "FlowCellutions",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "stage": "Announced"
   }
  },
  "totals": {
-  "deals": 118,
-  "with_usd_value": 61,
-  "usd": 562020300000.0
+  "deals": 124,
+  "with_usd_value": 63,
+  "usd": 567610300000.0
  }
 }
