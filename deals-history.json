@@ -161,6 +161,13 @@
    "found": 36,
    "new": 7,
    "cumulative": 124
+  },
+  {
+   "date": "2026-11-06",
+   "shown": 8,
+   "found": 36,
+   "new": 5,
+   "cumulative": 129
   }
  ],
  "deals": {
@@ -333,7 +340,7 @@
    "acquirer": "AkzoNobel",
    "target": "Axalta",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-11-06",
    "stage": "Pending approval",
    "value": "$25B",
    "usd": 25000000000.0
@@ -1154,8 +1161,8 @@
    "acquirer": "Fox",
    "target": "Roku",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-04",
-   "stage": "Pending approval",
+   "last_seen": "2026-11-06",
+   "stage": "Completed",
    "value": "$22 Billion",
    "usd": 22000000000.0
   },
@@ -1275,9 +1282,9 @@
    "acquirer": "Adani Ports",
    "target": "Evos",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "stage": "Announced",
-   "value": "\u20ac2.56 Billion",
+   "value": "\u20ac2.56 billion",
    "usd": null
   },
   "pag|evergrande property services": {
@@ -1293,11 +1300,54 @@
    "first_seen": "2026-11-05",
    "last_seen": "2026-11-05",
    "stage": "Announced"
+  },
+  "shield ai|echodyne": {
+   "acquirer": "Shield AI",
+   "target": "Echodyne",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "stage": "Announced",
+   "value": "$5.3B",
+   "usd": 5300000000.0
+  },
+  "alfa laval|navtor": {
+   "acquirer": "Alfa Laval",
+   "target": "NAVTOR",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "stage": "Announced",
+   "value": "$700 million",
+   "usd": 700000000.0
+  },
+  "the new york times|letterboxd": {
+   "acquirer": "The New York Times",
+   "target": "Letterboxd",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "stage": "Rumored",
+   "value": "$330 Million",
+   "usd": 330000000.0
+  },
+  "silver lake and pif|unity": {
+   "acquirer": "Silver Lake and PIF",
+   "target": "Unity",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "stage": "Rumored",
+   "value": "$25bn",
+   "usd": 25000000000.0
+  },
+  "alif|analog devices": {
+   "acquirer": "Alif",
+   "target": "Analog Devices",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "stage": "Completed"
   }
  },
  "totals": {
-  "deals": 124,
-  "with_usd_value": 63,
-  "usd": 567610300000.0
+  "deals": 129,
+  "with_usd_value": 67,
+  "usd": 598940300000.0
  }
 }

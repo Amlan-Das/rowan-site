@@ -1,19 +1,19 @@
 {
-  "date": "Thursday, November 05",
-  "generated_at": "2026-11-05T18:51:47.932325+00:00",
+  "date": "Friday, November 06",
+  "generated_at": "2026-11-06T18:04:56.116573+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "Array Technologies and Shoals Technologies Group are merging in an all-stock deal worth $1.1 billion, while Trian is in a takeover bid for Wendy's.",
+  "lede": "Fox has completed its $22 billion acquisition of streaming giant Roku, with the deal expected to bring $400 million in cost synergies.",
   "deals": [
     {
-      "acquirer": "Array Technologies",
-      "target": "Shoals Technologies Group",
-      "value": "",
+      "acquirer": "Fox",
+      "target": "Roku",
+      "value": "$22 Billion",
       "pinned": false,
-      "stage": "Announced",
-      "articles": 4,
-      "outlets": 3,
-      "latest": "2026-11-05T14:58:51+00:00",
+      "stage": "Completed",
+      "articles": 9,
+      "outlets": 9,
+      "latest": "2026-11-06T16:20:00+00:00",
       "sources": [
         1,
         2,
@@ -21,455 +21,534 @@
         4,
         5,
         6,
-        7
+        7,
+        8
       ],
       "stripped": [],
-      "headline": "Array Technologies and Shoals Technologies Group",
-      "body": "Array Technologies and Shoals Technologies Group are merging in an all-stock deal [4, 6, 7]. The deal was announced by Shoals Technologies Group [1, 2, 6]. The merger agreement was signed by both companies [3, 7].",
+      "headline": "Fox Acquires Roku",
+      "body": "Fox has acquired streaming giant Roku in a $22 billion deal [1, 2, 3]. The acquisition is now complete, with Fox owning Roku [4, 5, 6]. The deal is expected to bring $400 million in cost synergies [7]. The streaming platform will remain an open ecosystem [8].",
       "found": [
         {
           "n": 1,
-          "acquirer": "Array Technologies",
-          "target": "Shoals Technologies Group",
-          "stage": "Announced"
+          "acquirer": "Fox",
+          "target": "Roku",
+          "stage": "Completed"
         },
         {
           "n": 2,
-          "acquirer": "ARRAY Technologies",
-          "target": "Shoals Technologies Group",
-          "stage": "Announced"
+          "acquirer": "Fox",
+          "target": "Roku",
+          "stage": "Completed"
         },
         {
           "n": 3,
-          "acquirer": "ARRAY Technologies",
-          "target": "Shoals Technologies Group",
-          "stage": "Announced"
+          "acquirer": "Fox",
+          "target": "Roku",
+          "stage": "Completed"
         },
         {
           "n": 4,
-          "acquirer": "Array Technologies",
-          "target": "Shoals Technologies",
+          "acquirer": "Fox Corp.",
+          "target": "Roku",
+          "stage": "Completed"
+        },
+        {
+          "n": 5,
+          "acquirer": "Fox",
+          "target": "Roku",
+          "stage": "Completed"
+        },
+        {
+          "n": 6,
+          "acquirer": "Fox",
+          "target": "Roku",
+          "stage": "Completed"
+        },
+        {
+          "n": 7,
+          "acquirer": "Fox Corporation",
+          "target": "Roku",
+          "stage": "Completed"
+        },
+        {
+          "n": 8,
+          "acquirer": "Fox",
+          "target": "Roku",
+          "stage": "Completed"
+        },
+        {
+          "n": 11,
+          "acquirer": "FOX CORPORATION",
+          "target": "ROKU",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "Trian",
-      "target": "Wendy's",
-      "value": "$1.4bn",
+      "acquirer": "Shield AI",
+      "target": "Echodyne",
+      "value": "$5.3B",
       "pinned": false,
       "stage": "Announced",
       "articles": 3,
       "outlets": 3,
-      "latest": "2026-11-05T15:24:38+00:00",
+      "latest": "2026-11-06T15:59:36+00:00",
       "sources": [
-        8,
-        9,
-        10,
-        11,
         12,
         13,
         14
       ],
-      "stripped": [
-        1,
-        2
-      ],
-      "headline": "Trian and Wendy's",
-      "body": "Trian and Wendy's are in a takeover bid deal [11, 12, 13]. Wendy's has rejected Trian's takeover bid [8, 9, 10].",
+      "stripped": [],
+      "headline": "Shield AI and Echodyne Deal",
+      "body": "Shield AI is buying Echodyne, a Bill Gates-backed radar maker [13, 14]. The deal is valued at $5.3 billion [13, 14]. Shield AI will raise $2.5 billion at a $28.8 billion valuation [14].",
       "found": [
         {
-          "n": 8,
-          "acquirer": "Trian",
-          "target": "Wendy's",
-          "stage": "Announced"
+          "n": 12,
+          "acquirer": "Shield AI",
+          "target": "Echodyne",
+          "stage": "Completed"
         },
         {
-          "n": 9,
-          "acquirer": "Trian",
-          "target": "Wendy's",
-          "stage": "Announced"
+          "n": 13,
+          "acquirer": "Shield AI",
+          "target": "Echodyne",
+          "stage": "Completed"
         },
         {
-          "n": 10,
-          "acquirer": "Trian",
-          "target": "Wendy's",
+          "n": 14,
+          "acquirer": "Shield",
+          "target": "Echodyne",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "SoftBank",
-      "target": "ABB robotics business",
-      "value": "$5.4B",
+      "acquirer": "Alfa Laval",
+      "target": "NAVTOR",
+      "value": "$700 million",
       "pinned": false,
-      "stage": "Terminated",
-      "articles": 3,
-      "outlets": 3,
-      "latest": "2026-11-05T12:56:22+00:00",
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-06T10:38:30+00:00",
       "sources": [
         15,
-        16,
-        17,
-        18,
-        19
+        16
       ],
       "stripped": [],
-      "headline": "SoftBank's ABB Robotics Deal Blocked",
-      "body": "SoftBank's acquisition of ABB's robotics business has been terminated [15, 16, 17]. The deal was worth $5.4 billion [15, 16, 17]. No further information is available as the deal has been terminated [15, 16, 17].",
+      "headline": "Alfa Laval to Acquire NAVTOR",
+      "body": "Alfa Laval is acquiring NAVTOR for $700 million [15, 16]. The deal was announced on November 6 [15, 16]. No further information is available [15, 16].",
       "found": [
         {
           "n": 15,
-          "acquirer": "SoftBank",
-          "target": "ABB robotics business",
+          "acquirer": "Alfa Laval",
+          "target": "NAVTOR",
           "stage": "Completed"
         },
         {
           "n": 16,
-          "acquirer": "SoftBank",
-          "target": "ABB Robotics",
-          "stage": "Pending approval"
-        },
-        {
-          "n": 17,
-          "acquirer": "SoftBank",
-          "target": "ABB",
+          "acquirer": "Alfa Laval",
+          "target": "NAVTOR",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "ANI Pharmaceuticals",
-      "target": "Egetis Therapeutics",
-      "value": "$190 Million",
+      "acquirer": "The New York Times",
+      "target": "Letterboxd",
+      "value": "$330 Million",
       "pinned": false,
-      "stage": "Pending approval",
+      "stage": "Rumored",
       "articles": 2,
       "outlets": 2,
-      "latest": "2026-11-05T15:07:45+00:00",
+      "latest": "2026-11-06T10:16:00+00:00",
       "sources": [
-        20,
-        21
+        17,
+        18,
+        19,
+        20
       ],
       "stripped": [],
-      "headline": "ANI Pharmaceuticals to Acquire Egetis Therapeutics",
-      "body": "ANI Pharmaceuticals is acquiring Egetis Therapeutics [20, 21]. Egetis Therapeutics is selling a priority review voucher for $190 million [20]. The deal is pending approval [20, 21].",
+      "headline": "The New York Times May Acquire Letterboxd",
+      "body": "The New York Times is in advanced talks to acquire film social network Letterboxd [17, 18, 19]. The deal is valued at $330 million [17, 18, 19]. No further details have been disclosed [17, 18, 19].",
       "found": [
         {
-          "n": 20,
-          "acquirer": "ANI Pharmaceuticals",
-          "target": "Egetis Therapeutics",
+          "n": 17,
+          "acquirer": "The New York Times",
+          "target": "Letterboxd",
           "stage": "Announced"
         },
         {
-          "n": 21,
-          "acquirer": "ANI Pharmaceuticals",
-          "target": "Egetis Therapeutics",
-          "stage": "Announced"
+          "n": 18,
+          "acquirer": "New York Times Company",
+          "target": "Letterboxd",
+          "stage": "Rumored"
         }
       ]
     },
     {
-      "acquirer": "First Capital, Inc.",
-      "target": "Quantisnow",
-      "value": "",
+      "acquirer": "Silver Lake and PIF",
+      "target": "Unity",
+      "value": "$25bn",
       "pinned": false,
-      "stage": "Completed",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-05T18:35:53+00:00",
+      "stage": "Rumored",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-06T02:27:02+00:00",
       "sources": [
+        21,
         22,
-        23
+        23,
+        24,
+        25,
+        26
       ],
       "stripped": [],
-      "headline": "First Capital, Inc. and Quantisnow Deal",
-      "body": "First Capital, Inc. and Quantisnow have completed their deal [22, 23]. The deal involves First Capital, Inc. expanding in Southern Indiana and Western Kentucky [22]. There is no new information on the deal [23].",
+      "headline": "Silver Lake and PIF in Unity Talks",
+      "body": "Silver Lake and PIF are in talks to buy gaming software provider Unity [21, 22, 24]. The deal is rumored to be worth around $25 billion [22, 25]. No further information is available at this time [26].",
       "found": [
         {
+          "n": 21,
+          "acquirer": "Silver Lake and PIF",
+          "target": "Unity",
+          "stage": "Rumored"
+        },
+        {
           "n": 22,
-          "acquirer": "First Capital, Inc.",
-          "target": "Quantisnow",
-          "stage": "Announced"
+          "acquirer": "Silver Lake",
+          "target": "Unity",
+          "stage": "Rumored"
         }
       ]
     },
     {
       "acquirer": "Adani Ports",
       "target": "Evos",
-      "value": "€2.56 Billion",
+      "value": "€2.56 billion",
       "pinned": false,
       "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-05T17:17:22+00:00",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-06T00:47:00+00:00",
       "sources": [
-        24
+        27,
+        28,
+        29
       ],
       "stripped": [],
       "headline": "Adani Ports to Acquire Evos",
-      "body": "Adani Ports is acquiring European storage giant Evos in a €2.56 billion deal [24]. The deal is expanding Adani Ports' global footprint [24]. No further information is available [24].",
-      "found": [
-        {
-          "n": 24,
-          "acquirer": "Adani Ports",
-          "target": "Evos",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "PAG",
-      "target": "Evergrande Property Services",
-      "value": "",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-05T16:59:35+00:00",
-      "sources": [
-        25,
-        26
-      ],
-      "stripped": [],
-      "headline": "PAG to Acquire Evergrande Property Services",
-      "body": "PAG is acquiring Evergrande Property Services in a HKD4bn takeover [25, 26]. The deal was announced and no further information is available [25, 26].",
-      "found": [
-        {
-          "n": 25,
-          "acquirer": "PAG",
-          "target": "Evergrande Property Services",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "TerraFlow",
-      "target": "FlowCellutions",
-      "value": "",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-05T16:50:58+00:00",
-      "sources": [
-        27
-      ],
-      "stripped": [],
-      "headline": "TerraFlow Buys FlowCellutions",
-      "body": "TerraFlow has acquired FlowCellutions in an all-cash deal [27]. The acquisition is TerraFlow's first major move since its founding in 2021 [27]. The deal is expected to close in the first half of 2026 [27].",
+      "body": "Adani Ports is acquiring Evos in a €2.56 billion deal [27, 28, 29]. The deal aims to expand Adani Ports' European liquid storage footprint [27, 28, 29]. No further details on the deal's next steps have been announced [27, 28, 29].",
       "found": [
         {
           "n": 27,
-          "acquirer": "TerraFlow",
-          "target": "FlowCellutions",
+          "acquirer": "Adani Ports",
+          "target": "Evos",
           "stage": "Announced"
+        },
+        {
+          "n": 28,
+          "acquirer": "Adani Ports",
+          "target": "Evos",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "AkzoNobel",
+      "target": "Axalta",
+      "value": "$25B",
+      "pinned": false,
+      "stage": "Pending approval",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-11-06T16:28:13+00:00",
+      "sources": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "stripped": [],
+      "headline": "AkzoNobel and Axalta Merger",
+      "body": "AkzoNobel and Axalta have secured EU antitrust approval for their $25B merger deal [30, 31]. Regulators are seeking two asset sales as part of the merger deal [31]. The companies have proposed remedies for EU approval of the merger deal [32]. The merger is nearing approval in both the US and EU after unit sales [35].",
+      "found": [
+        {
+          "n": 30,
+          "acquirer": "AkzoNobel",
+          "target": "Axalta",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Alif",
+      "target": "Analog Devices",
+      "value": "",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-11-06T15:31:04+00:00",
+      "sources": [
+        36
+      ],
+      "stripped": [],
+      "headline": "Analog Devices Completes Alif Deal",
+      "body": "Analog Devices has completed its acquisition of Alif [36]. The deal expands Analog Devices' edge AI capabilities [36].",
+      "found": [
+        {
+          "n": 36,
+          "acquirer": "Alif",
+          "target": "Analog Devices",
+          "stage": "Completed"
         }
       ]
     }
   ],
   "also": [
     {
-      "n": 28,
-      "note": "QatarEnergy eyes more US LNG deals to shield supply from Mideast conflict - report [28]."
+      "n": 37,
+      "note": "Salesforce Buys Cresta, CrowdStrike Acquires Two AI Companies, Out West Restaurant Group B [37]."
     },
     {
-      "n": 29,
-      "note": "SpaceX Stock Falls as Banks Test Demand for AI Debt [29]."
+      "n": 38,
+      "note": "Apollo’s Brightspeed in Creditor Talks for Billions in New Money [38]."
     },
     {
-      "n": 30,
-      "note": "Metairie engineering firm acquired by private equity company [30]."
+      "n": 42,
+      "note": "EXCLUSIVE: Networking firm Extreme Networks explores sale, sources say [42]."
     }
   ],
-  "brief": "Array Technologies and Shoals Technologies Group are merging in an all-stock deal worth $1.1 billion, while Trian is in a takeover bid for Wendy's.\n\nArray Technologies / Shoals Technologies Group (Announced): Array Technologies and Shoals Technologies Group. Array Technologies and Shoals Technologies Group are merging in an all-stock deal [4, 6, 7]. The deal was announced by Shoals Technologies Group [1, 2, 6]. The merger agreement was signed by both companies [3, 7].\nTrian / Wendy's (Announced): Trian and Wendy's. Trian and Wendy's are in a takeover bid deal [11, 12, 13]. Wendy's has rejected Trian's takeover bid [8, 9, 10].\nSoftBank / ABB robotics business (Terminated): SoftBank's ABB Robotics Deal Blocked. SoftBank's acquisition of ABB's robotics business has been terminated [15, 16, 17]. The deal was worth $5.4 billion [15, 16, 17]. No further information is available as the deal has been terminated [15, 16, 17].\nANI Pharmaceuticals / Egetis Therapeutics (Pending approval): ANI Pharmaceuticals to Acquire Egetis Therapeutics. ANI Pharmaceuticals is acquiring Egetis Therapeutics [20, 21]. Egetis Therapeutics is selling a priority review voucher for $190 million [20]. The deal is pending approval [20, 21].\nFirst Capital, Inc. / Quantisnow (Completed): First Capital, Inc. and Quantisnow Deal. First Capital, Inc. and Quantisnow have completed their deal [22, 23]. The deal involves First Capital, Inc. expanding in Southern Indiana and Western Kentucky [22]. There is no new information on the deal [23].\nAdani Ports / Evos (Announced): Adani Ports to Acquire Evos. Adani Ports is acquiring European storage giant Evos in a €2.56 billion deal [24]. The deal is expanding Adani Ports' global footprint [24]. No further information is available [24].\nPAG / Evergrande Property Services (Announced): PAG to Acquire Evergrande Property Services. PAG is acquiring Evergrande Property Services in a HKD4bn takeover [25, 26]. The deal was announced and no further information is available [25, 26].\nTerraFlow / FlowCellutions (Announced): TerraFlow Buys FlowCellutions. TerraFlow has acquired FlowCellutions in an all-cash deal [27]. The acquisition is TerraFlow's first major move since its founding in 2021 [27]. The deal is expected to close in the first half of 2026 [27].\n\nAlso worth knowing:\n- QatarEnergy eyes more US LNG deals to shield supply from Mideast conflict - report [28].\n- SpaceX Stock Falls as Banks Test Demand for AI Debt [29].\n- Metairie engineering firm acquired by private equity company [30].",
+  "brief": "Fox has completed its $22 billion acquisition of streaming giant Roku, with the deal expected to bring $400 million in cost synergies.\n\nFox / Roku (Completed): Fox Acquires Roku. Fox has acquired streaming giant Roku in a $22 billion deal [1, 2, 3]. The acquisition is now complete, with Fox owning Roku [4, 5, 6]. The deal is expected to bring $400 million in cost synergies [7]. The streaming platform will remain an open ecosystem [8].\nShield AI / Echodyne (Announced): Shield AI and Echodyne Deal. Shield AI is buying Echodyne, a Bill Gates-backed radar maker [13, 14]. The deal is valued at $5.3 billion [13, 14]. Shield AI will raise $2.5 billion at a $28.8 billion valuation [14].\nAlfa Laval / NAVTOR (Announced): Alfa Laval to Acquire NAVTOR. Alfa Laval is acquiring NAVTOR for $700 million [15, 16]. The deal was announced on November 6 [15, 16]. No further information is available [15, 16].\nThe New York Times / Letterboxd (Rumored): The New York Times May Acquire Letterboxd. The New York Times is in advanced talks to acquire film social network Letterboxd [17, 18, 19]. The deal is valued at $330 million [17, 18, 19]. No further details have been disclosed [17, 18, 19].\nSilver Lake and PIF / Unity (Rumored): Silver Lake and PIF in Unity Talks. Silver Lake and PIF are in talks to buy gaming software provider Unity [21, 22, 24]. The deal is rumored to be worth around $25 billion [22, 25]. No further information is available at this time [26].\nAdani Ports / Evos (Announced): Adani Ports to Acquire Evos. Adani Ports is acquiring Evos in a €2.56 billion deal [27, 28, 29]. The deal aims to expand Adani Ports' European liquid storage footprint [27, 28, 29]. No further details on the deal's next steps have been announced [27, 28, 29].\nAkzoNobel / Axalta (Pending approval): AkzoNobel and Axalta Merger. AkzoNobel and Axalta have secured EU antitrust approval for their $25B merger deal [30, 31]. Regulators are seeking two asset sales as part of the merger deal [31]. The companies have proposed remedies for EU approval of the merger deal [32]. The merger is nearing approval in both the US and EU after unit sales [35].\nAlif / Analog Devices (Completed): Analog Devices Completes Alif Deal. Analog Devices has completed its acquisition of Alif [36]. The deal expands Analog Devices' edge AI capabilities [36].\n\nAlso worth knowing:\n- Salesforce Buys Cresta, CrowdStrike Acquires Two AI Companies, Out West Restaurant Group B [37].\n- Apollo’s Brightspeed in Creditor Talks for Billions in New Money [38].\n- EXCLUSIVE: Networking firm Extreme Networks explores sale, sources say [42].",
   "sources": [
     {
       "n": 1,
-      "title": "Shoals Technologies Group Announces Merger With Array Technologies",
-      "source": "The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY1VDLW5Cck9hWm1JZGRTM3lRaGJGUnJBclhXQ2FtSzNTSEpidE5SQ3U2eTlULTR2SXZDd3k5WTB4NnlyYjRnSU10TnVJLWZNUWszbEJaczJ1d2hpUFl4VzUtaFRIbFRYbnpHTzdYdzFQR1BFMU9MLVd1Z0ZmRnhBMDRkODVEeDFYV2xZWTF6SE9Kd2RReXg1MHY5YUZnMERjNjZsMlUzcExoYlBmcFdpWVhrOUZUZ0JQdFRGNHNzMDNqMERlYmU4SXVDNGtiNFUzTUJPMWMyejdkeDlPOEthRg?oc=5",
-      "snippet": "The Globe and Mail",
-      "published": "2026-11-05T14:58:51+00:00"
+      "title": "Fox completes $22B acquisition of streaming giant Roku",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXR1RldGR0w4Ykd0OEllOU4xUEcwSXlkX2N5NW5tOFFjVTJ0YWYyOUVqN3p3WmRENnlRbWgzN3FuRkd0NERqUXBFdDZKY1hpOEFXTmxvR1FsckRVVERmdFE0a24yVWYxakVoSjNEcGREMGk1R1BzWTFfTzdFa1Z1eGlWdXI0aVZFaWFWbFpHZnloZW1K?oc=5",
+      "snippet": "New York Post",
+      "published": "2026-11-06T16:20:00+00:00"
     },
     {
       "n": 2,
-      "title": "ARRAY Technologies Announces Stock-for-Stock Merger with Shoals Technologies in Supplier Communication",
-      "source": "Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdTJxR3ZyX3o2TXRDZC1OYmJvbTdvenZFc3VrTXdFcUlxY2Q5SFdqN0FSOU9pSFJ5SGNIYTc3clpYdTdoejhlakZVbzc5Vzd3RGpadXFpMWMyUGhHc184MHBaRkVjTDYxX0J0WFRmYXgxZkoyRGlkbHFkYkJEbFRCZGZfTzF0NlZGV3JxckhVXzduSy1rdTU2WmhrM1VFSE95dnhHNVlCNWg0S3BvWmUyU1R1SE1mRTI2MldkQTBhV1Nrd2J3S0dkYnpBNlA1SGVrVmJHYzdySWZpNVFVa2twYnpabw?oc=5",
-      "snippet": "Kalkine Media",
-      "published": "2026-11-05T05:03:45+00:00"
+      "title": "Fox Completes Roku Acquisition",
+      "source": "TV News Check",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBJcDU3MzJ0alVybkE0bGV0T2FZUkVaMVVEVC1raXRZOW10Q2thR0lZZVV5YjdQcGtWUkRjSFA4cU9GMFhWSmN2X0JYZDl6Qm5Ba1JMZkFPWG5TRnB4VE5vMVprSEJJeWFUUk5hWVJNMWw4endPaFU2TUxSdEE?oc=5",
+      "snippet": "TV News Check",
+      "published": "2026-11-06T15:49:28+00:00"
     },
     {
       "n": 3,
-      "title": "ARRAY Technologies and Shoals Technologies Group Announce Q1 2027 Merger Agreement",
-      "source": "Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOazRGdnBsUU5vT1NWZXlFcDE3NWl1dDBzMDFySEZXeGhaNGNWVnN4eWFyS0lBXzNKdmpHWkNHa2llRFZVVnVNbndrWll3QjJHRExLcjBFeEVnYTFZMmswOWJOOWkzZFExWW5lQ2VmTVFTN2xTd29WRjYwWVpubS1MLVJnb19ObE9KWUJoTUNpUHNNN0ZTQ1pFbnd0MkoyQWhhM2FvTEpFS3dudER1M3lnRGl1c0o2N2Z1OS1kajZFYWowdEk0dTdnRg?oc=5",
-      "snippet": "Kalkine Media",
-      "published": "2026-11-05T05:03:33+00:00"
+      "title": "Fox Closes Roku Deal, Creating New Streaming Power Player",
+      "source": "The Hollywood Reporter",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeENEYjgyMGdzZzJUVDVaN2lQYUIyZktPSkp0SkZhaUxBNmkzcjBzWnREakhudFo4M1l4MmVKSV83Y3FEQ21LYmROUlN2YzBMVHlEdk1WcHoxNWxsd0RKTnhxZnVsMGpZZ2s2VzdNQk95M2E1OGVDbXB2VFVkQkMtaW5iVlo1cEJ4TmNaUzJiREVaZzZEd3o0RWV0a0ZDb1JZa3ZEd3RZQmJQMUF2OGVpaWFQU3RtdkdxSUtv?oc=5",
+      "snippet": "The Hollywood Reporter",
+      "published": "2026-11-06T15:07:18+00:00"
     },
     {
       "n": 4,
-      "title": "Array Technologies merges with Shoals Technologies in all-stock deal",
-      "source": "The Business Journals",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcFlZa3k1WEt5SmNrbmVHQkYwUUNsLTRSdXVCeDBXZXNOVWVDUmVlYVd4Y2hiOVRRWDVVZjhtWnhxVEladTdZUFhxSGlkVXhpZkdZTndETDl5Ym56bTlRQ2VPV054UHA2LVQ3U0JxRTVYUzFCZWlhLVhBQ3ZWOFBrTEIzTjlpbzdKOVVsSzFKSC1tY1JGY0E?oc=5",
-      "snippet": "The Business Journals",
-      "published": "2026-11-04T22:30:00+00:00"
+      "title": "Fox Corp. Closes $22 Billion Acquisition Of Roku",
+      "source": "Deadline",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xdl9Yc1RyTkhoaFc4c09qNnYzMjRmeWMxTWVlcUVlenpITEdwNC0zMTZtWTNUU1dYNXFjMGlZVlc2bUc4WVFCWFRtNVVza3IyU1VnXzl5TWpEdmsxWml3QkN3cUlxN1drTTlCUFhESFNiYVlOak8tUDE5X0k4Zw?oc=5",
+      "snippet": "Deadline",
+      "published": "2026-11-06T14:42:00+00:00"
     },
     {
       "n": 5,
-      "title": "Shoals Technologies Group, Inc. entered into a definitive agreement to acquire Array Technologies, Inc. in a reverse merger transaction for $1.3 billion.",
-      "source": "marketscreener.com",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQU9USmxPLXNQdnBCUk9TUVNxOWN6Y3JCWHFYMmRKaWRKakVvLWVmZ20xQy03a1JMYXI0YXNPZ1otNEg2VVd2Nm1MbXZNTXdvMDJRdThEWjNvcHFyMEU0VFdRTGk0REpoWGZYVUJtVVBlN0o3M09PYWpaSVNtVFRCOWdGeF9NYUFjVU1BemdyaU9yajhjdFhyamUxNklxMVZ4ZVBKWm03R0lrUS1INGk4Z19FNEdYU1V0MmlTQ2FidktZMjBVNVZEdTNDWEFEUnNjMUYyMEJWNzNpbVo3enh4NkR0a3o?oc=5",
-      "snippet": "marketscreener.com",
-      "published": "2026-11-04T17:24:18+00:00"
+      "title": "Fox Now Owns Roku After Completing Its Purchase",
+      "source": "Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV201ODJETVBuSEhIcmxJb1BiRzlWVTBkLWxNZnBqNlJ5WkhJUG5BVVJVYXJWRXFwalFCMS1HQ1I3NVd3ZWhIRThWTnE3bUpQWUl6MklQVXR3Tm9aaHFpbnF5TGVtTGRZcWFTb0NDUHpxZTVKZVZmYnhPdmNxRG01dVVnV0lKbzBaQkd4NmF5RmxFSlczNm00bHNOYTg?oc=5",
+      "snippet": "Stock Titan",
+      "published": "2026-11-06T14:40:56+00:00"
     },
     {
       "n": 6,
-      "title": "Shoals Technologies Group Announces Merger With Array Technologies",
-      "source": "TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdFlVS2F3OWRfc3BjZy02SGk0M2VPb1NzblB4TDdhQ2ZwZnAtd0Q3RHUzUEdqVXNSX3UyaEN3Qnd5dE1aaFRwTWRUa1VSTjF2MHB6UDV2Z1RMQnAya2R6Q2VxVE5DbWpRYUtGb2pNc0E5TVh0NGV0RWFrZmhNZmlTc1pUY3lsQWZJNUc1Q1VkQXU1YVo1b0JFdU52bGdTMi04RGF1UDJnNGpubGlSUmYzZFNscFlSSVF6RGc?oc=5",
-      "snippet": "TipRanks",
-      "published": "2026-11-04T16:04:56+00:00"
+      "title": "Fox Completes $22 Billion Roku Acquisition",
+      "source": "TheWrap",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbVlHeHBueFpUYThWY1Nka2RZdlRnMERBelpWUUV0TXNJOUVEdlJqd1ZzdEttQVhWZTMwN0VaVTROenZzTEhSYWFJcERHdXMtdXNtdXhKNWhPR2E2Znh0S0JNWjhoZ25vRzlVRjJZTzdSR1FQaHk0eEdPdVR1OFlFaXFDT3N4QTF3YVJpRVVHeTNBc3M?oc=5",
+      "snippet": "TheWrap",
+      "published": "2026-11-06T14:30:10+00:00"
     },
     {
       "n": 7,
-      "title": "Array Technologies Announces Merger Agreement with Shoals",
-      "source": "TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZlUzSXRPb0xWc2x1SXkyN09fZVpMakNibDYzOU5CYVZtTmZMMUZiZEdnRDg5YUxYeUN4cm9fbjJHcW5QM2lCemVOSENKRnNIRkdLdVc0V0FhNEJFNDhYZldOUjlCdmhBSnVMLWpDWFI4T2JibnQzM0hHR3NNRERYRWV4TTBjVEUxajN4MERxT19GT1BUSDlSNTJKdlRPNlo3QUdDMFc4Z21rcXJ1aWc?oc=5",
-      "snippet": "TipRanks",
-      "published": "2026-11-04T16:08:38+00:00"
+      "title": "Fox Corporation (FOX) Completes Roku Deal; Expects $400M Cost Synergies",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNWRZUnVaZFBhSHR4dWRWT3RsUE83Y2tDbUJyNEw4RHVuUnM3cVZxZGdTUUd6MUg2Ty00RS1GRU1hd3BaSFVsQ0t3ZFR6LThSQVdHMERQX29CSVcyM1BsZ2xBWVNtLWcteElnb09WOE1OMm55endUTG9XdnpwN25nSS1JSmZlWWVDTkUwcE14WFc3aG0yMW5HdUE2NXZoYzNLWmFmVlRCbTlZTF9COVFPdUNUb3ZSUTNYTENFUmFjTkV2X19PMjlpSw?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-06T14:23:47+00:00"
     },
     {
       "n": 8,
-      "title": "Wendy’s rejects Trian’s $1.4bn takeover bid as sales continue to slide",
-      "source": "TheBanker.com",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1VOUE4bnp2OXJZeDBzcFQ1LXJxSTBuRXNSU0JKbE1XZFoxQkNCbHJES1BQNkpfcmU3Y2FKZUxFaXc4T0dCN2RqZ291cVFwel9XOUl6UlB6aFdxVVY2R29qS1NHZEJTUDNjQTZDQlhjaEp6ZmNCMEdmOGZn?oc=5",
-      "snippet": "TheBanker.com",
-      "published": "2026-11-05T15:24:38+00:00"
+      "title": "Fox Closes $22 Billion Roku Takeover, Says Streaming Platform Will Remain ‘Open Ecosystem’",
+      "source": "Variety",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2dzJYSENyZVNJZFRXQzZta0hDM3JpOXQxTEo4Nkhqek56azBlck00bFlzeFN3WllqWDZ6bVBhVUpBdWtSa0tmcTFicERTN0tyQ3preTFub3l1N1YzaVc5Z05JU1l4b2FLMWEteW54YTZ1Skd1dURXWEk4NHA?oc=5",
+      "snippet": "Variety",
+      "published": "2026-11-06T14:21:00+00:00"
     },
     {
       "n": 9,
-      "title": "Wendy’s Rejects Takeover Bid From Trian to Take It Private",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObm51YWFrVzZLOTFKZUtkQzlQVlFxOW9nN0pNR3FJY2V2bzBxcWZjSEc4MTVlbm9BbnV2LUdYR0tVb1UxS0xMLXdOdW5INVJtdGtvYWZSRUpjRGZGTFBkZ005X1hzRi1rWTZjUGlfYzdCRXo2NXctcDdCbFhlV1ZMUDFReENWUVJ0N2tOYmloU2I1bkpsbDFGX2FyU0JDZGM1dUlGSEhka1M1ajU5dGc?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-05T14:45:56+00:00"
+      "title": "Fox completes its $22B acquisition of Roku",
+      "source": "TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNby1PWkkwYWZWdWd0endlOFdvc2NISEI2dUJtTncxM2UwaHJIR3Z6b2oxNlpKT3QzcmRZQUhEUXRlVzVBNFRBRm9sVFBEUVZjMEgxZDNfWHlHQ1lHd2o4QUx1V3ZFUmRpV0oxX3MxaVBoMEJRT1hzQl9Ea0o1U3Z5N0JB?oc=5",
+      "snippet": "TechCrunch",
+      "published": "2026-11-06T16:05:36+00:00"
     },
     {
       "n": 10,
-      "title": "Wendy’s Rejects Trian’s $1.4 Billion Takeover Offer",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSkRjckN4TVlWTWxVREJ6LVlwZzJOcWc3R19Yc3I3eERUb3Z3TUd0RFVqa3FwM1BfOGZsenUxSU9KbWpiSFlENndON0ltc1djdWQzOWloZGlSWENBUGRpMFAzWHBjdDRibS1uNlRTbjctMHZRQnlNNEtqSGUwd1JSODZ6UVl3ZmZjdEdxTzdURHVyM3JIZXNV?oc=5",
-      "snippet": "WSJ",
-      "published": "2026-11-05T13:20:00+00:00"
+      "title": "With media M&A in the air, shareholders of both companies have approved Fox’s planned acquisition of Roku in a cash and stock deal worth $22 billion. Read more below.",
+      "source": "Facebook",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMHNaTWctWDZDdjA3RUVsVzlWd2VURFNzc0paVzVzd3pESTdJeGFucTljZHd2bi0yeHp3bDZ1ckVyZTUxTnUxSG5vdm1VRE45X3dibC04dU5IeVBMcVQweWhNZ3QySENfUF9OeDhwclpwOC1IVm5hcGNNaTYtWVB3ak9PTERZYmdjUmxmMm1xcm1zZzFoS1dXQnBBSVMwVTlPSFVvdlFvdlljTThmVU5FNFFtNkx4OWtFeG5UOS1CRE5SS0trX1BIdGtuMzM2VzliR1dYbw?oc=5",
+      "snippet": "Facebook",
+      "published": "2026-10-15T10:00:11+00:00"
     },
     {
       "n": 11,
-      "title": "Wendy’s gets $1.4 billion buyout offer from Peltz’s Trian",
-      "source": "KELO-AM",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOTMzSTZOMlJSM1lfYUc1cXZTejBRaTVyRjk0YmdBZ2ZTMFhZV1F6T0MydXIydDdFMEJtb2ZLS1hPR2h4cnlTX3R1bnBnUjROTnpUY0xIZ3dvSTUwZUxGTmMxWWFyamQ4ajN5bW0tUjVTUlU5TjRmV1BwSDVsRUpQZkRJNW4wTWh5Rl84Vi1YWUJOWDRRUTdlWEVRWjBfdVVz?oc=5",
-      "snippet": "KELO-AM",
-      "published": "2026-10-28T14:15:00+00:00"
+      "title": "FOX CORPORATION COMPLETES ACQUISITION OF ROKU",
+      "source": "PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa0FUNjFWaURaRGQyalBLTGZZbU9qZFhoRm5GSng3ZzZZS2lUUnBKU3U5YWZadWRoaHV6OF91V1NGb3drVVllWDFkMzBUb0dJOHJKMFRreHd3SFNXb1B5M05WVVNndVZrTDdEelJJZV9FUnJiVEhXUEgtaWxKeWRqVFk3djZRUHk1blRXN0M3bWJtaG9xeG5WWVhKVFpELXpXdVBv?oc=5",
+      "snippet": "PR Newswire",
+      "published": "2026-11-06T14:10:00+00:00"
     },
     {
       "n": 12,
-      "title": "Exclusive | Nelson Peltz’s Trian Offers to Buy Wendy’s for $1.4 Billion",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcTd1dnBmMzBtZzQ0UzlFSFdDUWJSRkxOMUcwcm43cEpRUUpHaENfN2FMV1BEV1FRV0hleDZvSGRGckpkVzJIZThQTGplNXBLTE5xbTI2dFNMY1NKWC1nYTVRRDNSeGlWTWdlZ08zNHVaLU9xbEMtY3RnM2NqeV9reG5NdHhNSHBHQmg3TS1Gc2ZZRDluUWI5d2pra21lNlhfd0E?oc=5",
-      "snippet": "WSJ",
-      "published": "2026-10-28T13:29:34+00:00"
+      "title": "Shield AI Echodyne Deal: X-BAT Maker Buys a Kirkland Radar Firm",
+      "source": "MiGFlug",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVWxEalRLRUdubmx4cVE5eHpEeGJBWDllMWZDcGo2MXlLdWZpOE52bktrcElPeFFIM3lDTDFlZzhzT2l3T2FpYURZY3JHcjl3ampwWko5LW5LNkVBMHlzNnE0LXBDSGloMHdOSVE0VnZDLWJNWmNSLUZRdFdfaXlGMDVqNnhVLU1XaE5HSUs4RU1WTFNkeVM4UUZkdTdmTEE?oc=5",
+      "snippet": "MiGFlug",
+      "published": "2026-11-06T15:59:36+00:00"
     },
     {
       "n": 13,
-      "title": "Wendy's rejects Trian-led $1.4 billion buyout offer, adopts 'poison pill' plan",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWG40MUJ0RHlEckE2Rk9wQmdUWEhfTXd6TW56YWFtYWtnSm94MGd0VndNdm16TXptcTJWX2tYMVdyNmZZdkM3dnVQNzQ5VkxlNHRiSG9lSi1yVkZLQVZDeXlCcDVVNWpoTTBMYWM4OW1PNjJJaGtRVG51TVlNcnNieHhZck12TnFYTUY1M0xxeWl1ZnJTV2M3LQ?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-11-05T16:06:59+00:00"
+      "title": "Shield AI to buy Bill Gates-backed radar maker Echodyne in $5.3B deal, doubling down on Seattle area",
+      "source": "GeekWire",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS19RcmQwSlAtcktyQjVTV21yM1pSVV82ZXYwUkRaeUpZMk9mTVVrSHZWa1Z1bUIyUlRWaGczMWpJeW5YbG5BQVBjeldaTHMyTEVlbG9vN2YtWW15NFJpT1ZkSHhmay12NjFIS0RPZk5ZOVp5cENkZW92WDVHMTNfUEVkajFRR1RxZWVVRjd3OXA1clRCV2kzTjMtX3JqSE52SzVKeHZoYlZtTTNMQXNzV1NYUl9kcUxNQzlVdmp6SjI1enlPQXJuSw?oc=5",
+      "snippet": "GeekWire",
+      "published": "2026-11-05T17:47:34+00:00"
     },
     {
       "n": 14,
-      "title": "Deal Roundup: Triton agrees $9bn Trench exit; Trian-led group makes $3.8bn Wendy's take-private proposal",
-      "source": "AltAssets Private Equity News",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOcVA5N2NlVGJjSnZEUm1YcGRGQjltdnhjQzJ4Mm9FaEM2RmdpbTNXQUdHb1lQNWlHT044Y2ZXM2Fpdndod2F5MWprcDdMUG1uTjUtVDlrazRpZzBpR0l6UElWX25xNDlPZUYxcnlveUJaVldpNDVzZVM0b1gwZHlBRzJpVEE0Xy1NX21VanFsNWpObjVaTUNRbGVPdGN5OGsxTXVsNlVNMFBvRGNHNU9LUXM5Q2wtYjB2MU9OSlBCZlFNMHAyYjdGMVdwRWFFbXp4THp6VElLQlZ4MzBpcTFyNVBFZEd5VFQySUVGMGFVWVpxS2FOVmFZMUhOeEp1ZzNFdmF5dWFSQi0?oc=5",
-      "snippet": "AltAssets Private Equity News",
-      "published": "2026-10-29T09:48:46+00:00"
+      "title": "Shield to acquire Echodyne in a transaction valued at $5.3 billion and raise $2.5 billion at a $28.8 billion valuation",
+      "source": "Shield AI",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRk5sM3I2clNfQ1lwdEZicDNXT0lTeEZDVnR6dzNPeFVkdlFXR0x4R2Vub29UVTFXNnpnOGFuc3l2dzJoNjVfZFF2YTRJTV9zbTZrS1RYMUhVY0JSWm1VNWhnRUZlcmJLVlAzOG8wNVJtT3ktaWM2TC1CdUU4Q3ctSDktUkZHVkZJM3hNQUZuNjFUVkdDcnljOE1ZVDNFVUUwV0dxWG1rWnRTak5iSTg1UDYwQWdZM21DT3daaUNJYjVKbFNaY1dXOHo0WnMza1E?oc=5",
+      "snippet": "Shield AI",
+      "published": "2026-11-05T16:38:06+00:00"
     },
     {
       "n": 15,
-      "title": "China blocks SoftBank’s acquisition of ABB robotics business in $5.4B deal",
-      "source": "Anadolu Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOVZrTE9YYVg2RTJNSDhSdEpmVUNQODlnWWZnRm9maXRUcnREbm9YblpOa1JCaWYtM1FXdXQ4TWJaN01jRnUtNmMzVjRjbnhxc3RVZ0s1RGd1LTJoT2ZHXzlpWEZJT0tmTFluY1dKa2szSlZfWFRFYTJadXBPNEtWS21kS0otbUtYUGJQZHRVUFZTN1JIejVxTFlEMEFyYTlOTHBEeEZoTkVUSmJnOVdBMHdFTWpDZ2pPYmc?oc=5",
-      "snippet": "Anadolu Ajansı",
-      "published": "2026-11-05T12:56:22+00:00"
+      "title": "Alfa Laval agrees $700 million deal to acquire NAVTOR",
+      "source": "ship.energy",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMkowaVhxakRqVUZLNmlGaktRb24yZDdnNzVZTjNkUVMtTE1FYmlyVF9Zd1ZiYUpQb24yMjhoaVg1VGVLSExXZVpQclVJLVNiWHZ0YjRZcDMxWHRyeXFTcHBNanAtQUl4dThRRURpUFdxeWFwdGFqZm5UY2J6clg4WjNtVDRvRDJMOHhzbg?oc=5",
+      "snippet": "ship.energy",
+      "published": "2026-11-06T10:38:30+00:00"
     },
     {
       "n": 16,
-      "title": "China Reportedly Withholds Approval for SoftBank’s ABB Robotics Deal",
-      "source": "FindArticles",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVXBETVk1RVdQNmtIeTZQblpmWmpPd3JCLV9oX3QzbzdtRDJaMUZwWEpMMVFrdmhFb0VHQnZqVHNCbHhQcnZ3SW5uQnRSMFVQcFdvVDJRMDRhX1o1Y3lBM18zZ0dXLTF2WEVCM3RibUNsOHpjekhUQkZOSmVNaVBRX2g5cTdyNjVMTzQyQUdzb0Y0VHFHZE9n0gGfAUFVX3lxTE5DY3FrT29DOFpDY0RNZDU5WW1fOE54MUtPcWcxNlVYeE9zMVNuU3E2MkRvVThCSkhlTGZMU2ZXTG1TaERUaUxYWEctdHdPMEF4TDdmWEt2eU8yTDExa0swc0RnOVJyLVBYVFQ3b0tNVHA2aVc1MlhEV1ZNdTBoXzFkR0gyTnk1Q1BHYUdhUzdWaXZFWFg0bHhxaEhPeGRNUQ?oc=5",
-      "snippet": "FindArticles",
-      "published": "2026-11-05T12:29:48+00:00"
+      "title": "Alfa Laval to Buy NAVTOR for $700M in Maritime Digital Expansion",
+      "source": "MarineLink",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUmNYc01UUXVQLVJyWUlzWkFRWVRfbmFUWjJFOUxsN3hoMTdSTGtnLWdaajdobXZNel83Y3ZxZ1NlNi1MOVNFcUJWSHQ4SUdGYjhveVJPZmxYTDRzYi12VVBscGQ1OXB4ZVItRVBTMlppVWd3blE5dzBkRElITFpjX0J5N1dPQQ?oc=5",
+      "snippet": "MarineLink",
+      "published": "2026-11-06T10:22:06+00:00"
     },
     {
       "n": 17,
-      "title": "China blocks SoftBank’s $5.4 billion takeover of ABB’s robotics division",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTVBJa2g4T1RZOXVuY3phU1ZicmlpM0kzUTdjNlBrMmtNZ29aNlBxZzNwQWkzam9WNVB6MGFwV2tERnA5WWNhWE9ZaWtKaV9JMDdpWHBKRjUyU2ZKU2lEN2R4U29ZQlo3T3g1cndpLUNqZXFhclphYzdyN0thaXM5WXl4UnN2eGZiUXd4SXdUenppTXNRTU1CV3RURnEyT05XUFRNUWFiMGNwN0QzYjVtS1Zoc24zcV9lWHV2eDZQckJwb2ZpS3g0OG9VMnpJaHJt?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-11-05T03:15:00+00:00"
+      "title": "The New York Times May Acquire Film Social Network Letterboxd for $330 Million",
+      "source": "Mezha",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zUHlrb181azZvX2t6S25tcTJpc0ZjUTI4STJVcFJvOEVWNGZ2bE9aQkdQV0g0Wml1M1JEX1ZPaW1qTnN4Um1uVnRnbkVsNGNxd1lWbEZUNnZWdmx6RjBtc1JvZzFGcWRQdWfSAW9BVV95cUxNRUtSeDVPSGdOZVN5Ni1FWGFmZ1NnV2ZDTERPY3VKU1JLTnlCMFl3TTVoMG11ZGJhcVVCVlpfVlFocnFObDVHek9BOEk3OU15VUlSaTJpU2tKSGdpMUtWT3NJODkzU1lkVkdtWGRkdDA?oc=5",
+      "snippet": "Mezha",
+      "published": "2026-11-06T10:16:00+00:00"
     },
     {
       "n": 18,
-      "title": "China blocks SoftBank’s $5.4bn takeover of ABB’s robotics division",
-      "source": "Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONjg5YjFhVEN1YzBOd3pXaUdhdnlVTWtyT29yWDJBUzA3YlF6bnp4dDVncGhoRDNVYXB5WWsyVnpKU0tkd21aNVRUS01EUXlqRW9uVDBZbldLNFA1bTZxMEtjbnpBMW42cFpPTDFseVJXT1RrRG93X1RXTi1BOUpEaU1pRjM?oc=5",
-      "snippet": "Financial Times",
-      "published": "2026-11-05T07:14:05+00:00"
+      "title": "New York Times Company in Advanced Talks to Acquire Letterboxd",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeUtxWWx1dmtiR0tYYlpQX1ppbXhCaktXYkY1Sm5zcVYydEZxdnlyQXdFWE1iLTF3M3dXREc1ZTFWUTVfeUd3Rk9IT1J0cmwwTy1YRnhiM25BdWp4YzFhcldPenljWWphMUVIak9DaURXbkY1VnkzdWd4bktkRVV6NXluTWwyQldTUm9ha3dkVGVIUQ?oc=5",
+      "snippet": "The New York Times",
+      "published": "2026-11-05T22:51:05+00:00"
     },
     {
       "n": 19,
-      "title": "China Blocks SoftBank’s Acquisition of ABB’s Robotics Division",
-      "source": "AI Insider",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYVZSVm1QMVhPUnJoYzBJTDhuSy1GRGg4Y0dGVmZGa0VYZmxKNmtvaHpxZndzdGNLYmNNVlNfdXpKQzI4eERoa21wUURqSU45ZWNIXzkyeWtQdFM0d1hjUkM3QjUtTjVFNXR2SmNiNkJHVjJLbWkyMTBYa1VrTzNVUTZ5T2RRSC1HU3R2cHhwZldOdHhDQjNaaVhiQ0ZCYW8?oc=5",
-      "snippet": "AI Insider",
-      "published": "2026-11-05T09:17:45+00:00"
+      "title": "The New York Times in advanced talks to purchase Letterboxd for $330M - NYT",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPLUZpQ0ZsdktNUW5vWE5INkUwSGNlN09XRVhqMXJ1NV9lUFlLTHlkblE0TXd0UDBDbUJBTjFya0l4eTZncEFvNEllNl82RS05ZHVFTmtfRENCMk9PU1BlTjR0dEw1Y1hnTlp3bUxibEdKZ3JOMVh5Um1zTlFTOGJsd05xOWJtR3JKWjV6MUxwTm9HSWxKSUNIemsxNU9hWm5OZlduak5qT1VfbGxCVU5peEsyaTVoV2VNWUVzcVJ6d3Itd2gzcFo0am5Ndmx0Zkpf?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-06T12:45:34+00:00"
     },
     {
       "n": 20,
-      "title": "ANI Pharmaceuticals to Acquire Egetis Therapeutics, Egetis Sells Priority Review Voucher for $190 Million",
-      "source": "Pharmaceutical Executive",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRFVEa21HeHNZMWI1WGVWUnMwS0Y4UGFqZlMxME1lRldJeUhSZGt1ZmUyd2RnVGl1V01Rcm9LMzRlTElJb2hicVhyeGo3d2Z6dXZqdTY5ZThDcllLU2tYbXc3TXR2eG1ReGZVYmt6V2MzT3NMOGo3ZkZWRGZWS3pTc2NFMWM2QmdPNmdvX0xIOFNLOWR6Tm9SZy1IVXJySnBWQzR0T2VTTQ?oc=5",
-      "snippet": "Pharmaceutical Executive",
-      "published": "2026-11-05T15:07:45+00:00"
+      "title": "The New York Times in advanced talks to purchase Letterboxd for $330M - NYT (TINY:CA:TSX)",
+      "source": "Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWUVZX0pjUjNiQkF6WGkzS2RtNlUyNzhEdEZKUXhGdUR4Z2wyV3JBcmhPM3ZfdGNuQ3Jyc3lFeDJBaEw1UXdnWm4yUGxXSXJiOURIXzlVckR5TzVWbVRNMU5uaFRpNmRkUDd1bDN3Q2lDNjU3X0hvdjJ0ZFdSTE1EU0FxRWV4bU5BV0Z3VG9nUEotanFlTzNkN1BueXNJV1RNMEp1UWNOdjg4Y2VzY3JzeTZB?oc=5",
+      "snippet": "Seeking Alpha",
+      "published": "2026-11-06T12:45:34+00:00"
     },
     {
       "n": 21,
-      "title": "REPEAT - ANI Pharmaceuticals Announces Offer to Acquire Egetis Therapeutics, Expanding the Scope and Scale of Its Rare Disease Business",
-      "source": "The Manila Times",
-      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQT2lCSGYzdmRVSXVSUldIcDR0RVduNGFnM25DQjZRaC1lNjQteFltLXJocEdOVHg0a0N3U1ZOYVVwM0wzYWZGMDRDMWRyd1NlZVNQajcwaE43enBWamdZakFyWXV4VVp4MnlkT25XWjFVcGdaWndEYzJZSl9TOXhTa0xXM1F4Y1U4dFRVd3R1OUR3eHVEYkFhOHg4YVFJNjAtcWtLU1JfTkM2QVBvOVN4QU9VUm1qV3EyMzU4TGtBWUFCakFiWjkyQ3UyYVpyODhpUkJaelA3Q1dGSVZNTEtEX3lPNFAtYWM3d25GeTlJX2ZZcEl4OGhKejZkTGR4Q0llYXVqWjNzcy10S3QxeklaTGZyZHk4MjhqekhyUmpyQXl3LXd1czl3NEdsbHh4YjjSAbQCQVVfeXFMUHBESWVLMm9yU1Zjd0ZOYUU3TDRFQkRDM3p0U1A3cmZSbHpXNWhaYnB3LXZ4S1hNaEJiRGlydXRwMUFyUWpTSUxlSVZoWXpsTkdjTkFTWndqQ2taVF9zMDgyYXZkWmZzRHd3U25reG1JN01WWUNrcFVMVnE2TkZiRERfUzN1ZUJocDd2OTJTaTZKbkJpeENYNVNrdTFzeVpFaDVwT1pjU21VWlViOFRfOVp3eG15cVhtRTJfa1RKenRZYktYZ1F1c2lTT2g2cDBhZVNtdFlCVk9mTE9iZ2NreGNVV0xqOGEwTzR3Yy0wXzZTN2wzMGdDVlR1UmdPR2N0Q0RFWEMySU95MGVfRXFYaDlTaUpzMjRsRFB4MWV1WEd3ajc5U2RoYlBmczhNRUlFVllHdmc?oc=5",
-      "snippet": "The Manila Times",
-      "published": "2026-11-05T12:03:59+00:00"
+      "title": "Exclusive-Silver Lake, PIF have held recent talks to buy gaming software provider Unity, sources say",
+      "source": "KSLM Radio",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaEVjSFBNekRrOGpQTEhGS2UzcnE4MmhjbG93clhBaTJBdm81OHdwdThjM2tDazBma2xqN0c5Nl90Q3MtQlYzOFJleHdCWEFRdWJmMFNFak10VEExZll1SVpUMnhWXzJQVk1FQ3pVSHAzWkVQV3IyOTF3bHRZZlJHdHJXMHZvdXBiMmJTalZIMGdITmxqV1Fid3JyRVlCQWhxb0NVaFl3bFlKNDhFdWpIZzdlRjh3Nnh2cFRqbkNfRTZ2a0pSNWdIdDBxSV8wbGc?oc=5",
+      "snippet": "KSLM Radio",
+      "published": "2026-11-06T02:27:02+00:00"
     },
     {
       "n": 22,
-      "title": "First Capital, Inc. to Expand Southern Indiana and Western Kentucky...",
-      "source": "Quantisnow",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSGY4aHJiTGMxdS1wWmNnQ21yZ0czT1Y1RGhCb1RsQ0NnSURlajFuVXdZalZOMHVEQnVOdkI1bDQzN25LcEJicFlBMzkyWjAzbTd6eEJtZDEyQ0J2bjZTd0laRUtqUl8zOXlHTGI4blhpT3RPTWVHdFcxMm5qVHBraEJIbEdhX3daUkpXS2JLemxGbU1laGs2YjNQbEZXWFJDWHhGWTJrdk54MWhv?oc=5",
-      "snippet": "Quantisnow",
-      "published": "2026-11-05T18:35:53+00:00"
+      "title": "Silver Lake and Saudi PIF hold talks to buy Unity at about $25bn",
+      "source": "Inven Global",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS25WX0F6cW96ZHlEdjBWUDk4NlQyQWNYT3dGOHFuRHVYTHl2R3Z2SWFjZ0JuUEs2V0RRcWtubHVoRUllNEREQnZNNnoza2xHMUljNEUzWWlHQmp3Qkp4UmFYb3BQMlRBZGhGcXFfUzNnWWUtdHd5R0xVZXZXZ2tVUTR1bGloUTNhSTdwMld6RVBiQ3htTmZ5UXhoeHVIdjJfZ1c5TVZYR0UzQQ?oc=5",
+      "snippet": "Inven Global",
+      "published": "2026-11-06T00:57:20+00:00"
     },
     {
       "n": 23,
-      "title": "Agilent Completes Acquisition of Proscia",
-      "source": "Quantisnow",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWDJma180ckdUT1B5VkpuRFRRWDQ2c0tCLUxHd2t1N3dGOVpYblkzY0JwZWpLM2lQdnFDYWh6Y0RFQmkwVUotSWNsc3BYRUNTb0IyQWhxTVhSem1YVWZfWVRyd0k2Wld4NHZYOE1nZy1BU1BXVTVLVXlJQ1FKdkx2eVB4MHZRbzZLVkN3?oc=5",
-      "snippet": "Quantisnow",
-      "published": "2026-11-04T15:19:39+00:00"
+      "title": "Unity Takeover Talks: $25B Silver Lake, PIF [2026]",
+      "source": "shattered.io",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4U2lKdGhzYm1PdE1ESnRJM1o3UE9GVkwzMHB4M2Qyd0tUZEVpS1F5djRqYlhKcjlBb1VFQ2o1VFJfMXZCeE04M095ZlhpRTAtaWxXMWRJM0VKZDdma0Fmckp0QVk5WXlOZHk0WmhWaEd2d09Qbk9Ib3JSQWpoTHc?oc=5",
+      "snippet": "shattered.io",
+      "published": "2026-11-06T10:33:33+00:00"
     },
     {
       "n": 24,
+      "title": "Silver Lake, PIF in talks to acquire Unity Software: Sources",
+      "source": "ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Pdnl3ems4S2lmRThtVi1zU1RlV3pKTWs0N2c2WWFfdHJ5Ukhvdy0ta3RhOUlraEZ1aGh6UVJYZVVPYkU0QjBLVlNXeWdVY25CZVZneS1EMl9od05CMEpDVEVLc0o4S0VFWjlQT0lzdw?oc=5",
+      "snippet": "ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي",
+      "published": "2026-11-06T13:18:31+00:00"
+    },
+    {
+      "n": 25,
+      "title": "Unity Could Go Private in US$25 Billion Deal With Saudi PIF and Silver Lake",
+      "source": "SavePoint Gaming",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QQkJ4TE9udUp4RVJjQlNiUGpoM05DbWxfTU13Y2xWbWdXTklRcUFsMGdDbVRDMlRmLVQxdGdlSUpDVWJMMXRPaFFDa2NudnZDZTREWXY5VERhVDZSYU83a0JmdFhxMVNLZnNtUGNPNVFpZGk0QkE?oc=5",
+      "snippet": "SavePoint Gaming",
+      "published": "2026-11-06T06:36:16+00:00"
+    },
+    {
+      "n": 26,
+      "title": "Unity Engine Creator is in Talks to Be Acquired by Saudi Arabia’s PIF, Silver Lake – Rumor",
+      "source": "GamingBolt",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObTUtZ2pyWUdaSmR1a1U3NzlFLXZHZUxDX1VCZlN1LUV5ZTZWVHdleDFjRkw0STE2VjdTUjF2V1loMk1jRUh0aUZGX1hoVE8xdHIzVF9BRGFrMFB2U0hBS215Vk5vaVh1TlpuNzNPbng5cmV6MW56N2ctWmZUMXdxZHRjSm5UdE55V1pCMUFGQTZUZmw2UDc4YnplUmo3aGM4VGdCLUthR1IzamVaR2c?oc=5",
+      "snippet": "GamingBolt",
+      "published": "2026-11-06T13:55:24+00:00"
+    },
+    {
+      "n": 27,
+      "title": "Adani Ports agrees €2.56 billion Evos acquisition to expand European liquid storage footprint",
+      "source": "Maritime Gateway",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUW9MNVlhRUo5NDY1NTlZWGhwbVhaQVlLV3JqMEdMY3JFdFlEQl9pTWFneDRtT0ZJWDNVVVVjMGJielNDNWxqdm1ySWd3MEdDRnVKajY3OFpfY1gzNjBIaERmem9mckI2YVB0RjQxQ3k1d0tDYk00dlRUNXN6bHd1SWY3ajA0REoySDN2OVpuU01oQXZJcllodGRZTENOS2JCWWtZek10blZfT0VCS1FLd1dnS01UNExmdndWcVBIUkNSRzNL?oc=5",
+      "snippet": "Maritime Gateway",
+      "published": "2026-11-06T00:47:00+00:00"
+    },
+    {
+      "n": 28,
+      "title": "Adani Ports to Acquire European Storage Giant Evos in €2.56 Billion Deal, Expanding Global Footprint",
+      "source": "www.nationpathindia.com",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQkpRZ2REOGIxNlVEWWMyMDV1TzRTUThVS3V1bFNUVVdIQXFuQmZjTFhxQTVKdlp3WnFZSFdQOG95UzVZaXE3cEpjaVEtaTdzTlRORXVITWtlWVNKcUstZU93eC1nTGlJQ1N5MHkza0VOS3dOUGpWX1hEM1FwMXVDaWk3LVFqTE9TTWxJ?oc=5",
+      "snippet": "www.nationpathindia.com",
+      "published": "2026-11-05T17:17:22+00:00"
+    },
+    {
+      "n": 29,
       "title": "Adani Ports to Acquire European Storage Giant Evos in €2.56 Billion Deal, Expanding Global Footprint",
       "source": "www.nationpathindia.com",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaXZIR3VCTUdPSWRURThpNjBvbGs2UGpQZEZvejhPLXA1VDUtTmdMQTNLNE9uamtiSjBpZTRLeElxbFBMU2RvNXdTMWdjZEdQbWh1UENTTkdxYndONWZNZUk3OHY5a19aOEJ2NURMa09oNTBBdTNXX2NuREU0SXdHU1g4akdUODVUY2FKMm8wUS0?oc=5",
@@ -477,92 +556,124 @@
       "published": "2026-11-05T17:17:22+00:00"
     },
     {
-      "n": 25,
-      "title": "PAG agrees to HKD4bn takeover of Evergrande Property Services",
-      "source": "Law.asia",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTVjd5Y2s2b0JVZkxRUzJSb3FHM1lwS291RHNvMm9Mc05GLUVUcTdwZ25QV2lXWGprT096RVU0TTBqNldwc3VFRTNqMzZqNDVNVjBTN1BSQlh0Z0s5MXVlQWNyR2FmOWNra2hRZg?oc=5",
-      "snippet": "Law.asia",
-      "published": "2026-11-05T16:59:35+00:00"
-    },
-    {
-      "n": 26,
-      "title": "PAG in exclusive talks to buy majority stake in Evergrande unit - Bloomberg",
-      "source": "Yahoo Finance UK",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdWlreEJ3Z0l2NjJoaS1TNEFoY1hYT2dXYnhsWE40aTRzTnZQR2pKYm5RZndfU3ZNU2hCazIxQmhxSUF2b3ZnUWl1Ty1NUERXNHdZdDllZlZ4cklLb3pjaGhCNUo4cU5BZ0VEYWFYa3M2aHY1UTFDcHg0d0JTd3BrRV9uRXpxUTdO?oc=5",
-      "snippet": "Yahoo Finance UK",
-      "published": "2026-10-09T07:52:09+00:00"
-    },
-    {
-      "n": 27,
-      "title": "TerraFlow Buys FlowCellutions: 30-Year Claim Real? [2026]",
-      "source": "https://tech-insider.org/",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVEpuYmM3SmxQUGpPVDBqT3Q0LWJPMkhnSHdMa1VvX3M3amZhSDI4Wmc0d1hYSGg1cDJHemdXcEdFMTNSdlRYUE9DZkctRXlQN2IwcXlBQ2RGYnZGcEZPRlpQYm4xd1BFVUdKS3pJV2FhM2VzVG44Uk4wMF9XVWs4Q012UG4wVlBGc3Y3Mkx6UjRpQQ?oc=5",
-      "snippet": "https://tech-insider.org/",
-      "published": "2026-11-05T16:50:58+00:00"
-    },
-    {
-      "n": 28,
-      "title": "QatarEnergy eyes more US LNG deals to shield supply from Mideast conflict - report",
-      "source": "Yahoo Finance Singapore",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVW95RlhYbEszUjBreUliUWZCSlhmNFJRbE43eURERjdDUlM0ZGZmeUt3ZmxPeW5neFZkeTA3bWdudnVKQWlsLU5mM2JuYUtCenltblJ5Smd0TUotS3l6T3hRNFR5SVk2dW5Ea1haeE9lZlhlM0dESFRUaG9YTGNwRS00MA?oc=5",
-      "snippet": "Yahoo Finance Singapore",
-      "published": "2026-11-05T18:13:15+00:00"
-    },
-    {
-      "n": 29,
-      "title": "SpaceX Stock Falls as Banks Test Demand for AI Debt",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM2dsX2hqNW8yX0NZOHRVSXYtYnlydUx1NTJyMy0xdV8zR1RKRnlKX3d2MGI3S3psRnJoVE51a0NNT2FkSy04c3h2LUUwdFV3U3oyMDlNVlhyeHQyR0ZiSEFfblJvU1JnREZvWFF1bnF5R3dpNkhNTExHdDcyX3JKb2paOHhnekRranhZR3VOOG8yTjdHUjFUdG9kd0dtTlJMN19nb0dJaTE1ak51cDAxOQ?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-05T17:59:43+00:00"
-    },
-    {
       "n": 30,
-      "title": "Metairie engineering firm acquired by private equity company",
-      "source": "New Orleans CityBusiness",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObnBEZlZhM1FxV3NuSmMyVVItWlNnMkUwc3FlWEtQMjBYd19mSWU3M2tmQzRnendDTWEwc24zNy13QjJtSTZQamNSUTAzR1ctS0poZkRqOUp1X3dxMmJVOHE3TGtMWENaZ1FYZlVITVUtakVMSE1kbUc3Sk84Unp3cDU1UzNSTWVNMFFlM1p6cmQzd3pGbnBvaA?oc=5",
-      "snippet": "New Orleans CityBusiness",
-      "published": "2026-11-05T17:30:19+00:00"
+      "title": "AkzoNobel, Axalta Secure EU Antitrust Approval for $25B Merger Deal",
+      "source": "Global Banking & Finance Review",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSVlubUVpWjNqRFRQRnZId3pwNVd6UldDb0RBWXd2RWN5Q2toUWhTVGNBZzNHR1JJTDBQbmxMLVlIZUhrVGd4dHU4eWViNEU3Z3diYXFmMS1aTHlrZlpzX3gzcGhaUjlEX3cyMmgzd3ppcWdlNi1ERlNEWFdPNWRqRGY0TzZNbzVvMjFYbWhKbUZ2SkJQaGpFU1JIMXR0bk5i?oc=5",
+      "snippet": "Global Banking & Finance Review",
+      "published": "2026-11-06T16:28:13+00:00"
     },
     {
       "n": 31,
-      "title": "Off-duty: Oak Hill’s Tyler Wolfram on surfing, backyard barbecues and advice from Tony James",
-      "source": "PEI Private Equity",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUk5wUE9sN2wxaVZQUDNSZFQtcUEwSUoyTmd1RFp1Z0dkRWlCcXl1MDBhOFdXZEpzTGw5eHcyb0xMc1RnZmlBRm1CVjAzZGI3anQwZm05QndUeWhBbzJ4NVFid3UwY2NnMjVRMnRZYWJZSkJDLUZfMFZDZEd1dnFfWDNReGNIX2wtSmFVU1RIYmZ3bFJKNXgwUG0wRm5DNzRmMURqVktsaElHa2VuLV9CeGZMb0I4U29YZEZrYUxxLS0yZzlGaDE0T1ZzMG4ydw?oc=5",
-      "snippet": "PEI Private Equity",
-      "published": "2026-11-05T17:14:31+00:00"
+      "title": "AkzoNobel, Axalta Move Closer to $25 Billion Merger as Regulators Seek Two Asset Sales",
+      "source": "PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc2NTdmJpZE93a2l3bTNPLU1feDhaaGY3Y1hZNkx1V3RMSl9reTNZd1lfNEh4dnd4REZ2NEZ3OU1QWGZkXzFYejNMYksxUGFxS3pPcS03dy0yOUR0bXJLNDhsYkNEazJrc3MwOTloMVJvaXlYT2hWRmFRckkwS05IanJ5LXRyT0t1TEVaRm9qa3VDd1FwWHpQa3lxQ0l1OW5US1E1OUtTSnlvTklVY25PbFhVeDJtMnRhV1E?oc=5",
+      "snippet": "PYMNTS.com",
+      "published": "2026-10-21T18:35:40+00:00"
     },
     {
       "n": 32,
-      "title": "Qatar in Talks to Buy More US LNG, Diversify Supply Outside Persian Gulf",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPM1BuTkxCbjcxZkZoY3lEYTQxci1OODRPTWdTME5OclhsTXRlTUNzdFhsTG85Sm1DZzV2bEZhYm1OQ003NEpKVzV0SkVHVUVpdHgwYnQ4ZVZqbjJUZmdMZjVxMW1BQVBFc2ktYkt2Rl9ubW13OERrUUVZX0duVkxwOEtJdlUwOE5xdVZTV3ctSmV4eTlTYlNHeGQ3VTJ2MDFkY3hrQWxjREpnSl9HZ29Hb18yVUdNWTllX3V5WUxxSQ?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-05T16:56:23+00:00"
+      "title": "AkzoNobel, Axalta Propose Remedies for EU Approval of $25B Merger Deal",
+      "source": "Global Banking & Finance Review",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZmJOdWNkNXVLV2VCX0dSX1duV1owcXFpRzY5elFfWEtWTkx5SEtnUUlpckl2cHNmVGRDbXRVVGhhQmRrSVRtOTNXS0RlOWtFT01QS2hiem9zSnE3TmFfY1R5WFVQc2c2SHBNT0VHX2ZoaENpeDZWY0N3ZlZQSWhQSDdzaDJSUjNpM0doQzNoQktUd3BVNXB0QzJjY2VIQ2lI?oc=5",
+      "snippet": "Global Banking & Finance Review",
+      "published": "2026-10-16T14:03:19+00:00"
     },
     {
       "n": 33,
-      "title": "Elon Musk's SpaceX Stock Tumbles 9% as Democratic Sweep Clouds Tesla Merger Hopes and AI Data Center Ambitions",
-      "source": "International Business Times Australia",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS0ZHV3BHdU1nLXZGcC1uQWtfS2loS1luSEVOYllraVMxYnUzY09tQTRpTE9HeHhuSy0yUGk2NVkwcHA0eDNVYTY3eFB1cnpocU45NEpGLXNzNHM4V2d6Y1hPTVE3ZmVvUWxmall5MXBpWnRFeGRzT2pRM1dJN0pGZFJsQ28?oc=5",
-      "snippet": "International Business Times Australia",
-      "published": "2026-11-05T16:45:51+00:00"
+      "title": "CPI | AkzoNobel, Axalta Near EU Approval for $25 Billion Merger",
+      "source": "PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdDVuRzBHUjdDNzIzNWtKQnlPalAwaTI2NDFOVm1nT2pqM0RCVVRucUxlUFJPMXo4MS1yR285VkZob01YTlpkaGFwaldRd1Z1ZjA4MW1UaFpRU1RlTDV5S2JuZ0ttcUVWLWlucWdBNlNPMFhDLWJqbzMxRzNGUXJFNmptb1lBVEdROHdDbjk5Y2hWV2s?oc=5",
+      "snippet": "PYMNTS.com",
+      "published": "2026-10-08T18:46:29+00:00"
     },
     {
       "n": 34,
-      "title": "Desi Farms India gets BSE listing nod for 3,18,24,590 preferential shares",
-      "source": "scanx.trade",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOM1NQemkyOEs0MkZDMHNVdERYUEJfblI5U3RjYnBHeXo4OHIwZVJuVjRZRlg0Q0Jqd2w3dTlZdXRuZWE4T0RHT2ZZTVBoc1VFSldIaVlYcjJOQjJfd1M4WnpRYzZJX0hUdXdReEFSdWhKR192aXhVVFJwRWhkRERreW5XTDBlQW1RdWZ5Sjh0WUx6ZVNLVGw0Y3JBb3FpSGhsR3hNVzZCX2FCU0t2aHFHUFZmUm4za0lmYTQ4c003WVpVOG43?oc=5",
-      "snippet": "scanx.trade",
-      "published": "2026-11-05T16:40:26+00:00"
+      "title": "AkzoNobel and Axalta Unveil Axanzo Name for Planned Merger",
+      "source": "The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOa2NrdkdwY25DNmhCdVg0V3NMWG0wYVhSVmxPZE9xRmJ0TDRUS3JQbHh2SEhrdHB2OFNzSEpYRm5VTks0RFRKWU04NFBTY2hSNGtTaEZmSzJjY25KaVk4WFFUQ2cwNmdTdTJvNGJtdU5nb2t5Y2lKTmJlT05Na25McXhQUWQ2Mnc3LVliZlFQZzdBaXE5Q0RFSC1SRjhBWVJzSXNQZ2xtQzZJbzZIZk5uMXJjUng0clBma2ZDbXVBWmY4YmQ5bks5X3hiVW16NWJ6clhfSFVISXczUHJ1?oc=5",
+      "snippet": "The Globe and Mail",
+      "published": "2026-10-16T21:14:00+00:00"
     },
     {
       "n": 35,
-      "title": "New Mountain’s Grant Thornton Advisors closes $5bn take-private of CBIZ",
-      "source": "PEI Private Equity",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMmFYazExTi1MY3pObmJseENzLTdINHpOVW1mUjlOb0kxV0I4UVNUaW1fazN2V0VnNjk4TVM5WkxkVWIxXzFPZmlvY0ZqVFBRUFRXcHJ5bGxnNFBVTWh4TDZucnNTTkVLZWxXdkpZTEtoWnlLMldXVURCSnR2cEh0NElNSHdveURRS1JfNEZoTlllZ2JaeVpNV1ROWXE0S1hENmFqZnJZS21KOTBnX0hOcVlEUQ?oc=5",
-      "snippet": "PEI Private Equity",
-      "published": "2026-11-05T16:35:36+00:00"
+      "title": "AkzoNobel, Axalta Near US and EU Merger Approvals After Unit Sales",
+      "source": "Global Banking & Finance Review",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOREktaHB1ckJ1Njh0eHdDRlVRVThjNGhaTWhucW5DRzhCWVVXN051aVNfME5tQ2ZmODNTMHJRRDFHMkdTSWw2UW9LWmJqRDUtUFZzb1JPd1U3UE5fYmJaSzJrWUJpbDVYOGlBMWNicjQyQ1pZRk9tNVMyR3lhejJvN014OGJ4bzFiRmI1clJsRkRoMmNxcXI0RElB?oc=5",
+      "snippet": "Global Banking & Finance Review",
+      "published": "2026-10-21T07:37:26+00:00"
+    },
+    {
+      "n": 36,
+      "title": "Analog Devices stock completes Alif deal, broadening edge AI reach",
+      "source": "ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ1hnNTdvR1dfN2J3M09iRzRqNm1XaGQ4Mng1TFpHV0xEb0hsNmdWQTlnY081aGRJLUVjZ0Frenc0TUdzSzR4cS12b0drdkF0NGxhZTBCRkhlVmRqaFdoeVh1LWYtZlRBN1lqWFNNZlMyNXczYzVEazU0ZWZoekdRczc3RlBaa2dqaURVTWdJWmNQMjFaSFcwQjUxS1NJZUs4OVVNeVAwZHl0NDd3UmVDR09uVkdmb2l3VzRUUFRqQ0lWb2Y1b1Vz?oc=5",
+      "snippet": "ad-hoc-news.de",
+      "published": "2026-11-06T15:31:04+00:00"
+    },
+    {
+      "n": 37,
+      "title": "Deal Dispatch: Salesforce Buys Cresta, CrowdStrike Acquires Two AI Companies, Out West Restaurant Group B",
+      "source": "Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMWNpbm1IUXdfSUlCdEgwYmJZOE1PNG0tUkduS1R6UW5ucDFwRV9FZGhTeHUwSWYxUjBLQUhfdm5pZ1hwRE15TmNobnZtQlVBc0NlYUhPTU5PY3ZTOG1fcDRrSk9LNG1uX0VVUjA3UWltZU02WTZ2UDF0dE00Q3BQcm9Hd1p5TFFXR3RvOVY1T0ZGbXIzc1hfTWJXNHhreC1nZFdqbUtFWHRqUXlNXzd2R0ZvYjFETG81RkJxa2JDVzA5UHdTdGFmN3pjTmVIWE40QWtVc0Fua3dXWVhnYk9zTXJ6RFZoeUhnVWNN?oc=5",
+      "snippet": "Benzinga",
+      "published": "2026-11-06T17:36:59+00:00"
+    },
+    {
+      "n": 38,
+      "title": "Apollo’s Brightspeed in Creditor Talks for Billions in New Money",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFROTUdjdFJkSVRNaUhKNXNGYWxZbUhocWZVRTluTFh0blNjQmotejBSMm1SU0JwN0hWXzNIWWI0NVRSTFdMbGl0aFo4U3p0Y1V4aDRPZl9WY21pemNlb3dwUW5Bb2N3Z2dUbzFnS1BEVTU4bUFqUlBxa2pwdHpXRFhUOEE5dFQ3RVpHSDZmT05PaW5aWmtXOHZZNWFxUUV5MGM2THRTSmpmNFUzY3REMXZhN0JEUQ?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-11-06T17:00:46+00:00"
+    },
+    {
+      "n": 39,
+      "title": "Ace Software Exports seeks vote on Rs 10.77 crore swap",
+      "source": "Multibagg AI",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTzZNazNwN21pclVxaUtpWUVLWEt3UmNlV09BN0c4NTFRcjVhVTJDZTl2ai0yNHRJZ000Y25Lem5HQUZIdGd2ZDdmdTN6aWYwdHd3akliTjNLWU95dWllMXdZQTZOY1daN3R2RXM2Rzh1dHA0UVRuVU1VUUhkb3VNeG5IelhhdFI4ekJVR3FYU1hPVWFJa0RhRWRSY3pqZWthdDh4c1dyLThtcVpjbEZBY0ZSbzk2cDdDd3g0VQ?oc=5",
+      "snippet": "Multibagg AI",
+      "published": "2026-11-06T16:28:34+00:00"
+    },
+    {
+      "n": 40,
+      "title": "How a deal is helping a remote monitoring company enter hospitals",
+      "source": "Modern Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZzNmMUFIWlM1WG5qcW85RVgwQUltMW1tNlp5NGJxUU1uX2Q1eFl0M3luLW5uc05IZ0JTOE5WYUFCOHpOLXpfclJhVG5vOFFEbzdNb19tZG1lT2tWSmk5ZDdadS1GbUZxaWh1WkFvOGw3NGpWZkptdEtIWjJiY3BiSW9RbF9ocHRDcGpWRnA5c1RxeklRYzJNbGZR?oc=5",
+      "snippet": "Modern Healthcare",
+      "published": "2026-11-06T16:16:05+00:00"
+    },
+    {
+      "n": 41,
+      "title": "Ukraine anti-trust regulator clears Uber’s takeover bid for food delivery Glovo service",
+      "source": "The Kyiv Independent",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONjdWNUF2RlUyVDZXaUtkMmpHY0oyTHR2Ykg4Q3RsaVVCcEJvLWxxS1JIMklQaDk5QzR1cHNlb05XT3NtS3RPMkdYaGVVUVdwYkhhakdzYTdlVnRqdzZNZGpLazJtdEl1SmNYU2xvUlViakRvdUdYakJ2LXdOMXViLVZzM19IQ2ZkX1g3TVllSEExTXliWWFzTnJnQzRZbzRoZUd3MjljV29Fb3YzTG0xWENKUTl3UQ?oc=5",
+      "snippet": "The Kyiv Independent",
+      "published": "2026-11-06T16:06:25+00:00"
+    },
+    {
+      "n": 42,
+      "title": "EXCLUSIVE: Networking firm Extreme Networks explores sale, sources say",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUV9rWUpwdy1fcUotMk9WVEJyZldWdGVieWFDcGZSUmlwbVJRdUNVZG1veUEyNjZURzAtQURpQ2VyME5BbFhkUXFkaWFSZHhIdGFXbnljQm1MZng2Nmg0cmY2emVyVGhDeWtBUjdLcTl5em1jVmp4SGJnQlY3WTVoLU9pWkZRaTJPUVFVMlU0VWZvLTZ2TXhWUkYtSWFDYVdUQVhWVEV4c3lTeG5Td0p4dVc4SnM?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-11-06T15:42:24+00:00"
+    },
+    {
+      "n": 43,
+      "title": "RIA moves: Tech-focused RIA BKFi expands with first acquisition",
+      "source": "InvestmentNews",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTDJ1V3NtaXBFVmk0TzFtTUI1dVNxOGI2Qzc1WjVvdFh6M2N0QnhrLXJ0bUstT19tbU5IeTh6bzkwZ2p0Vl94SmlJT09ldTc0NDFoUlAxR3p0cDhwMmNVMG9id1E0ODRUeVczeHAwTVJBNFdRME85T2NaU0hUNlJRa2RBempuNDZEaThydnJ5eW9WQ3RVRnllS0UyU1dwaWdMc2V4dWpVcjR4TUprVjdxQzhnODNqLTlHTVlnN2xYbGVmd3lfdHJRWENwdkI?oc=5",
+      "snippet": "InvestmentNews",
+      "published": "2026-11-06T15:13:03+00:00"
+    },
+    {
+      "n": 44,
+      "title": "The go-private fallacy",
+      "source": "Restaurant Business",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zRjBWTF8zNVF4M3l6ZktDNW1kSEQ0ZGwxRXJ1SjVreTRXRzFpR1hiQU50cnRpY0wzTnRKSFdBUWhtelNOeDZSdGRvazNrSk5HZ3pDQ2ZUY093SDF2R3AwbEd2OEJUUGtNMUVjSkZHNmo4bGNqLTN1Zw?oc=5",
+      "snippet": "Restaurant Business",
+      "published": "2026-11-06T15:06:07+00:00"
     }
   ],
   "cited": [
@@ -570,146 +681,148 @@
     2,
     3,
     4,
+    5,
     6,
     7,
     8,
-    9,
-    10,
-    11,
-    12,
     13,
+    14,
     15,
     16,
     17,
-    20,
+    18,
+    19,
     21,
     22,
-    23,
     24,
     25,
     26,
     27,
     28,
     29,
-    30
+    30,
+    31,
+    32,
+    35,
+    36,
+    37,
+    38,
+    42
   ],
-  "invalid_citations": [
-    1,
-    2
-  ],
-  "example_prompt": "Deal: Array Technologies and Shoals Technologies Group.\nStage: Announced.\n\nHeadlines:\n[1] The Globe and Mail, Nov 05 09:58 AM ET: Shoals Technologies Group Announces Merger With Array Technologies\n    The Globe and Mail\n[2] Kalkine Media, Nov 05 12:03 AM ET: ARRAY Technologies Announces Stock-for-Stock Merger with Shoals Technologies in Supplier Communication\n    Kalkine Media\n[3] Kalkine Media, Nov 05 12:03 AM ET: ARRAY Technologies and Shoals Technologies Group Announce Q1 2027 Merger Agreement\n    Kalkine Media\n[4] The Business Journals, Nov 04 05:30 PM ET: Array Technologies merges with Shoals Technologies in all-stock deal\n    The Business Journals\n[5] marketscreener.com, Nov 04 12:24 PM ET: Shoals Technologies Group, Inc. entered into a definitive agreement to acquire Array Technologies, Inc. in a reverse merger transaction for $1.3 billion.\n    marketscreener.com\n[6] TipRanks, Nov 04 11:04 AM ET: Shoals Technologies Group Announces Merger With Array Technologies\n    TipRanks\n[7] TipRanks, Nov 04 11:08 AM ET: Array Technologies Announces Merger Agreement with Shoals\n    TipRanks\n\nWrite the subheading and sentences.",
+  "invalid_citations": [],
+  "example_prompt": "Deal: Fox and Roku.\nStage: Completed.\n\nHeadlines:\n[1] New York Post, Nov 06 11:20 AM ET: Fox completes $22B acquisition of streaming giant Roku\n    New York Post\n[2] TV News Check, Nov 06 10:49 AM ET: Fox Completes Roku Acquisition\n    TV News Check\n[3] The Hollywood Reporter, Nov 06 10:07 AM ET: Fox Closes Roku Deal, Creating New Streaming Power Player\n    The Hollywood Reporter\n[4] Deadline, Nov 06 09:42 AM ET: Fox Corp. Closes $22 Billion Acquisition Of Roku\n    Deadline\n[5] Stock Titan, Nov 06 09:40 AM ET: Fox Now Owns Roku After Completing Its Purchase\n    Stock Titan\n[6] TheWrap, Nov 06 09:30 AM ET: Fox Completes $22 Billion Roku Acquisition\n    TheWrap\n[7] TradingView, Nov 06 09:23 AM ET: Fox Corporation (FOX) Completes Roku Deal; Expects $400M Cost Synergies\n    TradingView\n[8] Variety, Nov 06 09:21 AM ET: Fox Closes $22 Billion Roku Takeover, Says Streaming Platform Will Remain ‘Open Ecosystem’\n    Variety\n\nWrite the subheading and sentences.",
   "retrieval": [
     {
-      "deal": "Array Technologies / Shoals Technologies Group",
-      "query": "Array Technologies Shoals Technologies Group acquisition merger deal",
+      "deal": "Fox / Roku",
+      "query": "Fox Roku acquisition merger deal",
       "hits": [
         {
-          "n": 5,
-          "similarity": 0.897
+          "n": 6,
+          "similarity": 0.824
+        },
+        {
+          "n": 9,
+          "similarity": 0.817
+        },
+        {
+          "n": 4,
+          "similarity": 0.811
         },
         {
           "n": 1,
-          "similarity": 0.885
+          "similarity": 0.808
         },
-        {
-          "n": 6,
-          "similarity": 0.873
-        },
-        {
-          "n": 7,
-          "similarity": 0.873
-        },
-        {
-          "n": 3,
-          "similarity": 0.866
-        },
-        {
-          "n": 2,
-          "similarity": 0.839
-        }
-      ]
-    },
-    {
-      "deal": "Trian / Wendy's",
-      "query": "Trian Wendy's acquisition merger deal",
-      "hits": [
         {
           "n": 10,
           "similarity": 0.802
         },
         {
-          "n": 8,
-          "similarity": 0.783
-        },
-        {
           "n": 11,
-          "similarity": 0.765
-        },
+          "similarity": 0.798
+        }
+      ]
+    },
+    {
+      "deal": "Shield AI / Echodyne",
+      "query": "Shield AI Echodyne acquisition merger deal",
+      "hits": [
         {
-          "n": 12,
-          "similarity": 0.765
+          "n": 14,
+          "similarity": 0.817
         },
         {
           "n": 13,
-          "similarity": 0.764
+          "similarity": 0.806
         },
         {
-          "n": 14,
-          "similarity": 0.753
+          "n": 12,
+          "similarity": 0.76
         }
       ]
     },
     {
-      "deal": "SoftBank / ABB robotics business",
-      "query": "SoftBank ABB robotics business acquisition merger deal",
+      "deal": "Alfa Laval / NAVTOR",
+      "query": "Alfa Laval NAVTOR acquisition merger deal",
       "hits": [
         {
           "n": 15,
-          "similarity": 0.822
-        },
-        {
-          "n": 18,
-          "similarity": 0.782
-        },
-        {
-          "n": 17,
-          "similarity": 0.779
-        },
-        {
-          "n": 19,
-          "similarity": 0.77
+          "similarity": 0.859
         },
         {
           "n": 16,
-          "similarity": 0.742
+          "similarity": 0.79
         }
       ]
     },
     {
-      "deal": "ANI Pharmaceuticals / Egetis Therapeutics",
-      "query": "ANI Pharmaceuticals Egetis Therapeutics acquisition merger deal",
+      "deal": "The New York Times / Letterboxd",
+      "query": "The New York Times Letterboxd acquisition merger deal",
       "hits": [
         {
+          "n": 18,
+          "similarity": 0.823
+        },
+        {
+          "n": 19,
+          "similarity": 0.806
+        },
+        {
+          "n": 17,
+          "similarity": 0.799
+        },
+        {
           "n": 20,
-          "similarity": 0.802
+          "similarity": 0.777
+        }
+      ]
+    },
+    {
+      "deal": "Silver Lake and PIF / Unity",
+      "query": "Silver Lake and PIF Unity acquisition merger deal",
+      "hits": [
+        {
+          "n": 22,
+          "similarity": 0.819
+        },
+        {
+          "n": 23,
+          "similarity": 0.814
         },
         {
           "n": 21,
-          "similarity": 0.8
-        }
-      ]
-    },
-    {
-      "deal": "First Capital, Inc. / Quantisnow",
-      "query": "First Capital, Inc. Quantisnow acquisition merger deal",
-      "hits": [
-        {
-          "n": 23,
-          "similarity": 0.72
+          "similarity": 0.793
         },
         {
-          "n": 22,
-          "similarity": 0.654
+          "n": 24,
+          "similarity": 0.788
+        },
+        {
+          "n": 25,
+          "similarity": 0.746
+        },
+        {
+          "n": 26,
+          "similarity": 0.714
         }
       ]
     },
@@ -718,40 +831,64 @@
       "query": "Adani Ports Evos acquisition merger deal",
       "hits": [
         {
-          "n": 24,
+          "n": 29,
           "similarity": 0.829
-        }
-      ]
-    },
-    {
-      "deal": "PAG / Evergrande Property Services",
-      "query": "PAG Evergrande Property Services acquisition merger deal",
-      "hits": [
-        {
-          "n": 25,
-          "similarity": 0.828
         },
         {
-          "n": 26,
-          "similarity": 0.761
+          "n": 28,
+          "similarity": 0.829
+        },
+        {
+          "n": 27,
+          "similarity": 0.822
         }
       ]
     },
     {
-      "deal": "TerraFlow / FlowCellutions",
-      "query": "TerraFlow FlowCellutions acquisition merger deal",
+      "deal": "AkzoNobel / Axalta",
+      "query": "AkzoNobel Axalta acquisition merger deal",
       "hits": [
         {
-          "n": 27,
-          "similarity": 0.682
+          "n": 30,
+          "similarity": 0.864
+        },
+        {
+          "n": 31,
+          "similarity": 0.859
+        },
+        {
+          "n": 32,
+          "similarity": 0.845
+        },
+        {
+          "n": 33,
+          "similarity": 0.824
+        },
+        {
+          "n": 34,
+          "similarity": 0.813
+        },
+        {
+          "n": 35,
+          "similarity": 0.808
+        }
+      ]
+    },
+    {
+      "deal": "Alif / Analog Devices",
+      "query": "Alif Analog Devices acquisition merger deal",
+      "hits": [
+        {
+          "n": 36,
+          "similarity": 0.746
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 195,
-    "headlines_new": 126,
-    "index_size": 2499,
+    "headlines_fetched": 186,
+    "headlines_new": 104,
+    "index_size": 2476,
     "deals_found": 36,
     "deals_shown": 8,
     "extraction_calls": 10,
