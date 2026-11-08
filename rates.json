@@ -1,0 +1,640 @@
+{
+ "updated": "2026-11-08T23:09:19+00:00",
+ "latest": {
+  "sofr": {
+   "date": "2026-11-05",
+   "value": 3.92
+  },
+  "ten_year": {
+   "date": "2026-11-05",
+   "value": 4.84
+  }
+ },
+ "series": [
+  {
+   "month": "2018-04",
+   "sofr": 1.74,
+   "ten_year": 2.87,
+   "inflation": 2.47
+  },
+  {
+   "month": "2018-05",
+   "sofr": 1.73,
+   "ten_year": 2.98,
+   "inflation": 2.78
+  },
+  {
+   "month": "2018-06",
+   "sofr": 1.84,
+   "ten_year": 2.91,
+   "inflation": 2.81
+  },
+  {
+   "month": "2018-07",
+   "sofr": 1.91,
+   "ten_year": 2.89,
+   "inflation": 2.85
+  },
+  {
+   "month": "2018-08",
+   "sofr": 1.92,
+   "ten_year": 2.89,
+   "inflation": 2.64
+  },
+  {
+   "month": "2018-09",
+   "sofr": 1.97,
+   "ten_year": 3.0,
+   "inflation": 2.33
+  },
+  {
+   "month": "2018-10",
+   "sofr": 2.18,
+   "ten_year": 3.15,
+   "inflation": 2.49
+  },
+  {
+   "month": "2018-11",
+   "sofr": 2.22,
+   "ten_year": 3.12,
+   "inflation": 2.15
+  },
+  {
+   "month": "2018-12",
+   "sofr": 2.35,
+   "ten_year": 2.83,
+   "inflation": 2.0
+  },
+  {
+   "month": "2019-01",
+   "sofr": 2.47,
+   "ten_year": 2.71,
+   "inflation": 1.49
+  },
+  {
+   "month": "2019-02",
+   "sofr": 2.4,
+   "ten_year": 2.68,
+   "inflation": 1.52
+  },
+  {
+   "month": "2019-03",
+   "sofr": 2.42,
+   "ten_year": 2.57,
+   "inflation": 1.88
+  },
+  {
+   "month": "2019-04",
+   "sofr": 2.48,
+   "ten_year": 2.53,
+   "inflation": 2.0
+  },
+  {
+   "month": "2019-05",
+   "sofr": 2.42,
+   "ten_year": 2.4,
+   "inflation": 1.8
+  },
+  {
+   "month": "2019-06",
+   "sofr": 2.39,
+   "ten_year": 2.07,
+   "inflation": 1.67
+  },
+  {
+   "month": "2019-07",
+   "sofr": 2.45,
+   "ten_year": 2.06,
+   "inflation": 1.83
+  },
+  {
+   "month": "2019-08",
+   "sofr": 2.13,
+   "ten_year": 1.63,
+   "inflation": 1.74
+  },
+  {
+   "month": "2019-09",
+   "sofr": 2.27,
+   "ten_year": 1.7,
+   "inflation": 1.68
+  },
+  {
+   "month": "2019-10",
+   "sofr": 1.86,
+   "ten_year": 1.71,
+   "inflation": 1.73
+  },
+  {
+   "month": "2019-11",
+   "sofr": 1.57,
+   "ten_year": 1.81,
+   "inflation": 2.09
+  },
+  {
+   "month": "2019-12",
+   "sofr": 1.55,
+   "ten_year": 1.86,
+   "inflation": 2.32
+  },
+  {
+   "month": "2020-01",
+   "sofr": 1.55,
+   "ten_year": 1.76,
+   "inflation": 2.6
+  },
+  {
+   "month": "2020-02",
+   "sofr": 1.59,
+   "ten_year": 1.5,
+   "inflation": 2.34
+  },
+  {
+   "month": "2020-03",
+   "sofr": 0.61,
+   "ten_year": 0.87,
+   "inflation": 1.49
+  },
+  {
+   "month": "2020-04",
+   "sofr": 0.02,
+   "ten_year": 0.66,
+   "inflation": 0.31
+  },
+  {
+   "month": "2020-05",
+   "sofr": 0.05,
+   "ten_year": 0.67,
+   "inflation": 0.2
+  },
+  {
+   "month": "2020-06",
+   "sofr": 0.08,
+   "ten_year": 0.73,
+   "inflation": 0.72
+  },
+  {
+   "month": "2020-07",
+   "sofr": 0.11,
+   "ten_year": 0.62,
+   "inflation": 1.0
+  },
+  {
+   "month": "2020-08",
+   "sofr": 0.09,
+   "ten_year": 0.65,
+   "inflation": 1.28
+  },
+  {
+   "month": "2020-09",
+   "sofr": 0.09,
+   "ten_year": 0.68,
+   "inflation": 1.39
+  },
+  {
+   "month": "2020-10",
+   "sofr": 0.09,
+   "ten_year": 0.79,
+   "inflation": 1.23
+  },
+  {
+   "month": "2020-11",
+   "sofr": 0.09,
+   "ten_year": 0.87,
+   "inflation": 1.18
+  },
+  {
+   "month": "2020-12",
+   "sofr": 0.08,
+   "ten_year": 0.93,
+   "inflation": 1.32
+  },
+  {
+   "month": "2021-01",
+   "sofr": 0.07,
+   "ten_year": 1.08,
+   "inflation": 1.37
+  },
+  {
+   "month": "2021-02",
+   "sofr": 0.04,
+   "ten_year": 1.26,
+   "inflation": 1.67
+  },
+  {
+   "month": "2021-03",
+   "sofr": 0.02,
+   "ten_year": 1.61,
+   "inflation": 2.67
+  },
+  {
+   "month": "2021-04",
+   "sofr": 0.01,
+   "ten_year": 1.64,
+   "inflation": 4.13
+  },
+  {
+   "month": "2021-05",
+   "sofr": 0.01,
+   "ten_year": 1.62,
+   "inflation": 4.92
+  },
+  {
+   "month": "2021-06",
+   "sofr": 0.03,
+   "ten_year": 1.52,
+   "inflation": 5.3
+  },
+  {
+   "month": "2021-07",
+   "sofr": 0.05,
+   "ten_year": 1.32,
+   "inflation": 5.25
+  },
+  {
+   "month": "2021-08",
+   "sofr": 0.05,
+   "ten_year": 1.28,
+   "inflation": 5.15
+  },
+  {
+   "month": "2021-09",
+   "sofr": 0.05,
+   "ten_year": 1.37,
+   "inflation": 5.35
+  },
+  {
+   "month": "2021-10",
+   "sofr": 0.05,
+   "ten_year": 1.58,
+   "inflation": 6.24
+  },
+  {
+   "month": "2021-11",
+   "sofr": 0.05,
+   "ten_year": 1.56,
+   "inflation": 6.9
+  },
+  {
+   "month": "2021-12",
+   "sofr": 0.05,
+   "ten_year": 1.46,
+   "inflation": 7.17
+  },
+  {
+   "month": "2022-01",
+   "sofr": 0.05,
+   "ten_year": 1.76,
+   "inflation": 7.56
+  },
+  {
+   "month": "2022-02",
+   "sofr": 0.05,
+   "ten_year": 1.93,
+   "inflation": 7.94
+  },
+  {
+   "month": "2022-03",
+   "sofr": 0.16,
+   "ten_year": 2.13,
+   "inflation": 8.57
+  },
+  {
+   "month": "2022-04",
+   "sofr": 0.29,
+   "ten_year": 2.75,
+   "inflation": 8.23
+  },
+  {
+   "month": "2022-05",
+   "sofr": 0.72,
+   "ten_year": 2.9,
+   "inflation": 8.54
+  },
+  {
+   "month": "2022-06",
+   "sofr": 1.1,
+   "ten_year": 3.14,
+   "inflation": 8.98
+  },
+  {
+   "month": "2022-07",
+   "sofr": 1.61,
+   "ten_year": 2.9,
+   "inflation": 8.46
+  },
+  {
+   "month": "2022-08",
+   "sofr": 2.28,
+   "ten_year": 2.9,
+   "inflation": 8.22
+  },
+  {
+   "month": "2022-09",
+   "sofr": 2.51,
+   "ten_year": 3.52,
+   "inflation": 8.19
+  },
+  {
+   "month": "2022-10",
+   "sofr": 3.04,
+   "ten_year": 3.98,
+   "inflation": 7.76
+  },
+  {
+   "month": "2022-11",
+   "sofr": 3.72,
+   "ten_year": 3.89,
+   "inflation": 7.12
+  },
+  {
+   "month": "2022-12",
+   "sofr": 4.07,
+   "ten_year": 3.62,
+   "inflation": 6.4
+  },
+  {
+   "month": "2023-01",
+   "sofr": 4.3,
+   "ten_year": 3.53,
+   "inflation": 6.33
+  },
+  {
+   "month": "2023-02",
+   "sofr": 4.54,
+   "ten_year": 3.75,
+   "inflation": 5.96
+  },
+  {
+   "month": "2023-03",
+   "sofr": 4.64,
+   "ten_year": 3.66,
+   "inflation": 4.92
+  },
+  {
+   "month": "2023-04",
+   "sofr": 4.81,
+   "ten_year": 3.46,
+   "inflation": 4.95
+  },
+  {
+   "month": "2023-05",
+   "sofr": 5.02,
+   "ten_year": 3.57,
+   "inflation": 4.13
+  },
+  {
+   "month": "2023-06",
+   "sofr": 5.06,
+   "ten_year": 3.75,
+   "inflation": 3.07
+  },
+  {
+   "month": "2023-07",
+   "sofr": 5.09,
+   "ten_year": 3.9,
+   "inflation": 3.29
+  },
+  {
+   "month": "2023-08",
+   "sofr": 5.3,
+   "ten_year": 4.17,
+   "inflation": 3.72
+  },
+  {
+   "month": "2023-09",
+   "sofr": 5.31,
+   "ten_year": 4.38,
+   "inflation": 3.69
+  },
+  {
+   "month": "2023-10",
+   "sofr": 5.31,
+   "ten_year": 4.8,
+   "inflation": 3.25
+  },
+  {
+   "month": "2023-11",
+   "sofr": 5.32,
+   "ten_year": 4.5,
+   "inflation": 3.13
+  },
+  {
+   "month": "2023-12",
+   "sofr": 5.34,
+   "ten_year": 4.02,
+   "inflation": 3.32
+  },
+  {
+   "month": "2024-01",
+   "sofr": 5.32,
+   "ten_year": 4.06,
+   "inflation": 3.09
+  },
+  {
+   "month": "2024-02",
+   "sofr": 5.31,
+   "ten_year": 4.21,
+   "inflation": 3.16
+  },
+  {
+   "month": "2024-03",
+   "sofr": 5.31,
+   "ten_year": 4.21,
+   "inflation": 3.49
+  },
+  {
+   "month": "2024-04",
+   "sofr": 5.32,
+   "ten_year": 4.54,
+   "inflation": 3.36
+  },
+  {
+   "month": "2024-05",
+   "sofr": 5.31,
+   "ten_year": 4.48,
+   "inflation": 3.24
+  },
+  {
+   "month": "2024-06",
+   "sofr": 5.33,
+   "ten_year": 4.31,
+   "inflation": 2.97
+  },
+  {
+   "month": "2024-07",
+   "sofr": 5.34,
+   "ten_year": 4.25,
+   "inflation": 2.94
+  },
+  {
+   "month": "2024-08",
+   "sofr": 5.33,
+   "ten_year": 3.87,
+   "inflation": 2.61
+  },
+  {
+   "month": "2024-09",
+   "sofr": 5.15,
+   "ten_year": 3.72,
+   "inflation": 2.43
+  },
+  {
+   "month": "2024-10",
+   "sofr": 4.85,
+   "ten_year": 4.1,
+   "inflation": 2.58
+  },
+  {
+   "month": "2024-11",
+   "sofr": 4.64,
+   "ten_year": 4.36,
+   "inflation": 2.72
+  },
+  {
+   "month": "2024-12",
+   "sofr": 4.53,
+   "ten_year": 4.39,
+   "inflation": 2.87
+  },
+  {
+   "month": "2025-01",
+   "sofr": 4.32,
+   "ten_year": 4.63,
+   "inflation": 2.99
+  },
+  {
+   "month": "2025-02",
+   "sofr": 4.34,
+   "ten_year": 4.45,
+   "inflation": 2.8
+  },
+  {
+   "month": "2025-03",
+   "sofr": 4.33,
+   "ten_year": 4.28,
+   "inflation": 2.38
+  },
+  {
+   "month": "2025-04",
+   "sofr": 4.35,
+   "ten_year": 4.28,
+   "inflation": 2.33
+  },
+  {
+   "month": "2025-05",
+   "sofr": 4.31,
+   "ten_year": 4.42,
+   "inflation": 2.38
+  },
+  {
+   "month": "2025-06",
+   "sofr": 4.32,
+   "ten_year": 4.38,
+   "inflation": 2.68
+  },
+  {
+   "month": "2025-07",
+   "sofr": 4.34,
+   "ten_year": 4.39,
+   "inflation": 2.74
+  },
+  {
+   "month": "2025-08",
+   "sofr": 4.34,
+   "ten_year": 4.26,
+   "inflation": 2.94
+  },
+  {
+   "month": "2025-09",
+   "sofr": 4.3,
+   "ten_year": 4.12,
+   "inflation": 3.02
+  },
+  {
+   "month": "2025-10",
+   "sofr": 4.2,
+   "ten_year": 4.06,
+   "inflation": null
+  },
+  {
+   "month": "2025-11",
+   "sofr": 3.98,
+   "ten_year": 4.09,
+   "inflation": 2.7
+  },
+  {
+   "month": "2025-12",
+   "sofr": 3.8,
+   "ten_year": 4.14,
+   "inflation": 2.65
+  },
+  {
+   "month": "2026-01",
+   "sofr": 3.66,
+   "ten_year": 4.21,
+   "inflation": 2.39
+  },
+  {
+   "month": "2026-02",
+   "sofr": 3.67,
+   "ten_year": 4.13,
+   "inflation": 2.43
+  },
+  {
+   "month": "2026-03",
+   "sofr": 3.65,
+   "ten_year": 4.25,
+   "inflation": 3.29
+  },
+  {
+   "month": "2026-04",
+   "sofr": 3.64,
+   "ten_year": 4.32,
+   "inflation": 3.78
+  },
+  {
+   "month": "2026-05",
+   "sofr": 3.59,
+   "ten_year": 4.48,
+   "inflation": 4.17
+  },
+  {
+   "month": "2026-06",
+   "sofr": 3.63,
+   "ten_year": 4.47,
+   "inflation": 3.46
+  },
+  {
+   "month": "2026-07",
+   "sofr": 3.62,
+   "ten_year": 4.6,
+   "inflation": 3.3
+  },
+  {
+   "month": "2026-08",
+   "sofr": 3.64,
+   "ten_year": 4.68,
+   "inflation": 3.35
+  },
+  {
+   "month": "2026-09",
+   "sofr": 3.75,
+   "ten_year": 4.99,
+   "inflation": 3.72
+  },
+  {
+   "month": "2026-10",
+   "sofr": 3.9,
+   "ten_year": 5.13,
+   "inflation": null
+  },
+  {
+   "month": "2026-11",
+   "sofr": 3.95,
+   "ten_year": 4.9,
+   "inflation": null
+  }
+ ],
+ "source": "FRED, Federal Reserve Bank of St. Louis: SOFR, DGS10, CPIAUCSL"
+}
