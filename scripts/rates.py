@@ -6,6 +6,9 @@ Data is from FRED (Federal Reserve Bank of St. Louis), downloaded as CSV with no
   CPIAUCSL  Consumer price index for all urban consumers, monthly index, seasonally adjusted
 Daily series are averaged by month. Inflation is the change in CPI over the previous 12 months.
 
+Canada (same layout) comes from the Bank of Canada Valet API: CORRA (AVG.INTWO), the Government of Canada 10-year benchmark yield
+(BD.CDN.10YR.DQ.YLD) and total CPI year-over-year (STATIC_TOTALCPICHANGE).
+
     python scripts/rates.py
 """
 import csv
@@ -33,6 +36,20 @@ def monthly_avg(rows):
     return {m: sum(v) / len(v) for m, v in by.items()}
 
 
+def valet(series):
+    with urllib.request.urlopen(f"https://www.bankofcanada.ca/valet/observations/{series}/json?start_date=2017-01-01", timeout=60) as r:
+        obs = json.load(r)["observations"]
+    return [(o["d"], float(o[series]["v"])) for o in obs if o.get(series, {}).get("v") not in (None, "")]
+
+
+def canada():
+    corra, y10, cpi = monthly_avg(valet("AVG.INTWO")), monthly_avg(valet("BD.CDN.10YR.DQ.YLD")), {d[:7]: v for d, v in valet("STATIC_TOTALCPICHANGE")}
+    series = [{"month": m, "corra": round(corra[m], 2), "ten_year": round(y10[m], 2), "inflation": cpi.get(m)} for m in sorted(corra) if m in y10]
+    lc, ly = valet("AVG.INTWO")[-1], valet("BD.CDN.10YR.DQ.YLD")[-1]
+    return {"series": series, "latest": {"corra": {"date": lc[0], "value": lc[1]}, "ten_year": {"date": ly[0], "value": ly[1]}},
+            "source": "Bank of Canada Valet API: CORRA (AVG.INTWO), 10-year benchmark yield (BD.CDN.10YR.DQ.YLD), total CPI y/y (STATIC_TOTALCPICHANGE)"}
+
+
 def main():
     sofr, dgs10, cpi = monthly_avg(fred("SOFR")), monthly_avg(fred("DGS10")), {d[:7]: v for d, v in fred("CPIAUCSL")}
     months = sorted(m for m in sofr if m in dgs10)
@@ -47,6 +64,7 @@ def main():
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "latest": {"sofr": {"date": last[0][0], "value": last[0][1]}, "ten_year": {"date": last[1][0], "value": last[1][1]}},
         "series": out,
+        "canada": canada(),
         "source": "FRED, Federal Reserve Bank of St. Louis: SOFR, DGS10, CPIAUCSL",
     }, indent=1))
     print(len(out), "months;", out[-1])
