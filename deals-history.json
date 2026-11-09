@@ -168,6 +168,13 @@
    "found": 36,
    "new": 5,
    "cumulative": 129
+  },
+  {
+   "date": "2026-11-09",
+   "shown": 8,
+   "found": 37,
+   "new": 7,
+   "cumulative": 135
   }
  ],
  "deals": {
@@ -349,8 +356,8 @@
    "acquirer": "Williams",
    "target": "Momentum Midstream",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-27",
-   "stage": "Announced",
+   "last_seen": "2026-11-09",
+   "stage": "Rumored",
    "value": "$5.5 Billion",
    "usd": 5500000000.0
   },
@@ -1343,11 +1350,70 @@
    "first_seen": "2026-11-06",
    "last_seen": "2026-11-06",
    "stage": "Completed"
+  },
+  "rosti group|alvi group": {
+   "acquirer": "Rosti Group",
+   "target": "Alvi Group",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "stage": "Announced",
+   "value": "\u20ac450 Million",
+   "usd": null
+  },
+  "mitsui chemicals|jsr": {
+   "acquirer": "Mitsui Chemicals",
+   "target": "JSR",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "stage": "Announced",
+   "value": "$11.6 Billion",
+   "usd": 11600000000.0
+  },
+  "argenx|unnatural products": {
+   "acquirer": "Argenx",
+   "target": "Unnatural Products",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "stage": "Announced",
+   "value": "$1.15B",
+   "usd": 1150000000.0
+  },
+  "strathcona|greenfire": {
+   "acquirer": "Strathcona",
+   "target": "Greenfire",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "stage": "Announced",
+   "value": "$2.1",
+   "usd": null
+  },
+  "kobelco|cnh s case new holland construction equipment business": {
+   "acquirer": "KOBELCO",
+   "target": "CNH's Case, New Holland Construction Equipment Business",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "stage": "Announced"
+  },
+  "shield|echodyne": {
+   "acquirer": "Shield",
+   "target": "Echodyne",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "stage": "Announced",
+   "value": "$5.3bn",
+   "usd": 5300000000.0
+  },
+  "xylem|cornell pump and roper pump": {
+   "acquirer": "Xylem",
+   "target": "Cornell Pump and Roper Pump",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "stage": "Completed"
   }
  },
  "totals": {
-  "deals": 129,
-  "with_usd_value": 67,
-  "usd": 598940300000.0
+  "deals": 135,
+  "with_usd_value": 69,
+  "usd": 611690300000.0
  }
 }
