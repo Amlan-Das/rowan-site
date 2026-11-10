@@ -175,6 +175,13 @@
    "found": 37,
    "new": 7,
    "cumulative": 135
+  },
+  {
+   "date": "2026-11-10",
+   "shown": 8,
+   "found": 31,
+   "new": 7,
+   "cumulative": 140
   }
  ],
  "deals": {
@@ -356,8 +363,8 @@
    "acquirer": "Williams",
    "target": "Momentum Midstream",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-09",
-   "stage": "Rumored",
+   "last_seen": "2026-11-10",
+   "stage": "Announced",
    "value": "$5.5 Billion",
    "usd": 5500000000.0
   },
@@ -1409,11 +1416,68 @@
    "first_seen": "2026-11-09",
    "last_seen": "2026-11-09",
    "stage": "Completed"
+  },
+  "enghouse systems|mind cti": {
+   "acquirer": "Enghouse Systems",
+   "target": "MIND CTI",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "stage": "Announced",
+   "value": "$25.4 Million",
+   "usd": 25400000.0
+  },
+  "naver financial|dunamu": {
+   "acquirer": "Naver Financial",
+   "target": "Dunamu",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "stage": "Pending approval"
+  },
+  "rubico|another two newbuilding mr tankers": {
+   "acquirer": "Rubico",
+   "target": "another Two Newbuilding MR Tankers",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "stage": "Announced",
+   "value": "$523 Million",
+   "usd": 523000000.0
+  },
+  "enghouse systems|mind c t i": {
+   "acquirer": "Enghouse Systems",
+   "target": "MIND C.T.I.",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "stage": "Announced",
+   "value": "$25.4 Million",
+   "usd": 25400000.0
+  },
+  "icp|r m lucas roofing brand": {
+   "acquirer": "ICP",
+   "target": "R.M. Lucas Roofing Brand",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "stage": "Announced"
+  },
+  "argenx|unp": {
+   "acquirer": "Argenx",
+   "target": "UNP",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "stage": "Announced",
+   "value": "$1.15B",
+   "usd": 1150000000.0
+  },
+  "cribl|tero": {
+   "acquirer": "Cribl",
+   "target": "Tero",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "stage": "Announced"
   }
  },
  "totals": {
-  "deals": 135,
-  "with_usd_value": 69,
-  "usd": 611690300000.0
+  "deals": 140,
+  "with_usd_value": 71,
+  "usd": 612238700000.0
  }
 }
