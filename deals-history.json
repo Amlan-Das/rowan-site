@@ -182,6 +182,13 @@
    "found": 31,
    "new": 7,
    "cumulative": 140
+  },
+  {
+   "date": "2026-11-11",
+   "shown": 8,
+   "found": 34,
+   "new": 7,
+   "cumulative": 146
   }
  ],
  "deals": {
@@ -363,8 +370,8 @@
    "acquirer": "Williams",
    "target": "Momentum Midstream",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-10",
-   "stage": "Announced",
+   "last_seen": "2026-11-11",
+   "stage": "Rumored",
    "value": "$5.5 Billion",
    "usd": 5500000000.0
   },
@@ -1473,11 +1480,66 @@
    "first_seen": "2026-11-10",
    "last_seen": "2026-11-10",
    "stage": "Announced"
+  },
+  "western union|intermex": {
+   "acquirer": "Western Union",
+   "target": "Intermex",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "stage": "Terminated",
+   "value": "$500 million",
+   "usd": 500000000.0
+  },
+  "inovalon|drfirst": {
+   "acquirer": "Inovalon",
+   "target": "DrFirst",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "stage": "Announced"
+  },
+  "diamondback and kkr|five point s 70 stake in deep blue": {
+   "acquirer": "Diamondback and KKR",
+   "target": "Five Point's 70% Stake in Deep Blue",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "stage": "Announced"
+  },
+  "fis|ferris": {
+   "acquirer": "FIS",
+   "target": "Ferris",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "stage": "Announced",
+   "value": "$12B",
+   "usd": 12000000000.0
+  },
+  "msp sports capital|centric brands": {
+   "acquirer": "MSP Sports Capital",
+   "target": "Centric Brands",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "stage": "Announced"
+  },
+  "heritage holding|nashville sheet metal": {
+   "acquirer": "Heritage Holding",
+   "target": "Nashville Sheet Metal",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "stage": "Completed"
+  },
+  "nelson peltz|wendy s": {
+   "acquirer": "Nelson Peltz",
+   "target": "Wendy's",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "stage": "Announced",
+   "value": "$1.4 Billion",
+   "usd": 1400000000.0
   }
  },
  "totals": {
-  "deals": 140,
-  "with_usd_value": 71,
-  "usd": 612238700000.0
+  "deals": 146,
+  "with_usd_value": 73,
+  "usd": 624738700000.0
  }
 }
