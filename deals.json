@@ -1,40 +1,152 @@
 {
-  "date": "Wednesday, November 11",
-  "generated_at": "2026-11-11T18:52:10.207405+00:00",
+  "date": "Thursday, November 12",
+  "generated_at": "2026-11-12T19:00:00.757452+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "Western Union and Intermex deal has been terminated, while Williams is in talks to buy Momentum Midstream for $5.5 billion.",
+  "lede": "Global Payments deal with CD&R terminated, while easyJet takeover by Apollo awaits regulatory approval, as several other deals move forward with announcements.",
   "deals": [
     {
-      "acquirer": "Western Union",
-      "target": "Intermex",
-      "value": "$500 million",
+      "acquirer": "CD&R",
+      "target": "Global Payments",
+      "value": "",
       "pinned": false,
       "stage": "Terminated",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-11-11T14:34:35+00:00",
+      "articles": 3,
+      "outlets": 3,
+      "latest": "2026-11-12T17:50:29+00:00",
       "sources": [
         1,
         2,
         3,
-        4
+        4,
+        5,
+        6,
+        7
       ],
       "stripped": [],
-      "headline": "Western Union and Intermex Deal Terminated",
-      "body": "Western Union and Intermex deal has been terminated [1, 2, 3]. The deal was over California terms [1]. Intermex had rejected the termination [3]. Intermex had started a new 30-day review [4].",
+      "headline": "CD&R and Global Payments Deal Terminated",
+      "body": "CD&R and Global Payments deal has been terminated [1, 2, 3]. The deal was reportedly put on hold as CD&R and GTCR stepped back [3, 5, 7]. The termination follows earlier reports of CD&R exploring a potential $40bn take-private deal for Global Payments [4, 6, 7].",
       "found": [
         {
           "n": 1,
-          "acquirer": "Western Union",
-          "target": "Intermex",
-          "stage": "Completed"
+          "acquirer": "CD&R",
+          "target": "Global Payments",
+          "stage": "Terminated"
         },
         {
           "n": 2,
-          "acquirer": "Western Union",
-          "target": "Intermex",
+          "acquirer": "CD&R",
+          "target": "Global Payments",
           "stage": "Terminated"
+        },
+        {
+          "n": 3,
+          "acquirer": "CD&R",
+          "target": "Global Payments",
+          "stage": "Terminated"
+        }
+      ]
+    },
+    {
+      "acquirer": "Installed Building Products",
+      "target": "Old Dominion Group",
+      "value": "$698 Million",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 3,
+      "outlets": 3,
+      "latest": "2026-11-12T14:03:07+00:00",
+      "sources": [
+        8,
+        9,
+        10
+      ],
+      "stripped": [],
+      "headline": "Installed Building Products Acquires Old Dominion Group",
+      "body": "Installed Building Products has acquired Old Dominion Group [8, 9, 10]. The deal is completed [8, 9, 10].",
+      "found": [
+        {
+          "n": 8,
+          "acquirer": "Installed Building Products",
+          "target": "Old Dominion Group",
+          "stage": "Completed"
+        },
+        {
+          "n": 9,
+          "acquirer": "Installed Building Products",
+          "target": "Old Dominion Group",
+          "stage": "Completed"
+        },
+        {
+          "n": 10,
+          "acquirer": "Installed Building Products",
+          "target": "Old Dominion Group",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Apollo",
+      "target": "easyJet",
+      "value": "£5.7 billion",
+      "pinned": false,
+      "stage": "Pending approval",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-11T21:18:22+00:00",
+      "sources": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "stripped": [],
+      "headline": "easyJet takeover by Apollo",
+      "body": "easyJet shareholders have approved Apollo's £5.7 billion takeover bid [11, 12, 13]. The deal is now pending approval from regulatory authorities [14].",
+      "found": [
+        {
+          "n": 11,
+          "acquirer": "Apollo",
+          "target": "easyJet",
+          "stage": "Completed"
+        },
+        {
+          "n": 12,
+          "acquirer": "Apollo",
+          "target": "EasyJet",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Hancock Whitney",
+      "target": "Trustmark",
+      "value": "$3.2 Billion",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 1,
+      "latest": "2026-11-12T14:54:16+00:00",
+      "sources": [
+        15,
+        16,
+        17
+      ],
+      "stripped": [],
+      "headline": "Hancock Whitney and Trustmark Merger",
+      "body": "Hancock Whitney and Trustmark are merging [15, 16]. The merger is set to be completed in early 2027 [17]. No new information is available [15, 16, 17].",
+      "found": [
+        {
+          "n": 15,
+          "acquirer": "Hancock Whitney",
+          "target": "Trustmark",
+          "stage": "Announced"
+        },
+        {
+          "n": 16,
+          "acquirer": "Hancock Whitney",
+          "target": "Trustmark",
+          "stage": "Announced"
         }
       ]
     },
@@ -43,176 +155,106 @@
       "target": "Momentum Midstream",
       "value": "$5.5 Billion",
       "pinned": false,
-      "stage": "Rumored",
+      "stage": "Announced",
       "articles": 2,
       "outlets": 1,
-      "latest": "2026-11-10T23:31:27+00:00",
+      "latest": "2026-11-12T11:15:15+00:00",
       "sources": [
-        5,
-        6
+        18,
+        19
       ],
       "stripped": [],
       "headline": "Williams to Buy Momentum Midstream",
-      "body": "Williams is in talks to buy Momentum Midstream for $5.5 billion [5, 6]. Williams has agreed to buy Momentum Midstream [5, 6]. No further information is available [5, 6].",
+      "body": "Williams is buying Momentum Midstream for $5.5 billion [18, 19]. The deal was announced by Williams [18, 19].",
       "found": [
         {
-          "n": 5,
+          "n": 18,
           "acquirer": "Williams",
           "target": "Momentum Midstream",
-          "stage": "Completed"
+          "stage": "Announced"
         },
         {
-          "n": 6,
+          "n": 19,
           "acquirer": "Williams",
           "target": "Momentum Midstream",
-          "stage": "Announced"
+          "stage": "Rumored"
         }
       ]
     },
     {
-      "acquirer": "Inovalon",
-      "target": "DrFirst",
-      "value": "",
+      "acquirer": "Komatsu",
+      "target": "Astec",
+      "value": "$75M",
       "pinned": false,
       "stage": "Announced",
       "articles": 1,
       "outlets": 1,
-      "latest": "2026-11-11T18:41:59+00:00",
+      "latest": "2026-11-12T18:20:06+00:00",
       "sources": [
-        7
+        20
       ],
       "stripped": [],
-      "headline": "Inovalon to Acquire DrFirst",
-      "body": "Inovalon is acquiring DrFirst to expand medication management capabilities [7]. The deal was announced by Inovalon [7].",
+      "headline": "Komatsu to Acquire Astec",
+      "body": "Komatsu is acquiring Astec for $75M [20]. The deal is aimed at expanding Komatsu's presence in the paving market [20]. No further details on the deal have been announced [20].",
       "found": [
         {
-          "n": 7,
-          "acquirer": "Inovalon",
-          "target": "DrFirst",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Diamondback and KKR",
-      "target": "Five Point's 70% Stake in Deep Blue",
-      "value": "",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-11T18:11:03+00:00",
-      "sources": [
-        8,
-        9
-      ],
-      "stripped": [],
-      "headline": "Diamondback and KKR to Acquire Deep Blue Stake",
-      "body": "Diamondback and KKR are acquiring Five Point's 70% stake in Deep Blue [8, 9]. The deal is worth $2.1 billion [9]. No further information is available [8].",
-      "found": [
-        {
-          "n": 8,
-          "acquirer": "Diamondback and KKR",
-          "target": "Five Point's 70% Stake in Deep Blue",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "FIS",
-      "target": "Ferris",
-      "value": "$12B",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-11T16:21:55+00:00",
-      "sources": [
-        10
-      ],
-      "stripped": [],
-      "headline": "FIS and Ferris Deal on Hold",
-      "body": "FIS CEO Stephanie Ferris has paused deals [10]. after a $12B issuing purchase [10].",
-      "found": [
-        {
-          "n": 10,
-          "acquirer": "FIS",
-          "target": "Ferris",
+          "n": 20,
+          "acquirer": "Komatsu",
+          "target": "Astec",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "MSP Sports Capital",
-      "target": "Centric Brands",
-      "value": "",
+      "acquirer": "Bon Secours Mercy Health",
+      "target": "Surgery Partners",
+      "value": "$6B",
       "pinned": false,
       "stage": "Announced",
       "articles": 1,
       "outlets": 1,
-      "latest": "2026-11-11T16:21:05+00:00",
+      "latest": "2026-11-12T17:17:03+00:00",
       "sources": [
-        11
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
       ],
       "stripped": [],
-      "headline": "MSP Sports Capital backs Centric Brands",
-      "body": "MSP Sports Capital, Axar and M-Cor are backing Centric Brands in a management buyout [11]. The deal was announced by MSP Sports Capital, Axar and M-Cor [11].",
+      "headline": "Bon Secours Mercy Health and Surgery Partners Deal",
+      "body": "Bon Secours Mercy Health is acquiring Surgery Partners for a reported $6 billion valuation [21, 23, 24]. The deal was initially reported to be worth $5.7 billion [22, 25]. Bon Secours has agreed to buy Surgery Partners for $5.7 billion [26, 27].",
       "found": [
         {
-          "n": 11,
-          "acquirer": "MSP Sports Capital",
-          "target": "Centric Brands",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Heritage Holding",
-      "target": "Nashville Sheet Metal",
-      "value": "",
-      "pinned": false,
-      "stage": "Completed",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-11T16:08:39+00:00",
-      "sources": [
-        12
-      ],
-      "stripped": [],
-      "headline": "Heritage Holding Acquires Nashville Sheet Metal",
-      "body": "Heritage Holding has acquired Nashville Sheet Metal, a Tennessee HVAC fabricator [12]. The deal is now completed [12].",
-      "found": [
-        {
-          "n": 12,
-          "acquirer": "Heritage Holding",
-          "target": "Nashville Sheet Metal",
+          "n": 21,
+          "acquirer": "Bon Secours Mercy Health",
+          "target": "Surgery Partners",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "Nelson Peltz",
-      "target": "Wendy's",
-      "value": "$1.4 Billion",
+      "acquirer": "BlueMatrix",
+      "target": "Aiera",
+      "value": "",
       "pinned": false,
       "stage": "Announced",
       "articles": 1,
       "outlets": 1,
-      "latest": "2026-11-11T16:00:07+00:00",
+      "latest": "2026-11-12T16:46:05+00:00",
       "sources": [
-        13,
-        14,
-        15,
-        16
+        28
       ],
       "stripped": [],
-      "headline": "Nelson Peltz's $1.4 Billion Wendy's Bid Rejected",
-      "body": "Nelson Peltz's $1.4 billion takeover bid for Wendy's has been rejected [13, 15, 16]. The deal was announced on October 28, but Wendy's has since changed its mind [14]. Wendy's shares jumped 15% on the news of the potential takeover [16].",
+      "headline": "BlueMatrix Acquires Aiera",
+      "body": "BlueMatrix acquires Aiera for governed research delivery to AI systems [28]. The deal was announced on November 12 [28].",
       "found": [
         {
-          "n": 13,
-          "acquirer": "Nelson Peltz",
-          "target": "Wendy's",
+          "n": 28,
+          "acquirer": "BlueMatrix",
+          "target": "Aiera",
           "stage": "Completed"
         }
       ]
@@ -220,211 +262,307 @@
   ],
   "also": [
     {
-      "n": 17,
-      "note": "UK Regulator Gives Unilever and McCormick Until Nov. 18 to Fix Competition Concerns or Face Deeper Probe into $65 Billion Food Merger [17]."
+      "n": 29,
+      "note": "FSR Remedies Take Shape: Lessons From JD.com/CECONOMY [29]."
     },
     {
-      "n": 18,
-      "note": "Poundland to stave off collapse as US owner continues talks with buyers [18]."
+      "n": 30,
+      "note": "Serco to buy QinetiQ U.S. for $292M [30]."
     },
     {
-      "n": 19,
-      "note": "McCormick and Unilever’s $45B food merger hits antitrust snag in UK [19]."
+      "n": 31,
+      "note": "SpaceX-Tesla merger: 3 things to know about Musk's control and the deal's size [31]."
     }
   ],
-  "brief": "Western Union and Intermex deal has been terminated, while Williams is in talks to buy Momentum Midstream for $5.5 billion.\n\nWestern Union / Intermex (Terminated): Western Union and Intermex Deal Terminated. Western Union and Intermex deal has been terminated [1, 2, 3]. The deal was over California terms [1]. Intermex had rejected the termination [3]. Intermex had started a new 30-day review [4].\nWilliams / Momentum Midstream (Rumored): Williams to Buy Momentum Midstream. Williams is in talks to buy Momentum Midstream for $5.5 billion [5, 6]. Williams has agreed to buy Momentum Midstream [5, 6]. No further information is available [5, 6].\nInovalon / DrFirst (Announced): Inovalon to Acquire DrFirst. Inovalon is acquiring DrFirst to expand medication management capabilities [7]. The deal was announced by Inovalon [7].\nDiamondback and KKR / Five Point's 70% Stake in Deep Blue (Announced): Diamondback and KKR to Acquire Deep Blue Stake. Diamondback and KKR are acquiring Five Point's 70% stake in Deep Blue [8, 9]. The deal is worth $2.1 billion [9]. No further information is available [8].\nFIS / Ferris (Announced): FIS and Ferris Deal on Hold. FIS CEO Stephanie Ferris has paused deals [10]. after a $12B issuing purchase [10].\nMSP Sports Capital / Centric Brands (Announced): MSP Sports Capital backs Centric Brands. MSP Sports Capital, Axar and M-Cor are backing Centric Brands in a management buyout [11]. The deal was announced by MSP Sports Capital, Axar and M-Cor [11].\nHeritage Holding / Nashville Sheet Metal (Completed): Heritage Holding Acquires Nashville Sheet Metal. Heritage Holding has acquired Nashville Sheet Metal, a Tennessee HVAC fabricator [12]. The deal is now completed [12].\nNelson Peltz / Wendy's (Announced): Nelson Peltz's $1.4 Billion Wendy's Bid Rejected. Nelson Peltz's $1.4 billion takeover bid for Wendy's has been rejected [13, 15, 16]. The deal was announced on October 28, but Wendy's has since changed its mind [14]. Wendy's shares jumped 15% on the news of the potential takeover [16].\n\nAlso worth knowing:\n- UK Regulator Gives Unilever and McCormick Until Nov. 18 to Fix Competition Concerns or Face Deeper Probe into $65 Billion Food Merger [17].\n- Poundland to stave off collapse as US owner continues talks with buyers [18].\n- McCormick and Unilever’s $45B food merger hits antitrust snag in UK [19].",
+  "brief": "Global Payments deal with CD&R terminated, while easyJet takeover by Apollo awaits regulatory approval, as several other deals move forward with announcements.\n\nCD&R / Global Payments (Terminated): CD&R and Global Payments Deal Terminated. CD&R and Global Payments deal has been terminated [1, 2, 3]. The deal was reportedly put on hold as CD&R and GTCR stepped back [3, 5, 7]. The termination follows earlier reports of CD&R exploring a potential $40bn take-private deal for Global Payments [4, 6, 7].\nInstalled Building Products / Old Dominion Group (Completed): Installed Building Products Acquires Old Dominion Group. Installed Building Products has acquired Old Dominion Group [8, 9, 10]. The deal is completed [8, 9, 10].\nApollo / easyJet (Pending approval): easyJet takeover by Apollo. easyJet shareholders have approved Apollo's £5.7 billion takeover bid [11, 12, 13]. The deal is now pending approval from regulatory authorities [14].\nHancock Whitney / Trustmark (Announced): Hancock Whitney and Trustmark Merger. Hancock Whitney and Trustmark are merging [15, 16]. The merger is set to be completed in early 2027 [17]. No new information is available [15, 16, 17].\nWilliams / Momentum Midstream (Announced): Williams to Buy Momentum Midstream. Williams is buying Momentum Midstream for $5.5 billion [18, 19]. The deal was announced by Williams [18, 19].\nKomatsu / Astec (Announced): Komatsu to Acquire Astec. Komatsu is acquiring Astec for $75M [20]. The deal is aimed at expanding Komatsu's presence in the paving market [20]. No further details on the deal have been announced [20].\nBon Secours Mercy Health / Surgery Partners (Announced): Bon Secours Mercy Health and Surgery Partners Deal. Bon Secours Mercy Health is acquiring Surgery Partners for a reported $6 billion valuation [21, 23, 24]. The deal was initially reported to be worth $5.7 billion [22, 25]. Bon Secours has agreed to buy Surgery Partners for $5.7 billion [26, 27].\nBlueMatrix / Aiera (Announced): BlueMatrix Acquires Aiera. BlueMatrix acquires Aiera for governed research delivery to AI systems [28]. The deal was announced on November 12 [28].\n\nAlso worth knowing:\n- FSR Remedies Take Shape: Lessons From JD.com/CECONOMY [29].\n- Serco to buy QinetiQ U.S. for $292M [30].\n- SpaceX-Tesla merger: 3 things to know about Musk's control and the deal's size [31].",
   "sources": [
     {
       "n": 1,
-      "title": "Western Union ends $500 million Intermex deal over California terms",
-      "source": "Quartz",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1aVWRQYWhyakJNY095MkZxcHlzdi12ajVHSDZRRWljSm0ybC1iQ04xSnhlaFRqY0xreEVWWWM4ZTFja054QUphRmprRmdTU1hmNVFvZDBTWDBFdVBGdTkydkZHbWVEN3lEVkYyeEJXVURPNENJeWZBM3B4QlY?oc=5",
-      "snippet": "Quartz",
-      "published": "2026-11-11T14:34:35+00:00"
+      "title": "CD&R and GTCR abandon talks to buy Global Payments — Channel NewsAsia",
+      "source": "UA.NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV0d0VmszazAzQTc5VUFKdHJyWVE1alJSeDVQUE5iUjREdEpOX0dQZmtmTHp2bFVEQTR6RVRRT0dlbHROYml4Y3lkQ2VjeUFFMVN5NjRCSzNlOVhNOTlxdlZSZ205TkZsVFhiYXcwRDVRR3NxeERtTFJzVGF3RnZGbVN3TERBRTBZb2lPVWN2Wm9XWHA4T2NDT0lOeFJNT3ZJUk1LcDdNdm4tS3NvSDlNa2hSdHBYeFZNS2RR?oc=5",
+      "snippet": "UA.NEWS",
+      "published": "2026-11-12T17:50:29+00:00"
     },
     {
       "n": 2,
-      "title": "Western Union Announces Termination of Agreement to Acquire Intermex",
-      "source": "Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOLU81eC1XTEN5RUJFdWppTmxhZzZhdHcxc0ZlT1VaVjVyV0hyeEk4TGdTMnAyU09jN2o5Z3BHOVNEODhnUU5Lb29ETUdsSGxOdWNtd0J2aWZPSDAwNDdQRFFlVHViUVNyX3AzaS1hU2czWW1YaXJ4VlZxczZwVFJEOEgxN2RlZWVlVGtnS3JaRUg1c0kwZHNLY3BkLUVRSjVRa0w1cFdrUmQyb1JGOHlBXzRUVWl3V0pWM3BQd2lXUlo3YVk?oc=5",
-      "snippet": "Business Wire",
-      "published": "2026-11-11T04:45:00+00:00"
+      "title": "Global Payments falls 9% as CD&R, GTCR abandon takeover talks",
+      "source": "Yahoo Finance Singapore",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN2tHMEhlS21VLVI4RE9sRXVsYjFnXzJ3T09yUjBuVFliQndPSTJNcm9mNmVqbThJc2VQWFhzT21IUzYtSnZJMHVyQVRLd3BKZFRlbGtNcXZHSDEybW1zbG0zdWlwb2oybFU2dkpUYjc4enN1Vlh3Tm0zODRycmxxdw?oc=5",
+      "snippet": "Yahoo Finance Singapore",
+      "published": "2026-11-12T17:42:16+00:00"
     },
     {
       "n": 3,
-      "title": "Intermex Rejects Western Union’s Purported Termination of Merger Agreement",
-      "source": "Quantisnow",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPazFkZVgwSGxacXVieHotTTlPZi14LWFuSkFzaHI5dlJJb0pIZUE4LVJzWVlMbzhFY0dDT25EQi05SHdkc1BZRTJwc2w5NEdhSU1tb2JHWDE3b0JGUTZCOGhGWmE4ZDVaQWVUeHVzTk43bG9vVUsyRDR4X0pLQjJmaDdCQ1hMbHI0bE1LX284SlRKY0NIY2tTMEFhaFh3M0FXb2pZcnBTUmdqd2NZUVA0aWhWZXNuZ1U?oc=5",
-      "snippet": "Quantisnow",
-      "published": "2026-11-11T11:36:20+00:00"
+      "title": "Global Payments buyout talks put on hold as CD&R, GTCR step back",
+      "source": "Traders Union",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdHFrTFAxTHdFMUp5aE9FU2VsR0g4QzB0a29ZNTJ6MWxDZXNqU3o5WmhrNG5sUmw4UG54WG9jVkE4ek45WGVRZFlBSGxVNGYtbFl4NlAwLWI2YWtJRWRmY0pRc2hySWxhYTIyNktFSWNfSGpjT194TEkxMWlRZmlzalQ2QzRpVWJmb3RvZENMeDZxeGs?oc=5",
+      "snippet": "Traders Union",
+      "published": "2026-11-12T17:25:43+00:00"
     },
     {
       "n": 4,
-      "title": "Intermex starts a new 30-day review. Western Union deal affects International Money Express stock",
-      "source": "ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWWY0SkRkb0tpVDJwLTFWVzQya1RuQXlhck5KZllubkJyano1UExaZ0tRZVJUbjFVQUV0NVpRbVgtejZKUE1OTVZQQTlpUWdXWUVmejg0R04wb1ROQVZVdGlyaHBSUHIyelhqMmM2S2JmSkh0Z0N2QmlzUnBQM2lzVDhOTTB1XzFrNE5IejFINkJ0MnloOHdXX1daeDlkZm90TjZjN0RicE5JemIyRk5ONlA4cDlIaXBQVWtNbmZB?oc=5",
-      "snippet": "ad-hoc-news.de",
-      "published": "2026-10-16T03:06:52+00:00"
+      "title": "CD&R pursues buyout of $40bn payment processor Global Payments",
+      "source": "Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRGN2aXRDSDJnaHNpTWUtbHg1NVBlcFJjUjFXVHA1enhLUDNNTFlCRVRMS0VwaVRHSGxHMkNhRVdZamoxUWYtbG1ReFlhazF4WHF3VGt2RUt5YlpiV1FiY0RPbkRWalFJRlhyYVpXSWN5YTZKaWI2amphZnFwYUUxRTJZTEk?oc=5",
+      "snippet": "Financial Times",
+      "published": "2026-10-30T16:27:55+00:00"
     },
     {
       "n": 5,
-      "title": "IN TALKS: Williams in Talks on $5.5 Billion Deal for Momentum Midstream – Report",
-      "source": "EnergyNow.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSHpBam9nR19ndUxwZi1NSFo3LU5FSWNMc2MxenRSR05WY0hhWEVVcENMU2lzemUydDhtM0pXVS1vVVQyWV9hUldzWVgtR2dlQ2M3MEJCaVRJUDVsRmJrX2daVENPUVdpVnpJWE02WDRQRVRJR0t2MEwwN202dTFhMElxOXB1YXlxZkxSZnlRZnU1alRLdS1OOFhFN3FKS2Y5cWpWRjdJbU56TGc?oc=5",
-      "snippet": "EnergyNow.com",
-      "published": "2026-11-10T23:31:27+00:00"
+      "title": "CD&R and GTCR reportedly explore take-private deal for Global Payments",
+      "source": "The Paypers",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ252Sk5qazZSQ1RHSktJNW44NXVpNW54dkVsdVIyTDRvYlpmRlFPTHVXenJwemJOWGZzLXlNY1FLbWdFMGMxQlZjdkkwSHUtQW9RVGlXRlFwNkFSMDlLWllaWm1naTg2eHV5UzFQaUFLdVJ4UXJTUV9sbDB6TzBFWDBGSVVJallPS2hZcWxYVWRHT1B0MVNsZVl3eGg5c1pDUDZTallzem5UUQ?oc=5",
+      "snippet": "The Paypers",
+      "published": "2026-11-02T09:25:38+00:00"
     },
     {
       "n": 6,
+      "title": "Private Equity Firm CD&R Explores Take-Private Of Global Payments In Potential $40B Deal",
+      "source": "Crowdfund Insider",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUGs5eFB5b1NueWQySDVEbGYxRVNtNFpQajdWSnJOLUF4M3lxQWl4U1U3anRhWFg4VDFvNWVnTC03T2doZG5xTnhaRWlkdUNyUm1vaHN1ZlBsemlHZzY4SVMwRUFPa3lUazBRdnUwMGpUd0J6M1NvNTB1UmFtYjJ1cnN5NVJ1ZFlBOUIwWUpqUmxDNzFOR2g5ZnIwWXQ5NDVrVGdZbGsxLW9BT1dTd2xwSVBQUVJxb0ZCRW1HNDh5WkkyeEhNU3BONVZOd0duT0RB?oc=5",
+      "snippet": "Crowdfund Insider",
+      "published": "2026-11-04T14:15:46+00:00"
+    },
+    {
+      "n": 7,
+      "title": "CD&R explores potential take-private deal for Global Payments – report",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcHZOVDIzVEZld0lPWTZHbkFqcWJ0R0FRU1ZoMlV1bDhjSTduTG84cmduQ2pYZnRZUzFvaXhTWmNaVjZiSGFXWXV5R25oMnE4U2lfZ2gxYWNvS0EzbTkwSGRMMnY2amtmUWFxemd0U0VUaUo5dkZoaEprLTJ1VC1ZdUNjQQ?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-11-02T12:02:25+00:00"
+    },
+    {
+      "n": 8,
+      "title": "Installed Building Products Completes Old Dominion Group Acquisition",
+      "source": "TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN2VQV0dZSlFrOG42MjY1dU5yUF9lYUVacmNFRWxNT2V5QmZZaGl1dVN5NzdJM0ZkVHVqX3BDQ2VBZ0dWMDBQOGJnR0RHZ29UbF9ieFFVYmFMbzNOT2pURGQwNTlJaFFRU2NKaGFmcHF1QmtlbVdfelJpSnE0Y1BaX3d1SDBKa3hWQTI4YjFiOHg2M2puR20tWnhGWGRjQTdUcEZlbW1vb0VIc3N2Q1VKZVpndldyNk4taUd6aQ?oc=5",
+      "snippet": "TipRanks",
+      "published": "2026-11-12T14:03:07+00:00"
+    },
+    {
+      "n": 9,
+      "title": "Installed Building Products Completes $698 Million Acquisition of Old Dominion Group",
+      "source": "citybiz",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOVktck9xOXNkX1BjdzBGR190dnlvVWsyWDJZU3NUdVlUelhzM1dEa2VVZVF4VnlKd0RtcWZqVHRsLXZKTFdTUHFsbGIyeUJjODNMSTJKWTA5ZTA3RHhJLXJLZC1xaHJVeTAyRG9hM0NZSkJpM09YVElZRlRpZ2MwSkVCQ1VCdjBaelgzdVlxUkRqSGhNa0ZyQ0t6a0pqNGtsSEwyY0hrRkpoZFp5RjdMVERFZm1Eam5HaUFTMGVpZw?oc=5",
+      "snippet": "citybiz",
+      "published": "2026-11-12T13:36:37+00:00"
+    },
+    {
+      "n": 10,
+      "title": "Installed Building Products Acquires Old Dominion Group in $698 Million Deal",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUTFQOTVndUxwb2hpd0hZSDYzeTVmaGg0SnJyVlBpOVoteG5mRnFaSU1KZHp6WnpvbThmSVI3VVB0c2pxaDRzdG5VaERCZTZQOUlkQTIyWXM2VHlKQS1zdTlHVlZPWF9pWlpTTzdTbDR3MGx5Z0ItdFh5S3ZLTTJhbjZOcjJlNTNSNzFTNlVjRk50TUNsZHhKZlNWUG1aSzM1eDlOSHlneVBSak8yUjNFN292SDFReDlkR05BQ2NENzFXUnNJWEJvcnNuNzRiTmI0MWRv?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-12T12:33:00+00:00"
+    },
+    {
+      "n": 11,
+      "title": "easyJet shareholders approve Apollo’s £5.7 billion takeover bid",
+      "source": "AeroTime",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbTZMLW5Vbjk1bFpfcTVreHp0QkZ5bTM4Y25LbWFIYi1rZEtNeDV2aUN1b3htNUZNa2VaS3pwTGRYczBIclhmZ3ZacHNfUXdzTWhkRE5LN294eV9PRjYyM2ZRVWJrM3NVOTlaRUU5V3FuRmJWbEpBc2ktRURCZVNVRlZRcGZpQdIBiwFBVV95cUxNYURpSVJyd1pSUEtnUnI0TWRVRHJydllpOGNjdUxGMENLRFEwdDBIOEZqYThFcFRxRXNsaGRPbHdITDNCSnhPWnpfYVhhdF9RX0pnUHJieWdyUFhfaUtocl9QckxOUzJtVkpXRFVyc2U5UW5tcjVMX2tzRkJTNm9jeENVNXJncEE0NWhZ?oc=5",
+      "snippet": "AeroTime",
+      "published": "2026-11-11T21:18:22+00:00"
+    },
+    {
+      "n": 12,
+      "title": "EasyJet shareholders approve £5.7 billion Apollo takeover",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWF9EOFBOelFYUVhLOHVHTEh1VGdNWHN1ZzNHcHV4UXk1dFJtRjZnRGxHVTVKT2RYM2VnVGhxVy1JYmNVSjBqTmVUWDNoWlA0X1gzNHNIQ001YmlCN2lVTXVOMXQ5ZFJiLU9qMFI4WUw4empULTl1RTBqUWFMVWlabllYOXhKYk9qMHhUaF9ZT3hULXAyakU4dkJYb0xabnFoUnc?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-11-11T17:23:29+00:00"
+    },
+    {
+      "n": 13,
+      "title": "Apollo gains approval for easyJet acquisition",
+      "source": "www.insideflyer.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQLWpEVnUteVJWMS1QREVZdUFndmVIYkhnWXRtZm1XdjVoVHd3WlZlc2RWcnYxdDhTUUxYZkpGbC1ZbVMzWmVtVVN3VXlnUWtvamlNQ0ZOVWt0cVlkUGdQNUdIZDRvVWFIajh0RVgxdDR4QUMxRzVzUFhYT2t6Q1RSTlE1Y3oyUGs?oc=5",
+      "snippet": "www.insideflyer.com",
+      "published": "2026-11-11T14:09:38+00:00"
+    },
+    {
+      "n": 14,
+      "title": "easyJet shareholders approve the sale of the airline to Apollo",
+      "source": "Aviacionline",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZ2R5VmV0OWNfOXZmVTNUaHpMQmpVbGkzY3dUSE5SZjdrU3dQdk1KZmFMcGxyS0Y0dGZPN2lIZzE5dklxSFNjUG12NDJHSU9jZnhuWS16YzRqRlp4UWQwSXExcVktTm44akNYUUN3VU9Vd3VLVHpLWWhQSXMzLUVxWXVxaTRsbG96c1JZdDRGN0lTbTUzeW9CNmdhTm5SQkZSOTN3cnNuaWVha1ZNdldPVG9ERXlVTVNsM0JzZk1XLThWRTRWU1psRVJZR1RyZUpoSlpVRF9pM0Z1UXhaNF9yUHZURWdCYjQ?oc=5",
+      "snippet": "Aviacionline",
+      "published": "2026-11-11T20:08:14+00:00"
+    },
+    {
+      "n": 15,
+      "title": "Trustmark Announces $3.2 Billion Merger With Hancock Whitney",
+      "source": "TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNb1F1czZ0OEpERU9Lb1dDb2g0WTZaY2xOV0JoRjBDc24tSTFLbDlHbDJaM3N3LThwanI3WVRGXzZzNWI4di10UXhRWTBacGxieExrSlBBTkV6bm40NzltVWZMV0xSa2tSbHAteGNoRVdjcUEtT0padDczNno1elJUZjZuSU1va2lKZVRuQkVBU1Q1aWtMbnFPNWVmeE1pS3pFd0xuYnVjdGstUloxZF9HUA?oc=5",
+      "snippet": "TipRanks",
+      "published": "2026-11-12T14:54:16+00:00"
+    },
+    {
+      "n": 16,
+      "title": "Hancock Whitney Announces $3.2 Billion Trustmark Merger",
+      "source": "TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNFdVRDhURzEzOGJzS2xRdFRzTmZXaGRqeDJkRDJnSWlua05Za0RkOHFxYy1udERFLXpGNmdZSnN1R1lyMnNhdzVUbEppd1dQQXRyOEJGMEhmRWtNWjVSSS1IMlgwbG1sdFdGX3N3dWpfVnYydHhpZEdXLThIeFEzT2Z5aGRpS2N0d3RHUUpmZW1paTlhZTNDNnczakVGQXp4MGY4TlFlNGxUZw?oc=5",
+      "snippet": "TipRanks",
+      "published": "2026-11-12T14:35:57+00:00"
+    },
+    {
+      "n": 17,
+      "title": "Trustmark and Hancock Whitney Announce Merger Agreement Set for Completion in Early 2027",
+      "source": "Kalkine Media",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOFlqc25FVVZvRE1BT3lWbzRxOERXSzVSY1ViLXNnWVNsZnFyZGhWUXNYeE9LS1h2VzFDVVBYbEhtZ3dpYW5HY3I3aEFkbl9GdHpDUlJFXzk2ajRPelg0TGVPUHg0RmdJV1JIaG5jLV9HeWV6ZEItWm9hZm9rUU9jVENWeFlHcF9XU2FlQmRJVXhpakktb1RmbkNhYmFqV3U1SDloRXIxdlNUVVBRWGw1MXRKRHdxRHF0dmpSb3dSck9pYVJSVjktVE90UEk5cm04?oc=5",
+      "snippet": "Kalkine Media",
+      "published": "2026-11-12T17:58:42+00:00"
+    },
+    {
+      "n": 18,
       "title": "M&A: Williams Agrees to Buy Momentum Midstream for $5.5 Billion",
       "source": "EnergyNow.com",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaHh5Rkhxdmw3U0lqSFJyQll3NTRmR1gzR2J6M2pxeHhCckRCOWlsdWdHRHdCRDlUZHk2bURFb3RiVXhWOVF0el93andESkVKUkVfZ2V4SUE2QXg0bVdOakxsWWJPRVY3Vkc3dnlzT0FHWGdBaVVrVmJ4VEdFWWFTNXpZb0xVQVhicVl6ZnY4LXRHZw?oc=5",
       "snippet": "EnergyNow.com",
-      "published": "2026-11-10T22:47:59+00:00"
-    },
-    {
-      "n": 7,
-      "title": "Inovalon to Acquire DrFirst, Expanding Medication Management Capabilities",
-      "source": "HCI Innovation Group",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQaEkzXzFvQzd2QnpKenhTQzVfMTJFZlVZOHdxMHk1ZUo5LUVvSlE4eS1MRXJLLTlhUlhJVndpeHhIZEV4MnlPZzFISTdjMlZfdVNqX3I3SFZJdEJnMkp5WU1EaDdXdEFwTjlWSVA5MHBVcUZsVHlKVEtObWdtZXBKRVJHTU5SQkFsRHNMSE9odGhaTEpiTUZPaERwNUFfbXQ3eGxMeXpoWUpTQTZuTEM1UmdtT0RDRW16Mm1tZ0VjY3VuVVZNQUhrbjV0NXRjVVJKQ0oyNEdxdmlXbm5OT1o4Y3hUSXZVMGg0T21yUzc4Z2psM1UxX2c?oc=5",
-      "snippet": "HCI Innovation Group",
-      "published": "2026-11-11T18:41:59+00:00"
-    },
-    {
-      "n": 8,
-      "title": "Diamondback and KKR to Acquire Five Point's 70% Stake in Deep Blue",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeXNHNF9iTzZ6Q3JHWG5VT1BNcm9USlJmTzVLN3dFRU1nOEMwZUNoQU4tcDJoVnlCdzl3a0NUOVh6SDFQQXMyU3p5eGVFX3o0YXFZSEdYWW0xVG84eVIzY0thWnQxQU9wZzI3YWJOYmxwWXJkOG1GTnZpUUlLZHRlelQyZG91eEdtVjdQRFRwMWVxcDc3aWx4QzZkWVhMSGRUbkJPQnctTjEyZ1poY0hWTjNZQVozbzBGUzNGemVB?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-11T18:11:03+00:00"
-    },
-    {
-      "n": 9,
-      "title": "KKR joins Diamondback in reported $2.1bn acquisition of Five Point’s Deep Blue stake",
-      "source": "AltAssets Private Equity News",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQTHJmRzZuZ0c0dE1fc1ctbmhTcDZwTE5iRzktam5HanNyZHZFVlR4U3NtQXlIb0xTUllIM2ticTNid3otckRjOTgxenh1OGlmOHItazVmUGxpTHJINkg0Q2JncnI5a1NEQTBRUHFsYmtjcjdob2RjYkk4TDZrZEdkNEJmS1JjNmh1elhsYmYzWmdCd293ZURMdWcyb2p1SjJaM012YzZta1FfSXFCOU1pRDhGYnNmUlczMThIdzFQV19lbkdDamxqWVJPaWJRME5jS19RZEN3SUZnWnBGUEV1eTUwS3NVNFZSWjh5WHlVX3lsUQ?oc=5",
-      "snippet": "AltAssets Private Equity News",
-      "published": "2026-11-11T12:24:55+00:00"
-    },
-    {
-      "n": 10,
-      "title": "FIS CEO Stephanie Ferris Pauses Deals After a $12B Issuing Purchase",
-      "source": "Observer",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRUlDNWZVRWVKVVVwdTdtbi16TUR6M255eDFmZmRneDZGT3JjSEJBMUhtZF9MbTZjQndHVm9VZzc3UDJyWkFqOGFwbFgxdjdpOTdHTXNINGJCUTRMTzhoSFlkdS1lbVI2Q3FFVWkzbFhhRzFpYS1lQmtjcl9mWGFlUy0xN0xwNVZmZzN6MWF2aXk3d3NSSWRMRExpZGM?oc=5",
-      "snippet": "Observer",
-      "published": "2026-11-11T16:21:55+00:00"
-    },
-    {
-      "n": 11,
-      "title": "MSP Sports Capital, Axar and M-Cor back Centric Brands management buyout",
-      "source": "PEI Private Equity",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNkVEYnVIVmYxN09fU3pkYUJOQ0R3ZTZxUFJaR29YODFmZzNzRkdhNEhFV3RFQjR1azZDcVJmMXpPRFRhT2NsX29UZF9DWlRDbmpQeHloeE5WdXhJT21RalhRb3dFNW5PMjdxU2xHd01xdXJRNTVWRFJfYUdtNkpWd3pHY08tU1lhZDhCVjN1R0dieXcwZ1hlNVBQUmpuV2pkaWp6ZGRCZ0wtTURnYTg5dVluaU04QQ?oc=5",
-      "snippet": "PEI Private Equity",
-      "published": "2026-11-11T16:21:05+00:00"
-    },
-    {
-      "n": 12,
-      "title": "Heritage Holding completes acquisition of Tennessee HVAC fabricator Nashville Sheet Metal",
-      "source": "PEI Private Equity",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX24xMWUxYXBOeGx0N25HTGJoX2NENnBvUER3NUROdkN4cEdpTDhJVVdPX3N0eWdQU3FoQzEwc3NCUnhnUjN5bG1uV09kQmRvT3hNRWFFaTd6TkI4NzJDaEdQOUc5RmR3SjJERi13ejZUb2JXMUZCaURxbVRBN2k4Y0VTcWdDTUkzUTQwRS1ObHlxRTYxUERmMzFBUGlET1I5Y3R2ZXQ2MUZXTXRJOGR2S3lROWR6OW9mQWZfZGhvY3hNMHlvNXlwa0xtakJIdw?oc=5",
-      "snippet": "PEI Private Equity",
-      "published": "2026-11-11T16:08:39+00:00"
-    },
-    {
-      "n": 13,
-      "title": "Wendy's Rejects Nelson Peltz's $1.4 Billion Takeover Bid",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUktiY1lPWUliYVNpSjZJaVQ1X1dIY1dJcmZaTnNGemtxeDYxUVpaWXVuUmhqa2I1bzg5dVAxVWQzWXAzNjNNM3hnUFVBOUswdE1Xa2xOVmZ0RV94cEp4ZE9ZNjY4NDRQR21LLVVna2h6R1d5Z1JQcjNjaFZ3YnFYQ0E4czBudWtvUU53dkU2RlVWbUJOWHZha3FXTQ?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-11-11T16:00:07+00:00"
-    },
-    {
-      "n": 14,
-      "title": "Exclusive | Nelson Peltz’s Trian Offers to Buy Wendy’s for $1.4 Billion",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcTd1dnBmMzBtZzQ0UzlFSFdDUWJSRkxOMUcwcm43cEpRUUpHaENfN2FMV1BEV1FRV0hleDZvSGRGckpkVzJIZThQTGplNXBLTE5xbTI2dFNMY1NKWC1nYTVRRDNSeGlWTWdlZ08zNHVaLU9xbEMtY3RnM2NqeV9reG5NdHhNSHBHQmg3TS1Gc2ZZRDluUWI5d2pra21lNlhfd0E?oc=5",
-      "snippet": "WSJ",
-      "published": "2026-10-28T13:29:34+00:00"
-    },
-    {
-      "n": 15,
-      "title": "Wendy's rejects a $1.4 billion takeover offer from billionaire Nelson Peltz's investor group and adopts a",
-      "source": "The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxPWEgyUHhCTXRLWU1YTUMzZVFERkx0b2lFZHJ0VHBfTzhQT3BaRUIyWGd2SkRHQWh3VFJJeThVNm9NbG9UZ1NQY2VkSS00aXlXbUJSbTZzU09Mak5PQXRWTk11U0JVakdvSFFmWHA5TXlaRXpLWUp5LXhTSTMzT3lzWTI0QzRNU0FxX2xDRXY1QnIwaXdiWG4xdGV6TnNOaUVUOFI4S055V2NfRlJFNHZxUlFMTTN2WUQzbWJodThnRVpGVnhJbTQzY09wVlBBRTB4ei1pVFpkS282NnNBVVVqLWI4TzNncm1CUzJUSDMxRkpKMkRVMk1hYmFHZTZUWEE4RmRFNzBscTMzWTVyeU93WkY5T3JBdmE3eTJOUEtTTFIwXzJ1Z3dLRGZQaHcxdmVNZ0h6SmJ2cV9Md2hGRnE1bUNLYzNXSVpMRW1hdEo4QmEwbk9SZlRPM05oR045NnQ4V1BsbWR0b3BOT002aTItZ3ZUTkVNUE1kNmxtcnJCWmxKVUlMUXk40gGMA0FVX3lxTE9YM0hDSV9qYXZMYVA5T2tFMFFaWWpIZVI4aWxYeTBHd0FUZWpRVjB1c21QTW10TnB5VFVyV0xrS0E0MExfZHM3VkNFTnh4dHJxNElBeWZLX2U5TWtmUU56SFZUM21GWTFTSjIwd0RsRnhBbTFxQzZSRDEzbDhjOG43aDBzejRFQURWRExmTkp5N0ZNUzB3blJKMzU5WUphRHlnVE5qS1VRWTJ4Y1hmSTA1Vmg1V0o2eC0tWDJ3al9mME01NUNONWF4ZFd5dVlwcV9aMHlXMGpnOTRnS1FhNkJZOFVRU3lNTlVGQkUwNnpLTTZ3aGdMSnVqS053TzZ6ZGZPMXlfX2ZNUFlYQ002RDdLbDI1aU9LTkR5cE4tc181blFUdzg0NnN2TkVXN0ZNbktPempjUnJOU21XSGRqcXg1RmxpaVV0WlQxNmtURWk4S0FfdzRuNTd6SnNQdGJiSXM0RWlRM1drdWZTN09Zdy1ET2pqSC1vdU5tQmVONkpTUVplZXgydmF6NG5Baw?oc=5",
-      "snippet": "The Times of India",
-      "published": "2026-11-06T05:26:00+00:00"
-    },
-    {
-      "n": 16,
-      "title": "Wendy's shares jump 15% as Nelson Peltz's Trian offers $1.4 billion to buy burger chain",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLU40Qk9IbnY5anF2T3pfNjkzWHJfQXFXY01uaEhjcVBQUG1tT1drcy1idzFtSy1UbTUxOUp3V2FkeTJRNWZ5ZDJtU1hPZTVBOW1PSUhuNWpTM3k5blVrYlI0bENYWEJQb3pPR3kzOEJDTEJISlBHd3BxSzRpUHRDMGRRd1TSAYoBQVVfeXFMTXJ0Mjdod0xHZDVLS1I3QXV5YzF6bFJCMmhWX01iSmlnNFRDME9lejFwVUR6MHhEYmlMb0RNUGNjbDJfTjBKc3dQY3FWYmJ2SmpkVWdKcEZnbDZuOEJMUzdiSklmVnZuRk15WC11WFBaQTJQOVNJbFE2YVNGQXMxYVpEQVZQRUdSUXBn?oc=5",
-      "snippet": "CNBC",
-      "published": "2026-10-28T13:00:05+00:00"
-    },
-    {
-      "n": 17,
-      "title": "UK Regulator Gives Unilever and McCormick Until Nov. 18 to Fix Competition Concerns or Face Deeper Probe into $65 Billion Food Merger",
-      "source": "BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pcVZMMnV5UktlYXNnaFpxVnh6bnB5SUxIdnlqaDlSVHhiM0tHNFhadXhmbWFtdzlodVdFVmp5Qkl5U3VlRVFnUG5VTGktVm41Um1GNXNoUmdCUXpFN3pKSi1SNEI4dnZFRmRJMll4NXBZMXplU2c?oc=5",
-      "snippet": "BigGo Finance",
-      "published": "2026-11-11T17:35:00+00:00"
-    },
-    {
-      "n": 18,
-      "title": "Poundland to stave off collapse as US owner continues talks with buyers",
-      "source": "Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcnNCcDdLOUpvUFpXSkR4a2lYRjN4dGFEWUdPeXhzLTJVeFltclRmYm9GckxDQVZLS2ROUkdkMVA5Znhia0hEMDQtSUpMMjBva2dMamlEYThqbXZTZ1I4ZXZTVU85Q2NWR1JNZ1RsTGdXSVdDUDlBQ1hzMm81WDJxOE5GbW4?oc=5",
-      "snippet": "Financial Times",
-      "published": "2026-11-11T16:53:37+00:00"
+      "published": "2026-11-12T11:15:15+00:00"
     },
     {
       "n": 19,
-      "title": "McCormick and Unilever’s $45B food merger hits antitrust snag in UK",
-      "source": "Food Dive",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYlJrbUhHXzJFZUpjRzJxMlFaWGJsNk4tY2hWWEQwRDZqVmJ3Mi0xeHFXNHFxNFhRN3NRRlNfd1RCLWFpU2FDbklrUmpodjNIRlJaZkRWOGNTRmlJWW9oNVYydS1mWm1Jb0htU2MwTWZraVVfN2s4QmpaVW9kWU1QSXctOUtRQUhOeHJN?oc=5",
-      "snippet": "Food Dive",
-      "published": "2026-11-11T16:37:57+00:00"
+      "title": "IN TALKS: Williams in Talks on $5.5 Billion Deal for Momentum Midstream – Report",
+      "source": "EnergyNow.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSHpBam9nR19ndUxwZi1NSFo3LU5FSWNMc2MxenRSR05WY0hhWEVVcENMU2lzemUydDhtM0pXVS1vVVQyWV9hUldzWVgtR2dlQ2M3MEJCaVRJUDVsRmJrX2daVENPUVdpVnpJWE02WDRQRVRJR0t2MEwwN202dTFhMElxOXB1YXlxZkxSZnlRZnU1alRLdS1OOFhFN3FKS2Y5cWpWRjdJbU56TGc?oc=5",
+      "snippet": "EnergyNow.com",
+      "published": "2026-11-11T20:14:59+00:00"
     },
     {
       "n": 20,
-      "title": "Kroger Albertsons Lawsuit Subpoena: Complete 2026 Guide",
-      "source": "LawFold.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLdzJuVG55T2RhS2N1X1FpcFQxWm9aRjJ0VmNJdl9Td2NldDJVdERTd2ttS1dkRU1JV0I0N2JvQ2NfTWVCcnlHa3ZtMjFWc0NtZHR5clVXVGhrc25nRFFTTUNrOU5OZw?oc=5",
-      "snippet": "LawFold.com",
-      "published": "2026-11-11T16:35:12+00:00"
+      "title": "Komatsu enters paving market with $75M Astec deal",
+      "source": "Equipment World",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeklrOVlWeGszS1RPRVNuY0ZuNU02NDFEWU1hcEFNUUQ1YnAxTE1YcHN4Y3VGTm5JYWVya1JZRm90Z3ZkTWhuNEYzUzJyc1pHU25MN1ktRFJ5UzlTN1JQNWgzODNWcEtLYlVaajJDZHNLWHV6SGtSaUpzNFh0RHdmR0tHTlhsXzgtUHUwVU9oYUlQblRWd3VHRnNDcTJGbTdKcldPYi1mb2M3MHNYYVhFSG1MVVk?oc=5",
+      "snippet": "Equipment World",
+      "published": "2026-11-12T18:20:06+00:00"
     },
     {
       "n": 21,
-      "title": "Stephenson Harwood - Taylor Wessing merger called off",
-      "source": "The Law Society Gazette",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ1FuU25FVWgxaUx4OV9fYUswRW02ZmY2UzZ3UjUyZFdQYjNzTlJsTHlsQnNqTE9DTjlCZXhkSFY1U0k2bkdQTmFNc1ZXVVNKTy1hTVhWNWVsVi1maHdnV0dEazM5NWVGWnByTnNBMWY5eGFCN0lwUVJYSVY1aHFPYjJWTERMaG9RZ09XNEZyZzBXdUJBT0htYVpUMnlJd1JxekE4?oc=5",
-      "snippet": "The Law Society Gazette",
-      "published": "2026-11-11T16:23:08+00:00"
+      "title": "Bon Secours Mercy Health bumps up offer for majority stake in Surgery Partners to $6B valuation",
+      "source": "Fierce Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS0syaVNMelFVa2lkMGI4N2dVbXg0cTBVM0ZrZ0NTcU9xZzY2dUVlZkpJbUg1NV9XSUIzcWtpT2ZacGFEZzA5eF80OFFSTlRQLVpmNWVXRHphUVhHcWVmcFpsWGpMQjRadUE5WlpibzQ4VzlvOWRFcENTbTN5OU9CNnZKb0V4eXJfbmd2a29yUlA4Nkx2TjdIQmFQLWtpY054cGhDVzduWUZUZms?oc=5",
+      "snippet": "Fierce Healthcare",
+      "published": "2026-11-12T17:17:03+00:00"
     },
     {
       "n": 22,
-      "title": "Metals Trader Backed by Quants in Talks to Secure Congo Tin Deal",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMUFpMFJWTTlsUFBnR0NzcmdkRkJxcS13Q1BUdUVub0p1dHFlUUdYcmRrMEhuU1JjT2xSNXRnR2Ywd0lqTDdMMHhhbS1taEdxTDRzV1ZyX094WE1waVZSLUNyWjlrZ0hnWlZuaWQ4SE9RRmxHMjM3R2M5TkFZcVZUTVBWYW03a2h3cXZ5QW1RV0cwWWNISWUxc0R4MXY4aXc5cXhvQk1ZNEN4TFkyWjJCTVh2N3p4Zw?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-11T15:52:05+00:00"
+      "title": "Bon Secours Mercy Health agrees to buy surgery center chain Surgery Partners for $5.7 billion",
+      "source": "MarketScale",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM1p5SHFCUkd0RlpDVHktLVd0UmNKbkhNUDJPX0pMY2ZXWERxNW1YOWdWaXRtc0dmazJsT0FZeG10NVhfVG42ekNuNW1USWZUdnZkMENfQmZGRUVwTlBrMmh0V0hmZkZxeTJPMzJlc0NOVk9EQXpXMlg0RmE1YVY4XzFsUldTbW9rckZYWkNpdzZNNEFJYTNGSWdzYmd0TXg0eUdUTkUySmlaekRuRUlNQ3dLaGJTZzk4SmE0MlNsZHNzZS0zbVNhelYtMHdSa3pMWWMtQl9ZWko?oc=5",
+      "snippet": "MarketScale",
+      "published": "2026-11-02T23:04:00+00:00"
     },
     {
       "n": 23,
-      "title": "Stephenson Harwood and Taylor Wessing call off merger talks",
-      "source": "Legal Cheek",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYUZIVzFwaWc3NTFfdTBZNzBhWURQYUw4bzRNRENIRkgtT2poU0hmbFZoM0lKQ3ZGcWV5QXJPbkxZV0NPQk1uMWNadDBzd2x2UnE3d3NEQ21XX0JCNHZGa2d1RXh6N3hfMkgtcGcwOEdMOE9OUzdhVVZib3VDa2ZMVTl2Y3hQNE0yZmtkRnpkQUVyMnRrMmstUGdLQQ?oc=5",
-      "snippet": "Legal Cheek",
-      "published": "2026-11-11T15:32:35+00:00"
+      "title": "Bon Secours Nears $6 Billion Takeover of Surgery Partners, FT Reports",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPM1ZBb1RRcmplVXhTTGJLTVJ4a1Z0amcydC04blBnZ0ctclFBUDk4SFRlT2ZvRkF3RXFiQnNDUHJsZkRNWmtPdkNfU2p1Xy1DdVIwemZHbmN4YzR2cnctVjZKdENxdDhDeVdZMFhTTjFWeEZqem9nWHBjLTZCOThnYjlxSC04RjMyZmItZzZzQVdMak1hZVY2TGEwV0g1YnRUNkwtd3pRUUI2WkRBZXN1TnRYdG8xSnQzSTBlM3U4UlBtMmpT?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-10-25T18:24:56+00:00"
     },
     {
       "n": 24,
-      "title": "Dipula steps up property acquisitions with R3bn deals",
-      "source": "Business Day",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVWZHS2M4NG1pVDFsNHFlZnB2d19JdzR4R0I1VVg1RWJ5R212Z2FTdmFEb2VvaVR3ZlJPcVJWRUJCVkZXUHlVWkFrYWt0ZVJ5OUZjclRkV0hNVDN2Y25Cb2NGWmlrbXhORDJxWnJaZHhibUxYZUllMDNxOHh0UVl0ZERyeXJSenNyNHA2b3JXT19OMEdQNHlHSmV6SndfOXN5dlE0eUZNY0c?oc=5",
-      "snippet": "Business Day",
-      "published": "2026-11-11T15:22:54+00:00"
+      "title": "Bon Secours nears $6B buyout of Surgery Partners, shares jump 21%",
+      "source": "Dealroom",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT3ZkQVlRRkliNW1GNWdTRVIwaXRjNUpuRnVmcFNYaFVtQThId2c2NXFiYnRESlg5NEVYZnlFTHZoTlRublU1Sy1jSkUyV2prcHFEUU5ORURKbm8tZ00xM09ZUDBZbTl1Rk9RQ2xwbUlRTkhBYlh0VjAxdy1ucmhuQVlpM0lQWEJESWY4Vl9nYU5KQ3dXU3hVME9oenA?oc=5",
+      "snippet": "Dealroom",
+      "published": "2026-10-26T13:18:53+00:00"
+    },
+    {
+      "n": 25,
+      "title": "Bon Secours Affiliate to Acquire Surgery Partners in $5.7 Billion Take-Private Deal",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaTJpajE3QnJDc0ZDSzNxdTJvLWVfcTdfajE5YlVHTGhtZnlhQkFhNV9qSURqMV9WTXNBX0lTal9HN1pxN0FySk5pMEd1bzFhTHBQYnhsaU10Vy1pTzc1bXVCanJtSDlmNjdEcEVDSE12WTVQbUV0cy1yeEh5bXg5akdmOVBwNXNDNURLa0JVb3d0ZWt0Y2xFUGc1bGluRnpqLWZObzk1NzdTRnRtUW9Fa3A3Q20yS3dRVnVGZVJkY2xYMFpDYW5KWC1R?oc=5",
+      "snippet": "WSJ",
+      "published": "2026-10-26T17:40:00+00:00"
+    },
+    {
+      "n": 26,
+      "title": "Bon Secours agrees $5.7bn takeover of Bain-backed Surgery Partners",
+      "source": "Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOWFQd2Z6N0dKS1ZaQ2Rwczd6ZzBTMEJRM0RVWGI1bzVjRjVIeHBNSkozZGhMejlGUE9kd0RXQ1JGYzdhbEdSSG5NRTB0aXRMdkNscnhPSnRoSHFmZDFRSldkM1pXTzRnclJlRFdOUk1QR1hXNTV1emtld0lOTEx0bnhLa2U?oc=5",
+      "snippet": "Financial Times",
+      "published": "2026-10-25T18:16:23+00:00"
+    },
+    {
+      "n": 27,
+      "title": "Bon Secours nears $6 billion takeover of Bain-backed Surgery Partners, FT reports",
+      "source": "WDEZ",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcENncmFrR3lNUVdhVzAxeU41VGZmN1Y4bml1ZWlicmptYTdqTnRtRjdEblRWMEFINEJJQl8zcFFRN0JqS2hLVHVocnY4N1huY05iQkdxYzM5Yzdtdm4zQzN3RXpJZVhFVVhVSEVaS1NYT3BBMjlqOWNoQkhVY3UyejZTakFoeG5FOE1qTVZZT3QyRXY1Ui1HSnRBT1pibklSTnhFM3hSVkNxMHRi?oc=5",
+      "snippet": "WDEZ",
+      "published": "2026-10-25T22:58:59+00:00"
+    },
+    {
+      "n": 28,
+      "title": "BlueMatrix Acquires Aiera for Governed Research Delivery to AI Systems",
+      "source": "Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdUFCc3ZPeFN2OV9iZzhLa2VCemlRamZfQjRJSUlqQTFGc3UyZENkLTM0SG9sWFBwRk5zcUZoSHVOQ1BhcTRIZEdGbGlxeEs3VDdWV0M4QWhoNkgyOWVzZHZxZTNPbHFsdzVMa2U5Q3lKTjMyQ2FrSGFvRG93UGthcENHVk5NZkRndW95YlBpYjhLWXJMazNV?oc=5",
+      "snippet": "Unite.AI",
+      "published": "2026-11-12T16:46:05+00:00"
+    },
+    {
+      "n": 29,
+      "title": "FSR Remedies Take Shape: Lessons From JD.com/CECONOMY",
+      "source": "Cleary Antitrust Watch",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUERlSmpuUnN5Mll4WFBRTl9nUzhoYkNuMkxoQm1qYXdfX3V4dUE5aktlM2YwR29wVFV2c1pRR2txbjYwMzAtSXduZEpENkMyQm54QVdGQjRRT3VVWG1VSW5RQXMtSVVxSm11VjFvTlNIT0IwdVlIMXpmTk1IR2R1a3pnV0dOY0VtQzdabXNZdlNYcEJCY0ZWb0NjQkNIbk0?oc=5",
+      "snippet": "Cleary Antitrust Watch",
+      "published": "2026-11-12T16:34:31+00:00"
+    },
+    {
+      "n": 30,
+      "title": "Herndon defense contractor Serco to buy QinetiQ U.S. for $292M",
+      "source": "The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcHpyOGJiMU5BaWRKY0doRk9JbjRBTGpEZzdaX280dGVjWWh3NU1QVWF6VC1yZ2lXejlIMWFWMkZBNTRyRzNIUzNoVkhkeDkwOXk1bFQ4VVRReHNBSU9jRXNka3NIaUs0ZGpRNkhRR0d5YlZfMFIyRnJiNkhkR1pSM1NrbFlNb1hscm1EeWVlajVVQVRj?oc=5",
+      "snippet": "The Business Journals",
+      "published": "2026-11-12T16:29:00+00:00"
+    },
+    {
+      "n": 31,
+      "title": "SpaceX-Tesla merger: 3 things to know about Musk's control and the deal's size",
+      "source": "qz.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9odWUxZmlWMzNMajBWYXZ6M3ZsWUVMMUM0dlh4WnVjN3ljZVhRM0laWm1vc2VPZ1g4N0xEOFhqbDVwQ00wdjBwSlVyV0dvTzdtdFktRndqMnBLUHVmcGNCdWY3N3Zlak9i?oc=5",
+      "snippet": "qz.com",
+      "published": "2026-11-12T16:26:58+00:00"
+    },
+    {
+      "n": 32,
+      "title": "United-JetBlue merger would ‘make sense’: David Neeleman",
+      "source": "FlightGlobal",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUWU1Y1l3SXlRaGJtampCcnRhWnBOcHI1R0Z3bDRvbmhNTWFTajM4LTNMUXVHckpzNVMwaWxzblJsazVJSmw1ZURaV1ZLMDNZRHJyZF94c2EzR2g2RklGd2hnMWhETUhYdHE0OVNYbjVjYmdEV2xKZExyNHRyLTdVRkRKa21wY1VyQVNLS2JDajI4UHBWTGRWNGNabGZFVjdWa0E?oc=5",
+      "snippet": "FlightGlobal",
+      "published": "2026-11-12T16:07:07+00:00"
+    },
+    {
+      "n": 33,
+      "title": "Shareholders Approve Name Change and Amended Articles",
+      "source": "TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTmZ3Ri1NWEQ5bDd0R2p1d21feThUVUh4aDR6UzlEMEdGVEphWUY4UnNsXzNTNFpmaUNKbTJ3U0RTNkNqVHFwNGM0M2VXdmVTZ21CNHdSWlh2NjJuSHZlbGNrQVNqSVZfMXJUV3RmZzVKd05LZERSM3VfdGU5NHR3aFc4M3lTV0RhaVYxQjUyQ2l4LVBkSTNkd2J0MUFGSkhNVEN2VnQyQms?oc=5",
+      "snippet": "TipRanks",
+      "published": "2026-11-12T15:58:00+00:00"
+    },
+    {
+      "n": 34,
+      "title": "A wave of acquisitions: European startups go shopping for AI, travel communities and last-mile delivery",
+      "source": "EU-Startups",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaVZUOG9HRmZyRmRyTG5ROEFyVF9xaG81aXhxbTZKd19GT0FZRnptRXNTZFYyeUh4MXpCTThxc2pDUmFYaFhlTlp3T1RRanFiY1NpeXpvR3EyenRvNnlVZjU4dDB0eXpTRmZFYmlNWWctVWF5YnBPNWxZNzhhNTgyZC1uTzZLQXRIbFpKQTIyT2FzVHhEQ0pyUGtUVlk1b3FJRDY0NTFLV3kybjlIWThFNzJQQWRGbXlyVWJjZkxVVGpia0RuRUtJNzhuUGI2TFZSR2FHbg?oc=5",
+      "snippet": "EU-Startups",
+      "published": "2026-11-12T15:45:02+00:00"
+    },
+    {
+      "n": 35,
+      "title": "Cretex Medical adds mold design expertise with second acquisition in five months",
+      "source": "Plastics News",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUkJOVGtiRGF1WmZGMUlCSkFmekdOQWFzLVl5Zkkzb3lMdDJsUTJ3NkRreHNFUmc0Y0F2dDhuZVpNLTZ1YmJMMFNYZDQ1VUtiZktfdE5tUURhb1lac08wU2RMSk02N0RYRlVWZ1NrUmhTUG5JTXlSbExPd3lvTV9NbTdR?oc=5",
+      "snippet": "Plastics News",
+      "published": "2026-11-12T15:42:00+00:00"
+    },
+    {
+      "n": 36,
+      "title": "GE Vernova agrees to acquire high-voltage grid equipment maker Trench Group for $9 billion",
+      "source": "Energies Media",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMOS1CTllRcVdNSFFnclZNdmZSQV9sREZBZmNUdXk0XzNBN1B0VzRDZWNDakhIX3RvaFMtY0lGVkNvTnpWMzFHeXZzUHo2NHI5TkY5ZnFmTDFKYm5pM3QydUtJUXV2d3ZtUmNr?oc=5",
+      "snippet": "Energies Media",
+      "published": "2026-11-12T15:19:49+00:00"
     }
   ],
   "cited": [
@@ -446,30 +584,108 @@
     16,
     17,
     18,
-    19
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
   ],
   "invalid_citations": [],
-  "example_prompt": "Deal: Western Union and Intermex.\nStage: Terminated.\n\nHeadlines:\n[1] Quartz, Nov 11 09:34 AM ET: Western Union ends $500 million Intermex deal over California terms\n    Quartz\n[2] Business Wire, Nov 10 11:45 PM ET: Western Union Announces Termination of Agreement to Acquire Intermex\n    Business Wire\n[3] Quantisnow, Nov 11 06:36 AM ET: Intermex Rejects Western Union’s Purported Termination of Merger Agreement\n    Quantisnow\n[4] ad-hoc-news.de, Oct 15 11:06 PM ET: Intermex starts a new 30-day review. Western Union deal affects International Money Express stock\n    ad-hoc-news.de\n\nWrite the subheading and sentences.",
+  "example_prompt": "Deal: CD&R and Global Payments.\nStage: Terminated.\n\nHeadlines:\n[1] UA.NEWS, Nov 12 12:50 PM ET: CD&R and GTCR abandon talks to buy Global Payments — Channel NewsAsia\n    UA.NEWS\n[2] Yahoo Finance Singapore, Nov 12 12:42 PM ET: Global Payments falls 9% as CD&R, GTCR abandon takeover talks\n    Yahoo Finance Singapore\n[3] Traders Union, Nov 12 12:25 PM ET: Global Payments buyout talks put on hold as CD&R, GTCR step back\n    Traders Union\n[4] Financial Times, Oct 30 12:27 PM ET: CD&R pursues buyout of $40bn payment processor Global Payments\n    Financial Times\n[5] The Paypers, Nov 02 04:25 AM ET: CD&R and GTCR reportedly explore take-private deal for Global Payments\n    The Paypers\n[6] Crowdfund Insider, Nov 04 09:15 AM ET: Private Equity Firm CD&R Explores Take-Private Of Global Payments In Potential $40B Deal\n    Crowdfund Insider\n[7] Yahoo Finance, Nov 02 07:02 AM ET: CD&R explores potential take-private deal for Global Payments – report\n    Yahoo Finance\n\nWrite the subheading and sentences.",
   "retrieval": [
     {
-      "deal": "Western Union / Intermex",
-      "query": "Western Union Intermex acquisition merger deal",
+      "deal": "CD&R / Global Payments",
+      "query": "CD&R Global Payments acquisition merger deal",
       "hits": [
         {
-          "n": 2,
-          "similarity": 0.787
-        },
-        {
-          "n": 3,
-          "similarity": 0.769
+          "n": 4,
+          "similarity": 0.813
         },
         {
           "n": 1,
-          "similarity": 0.767
+          "similarity": 0.753
         },
         {
-          "n": 4,
-          "similarity": 0.747
+          "n": 5,
+          "similarity": 0.75
+        },
+        {
+          "n": 6,
+          "similarity": 0.743
+        },
+        {
+          "n": 2,
+          "similarity": 0.739
+        },
+        {
+          "n": 7,
+          "similarity": 0.73
+        }
+      ]
+    },
+    {
+      "deal": "Installed Building Products / Old Dominion Group",
+      "query": "Installed Building Products Old Dominion Group acquisition merger deal",
+      "hits": [
+        {
+          "n": 10,
+          "similarity": 0.88
+        },
+        {
+          "n": 9,
+          "similarity": 0.845
+        },
+        {
+          "n": 8,
+          "similarity": 0.812
+        }
+      ]
+    },
+    {
+      "deal": "Apollo / easyJet",
+      "query": "Apollo easyJet acquisition merger deal",
+      "hits": [
+        {
+          "n": 12,
+          "similarity": 0.811
+        },
+        {
+          "n": 13,
+          "similarity": 0.808
+        },
+        {
+          "n": 11,
+          "similarity": 0.799
+        },
+        {
+          "n": 14,
+          "similarity": 0.753
+        }
+      ]
+    },
+    {
+      "deal": "Hancock Whitney / Trustmark",
+      "query": "Hancock Whitney Trustmark acquisition merger deal",
+      "hits": [
+        {
+          "n": 16,
+          "similarity": 0.881
+        },
+        {
+          "n": 15,
+          "similarity": 0.878
+        },
+        {
+          "n": 17,
+          "similarity": 0.845
         }
       ]
     },
@@ -478,97 +694,71 @@
       "query": "Williams Momentum Midstream acquisition merger deal",
       "hits": [
         {
-          "n": 6,
+          "n": 18,
           "similarity": 0.85
         },
         {
-          "n": 5,
+          "n": 19,
           "similarity": 0.825
         }
       ]
     },
     {
-      "deal": "Inovalon / DrFirst",
-      "query": "Inovalon DrFirst acquisition merger deal",
+      "deal": "Komatsu / Astec",
+      "query": "Komatsu Astec acquisition merger deal",
       "hits": [
         {
-          "n": 7,
-          "similarity": 0.756
+          "n": 20,
+          "similarity": 0.772
         }
       ]
     },
     {
-      "deal": "Diamondback and KKR / Five Point's 70% Stake in Deep Blue",
-      "query": "Diamondback and KKR Five Point's 70% Stake in Deep Blue acquisition merger deal",
+      "deal": "Bon Secours Mercy Health / Surgery Partners",
+      "query": "Bon Secours Mercy Health Surgery Partners acquisition merger deal",
       "hits": [
         {
-          "n": 8,
-          "similarity": 0.928
+          "n": 22,
+          "similarity": 0.829
         },
         {
-          "n": 9,
-          "similarity": 0.914
-        }
-      ]
-    },
-    {
-      "deal": "FIS / Ferris",
-      "query": "FIS Ferris acquisition merger deal",
-      "hits": [
-        {
-          "n": 10,
-          "similarity": 0.694
-        }
-      ]
-    },
-    {
-      "deal": "MSP Sports Capital / Centric Brands",
-      "query": "MSP Sports Capital Centric Brands acquisition merger deal",
-      "hits": [
-        {
-          "n": 11,
-          "similarity": 0.757
-        }
-      ]
-    },
-    {
-      "deal": "Heritage Holding / Nashville Sheet Metal",
-      "query": "Heritage Holding Nashville Sheet Metal acquisition merger deal",
-      "hits": [
-        {
-          "n": 12,
-          "similarity": 0.807
-        }
-      ]
-    },
-    {
-      "deal": "Nelson Peltz / Wendy's",
-      "query": "Nelson Peltz Wendy's acquisition merger deal",
-      "hits": [
-        {
-          "n": 13,
-          "similarity": 0.814
+          "n": 23,
+          "similarity": 0.801
         },
         {
-          "n": 14,
-          "similarity": 0.81
-        },
-        {
-          "n": 15,
+          "n": 24,
           "similarity": 0.795
         },
         {
-          "n": 16,
-          "similarity": 0.794
+          "n": 25,
+          "similarity": 0.795
+        },
+        {
+          "n": 26,
+          "similarity": 0.782
+        },
+        {
+          "n": 27,
+          "similarity": 0.77
+        }
+      ]
+    },
+    {
+      "deal": "BlueMatrix / Aiera",
+      "query": "BlueMatrix Aiera acquisition merger deal",
+      "hits": [
+        {
+          "n": 28,
+          "similarity": 0.798
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 190,
-    "headlines_new": 91,
-    "index_size": 2547,
-    "deals_found": 34,
+    "headlines_fetched": 206,
+    "headlines_new": 107,
+    "index_size": 2519,
+    "deals_found": 43,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19

@@ -189,6 +189,13 @@
    "found": 34,
    "new": 7,
    "cumulative": 146
+  },
+  {
+   "date": "2026-11-12",
+   "shown": 8,
+   "found": 43,
+   "new": 6,
+   "cumulative": 152
   }
  ],
  "deals": {
@@ -370,8 +377,8 @@
    "acquirer": "Williams",
    "target": "Momentum Midstream",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-11",
-   "stage": "Rumored",
+   "last_seen": "2026-11-12",
+   "stage": "Announced",
    "value": "$5.5 Billion",
    "usd": 5500000000.0
   },
@@ -1099,8 +1106,8 @@
    "acquirer": "CD&R",
    "target": "Global Payments",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
-   "stage": "Announced",
+   "last_seen": "2026-11-12",
+   "stage": "Terminated",
    "value": "$40bn",
    "usd": 40000000000.0
   },
@@ -1535,11 +1542,63 @@
    "stage": "Announced",
    "value": "$1.4 Billion",
    "usd": 1400000000.0
+  },
+  "installed building products|old dominion group": {
+   "acquirer": "Installed Building Products",
+   "target": "Old Dominion Group",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "stage": "Completed",
+   "value": "$698 Million",
+   "usd": 698000000.0
+  },
+  "apollo|easyjet": {
+   "acquirer": "Apollo",
+   "target": "easyJet",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "stage": "Pending approval",
+   "value": "\u00a35.7 billion",
+   "usd": null
+  },
+  "hancock whitney|trustmark": {
+   "acquirer": "Hancock Whitney",
+   "target": "Trustmark",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "stage": "Announced",
+   "value": "$3.2 Billion",
+   "usd": 3200000000.0
+  },
+  "komatsu|astec": {
+   "acquirer": "Komatsu",
+   "target": "Astec",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "stage": "Announced",
+   "value": "$75M",
+   "usd": 75000000.0
+  },
+  "bon secours mercy health|surgery partners": {
+   "acquirer": "Bon Secours Mercy Health",
+   "target": "Surgery Partners",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "stage": "Announced",
+   "value": "$6B",
+   "usd": 6000000000.0
+  },
+  "bluematrix|aiera": {
+   "acquirer": "BlueMatrix",
+   "target": "Aiera",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "stage": "Announced"
   }
  },
  "totals": {
-  "deals": 146,
-  "with_usd_value": 73,
-  "usd": 624738700000.0
+  "deals": 152,
+  "with_usd_value": 77,
+  "usd": 634711700000.0
  }
 }
