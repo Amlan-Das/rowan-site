@@ -196,6 +196,13 @@
    "found": 43,
    "new": 6,
    "cumulative": 152
+  },
+  {
+   "date": "2026-11-13",
+   "shown": 8,
+   "found": 24,
+   "new": 6,
+   "cumulative": 158
   }
  ],
  "deals": {
@@ -862,8 +869,10 @@
    "acquirer": "SpaceX",
    "target": "Tesla",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "stage": "Pending approval"
+   "last_seen": "2026-11-13",
+   "stage": "Rumored",
+   "value": "$1.5 trillion",
+   "usd": null
   },
   "centrus energy|westerman acquisition": {
    "acquirer": "Centrus Energy",
@@ -1565,9 +1574,9 @@
    "acquirer": "Hancock Whitney",
    "target": "Trustmark",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "stage": "Announced",
-   "value": "$3.2 Billion",
+   "value": "$3.2B",
    "usd": 3200000000.0
   },
   "komatsu|astec": {
@@ -1594,11 +1603,57 @@
    "first_seen": "2026-11-12",
    "last_seen": "2026-11-12",
    "stage": "Announced"
+  },
+  "samsung|modine": {
+   "acquirer": "Samsung",
+   "target": "Modine",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "stage": "Rumored",
+   "value": "$5.6 billion",
+   "usd": 5600000000.0
+  },
+  "tensor|rain": {
+   "acquirer": "Tensor",
+   "target": "RAIN",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "stage": "Announced"
+  },
+  "ardent health|boone health": {
+   "acquirer": "Ardent Health",
+   "target": "Boone Health",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "stage": "Announced"
+  },
+  "red sox|jake bauers": {
+   "acquirer": "Red Sox",
+   "target": "Jake Bauers",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "stage": "Announced",
+   "value": "$58 million",
+   "usd": 58000000.0
+  },
+  "ep group|fnac darty": {
+   "acquirer": "EP Group",
+   "target": "Fnac Darty",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "stage": "Announced"
+  },
+  "hall chadwick acquisition corp|reecycle holdings inc": {
+   "acquirer": "Hall Chadwick Acquisition Corp",
+   "target": "REEcycle Holdings, Inc.",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "stage": "Announced"
   }
  },
  "totals": {
-  "deals": 152,
-  "with_usd_value": 77,
-  "usd": 634711700000.0
+  "deals": 158,
+  "with_usd_value": 79,
+  "usd": 640369700000.0
  }
 }
