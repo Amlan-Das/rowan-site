@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T19:15:16+00:00",
+ "generated_at": "2026-11-14T00:51:19+00:00",
  "model": "llama3.2:3b",
  "lookback_days": 7,
  "desks": {
@@ -11,124 +11,157 @@
      "items": [
       {
        "n": 1,
+       "title": "Construction Prices Remain Flat in October, Steel and Copper Costs Surge",
+       "source": "Engineering News-Record",
+       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLUptNFpDdXVpNHpiQlMzNFhjeDlxV1FDbkplOTBIYk1lRGFFRG9CNG0yaUktdlhhTm9CY1M3eFBuNm8wUnlPUUZxVTJzaEZZMWdfb0dpZWFqQ0ltMVVCeng2b2VaSjlZOHFVRW1IQnl5MFFUUGMxcV9SVERWc2V5SE1tZ0o4NGJvSU1HYkpXY3lQODQ4TmdfQWJBY3dINnBmTHI5TnEwQTNjUQ?oc=5",
+       "published": "2026-11-13T17:36:23+00:00"
+      },
+      {
+       "n": 2,
        "title": "Copper Prices Hit 5-Month Low Amid AI Fears and Fed Rate Hike Concerns",
        "source": "KuCoin",
        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPT3lENkl6QVlRVUVYNTFwdVJjXzd3Ty1PWW80SHd3blhjRFYzYWwyZFFSOTRYZjdpbkw2dFJaY3pvWUJGNXBDN0t2c2x4ZmRQelFSeldsenB2b2I2T0toWWxzQUpjU3dEUDFFQS0zNDlVRl9RaHo5TWw0cE03TV9sanEwb3hVbVcxWHk4Rzl4ZjJCNWRuN3pVSnNVYUkwUzdDNXZha2xMUQ?oc=5",
        "published": "2026-11-13T14:43:27+00:00"
       },
       {
-       "n": 2,
+       "n": 3,
        "title": "Copper slides to fifth straight weekly loss, worst stretch in nearly two years",
        "source": "TradingView",
-       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWjY2VDFiMWdhOHAwM2hRMHdOd3YwQVg3YmttT0J2WnNtUnlUa0ZfeVZSd21ZZ09LMGhzdWphb3JnWmE2S3JWemNoazlqRzR4YjBFbTVOV1U5bEZaSG9WR1MtaU9Mc0l1c1E0MVNORlV4bkhNdTVEUHpFMmVDekZsVFYwcVQway10bnhfdW04Q096TDh6S3lOSEh3azhfUlV2N1VtcVIySHV2emFiMjFGVHNpOW50VFUwSU9RSnFqOFAwLUhZOG9MX3ZvckM1MlpteUJlVmloSQ?oc=5",
+       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQaGNLeWVTSEhfOUlvTlIzYTR5LS00WUljcEJxNmp2MFktcGpzeU5Ua0Z2X1pIdTJaZVdhcUQ4eHBaWDBQTTJpM3dJd3NROXE4QTNsYWZVQkZvRmNXQ2JNaDRuUjNNVC16b0p4YUZOWGRFQUlQckJqNEl6VEpqLTZ6ZERJYjNNMDBiWkJ2eXZDVDVITDM2RFBwT3ZodGVHY1J0dy10cEVqVEo4Vi1XSklMVlRuY09lbVcyTnd3dGdnN25zX2JVbjNIeHp1aEhqLXlENnRKVGlqTnlsbDZxT2dfcjN4cFFOQ3E0RnppRnJkQUY?oc=5",
        "published": "2026-11-13T13:36:21+00:00"
       },
       {
-       "n": 3,
+       "n": 4,
        "title": "Goldman Sachs flags risks to $15 400/t copper price forecast for 2027",
        "source": "Mining Weekly",
        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUjl6UU9RalJsbWhDMGJEaTFOZF9kU2hmWmFpNHhXLWtSekdYcUk1bUVhR2xUX1A5cDZLbExfcmJzVV8zaUhkMl9kR0U2aDBEU3FfVkZ3cDAzblFNa3RObW11NUZjQUNhVEw4bFNjYklPV2szVE5IWTFQc3JuRDJmU2ljZlJvaE90cWlkWDlaYVFIRmQ0cTJNUWkxRVVqLXNYbTd3V0prdlFrTWZvcDRVYmRnZ1hIZw?oc=5",
        "published": "2026-11-13T06:35:00+00:00"
       },
       {
-       "n": 4,
+       "n": 5,
+       "title": "A Shortage of Ore is Causing a Pricing Revolution in Copper",
+       "source": "Bloomberg",
+       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVm5KejJnMmR0Mm1Icl9Fb0pqSGd4TkU5dE1MbGRBZmFKU05yT3VkZ2J2TFUwbWlvenFWaDNac2FhandsWnRjcmFNbmtnVml5NTh6SGNtaUZYRTNlWFlmaG1WaTdRa2FmNGU3V1huRnA1NHc3MHg4eUFTeUgwRVNjcVc4RFE4a29uSlJ0c2IxWlBpbHh1Z0lma2pUQVdkenM4YmVjQTFHYUdUMFVncGMw?oc=5",
+       "published": "2026-11-12T20:51:44+00:00"
+      },
+      {
+       "n": 6,
        "title": "Copper hits four-month lows; focus on demand, AI and US rates",
        "source": "Kitco",
        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZHlyS0pETGxsaWhiejA2VFFjVUhrYWd2Mk5LajlyUkhCdkpLMHdmLUE0NVhUb3M4RTRZX1VIX0JaeG8xcXdlYlZwZnkyOHNzcmFqUjhQNHVjT1lITzExNzVwalhrLTd2RmxGcDN3cklVanRmZVBtcDhra3plb2FFZW1GMDZySVlZcXpxemNBQ21mcTNkc2ptc2Q2YTktR0dXZHpIa0tiZkt6OG8?oc=5",
        "published": "2026-11-12T19:16:37+00:00"
       },
       {
-       "n": 5,
-       "title": "Copper Mining Waste Reveals Potential Source of Critical Raw Materials",
-       "source": "AZoMining",
-       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXV01zaGM3Q1pNcmFMMEs4ZjlObWJMZGozRE9tOE00eXNfX1c1Mk5qZ0hXMVNkbFlhY213QTZyYnBTN1VCQkNQWFllanI0VmVucFJ1OVhiMmJLdU1Z?oc=5",
-       "published": "2026-11-12T14:23:00+00:00"
-      },
-      {
-       "n": 6,
+       "n": 7,
        "title": "Copper rebounds as tight Chinese supply offsets demand concerns",
        "source": "Proactive Investors Australia",
        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdHMyQ0VQSWZkYkVUaUhBSV9kUnJnZ1g5NHUtdlJZOVRPampRSlY2UWVPYjRPQ0dDQm5fN0dGNnhnT0RQRnZ6b0VuN2tlS3VKbGxRbExQc2FPRzRlUV82eVpCMEhoaGY0MmlWNFRKak9IbXQxRzNiM0F1OFNXNWd0V1J5WGhpR1VNSFFuYmFMeG0tQmRndlNjQksyNUc3RkVveE1CQkh4SEI1a244ejJKUFNB?oc=5",
        "published": "2026-11-12T04:19:51+00:00"
       },
       {
-       "n": 7,
+       "n": 8,
        "title": "Premiums Stabilize as Restocking Demand for Copper Cathode Emerges in North China [SMM North China Spot Copper]",
        "source": "Shanghai Metals Market",
        "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPaEJaX0N4XzVZVWswTGpubUt3WlpLWmJJQ05kT1pXd2RsRlVPcVFxTjVaZGxsUnI2dXh6b2o3dWNFRUcyOHh6YnM0aW1VRldLREtDcFVFYnZpcnJ6QmE0aElVU0tMelFnbmdJd2MtM2lrVnIzTkV4ZHdhbms0bFdvcUY4Zmtkb0owdmx4WnQ4ZTJxNFBjdXlQcExmcXV0TldKdVhYMzNxOTdNeG45NzBRQVMwQnNFa21XYXczeTN5eXpyMUpUTjNlWFQzcXJVTXVPMW9VZGNXLXBZbEZjNjg4Q3J0VHhveU12NFZGSmJfZlVpdFVBaXZtVmNoNU5sWTYtM0VZWERGREVjenRuSUFaa0RR?oc=5",
        "published": "2026-11-12T03:26:00+00:00"
-      },
-      {
-       "n": 8,
-       "title": "AI concerns ease, copper prices close higher overnight [SMM Copper Morning Comment]",
-       "source": "Shanghai Metals Market",
-       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa0IzbmhxdDQ4ZGRyS3E3czlNSVZMaE5IRFlJQXloM0FaM2RjRHdoMnNoV3JQbkszY0RWVnQ1bWhJS0QtNnZfaFU3TGhTMGhNZ0J4eEJDLXZITGw1SDFZNTJmUUF6ZEc3NkNiUEFsMHdjMEQyRDhoWllHalBXU2Q0SjY4bDZFX2NEY1ppTDRsNDk0S3NwZW9mNHFoLUdqcGxLdnFwYlRqQjBnQVJPejUtbFJZU1ExNks4Q0JhT0lBenB5VFB2Zk53QjZNU19yWVJRc0N2djRFQW81LUJ2Sk5TRno2RTFuVzVxMVFn?oc=5",
-       "published": "2026-11-12T01:39:00+00:00"
       }
      ],
-     "summary": null
+     "summary": {
+      "headline": "Copper Prices in Flux",
+      "sentences": [
+       {
+        "text": "A shortage of ore is causing a pricing revolution in the copper market.",
+        "sources": [
+         5
+        ]
+       },
+       {
+        "text": "Goldman Sachs has flagged risks to its copper price forecast for 2027.",
+        "sources": [
+         4
+        ]
+       }
+      ]
+     }
     },
     {
      "label": "Gold and silver",
      "items": [
       {
        "n": 9,
+       "title": "Central Bank Gold Buying Surges 42% as Prices Dip Below US$4,000",
+       "source": "Streetwise Reports",
+       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORklGZ0xpd2dxTXk1bW5aRnNpOEVmeU5pZ3lYZ0JJUWdTQkwwMWl2eVJtWEdFcGZHcWx6VG9BcnE0QlJuem1pWXhLenNNZURERDFzdWZtY1FqMEw5THo4S1oxZHBrSGxkWmNQeFNheWtjUGdWUm1PakQ4NjBaQWpNM0E0dVVTZE5jRkxaV2V5RVZfN09lZUYxblFrSzB6c2l2bUJzUUhDY1ZaOWR4NnJhS0dfdW94c21PT2N2UXlR?oc=5",
+       "published": "2026-11-13T18:17:35+00:00"
+      },
+      {
+       "n": 10,
+       "title": "Gold Price Today | Price of Gold Per Ounce | 24 Hour Spot Chart",
+       "source": "Kitco",
+       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBnU2dTNUduLWh4WmxVQy1ndS1jN01abVlCeTNTMnFMbFdmS1d6TnFCekxTZVlXNGtKdnNRN3plT00yZm5LQmh6Rg?oc=5",
+       "published": "2026-11-13T18:02:24+00:00"
+      },
+      {
+       "n": 11,
        "title": "Equinox Gold Stock: The Post-Merger Cash Machine Has Arrived (NYSE:EQX)",
        "source": "Seeking Alpha",
        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZXM5TWFiQ0Nlc1FIc2Ewc2lEUld0M2VhRUlNaXoyVXdEZUxkTkI5cDhPZGwwd0I4dU15TVdkTC0zdWJndHpUaFBHR0x4SWNwRndHdVl3NU9QV1FkTWdRRkdDaHhQZHpicjljMkU3Y0lEUTFKQU9nRGNSMWRaZHljdFdnVm9icU1sVXhJZFRmU3lRaGo3ODRsRVR1R3JjdUsxT29sMFNfUUFVNy00N0RNX3ZqTQ?oc=5",
        "published": "2026-11-13T12:44:26+00:00"
       },
       {
-       "n": 10,
+       "n": 12,
+       "title": "Gold price today, Friday, November 13, 2026: Gold's down over 4% in the last five days",
+       "source": "Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNLVRObm1EUEJJdTdaTm1Vd1pYTS1pZjJaLTRJY1JKWlltRl9jalhnZ3d3NmNHdGNUVHVfUmhUYVE0dTg4QjdCd28ybUhZS3hWeFlreXlBNDdaazdmazU1aU9sdWtFd09wWThuN0lWQ0xPZ3l5YU9fSWZjY1NBNDNvUVlHUDQxazF0UUVQT2dhSFlmZkRKam1jYkcwalpqUHBYOTBZS25LbVJ0R0x5UGJiZEJKOUxCYjZOZUJ3NjRxenJkNEdDaElaM1JnMHNaVWN3TVRkRVlqV2hLTUlTRWdKVnR1ZHp4M2xDUjZnVw?oc=5",
+       "published": "2026-11-13T12:38:41+00:00"
+      },
+      {
+       "n": 13,
        "title": "Kinross Gold (NYSE:KGC) Fits the GARP Screen for Growth at a Reasonable Price",
        "source": "ChartMill",
        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY0dpOE54RmZUODJ0dHVsc25GQWtwbENOYkJVZHVDSUg4LUlRTHFsUnNobXFmZjRINEQ4RTBvTGlQM0ZNVXk4YXpaeWxBaGZCdnZrLTFCRTQ0U2JQSzNacl9vc0prbVhFUTdLaWVfd1p6d2VxVnN2djI5N19UejUyUVNkZTlXZDQ0em9wMUNtS2twQ0x4empPbTVMdl9seXVkMmFoUmk4MHlYMFdpX1U5TVFKVGFKVkFHRlNrOWx6Mm1ZVzQ?oc=5",
        "published": "2026-11-13T12:31:06+00:00"
       },
       {
-       "n": 11,
-       "title": "Gold Price Today | Price of Gold Per Ounce | 24 Hour Spot Chart",
-       "source": "Kitco",
-       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBnU2dTNUduLWh4WmxVQy1ndS1jN01abVlCeTNTMnFMbFdmS1d6TnFCekxTZVlXNGtKdnNRN3plT00yZm5LQmh6Rg?oc=5",
-       "published": "2026-11-13T12:21:17+00:00"
-      },
-      {
-       "n": 12,
+       "n": 14,
        "title": "Gold and Silver Price Forecast: Gold Hits 13-Month Low Before US PPI",
        "source": "FXEmpire",
        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbHlpSEo5LTR4RDVIZUhNcS0tZ0pOSGJFMFAwcXNrcW9JLTNZdS04X2JIQ004a2Z5S0txbWplMUFYelNtZk5CX1VaUzFDZG1PakJuVngwTEV2TVktVjY5aDNYcnhTZW5YVDhoOHg3ZXNUa1ZMdHE1WlRMNHEyVmR4a3VmR1N6S2tkMjNBR1ItaUNobGpObVFvZngwVjVwb29wS3F0LUNITkh3Y2JRUlkzZ1ZDMGZESXBUaFE?oc=5",
        "published": "2026-11-13T07:39:17+00:00"
       },
       {
-       "n": 13,
-       "title": "Rate hike bets keep gold on track for its worst week in four months",
+       "n": 15,
+       "title": "Rate-hike bets keep gold on track for worst week in four months",
        "source": "Reuters",
        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmtMVVBHZGEyX3I4eWRfOFQwaW8zUHZDNXg1N0UxbW9jX1lhdmpuRkpZZ2hDZUEyNzZCTktodzFxUEt3NWJtN0JkU2NUa1VRLUJwVGR1bjVDR0Npak1lbk9xLXhOVmI3Y1BMRGkwTXBRb3lNVE1wMFdFb1JQWXBucV9tbF8tclNrRm1FTTNhVnpjSTlfVndYbVdqaw?oc=5",
        "published": "2026-11-13T03:43:00+00:00"
       },
       {
-       "n": 14,
+       "n": 16,
        "title": "Gold Dec 26 (GC=F) Stock Price, News, Quote & History",
        "source": "Yahoo! Finance Canada",
        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCLWFGVVBHUGF5Q2c0b1o5UTFKT0M1RWtfQS14aDl1SDdPR2t6eHFLQnkzbWU3MFhGTHQ1Mk1tWmpjVk9zYWpvMGRKVUhmeFk0NFhoUg?oc=5",
-       "published": "2026-11-13T02:57:16+00:00"
-      },
-      {
-       "n": 15,
-       "title": "Fed Rate Hawks Crush Gold Price $150 to New 13-Month Low",
-       "source": "BullionVault",
-       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONHNlTHE4ZEI3YmxnQXFOaEl5TnVLVGpGZGR5Rkp3cWdSTTdCbU5rS2lJbFJqOUZvRFE3bTNtZkk5cXVDeFNsai1fNUluckNqMVhXVXgtZzNKd2F1cW9weXdxQVN3VXBWQ3pJYzlvRDRlRXprUG1uM3ZUN3k0ZGdzRm42RTJSSkZxZEZPOThpWmwyR05wZm5RVkR3?oc=5",
-       "published": "2026-11-12T17:46:45+00:00"
-      },
-      {
-       "n": 16,
-       "title": "VanEck Gold Miners ETF (GDX) Stock Price, News, Quote & History",
-       "source": "Yahoo! Finance Canada",
-       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Fckp0dmhDRVJhVGQyZ2FWMGtlMnNYdFRsckJtNUNkb0JZaEo5ZDVwRUNKMTdUTWNwRG51N1FndC1zTDZSV2JMaGNMT2NCTEtf?oc=5",
-       "published": "2026-11-12T13:58:04+00:00"
+       "published": "2026-11-12T22:15:29+00:00"
       }
      ],
-     "summary": null
+     "summary": {
+      "headline": "Gold Prices Drop Below $4,000",
+      "sentences": [
+       {
+        "text": "Gold prices have dropped below $4,000",
+        "sources": [
+         9,
+         12
+        ]
+       },
+       {
+        "text": "Gold prices have fallen in the last five days",
+        "sources": [
+         12
+        ]
+       }
+      ]
+     }
     },
     {
      "label": "Battery metals",
@@ -190,7 +223,17 @@
        "published": "2026-11-13T02:15:00+00:00"
       }
      ],
-     "summary": null
+     "summary": {
+      "headline": "Battery Metal Market Trends and Developments",
+      "sentences": [
+       {
+        "text": "Lithium prices have fallen by 23% due to supply risks, keeping the market volatile.",
+        "sources": [
+         17
+        ]
+       }
+      ]
+     }
     },
     {
      "label": "Iron ore, steel and coal",
@@ -218,17 +261,17 @@
       },
       {
        "n": 28,
-       "title": "CSN Minera\u00e7\u00e3o Q3 2026 slides: margins collapse on iron ore prices",
-       "source": "Investing.com UK",
-       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS0NycEdNUk1JT2tlXzl0dGpwSUh3QTYzcmY3RTRpRmI0ZGxyUDJBb0hyeU50TWRKS0Z3bzdNOE1zWTNjRmU4dWVpeFNtMzZ2em9NcjVMNGxsbmRncmh2NW1nTURBeF82ZVlCYjM0bGtLc0EwY0JiRlNlX0xJTm1uc0c4bG1iazE1NHdFd09MSGtJeXRsN2RKT2V3VVdvTU1vUDBXbjY2dExFdHpuaUZIRTB2Zm5xSjZlUWZjclQ1TzNacFk?oc=5",
-       "published": "2026-11-13T14:10:00+00:00"
+       "title": "Weak demand and export competition shape price expectations in the Far East steel market",
+       "source": "SteelRadar",
+       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOFdhWFVCdWxlTDNMUXBpZzNFNlBkU01MazBuTHIxcmh2OTlzMHM3SEV1NVBwVjBWMGwtb0VadWtLdFJXYnU0am5fcVFSbWhZb2RibDlTTUYwaG41NVRFRTlMV254MkFrTGhiWEx6T0YyY3hnUVZ5SnA2QnBxWlRXSVIxcXF2MWdMUERhd1dYclloSDVaZENjZUNaeDhzcG1VNjN1Nnh3bFoyMU1EX1FvQWZxS0hSaHNyWGFVMkNjbjJ3YTQ?oc=5",
+       "published": "2026-11-13T14:26:36+00:00"
       },
       {
        "n": 29,
-       "title": "Goldman cuts iron ore price target on China steel demand By Investing.com",
-       "source": "Investing.com Nigeria",
-       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbFJjSE9idFRXNWFUdWpzTnRtT2ZwRml5c3A4OGYxamVfclZtSEplZEM0d3dZZktrbV9lRGQ2U1R2cGRqTjBRblA2cFk4cllLb1VvYXZnYVk1VENaN2ZjMWxYWC1ULUxkOWpRQ0pXNE9BTWVVbHBkNldRX1htV3VESl95ejRRRHowQWY5ZHIxTHQ4QmZCb1ItZlBfRC1lcHQtS1dGZTNpeUlxdU5TMXRIbTB4RFBBbTUz?oc=5",
-       "published": "2026-11-13T13:22:11+00:00"
+       "title": "Goldman cuts iron ore price target on China steel demand",
+       "source": "Investing.com",
+       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMEl5TmxZUUo4dXpuaWo2bXU3bkotdGg0ZWtFOS1sODh1ODEzU01BUno1VUtRS3UyNlFkWnBTdmdZa3BMUEs1Z1E3ZjNQSE1Md2FSVHpZMVdaYXNHaHpoZDFMalV0YjVkSlpRekktczFwc1BOVUdKaEJqZmVXWlN0NVI3TkV4aU85M1JyaTRxODgyYmxpcUh2S0FLb0RhSmtZa2pHQnhuamFjTWVqX2k1eU13YjZOdHhS?oc=5",
+       "published": "2026-11-13T13:20:32+00:00"
       },
       {
        "n": 30,
@@ -256,10 +299,9 @@
       "headline": "Global iron ore, steel and coal markets trends",
       "sentences": [
        {
-        "text": "Iron ore prices and freight costs affect steel producers",
+        "text": "Iron ore prices and freight costs are affecting steel producers.",
         "sources": [
          27,
-         28,
          29
         ]
        }
@@ -285,45 +327,45 @@
       },
       {
        "n": 35,
-       "title": "SpaceX and Tesla merger talks advance as December announcement considered",
-       "source": "Proactive financial news",
-       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOYVh5NHVhN3NFdWhaQ28zRUpEUjBMclhVTXc5Y1Vma3dHZkUyeHlXTlhNVnJfMHdZMUg4d254TnBHUmhTT1VqTTR3ZjVFT00wbkV3WlVWTDBqdDVLQTZqbDhhR2xoenROenN1SGl1UVY0ZDRWTFppaUdUMWdmX0k3Q1hOaVl6M2pGSzJWV25qV093NzFrWW1reTVLRnhCSmpVWUg1WWNxMEVWRkpMTzdMd0VQOWVBeDBOWFV5V3lybl9NNG5ITHV6NHpwVXpzU3M4X2JaRU1yLTFXQzJ3?oc=5",
-       "published": "2026-11-13T15:21:00+00:00"
-      },
-      {
-       "n": 36,
        "title": "Angola Plans to Acquire 10% of De Beers as Anglo Exits Diamonds",
-       "source": "Bloomberg.com",
+       "source": "Bloomberg",
        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeVd4ZGpCbjhuTG9ROEVKeFlQVzVHZzA3V2VFbDVPQ0pEOTRMdG8yNGhNVWFnSm11alktQ0tpcUxTdmJxTFBCaDM0bk9vOUh5Wk5JcF9hRDd4YXh3RXNPQmVrNVZKdXdQOWw5bVBUVXF3SHBBS2JJQ21KVjd4UXFGUHBVNVRwTW5qcjVQMFNxWjYxMll1MTEydE5JZ1lhZG13Z0dLdnZuS2oxVTcydUM4U19IRQ?oc=5",
        "published": "2026-11-13T14:08:25+00:00"
       },
       {
-       "n": 37,
+       "n": 36,
        "title": "HSCS: HeartSciences amends 8-K on Fortitude Mining merger agreement",
        "source": "Quantisnow",
        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTkNzQnFralhaOVpuMFdZWGwxOTBlYWhCaFNJcTZCTDJtZmV1aWRDN09mNUh1UXJzT2RrRGViMkh3bkp0cGN0Y3poeEJQRlp4b0NuWjVnc1ZtOV9ZdGdBTDdfSlJsMGNWTFgyamluaDJndnNLRklvaGZnUDBidHZJVTY3MnRoWHdmNHA2dEdXSQ?oc=5",
        "published": "2026-11-13T13:46:59+00:00"
       },
       {
-       "n": 38,
+       "n": 37,
        "title": "Equinox Gold: The Post-Merger Cash Machine Has Arrived",
        "source": "Seeking Alpha",
        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPc3FMQzJhMDVZUVR6QmJSek9vcXE2SV9lTkJ5Z0pPcWV4cU9sRkItemhIQlZ2b2lNUEZocjZyU004YjNjMGRsMzAxMUZvZWhJOUpwLWpWcDE1eVkxd1ZkLTZ3SzRnY1RLczZOMWtUWm1SeTBZVFV1amZLTlNxSVBTaHE4V3gyZjItNVg1UHg3T21TQlo2Yzd3VVhR?oc=5",
        "published": "2026-11-13T12:44:26+00:00"
       },
       {
-       "n": 39,
+       "n": 38,
        "title": "Genesis\u2013Vault merger: mine planning and haulage implications for WA gold",
        "source": "Geomechanics.io",
        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYWE0SGQ4Q0Utb2ZlVUU3ajJjTGpYeHJ5eklCc3FFUXJvYzZSajFBTF9PeUJhd3kwYnl3QXA4VXBoekpmTnh3VHpzNFZMNnBJYWt6MmFNbWpQdGJJV0VRR0dUMmFzdlhwb29sTW5mVGhTWkY5WFB4ZFpIVjlJZGlvV29zR3BEOGQ1OHJvenlzX3MwMGpIandldjBvNENWNUNWa3d2VmpiaE5UUmZ6a0w1cg?oc=5",
        "published": "2026-11-13T12:16:48+00:00"
       },
       {
-       "n": 40,
+       "n": 39,
        "title": "Anglo American plc (NGLOY) Stock Price, News, Quote & History",
        "source": "Yahoo! Finance Canada",
        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA5dTNkVS1TM1hteEFTMXl0VzJhMEJkZS1SbGpvcW9lSnVHOG53VGRKc1NKRHY1eFpCeEdLaExLT1hwYS1VbmRJaHRkVmJXbV9kS0dV?oc=5",
        "published": "2026-11-13T11:21:18+00:00"
+      },
+      {
+       "n": 40,
+       "title": "\u2018Strong support\u2019 brings Genesis and Vault deal closer",
+       "source": "Australian Mining",
+       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMXRXUnNXdzdIVkw0ZDRUUFEtNkkwZFlsRVlhOWNUWkhiVmVMUUxRcG1TTERyMW13MWZ0czM1MWhhNXRYdnN5ZVoxTXA3ajl5YlBod014VEZfbGV2d0lIcVMzUW1fQ0Faa0NyS0xoc3YyTElJMjR5c0d6UFlhRWRoMTA3eWJMYjhMLUFwV0JDRFZSZw?oc=5",
+       "published": "2026-11-12T23:28:48+00:00"
       }
      ],
      "summary": null
@@ -333,67 +375,69 @@
      "items": [
       {
        "n": 41,
+       "title": "IRGC Says LNG Tanker Hit Mine, Exploded in Strait of Hormuz: 9 outlets compared",
+       "source": "NewsCord",
+       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTVZkUkN5c0FLVWtLMVNqYS1QWk5QOTkxZG9pRzFOcEFtVmNpODlJYkY2Z0ViZ0I0RDhySV95TVNtaTcxZk4tclZvLVQzNEUwWDJ0cEwxaGlGcDZMSk9pMV9OcEtPcWU2VFkzMUVsamh0QnI4XzVVeXVudnVHa055aC1VYTVUY2J0V2V4M3p3MjFqZW0ybFFfMGJpUnBfSE5fa09SNy1WVmJzbUcydDFzUS04MWxyRFItdDctWGhPQmRkYnFyR2Zublpuc1c?oc=5",
+       "published": "2026-11-13T23:29:05+00:00"
+      },
+      {
+       "n": 42,
+       "title": "DOE Chooses 16 Universities for Critical Minerals Prize",
+       "source": "National Association of Manufacturers - NAM",
+       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5JVEFOdU9yd0JZbGZXcUhCNnZGbk1sS0IxUFBaaXR5bWZpQ0xRNHBLQ0ZuWXpnMm05c2t3cmYxbDZpY0lOemxHQXgzUzN3RVd2MlpNbGYxQUgzSkZ3VC1SLUFOTTJ5UGNTYy00cWpJeVgzbWljOGNKMlBPbU8?oc=5",
+       "published": "2026-11-13T21:19:42+00:00"
+      },
+      {
+       "n": 43,
+       "title": "Press Release",
+       "source": "Mining.com",
+       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qOGJibEQ4MlNORnlNTlVzVm9PSG1XenpoWXdNZTRfX29adTluOF9yMTVNcklWNkRlRmFYS1pnLW1wYll5RUJZcjdQY0tYTHFIbE8ySGtkUEdDWXprSVR2aWprWm5HSGYwODN6cW1wYTVXZw?oc=5",
+       "published": "2026-11-13T14:00:00+00:00"
+      },
+      {
+       "n": 44,
        "title": "IRGC Says Gas Carrier Hit Mine and Exploded in Eastern Strait of Hormuz",
        "source": "https://houseofsaud.com/",
        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DYTBSZ2xBRWxRbE0xR0t4dzh1WFNhdzYwb2dncFVDRGRiUDZYYUs0blhtOW81YTVHYS1ZMjh5TWNmbDU1N3dnX0Y1V05tbURoWEloc3V1MXRCbHhIQUR3ZjBDZFo5WXV4VWZseUtiVUJNU3FRR2RaZg?oc=5",
        "published": "2026-11-13T11:51:33+00:00"
       },
       {
-       "n": 42,
+       "n": 45,
        "title": "IRGC Reports LNG Tanker Explosion After Mine Strike in Hormuz...",
        "source": "Jordan News",
        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaHB4NkFOYlJDOVJJTFUzM2ZuRXljb3VsYm1TWEQwOXlsVmFWVVZGUV9QLTFGem9mTklrSzY2c24xZGhLVUsxQ3Z3dXM3NTZzQld2MVNXd3kwSVlJVlRGSjVYRXpYUkNKeGJ6Q3ktc05lY0VMWDd0MUFySEstaWFKUTZNTjJkOXpramtDcFJ3eEFCVGw5UXB5TXRPdVZKUm8tQlVjZ0UxVXZKbnI1YUpTVWZfVE44Wm8?oc=5",
-       "published": "2026-11-13T11:24:25+00:00"
+       "published": "2026-11-13T11:26:34+00:00"
       },
       {
-       "n": 43,
+       "n": 46,
+       "title": "OR Royalties Q3 Earnings Call Highlights",
+       "source": "TradingView",
+       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNFRsX0F1NVZqd1c0dlI5bkFzenFHbFZzdGtTNlVIVW1LQ1ViZnJpRzBYQ0pKLVFkNDhPVnBKdGlnTVhRTnRrTHg3aFV6T3RuaU1FaU1fQVJUYnlSRjZDSkdhLXhRY1p1SmtVT0hkWnV5MkZ2RjNoMll4d2kxUmZTcVlUdW9ZNHJWSkhpcXdWcU9ocXVDN1JkY3hyTkN0RmVuUHBZ?oc=5",
+       "published": "2026-11-13T09:14:53+00:00"
+      },
+      {
+       "n": 47,
        "title": "Zacks Industry Outlook Highlights Fury Gold, Gold Royalty, Newmont Mining and B2Gold",
        "source": "Zacks Investment Research",
        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3diZlhEcF9Bb09YR2o5X1hqZlZGWENLNERnT0pFUEFiN0xjbWJQMGhIb3FRcklnSV8yX2Y3d1d4Nlhkek1rSmprdHdMRWNmXzRmVnhydnU3OUtMRk9rN2lUYkZQMHc0cmN4S3pFVnoydU1CTHdJSV9ORzNnTHRmYVdidUlMVXdSZEZFd0RkNWxUQVl5ZHZoM3hsblV6Rk9GU25iS1VTUTY0eklENWQxMFh2UmxhMGFtZ0hwZW9wN3U?oc=5",
        "published": "2026-11-13T07:23:13+00:00"
       },
       {
-       "n": 44,
+       "n": 48,
        "title": "G Mining Ventures Reports Third Quarter 2026 Results - Strong Free Cash Flow Driven by Solid Operational Performance; On Track to Achieve 2026 Production and Cost Guidance",
        "source": "The Manila Times",
        "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxQcklRYV9DOG5Mdm1aQXQzWWR6Q0MzYWhEMDBTZVZxS2tiNEZzd1FJd1hrbDRvMzY4dXQ5LW5FX1hITDdyM0lqU2tSZFZkZFdkZ3dON18zNEN5S0RRVzVBVkVka2ZPeWVhTkxOeW8xdlNFZVBqc3M4cVk3ZlBNSnFMZW1LVlVSZ0dMYk9iUjhnR1Y2RXhBWVhPX01PNmtnY0JsS0tBdzV3Vy0zSUg5T1JOMnJpREtGbzN1TDAwV2VnUFpoV1pQNzc3YTBlMk9sTWVqMW1rY0JuVUx1bmE1cGN3WXBESVY1OG5XdGNjN2lST3hlMVZLaDMtTk93MzNWRlpPNFJCSlZGZU9EcUtoMlZzQVo1eUF0V0xkUjREZERwNnZ0aF9TOFBka1VHX3dicTRQNGpRRXFVdlBzOHBwTm96YVpxenF5X1gzdWw5dkE1dXAyR19YX2FaZHl6UV9la0HSAeQCQVVfeXFMUC05bkFTQzlHc1k2cFptYXdsMmdhb2xJSndmakp6dURfVl9xQlJMUXdkSXk0blllR0dKZURPY1kxc3p1Ung3SC1IYVFibFpfdHVaREtZNnliVWkxWG5RLWpHOU9oUm1ndTU1LVJLTVBoRnVUTm90ZUJ4Zlh0eDZkb1hFemZzSHV4bGdBZ2d2S2tiTVFqUG9teDZ2RHFyTnI2cEh4eHcydEUyY3RSUElRTkZ4Y09pNVJkOXVyLUt2NmRVNGlOZWQySEtzX01xUmE1LTMyM1d4YWZleEhRMW5hMG9DV2o2bEdfaVl5dHZsMnFEc2I4aTRRbnNsOEk1a0lxdUtQTWxNa1U2MEVILVNzdzJjS3VfSGNVMXNndVBSc0p0SGNxdm5qczl0Z05nc0JPX2E0c1RKUEt3UGRvLVR0YzVQOVE4ZkEwWDBVZnBPZ1FyU3VJVFpCT2pSZlNOX0FsZ2F6aDU?oc=5",
        "published": "2026-11-13T01:46:31+00:00"
-      },
-      {
-       "n": 45,
-       "title": "Logan Lake businesses feeling financial strain as Highland Valley Copper strike enters 3rd week",
-       "source": "CBC",
-       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOEEtZWxYWTJucjhuSkxldVJHdG5yZ1ZWbHZkV0MzeDlNZW0xOFJBcUJvOFJTV0NHZ3U4VTBRd0NrY19yS0NsZDk4OGoyTFFwTG9mb04xenROaGxvMS1Hc3JRaU9LaE42SHlQQlFza1FoYXVOQ2hiRmx4MW5kSVFpcGF2QTk?oc=5",
-       "published": "2026-11-13T00:38:00+00:00"
-      },
-      {
-       "n": 46,
-       "title": "At a BC Mine Strike, Tensions Flare over Alleged Scabs",
-       "source": "The Spec",
-       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORlpPR3VSWkNWYmhoeWsxd09EYm15WnVYOUZqVnBHX3lob1pNdGtFVFFycUhXcDBsdkpGR1Qwd01vbE9STG51TURDcVdlREs3c1Q4eEFtZU45YjJiRlJOUDM2Q3ZRZm1wRHVPWjN5NlpmVDQ4ejJBOWZOM3RqYkVkVWM3RlQzcWMzYzlCZk1HUlZ5aHNmYnRGWGx2TUlMM3QtbnYxaEQ1a0h4Qm5UaGRmZ3FkZnRyaDZkeWM1cjZtMFY1QUQzaHBhRDRIb3Via1FjNVZNNkRB?oc=5",
-       "published": "2026-11-12T22:17:16+00:00"
-      },
-      {
-       "n": 47,
-       "title": "Integra Resources Matches On EPS, But A 17% Production Guidance Cut Exposes Florida Canyon's Leach-Pad Bottleneck",
-       "source": "Finviz",
-       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVVZxTHM2elduSGNzWmtXcENGZVlsYzNzbXFIR20xWkxRd1lFWkVabnItWHFGU2ZUS21FN0RiR3dZeGFFajlwNGZUelJuU1diN0dRY0FDQ0V2dUtSazZ4MXh1YkJaZFFzVlp3LUNwOVFxWnZKenpkTmlWVXNNX2p3MlQ2SHV5aDE4YXNhdkI5Zm1ZWXBZYTlScWtNNXlmWHhadEFzT2d0RFR6dnZSaUFyU1QtTkVfR3NKUXp3OUY2Sm5namlTV0Y5SVBoNENWSHlGSlN1NlJhd04?oc=5",
-       "published": "2026-11-12T18:16:39+00:00"
-      },
-      {
-       "n": 48,
-       "title": "Caledonia Mining's Gold-Price Tailwind Masks A Stalled Blanket Recovery, Forcing A Guidance Cut As Bilboes Financing Advances",
-       "source": "Finviz",
-       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPTkVKV25HTHV0a2lTYXpXQ3E0ZjBrY1ltUWdpOVEzV3U1LVg0UkVFcUlxai1yeFpxQ3p0REd6S1E0c2h3TjZkWmw5OGVHd2pzLS1zZWREbkR0STQ0SVU5LTh3ZjhRM05PcWY5a21UQ2ltVVJsdmZ0ZEpEeVZBRW93YlhSNjlPSTJ4STJBZW1fWGZaTTRSVVhhTkZBODJwVXFRaFdaZ1pVNjZPcFJMb2p0cXY5S29WSzR0MVd6VW5ZTWc5bHd1RlJwYWdXXzNQRGJsSXdWTkdYZzdxYlB3eHpKMEtoWi03YXRCWXc?oc=5",
-       "published": "2026-11-12T17:17:55+00:00"
       }
      ],
      "summary": {
-      "headline": "Mines and Labour Disputes in the Mining Industry",
+      "headline": "Mines and Labour in the Mining Industry",
       "sentences": [
        {
-        "text": "Companies like Highland Valley Copper are feeling the financial strain of ongoing strikes.",
+        "text": "A mine strike in the Strait of Hormuz led to an explosion and damage to an LNG tanker.",
         "sources": [
+         41,
+         44,
          45
         ]
        }
@@ -411,75 +455,69 @@
      "items": [
       {
        "n": 1,
-       "title": "Will Corn Futures price break above USX452.93 resistance as consolidation persists?",
-       "source": "Traders Union",
-       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVW1kQlRycENvazVaUmozRFhlVkdFQnVqR0NkYTJsMTA3d1VKWEhDeS1mUV9kXy1wdU0wSll0bW5FamItUHQ0eERjSXk0dmdLQjBWc0pkdkFoaUk1R3RwRndFaU80Q1NoRTZ5SDR5anVwY0NrSzlyWE5EdWtjM0RJWFhCWmZNYVlZZWFBNEVrX0tnT3hNQmc?oc=5",
-       "published": "2026-11-13T15:39:26+00:00"
+       "title": "Mexico demand sends corn export sales to marketing year high",
+       "source": "Brownfield Ag News",
+       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZUdJNFIwaTE5ZDNfUHF4aFJKd1Fnc29SYTZheHlxazdXRUJSelhZSl9wLW5lWkpsUnV5MEthSzJxNU5CX3AzNmJHUGlaemEzVmdpUnNITG1KdWZOak5NQzFDUWFOTndWaWJiZmxhQS1OWWVtTEFJdDc4VjVXVHBkaUVqQkZNZmhfQkpSNzR6RTRZRnZhZU5kNjNYQQ?oc=5",
+       "published": "2026-11-13T22:39:59+00:00"
       },
       {
        "n": 2,
        "title": "USGBC signs MOU with BioPower Energy, generating US corn demand",
        "source": "Ethanol Producer Magazine",
        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSWs1Qk80cEc2OHdlUUYtMi0yT3FhOEpyM2wyNUhSVG5JcWducG1ZaGx3TWVzMXZMaXJUc3FZSGdxaHVycklPVHQ0dDNkdkVOdzR4QUNyanV4b00xaExRb19kRzI3OHhVODFPcC1XWFh1cWxVeE4ySnBYWHVTeUNZYTdfdlprZVZ2cmNIN0FFb25GSnNWX3l4VDNvZjJCaWNf?oc=5",
-       "published": "2026-11-13T09:02:19+00:00"
+       "published": "2026-11-13T17:02:19+00:00"
       },
       {
        "n": 3,
+       "title": "Will Corn Futures price break above USX452.93 resistance as consolidation persists?",
+       "source": "Traders Union",
+       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVW1kQlRycENvazVaUmozRFhlVkdFQnVqR0NkYTJsMTA3d1VKWEhDeS1mUV9kXy1wdU0wSll0bW5FamItUHQ0eERjSXk0dmdLQjBWc0pkdkFoaUk1R3RwRndFaU80Q1NoRTZ5SDR5anVwY0NrSzlyWE5EdWtjM0RJWFhCWmZNYVlZZWFBNEVrX0tnT3hNQmc?oc=5",
+       "published": "2026-11-13T15:39:26+00:00"
+      },
+      {
+       "n": 4,
        "title": "Corn futures give back post-report gains as focus turns to South America.",
        "source": "CME Group",
        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTXNETW81OUlKeDNwSUtSM04zQXBMZ0VJVFlXNnJHMTlFWlZNaXVjWVAzeG9Odzd1VUItQWhWWUFsRm9Sa0xxVVd6MnZzTlFGSmRMOEI1clhyeXh3ZlpwSy1HaEppSWJqb282WTJfck9oQjRJTm16LXpnWFBwRFZ3Q3pCaHdBYlB0T3kxYVNjVmRrSFdLcDNKaHllN1BnSmF0WDVDZU5qS1gwNVNab0pvTDNB?oc=5",
        "published": "2026-11-13T08:13:06+00:00"
       },
       {
-       "n": 4,
+       "n": 5,
        "title": "Iowa Corn Harvest Falls Behind as Heavy Rains Leave Fields Saturated",
        "source": "AgroLatam",
        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUk5QOENJVm91YVlnUDdSbnVseWxFS3J4aGR6UjQtNTNTby1NWHEySWZGQ1hQajktaktFMWVHTm9pVEZ1ZlhaMzA4VkZnVG1CSVFOTGRUWUItWGtYemtEbmF1TnpwMGE3YkhNczUwM1BodGVUN1pRaHhwaFlsZklmd1NlczVibnIzM2x3VE1MUlhHWHk1dGZzdG9xZF9RNTFTX2ZvaGdjSmU3cDQ?oc=5",
        "published": "2026-11-12T18:20:52+00:00"
       },
       {
-       "n": 5,
+       "n": 6,
        "title": "Vietnam Demand Supports South Africa Corn Export Outlook",
        "source": "RFD-TV",
        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaUMxc2VRSGNTVy1Xb3R6a3ZpSXhBRlgxMnF3RElqSmZYUTdjX3Y1cWMyU3YwRkVOc3ZhaDVtdm1VWU5hNHRyY01mOHZ4UlFRcUlGRmUzZGIyLVR2TDdXY2pIR1M3clQtQkR6NWZ5NW5DZWZnb2pMTGxMWnJJQTgyV19QYl8?oc=5",
        "published": "2026-11-12T17:15:58+00:00"
       },
       {
-       "n": 6,
-       "title": "Will Corn Futures price break higher as oversold Stoch RSI hints at rebound?",
-       "source": "Traders Union",
-       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSl9tY1Q2LW5wWW5Ea3BLVmNrTnBKcUlGT2hnQ2xHaDk3OFAzYWxhQ2IySnNtVUtzVjN2YVNuTW5IMjJiQU5xVWNqVTEzbGRlZ0gtSU0xb3dpT19wNUhGM2VERm1pUWo5c3p3aU9wT012X3NuUzBuS19rWklMMTVFTG80Y3NuZzBPYXpDYmFsbG1OZw?oc=5",
-       "published": "2026-11-12T15:33:34+00:00"
-      },
-      {
        "n": 7,
-       "title": "BC-Corn Futures",
-       "source": "Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLU5Qay1tWDFpcEJ2MHdJLVNpelVSbUxXeHRMUzNoZkZRR2taS0Q4cVFpY2F0TUFVQjN4d0JHS1kyN2xHaEhZdXpNTkt4NFplMzJjRnFyLXV6dXZscUdYNmNOeVQ4STRiVHV2XzBjN2NFQ2NCZndaV0p4U0pBYTdtRG5tbldKTVZ3NEx2bHNn?oc=5",
-       "published": "2026-11-12T15:00:22+00:00"
-      },
-      {
-       "n": 8,
        "title": "Michigan farmer reports above-average corn yields as harvest wraps up",
        "source": "Brownfield Ag News",
        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcmM1WTJmOHhjQ3RCY2dQaWpJTzRXc2swb0lvZXprWWNPRWgxbFZYeGh2MFNpV29YM0QxVnBKbzVEVTFFVzNud3RBcjc4enluUHRmWVlqNjN0d1FJOFM0enZ3bm5lbTF4OVgtVVZPcl9aTmVieWY0YU9lV0ZSYm1IRmtlLVJIX0ZsaEZQcWtSeHE5SnY1YjlBSURIcmdyUm5nY2NxWjVZOA?oc=5",
        "published": "2026-11-11T22:00:31+00:00"
+      },
+      {
+       "n": 8,
+       "title": "Soybeans extend gains after USDA supply outlook cut, corn futures ease",
+       "source": "TradingView",
+       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOb21pb3VzeVg3REFQN0N4aU9fT0hWend2bFZEXzlkNGhHMUNJYkctUXMwRjFSMzRvZDVVLVVzSW5paVQ3T3JQQ1BtVFFyZGhwVGU2Z1hBQ3RfTDd1QXZfckR5V05talFuTHFyUmdZTDlTXzRYUmU0OWIyWkx1Z0pfbGtrWXJKRGNTam42Qy13ZWMwYktCemVZTElUZzFFbEFWa0piWUh0R3J0aENvS3pRNWhmRmtOeVRHcEtGcWRBcENEcFlvY3ZtMmduY0NPNkRBRlllVWxn?oc=5",
+       "published": "2026-11-11T20:16:01+00:00"
       }
      ],
      "summary": {
-      "headline": "Corn Futures Price Outlook",
+      "headline": "Corn Export Demand Drives Market",
       "sentences": [
        {
-        "text": "Corn futures price is being watched for a potential break above resistance.",
+        "text": "Corn export sales have reached a marketing year high due to strong demand from Mexico.",
         "sources": [
          1,
-         6
-        ]
-       },
-       {
-        "text": "Corn futures are giving back gains after a report focused on South America.",
-        "sources": [
-         3
+         2
         ]
        }
       ]
@@ -490,69 +528,68 @@
      "items": [
       {
        "n": 9,
+       "title": "Winter Wheat Emergence Remains Below 50% in Three States",
+       "source": "Successful Farming",
+       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY0dzR2tTMjF4MElrNHRMMlZDV3BpbUxzdkRNWXpRNXVQSHlseUR0WnVKS21CVWFDdXhieTAyTHZTZUZwLVE4UGxyQzNfRkxYUHRfclFqa0lOck9TRzRrS2JMUEJXT0JRSFJ6UUFBaVVtSkh4c0RISDZ2eUFISldCNUVyS0JFSy1zVHgzVA?oc=5",
+       "published": "2026-11-13T21:16:22+00:00"
+      },
+      {
+       "n": 10,
        "title": "Cargill, Andersons\u2019 Wheat Futures Class Deal Gets Court Assent",
        "source": "Bloomberg Law News",
        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdUJnSDlINTk3blZ1NWVuSXI4eUkyejh1UTFPd1A4dU9IVnZIeVlLTjNlV0dvSEYxbmhoZGVZWl9ZdkxjUTFnbWhXYVlDRlhpMzdXRF80UFZQNjI1RU9mMENfcjZ1dG1zRTRmcWdoSDZmWUJWYkVkV2JxWG5GVHVsWk45MHF5Y1pNUlpaUlg5SE9DV0UxNlkya2FFWEVYUkg2bzZuUlFDeDA?oc=5",
        "published": "2026-11-13T17:27:00+00:00"
       },
       {
-       "n": 10,
+       "n": 11,
        "title": "US Plains wheat enjoys generally encouraging start",
        "source": "World Grain",
        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdzVURGlqZGVhMU04RktmT0hZdVhscVVVczRVb0I4UEhYaFcyM2VZWm0zYnF1em5CY0huMXNMYVEyRjU5NnpKTHo1NWFyQmxIMnM3UjdkUTh1dGF4S09HWDR3NERqWXF6R2sxRmthbjhqR0FPRmV5ZFo1dENVOVRENi15VzFGbHE4MTFxWUxFajctR09rNkJGNg?oc=5",
        "published": "2026-11-13T12:48:36+00:00"
       },
       {
-       "n": 11,
+       "n": 12,
        "title": "USDA Reports Leave Grain Markets Moving Sideways as Oklahoma Growers Weigh Wheat and ARC/PLC Decisions",
        "source": "Oklahoma Farm Report",
        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVlZGclV3eUhMSlFmNXpWNmVqUmdmck1nRHc2eXFSV1dmN1c5MXZjaWNSaE9Mbm5ndHU3STl3dU1CbmYwSzFMdzEydXpZZkw3OW5QSUczSjRxMFZMVkx5X2R0c2JRaFBMTXFsX2RMcVF0anA3YjJGWUFYSG0tckdveEZJZzF3R015OWdtSEMxTkxZY1VCUHhGcThjQlRBT3hqM1NfZDJCWmNWdUVYcGo4VDdJWFZiYldOUjRVNXE1UGRYdUU0SXByR2VKZHhTeHdrZWE5ZFFHTjFQeEZCZllEcFRDOA?oc=5",
        "published": "2026-11-12T18:37:08+00:00"
       },
       {
-       "n": 12,
+       "n": 13,
        "title": "BC-Wheat Futures",
        "source": "Yahoo Finance",
        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRXRlZTBfZ2RRMlpzYk1WUTk2Z05HeTdsN1ZVbzVvQ2VXcGNQYVZCZHhiMURMZWlGZXZHd0NEWkZFMWsyeml4Zk5KOXVHcjJLUWMxamU1MHFpTlVITXJFa1pHY19IQ1hGQ0lnQWNQQ2FvaVdHc3hFdnFGSmkxaWRaZ2RKcktUbHV3RFRua3BRSQ?oc=5",
        "published": "2026-11-12T15:00:21+00:00"
       },
       {
-       "n": 13,
+       "n": 14,
        "title": "USDA raises winter wheat production outlook",
        "source": "Brownfield Ag News",
        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWHhvQ0J2dDgxMXN3Z3J6NHZGWk5hX2dtQ21KczhsUHd1TXVTX2FIV0ZtVWU0dVZPaFNTVnZicWJlTDYtMk9mc25RZ2txdlJsaEpQaEhNUjZWMHZob2lnVzZTalM3N0NlYnY0TzV3YzBBT0s4Z2N6akZUZEo1alZnaGlFVEY?oc=5",
        "published": "2026-11-12T09:22:16+00:00"
       },
       {
-       "n": 14,
+       "n": 15,
+       "title": "Soybean and wheat futures advance as corn retreats.",
+       "source": "CME Group",
+       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQzRwbXRSblNFdXY5V2Z5Ti1tNVdiUGxxeTkwR0Zld2Q3VU5YWXFGTVFNMmJGNjVsLUIzZllVcklxeW5xQVFWNENTWEVaWkk4V1VEQ1JRY2otVWNUUEJDYS1qSWpBYkFWdktFdV9JYmJKN1RxWnRMNVN3TEFjNkRvNzhTMmEyX21Wd1pQM09sOTZzMWxqVXpMd1hvMlBRV2xIcGtvRlpScFR1Tkk?oc=5",
+       "published": "2026-11-12T08:03:00+00:00"
+      },
+      {
+       "n": 16,
        "title": "Could 2027 bring a bounce-back for U.S. wheat growers?",
        "source": "Farm Progress",
        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcXNmT1pXRkpBQkZ4RVpZVE5TMXY5VDhBYTZmZElMUXViVGxUVnZGMENJVG9xZGhEVjBpNzNPWVZ2bHE5cWo0ZzBoQ1lFV1pBNlF1NExjZktiSWVkb2hQWmh5UTJnQjJ2cGJ2R3pfTDdDUFRZNkJ5RVNYUTRYR0UyTl91NWZmd1hWVjYxWmZYbHdvZw?oc=5",
        "published": "2026-11-12T06:10:07+00:00"
-      },
-      {
-       "n": 15,
-       "title": "Wheat and Soybean Futures Rebound as Corn Slips After USDA Report",
-       "source": "AgroLatam",
-       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSGl5d3BKVUZPQkY0RVllaHE4bWFlT1pKTnlwRE9PV2k4aHhOMDZacE1NLWF2V2MxejZYdnJ6WnlzS0RqbVpDMnZNQUZ2V1V4VDlrTGZFMlF1M1BXalc0LXN3WEYyeGNEWlQzVGlWaWpibDhvdjFDaDYydGV4U1ZBMDlxYXhDbEZwVjZPaU9iZk9oN3hiVEtwMnZLcWlmTF9FTG5R?oc=5",
-       "published": "2026-11-11T22:22:00+00:00"
-      },
-      {
-       "n": 16,
-       "title": "European wheat futures climb amid stalled shipping talks",
-       "source": "Investing.com",
-       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdk1tcjE5ZnFQc2ZwZTV4UmlCWEt0VXlMVWNlaVp0c3JyeEVSc3ZVSVZGNjNvanlGQzR6UUZacGtmdDJkSngtM0FhY0tfSjJac1ZRQmZKU1Fxak4yNTI2QUdJa3FMZDlLdEI3eDBBSThsVzlHdVo1Nks0NnFfNlZ0WVAta09zbkJVT1Y0Smx3ckxFUkNlay1ib2FXVk1JcFluWFZCX0IwNFh3cXNQTmY4eDdwMVNhS3dI?oc=5",
-       "published": "2026-11-11T21:58:32+00:00"
       }
      ],
      "summary": {
-      "headline": "Wheat Futures Trading and Market Trends",
+      "headline": "US Wheat Production Outlook",
       "sentences": [
        {
-        "text": "Cargill and Andersons have secured court approval for their wheat futures class deal.",
+        "text": "The USDA has raised its winter wheat production outlook.",
         "sources": [
-         9,
-         12
+         14
         ]
        }
       ]
@@ -563,68 +600,69 @@
      "items": [
       {
        "n": 17,
+       "title": "USDA Canola Basis Mixed Across Northern Plains \u2014 November 13, 2026 Report - News and Statistics",
+       "source": "IndexBox",
+       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeWJWLWo1bFB5RjJON3hva1FpY0JmZ19sOTQwNjlhUjdjenhxYURrdkNPVWltRVFmVlNORkhNTzdfdk5ySjJaamFTUUdXdlRjTjB1ZWJJOEExc3I4NEgzMmN6VHZ6LTFvYi1EZlVSb2std0I4b2hYTmo5SjF3czhIbXBkR1pSRlhGNFdvczBvcV9XV3VkeVVTaGRDSmJrMVliZmhNRWYybkFPUFoyRWc?oc=5",
+       "published": "2026-11-13T22:11:00+00:00"
+      },
+      {
+       "n": 18,
+       "title": "Closing Market Update: Canola moves upward, U.S. grains, oilseeds recover losses | November 13, 2026",
+       "source": "Canadian Cattlemen",
+       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNU0FfUTYwYU9rdU9sTTFhTlJMRmw2a21TcjRLU3R1QjBmN0o1S3BNRFlsd1ROMzVuelVhTVNVcU1sR3U0Wk1lOVg2WVNLM1lNV2xhMXEycjA0VVdVTks1dXVaYi11bC01VDVISDBzeHRSWXFTNUZ6a2ZfYVphUGl0czlTR1h0LUNDVVF0TjVNYjR1T0F5ZHpDUElndW53X3ZyZGpGMVpLbUZGOGtjQndibWhvUFNCdjdUOHJoMWVSZHFLUS1XRnhGYm85aXJFdw?oc=5",
+       "published": "2026-11-13T20:25:52+00:00"
+      },
+      {
+       "n": 19,
+       "title": "Soybean futures hit two-week high on supply concerns",
+       "source": "Investing.com",
+       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWHE1VkdraE5pcTNsZHJmTW04RUp0cFN3N3R6d1hydllrZHBtX1NkNFh4ME9zSjZrWUc1dVBHT2lrbjVtVDJwazFaUDdsZ2ZUOFlCcnJYLTZfQmQ2ZGhsek9RTGVfWllrV3RqMDd3NlBoUVJid0xzNDhqVFBpTEtNcjN6Z3hSYWRKSzlkc1F3akwtUUE1S1dtSm9rM1dfa2g2UzhnMFkyLVFQUmdEVHJLQlh3?oc=5",
+       "published": "2026-11-13T19:36:46+00:00"
+      },
+      {
+       "n": 20,
        "title": "Bunge, GDM partner to develop new oilseed options for biofuel feedstocks",
        "source": "Michigan Farm News",
        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdF80VTBacXVfQXRJckpoMHVDc2VEZnEtS0FfWWZYTFpwS0M3anJfZ2xMZVdDQnItNmhaVUVCQXdsa3JPS3ZvNlNualB5S3Zib0NSeWR6WndObG1kRUhralJHYy11d1NKckFJVmxwamhZM3JwQXJzRWtqQ3VfTDVjeEN5dmR2Z2ZydnJqMWdBbHEyeXBTQ2xhZTFNS3lIY3BBRnFLX0FBV0pqdEZZWHNjQ1N6UVA?oc=5",
        "published": "2026-11-13T17:30:01+00:00"
       },
       {
-       "n": 18,
+       "n": 21,
        "title": "Soybean Farmers Push for China Trade Progress and Removal of Remaining Tariffs",
        "source": "RFD-TV",
        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeGJiYWM0RDYteGVIVV9Jd1RTNWppRWVneU1SakU1NjJkcVd5MnZ2QldZZVZfWGtwakx1dExpbWZWdjFzTFM4TnBUWFNpei1DYW5pRTlFb1Q1TXVnT2FOMlNpLWRleEx2ODVRdkVRSUc2Z3ZnOXRucGllM1dsZXNQNmdvdTRIZXBDcG1lWUZNLTVMcWNxMk5MZHMxbWh3QjhiR2c?oc=5",
        "published": "2026-11-13T16:26:25+00:00"
       },
       {
-       "n": 19,
+       "n": 22,
+       "title": "Soybean Futures price consolidates near USX1,249 resistance as buyer support persists",
+       "source": "Traders Union",
+       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcGdIaDViNE1GTVY5ekVlZzUxYndrbFREVV9wTWt1YjRqcWtMNVFLY1dzR3dZWTA3Tkp0YlpmLUMwb19LeW1LOXBuNWpNSmVHUDM2TEJwRXVNd0E2SFkyeDFjWjh2RzhCaXlTNFZGVjFuRXJTbmdGRk5scUVyOWNERm9rY0pCUExCanFvZjlqaUVlMXlGRVE?oc=5",
+       "published": "2026-11-13T15:28:25+00:00"
+      },
+      {
+       "n": 23,
        "title": "Crude oil price falls as peace hopes grow; oilseeds hit",
        "source": "The Western Producer",
        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeVZWbXFjU1ByRWhsRVI3ZnhkN0VZUkxwRjlRSnVYdmNEUEpPWnY1SlZoUktCWlZpUWJHVEU5cEV2dmQ4NU9uSF81NVhkREVUSHFZOHJ0alhaMmhpbVVrWVFrRmFqM3g2emQ1R3hNMkM0dHFoQU9BS1NCU0E3Y0p2M2xrUEozVTY4MHF0dkxQNVYwdw?oc=5",
-       "published": "2026-11-13T11:53:52+00:00"
+       "published": "2026-11-13T12:25:29+00:00"
       },
       {
-       "n": 20,
+       "n": 24,
        "title": "South Africa expands canola acreage nearly twelvefold and becomes a net exporter",
        "source": "UkrAgroConsult",
        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ3JEWXBpa0tOVGJRczVhMnpCZlo0T3VsNTV6R2NINGVuRHlwYkxXckphNENuS2FfU3FwSDhsazJpMVNGOGYySGFoZXo5bWdBbFY4czJDVzdiSjVJdk81Mk00SmttcjFLTmE1cExiOHJsT1ZIQ2w1bmxYNk5UVTNRa2J1bUlBY2puTkFSNi1GTzFaU2Y0cE5weXl6QWtGeENZMkNmU0Zid1ZaNk5DbThyS3FLaWZYUzg?oc=5",
        "published": "2026-11-13T07:28:37+00:00"
-      },
-      {
-       "n": 21,
-       "title": "China\u2019s share of Brazilian soybean exports falls to a three-year low",
-       "source": "UkrAgroConsult",
-       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWU1VekpkbXFKLUNzWnBNZXZoZU00bkdGaExCV1lib0dGLVB6a05oQzZodV9FVmM3R3R5SE5oWFpiZEFBRVdEZ214OTNacEVzMFRMa0U3cmV0UlNvRl9qcjJnYWJyQ2pyNzlUM3dwOXM3WEZ1ZDREaU5KZmJTeWlLOUxnckRmUDVhQlF0UlNuNkxsbUQ0SVhJaTBLRzlyWTA1aGc3bURR?oc=5",
-       "published": "2026-11-13T06:33:48+00:00"
-      },
-      {
-       "n": 22,
-       "title": "From imports to exports \u2014 canola success offers SA a farming blueprint",
-       "source": "Wandile Sihlobo | Substack",
-       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbFlGdGFoeDQ1NnJnTmJYODR4emJkMS0wUFgzNVItVWpvNm1EZ0djd201VmlvS2NzRXVYVGVBY09oX2R2S3BrbEhBWDJHWmlJVF80a1h2ajVBYXZnM0cwRkxydDluOGVzWmFvRFJUOElIUnZUZ0UwY2tONzEyZmpJZ1JzbWNmN2lWOC1UMlNkU0JpMTBMVWw1MEhuVzFaem1kaUtkcUwyRkFjTkZPSFBTRlFnVWpnZ0djQ1plQnNjQUh4YURHQnhlOXM1cmF6LXNpeHY0?oc=5",
-       "published": "2026-11-12T15:08:12+00:00"
-      },
-      {
-       "n": 23,
-       "title": "BC-Soybean Futures",
-       "source": "Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdVAwemR5c3ktdXY4M2twYWRzUzdNMkJPaVlXbklmUl9qUjBQQ1hsbk5FZ242TU9neTNwamFMZ1EtVURjaWphRG9iQjZab2QwdGxvWXQwQjZGYXNYNjZ0X1RYN1VMT2VzWkRtb3NFcnpKX1FESHFzVzF3MVQtRnNmaGp0U1dzYTM1M1ZZXzdLTFBadw?oc=5",
-       "published": "2026-11-12T15:00:17+00:00"
-      },
-      {
-       "n": 24,
-       "title": "Canola needs a stronger demand signal within the CFR, says COPA",
-       "source": "RealAgriculture",
-       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzJuMWVKM3ZvSVo3V2k1d2V4Sm1NNlpsd1kwRFQxT1ptbUg1cGhhcEpxR2lleXVRcmtWRDBhQ0tlZ2ZPQkxJMzBaTVhFVzRfdmhzMGVuZ1ZGZUJ4SnRRY1haZkFvMEJnZllkamItdVBWUExDTHo0OGNDOU5EbE9qOTRRWDBiNUlMM2dxc0tieXRiOVZxVU50RTlNN2thak1QaW5razZn?oc=5",
-       "published": "2026-11-12T11:03:38+00:00"
       }
      ],
      "summary": {
-      "headline": "Soybeans and oilseeds in biofuel development",
+      "headline": "Soybean futures market trends and news",
       "sentences": [
        {
-        "text": "Bunge and GDM are partnering to develop new oilseed options for biofuel feedstocks.",
+        "text": "Soybean futures have reached a two-week high due to supply concerns.",
         "sources": [
-         17
+         19,
+         22
         ]
        }
       ]
@@ -642,24 +680,24 @@
       },
       {
        "n": 26,
-       "title": "The Mosaic Company (MOS) stock price, news, quote and history",
-       "source": "Yahoo Finance Australia",
-       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE13dS1VaGZPby1ocExNalpvdG53V1MxMHBUd1NmRnplaXFqQllqa1ljcHIwUUlDQWVfdml1VUhtY195RGczdnJERnJ0ek40OVo2?oc=5",
-       "published": "2026-11-13T10:12:49+00:00"
-      },
-      {
-       "n": 27,
        "title": "Nutrien Stock Outlook: Fertilizer Prices, Agricultural Demand and Dividend Sustainability",
        "source": "kalkine.ca",
        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVDJkNTVjbEljVHo0aVhLeUJSQ1ktb0EyTWJsc1VQQnFHa05OMGF4NHQ1SGx0dzZvTmY3YjFhOGhhLWJBNWpwTUNrRHBJN0RFS3Q5YmJvbXRyVDlUOFZCN2R4TGFzMmdzWkV3STNJZUN2Tlo2dEZDcGpLa3ljelpadFhzV19WMDE3ZlN4b0hiZWlFeTUtWlJRM05FaWtJMDM5cVVEREFMbHZyQ3FmdGplYVc0WkR2eXVQOGc?oc=5",
        "published": "2026-11-13T10:06:00+00:00"
       },
       {
-       "n": 28,
+       "n": 27,
        "title": "Fuel & Fertilizer Price Tracker: Nov. 12, 2026",
        "source": "Michigan Farm News",
        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5EVmd3Y2pLaDBpR0RMTC1zdnY0LUVOVWxoMTBmY29kYnB3Q0d1Q3dUOHpyQWhwQk1sSk9CX2VNcG9IV3RiQkx2QkY3T09ybjJ2b1E5OXRlcnZJYWEzd0dUX0FJWTI2a1pFR0Z1VnJiSQ?oc=5",
        "published": "2026-11-12T23:40:32+00:00"
+      },
+      {
+       "n": 28,
+       "title": "Nutrien Ltd. (NTR) Stock Price, News, Quote & History",
+       "source": "Yahoo! Finance Canada",
+       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5zS2ZCYk9jT2liZ3ZsVHB0VUR2eXpDTlQ1cnZWRFVvYVd4T0ZXNXA3dUtqbFBzRFllR0lwZWpRV010cndXX0xWRzZZbjJWZkFL?oc=5",
+       "published": "2026-11-12T23:20:01+00:00"
       },
       {
        "n": 29,
@@ -691,22 +729,10 @@
       }
      ],
      "summary": {
-      "headline": "Fertilizer Prices Remain Prolonged",
+      "headline": "Fertilizer Prices and Demand",
       "sentences": [
        {
-        "text": "Fertilizer prices remained prolonged after a 2021 global shock decoupled retail markets.",
-        "sources": [
-         30
-        ]
-       },
-       {
-        "text": "African fertilizer prices remained prolonged after a 2021 global shock decoupled retail markets.",
-        "sources": [
-         30
-        ]
-       },
-       {
-        "text": "Fertilizer prices remained prolonged after a 2021 global shock decoupled retail markets.",
+        "text": "African fertilizer prices remained stable after a global shock.",
         "sources": [
          30
         ]
@@ -719,81 +745,70 @@
      "items": [
       {
        "n": 33,
+       "title": "First delivery of eggs to Wisconsin food banks following egg price settlement",
+       "source": "WMTV 15 NEWS",
+       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ3A4bEdHM1N6emY2R3pEdnowUGNFX1J0OWZtYWR3SlA2bFlsN1JfNS13S1ppVE1iejF2MldkemhYTHlSWXBabWd3bXlRc0tnTFYtT09JLXFfbEl5d3dBR1NJeDI2RXVzUEJ2OUFjZnRXNl93d3hCQ2wxcmdhZGpDN190Q0VtTkNSaXpfQ2xCREU5NC1aQXJ4ZW9YcmJYb0lUeTZCazNpZ3JPaFYxdkJz?oc=5",
+       "published": "2026-11-13T21:02:00+00:00"
+      },
+      {
+       "n": 34,
        "title": "Wisconsin food banks receiving eggs through price-fixing settlement",
        "source": "KFIZ",
        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMVU5LXp6dndJc01NaGdYUnM5MXFnaFJHUjAwM3ZycWprMDZiTUxYd0FYaVdqVGdkejN0d0ZKZEYwRDhFZGFtQm5XNnV4TDJfUVgxcnMyLVQ0WGRudy02SHQzSVJ5bTdpY0ZQRWVZeXFic0FqRVhwb0FLcDBqUkE2emtBZHpxUFZzTkhwUlFn?oc=5",
        "published": "2026-11-13T12:28:19+00:00"
       },
       {
-       "n": 34,
+       "n": 35,
        "title": "Rising beef prices lead to ranchers watching out for rustlers in Oklahoma",
        "source": "KOSU",
        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWXQ5STN3SHlqRFA5NE1qT2NHYmo4ejE3QjhQTFEwNUxMLTBIWFBPNWlIRnNmUHZaZEpxOGc3aW9tQ2pwckpQQ3kyM0ZOdXhqQ1lRR3RRTmZlUk5zZkt2QzNjSFoxSzROS2l0cUpwd005ZzFfOUFDS2Fmc195ZElNWENuZV8zVzhGVmt2SFFhQlRXczNfN2cxNS0tWENnOERqMlMyb19LaXhmLW44elF1dUNFN0VGR28?oc=5",
        "published": "2026-11-13T10:03:34+00:00"
       },
       {
-       "n": 35,
+       "n": 36,
        "title": "Cattle, hog futures higher to start the week",
        "source": "Brownfield Ag News",
        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSWRjX05IbjF1WHgyckIwalFudmV2MVROTzhDaUdkY2NqRExRUnExVVFpZF9CWmxFekREbGJQX3AwbURnRDF5dkF2Y0xLVzRqWVY4OFlLOG1OcFFrTTRtcGc4b09yd2ZRVVFPdlYzS3BvcWN1NFBhc3ZtdXRJZ2NxQjRPMnQ2eGtm?oc=5",
        "published": "2026-11-13T03:44:14+00:00"
       },
       {
-       "n": 36,
+       "n": 37,
        "title": "400k of 2M eggs arrive at Wisconsin food banks as part of settlement",
        "source": "WKOW",
        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVU1yU1ZCVVVzX2UxcTNDc00ybTUydzBDQnRXaU51Y1o0VmZkYjVGaUVMUjZmZUFQbWdVMXplZnJYb2N5bTI2eEd5OXNndHJEZ3ZoY1VhQ1ZRbUZqVkd6MXBRNUJCWDRta25mRzlad1Z0UVgtT3ViLTl1Wm15NTZBdWEwaWhHNXp0aEpkY2Z0WUlqWnI1VUp6bU5JbmxGdGs4ZlFJcTB4eElmSmlNRW9RcUdjRUUzY1RNMkdPLWJCY1hlaFkzUUl1eGdvTWMwalVHQS1WMU1nNjF4NjM5VE83bDg0WQ?oc=5",
        "published": "2026-11-12T20:30:00+00:00"
       },
       {
-       "n": 37,
+       "n": 38,
        "title": "Nothing Happens in a Vacuum: How Beef Demand and Grid Pricing Reshaped the Cattle Market",
        "source": "Drovers Magazine",
        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHc2TF9TSC1wcHp4WlhTbmlHREVfMml0NldhRjI2RE1vWEJiLXlzcVRGR0pqWmtXQUtrc0lEV2dNUG1zSDZkbG9wb1ZFR1FNcUN5NEdaQXVqZ0x2VU1UWWtxZm9od0FpRzJxby1zMzlBaE5HeFRteVgyc2loS2pob1BZZTVVTVFzaVd5SVhmdThBWDhvbzN1dElYdWVTWWlHaGd1ZHpHbWRIYXQxV2lCRTAxYlFiZkk?oc=5",
        "published": "2026-11-12T20:03:41+00:00"
       },
       {
-       "n": 38,
+       "n": 39,
        "title": "Wisconsin food banks receive thousands of eggs following price-fixing settlement",
        "source": "WTMJ",
        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdTlRWGVIRGxrQ2xHNWhBODd4QWZQRkZoS09RcVNoTFVuM0ZSRGVXVlhldGd5V3VzVGJ1LUV0NzZkR0tveHhjdXE3OUM2bktzRUt1ejVXQXliRUFyODNpNWN0X2NUSXZrT0RPREtNV0M5THczaGc3bXlZeTlpRWsyU0xGSHJCdDBNa2lfWGZGb3M1dzQ4YlRSc05QckxGOU1wUElMbkVYVnk4M053ZVNMZHEzeFU?oc=5",
        "published": "2026-11-12T17:58:38+00:00"
       },
       {
-       "n": 39,
+       "n": 40,
        "title": "How meat delivery companies use innovation to keep beef prices down",
        "source": "Food Dive",
        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONVhUV1VReWlUdVRhRTh0N1d5Tk8tTmhJYkNwZWFsZ3htMVgtMXRfam9Ja2tjWGRyT2lFSkVPbUl1Smp0THFzcHRSVVVqcDdNMU42dnVpUkdfRGJaY256ekVFUEhrajhXbldGTEtaczZIYzc1X3ptdk1weHZ5N09nYnFkanFUTFpMaVhxRjhENkc1VjA?oc=5",
        "published": "2026-11-12T15:44:12+00:00"
-      },
-      {
-       "n": 40,
-       "title": "Live Cattle Futures Ease as Screwworm Facility Progresses",
-       "source": "CME Group",
-       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcjV2WWRaUXVWZXdjUW15dV9Nd1JVZ3FOVnp4WFpkRFdsVGJtYnZJWTNsN2MzQkF2b18xRnFSWkppYmZtVkNSTTJuLW1xWUFWcVE5bXJqY0duYWRKZlN5NU1mWXU5aGdtYnA2cWphcWtvTjFSM1h2TERkc0hDc24tV3ZzNlllWnIwNlhFSENCUHJUbWFLMHBSYS1ZbDgzQ2dDQXBn?oc=5",
-       "published": "2026-11-12T08:03:00+00:00"
       }
      ],
      "summary": {
-      "headline": "Livestock and food prices on the rise",
+      "headline": "Egg Prices and Food Banks in Wisconsin",
       "sentences": [
-       {
-        "text": "Cattle and hog futures are higher to start the week.",
-        "sources": [
-         35
-        ]
-       },
        {
         "text": "Wisconsin food banks are receiving eggs as part of a price-fixing settlement.",
         "sources": [
-         36,
-         38
-        ]
-       },
-       {
-        "text": "Ranchers in Oklahoma are watching out for rustlers due to rising beef prices.",
-        "sources": [
-         34
+         33,
+         34,
+         37
         ]
        }
       ]
@@ -818,45 +833,45 @@
       },
       {
        "n": 43,
+       "title": "A blue wave, a lame duck and a farm bill short on runway",
+       "source": "National Hog Farmer",
+       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZGJXZVFGQWJuWmxWemwxTFMtU085OHA3RXJfUGE2N0tKU1psODVzWlV5MVdtanNnaEVtZUN0cEFuYXNNZERKWGtSSEx5NVAxZG1TbWk0NzRSWGRqRW1rNWxxMHNnM2dsYzExOWtzSjllWGZJeTk1V3RoU0lXRTFJdHh2RVFnU3A1UWFibGRCR0pCSE9ZSUZHOVV4eUUwTjRkRzA4ckVYTDhqUQ?oc=5",
+       "published": "2026-11-13T17:23:50+00:00"
+      },
+      {
+       "n": 44,
        "title": "Drought: Meaning, Causes, Types and Facts",
        "source": "World Vision Canada",
        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11RUlaeEhtNS1vT3NsU1VoRUNaTjZBcFExSHlHa1JPdE5KS0RrMGpFV0szRUNkLVBENFB0VWpTZ0o5dWFKNlJGeUZFNGU5MEduU3VnTi1tdDVucEJFZDRyYUJnN1cyaEhlMTVLR0t1RTA0RDRLb21kRzlCeEw?oc=5",
        "published": "2026-11-13T13:07:44+00:00"
       },
       {
-       "n": 44,
+       "n": 45,
        "title": "Over 53,000 farmers with crops affected by drought will receive compensation from the Ministry of Agriculture",
        "source": "Informat.ro",
        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVHo3c3E1TVhqVTl2bnk4TmhtczVfQThPXzFpSGRidGpqamlYNXIwc05VZUlob2JTaF9SX0pUTUwydEMzS1p0YnNoeFM2TWtJV0ZXNlJvRjZOcUg1TVpMa0JLc2toMFppazZ2bERFT2xJZ3czNUk0WDJMeGFKazBhTFR1WG9fYnMtNHFuVU5LU1llUkxsNC1xekQ0MG5GVHRvelMyaw?oc=5",
        "published": "2026-11-13T10:43:13+00:00"
       },
       {
-       "n": 45,
+       "n": 46,
        "title": "How farmers can adapt to Missouri weather extremes in 2027",
        "source": "Farm Progress",
        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV2UtdFZqTlpyNXBKMWpSVncxcXF0ZzV4RllMV0VzUHhQd1gwMWJtLUM1QzAtVWlhLXhnTnRiQURNampaOWcxd2p0MlR6aGt4MFJpNDhobkktNnpqaVJDQkZqOXBKcjdVSnNYUnhCZXBGNTNrOVJaTXk5M0s1RDZvZy13RnY3MFpCZndTZGJFcGxabEVrX1FpXw?oc=5",
        "published": "2026-11-13T08:00:41+00:00"
       },
       {
-       "n": 46,
+       "n": 47,
        "title": "Ukraine's farmers struggle to sell harvest amid war, drought",
        "source": "DW.com",
        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORHhTb1g1R2RIRzUybW9xc0dNb1RrSXdIaG5IV0Z2MlFfVFJVejdNX0dzR01ZbldSekw2eXdzaWNWcERvbF9DTjgwUGNWYjVKY0poQWlEeXduSUNkVGMydVNZQzdpZXpQUFVDLTdOY25jLVFVTFdtalBPMVQ4U0UxbHR0N1BFYV93V2p5a25Wc1MwRk9wVlHSAZYBQVVfeXFMUFRKWkxxcW5ua0xhTTBOLWt4S3dqdTZUUTIzbGJFT1RoLTUycDAwVG5uZ21SdFdVNlhkbC02azZOZ20wbkdvczE4UlpITDcwbGJ0dUllaVhXdDJISk9sb3JRTTZSTlduYkw3QUdYMHRvWTJnSjlTYVNuM0VaaHlhXzJyLUF1RWFKMTRHdG1jSXlERVZRMnZn?oc=5",
        "published": "2026-11-13T06:38:42+00:00"
       },
       {
-       "n": 47,
+       "n": 48,
        "title": "CM Fadnavis stresses need for drought-resistant crops, research to tackle impact | The Business Guardian - newspaper",
        "source": "Magzter",
        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQczhHSWRCaFRScUZTQlZaaDlEdFZseUxwYkdLTkpMb3NLRk5LWXp0R01IWlBMcTB1UVBCaXJGdU95bjRWZ2NMNms2OWtLUU5rY0NseGtjd2pHMTZfd0tibURNNFN4d2ZFa0dyTWxnNkNaWjF1c3hhcHdOQmgxN054UUxwYUpLN1VhRG9oR3lseWM2dFNYZXNsbk1sdUpSOVZtcE1pVzFaU1Nwek14QVNtRXhaT080VGM1V1FBLTFpTWpYQ2dRcEJZVG9pNFgxRlIxRHIxNkFYcUFqQQ?oc=5",
        "published": "2026-11-13T06:21:01+00:00"
-      },
-      {
-       "n": 48,
-       "title": "Strong harvest yields and steady cattle returns ease local tariff concerns",
-       "source": "WDAY Radio",
-       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWVZVeHdIM0x4djBlVFVldEU0a0ZRWUIzUEQwY3BEZG1pUmdWanpCb1BmbmpjMHdQT1JkaERoZVpzT29PSEh5V1lVU2hZa1RyeS1vcVBmUUxoM1FXYlVwRUwzV2hWcVpiQ0ZlUVB6SEtMS0pzWGZRQlUzby1fWnFrRGZ0ZHFHanV5OWFjQWd6eHdjeWxDNDU1aWF4dWxKbEFQd2hhVkNja3JlaVlTMThwVXhCVHZUOFR5Tkpzbk5NTlI?oc=5",
-       "published": "2026-11-12T23:21:03+00:00"
       }
      ],
      "summary": null
@@ -880,9 +895,9 @@
       {
        "n": 2,
        "title": "BC-Lumber Futures",
-       "source": "WFMZ.com",
-       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb1RpV0xDeldER1RvOGN5ekF3ekl6UXY2Ti1uZUIwM3RBOGxVcTBmUi14OE82WUl5RktENmFORmxaTFgtNV93VEg0OHNfV0c0dTBNZUlLb19XUW96Z0lZSXpSczc5MjhnWWpkbEdNVENueDJCWHE2QjZobXdjZ3hwdEtvblFWQ3RGSzZtN21sOHFxTzJGU2NhVzVscUF2SHhoMmN5WkZBblVCRzA?oc=5",
-       "published": "2026-11-13T15:46:28+00:00"
+       "source": "Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUG0yVm8xYzBLbXNDLWxJam5MQk16VWs3MmNKbUJkMXh3QzgxTFhoOWhndGpRUVkzZmdoOTdaMnAydHgxS25LVEM2a3VFOXAtZTIyQy1NSGdSVThuZDFoUlBTNzkteGQzM2l4N2FwVkRFQk5MVnk5S2VrSWVHM3JDQV81ZElqeEI3RUJyZVYxeDY?oc=5",
+       "published": "2026-11-13T15:30:15+00:00"
       },
       {
        "n": 3,
@@ -893,60 +908,55 @@
       },
       {
        "n": 4,
+       "title": "Lumber and panel sales expectations fall to yearly lows in US construction markets",
+       "source": "Fastmarkets",
+       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVUxXWEtiQlg0VG10bEh0TW9PLXlXQVhlLVZBZURraUo0M1lRcmZweTV1azlLNjhfU0JOR0MydkRLU1czSlY0UnY4eWVvbHRQUkctSWtHWkpJblI4RFljVEFSQnpCUms2Q3dfT1lfc1RKQktzUHdvXy1kX2RjeXFXU1VhaXRoWnFrajR5OWllRnllR2FPT2hfNklVeVo2cDl4NHRNSnBTVmVZRzRhbkFOVHdtWUdLMnZoeFM5SA?oc=5",
+       "published": "2026-11-13T02:28:46+00:00"
+      },
+      {
+       "n": 5,
        "title": "Lumber industry faces downturn tied to costs, construction slowdown",
        "source": "Spectrum News",
        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1kZXBaNTVrN2gzWmEtOV9iT2IxM09TUnY5UzFsU0ZrQU9xQzBRVzdSZnZKWVpEdUs0Y3FKVnRCaHg0Nm90RXZZTHBOa204RzFIcnhVSFBadlcwdjVHUDBMOXVrVGs1S3ZDNWozTUNsMnZmY0pXb3ZJdQ?oc=5",
        "published": "2026-11-12T22:00:00+00:00"
       },
       {
-       "n": 5,
+       "n": 6,
        "title": "Softwood Lumber Market in India: Size, Trends and Forecast to 2035",
        "source": "IndexBox",
        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOemtIV0FfR2trbnJybXNicUdTNjg0eGxlc09tR1VqWkVIWGRucVR5bXZYY1RqcXgzbzhpeVZwVy1XNjFiVkF6MVFNNXlKekc3dm52TlNzVzJpY2ZnSGRReXMyeE1nTGhtLXNtejI4czY2MUJyMWNoR3Y5VzRLNU5DNmQ1YzhLVS1fcXBkbnRwcnNZNk55SUgzdFhmUHVNS1QwYThsTw?oc=5",
        "published": "2026-11-12T17:54:27+00:00"
       },
       {
-       "n": 6,
+       "n": 7,
        "title": "PricePulse from FEA: Transaction-Based Lumber Pricing",
        "source": "LBM Journal",
        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPczNHTTk4c0VqMnZNT001WkF1RE5DWTZ1Z3FaT2hPVEZROWJtRUEyY29XZy1RT0NWN1JBTkducjlSNkJMNC1XOVdJemZiOUpIUHNnTTlZVlFHNmZPVktGYW83ZWtLUHdpYTNBejJQWjhaZG1lN2d1TW9uTzNyamxQXy1zNXdYbGhfbHItdVo3XzJNZ2p4ZDVhWkcxX1A4TjlqdDFLNnVOcDl4Z29rNENfMXNDOUg2aHFIbUxXdnFRNnMxdlBFbzJxUUJCUUk?oc=5",
        "published": "2026-11-11T14:21:36+00:00"
       },
       {
-       "n": 7,
+       "n": 8,
        "title": "Soft Demand Continues Despite Lower Prices On Some Lumber Items",
        "source": "Wood Business",
        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQXFRQW1idmw5ZFVjZng3VkhrU0dMZUdkYUNERWlGUDdlSmpiSndIV091ODBNT1htalJmRUpvMG96QkFjX2ZzV3dnM1V4Y0RyOG5VbERlaUJucE9nWEloWnNGeWM1dF9DRVhyb0JvR1pXTnZGa0F5SVZwTlgtUHpTbS14WGRyaGp5SThTcTlCS193TzExZDhv?oc=5",
        "published": "2026-11-11T00:57:36+00:00"
-      },
-      {
-       "n": 8,
-       "title": "Despite lower prices, slower lumber demand persists",
-       "source": "HBS Dealer",
-       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8yWnNfbzFFZnhtUlhYZDRpSWNhb0V1QTlOQUZiOTJLUGxlX1laQjFaNS1FdDJwWjIyVlFBTG5QZmtqQjRrSmxMZmRIM2lvR3hDeklRVGZYYWFXNFE1bXV0UWlGR2xFOEpFalZJVEdjMHhET2Fad3pFZF82Ymw?oc=5",
-       "published": "2026-11-10T19:53:38+00:00"
       }
      ],
      "summary": {
-      "headline": "Lumber prices in October",
+      "headline": "Lumber prices in the US and globally",
       "sentences": [
        {
-        "text": "U.S. softwood lumber producer prices fell in October.",
+        "text": "US softwood lumber producer prices fell in October.",
         "sources": [
          1,
-         3
-        ]
-       },
-       {
-        "text": "Lumber prices remained unchanged in October.",
-        "sources": [
-         3
-        ]
-       },
-       {
-        "text": "The lumber industry faces a downturn due to costs and a construction slowdown.",
-        "sources": [
+         3,
          4
+        ]
+       },
+       {
+        "text": "Lumber industry faces downturn due to costs and construction slowdown.",
+        "sources": [
+         5
         ]
        }
       ]
@@ -957,31 +967,31 @@
      "items": [
       {
        "n": 9,
+       "title": "Summerville to limit housing for Interfor development",
+       "source": "Post and Courier",
+       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWXlaUEtydmhhc3lUcVYyeGZYMWJyYWxQNURXVk5SM3JuLVpUdldNdURHUDlXX01UV0lraWo0b2dSMU5oUFh4SzlZeUFsdnBsR0p3QTNNeF9hLVcyS2lmODBkVUlPblpIcV9KWFB3U0xYcnZTSHN5WXhnZTJBVGJXNmpFXzRFdGlRbHZnSzhUR2hwbEIwWUZCdm40ZW1NXzg3SHR3bTlWM2F3S2FzZXp3UUwzMXMycXdOQ1pWaUI0bVZEcGJQUTFHb2FhdVRpR0ZnTlpMOWFyVHFreEplZGhxT0h3?oc=5",
+       "published": "2026-11-13T22:00:00+00:00"
+      },
+      {
+       "n": 10,
        "title": "sawmill site",
        "source": "WV News",
        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQWo0RGp4Q1k5ZHBRenYwVVVWNy1ldzBJdEs2ODg1d2F2akFwU3dmdmF3Z0lISi1UWlVsOTNxQm5HbTF4Ulg0dm1lTzRialRKTjM2T1B0M3F1UmNFWlFkNS1nLV9HY3VmR3hka1ZVeXdFOVNCNFhRVmlVRlVaX3JJZ09NVUhlbmhkWUJZ?oc=5",
        "published": "2026-11-13T18:17:00+00:00"
       },
       {
-       "n": 10,
+       "n": 11,
        "title": "Sawmill expansion continues toward 2027 opening",
        "source": "Midwestern Newspapers",
        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY0ZlU0pTOUlabzFWbEJrWkZRd3d1cVJERGtJdV9IRHNHWm11bVdpX2Fpc213SkEyclF3YWd1cTFOYkJZRkFYdU9UVTdsRVdQeFVDQnJlS2Fka2VHYWkxOEozekdLbnA0cGVlTDFNeU5JVUpjM2REUzJyb1lqODRwcm81MjBOYk9Q?oc=5",
        "published": "2026-11-12T23:47:10+00:00"
       },
       {
-       "n": 11,
+       "n": 12,
        "title": "Car Goes Up In Flames On Saw Mill River Parkway In Dobbs Ferry",
        "source": "DailyVoice.com",
        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQnNBN3k1WTFjblQyc3lwWnJ4NGJ4U1NyUmVBTVlpalJfMkpDTEhUTklYek5pQzM1bGF3N3V3ZmpVZ0N4WXRNeTZPbFVfUmQ1YnYwaDZXVHdLNk44cEJlQmFrbThvaDA1Q01xSXJpdXpFR3NyeHdRUl9lTG9vSHVJZm9xMDI2ZHNGcUV3WWRtckJ2anlfY1lGUS02OFBxbkVPYkdz?oc=5",
        "published": "2026-11-12T22:15:00+00:00"
-      },
-      {
-       "n": 12,
-       "title": "Building Skills for Sawmill Success: Industrial Wood Processing Program",
-       "source": "Tree Frog creative",
-       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdEtfOXZ2SUZZRlZBUlU1bU1YQkJvdExFYXN1WnpaWjJ6eU1aeHJGbGxXZk1TN3FDSjZGM1g2NWo2SDRVX1l6NG1wWC1NNV9tXzh1SUNWc0c3T1Qxd0tvd3R3OFJVX28zbXVyZWRhc2l0V1JTOFduSnFJVFpyS2VqNlVkNjdUN3JnUHU3eVNVREtuTko4U2ltMmVQSUMxaUdD?oc=5",
-       "published": "2026-11-12T13:27:49+00:00"
       },
       {
        "n": 13,
@@ -1019,59 +1029,59 @@
      "items": [
       {
        "n": 17,
+       "title": "Weyerhaeuser (WY) Stock Price, Chart & Analysis",
+       "source": "www.debelegger.nl",
+       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50TjhQN0tkWHVOVVZPN0J3VXAzTG9JWG9KRUJtMlY2NDRTODVNeHYtOUFpN1dTWS1zNEU3R3kxN0FuVFRMejBMb1hLaTNLZGVIQ0E?oc=5",
+       "published": "2026-11-13T22:39:33+00:00"
+      },
+      {
+       "n": 18,
+       "title": "Weyerhaeuser Co. stock outperforms competitors on strong trading day",
+       "source": "MarketWatch",
+       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRldRTkc2alhJV0RQUE9NeXBEZmJnTHpCUVV4OEZpeHRhYml0MjFrVGZTTWxKZHhVLVF0Y0ZFN0Q0Tk1zRjdnV0Y5YWRFVnk3enFpcTFFa0NDX3BqSHJ4UlVoUVVKd1lqd3NYUFhwOVFzWkkteURibE9YVldmNFhmNjRUQVU3aDVmSVFDcjFjUTkwRXl6cmdha1NmYVlpcUpoWGlvYlh4YVFrYkRXTUdRRkN0ZHlaYUxBS3ZmZ2ZYNnlTYnJlRFE3OUdrZTJSYnN2ME56RGFiUUs1T0ZRbHc?oc=5",
+       "published": "2026-11-13T22:12:00+00:00"
+      },
+      {
+       "n": 19,
        "title": "Timberland Investing: Why Money Really Does Grow on Trees",
        "source": "U.S. Gold Bureau",
        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WNGt4U196RlprN09DYXhva1c4czV3TDdvN0FUeTVnTDhrWERzTThmRlpaU25MV04yaDRfVDVEY1dxWmJCNlVpcmRUb2pMWkRKczJOTVg1X2FtdGVNenZUOThSSTY2eVltZXJJ?oc=5",
        "published": "2026-11-13T16:15:50+00:00"
       },
       {
-       "n": 18,
+       "n": 20,
        "title": "Nuveen Natural Capital Lands $100M TIAA Anchor to Combine Farmland, Timberland and Carbon in One Vehicle",
        "source": "ESG News",
        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uRlFGTzM2RGxxN2hiX0g5QmNJSlU5WkkyZGNnV29FNHpJRnpzenZzSm9RR2dsZEFSZmhFWmhEZ010cDVpaVo5aUxXaU02N2NFbEZMTExXdzNJamxhRWdxWDRyM1NnLTd1MWU2Q09zcnZoZw?oc=5",
-       "published": "2026-11-13T15:11:15+00:00"
+       "published": "2026-11-13T15:12:34+00:00"
       },
       {
-       "n": 19,
+       "n": 21,
        "title": "Rayonier Advanced Materials: More Needs To Happen To Sustain A Likely Bounce (NYSE:RYAM)",
        "source": "Seeking Alpha",
        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZmo5VFh6MG1sSW93R0Q3THh2aVc2MWc3VkxCOGJUelZMeGpad1VGRWdCWHUySFM0RGtpMGQ4OXdYVFBUUk9hc2tVb2drNTRkM0o0bFNyOGR6MTQ4LW9MZkU3Z2E1V25rM1RXZVVzcVdtaU9ZemRIcm5HMXl2N2MzTkltSGpNSWZTdE5OdWJhYUtNelhBUE5XVmVoaHBSTkpici15YzFrRGVkMmRfdFotM1E2dGJNUGM?oc=5",
        "published": "2026-11-13T14:45:31+00:00"
       },
       {
-       "n": 20,
+       "n": 22,
        "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
        "source": "Ravalli Republic",
        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT3lnb2NyOUdXVGJnSWNqNlZhTVVIeWtWclduRnp1UkVSM2lJdFU0clNxLV9KZU5iZ1FSWXBDZG1RTC0ta202dklWcUdOTWFTd3pSdTVmZDl1NW42aXF0clZIMHlmM1dHRXpzcXhlMHFLSVU1cUt6ckFWc0NJbFZocmg2WF9nLWFiY3FReE5FWkFsTGtjb05iVngzcGEyN19pTGJUV2YwbnFMeTd2?oc=5",
        "published": "2026-11-13T14:39:41+00:00"
       },
       {
-       "n": 21,
+       "n": 23,
        "title": "Weyerhaeuser Company (WY) Declares $0.21 Quarterly Dividend",
        "source": "TradingView",
        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRDhEdUlHbVVZV0xHOXpQWUlabXp4WThkUk1jSFQxOVQ2SzJsOEhCNFd2eDgwbk96TGFHblluLVRtV3NQUHBCQ0xhT3dHZWxtYVJJb2pSLWY3TGQzeFlNRTBNbXA0NjNSYktJbjJvSGtjU183R1JVa2IzWGsxN2s5SFF5TDczS1dDY292RVRQV1JBWUc1VlV1RFRJVElXZXdzY3NMMFgxN2NLTDJKTThhVDk0aHpQYkdOUVE?oc=5",
        "published": "2026-11-13T00:08:00+00:00"
       },
       {
-       "n": 22,
+       "n": 24,
        "title": "Weyerhaeuser Targets $1.5 Billion in Incremental Adjusted EBITDA by 2030",
        "source": "TradingView",
        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaUlDZm5DOFZaSFVWMnlVOXZZc0Y2bHVyZlFNSnlEMGpPZ0dOeF95d3MxVnEzYTEybE5YQTlEMWROb1VCOVc5czBCdHByZUdHMEk2cy1ocnNqYjFGaDR6M1AxRGVWZTJ1WGZaWGhQVFhkMEI2WlZlZzhZZm9LYnd3OElVVU81NlE2SUFDbndIM2xTNXhxX21sNGZPa2ptNkZRazZsa0JESTZFQUw1NnJEX1liUWx0REZsZ2RLRWxvY2F0cTVZbGJia3QzWjh1QQ?oc=5",
        "published": "2026-11-12T21:28:50+00:00"
-      },
-      {
-       "n": 23,
-       "title": "Rayonier jumped after earnings. Why we still see upside in the timber REIT",
-       "source": "CNBC",
-       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUDFJb1hhNUVJWlc4aGg1WUhWbVhweFVFYUxLM1JUT2MwU3poU1RTSjFkeC1pU0lNSDdSZlZHczdQUS1GZGVqOGNCTTZsc0pEa3g4dzNuRTVTVXR0TElUTFBfVHNkWmNCaUJIbl9xSUFEWFJUM3VNQ2V2WC1kWGhlZUZmVUpuYnprdFFoUmdCZFhqMURPLWF2b0ItVWNvMEhTU1BkenJn?oc=5",
-       "published": "2026-11-12T15:24:57+00:00"
-      },
-      {
-       "n": 24,
-       "title": "Analysts Offer Insights on Real Estate Companies: Rayonier (RYN) and Ready Capital (RC)",
-       "source": "The Globe and Mail",
-       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOYzdjSGZKM1R1NC1BYjZ3ZS1sNTJLVGZBeFhhNEc5NERWTFFaUDlOUHRZTmN1azMweC1kUUdSMzlsSS1MN2FNaFNSR3B5NkdVYkFUVG1iaExhNHB2TTNqemZxazNJeXBQUlh1TGJhbVRBZmRYSEZVUkUzWTJvRGJyNHJkamNWSXRiUzE1b3JacUZrTk5JTjZrbmlraWFFUWFPNW1BTmV3SVd2Z1ZVeUx1Ny12X2dVcFE5YThFUk15aXhya0FZNkFfRWxJanJfbDN0LXQ2OHZwbElzalZlYVN0bWttbzRIaVZGVHZwSkhXT0FpUDhCUEIxNzROSks?oc=5",
-       "published": "2026-11-12T14:58:08+00:00"
       }
      ],
      "summary": null
@@ -1081,114 +1091,130 @@
      "items": [
       {
        "n": 25,
+       "title": "Retail Sales and Housing Starts on Tap -- Data Week Ahead",
+       "source": "marketscreener.com",
+       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVU9tMzFKZXBOWlFPQlRaMFN2WmxjY0YzWW5CTm5OSk51QnZNX1BkcmVOajJoSjdla2Y4WW44b19wQnVpTHNMYUtyY3R0WUVzTUhrOVl3WmF3dnMxVWpyMmdGeldxeHdORGhkaThDQW90OGZNSXk4LU5HWGNrN3p0TzZ0Y1pnUnZtV1hiWUd3N0JvYlAwWTE0WHd1bTlSYkMzd2J2c1FtVU81bUU?oc=5",
+       "published": "2026-11-13T19:16:14+00:00"
+      },
+      {
+       "n": 26,
+       "title": "High mortgage rates and housing shortage leave few paths to affordability relief",
+       "source": "WBFF",
+       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOXBiZTEtNG13TWdOVTdjUGVOclBlSG5SbklVanpZY2ZfdWxNQVRyMmVjVzdpc2t1QzVxS0lFYzJObzlDME5rVnludmVmT3QzTWpZenNKRlM5aVh3enBZcGtKT05wSjd5MUw1cm84cnFkZU9yYnIwVE8tQi1XeUdzUDAtSkVPWThmY2RfaTFOT3JiVmFLVUhpcjJYQnFYZmEyUmdCdl8yUFF6Vmx3VzMzY0VNYWVENWZHbUgwSFdVTDc?oc=5",
+       "published": "2026-11-13T18:34:56+00:00"
+      },
+      {
+       "n": 27,
        "title": "Today\u2019s Housing Market Freeze Has Ominous Business Implications for 2027",
        "source": "FTI Consulting",
        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeGF1ZUpjSXhsY2hudXEtUGNZTVVpT3BMUERTd2NVU3Y3WnRCR1JzT3hTSklHNFZIVkNfdWVMX2FWTHc0bFg0cTlHTUhHWUZhMmRoamRJdGhJRjNLd0JfZUgwcFMyWFZHaU9UejJndjdKYzl4am5sUFBhVTVzbHlrdnlUdEdCZXdMcThiVDdSZVhMd2plenpEQVJaTEgyNDFVMG1OSDBrSzh2bzllX2EyRQ?oc=5",
        "published": "2026-11-13T18:12:47+00:00"
       },
       {
-       "n": 26,
+       "n": 28,
        "title": "Mortgage Rates Remain High as Affordability Challenges Persist",
        "source": "The New York Times",
        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM2RDTlVOTFB5RkdlOEp2YlozS2J5Z2M2UUliOXhLcXR2Vm51S2Rtbm5Wdmh0bmZHUXVPNG54TjN3MU5FNmZyNGdScnBDVmI3ZXVBM2owc3BJV1BYdTZ4T2pBYmRiUHdLanhYZFQ4MEdJVGdZNUppclF3M2IyVks5akg5UGpqY2NUdU0tcUhmWkpHMVE?oc=5",
        "published": "2026-11-13T14:28:00+00:00"
       },
       {
-       "n": 27,
+       "n": 29,
        "title": "Change starts from the home",
        "source": "The Critic",
        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE41b1VsTTY3eVBsRnlNVFJ0Mjh1QlFIT1o0V0wweHpWdWtONnFITWJ4VlJSaWg2U1hiT1ZUZ05ORXF3aFFuZFZLN3lYTzk2NkdIa0JlYlhNbzZzYTA2ekgtOVZR?oc=5",
        "published": "2026-11-13T02:00:04+00:00"
       },
       {
-       "n": 28,
+       "n": 30,
        "title": "US Housing Market: Why High Mortgage Rates Are Freezing Home Sales",
        "source": "The Acquirer's Multiple",
        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIR1RqVUNZb0hMSTNlUm8tNFJLWllNUDliQ3ZZY0M0YlRDNk51d0k3enRxMFcybTkzUElHRHFxcC1SY2xoTXcxbVQ0RE5KZFVOODdXVWM4YkktdnFJOEpv?oc=5",
        "published": "2026-11-13T00:18:56+00:00"
       },
       {
-       "n": 29,
+       "n": 31,
        "title": "Why QXO sees homebuilders as its mainstay of future growth",
        "source": "HousingWire",
        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMTm9VcDFfVjJ6eUw4NWlSTzJfelZnd3NLMW9sSUxFdl9YTk5XOXoyNkk0cXhqdUh5WGdIM0pqdk14SXpfd1BqczM2dmJSWVBNdjFDdFdfdWRSeHIxX010Y21sZnpWNDA1TUNjT2JR?oc=5",
        "published": "2026-11-12T21:36:14+00:00"
       },
       {
-       "n": 30,
+       "n": 32,
        "title": "High mortgage rates put a damper on Maine\u2019s housing market",
        "source": "Portland Press Herald - Maine Sunday Telegram",
        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRXFyRzgyeEszb3pLOUpPN3Q1d25xRjgwcGJPOXYxel9IT044bHFqNjRNdV9zLV9tY09LeDVtbUl0RHBISzNJcE9mZU1adjBGbHRaRVBOekZTZ1g0TnU3c24zZ1VEcEhoa1ItOHNueVh2eDg1LW1oSGJNQ1Z3ZF9XeFhFRm5KbFhncHdtWVFWWGhicDA5LURuRzdtNzduUQ?oc=5",
        "published": "2026-11-12T21:33:32+00:00"
-      },
-      {
-       "n": 31,
-       "title": "When will mortgage rates go down? A drop to a 7-week low",
-       "source": "Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWG9QcVU4b1JGdVJsc2FOalgtQ1liRmtEdjVCQl9wLXVQUFVLLWdsek9YM2tXZVljTXR1aEFRWHJtVFpZUTZSTnVtOTBzUTF1WFN5ZWs1Z2llTVlNeXVjT0tTNThrZHE5eFRobkxoNFlBNTJoTURoMDRRb2RyNEdKZ3lYUXRMRzMzWVVTdldJZ2dmTGZSTHZLUnVPN05HdHc3QUl0M2tuZGF5aERkWG4wZGhYZVJrSVVkc1pJclhCZGxyNFktTXB5TjhZVQ?oc=5",
-       "published": "2026-11-12T18:22:33+00:00"
-      },
-      {
-       "n": 32,
-       "title": "Home sales hit 16-year low in October amid soaring mortgage rates",
-       "source": "The Guardian",
-       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DVGlPR1ZwaEU5LXE2TERKRTY2M1VrV3VTYXlUdVFXSURPeFJwcmdCQmxaR2VDR3k3QkxwS2FjQXZ4dTBhR2xja0JFRDY0UUFLcDFBdDNSdXl4bmdsVjdwb005eW1iTkRlSzY4SURYbTRzN3Q0bXBpQXhHSQ?oc=5",
-       "published": "2026-11-12T17:26:00+00:00"
       }
      ],
-     "summary": null
+     "summary": {
+      "headline": "Housing demand in the US market",
+      "sentences": [
+       {
+        "text": "High mortgage rates and a housing shortage are leaving few options for affordability relief.",
+        "sources": [
+         26
+        ]
+       },
+       {
+        "text": "The housing market freeze has significant business implications for the industry.",
+        "sources": [
+         27
+        ]
+       }
+      ]
+     }
     },
     {
      "label": "Trade, duties and wildfires",
      "items": [
       {
        "n": 33,
+       "title": "Trump\u2019s Tariffs on Canada Face Pressure From U.S. Lawmakers as Trade Talks Continue",
+       "source": "Culture Alberta",
+       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSlR6QTJJNzBUSU5QUDlKSnNEZmoyMFlrblQ5d1ZQOFdCSnhNZkFocjF2STF1MFVIbXlwMjJDVkdMZm1TREMzTVlDWmhkRjJGYmFhMWtua3V6Z2tMUk9tZUpDUW5sT1R1UXcxenlTcU9UT1h2N01uSlU0a3kxandlMDFyLTlXZThwZ2l0Y0J4bEJtbUJmc0dqdGlFX3FXc1NWR3Q3OTcwaF8xcXFxS1JTZ2oxS3J5WkZiTldLTA?oc=5",
+       "published": "2026-11-13T19:12:45+00:00"
+      },
+      {
+       "n": 34,
        "title": "Wildfire near Paris tears through Fontainebleau forest",
        "source": "DW.com",
        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5rSWtaTFNndlo5VDZQQXRweXpPcl95V0tFcEUtSHNwcFEzVS1zSERHcmllRlh2VG1YQkVDMXZNMHptOTBtZG9hdXlXcE4xSXE0WkpPOHliTTZFRVplaktVTjJVN3dPaGR1NlVOV1kybVByOGNIWmI0?oc=5",
        "published": "2026-11-13T05:21:34+00:00"
       },
       {
-       "n": 34,
+       "n": 35,
        "title": "Partners Launch $2.1M Forest Restoration Projects in ID and WY",
        "source": "The Nature Conservancy",
        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYlJURHc1a3Zyd1lEYloxRndEWUxPUUdhckxrbnhaRWdqcC1zRnVGYUQxb0JHMEZpdC1LNEtraV8xYlZqbmdjeDlqTlZNY0xyUE5mdGtHWU9mYld4SWdGTDk2UDg3d2FaeXpGT2Z3dEdfNGdCaTF4NGs2MEc5WHZzeA?oc=5",
        "published": "2026-11-13T02:23:35+00:00"
       },
       {
-       "n": 35,
+       "n": 36,
        "title": "Forest Service Finalizes Summer Recreation Policy",
        "source": "SAM Magazine",
        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMGZMLTNoU1JWell4S3Zad3RmMi1YM0lDYjAwYWVpMHlYR1VHM0NhUGtBdjRPd00wM2dLSUxqR2lKQWxVeGdpeXhHUEpjekRwSEhMMk5wa2lwaUtyNmllb1JtUWVpZlptS2I4N2k3bkloVUtQZzNRVl9vN0h4SU9Hdnp0dmFnU3dyR0J1cg?oc=5",
        "published": "2026-11-13T00:38:04+00:00"
       },
       {
-       "n": 36,
+       "n": 37,
        "title": "From Paradise to Antalya: Governor Newsom and First Partner open COP31 with global wildfire exchange in T\u00fcrkiye",
        "source": "California State Portal | CA.gov",
        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSUk3SllRalRKUnRiODI2bEF0MnRYRUhkdzlNUzBvWXlBd25JSHRpZE5XY2UzS0RXemNhT05Ta01tbVl1RE1XZkxnWDhDbzNoMVhObGNDODlqZzctSUh6Vm9yNEJtUjAxS0htS0NScnl1V3pVT1V1anNBQjdUeS10bU95OE9sVmJzYmE3ckREdWlDQkN0V3ktaEFqc3VIMjAwblEyQzlZancxZFhKN2taVGJUeDlJYWNmajI3ZUVzc0dGdENxbkNDcDBSNTJpOVFJeEtfQWZvTkpFdnlBMXc?oc=5",
        "published": "2026-11-12T20:41:23+00:00"
       },
       {
-       "n": 37,
+       "n": 38,
        "title": "Colorado mountain leaders believe a new U.S. Forest Service rule could be a \u2018gamechanger\u2019 for affordable housing projects on federal land",
        "source": "SummitDaily.com",
        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZUVuWlkwWVNWVU1mZDhidkJadWxfRW9BX2hUb3duU1dWcFVPSG5qN1h5RTFadHc0VFZUWUlqdkJhaXlqWjhLTEdseFZzUzVVZTB5eG5ESUFVS1RCb1lCT3AxTE80RTNQUnYyRVRBQUM1QWxUWjJ2YklKaUhjNHZSUUdrQTJpN2kzaTdOREpGamNGSms?oc=5",
        "published": "2026-11-12T20:26:17+00:00"
       },
       {
-       "n": 38,
+       "n": 39,
        "title": "Why FRA\u2019s National and Regional Meetings Belong on Your 2027 Calendar",
        "source": "Forest Resources Association",
        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeUFRSjhHNm1ZNlBXX1diR0VqcElVbUxxTll2Z1AySnd2Vy1VM3FoQWRMYUlGRUNNQ0syZ09vbmNsdVpPR0VnSW9TQ0xBb2RjQk9zYlZ2dnM5UWVZWGt2SFJrOUN2MEpDVzloLW5LS0d6ajBZcjVhdzNqci1DbU9ZNzBpZm10TnAxV19KSFlFNXJ3UURtTm5EeGNmSHAxRDJSZ3EwU21PTE9ITGQ1?oc=5",
        "published": "2026-11-12T19:31:23+00:00"
-      },
-      {
-       "n": 39,
-       "title": "Trump Tariffs Backfire as Canada Warns of Damage to US Economy",
-       "source": "Newsweek",
-       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS09ONzhRcWgxeFF1TTJoSDlHbW9xRVZTZWozVm5EcWdNNTBJcUFnWS04V1V0X2Y2NDEtOFlhVnZSSUlKZ0N6U05GMG1TemRkLTRUNXhXVzhOSm5abVg3ajJlZEtCQ3hWc212Y3BOM3lwZUF6T0U2eGJ2bGNucWVaVjVlSERUNjlq?oc=5",
-       "published": "2026-11-12T14:37:00+00:00"
       },
       {
        "n": 40,
