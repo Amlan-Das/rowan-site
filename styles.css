@@ -1538,3 +1538,38 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 @media (max-width: 760px) { .pc-tiles { grid-template-columns: 1fr 1fr; } }
 @media (min-width: 761px) and (max-width: 1180px) { .site nav { gap: 4px 16px; font-size: 14px; } .mark-sub { display: none; } .site a.cta { padding-inline: 14px; } }
 .pc-ca { margin-top: 44px; }
+
+/* =====================================================================
+   Minimal pass: one hairline per section, even spacing, fewer boxes and labels
+   ===================================================================== */
+/* one rhythm between sections, one rule style */
+.band { padding-block: clamp(48px, 5.5vw, 76px); }
+.sechead { margin-bottom: 26px; padding-top: 0; border-top: 0; }
+.ed-sec { margin-top: 64px; padding-top: 0; border-top: 0; }
+.ed-sechead { margin-bottom: 22px; }
+.band:not(.dark) + .band:not(.dark) { border-top: 1px solid var(--rule); }
+.ed-sec::before { content: ""; display: block; height: 1px; margin-bottom: 28px; background: var(--rule-strong); }
+.ed-band { padding-block: clamp(32px, 4vw, 52px) clamp(22px, 2.6vw, 34px); }
+
+/* figure captions: plain small label, no numbering */
+.exh::before { content: none; }
+.exh { margin: 0 0 14px; color: var(--mist); font: 600 12.5px/1.3 var(--sans); letter-spacing: .04em; text-transform: uppercase; }
+.ed-label { color: var(--mist); font-weight: 600; letter-spacing: .04em; text-transform: uppercase; font-size: 12.5px; }
+.exhibit { margin-top: 30px; }
+.ed-markets { border-top: 1px solid var(--rule-strong); }
+
+/* quieter chrome */
+.chip, .ind-tab { box-shadow: none; }
+.al-ch { border-color: var(--rule); }
+.hist, .pt, .phband { margin-block: 34px; } .hist { border-top: 1px solid var(--rule-strong); }
+.ed-note, .src { color: var(--mist); }
+.ai-divide { border-top: 1px solid var(--rule-strong); }
+.pt { border-top: 1px solid var(--rule-strong); } .pt-fig, .cd-gh, .dl-card { border-color: var(--rule-strong); }
+
+/* home cover: the nav above already lists the pages, so drop the duplicate contents list and the boxed counter */
+.cover-toc { display: none; }
+.cover-box { border: 0; border-left: 3px solid rgba(255, 255, 255, .45); padding: 2px 0 2px 14px; }
+.cover-side { gap: 22px; }
+
+/* footer: one quiet row */
+.fnav { padding-block: 26px 14px; } .fnav nav a { font-size: 14px; }
