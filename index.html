@@ -26,7 +26,7 @@
       <a href="ai-news.html">AI projects</a>
       <a href="pitches.html">Pitches</a>
       <a href="brief.html"><span class="nfull">Morning brief</span><span class="nshort" aria-hidden="true">Brief</span></a>
-      <a href="brief.html#industries">Industries</a>
+      <a href="industries.html">Industries</a>
       <a href="deals.html">Deals</a>
       <a href="privatecredit.html">Private credit</a>
       <a href="#about">About</a>
@@ -38,9 +38,16 @@
 <main id="top" class="home">
 
   <section class="h-hero wrap">
-    <h1>Rowan Das</h1>
+    <div class="h-id">
+      <h1>Rowan Das</h1>
     <p class="h-lede">I&rsquo;m a third-year Commerce student at the University of Toronto, and I learn markets by building things. I analyse Industrials on the Rotman Commerce Student Fund, I&rsquo;m into finance and machine learning, and I&rsquo;m a big Vancouver Canucks fan.</p>
     <p class="h-links" id="hLinks"></p>
+  
+    </div>
+    <aside class="h-pitches" aria-label="Stock pitches">
+      <p class="h-pl">Stock pitches</p>
+      <ul id="hPitches"></ul>
+    </aside>
   </section>
 
   <section class="h-sec wrap" id="projects">
@@ -176,7 +183,7 @@
         <a href="ai-news.html">AI projects</a>
         <a href="pitches.html">Pitches</a>
         <a href="brief.html">Morning brief</a>
-        <a href="brief.html#industries">Industries</a>
+        <a href="industries.html">Industries</a>
         <a href="deals.html">Deals</a>
         <a href="privatecredit.html">Private credit</a>
         <a href="#experience">Experience</a>
@@ -198,6 +205,11 @@ const $ = (id) => document.getElementById(id);
 (function () {
   const ext = (href, label) => '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + label + "</a>";
   $("hLinks").innerHTML = '<a href="' + esc(RESUME) + '" data-resume>R\u00e9sum\u00e9</a>' + ext(CONTACT.linkedin, "LinkedIn") + ext(CONTACT.github, "GitHub") + '<a href="mailto:' + esc(CONTACT.email) + '">Email</a>';
+  const hit = {};
+  fetch("pitch-prices.json").then((r) => r.json()).then((d) => { Object.keys(d.prices || {}).forEach((t) => { hit[t] = !!(d.prices[t].closest && d.prices[t].closest.hit); }); }).catch(() => {}).then(() => {
+    $("hPitches").innerHTML = PITCHES.slice().sort((a, b) => String(b.date).localeCompare(String(a.date))).map((p) =>
+      '<li><a href="pitches.html#' + esc(p.ticker) + '"><b>' + esc(p.ticker) + "</b><span>" + esc((p.company || p.ticker).replace(/ (Inc\.?|plc|Corporation|Corp\.?)$/i, "")) + '</span><em class="' + (/short/i.test(p.direction || "") ? "short" : "long") + '">' + esc(p.direction || "") + "</em>" + (hit[p.ticker] ? '<i title="Target hit">\u2713</i>' : "") + "</a></li>").join("");
+  });
   $("mailBig").href = "mailto:" + CONTACT.email; $("mailBig").textContent = CONTACT.email;
 })();
 </script>
