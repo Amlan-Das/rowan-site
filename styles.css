@@ -1596,3 +1596,16 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 .h-contact { padding-bottom: 24px; } .h-mail { margin: 0; font: 800 clamp(26px, 4.4vw, 56px)/1.1 var(--sans); letter-spacing: -.03em; } .h-mail a { color: var(--ink); text-decoration: none; border-bottom: 3px solid var(--house); } .h-mail a:hover { color: var(--house); }
 .home .rows { border: 0; } .home .erow { padding-block: 16px; }
 @media (max-width: 760px) { .h-index a { grid-template-columns: 1fr auto; } .h-index span { grid-column: 1; } .h-index i { grid-column: 2; grid-row: 1; } .h-about { grid-template-columns: 1fr; } }
+
+/* projects as files */
+.h-hero { padding-bottom: 28px; } .h-lede { max-width: 46ch; }
+.files { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 22px; }
+.file { position: relative; display: flex; flex-direction: column; padding: 0 22px 20px; background: #fff; border: 1px solid var(--rule-strong); border-radius: 2px 22px 2px 2px; clip-path: polygon(0 0, calc(100% - 26px) 0, 100% 26px, 100% 100%, 0 100%); }
+.file::after { content: ""; position: absolute; top: 0; right: 0; width: 26px; height: 26px; background: linear-gradient(225deg, transparent 50%, var(--rule-strong) 50%); }
+.file-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 0 -22px 16px; padding: 10px 40px 10px 22px; background: var(--soft); border-bottom: 1px solid var(--rule); }
+.file-name { font: 600 13px var(--mono); color: var(--house); } .file-kind { color: var(--mist); font: 600 11.5px var(--sans); letter-spacing: .05em; text-transform: uppercase; }
+.file h3 { margin: 0 0 8px; font: 800 22px/1.2 var(--sans); letter-spacing: -.02em; } .file p { margin: 0 0 12px; }
+.file > p:not(.file-tools):not(.file-links) { color: var(--slate); font-size: 15.5px; line-height: 1.55; }
+.file-tools { margin-top: auto !important; padding-top: 4px; color: var(--mist); font: 500 12.5px var(--sans); }
+.file-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 !important; }
+.file-links a { padding: 8px 14px; font: 700 13.5px var(--sans); text-decoration: none; border: 1px solid var(--ink); } .file-links .a1 { background: var(--ink); color: #fff; } .file-links .a2 { background: #fff; color: var(--ink); } .file-links a:hover { background: var(--house); border-color: var(--house); color: #fff; }

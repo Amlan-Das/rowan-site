@@ -38,41 +38,74 @@
 <main id="top" class="home">
 
   <section class="h-hero wrap">
-    <p class="h-date" id="hDate"></p>
     <h1>Rowan Das</h1>
-    <p class="h-lede">Commerce student at the University of Toronto. Analyst on the Rotman Commerce Student Fund, covering Industrials.</p>
+    <p class="h-lede">I&rsquo;m a third-year Commerce student at the University of Toronto, and I learn markets by building things. I analyse Industrials on the Rotman Commerce Student Fund, I&rsquo;m into finance and machine learning, and I&rsquo;m a big Vancouver Canucks fan.</p>
     <p class="h-links" id="hLinks"></p>
   </section>
 
-  <section class="h-sec wrap" id="pitches">
-    <div class="h-head"><h2>Live Pitches</h2><p id="hCount"></p></div>
-    <div class="ledger" id="pitchlist"></div>
-    <p class="src">Prices from Yahoo Finance, updated after every trading day. Open a row for the thesis, the write-up and the model.</p>
-  </section>
-
-  <section class="h-sec wrap" id="work">
-    <div class="h-head"><h2>Work</h2></div>
-    <ul class="h-index">
-      <li><a href="brief.html"><b>Morning Brief</b><span>What moved overnight, written each weekday from the headlines.</span><i aria-hidden="true">&rarr;</i></a></li>
-      <li><a href="deals.html"><b>Deals</b><span>Who is buying whom, and where each deal stands.</span><i aria-hidden="true">&rarr;</i></a></li>
-      <li><a href="ai-news.html"><b>AI Projects</b><span>A perceptron from scratch, a cat or dog classifier, and a walk through AlexNet.</span><i aria-hidden="true">&rarr;</i></a></li>
-      <li><a href="privatecredit.html"><b>Private Credit</b><span>SOFR, CORRA, Treasury and Canada yields, and inflation on one chart.</span><i aria-hidden="true">&rarr;</i></a></li>
-      <li><a href="brief.html#industries"><b>Industries</b><span>A note and a primer on each industry I cover.</span><i aria-hidden="true">&rarr;</i></a></li>
-    </ul>
+  <section class="h-sec wrap" id="projects">
+    <div class="h-head"><h2>Projects</h2></div>
+    <div class="files">
+      <article class="file">
+        <header class="file-top"><span class="file-name">perceptron.py</span><span class="file-kind">Python</span></header>
+        <h3>The Perceptron</h3>
+        <p>Taught two weights and a bias to play the AND gate in about 20 lines of plain Python. It made 10 mistakes in its first 5 passes, then got all four right.</p>
+        <p class="file-tools">Python, no libraries</p>
+        <p class="file-links"><a class="a1" href="ai-news.html#perceptron">Open</a><a class="a2" href="https://github.com/Amlan-Das/rowan-site/blob/main/ai/perceptron/perceptron.py" target="_blank" rel="noopener">Code</a></p>
+      </article>
+<article class="file">
+        <header class="file-top"><span class="file-name">catdog.py</span><span class="file-kind">Python</span></header>
+        <h3>Cat or Dog</h3>
+        <p>Trained one weight per pixel on 32 &times; 32 drawings. It reached 94.3% on 70 drawings it had never seen, and I plotted which pixels carry the most weight.</p>
+        <p class="file-tools">NumPy, torchvision, matplotlib</p>
+        <p class="file-links"><a class="a1" href="ai-news.html#catdog">Open</a><a class="a2" href="https://github.com/Amlan-Das/rowan-site/blob/main/ai/catdog/catdog.py" target="_blank" rel="noopener">Code</a></p>
+      </article>
+<article class="file">
+        <header class="file-top"><span class="file-name">alexnet.html</span><span class="file-kind">Explainer</span></header>
+        <h3>How AlexNet Learned to See</h3>
+        <p>An interactive walk through the 2012 paper that turned image recognition into one big matrix multiply. A summary of other people&rsquo;s work, with the maths playable.</p>
+        <p class="file-tools">JavaScript, Three.js</p>
+        <p class="file-links"><a class="a1" href="alexnet.html">Open</a></p>
+      </article>
+<article class="file">
+        <header class="file-top"><span class="file-name">morning-brief</span><span class="file-kind">Pipeline</span></header>
+        <h3>Morning Brief</h3>
+        <p>A weekday pipeline that pulls headlines, stores them in a vector database and has a local Llama model write the overnight read, with every claim linked to its source.</p>
+        <p class="file-tools">Python, Chroma, Ollama, yfinance</p>
+        <p class="file-links"><a class="a1" href="brief.html">Open</a><a class="a2" href="https://github.com/Amlan-Das/rowan-site/tree/main/brief" target="_blank" rel="noopener">Code</a></p>
+      </article>
+<article class="file">
+        <header class="file-top"><span class="file-name">deals-tracker</span><span class="file-kind">Pipeline</span></header>
+        <h3>Deals Tracker</h3>
+        <p>The same pipeline pointed at M&amp;A: it finds buyer and target in the headlines, groups them by deal and tracks each one&rsquo;s stage.</p>
+        <p class="file-tools">Python, Chroma, Ollama</p>
+        <p class="file-links"><a class="a1" href="deals.html">Open</a><a class="a2" href="https://github.com/Amlan-Das/rowan-site/tree/main/deals" target="_blank" rel="noopener">Code</a><a class="a2" href="historical_deals.csv" download>historical_deals.csv</a></p>
+      </article>
+<article class="file">
+        <header class="file-top"><span class="file-name">stock-pitches</span><span class="file-kind">Research</span></header>
+        <h3>Stock Pitches</h3>
+        <p>Five pitched stocks, each with a thesis, a valuation model and a price target, marked to market after every close. Two have hit their targets.</p>
+        <p class="file-tools">Excel, DCF, comps, yfinance</p>
+        <p class="file-links"><a class="a1" href="pitches.html">Open</a></p>
+      </article>
+<article class="file">
+        <header class="file-top"><span class="file-name">private-credit</span><span class="file-kind">Chart</span></header>
+        <h3>Rates and Private Credit</h3>
+        <p>SOFR, CORRA, 10-year yields and inflation for the US and Canada on one chart, the backdrop for floating-rate private loans.</p>
+        <p class="file-tools">FRED, Bank of Canada data</p>
+        <p class="file-links"><a class="a1" href="privatecredit.html">Open</a><a class="a2" href="https://github.com/Amlan-Das/rowan-site/blob/main/scripts/rates.py" target="_blank" rel="noopener">Code</a></p>
+      </article>
+    </div>
   </section>
 
   <section class="h-sec wrap" id="about">
-    <div class="h-head"><h2>About</h2></div>
-    <div class="h-about">
-      <p>Third-year Commerce student at the University of Toronto, very interested in financial markets and learning them by building. Also a big Vancouver Canucks fan.</p>
-      <ul class="h-wins">
-        <li><b>2nd</b><span>RSM 100 Case Competition ($4,000+, 900 students)</span></li>
-        <li><b>Top 8</b><span>KKR Wharton PE Case Competition, globally</span></li>
-        <li><b>7</b><span>Case competitions in total</span></li>
-        <li><b>1 of 20</b><span>Analysts selected for the Rotman Commerce Student Fund ($250K AUM)</span></li>
-      </ul>
-    </div>
-    <p class="h-skills" id="hSkills"></p>
+    <div class="h-head"><h2>Results</h2></div>
+    <ul class="h-wins">
+      <li><b>2nd</b><span>RSM 100 Case Competition ($4,000+, 900 students)</span></li>
+      <li><b>Top 8</b><span>KKR Wharton PE Case Competition, globally</span></li>
+      <li><b>7</b><span>Case competitions in total</span></li>
+      <li><b>1 of 20</b><span>Analysts selected for the Rotman Commerce Student Fund ($250K AUM)</span></li>
+    </ul>
   </section>
 
   <section class="h-sec wrap" id="experience">
@@ -88,7 +121,7 @@
           </ul>
         </div>
       </article>
-      <article class="erow">
+<article class="erow">
         <p class="when">Jan 2026 to present</p>
         <div>
           <h3>Analyst, Industrials</h3>
@@ -98,7 +131,7 @@
           </ul>
         </div>
       </article>
-      <article class="erow">
+<article class="erow">
         <p class="when">Aug 2025 to present</p>
         <div>
           <h3>VP Finance</h3>
@@ -108,7 +141,7 @@
           </ul>
         </div>
       </article>
-      <article class="erow">
+<article class="erow">
         <p class="when">May 2025 to Aug 2025</p>
         <div>
           <h3>Associate Intern</h3>
@@ -118,7 +151,7 @@
           </ul>
         </div>
       </article>
-      <article class="erow">
+<article class="erow">
         <p class="when">Jan 2025 to present</p>
         <div>
           <h3>Associate</h3>
@@ -164,13 +197,9 @@
 const $ = (id) => document.getElementById(id);
 (function () {
   const ext = (href, label) => '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + label + "</a>";
-  $("hDate").textContent = new Date().toLocaleDateString("en-US", { timeZone: "America/New_York", weekday: "long", month: "long", day: "numeric", year: "numeric" });
   $("hLinks").innerHTML = '<a href="' + esc(RESUME) + '" data-resume>R\u00e9sum\u00e9</a>' + ext(CONTACT.linkedin, "LinkedIn") + ext(CONTACT.github, "GitHub") + '<a href="mailto:' + esc(CONTACT.email) + '">Email</a>';
-  $("hCount").textContent = PITCHES.length + (PITCHES.length === 1 ? " call" : " calls") + ", marked to the last close";
   $("mailBig").href = "mailto:" + CONTACT.email; $("mailBig").textContent = CONTACT.email;
-  $("hSkills").innerHTML = "<b>Tools and methods</b> " + SKILLS.map((g) => g.items.slice(0, 4).map(esc).join(", ")).join(", ") + ".";
 })();
-renderPitches($("pitchlist"), { charts: false });
 </script>
 </body>
 </html>
