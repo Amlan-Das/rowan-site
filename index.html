@@ -35,89 +35,48 @@
   </div>
 </header>
 
-<main id="top">
-<section class="cover">
-  <div class="wrap cover-in">
-    <aside class="dark cover-side" aria-label="Rowan Das">
-      <h1 class="cover-name">Rowan Das</h1>
-      <p class="cover-role">Analyst, Industrials<br>Rotman Commerce Student Fund</p>
-      <p class="cover-school">Commerce, University of Toronto, class of 2029</p>
-      <div class="cover-box">
-        <p class="cb-v" id="callCount">4 live calls</p>
-        <p class="cb-s">Marked to the last close after every trading day</p>
-      </div>
-      <nav class="cover-toc" aria-label="In this report">
-        <p class="toc-h">Contents</p>
-        <a href="pitches.html"><span>Pitches</span><span class="toc-d">Charts and models</span></a>
-        <a href="brief.html"><span>Morning brief</span><span class="toc-d">Weekdays, 6:30 AM ET</span></a>
-        <a href="brief.html#industries"><span>Industries</span><span class="toc-d">Primers and reports</span></a>
-        <a href="deals.html"><span>Deals</span><span class="toc-d">Who is buying whom</span></a>
-        <a href="#experience"><span>Experience</span><span class="toc-d">PwC, RCSF, Allure</span></a>
-      </nav>
-      <div class="cover-contact" id="heroLinks">
-        <a class="btn solid" href="resume.pdf" data-resume>Résumé</a>
-      </div>
-    </aside>
+<main id="top" class="home">
 
-    <div class="cover-main">
-      <p class="rline"><span>Stock pitches and market tools</span><span id="rDate"></span></p>
-      <h2 class="cover-h"><span id="callWord">Four</span> stock calls, marked to market after every close.</h2>
-      <p class="intro">Commerce student at the University of Toronto, studying finance and economics at Rotman. Analyst on the Rotman Commerce Student Fund, covering Industrials. Below are the stocks I've pitched, each with a price target and how the call is tracking, plus two tools I built that publish here every weekday.</p>
+  <section class="h-hero wrap">
+    <p class="h-date" id="hDate"></p>
+    <h1>Rowan Das</h1>
+    <p class="h-lede">Commerce student at the University of Toronto. Analyst on the Rotman Commerce Student Fund, covering Industrials.</p>
+    <p class="h-links" id="hLinks"></p>
+  </section>
 
-      <figure class="exhibit" id="pitches">
-        <figcaption class="exh">Pitches Against Their Targets</figcaption>
-        <div class="ledger" id="pitchlist"></div>
-        <p class="src">Source: Yahoo Finance closes, updated after every trading day. Open a row for the thesis, the write-up and the model; live charts are on the <a href="pitches.html">pitches page</a>.</p>
-      </figure>
-    </div>
-  </div>
-</section>
+  <section class="h-sec wrap" id="pitches">
+    <div class="h-head"><h2>Live Pitches</h2><p id="hCount"></p></div>
+    <div class="ledger" id="pitchlist"></div>
+    <p class="src">Prices from Yahoo Finance, updated after every trading day. Open a row for the thesis, the write-up and the model.</p>
+  </section>
 
-<section id="projects" class="band">
-  <div class="wrap">
-    <div class="sechead">
-      <h2>Projects</h2>
-      <p class="note">Two tools that run every weekday and publish to this site, and what I plan to build next.</p>
-    </div>
-    <figure class="exhibit">
-      <figcaption class="exh">The Two Tools, With Their Latest Output</figcaption>
-      <div class="feat" id="feat"></div>
-    </figure>
-    <h3 class="subhead" id="nextTitle">Planned</h3>
-    <div class="ledger projects" id="list"></div>
-  </div>
-</section>
+  <section class="h-sec wrap" id="work">
+    <div class="h-head"><h2>Work</h2></div>
+    <ul class="h-index">
+      <li><a href="brief.html"><b>Morning Brief</b><span>What moved overnight, written each weekday from the headlines.</span><i aria-hidden="true">&rarr;</i></a></li>
+      <li><a href="deals.html"><b>Deals</b><span>Who is buying whom, and where each deal stands.</span><i aria-hidden="true">&rarr;</i></a></li>
+      <li><a href="ai-news.html"><b>AI Projects</b><span>A perceptron from scratch, a cat or dog classifier, and a walk through AlexNet.</span><i aria-hidden="true">&rarr;</i></a></li>
+      <li><a href="privatecredit.html"><b>Private Credit</b><span>SOFR, CORRA, Treasury and Canada yields, and inflation on one chart.</span><i aria-hidden="true">&rarr;</i></a></li>
+      <li><a href="brief.html#industries"><b>Industries</b><span>A note and a primer on each industry I cover.</span><i aria-hidden="true">&rarr;</i></a></li>
+    </ul>
+  </section>
 
-<section id="about" class="band">
-  <div class="wrap">
-    <div class="sechead"><h2>About</h2></div>
-    <div class="about">
-      <p class="statement">Third-year Commerce student at the University of Toronto, very interested in financial markets and learning them by building. Also a big Vancouver Canucks fan.</p>
-      <figure class="exhibit exhibit-wins">
-      <figcaption class="exh">Results</figcaption>
-      <ul class="wins">
+  <section class="h-sec wrap" id="about">
+    <div class="h-head"><h2>About</h2></div>
+    <div class="h-about">
+      <p>Third-year Commerce student at the University of Toronto, very interested in financial markets and learning them by building. Also a big Vancouver Canucks fan.</p>
+      <ul class="h-wins">
         <li><b>2nd</b><span>RSM 100 Case Competition ($4,000+, 900 students)</span></li>
         <li><b>Top 8</b><span>KKR Wharton PE Case Competition, globally</span></li>
         <li><b>7</b><span>Case competitions in total</span></li>
         <li><b>1 of 20</b><span>Analysts selected for the Rotman Commerce Student Fund ($250K AUM)</span></li>
       </ul>
-      </figure>
     </div>
-    <div class="phband n2"><figure><img src="img/uoft.jpg" alt="University College and the downtown Toronto skyline from Front Campus" loading="lazy"><figcaption>University College, University of Toronto, where I study. Photo: <a href="https://commons.wikimedia.org/wiki/File:Toronto_University_College_1.jpg" target="_blank" rel="noopener">GoginkLobabi</a>, CC BY-SA 4.0.</figcaption></figure><figure><img src="img/rogers.jpg" alt="Rogers Arena in Vancouver, with a Canucks banner on the wall" loading="lazy"><figcaption>Rogers Arena in Vancouver, home of the Canucks. Photo: <a href="https://commons.wikimedia.org/wiki/File:Rogers_Arena,_Vancouver_(2012).JPG" target="_blank" rel="noopener">Another Believer</a>, CC BY-SA 3.0.</figcaption></figure></div>
-    <figure class="exhibit skills" id="toolbox">
-      <figcaption class="exh">Skills, by Group</figcaption>
-      <div class="skills-in">
-        <div class="orb" id="orb" aria-hidden="true"><div class="orb-globe"></div></div>
-        <div class="tbox" id="skills"></div>
-      </div>
-      <p class="src">Drag the orb to turn it. Point at a group to light up its skills.</p>
-    </figure>
-  </div>
-</section>
+    <p class="h-skills" id="hSkills"></p>
+  </section>
 
-<section id="experience" class="band">
-  <div class="wrap">
-    <div class="sechead"><h2>Experience</h2></div>
+  <section class="h-sec wrap" id="experience">
+    <div class="h-head"><h2>Experience</h2></div>
     <div class="rows">
       <article class="erow">
         <p class="when">May 2026 to Aug 2026</p>
@@ -167,18 +126,15 @@
         </div>
       </article>
     </div>
-  </div>
-</section>
+  </section>
+
+  <section class="h-sec h-contact wrap" id="contact">
+    <div class="h-head"><h2>Contact</h2></div>
+    <p class="h-mail"><a id="mailBig" href="mailto:rowanamlan@gmail.com">rowanamlan@gmail.com</a></p>
+  </section>
+
 </main>
 
-<section id="contact" class="band dark contact">
-  <div class="wrap">
-    <div class="sechead"><h2>Contact</h2></div>
-    <p class="say">Email is the best way to reach me.</p>
-    <p class="big"><a id="mailBig" href="mailto:rowanamlan@gmail.com">rowanamlan@gmail.com</a></p>
-    <div class="actions" id="contactLinks"></div>
-  </div>
-</section>
 <footer class="dark">
   <div class="wrap">
     <div class="fnav">
@@ -190,7 +146,6 @@
         <a href="brief.html#industries">Industries</a>
         <a href="deals.html">Deals</a>
         <a href="privatecredit.html">Private credit</a>
-        <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#about">About</a>
       </nav>
@@ -207,153 +162,15 @@
 <script src="common.js"></script>
 <script>
 const $ = (id) => document.getElementById(id);
-const getJSON = (url) => fetch(url, { cache: "no-store" }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); });
-const etDay = (iso) => new Date(iso).toLocaleDateString("en-US", { timeZone: "America/New_York", weekday: "short", month: "short", day: "numeric" });
-
-// Links that come from data.js
 (function () {
   const ext = (href, label) => '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + label + "</a>";
-  $("heroLinks").insertAdjacentHTML("beforeend",
-    '<p class="cover-links"><a href="mailto:' + esc(CONTACT.email) + '">' + esc(CONTACT.email) + "</a>" + ext(CONTACT.linkedin, "LinkedIn") + ext(CONTACT.github, "GitHub") + "</p>");
-  $("callCount").textContent = PITCHES.length + (PITCHES.length === 1 ? " live call" : " live calls");
-  const words = ["No", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"];
-  $("callWord").textContent = words[PITCHES.length] || PITCHES.length;
-  $("rDate").textContent = new Date().toLocaleDateString("en-US", { timeZone: "America/New_York", weekday: "long", month: "long", day: "numeric", year: "numeric" });
-  $("mailBig").href = "mailto:" + CONTACT.email;
-  $("mailBig").textContent = CONTACT.email;
-  $("contactLinks").innerHTML =
-    '<a class="btn" href="' + esc(CONTACT.linkedin) + '" target="_blank" rel="noopener">LinkedIn</a>' +
-    '<a class="btn" href="' + esc(CONTACT.github) + '" target="_blank" rel="noopener">GitHub</a>' +
-    '<a class="btn" href="' + esc(RESUME) + '" target="_blank" rel="noopener">Résumé</a>';
+  $("hDate").textContent = new Date().toLocaleDateString("en-US", { timeZone: "America/New_York", weekday: "long", month: "long", day: "numeric", year: "numeric" });
+  $("hLinks").innerHTML = '<a href="' + esc(RESUME) + '" data-resume>R\u00e9sum\u00e9</a>' + ext(CONTACT.linkedin, "LinkedIn") + ext(CONTACT.github, "GitHub") + '<a href="mailto:' + esc(CONTACT.email) + '">Email</a>';
+  $("hCount").textContent = PITCHES.length + (PITCHES.length === 1 ? " call" : " calls") + ", marked to the last close";
+  $("mailBig").href = "mailto:" + CONTACT.email; $("mailBig").textContent = CONTACT.email;
+  $("hSkills").innerHTML = "<b>Tools and methods</b> " + SKILLS.map((g) => g.items.slice(0, 4).map(esc).join(", ")).join(", ") + ".";
 })();
-
-// Pitches
 renderPitches($("pitchlist"), { charts: false });
-
-// Projects: the live tools get a column each, the planned ones a list
-(function () {
-  const live = PROJECTS.filter((p) => p.link), planned = PROJECTS.filter((p) => !p.link);
-
-  $("feat").innerHTML = live.map((p) =>
-    '<article class="fcard">' +
-      "<h3>" + esc(p.title) + "</h3>" +
-      '<p class="fq">' + esc(p.question) + "</p>" +
-      '<p class="fa">' + esc(p.approach) + "</p>" +
-      '<p class="stack">Built with ' + esc(p.stack) + "</p>" +
-      (p.result ? '<p class="flive" data-src="' + esc(p.link.replace(/\.html$/, ".json")) + '">' + esc(p.result) + "</p>" : "") +
-      '<a class="btn" href="' + esc(p.link) + '">' + esc(p.linkLabel || "Open") + "</a>" +
-    "</article>"
-  ).join("");
-
-  const list = $("list");
-  if (!planned.length) { list.hidden = true; $("nextTitle").hidden = true; return; }
-  const chipFor = (s) => '<span class="chip' + (/progress|working/i.test(s) ? " acc" : " soft") + '">' + esc(s) + "</span>";
-  list.innerHTML =
-    planned.map((p, i) =>
-      '<div class="lrow">' +
-        '<button class="lbtn" type="button" id="pb' + i + '" aria-controls="pp' + i + '" aria-expanded="false">' +
-          '<span class="c-co"><span class="co">' + esc(p.title) + "</span></span>" +
-          '<span class="q-col">' + esc(p.question) + "</span>" +
-          '<span class="status">' + chipFor(p.status) + "</span>" +
-          '<span class="ind" aria-hidden="true"></span>' +
-        "</button>" +
-        '<div class="lpanel" id="pp' + i + '" role="region" aria-labelledby="pb' + i + '"><div class="inner"><div class="pbody">' +
-          '<div><p class="a">' + esc(p.approach) + "</p></div>" +
-          '<dl class="facts">' +
-            "<div><dt>Built with</dt><dd>" + esc(p.stack) + "</dd></div>" +
-            "<div><dt>Result</dt><dd>" + (p.result ? esc(p.result) : "Not built yet") + "</dd></div>" +
-          "</dl>" +
-        "</div></div></div>" +
-      "</div>"
-    ).join("");
-  makeAccordion(list);
-})();
-
-// Skills: the list, and the orb that shows the same skills on a slowly turning sphere
-$("skills").innerHTML = SKILLS.map((g, i) =>
-  '<div class="tgroup" tabindex="0" data-g="' + i + '"><h3>' + esc(g.group) + "</h3><p>" + g.items.map(esc).join(", ") + "</p></div>"
-).join("");
-
-(function () {
-  const orb = $("orb");
-  const items = [];
-  SKILLS.forEach((g, gi) => g.items.forEach((name) => items.push({ name, gi })));
-  // Spread the labels evenly over the sphere (a Fibonacci lattice), mixing the groups
-  const n = items.length, golden = Math.PI * (3 - Math.sqrt(5));
-  const order = items.map((it, i) => ({ it, k: (i * 7) % n })).sort((a, b) => a.k - b.k).map((x) => x.it);
-  const pts = order.map((it, i) => {
-    const y = 1 - (i + .5) / n * 2, r = Math.sqrt(1 - y * y), t = i * golden;
-    const el = document.createElement("span");
-    el.className = "orb-tag";
-    el.dataset.g = it.gi;
-    el.textContent = it.name;
-    orb.appendChild(el);
-    return { x: Math.cos(t) * r, y, z: Math.sin(t) * r, el };
-  });
-
-  let ax = -0.35, ay = 0, vx = 0, vy = reduceMotion ? 0 : 0.0032, R = 0, on = true, raf = 0;
-  const size = () => { R = orb.clientWidth / 2 * (orb.clientWidth < 400 ? 0.7 : 0.78); };
-  const draw = () => {
-    const cx = Math.cos(ax), sx = Math.sin(ax), cy = Math.cos(ay), sy = Math.sin(ay);
-    pts.forEach((p) => {
-      const x1 = p.x * cy + p.z * sy, z1 = -p.x * sy + p.z * cy;
-      const y2 = p.y * cx - z1 * sx, z2 = p.y * sx + z1 * cx;
-      const s = 0.6 + 0.4 * (z2 + 1) / 2;               // 0.6 at the back, 1 at the front
-      p.el.style.transform = "translate(-50%, -50%) translate3d(" + (x1 * R).toFixed(1) + "px," + (y2 * R).toFixed(1) + "px,0) scale(" + s.toFixed(3) + ")";
-      p.el.style.opacity = (0.3 + 0.7 * (z2 + 1) / 2).toFixed(2);
-      p.el.style.zIndex = Math.round((z2 + 1) * 100);
-    });
-  };
-  const loop = () => {
-    ay += vy; ax += vx;
-    if (dragging === null) { vx *= 0.94; vy += ((reduceMotion ? 0 : 0.0032) - vy) * 0.03; }
-    ax = Math.max(-1.2, Math.min(1.2, ax));
-    draw();
-    raf = on ? requestAnimationFrame(loop) : 0;
-  };
-
-  // Drag to turn it; it keeps some spin when you let go
-  let dragging = null;
-  orb.addEventListener("pointerdown", (e) => { dragging = { x: e.clientX, y: e.clientY }; orb.setPointerCapture(e.pointerId); orb.classList.add("grab"); });
-  orb.addEventListener("pointermove", (e) => {
-    if (!dragging) return;
-    vy = (e.clientX - dragging.x) * 0.006; vx = -(e.clientY - dragging.y) * 0.006;
-    dragging = { x: e.clientX, y: e.clientY };
-  });
-  const drop = () => { dragging = null; orb.classList.remove("grab"); };
-  orb.addEventListener("pointerup", drop);
-  orb.addEventListener("pointercancel", drop);
-
-  // Pointing at a group in the list (or at a label) lights up that group's skills
-  const light = (g) => {
-    orb.classList.toggle("lit", g != null);
-    pts.forEach((p) => p.el.classList.toggle("on", String(g) === p.el.dataset.g));
-    document.querySelectorAll(".tgroup").forEach((t) => t.classList.toggle("on", String(g) === t.dataset.g));
-  };
-  document.querySelectorAll(".tgroup").forEach((t) => {
-    t.addEventListener("mouseenter", () => light(t.dataset.g));
-    t.addEventListener("focus", () => light(t.dataset.g));
-    t.addEventListener("mouseleave", () => light(null));
-    t.addEventListener("blur", () => light(null));
-  });
-  orb.addEventListener("mouseover", (e) => { const t = e.target.closest(".orb-tag"); light(t ? t.dataset.g : null); });
-  orb.addEventListener("mouseleave", () => light(null));
-
-  // Only turn while it is on screen
-  size(); draw();
-  new IntersectionObserver((en) => {
-    on = en[0].isIntersecting;
-    if (on && !raf) raf = requestAnimationFrame(loop);
-  }).observe(orb);
-  window.addEventListener("resize", () => { size(); draw(); });
-})();
-
-// The latest summary from each tool. If a file isn't there yet, the card keeps its default text.
-const showLatest = (src, d) => document.querySelectorAll('.flive[data-src="' + src + '"]').forEach((el) => {
-  if (d.lede) el.innerHTML = "<b>Latest" + (d.generated_at ? ", " + esc(etDay(d.generated_at)) : "") + ".</b> " + esc(d.lede);
-});
-getJSON("brief.json").then((b) => showLatest("brief.json", b)).catch(() => {});
-getJSON("deals.json").then((d) => showLatest("deals.json", d)).catch(() => {});
 </script>
 </body>
 </html>

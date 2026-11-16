@@ -1573,3 +1573,26 @@ footer .fnav + .foot { border-top: 1px solid var(--rule); }
 
 /* footer: one quiet row */
 .fnav { padding-block: 26px 14px; } .fnav nav a { font-size: 14px; }
+
+/* =====================================================================
+   Home (index.html): name, live pitches, an index of the work, short about
+   ===================================================================== */
+.home { padding-bottom: 20px; }
+.h-hero { padding-top: clamp(56px, 8vw, 104px); padding-bottom: 44px; }
+.h-date { margin: 0 0 18px; color: var(--mist); font: 500 14px var(--sans); }
+.h-hero h1 { margin: 0; font: 800 clamp(48px, 8vw, 104px)/.95 var(--sans); letter-spacing: -.045em; }
+.h-lede { max-width: 36ch; margin: 22px 0 0; color: var(--slate); font: 400 clamp(19px, 2vw, 24px)/1.45 var(--sans); }
+.h-links { display: flex; flex-wrap: wrap; gap: 6px 24px; margin: 26px 0 0; } .h-links a { color: var(--ink); font: 600 15px var(--sans); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 5px; } .h-links a:hover { color: var(--house); text-decoration-color: var(--house); }
+.h-sec { padding-top: 56px; padding-bottom: 8px; }
+.h-head { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 4px 24px; margin-bottom: 18px; padding-bottom: 12px; border-bottom: 1px solid var(--ink); }
+.h-head h2 { margin: 0; font: 700 14px/1 var(--sans); letter-spacing: .06em; text-transform: uppercase; } .h-head p { margin: 0; color: var(--mist); font-size: 14px; }
+.h-index { list-style: none; margin: 0; padding: 0; } .h-index li { border-bottom: 1px solid var(--rule); }
+.h-index a { display: grid; grid-template-columns: minmax(150px, 260px) 1fr auto; gap: 8px 28px; align-items: baseline; padding: 22px 0; color: var(--ink); text-decoration: none; }
+.h-index b { font: 700 clamp(22px, 2.4vw, 30px)/1.1 var(--sans); letter-spacing: -.02em; } .h-index span { color: var(--slate); font-size: 16px; line-height: 1.45; } .h-index i { font-style: normal; font-size: 22px; color: var(--mist); transition: transform .15s, color .15s; }
+.h-index a:hover b { color: var(--house); } .h-index a:hover i { color: var(--house); transform: translateX(4px); }
+.h-about { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 24px 64px; align-items: start; } .h-about > p { margin: 0; font: 400 clamp(19px, 1.9vw, 23px)/1.5 var(--sans); max-width: 34ch; }
+.h-wins { list-style: none; margin: 0; padding: 0; } .h-wins li { display: grid; grid-template-columns: 92px 1fr; gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--rule); } .h-wins li:first-child { padding-top: 0; } .h-wins b { font: 800 18px var(--sans); } .h-wins span { color: var(--slate); font-size: 15px; line-height: 1.45; }
+.h-skills { max-width: 70ch; margin: 28px 0 0; color: var(--slate); font-size: 15px; line-height: 1.6; } .h-skills b { color: var(--ink); margin-right: 6px; }
+.h-contact { padding-bottom: 24px; } .h-mail { margin: 0; font: 800 clamp(26px, 4.4vw, 56px)/1.1 var(--sans); letter-spacing: -.03em; } .h-mail a { color: var(--ink); text-decoration: none; border-bottom: 3px solid var(--house); } .h-mail a:hover { color: var(--house); }
+.home .rows { border: 0; } .home .erow { padding-block: 16px; }
+@media (max-width: 760px) { .h-index a { grid-template-columns: 1fr auto; } .h-index span { grid-column: 1; } .h-index i { grid-column: 2; grid-row: 1; } .h-about { grid-template-columns: 1fr; } }
