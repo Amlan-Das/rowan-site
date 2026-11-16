@@ -203,6 +203,13 @@
    "found": 24,
    "new": 6,
    "cumulative": 158
+  },
+  {
+   "date": "2026-11-16",
+   "shown": 8,
+   "found": 39,
+   "new": 8,
+   "cumulative": 165
   }
  ],
  "deals": {
@@ -1649,11 +1656,77 @@
    "first_seen": "2026-11-13",
    "last_seen": "2026-11-13",
    "stage": "Announced"
+  },
+  "diamondback|double eagle": {
+   "acquirer": "Diamondback",
+   "target": "Double Eagle",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "stage": "Announced",
+   "value": "$5 billion",
+   "usd": 5000000000.0
+  },
+  "johnson johnson|ollin biosciences inc": {
+   "acquirer": "Johnson & Johnson",
+   "target": "Ollin Biosciences, Inc.",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "stage": "Announced",
+   "value": "$3.3 billion",
+   "usd": 3300000000.0
+  },
+  "medtronic|contego medical": {
+   "acquirer": "Medtronic",
+   "target": "Contego Medical",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "stage": "Announced",
+   "value": "$380M",
+   "usd": 380000000.0
+  },
+  "samsung|modine manufacturing": {
+   "acquirer": "Samsung",
+   "target": "Modine Manufacturing",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "stage": "Rumored"
+  },
+  "unicredit|commerzbank": {
+   "acquirer": "UniCredit",
+   "target": "Commerzbank",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "stage": "Pending approval",
+   "value": "\u20ac45 Billion",
+   "usd": null
+  },
+  "eli lilly and company|calytrix bio inc": {
+   "acquirer": "Eli Lilly and Company",
+   "target": "Calytrix Bio, Inc.",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "stage": "Announced",
+   "value": "$1.5 billion",
+   "usd": 1500000000.0
+  },
+  "alpha bank s a|altius insurance ltd": {
+   "acquirer": "Alpha Bank S.A.",
+   "target": "Altius Insurance Ltd",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "stage": "Completed"
+  },
+  "swarmer|vataga drone technology": {
+   "acquirer": "Swarmer",
+   "target": "Vataga Drone Technology",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "stage": "Completed"
   }
  },
  "totals": {
-  "deals": 158,
-  "with_usd_value": 79,
-  "usd": 640369700000.0
+  "deals": 165,
+  "with_usd_value": 83,
+  "usd": 650549700000.0
  }
 }

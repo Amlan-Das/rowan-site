@@ -1,19 +1,19 @@
 {
-  "date": "Friday, November 13",
-  "generated_at": "2026-11-13T18:36:56.023455+00:00",
+  "date": "Monday, November 16",
+  "generated_at": "2026-11-16T21:08:55.833313+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "Samsung is in talks to acquire data center cooling firm Modine for a rumored $5.6 billion, while a potential Tesla-SpaceX merger is reportedly worth $500 billion.",
+  "lede": "Diamondback is acquiring Double Eagle's Permian assets in a $5 billion deal, expanding its presence in the Permian Basin.",
   "deals": [
     {
-      "acquirer": "Samsung",
-      "target": "Modine",
-      "value": "$5.6 billion",
+      "acquirer": "Diamondback",
+      "target": "Double Eagle",
+      "value": "$5 billion",
       "pinned": false,
-      "stage": "Rumored",
-      "articles": 10,
-      "outlets": 10,
-      "latest": "2026-11-13T17:15:57+00:00",
+      "stage": "Announced",
+      "articles": 7,
+      "outlets": 6,
+      "latest": "2026-11-16T16:43:44+00:00",
       "sources": [
         1,
         2,
@@ -21,147 +21,176 @@
         4,
         5,
         6,
-        7,
-        8
+        7
       ],
       "stripped": [],
-      "headline": "Samsung and Modine Deal Rumors",
-      "body": "Samsung is in talks to acquire data center cooling firm Modine [1, 2, 3]. The deal is rumored to be worth $5.6 billion [1]. Modine's stock surged over 25% pre-market after the news [3]. No terms have been disclosed yet [4].",
+      "headline": "Diamondback and Double Eagle Deal",
+      "body": "Diamondback is acquiring Double Eagle's Permian assets in a $5 billion deal [1, 4, 6]. The deal includes the purchase of Double Eagle's subsidiaries for $2.15 billion [2, 3, 5]. Diamondback is set to acquire Double Eagle's assets in a deal that will expand its presence in the Permian Basin [2, 5, 7].",
       "found": [
         {
           "n": 1,
-          "acquirer": "Samsung",
-          "target": "Modine",
-          "stage": "Rumored"
+          "acquirer": "Diamondback",
+          "target": "Double Eagle",
+          "stage": "Completed"
         },
         {
           "n": 2,
-          "acquirer": "Samsung",
-          "target": "Modine",
-          "stage": "Announced"
+          "acquirer": "Diamondback",
+          "target": "Double Eagle subsidiaries",
+          "stage": "Completed"
         },
         {
           "n": 3,
-          "acquirer": "Samsung",
-          "target": "Modine",
-          "stage": "Rumored"
+          "acquirer": "Diamondback Energy",
+          "target": "Double Eagle Assets",
+          "stage": "Completed"
         },
         {
           "n": 4,
-          "acquirer": "Samsung",
-          "target": "Modine",
+          "acquirer": "Diamondback",
+          "target": "Double Eagle Assets",
           "stage": "Completed"
         },
         {
           "n": 5,
-          "acquirer": "Samsung",
-          "target": "Modine",
+          "acquirer": "Diamondback Energy",
+          "target": "Double Eagle Subsidiaries",
           "stage": "Announced"
         },
         {
           "n": 6,
-          "acquirer": "Samsung",
-          "target": "Modine",
-          "stage": "Announced"
+          "acquirer": "Diamondback Energy",
+          "target": "Double Eagle V",
+          "stage": "Pending approval"
         },
         {
           "n": 7,
-          "acquirer": "Samsung",
-          "target": "Modine",
-          "stage": "Announced"
-        },
-        {
-          "n": 8,
-          "acquirer": "Samsung",
-          "target": "Modine Manufacturing",
-          "stage": "Announced"
+          "acquirer": "Diamondback",
+          "target": "Double Eagle",
+          "stage": "Rumored"
         }
       ]
     },
     {
-      "acquirer": "SpaceX",
-      "target": "Tesla",
-      "value": "$1.5 trillion",
+      "acquirer": "Johnson & Johnson",
+      "target": "Ollin Biosciences, Inc.",
+      "value": "$3.3 billion",
       "pinned": false,
-      "stage": "Rumored",
+      "stage": "Announced",
       "articles": 3,
       "outlets": 3,
-      "latest": "2026-11-12T23:56:58+00:00",
+      "latest": "2026-11-16T20:05:41+00:00",
       "sources": [
+        8,
         9,
         10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16
+        11
       ],
       "stripped": [],
-      "headline": "SpaceX and Tesla Merger Talks",
-      "body": "SpaceX and Tesla are in merger talks with an announcement possible in December [9, 10]. SpaceX could announce a $1.5 trillion Tesla merger in December [11]. There is an 80%-90% chance of a Tesla-SpaceX merger, with a $500 price tag [12]. A $2T bid has been made for a SpaceX-Tesla merger, drawing a Reuters warning [13].",
+      "headline": "Johnson & Johnson to Acquire Ollin Biosciences",
+      "body": "Johnson & Johnson is acquiring Ollin Biosciences, Inc. for $3.3 billion [8, 9, 10]. Johnson & Johnson agreed to buy eye disease biotech Ollin for $2.2 billion upfront [9]. Johnson & Johnson will acquire Ollin Biosciences and a late-stage bispecific antibody [10]. Johnson & Johnson is acquiring Ollin Biosciences as part of a larger M&A roundup [11].",
       "found": [
         {
+          "n": 8,
+          "acquirer": "Johnson & Johnson",
+          "target": "Ollin Biosciences, Inc.",
+          "stage": "Completed"
+        },
+        {
           "n": 9,
-          "acquirer": "SpaceX",
-          "target": "Tesla",
-          "stage": "Rumored"
+          "acquirer": "Johnson & Johnson",
+          "target": "Ollin",
+          "stage": "Completed"
         },
         {
           "n": 10,
-          "acquirer": "SpaceX",
-          "target": "Tesla",
-          "stage": "Rumored"
-        },
-        {
-          "n": 11,
-          "acquirer": "SpaceX",
-          "target": "Tesla",
-          "stage": "Rumored"
+          "acquirer": "Johnson & Johnson",
+          "target": "Ollin Biosciences",
+          "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Tensor",
-      "target": "RAIN",
-      "value": "",
+      "acquirer": "Medtronic",
+      "target": "Contego Medical",
+      "value": "$380M",
       "pinned": false,
       "stage": "Announced",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-11-13T15:23:48+00:00",
+      "articles": 3,
+      "outlets": 3,
+      "latest": "2026-11-16T14:11:28+00:00",
       "sources": [
-        17,
-        18
+        12,
+        13,
+        14
       ],
       "stripped": [],
-      "headline": "Tensor to Take 90% of RAIN",
-      "body": "Tensor is acquiring 90% of RAIN in a reverse merger [17, 18]. The deal is a strategic business combination between the two companies [17, 18]. No further information is available on the deal at this stage [17, 18].",
+      "headline": "Medtronic to Acquire Contego Medical",
+      "body": "Medtronic plans to acquire Contego Medical for its vascular portfolio [12, 13, 14]. The deal is worth $380 million [12, 13, 14]. The acquisition is expected to expand access to next-generation carotid therapies [14].",
       "found": [
         {
-          "n": 17,
-          "acquirer": "Tensor",
-          "target": "RAIN",
+          "n": 12,
+          "acquirer": "Medtronic",
+          "target": "Contego Medical",
           "stage": "Announced"
         },
         {
-          "n": 18,
-          "acquirer": "Tensor Networks",
-          "target": "Rain Enhancement Technologies",
+          "n": 13,
+          "acquirer": "Medtronic",
+          "target": "Contego Medical",
+          "stage": "Completed"
+        },
+        {
+          "n": 14,
+          "acquirer": "Medtronic",
+          "target": "Contego Medical",
           "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Hancock Whitney",
-      "target": "Trustmark",
-      "value": "$3.2B",
+      "acquirer": "Samsung",
+      "target": "Modine Manufacturing",
+      "value": "",
       "pinned": false,
-      "stage": "Announced",
+      "stage": "Rumored",
       "articles": 2,
       "outlets": 2,
-      "latest": "2026-11-13T13:22:16+00:00",
+      "latest": "2026-11-16T20:27:35+00:00",
       "sources": [
+        15,
+        16,
+        17
+      ],
+      "stripped": [],
+      "headline": "Samsung to Acquire Modine Manufacturing",
+      "body": "Samsung is in talks to acquire Modine Manufacturing [15, 17]. The deal has not been officially announced [16]. The acquisition would be a significant move for Samsung [16].",
+      "found": [
+        {
+          "n": 15,
+          "acquirer": "Samsung",
+          "target": "Modine Manufacturing",
+          "stage": "Rumored"
+        },
+        {
+          "n": 16,
+          "acquirer": "Samsung",
+          "target": "Modine",
+          "stage": "Terminated"
+        }
+      ]
+    },
+    {
+      "acquirer": "UniCredit",
+      "target": "Commerzbank",
+      "value": "€45 Billion",
+      "pinned": false,
+      "stage": "Pending approval",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-16T18:36:06+00:00",
+      "sources": [
+        18,
         19,
         20,
         21,
@@ -169,125 +198,115 @@
         23
       ],
       "stripped": [],
-      "headline": "Hancock Whitney to Buy Trustmark",
-      "body": "Hancock Whitney is buying Trustmark in a $3.2B deal [19, 20, 21]. The deal is set to be completed in early 2027 [23]. The companies have announced the merger agreement [22, 23].",
+      "headline": "UniCredit and Commerzbank Deal",
+      "body": "UniCredit has won EU approval for its €45 billion bid to acquire Commerzbank [18, 19, 20]. The deal is now pending approval from Commerzbank's shareholders [22, 23]. The next step will be for UniCredit to get approval from Commerzbank's shareholders [22, 23].",
       "found": [
         {
-          "n": 19,
-          "acquirer": "Hancock Whitney",
-          "target": "Trustmark",
-          "stage": "Completed"
+          "n": 18,
+          "acquirer": "UniCredit",
+          "target": "Commerzbank",
+          "stage": "Announced"
         },
         {
-          "n": 20,
-          "acquirer": "Hancock Whitney",
-          "target": "Trustmark",
-          "stage": "Completed"
+          "n": 19,
+          "acquirer": "UniCredit",
+          "target": "Commerzbank",
+          "stage": "Pending approval"
         }
       ]
     },
     {
-      "acquirer": "Ardent Health",
-      "target": "Boone Health",
-      "value": "",
+      "acquirer": "Eli Lilly and Company",
+      "target": "Calytrix Bio, Inc.",
+      "value": "$1.5 billion",
       "pinned": false,
       "stage": "Announced",
       "articles": 2,
       "outlets": 2,
-      "latest": "2026-11-13T11:06:05+00:00",
+      "latest": "2026-11-16T17:21:58+00:00",
       "sources": [
         24,
-        25
+        25,
+        11
       ],
       "stripped": [],
-      "headline": "Ardent Health to Acquire Boone Health",
-      "body": "Ardent Health is acquiring Boone Health [24, 25]. The deal has been announced [24, 25]. No further information is available [24, 25].",
+      "headline": "Eli Lilly to Acquire Calytrix Bio",
+      "body": "Eli Lilly and Company is acquiring Calytrix Bio, Inc. for $1.5 billion [24, 25]. The deal was announced on November 16 [24, 25, 11]. No further information is available [24, 25].",
       "found": [
         {
           "n": 24,
-          "acquirer": "Ardent Health",
-          "target": "Boone Health",
+          "acquirer": "Eli Lilly and Company",
+          "target": "Calytrix Bio, Inc.",
           "stage": "Announced"
         },
         {
           "n": 25,
-          "acquirer": "Ardent Health",
-          "target": "Boone Health",
+          "acquirer": "Eli Lilly Agrees",
+          "target": "Calytrix Bio",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "Red Sox",
-      "target": "Jake Bauers",
-      "value": "$58 million",
+      "acquirer": "Alpha Bank S.A.",
+      "target": "Altius Insurance Ltd",
+      "value": "",
       "pinned": false,
-      "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-13T18:19:08+00:00",
+      "stage": "Completed",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-16T17:03:45+00:00",
       "sources": [
         26,
         27
       ],
       "stripped": [],
-      "headline": "Red Sox and Jake Bauers",
-      "body": "The Red Sox have agreed to a 4-year, $58 million deal with 1B Jake Bauers [26]. The deal is part of a larger agreement that includes a stake in Cadillac F1 [27]. No further details have been announced [27].",
+      "headline": "Alpha Bank Acquires Altius Insurance",
+      "body": "Alpha Bank S.A. has completed the acquisition of Altius Insurance Ltd [26, 27]. The deal is now completed and no further updates are expected [26, 27].",
       "found": [
         {
           "n": 26,
-          "acquirer": "Red Sox",
-          "target": "Jake Bauers",
-          "stage": "Announced"
+          "acquirer": "Alpha Bank S.A.",
+          "target": "Altius Insurance Ltd",
+          "stage": "Completed"
+        },
+        {
+          "n": 27,
+          "acquirer": "Alpha Bank",
+          "target": "Altius Insurance",
+          "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "EP Group",
-      "target": "Fnac Darty",
+      "acquirer": "Swarmer",
+      "target": "Vataga Drone Technology",
       "value": "",
       "pinned": false,
-      "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-13T16:57:53+00:00",
+      "stage": "Completed",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-16T16:37:30+00:00",
       "sources": [
         28,
-        29
-      ],
-      "stripped": [],
-      "headline": "EP Group to Acquire Fnac Darty",
-      "body": "EP Group is acquiring Fnac Darty [28, 29]. The takeover bid was initiated by EP Group [28]. The closing date of the tender offer is November 9, 2026 [29].",
-      "found": [
-        {
-          "n": 28,
-          "acquirer": "EP Group",
-          "target": "Fnac Darty",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Hall Chadwick Acquisition Corp",
-      "target": "REEcycle Holdings, Inc.",
-      "value": "",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-13T16:07:37+00:00",
-      "sources": [
+        29,
         30
       ],
       "stripped": [],
-      "headline": "Hall Chadwick Acquisition Corp to Acquire REEcycle Holdings",
-      "body": "Hall Chadwick Acquisition Corp and REEcycle Holdings, Inc. are acquiring each other [30]. The deal was announced [30]. No further information is available [30].",
+      "headline": "Swarmer Acquires Vataga Drone Technology",
+      "body": "Swarmer has acquired Vataga Drone Technology [28, 29, 30]. The deal is completed [28, 29, 30]. The acquisition adds 15 hardware specialists [28]. The deal includes FPV and interceptor hardware [30].",
       "found": [
         {
-          "n": 30,
-          "acquirer": "Hall Chadwick Acquisition Corp",
-          "target": "REEcycle Holdings, Inc.",
-          "stage": "Announced"
+          "n": 28,
+          "acquirer": "Swarmer",
+          "target": "Vataga Drone Technology",
+          "stage": "Completed"
+        },
+        {
+          "n": 29,
+          "acquirer": "Swarmer",
+          "target": "Vataga",
+          "stage": "Completed"
         }
       ]
     }
@@ -295,77 +314,149 @@
   "also": [
     {
       "n": 31,
-      "note": "The Real Economy Blog, Nov 13 12:33 PM ET: 5 things to know in life sciences: Week of Nov. 9, 2026 [31]."
+      "note": "Valor Energy Inc. Closes Acquisition of 18MW Computing Center in Youngstown, Ohio, Accelerating AI Data Center Expansion [31]."
     },
     {
       "n": 32,
-      "note": "The Globe and Mail, Nov 13 11:52 AM ET: H&R unitholders vote against GO REIT takeover bid [32]."
+      "note": "Private Equity and Private Credit Firms Manage Trillions, and $90,000 Across These 3 Pays $3,389 a Year in Dividends [32]."
     },
     {
       "n": 33,
-      "note": "24/7 Wall St., Nov 13 10:53 AM ET: United’s CEO Says He’s “100%” Sure an American Deal Could Be Approved [33]."
+      "note": "FDA Approves Three New Therapies | PharmExec [33]."
     }
   ],
-  "brief": "Samsung is in talks to acquire data center cooling firm Modine for a rumored $5.6 billion, while a potential Tesla-SpaceX merger is reportedly worth $500 billion.\n\nSamsung / Modine (Rumored): Samsung and Modine Deal Rumors. Samsung is in talks to acquire data center cooling firm Modine [1, 2, 3]. The deal is rumored to be worth $5.6 billion [1]. Modine's stock surged over 25% pre-market after the news [3]. No terms have been disclosed yet [4].\nSpaceX / Tesla (Rumored): SpaceX and Tesla Merger Talks. SpaceX and Tesla are in merger talks with an announcement possible in December [9, 10]. SpaceX could announce a $1.5 trillion Tesla merger in December [11]. There is an 80%-90% chance of a Tesla-SpaceX merger, with a $500 price tag [12]. A $2T bid has been made for a SpaceX-Tesla merger, drawing a Reuters warning [13].\nTensor / RAIN (Announced): Tensor to Take 90% of RAIN. Tensor is acquiring 90% of RAIN in a reverse merger [17, 18]. The deal is a strategic business combination between the two companies [17, 18]. No further information is available on the deal at this stage [17, 18].\nHancock Whitney / Trustmark (Announced): Hancock Whitney to Buy Trustmark. Hancock Whitney is buying Trustmark in a $3.2B deal [19, 20, 21]. The deal is set to be completed in early 2027 [23]. The companies have announced the merger agreement [22, 23].\nArdent Health / Boone Health (Announced): Ardent Health to Acquire Boone Health. Ardent Health is acquiring Boone Health [24, 25]. The deal has been announced [24, 25]. No further information is available [24, 25].\nRed Sox / Jake Bauers (Announced): Red Sox and Jake Bauers. The Red Sox have agreed to a 4-year, $58 million deal with 1B Jake Bauers [26]. The deal is part of a larger agreement that includes a stake in Cadillac F1 [27]. No further details have been announced [27].\nEP Group / Fnac Darty (Announced): EP Group to Acquire Fnac Darty. EP Group is acquiring Fnac Darty [28, 29]. The takeover bid was initiated by EP Group [28]. The closing date of the tender offer is November 9, 2026 [29].\nHall Chadwick Acquisition Corp / REEcycle Holdings, Inc. (Announced): Hall Chadwick Acquisition Corp to Acquire REEcycle Holdings. Hall Chadwick Acquisition Corp and REEcycle Holdings, Inc. are acquiring each other [30]. The deal was announced [30]. No further information is available [30].\n\nAlso worth knowing:\n- The Real Economy Blog, Nov 13 12:33 PM ET: 5 things to know in life sciences: Week of Nov. 9, 2026 [31].\n- The Globe and Mail, Nov 13 11:52 AM ET: H&R unitholders vote against GO REIT takeover bid [32].\n- 24/7 Wall St., Nov 13 10:53 AM ET: United’s CEO Says He’s “100%” Sure an American Deal Could Be Approved [33].",
+  "brief": "Diamondback is acquiring Double Eagle's Permian assets in a $5 billion deal, expanding its presence in the Permian Basin.\n\nDiamondback / Double Eagle (Announced): Diamondback and Double Eagle Deal. Diamondback is acquiring Double Eagle's Permian assets in a $5 billion deal [1, 4, 6]. The deal includes the purchase of Double Eagle's subsidiaries for $2.15 billion [2, 3, 5]. Diamondback is set to acquire Double Eagle's assets in a deal that will expand its presence in the Permian Basin [2, 5, 7].\nJohnson & Johnson / Ollin Biosciences, Inc. (Announced): Johnson & Johnson to Acquire Ollin Biosciences. Johnson & Johnson is acquiring Ollin Biosciences, Inc. for $3.3 billion [8, 9, 10]. Johnson & Johnson agreed to buy eye disease biotech Ollin for $2.2 billion upfront [9]. Johnson & Johnson will acquire Ollin Biosciences and a late-stage bispecific antibody [10]. Johnson & Johnson is acquiring Ollin Biosciences as part of a larger M&A roundup [11].\nMedtronic / Contego Medical (Announced): Medtronic to Acquire Contego Medical. Medtronic plans to acquire Contego Medical for its vascular portfolio [12, 13, 14]. The deal is worth $380 million [12, 13, 14]. The acquisition is expected to expand access to next-generation carotid therapies [14].\nSamsung / Modine Manufacturing (Rumored): Samsung to Acquire Modine Manufacturing. Samsung is in talks to acquire Modine Manufacturing [15, 17]. The deal has not been officially announced [16]. The acquisition would be a significant move for Samsung [16].\nUniCredit / Commerzbank (Pending approval): UniCredit and Commerzbank Deal. UniCredit has won EU approval for its €45 billion bid to acquire Commerzbank [18, 19, 20]. The deal is now pending approval from Commerzbank's shareholders [22, 23]. The next step will be for UniCredit to get approval from Commerzbank's shareholders [22, 23].\nEli Lilly and Company / Calytrix Bio, Inc. (Announced): Eli Lilly to Acquire Calytrix Bio. Eli Lilly and Company is acquiring Calytrix Bio, Inc. for $1.5 billion [24, 25]. The deal was announced on November 16 [24, 25, 11]. No further information is available [24, 25].\nAlpha Bank S.A. / Altius Insurance Ltd (Completed): Alpha Bank Acquires Altius Insurance. Alpha Bank S.A. has completed the acquisition of Altius Insurance Ltd [26, 27]. The deal is now completed and no further updates are expected [26, 27].\nSwarmer / Vataga Drone Technology (Completed): Swarmer Acquires Vataga Drone Technology. Swarmer has acquired Vataga Drone Technology [28, 29, 30]. The deal is completed [28, 29, 30]. The acquisition adds 15 hardware specialists [28]. The deal includes FPV and interceptor hardware [30].\n\nAlso worth knowing:\n- Valor Energy Inc. Closes Acquisition of 18MW Computing Center in Youngstown, Ohio, Accelerating AI Data Center Expansion [31].\n- Private Equity and Private Credit Firms Manage Trillions, and $90,000 Across These 3 Pays $3,389 a Year in Dividends [32].\n- FDA Approves Three New Therapies | PharmExec [33].",
   "sources": [
     {
       "n": 1,
-      "title": "Jay Y. Lee's Samsung eyes $5.6 billion Modine deal",
-      "source": "Billionaires.Africa",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdC1nUll4X0NBSWVIV2lMaXBaM0xGZHpEaDI2Yk50bVFYTGNGWFZ4aktKbGppY3J1VVktZnBWYU92WWk3SUljQXNCOFZEVFBLVTVMVHQ2OTFuOXl0RE9RSzA1S01GLVdCSm84RzNwTDZLcEw5RWNwM2RqdTBVYU5lY0lUZjVuLW92cmpVUmJja01XUmpQV3Vza0tfRmlDbUJ2ZlNwcm91ODNFRlpBT2VZZkJ3WlY3WGpJNVJNTkNQQXAyMUhTM1dpYWNKMDV5OFR6N1JCVUtR?oc=5",
-      "snippet": "Billionaires.Africa",
-      "published": "2026-11-13T17:15:57+00:00"
+      "title": "Diamondback deepens Permian push with $5 billion Double Eagle deal",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVEF0MVJtN3llcy1qa0F5bzI0VEZxRVVkeTR1alRETkR4MnJqYlc2VHJUU1RvdWctS0JMNXRyWTlzeXFpdTdPRGxBVFV3VGRpbDdfV2VCSXIyWWxqSmlCVnNTZUV6ZUs1SDg4RThTVFRRX2d2ZFRlNVJyaWd2SkEwODh0S1labkwxcnpyN183M1VDYnFDWHhueFBaeHZ2Sm1KUXotS1Z3SjZ3MjE3ODNmZllLaVRyeG1ma3RKaUpWSEFNZkhPN044?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-11-16T16:43:44+00:00"
     },
     {
       "n": 2,
-      "title": "Samsung Is in Talks to Acquire Data Center Cooling Firm Modine",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLTU2OEx0bm81YTh4NUptZksyUF9YOTV3dmVGUG0zQ2hBaDdibFozbEZHelhKWFI2ZEtrOG93MEhvSUZJc0lTTUtoQ005SWdBZ0wyZTlMazBSQm9Qck0xNFVMaVRvTkxWZ0dOc1JnZXppeGotS19WVWFNNWFWemItbzd5ZXpyem1pODVsWFE5ckJueXE3d0UwOFFGamN4UDlmelFISUdPTlkxemNiS2gyQ3o4SQ?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-13T15:48:18+00:00"
+      "title": "Diamondback To Buy Double Eagle Subsidiaries for $2.15 Billion and Stock",
+      "source": "Fort Worth Inc.",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSlhqT19VQmV4Z2k0dWpxaFVXbEhFYW1VUE1fcjVlOTc4SkhmZS1CbWotWHZCVU83d2pYRFBER1FTb3dLcUxtOUNOWUU5Y2lSSzZkX3pwczMzeU1iVkI5TnVPUElrNmhoUUJSWjZsQVpMOHp3TU5lX3FER1ZvMkpfRkM0M051RmNJblhPUWY3SnBsZnEzc0E?oc=5",
+      "snippet": "Fort Worth Inc.",
+      "published": "2026-11-16T16:36:24+00:00"
     },
     {
       "n": 3,
-      "title": "Samsung in Talks to Acquire Data Center Cooling Maker Modine; MOD Surges Over 25% Pre-Market",
-      "source": "TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQnFGd0plaDF5a2ZfM2M2cy1aTjU5MURLVng3RnFfSlJYcGxZekJrWGZBcDMzd2lfUDdMOWlwMkRQRXp3Z05sQUg5WC1QU2hReXY4Ui1TcF9jbUp2b3l0TkFBVzh5cDlpMEFOSW9Ga2ljV19CazRxSFBSNWxzdWlRa2NEbnJnVmNnYnBKd0p0YWFpcjhNcG9jcjdEcE9pZXE0UmtTUzduQ0NUVEZUUDN3MjRnSzVvNkUwVEN1UnhhVHZBdjZtby1HN01PUm5wdw?oc=5",
-      "snippet": "TradingKey",
-      "published": "2026-11-13T10:38:46+00:00"
+      "title": "Diamondback Energy Acquires Double Eagle Assets In $2.15 Billion Deal",
+      "source": "Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaldZM3FCMHd2d0lxcEQyU1Utdkt4VEdSdVNYOXQ5ZVdCRjlENlJiSWR4RnhaZFVYWnRYTVpmV0o0MllmOVNZZjVyN1pOVTFURGkyLXNBLV9jY1Y1eTN6RlNJVWFUYnlaZE5LamRBekJnN3NqQWtxUDRlNThsUS01Q1djZHZOMV9Fa0xlYUtzUmRYUk0zQkJIU2UwcFp2clFFUDVvaUJlU19FNVUxLVBhZkt5WF85RlVpZ1VHeHdfVnlkbV83?oc=5",
+      "snippet": "Benzinga",
+      "published": "2026-11-16T15:47:33+00:00"
     },
     {
       "n": 4,
-      "title": "Samsung Modine Acquisition Talks: $0 Terms Disclosed [2026]",
-      "source": "shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOTU5NlNWN2tmNjF0cElkcnNYZ19TZzBFbU1PSnNsSTdtX0NMdjJYQUx0c3dkdEhpN0stS0NpSEJ4Um0zSW1pRUlNdG5FUmszRWJOZDEyT2toazh3U0l2a0lTX25McC1weGViNVdIc1BOMU95c2pxUUctcURyRDdSeldaUE5qVkl5TGVoQ3M0bFZpVmVl?oc=5",
-      "snippet": "shattered.io",
-      "published": "2026-11-13T10:29:26+00:00"
+      "title": "Diamondback Agrees to Buy Double Eagle Assets for $5 Billion",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPak5qVG9xemYzbWdyN0pwZFNadmtCSEZWcWZZUTNhSmp4UG9yTGhvWDZLZ2RLV2cwWFBUR0g4SmFXdmpTeDVnaVNqLXlBYUJTazB6bEttckdyVFgyREdQdmY4amNyOXdDRklWTW85UFBsWTVuNEZNdzBhZFAzTEdjQW5kUzd6bjhzOU92M09WdmR6VVJXLXRDQ1gyWXNTdzlpdHltc0RnMlBJUXhSdEVMN2dpQQ?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-11-16T13:48:49+00:00"
     },
     {
       "n": 5,
-      "title": "Samsung in Talks to Acquire US Cooling Firm Modine Amid AI Boom",
-      "source": "Analytics Insight",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbTY4RGFHeU0tUldfOHpQNWlHVU5NYTJ0ZHFHR2FVSVZNeS1qMHA5Z213WWZqRVlOTGVrTTktT1dUQ2NMSjhXRUMtUFlkVUJBbmhNRWMzWHBJS1RJeFFrWDlZVnFiWGpvblo5dWFNd2hEV2JvY2Z5eXlSVmxPZi1zeEZwY0pkV3lDdHlvUzBUUTR1QzBLcXpMZTVaWEZpdUFYaE400gGwAUFVX3lxTE9VMW4xdFNOYU9KRzZfb2dJc2VOZm1DQXN6NFRmeWItUTlyU2xGWk00OGQzVHBEM2RwVk9nSURaeWxVNXo5LW5vMmNRV213M0I2R3lkWFNUa3MzMFNMbENtMFJHWHFiQi0tVVplOWNUQmxFbHNzeUk5QlR0RlAtQ3hrcFJQd1lKU3g0dG5zaEZrcGc2a29sOHRYaEh0R3oxUWVrd1hMaURuRUtob2ItWWdk?oc=5",
-      "snippet": "Analytics Insight",
-      "published": "2026-11-13T09:22:05+00:00"
+      "title": "Diamondback Energy Announces Agreement to Acquire Double Eagle Subsidiaries for Midland Basin Growth",
+      "source": "Quiver Quantitative",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTUEtNTVGOFRrbGxxYmdsbURHSE9OUS1nRzFtSldGZzhIX1JBNlpYVDc0Wjl4MHFucE5BYWc5NUJCeEpXZFBJdGYxcEIzbEY2MTN5aGpmcDNRY01FZDYwMXhnMGtNX0lYS005SHlzQjlyajZSYWJmMWRUaHBzSFZUODc1NVVBTVpRLXlsVTVoZGdHVEF3ZTFjbzk2T3lKNkhLaEN6eEJUS3lWUzJBUnlmeXlTcHFkS1FOZEtsNWU0cktsUTZQNWxmVjhFRl94dw?oc=5",
+      "snippet": "Quiver Quantitative",
+      "published": "2026-11-16T11:50:00+00:00"
     },
     {
       "n": 6,
-      "title": "Samsung is in talks to acquire data centre cooling firm Modine",
-      "source": "The Business Times",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMWhHT1dSLXdTbkViazhERzhVbi1KWElramtRbjF5YTAxSWxiaGFOc0JudlE0UG1SLVM5c2MtMVJpcjdtc25wc2FBWjVUcmZOcGUxVEhYT3B4WHpTeDFCcm43OTFKU05CSWt3YU93cm90dmN1NkFadlNKV3pXYjZidXhDTnNCWFJvWEJUalFmc3B1WERXTE5MYlBIVmJGam9acFlwc1diQQ?oc=5",
-      "snippet": "The Business Times",
-      "published": "2026-11-13T06:32:00+00:00"
+      "title": "Diamondback Energy is nearing a roughly $5 billion cash-and-stock deal to acquire Double Eagle V’s Permian assets",
+      "source": "Energy News Beat",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZ3ptMnVPX3QySThTMGpEeEFwNFhVVmdQaG4zZVUtVmFfbE5XTmlubW9zenJsYlluWXdSU3RzMWRyczlxTF9UdVJueDFTSXEyVUlhcmRTeXZkZG9TQ2JScW1iYWNfOUE3NVF4YTExbjB2Y190b2V1Tng3Y3k2X25INXRMUlNJSEFmNmVkaTlvXzU1MUdzeU5SY1FkOFNRX1VOYUtHdUdyZHBOaW5ZdXBPOVA2dGVfaUF3ZEpWbWd3VEhfcFIwMkJKYnI4VUZ3SUtCR1htNEp6R1JWMXNHSk1sQW5qLWFzTTRtTFRkbw?oc=5",
+      "snippet": "Energy News Beat",
+      "published": "2026-11-16T03:29:47+00:00"
     },
     {
       "n": 7,
-      "title": "Samsung in Advanced Talks to Buy Modine; Cooling Supplier's Stock Jumps 29%",
-      "source": "BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LaDdjQnd0SUpzd0NNSmxkX05CVC1WcHJXVmxBSXBTZlJ6ME42aUFJMDd4RXJwdzhfd3hMRVU3U1ZUOUtIQU5BRkJ4Q01qVmhIRnRTM1FkOUJPNzVzaTBxNkVSSmxRdUVZcWRpTXlpY0dYeEdfa0E?oc=5",
-      "snippet": "BigGo Finance",
-      "published": "2026-11-13T00:55:00+00:00"
+      "title": "Diamondback in Talks to Buy Double Eagle for About $5 Billion",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTUR3bVB6UHRhcUV0cmY1UGJ0QWNGd1dhTDF2cEp3a0NLbjhOSlE3cHhVVFBWWExyQ1FnS1dHb1RlWEFqRGVvVER2Q1lNdVZUQXpPclpENTJMa0VTeFFHWkE5TDJ2YTNPd01ibDNYYmd1eTNPS2FBSXF4c19vRVJsR29KRW9hNXFMOVYySGJOVnVTVHpTLUFmT0p6QTNMdzZLNWxqY2ZQQV9LcFgzMWlOSQ?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-11-15T21:49:10+00:00"
     },
     {
       "n": 8,
+      "title": "Johnson & Johnson entered into a definitive agreement to acquire Ollin Biosciences, Inc. for $3.3 billion.",
+      "source": "marketscreener.com",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWGlkZ09JRGRWM3ZMU2ZxaHE2YjBxRTRScnlZaXlQWEU2UFBJZHVQQm1RU015eWYzYUZ6SUFMQ1JVZzZCSGJKLVdqTDgxWkVhZWlGR1k0OHFOUldzaHJyU2JaOVlyTE55S0huSHhXczJkR3BsUkpEN1RzNC1uVFF1UzVWMG44TE9ESThselFDTWhsdEVEV2ctX1k4Vnd1S3ZsaFlqSjVEczZTTXZiWVJ6Q0VIUWFoUUZ4NVRYT3gtU2ZLVTVUcFZyWENGajVOYUZmdzMzMk9qVTlaUldNcmZKY3dn?oc=5",
+      "snippet": "marketscreener.com",
+      "published": "2026-11-16T20:05:41+00:00"
+    },
+    {
+      "n": 9,
+      "title": "Johnson & Johnson agreed to buy eye disease biotech Ollin for $2.2 billion upfront",
+      "source": "Quartz",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVmx4bmVPaWpwUzRtYklsSGEzMUhOT2NiZXVjdW5LbzI4aWxVVU5aX3NpaGxjSm1lQzJiSnc4eTFqWHhMNkM3WEYyR2drQ2ZEbGtSYmhodldyWVBsYk5pSGNXTGdwRDRjRGdxVm5mNWdoaVlzZEN2bzE4NERlSm1uT25pcHRBdw?oc=5",
+      "snippet": "Quartz",
+      "published": "2026-11-16T14:14:50+00:00"
+    },
+    {
+      "n": 10,
+      "title": "Johnson & Johnson to acquire Ollin Biosciences and late-stage bispecific antibody with best-in-class potential in ophthalmology",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPVVdjRHA1eXZqVk5wd3dVVnRYR3VTQ3laekZheENoZjVxOVdtY2RnVk5ON0lLYjdza3YzcHh0ZzdQalI4MFhqNE1vNEppemc3UG1Rb2FFLS1nMEtoYzFrSFB1MnZtaHRyRmEzenNaZHlsQVN2ZC0xMlRpRzY2cVE2cmtUNWRXWWtVM1dpUFo3Z2RlaTczYXNLTnZJcTJ5NG1ENXhyVWUydjhmX2lHS3RfVjljUzZ6Z05Ic2dPQ2ZzbjJOSXJ0WDZtZi03VWxITTQ3ZDBQSElENGRpRVBHZkdQYkxhajVpbDBETHdfWVFwbnkzLXFVMVFGZWRZRFFhRXRrNENfN0tnNnd2Yl9rc2VB?oc=5",
+      "snippet": "Business Wire",
+      "published": "2026-11-16T13:00:00+00:00"
+    },
+    {
+      "n": 11,
+      "title": "M&A Roundup: Johnson & Johnson Acquires Ollin Biosciences, Eli Lilly Acquires Calytrix Bio, AmyriAD Therpaeutics Acquires AD04 Alzheimers Program, Sanofi Enters Collaboration with Seawolf Therapeutics",
+      "source": "Pharmaceutical Executive",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMGRraldzRkMxSHpPRmhCcC13ZlVVZk9RQXZhMUp3ZUVvUHRTVjdib3pCNlVCS0Q1ckNrY0xmMTRxWFZQdVRLVU80a01FTmtoTEdVTlBPLWM3ZG1aSTR0VE9aY093a2ZlNjdlNDJZU09EbG5xREo5SWVWdzlhQjFNUllCTWJCTGdMQl9DU2JZQ0VoMF9qTHJZY2FLbXB0blBXWmFzbG5xdFRRNmFINkZ4QjFjTXh4X0ZVM0xPQXVjcUpvRUF2RzRkRThzbnZ5NEt3UnRvMzhXeENydTdDTjM3SmVyMWhpcEdXS1dYX1dKVElmbkdNclRGcnEyRQ?oc=5",
+      "snippet": "Pharmaceutical Executive",
+      "published": "2026-11-16T19:11:44+00:00"
+    },
+    {
+      "n": 12,
+      "title": "Medtronic plans US$380M Contego Medical acquisition for vascular portfolio",
+      "source": "Mugglehead Investment Magazine",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOU3NDZF9DMFNLMk1DZUxjM0xQYWdveEZqdkRoMF91OG45a19SYUl4ZW5sejE4bVlBNHlzd1NQdFdXMTZpTEhRckt1N0xTUXQya2h3M243anRJRzRhb29UNDR6QlBEejNtbmQybHpfal9sZ0l2YkJuNE1BbVlGT0xldE5MMlE?oc=5",
+      "snippet": "Mugglehead Investment Magazine",
+      "published": "2026-11-16T14:11:28+00:00"
+    },
+    {
+      "n": 13,
+      "title": "Medtronic to acquire Contego Medical in $380 million deal",
+      "source": "Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUS0wRnZMY0dDNU1KWjlQQ0NxUVZnRlk1dUQycS1SakZOTlhMcXpHTVMwa21MWl80R05MM0Mxa3VINlRGa0ptVzhGQkpGQnVnY2xrQUh2dnZNZFdZdlNmUkhsNWlVYklJcDRkQWlBdHljMDNJSDh6Ylk3X1A2UTB1VVBrSHA?oc=5",
+      "snippet": "Crypto Briefing",
+      "published": "2026-11-16T12:37:39+00:00"
+    },
+    {
+      "n": 14,
+      "title": "Medtronic to acquire Contego Medical, expanding access to next-generation carotid therapies - Nov 16, 2026",
+      "source": "Medtronic",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU1IzMGRGeTdEMGdYcGQzeEZ4OU41R3U4d3F2QWZfcml4NmQ1RVhaaU12bTF0QjM0Yi1YVTd3NGUzZjZfaFhDWllFek52eWxYVWJHZlA4TDVpSlpQZGZUUlRQTUZXeWc0X2N4d094WFo5WXM2MnNBN1BhekJvdnNoTFFFdDRhQUJBNWxoT09ZN1hWNGRiZWVGUnNPY0gwLXRXdGdmNzh4WGxheGk4eERsY3RiTzFkNFdpQTYzcmcwaXg2c1ZvWFV3Xw?oc=5",
+      "snippet": "Medtronic",
+      "published": "2026-11-16T11:46:53+00:00"
+    },
+    {
+      "n": 15,
+      "title": "Samsung in talks to acquire Racine-based Modine Manufacturing, Bloomberg reports",
+      "source": "WPR",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSkZGWUhidjNpLXVCTUt6YlY2WWdyT0Fjd2RNTEt3REVDa3l0SnNUWHlLMkkxSWIzdjhKdnlWZlZyeVRxa3JDMzBZUlJJb3BBMkV2STQtT1RyeURZQW1jZXE3RGt4R2NHMmYtNUVULWptaFZmY2lVU0VNdE9vYzl4bmZnaC1JaURQV0haYVlyb3BUaDN4?oc=5",
+      "snippet": "WPR",
+      "published": "2026-11-16T20:27:35+00:00"
+    },
+    {
+      "n": 16,
+      "title": "Modine Jumps 28% on Samsung Takeover Talks, but $147.31 Still Caps the Rally",
+      "source": "TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMEt6dG9MUTRjZV9ZeHdRZTNmUzBaN21jQVN1V3ljeFVYd1JUbmZwVFI2ZGdKTmgzVkJiVUpZellGWUozeWVTUno2T0VzUFNzcFQyeTZVRDJiNjBtNW1YcEtvQm1rS3pXVG13VjZ5V0VYcHhqYjl6ejNrVUp2TGNNUC05bDlnZVRrdDB3TG9YaDFvTGJNM1FXbzUzX09BeFVqWDUyQWJ2Y0VQanNmNm5pRlRYSUVwWHZxWVJiNEJfRFZObUU1eGVVd1lQaHJFNVNkOG1vdUczZGVpSnJRcGo3T24xMVpKNTd5RTc0?oc=5",
+      "snippet": "TradingKey",
+      "published": "2026-11-16T11:04:10+00:00"
+    },
+    {
+      "n": 17,
       "title": "Samsung in talks to acquire Modine Manufacturing — Channel NewsAsia",
       "source": "UA.NEWS",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRlBCLVl4UWpoOFpyZ0JvR2taeGZjMkJUR1ZxcXBCcE1pVHQxeVRLX011b0Jfd0FKQmF2R0ZQa0I3THJFLWFLcDdRTnBjVnNZZG82Z1RtUkszTU5qZ2ZoLVVyRFNmSnR3Z09WTjRKWU51QkJLMXJKR1dhcEVFai0tc1VJa1U2bmYtTEtidnZ2UmtRQVMyUExXY2V1YlViOHkzTlNnYU1aUlRub2w0QlE?oc=5",
@@ -373,244 +464,172 @@
       "published": "2026-11-13T00:35:49+00:00"
     },
     {
-      "n": 9,
-      "title": "SpaceX and Tesla merger talks progress, with an announcement possible in December, Bloomberg reports",
-      "source": "MLQ.ai",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa1drVDVPNW11Z0ZjeVRNMGpNQlFQLXJJMWRBRHdLNEQwQ0Q2X3BibmlXUkpYQmJDRUxlOHVuQ21xWWF5OGdXc25Gc0RtWDVkSDFyMXBFM3RFYUMtSzZrNExoMGFxNFVUcGY3T2F0N1BwRTV1d3M1RlhxQXVwWWRFbVByZDlZczhQZS1Rdk9ZNmFHYkNpZGNuRG51bXJfSzR4NVQzX0s5N2JiLXY2VWpYNWdvTDE1ZElTdVBR?oc=5",
-      "snippet": "MLQ.ai",
-      "published": "2026-11-12T23:56:58+00:00"
-    },
-    {
-      "n": 10,
-      "title": "SpaceX and Tesla Merger Imminent? \"Announcement Possible as Early as Next Month\"",
-      "source": "news.sbs.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5nYmkxQ3NzNXhsMm9seURHdXZ3eV83bHVXR1lobnFVU21kOVpNcDlZbEJlMFRveUxTRHBlbnZUbVd0OHg1MnNfTXhKdWdJZTdhVkY5NWtWZkllWU9zZjdkQXl0UXVpRm5WNUdrb05R?oc=5",
-      "snippet": "news.sbs.co.kr",
-      "published": "2026-11-12T23:35:09+00:00"
-    },
-    {
-      "n": 11,
-      "title": "SpaceX could announce $1.5 trillion Tesla merger in December: report",
-      "source": "Electrek",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSDM0VnJpVWNzY1NFa0p0WVdYSS1HSndYejZLamRmd1d0ZlQ0cmtWMkFQeDVuLUJGcVR3TU9sS1pkQjRHdlRVZWRQaTFEQW1aejhybmtlUlVIX3BLNklQWnBqM1FPdExTTWxtQmJXdlk1N09pRk1RMmdCalpJOFBvcHFCY0dwVEU?oc=5",
-      "snippet": "Electrek",
-      "published": "2026-11-12T20:39:00+00:00"
-    },
-    {
-      "n": 12,
-      "title": "Tesla-SpaceX Merger Stands at 80%-90% Chance, Dan Ives' $500 Price Tag Explains Why",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeW5FZ2o1RC1TekZ5RXdGaTN0MVppN09nWWhlWU5BSnhvQ01HcVBNQVlDaE9OMzJVZ1lDTHdRUHFCYUd3dkRmMWMydTNLTl8xSFlXdFdxU2p5V09Pam52bktJcmpCaGdnY0Jza0RKcnFleFNxX1NadHVFQWkxY3pNQUJzZkQxTm1VQ3NOYjFQS0c3elE4ZjZiUW5VMkctX01mWEhvMDRxMmJYdjRkYmVhQXo4RG1sRmVta3dFT1NOUlQySE5uX21UWkJ0b2NhRFFDTGxJ?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-10-26T16:15:47+00:00"
-    },
-    {
-      "n": 13,
-      "title": "SpaceX-Tesla Merger: $2T Bid Draws Reuters Warning",
-      "source": "shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0R1ZIalF5WFNoVU9vM3dfZG1GcVhjM092eTBLaDEzVDhZV3duNDgwaVVyX1dyVkdnVThXaWQ0SXlpQWV0WWEwZDdZVXhraXR2a3ZWbE1CRnNlOWtkWVlpNFU5b2xiczA0YkdGbFZB?oc=5",
-      "snippet": "shattered.io",
-      "published": "2026-10-21T20:30:52+00:00"
-    },
-    {
-      "n": 14,
-      "title": "Tesla-SpaceX Merger: Analysts Split $480 vs $550 [2026]",
-      "source": "shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9hc0tNWVg2RllMS1lqb3pQRHZ5anFWNjlkVFhxT2RPVjhCQXZuOG9hbUE0TUE0OWhEbjEyQmJiQndoenFyUnA3OHRpN2FGbzAyQU1qTkNVa1ZvN1FmSjd4QmJyN2JrMUNjcTJ4M2J4bWNTcmZyZUh1aGV3?oc=5",
-      "snippet": "shattered.io",
-      "published": "2026-10-21T22:15:46+00:00"
-    },
-    {
-      "n": 15,
-      "title": "SpaceX-Tesla Merger Antitrust Risk at $3.5T [2026]",
-      "source": "https://tech-insider.org/",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaW4tLW1qZHpDVkVNcUszZEJBb3Rjbk5EcW9RWkZ6NUoteW5sZDZIZERYYVlpTW83YllWTkFUNGtCNkVDNkRzc25ZNlNlLXd3Nk5wWjdvRzNJOXZFWkNhTnRnaEVFLWJtM3IxM0l6T1pYb3kwUXlYTFhFdjJFeHRMT2NsU0pwQVFS?oc=5",
-      "snippet": "https://tech-insider.org/",
-      "published": "2026-10-23T10:22:11+00:00"
-    },
-    {
-      "n": 16,
-      "title": "Tesla and SpaceX Discuss Merger That Could Create $3.5 Trillion Company",
-      "source": "TOKENPOST",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVRUlFYWZiQ0p6WDVXczY3SnhtLTJiTDJSeUl3QWVYb25CeGdPOFk4NUJiaU1wT0RQT05QZXV0aHYxYlRtZTU4b3FCVWtXako3T2I3MVJXdnM?oc=5",
-      "snippet": "TOKENPOST",
-      "published": "2026-10-25T19:38:11+00:00"
-    },
-    {
-      "n": 17,
-      "title": "AI security startup Tensor to take 90% of Nasdaq-listed RAIN in reverse merger",
-      "source": "Dealroom",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZGFqb2lSc2dvbTJhQ2YwMFJCUDlaa2dMSG1uODYwZWtIb3BqZFg0cFB0SGIyTS1RTzBwbmM5UjB6WGNVUDhFM2JrX0JHaEtNdDR0NjRRY2ZSeTd3S2RUR1BXbkRUMUpqckh0SUVvMXd5RmdRQUJxZVNtRHg3RllhLWFfTExUS0t4VVVpSmxNaHIyc3Fmb1BoZldOSEhaQWg1T0VLVTlsUWI4cWlyVjEyNQ?oc=5",
-      "snippet": "Dealroom",
-      "published": "2026-11-13T15:23:48+00:00"
-    },
-    {
       "n": 18,
-      "title": "Rain Enhancement Technologies and Tensor Networks Enter into Definitive Merger Agreement for Strategic Business Combination",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNOFZrdHVxb29qTnVWalhfcmNaVExya19zY0FWV1Y5cnVJakdTYkZaMTRtOGVlTUk0MjFUWjVOMFFjeWNINnpRa0JtRWFvcU9sNFVwZ2ZIMHYySTNVdDJtVzF0NU5Kd18tZy04NEdfSzZSdDVVWVBxOGloN0lqQm95QVZnRXVjcGRIV0J1OEJiZVRYT2dxQVA5VUhidndFWnRnUk4weS16ZW5BVnpWbGc4Vjk4WkZ0bzdVVy1lMUplSG4xNHRkamZxc1B0M0FVOGlNbGFQRUJDa195dEFxcUlvcEFnNjdIUFBnTWJvcWRvLUhtc2kyZ0gydEtCbGNQbnNUUmxyVE5sOUhaYkMweThiSw?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-13T00:00:00+00:00"
+      "title": "UniCredit Wins EU Approval for €45 Billion Commerzbank Bid",
+      "source": "JournalArta",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcGdlbGVlV21KbGpPUEhYMlBVWm1oYm5mR2paYmlSeTk4cThXTkRpZk1reFhhQjg4UFdrUEtNbUVFLWZNcV9BTHhMb0g3TEQ3YnBmYVFVOEZrU2RveGY2X2R3YnJpc0ZYakNnWU1hU3NzbzE2ZWpDODRVX05KckRHSDczeTZtY3NOY3dqa2l4d1ZWQS1xOWt3R20ycGdEUQ?oc=5",
+      "snippet": "JournalArta",
+      "published": "2026-11-16T18:36:06+00:00"
     },
     {
       "n": 19,
-      "title": "Hancock Whitney agrees to buy Trustmark in $3.2B deal",
-      "source": "WAPT",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjNxbm1vMEZEdmY2N1dVSUJVZjY1ZVM1VVFSUjVtY3YxZUg1Z2h3T2dmaG5PS0NldEY2a256NmoyN3ZpLUc1ZGZjd0NTYVJIb0FXVF9udTh4d1d0b1gtM2JiVkJLaURyUUFHZXBDQldldVV5V3ktSWFWTVFqMHdfTzl4a2l6djhjdUtzUVVsY0tORkhVT0VTSER3?oc=5",
-      "snippet": "WAPT",
-      "published": "2026-11-13T13:22:16+00:00"
+      "title": "UniCredit Secures EU, US Approval for €45bn Commerzbank Acquisition",
+      "source": "Global Banking & Finance Review",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcUh6eXRlSllyRkdPb0ZHcFlUZlFWbTNueEg4Ym9hUzZVVTFhWGxTVmEtTUFtTzJpdElub3dBdmNfOWpTRkNFbEFIQ1FLN1JwUjZ3Sm82OXVnNHVzY0NuMnNNQXhNcGNiVkQwZV9mWGZwR1BNb1hEQWFRQzNVUEVkR0JtRzctMHVHNDNuc0NyeVo1QXlac1E?oc=5",
+      "snippet": "Global Banking & Finance Review",
+      "published": "2026-11-16T16:04:05+00:00"
     },
     {
       "n": 20,
-      "title": "Hancock Whitney to buy Trustmark in $3.2B deal",
-      "source": "Banking Dive",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLVE2MDFlRXVEcHNuTVdBaWlON19PSVR1ZWU3TG5sWGxyQkZOSGtYRUxsLVhIN2JOLXl6ejlYbWhiMmxLZERvbmphQ0NhaGFWZUdJZ3lYUkE4QjVXQTgzOEU4MVBYemVjMjlMMXpzNFNUQ196SGFZTmNFc2VQMEpodTNiZ1BqSEhmS0xieXRDSmc3bldIVW4wZE1Raw?oc=5",
-      "snippet": "Banking Dive",
-      "published": "2026-11-12T21:51:29+00:00"
+      "title": "UniCredit to win unconditional EU nod for Commerzbank deal, sources say",
+      "source": "RTE.ie",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU0lYejZRTk5tZnd3RE5PYnVfS0V3Yk1OQldCanZoYkREZ3Jma1A5ZEhLbHJBdzdjVVlHZVU1MG5kWTcwM1lXOGFKckFtMExpbnQxNUdMc3pqSFVvQmswMmoxdmlEYmw4a1RjWHBlYVozZVFJa1NITmtjcHFYbXVqMlB6RUM?oc=5",
+      "snippet": "RTE.ie",
+      "published": "2026-11-10T07:13:03+00:00"
     },
     {
       "n": 21,
-      "title": "Hancock Whitney Announces $3.2 Billion Trustmark Merger",
-      "source": "TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNFdVRDhURzEzOGJzS2xRdFRzTmZXaGRqeDJkRDJnSWlua05Za0RkOHFxYy1udERFLXpGNmdZSnN1R1lyMnNhdzVUbEppd1dQQXRyOEJGMEhmRWtNWjVSSS1IMlgwbG1sdFdGX3N3dWpfVnYydHhpZEdXLThIeFEzT2Z5aGRpS2N0d3RHUUpmZW1paTlhZTNDNnczakVGQXp4MGY4TlFlNGxUZw?oc=5",
-      "snippet": "TipRanks",
-      "published": "2026-11-12T14:35:57+00:00"
+      "title": "EXCLUSIVE: UniCredit to win unconditional EU nod for Commerzbank deal, sources say",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbm1MYXVsMmJud0lZVmRiNS1PTGxoQ3FOYlNtdGpUbDdwcHlLN2ZheG9IUHFJRE0zU3ZPY2hESmhrMUNsYVotSHpaTm9NVUFFZ0pKN044ZmpmQjlWNG8wSXl0dVI4OW5zMjhhWjlJa0xTajdLc0VPZUt0MG9ySkNyMFNmTnNNQUpfaU9tbDZNb0hPakNYRlZIMW1oajkydi1ZVHhpeTd6VFE?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-11-09T18:58:28+00:00"
     },
     {
       "n": 22,
-      "title": "Trustmark Announces $3.2 Billion Merger With Hancock Whitney",
-      "source": "TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNb1F1czZ0OEpERU9Lb1dDb2g0WTZaY2xOV0JoRjBDc24tSTFLbDlHbDJaM3N3LThwanI3WVRGXzZzNWI4di10UXhRWTBacGxieExrSlBBTkV6bm40NzltVWZMV0xSa2tSbHAteGNoRVdjcUEtT0padDczNno1elJUZjZuSU1va2lKZVRuQkVBU1Q1aWtMbnFPNWVmeE1pS3pFd0xuYnVjdGstUloxZF9HUA?oc=5",
-      "snippet": "TipRanks",
-      "published": "2026-11-12T14:54:16+00:00"
+      "title": "UniCredit eyes Commerzbank shareholder vote as crucial EU takeover approval nears",
+      "source": "https://internationalfinance.com/",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcnM3NjhhRlVCSjY5cTY2SUZwMTF1eURxVVV2bGtCR2JTNUNIeW5VWmp4anFtc3RuU296SzBoWVJ4U2hUR1B6c3JudTlBSWxNSHFmenRnb3pXbmZZM0VoeDdEaXNlUnMwZk52M3N2SFF0Tm5vTWlKMFU5c2x4bENYQU9lZXA3dnEtWURoUmVXX0ZXaGdxTlZrWG9wWDFIbUx3cDVGQXg3cktMalJkb3FHdmZqcjk0UUM1a0NnbzMzeno?oc=5",
+      "snippet": "https://internationalfinance.com/",
+      "published": "2026-11-12T01:00:41+00:00"
     },
     {
       "n": 23,
-      "title": "Trustmark and Hancock Whitney Announce Merger Agreement Set for Completion in Early 2027",
-      "source": "Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOFlqc25FVVZvRE1BT3lWbzRxOERXSzVSY1ViLXNnWVNsZnFyZGhWUXNYeE9LS1h2VzFDVVBYbEhtZ3dpYW5HY3I3aEFkbl9GdHpDUlJFXzk2ajRPelg0TGVPUHg0RmdJV1JIaG5jLV9HeWV6ZEItWm9hZm9rUU9jVENWeFlHcF9XU2FlQmRJVXhpakktb1RmbkNhYmFqV3U1SDloRXIxdlNUVVBRWGw1MXRKRHdxRHF0dmpSb3dSck9pYVJSVjktVE90UEk5cm04?oc=5",
-      "snippet": "Kalkine Media",
-      "published": "2026-11-12T17:58:42+00:00"
+      "title": "UniCredit nears EU antitrust OK for Commerzbank",
+      "source": "Malaysia Sun",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTExFN3p1SFRBeTF5VzNXWmRPQWpOWW5nRUN5a0NYYl8tYTI2UE5VT2RhM1J3LXlaWjBpNmZjbFhHaXhrMzhzRi1ZYXFueU8tV3d2MEVGZ0Z0TFhRQmlmb1B6NFRwbFZ4WC1MZmFhWVpFR1dWQWtLMmtFMWZZd1BSaThFaXVKYnR2eVBVX3ltWk1HRlk?oc=5",
+      "snippet": "Malaysia Sun",
+      "published": "2026-11-11T08:48:00+00:00"
     },
     {
       "n": 24,
-      "title": "Deals tracker: Ardent Health to acquire Boone Health",
-      "source": "Modern Healthcare News",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOFRqZk11amFzZnlZQnpGLWRMLUZDaXF3bUJGcUVMSTRXNVoxQzRzY2FHY3FpWjM2WWV3LVFReTJmQ0R6X2NWa3RwQ1BTcVBnT3pjV0JabVRaQ1QwNTd4MVZXeDNzR1MyRFdwT1ZXRHd0cDNJbUluYnFoUGNxM2s0dXZpNC1vaXN4ZEY4SWdHQjE?oc=5",
-      "snippet": "Modern Healthcare News",
-      "published": "2026-11-13T11:06:05+00:00"
+      "title": "Eli Lilly and Company entered into definitive agreement to acquire Calytrix Bio, Inc. for $1.5 billion.",
+      "source": "marketscreener.com",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOU5lNVJqLXpGM0VmWktBZFBRdFFLd0s3dlVlSXhLb1Z5Mi00eFNaY3V1Ny13d3hZd2licUd6SXBhYjFZUzlPRHJUOHVvV3hyTDIwVTFEc3I1c1ktREp0N185S2dWSVc1SWFfVkVJQmZIMzJXa1JGUUMwVjdGbjhGeUJYQnhxNGZheG85MUx6dTJhSmxoNE9VdVdOSDliNWhGSlhmRUJ1NWdLU0tYVVgtSnk2ZTNUa2NRS01vVm5xVkpJT1Rrc0pxaVhuYUFZZE1ZQUhuWUsyOVJsRkwyS3FfeGNMZlM?oc=5",
+      "snippet": "marketscreener.com",
+      "published": "2026-11-16T17:21:58+00:00"
     },
     {
       "n": 25,
-      "title": "Ardent Health Announces Definitive Agreement to Acquire Boone Health",
-      "source": "Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTDNpX0tCVVBfTm9vQWdUb3RNbW1XRDVpeDV1Y21fUnRZTXBMUEUyZVpra1o1eGxBcWdDdU01NE9keTA4Qkgzem5vaXJIRjk1RFFmU1VVMnh6MzNWSUt2NDRrM2o0ZWdQNTEwYnhBb1NaSThvZXJzbGRpa2dxTlFVbDhRVUMwMTZrNDZOU0hORG1EZ2dzYnRwSDRaWXlJTUg0U0tFal9PVTZGNGhpUVFxX2tvU2s1THdDQ09heVJucjFnVGs?oc=5",
-      "snippet": "Business Wire",
-      "published": "2026-11-12T21:15:00+00:00"
+      "title": "Eli Lilly Agrees to Buy Calytrix Bio for Up to $1.5 Billion",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR01NUUl6YnU5Mk1pTEdmVldEWGN6UFltTG5DcVRDa3BOaXp2SVg3UUg5Q1poOWQ0QVRDOWJqXzVtVUVhRXA3VFJ1RUhDemcxRkNORVFYTEFuY2ZaOWR3YnJFeTRxaEIyMzJOTzU1WkFtcW5BcFdIS29ZUjdSUVdKZUhUOE9oek1WV3pxRVg4TlFYbkVKZ2d5TFAzR3ltUVJEN19GQUZBY3k4akRNZEE?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-11-16T15:02:02+00:00"
     },
     {
       "n": 26,
-      "title": "1B Jake Bauers, NLCS MVP with Brewers, reportedly agrees to 4-year, $58 million deal with Red Sox",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRlNrNkg4UzhjWHRuOVFxOU1xakhfVHNUUHU5Q1ZPM280UmJvQkpPbFRxOUswZDg1c3NxT2Q4bjg5WWFURDFFMm9NUWNYc0ViMVFRdjVVV0ZhcDVIRW9WcV9vMnRXemJFSmMwTGltWUR1aDNTMjNwdHNueTJNSk5MYjFhaDlFdzM2aHJjQlhOc1ZuNFNkYWtSZi02Z1dqdFRUc1p5alFfOEN3YjZuMFZyY3NmYnVhWkt3SEFOQlRldjZuT0p0Zm4zZG95MV9zaUdRUG1zNUVwSEJyR0JLYklIZ284SnpjLTF4TnhFWkpMR08?oc=5",
-      "snippet": "Yahoo Sports",
-      "published": "2026-11-13T18:19:08+00:00"
+      "title": "Alpha Bank S.A. announces the completion of the acquisition of Altius Insurance Ltd",
+      "source": "CBN.com.cy",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ3hpZ3d4QmZuWC01STZDal95WUl5QkUzRnhVLW1rY1JKR3ZudkZvNFRueXJrcHl5bUstRWNMd0tfLTNyR0ZUcnBORF9HYi1vTFZjYVh1Rk9QM1VKbG13aFF0TXF1TlNfRjZhV0JLQUx2azVjVnhBcVY1RnlTclR4Mm5oTTJQVnEzZF9CUlFUZFpESnV2OFdDdVhzWW9rcFdGdXVtUmhCbThuYktES3FiSTN0Z2FXZ25GM2VBYw?oc=5",
+      "snippet": "CBN.com.cy",
+      "published": "2026-11-16T17:03:45+00:00"
     },
     {
       "n": 27,
-      "title": "Exclusive | Mark Walter in Talks to Sell Cadillac F1 Stake to Red Sox, Liverpool Owners",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUmVndTdPdWx1YWxYZm0xemd6T3FQZWU1NWl0Zk5oMS1GYWNBTG9wczNmaVhhdmZVR0Y0YTN4eUpwMFVGaDFkSlE1aFplOFl5Wllib2pkdWRqbW9nWXBBcGFraS1sMTNObmd1TnR5UlJYZFpKRl9jRjRNNXpGVEtlcjc0R21YZw?oc=5",
-      "snippet": "WSJ",
-      "published": "2026-11-03T19:33:00+00:00"
+      "title": "Alpha Bank completes Altius Insurance acquisition ahead of Cyprus merger",
+      "source": "Cyprus Mail",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTGltUk5WUGNoUEdMLWRxUzZ3YUZzYkxfTWFxdGVjMzg1LUFubTJEQWdqZ0Z2dVhkTTJkb1J0UTlwZnVEeHRYM0RGZlRpSlphajd1WmNGbDNrOEZtV1NqOWp0V0tCTEFEZzNCWGhzSFJmWV92S3ctSlNUeEZwcW95NmZjTFE2R0dmd1VNcEhEVU5obFRObi11cTI4SURBcUp3MUJjb1NCOEhtVWc?oc=5",
+      "snippet": "Cyprus Mail",
+      "published": "2026-11-16T09:09:48+00:00"
     },
     {
       "n": 28,
-      "title": "Changes to Fnac Darty's governance following the takeover bid initiated by EP Group",
-      "source": "The Manila Times",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOMTlWQ2lqTTBEOS12MHlRYXBJRjI0WkNHWDVzS0c3M3dZWGtZNzlXdWltbWVBUktacEt3eHJZazZqSElqc3lXcTBpWVlvMC0wVG1PUE1UVE94U2FEYkVXdHFCWVZuRjViSXEtWHBXcHhoWFpMOVFtRmlxN19MUG9RVFQ3OFM0SGJZcWdOR21yclhXZS1vM2NWazRYRFFFRGVPMGVObkZlXzA5X29LWGFBblhIVzVsZmVWUUpHeTE3V19HTWNqUTBpVEtfaHlIZmttbENycHA3T0JRbElmbngxMHZCbG0xTGRZUGFaTdIB8gFBVV95cUxNZ1FOYnVyVnhtbnNxRmNCVm4yaGluM2VOTEhLMVdiZnNfWE5qbWttOFM5S1hVUzktRno4T0RNblFITG5OYmJzc3FFM2dLMmtlcEdyZVZ5cTZYZEd0RTZ3U0ZTcHBBRnVqbkpmQWVmWF9QdnljSG84V1dyRUcwVmFNS0RqOThmU19EWENLdzZhUDJfZElFLVN2WUUydEN3LXc3UEJ4aE5FWmk5Ui1DY0FyNXdBekZRcC1WdlkyYnd0c2xFZkctQkN6emxLYlFOUlVCcDdHbXZkZXBaSkQwRzZoSHlfWWxfTWczV056WFZ1ZmxLQQ?oc=5",
-      "snippet": "The Manila Times",
-      "published": "2026-11-13T16:57:53+00:00"
+      "title": "Swarmer Completes Acquisition of Vataga Drone Technology, Adds 15 Hardware Specialists",
+      "source": "citybiz",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMTlVX0llS1l4QmdEMHI5and5SDU4aVFOTTRzOWFtTV9pdXpXU0UwOWRwVVp1N0hmSmdJb2k3S3NBM0JQUjZpX0FFSEJ2VXg3MERCcWlIZk5GS1BaYXVZbHM5V0tlUEU1MkpkdTVfUFpwTG0zNHcydHFMQUtKWm9pVjdJc3VXNXMzdGpBaThCSDJkZUtuWFFmRENTR0RBV2t2ekdWWFdCZGVuMlVmNmxWbWU0N1NXSnZybldaa0dDeHhUZw?oc=5",
+      "snippet": "citybiz",
+      "published": "2026-11-16T16:37:30+00:00"
     },
     {
       "n": 29,
-      "title": "Fnac Darty: Takeover bid initiated by EP Group closing date of the tender offer on November 9, 2026",
-      "source": "Yahoo Finance UK",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNS2c4QW5WRDVpeU5iU2VNS1pFUVZTX05QU3hqR0lQZkRpdS1RaDJSSUJLOFMza2RjbXJlSFp5OEJVLXFxQ0RsSXNtVW55SGxpOXBFMjQySnlId1puQjZ0UUs4eFVCb01ySlVRaTMtOTlqU1h0ZlZsbjI4UDNkVGFjVktXc3RQQnlhdVE?oc=5",
-      "snippet": "Yahoo Finance UK",
-      "published": "2026-10-20T16:30:00+00:00"
+      "title": "Swarmer closes Vataga Drone IP buy, hires CEO and 14 engineers",
+      "source": "Dealroom",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRmR1RmtsWFRLaDFkWHBWMlg5UVgzdG15dUNXZWpWMkV4UW9PVWhNUHRRS3BtQmxaMW1uTDNydkdNNzdndURaa004Y28xc0pvaWNOdHpTOWJTT2VKeE1iYk9udWlQMWhkUDl1Yk5qaE9CbDlOUUpIUTU5Q3N5MTdWc215SUZIY1F5OFFUR3NhYTZPaHVFTE93cGZURQ?oc=5",
+      "snippet": "Dealroom",
+      "published": "2026-11-16T14:10:10+00:00"
     },
     {
       "n": 30,
-      "title": "REEcycle Holdings, Inc. and Hall Chadwick Acquisition Corp....",
-      "source": "Quantisnow",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQzFTZE03WDRZckNzamNaaVhmUVV4TURlaEUxMVNYM3JmT3RRbmlKeGRJbFlnOVBCVVdEcGlaLU9OQzV0ZU9xNHVVWVo4MEItY21XV016aWJlZzhvX2lpM2FDRlpJUlpHanRUUno2UUpKTHlId3BLMDNhZ3FxMGNIV1poc19YR2ZwemZLNmt1c1ZHY0d2aFY5VGU3dy1kNmc4aUZDa0xqYzY2VFRSaFh3dVdn?oc=5",
-      "snippet": "Quantisnow",
-      "published": "2026-11-13T16:07:37+00:00"
+      "title": "Swarmer Closes Vataga Drone Deal, Adding FPV And Interceptor Hardware",
+      "source": "DroneXL",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd1Fkb1dLYUhEUjhwMzRfRG1xUzdCaUhDMGY2R1JIcnhUYlVYTnotcDhUdzZrQlN6NWc5NFV1R3VjdTVibHc5cW80dWxaSnlGdUJrYkFjUnhFak9IRVR6NVNYN1VGeS1uMmZncnFhZ2RLcXVnTUtYbWNIMFRhV3dpNEN1WG80cTQ?oc=5",
+      "snippet": "DroneXL",
+      "published": "2026-11-16T17:27:00+00:00"
     },
     {
       "n": 31,
-      "title": "5 things to know in life sciences: Week of Nov. 9, 2026",
-      "source": "The Real Economy Blog",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPek1oR2NHODE0ZXU5MU9CY0ZsMWs2UVdkck5zZlQ5MERfZ3ZkbFNvR1IxZWdYSVJNa01Ucm9ERHlpN1RRZFpFai1Jc1lVVW1lRlFYRUR2M3l5ZHN4UUZuaEIxck91Tk1KMkYxWGxIeUxVM245dGEtalAzaENlRUtzR3dsZnI3dTc1Z25B?oc=5",
-      "snippet": "The Real Economy Blog",
-      "published": "2026-11-13T17:33:44+00:00"
+      "title": "Valor Energy Inc. Closes Acquisition of 18MW Computing Center in Youngstown, Ohio, Accelerating AI Data Center Expansion",
+      "source": "The Manila Times",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPbnFGaFFBU3VJc3Z2YUJqaTdxcWpZMml6WUZ3Ri1EUVl4dFFJX1ZlanV0U1BKMVZoNzBzZ3g5VHB5ZnBHN2h6LUJ6aWlBUzJJMFRIV1BpTDljSU1wWTIxeGNLcDZiaEhPdVVqS2ZKRW5FZldGYnhWek55VGNfYjJPY3ZRUDZpeHdFbW0xZXBIZDNfRVFSblhzQ09RZUtENjBoRXRoSjEtdFdGZTJUTHRnQXgta3VVMTJGblhHaEdsTDdtcGNXV1gtaHpzcUtvWjdxbTgzdFlzandQUlFvVkQ4RjUxNjZNLXR6MVJXaUFObTBsUkdrTFBhWHlXWkl3NHFlVDQ0M3lsUGhUVmQyVFBQQnFHRDFlcm9MVHBB0gGgAkFVX3lxTE9YZE5rMm9JaVpkOTltMFhlb3BRNk1wcVgydTk3dFJTalY1cGN5cXdqZHp2UkNqWVp6cm1sd0pfTVFfS3BVZENBbEYxRlRSWVlSeGJ5SnFhR1hKdExDc2tuZDdfOVdWZGUzM0wwSXhlSG9JS3Jxei1WY0duWkkzbGNyNEJHS2ppWDJaQ1JxSmVITnh5amJSSWZ1TTVIRldxVHVHMDhEM0lUWFYxV2ZRZmtkMzc3bkV4TFJ3YkVMZUtBcGFaTDBWZXhPUlVTaGwzMWhLQTA4cWgtaTdJdVNJZXQtNzJ6eVQySkVISldEVmdIRGhrSk5kaXo0d280dkdpMExOM1RHWjZueFRMb2p2NHFoV3ZwUWlma3ZZaUtRcmR6LQ?oc=5",
+      "snippet": "The Manila Times",
+      "published": "2026-11-16T20:52:01+00:00"
     },
     {
       "n": 32,
-      "title": "H&R unitholders vote against GO REIT takeover bid",
-      "source": "The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ252MlNMeVV6NHhLU2hUdFRTQjNNNlk1cFlGamxKb29lMm52UHZQZlhEbEdrN1FiaGF0dnpKR2ZKYnVKOVphc3Q5WHpaUV8xUURUb3pDZXR6Zm9lOWZsejNwaTk5RkM0YVFxd1NJWWZ3Mnk5TXZpMGp3bUZZYUlOcWMyQ1EyUlBDc1JZR25pMTBaU3V6NnFqZ19MdjItVmM?oc=5",
-      "snippet": "The Globe and Mail",
-      "published": "2026-11-13T16:52:17+00:00"
+      "title": "Private Equity and Private Credit Firms Manage Trillions, and $90,000 Across These 3 Pays $3,389 a Year in Dividends",
+      "source": "24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNDV2LV9iRDVOeWFrbUV5d28xVm9HVHpYSlZnRElraDNmdzBtTUI2MVBnMERLRDU5SmNDOGNLcUdZcl92WTlWMTdaSE0wZFRabXRhODBrNG1SMU1sQzlRMUgtMFY3amljX1pyLVNDbXdNc25vM1VhY0dIM2d2N1NYd0NvQy13MVZRQTh2TnNISkotZWtNMXBNblBfZjhjSG1uR2ZmR3IyTGttUDlKdEtDOHJyUnQzZXI0c25HRGNnVVMwNXctdDlrZWRDZ090My1vOHRLdXEydF9NMGI5UG5DY0haY2xNeDVFcmI4?oc=5",
+      "snippet": "24/7 Wall St.",
+      "published": "2026-11-16T20:42:00+00:00"
     },
     {
       "n": 33,
-      "title": "United’s CEO Says He’s “100%” Sure an American Deal Could Be Approved",
-      "source": "24/7 Wall St.",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY1FfdjRZX1E1MmVXUDRxeWNSWlR1Z1V6Z2Q1STNjTmNadGdpZGs5eHd3OWRxcGhCeFdrR1VWVXFQTlJpeXd6VHYxa01PenRmY0k4bnZjWm9HMXJVTUotSnIyRG5ERzliSEs3LXJHYW0zT2lJTUpHU0U1akp4eUQ4MHE2UW85bnR1eVpscURZZW13QXhZRVNDSXo1UTdFZVJIQzE1R2ktMlpXRDNH?oc=5",
-      "snippet": "24/7 Wall St.",
-      "published": "2026-11-13T15:53:00+00:00"
+      "title": "FDA Approves Three New Therapies | PharmExec",
+      "source": "Pharmaceutical Executive",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vY2U4aVdDNzBwXzFqZFUzdzRTeUx1SmNKaW1rcnl1RU5oWG85TVNwS3pYUFNVa1lMVW4zN2JTYUw2SnBCZnNfNmk4cU5aRThvN1Z6X1pXVzFNMnpKb0pqY0t3SEdxOXZ1V1JlYW42c1BuUDliM1BMVw?oc=5",
+      "snippet": "Pharmaceutical Executive",
+      "published": "2026-11-16T20:19:08+00:00"
     },
     {
       "n": 34,
-      "title": "Gordon Brothers weighs takeover bid for footwear chain Dune",
-      "source": "Retail Sector",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQR2NFSUNyNjRlX3BnMGxyUjlGODZnVXFuT0lkOGl6UXdBT1Rvakg3U05XNE9ZcjZBcExabW1LbnlYd1JWOEFTZTJXUS1jc2ZlTE9KYnlrZWp4WjZxaEo1emxuZEEtQzB0bXk4Rm1BenFUVEJfRElhemsyR29OOUlvWWR0b3FYZU5sTG1Ec3JHanpyNDRJUkhfQmNjYXFHdE0x?oc=5",
-      "snippet": "Retail Sector",
-      "published": "2026-11-13T15:20:06+00:00"
+      "title": "Minnesota AG Ellison confirms Sutter Health’s acquisition of Allina Health",
+      "source": "5 EYEWITNESS NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdE0wNGRfQk5LamRFcTJQMWJpZG1Sb18zMTRQVWRvNWZLaU8weG1JMDdXTlhUOU1xSzNPZHhRZC1iSEFUNEJ2OHdTQnBCZW5kWTg2dG9nYXFNaktqZ0xVTGg3blZuR05FbC1aR1dCdGJXeGMyUU15UG5pMTF2SXRPd3ZPTkt3eUdscExaQnlpdlMtS1NMb2R2Qm13c2xCVkRIUmpF?oc=5",
+      "snippet": "5 EYEWITNESS NEWS",
+      "published": "2026-11-16T19:59:31+00:00"
     },
     {
       "n": 35,
-      "title": "EMCOR agrees to acquire P1 Construction in all-cash deal",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdnduYWJCWmVkWkFpRnRibkVsbHo0dTZ5VFRleEpoX3JxVExHVHR2LWJkQ21Gdmx3TVJEOUh0ejIyZTgteEQwdDJhQUtDR3NkWHZ3WGROTGc1Y3FGTXltT2tkSnhsM1FyNlVaSXBzNUFPeUxpT21yLWpJa3o1TUdUeUFBejh1UUdQZUJNamRvTjA3Z1N6Y1hEZnVNUlV6WjVWZXRzSDlnbU14U1BqdnE1dDlnemh6Qnk2VWk0?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-13T14:44:26+00:00"
+      "title": "Netflix + NBCU: Dream Deal or Pipe Dream?",
+      "source": "The Ankler",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oWi1hUlpCREY2Zkh0alJhYVNmUmtYX3o4TUY1VlU3NzZVakVyeWtUcmFCa1d1aWdqYXM0WUwxa0FtbDVOcDBIRk1JUVlmOXhOOGxaY0w4aWk1bElZNDhaXzg2X0ZhSzVKLTU0OA?oc=5",
+      "snippet": "The Ankler",
+      "published": "2026-11-16T19:59:11+00:00"
     },
     {
       "n": 36,
-      "title": "Stratasys drops $42.5M deal to acquire Markforged",
-      "source": "Plastics News",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNm9aVlNZWjZEWVNUYlZ4UnNTRUR1aHZmR1ZyN3Vnd3FvU1lnU2M0VG5wU2Z0OUNjeEhDQkt5dGFicWdwVzFYRTYwUkNKNlNVZUVRU0F6M0dxNHdZbXZwWEpOWUg2Sy1KMmxRM3YzNmQyWENiZnd5S3JyblFQRXZ5bFBWVGduMGVRc2Mtem5aRnZHT2hKRm1HWFowaXNSQQ?oc=5",
-      "snippet": "Plastics News",
-      "published": "2026-11-13T14:43:00+00:00"
+      "title": "Allina Health, Sutter Health notch Minn. AG's approval for $26B combination",
+      "source": "Fierce Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSXM0bWJmczFXLUtINjFaajFpcXJtZEc3RWZSZm1vazJRMG9QWlU3SG5lNWhwQ3o0VzktQnlKNldJZmtHZU1HVFdOWHhhaDhPdkhVRE5pT1hVOVQ1amJxTUxCUVB4SmJ2RGhFVzZvYUxja19BOUxHUDhqd3F0VlVZeUM4c3l3bW92dlh0M0tiMFpKY3J1amVCekJhbw?oc=5",
+      "snippet": "Fierce Healthcare",
+      "published": "2026-11-16T19:27:35+00:00"
     },
     {
       "n": 37,
-      "title": "Companies Affected by Massive Mergers: Keep HSR Reform on Your Watch List",
-      "source": "The National Law Review",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYVVhZUR6WnNuS3FfLVkxaUZyYlRvcmxDUmpYNDBvUzFsWC01QjdUaEdhVFY2YU56ZElsRFM1bnYyNG5MQWdHUmpIMDc1OTBvcllfeHBkXzNXQkJtU0NwSy1zS05MRFhzRlBETzFkZFM4N2dBdHJENzBqWVpFeHpVZ2NZX2VwQnJvRDFDeTl4a3VEcUloN0JzWVprUlJXRWNmUjM3RHZ30gGmAUFVX3lxTE9hVWFlRHpac25LcV8tWTFpRnJiVG9ybENSalg0MG9TMWxYLTVCN1RoR2FUVjZhTnpkSWxEUzVudjI0bkxBZ0dSakgwNzU5MG9yWV94cGRfM1dCQm1TQ3BLLXNLTkxEWHNGUERPMWRkUzg3Z0F0ckQ3MGpZWkV4elVnY1lfZXBCcm9EMUN5OXhrdURxSWg3QnNZWmtSUldFY2ZSMzdEdnc?oc=5",
-      "snippet": "The National Law Review",
-      "published": "2026-11-13T14:30:52+00:00"
+      "title": "Olympus Partners-backed PAI Pharma strikes deal for Nexus Pharmaceuticals",
+      "source": "PEI Private Equity",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc3Y1NTJsV3phUy1LelBRZ3RwbFNQWFllTkZoMjhTNFJyOWdibFZqUFNCbHdUWmFXb0Y0QnJQalZFdlJXR3MxRk1DVUsyNzdIQTZab1hKN2RFV3BoVDdrQkdKY0lmemp1d3B6VEE2ZGVVRWRHcFpWMElGMVJLLUxoM0lxS3ZLbE1rSm4wRTNHS21Tdkd2WE1zRHU5OGtQQ05DRUh0OWRwMXFxZFdSc2ZRd3d1MlZQODdr?oc=5",
+      "snippet": "PEI Private Equity",
+      "published": "2026-11-16T19:17:26+00:00"
     },
     {
       "n": 38,
-      "title": "AMD Stock Soars As It Inks Deal With Google Cloud. How to Play AMD Now.",
-      "source": "Barchart.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ0xQcjVmY19rd1pLSG1vcnlmZEdLQzk3Yk5kUzFhVWhkb3BNdHl2ZWI4ZHVsb3hOV2xaWnBIZGRiQm1OVXJWZDVtalBDM0FkZWU0MEt4cmVLT3JUZjBwc2t6RkFFTXFkVzlFVkJpTXhVUjdKQWdITG5kZ1VvSlhveHpsNFE1NlBPMTRPemFnUXd6NkRLOWw3LV9IZzRhRG5oSXU0UjBTLVVobmF5UjNETjAzQQ?oc=5",
-      "snippet": "Barchart.com",
-      "published": "2026-11-13T14:30:03+00:00"
+      "title": "Elon Musk Dreams of Merging Tesla and SpaceX in Move Toward Tech Supremacy",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPazJram9ValE5cjMtTEg4dDczeXc3d3Y1VW9KaldhbHl2ZUhISjBHbzFBZ3FXWExFWGxEVlNwMHpZU0xvcEdkQkpaMURmQldKdE1TUkIyMENXTU4wTWpCTkNtLS01OGY3Qnp0X1BVYlM0NU96RkFxeE12YjRRZ1pKUUpRUFpjOFc1eGswVQ?oc=5",
+      "snippet": "The New York Times",
+      "published": "2026-11-16T18:57:59+00:00"
     }
   ],
   "cited": [
@@ -618,16 +637,22 @@
     2,
     3,
     4,
+    5,
+    6,
+    7,
+    8,
     9,
     10,
     11,
     12,
     13,
+    14,
+    15,
+    16,
     17,
     18,
     19,
     20,
-    21,
     22,
     23,
     24,
@@ -642,162 +667,174 @@
     33
   ],
   "invalid_citations": [],
-  "example_prompt": "Deal: Samsung and Modine.\nStage: Rumored.\n\nHeadlines:\n[1] Billionaires.Africa, Nov 13 12:15 PM ET: Jay Y. Lee's Samsung eyes $5.6 billion Modine deal\n    Billionaires.Africa\n[2] Bloomberg.com, Nov 13 10:48 AM ET: Samsung Is in Talks to Acquire Data Center Cooling Firm Modine\n    Bloomberg.com\n[3] TradingKey, Nov 13 05:38 AM ET: Samsung in Talks to Acquire Data Center Cooling Maker Modine; MOD Surges Over 25% Pre-Market\n    TradingKey\n[4] shattered.io, Nov 13 05:29 AM ET: Samsung Modine Acquisition Talks: $0 Terms Disclosed [2026]\n    shattered.io\n[5] Analytics Insight, Nov 13 04:22 AM ET: Samsung in Talks to Acquire US Cooling Firm Modine Amid AI Boom\n    Analytics Insight\n[6] The Business Times, Nov 13 01:32 AM ET: Samsung is in talks to acquire data centre cooling firm Modine\n    The Business Times\n[7] BigGo Finance, Nov 12 07:55 PM ET: Samsung in Advanced Talks to Buy Modine; Cooling Supplier's Stock Jumps 29%\n    BigGo Finance\n[8] UA.NEWS, Nov 12 07:35 PM ET: Samsung in talks to acquire Modine Manufacturing — Channel NewsAsia\n    UA.NEWS\n\nWrite the subheading and sentences.",
+  "example_prompt": "Deal: Diamondback and Double Eagle.\nStage: Announced.\n\nHeadlines:\n[1] Reuters, Nov 16 11:43 AM ET: Diamondback deepens Permian push with $5 billion Double Eagle deal\n    Reuters\n[2] Fort Worth Inc., Nov 16 11:36 AM ET: Diamondback To Buy Double Eagle Subsidiaries for $2.15 Billion and Stock\n    Fort Worth Inc.\n[3] Benzinga, Nov 16 10:47 AM ET: Diamondback Energy Acquires Double Eagle Assets In $2.15 Billion Deal\n    Benzinga\n[4] Bloomberg.com, Nov 16 08:48 AM ET: Diamondback Agrees to Buy Double Eagle Assets for $5 Billion\n    Bloomberg.com\n[5] Quiver Quantitative, Nov 16 06:50 AM ET: Diamondback Energy Announces Agreement to Acquire Double Eagle Subsidiaries for Midland Basin Growth\n    Quiver Quantitative\n[6] Energy News Beat, Nov 15 10:29 PM ET: Diamondback Energy is nearing a roughly $5 billion cash-and-stock deal to acquire Double Eagle V’s Permian assets\n    Energy News Beat\n[7] Bloomberg.com, Nov 15 04:49 PM ET: Diamondback in Talks to Buy Double Eagle for About $5 Billion\n    Bloomberg.com\n\nWrite the subheading and sentences.",
   "retrieval": [
     {
-      "deal": "Samsung / Modine",
-      "query": "Samsung Modine acquisition merger deal",
+      "deal": "Diamondback / Double Eagle",
+      "query": "Diamondback Double Eagle acquisition merger deal",
       "hits": [
         {
-          "n": 8,
-          "similarity": 0.798
+          "n": 3,
+          "similarity": 0.856
         },
         {
           "n": 4,
-          "similarity": 0.796
+          "similarity": 0.839
         },
         {
-          "n": 5,
-          "similarity": 0.781
-        },
-        {
-          "n": 6,
-          "similarity": 0.776
+          "n": 7,
+          "similarity": 0.839
         },
         {
           "n": 2,
-          "similarity": 0.771
+          "similarity": 0.816
         },
         {
-          "n": 3,
-          "similarity": 0.763
+          "n": 6,
+          "similarity": 0.8
+        },
+        {
+          "n": 5,
+          "similarity": 0.79
         }
       ]
     },
     {
-      "deal": "SpaceX / Tesla",
-      "query": "SpaceX Tesla acquisition merger deal",
+      "deal": "Johnson & Johnson / Ollin Biosciences, Inc.",
+      "query": "Johnson & Johnson Ollin Biosciences, Inc. acquisition merger deal",
       "hits": [
         {
-          "n": 12,
-          "similarity": 0.837
+          "n": 8,
+          "similarity": 0.908
         },
         {
-          "n": 13,
-          "similarity": 0.829
+          "n": 10,
+          "similarity": 0.827
         },
         {
           "n": 11,
-          "similarity": 0.824
+          "similarity": 0.783
+        }
+      ]
+    },
+    {
+      "deal": "Medtronic / Contego Medical",
+      "query": "Medtronic Contego Medical acquisition merger deal",
+      "hits": [
+        {
+          "n": 13,
+          "similarity": 0.867
+        },
+        {
+          "n": 12,
+          "similarity": 0.812
         },
         {
           "n": 14,
-          "similarity": 0.824
+          "similarity": 0.788
+        }
+      ]
+    },
+    {
+      "deal": "Samsung / Modine Manufacturing",
+      "query": "Samsung Modine Manufacturing acquisition merger deal",
+      "hits": [
+        {
+          "n": 17,
+          "similarity": 0.819
         },
         {
           "n": 15,
-          "similarity": 0.823
-        },
-        {
-          "n": 16,
-          "similarity": 0.814
+          "similarity": 0.8
         }
       ]
     },
     {
-      "deal": "Tensor / RAIN",
-      "query": "Tensor RAIN acquisition merger deal",
+      "deal": "UniCredit / Commerzbank",
+      "query": "UniCredit Commerzbank acquisition merger deal",
       "hits": [
-        {
-          "n": 18,
-          "similarity": 0.799
-        },
-        {
-          "n": 17,
-          "similarity": 0.748
-        }
-      ]
-    },
-    {
-      "deal": "Hancock Whitney / Trustmark",
-      "query": "Hancock Whitney Trustmark acquisition merger deal",
-      "hits": [
-        {
-          "n": 21,
-          "similarity": 0.881
-        },
-        {
-          "n": 22,
-          "similarity": 0.878
-        },
-        {
-          "n": 23,
-          "similarity": 0.845
-        },
         {
           "n": 19,
-          "similarity": 0.842
+          "similarity": 0.835
+        },
+        {
+          "n": 18,
+          "similarity": 0.769
         },
         {
           "n": 20,
-          "similarity": 0.834
+          "similarity": 0.766
+        },
+        {
+          "n": 21,
+          "similarity": 0.762
+        },
+        {
+          "n": 22,
+          "similarity": 0.762
+        },
+        {
+          "n": 23,
+          "similarity": 0.745
         }
       ]
     },
     {
-      "deal": "Ardent Health / Boone Health",
-      "query": "Ardent Health Boone Health acquisition merger deal",
+      "deal": "Eli Lilly and Company / Calytrix Bio, Inc.",
+      "query": "Eli Lilly and Company Calytrix Bio, Inc. acquisition merger deal",
       "hits": [
         {
+          "n": 24,
+          "similarity": 0.912
+        },
+        {
           "n": 25,
-          "similarity": 0.862
+          "similarity": 0.882
+        },
+        {
+          "n": 11,
+          "similarity": 0.803
         }
       ]
     },
     {
-      "deal": "Red Sox / Jake Bauers",
-      "query": "Red Sox Jake Bauers acquisition merger deal",
+      "deal": "Alpha Bank S.A. / Altius Insurance Ltd",
+      "query": "Alpha Bank S.A. Altius Insurance Ltd acquisition merger deal",
       "hits": [
         {
           "n": 26,
-          "similarity": 0.773
+          "similarity": 0.872
         },
         {
           "n": 27,
-          "similarity": 0.654
+          "similarity": 0.865
         }
       ]
     },
     {
-      "deal": "EP Group / Fnac Darty",
-      "query": "EP Group Fnac Darty acquisition merger deal",
-      "hits": [
-        {
-          "n": 28,
-          "similarity": 0.815
-        },
-        {
-          "n": 29,
-          "similarity": 0.807
-        }
-      ]
-    },
-    {
-      "deal": "Hall Chadwick Acquisition Corp / REEcycle Holdings, Inc.",
-      "query": "Hall Chadwick Acquisition Corp REEcycle Holdings, Inc. acquisition merger deal",
+      "deal": "Swarmer / Vataga Drone Technology",
+      "query": "Swarmer Vataga Drone Technology acquisition merger deal",
       "hits": [
         {
           "n": 30,
-          "similarity": 0.847
+          "similarity": 0.821
+        },
+        {
+          "n": 28,
+          "similarity": 0.806
+        },
+        {
+          "n": 29,
+          "similarity": 0.788
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 195,
-    "headlines_new": 102,
-    "index_size": 2544,
-    "deals_found": 24,
+    "headlines_fetched": 121,
+    "headlines_new": 117,
+    "index_size": 2468,
+    "deals_found": 39,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19
