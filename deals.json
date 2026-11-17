@@ -1,635 +1,638 @@
 {
-  "date": "Monday, November 16",
-  "generated_at": "2026-11-16T21:08:55.833313+00:00",
+  "date": "Tuesday, November 17",
+  "generated_at": "2026-11-17T20:00:21.929639+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "Diamondback is acquiring Double Eagle's Permian assets in a $5 billion deal, expanding its presence in the Permian Basin.",
+  "lede": "ICEYE is acquiring Avio for over €2 billion, while AMD has completed its $8.2 billion acquisition of World Labs and Aon has acquired USI for $17 billion.",
   "deals": [
     {
-      "acquirer": "Diamondback",
-      "target": "Double Eagle",
-      "value": "$5 billion",
+      "acquirer": "ICEYE",
+      "target": "Avio",
+      "value": "€2 Billion",
       "pinned": false,
       "stage": "Announced",
-      "articles": 7,
-      "outlets": 6,
-      "latest": "2026-11-16T16:43:44+00:00",
+      "articles": 4,
+      "outlets": 4,
+      "latest": "2026-11-17T16:03:57+00:00",
       "sources": [
         1,
         2,
         3,
         4,
-        5,
-        6,
-        7
+        5
       ],
       "stripped": [],
-      "headline": "Diamondback and Double Eagle Deal",
-      "body": "Diamondback is acquiring Double Eagle's Permian assets in a $5 billion deal [1, 4, 6]. The deal includes the purchase of Double Eagle's subsidiaries for $2.15 billion [2, 3, 5]. Diamondback is set to acquire Double Eagle's assets in a deal that will expand its presence in the Permian Basin [2, 5, 7].",
+      "headline": "ICEYE and Avio Deal",
+      "body": "ICEYE is acquiring Avio for over €2 billion [1, 2, 3]. The deal is expected to be completed once Vega C rocket's satellite launch capacity is increased [5]. The takeover bid was launched by ICEYE [4].",
       "found": [
         {
           "n": 1,
-          "acquirer": "Diamondback",
-          "target": "Double Eagle",
-          "stage": "Completed"
-        },
-        {
-          "n": 2,
-          "acquirer": "Diamondback",
-          "target": "Double Eagle subsidiaries",
-          "stage": "Completed"
-        },
-        {
-          "n": 3,
-          "acquirer": "Diamondback Energy",
-          "target": "Double Eagle Assets",
-          "stage": "Completed"
-        },
-        {
-          "n": 4,
-          "acquirer": "Diamondback",
-          "target": "Double Eagle Assets",
-          "stage": "Completed"
-        },
-        {
-          "n": 5,
-          "acquirer": "Diamondback Energy",
-          "target": "Double Eagle Subsidiaries",
+          "acquirer": "Iceye",
+          "target": "Avio",
           "stage": "Announced"
         },
         {
+          "n": 2,
+          "acquirer": "ICEYE",
+          "target": "Avio",
+          "stage": "Announced"
+        },
+        {
+          "n": 3,
+          "acquirer": "ICEYE",
+          "target": "Avio",
+          "stage": "Announced"
+        },
+        {
+          "n": 4,
+          "acquirer": "ICEYE",
+          "target": "Avio",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "DoorDash",
+      "target": "Instacart",
+      "value": "$17 Billion",
+      "pinned": false,
+      "stage": "Pending approval",
+      "articles": 3,
+      "outlets": 3,
+      "latest": "2026-11-17T17:48:45+00:00",
+      "sources": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "stripped": [
+        14
+      ],
+      "headline": "DoorDash and Instacart Deal",
+      "body": "DoorDash is acquiring Instacart in a $17 billion deal [9, 10, 12]. The deal is currently pending approval from the Justice Department [6, 7, 8]. No new information is available on the status of the deal [13, 11].",
+      "found": [
+        {
           "n": 6,
-          "acquirer": "Diamondback Energy",
-          "target": "Double Eagle V",
+          "acquirer": "DoorDash",
+          "target": "Instacart",
           "stage": "Pending approval"
         },
         {
           "n": 7,
-          "acquirer": "Diamondback",
-          "target": "Double Eagle",
+          "acquirer": "DoorDash",
+          "target": "Instacart",
           "stage": "Rumored"
-        }
-      ]
-    },
-    {
-      "acquirer": "Johnson & Johnson",
-      "target": "Ollin Biosciences, Inc.",
-      "value": "$3.3 billion",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 3,
-      "outlets": 3,
-      "latest": "2026-11-16T20:05:41+00:00",
-      "sources": [
-        8,
-        9,
-        10,
-        11
-      ],
-      "stripped": [],
-      "headline": "Johnson & Johnson to Acquire Ollin Biosciences",
-      "body": "Johnson & Johnson is acquiring Ollin Biosciences, Inc. for $3.3 billion [8, 9, 10]. Johnson & Johnson agreed to buy eye disease biotech Ollin for $2.2 billion upfront [9]. Johnson & Johnson will acquire Ollin Biosciences and a late-stage bispecific antibody [10]. Johnson & Johnson is acquiring Ollin Biosciences as part of a larger M&A roundup [11].",
-      "found": [
+        },
         {
           "n": 8,
-          "acquirer": "Johnson & Johnson",
-          "target": "Ollin Biosciences, Inc.",
-          "stage": "Completed"
-        },
-        {
-          "n": 9,
-          "acquirer": "Johnson & Johnson",
-          "target": "Ollin",
-          "stage": "Completed"
-        },
-        {
-          "n": 10,
-          "acquirer": "Johnson & Johnson",
-          "target": "Ollin Biosciences",
+          "acquirer": "DoorDash",
+          "target": "Instacart",
           "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Medtronic",
-      "target": "Contego Medical",
-      "value": "$380M",
+      "acquirer": "Air Water Ventures",
+      "target": "Proud Source Water",
+      "value": "$150M",
       "pinned": false,
       "stage": "Announced",
       "articles": 3,
       "outlets": 3,
-      "latest": "2026-11-16T14:11:28+00:00",
-      "sources": [
-        12,
-        13,
-        14
-      ],
-      "stripped": [],
-      "headline": "Medtronic to Acquire Contego Medical",
-      "body": "Medtronic plans to acquire Contego Medical for its vascular portfolio [12, 13, 14]. The deal is worth $380 million [12, 13, 14]. The acquisition is expected to expand access to next-generation carotid therapies [14].",
-      "found": [
-        {
-          "n": 12,
-          "acquirer": "Medtronic",
-          "target": "Contego Medical",
-          "stage": "Announced"
-        },
-        {
-          "n": 13,
-          "acquirer": "Medtronic",
-          "target": "Contego Medical",
-          "stage": "Completed"
-        },
-        {
-          "n": 14,
-          "acquirer": "Medtronic",
-          "target": "Contego Medical",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Samsung",
-      "target": "Modine Manufacturing",
-      "value": "",
-      "pinned": false,
-      "stage": "Rumored",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-11-16T20:27:35+00:00",
+      "latest": "2026-11-17T14:14:47+00:00",
       "sources": [
         15,
         16,
         17
       ],
       "stripped": [],
-      "headline": "Samsung to Acquire Modine Manufacturing",
-      "body": "Samsung is in talks to acquire Modine Manufacturing [15, 17]. The deal has not been officially announced [16]. The acquisition would be a significant move for Samsung [16].",
+      "headline": "Air Water Ventures Acquires Proud Source Water",
+      "body": "Air Water Ventures is acquiring Proud Source Water [15, 16, 17]. The deal is expected to close in 2027 [16]. The acquisition is valued at up to $150M [15].",
       "found": [
         {
           "n": 15,
-          "acquirer": "Samsung",
-          "target": "Modine Manufacturing",
-          "stage": "Rumored"
+          "acquirer": "Air Water Ventures",
+          "target": "Proud Source Water",
+          "stage": "Completed"
         },
         {
           "n": 16,
-          "acquirer": "Samsung",
-          "target": "Modine",
-          "stage": "Terminated"
-        }
-      ]
-    },
-    {
-      "acquirer": "UniCredit",
-      "target": "Commerzbank",
-      "value": "€45 Billion",
-      "pinned": false,
-      "stage": "Pending approval",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-11-16T18:36:06+00:00",
-      "sources": [
-        18,
-        19,
-        20,
-        21,
-        22,
-        23
-      ],
-      "stripped": [],
-      "headline": "UniCredit and Commerzbank Deal",
-      "body": "UniCredit has won EU approval for its €45 billion bid to acquire Commerzbank [18, 19, 20]. The deal is now pending approval from Commerzbank's shareholders [22, 23]. The next step will be for UniCredit to get approval from Commerzbank's shareholders [22, 23].",
-      "found": [
-        {
-          "n": 18,
-          "acquirer": "UniCredit",
-          "target": "Commerzbank",
+          "acquirer": "Air Water Ventures (WATR)",
+          "target": "Proud Source Water",
           "stage": "Announced"
         },
         {
-          "n": 19,
-          "acquirer": "UniCredit",
-          "target": "Commerzbank",
-          "stage": "Pending approval"
+          "n": 17,
+          "acquirer": "Air Water Ventures",
+          "target": "Proud Source Water",
+          "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Eli Lilly and Company",
-      "target": "Calytrix Bio, Inc.",
-      "value": "$1.5 billion",
+      "acquirer": "TPG",
+      "target": "Bill Holdings",
+      "value": "",
+      "pinned": false,
+      "stage": "Rumored",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-17T19:11:35+00:00",
+      "sources": [
+        18,
+        19,
+        20
+      ],
+      "stripped": [],
+      "headline": "TPG and Bill Holdings",
+      "body": "TPG is reportedly considering a buyout of Bill Holdings [18, 19, 20]. The deal is still in the rumored stage [18, 19, 20].",
+      "found": [
+        {
+          "n": 18,
+          "acquirer": "TPG",
+          "target": "Bill Holdings",
+          "stage": "Rumored"
+        },
+        {
+          "n": 19,
+          "acquirer": "TPG",
+          "target": "Bill Holdings",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "AMD",
+      "target": "World Labs",
+      "value": "$8.2 billion",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-17T10:30:00+00:00",
+      "sources": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "stripped": [],
+      "headline": "AMD Buys World Labs for $8.2B",
+      "body": "AMD has acquired World Labs [21, 22, 24]. The deal is now completed [21, 22, 24]. No further information is available [22, 23, 24].",
+      "found": [
+        {
+          "n": 21,
+          "acquirer": "AMD",
+          "target": "World Labs",
+          "stage": "Completed"
+        },
+        {
+          "n": 22,
+          "acquirer": "AMD",
+          "target": "World Labs",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Aon",
+      "target": "USI",
+      "value": "$17 billion",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-17T03:57:42+00:00",
+      "sources": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "stripped": [],
+      "headline": "Aon and USI Acquisition",
+      "body": "Aon has acquired USI [25, 26, 27]. The deal is worth $17 billion [25, 26, 27]. The acquisition is now complete [26, 27, 28].",
+      "found": [
+        {
+          "n": 25,
+          "acquirer": "Aon",
+          "target": "USI",
+          "stage": "Completed"
+        },
+        {
+          "n": 26,
+          "acquirer": "Aon",
+          "target": "USI",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Bird",
+      "target": "Kel-Gor",
+      "value": "$200M",
       "pinned": false,
       "stage": "Announced",
       "articles": 2,
       "outlets": 2,
-      "latest": "2026-11-16T17:21:58+00:00",
+      "latest": "2026-11-16T22:17:36+00:00",
       "sources": [
-        24,
-        25,
-        11
-      ],
-      "stripped": [],
-      "headline": "Eli Lilly to Acquire Calytrix Bio",
-      "body": "Eli Lilly and Company is acquiring Calytrix Bio, Inc. for $1.5 billion [24, 25]. The deal was announced on November 16 [24, 25, 11]. No further information is available [24, 25].",
-      "found": [
-        {
-          "n": 24,
-          "acquirer": "Eli Lilly and Company",
-          "target": "Calytrix Bio, Inc.",
-          "stage": "Announced"
-        },
-        {
-          "n": 25,
-          "acquirer": "Eli Lilly Agrees",
-          "target": "Calytrix Bio",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "Alpha Bank S.A.",
-      "target": "Altius Insurance Ltd",
-      "value": "",
-      "pinned": false,
-      "stage": "Completed",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-11-16T17:03:45+00:00",
-      "sources": [
-        26,
-        27
-      ],
-      "stripped": [],
-      "headline": "Alpha Bank Acquires Altius Insurance",
-      "body": "Alpha Bank S.A. has completed the acquisition of Altius Insurance Ltd [26, 27]. The deal is now completed and no further updates are expected [26, 27].",
-      "found": [
-        {
-          "n": 26,
-          "acquirer": "Alpha Bank S.A.",
-          "target": "Altius Insurance Ltd",
-          "stage": "Completed"
-        },
-        {
-          "n": 27,
-          "acquirer": "Alpha Bank",
-          "target": "Altius Insurance",
-          "stage": "Completed"
-        }
-      ]
-    },
-    {
-      "acquirer": "Swarmer",
-      "target": "Vataga Drone Technology",
-      "value": "",
-      "pinned": false,
-      "stage": "Completed",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-11-16T16:37:30+00:00",
-      "sources": [
-        28,
         29,
-        30
+        30,
+        31
       ],
       "stripped": [],
-      "headline": "Swarmer Acquires Vataga Drone Technology",
-      "body": "Swarmer has acquired Vataga Drone Technology [28, 29, 30]. The deal is completed [28, 29, 30]. The acquisition adds 15 hardware specialists [28]. The deal includes FPV and interceptor hardware [30].",
+      "headline": "Bird to Buy Kel-Gor",
+      "body": "Bird is buying industrial contractor Kel-Gor [29, 30, 31]. The deal was announced by Bird [29, 30, 31].",
       "found": [
-        {
-          "n": 28,
-          "acquirer": "Swarmer",
-          "target": "Vataga Drone Technology",
-          "stage": "Completed"
-        },
         {
           "n": 29,
-          "acquirer": "Swarmer",
-          "target": "Vataga",
+          "acquirer": "Bird",
+          "target": "Kel-Gor",
           "stage": "Completed"
+        },
+        {
+          "n": 30,
+          "acquirer": "Bird",
+          "target": "Kel-Gor",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Tenax Aerospace",
+      "target": "Air Industries",
+      "value": "",
+      "pinned": false,
+      "stage": "Pending approval",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-11-17T19:34:48+00:00",
+      "sources": [
+        32,
+        33
+      ],
+      "stripped": [],
+      "headline": "Tenax Aerospace and Air Industries Deal",
+      "body": "Tenax Aerospace and Air Industries are merging [32, 33]. The deal is pending approval [32]. Shareholders of Air Industries will vote on the merger on November 18 [32].",
+      "found": [
+        {
+          "n": 32,
+          "acquirer": "Tenax Aerospace",
+          "target": "Air Industries",
+          "stage": "Announced"
         }
       ]
     }
   ],
   "also": [
     {
-      "n": 31,
-      "note": "Valor Energy Inc. Closes Acquisition of 18MW Computing Center in Youngstown, Ohio, Accelerating AI Data Center Expansion [31]."
-    },
-    {
-      "n": 32,
-      "note": "Private Equity and Private Credit Firms Manage Trillions, and $90,000 Across These 3 Pays $3,389 a Year in Dividends [32]."
-    },
-    {
-      "n": 33,
-      "note": "FDA Approves Three New Therapies | PharmExec [33]."
-    }
-  ],
-  "brief": "Diamondback is acquiring Double Eagle's Permian assets in a $5 billion deal, expanding its presence in the Permian Basin.\n\nDiamondback / Double Eagle (Announced): Diamondback and Double Eagle Deal. Diamondback is acquiring Double Eagle's Permian assets in a $5 billion deal [1, 4, 6]. The deal includes the purchase of Double Eagle's subsidiaries for $2.15 billion [2, 3, 5]. Diamondback is set to acquire Double Eagle's assets in a deal that will expand its presence in the Permian Basin [2, 5, 7].\nJohnson & Johnson / Ollin Biosciences, Inc. (Announced): Johnson & Johnson to Acquire Ollin Biosciences. Johnson & Johnson is acquiring Ollin Biosciences, Inc. for $3.3 billion [8, 9, 10]. Johnson & Johnson agreed to buy eye disease biotech Ollin for $2.2 billion upfront [9]. Johnson & Johnson will acquire Ollin Biosciences and a late-stage bispecific antibody [10]. Johnson & Johnson is acquiring Ollin Biosciences as part of a larger M&A roundup [11].\nMedtronic / Contego Medical (Announced): Medtronic to Acquire Contego Medical. Medtronic plans to acquire Contego Medical for its vascular portfolio [12, 13, 14]. The deal is worth $380 million [12, 13, 14]. The acquisition is expected to expand access to next-generation carotid therapies [14].\nSamsung / Modine Manufacturing (Rumored): Samsung to Acquire Modine Manufacturing. Samsung is in talks to acquire Modine Manufacturing [15, 17]. The deal has not been officially announced [16]. The acquisition would be a significant move for Samsung [16].\nUniCredit / Commerzbank (Pending approval): UniCredit and Commerzbank Deal. UniCredit has won EU approval for its €45 billion bid to acquire Commerzbank [18, 19, 20]. The deal is now pending approval from Commerzbank's shareholders [22, 23]. The next step will be for UniCredit to get approval from Commerzbank's shareholders [22, 23].\nEli Lilly and Company / Calytrix Bio, Inc. (Announced): Eli Lilly to Acquire Calytrix Bio. Eli Lilly and Company is acquiring Calytrix Bio, Inc. for $1.5 billion [24, 25]. The deal was announced on November 16 [24, 25, 11]. No further information is available [24, 25].\nAlpha Bank S.A. / Altius Insurance Ltd (Completed): Alpha Bank Acquires Altius Insurance. Alpha Bank S.A. has completed the acquisition of Altius Insurance Ltd [26, 27]. The deal is now completed and no further updates are expected [26, 27].\nSwarmer / Vataga Drone Technology (Completed): Swarmer Acquires Vataga Drone Technology. Swarmer has acquired Vataga Drone Technology [28, 29, 30]. The deal is completed [28, 29, 30]. The acquisition adds 15 hardware specialists [28]. The deal includes FPV and interceptor hardware [30].\n\nAlso worth knowing:\n- Valor Energy Inc. Closes Acquisition of 18MW Computing Center in Youngstown, Ohio, Accelerating AI Data Center Expansion [31].\n- Private Equity and Private Credit Firms Manage Trillions, and $90,000 Across These 3 Pays $3,389 a Year in Dividends [32].\n- FDA Approves Three New Therapies | PharmExec [33].",
-  "sources": [
-    {
-      "n": 1,
-      "title": "Diamondback deepens Permian push with $5 billion Double Eagle deal",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVEF0MVJtN3llcy1qa0F5bzI0VEZxRVVkeTR1alRETkR4MnJqYlc2VHJUU1RvdWctS0JMNXRyWTlzeXFpdTdPRGxBVFV3VGRpbDdfV2VCSXIyWWxqSmlCVnNTZUV6ZUs1SDg4RThTVFRRX2d2ZFRlNVJyaWd2SkEwODh0S1labkwxcnpyN183M1VDYnFDWHhueFBaeHZ2Sm1KUXotS1Z3SjZ3MjE3ODNmZllLaVRyeG1ma3RKaUpWSEFNZkhPN044?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-11-16T16:43:44+00:00"
-    },
-    {
-      "n": 2,
-      "title": "Diamondback To Buy Double Eagle Subsidiaries for $2.15 Billion and Stock",
-      "source": "Fort Worth Inc.",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSlhqT19VQmV4Z2k0dWpxaFVXbEhFYW1VUE1fcjVlOTc4SkhmZS1CbWotWHZCVU83d2pYRFBER1FTb3dLcUxtOUNOWUU5Y2lSSzZkX3pwczMzeU1iVkI5TnVPUElrNmhoUUJSWjZsQVpMOHp3TU5lX3FER1ZvMkpfRkM0M051RmNJblhPUWY3SnBsZnEzc0E?oc=5",
-      "snippet": "Fort Worth Inc.",
-      "published": "2026-11-16T16:36:24+00:00"
-    },
-    {
-      "n": 3,
-      "title": "Diamondback Energy Acquires Double Eagle Assets In $2.15 Billion Deal",
-      "source": "Benzinga",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaldZM3FCMHd2d0lxcEQyU1Utdkt4VEdSdVNYOXQ5ZVdCRjlENlJiSWR4RnhaZFVYWnRYTVpmV0o0MllmOVNZZjVyN1pOVTFURGkyLXNBLV9jY1Y1eTN6RlNJVWFUYnlaZE5LamRBekJnN3NqQWtxUDRlNThsUS01Q1djZHZOMV9Fa0xlYUtzUmRYUk0zQkJIU2UwcFp2clFFUDVvaUJlU19FNVUxLVBhZkt5WF85RlVpZ1VHeHdfVnlkbV83?oc=5",
-      "snippet": "Benzinga",
-      "published": "2026-11-16T15:47:33+00:00"
-    },
-    {
-      "n": 4,
-      "title": "Diamondback Agrees to Buy Double Eagle Assets for $5 Billion",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPak5qVG9xemYzbWdyN0pwZFNadmtCSEZWcWZZUTNhSmp4UG9yTGhvWDZLZ2RLV2cwWFBUR0g4SmFXdmpTeDVnaVNqLXlBYUJTazB6bEttckdyVFgyREdQdmY4amNyOXdDRklWTW85UFBsWTVuNEZNdzBhZFAzTEdjQW5kUzd6bjhzOU92M09WdmR6VVJXLXRDQ1gyWXNTdzlpdHltc0RnMlBJUXhSdEVMN2dpQQ?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-16T13:48:49+00:00"
-    },
-    {
-      "n": 5,
-      "title": "Diamondback Energy Announces Agreement to Acquire Double Eagle Subsidiaries for Midland Basin Growth",
-      "source": "Quiver Quantitative",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTUEtNTVGOFRrbGxxYmdsbURHSE9OUS1nRzFtSldGZzhIX1JBNlpYVDc0Wjl4MHFucE5BYWc5NUJCeEpXZFBJdGYxcEIzbEY2MTN5aGpmcDNRY01FZDYwMXhnMGtNX0lYS005SHlzQjlyajZSYWJmMWRUaHBzSFZUODc1NVVBTVpRLXlsVTVoZGdHVEF3ZTFjbzk2T3lKNkhLaEN6eEJUS3lWUzJBUnlmeXlTcHFkS1FOZEtsNWU0cktsUTZQNWxmVjhFRl94dw?oc=5",
-      "snippet": "Quiver Quantitative",
-      "published": "2026-11-16T11:50:00+00:00"
-    },
-    {
-      "n": 6,
-      "title": "Diamondback Energy is nearing a roughly $5 billion cash-and-stock deal to acquire Double Eagle V’s Permian assets",
-      "source": "Energy News Beat",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZ3ptMnVPX3QySThTMGpEeEFwNFhVVmdQaG4zZVUtVmFfbE5XTmlubW9zenJsYlluWXdSU3RzMWRyczlxTF9UdVJueDFTSXEyVUlhcmRTeXZkZG9TQ2JScW1iYWNfOUE3NVF4YTExbjB2Y190b2V1Tng3Y3k2X25INXRMUlNJSEFmNmVkaTlvXzU1MUdzeU5SY1FkOFNRX1VOYUtHdUdyZHBOaW5ZdXBPOVA2dGVfaUF3ZEpWbWd3VEhfcFIwMkJKYnI4VUZ3SUtCR1htNEp6R1JWMXNHSk1sQW5qLWFzTTRtTFRkbw?oc=5",
-      "snippet": "Energy News Beat",
-      "published": "2026-11-16T03:29:47+00:00"
-    },
-    {
-      "n": 7,
-      "title": "Diamondback in Talks to Buy Double Eagle for About $5 Billion",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTUR3bVB6UHRhcUV0cmY1UGJ0QWNGd1dhTDF2cEp3a0NLbjhOSlE3cHhVVFBWWExyQ1FnS1dHb1RlWEFqRGVvVER2Q1lNdVZUQXpPclpENTJMa0VTeFFHWkE5TDJ2YTNPd01ibDNYYmd1eTNPS2FBSXF4c19vRVJsR29KRW9hNXFMOVYySGJOVnVTVHpTLUFmT0p6QTNMdzZLNWxqY2ZQQV9LcFgzMWlOSQ?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-15T21:49:10+00:00"
-    },
-    {
-      "n": 8,
-      "title": "Johnson & Johnson entered into a definitive agreement to acquire Ollin Biosciences, Inc. for $3.3 billion.",
-      "source": "marketscreener.com",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWGlkZ09JRGRWM3ZMU2ZxaHE2YjBxRTRScnlZaXlQWEU2UFBJZHVQQm1RU015eWYzYUZ6SUFMQ1JVZzZCSGJKLVdqTDgxWkVhZWlGR1k0OHFOUldzaHJyU2JaOVlyTE55S0huSHhXczJkR3BsUkpEN1RzNC1uVFF1UzVWMG44TE9ESThselFDTWhsdEVEV2ctX1k4Vnd1S3ZsaFlqSjVEczZTTXZiWVJ6Q0VIUWFoUUZ4NVRYT3gtU2ZLVTVUcFZyWENGajVOYUZmdzMzMk9qVTlaUldNcmZKY3dn?oc=5",
-      "snippet": "marketscreener.com",
-      "published": "2026-11-16T20:05:41+00:00"
-    },
-    {
-      "n": 9,
-      "title": "Johnson & Johnson agreed to buy eye disease biotech Ollin for $2.2 billion upfront",
-      "source": "Quartz",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVmx4bmVPaWpwUzRtYklsSGEzMUhOT2NiZXVjdW5LbzI4aWxVVU5aX3NpaGxjSm1lQzJiSnc4eTFqWHhMNkM3WEYyR2drQ2ZEbGtSYmhodldyWVBsYk5pSGNXTGdwRDRjRGdxVm5mNWdoaVlzZEN2bzE4NERlSm1uT25pcHRBdw?oc=5",
-      "snippet": "Quartz",
-      "published": "2026-11-16T14:14:50+00:00"
-    },
-    {
-      "n": 10,
-      "title": "Johnson & Johnson to acquire Ollin Biosciences and late-stage bispecific antibody with best-in-class potential in ophthalmology",
-      "source": "Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPVVdjRHA1eXZqVk5wd3dVVnRYR3VTQ3laekZheENoZjVxOVdtY2RnVk5ON0lLYjdza3YzcHh0ZzdQalI4MFhqNE1vNEppemc3UG1Rb2FFLS1nMEtoYzFrSFB1MnZtaHRyRmEzenNaZHlsQVN2ZC0xMlRpRzY2cVE2cmtUNWRXWWtVM1dpUFo3Z2RlaTczYXNLTnZJcTJ5NG1ENXhyVWUydjhmX2lHS3RfVjljUzZ6Z05Ic2dPQ2ZzbjJOSXJ0WDZtZi03VWxITTQ3ZDBQSElENGRpRVBHZkdQYkxhajVpbDBETHdfWVFwbnkzLXFVMVFGZWRZRFFhRXRrNENfN0tnNnd2Yl9rc2VB?oc=5",
-      "snippet": "Business Wire",
-      "published": "2026-11-16T13:00:00+00:00"
-    },
-    {
-      "n": 11,
-      "title": "M&A Roundup: Johnson & Johnson Acquires Ollin Biosciences, Eli Lilly Acquires Calytrix Bio, AmyriAD Therpaeutics Acquires AD04 Alzheimers Program, Sanofi Enters Collaboration with Seawolf Therapeutics",
-      "source": "Pharmaceutical Executive",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMGRraldzRkMxSHpPRmhCcC13ZlVVZk9RQXZhMUp3ZUVvUHRTVjdib3pCNlVCS0Q1ckNrY0xmMTRxWFZQdVRLVU80a01FTmtoTEdVTlBPLWM3ZG1aSTR0VE9aY093a2ZlNjdlNDJZU09EbG5xREo5SWVWdzlhQjFNUllCTWJCTGdMQl9DU2JZQ0VoMF9qTHJZY2FLbXB0blBXWmFzbG5xdFRRNmFINkZ4QjFjTXh4X0ZVM0xPQXVjcUpvRUF2RzRkRThzbnZ5NEt3UnRvMzhXeENydTdDTjM3SmVyMWhpcEdXS1dYX1dKVElmbkdNclRGcnEyRQ?oc=5",
-      "snippet": "Pharmaceutical Executive",
-      "published": "2026-11-16T19:11:44+00:00"
-    },
-    {
-      "n": 12,
-      "title": "Medtronic plans US$380M Contego Medical acquisition for vascular portfolio",
-      "source": "Mugglehead Investment Magazine",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOU3NDZF9DMFNLMk1DZUxjM0xQYWdveEZqdkRoMF91OG45a19SYUl4ZW5sejE4bVlBNHlzd1NQdFdXMTZpTEhRckt1N0xTUXQya2h3M243anRJRzRhb29UNDR6QlBEejNtbmQybHpfal9sZ0l2YkJuNE1BbVlGT0xldE5MMlE?oc=5",
-      "snippet": "Mugglehead Investment Magazine",
-      "published": "2026-11-16T14:11:28+00:00"
-    },
-    {
-      "n": 13,
-      "title": "Medtronic to acquire Contego Medical in $380 million deal",
-      "source": "Crypto Briefing",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUS0wRnZMY0dDNU1KWjlQQ0NxUVZnRlk1dUQycS1SakZOTlhMcXpHTVMwa21MWl80R05MM0Mxa3VINlRGa0ptVzhGQkpGQnVnY2xrQUh2dnZNZFdZdlNmUkhsNWlVYklJcDRkQWlBdHljMDNJSDh6Ylk3X1A2UTB1VVBrSHA?oc=5",
-      "snippet": "Crypto Briefing",
-      "published": "2026-11-16T12:37:39+00:00"
-    },
-    {
-      "n": 14,
-      "title": "Medtronic to acquire Contego Medical, expanding access to next-generation carotid therapies - Nov 16, 2026",
-      "source": "Medtronic",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU1IzMGRGeTdEMGdYcGQzeEZ4OU41R3U4d3F2QWZfcml4NmQ1RVhaaU12bTF0QjM0Yi1YVTd3NGUzZjZfaFhDWllFek52eWxYVWJHZlA4TDVpSlpQZGZUUlRQTUZXeWc0X2N4d094WFo5WXM2MnNBN1BhekJvdnNoTFFFdDRhQUJBNWxoT09ZN1hWNGRiZWVGUnNPY0gwLXRXdGdmNzh4WGxheGk4eERsY3RiTzFkNFdpQTYzcmcwaXg2c1ZvWFV3Xw?oc=5",
-      "snippet": "Medtronic",
-      "published": "2026-11-16T11:46:53+00:00"
-    },
-    {
-      "n": 15,
-      "title": "Samsung in talks to acquire Racine-based Modine Manufacturing, Bloomberg reports",
-      "source": "WPR",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSkZGWUhidjNpLXVCTUt6YlY2WWdyT0Fjd2RNTEt3REVDa3l0SnNUWHlLMkkxSWIzdjhKdnlWZlZyeVRxa3JDMzBZUlJJb3BBMkV2STQtT1RyeURZQW1jZXE3RGt4R2NHMmYtNUVULWptaFZmY2lVU0VNdE9vYzl4bmZnaC1JaURQV0haYVlyb3BUaDN4?oc=5",
-      "snippet": "WPR",
-      "published": "2026-11-16T20:27:35+00:00"
-    },
-    {
-      "n": 16,
-      "title": "Modine Jumps 28% on Samsung Takeover Talks, but $147.31 Still Caps the Rally",
-      "source": "TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMEt6dG9MUTRjZV9ZeHdRZTNmUzBaN21jQVN1V3ljeFVYd1JUbmZwVFI2ZGdKTmgzVkJiVUpZellGWUozeWVTUno2T0VzUFNzcFQyeTZVRDJiNjBtNW1YcEtvQm1rS3pXVG13VjZ5V0VYcHhqYjl6ejNrVUp2TGNNUC05bDlnZVRrdDB3TG9YaDFvTGJNM1FXbzUzX09BeFVqWDUyQWJ2Y0VQanNmNm5pRlRYSUVwWHZxWVJiNEJfRFZObUU1eGVVd1lQaHJFNVNkOG1vdUczZGVpSnJRcGo3T24xMVpKNTd5RTc0?oc=5",
-      "snippet": "TradingKey",
-      "published": "2026-11-16T11:04:10+00:00"
-    },
-    {
-      "n": 17,
-      "title": "Samsung in talks to acquire Modine Manufacturing — Channel NewsAsia",
-      "source": "UA.NEWS",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRlBCLVl4UWpoOFpyZ0JvR2taeGZjMkJUR1ZxcXBCcE1pVHQxeVRLX011b0Jfd0FKQmF2R0ZQa0I3THJFLWFLcDdRTnBjVnNZZG82Z1RtUkszTU5qZ2ZoLVVyRFNmSnR3Z09WTjRKWU51QkJLMXJKR1dhcEVFai0tc1VJa1U2bmYtTEtidnZ2UmtRQVMyUExXY2V1YlViOHkzTlNnYU1aUlRub2w0QlE?oc=5",
-      "snippet": "UA.NEWS",
-      "published": "2026-11-13T00:35:49+00:00"
-    },
-    {
-      "n": 18,
-      "title": "UniCredit Wins EU Approval for €45 Billion Commerzbank Bid",
-      "source": "JournalArta",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcGdlbGVlV21KbGpPUEhYMlBVWm1oYm5mR2paYmlSeTk4cThXTkRpZk1reFhhQjg4UFdrUEtNbUVFLWZNcV9BTHhMb0g3TEQ3YnBmYVFVOEZrU2RveGY2X2R3YnJpc0ZYakNnWU1hU3NzbzE2ZWpDODRVX05KckRHSDczeTZtY3NOY3dqa2l4d1ZWQS1xOWt3R20ycGdEUQ?oc=5",
-      "snippet": "JournalArta",
-      "published": "2026-11-16T18:36:06+00:00"
-    },
-    {
-      "n": 19,
-      "title": "UniCredit Secures EU, US Approval for €45bn Commerzbank Acquisition",
-      "source": "Global Banking & Finance Review",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcUh6eXRlSllyRkdPb0ZHcFlUZlFWbTNueEg4Ym9hUzZVVTFhWGxTVmEtTUFtTzJpdElub3dBdmNfOWpTRkNFbEFIQ1FLN1JwUjZ3Sm82OXVnNHVzY0NuMnNNQXhNcGNiVkQwZV9mWGZwR1BNb1hEQWFRQzNVUEVkR0JtRzctMHVHNDNuc0NyeVo1QXlac1E?oc=5",
-      "snippet": "Global Banking & Finance Review",
-      "published": "2026-11-16T16:04:05+00:00"
-    },
-    {
-      "n": 20,
-      "title": "UniCredit to win unconditional EU nod for Commerzbank deal, sources say",
-      "source": "RTE.ie",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU0lYejZRTk5tZnd3RE5PYnVfS0V3Yk1OQldCanZoYkREZ3Jma1A5ZEhLbHJBdzdjVVlHZVU1MG5kWTcwM1lXOGFKckFtMExpbnQxNUdMc3pqSFVvQmswMmoxdmlEYmw4a1RjWHBlYVozZVFJa1NITmtjcHFYbXVqMlB6RUM?oc=5",
-      "snippet": "RTE.ie",
-      "published": "2026-11-10T07:13:03+00:00"
-    },
-    {
-      "n": 21,
-      "title": "EXCLUSIVE: UniCredit to win unconditional EU nod for Commerzbank deal, sources say",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbm1MYXVsMmJud0lZVmRiNS1PTGxoQ3FOYlNtdGpUbDdwcHlLN2ZheG9IUHFJRE0zU3ZPY2hESmhrMUNsYVotSHpaTm9NVUFFZ0pKN044ZmpmQjlWNG8wSXl0dVI4OW5zMjhhWjlJa0xTajdLc0VPZUt0MG9ySkNyMFNmTnNNQUpfaU9tbDZNb0hPakNYRlZIMW1oajkydi1ZVHhpeTd6VFE?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-11-09T18:58:28+00:00"
-    },
-    {
-      "n": 22,
-      "title": "UniCredit eyes Commerzbank shareholder vote as crucial EU takeover approval nears",
-      "source": "https://internationalfinance.com/",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcnM3NjhhRlVCSjY5cTY2SUZwMTF1eURxVVV2bGtCR2JTNUNIeW5VWmp4anFtc3RuU296SzBoWVJ4U2hUR1B6c3JudTlBSWxNSHFmenRnb3pXbmZZM0VoeDdEaXNlUnMwZk52M3N2SFF0Tm5vTWlKMFU5c2x4bENYQU9lZXA3dnEtWURoUmVXX0ZXaGdxTlZrWG9wWDFIbUx3cDVGQXg3cktMalJkb3FHdmZqcjk0UUM1a0NnbzMzeno?oc=5",
-      "snippet": "https://internationalfinance.com/",
-      "published": "2026-11-12T01:00:41+00:00"
-    },
-    {
-      "n": 23,
-      "title": "UniCredit nears EU antitrust OK for Commerzbank",
-      "source": "Malaysia Sun",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTExFN3p1SFRBeTF5VzNXWmRPQWpOWW5nRUN5a0NYYl8tYTI2UE5VT2RhM1J3LXlaWjBpNmZjbFhHaXhrMzhzRi1ZYXFueU8tV3d2MEVGZ0Z0TFhRQmlmb1B6NFRwbFZ4WC1MZmFhWVpFR1dWQWtLMmtFMWZZd1BSaThFaXVKYnR2eVBVX3ltWk1HRlk?oc=5",
-      "snippet": "Malaysia Sun",
-      "published": "2026-11-11T08:48:00+00:00"
-    },
-    {
-      "n": 24,
-      "title": "Eli Lilly and Company entered into definitive agreement to acquire Calytrix Bio, Inc. for $1.5 billion.",
-      "source": "marketscreener.com",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOU5lNVJqLXpGM0VmWktBZFBRdFFLd0s3dlVlSXhLb1Z5Mi00eFNaY3V1Ny13d3hZd2licUd6SXBhYjFZUzlPRHJUOHVvV3hyTDIwVTFEc3I1c1ktREp0N185S2dWSVc1SWFfVkVJQmZIMzJXa1JGUUMwVjdGbjhGeUJYQnhxNGZheG85MUx6dTJhSmxoNE9VdVdOSDliNWhGSlhmRUJ1NWdLU0tYVVgtSnk2ZTNUa2NRS01vVm5xVkpJT1Rrc0pxaVhuYUFZZE1ZQUhuWUsyOVJsRkwyS3FfeGNMZlM?oc=5",
-      "snippet": "marketscreener.com",
-      "published": "2026-11-16T17:21:58+00:00"
-    },
-    {
-      "n": 25,
-      "title": "Eli Lilly Agrees to Buy Calytrix Bio for Up to $1.5 Billion",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR01NUUl6YnU5Mk1pTEdmVldEWGN6UFltTG5DcVRDa3BOaXp2SVg3UUg5Q1poOWQ0QVRDOWJqXzVtVUVhRXA3VFJ1RUhDemcxRkNORVFYTEFuY2ZaOWR3YnJFeTRxaEIyMzJOTzU1WkFtcW5BcFdIS29ZUjdSUVdKZUhUOE9oek1WV3pxRVg4TlFYbkVKZ2d5TFAzR3ltUVJEN19GQUZBY3k4akRNZEE?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-16T15:02:02+00:00"
-    },
-    {
-      "n": 26,
-      "title": "Alpha Bank S.A. announces the completion of the acquisition of Altius Insurance Ltd",
-      "source": "CBN.com.cy",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ3hpZ3d4QmZuWC01STZDal95WUl5QkUzRnhVLW1rY1JKR3ZudkZvNFRueXJrcHl5bUstRWNMd0tfLTNyR0ZUcnBORF9HYi1vTFZjYVh1Rk9QM1VKbG13aFF0TXF1TlNfRjZhV0JLQUx2azVjVnhBcVY1RnlTclR4Mm5oTTJQVnEzZF9CUlFUZFpESnV2OFdDdVhzWW9rcFdGdXVtUmhCbThuYktES3FiSTN0Z2FXZ25GM2VBYw?oc=5",
-      "snippet": "CBN.com.cy",
-      "published": "2026-11-16T17:03:45+00:00"
-    },
-    {
-      "n": 27,
-      "title": "Alpha Bank completes Altius Insurance acquisition ahead of Cyprus merger",
-      "source": "Cyprus Mail",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTGltUk5WUGNoUEdMLWRxUzZ3YUZzYkxfTWFxdGVjMzg1LUFubTJEQWdqZ0Z2dVhkTTJkb1J0UTlwZnVEeHRYM0RGZlRpSlphajd1WmNGbDNrOEZtV1NqOWp0V0tCTEFEZzNCWGhzSFJmWV92S3ctSlNUeEZwcW95NmZjTFE2R0dmd1VNcEhEVU5obFRObi11cTI4SURBcUp3MUJjb1NCOEhtVWc?oc=5",
-      "snippet": "Cyprus Mail",
-      "published": "2026-11-16T09:09:48+00:00"
-    },
-    {
-      "n": 28,
-      "title": "Swarmer Completes Acquisition of Vataga Drone Technology, Adds 15 Hardware Specialists",
-      "source": "citybiz",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMTlVX0llS1l4QmdEMHI5and5SDU4aVFOTTRzOWFtTV9pdXpXU0UwOWRwVVp1N0hmSmdJb2k3S3NBM0JQUjZpX0FFSEJ2VXg3MERCcWlIZk5GS1BaYXVZbHM5V0tlUEU1MkpkdTVfUFpwTG0zNHcydHFMQUtKWm9pVjdJc3VXNXMzdGpBaThCSDJkZUtuWFFmRENTR0RBV2t2ekdWWFdCZGVuMlVmNmxWbWU0N1NXSnZybldaa0dDeHhUZw?oc=5",
-      "snippet": "citybiz",
-      "published": "2026-11-16T16:37:30+00:00"
-    },
-    {
-      "n": 29,
-      "title": "Swarmer closes Vataga Drone IP buy, hires CEO and 14 engineers",
-      "source": "Dealroom",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRmR1RmtsWFRLaDFkWHBWMlg5UVgzdG15dUNXZWpWMkV4UW9PVWhNUHRRS3BtQmxaMW1uTDNydkdNNzdndURaa004Y28xc0pvaWNOdHpTOWJTT2VKeE1iYk9udWlQMWhkUDl1Yk5qaE9CbDlOUUpIUTU5Q3N5MTdWc215SUZIY1F5OFFUR3NhYTZPaHVFTE93cGZURQ?oc=5",
-      "snippet": "Dealroom",
-      "published": "2026-11-16T14:10:10+00:00"
-    },
-    {
-      "n": 30,
-      "title": "Swarmer Closes Vataga Drone Deal, Adding FPV And Interceptor Hardware",
-      "source": "DroneXL",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd1Fkb1dLYUhEUjhwMzRfRG1xUzdCaUhDMGY2R1JIcnhUYlVYTnotcDhUdzZrQlN6NWc5NFV1R3VjdTVibHc5cW80dWxaSnlGdUJrYkFjUnhFak9IRVR6NVNYN1VGeS1uMmZncnFhZ2RLcXVnTUtYbWNIMFRhV3dpNEN1WG80cTQ?oc=5",
-      "snippet": "DroneXL",
-      "published": "2026-11-16T17:27:00+00:00"
-    },
-    {
-      "n": 31,
-      "title": "Valor Energy Inc. Closes Acquisition of 18MW Computing Center in Youngstown, Ohio, Accelerating AI Data Center Expansion",
-      "source": "The Manila Times",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPbnFGaFFBU3VJc3Z2YUJqaTdxcWpZMml6WUZ3Ri1EUVl4dFFJX1ZlanV0U1BKMVZoNzBzZ3g5VHB5ZnBHN2h6LUJ6aWlBUzJJMFRIV1BpTDljSU1wWTIxeGNLcDZiaEhPdVVqS2ZKRW5FZldGYnhWek55VGNfYjJPY3ZRUDZpeHdFbW0xZXBIZDNfRVFSblhzQ09RZUtENjBoRXRoSjEtdFdGZTJUTHRnQXgta3VVMTJGblhHaEdsTDdtcGNXV1gtaHpzcUtvWjdxbTgzdFlzandQUlFvVkQ4RjUxNjZNLXR6MVJXaUFObTBsUkdrTFBhWHlXWkl3NHFlVDQ0M3lsUGhUVmQyVFBQQnFHRDFlcm9MVHBB0gGgAkFVX3lxTE9YZE5rMm9JaVpkOTltMFhlb3BRNk1wcVgydTk3dFJTalY1cGN5cXdqZHp2UkNqWVp6cm1sd0pfTVFfS3BVZENBbEYxRlRSWVlSeGJ5SnFhR1hKdExDc2tuZDdfOVdWZGUzM0wwSXhlSG9JS3Jxei1WY0duWkkzbGNyNEJHS2ppWDJaQ1JxSmVITnh5amJSSWZ1TTVIRldxVHVHMDhEM0lUWFYxV2ZRZmtkMzc3bkV4TFJ3YkVMZUtBcGFaTDBWZXhPUlVTaGwzMWhLQTA4cWgtaTdJdVNJZXQtNzJ6eVQySkVISldEVmdIRGhrSk5kaXo0d280dkdpMExOM1RHWjZueFRMb2p2NHFoV3ZwUWlma3ZZaUtRcmR6LQ?oc=5",
-      "snippet": "The Manila Times",
-      "published": "2026-11-16T20:52:01+00:00"
-    },
-    {
-      "n": 32,
-      "title": "Private Equity and Private Credit Firms Manage Trillions, and $90,000 Across These 3 Pays $3,389 a Year in Dividends",
-      "source": "24/7 Wall St.",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNDV2LV9iRDVOeWFrbUV5d28xVm9HVHpYSlZnRElraDNmdzBtTUI2MVBnMERLRDU5SmNDOGNLcUdZcl92WTlWMTdaSE0wZFRabXRhODBrNG1SMU1sQzlRMUgtMFY3amljX1pyLVNDbXdNc25vM1VhY0dIM2d2N1NYd0NvQy13MVZRQTh2TnNISkotZWtNMXBNblBfZjhjSG1uR2ZmR3IyTGttUDlKdEtDOHJyUnQzZXI0c25HRGNnVVMwNXctdDlrZWRDZ090My1vOHRLdXEydF9NMGI5UG5DY0haY2xNeDVFcmI4?oc=5",
-      "snippet": "24/7 Wall St.",
-      "published": "2026-11-16T20:42:00+00:00"
-    },
-    {
-      "n": 33,
-      "title": "FDA Approves Three New Therapies | PharmExec",
-      "source": "Pharmaceutical Executive",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vY2U4aVdDNzBwXzFqZFUzdzRTeUx1SmNKaW1rcnl1RU5oWG85TVNwS3pYUFNVa1lMVW4zN2JTYUw2SnBCZnNfNmk4cU5aRThvN1Z6X1pXVzFNMnpKb0pqY0t3SEdxOXZ1V1JlYW42c1BuUDliM1BMVw?oc=5",
-      "snippet": "Pharmaceutical Executive",
-      "published": "2026-11-16T20:19:08+00:00"
-    },
-    {
       "n": 34,
-      "title": "Minnesota AG Ellison confirms Sutter Health’s acquisition of Allina Health",
-      "source": "5 EYEWITNESS NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdE0wNGRfQk5LamRFcTJQMWJpZG1Sb18zMTRQVWRvNWZLaU8weG1JMDdXTlhUOU1xSzNPZHhRZC1iSEFUNEJ2OHdTQnBCZW5kWTg2dG9nYXFNaktqZ0xVTGg3blZuR05FbC1aR1dCdGJXeGMyUU15UG5pMTF2SXRPd3ZPTkt3eUdscExaQnlpdlMtS1NMb2R2Qm13c2xCVkRIUmpF?oc=5",
-      "snippet": "5 EYEWITNESS NEWS",
-      "published": "2026-11-16T19:59:31+00:00"
+      "note": "Integer Holdings completes merger, deregisters unsold S-8 shares [34]."
     },
     {
       "n": 35,
-      "title": "Netflix + NBCU: Dream Deal or Pipe Dream?",
-      "source": "The Ankler",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oWi1hUlpCREY2Zkh0alJhYVNmUmtYX3o4TUY1VlU3NzZVakVyeWtUcmFCa1d1aWdqYXM0WUwxa0FtbDVOcDBIRk1JUVlmOXhOOGxaY0w4aWk1bElZNDhaXzg2X0ZhSzVKLTU0OA?oc=5",
-      "snippet": "The Ankler",
-      "published": "2026-11-16T19:59:11+00:00"
+      "note": "Variman Global Enterprises approves preferential share and warrant allotment [35]."
     },
     {
       "n": 36,
-      "title": "Allina Health, Sutter Health notch Minn. AG's approval for $26B combination",
-      "source": "Fierce Healthcare",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSXM0bWJmczFXLUtINjFaajFpcXJtZEc3RWZSZm1vazJRMG9QWlU3SG5lNWhwQ3o0VzktQnlKNldJZmtHZU1HVFdOWHhhaDhPdkhVRE5pT1hVOVQ1amJxTUxCUVB4SmJ2RGhFVzZvYUxja19BOUxHUDhqd3F0VlVZeUM4c3l3bW92dlh0M0tiMFpKY3J1amVCekJhbw?oc=5",
-      "snippet": "Fierce Healthcare",
-      "published": "2026-11-16T19:27:35+00:00"
+      "note": "Nvidia Taps Heidrick & Struggles for CEO Search: WSJ [36]."
+    }
+  ],
+  "brief": "ICEYE is acquiring Avio for over €2 billion, while AMD has completed its $8.2 billion acquisition of World Labs and Aon has acquired USI for $17 billion.\n\nICEYE / Avio (Announced): ICEYE and Avio Deal. ICEYE is acquiring Avio for over €2 billion [1, 2, 3]. The deal is expected to be completed once Vega C rocket's satellite launch capacity is increased [5]. The takeover bid was launched by ICEYE [4].\nDoorDash / Instacart (Pending approval): DoorDash and Instacart Deal. DoorDash is acquiring Instacart in a $17 billion deal [9, 10, 12]. The deal is currently pending approval from the Justice Department [6, 7, 8]. No new information is available on the status of the deal [13, 11].\nAir Water Ventures / Proud Source Water (Announced): Air Water Ventures Acquires Proud Source Water. Air Water Ventures is acquiring Proud Source Water [15, 16, 17]. The deal is expected to close in 2027 [16]. The acquisition is valued at up to $150M [15].\nTPG / Bill Holdings (Rumored): TPG and Bill Holdings. TPG is reportedly considering a buyout of Bill Holdings [18, 19, 20]. The deal is still in the rumored stage [18, 19, 20].\nAMD / World Labs (Completed): AMD Buys World Labs for $8.2B. AMD has acquired World Labs [21, 22, 24]. The deal is now completed [21, 22, 24]. No further information is available [22, 23, 24].\nAon / USI (Completed): Aon and USI Acquisition. Aon has acquired USI [25, 26, 27]. The deal is worth $17 billion [25, 26, 27]. The acquisition is now complete [26, 27, 28].\nBird / Kel-Gor (Announced): Bird to Buy Kel-Gor. Bird is buying industrial contractor Kel-Gor [29, 30, 31]. The deal was announced by Bird [29, 30, 31].\nTenax Aerospace / Air Industries (Pending approval): Tenax Aerospace and Air Industries Deal. Tenax Aerospace and Air Industries are merging [32, 33]. The deal is pending approval [32]. Shareholders of Air Industries will vote on the merger on November 18 [32].\n\nAlso worth knowing:\n- Integer Holdings completes merger, deregisters unsold S-8 shares [34].\n- Variman Global Enterprises approves preferential share and warrant allotment [35].\n- Nvidia Taps Heidrick & Struggles for CEO Search: WSJ [36].",
+  "sources": [
+    {
+      "n": 1,
+      "title": "Avio Gets €2 Billion Takeover Bid From Finland’s Iceye",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSF81aWd3VW5FSlFrWFdYYzdWNXJNWnNWdEJKNUZKSC1yZWV2NV93aDFiaFZHaUNCa1JtOS0zNDNYVGZweDFXQTJKLUk1M0lVZW5yb0FtSVo1dENNVEtMY2tVMmo4c1JPbDI1TGgya0lEU25NSEVXQnRqM3NFZU9va0dLMjVmZnVWcVdDWW42VG9LVUd1ZUxScEpERWJqV0dlQlBJVFdzaw?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-11-17T16:03:57+00:00"
+    },
+    {
+      "n": 2,
+      "title": "ICEYE launches takeover bid for Italy’s Avio",
+      "source": "italien.news",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQS1vTmlIMUVrU2d6ZjdyWnF3ejlCT0VIaVJhSllFV3JRRW5RMnEwMkEyMllHNXZ3aTdSQWdmU2gyQ25RZllpNFJ4U2pPM0RDX2R2Y2l4TlZOSm9KWnBmcnlhSTA3MHlKSE1JTW9ZaTN5NlBDVXdNMG1jVXpwbW04QWNYa3A?oc=5",
+      "snippet": "italien.news",
+      "published": "2026-11-17T13:02:34+00:00"
+    },
+    {
+      "n": 3,
+      "title": "ICEYE looks to acquire Italy’s Avio for over €2 billion",
+      "source": "TVP World",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1rdnJoaDBwTGxiYk1HLTczaFlnLU1sQklRTE1ZbDgtTFgtZmZNTHc3ZG1Wcm9aZkVUWngtMXZFNDJRNm1Bazg1ZjhHaVBIYmNCMDFqbG1ZSUJTM1M5SjdJZmViczROdy1ybTI1bjA2b25OZEYxNGc?oc=5",
+      "snippet": "TVP World",
+      "published": "2026-11-17T10:15:00+00:00"
+    },
+    {
+      "n": 4,
+      "title": "ICEYE Launches €2.05B Takeover Bid for Italian Rocket Builder Avio",
+      "source": "European Spaceflight",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNjltclNPZzlLU3B2eUg3M2JFdExkVGRMald3cGlpSUY1elc5N3BWSmt2RERjQUE1aEVMU2NaSGtKcXhnNU9LTW9LRzNtWm1HZV8weXlBVVVZa2U4ZE41U0NJQlhTU3hXQWZQNVZvT3R2N0RQVkMtRTJiSGtIOFotUVhPUTQ2YlZPcmg0azBiX0Y4aDg2eXkyZjlDak5DdDRD?oc=5",
+      "snippet": "European Spaceflight",
+      "published": "2026-11-17T08:08:40+00:00"
+    },
+    {
+      "n": 5,
+      "title": "ICEYE Avio Takeover Bid: Vega C Cannot Yet Lift 100 Satellites per Year, Italy Can Block Deal",
+      "source": "Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNTBPR0FMWjEydGx6Vk13aEpxbjlvMUhTSWpkSkdGc1B5SlBTV0ZJZGFEbU5QWEdIU3hxVnpFWmZ0Q2pTcUwwdXJId1hUenBnaE0yNjlRTHg1WkVDN3JROGJOYjVWRFBGSGhjMEJIMlBpbFdVLUxIYUlSWXp0VW4taVBaSEpLcFVodk1makI5Vm56MUg5Nkt1T05oZTllVUFPT0Z4RFdDUVl0UHZqUVEtRzE2bUg0cVhpZ3pNanY3Z1hMMjljRko3ckNicGFnUDNKY1Z1cHUtZTVxLWpLeWdr?oc=5",
+      "snippet": "Tech Times",
+      "published": "2026-11-17T19:16:16+00:00"
+    },
+    {
+      "n": 6,
+      "title": "DoorDash’s $17 Billion Instacart Deal Faces DOJ Review",
+      "source": "PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS19LYjNxbXd6VkpybElHdGhmVUt2MTY1TXcwTXQ4T0NNYnVmQUpsMHZpSDA1YVd1TjZkOTVpX3dIU0hrUmJSUGkyb1lVeXNfVUVVTFhtTmd0MDRXSWttbDF4bnhfWU9vS3dQSEJuMHN3MlRzb1ZXN3JmNV9NRzRtbXF1YUpZOUd4N0dzell0cFBidlhnaUl5UnVDZ08?oc=5",
+      "snippet": "PYMNTS.com",
+      "published": "2026-11-17T17:48:45+00:00"
+    },
+    {
+      "n": 7,
+      "title": "DoorDash stock faces DOJ review of planned Instacart purchase",
+      "source": "ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRzVqLXRoVGlJbXVGWXh2MFUtbjE0Y0lMaVN5TGVvUUVKRDRkN3Bmc1Z6QkNhcnA2a05xbF9JTksxQi1qQW5EdmYwSS1RejQ5dVZ3X0V0dGtMVjhkNGNmUkM5TDJ2UkVnSUlTQVJVaVVpTEVKS0diRE1icGF3c3dKUjZxRG5wU1hfbmdsa1hzNjhYZURMYlBnNEQzX2gzRmNkN0tKSV9kQXg3TVVYUDdVRWlRUGxIVXJHakJIZHN6b25GQQ?oc=5",
+      "snippet": "ad-hoc-news.de",
+      "published": "2026-11-17T12:48:05+00:00"
+    },
+    {
+      "n": 8,
+      "title": "Justice Department will review DoorDash's $17 billion Instacart deal, Reuters and Bloomberg report",
+      "source": "MLQ.ai",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbWl4UTEtdDFaTFNaTnlJejZrYUt4TzBlLU8td2tBU2JsODZQT3NJV1I2Yk1wUkJMWERfX1lLOVExOUV5NmotemRScEIxWXJyemNxZWJOR2prNGwtWTdYZ1NyY1lmalA1bm1jRGl4Q0FSTktEeEQ5eVZCOE5hS0JvR3I4VHZOeVFabV9VMjVqd29vNmtYczJTOEt6MFN4enJKUmVVbWQ0b2JONlpsY21DNUFVbUhlSDg?oc=5",
+      "snippet": "MLQ.ai",
+      "published": "2026-11-17T05:05:47+00:00"
+    },
+    {
+      "n": 9,
+      "title": "DoorDash agrees to acquire Instacart in $17 billion deal",
+      "source": "ABC10",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTDRUd2hDYUVrM3c1dlBmNXZfQllzWG1SbjM2S2JIcUh4NzN0THNnME1wVmxHWUl5ZEJPX3hKbVVoTGhxX2Rmc0ZZdWhNSTI0RU1Pc01nX1ZDaTU0SThwa0xyQnhUUzViWnRrV3ZhVnBzcjN0UHlCcnpoSmJGLWl4Yms3TG9DS0dvdkRfQWFoX2xOQU9XSUFZTXpCTVdBbGNtWXFhbUlTcEJfT0hRSDhUdGRFN21hdmZCOUdhemR5amtxSTMtQmNod3ZfV2dVSVU?oc=5",
+      "snippet": "ABC10",
+      "published": "2026-10-30T00:22:00+00:00"
+    },
+    {
+      "n": 10,
+      "title": "DoorDash Acquires Instacart In $17bn Deal To Expand Grocery Delivery Business",
+      "source": "Arise News",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMHMyZ3c5bVpVdTZjSDJZQW41aUtLVWZPam9sSW5KVEx0Y0s5Y2FQMUJ1UW5WQXpFWkJKSzR3LVNqMWkwNDltZHRfUnMtSHhJeXdBTFpOS0ZLa0FXa19lSEtqTy1aMjJhQXJaMHVkUTlDU2FLeHpQVGhhRC0waV9jdVROUkprUy03SmJBb183WFNMSFJQaDYtZm40eUt6VWM?oc=5",
+      "snippet": "Arise News",
+      "published": "2026-10-29T13:34:46+00:00"
+    },
+    {
+      "n": 11,
+      "title": "DoorDash in Talks to Acquire Instacart in Potential $17 Billion Deal",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMkF4bVRod1l6YmQtNjFBaGRPZVE3N2oyRWw3SE5aWXFoS0lvczRmczlBLWVDT2tfSGtpcTFkaVAzOUR2SXBhOUhpSnMtZXRpenpCMnpWWURQVFpGbGp6Y1ZGMklGVU9GUUJGMWEzdDZnSDZ3aU5mWTJyTWtva1NVc2ljTnpXUXJQeHhQR3JLTHNSS2V4UHVjSTNOdTQ2aVJKU3o1cjNWR3hGdG8?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-27T10:57:56+00:00"
+    },
+    {
+      "n": 12,
+      "title": "DoorDash to acquire Instacart in $17 billion deal",
+      "source": "Chain Drug Review",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOenFaU250UFQ0NUIzSDdSNlN1blhMYU90M1FONFJyeVhaZVE5cmx0dmFqTzZxX2V1dW5qQWFnQnJLeHBrUkxsNURqTEExMk54clNxQlZzM1FpU2x4VTZveld6dWtNNEw1c0l4R3RGUXp5ZkEtMnhlTkVtdE5YRHhaOUJpVQ?oc=5",
+      "snippet": "Chain Drug Review",
+      "published": "2026-10-29T14:14:30+00:00"
+    },
+    {
+      "n": 13,
+      "title": "DoorDash to acquire Instacart in $17 billion deal",
+      "source": "Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVTZnazBiZFlXemp1VVNNWUVyQUtMRDZ5cVBDZjFiNnprVzlRbDFrUUtBQ0VOX0xDUVVoM05MVUoxWmFtQmxycF9POFZKcThTYl8yMTVrbXZSMTEtWHhEeWMtcndkMTBMQU5oNVNGS3pTNkcwOWwwd1hiMFk2TDVTVlZucVhXY0k0TlU2UEN3SjBuNUV5RmdVT1pPRUdpWm91MF9vUWN2S2_SAa4BQVVfeXFMTWJLbzFKbDR1RlhIRUFEQnlQdkQ4ZzR3c2laWGFBU1E1S3NBakhwVTkza3d6aG8yOUxfd3JwV3BJZS1vbENocWdLUHBkc25ET0RuSWRzU0hLMzQ2ejlOenJabllvbUhtbERtMHBRMGVBN28ydk55S1k3TGxyaHNnb1ppMUxmTFNSOFV5aV9zWS10WFdTajNVWk12eHVaSThLM2NDb2RjNkpyVzdRQTBn?oc=5",
+      "snippet": "Moneycontrol.com",
+      "published": "2026-10-29T11:42:21+00:00"
+    },
+    {
+      "n": 14,
+      "title": "DoorDash nearing $17B acquisition of Instacart, sources say",
+      "source": "Indianapolis Business Journal",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYl9ZNnRXR0JxMnlLR0ltYTJHWHlURWhfU1hJbUNNaHc3VmE2bWRXR3cxZmFDOHlmY0J5Z3lkdlFPdlJ0bV8wMHpiVEsyZlJVQ0ZseHl0WkppTjFPR0J4MzlySU5YUUVzWHlDc25Kd2tPemg1Vi04aEZaWUNWOTVFSWtBdzZmMTBVSEdTVWhVVQ?oc=5",
+      "snippet": "Indianapolis Business Journal",
+      "published": "2026-10-27T01:28:02+00:00"
+    },
+    {
+      "n": 15,
+      "title": "Air Water Ventures to Acquire Proud Source Water in Deal Worth Up to $150M",
+      "source": "citybiz",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX3Nkeld0Wk1LcEVLWTlWdFhCNG1adjZPb2VHLVM0UlZCWnB2MmcxMTRCdTVxaFNjOXFGcGNTeTJqSmdibHZGSmxDa2k5Y2V4bnZwQWxkeEVFVl91MW5ra3BkNWtucnpObUYzVTU1aXUwT05xcGJicEs0NW9XdmpFRjFUY3JtOEt3RkZ5aDUyVGZHZEdNekJveGJaUk5VVk5CdnB2ZXFoVWtOQ1JuQnBUdkln?oc=5",
+      "snippet": "citybiz",
+      "published": "2026-11-17T14:14:47+00:00"
+    },
+    {
+      "n": 16,
+      "title": "Air Water Ventures (WATR): Air Water agrees to buy Proud Source Water, closing expected in 2027",
+      "source": "Quantisnow",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcDMtSlhpVl9XQlNLR1dBS2JkenJKZXVTZlRyVVhuMkZWZXp0OUV0dndfVXZFLU9JWUVnZk1nckZSNkJiZm55S1c3OVZ5Q2pJUEdTWDBRR1JLdndwWFQtLVk2M1A2WjhNTERGbExPaFVTUThybTF5b2c2SVlZM1FXazNOVmotbFYxT0U4WGYxMEFLRm5NZHc?oc=5",
+      "snippet": "Quantisnow",
+      "published": "2026-11-17T13:29:18+00:00"
+    },
+    {
+      "n": 17,
+      "title": "Air Water Ventures to Acquire Proud Source Water",
+      "source": "Finviz",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZFZjb3VxTGU3SS1tMVI3VGZYQ0o2WG54Y1Z5VjVjUHNSanE2TDlrMU9JYV93VkhMcmZlODR4MEJUbnlBWTVfVFNSUklfeWJNUF9tUTl1TGRsSFlFWWl2OVZNNXJwaGxzQ3FiLVVSNjZrd2Q1dE9GTXBqLVpHTWN3LWVFTGRkZw?oc=5",
+      "snippet": "Finviz",
+      "published": "2026-11-17T12:12:13+00:00"
+    },
+    {
+      "n": 18,
+      "title": "BILL Holdings Hits 52-Week High As TPG Eyes Buyout",
+      "source": "Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYy1OeEp3eWlXMFdXdjJqMEg1Q1cxRTVYZVFsbXZmSHFKVGJ4V0Y1SGpMQlVGQ2pxYV8wMnNzblJJV1NhYzdWV25CT1RITXZld0lYdFJuN3RRTU5GX1hQY09TZHJsR1MzamttdktOTFJTeGlIWl8tVGJLd1Y3VWN3ZVpGY3JTakRMM2drSEpCSXdBRXgyVldFVDl3?oc=5",
+      "snippet": "Benzinga",
+      "published": "2026-11-17T19:11:35+00:00"
+    },
+    {
+      "n": 19,
+      "title": "TPG nears take-private deal for Bill Holdings as trading halts",
+      "source": "Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jNVpDTzNhd2UwbEZMWHZQaDlJUGVHLUFnMkJOaTNVaXRtRlpnX2xoZEo2R2x2b1pVbFJfWUhsM3JSeFpGaXZkMHhJMy0tMmRWcWt0TWlsU3BIU1FLU0RVUE9ZRi1LaGZMcHdCVlY3cmRDVDcweEVFZA?oc=5",
+      "snippet": "Crypto Briefing",
+      "published": "2026-11-17T18:24:33+00:00"
+    },
+    {
+      "n": 20,
+      "title": "Bill Holdings shares surge on reports of looming TPG take-private deal",
+      "source": "Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNEx2eGhZbW5TZS1DdFdtSFB6bUlCbXhYdEdQbzFyQ1d0cGk3c2ZoZ1JNZEZFWDk1NWJYTk8tMldKaEREWk80OHpwNDJoUzZRSzJmMTVkZWhQZzVxNklnQndEZk95S2plZEpMcDhPeU5rV1I4S0xCdTQ4MTJTcUFXLXJYeHo5ZmJiNXNBMWh2RDBrOVU3Q1JwWmtsS0NKSGs1bXgwUkM3cjZxeDk0Y3Qza3FwTWVMZV82R3ZfRUV3RC1ad1ZQ?oc=5",
+      "snippet": "Investing.com",
+      "published": "2026-11-17T16:48:03+00:00"
+    },
+    {
+      "n": 21,
+      "title": "AMD completes acquisition of World Labs",
+      "source": "Evertiq",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVENOVTVFZzlwZVVtUlBjcnNXSzM2UVMyWE83bzhMcHhPVWtyMnFHRHpqU01MOHVWNlRYNXFEWXJrRFNQVENvTVNGXzQzVGZyTDdBZG9VNkdTUmNYaFJranp1dXdZVlVucFJKYk5jR2FmamRYMEN6c1Q3ZTZOcDdhX0l1QQ?oc=5",
+      "snippet": "Evertiq",
+      "published": "2026-11-17T10:30:00+00:00"
+    },
+    {
+      "n": 22,
+      "title": "AMD closes its $8.2 billion World Labs deal and makes Fei-Fei Li its chief scientist",
+      "source": "MLQ.ai",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2NuWjdfdFBvLTFnYzZVTFh3RGZPSVhMY010bF80TkZXRkdudHZTOWJtOHJveHA5YmMyNU1PdGEyZXVkdG1JRmpBS1pqOWNmeEhqaXYzVHpyQnZ6Wlh3eHJyS2lHVHZudHNJdjNzMnlNd0c3RFJpS2VDWVJldXdURDhtV1JyYlBPNjNLZlBtZWtQbnYwWGlHdE83eTI3eHB5M2N4TjRR?oc=5",
+      "snippet": "MLQ.ai",
+      "published": "2026-11-16T22:03:45+00:00"
+    },
+    {
+      "n": 23,
+      "title": "AMD Buys World Labs for $8.2B, Deal Pending [2026]",
+      "source": "shattered.io",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Bc3FQOWRSU2JqRmxacXhsZzBzdHVxdW55eGdXMFVUTjVXbHluNENMUFRFbVA3dHNna1VzR2pGMEp5bTJLYUhFTVh4cFZGbkhWc25KRlFUWWpRWkhwbWtBZEVQN0V3c1ZWWkVJOFMza3h1Q21OckRmMA?oc=5",
+      "snippet": "shattered.io",
+      "published": "2026-11-07T01:43:53+00:00"
+    },
+    {
+      "n": 24,
+      "title": "AMD completes World Labs acquisition",
+      "source": "CASRAI",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTFZOZkIyZnFJd2xfYzZQQUJXRlh1bWVCWTFlMzhGN3U0T0gxLWh6OC1HMU1ueDBFUjQ5M3BSN3lLMjk2N1drM01ydHNGazdBdjlSWllwcEk0Y1o3c3k0Q0d2LUV2YXh1U2NXeldmdlZyT1ZJeVAtMnlPMjllUlk5Qg?oc=5",
+      "snippet": "CASRAI",
+      "published": "2026-11-17T03:10:01+00:00"
+    },
+    {
+      "n": 25,
+      "title": "Aon completes $17 billion acquisition of USI",
+      "source": "Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5rd09sY1R0a3lxTGFDalFubFVaSk42TDV3YmlSWHFrN216VV9ZNlZqNXNQbnZYcUpFX3lCZV91alRTa2hiWVE2b3l0WTFGTGNCcmhBeUhZQUxCYkxBenFEZ1V4eTY1UmplOF9faWNSSW1zTHlrbXFkOTRR?oc=5",
+      "snippet": "Crypto Briefing",
+      "published": "2026-11-17T03:57:42+00:00"
+    },
+    {
+      "n": 26,
+      "title": "Aon closes $17.0 billion USI deal, its second big middle-market bet in two years",
+      "source": "Quantisnow",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPS0xjT1JjejQzdjBmRDA5MnJ1ZERBa2pKSTdEV3RnaWJDVzdpLVFhTFRhZDJKOHlMTjVGM3FGRTFmSThrOVh2T3duRlpfcGpoUFZOOUE3bWl4aEszcWxoZ002ck1ENUlDNWVRWnplQnBBTU91bHB0SkwxMTFoZ1U4MkFrczQtNGxVMkIwSV9Wbjhvb1A0VWkyeVdZWXgxMTJfYlRObzJ5NlBLRTBE?oc=5",
+      "snippet": "Quantisnow",
+      "published": "2026-11-16T22:06:57+00:00"
+    },
+    {
+      "n": 27,
+      "title": "Aon Completes Acquisition of USI to Establish the Premier U.S. Middle-Market Platform",
+      "source": "PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOanpYVi1hZnQ3ajcxejJWNzlWZTRoMmRTYnR5OS14d2hZZEM1bENLV0pYQjhrTmNac1c3aG1tQXhERXBIZnB1eF80T2JKVWNrSjR2U3ZNTXpvNmlwbmwxZ3dWTUtVUW9EclBjZktXb184ZjZBb0FnS05TVW5keTR3ZHI5eXk3U1NpMDJoRXoxYWdhMTRXYW42YUk1TXVkY1ZIUE9XM2liSGpnZGpPZWNOMVI2NlZWT1ZuWkhDWUllSHhNTTB1NVo2MFpiaWdtREtMMlFhUzJR?oc=5",
+      "snippet": "PR Newswire",
+      "published": "2026-11-16T21:15:00+00:00"
+    },
+    {
+      "n": 28,
+      "title": "Aon’s debt nearly doubles as USI close approaches",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUHRxNVRzaTlsRkloRWxzN3dUc0thY1FHbW12OEZjUk9mUVNULVo0UDVRTUFUb3cxbnI0TlZjWm1leC1lZnJjdlVRZVdrZ3RDLXVGaGdQWnpLb1JjdVl0ZkdhekdCSFltTjBLY2w3dWp5V3BFT2lPaUpQUzlaWE9sSktXMHUyOTBpb29tWXdqa1VvcE5yc2dqTl9ObzdXLXFybjVNNVF6bDVrYTFPZjFuRy14blVyN283Q1E4?oc=5",
+      "snippet": "Insurance Business",
+      "published": "2026-10-28T10:59:37+00:00"
+    },
+    {
+      "n": 29,
+      "title": "Bird agrees to buy industrial contractor Kel-Gor for $200M, announces bought deal",
+      "source": "Toronto Star",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPMS0xSGFqYkZkTWR1S0NHSUNJVTdIenZRUXR6QW5CR25UREItb0kwb0xad29pb0I1dWJDTUlnXzVwaG1lR1VzellwRF92Mmx3T3duR0E5bDZSTlFUZmd5U2RCR3ljV0h3LUZEcGoxcy1ZYzQwaU5NbXZSenhSeVdWVmN6b2pLWThRUkY4SmRlZ2FaenJlMmE1NW5yRzFzOWM4NXVqUWwxd2JNV0hmeFduamF0VmtBcEJtYTZ4MG1vclAwdWN3X2tONlpFY3pia3VRdW0yY1RabUdRYXgzX3g5WWVDdUVlSUVfWVFpaFdFbGZfN0hQ?oc=5",
+      "snippet": "Toronto Star",
+      "published": "2026-11-16T22:17:36+00:00"
+    },
+    {
+      "n": 30,
+      "title": "Bird to buy Kel-Gor for $140M, scaling its industrial maintenance platform",
+      "source": "Dealroom",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVEhRUWtGQTJiN0RkUk9iY2JQVkJOSkNJVzdYQjd0RUduZURVbVdtdnExTVV6SUdERFEtS2tHZXVyLVVMV1hnS3RyNXE3dzJWbk5wY2NsbUxHcktGckItLVFQeEYxTDBNZlZhTXNfRjR6LWw2blltb1dTYWZfbG1nM19rbXl6SXY0emRLWlJDY0gzX25EMFc2QXlDU21RMmdSRDV3TjB6Z1NEQQ?oc=5",
+      "snippet": "Dealroom",
+      "published": "2026-11-16T22:07:26+00:00"
+    },
+    {
+      "n": 31,
+      "title": "Bird to Acquire Kel-Gor for $200 Million, Materially",
+      "source": "GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNMXVWdmR2eTdmVHR2N1VPZnFXT0R3ZnpvYUU0Z1U2WUp1OVkxemlGeU1vOGNURVVwam1ndlVEckhnTWF5UWNkc0pfdXVweHVweEZxa2hYc1k0aVh5dFFXY1p6NzU4VkVfbHpjLS1RS213MnV2NlNTQmhTLU43Q0ZUb2xsMExEVUNMQW93NS1VX0tZUEVMbGNGaXgtWkFWc29DLTM2Z25ZYS1kWWlNN2xTSjBQTUJhaVEyblZsZmh6ay01b0FKNzl6My05aXdTRENiWTJLMXFhT1NjOVczNUxMVDJQYWRCUnZTajBkWldNZXRwdDJVMTAxeFdjU1pCTnBmTE1FNjBSZTV5TmY1TnBlNHJNcldEdzUtNjllWVhRU19rbG1sLVhhN3RXRkUwRUMtSmRaZVhfVkpJeWVXRFphY1BuSkM3aDlac0l4di1ubWFudDFTaDNJV2luRVoxc0xDMnNV?oc=5",
+      "snippet": "GlobeNewswire",
+      "published": "2026-11-16T21:12:24+00:00"
+    },
+    {
+      "n": 32,
+      "title": "Air Industries Shareholders to Vote Nov 18 on Tenax Aerospace Merger",
+      "source": "IPO Edge",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNE9IMFZQVW9nbHNWYjV1bjk3OENNWUFwdTF0dW9lUHlaWEtPM2JpUlgtVXBYS0Jna250TXBLZGNzR1hlSllmMFRTbjMxVm9ydHhjaW1nOXpUQ3NJSm0wYXBuTDM5ZmJYZlFPb2p0eHpMeG0waHBsZGVDalByU0hSTlBBajRRSWpBYjFiVkFpSnBNQWVE?oc=5",
+      "snippet": "IPO Edge",
+      "published": "2026-11-17T19:34:48+00:00"
+    },
+    {
+      "n": 33,
+      "title": "Tenax Aerospace Merger with Air Industries Creates Unique Bet on Defense-Tech Boom",
+      "source": "IPO Edge",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZEhPUTBjRkNTcGV6bzdnZVcwOHRSd21HTHdWYnMxTDd1LTJEQnFRTEFmNmtwWkpuNk1nWEVwcWtvYXFObXpvRGJteUhoZG1ESlBGU25EOWJZc21PNlNoM2syeEQxekdqYnhlOUNwSkVRQ3lxaGd3dFFTM0pzeExjQTdsT1pBZnY4SEY4dDdrWFRZVWtDU2hrTWRnZXpXSzg4UTZXWUc2RQ?oc=5",
+      "snippet": "IPO Edge",
+      "published": "2026-11-16T20:43:03+00:00"
+    },
+    {
+      "n": 34,
+      "title": "ITGR: Integer Holdings completes merger, deregisters unsold S-8 shares",
+      "source": "Quantisnow",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTjdNUG5KQV9Ld2k5MHozVldVdDFkYjY0Z0g1ZUgwbEVYZVRycEVVLW1WUFVQNzVrekotcUdQNlNNNGYwNmVxWm1POExvRGZockR3bVFtOTZMR0xyRExTWURDdnFpT0R2ZlVmd2ozeXdQMWFzTmJrd0VSY3A4ckI5dTNNSHZlM2h1ME1vZVVYRF9zVGttdEZUVA?oc=5",
+      "snippet": "Quantisnow",
+      "published": "2026-11-17T19:34:22+00:00"
+    },
+    {
+      "n": 35,
+      "title": "Variman Global Enterprises approves preferential share and warrant allotment",
+      "source": "scanx.trade",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbVFuZThPS2JPWmg2NUJaZE9UTFl0dERBQ0ktdXlZb3pYVUdSYnlrWGdiQ19HMDVZUU1xRThBUHV3ZDJWS0hhMDZZaVZReFVvbkJUR3RvVU1LNHlwVFk0VUlOX2RzWkVrTGx0eDAtTGFpU3Z4R0ZxTG5YM3dFT0V0SnBydmU1anlyMThDcFdRR3hrWDhvRXpIMjYzWDRvZ3hJcGRhd2lFUmV0emtIUzZ5S3RxZkI2UUZRU2gw?oc=5",
+      "snippet": "scanx.trade",
+      "published": "2026-11-17T18:30:28+00:00"
+    },
+    {
+      "n": 36,
+      "title": "Nvidia Taps Heidrick & Struggles for CEO Search: WSJ",
+      "source": "The Defiant",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQXotXzhraWZBcHlZN2JYTnpseFU4c19pb3lGR2RVSkttQ0JrYzYxWGRaN0dUcEdxSUZPSy1weEtUSWhCcU1SSjhnRlJnczlPTHZNajBKcHM4OU9LX0x6dWhmSEVlLXMtYXRrVy01YzZ1cEJDbFN5NHBaQ1B1YTkzWnRtd0E5X0R1bl9j?oc=5",
+      "snippet": "The Defiant",
+      "published": "2026-11-17T18:24:41+00:00"
     },
     {
       "n": 37,
-      "title": "Olympus Partners-backed PAI Pharma strikes deal for Nexus Pharmaceuticals",
-      "source": "PEI Private Equity",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc3Y1NTJsV3phUy1LelBRZ3RwbFNQWFllTkZoMjhTNFJyOWdibFZqUFNCbHdUWmFXb0Y0QnJQalZFdlJXR3MxRk1DVUsyNzdIQTZab1hKN2RFV3BoVDdrQkdKY0lmemp1d3B6VEE2ZGVVRWRHcFpWMElGMVJLLUxoM0lxS3ZLbE1rSm4wRTNHS21Tdkd2WE1zRHU5OGtQQ05DRUh0OWRwMXFxZFdSc2ZRd3d1MlZQODdr?oc=5",
-      "snippet": "PEI Private Equity",
-      "published": "2026-11-16T19:17:26+00:00"
+      "title": "Dade County Federal Credit Union and Evermore Bank Announce Acquisition Agreement, Expanding DCFCU’s Presence in South Florida",
+      "source": "Miami’s Community News",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOYVNFVmxTdGJoYnp2bFFOQ3ZkcWp6c3RGaUlkTmJiOUljMHA1Ylh6LWw5cXdkNElJWi03TkhkYTBiZzlYX2RIQmNSeFFoX1JTcU9UM3hGcG05NWUwN3AtODZCRkhHVjlpTVNkR3dlNjZ4V0NVXy1GMVZRNUtnYlMwOXQ3Y2NJTnZyZGxQTFFTZjZxRUgwS1ZOcFZxOWRlYnJoNi1NbVhEeUJUbVFzLXNiSHJobG9UQXduWWYwRTd5SXhPVkFaMGdmWC1yNDdFb3dPTUVPOUdDdkZ6b1Vjd0RKc1JTYlotMXVuWDNHSExKREExSXk5cDBUaUo1ZUNENE9rZGxDUjdDTHRYY0RUOWlF?oc=5",
+      "snippet": "Miami’s Community News",
+      "published": "2026-11-17T18:15:12+00:00"
     },
     {
       "n": 38,
-      "title": "Elon Musk Dreams of Merging Tesla and SpaceX in Move Toward Tech Supremacy",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPazJram9ValE5cjMtTEg4dDczeXc3d3Y1VW9KaldhbHl2ZUhISjBHbzFBZ3FXWExFWGxEVlNwMHpZU0xvcEdkQkpaMURmQldKdE1TUkIyMENXTU4wTWpCTkNtLS01OGY3Qnp0X1BVYlM0NU96RkFxeE12YjRRZ1pKUUpRUFpjOFc1eGswVQ?oc=5",
-      "snippet": "The New York Times",
-      "published": "2026-11-16T18:57:59+00:00"
+      "title": "Nvidia Hired a Headhunter and Is Talking to Arm's CEO, WSJ Reports. Rene Haas Ran One of Nvidia's Biggest Businesses Until 2013",
+      "source": "24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQTWZfQWhkbGpON0E2ZjNfYWNLZk5rQWlNQ3JnUjBzVkpyS2hENi12OVg0Y3ZhQmFOZTkteURrWnFiTkV4aUE5VWxIUUtFa0RyRmxyLVJPM0lQNC1HTHhBMnMwOGNmNU1uNU1qR1VSRzQtcUJ6ZElpbi1mOVk4Y3JZRWgyVnVXQWNZUWZNRWVqTXN1Wkozb3RyRThlNGJhbWJSZ0UzYl9mZnh5a1lLcTF1S0hkRVUzb1lfVHhkR19nc2pDd09UUGo1UE5GZzNqY0ZFZ0Q3VTdCYjF4ZG94Q25KM0cyMHpTUnoxUW56N09DcVQ4bi1GNENCLW1BYw?oc=5",
+      "snippet": "24/7 Wall St.",
+      "published": "2026-11-17T18:09:00+00:00"
+    },
+    {
+      "n": 39,
+      "title": "Viatris closes $1.65 billion Pacira buy, adding $90 million to $100 million of 2026 sales",
+      "source": "Quantisnow",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPS1VXT0NMb0RxQ3hFMjJsTUVDVTdWZDdjdkJrQ2FJRjcwNjV4ZjhzdWNIeEkxQkZ2ZllrTDQyczREY19veXhoQjcwbjkwSDNuTmJQUFNfNmd0Yk1CU0pQV1JTa3RMaThoM0ZHQ2FPT0NEdDRrZ2YzUWRqRTVCRUZyZFNjdzc2YkUwM0p5WVdYZlZpREdGcWtMWGppb1J0ZXJIdk1MTV9wc1NMQlgx?oc=5",
+      "snippet": "Quantisnow",
+      "published": "2026-11-17T18:07:30+00:00"
+    },
+    {
+      "n": 40,
+      "title": "Colossal Spinout Astromech Acquires Sister Company Form Bio for $230M",
+      "source": "Dallas Innovates",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM2o1RklrVjNDVDlydGZOcWJpc1BWQjU5YXlzMm5uY29xTDI4M05lQ0JnSDhQWFdPb3Z4WEZUWTVwZzV1N19nOFBwZVpHX2NzQk43WWo3cmdzaEhJdTFYMWQ2LVdLYkNtYUJ5cHlCUlFhandlNkdKWjAybHdiLVF4T1M2N0tzXzFlMk1oRnhXc1luZURmSGZQZllGZjhVQQ?oc=5",
+      "snippet": "Dallas Innovates",
+      "published": "2026-11-17T18:04:18+00:00"
+    },
+    {
+      "n": 41,
+      "title": "EXCLUSIVE: Trump's China data center curb advances despite Amazon, Google, Meta lobbying",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPamZVTFBIMlk1aHp5ZUZ3ME56bnZlV3NPODhQY3JKcnI2dUtIT0FqSHFveTRSem1Rby14eXY4dnhCci1WWmNJdEZnTnNnOUJldUROSXFWc1I5SmExVXZ2dWlhMWhQSkpqTFJIN1R2aTJsX2tJQ1l6cnhRY2JWdTNpVjNKZFhuelREd1A1S29BYUhDRHlTNWxncUJ3aHFobUU1NFZNTVlkbkxLUWExUFVjWHpOSHo3aE0?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-11-17T17:31:56+00:00"
     }
   ],
   "cited": [
@@ -646,13 +649,13 @@
     11,
     12,
     13,
-    14,
     15,
     16,
     17,
     18,
     19,
     20,
+    21,
     22,
     23,
     24,
@@ -664,177 +667,190 @@
     30,
     31,
     32,
-    33
+    33,
+    34,
+    35,
+    36
   ],
-  "invalid_citations": [],
-  "example_prompt": "Deal: Diamondback and Double Eagle.\nStage: Announced.\n\nHeadlines:\n[1] Reuters, Nov 16 11:43 AM ET: Diamondback deepens Permian push with $5 billion Double Eagle deal\n    Reuters\n[2] Fort Worth Inc., Nov 16 11:36 AM ET: Diamondback To Buy Double Eagle Subsidiaries for $2.15 Billion and Stock\n    Fort Worth Inc.\n[3] Benzinga, Nov 16 10:47 AM ET: Diamondback Energy Acquires Double Eagle Assets In $2.15 Billion Deal\n    Benzinga\n[4] Bloomberg.com, Nov 16 08:48 AM ET: Diamondback Agrees to Buy Double Eagle Assets for $5 Billion\n    Bloomberg.com\n[5] Quiver Quantitative, Nov 16 06:50 AM ET: Diamondback Energy Announces Agreement to Acquire Double Eagle Subsidiaries for Midland Basin Growth\n    Quiver Quantitative\n[6] Energy News Beat, Nov 15 10:29 PM ET: Diamondback Energy is nearing a roughly $5 billion cash-and-stock deal to acquire Double Eagle V’s Permian assets\n    Energy News Beat\n[7] Bloomberg.com, Nov 15 04:49 PM ET: Diamondback in Talks to Buy Double Eagle for About $5 Billion\n    Bloomberg.com\n\nWrite the subheading and sentences.",
+  "invalid_citations": [
+    14
+  ],
+  "example_prompt": "Deal: ICEYE and Avio.\nStage: Announced.\n\nHeadlines:\n[1] Bloomberg.com, Nov 17 11:03 AM ET: Avio Gets €2 Billion Takeover Bid From Finland’s Iceye\n    Bloomberg.com\n[2] italien.news, Nov 17 08:02 AM ET: ICEYE launches takeover bid for Italy’s Avio\n    italien.news\n[3] TVP World, Nov 17 05:15 AM ET: ICEYE looks to acquire Italy’s Avio for over €2 billion\n    TVP World\n[4] European Spaceflight, Nov 17 03:08 AM ET: ICEYE Launches €2.05B Takeover Bid for Italian Rocket Builder Avio\n    European Spaceflight\n[5] Tech Times, Nov 17 02:16 PM ET: ICEYE Avio Takeover Bid: Vega C Cannot Yet Lift 100 Satellites per Year, Italy Can Block Deal\n    Tech Times\n\nWrite the subheading and sentences.",
   "retrieval": [
     {
-      "deal": "Diamondback / Double Eagle",
-      "query": "Diamondback Double Eagle acquisition merger deal",
+      "deal": "ICEYE / Avio",
+      "query": "ICEYE Avio acquisition merger deal",
       "hits": [
         {
           "n": 3,
-          "similarity": 0.856
+          "similarity": 0.792
         },
         {
           "n": 4,
-          "similarity": 0.839
-        },
-        {
-          "n": 7,
-          "similarity": 0.839
+          "similarity": 0.776
         },
         {
           "n": 2,
-          "similarity": 0.816
-        },
-        {
-          "n": 6,
-          "similarity": 0.8
-        },
-        {
-          "n": 5,
-          "similarity": 0.79
-        }
-      ]
-    },
-    {
-      "deal": "Johnson & Johnson / Ollin Biosciences, Inc.",
-      "query": "Johnson & Johnson Ollin Biosciences, Inc. acquisition merger deal",
-      "hits": [
-        {
-          "n": 8,
-          "similarity": 0.908
-        },
-        {
-          "n": 10,
-          "similarity": 0.827
-        },
-        {
-          "n": 11,
-          "similarity": 0.783
-        }
-      ]
-    },
-    {
-      "deal": "Medtronic / Contego Medical",
-      "query": "Medtronic Contego Medical acquisition merger deal",
-      "hits": [
-        {
-          "n": 13,
-          "similarity": 0.867
-        },
-        {
-          "n": 12,
-          "similarity": 0.812
-        },
-        {
-          "n": 14,
-          "similarity": 0.788
-        }
-      ]
-    },
-    {
-      "deal": "Samsung / Modine Manufacturing",
-      "query": "Samsung Modine Manufacturing acquisition merger deal",
-      "hits": [
-        {
-          "n": 17,
-          "similarity": 0.819
-        },
-        {
-          "n": 15,
-          "similarity": 0.8
-        }
-      ]
-    },
-    {
-      "deal": "UniCredit / Commerzbank",
-      "query": "UniCredit Commerzbank acquisition merger deal",
-      "hits": [
-        {
-          "n": 19,
-          "similarity": 0.835
-        },
-        {
-          "n": 18,
           "similarity": 0.769
         },
         {
-          "n": 20,
-          "similarity": 0.766
+          "n": 1,
+          "similarity": 0.76
         },
         {
-          "n": 21,
-          "similarity": 0.762
-        },
-        {
-          "n": 22,
-          "similarity": 0.762
-        },
-        {
-          "n": 23,
-          "similarity": 0.745
+          "n": 5,
+          "similarity": 0.706
         }
       ]
     },
     {
-      "deal": "Eli Lilly and Company / Calytrix Bio, Inc.",
-      "query": "Eli Lilly and Company Calytrix Bio, Inc. acquisition merger deal",
+      "deal": "DoorDash / Instacart",
+      "query": "DoorDash Instacart acquisition merger deal",
       "hits": [
         {
-          "n": 24,
-          "similarity": 0.912
+          "n": 9,
+          "similarity": 0.861
         },
         {
-          "n": 25,
-          "similarity": 0.882
+          "n": 10,
+          "similarity": 0.851
         },
         {
           "n": 11,
-          "similarity": 0.803
+          "similarity": 0.849
+        },
+        {
+          "n": 12,
+          "similarity": 0.848
+        },
+        {
+          "n": 13,
+          "similarity": 0.847
+        },
+        {
+          "n": 14,
+          "similarity": 0.846
         }
       ]
     },
     {
-      "deal": "Alpha Bank S.A. / Altius Insurance Ltd",
-      "query": "Alpha Bank S.A. Altius Insurance Ltd acquisition merger deal",
+      "deal": "Air Water Ventures / Proud Source Water",
+      "query": "Air Water Ventures Proud Source Water acquisition merger deal",
       "hits": [
         {
-          "n": 26,
-          "similarity": 0.872
+          "n": 15,
+          "similarity": 0.852
+        },
+        {
+          "n": 16,
+          "similarity": 0.81
+        },
+        {
+          "n": 17,
+          "similarity": 0.808
+        }
+      ]
+    },
+    {
+      "deal": "TPG / Bill Holdings",
+      "query": "TPG Bill Holdings acquisition merger deal",
+      "hits": [
+        {
+          "n": 18,
+          "similarity": 0.741
+        },
+        {
+          "n": 20,
+          "similarity": 0.74
+        },
+        {
+          "n": 19,
+          "similarity": 0.737
+        }
+      ]
+    },
+    {
+      "deal": "AMD / World Labs",
+      "query": "AMD World Labs acquisition merger deal",
+      "hits": [
+        {
+          "n": 23,
+          "similarity": 0.808
+        },
+        {
+          "n": 21,
+          "similarity": 0.779
+        },
+        {
+          "n": 24,
+          "similarity": 0.772
+        },
+        {
+          "n": 22,
+          "similarity": 0.733
+        }
+      ]
+    },
+    {
+      "deal": "Aon / USI",
+      "query": "Aon USI acquisition merger deal",
+      "hits": [
+        {
+          "n": 25,
+          "similarity": 0.82
         },
         {
           "n": 27,
-          "similarity": 0.865
+          "similarity": 0.773
+        },
+        {
+          "n": 26,
+          "similarity": 0.746
+        },
+        {
+          "n": 28,
+          "similarity": 0.68
         }
       ]
     },
     {
-      "deal": "Swarmer / Vataga Drone Technology",
-      "query": "Swarmer Vataga Drone Technology acquisition merger deal",
+      "deal": "Bird / Kel-Gor",
+      "query": "Bird Kel-Gor acquisition merger deal",
       "hits": [
         {
-          "n": 30,
-          "similarity": 0.821
-        },
-        {
-          "n": 28,
-          "similarity": 0.806
+          "n": 31,
+          "similarity": 0.838
         },
         {
           "n": 29,
-          "similarity": 0.788
+          "similarity": 0.794
+        },
+        {
+          "n": 30,
+          "similarity": 0.76
+        }
+      ]
+    },
+    {
+      "deal": "Tenax Aerospace / Air Industries",
+      "query": "Tenax Aerospace Air Industries acquisition merger deal",
+      "hits": [
+        {
+          "n": 33,
+          "similarity": 0.798
+        },
+        {
+          "n": 32,
+          "similarity": 0.755
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 121,
-    "headlines_new": 117,
-    "index_size": 2468,
-    "deals_found": 39,
+    "headlines_fetched": 182,
+    "headlines_new": 134,
+    "index_size": 2587,
+    "deals_found": 35,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19

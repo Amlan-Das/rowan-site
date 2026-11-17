@@ -210,6 +210,13 @@
    "found": 39,
    "new": 8,
    "cumulative": 165
+  },
+  {
+   "date": "2026-11-17",
+   "shown": 8,
+   "found": 35,
+   "new": 7,
+   "cumulative": 172
   }
  ],
  "deals": {
@@ -958,7 +965,7 @@
    "acquirer": "DoorDash",
    "target": "Instacart",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-11-17",
    "stage": "Pending approval",
    "value": "$17 Billion",
    "usd": 17000000000.0
@@ -1722,11 +1729,70 @@
    "first_seen": "2026-11-16",
    "last_seen": "2026-11-16",
    "stage": "Completed"
+  },
+  "iceye|avio": {
+   "acquirer": "ICEYE",
+   "target": "Avio",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "stage": "Announced",
+   "value": "\u20ac2 Billion",
+   "usd": null
+  },
+  "air water ventures|proud source water": {
+   "acquirer": "Air Water Ventures",
+   "target": "Proud Source Water",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "stage": "Announced",
+   "value": "$150M",
+   "usd": 150000000.0
+  },
+  "tpg|bill holdings": {
+   "acquirer": "TPG",
+   "target": "Bill Holdings",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "stage": "Rumored"
+  },
+  "amd|world labs": {
+   "acquirer": "AMD",
+   "target": "World Labs",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "stage": "Completed",
+   "value": "$8.2 billion",
+   "usd": 8199999999.999999
+  },
+  "aon|usi": {
+   "acquirer": "Aon",
+   "target": "USI",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "stage": "Completed",
+   "value": "$17 billion",
+   "usd": 17000000000.0
+  },
+  "bird|kel gor": {
+   "acquirer": "Bird",
+   "target": "Kel-Gor",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "stage": "Announced",
+   "value": "$200M",
+   "usd": 200000000.0
+  },
+  "tenax aerospace|air industries": {
+   "acquirer": "Tenax Aerospace",
+   "target": "Air Industries",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "stage": "Pending approval"
   }
  },
  "totals": {
-  "deals": 165,
-  "with_usd_value": 83,
-  "usd": 650549700000.0
+  "deals": 172,
+  "with_usd_value": 87,
+  "usd": 676099700000.0
  }
 }
