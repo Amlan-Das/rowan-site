@@ -1,140 +1,140 @@
 {
-  "date": "Monday, November 16",
-  "generated_at": "2026-11-16T20:43:36.343786+00:00",
+  "date": "Tuesday, November 17",
+  "generated_at": "2026-11-17T19:22:15.411614+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "The S&P 500 fell 2.06% to 7406.18 as investors worried about Nvidia's earnings report, which is due soon, and concerns about the upcoming IPO of Anthropic, a company that offers AI-powered tools.",
+  "lede": "The S&P 500 fell 1.1% to 7335.06 as traders sold off Nvidia's stock ahead of its earnings report, which is expected to provide insight into the AI trade.",
   "sections": [
     {
       "move": "S&P 500",
-      "pct": -2.06,
-      "last": 7406.18,
-      "change": -155.49,
+      "pct": -1.1,
+      "last": 7335.06,
+      "change": -81.53,
       "sources": [
         1,
         2,
         3,
         4
       ],
-      "headline": "Nvidia Earnings Fears",
-      "body": "The S&P 500 fell 2.06% to 7406.18 as investors worried about Nvidia's earnings report, which is due soon. Traders are watching the AI stock's performance closely, as a weak report could lead to a broader sell-off in the tech sector. The market's decline was also fueled by concerns about the upcoming IPO of Anthropic, a company that offers AI-powered tools."
+      "headline": "Nvidia Earnings Spark Market Sell-Off",
+      "body": "The S&P 500 fell 1.1% to 7335.06 as traders sold off Nvidia's stock ahead of its earnings report, which is expected to provide insight into the AI trade. The decline in Nvidia's stock was accompanied by a broader market sell-off, with the Dow and Nasdaq also falling. The market's reaction to Nvidia's earnings is being closely watched by traders, who are concerned about the health of the AI industry."
     },
     {
       "move": "Nasdaq",
-      "pct": -2.61,
-      "last": 24479.52,
-      "change": -656.75,
+      "pct": -0.95,
+      "last": 24276.52,
+      "change": -233.24,
       "sources": [
         5,
         6,
-        4,
-        1
+        7,
+        8
       ],
-      "headline": "Nasdaq Falls Amid Nvidia Crisis",
-      "body": "The Nasdaq fell 2.61% to 24479.52 as concerns over Nvidia's AI technology and potential export restrictions weighed on tech stocks. [5] According to TipRanks, the Nasdaq's decline was attributed to the 'Nvidia Crisis' and US export restrictions. [1]"
+      "headline": "Nasdaq Falls Amid Tech Woes",
+      "body": "The Nasdaq fell 0.95% to 24276.52 as traders reacted to concerns over Nvidia's AI technology and US export restrictions on tech stocks. The decline in tech stocks was also influenced by a reported NSA network outage, which added to the uncertainty in the market. [8]"
     },
     {
       "move": "10-Year Yield",
-      "pct": -0.64,
-      "last": 5.12,
-      "change": -0.03,
-      "sources": [
-        7,
-        5,
-        1,
-        8
-      ],
-      "headline": "Nvidia's AI Stock Woes",
-      "body": "The decline in Nvidia's AI stocks, as reported by AP News [1], led to a pullback in the US market, including the S&P 500. This, in turn, contributed to the 10-Year Yield falling as investors sought safe-haven assets. The jump in Treasury yields, mentioned in FXEmpire [7], may have been a factor in the decline in the 10-Year Yield."
-    },
-    {
-      "move": "USD/JPY",
-      "pct": -0.25,
-      "last": 159.47,
-      "change": -0.4,
+      "pct": -0.31,
+      "last": 5.11,
+      "change": -0.02,
       "sources": [
         9,
         10,
         11,
-        5
+        12
       ],
-      "headline": "USD/JPY Falls Amid Tech Weakness",
-      "body": "The USD/JPY pair fell 0.25% to 159.47, as traders watched the Nasdaq's decline, which weighed on tech stocks. The Nasdaq's drop was attributed to concerns over Nvidia's decision and U.S. export restrictions, according to TipRanks [5]. This weakness in tech stocks led to a firmer dollar, making the USD/JPY pair less attractive, resulting in the price drop [10]."
+      "headline": "Treasury Yields Ease Amid Market Uncertainty",
+      "body": "The 10-year yield fell 0.31% to 5.11 as investors took a step back from the market, citing concerns over the AI market slump [9]. Retail sales data also came under scrutiny, leading to a moderate decline in Treasury yields [10]. Meanwhile, a report from Morningstar suggests that inflation is still a concern, but not enough to spark a significant increase in yields [11]. The decline in gold prices may also be contributing to the easing of Treasury yields, as a stronger dollar and rising yields make gold less attractive [12]."
+    },
+    {
+      "move": "USD/JPY",
+      "pct": -0.29,
+      "last": 159.31,
+      "change": -0.47,
+      "sources": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "headline": "US Yields Spark Yen Buying",
+      "body": "Traders are watching the impact of falling US yields on the Japanese yen, which has led to increased buying pressure and a decline in the USD/JPY pair. The yen's value is also being influenced by concerns over potential Japanese intervention to support the currency. As a result, the USD/JPY fell to 159.31, as traders adjusted their positions in response to the changing market dynamics."
     },
     {
       "move": "Crude Oil",
-      "pct": -3.34,
-      "last": 85.6,
-      "change": -2.96,
+      "pct": 0.92,
+      "last": 86.51,
+      "change": 0.79,
       "sources": [
-        8,
-        12,
-        13,
-        1
+        17,
+        18,
+        19,
+        20
       ],
-      "headline": "Crude Oil Plunges Amid Supply Concerns",
-      "body": "Crude oil prices fell 3.34% to 85.6 as concerns about recovering Middle East exports bolstered the surplus outlook, according to the WSJ [8]. This move was also influenced by CNBC's Amrita Sen, who stated that the market is 'extremely complacent' [12]. Additionally, the Bloomberg report on global oil slide threatening US plastics makers' cost edge [13] may have contributed to the decline. However, the S&P 500's 2% drop was largely driven by the performance of AI stocks, such as Nvidia, rather than crude oil [1]."
+      "headline": "Middle East Tensions Boost Oil Prices",
+      "body": "Oil prices rebounded due to ongoing tensions in the Middle East, which has been a concern for traders. The WSJ reported that oil prices are caught between tanker attacks and rising Mideast exports, citing Reuters and CNBC. This suggests that traders are watching the situation closely, as it could impact oil supply and prices."
     },
     {
       "move": "Gold",
-      "pct": -0.64,
-      "last": 3861.5,
-      "change": -24.8,
+      "pct": 0.13,
+      "last": 3858.0,
+      "change": 5.0,
       "sources": [
-        9,
-        1,
-        14,
-        5
+        21,
+        22,
+        23,
+        24
       ],
-      "headline": "Gold Falls Amid Hopes of Fed Rate Hike",
-      "body": "Traders are watching the Federal Reserve's upcoming interest rate hike, which may boost the value of the US dollar and make gold less attractive. As a result, gold prices fell. [9]"
+      "headline": "Gold's Late Rally",
+      "body": "Gold rose 0.13% to 3858.0 as traders took profits from the previous day's one-year low, citing a rebound in the US dollar and yields, which made gold less attractive. [23] Traders are also watching the gold market in India, where demand is expected to get a festive boost, but this move was not reflected in the global price. [24]"
     }
   ],
   "also": [
     {
-      "n": 21,
-      "note": "If a Stock Market Crash Is Coming in 2027, Warren Buffett’s Advice Makes My Next Move Clear"
+      "n": 40,
+      "note": "The Dow Drops As Salesforce Dives; Nvidia Falls As Jensen Huang Says This (Live Coverage)"
     },
     {
-      "n": 22,
-      "note": "5 Things Investors Need to Know About Monday’s Markets"
+      "n": 41,
+      "note": "The Stock Market Is Doing Something for Just the 3rd Time in Nearly 30 Years, and History Is Clear Where the S&P 500 Is Headed"
     },
     {
-      "n": 23,
-      "note": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Fall as Scott Bessent Presses Nvidia Over"
+      "n": 43,
+      "note": "Fed governor Lisa Cook will skip White House tribunal on her firing"
     }
   ],
-  "brief": "The S&P 500 fell 2.06% to 7406.18 as investors worried about Nvidia's earnings report, which is due soon, and concerns about the upcoming IPO of Anthropic, a company that offers AI-powered tools.\n\nS&P 500 (-2.06% to 7406.18): Nvidia Earnings Fears. The S&P 500 fell 2.06% to 7406.18 as investors worried about Nvidia's earnings report, which is due soon. Traders are watching the AI stock's performance closely, as a weak report could lead to a broader sell-off in the tech sector. The market's decline was also fueled by concerns about the upcoming IPO of Anthropic, a company that offers AI-powered tools.\nNasdaq (-2.61% to 24479.52): Nasdaq Falls Amid Nvidia Crisis. The Nasdaq fell 2.61% to 24479.52 as concerns over Nvidia's AI technology and potential export restrictions weighed on tech stocks. [5] According to TipRanks, the Nasdaq's decline was attributed to the 'Nvidia Crisis' and US export restrictions. [1]\n10-Year Yield (-0.64% to 5.12): Nvidia's AI Stock Woes. The decline in Nvidia's AI stocks, as reported by AP News [1], led to a pullback in the US market, including the S&P 500. This, in turn, contributed to the 10-Year Yield falling as investors sought safe-haven assets. The jump in Treasury yields, mentioned in FXEmpire [7], may have been a factor in the decline in the 10-Year Yield.\nUSD/JPY (-0.25% to 159.47): USD/JPY Falls Amid Tech Weakness. The USD/JPY pair fell 0.25% to 159.47, as traders watched the Nasdaq's decline, which weighed on tech stocks. The Nasdaq's drop was attributed to concerns over Nvidia's decision and U.S. export restrictions, according to TipRanks [5]. This weakness in tech stocks led to a firmer dollar, making the USD/JPY pair less attractive, resulting in the price drop [10].\nCrude Oil (-3.34% to 85.6): Crude Oil Plunges Amid Supply Concerns. Crude oil prices fell 3.34% to 85.6 as concerns about recovering Middle East exports bolstered the surplus outlook, according to the WSJ [8]. This move was also influenced by CNBC's Amrita Sen, who stated that the market is 'extremely complacent' [12]. Additionally, the Bloomberg report on global oil slide threatening US plastics makers' cost edge [13] may have contributed to the decline. However, the S&P 500's 2% drop was largely driven by the performance of AI stocks, such as Nvidia, rather than crude oil [1].\nGold (-0.64% to 3861.5): Gold Falls Amid Hopes of Fed Rate Hike. Traders are watching the Federal Reserve's upcoming interest rate hike, which may boost the value of the US dollar and make gold less attractive. As a result, gold prices fell. [9]\n\nAlso worth knowing:\n- If a Stock Market Crash Is Coming in 2027, Warren Buffett’s Advice Makes My Next Move Clear\n- 5 Things Investors Need to Know About Monday’s Markets\n- Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Fall as Scott Bessent Presses Nvidia Over\n\nIndustry desks:\n- Agriculture: Farm Costs Pressure Specialty Crop Growers. Rising farm production costs are putting pressure on specialty crop growers, including fruit growers, as they struggle to maintain profit margins [15]. The cost of inputs such as labor, equipment, and fertilizers is increasing, making it harder for farmers to produce high-quality crops at a competitive price [15]. As a result, some farmers are being forced to reduce yields or abandon certain crops altogether, which can have a ripple effect on the entire supply chain [15].\n- Mining: Silver Prices Plummet. Silver prices are falling due to a surge in interest rates, making it less attractive for investors [7, 14]. The increase in Treasury yields is causing investors to shift their funds to safer assets, leading to a decline in silver prices [7, 14]. The impact of rising interest rates is also being felt in the copper market, with prices also falling as a result [14].\n- Timber: Lumber Prices Rise, Timber Stocks Fall. Lumber prices are increasing, which is causing timber stocks to fall as investors worry about the impact on their companies' profits [18, 19]. The rise in lumber prices is also affecting the forestry sector, with companies looking for ways to support their operations and employees [20].",
+  "brief": "The S&P 500 fell 1.1% to 7335.06 as traders sold off Nvidia's stock ahead of its earnings report, which is expected to provide insight into the AI trade.\n\nS&P 500 (-1.1% to 7335.06): Nvidia Earnings Spark Market Sell-Off. The S&P 500 fell 1.1% to 7335.06 as traders sold off Nvidia's stock ahead of its earnings report, which is expected to provide insight into the AI trade. The decline in Nvidia's stock was accompanied by a broader market sell-off, with the Dow and Nasdaq also falling. The market's reaction to Nvidia's earnings is being closely watched by traders, who are concerned about the health of the AI industry.\nNasdaq (-0.95% to 24276.52): Nasdaq Falls Amid Tech Woes. The Nasdaq fell 0.95% to 24276.52 as traders reacted to concerns over Nvidia's AI technology and US export restrictions on tech stocks. The decline in tech stocks was also influenced by a reported NSA network outage, which added to the uncertainty in the market. [8]\n10-Year Yield (-0.31% to 5.11): Treasury Yields Ease Amid Market Uncertainty. The 10-year yield fell 0.31% to 5.11 as investors took a step back from the market, citing concerns over the AI market slump [9]. Retail sales data also came under scrutiny, leading to a moderate decline in Treasury yields [10]. Meanwhile, a report from Morningstar suggests that inflation is still a concern, but not enough to spark a significant increase in yields [11]. The decline in gold prices may also be contributing to the easing of Treasury yields, as a stronger dollar and rising yields make gold less attractive [12].\nUSD/JPY (-0.29% to 159.31): US Yields Spark Yen Buying. Traders are watching the impact of falling US yields on the Japanese yen, which has led to increased buying pressure and a decline in the USD/JPY pair. The yen's value is also being influenced by concerns over potential Japanese intervention to support the currency. As a result, the USD/JPY fell to 159.31, as traders adjusted their positions in response to the changing market dynamics.\nCrude Oil (+0.92% to 86.51): Middle East Tensions Boost Oil Prices. Oil prices rebounded due to ongoing tensions in the Middle East, which has been a concern for traders. The WSJ reported that oil prices are caught between tanker attacks and rising Mideast exports, citing Reuters and CNBC. This suggests that traders are watching the situation closely, as it could impact oil supply and prices.\nGold (+0.13% to 3858.0): Gold's Late Rally. Gold rose 0.13% to 3858.0 as traders took profits from the previous day's one-year low, citing a rebound in the US dollar and yields, which made gold less attractive. [23] Traders are also watching the gold market in India, where demand is expected to get a festive boost, but this move was not reflected in the global price. [24]\n\nAlso worth knowing:\n- The Dow Drops As Salesforce Dives; Nvidia Falls As Jensen Huang Says This (Live Coverage)\n- The Stock Market Is Doing Something for Just the 3rd Time in Nearly 30 Years, and History Is Clear Where the S&P 500 Is Headed\n- Fed governor Lisa Cook will skip White House tribunal on her firing\n\nIndustry desks:\n- Agriculture: Corn and Soybeans Take a Hit. Corn and soybeans are falling due to strong demand, but wheat is rising as investors expect a decrease in supply [25, 26, 27].\n- Mining: Silver Prices Surge Amid Economic Uncertainty. Silver prices have risen as investors seek safe-haven assets amid economic uncertainty [34, 35, 36]. The surge in silver prices is also being driven by concerns about inflation and interest rates [35, 36]. Gold miners are benefiting from the increase in silver prices, with some seeing it as a sign of a stronger economic recovery [35, 36].\n- Timber: Timber Stocks Take a Hit. The decline of timber stocks is a concern for investors, as it suggests a decrease in demand for timber products [37, 38]. The rise in lumber prices is a positive sign for the industry, but it may not be enough to offset the decline in timber stocks [37, 38]. The situation is further complicated by the fact that affordable homes are being built with lumber, which could lead to increased demand for lumber in the long run [37, 38].",
   "moves": {
     "S&P 500": {
-      "last": 7406.18,
-      "change": -155.49,
-      "pct": -2.06
+      "last": 7335.06,
+      "change": -81.53,
+      "pct": -1.1
     },
     "Nasdaq": {
-      "last": 24479.52,
-      "change": -656.75,
-      "pct": -2.61
+      "last": 24276.52,
+      "change": -233.24,
+      "pct": -0.95
     },
     "10-Year Yield": {
-      "last": 5.12,
-      "change": -0.03,
-      "pct": -0.64
+      "last": 5.11,
+      "change": -0.02,
+      "pct": -0.31
     },
     "USD/JPY": {
-      "last": 159.47,
-      "change": -0.4,
-      "pct": -0.25
+      "last": 159.31,
+      "change": -0.47,
+      "pct": -0.29
     },
     "Crude Oil": {
-      "last": 85.6,
-      "change": -2.96,
-      "pct": -3.34
+      "last": 86.51,
+      "change": 0.79,
+      "pct": 0.92
     },
     "Gold": {
-      "last": 3861.5,
-      "change": -24.8,
-      "pct": -0.64
+      "last": 3858.0,
+      "change": 5.0,
+      "pct": 0.13
     }
   },
   "sources": [
@@ -164,11 +164,11 @@
     },
     {
       "n": 4,
-      "title": "Dow falls 700 points, Nasdaq loses 2% as Nvidia leads AI stocks lower: Live updates",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1mcjluX1NZUEVzZ0dXVXFRX3c3SkZubmJJclpoSlNQVDV2TTloVERqNU54dnBhNG9oVTVObVJzMExPSkQyVEZzNkpmQ09sTWRTaWZwSjc1cEJiZ0k1U1NNZ1pJSVlKQlNidFcwT2NRLVJCbGVLMzln0gF8QVVfeXFMUG1YMkpQVmR5RkUzM0x4dkxzdjZsbV9MUTZWbl92M3BvT1lfWWYwX3RxZjBIMHd1cGdBYndYbkdXVmk4Y2hObFVKVUVlT0xmdTBNR21qd3M1YV80ZFI1eFQtbUpqbG1kQUpqSlVDc3hWbVJRUV8yU2lhcmRpeA?oc=5",
-      "snippet": "CNBC Stock Market Today: Nasdaq Slides 1.5% as Nvidia Drama Continues to Unfold — Live Updates WSJ Stock market today: Dow, S&P 500, Nasdaq dive as Nvidia stock falls ahead of earnings, Anthropic IPO looms Yahoo Finance",
-      "published": "2026-11-16T20:26:15+00:00"
+      "title": "Stock market today: Dow, S&P 500, Nasdaq losses pick up in countdown to Nvidia earnings",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNlo3VXhMalBfa2JwdDF2VnBsa1E5RnVPSG5lekhEOXRQa0tqS0RIRW5qYmxQRzFZOGdyTlU5VUM1RGgwWENlYlR5RDUtMFRQdlhxRkRhNU1CdWRiR0dQUm1MMldMbUlOM295UVZ2eFRFOTlRUUVEX0swd1YzVTkyRkRYeEI2VW00LTRZUG5JX3RiVHh1UVBKN3VoUUlidWgwaWJvR2lSZHdmaVUzTmJWYUFMX21LaUVjeTJMWU94NUZtRm1DTmhlQUZTY0RSNXhTM1hGTnRR?oc=5",
+      "snippet": "Yahoo Finance Stock Market Today: Dow falls 700 points, S&P 500 and Nasdaq are back under pressure ahead of Nvidia results — live updates MarketWatch Nasdaq falls more than 2%, extending slide to third day as Nvidia drags down AI trade CNBC",
+      "published": "2026-11-17T19:00:12+00:00"
     },
     {
       "n": 5,
@@ -188,14 +188,102 @@
     },
     {
       "n": 7,
-      "title": "Silver Price Forecast: Silver Slides Below $50 as Treasury Yields Jump",
-      "source": "FXEmpire",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVFltaFh4T2FEbVUydE1kOGtIWWZGMVF5NUxNRHlvSkQ3Q2hTWmRqZkRldk9nVWUzc3ZZZ1lYaTRGOUlaaGF0clVoYmhOSjdnTTNnWG9uNmdtTHQ0dHE2Z0JOOWhteDl1Y1U0RHZTS2JXUXFPNFFmVWI0WlpmQ3hKSFNjTGNQaWRDRVJaMVlDd1pHbGxObWQteWtoM1NpTnhMMGcySFdEcTlHV1FsN2xma1c3Z0FuTGNZQURJ?oc=5",
-      "snippet": "FXEmpire",
-      "published": "2026-11-16T01:41:00+00:00"
+      "title": "Dow falls 700 points, Nasdaq loses 2% as Nvidia leads AI stocks lower: Live updates",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1mcjluX1NZUEVzZ0dXVXFRX3c3SkZubmJJclpoSlNQVDV2TTloVERqNU54dnBhNG9oVTVObVJzMExPSkQyVEZzNkpmQ09sTWRTaWZwSjc1cEJiZ0k1U1NNZ1pJSVlKQlNidFcwT2NRLVJCbGVLMzln0gF8QVVfeXFMUG1YMkpQVmR5RkUzM0x4dkxzdjZsbV9MUTZWbl92M3BvT1lfWWYwX3RxZjBIMHd1cGdBYndYbkdXVmk4Y2hObFVKVUVlT0xmdTBNR21qd3M1YV80ZFI1eFQtbUpqbG1kQUpqSlVDc3hWbVJRUV8yU2lhcmRpeA?oc=5",
+      "snippet": "CNBC Stock Market Today: Nasdaq Slides 1.5% as Nvidia Drama Continues to Unfold — Live Updates WSJ Stock market today: Dow, S&P 500, Nasdaq dive as Nvidia stock falls ahead of earnings, Anthropic IPO looms Yahoo Finance",
+      "published": "2026-11-16T20:26:15+00:00"
     },
     {
       "n": 8,
+      "title": "Dow falls 700 points as tech shares decline, traders eye reported NSA network outage: Live updates",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ZX1A1ZUpLQzUwdUhDWHJmSktxM0JhR1RsZU43OTR1TndFamZ4LXBqcjJKakZyWWFHeHVzdHhLM0JRYnJnemNXVHpsT0dXYm9WWWRUdXUxXzc0VV9yUkF5QlBGLTA4WkVOTFpvb0NDQ0p4d0lpbzVj0gF8QVVfeXFMUGFfWnJDSW5odWJYOGZPaks3ZUtHZUxHSkVrdDVmeVY3UnhPX0ExTVFXVmQ2Qjd6eVNXbHowQnBzNmJobUNvOTRSRW5IZVFWVk5xOVNwV3ViT3haX1R1S0J1YW8wMU1pdmVZMFNacFg2YnlvdlFnanVBM0RJTA?oc=5",
+      "snippet": "CNBC",
+      "published": "2026-11-17T18:24:59+00:00"
+    },
+    {
+      "n": 9,
+      "title": "Treasury Yields Ease as Bond Markets Take Stock of AI Market Slump",
+      "source": "Barron's",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNZ01nVXZfRUlPOUtKNXZPekhMTVNVWTZmYmNvRU5HQ3ZoanZ0T2d2X2FSY1JhY3NRVEdzcHQ1S0Z3MzdqdVVtMVVSRUxfUUpKV2VKaFhmU05qcHo3b1RFelFnRlVIRG1NM210TDV2bGFXUU9RVVRLRUVQc2RCUGR4dWtlN01ENzhLTEJURnNpT2VDMy1iMUVxV1B5cS1zWkVybC1pYWVYRFdkYUpkTHJ6UExWc1VPVl9qb2FGSTltQUxGdkJwTE9yLV9QLWJiWnVZVDZFeG82UURWZWVBbjZlR0FTVDh4TFo3UXU3ajB2UlNlM05VT0k5eVZqeGc3UDQ5?oc=5",
+      "snippet": "Barron's",
+      "published": "2026-11-17T11:45:00+00:00"
+    },
+    {
+      "n": 10,
+      "title": "Treasury yields moderate as investors parse retail sales data",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4xcWR1OGh2RVFmcDRsR1JtUDJUVFhqWFVjQ3R2V1ZjSFpqWmNtRXQweHFac0UxYllNRzJ2akQ0R2Q3dTFpTkhGeWFMS3d4MFNIX1pMWW5oUWxyQzh2bV8zcG91MlVCNm5kNlVXN3dmMG1pVWYycHFR0gF8QVVfeXFMTlpoUmZfei1Qbjl3OU9tR3A4MmlvbXNIR3FXa1JaRW5CMm5qQmgwcVBRMlFGa1BFc243bG5vR1hJVjBhYVJvMDVmNmstX2M3ME93cjZUbXc5dE5IWHJ5bndwRlJOLUNBTDBEY08tTUVMdG12c0VpemV3VUQtSw?oc=5",
+      "snippet": "CNBC",
+      "published": "2026-11-17T08:23:51+00:00"
+    },
+    {
+      "n": 11,
+      "title": "Inflation Is Sending US Bond Yields Higher Again. Here’s Why We’re Not Worried",
+      "source": "Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUFpadnR4a3lSYlpoZ3lSTnowS0phdkpBd2p1MS1tUGV5UnpmWlhwdjNVUVdjdFhtV2RTR09ldW5NazF2bUx6bkRoOEF3VWU3bHBiY2JvNXhqMkVNRW1wbTlfOVU2NXZPcmRQd0E5ZmtlTldUZllwUmdwODlwQjdia05yZ1pjMWc1WEtKNDQzaFFlOC1MazQwQVVjRTRJU01jcnNaSVFTUlJlX2tZMGtPbno4aTJrd21UajktLQ?oc=5",
+      "snippet": "Morningstar",
+      "published": "2026-11-17T07:07:37+00:00"
+    },
+    {
+      "n": 12,
+      "title": "Gold sinks to 1-year low as Treasury yields and dollar bite, set for worst year since 2015",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdjAwZXVEazFKX3M4Nl9yMHk0cUdqbzUtdmp6TVd5MmdjN3dOaGJ4N3NoNG12Nm9OQTFOM2JpS01TbklYdm1qTGJyaFZaQTdjaXVjMEZFV29FWXVxU05NcVdXci1JLU1iTWh1OWt2akRqcmNhUWNMOVpjUW1KQVB0LWQ2eE9oSjFLcHdVS0ZISERiY2g4YVJQb2lWcw?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-11-17T13:59:52+00:00"
+    },
+    {
+      "n": 13,
+      "title": "Tokyo Forex: Dollar-Yen Struggles at 159 Level as Falling US Yields, Stock Selloff Spur Yen Buying",
+      "source": "BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBibU5HOE9YbzZfSHdFUU85aEdFZDhCZzZtdlJxaHRyQkk4NVBLdWtZOHB3bzJjVEhodjJlSGFZU3Vjd3plUlZpaGJDaVAycUpXTkRGSUNod1NpaUVzeDJaTjBlZk82SENtWlpZcVNtaGpuR2Fjdmc?oc=5",
+      "snippet": "BigGo Finance",
+      "published": "2026-11-17T18:25:00+00:00"
+    },
+    {
+      "n": 14,
+      "title": "Japanese Yen remains on front foot vs retreating USD amid intervention risks",
+      "source": "FXStreet",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdEd3a2Y0TGRoS3dNZjNfbTNjcm0xZ2JfUFhiMDdnbUlab1FMcXEwSUNNX3FzOXp2eDFtTzNUYmNWOXYyWlBWTXdqYXJMcGRKZUxsVldzc09IMXBpakVZLUtVc19QSmg5VUJnREZPSDRYcjVpckx4ZV9udjRBQXFvMXJsUnQyVDNVQkdpSGNqd0FTWE1jcXBvUFFKaVhKU2ZTa2lKMEdSMDdhMWZGU2pSUzFac0JVajdfUXRj?oc=5",
+      "snippet": "FXStreet",
+      "published": "2026-11-17T07:54:07+00:00"
+    },
+    {
+      "n": 15,
+      "title": "FX Daily: King Dollar's Easy Money Has Been Made, and the Yen Is Becoming the Anti-AI Trade",
+      "source": "The Dark Side Of The Boom",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeVl4dW4tNVBxbTNJdUlzbnQxVTNtSzVRLXIzVXJUczJpdGpJeVBRSm5UVDY2U3ZndHpXRkxfZkxZY1V1TnNUOG9wRVEwR0hOWjVCQlNTeXFxX282Q2tRRmw1LXlTXy0tWUxZQ3dILWpzTGpPQ1F4UVk4Z09pUld4aENR?oc=5",
+      "snippet": "The Dark Side Of The Boom",
+      "published": "2026-11-17T08:31:38+00:00"
+    },
+    {
+      "n": 16,
+      "title": "Dollar scales new 19-month peak on hawkish Fed bets; Yen hemmed near 160",
+      "source": "Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQzl3b0gyRm8yR2hnbU9LNDF1YTJIRHZGQVhpdUlUdTZXTlVTOWljdWM1bVlYcHZXZWlvUnp6Vy1SVlROalZxZG9ISmJpSVM2bG9oMVhDbjlfdVRxTmotZ0dJV3dkUV8xbWpSVURQU3pkX05EZG1FcEFGdHVrVGlUb2gxczRHa3FTS0VSX0QxMWtmcUtQeFNYMlBLYzRycHdObnE2UjhYcU82Y2x2Q0hzS1MxenE?oc=5",
+      "snippet": "Investing.com",
+      "published": "2026-11-17T10:31:43+00:00"
+    },
+    {
+      "n": 17,
+      "title": "Oil Prices Rebound as Middle East Shipping Risks Persist",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcGtrNWkxVGpxdjJGWnVJbzFDQXlabGJVV2I5bFhMYmJFOXAtQjR4cERNMnZabG90ZUo3cm80Zm0xdUpYallfU1kyV2FaMVFwUG5UUWR3UWNFMXU0RDJPcndiS0RuejcxWkJDU1kxbnQ2NnJPWXNBNGtGelpVd0FsbVF0emUyTVdpaEVFYlFnNmZSVTlhRUo5bzhYTkRicFpoa0loRGw0OUJQM215T0lkZUpUNDhFSHM?oc=5",
+      "snippet": "WSJ Oil prices caught between tanker attacks and rising Mideast exports Reuters U.S. crude oil declines to $85 a barrel on recovering Middle East exports CNBC",
+      "published": "2026-11-17T13:17:00+00:00"
+    },
+    {
+      "n": 18,
+      "title": "Oil prices rebound as Middle East tensions offset recovering Gulf exports",
+      "source": "Oil & Gas 360",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSE5TcmtSU1ZRckZfcXB5bDJNaHBsNUhDekw5SHNVMEQ5OHBMYjFZZnFvdzVvTEVZQ2RBNlRzQjcwWTZFQzBFWTdhWXRTSVhWVjJVMEI2UWE1TEh3Nm5vVWQ2d0h6dDN1c2dLWFJGaXktT01hcnZSemtKaGJQNE5wRHVONWRyb05FWjdoeGxPVml1NzVqaTU3R0xYQ3VtYUJYYnBYRFBn?oc=5",
+      "snippet": "Oil & Gas 360",
+      "published": "2026-11-17T18:02:54+00:00"
+    },
+    {
+      "n": 19,
       "title": "Oil Prices Reverse Initial Gains as Supply Concerns Weigh",
       "source": "WSJ",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUDJZaXFhY1pnSUd1OEp5V2NtbWc2Z2ZvUW41OU1pOGdBWVRPbllCZWhHMExvNWlsSjR3cmFsNFpjV0d1WkRGTEdUcEZNMUNfZ19lS1oxQTlDanlUMXZxZzV4NVhNd29tZWJ6bUI2a0E2SnhPSmJZRVViNUgtREpsZmVUOWN3TFFoU1BTRURIOUZCOGlkNkc0TU41TlNMeTB6b09XSk9MSE92YXBtOFh4WXd5ajFRR3Nna3YxdmxPdEg?oc=5",
@@ -203,31 +291,7 @@
       "published": "2026-11-16T12:56:00+00:00"
     },
     {
-      "n": 9,
-      "title": "Gold price slides as Fed hike bets rise, silver bar and coin sales drop despite lower prices – Heraeus",
-      "source": "Kitco",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTnBWa0U3NmtKWVR6X1FDSjNiOUFHcHlIR0Q1Q2xIdWJwU253aFQ0ZzRBMjN4LTZkVlNhTDg2SDVjTWV5VXpFNzBDMXRUWjhvS3JqZXE1LUk2RmV0a0RXdnpMSVZ0cXF5emJXTXV1bE5VclR3cTZxeFRDb1c2WkJTd2xONEN4alVjS05DVllHMG1LRU13LW9nWGtMQXF0eFl0WE9YRXBESnN0MjYydVpkd2xoMlRUWWZLWFBmUk5R?oc=5",
-      "snippet": "Kitco",
-      "published": "2026-11-16T15:01:33+00:00"
-    },
-    {
-      "n": 10,
-      "title": "After the Bell | Wheat futures slip as dollar continues to firm",
-      "source": "Pro Farmer",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbk9oRkQyYXRoWWRsakd0T0hPRENGNS1SOXJhVmkybF82VEVJdG1XZHNDV1BFQjcwSy1LRXc2T1l0d0xRUGVJOWxiNXkxMDlrbGVfLW1hekNtOGJzVGJUVUJlSklxLXFuUVJmNE5ZTUdwakk5RGZ4WEFUbzdRSmVvS0Rkb1FEamQ0NDFYV2RoSW5jdWRRVjhJUw?oc=5",
-      "snippet": "Pro Farmer",
-      "published": "2026-11-16T20:01:54+00:00"
-    },
-    {
-      "n": 11,
-      "title": "Stock Market Today: Dow Dives As Nvidia Makes Huang Decision; These AI Plays Plunge (Live Coverage)",
-      "source": "Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeEJTV0JCb1hoUGFKNlZDeWh4aUhldVJqMUZVY2JJSGVLRUg3Q25iSmtqd1FVRk92RTNpRHRwdGlqM3hLamtjdEtJd3pzclRNNEFJXzVDU1B4b3BEczlYbjV1TGhaVTZQOU9iNTFpMHp3M29HYXlVLUFtTk5mRjdVbHpwV0hGT1R3YWRia0xvODkxSlhLS0xkLXhGaTdlQzJVNktoSVZUWkNqVGtUSDBmRF9n?oc=5",
-      "snippet": "Investor's Business Daily",
-      "published": "2026-11-16T20:06:00+00:00"
-    },
-    {
-      "n": 12,
+      "n": 20,
       "title": "Energy Aspects’ Amrita Sen on oil prices: The market is extremely complacent",
       "source": "CNBC",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZkhPdVhCRzV5M3RRVExtTkplVy1TUlNpaXBadHotaF9KVS1JcS1RNlhHcnQ4MVVncEdaWXpOSjFNc3R3TnF6WHRJSVV5bVpIMlhHQW5aYlItekM0LVRxZnZWOVVKMTk0SWlUd2JGbkxCTFBfZjNJX2t6dXNUVDdkVE04UXpzTExZVURVWnV6elJNT0JXZXdHMktFdkdRQjFUUUtRT1dGcGJXS0doMFdfX1V1MXhjbXh4SHc?oc=5",
@@ -235,23 +299,63 @@
       "published": "2026-11-16T19:31:28+00:00"
     },
     {
-      "n": 13,
-      "title": "Global Oil Slide Threatens US Plastics Makers’ Cost Edge",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM1V5N2NUT2VzcVNqVjBGdkd1V1F3Q0FMTVduRmZJU1c0UW4xRnJSMGNxYVFiR3d3Q2kwaTNnemJ2VlZuQVBLUWtEQTViNUt6T0xlSnZrTjFVdzViMng5cjQ2eWJCLU5hYVlQV3NSX2ViUEd0UEFuOGF3UkZVQk5JTzdycTBhcW5oellmY3lQTmNrQnNmT0pvM29ma1pRNkdXRW9UTTF3LXZqQQ?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-16T18:34:17+00:00"
+      "n": 21,
+      "title": "Gold price slides as Fed hike bets rise, silver bar and coin sales drop despite lower prices – Heraeus",
+      "source": "Kitco",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTnBWa0U3NmtKWVR6X1FDSjNiOUFHcHlIR0Q1Q2xIdWJwU253aFQ0ZzRBMjN4LTZkVlNhTDg2SDVjTWV5VXpFNzBDMXRUWjhvS3JqZXE1LUk2RmV0a0RXdnpMSVZ0cXF5emJXTXV1bE5VclR3cTZxeFRDb1c2WkJTd2xONEN4alVjS05DVllHMG1LRU13LW9nWGtMQXF0eFl0WE9YRXBESnN0MjYydVpkd2xoMlRUWWZLWFBmUk5R?oc=5",
+      "snippet": "Kitco",
+      "published": "2026-11-16T15:01:33+00:00"
     },
     {
-      "n": 14,
-      "title": "Silver Price Today: Silver Falls 2.80% on November 16, 2026",
-      "source": "USA Today",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZzk0ZG00WGVJNnZnMTZyVEV1UXQxVTZSaDZTeVN0QWlldU5aT3JNUzZZWlVDOG40d2FINnJSUXpVQVZta3J6R3YxWTJmOWs0NFFZdUc5WnhTb2JLU0VxekVwV0RJcmFUOEV3UFB1bG9pUERibWh5clppVEpqbHR5UVpkdGR2U0x3cnJVYUxHYng4T3h1QXc5S0U4akVvYXRBQVJVaGx6ME01X2RHY0E?oc=5",
-      "snippet": "USA Today",
-      "published": "2026-11-16T13:20:17+00:00"
+      "n": 22,
+      "title": "Here’s when Goldman expects gold prices to reach $5,600/oz",
+      "source": "Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUWxQdG1wQVJSRHJnd3hLOVFadl91eno5X2NSZlpxcmdUNHd4b29tREdBVU9sQjJyY3V3dERjUDRmMnVBVldDY3J4RUZOcGVKSXhxNG1WMXlpVU9VNVNQMDZ6bHhHYjF5V0ZzcXkzdnlLYVJuNXpEbWZuWVM2YzZjdWkxRHNNbzduSUJzSDFhOUZFVC14Y29heUU0aDEwUzZaODc5MV95bU9Tc3ZKbVJV?oc=5",
+      "snippet": "Investing.com",
+      "published": "2026-11-17T12:37:07+00:00"
     },
     {
-      "n": 15,
+      "n": 23,
+      "title": "Gold struggles to rebound from one-year low as US dollar, yields advance",
+      "source": "Kitco",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM2RhMzU5VGtPVEZOYXFvUTZHT0pnelh5ZnBHTHBZMUJIaXdiTm9Jb0hVcEctN1BMdU1FbWcwU3o5anY5Z0w1Y1JnTFpidzg4SFNUWDVZRTRCQ3BLeE1oUzY3RUZ4Nll6Wm1JekItQWRxcUFkRlFHMXk2WWc4WTBZTjFDWmdoQlQyNzJabTFYdWwzeHBHY2VWa0xkdzdkYU92ZVhVemE4Wkw4S0lYaUwxdw?oc=5",
+      "snippet": "Kitco",
+      "published": "2026-11-17T17:24:30+00:00"
+    },
+    {
+      "n": 24,
+      "title": "India gold market update: Gold demand gets festive boost | Post by Kavita Chacko | Insights",
+      "source": "World Gold Council",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMmJiWm5XZk40M0RveHhSX0hqOW0tclZuTXNjNHZwZExaMmRnYTB0TFFxaWNLY1NQVlRMUGk1OEFFbjFrOUpUS2d0aUtJUWl4SlFuM0ZET01nZDNGX3BYXzA1dkFOaVcwZHJ2SjNLcnlpRU1aakE2QnJpU3ZrWWpxa2NtbWNiTjkyc3h1SDRFMVJ4cDZVUXExeHVidDVLN21VMnRhbU9n?oc=5",
+      "snippet": "World Gold Council",
+      "published": "2026-11-17T08:54:09+00:00"
+    },
+    {
+      "n": 25,
+      "title": "Soybean and Wheat futures fall as Corn futures firm on demand.",
+      "source": "CME Group",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYUZIaVlFbXEtQjFPVzQyVEtRaVF1V0dIcVNGdTlBS2tGQzBxZXJkLS1ibnBwdHBac0Y0clRabnktUzhYTHZVc0FrOXhObjZFdlQzNGR4WWltd2E4U3E3ZHVmaXpNNXU1NUxIQWhfMExVMjdEYTJmeExxV0tGajhtdXBPaF9jZzJaRkhpLUx6Z1lkWEZHa3VoRS02YWJCeGp5b3docDlLMVhrdHVtYUdCeQ?oc=5",
+      "snippet": "CME Group",
+      "published": "2026-11-17T08:02:19+00:00"
+    },
+    {
+      "n": 26,
+      "title": "U.S. Grain Markets Split as Corn Gains and Soybeans Defy Record Demand",
+      "source": "AgroLatam",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVlRPZlM0am9oLTkzMHpGWkZrRVBZQXRiUjVobG9PZ2R6dnNQb1NKZ2hfQVp2TC1NdWY4RVI4azNRU1lFdWxRTkF0M0tiNEU4RU9vZGM5NHllTUlJLXp6RzFVM3czaEJucS14VUlrcFlwdndzY0lzQzJSN1J5bUluTGFNaC1sMEJKMHp2ci1samJ5N2VRdjY3cF9oRzEyYkZlcFRiQ0hYQ2k?oc=5",
+      "snippet": "AgroLatam",
+      "published": "2026-11-16T23:55:05+00:00"
+    },
+    {
+      "n": 27,
+      "title": "Why is Kansas City Wheat price up 2.7% today?",
+      "source": "Traders Union",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRzhibGk4R0pLVlRVbl82bW9sNTNwajJpQlV5MXphT2ZQOWQzRFEya3JpUGlVckw5MFRaVTgtMzl6Tnp6WHh5UWg2MWpQWTRxZXk1RW5zVDFKUUVYbk1MNU1sbV9LYUJHYVNtXzJnTzdzMS1BOHhFV3ppMU44eUlYY2d3QzdaQTkwMkZCYnBmdGUtY3UyZXc?oc=5",
+      "snippet": "Traders Union",
+      "published": "2026-11-17T17:51:27+00:00"
+    },
+    {
+      "n": 28,
       "title": "Rising farm production costs put pressure on specialty crop growers",
       "source": "Fruit Growers News",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY1plREJvdUktMllwLTJHRmNJRmtlbHRhVU9YWmFmYUJyb2Z4M1RHQjRiVnUtSkNLSF9mNXlSMHVYN21VNno1OUdHOExmNWtCQVBhalA3cnR3SExlRDcyZHdpVzdTS0hSbzNsRDFPcllJLXZ1WE1RVEdRRXpCQWFlWg?oc=5",
@@ -259,7 +363,7 @@
       "published": "2026-11-16T15:15:42+00:00"
     },
     {
-      "n": 16,
+      "n": 29,
       "title": "Will Jensen Huang’s Chinese Spy Scandal Hurt Corn, Soybean and Wheat Prices?",
       "source": "Barchart.com",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRVFzVkZIZ25UNmVjZkp0MGpqdDhwckJ5ck1QdnJPR3QwQ1ZvRWx1T0VSOFpwcnNLVENjcVZ0dElZVDlCb0EySzlmcUEtYkhZNVQ5RXg0Z1dmN0NYc0dOQVU2ZEtWaVM2cE5GamJCbjFLT3BRMG9Ub3VkMzJsZTUzVm12Nm9OcEVjSWpiTnlpeXU3Rjh1NlprY1NxY3ZlWFdIZkRJWVVJd1pQVHBXRGJfRTdtT3RkNXYy?oc=5",
@@ -267,7 +371,7 @@
       "published": "2026-11-16T20:00:03+00:00"
     },
     {
-      "n": 17,
+      "n": 30,
       "title": "Will Soybean Futures price break USX1,232 resistance amid mixed technical signals?",
       "source": "Traders Union",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaGVSUkNYMEVnVXR6NVhxMm5UZks5N0tEUkdwdXNGRkZfNHBjOGNkaWpNNF9jZnB4ZTg2b0NpTUVoaUs4cVVmY0tzWlRsdVhBNlFyMWwzcWlTUTVYWG4zei1TME9LWF84eXdVYzBtOHBld0hZcjUxTUo0YlQ4ZnVtdGtkbDhIM09RMHZ5N0tn?oc=5",
@@ -275,7 +379,63 @@
       "published": "2026-11-16T15:21:26+00:00"
     },
     {
-      "n": 18,
+      "n": 31,
+      "title": "Copper’s Unravelling AI Trade Collides With a Historic Squeeze",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYWRTRFQzb3ZxM08zWkJ2ZW5jN2ZKNHJKQkdzd2V2eE0tMUxJejg0cGNvRkt0MGRoS09zb3dOUm5HSk1YQTZ0ZVhlSUZ0Vlc3bVFKdXNoRWVjZzZLanhwb1V1bVE1akZQSXJ6TDJYR2UzWWE2MnhaNzRFd2ROTDVjZFU4eW5TTHVZMnpqVXBjejNDdko5eVpuSTJQaVVrWVBhTUl4d1o0aVZUeXIwR2YweDR2eEZVNEk?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-11-17T12:51:24+00:00"
+    },
+    {
+      "n": 32,
+      "title": "Druckenmiller says he is short copper, warns of economic weakness in 2027",
+      "source": "CoinDesk",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS1Fpd1hmZVF4OU9rWG94YjE0UnVzS3lhOC1QeE5nQ2RfVEE4dXhFWC1CZlJSMmJ1S19xaUZpbUZUc3Y5bXZNSnpRblFvaURBd2ZJWDdMU0JTUGJLcW00aVdFLThmTjZBakRoRGRoNHhFak1ZLWY4OUZvdzA0UnVxTXlYbTROZGpNVHJjWksyNTA2dl9xZTZzMWVFS0dQdnRzRlI4b0RzVWlvWk1QX2k0bXVKMGtCblFF?oc=5",
+      "snippet": "CoinDesk",
+      "published": "2026-11-17T17:42:40+00:00"
+    },
+    {
+      "n": 33,
+      "title": "Silver prices today, Tuesday, November 17, 2026: Silver prices open at lowest point since Nov. 4, 2025",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOS18zY2duWlFhck0yQ2VNRFc2amlfdXc1SndPSHNYOHNpQXhuTHYtalN2YW1ZOHVUUmZjV1A5Vk9hX0s2Tzk0WGJXN3ZneUN1aWdQOVZNRjJid1dmTFJ1MHA3eWdFTkxONmNFYzJaSDVDa0lEb20zbTJ6QkltVFRIS0pCMWZtNGVrTFZSR0NacW9GT3JOQlVBNzBUaDRmWkNYN0djTVlkeld1dlNnbmZGZVJmMUQ2SktsMEFTQUZvYXRPd2E5ZjVjOGZxWUZud1haRTQ2dTVuU25NcG5IWThoZWlITUlpS3VwSF85dkpoV1prSVhrNHN3WTd0bEt5WXBTNWc?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-11-17T12:32:06+00:00"
+    },
+    {
+      "n": 34,
+      "title": "Silver Price Today: Silver Falls 2.80% on November 16, 2026",
+      "source": "USA Today",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZzk0ZG00WGVJNnZnMTZyVEV1UXQxVTZSaDZTeVN0QWlldU5aT3JNUzZZWlVDOG40d2FINnJSUXpVQVZta3J6R3YxWTJmOWs0NFFZdUc5WnhTb2JLU0VxekVwV0RJcmFUOEV3UFB1bG9pUERibWh5clppVEpqbHR5UVpkdGR2U0x3cnJVYUxHYng4T3h1QXc5S0U4akVvYXRBQVJVaGx6ME01X2RHY0E?oc=5",
+      "snippet": "USA Today",
+      "published": "2026-11-16T13:20:17+00:00"
+    },
+    {
+      "n": 35,
+      "title": "Why Silver and Gold Miners Are Taking Bigger Losses Than Stocks in the Sell-Off",
+      "source": "Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc09IczZuS2JMNEVSUEFSdWlmUVEzNkN1dG4wSWZoQ2NhNHI5ZFVLRjQxT1AxVDhNZjJnR0JJdkxFR0FVNzh2TjNOeWw4akhKUFRpMHc2YVc4Q0lBTDRxaUFIMDRSSGtKX09UN2N5X3hGY2lEQ0tQemxiOWZIMXpTQ3BlYWdSUFdzSl9Pdy14RnVUMTVEejZ6dnBJZW1GRzIwRGNSaThVcmJRSVZzRS1mcUc5cm5sckY3SlVyV3BHc3Y?oc=5",
+      "snippet": "Investing.com",
+      "published": "2026-11-17T19:07:30+00:00"
+    },
+    {
+      "n": 36,
+      "title": "Druckenmiller exits copper, steel and chip stocks to buy gold miners",
+      "source": "Mining.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMDd6czlPV3VzOGhrbi1FdHdNTnowT3VGeTRpRkd6UTQ4d0JRNGtmLUotTDBCcnRGcVlpczd4b0RWdkl1cEtpbEh3blFKSHJkcHBCd3phNnFJM0NjT0lYeWFkOU1NT0t1VmlyZDBIMXdLWG9XRW9aTm5hQVBfSmk1TzJIcVVlS240dlRhaVdVVkV1cFdqWHc?oc=5",
+      "snippet": "Mining.com",
+      "published": "2026-11-17T17:35:45+00:00"
+    },
+    {
+      "n": 37,
+      "title": "Affordable homes will replace former sawmill",
+      "source": "Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdHFlY2lSMkhGVGFGZ19RcWpybG1IRGtyZGlCR0lLU3RJMmp3QUwxem43ODc2a1lUSFktdTZNZFRwR0xNZW40dWVTRlJ5NUVDZ0kyaXZHOTQzQjE1M3RNMWRsbzFST3JCNTROdjdqNkdmUGpUajFwRTBzNV9GTHJ2Qk9RTGEzYUpvbzNJXzlxUDI2V2ZuZkJWNw?oc=5",
+      "snippet": "Yahoo",
+      "published": "2026-11-17T17:01:04+00:00"
+    },
+    {
+      "n": 38,
       "title": "European softwood lumber import prices edge up 0.9%, hardwood down 3.7%",
       "source": "Lesprom Network",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWkF4cEdUUG1ob2JOUEZOVlBlTXN2bllXb3VKX2tHMzBMWWw4RGFiOTYzLTV1eDBrOW1ucnd6ZUp5dGE4d1dzUDY2SVpMS1o5YnQwc19oSVlEYVotSFgtQXZwc3FWb21MbVMxVFMwMmhld1RfNk54ajlZSkJ4T2djUm9hUUkwdm1tWms4RHFzSEt4bzlXemtWdVpSR2dyZUNXVDhjZjZ4LTNvQnFD?oc=5",
@@ -283,87 +443,81 @@
       "published": "2026-11-16T19:35:57+00:00"
     },
     {
-      "n": 19,
-      "title": "Madison’s lumber index falls to US$444 per thousand board feet",
-      "source": "Fordaq",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSnU2ZURkc2tZZDB0eVk1YThId28tenlnLWF2VHRGN2VSWnpnZVVhNkUyQkd1TkVTcG9tNEt4RVByUmJyVzRKOVhaaTZhSG1hdXRERUpERWp3YU5vQjByd0NBeUkyTEwzR1dtbzBKc1FHaHlIbEltVGg4Sk0ya0w0LUFVbndPdw?oc=5",
-      "snippet": "Fordaq",
-      "published": "2026-11-16T11:56:57+00:00"
+      "n": 39,
+      "title": "Timberland Regional Library’s levy lid lift has passed, district declares",
+      "source": "Chinook Observer",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORS1NQ0JkZXNVa3JZR01ocDBXYkZYLTV0cW9aWUZ6MzJYNFR4Tl9CbkZ5MVNDeE8tWEJ2SGFmS1JIR29FM2xkTXVxaWl4aVBneGstVWp5TXNfd0JPWUlOTDJIQk5mdkdYS05BbW9wRXhndlotaERGNktYVERuRnhSaTQ0X1dER29acnJkT1hIS25WZm90Y0c5LWVHODZkVnJVX0ZQTlQybmNIT2dNRVU4Xw?oc=5",
+      "snippet": "Chinook Observer",
+      "published": "2026-11-15T22:16:17+00:00"
     },
     {
-      "n": 20,
-      "title": "Practical support for companies in the forestry sector",
-      "source": "Pulp and Paper Canada",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVmIzQjlpN0tySkNwY252bHFDbHdlWlEwanVfU3piLXVMbFRNdzZmRkNpSWV4eTNkMTV3WXhkT2pTMWZvT2ZKaWdrUGFHcGxrUVdQR1FyWWpzcjdvaGlNTnJ1ekhnMU1oZk5ESE9adFdmSFZJZ0RaUkwyTVNnYlM4aXU5YUVqdzgyTXJpNEpJWHhjN2J5ZUhPMzNlaEkxYklyN3c?oc=5",
-      "snippet": "Pulp and Paper Canada",
-      "published": "2026-11-16T05:42:42+00:00"
+      "n": 40,
+      "title": "Stock Market Today: Dow Drops As Salesforce Dives; Nvidia Falls As Jensen Huang Says This (Live Coverage)",
+      "source": "Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeDYyS0hUQXRoa3NmQnZpLXBEUmN5VW1UcjdDS2k2dmJ1M25lRGMzMUlWd0M3aXBRVFdrTGtqTFpjWDNJaXdvOEpmSzZubE1uQ1k1OVRKUmkwRGFpSGhxTHR1WkNuS0c1X3RmbW9CaWlpQ3JSam9LdDdsWGJZVDdFMFVPR01rOG80NTV2X3NOX3AyTGVOWHRPUFUtVjZOLTRlc3N6TGxnZW41SkNFTHp3dHZQRzl2MUhTUTJBTFRB?oc=5",
+      "snippet": "Investor's Business Daily",
+      "published": "2026-11-17T18:30:00+00:00"
     },
     {
-      "n": 21,
-      "title": "If a Stock Market Crash Is Coming in 2027, Warren Buffett’s Advice Makes My Next Move Clear",
+      "n": 41,
+      "title": "The Stock Market Is Doing Something for Just the 3rd Time in Nearly 30 Years, and History Is Clear Where the S&P 500 Is Headed",
       "source": "The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTjFrVFpDUUxZcXQzN09fT3FPU1RJZGZXNXduY19XZ251c0ZRN3lvX0FoMXpHRmJ4WDhqR01wb2xVZEJjRlhPZW9Dc0NiSW1PbWR6MVJQUTdlUWhrcXFxTUhIbFpWcXRjNHVreDhTWXJ3b1BnUDZFamkxMXFKclJSQTNhVU5NR21fUmhVVlhZQ24tUEVuTDZ0MEtja3k1RmdZY2xzYzhEYl96VFA1cHJoRlhURWhYaUUtTXF1eDJ3Y2VjZXQ5ajNubWFXMDM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOWTdSTHRSd1M3eFk1OEE2bTN0WkFBajFOVDR4elREbGd4QUFHeUhHcWl5UmRFTzZBWTNub0ZReDR1dk9KaWk2ZkZnM2otUk5qcVo2c2tyOXRZV2JGaXpfcWhESkdSS3hYMmQ5ZnlqS1ZYMW40c3FCMF9SM3F2dG9pZGhHQ0dBTkRuUFcyTDAzTHZ5V3pDWThlQjUwVmNoa3Mtc0hZMm93QlJSNm0wMWQxbTRkMm0tUThVb1NjSnVQZHhQdk5qVExZMUtjb3o2TXk1QV9DWEhPaDIyUUpLU2ZYbVFDRkVJUGZGNXpQWXNKTnlnQ2dEUVZDZkFQb3IzdUhaWlE?oc=5",
       "snippet": "The Motley Fool",
-      "published": "2026-11-16T14:15:00+00:00"
+      "published": "2026-11-17T11:15:00+00:00"
     },
     {
-      "n": 22,
-      "title": "5 Things Investors Need to Know About Monday’s Markets",
-      "source": "Investopedia",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYjZvQ0NWMW4zeUkzOEFpeGtYcHdsQ3UwSTdUX1NVYXNOVGlGSFdrUWtKNkc3S05VRXVuQzNyTVpQY0Vqdzk2RHBWUHJmYm9sbGVZaEJqQ0xDY2dFTTFNM3Fpak1qcHlvRDRkeDVpQktlSG1Zdzd4ZUE1WGl4NE5jekc5bUpYd2pqbXlNag?oc=5",
-      "snippet": "Investopedia",
-      "published": "2026-11-16T12:42:58+00:00"
+      "n": 42,
+      "title": "Stock Market Today: November 17, 2026",
+      "source": "RealMoney Pro",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SeUFPbFkwbDVqZ2RXWEVvdGVtdC1uX19zSTM1RktkUFctaFlLRXVtLWdLblZtbDc2Y05zSGJpaVc4OUdpYUVCN050X1l2NFA0M2ZlWGZUblRRc1ZWNlBkLVpHNTNvdw?oc=5",
+      "snippet": "RealMoney Pro",
+      "published": "2026-11-17T16:20:45+00:00"
     },
     {
-      "n": 23,
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Fall as Scott Bessent Presses Nvidia Ove",
-      "source": "Benzinga",
-      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNQUduWDlyekRBMXp1d2NuYUluay1xRkd2N2VFU3VXaElDdmdMaTc5TkhDcmpMdFlkSmVNekVub3lMdVBMLURfTjBhS19zNUtMNlFvbkhuTF9CTnpZaGhyUzhEck45cm5GZm5EOVVjSDFoWG9vSVAwNk83S1JQR2FDQkdfc3FlcFplaXc5VDJseUdDSlc5MEF3STRIMVoxeU9CSTM5eVJ3WnUtT1dIb3FhNnFEc1R3c1FKQUh6M0d6NktsSjJlR3lqUVZ1RWNfN1BjMHhQUEtvYVlLaFR1SEJnMUF6bHNzMzBTSUpoY1JqaU43WEt0LTljMTZnc2NRYWFKX2wyUW41THpRYjdrU1prSWJBQQ?oc=5",
-      "snippet": "Benzinga",
-      "published": "2026-11-16T13:25:00+00:00"
-    },
-    {
-      "n": 24,
-      "title": "Federal Reserve Chair Warsh & Tech Executives on the Economic Impact of AI",
-      "source": "C-SPAN",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU2RtZHZuT2dkOFlZSzBDTnFQdDM3LWE2Qi1zWmJMQUUyZmNCVHNNVGVzU3NKVmpYRWVja0Y2U25JRExGTU1YX29xVWhuUUNtaEtVbjFZU1VLLVd2ZlRhTmlpal8xdGhZbmU3M00zb1JFWld4UTlBOHJHYi1MbE83bXhYakRFeUR6NWs2TWlXWjZLb0cxakUtVGc2d1I2bUNHRUFRZmFRMkU0em1feG1UczRkNHc0eHZZekpJR3lnQ3NzcnhHRzl6cw?oc=5",
-      "snippet": "C-SPAN",
-      "published": "2026-11-16T05:00:00+00:00"
-    },
-    {
-      "n": 25,
-      "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1seHNLTEVjRmlFTzQyYmpBZVNCaXd3a1dnTEkyNFV3VkZmSGk5WHQyUEhjSHZLTXRJYnVxZkF5ZkRvclZsbXAybGRtUTFIMmpUNDNwN2stUzdoVmNEVEJaY0F2YXVwMUtXbFlKc0xkX21SZ3JO0gF6QVVfeXFMT0MyNFFrVnJmcGxqcUluVV9LTUgyeVo2MDVlNUpNQW03cXd0U1l0a0FxSmhKUFRCNTJIM3B5WklRbDEzZFplRGlDOGYxempYY1h6czlobFdWaXE5ZHY2YVdSdmxadHozNC13VFFCOWJBZ0p2dVFyemlqRHc?oc=5",
-      "snippet": "CNBC",
-      "published": "2026-11-16T17:00:04+00:00"
-    },
-    {
-      "n": 26,
-      "title": "Fed's Warsh sees risk of stock bust if AI boom disappoints",
+      "n": 43,
+      "title": "Fed governor Lisa Cook will skip White House tribunal on her firing",
       "source": "Axios",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IWXhxT19LOGhnTFRsRDZXVGRrR0dDWEctMkhndGtmMEpLMEdDTWhVVzFxRkRSX0ZqbnNVSXJnNm1tWmxkdjQ5Z1BXQmZtVlVNamdjWW02dWV4Q1hwX3ZZak8tRjE5N0tM?oc=5",
-      "snippet": "Axios",
-      "published": "2026-11-16T17:18:31+00:00"
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNSllCRnJyVnJnNEgyWVM5N1JlcThfSEZpMGprbEh3djBjTV9mS0tKN1pMSkNrUDJRdzlYdENfVXZfeW1mWENuQmJSRlpjY1BlUnJqb19jNGdwRzg5MWdaV0RKekY2c0MxeE01X01kY3BKRFlV?oc=5",
+      "snippet": "Axios Federal Reserve’s Lisa Cook refuses to attend hearing convened by Donald Trump Financial Times Trump establishes committee to investigate Federal Reserve's Lisa Cook in latest effort to fire her AP News Federal Reserve Gov. Lisa Cook refuses to attend Trump committee hearing The Independent Fe",
+      "published": "2026-11-17T17:48:45+00:00"
+    },
+    {
+      "n": 44,
+      "title": "Federal Reserve automated by AI could eliminate human bias, Jackie DeAngelis says",
+      "source": "Fox Business",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81UnMwU2F6MnNpaWZROW5DQmxpaE1idnlQQlFJS3VES1NuSVBQQ2Q5OU52LTlXU1VLQ3NIWHpVN1RpbzRCU25XWTJUQUtoNE9mdmtsdFFNVEtyeUk?oc=5",
+      "snippet": "Fox Business",
+      "published": "2026-11-17T18:59:37+00:00"
+    },
+    {
+      "n": 45,
+      "title": "Federal Reserve-Cook",
+      "source": "WV News",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdExiaDJSMWNBdllGWW5lZ1phVzc3cjY5eW02MWVHUVBtajBrcVNma3FhdHpjNEZfczVaRXBOOHdDcGpWQlBUSFRMYlRtQU5zWGJlczk4LVR0Z1M3MkItczhpbk5OTFhwOV8wMEduYjRWLUpnbjB4cjB0WTNZdU9mZnNZYTFCOFk5aFU3cml5b01SaER0bTNJZEVudjZSbnBxUGdCVjhR?oc=5",
+      "snippet": "WV News",
+      "published": "2026-11-17T15:13:54+00:00"
     }
   ],
   "cited": [
-    1,
-    5,
-    7,
     8,
     9,
     10,
+    11,
     12,
-    13,
-    14,
-    15,
-    18,
-    19,
-    20
+    23,
+    24,
+    25,
+    26,
+    27,
+    34,
+    35,
+    36,
+    37,
+    38
   ],
   "invalid_citations": [],
-  "example_prompt": "Move: S&P 500 fell 2.06% to 7406.18.\n\nHeadlines:\n[1] AP News, Nov 16 03:08 PM ET: More drops for Nvidia and other AI stocks drag the US market lower, pulling the S&P 500 down 2%\n    AP News\n[2] Business Insider, Nov 16 05:15 AM ET: A veteran strategist sees a split in the stock market leading to a 15% drop in the S&P 500\n    Business Insider\n[3] Yahoo Finance, Nov 16 02:47 PM ET: Stock market today: Dow, S&P 500, Nasdaq dive as Nvidia stock falls ahead of earnings, Anthropic IPO looms\n    Yahoo Finance Stock Market Today: Dow tumbles 700 points, Nasdaq drops 2.3% and S&P 500 falls as Nvidia's stock dives ahead of results — live updates MarketWatch Stock Market Today: Major Indexes Plunge at the Start of a Big Week for the AI Trade; Nvidia Sell-Off Intensifies Ahead of Earnings Invest\n[4] CNBC, Nov 16 03:26 PM ET: Dow falls 700 points, Nasdaq loses 2% as Nvidia leads AI stocks lower: Live updates\n    CNBC Stock Market Today: Nasdaq Slides 1.5% as Nvidia Drama Continues to Unfold — Live Updates WSJ Stock market today: Dow, S&P 500, Nasdaq dive as Nvidia stock falls ahead of earnings, Anthropic IPO looms Yahoo Finance\n\nWrite the subheading and body.",
+  "example_prompt": "Move: S&P 500 fell 1.1% to 7335.06.\n\nHeadlines:\n[1] AP News, Nov 16 03:08 PM ET: More drops for Nvidia and other AI stocks drag the US market lower, pulling the S&P 500 down 2%\n    AP News\n[2] Business Insider, Nov 16 05:15 AM ET: A veteran strategist sees a split in the stock market leading to a 15% drop in the S&P 500\n    Business Insider\n[3] Yahoo Finance, Nov 16 02:47 PM ET: Stock market today: Dow, S&P 500, Nasdaq dive as Nvidia stock falls ahead of earnings, Anthropic IPO looms\n    Yahoo Finance Stock Market Today: Dow tumbles 700 points, Nasdaq drops 2.3% and S&P 500 falls as Nvidia's stock dives ahead of results — live updates MarketWatch Stock Market Today: Major Indexes Plunge at the Start of a Big Week for the AI Trade; Nvidia Sell-Off Intensifies Ahead of Earnings Invest\n[4] Yahoo Finance, Nov 17 02:00 PM ET: Stock market today: Dow, S&P 500, Nasdaq losses pick up in countdown to Nvidia earnings\n    Yahoo Finance Stock Market Today: Dow falls 700 points, S&P 500 and Nasdaq are back under pressure ahead of Nvidia results — live updates MarketWatch Nasdaq falls more than 2%, extending slide to third day as Nvidia drags down AI trade CNBC\n\nWrite the subheading and body.",
   "retrieval": [
     {
       "move": "S&P 500",
@@ -371,7 +525,7 @@
       "hits": [
         {
           "n": 1,
-          "similarity": 0.8
+          "similarity": 0.801
         },
         {
           "n": 2,
@@ -383,7 +537,7 @@
         },
         {
           "n": 4,
-          "similarity": 0.725
+          "similarity": 0.738
         }
       ]
     },
@@ -393,19 +547,19 @@
       "hits": [
         {
           "n": 5,
-          "similarity": 0.824
+          "similarity": 0.823
         },
         {
           "n": 6,
           "similarity": 0.769
         },
         {
-          "n": 4,
+          "n": 7,
           "similarity": 0.759
         },
         {
-          "n": 1,
-          "similarity": 0.744
+          "n": 8,
+          "similarity": 0.756
         }
       ]
     },
@@ -414,20 +568,20 @@
       "query": "Why did Treasury yields bond market fall",
       "hits": [
         {
-          "n": 7,
+          "n": 9,
+          "similarity": 0.798
+        },
+        {
+          "n": 10,
+          "similarity": 0.693
+        },
+        {
+          "n": 11,
+          "similarity": 0.678
+        },
+        {
+          "n": 12,
           "similarity": 0.669
-        },
-        {
-          "n": 5,
-          "similarity": 0.642
-        },
-        {
-          "n": 1,
-          "similarity": 0.628
-        },
-        {
-          "n": 8,
-          "similarity": 0.622
         }
       ]
     },
@@ -436,64 +590,64 @@
       "query": "Why did yen dollar Bank of Japan fall",
       "hits": [
         {
-          "n": 9,
-          "similarity": 0.619
+          "n": 13,
+          "similarity": 0.767
         },
         {
-          "n": 10,
-          "similarity": 0.605
+          "n": 14,
+          "similarity": 0.732
         },
         {
-          "n": 11,
-          "similarity": 0.598
+          "n": 15,
+          "similarity": 0.706
         },
         {
-          "n": 5,
-          "similarity": 0.598
+          "n": 16,
+          "similarity": 0.694
         }
       ]
     },
     {
       "move": "Crude Oil",
-      "query": "Why did oil prices crude OPEC fall",
+      "query": "Why did oil prices crude OPEC rise",
       "hits": [
         {
-          "n": 8,
-          "similarity": 0.709
+          "n": 17,
+          "similarity": 0.693
         },
         {
-          "n": 12,
-          "similarity": 0.649
+          "n": 18,
+          "similarity": 0.662
         },
         {
-          "n": 13,
-          "similarity": 0.623
+          "n": 19,
+          "similarity": 0.646
         },
         {
-          "n": 1,
-          "similarity": 0.598
+          "n": 20,
+          "similarity": 0.635
         }
       ]
     },
     {
       "move": "Gold",
-      "query": "Why did gold prices fall",
+      "query": "Why did gold prices rise",
       "hits": [
         {
-          "n": 9,
-          "similarity": 0.761
+          "n": 21,
+          "similarity": 0.713
         },
         {
-          "n": 1,
-          "similarity": 0.657
+          "n": 22,
+          "similarity": 0.687
         },
         {
-          "n": 14,
-          "similarity": 0.65
+          "n": 23,
+          "similarity": 0.675
         },
         {
-          "n": 5,
-          "similarity": 0.635
+          "n": 24,
+          "similarity": 0.67
         }
       ]
     }
@@ -504,41 +658,44 @@
       "name": "Agriculture",
       "moves": {
         "Corn": {
-          "last": 448.5,
-          "change": 3.0,
-          "pct": 0.67,
+          "last": 448.0,
+          "change": -0.75,
+          "pct": -0.17,
           "unit": "cents/bu"
         },
         "Wheat": {
-          "last": 601.75,
-          "change": 8.5,
-          "pct": 1.43,
+          "last": 611.75,
+          "change": 24.75,
+          "pct": 4.22,
           "unit": "cents/bu"
         },
         "Soybeans": {
-          "last": 1226.75,
-          "change": -16.25,
-          "pct": -1.31,
+          "last": 1227.0,
+          "change": -2.0,
+          "pct": -0.16,
           "unit": "cents/bu"
         }
       },
       "sources": [
-        15,
-        16,
-        17
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
       ],
       "retrieval": [
         {
           "label": "Corn",
-          "query": "Why did corn prices crop harvest rise",
+          "query": "Why did corn prices crop harvest fall",
           "hits": [
             {
-              "n": 15,
-              "similarity": 0.703
+              "n": 25,
+              "similarity": 0.705
             },
             {
-              "n": 16,
-              "similarity": 0.664
+              "n": 26,
+              "similarity": 0.689
             }
           ]
         },
@@ -547,12 +704,12 @@
           "query": "Why did wheat prices grain harvest rise",
           "hits": [
             {
-              "n": 15,
-              "similarity": 0.687
+              "n": 27,
+              "similarity": 0.751
             },
             {
-              "n": 16,
-              "similarity": 0.654
+              "n": 28,
+              "similarity": 0.687
             }
           ]
         },
@@ -561,18 +718,18 @@
           "query": "Why did soybean prices exports China fall",
           "hits": [
             {
-              "n": 16,
+              "n": 29,
               "similarity": 0.71
             },
             {
-              "n": 17,
+              "n": 30,
               "similarity": 0.686
             }
           ]
         }
       ],
-      "headline": "Farm Costs Pressure Specialty Crop Growers",
-      "body": "Rising farm production costs are putting pressure on specialty crop growers, including fruit growers, as they struggle to maintain profit margins [15]. The cost of inputs such as labor, equipment, and fertilizers is increasing, making it harder for farmers to produce high-quality crops at a competitive price [15]. As a result, some farmers are being forced to reduce yields or abandon certain crops altogether, which can have a ripple effect on the entire supply chain [15]."
+      "headline": "Corn and Soybeans Take a Hit",
+      "body": "Corn and soybeans are falling due to strong demand, but wheat is rising as investors expect a decrease in supply [25, 26, 27]."
     },
     {
       "slug": "mining",
@@ -580,83 +737,105 @@
       "moves": {
         "Copper": {
           "last": 5.99,
-          "change": -0.09,
-          "pct": -1.41,
+          "change": -0.01,
+          "pct": -0.2,
           "unit": "$/lb"
         },
         "Silver": {
-          "last": 46.94,
-          "change": -2.1,
-          "pct": -4.27,
+          "last": 47.31,
+          "change": 0.53,
+          "pct": 1.13,
           "unit": "$/oz"
         },
         "Gold miners": {
-          "last": 79.0,
-          "change": -2.64,
-          "pct": -3.23,
+          "last": 79.51,
+          "change": 0.56,
+          "pct": 0.71,
           "unit": "GDX ETF"
         }
       },
       "sources": [
-        14,
-        7
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
       ],
       "retrieval": [
         {
           "label": "Copper",
           "query": "Why did copper prices mine supply fall",
-          "hits": []
+          "hits": [
+            {
+              "n": 31,
+              "similarity": 0.676
+            },
+            {
+              "n": 32,
+              "similarity": 0.672
+            }
+          ]
         },
         {
           "label": "Silver",
-          "query": "Why did silver prices precious metals fall",
+          "query": "Why did silver prices precious metals rise",
           "hits": [
             {
-              "n": 14,
-              "similarity": 0.745
+              "n": 33,
+              "similarity": 0.688
             },
             {
-              "n": 7,
-              "similarity": 0.701
+              "n": 34,
+              "similarity": 0.679
             }
           ]
         },
         {
           "label": "Gold miners",
-          "query": "Why did gold mining stocks miners fall",
-          "hits": []
+          "query": "Why did gold mining stocks miners rise",
+          "hits": [
+            {
+              "n": 35,
+              "similarity": 0.71
+            },
+            {
+              "n": 36,
+              "similarity": 0.705
+            }
+          ]
         }
       ],
-      "headline": "Silver Prices Plummet",
-      "body": "Silver prices are falling due to a surge in interest rates, making it less attractive for investors [7, 14]. The increase in Treasury yields is causing investors to shift their funds to safer assets, leading to a decline in silver prices [7, 14]. The impact of rising interest rates is also being felt in the copper market, with prices also falling as a result [14]."
+      "headline": "Silver Prices Surge Amid Economic Uncertainty",
+      "body": "Silver prices have risen as investors seek safe-haven assets amid economic uncertainty [34, 35, 36]. The surge in silver prices is also being driven by concerns about inflation and interest rates [35, 36]. Gold miners are benefiting from the increase in silver prices, with some seeing it as a sign of a stronger economic recovery [35, 36]."
     },
     {
       "slug": "timber",
       "name": "Timber",
       "moves": {
         "Lumber": {
-          "last": 512.0,
-          "change": 22.0,
-          "pct": 4.49,
+          "last": 528.0,
+          "change": 18.0,
+          "pct": 3.53,
           "unit": "$/1,000 bd ft"
         },
         "Timber stocks": {
-          "last": 65.4,
-          "change": -0.45,
-          "pct": -0.68,
+          "last": 64.92,
+          "change": -0.29,
+          "pct": -0.45,
           "unit": "WOOD ETF"
         },
         "Weyerhaeuser": {
-          "last": 20.72,
-          "change": -0.09,
-          "pct": -0.46,
+          "last": 20.27,
+          "change": -0.41,
+          "pct": -1.96,
           "unit": "WY"
         }
       },
       "sources": [
-        18,
-        19,
-        20
+        37,
+        38,
+        39
       ],
       "retrieval": [
         {
@@ -664,39 +843,39 @@
           "query": "Why did lumber prices sawmills housing rise",
           "hits": [
             {
-              "n": 18,
-              "similarity": 0.653
+              "n": 37,
+              "similarity": 0.678
             },
             {
-              "n": 19,
-              "similarity": 0.651
+              "n": 38,
+              "similarity": 0.653
             }
           ]
         },
         {
           "label": "Timber stocks",
           "query": "Why did timber forestry stocks paper fall",
-          "hits": [
-            {
-              "n": 20,
-              "similarity": 0.609
-            }
-          ]
+          "hits": []
         },
         {
           "label": "Weyerhaeuser",
           "query": "Why did Weyerhaeuser timberland REIT fall",
-          "hits": []
+          "hits": [
+            {
+              "n": 39,
+              "similarity": 0.575
+            }
+          ]
         }
       ],
-      "headline": "Lumber Prices Rise, Timber Stocks Fall",
-      "body": "Lumber prices are increasing, which is causing timber stocks to fall as investors worry about the impact on their companies' profits [18, 19]. The rise in lumber prices is also affecting the forestry sector, with companies looking for ways to support their operations and employees [20]."
+      "headline": "Timber Stocks Take a Hit",
+      "body": "The decline of timber stocks is a concern for investors, as it suggests a decrease in demand for timber products [37, 38]. The rise in lumber prices is a positive sign for the industry, but it may not be enough to offset the decline in timber stocks [37, 38]. The situation is further complicated by the fact that affordable homes are being built with lumber, which could lead to increased demand for lumber in the long run [37, 38]."
     }
   ],
   "stats": {
-    "headlines_fetched": 55,
-    "headlines_new": 54,
-    "index_size": 830,
+    "headlines_fetched": 91,
+    "headlines_new": 86,
+    "index_size": 835,
     "desk_searches": 9,
     "llm_calls": 10
   }
