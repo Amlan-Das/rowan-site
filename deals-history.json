@@ -217,6 +217,13 @@
    "found": 35,
    "new": 7,
    "cumulative": 172
+  },
+  {
+   "date": "2026-11-18",
+   "shown": 8,
+   "found": 42,
+   "new": 3,
+   "cumulative": 175
   }
  ],
  "deals": {
@@ -865,8 +872,8 @@
    "acquirer": "BASF",
    "target": "Evonik",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-03",
-   "stage": "Announced",
+   "last_seen": "2026-11-18",
+   "stage": "Rumored",
    "value": "\u20ac24",
    "usd": null
   },
@@ -965,9 +972,9 @@
    "acquirer": "DoorDash",
    "target": "Instacart",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-17",
-   "stage": "Pending approval",
-   "value": "$17 Billion",
+   "last_seen": "2026-11-18",
+   "stage": "Announced",
+   "value": "$17 billion",
    "usd": 17000000000.0
   },
   "intel|classiq": {
@@ -1734,7 +1741,7 @@
    "acquirer": "ICEYE",
    "target": "Avio",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "stage": "Announced",
    "value": "\u20ac2 Billion",
    "usd": null
@@ -1743,7 +1750,7 @@
    "acquirer": "Air Water Ventures",
    "target": "Proud Source Water",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "stage": "Announced",
    "value": "$150M",
    "usd": 150000000.0
@@ -1752,7 +1759,7 @@
    "acquirer": "TPG",
    "target": "Bill Holdings",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "stage": "Rumored"
   },
   "amd|world labs": {
@@ -1788,10 +1795,31 @@
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-17",
    "stage": "Pending approval"
+  },
+  "applovin|criteo": {
+   "acquirer": "AppLovin",
+   "target": "Criteo",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "stage": "Rumored"
+  },
+  "transom capital|soundthinking": {
+   "acquirer": "Transom Capital",
+   "target": "SoundThinking",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "stage": "Completed"
+  },
+  "onsemi|synaptics": {
+   "acquirer": "onsemi",
+   "target": "Synaptics",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "stage": "Pending approval"
   }
  },
  "totals": {
-  "deals": 172,
+  "deals": 175,
   "with_usd_value": 87,
   "usd": 676099700000.0
  }
