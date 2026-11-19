@@ -224,6 +224,13 @@
    "found": 42,
    "new": 3,
    "cumulative": 175
+  },
+  {
+   "date": "2026-11-19",
+   "shown": 8,
+   "found": 41,
+   "new": 4,
+   "cumulative": 179
   }
  ],
  "deals": {
@@ -872,7 +879,7 @@
    "acquirer": "BASF",
    "target": "Evonik",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "stage": "Rumored",
    "value": "\u20ac24",
    "usd": null
@@ -1759,8 +1766,8 @@
    "acquirer": "TPG",
    "target": "Bill Holdings",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
-   "stage": "Rumored"
+   "last_seen": "2026-11-19",
+   "stage": "Completed"
   },
   "amd|world labs": {
    "acquirer": "AMD",
@@ -1800,14 +1807,14 @@
    "acquirer": "AppLovin",
    "target": "Criteo",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "stage": "Rumored"
   },
   "transom capital|soundthinking": {
    "acquirer": "Transom Capital",
    "target": "SoundThinking",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "stage": "Completed"
   },
   "onsemi|synaptics": {
@@ -1816,11 +1823,41 @@
    "first_seen": "2026-11-18",
    "last_seen": "2026-11-18",
    "stage": "Pending approval"
+  },
+  "beeline holdings inc|tytl": {
+   "acquirer": "Beeline Holdings, Inc.",
+   "target": "TYTL",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "stage": "Announced"
+  },
+  "wynnchurch capital|luxfer holdings": {
+   "acquirer": "Wynnchurch Capital",
+   "target": "Luxfer Holdings",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "stage": "Completed"
+  },
+  "advent|boardroom": {
+   "acquirer": "Advent",
+   "target": "Boardroom",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "stage": "Rumored"
+  },
+  "daiichi life|challenger": {
+   "acquirer": "Daiichi Life",
+   "target": "Challenger",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "stage": "Announced",
+   "value": "$8.2 Billion",
+   "usd": 8199999999.999999
   }
  },
  "totals": {
-  "deals": 175,
-  "with_usd_value": 87,
-  "usd": 676099700000.0
+  "deals": 179,
+  "with_usd_value": 88,
+  "usd": 684299700000.0
  }
 }
