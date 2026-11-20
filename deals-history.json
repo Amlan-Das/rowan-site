@@ -231,6 +231,13 @@
    "found": 41,
    "new": 4,
    "cumulative": 179
+  },
+  {
+   "date": "2026-11-20",
+   "shown": 8,
+   "found": 38,
+   "new": 7,
+   "cumulative": 184
   }
  ],
  "deals": {
@@ -1835,7 +1842,7 @@
    "acquirer": "Wynnchurch Capital",
    "target": "Luxfer Holdings",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "stage": "Completed"
   },
   "advent|boardroom": {
@@ -1853,11 +1860,68 @@
    "stage": "Announced",
    "value": "$8.2 Billion",
    "usd": 8199999999.999999
+  },
+  "tpg|bill": {
+   "acquirer": "TPG",
+   "target": "BILL",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "stage": "Announced",
+   "value": "$6 billion",
+   "usd": 6000000000.0
+  },
+  "bending spoons|mailchimp": {
+   "acquirer": "Bending Spoons",
+   "target": "Mailchimp",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "stage": "Announced",
+   "value": "$3.68 Billion",
+   "usd": 3680000000.0
+  },
+  "beeline holdings|tytl": {
+   "acquirer": "Beeline Holdings",
+   "target": "TYTL",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "stage": "Announced"
+  },
+  "kkr|edgecore": {
+   "acquirer": "KKR",
+   "target": "EdgeCore",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "stage": "Rumored",
+   "value": "$8 Billion",
+   "usd": 8000000000.0
+  },
+  "sanofi|insmed": {
+   "acquirer": "Sanofi",
+   "target": "Insmed",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "stage": "Rumored"
+  },
+  "palo alto networks|applied compute": {
+   "acquirer": "Palo Alto Networks",
+   "target": "Applied Compute",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "stage": "Announced",
+   "value": "$4.5 Billion",
+   "usd": 4500000000.0
+  },
+  "ampera|berto": {
+   "acquirer": "AMPERA",
+   "target": "Berto",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "stage": "Announced"
   }
  },
  "totals": {
-  "deals": 179,
-  "with_usd_value": 88,
-  "usd": 684299700000.0
+  "deals": 184,
+  "with_usd_value": 92,
+  "usd": 706479700000.0
  }
 }
