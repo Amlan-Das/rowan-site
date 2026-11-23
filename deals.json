@@ -1,19 +1,19 @@
 {
-  "date": "Friday, November 20",
-  "generated_at": "2026-11-20T19:14:59.164842+00:00",
+  "date": "Monday, November 23",
+  "generated_at": "2026-11-23T22:47:16.157624+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "BILL is being acquired by TPG and Corpay in a $6 billion all-cash deal.",
+  "lede": "CrowdStrike to buy Zscaler in $44 billion all-stock deal, creating a cybersecurity giant.",
   "deals": [
     {
-      "acquirer": "TPG",
-      "target": "BILL",
-      "value": "$6 billion",
+      "acquirer": "CrowdStrike",
+      "target": "Zscaler",
+      "value": "$44 billion",
       "pinned": false,
       "stage": "Announced",
-      "articles": 8,
-      "outlets": 7,
-      "latest": "2026-11-20T17:10:00+00:00",
+      "articles": 28,
+      "outlets": 28,
+      "latest": "2026-11-23T20:59:28+00:00",
       "sources": [
         1,
         2,
@@ -25,665 +25,715 @@
         8
       ],
       "stripped": [],
-      "headline": "BILL to Go Private",
-      "body": "BILL is being acquired by TPG and Corpay in a $6 billion all-cash deal [1, 2, 3]. BILL will go private in a $6 billion deal led by TPG with Corpay [7]. BILL has agreed to be acquired by TPG in a partnership with Corpay [8]. TPG and Corpay will take BILL private in a $6 billion deal [5, 6, 4].",
+      "headline": "CrowdStrike to buy Zscaler",
+      "body": "CrowdStrike is buying Zscaler for $44 billion [1, 2, 3]. The deal is expected to create a cybersecurity giant [8]. The acquisition is expected to be completed through an all-stock deal [5, 7].",
       "found": [
         {
           "n": 1,
-          "acquirer": "TPG and Corpay",
-          "target": "BILL",
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
           "stage": "Announced"
         },
         {
           "n": 2,
-          "acquirer": "TPG",
-          "target": "BILL",
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
           "stage": "Announced"
         },
         {
           "n": 3,
-          "acquirer": "TPG and Corpay",
-          "target": "BILL",
-          "stage": "Completed"
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
+          "stage": "Announced"
         },
         {
           "n": 4,
-          "acquirer": "TPG",
-          "target": "BILL",
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
           "stage": "Announced"
         },
         {
           "n": 5,
-          "acquirer": "TPG",
-          "target": "BILL",
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
           "stage": "Announced"
         },
         {
           "n": 6,
-          "acquirer": "TPG",
-          "target": "BILL Holdings",
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
           "stage": "Announced"
         },
         {
           "n": 7,
-          "acquirer": "TPG",
-          "target": "BILL",
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
           "stage": "Announced"
         },
         {
           "n": 8,
-          "acquirer": "TPG",
-          "target": "BILL",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Bending Spoons",
-      "target": "Mailchimp",
-      "value": "$3.68 Billion",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 5,
-      "outlets": 5,
-      "latest": "2026-11-20T17:28:30+00:00",
-      "sources": [
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "stripped": [],
-      "headline": "Bending Spoons and Mailchimp Deal",
-      "body": "Bending Spoons is buying Mailchimp from Intuit [9, 10, 11]. The deal is worth 3.32-3.68 billion Euros [9, 10]. Bending Spoons will announce a €1.18 billion private placement [11]. The acquisition has been announced [13].",
-      "found": [
-        {
-          "n": 9,
-          "acquirer": "Bending Spoons",
-          "target": "Mailchimp",
-          "stage": "Announced"
-        },
-        {
-          "n": 10,
-          "acquirer": "Bending Spoons",
-          "target": "Mailchimp",
-          "stage": "Completed"
-        },
-        {
-          "n": 11,
-          "acquirer": "Bending Spoons",
-          "target": "Mailchimp",
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
           "stage": "Announced"
         },
         {
           "n": 12,
-          "acquirer": "Bending Spoons",
-          "target": "Mailchimp",
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
           "stage": "Announced"
         },
         {
-          "n": 13,
-          "acquirer": "Bending Spoons",
-          "target": "Mailchimp",
+          "n": 9,
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
+          "stage": "Announced"
+        },
+        {
+          "n": 10,
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
           "stage": "Completed"
+        },
+        {
+          "n": 13,
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
+          "stage": "Completed"
+        },
+        {
+          "n": 11,
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
+          "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Beeline Holdings",
-      "target": "TYTL",
-      "value": "",
+      "acquirer": "Amazon",
+      "target": "Decart AI",
+      "value": "$7.5 billion",
       "pinned": false,
       "stage": "Announced",
       "articles": 5,
-      "outlets": 3,
-      "latest": "2026-11-19T16:44:12+00:00",
+      "outlets": 5,
+      "latest": "2026-11-23T21:38:38+00:00",
       "sources": [
         14,
         15,
         16,
         17,
-        18
+        18,
+        19,
+        20,
+        21
       ],
       "stripped": [],
-      "headline": "Beeline Holdings to Acquire TYTL",
-      "body": "Beeline Holdings is acquiring TYTL in an all-stock deal [15, 16, 18]. The deal aims to expand into tokenized real estate and blockchain-enabled home equity finance [17, 18]. No further details on the deal have been announced [15, 16, 17].",
+      "headline": "Amazon to Acquire Decart AI",
+      "body": "Amazon has agreed to acquire Decart AI for an estimated $7.5 billion [14, 15, 16]. The deal was announced by Amazon on November 23, 2023 [15, 18]. The acquisition is reportedly aimed at strengthening Amazon's trainium chip technology [16, 17].",
       "found": [
         {
           "n": 14,
-          "acquirer": "Beeline Holdings",
-          "target": "TYTL",
+          "acquirer": "Amazon.com, Inc.",
+          "target": "Decart AI Ltd",
           "stage": "Announced"
         },
         {
           "n": 15,
-          "acquirer": "Beeline Holdings",
-          "target": "TYTL",
+          "acquirer": "Amazon",
+          "target": "Decart AI",
           "stage": "Announced"
         },
         {
           "n": 16,
-          "acquirer": "Beeline Holdings, Inc.",
-          "target": "TYTL",
+          "acquirer": "Amazon",
+          "target": "Decart AI",
           "stage": "Announced"
         },
         {
           "n": 17,
-          "acquirer": "Beeline Holdings",
-          "target": "TYTL",
-          "stage": "Completed"
+          "acquirer": "Amazon",
+          "target": "Decart AI",
+          "stage": "Announced"
         },
         {
           "n": 18,
-          "acquirer": "Beeline Holdings",
-          "target": "TYTL Corp.",
+          "acquirer": "Amazon",
+          "target": "Decart",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "KKR",
-      "target": "EdgeCore",
-      "value": "$8 Billion",
+      "acquirer": "Texas Pacific Land",
+      "target": "EagleRock Land",
+      "value": "$3 billion",
       "pinned": false,
-      "stage": "Rumored",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-11-20T17:56:46+00:00",
+      "stage": "Announced",
+      "articles": 4,
+      "outlets": 4,
+      "latest": "2026-11-23T21:56:25+00:00",
       "sources": [
-        19,
-        20
-      ],
-      "stripped": [],
-      "headline": "KKR to Buy EdgeCore",
-      "body": "KKR is in talks to buy a majority stake in EdgeCore [19, 20]. The deal is valued at at least $8 billion [20]. No further information is available at this stage [19].",
-      "found": [
-        {
-          "n": 19,
-          "acquirer": "KKR",
-          "target": "EdgeCore",
-          "stage": "Rumored"
-        },
-        {
-          "n": 20,
-          "acquirer": "KKR",
-          "target": "EdgeCore",
-          "stage": "Rumored"
-        }
-      ]
-    },
-    {
-      "acquirer": "Sanofi",
-      "target": "Insmed",
-      "value": "",
-      "pinned": false,
-      "stage": "Rumored",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-11-19T17:30:39+00:00",
-      "sources": [
-        21,
-        22
-      ],
-      "stripped": [],
-      "headline": "Sanofi to Takeover Insmed",
-      "body": "Sanofi is considering a takeover of US drugmaker Insmed [21, 22]. The deal is still in its early stages [21, 22].",
-      "found": [
-        {
-          "n": 21,
-          "acquirer": "Sanofi",
-          "target": "Insmed",
-          "stage": "Rumored"
-        },
-        {
-          "n": 22,
-          "acquirer": "Sanofi",
-          "target": "Insmed",
-          "stage": "Rumored"
-        }
-      ]
-    },
-    {
-      "acquirer": "Wynnchurch Capital",
-      "target": "Luxfer Holdings",
-      "value": "",
-      "pinned": false,
-      "stage": "Completed",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-11-19T16:41:12+00:00",
-      "sources": [
+        22,
         23,
         24,
         25
       ],
       "stripped": [],
-      "headline": "Wynnchurch Capital Acquires Luxfer Holdings",
-      "body": "Wynnchurch Capital has acquired Luxfer Holdings in a take-private deal [23, 24, 25]. The deal is now completed [23, 24].",
+      "headline": "Texas Pacific Land and EagleRock Land Merger",
+      "body": "Texas Pacific Land and EagleRock Land are merging in an all-equity deal [25, 24, 23]. The deal is worth $3 billion [23, 24, 22]. The companies have announced the merger [25, 24, 22].",
       "found": [
         {
+          "n": 22,
+          "acquirer": "Texas Pacific Land",
+          "target": "EagleRock Land",
+          "stage": "Announced"
+        },
+        {
           "n": 23,
-          "acquirer": "Wynnchurch Capital",
-          "target": "Luxfer Holdings",
-          "stage": "Completed"
+          "acquirer": "Texas Pacific Land",
+          "target": "EagleRock",
+          "stage": "Announced"
         },
         {
           "n": 24,
-          "acquirer": "Wynnchurch Capital",
-          "target": "Luxfer Holdings PLC",
+          "acquirer": "Texas Pacific Land",
+          "target": "EagleRock",
+          "stage": "Announced"
+        },
+        {
+          "n": 25,
+          "acquirer": "Texas Pacific Land",
+          "target": "EagleRock Land",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "Palo Alto Networks",
-      "target": "Applied Compute",
-      "value": "$4.5 Billion",
+      "acquirer": "Verlinvest",
+      "target": "Oatly",
+      "value": "",
       "pinned": false,
       "stage": "Announced",
       "articles": 2,
       "outlets": 2,
-      "latest": "2026-11-19T15:08:44+00:00",
+      "latest": "2026-11-23T21:19:43+00:00",
       "sources": [
         26,
-        27,
+        27
+      ],
+      "stripped": [],
+      "headline": "Verlinvest Offers for Oatly",
+      "body": "Verlinvest is making a below-market offer for Oatly to satisfy Swedish takeover rules [27]. The offer is colliding with Swedish takeover rules, causing Oatly's stock to double [26]. The deal has been announced [26, 27].",
+      "found": [
+        {
+          "n": 26,
+          "acquirer": "Verlinvest",
+          "target": "Oatly",
+          "stage": "Completed"
+        },
+        {
+          "n": 27,
+          "acquirer": "Verlinvest",
+          "target": "Oatly",
+          "stage": "Rumored"
+        }
+      ]
+    },
+    {
+      "acquirer": "Workday",
+      "target": "C1.ai",
+      "value": "",
+      "pinned": false,
+      "stage": "Completed",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-23T14:45:03+00:00",
+      "sources": [
         28,
         29,
         30
       ],
       "stripped": [],
-      "headline": "Palo Alto Networks to Acquire Applied Compute",
-      "body": "Palo Alto Networks is acquiring Applied Compute for $4.5 billion [26, 27, 28]. The deal was announced on November 18 and is expected to bring secure open-weight AI to the enterprise [29, 30]. No further information is available as the deal is still in the announced stage [26, 27, 28].",
+      "headline": "Workday Completes C1.ai Acquisition",
+      "body": "Workday has completed its acquisition of C1.ai [28, 29, 30]. The deal governs employee and AI agent access [28, 29, 30].",
       "found": [
         {
-          "n": 26,
-          "acquirer": "Palo Alto Networks",
-          "target": "Applied Compute",
+          "n": 28,
+          "acquirer": "Workday",
+          "target": "C1.ai",
           "stage": "Completed"
         },
         {
-          "n": 27,
-          "acquirer": "Palo Alto Networks",
-          "target": "Applied Compute",
+          "n": 29,
+          "acquirer": "Workday",
+          "target": "C1.ai",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "AMPERA",
-      "target": "Berto",
+      "acquirer": "ABB",
+      "target": "Ziehl-Abegg",
+      "value": "$2.65 Billion",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-23T14:42:06+00:00",
+      "sources": [
+        31,
+        32,
+        33
+      ],
+      "stripped": [],
+      "headline": "ABB to Acquire German Fan Maker Ziehl-Abegg",
+      "body": "ABB is acquiring German fan maker Ziehl-Abegg [31, 32, 33]. The deal is expected to double ABB's data center cooling business [31]. The acquisition is part of ABB's expansion into HVAC and industrial cooling applications [33].",
+      "found": [
+        {
+          "n": 31,
+          "acquirer": "ABB",
+          "target": "Ziehl-Abegg",
+          "stage": "Announced"
+        },
+        {
+          "n": 32,
+          "acquirer": "ABB Ltd",
+          "target": "ZIEHL-ABEGG SE",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "Linamar Corporation",
+      "target": "Genie",
       "value": "",
       "pinned": false,
       "stage": "Announced",
       "articles": 1,
       "outlets": 1,
-      "latest": "2026-11-20T18:28:20+00:00",
+      "latest": "2026-11-23T22:05:00+00:00",
       "sources": [
-        31
+        34
       ],
       "stripped": [],
-      "headline": "AMPERA and Berto to Merge",
-      "body": "AMPERA and Berto will combine in a multimillion-dollar deal [31]. The deal was announced on November 20 [31].",
+      "headline": "Linamar to Acquire Genie from Terex",
+      "body": "Linamar Corporation is acquiring Genie from Terex Corporation [34]. The deal will significantly expand Linamar's access to work platforms [34]. The acquisition was announced [34].",
       "found": [
         {
-          "n": 31,
-          "acquirer": "AMPERA",
-          "target": "Berto",
+          "n": 34,
+          "acquirer": "Linamar Corporation",
+          "target": "Genie",
           "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "Teledyne",
+      "target": "Varex Imaging",
+      "value": "",
+      "pinned": false,
+      "stage": "Pending approval",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-11-23T21:44:12+00:00",
+      "sources": [
+        35,
+        36
+      ],
+      "stripped": [],
+      "headline": "Teledyne to Acquire Varex Imaging",
+      "body": "Teledyne is acquiring Varex Imaging in an all-cash deal [36, 35]. The deal is pending regulatory approval [35]. Shareholders have already approved the merger agreement [36].",
+      "found": [
+        {
+          "n": 35,
+          "acquirer": "Teledyne",
+          "target": "Varex Imaging",
+          "stage": "Completed"
         }
       ]
     }
   ],
   "also": [
     {
-      "n": 32,
-      "note": "NextEra-Dominion merger cleared by DoJ antitrust division [32]."
-    },
-    {
-      "n": 33,
-      "note": "HSBC Upgrades Tesla to 'Hold' — SpaceX Merger Math Explains Why [33]."
-    },
-    {
-      "n": 34,
-      "note": "Service Industries subsidiary explores clothing-chain acquisition [34]."
-    }
-  ],
-  "brief": "BILL is being acquired by TPG and Corpay in a $6 billion all-cash deal.\n\nTPG / BILL (Announced): BILL to Go Private. BILL is being acquired by TPG and Corpay in a $6 billion all-cash deal [1, 2, 3]. BILL will go private in a $6 billion deal led by TPG with Corpay [7]. BILL has agreed to be acquired by TPG in a partnership with Corpay [8]. TPG and Corpay will take BILL private in a $6 billion deal [5, 6, 4].\nBending Spoons / Mailchimp (Announced): Bending Spoons and Mailchimp Deal. Bending Spoons is buying Mailchimp from Intuit [9, 10, 11]. The deal is worth 3.32-3.68 billion Euros [9, 10]. Bending Spoons will announce a €1.18 billion private placement [11]. The acquisition has been announced [13].\nBeeline Holdings / TYTL (Announced): Beeline Holdings to Acquire TYTL. Beeline Holdings is acquiring TYTL in an all-stock deal [15, 16, 18]. The deal aims to expand into tokenized real estate and blockchain-enabled home equity finance [17, 18]. No further details on the deal have been announced [15, 16, 17].\nKKR / EdgeCore (Rumored): KKR to Buy EdgeCore. KKR is in talks to buy a majority stake in EdgeCore [19, 20]. The deal is valued at at least $8 billion [20]. No further information is available at this stage [19].\nSanofi / Insmed (Rumored): Sanofi to Takeover Insmed. Sanofi is considering a takeover of US drugmaker Insmed [21, 22]. The deal is still in its early stages [21, 22].\nWynnchurch Capital / Luxfer Holdings (Completed): Wynnchurch Capital Acquires Luxfer Holdings. Wynnchurch Capital has acquired Luxfer Holdings in a take-private deal [23, 24, 25]. The deal is now completed [23, 24].\nPalo Alto Networks / Applied Compute (Announced): Palo Alto Networks to Acquire Applied Compute. Palo Alto Networks is acquiring Applied Compute for $4.5 billion [26, 27, 28]. The deal was announced on November 18 and is expected to bring secure open-weight AI to the enterprise [29, 30]. No further information is available as the deal is still in the announced stage [26, 27, 28].\nAMPERA / Berto (Announced): AMPERA and Berto to Merge. AMPERA and Berto will combine in a multimillion-dollar deal [31]. The deal was announced on November 20 [31].\n\nAlso worth knowing:\n- NextEra-Dominion merger cleared by DoJ antitrust division [32].\n- HSBC Upgrades Tesla to 'Hold' — SpaceX Merger Math Explains Why [33].\n- Service Industries subsidiary explores clothing-chain acquisition [34].",
-  "sources": [
-    {
-      "n": 1,
-      "title": "BILL to Go Private in $6 Billion Acquisition Deal With TPG and Corpay",
-      "source": "Yahoo Finance UK",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV2pqT1g1VFVkblVEZVRpTS1OeVZmLXZIVzM3T3FleXFJUU5YVnc2S3hVbDU1Y3plcmdsRmpCQ1BfQ056NDlFQWJQSDNDb1dWUWh1SGo0ZWlneXNaajJUY1NEdktzbFNCc0Z5ZlR1Nk0xb0FOc0hCcjJmYl84LUh0LWJFekNSMEptODhj?oc=5",
-      "snippet": "Yahoo Finance UK",
-      "published": "2026-11-20T17:10:00+00:00"
-    },
-    {
-      "n": 2,
-      "title": "BILL to be acquired by TPG and Corpay in $6 billion all-cash deal",
-      "source": "Yahoo Finance UK",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONlFyUHBJeGttWUQwa1V3bDZ2cW5UQ1Z2TnQ1NFJScjhCWE9TMlZFZGd3VzhBUHF4NTQ4OTlQODFCSTM5M3hwakJTSk9STmN6SWFiVTViVURQUFlQWVV6c2l1QkdDUXVGdlNPbHJTSGNqUFpEOElmcjk4c3FHRnN0Qw?oc=5",
-      "snippet": "Yahoo Finance UK",
-      "published": "2026-11-20T15:35:00+00:00"
-    },
-    {
-      "n": 3,
-      "title": "TPG and Corpay Agree to Buy BILL in $6 Billion Deal",
-      "source": "PYMNTS.com",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVENkdVViMVNWeFZ3R2kzdXEyNWZOVmRsVzNrOEpuTjFIRVphT1BOa2otd1JrRzhpSVZmMGt5WFotTmxHTEpMbTdJZVNLTVRHRk5BRzh3dTlzRGZpVW9xRzNfVFRvSXZWeDVNUXV6ZFRmRnlKR25HdFJVUGhUQmZwVDBvRkhOaXQycXpkUVJWZ1ZrUE51QWNpVmZR?oc=5",
-      "snippet": "PYMNTS.com",
-      "published": "2026-11-20T12:11:26+00:00"
-    },
-    {
-      "n": 4,
-      "title": "TPG and Corpay agree to take BILL private in a $6 billion cash deal",
-      "source": "MLQ.ai",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUXRUdER5UF92TVhUTkhUTTlNVTZFRHR2RExvMXpVa3daTGxDZUVlcHRzRHRBZWUyWEd2TEFLMTlnV3VDSHJhUHpjS0RFXzh2Xy1zTk5aRW1aLTRhZE9pYmR2RmlqZjlqX2RkTWtlTlEzZF9NellEZEVZdmQ1WmU1RG9WMkJVcEFpY1Z3Y0dtRjM?oc=5",
-      "snippet": "MLQ.ai",
-      "published": "2026-11-20T06:22:04+00:00"
-    },
-    {
-      "n": 5,
-      "title": "TPG and Corpay agree to take BILL private in a $6 billion deal, repeating their AvidXchange playbook",
-      "source": "CEO경제신문",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ZenhiMXRjVjRsekQtS1hpYWs2dFB6WE5KLVd0RGhOWmlXVHloZ1pCZldUWDJfM3VTeDQ5UGZBYXhJYndoeXFMOHFXU2dOb2ZwS2FsNWxSd1NsWG40WDhaTzhINHRmX2VMdlA4?oc=5",
-      "snippet": "CEO경제신문",
-      "published": "2026-11-20T00:00:00+00:00"
-    },
-    {
-      "n": 6,
-      "title": "TPG to take BILL Holdings private in $6 billion deal",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQc1FtMlk4ZnpnMVRFRGZ4SmsxblVVdWVFSURJaEROenJULUZmX3hMLTBjLUs1dlB1OWN6ZnRGSGFsd0dqaldWZTZRbExMUXZsM1EzRWtRanVISC13dVpuZTRiRDlYVHplUmJoMjJIUTV5OUF1N09Jb19odHcwQkg1d05DTUFRZ2gwRVhRdGUxNmpPWFAtUVVVTXVEWFQ2LXlMNFNHVmxMV2w2WFdhQnF1aF9nQ2R0aVU?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-11-19T23:29:28+00:00"
-    },
-    {
-      "n": 7,
-      "title": "BILL to go private in $6B buyout led by TPG with Corpay",
-      "source": "Dealroom",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMmZ3aEkwc0l1ZGhtZ2FPRGgwWjJuMHZCZnJWcGVRbTNqUmstOVpZUU4tNjBtMnpJalhOV2w2NV9ZZ2ZBRG9MZm43VDNxb1pYVEdSdXFQSEJoMTF3WnlQSjhhdzNjZnoyY3RtNE45OVRaN3QxS3NUWEZqTW1xSWFraXp1OFA2WGZYWmpEZkkwTFdTQQ?oc=5",
-      "snippet": "Dealroom",
-      "published": "2026-11-19T23:17:53+00:00"
-    },
-    {
-      "n": 8,
-      "title": "BILL Agrees to be Acquired by TPG in Partnership with Corpay",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNERzRjFsUGhOamkxQTZYWlJHTF9uUWpuUUJxT3hxYVpYQnJaMTdwSHVmSThYdm04UXpZR3FWaXYxejRxdGRXdWNyVVl4RVJ2eVRZTk82UXJrMVZrUGo3LW9qdmh0RzlqcnRDMjR5dEtoMGlsSjc4YkdEVDMxdVFxQl9NV3NmaXZ6M3VHSVByNTVYUXZrNE5yTGtNOUJGSDJ1TW1B?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-11-19T22:46:00+00:00"
-    },
-    {
-      "n": 9,
-      "title": "Bending Spoons Agrees to Buy Mailchimp From Intuit for 3.32 Billion Euros: how 12 outlets framed it",
-      "source": "NewsCord",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZWQ4OWIxVURKYXFGRERHTTFLY0luVm9aUHZWZXJVYk1zUDJrTFdSb003U0R2aTNmTml0dkFkVGVyekQ0emNxdHI0OXpGUlJDdkZIeXZUTktsYVpraHotVWhlY3dTN3paNXEtLXFuTEhFX2k1NWRYT1NhQTJHbmJfUEJqRjB2REdRai03U1N1bFd4YXpyQlBxRE8xZUh3U2VMR051REYtbTFpTmtwN0ZhQU12WlFROEF4NW5RTEw1M25LazlLd21jU21Ic3RRaTJsZXVJXzMwbUV3Sl8xUVIw?oc=5",
-      "snippet": "NewsCord",
-      "published": "2026-11-20T17:28:30+00:00"
-    },
-    {
-      "n": 10,
-      "title": "Bending Spoons Agrees $3.68 Billion Deal to Acquire Mailchimp From Intuit",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNGpwbFJINldndzVBUHFEUHFkZEVXZHR5M2xRNnZoc1JNWnA3bkFfTER6dGgtZjNsbm8zRWstNkRtdGJQSWZ6OVR2VFpvVUwzeVRKZVZtNmlrd1dhWjYxZ3NnenpNRWhoby1zMWVabF84NklXYmhEVk15YlJFUW5ETDNqX1pJcUdXcVc4OTI3Z2k?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-11-20T10:48:50+00:00"
-    },
-    {
-      "n": 11,
-      "title": "Berkshire-backed Bending Spoons to buy Mailchimp for €3.35 billion; announces €1.18 billion private placement",
-      "source": "EU-Startups",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcnhlazVSTnJOWnJtMHZHTmxaQndMVVpuMEpkQzhoeTlfX1NPSGdRUXpnSGhpNlIya251MGh5RFYtM2p0NHpCOWl1bzJYZkw0bU9mSDUzQ3JMMkxHMzJLMlFHVF9YQlhJRVhFQUZwTzFsMEdORkw0VGxYNDRhNVM3bTUxcEF5dWJ0VHhSd0VnY2ZsUmt6VnBVMk1YM3prdVFjQWk2YUFaY0Q5M3R6QWYtLUNkblVTZzdzQ2g1SFZwc0NLcTJlbjM3S0psU2NzOGRlZEpSSTBsU1J6MzhVUi1BV0Q3SXVIU2FnS0E?oc=5",
-      "snippet": "EU-Startups",
-      "published": "2026-11-20T08:15:41+00:00"
-    },
-    {
-      "n": 12,
-      "title": "Bending Spoons to Buy Mailchimp From Intuit for $3.7 Billion",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYVd6RkhzTmt0Rm9mYXN5OThOM2FEVU00bDhQclA2M1JWS2ZFenZsTENGN21zUHBVQWM1NVN6blRKc3VIbmRnLWpRWXZSNnQ3cjRaWV90VTRYdEY2LWpiYm9yWFpPczZLblVpdWQ2SXFmVWZ0N1dOQUtuM1cyU2k3QlctWVJFRlItVlpNQ2pXZEJUZ3pnRUJYOHJSOXNvb0xBMk4tejFCTFhBcWdfai1R?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-19T21:38:27+00:00"
-    },
-    {
-      "n": 13,
-      "title": "Bending Spoons has entered into a definitive agreement to acquire Mailchimp",
-      "source": "Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSGtTUm9zOXJnaklYMHRZa0pUaGEzUVFwRnpqUWVxSHNwSk14UW9OMUpvcGk0dndTZVBtVTlHT3NjVE9NVGppNU5HRlFSWDl4NkU2VVFfSmxnV3FGYzdfdDBOYUpwOFA4Qml4MGhxeUZLM2dlNkRkNG5aUXZrYl9KbzZlTHV4MzNZVWo5NEg3dXRZYi1GX3dFYUloTk5WM2lBWTQteGRWc2h4YVltSGRXbzlFa244d1N6cFRNVHhwMUlJNUJVWEkyZUw3bUs?oc=5",
-      "snippet": "Business Wire",
-      "published": "2026-11-19T21:00:00+00:00"
-    },
-    {
-      "n": 14,
-      "title": "Beeline Holdings (NASDAQ: BLNE) Enters Definitive Agreement to Acquire Blockchain-Based Real Estate Equity Platform TYTL",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ2I0UjA5bE5FaWJ4LThKUVlXUUF3dlVtUVE0Y01ibm90SkFFSFdaQTZEcHpxLWFYTVlUVkxMY3k5dGNacDZETl9sdWF5a3ZXdm9ueGhFdnc2cjN6VEo4Rnk1MTk2Q3F2RHRMXzRETVBJUGZvNHJEZHFubmNPcVpsV2pEX2tuMWtxYUpJYk5FUlFiV3VLZjBaRjlGMll1djVBTFJxb0dZZzJXdHlyNXRtREVxNWFGWlhHaTdzWnl0djR3bGZsc3U5NG1LYUJyTEx3a0lRWlY1ZnZJVVZfMWhJNmIwRlU2cG5DcUZRUkhyQXJ5eFpGWXdVc3Nnd3Bxc19aeGg3OHdLOUFhRWs?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-19T16:44:12+00:00"
-    },
-    {
-      "n": 15,
-      "title": "Beeline Holdings (BLNE) Agrees to Acquire TYTL in All-Stock Deal",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWU5GdmpCZ2N1akE4TzBpQ0JPOGZDbjYzc09MS3lzOXNkY3N0cHh1M1RaRWFmck1IX2pOSzMtVWkxWW80X05QRlF4bzN3SXliWVhPTGFJRl9xb0RqVUZHM21HV1BCYXowV1M4d09zYmQyRktMd0t4aE1rc0swUHZlRWQ1NEZiaWpjRnRoX3hSMjdiUjJBVndXSDN4RFljaGJqY09iZDFiZHVUcW95ODRMOTBwX0QyRm5pakEwN1RzTDA1QQ?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-19T16:44:12+00:00"
-    },
-    {
-      "n": 16,
-      "title": "Beeline Holdings, Inc. (BLNE) Agrees to Acquire TYTL in All-Stock Deal",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS2RfWm02NnpqaFZKQ1BvWlJnTXVqU0xUdV9SRjV0UjBOZC0wVWMtVkw4SDdmcTc5eDhlV0RiQUdjcTVBd01jYUVhenhNazU3Qi0xUDZoaGo5OG5iSjRRc3NXUmVpa2RkcTdTc051QV91QXdCbHhuRlhJUHAyb1pzY3MyakVqdFJQNklFenFaSFFlSEphQk4tMWQ5NHYxTlFma2F1SWRNdWpEM3l5Y1ZQRDdPUGdXRFJxNlNubXJCd3g4X1Y5MXYw?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-19T16:44:12+00:00"
-    },
-    {
-      "n": 17,
-      "title": "Beeline Holdings Enters into Definitive Merger Agreement to Acquire TYTL, With a View to Expanding into Tokenized Real Estate and Blockchain-Enabled Home Equity Finance",
-      "source": "The Manila Times",
-      "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPek5MeFRPU28yRkZvOEZKMGRuM3U4Y3NLdVlFMGphaXFTUGhROTlWY0otZ1ljZGxHUmM0LWxwVWFFelRGSVdYdjVpcWlvNDFLMmVjT2U1MkNjZm1xS3FJejJtUGtwV21FejZqUlpYSF9kdlVPbG1XZ0tnMTU4SUJHZU9wS1NRcDB3TlEyNzBUY2xyYkk2MzRVd1dVWXR4UEZpc1R4eS16OElBcTdlc1p0ajI5Rkp2cmN5enptWWN6NFRJazFQazE2TU1RYmN2Qy1odnRZTjdZbDJraDA3c0pBY2FfRTFkZzNUXzdrY0EwTGJvUDltQUlNVFAzQnY3NzRGRF9iSmh5Tjg1MTJGdXAyVHZpSjBrcjc3dzRHYWNKeE1yLWFsQmZVNlBpM2pSMWNyWkUxYmhMcVJScHNHY3l3bHU4ZXRrYVczc0dZNHhqV3VKckpGM0xRWDdObE9seUJjdEFz0gHjAkFVX3lxTE96Tkx4VE9TbzJGRm84RkowZG4zdThjc0t1WUUwamFpcVNQaFE5OVZjSi1nWWNkbEdSYzQtbHBVYUV6VEZJV1h2NWlxaW80MUsyZWNPZTUyQ2NmbXFLcUl6Mm1Qa3BXbUV6NmpSWlhIX2R2VU9sbVdnS2cxNThJQkdlT3BLU1FwMHdOUTI3MFRjbHJiSTYzNFV3V1VZdHhQRmlzVHh5LXo4SUFxN2VzWnRqMjlGSnZyY3l6em1ZY3o0VElrMVBrMTZNTVFiY3ZDLWh2dFlON1lsMmtoMDdzSkFjYV9FMWRnM1RfN2tjQTBMYm9QOW1BSU1UUDNCdjc3NEZEX2JKaHlOODUxMkZ1cDJUdmlKMGtyNzd3NEdhY0p4TXItYWxCZlU2UGkzalIxY3JaRTFiaExxUlJwc0djeXdsdThldGthVzNzR1k0eGpXdUpySkYzTFFYN05sT2x5QmN0QXM?oc=5",
-      "snippet": "The Manila Times",
-      "published": "2026-11-19T14:20:49+00:00"
-    },
-    {
-      "n": 18,
-      "title": "Beeline Holdings to Acquire TYTL Corp. in All-Stock Deal to Expand Into Tokenized Home Equity and Blockchain-Based Real Estate Finance",
-      "source": "Quiver Quantitative",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQU3JXWGhwbE14LUlZS1VScUstUWpRYnJ0bFc4bFlLalVIS3BSRmR5ejU3OERLV1dLeGNhWDRoeXJ0aWVSSTFYampIbjVOZjhyekFpYUVSVVEwTHltUEM3c1pid2xuZHczUzNnYUdIRlBPOTZON0dKZngxREhiSHVqZ2VudTZGZm9fQlpZU3dLbXVnU04zNUpPZ2t5VUR3eDBiUVlRZGluM2FtOEMyNEt2VVlVSVBDN0FWb1pUcHJCeEJzNXQ1QkxBWGw3bDI4QjQxd0N2dkhicFFfbmRXSkxjWnY3T2NiLUxlUkQ4SnpRZ0E2cEtsXzl4R3ozYw?oc=5",
-      "snippet": "Quiver Quantitative",
-      "published": "2026-11-19T14:13:00+00:00"
-    },
-    {
-      "n": 19,
-      "title": "KKR in talks to buy majority stake in EdgeCore - report",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPd2xsbmd6RG8zbWF3LXZFZG9QM3hReGYwbVE4QmU0MWRtYy1USHc5T0kxYnpnOEFTMUxUVFhiX19SRXJjaEdZbFV6WU0zT0ZIZXAxSW1QeVl3ZGduYVhNSFBZTzQyVGZhd1phTUc1UDNVd3ZkTUIwUklZQkVGb0g1aGQ5cWczeVVvMlRfOVQ0MHBpZnhVaWd2Skx5ODV2UlEtVXo5LWlrR0RrYXA5Zk9QVENLenJlYjg?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-20T17:56:46+00:00"
-    },
-    {
-      "n": 20,
-      "title": "KKR in Talks to Buy EdgeCore at Valuation of at Least $8 Billion",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR0YtX0ZUS3E0OWgzN2Y0TFJGT3dGdWZkcVBSbmxFZlNjYlg1N0IzWXlxbzhmMWhTcUJMQUVzd1diSkg3cmNEM3FPcnZMRHNNbmhhWGp5d1B1eEFibElMSzVMWmpMTERPNXdSbi1uMGViZFVCZTBSRng0VkFEbW9MLXhUenROSjJkSlRua2tiY1JSd1VxZEZOZHMxMzUza0JlTDR4REgwdlI4bWZYVzE0MTBBbGE?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-20T17:19:31+00:00"
-    },
-    {
-      "n": 21,
-      "title": "Sanofi Weighs Takeover of US Drugmaker Insmed",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTWxvWmd2QUhzd2gyeS1WNmdFNmVhMlhodXNjUjU4b2VwQllva2d5dFpBMC1aZHVrOUdJX2c1SUpWRkpBSnZrbXA4emlMT3lXYXl3dDFwSV93OFhXdGQxLU53TUNidy0yeTZYZVNtcnZ2Rkk1ckVkY2d6ajZpZjZTY1ptb0ZEMTFreHNxb1VRVnduRHh1Wno2a1ZTMWQ?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-19T17:30:39+00:00"
-    },
-    {
-      "n": 22,
-      "title": "Sanofi weighs takeover of US drugmaker Insmed, Bloomberg News reports",
-      "source": "Yahoo Finance Singapore",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLVVITDJudjZLWkZWcXhKRjRuWFdWZDhMU2dBTV9DODM3MFJaOHZrYUJ0WFdHMzRaNGo2R3JRN0RHQW5EYUU5ajFPSFg3V1NZX25EUnRwMmNrejN6WjJDcl9RTUJFcWM4UU1hQkpJZkJkUDlxWkZfY0d5LXVZQjNjMzM3bktxOFU4Mm9RMQ?oc=5",
-      "snippet": "Yahoo Finance Singapore",
-      "published": "2026-11-19T15:25:37+00:00"
-    },
-    {
-      "n": 23,
-      "title": "Wynnchurch Capital Completes Luxfer Holdings Take-Private Acquisition at $17.37 Per Share",
-      "source": "citybiz",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZV8tRXVLNXVKWDNRd1JmWG1YeS1jV3NXb3owZ01HMmJQUmVWRUxJbTB2WVNrUjdCRmR1cGhtdzg2Rk5mTHpBR0tNV1hxWGZVR3lSbXJiR3RleE50OEVqYVh5Qi0tZGI2RUw3ZjlOd19zR2NIUWd3MXgzVm9wOVBySnVRR1pzRnlOLWRtT3gyNW1mWTFBdDZkd0NLRmF5S2NuSDZJWW1Ma2JZNzRqSm9WbG11bFZvalpyMmE3QTJPTnBkczV6bmc?oc=5",
-      "snippet": "citybiz",
-      "published": "2026-11-19T16:41:12+00:00"
-    },
-    {
-      "n": 24,
-      "title": "Wynnchurch Capital Completes Take-Private Acquisition of Luxfer Holdings PLC",
-      "source": "Quantisnow",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMkF3OTEzdzBBTWNkd0FGMGM4bnJfUVQ5RW5tNWM3V09iWVhXdWR0d2w1a1lORW5EQVBBLU5WU01ZQ1l1ek16SWM2eW5QMElCZW5wVlpzVEZVYnZNQW9namRNdUVjVzNEdm1DNkNXOWM4WmVZcjVrSzc4WG1OSy1vRmVNN2FjZ3Y1cWxJMkJTb2NVNGFYcUp6b3JhUkpZdENnQk5nM0s5dUpZXzdhaWZweTFQQUxLZw?oc=5",
-      "snippet": "Quantisnow",
-      "published": "2026-11-19T15:40:42+00:00"
-    },
-    {
-      "n": 25,
-      "title": "Luxfer Shareholders Approve Acquisition by Wynnchurch Capital",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRlFKU1pENVBwQ0hpejBoQ0pvT1NzczhkN0pyREd6a1ZJT0FEa1lKSTNBSjkzUjVmN2VhaVZHYU1iR3A1eVVCLTRENU1VUmVseUFDNS1vcUlpeXc0QnVIb2htdGFmTUU0djNnc1JyOUJsTHM3VGoxYkJZNlNESUpOaEpGbWxSOC1ycG5EX1JmOUxNT2Z2ekhqWkV6bXI0TFdqakNPZ2wtVXgtNG9KSGpsQTllVFVPdw?oc=5",
-      "snippet": "Yahoo Finance",
-      "published": "2026-11-04T13:45:00+00:00"
-    },
-    {
-      "n": 26,
-      "title": "Palo Alto Networks announces acquisition of Applied Compute",
-      "source": "Telecompaper",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQTZGdTlwYm1SSWhxUWRvZEhaX2x2R00tZ1RDWnp3SV9HLUVKVjNrNEtTMHM2R3hwQjk1ZkhDNnVBdnFEeGctdEpldkl0c0NFTkdvTE9rcXFUcHNzZ0M5aU52aGxlS3dlM2M1LS0yWmRWQS1XNl9yazlPUHBZVVhkLS1YejlCVkN4NVVLSFpPT0VyV3Q0cXk4YVV0UUNKWktWYVM1cQ?oc=5",
-      "snippet": "Telecompaper",
-      "published": "2026-11-19T15:08:44+00:00"
-    },
-    {
-      "n": 27,
-      "title": "Palo Alto Networks to Buy Applied Compute in $4.5 Billion Deal",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM05mYXdsaXZiMks3YmJjdkh1VHF0QWc5VXc4cHljUTBMc2RuVmJweU8tTzRZa1hrV2pkSGhtQXZiVjdsZTk5RV9feUZMS3RSRXlsYUFnR1J2SU9obDZpUzg0QU5XQ0xyTFdvOHZ6STJKTDh4TXB1OHY0eXhNaFBkX2F6bG1aeGwydWNHV1R4aVpOQkJZdmt2UE0yMEk1M1FoZVZkbXFmeVhFVlNIZVBEYVJR?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-19T14:53:06+00:00"
-    },
-    {
-      "n": 28,
-      "title": "Palo Alto Networks bets $4.5B on enterprise AI with Applied Compute acquisition",
-      "source": "CSO Online",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdm15U3FIX255SXdXaV9sRUpoeWFxc0M1QlpxUC1KMEF4cDR5RENCTkRzLXg3bDE0VGFLdUtOTmtLNlM2VmFsbUZPQ2Zaem5oU3hVZmEtQkgxbVhSQU1ObUhFTnY0Y1hvTTltVjAwWlc4aWF3T2Q2NmszVzNLSW53X2ZJMDIyYV9zOWZYcnRtNXZUMnpYWE9qWVBHb2lqWG1FelNtQVR3ajBQeEsxTXFlU0h6ekducnhINmNDMWVZeDRSX3M?oc=5",
-      "snippet": "CSO Online",
-      "published": "2026-11-19T11:38:04+00:00"
-    },
-    {
-      "n": 29,
-      "title": "Palo Alto Networks to Acquire Applied Compute, Bringing Secure Open-Weight AI to the Enterprise",
-      "source": "PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdTFxRWp6OGlTNm5obVhSVGxBQmF0ZWtnOG8wbE9nTlc3TU9zcTBMUVpNeUJZTENOQjg2Nmd2VmFkbmtlWTk2Tm9qbFZZOGZxZlhZOGVTOWpWUDlUODZuYnoyZUdxS2FnMzFweWg3U0IzSU5FSlNyeFNYbWF0LUo3c1BrQm5uU2dzdHh2Q3AtaEwzckxMQTlNT1ZiWlVOb0syZlBUTFFYSGRZa2xnTS0xa0g2Y3lYX2xaSkp4WkZYUmM5YkZiY01ZRkFubzM4bS1ia2Q3Uy1vQldiYjNlWHhqcUhDRjU?oc=5",
-      "snippet": "PR Newswire",
-      "published": "2026-11-18T21:05:00+00:00"
-    },
-    {
-      "n": 30,
-      "title": "Palo Alto raises annual forecast, signs $4.5 billion deal for Applied Compute",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZW5sQ0s3NEtGMUtHWHpjajhUZjB3WW1PcGNIOF9IdktwUTVFbVh6V2VsMVFsWFRBMlE5VmtyUXlPMUtfZlk2UU4zbGxoZ19ocThmVjNudnNUWFhNR3BlT0V5dUxuYVk5VXUyT2EwZHI3QmtTS1N1ejVTV005UmNvdV93MjVEVDBkQldGU3E2bTBzVHpUbWZNY2wtbWx6TzA?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-11-18T21:09:00+00:00"
-    },
-    {
-      "n": 31,
-      "title": "AMPERA, Berto Will Combine in Multimillion-Dollar Deal",
-      "source": "POWER Magazine",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVjJ3Y0FvQjUzT0F6RGVVbUVaTi1FSTJMUEdVb1l5UDZkdUFkcTBjcWN0dDUzZk5NeGNoS0liUUtScU4tS3BNZ1VJS2hGY0lSOU9VcnNKM3hhWUxWZGpQWnM0Z2JENFZTR05oSWx1Q1diY3B1eWpBRWoyclBBcFc1Z3Zpd1ZqZw?oc=5",
-      "snippet": "POWER Magazine",
-      "published": "2026-11-20T18:28:20+00:00"
-    },
-    {
-      "n": 32,
-      "title": "NextEra-Dominion merger cleared by DoJ antitrust division (NEE:NYSE)",
-      "source": "Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSHpKVjhUb1BmdktkVGYzUjBLS1RJRk42cUxVTjJ3Q25OWXVtLXUySEdVY3FJb0p4aDRRbEdHT29KaDA1b0FCanFZNnJSWS1jek9UQlVlUjN4bk1FTVQzVXpPbGVXdWFxaFZYdlVXQ3FJb3RfbG8ycVpLUm5aaXpiQ3JKQ01yNlBEMnNreUU1ZmV6aFNsZzQwelV3NA?oc=5",
-      "snippet": "Seeking Alpha",
-      "published": "2026-11-20T18:19:22+00:00"
-    },
-    {
-      "n": 33,
-      "title": "HSBC Upgrades Tesla to 'Hold' — SpaceX Merger Math Explains Why",
-      "source": "BASENOR - Tesla Accessories",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLThLWFZqSXduTnNnZy1sUm9JVVBLRTFHY2pLZEVtVm04c25zc0Uxb0ZLYk43LTQzdnZIMVhtYVpoWXlKYWlmNDdVd01vNndHRExETnpsMGNEc0RxTjBzYzNDSk1rTENqd3ZWVHZ5QVdkdFA1Y2VFWER1Rm0zbV9UN3RvQkRBSmFhVUIwaWhJUFBDMnZHU0xkSnJB?oc=5",
-      "snippet": "BASENOR - Tesla Accessories",
-      "published": "2026-11-20T17:09:10+00:00"
-    },
-    {
-      "n": 34,
-      "title": "Service Industries subsidiary explores clothing-chain acquisition",
-      "source": "Investify",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ01paEJVNjhDSDFac0ZTV2c3WXZGa21SQ2RhUGh4SEpiWVVjenhMdm9YLWVaNnVuZUtJcUZRMXJBeS1jYUtjN1d5NWNRS0Z1VUtkSkg5VEg0U1JwRDFid2pGdF9GbzRnSTBudjR0VG9yci0zZTlOWjJCbEwtRGt5S0lGU3hOLTlYbm40RWg4akZMaVREekxOMzd2dVRnREluOVd6OGZwNkpINm5I?oc=5",
-      "snippet": "Investify",
-      "published": "2026-11-20T17:00:00+00:00"
-    },
-    {
-      "n": 35,
-      "title": "Tesla Falls 4% Despite HSBC Upgrade and $359 Target Tied to SpaceX Merger Talk; Rivian Drops 5%, Lucid Slides 4%",
-      "source": "24/7 Wall St.",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSzJvWWxtRTVJREpmU3gwSzVtc25IQ1Q1U2FKUUlMUGtYVERoSFRtM2JhRkozNy10em55Sjd5bDBQcVJIRUxQc1dTVURGQTJEY1FoRXVHVU83WGJZMktuTUdkdUY4Rjd3WXJoMHFxdHZNTHNkTk9OOHRnb3BGNlpsZHhVZjRmUlloekxSQnlxc01yOEUzdjRTU095ck9CNDljUEQxZW9VQ294ZktQbjlSTzUyMG14aS1DbW10VEJTSG9TYlEycG43NG94R1pKaHBEZ195TU5hNjdJTDhRQXNiZmIyRmM?oc=5",
-      "snippet": "24/7 Wall St.",
-      "published": "2026-11-20T16:57:00+00:00"
-    },
-    {
-      "n": 36,
-      "title": "COMBINED GENERAL MEETING OF NOVEMBER 20, 2026: ARGAN",
-      "source": "GlobeNewswire",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPNnRlR0h0WGtCRjVVZlJlTVNIQTJOYVZZNUhpeVdhQm5SNGhyUUZ0TmZ2LXNCbHJrNzhGVGxPSXB5dFk3ZVRERGx2YzFSOHZHOHctY3RoeHFZTHB6WEhacTdub0Z2V2ZhWU10dkVpZVc3TkNkYV8wTzZZS2JsV0FJOW9nbGhNRXVsQ1lSZUlWTFBkbmFiMGktQWNENWhmU1ViRGZabHJXcV9neC03WDVMRl9SMEhxUDVtMWpWSzhLQ0V6UHRKc0lEakhrX2ZySnNIZ3M4OFlId0p6TDRISDdTcHpPY0pidFpsODNjc3VlZjF2RnlQSlE?oc=5",
-      "snippet": "GlobeNewswire",
-      "published": "2026-11-20T16:45:00+00:00"
-    },
-    {
       "n": 37,
-      "title": "Servis Industries explores acquisition of clothing retail chain",
-      "source": "Investify",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaHltT3BqbHE5RHdDcU1tcm5objZCNTY0cjlCQkNHQ3JjX191TElWXzVRbUFldkRtNjkwSWdMbTFCNy1WTGpPdVRXaWRudmprdnEyLTRYd2o3T1RqU2Z4aFcwNGljMHVhSDdwRkJHNjRVVWRHcHFlZHpXWjdiT3lDNWx2S2ZfUVRmWUxEZVFwU0p3ZjdIMG55STlvcmhmRGZLRjgyQnh6d0NxQQ?oc=5",
-      "snippet": "Investify",
-      "published": "2026-11-20T16:40:58+00:00"
+      "note": "Quantum Space completes its SPAC merger with $300 million and moves to the NYSE [37]."
     },
     {
       "n": 38,
-      "title": "Trump Officials Met Privately With Hedge Funds on Mega Rail Deal",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSDNYRVVBT183bTlXd2FMSXltLWp2elpHdExYaFlLU2tLZUVyR1VBangzVWRNODE2U2pRUVphazBQczZtaElqeFpXeWcxQkhpSkxBdHA4d2pxTFJUbjQtMzVKZFIyZ1hMMFB1ZDRKb0VXNWN1ZnJldWxnazVBREpZQ3dqb21DM25RdUpwTDlhRmhOU3lrQ1VYTU5oMGF2MHBqMngzU00zYXFtWDFZVkJvS1dNY3prQQ?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-20T16:35:21+00:00"
+      "note": "Townsquare Media board rejects $2.03-per-share takeover bid [38]."
     },
     {
       "n": 39,
-      "title": "US Justice Department closes review of merger between two energy companies — The Hill",
-      "source": "UA.NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOajdwWnRyTWJEelVmbGMzdGFwUmNlamlEZF9oRUJSaldlSmNlbXU1M2ZCS2xXZGtKalZlaVcxY05UalpRYjU4MUFncWNSX2FRM2RlZm00TUNMaGlrZ1Y5OWJwLUFtVDUzRl9zR1g3MlB0UjQ5bWtpYWFtQmVOLXdQSHF2WFdER282UnJMbVZERzRtLURfY3gtRk1rRVhVSWFnQWc?oc=5",
-      "snippet": "UA.NEWS",
-      "published": "2026-11-20T16:00:47+00:00"
+      "note": "Varex Announces Financial Results for Fourth Quarter and Fiscal Year 2026 [39]."
+    }
+  ],
+  "brief": "CrowdStrike to buy Zscaler in $44 billion all-stock deal, creating a cybersecurity giant.\n\nCrowdStrike / Zscaler (Announced): CrowdStrike to buy Zscaler. CrowdStrike is buying Zscaler for $44 billion [1, 2, 3]. The deal is expected to create a cybersecurity giant [8]. The acquisition is expected to be completed through an all-stock deal [5, 7].\nAmazon / Decart AI (Announced): Amazon to Acquire Decart AI. Amazon has agreed to acquire Decart AI for an estimated $7.5 billion [14, 15, 16]. The deal was announced by Amazon on November 23, 2023 [15, 18]. The acquisition is reportedly aimed at strengthening Amazon's trainium chip technology [16, 17].\nTexas Pacific Land / EagleRock Land (Announced): Texas Pacific Land and EagleRock Land Merger. Texas Pacific Land and EagleRock Land are merging in an all-equity deal [25, 24, 23]. The deal is worth $3 billion [23, 24, 22]. The companies have announced the merger [25, 24, 22].\nVerlinvest / Oatly (Announced): Verlinvest Offers for Oatly. Verlinvest is making a below-market offer for Oatly to satisfy Swedish takeover rules [27]. The offer is colliding with Swedish takeover rules, causing Oatly's stock to double [26]. The deal has been announced [26, 27].\nWorkday / C1.ai (Completed): Workday Completes C1.ai Acquisition. Workday has completed its acquisition of C1.ai [28, 29, 30]. The deal governs employee and AI agent access [28, 29, 30].\nABB / Ziehl-Abegg (Announced): ABB to Acquire German Fan Maker Ziehl-Abegg. ABB is acquiring German fan maker Ziehl-Abegg [31, 32, 33]. The deal is expected to double ABB's data center cooling business [31]. The acquisition is part of ABB's expansion into HVAC and industrial cooling applications [33].\nLinamar Corporation / Genie (Announced): Linamar to Acquire Genie from Terex. Linamar Corporation is acquiring Genie from Terex Corporation [34]. The deal will significantly expand Linamar's access to work platforms [34]. The acquisition was announced [34].\nTeledyne / Varex Imaging (Pending approval): Teledyne to Acquire Varex Imaging. Teledyne is acquiring Varex Imaging in an all-cash deal [36, 35]. The deal is pending regulatory approval [35]. Shareholders have already approved the merger agreement [36].\n\nAlso worth knowing:\n- Quantum Space completes its SPAC merger with $300 million and moves to the NYSE [37].\n- Townsquare Media board rejects $2.03-per-share takeover bid [38].\n- Varex Announces Financial Results for Fourth Quarter and Fiscal Year 2026 [39].",
+  "sources": [
+    {
+      "n": 1,
+      "title": "CrowdStrike to buy Jay Chaudhry’s Zscaler for $44 billion",
+      "source": "The American Bazaar",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRG5RWEJ6V0JPTFBaaDhRQjA3cko4SHJ0Nk9ubndCVGZVV1BMbm5idlItWTFlY2labmhPbHFtdXpjbVlmYkRGVkp4M1AteS1ORk1Fd0d4VDJ6QjFDN21IRWtDckxfQXNDYnZiaDJaOTh0bTNGTlluRERQbjE1VzNnY0V5OGl1clpBS3pSZ2Qyc1JQSDRPRXZtZFRCWDF2Njllb2RJRUNR?oc=5",
+      "snippet": "The American Bazaar",
+      "published": "2026-11-23T20:59:28+00:00"
+    },
+    {
+      "n": 2,
+      "title": "CrowdStrike's $44B Zscaler Bet: Why Wall Street Sold the News",
+      "source": "inkl",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNmxhMVhaOGtNZW1DYWkxOGcybU1BczJpZG02dHRncWpDalVHcWJlcFJfT1lBMnZ2aThPVHdFRkNac01LQjlNeEQxTTVuRjI4UXpPandnRWZEcjVLNWs3ZzA5VnRVcWpBM1NidlQxcFRhcVVXdnhyMkpua1V2a2Vwc1ZmR1Q5cTVpNTJIeA?oc=5",
+      "snippet": "inkl",
+      "published": "2026-11-23T18:55:00+00:00"
+    },
+    {
+      "n": 3,
+      "title": "CrowdStrike Agrees to Acquire Zscaler in $43.9 Billion Deal",
+      "source": "Security Today",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWThPcHNybUtpYThYVVgxWFhrQVpMdm5jMjBXUEdzUlJseHo2d3MybS1mT1ZrZVJYbUlmeWhlMDFjZjRxXzY5RXFNT2lQOHdPRVRvdHpKdUpraDFXb3ljbk9IOUE1bnJLX3ZueWNRaklwYzdZeEZHWjN6cXlLM0RuQlU5cUloMGlkVkIyNW1BNVBSRTdWLTlpNUZYRWFMUEhpc3F6U1lDYWtqMng3?oc=5",
+      "snippet": "Security Today",
+      "published": "2026-11-23T18:16:12+00:00"
+    },
+    {
+      "n": 4,
+      "title": "CrowdStrike to Acquire Zscaler for About $43.9 Billion in Largest Cybersecurity Deal Ever",
+      "source": "BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqUUtMbjNVaGtGZEx2d2dPZjRfaWtBRmw0QjdVdjdoZzJVTGxNOVY4NzM0ZDY2Q25kd3BxbXpEa0ZKZXJ1c3JSMFBtU0dkSjFTY3ptWUhqS05qclltaUR6RnJVNzN2V0pBd182YkQteUUtdWlZM1E?oc=5",
+      "snippet": "BigGo Finance",
+      "published": "2026-11-23T17:55:00+00:00"
+    },
+    {
+      "n": 5,
+      "title": "CrowdStrike Agrees to Acquire Zscaler in About $43.9 Billion All-Stock Deal: 21 outlets compared",
+      "source": "NewsCord",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQ3dPWjFvNnhNOUZwTTNVYzBMZUdxeFREeTlpOFhOblotdnpESC1iZEh4RUVMSGRDZmttN0FkRmE3RHk3Qy1RNm9seFJmcnpLeHBTRmMxMjlzTjZXMXVMNC10cV84SF9RLXNlV3BNOFY4enFOWUcwYWpuR3pGeFNpdUFoa0Z6cl84OGlwUG94US1nX2NDdFNURmF0NkVGMXRGOVhpYmhNem5hVXAzYjNBczJ4U0R2Tzdub0JkWjM1Vzh0cWtldjU5bzBQSGRaSnNLeFFqeURvZS13bFY2TTVZRQ?oc=5",
+      "snippet": "NewsCord",
+      "published": "2026-11-23T17:38:26+00:00"
+    },
+    {
+      "n": 6,
+      "title": "CrowdStrike agrees to acquire Zscaler in a $43.9 billion dea",
+      "source": "KuCoin",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iVVhHQWEtdHdDbE8yUVVZcmJMLWxmUHZqaHZKeWRIVG5Vdng0OHlSUlZZYVk5LXB0eElnam9IRWlqMTBZVzk5cWpvSXV4S1ZnaVNMbVQ3bkNWOGpMRkdQMDJHMkZiaUh3LUZFLWJ0dFd3ems?oc=5",
+      "snippet": "KuCoin",
+      "published": "2026-11-23T17:35:10+00:00"
+    },
+    {
+      "n": 7,
+      "title": "Zscaler and CrowdStrike Announce Merger with 1.135 Share Exchange Ratio",
+      "source": "Kalkine Media",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONFRUeFE3aHZaYUViUFBTNndkaDVsbjk2NVhERUN0QUFjTWZacGZpMW1RWjUyZkpvc0tPckdtR1hGcGQxcW53Q3lIVUY4bE1Wdl9JNG14dTRJcFQxTXRiVnZxcEVLLUk0REFfWWw3ZjFrVE12ZkM0Q3hoMFdYSUZpZnRsSFZJWjBXM1ZNbFRYOXVIZGJ6RUt6Nnp2SWJWakpsMzlQNmpadVRrQUhxeWx3SzJwVGxMUkpJ?oc=5",
+      "snippet": "Kalkine Media",
+      "published": "2026-11-23T17:32:48+00:00"
+    },
+    {
+      "n": 8,
+      "title": "CrowdStrike to acquire Zscaler in a $44 billion deal that would create a cybersecurity giant",
+      "source": "AP News",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5",
+      "snippet": "AP News",
+      "published": "2026-11-23T16:33:00+00:00"
+    },
+    {
+      "n": 9,
+      "title": "CrowdStrike Agrees to Acquire Zscaler in $32 Billion Deal",
+      "source": "cwibc.co.id",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9URmdldDJUZVl1Z0FJSXRfTTJhN1JmcV9uYVVWb1dyTFVsOUpaMXdzaVNKQ21IOGFaTVNXWWNBT2d4QlZZVzJlcllkaThFZGJMN3J0U0pTS0xjMnNkUDFOei1PRGV5ekFZamRaOXB1NA?oc=5",
+      "snippet": "cwibc.co.id",
+      "published": "2026-11-23T14:36:53+00:00"
+    },
+    {
+      "n": 10,
+      "title": "CrowdStrike acquires Zscaler in USD 44 billion deal",
+      "source": "Telecompaper",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN0lhWV9FUDBzZUZXXzRPdmlYUDJHYkxld3Y0emNKVUpMS3dSRnQ4OVJzUUl3MEZ6U1lWRUQ2T19mTnE2djY2X1VkbkM4SVl5SW5OTmdVWVVlcElrbXA1RVlRYVVTZEhTbFp4M2hxd2hLOG5wV1pMRWpRdlJJaVhyWUFlOVRCRzc2aUIyU3VFOEh5SllmWEh2UWln?oc=5",
+      "snippet": "Telecompaper",
+      "published": "2026-11-23T14:22:02+00:00"
+    },
+    {
+      "n": 11,
+      "title": "CrowdStrike to Acquire Zscaler in $43.9 Billion Deal",
+      "source": "SecurityWeek",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVFRtTlFHMk4tLUt1RVU1ZXdJaGVtOE5Tc0l0bEhmVzhPNndya1k2aWVhbXY4eVJrSTdNY3l4cHp2RDZYakE1SE40czRNck9oYmdiMEM5dE1IT3BpVWN5bkt3dzJxcjZ5a2t2S0szMEE0N0hxSW5qUFhtejBoQXl6dDNXb1RnQnR1?oc=5",
+      "snippet": "SecurityWeek",
+      "published": "2026-11-23T11:31:44+00:00"
+    },
+    {
+      "n": 12,
+      "title": "CrowdStrike agrees to acquire Zscaler in around $43.9 billion stock deal",
+      "source": "Mezha.net",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTWhNMWhRSWRGU0xkMjZSZUtWbi0wLWw1YlZEaHFZQ1QzUms0LTZBTzdpVnJzMHpRZVZ4MVJCTHdINE1FeFpxbW5vSnp0ZXF1M0tNNi1meExrTXdpb0dZYmQ4enowejF5UWItOFJ5Zzk1SHlxUEtYWVdjZFJvNERFcmJBSF85d0U?oc=5",
+      "snippet": "Mezha.net",
+      "published": "2026-11-23T15:56:19+00:00"
+    },
+    {
+      "n": 13,
+      "title": "CrowdStrike confirms Zscaler acquisition with $43.9 billion mega deal",
+      "source": "IT Pro",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVHNMeDlqb3ZSd1p5QkMtdi10OU5fWldaMVh1Q0hkZk41ZUFFOUd0WFF1SXlHTmptLVFnWTdQczdFb0E0eFJUUXZ6SE1CRVRlbUMxYVg4OXY5WS1nXzVDYWtqT3h6ZU51SHI3T2JBaG1Id2lJbHN2WnRGbW1Qcm9XZmdHMFdMbEZRNzktYjdrS2oxQ2NLZUJYelF0Nm5XbXozeHpabWhLYTFpZ2ZMeUNQX3MybE8?oc=5",
+      "snippet": "IT Pro",
+      "published": "2026-11-23T13:29:23+00:00"
+    },
+    {
+      "n": 14,
+      "title": "Amazon.com, Inc. signed an agreement to acquire Decart AI Ltd for an estimated $7.5 billion.",
+      "source": "marketscreener.com",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdmRnWlZ1aXBRSktnUjFid2Rkb1hTQjJmZ1BJb21Lbkxjbml0OUtBT0ZBeURtZnZ5UDlqQ2QtOFpaTElYU0FQSmJxRWI5eTBycThBV1Z3aXhpX1Z1QjZuQzYzTU5wS2cwWnpFMlFkY09MSWtwakw4VkZLZEJJR0lXendlaE1oVXl5MEVPb2xIWE56TFJVVUZ6cTVLU2k5M2VNbjYtcWFnNUZ1T0NHUGtIanhJdTQ1V0Z2b00tb1k3RE4xUDhxN3phNlpxODlnazEyZWYtVVRickc?oc=5",
+      "snippet": "marketscreener.com",
+      "published": "2026-11-23T21:38:38+00:00"
+    },
+    {
+      "n": 15,
+      "title": "Amazon announces acquisition of startup Decart AI",
+      "source": "upi",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeEdTcFduU0wwU3hWUm9Pcng1d2hNWEVocnZFaVQwRjdkZk9wdl9nMUFuUmItNndnWndlUTF5N2ViS2dCQllKQUpwMmg3RFRUMjBDb05LcTgtM3J6Y0NSekpjTHdwSVdCdFpHb3l4Sm0ybzZGLTlKdkZQRTZIYlFoUWwxU3RBWXptUDRR0gGQAUFVX3lxTE9mMHg2aUxrZWtzNEZtVENYenV4VmFSRktEYmM4NkFjZW1IS0RKLUwxeTRKMWgwb2VwYmc2b3pqNC11UWxmOUtTT2JMVGhvX0M3SGI2MU5oaWhwalVSUk10TkdOZVJQVU9pRS0tTmZkZnQ4OTM0MzhRc21ZNEdfZGYzZ195TjE4WndINUpjcFRaNg?oc=5",
+      "snippet": "upi",
+      "published": "2026-11-23T20:00:55+00:00"
+    },
+    {
+      "n": 16,
+      "title": "Amazon Reportedly Agrees $7.5 Billion Decart AI Deal to Strengthen Trainium Chip Technology",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQjRhVXdJbGFZUFk0amtRN2tWNXVydS1xQm14MUUwODUxeVljaWFSWmtyOHVkejlxRGh3eUVrNGlrVWU3NHBIVkwwWUJtb1FROTNfUDdaT0h5TVhVTUcweDNRYUtiY3U0WUd4cGQtcjB4Q1duU245QXVTOTRKandWUkU0Uk1QZkUyN25fSGFkaGhqbWJVNHd3?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-11-23T15:03:40+00:00"
+    },
+    {
+      "n": 17,
+      "title": "Amazon agrees to buy Decart AI technology and team in reported $7.5 billion deal",
+      "source": "Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeFIzZnZPdFRIN3VHYTNqeWJZc0IxNEJEdGQ0YjhocjFtWElIM1Bfc3VXTmY2aWFudWd3NTMwQmEwbjFycGFwRl9BcFUxNHJVeEh4V0V6RGdpcVcyQmVEanhtbDFqS1ZZVjZmOXdXNTBiNmpSSnJ2bUc0ejdiRUNBdFQ2MjlnXy14cHhndnVTMF8zbVBfNEdSWnJ2Vmp2Z1h2TS1UVjJrRUFjcVZocElrZ0NBWHFTbXdYRWh4U1JLX0tHYjdTdy16bzU2bTJJbnNr?oc=5",
+      "snippet": "Investing.com",
+      "published": "2026-11-23T14:51:37+00:00"
+    },
+    {
+      "n": 18,
+      "title": "Amazon signs $7.5 billion deal for Israeli AI startup Decart's technology and team",
+      "source": "CTech",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZTGJWcUNFNXRnM0V0R2pheVhHNzJLYTBoZWVLdTdWUVBpMEtQTFMzUVFmMmQ1elAzQzRxUWxTX3Y1RWVQalFfM3RlblgxOG5YVlJ0eXV1TGZ4MDEzakRvNzZ6Nk9oRTQ?oc=5",
+      "snippet": "CTech",
+      "published": "2026-11-23T14:21:00+00:00"
+    },
+    {
+      "n": 19,
+      "title": "Amazon Reportedly Near $7.5 Billion Deal to Acquire Decart, Taking Aim at Nvidia With AI Chip Efficiency Push",
+      "source": "BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jSUczV0Q5bWpYN2tEOVdJS2t2X0tPNlZxcW1DNnM4dVFUU21kTk1MNEE2UGR5WXBPYVd0QjBRSmNyUXp4TkV1b1R5eURwT0NGbzVDdUxOdGE2ay1PcW41SjFQSm12el83OS1pUWM1QnNCSWVhbGc?oc=5",
+      "snippet": "BigGo Finance",
+      "published": "2026-11-22T02:25:00+00:00"
+    },
+    {
+      "n": 20,
+      "title": "Amazon Nears $7.5 Billion Acquisition of AI Startup Decart in Push to Challenge Nvidia",
+      "source": "citybiz",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd2NoUk1DQTF6NXdBbW5fVDgyYXVZUEwxS2pwNWlCVEtpVTlHb3g5TXdBWkJyLU5TblpRbnd5R0tQVEVNR25DMjF2cEc0OWduRXFhT0RGQjlpanR1WGJMWklBbERlc3FKUENVc0tmMVU4LVVhcnpUeTczak96OVRXeThtb24wRzZIMmtub0RsUFo0N0xvN1lEUTA3Zk9GUkpmYjJWa2JzUHg0S240ZGNadzNFX001REE0dXl2cHNybU5sQQ?oc=5",
+      "snippet": "citybiz",
+      "published": "2026-11-23T07:42:06+00:00"
+    },
+    {
+      "n": 21,
+      "title": "Amazon nearing $7.5B deal to buy AI start-up Decart: FT",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPV3dvcTdsa2x0c1EtSzQ4M1N2ajBOdzlBSDZWVzNvTm1fNUh5ZkNQNFBvV0JYdExVaGthbVRZWG10eHdyWDhUTG1fVjhOVXFVQm1tano2WVIxbGNoUWF3VGxjUUY1OWZxc0hHZjRrSV8xS20wbWFDeDhnMXVZSWdsaW5oT0QzNkVFREVROWJnMkpDUlZNWF8wVklLc191VHpCdzVOOURBZTl4LWJhT1RKbzkxdHZPNWc?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-21T18:04:35+00:00"
+    },
+    {
+      "n": 22,
+      "title": "EROK: Texas Pacific Land agrees to merge with EagleRock Land",
+      "source": "Quantisnow",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUVFETVR1WXFNckpVVlhxQWZvYTk5bzNjYzZpajJmaGlrWFpCQk4yekZXdVRvMnJVMU5FM0kyMHJHQ3ZLR21FdWVFU05yUlFlbGgyM05vWVIzdEJPTDRCVV9qUnF2LW5aTU90RTJCMm5Bbkx6ZXVMU3hZdGFHODlJNmlCc2pIUQ?oc=5",
+      "snippet": "Quantisnow",
+      "published": "2026-11-23T21:56:25+00:00"
+    },
+    {
+      "n": 23,
+      "title": "Texas Pacific Land agrees EagleRock acquisition in $3 billion Permian deal",
+      "source": "Traders Union",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQckRtRHJ2T0JQLUxMdGpob1F5cnRLWE50WHNrNUhKUTFoTUxVY2pCbUp0LWZRVzdpQkFIRE0yTzB0NlhaWEJaS0VWM1ltV0UtRnNqZXpSVm9ieXgzSk9raDZIT0NmczJscTN3YV91eG00ZFVhRzJ1Y19yWjROd0RlRkQxRk9XT29CbmMzZ3dwdDJ4RmU0?oc=5",
+      "snippet": "Traders Union",
+      "published": "2026-11-23T15:10:33+00:00"
+    },
+    {
+      "n": 24,
+      "title": "Texas Pacific Land to Acquire EagleRock in $3 Billion Deal",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU24yd25YZFJ4bDI5YWdNMmhqTkRMejRrNTFacTFic3lJOUMwYlhsZUNVREdsM1FlZkhLVkx4c0RZUnc1UGtHam90VGEyMzdUdUNEVDFUdHBYaVBOQjhfb3FiOHRJSWMwbFF5d2VFY3hYbFFtUnQ4OERJM2xrX0pITHlSal95TzZzRW05emh5WFpnMHczX3R1dUtQUjkydDV1QmZObm04ejZ4WjFKcG1FRw?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-11-23T14:47:51+00:00"
+    },
+    {
+      "n": 25,
+      "title": "EagleRock Land and Texas Pacific Land Announce All-Equity Merger Agreement",
+      "source": "Kalkine Media",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaGtuM3FqQ2hfZW9lTS1MN0QweE1GNjRDamNEdGNmdmw5UE12ajNEWE5FMVp5ckMyNFRLRU14eml6dVJPMjBfTDU5SlNXdlZ4SW5pMnJRa2MzTUZjbEIxQUdwa1Y0RnFacmlrS0tfMC00Y2xPNnN6T2FVZUhmU0N1SVBld1psOEFPdjMwaVA2NFRtNXdHM0dDMEhlRTJOTlp4QldxelVsaEQ1T3g0bk5WRW9QR05laUdmekFhdm5R?oc=5",
+      "snippet": "Kalkine Media",
+      "published": "2026-11-23T13:45:41+00:00"
+    },
+    {
+      "n": 26,
+      "title": "Oatly stock doubles as a $4.13 Verlinvest offer nobody should accept collides with Swedish takeover rules",
+      "source": "Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYzR0N3JWbkY5b09jeHYtcUJ0NjNoZXMzWlh5S3ZHNjJ6N21hY0tVeW5jbUtvRDZMMGozajBDY1lLbGpfTmZaM1pSektPaUpJTEszMHdGWXl5OENDUkY5b3ZCMGJXcE9oT1dlWmdnY28zaHhwN0VHTlg4STRlcmtRbzhMVHN3ZHRQdHpzOFVHTml4SWE1Z3hUQzdlby0wTENtaEh5eXZKcGtjdWZPR1pMNC1WaDRmaVV0VlJCdzJwXzVPX2NDSTV0ZGhRSQ?oc=5",
+      "snippet": "Startup Fortune",
+      "published": "2026-11-23T21:19:43+00:00"
+    },
+    {
+      "n": 27,
+      "title": "Verlinvest Launches Below-Market Bid for Oatly to Satisfy Swedish Takeover Rules",
+      "source": "vegconomist.com",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZ2ZPWE4zTTU3UEZSNW5aQ0lWTlg2Z2VpWjNQTzNCaEM5aDBjVU5ITlFNVkFKWU1hX1RhTEktNkE2cUx6QmhSS2JSeW93V21leUlrb3podnZMdkZoOWVWZkRHY1FhdF9TMWdSMWxxeXRTbzhpTS1zU25UQmVUSjFtVExfZzZQeTcxU3hXMU5vd2pFTlRnYjBLNGFkcEt3RV9FTWs1bDI0RUZEd3NWRm9hUzlXcmRMdEtfVjI3VEk2TGlodXhYLWtDT2c3T3ZlZndTNjQxMnNuOXlJYWM?oc=5",
+      "snippet": "vegconomist.com",
+      "published": "2026-11-23T12:17:40+00:00"
+    },
+    {
+      "n": 28,
+      "title": "Workday Closes C1.ai Deal to Govern Employee and AI Agent Access",
+      "source": "Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ3FGLTFjdml6dFNhZUNPQ2FqMXVqWlNaYWhtWmx5QnNVR050YTJ4MGJtSS0wSE1rejNxSWdxbldIU0hyeEZZZVZoQW5QS0NYTFNpRkRmcnkzYTdVdWRZeWVOWjZoTWV5WVpjTHJWMWV5UDZGSUxmdUgxOTZObW5sS05oallXNlZET2tyRE9ndw?oc=5",
+      "snippet": "Unite.AI",
+      "published": "2026-11-23T14:45:03+00:00"
+    },
+    {
+      "n": 29,
+      "title": "Workday completes acquisition of C1.ai",
+      "source": "Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPLXJETVpwOVF6ZTJVNzNna1oyZFMtSFFhbGFoanM1RzI4aDRDSDZiNWtIcEduLVZlR1JmRU1oS1B6UG9saVBPeGx5ZzQzS1JQWkRMYlNOTWVtV0lNZGloQkNXMU4zNTZhTHY1cDZKcHUzSVZtWTcyY2cweXFNeEhLcw?oc=5",
+      "snippet": "Crypto Briefing",
+      "published": "2026-11-23T14:29:30+00:00"
+    },
+    {
+      "n": 30,
+      "title": "Workday completes C1.ai acquisition to govern employee and AI-agent access",
+      "source": "Superpower Daily",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZDUxakJlblA5QjZsUUk5d2JxQWNJTnM1ZmkxU1RMdktiWVlaaDhGSVR5THdSQmhoVmt3WDNFQnJRdl9wVW8tRWFXLWo3ZmRtRGRWNTRtT0d1bFFlOXVTMTNYcWVGMUFsWFY1VVhnTUJrQ3k2WUxlVWs2TlhPd1dNb2wweVE3cXBKV1NNbU5TODcyUTFqYmszWHNNbzZESlh5Yy1jZjhYVjExSVNK?oc=5",
+      "snippet": "Superpower Daily",
+      "published": "2026-11-23T15:40:44+00:00"
+    },
+    {
+      "n": 31,
+      "title": "ABB to Acquire German Fan Maker Ziehl-Abegg for $2.65 Billion, Doubling Down on Data Center Cooling",
+      "source": "BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXQTU1VmdxU29sX1JBN2Nta2NzWERlV1JEVUJvc3prSGVzU01BZjVLdmxwZ0RhT3JBblVGME9nZ1hwNFFaYWVud0hzeUtYV1FSOHFrcUo1cjZlVjBQckpCQkd1TUJOVVZNNXRsTEs3ZE1jS1c4Q1E?oc=5",
+      "snippet": "BigGo Finance",
+      "published": "2026-11-23T14:42:06+00:00"
+    },
+    {
+      "n": 32,
+      "title": "ABB Ltd signed an agreement to acquire ZIEHL-ABEGG SE from family for $2.2 billion.",
+      "source": "marketscreener.com",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS3V1Z2FtVnIxQWpBNFhHWExwb2RBMk9HZ1lWd2FaczZpTjh5YVZjR3hfMjRCb1FRSkp5aTJqYnBISENlR1JOd0dmSi16MXFQbGg5bzNRNzcyVHZESThOb2d1QzM4QVBmdlc1WUtubXM2N3pqYzBHcHVXTGVib1YzTDdVUWpUUDljUV9QdEtlWVZhQjFIM2FmQUw4b0xYTGZnSnI1bUNaVFZmMjJLSW9NUWVMRUlrRHkweFd5UWxTRUN6Y1RSdmxEUnZXUXhmdUE?oc=5",
+      "snippet": "marketscreener.com",
+      "published": "2026-11-23T14:26:59+00:00"
+    },
+    {
+      "n": 33,
+      "title": "ABB to acquire Ziehl-Abegg, expanding offering for HVAC and industrial cooling applications",
+      "source": "ABB",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdjN3MnUzekVZUWZvcGNZNEt0SHplclNEakR5Tjdid1M5VWZSQWFFTEFxdm9HVlhHZkVQRWlYSFRkcmNTYnk5N2t5dl9DYzZ1MXBEbFV5cFplNXdzdjA5QnFVNXpvTWxiRGFOSVBZNjBRSTRWbjQ3X0hseFpYV2FzS0RjMEZXZm5ydERVRTMyMVh0Um1wYlFCNzR5dzdFbVFRUXlMUmUxX1VrTHg5QlVubGxSUEN1ZlFRSGdqdGx1b2hyNHo4ZHcwVzhudGk?oc=5",
+      "snippet": "ABB",
+      "published": "2026-11-23T07:21:35+00:00"
+    },
+    {
+      "n": 34,
+      "title": "Linamar Corporation to Acquire Genie from Terex Corporation, Significantly Expanding its Access Work Platforms Group",
+      "source": "GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNTE9ZSlRwTF8zWVJ4eWJKTkp5QTdqZ0hYT00zUXRnd2tYbXBUbWw2UEpFWERfdVRWcHJUSmNMZW1mZXZ0b2x0RWZUeDQwa01FSjZCVEVneVhBcWxHZlFINkN4OHNVUnJYYjBybDRwUHRSZEtMYWMySmJJSjFUMFJXYVBJRFo3QmNuZ0JQVU1NU2NLd2g4ZTVNR011bk1vaXMyTFF4Zm9NLXVGWlpnaGtXclhyeTRuM2hTOGxJWFNqXzB3cTYxYkVteXpQbWM1emRrM2FvLUlqTTlvU3lEMWtQRXZEbzVtTWFTTWh3WEpyTUVYaktRbnA1MWRaX3FEaVdKWF9WSm8yQ05GSDFTdFJIcWtrVUtoQQ?oc=5",
+      "snippet": "GlobeNewswire",
+      "published": "2026-11-23T22:05:00+00:00"
+    },
+    {
+      "n": 35,
+      "title": "Shareholders backed Teledyne’s all-cash deal for Varex Imaging (VREX), but the regulatory wait has lengthened.",
+      "source": "Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUjZ4ODZ5X284V3RKYXFXU2Z5a3pEaENZYnNvMHhEZ0pjbG5lRlg5Uk9ncG9yNC1waGtHOW1lM3pUVWpfN3A0d0ZSNW8waEM0V1ByaG0tZm5Fbjd5azdaUXAtWkRvQ21aRUhyYXhzcDNnTVBzYzBwUXpuNVZoaUYwanViTkdXXzdYWnVXNDIwdnExV2F6Wm4xNHZQZjBaUE1qb09aQXJaTG1yYlU?oc=5",
+      "snippet": "Stock Titan",
+      "published": "2026-11-23T21:44:12+00:00"
+    },
+    {
+      "n": 36,
+      "title": "Varex Imaging Shareholders Approve Teledyne Merger Agreement",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa2U3elVzR01JcWp3ZEZnY25nTzVzQmVXU1c4M1hfcThCdVJHVHVNS2ZrZUFKZVJOZU9VR0pVQ2N4VlVOT2FsNUwtTTF5OFQyYjhMakF6ejJhWU9Pdnc0VzdXdHlfUDVWVWltVGtRcDV4d2RmbUdwWmRlY3k5RVRkTWZ3NmgzbjlhSTc5czkwVlJ1azZzRGhMcWw2VnR2RmlnanBlR3pfLV80a0dS?oc=5",
+      "snippet": "Yahoo Finance",
+      "published": "2026-10-29T02:04:00+00:00"
+    },
+    {
+      "n": 37,
+      "title": "Quantum Space completes its SPAC merger with $300 million and moves to the NYSE",
+      "source": "MLQ.ai",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUGJ3TGlNa3V0SkJ4VTdQWDQ0T3VkNkRNc3M5NGZWcDVYOFp6X0p3Tm1QWTlLZWdLZHVEZkxMYl93M3Y1a2twbE9UVDQwb1hrZDQ0eEd4OVJFcElTcGxjNVExdXZTQTFHNm9MVE9Ba05jbzhTZUxseXVYRnNqbl9zaDRsTVc4RFF6b3Y5ZVdkWDRCbUJUaXdwNHFBNGlBUEVl?oc=5",
+      "snippet": "MLQ.ai",
+      "published": "2026-11-23T21:38:11+00:00"
+    },
+    {
+      "n": 38,
+      "title": "Townsquare Media board rejects $2.03-per-share takeover bid",
+      "source": "StreetInsider",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdFNIdEJndy0wQXdmRG5tX2VzWlJiTzdRSlVha3R0Q1NDLTBpZUlUYzF3MkhiMUtZZGlsTHg4ejZJRkZfTkQ0N3U5a19Na1MyUmxGLUVsSk90bnpNeGhGVjhVNHJLdm5uUkUxYVEtZEMxSDBmbC1NQ2l0elg3WUM1NGpzYUVFRTdPdnZtT0RCcGJ6TE5XRXF6OEUyRHVQeUlPUXJFV3N5c3hMR3JSUUFoc0JmdUJNMHZyZzRaYw?oc=5",
+      "snippet": "StreetInsider",
+      "published": "2026-11-23T21:31:59+00:00"
+    },
+    {
+      "n": 39,
+      "title": "Varex Announces Financial Results for Fourth Quarter and Fiscal Year 2026",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVDg1TnNkRFRudjNFMzI4ODE2OUVnMjBBNERXLU1qUHJhVjFDMDg0M3dMQXltdnJkMDFpNE9BcW1KcDUtQzA1UDRnWXhQUTZpX1g5Q25fWE1DU0pNdVpFNFJKQlU0QkVpYWViR0FrQjJyQVd1N19NRmhzaU55WDJqRjd6VzY3WE5pdlhqWFA2eEtPYTU2UHBfRnBibHl3Ym4tcFJ0dGM5ejdlR084NjNyWHBSS0pmNjYybnlPeTdXLUpPRTJMVi1jU2FB?oc=5",
+      "snippet": "Business Wire",
+      "published": "2026-11-23T21:30:00+00:00"
+    },
+    {
+      "n": 40,
+      "title": "DGEN TECHNOLOGIES COMPLETES ACQUISITION OF EXCLUSIVE LICENSE TO HUMANOS ARTIFICIAL INTELLIGENCE TECHNOLOGY",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxObXZwRWx3TVNXdlBvSndfcEZWcFF6SDBIWGpjNDQydUlpQVdDYjRMNzdmeTJXZHZxRmhtM2pENnFnQmhIV19UTnlhOXpGN3hVV2l1c1pHaENLSTI0cUVrVXJkcEdwMkRZazBvOUhqVHBaVnFjX004LXdoaTJwblh6TGlxRG9LWl9CWVAzS1d4bUxqTzgwdkpSUmt5SVJKNXdvdVJWMm8wODdpWXVDNlZRRG1KQTZ3ajRaR1VDeGt6TDd5RnVmUWVzS2JGS05jSWxfNzlFa2dHVXpNelRuZ3R0OWpka2pOUjBZOXVDWnBqWl83cks1cDNhSGxhUQ?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-23T21:30:00+00:00"
+    },
+    {
+      "n": 41,
+      "title": "Alta Equipment Group Agrees to Acquire Jackson Group Peterbilt in Proposed Transformative Deal",
+      "source": "GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQMWpiakdBVXVLcERIcjZETmxGUmVaVF81S0lRNy16UUNYcVhHbVlGTzA2czBqbHh0aHh6Z3J4SmljX0k5UkoxNWZLeWdRYjdlTHpXb2ZGb3J3bDk4VUJIb2lKUTZ5NGprZVI0Tk5SMWxqR3pMT1pNM3gyTVRfSVJ2Y0xhY3RRRXpjc3NUOFhYR3c5QW4zRXVCUnVCMlJGZW0xVHIzcTJETS0ySHdkVS1sLUY3azNpM2ZhVzF4YXFEU0xUWHFUU0xqMHNMRzR2WHJEb0NUeGlyUmVobnhvamJfOE0zNmRvZlZmV1lWT2tDUU1fbkRDT2JhNG5B?oc=5",
+      "snippet": "GlobeNewswire",
+      "published": "2026-11-23T21:15:00+00:00"
+    },
+    {
+      "n": 42,
+      "title": "GreenCorp to acquire No. 7 North American mold maker Cavalier Tool",
+      "source": "Plastics News",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ0o1b2h0X1I0ZlR1UmJtXzZOUmlKVmtsSjZLdEc4TS1TaUtLN0E1UURId0NJWUNZUUtELVZUaUVtc0lQM2gtaWtiWXNZaWVTcWxReUNFb0NObTRyaHpDZWRCZ3hkMDFEZ0JqNFVuYS1pUjhjcDgzSDJwUHF1NzhaNlhkNWllTTkyVUtrQlpqdEdwTlA2?oc=5",
+      "snippet": "Plastics News",
+      "published": "2026-11-23T20:08:00+00:00"
+    },
+    {
+      "n": 43,
+      "title": "Kroger’s Giant Eagle Bid Puts Ohio Shoppers and Their Data in the Spotlight",
+      "source": "Gadget Review",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONy1kbERZdnVoX0dIVmpTeEVTWU44OTY4aFZXNXl4TzBWVmdwNHREbVI5QzdoLWdvSTBxeVdvY1BxdVo4Z3RmR2Y4ODVRVnlTand5dF92QzlvV1FZWVlZSHVoQjVBUFEybmJ3SkVHNEMwMkl3emJxZVV6WHpiT05jUWJ4OUJJc2k2YlVGLWo3ajIyLVloOEdrOE1iTmVBaVY5ZlpadWpB?oc=5",
+      "snippet": "Gadget Review",
+      "published": "2026-11-23T18:33:54+00:00"
+    },
+    {
+      "n": 44,
+      "title": "\"Done Deal\" as Diversified completes $1.8 billion acquisition",
+      "source": "Oklahoma Energy Today",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnowU3oxcGpJbV9MSWNiRVZyZUhyUjRfb3dLMk1VT3hlelBKYXNLRm1UbG9CMmFOWllTdUFFaTZ1NXU3bEFtVnRzUS1zNGJkdnFsQ2R4M28tUzVJb1pCREZNYzd2MmNWT0xaSXdGTS1iWUd6NDAxc09FMVZfa3RUMDRXWHY0UkVRRFFLcmZPa1I3a0huanJrbQ?oc=5",
+      "snippet": "Oklahoma Energy Today",
+      "published": "2026-11-23T18:33:09+00:00"
     }
   ],
   "cited": [
     1,
     2,
     3,
-    4,
     5,
-    6,
     7,
     8,
-    9,
-    10,
-    11,
-    13,
+    14,
     15,
     16,
     17,
     18,
-    19,
-    20,
-    21,
     22,
     23,
     24,
@@ -696,181 +746,174 @@
     31,
     32,
     33,
-    34
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
   ],
   "invalid_citations": [],
-  "example_prompt": "Deal: TPG and BILL.\nStage: Announced.\n\nHeadlines:\n[1] Yahoo Finance UK, Nov 20 12:10 PM ET: BILL to Go Private in $6 Billion Acquisition Deal With TPG and Corpay\n    Yahoo Finance UK\n[2] Yahoo Finance UK, Nov 20 10:35 AM ET: BILL to be acquired by TPG and Corpay in $6 billion all-cash deal\n    Yahoo Finance UK\n[3] PYMNTS.com, Nov 20 07:11 AM ET: TPG and Corpay Agree to Buy BILL in $6 Billion Deal\n    PYMNTS.com\n[4] MLQ.ai, Nov 20 01:22 AM ET: TPG and Corpay agree to take BILL private in a $6 billion cash deal\n    MLQ.ai\n[5] CEO경제신문, Nov 19 07:00 PM ET: TPG and Corpay agree to take BILL private in a $6 billion deal, repeating their AvidXchange playbook\n    CEO경제신문\n[6] Reuters, Nov 19 06:29 PM ET: TPG to take BILL Holdings private in $6 billion deal\n    Reuters\n[7] Dealroom, Nov 19 06:17 PM ET: BILL to go private in $6B buyout led by TPG with Corpay\n    Dealroom\n[8] Yahoo Finance, Nov 19 05:46 PM ET: BILL Agrees to be Acquired by TPG in Partnership with Corpay\n    Yahoo Finance\n\nWrite the subheading and sentences.",
+  "example_prompt": "Deal: CrowdStrike and Zscaler.\nStage: Announced.\n\nHeadlines:\n[1] The American Bazaar, Nov 23 03:59 PM ET: CrowdStrike to buy Jay Chaudhry’s Zscaler for $44 billion\n    The American Bazaar\n[2] inkl, Nov 23 01:55 PM ET: CrowdStrike's $44B Zscaler Bet: Why Wall Street Sold the News\n    inkl\n[3] Security Today, Nov 23 01:16 PM ET: CrowdStrike Agrees to Acquire Zscaler in $43.9 Billion Deal\n    Security Today\n[4] BigGo Finance, Nov 23 12:55 PM ET: CrowdStrike to Acquire Zscaler for About $43.9 Billion in Largest Cybersecurity Deal Ever\n    BigGo Finance\n[5] NewsCord, Nov 23 12:38 PM ET: CrowdStrike Agrees to Acquire Zscaler in About $43.9 Billion All-Stock Deal: 21 outlets compared\n    NewsCord\n[6] KuCoin, Nov 23 12:35 PM ET: CrowdStrike agrees to acquire Zscaler in a $43.9 billion dea\n    KuCoin\n[7] Kalkine Media, Nov 23 12:32 PM ET: Zscaler and CrowdStrike Announce Merger with 1.135 Share Exchange Ratio\n    Kalkine Media\n[8] AP News, Nov 23 11:33 AM ET: CrowdStrike to acquire Zscaler in a $44 billion deal that would create a cybersecurity giant\n    AP News\n\nWrite the subheading and sentences.",
   "retrieval": [
     {
-      "deal": "TPG / BILL",
-      "query": "TPG BILL acquisition merger deal",
+      "deal": "CrowdStrike / Zscaler",
+      "query": "CrowdStrike Zscaler acquisition merger deal",
       "hits": [
         {
-          "n": 2,
-          "similarity": 0.802
+          "n": 9,
+          "similarity": 0.887
         },
         {
           "n": 3,
-          "similarity": 0.8
+          "similarity": 0.886
         },
-        {
-          "n": 1,
-          "similarity": 0.799
-        },
-        {
-          "n": 6,
-          "similarity": 0.792
-        },
-        {
-          "n": 8,
-          "similarity": 0.773
-        },
-        {
-          "n": 4,
-          "similarity": 0.76
-        }
-      ]
-    },
-    {
-      "deal": "Bending Spoons / Mailchimp",
-      "query": "Bending Spoons Mailchimp acquisition merger deal",
-      "hits": [
         {
           "n": 10,
-          "similarity": 0.862
-        },
-        {
-          "n": 13,
-          "similarity": 0.829
-        },
-        {
-          "n": 9,
-          "similarity": 0.809
-        },
-        {
-          "n": 12,
-          "similarity": 0.789
+          "similarity": 0.878
         },
         {
           "n": 11,
-          "similarity": 0.773
+          "similarity": 0.877
+        },
+        {
+          "n": 12,
+          "similarity": 0.872
+        },
+        {
+          "n": 13,
+          "similarity": 0.869
         }
       ]
     },
     {
-      "deal": "Beeline Holdings / TYTL",
-      "query": "Beeline Holdings TYTL acquisition merger deal",
+      "deal": "Amazon / Decart AI",
+      "query": "Amazon Decart AI acquisition merger deal",
       "hits": [
-        {
-          "n": 17,
-          "similarity": 0.866
-        },
-        {
-          "n": 15,
-          "similarity": 0.84
-        },
-        {
-          "n": 16,
-          "similarity": 0.835
-        },
-        {
-          "n": 18,
-          "similarity": 0.81
-        },
         {
           "n": 14,
-          "similarity": 0.761
-        }
-      ]
-    },
-    {
-      "deal": "KKR / EdgeCore",
-      "query": "KKR EdgeCore acquisition merger deal",
-      "hits": [
+          "similarity": 0.853
+        },
         {
-          "n": 20,
-          "similarity": 0.799
+          "n": 17,
+          "similarity": 0.837
         },
         {
           "n": 19,
-          "similarity": 0.757
-        }
-      ]
-    },
-    {
-      "deal": "Sanofi / Insmed",
-      "query": "Sanofi Insmed acquisition merger deal",
-      "hits": [
+          "similarity": 0.814
+        },
         {
-          "n": 22,
-          "similarity": 0.749
+          "n": 20,
+          "similarity": 0.802
         },
         {
           "n": 21,
-          "similarity": 0.744
+          "similarity": 0.798
         }
       ]
     },
     {
-      "deal": "Wynnchurch Capital / Luxfer Holdings",
-      "query": "Wynnchurch Capital Luxfer Holdings acquisition merger deal",
+      "deal": "Texas Pacific Land / EagleRock Land",
+      "query": "Texas Pacific Land EagleRock Land acquisition merger deal",
       "hits": [
         {
-          "n": 25,
-          "similarity": 0.86
-        },
-        {
           "n": 24,
-          "similarity": 0.858
+          "similarity": 0.882
         },
         {
           "n": 23,
-          "similarity": 0.851
+          "similarity": 0.866
+        },
+        {
+          "n": 25,
+          "similarity": 0.855
+        },
+        {
+          "n": 22,
+          "similarity": 0.847
         }
       ]
     },
     {
-      "deal": "Palo Alto Networks / Applied Compute",
-      "query": "Palo Alto Networks Applied Compute acquisition merger deal",
+      "deal": "Verlinvest / Oatly",
+      "query": "Verlinvest Oatly acquisition merger deal",
       "hits": [
         {
           "n": 27,
-          "similarity": 0.846
+          "similarity": 0.77
         },
         {
           "n": 26,
-          "similarity": 0.813
-        },
-        {
-          "n": 28,
-          "similarity": 0.768
-        },
-        {
-          "n": 29,
-          "similarity": 0.761
-        },
-        {
-          "n": 30,
-          "similarity": 0.751
+          "similarity": 0.728
         }
       ]
     },
     {
-      "deal": "AMPERA / Berto",
-      "query": "AMPERA Berto acquisition merger deal",
+      "deal": "Workday / C1.ai",
+      "query": "Workday C1.ai acquisition merger deal",
       "hits": [
         {
+          "n": 29,
+          "similarity": 0.791
+        },
+        {
+          "n": 30,
+          "similarity": 0.775
+        },
+        {
+          "n": 28,
+          "similarity": 0.753
+        }
+      ]
+    },
+    {
+      "deal": "ABB / Ziehl-Abegg",
+      "query": "ABB Ziehl-Abegg acquisition merger deal",
+      "hits": [
+        {
+          "n": 32,
+          "similarity": 0.854
+        },
+        {
           "n": 31,
+          "similarity": 0.823
+        },
+        {
+          "n": 33,
+          "similarity": 0.808
+        }
+      ]
+    },
+    {
+      "deal": "Linamar Corporation / Genie",
+      "query": "Linamar Corporation Genie acquisition merger deal",
+      "hits": [
+        {
+          "n": 34,
           "similarity": 0.802
+        }
+      ]
+    },
+    {
+      "deal": "Teledyne / Varex Imaging",
+      "query": "Teledyne Varex Imaging acquisition merger deal",
+      "hits": [
+        {
+          "n": 36,
+          "similarity": 0.849
+        },
+        {
+          "n": 35,
+          "similarity": 0.777
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 190,
-    "headlines_new": 115,
-    "index_size": 2455,
-    "deals_found": 38,
+    "headlines_fetched": 192,
+    "headlines_new": 187,
+    "index_size": 2463,
+    "deals_found": 30,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19

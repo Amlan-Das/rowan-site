@@ -238,6 +238,13 @@
    "found": 38,
    "new": 7,
    "cumulative": 184
+  },
+  {
+   "date": "2026-11-23",
+   "shown": 8,
+   "found": 30,
+   "new": 7,
+   "cumulative": 191
   }
  ],
  "deals": {
@@ -590,10 +597,10 @@
    "acquirer": "Amazon",
    "target": "Decart AI",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-14",
-   "stage": "Rumored",
-   "value": "$7B",
-   "usd": 7000000000.0
+   "last_seen": "2026-11-23",
+   "stage": "Announced",
+   "value": "$7.5 billion",
+   "usd": 7500000000.0
   },
   "skyx|leading ai smart home": {
    "acquirer": "SKYX",
@@ -1917,11 +1924,66 @@
    "first_seen": "2026-11-20",
    "last_seen": "2026-11-20",
    "stage": "Announced"
+  },
+  "crowdstrike|zscaler": {
+   "acquirer": "CrowdStrike",
+   "target": "Zscaler",
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "stage": "Announced",
+   "value": "$44 billion",
+   "usd": 44000000000.0
+  },
+  "texas pacific land|eaglerock land": {
+   "acquirer": "Texas Pacific Land",
+   "target": "EagleRock Land",
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "stage": "Announced",
+   "value": "$3 billion",
+   "usd": 3000000000.0
+  },
+  "verlinvest|oatly": {
+   "acquirer": "Verlinvest",
+   "target": "Oatly",
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "stage": "Announced"
+  },
+  "workday|c1 ai": {
+   "acquirer": "Workday",
+   "target": "C1.ai",
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "stage": "Completed"
+  },
+  "abb|ziehl abegg": {
+   "acquirer": "ABB",
+   "target": "Ziehl-Abegg",
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "stage": "Announced",
+   "value": "$2.65 Billion",
+   "usd": 2650000000.0
+  },
+  "linamar corporation|genie": {
+   "acquirer": "Linamar Corporation",
+   "target": "Genie",
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "stage": "Announced"
+  },
+  "teledyne|varex imaging": {
+   "acquirer": "Teledyne",
+   "target": "Varex Imaging",
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "stage": "Pending approval"
   }
  },
  "totals": {
-  "deals": 184,
-  "with_usd_value": 92,
-  "usd": 706479700000.0
+  "deals": 191,
+  "with_usd_value": 95,
+  "usd": 756629700000.0
  }
 }
