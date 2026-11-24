@@ -245,6 +245,13 @@
    "found": 30,
    "new": 7,
    "cumulative": 191
+  },
+  {
+   "date": "2026-11-24",
+   "shown": 8,
+   "found": 32,
+   "new": 5,
+   "cumulative": 195
   }
  ],
  "deals": {
@@ -472,10 +479,10 @@
    "acquirer": "Amazon",
    "target": "Decart",
    "first_seen": "2026-10-12",
-   "last_seen": "2026-10-12",
-   "stage": "Rumored",
-   "value": "$7 billion",
-   "usd": 7000000000.0
+   "last_seen": "2026-11-24",
+   "stage": "Announced",
+   "value": "$7.5bn",
+   "usd": 7500000000.0
   },
   "albertsons|kroger": {
    "acquirer": "Albertsons",
@@ -1906,8 +1913,10 @@
    "acquirer": "Sanofi",
    "target": "Insmed",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-20",
-   "stage": "Rumored"
+   "last_seen": "2026-11-24",
+   "stage": "Announced",
+   "value": "$41 Billion",
+   "usd": 41000000000.0
   },
   "palo alto networks|applied compute": {
    "acquirer": "Palo Alto Networks",
@@ -1929,10 +1938,10 @@
    "acquirer": "CrowdStrike",
    "target": "Zscaler",
    "first_seen": "2026-11-23",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "stage": "Announced",
-   "value": "$44 billion",
-   "usd": 44000000000.0
+   "value": "$43.9 billion",
+   "usd": 43900000000.0
   },
   "texas pacific land|eaglerock land": {
    "acquirer": "Texas Pacific Land",
@@ -1979,11 +1988,50 @@
    "first_seen": "2026-11-23",
    "last_seen": "2026-11-23",
    "stage": "Pending approval"
+  },
+  "linamar|genie": {
+   "acquirer": "Linamar",
+   "target": "Genie",
+   "first_seen": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "stage": "Announced"
+  },
+  "blackstone warburg pincus apollo|global payments": {
+   "acquirer": "Blackstone, Warburg Pincus, Apollo",
+   "target": "Global Payments",
+   "first_seen": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "stage": "Rumored",
+   "value": "$50 billion",
+   "usd": 50000000000.0
+  },
+  "clariant|ashland": {
+   "acquirer": "Clariant",
+   "target": "Ashland",
+   "first_seen": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "stage": "Rumored"
+  },
+  "family savings|cutimes": {
+   "acquirer": "Family Savings",
+   "target": "CUTimes",
+   "first_seen": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "stage": "Announced"
+  },
+  "townsquare media|mackinac island ferries owner": {
+   "acquirer": "Townsquare Media",
+   "target": "Mackinac Island ferries owner",
+   "first_seen": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "stage": "Announced",
+   "value": "$37M",
+   "usd": 37000000.0
   }
  },
  "totals": {
-  "deals": 191,
-  "with_usd_value": 95,
-  "usd": 756629700000.0
+  "deals": 195,
+  "with_usd_value": 98,
+  "usd": 847566700000.0
  }
 }
