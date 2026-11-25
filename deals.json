@@ -1,9 +1,9 @@
 {
-  "date": "Tuesday, November 24",
-  "generated_at": "2026-11-24T21:20:10.580007+00:00",
+  "date": "Wednesday, November 25",
+  "generated_at": "2026-11-25T20:36:58.203262+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "Sanofi is acquiring Insmed for $41 billion, its largest pharma deal in nearly three years, to expand its respiratory and rare disease portfolio.",
+  "lede": "Sanofi is acquiring Insmed for $41 billion, expanding its respiratory and rare disease portfolio.",
   "deals": [
     {
       "acquirer": "Sanofi",
@@ -11,9 +11,9 @@
       "value": "$41 Billion",
       "pinned": false,
       "stage": "Announced",
-      "articles": 10,
-      "outlets": 10,
-      "latest": "2026-11-24T17:49:00+00:00",
+      "articles": 8,
+      "outlets": 8,
+      "latest": "2026-11-24T23:08:41+00:00",
       "sources": [
         1,
         2,
@@ -26,13 +26,13 @@
       ],
       "stripped": [],
       "headline": "Sanofi to Acquire Insmed",
-      "body": "Sanofi is acquiring Insmed for $41 billion in the biggest pharma deal in nearly three years [1, 2, 3]. The deal will expand Sanofi's respiratory and rare disease portfolio [5, 7]. Insmed will be acquired by Sanofi in cash for $175 per share [6]. The acquisition was announced by Sanofi [4, 8].",
+      "body": "Sanofi is acquiring Insmed for $41 billion [1, 2, 3]. The deal will expand Sanofi's respiratory and rare disease portfolio [4, 6, 7]. Insmed's shares are rallying after the announcement [5, 8].",
       "found": [
         {
           "n": 1,
           "acquirer": "Sanofi",
           "target": "Insmed",
-          "stage": "Completed"
+          "stage": "Announced"
         },
         {
           "n": 2,
@@ -44,7 +44,7 @@
           "n": 3,
           "acquirer": "Sanofi",
           "target": "Insmed",
-          "stage": "Completed"
+          "stage": "Announced"
         },
         {
           "n": 4,
@@ -62,22 +62,16 @@
           "n": 6,
           "acquirer": "Sanofi",
           "target": "Insmed",
-          "stage": "Completed"
+          "stage": "Announced"
         },
         {
           "n": 7,
           "acquirer": "Sanofi",
           "target": "Insmed",
-          "stage": "Completed"
+          "stage": "Announced"
         },
         {
           "n": 8,
-          "acquirer": "Sanofi",
-          "target": "Insmed",
-          "stage": "Completed"
-        },
-        {
-          "n": 9,
           "acquirer": "Sanofi",
           "target": "Insmed",
           "stage": "Completed"
@@ -85,14 +79,14 @@
       ]
     },
     {
-      "acquirer": "CrowdStrike",
-      "target": "Zscaler",
-      "value": "$43.9 billion",
+      "acquirer": "Clariant",
+      "target": "Ashland",
+      "value": "",
       "pinned": false,
-      "stage": "Announced",
-      "articles": 10,
-      "outlets": 9,
-      "latest": "2026-11-24T15:35:49+00:00",
+      "stage": "Rumored",
+      "articles": 3,
+      "outlets": 3,
+      "latest": "2026-11-25T15:17:00+00:00",
       "sources": [
         10,
         11,
@@ -103,276 +97,231 @@
         16,
         17
       ],
-      "stripped": [
-        1,
-        2,
-        3
-      ],
-      "headline": "CrowdStrike and Zscaler Deal",
-      "body": "CrowdStrike and Zscaler are merging in an all-stock deal worth $43.9 billion [16, 11, 10]. The deal will create a cybersecurity giant, according to the CEO of CrowdStrike [12, 16, 11]. The acquisition is expected to be completed with a share exchange ratio of 1.135 [17, 16, 11].",
+      "stripped": [],
+      "headline": "Clariant and Ashland Deal Rumors",
+      "body": "Clariant is reportedly in talks with Ashland to acquire the chemicals firm [10, 11, 12]. The deal is said to be an all-cash deal worth $3.39 billion [13]. The acquisition would be led by Clariant and CD&R [13, 14, 15]. The deal is still in the early stages and no further information is available [16, 17].",
       "found": [
         {
           "n": 10,
-          "acquirer": "CrowdStrike",
-          "target": "Zscaler",
-          "stage": "Completed"
+          "acquirer": "Clariant",
+          "target": "Ashland",
+          "stage": "Announced"
         },
         {
           "n": 11,
-          "acquirer": "CrowdStrike",
-          "target": "Zscaler",
-          "stage": "Completed"
+          "acquirer": "Clariant",
+          "target": "Ashland",
+          "stage": "Rumored"
         },
         {
           "n": 12,
-          "acquirer": "CrowdStrike",
-          "target": "Zscaler",
+          "acquirer": "Clariant",
+          "target": "Ashland",
           "stage": "Rumored"
-        },
-        {
-          "n": 13,
-          "acquirer": "CrowdStrike",
-          "target": "Zscaler",
-          "stage": "Announced"
-        },
-        {
-          "n": 14,
-          "acquirer": "CrowdStrike",
-          "target": "Zscaler",
-          "stage": "Completed"
-        },
-        {
-          "n": 15,
-          "acquirer": "CrowdStrike",
-          "target": "Zscaler",
-          "stage": "Completed"
-        },
-        {
-          "n": 16,
-          "acquirer": "CrowdStrike",
-          "target": "Zscaler",
-          "stage": "Announced"
-        },
-        {
-          "n": 17,
-          "acquirer": "CrowdStrike",
-          "target": "Zscaler",
-          "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Amazon",
-      "target": "Decart",
-      "value": "$7.5bn",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 4,
-      "outlets": 4,
-      "latest": "2026-11-24T19:50:20+00:00",
-      "sources": [
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30
-      ],
-      "stripped": [],
-      "headline": "Amazon Acquires Decart",
-      "body": "Amazon is acquiring Decart, an Israeli AI startup, to narrow the gap with Nvidia in AI chip technology [24, 25, 26]. The deal is reportedly worth $7.5 billion [25, 26, 28]. The acquisition was announced by Amazon [24, 28].",
-      "found": [
-        {
-          "n": 23,
-          "acquirer": "Amazon",
-          "target": "Decart",
-          "stage": "Completed"
-        },
-        {
-          "n": 24,
-          "acquirer": "Amazon",
-          "target": "Decart AI",
-          "stage": "Announced"
-        },
-        {
-          "n": 25,
-          "acquirer": "Amazon",
-          "target": "Decart",
-          "stage": "Announced"
-        },
-        {
-          "n": 26,
-          "acquirer": "Amazon",
-          "target": "Decart",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Linamar",
-      "target": "Genie",
-      "value": "",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 3,
-      "outlets": 3,
-      "latest": "2026-11-24T07:15:00+00:00",
-      "sources": [
-        32,
-        33,
-        34,
-        35
-      ],
-      "stripped": [],
-      "headline": "Linamar and Genie Deal",
-      "body": "Linamar Corporation is acquiring Genie from Terex Corporation [33, 34, 35]. The deal was announced by Linamar Corporation [32, 33]. The acquisition significantly expands Linamar's Access Work Platforms Group [34, 35].",
-      "found": [
-        {
-          "n": 32,
-          "acquirer": "Linamar Corporation",
-          "target": "Genie",
-          "stage": "Rumored"
-        },
-        {
-          "n": 33,
-          "acquirer": "Linamar",
-          "target": "Genie",
-          "stage": "Announced"
-        },
-        {
-          "n": 34,
-          "acquirer": "Linamar",
-          "target": "Genie",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Blackstone, Warburg Pincus, Apollo",
+      "acquirer": "Blackstone",
       "target": "Global Payments",
-      "value": "$50 billion",
+      "value": "$50 Billion",
       "pinned": false,
       "stage": "Rumored",
-      "articles": 2,
-      "outlets": 2,
-      "latest": "2026-11-24T18:57:02+00:00",
+      "articles": 3,
+      "outlets": 3,
+      "latest": "2026-11-25T01:13:30+00:00",
       "sources": [
-        36,
-        37
+        18,
+        19,
+        20
       ],
       "stripped": [],
-      "headline": "Blackstone, Warburg Pincus, Apollo Back Global Payments",
-      "body": "Blackstone, Warburg Pincus, Apollo in talks to back GTCR's $50 billion Global Payments deal [36, 37]. The deal is rumored to be backed by these investors [36, 37]. No further information is available at this time [36, 37].",
+      "headline": "Blackstone and Global Payments",
+      "body": "Blackstone is in talks to back GTCR's $50 billion Global Payments deal [18, 19, 20]. Blackstone is rumored to be leading the talks [18, 19, 20].",
       "found": [
         {
-          "n": 36,
-          "acquirer": "Blackstone, Warburg Pincus, Apollo",
-          "target": "Global Payments",
-          "stage": "Announced"
-        },
-        {
-          "n": 37,
+          "n": 18,
           "acquirer": "Blackstone",
           "target": "Global Payments",
           "stage": "Rumored"
+        },
+        {
+          "n": 19,
+          "acquirer": "Blackstone, Warburg Pincus, Apollo",
+          "target": "Global Payments",
+          "stage": "Pending approval"
+        },
+        {
+          "n": 20,
+          "acquirer": "Blackstone, Apollo",
+          "target": "Global Payments",
+          "stage": "Pending approval"
         }
       ]
     },
     {
-      "acquirer": "Clariant",
-      "target": "Ashland",
+      "acquirer": "Expedia Group",
+      "target": "Kiwi.com",
+      "value": "",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-25T14:28:10+00:00",
+      "sources": [
+        21,
+        22
+      ],
+      "stripped": [],
+      "headline": "Expedia Group to Acquire Kiwi.com",
+      "body": "Expedia Group is acquiring Kiwi.com to augment its flights capabilities [21, 22]. The deal was announced on November 25 [21, 22].",
+      "found": [
+        {
+          "n": 21,
+          "acquirer": "Expedia Group",
+          "target": "Kiwi.com",
+          "stage": "Announced"
+        },
+        {
+          "n": 22,
+          "acquirer": "Expedia Group",
+          "target": "Kiwi.com",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Advent",
+      "target": "Bureau Veritas",
       "value": "",
       "pinned": false,
       "stage": "Rumored",
       "articles": 2,
       "outlets": 2,
-      "latest": "2026-11-24T17:06:13+00:00",
+      "latest": "2026-11-25T11:23:04+00:00",
       "sources": [
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
+        23,
+        24
       ],
       "stripped": [],
-      "headline": "Clariant and Ashland in Talks",
-      "body": "Clariant and Ashland are in talks to acquire Ashland [38, 39, 40]. The deal is reportedly worth around $3.39 billion [40, 41]. The stage of the deal is currently rumored [38, 39, 40].",
+      "headline": "Advent Weighs Takeover Bid for Bureau Veritas",
+      "body": "Advent is reportedly considering a takeover bid for Bureau Veritas [24, 23]. The deal is still in the early stages, with no official announcement made [24, 23].",
       "found": [
         {
-          "n": 38,
-          "acquirer": "Clariant",
-          "target": "Ashland",
+          "n": 23,
+          "acquirer": "Advent",
+          "target": "Bureau Veritas",
           "stage": "Rumored"
         },
         {
-          "n": 39,
-          "acquirer": "Clariant",
-          "target": "Ashland",
-          "stage": "Rumored"
-        }
-      ]
-    },
-    {
-      "acquirer": "Family Savings",
-      "target": "CUTimes",
-      "value": "",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-24T20:35:08+00:00",
-      "sources": [
-        45,
-        46
-      ],
-      "stripped": [],
-      "headline": "Family Savings and CUTimes Deal",
-      "body": "Family Savings is acquiring CUTimes [45, 46]. The deal was announced [45]. Nothing new is reported [46].",
-      "found": [
-        {
-          "n": 45,
-          "acquirer": "Family Savings",
-          "target": "CUTimes",
+          "n": 24,
+          "acquirer": "Advent",
+          "target": "Bureau Veritas",
           "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "Townsquare Media",
-      "target": "Mackinac Island ferries owner",
-      "value": "$37M",
+      "acquirer": "Amplifon",
+      "target": "GN Hearing",
+      "value": "€1.2 Billion",
+      "pinned": false,
+      "stage": "Pending approval",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-11-25T17:40:31+00:00",
+      "sources": [
+        25
+      ],
+      "stripped": [
+        1
+      ],
+      "headline": "Amplifon and GN Hearing Deal",
+      "body": "Amplifon is acquiring GN Hearing [25]. Amplifon has secured a €1.2 billion credit facility [25].",
+      "found": [
+        {
+          "n": 25,
+          "acquirer": "Amplifon",
+          "target": "GN Hearing",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "AFC Industries",
+      "target": "Barnhart Bolt",
+      "value": "",
       "pinned": false,
       "stage": "Announced",
       "articles": 1,
       "outlets": 1,
-      "latest": "2026-11-24T20:31:00+00:00",
+      "latest": "2026-11-25T16:09:35+00:00",
       "sources": [
-        47,
-        48,
-        49
+        26
       ],
       "stripped": [],
-      "headline": "Townsquare Media Rejects Mackinac Island Ferries Bid",
-      "body": "Townsquare Media has rejected a takeover bid from the owner of Mackinac Island ferries [47, 48, 49]. The company's board has also rejected a $2.03-per-share takeover bid [48]. The bid was reportedly worth $37 million [47, 49].",
+      "headline": "AFC Industries Acquires Barnhart Bolt",
+      "body": "AFC Industries has acquired Barnhart Bolt [26]. The acquisition adds six branches to AFC Industries [26]. The deal was announced [26].",
       "found": [
         {
-          "n": 47,
-          "acquirer": "Townsquare Media",
-          "target": "Mackinac Island ferries owner",
+          "n": 26,
+          "acquirer": "AFC Industries",
+          "target": "Barnhart Bolt",
+          "stage": "Announced"
+        }
+      ]
+    },
+    {
+      "acquirer": "INDEXO",
+      "target": "DelfinGroup",
+      "value": "",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 1,
+      "outlets": 1,
+      "latest": "2026-11-25T15:54:00+00:00",
+      "sources": [
+        27
+      ],
+      "stripped": [],
+      "headline": "INDEXO to Acquire DelfinGroup",
+      "body": "INDEXO is acquiring DelfinGroup [27]. The takeover bid will begin on November 27 [27].",
+      "found": [
+        {
+          "n": 27,
+          "acquirer": "INDEXO",
+          "target": "DelfinGroup",
           "stage": "Announced"
         }
       ]
     }
   ],
-  "also": [],
-  "brief": "Sanofi is acquiring Insmed for $41 billion, its largest pharma deal in nearly three years, to expand its respiratory and rare disease portfolio.\n\nSanofi / Insmed (Announced): Sanofi to Acquire Insmed. Sanofi is acquiring Insmed for $41 billion in the biggest pharma deal in nearly three years [1, 2, 3]. The deal will expand Sanofi's respiratory and rare disease portfolio [5, 7]. Insmed will be acquired by Sanofi in cash for $175 per share [6]. The acquisition was announced by Sanofi [4, 8].\nCrowdStrike / Zscaler (Announced): CrowdStrike and Zscaler Deal. CrowdStrike and Zscaler are merging in an all-stock deal worth $43.9 billion [16, 11, 10]. The deal will create a cybersecurity giant, according to the CEO of CrowdStrike [12, 16, 11]. The acquisition is expected to be completed with a share exchange ratio of 1.135 [17, 16, 11].\nAmazon / Decart (Announced): Amazon Acquires Decart. Amazon is acquiring Decart, an Israeli AI startup, to narrow the gap with Nvidia in AI chip technology [24, 25, 26]. The deal is reportedly worth $7.5 billion [25, 26, 28]. The acquisition was announced by Amazon [24, 28].\nLinamar / Genie (Announced): Linamar and Genie Deal. Linamar Corporation is acquiring Genie from Terex Corporation [33, 34, 35]. The deal was announced by Linamar Corporation [32, 33]. The acquisition significantly expands Linamar's Access Work Platforms Group [34, 35].\nBlackstone, Warburg Pincus, Apollo / Global Payments (Rumored): Blackstone, Warburg Pincus, Apollo Back Global Payments. Blackstone, Warburg Pincus, Apollo in talks to back GTCR's $50 billion Global Payments deal [36, 37]. The deal is rumored to be backed by these investors [36, 37]. No further information is available at this time [36, 37].\nClariant / Ashland (Rumored): Clariant and Ashland in Talks. Clariant and Ashland are in talks to acquire Ashland [38, 39, 40]. The deal is reportedly worth around $3.39 billion [40, 41]. The stage of the deal is currently rumored [38, 39, 40].\nFamily Savings / CUTimes (Announced): Family Savings and CUTimes Deal. Family Savings is acquiring CUTimes [45, 46]. The deal was announced [45]. Nothing new is reported [46].\nTownsquare Media / Mackinac Island ferries owner (Announced): Townsquare Media Rejects Mackinac Island Ferries Bid. Townsquare Media has rejected a takeover bid from the owner of Mackinac Island ferries [47, 48, 49]. The company's board has also rejected a $2.03-per-share takeover bid [48]. The bid was reportedly worth $37 million [47, 49].",
+  "also": [
+    {
+      "n": 28,
+      "note": "Pearland expands industrial footprint with new developments [28]."
+    },
+    {
+      "n": 29,
+      "note": "M&A in the Industrials Sector Looks Set for a Robust 2027 [29]."
+    },
+    {
+      "n": 30,
+      "note": "After $32 billion Google deal, Wiz founders face multibillion-dollar tax demand in Israel [30]."
+    }
+  ],
+  "brief": "Sanofi is acquiring Insmed for $41 billion, expanding its respiratory and rare disease portfolio.\n\nSanofi / Insmed (Announced): Sanofi to Acquire Insmed. Sanofi is acquiring Insmed for $41 billion [1, 2, 3]. The deal will expand Sanofi's respiratory and rare disease portfolio [4, 6, 7]. Insmed's shares are rallying after the announcement [5, 8].\nClariant / Ashland (Rumored): Clariant and Ashland Deal Rumors. Clariant is reportedly in talks with Ashland to acquire the chemicals firm [10, 11, 12]. The deal is said to be an all-cash deal worth $3.39 billion [13]. The acquisition would be led by Clariant and CD&R [13, 14, 15]. The deal is still in the early stages and no further information is available [16, 17].\nBlackstone / Global Payments (Rumored): Blackstone and Global Payments. Blackstone is in talks to back GTCR's $50 billion Global Payments deal [18, 19, 20]. Blackstone is rumored to be leading the talks [18, 19, 20].\nExpedia Group / Kiwi.com (Announced): Expedia Group to Acquire Kiwi.com. Expedia Group is acquiring Kiwi.com to augment its flights capabilities [21, 22]. The deal was announced on November 25 [21, 22].\nAdvent / Bureau Veritas (Rumored): Advent Weighs Takeover Bid for Bureau Veritas. Advent is reportedly considering a takeover bid for Bureau Veritas [24, 23]. The deal is still in the early stages, with no official announcement made [24, 23].\nAmplifon / GN Hearing (Pending approval): Amplifon and GN Hearing Deal. Amplifon is acquiring GN Hearing [25]. Amplifon has secured a €1.2 billion credit facility [25].\nAFC Industries / Barnhart Bolt (Announced): AFC Industries Acquires Barnhart Bolt. AFC Industries has acquired Barnhart Bolt [26]. The acquisition adds six branches to AFC Industries [26]. The deal was announced [26].\nINDEXO / DelfinGroup (Announced): INDEXO to Acquire DelfinGroup. INDEXO is acquiring DelfinGroup [27]. The takeover bid will begin on November 27 [27].\n\nAlso worth knowing:\n- Pearland expands industrial footprint with new developments [28].\n- M&A in the Industrials Sector Looks Set for a Robust 2027 [29].\n- After $32 billion Google deal, Wiz founders face multibillion-dollar tax demand in Israel [30].",
   "sources": [
     {
       "n": 1,
+      "title": "Sanofi set to acquire Insmed in $41bn agreement",
+      "source": "BioProcess International",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN3lUUU1LcnN4UUQ0M3NhMVVSdW9qdmc3dnFFcFBZYXRtS1p1V2piWWFlQ18zQnl3YWN1WUJSaDJ4NU04b2tlc1YyRmNBdDZ1ZDNkMDRFQVZwVDlya0ZaSTZFWUZfNjU1bHNleVpUb25tTGR4d0N1UUdJOHhvSEFOZFhpYm5rdWhEejZhd2xSY1ljaVk?oc=5",
+      "snippet": "BioProcess International",
+      "published": "2026-11-24T23:08:41+00:00"
+    },
+    {
+      "n": 2,
       "title": "Sanofi Agrees to $41 Billion Insmed Deal. Why Its a Win-Win for Both Stocks.",
       "source": "Barron's",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UVGYxYVZ2Mm9BbEd1VURaWTY2dXNoNWx0S0FHMTE5T3F6c1dYQ2FoNlU1V2NpMG1YZGdQbW93M3UzNWxiakdmb3BuSjVETUJVaDNDZkdFbGhWM19XWTJvYy1QbE5GazBhQWI3QWt0TXROT2pz?oc=5",
@@ -380,7 +329,7 @@
       "published": "2026-11-24T17:49:00+00:00"
     },
     {
-      "n": 2,
+      "n": 3,
       "title": "Sanofi to Acquire Insmed for $41 Billion in Biggest Pharma Deal in Nearly Three Years",
       "source": "TradingKey",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMmRwbWlwV3d4MUJkdnJTaVpfZTZpcmpqZFpjUmJPZGtVbnhpaTNaUm5zaVhzVHJYOExXOXdNNUoyMlM5TjNBTGptcXotLWpHZlA5YXJUZHUyVjdURHRlZ3lUNXYzNmJ2LVRhYUI2WXV0QXFyVjNqcjQ5XzdEbzQzXzVDRFpvSnhoNHYyNTBXSFNZOXBtc0Y2TnN3eXVENHhGVnRRYjBMN19ZRkFBZXV5cmNfeDEyVE5pSWtFbThIZ2w0b3pxbDg1X2txVUpOb2ZZUFR5NzFfTQ?oc=5",
@@ -388,23 +337,7 @@
       "published": "2026-11-24T15:58:53+00:00"
     },
     {
-      "n": 3,
-      "title": "Sanofi agrees to acquire Insmed in biggest pharma deal since 2023",
-      "source": "upi",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ2UyblB0WkE4RWZfcnlHd1B0LXJXZW14c3JFb2pfLUpJanNPb1YwUG0tRUR5WWt1dEZrby1jTFl1MFpaVHVSUnhsWnFUTXlla2JYVUdRRVI2MHY3NXppWERvV29qYU9mOWFGRFU1c28xd1RhZk5HN01VV19sc2pMTGlvX3RDbzY4bXA4bXNyN3FNbExKbmV6YTdTS1IwRU1laV93OUhfSTFiNnZPT3NlcmpHWVlXY1oxX25lcnFKX1RMTDZMcEVz0gHMAUFVX3lxTE10VlI3NjNqZVAyY3hVSkdvWVp1TlI0SkRBc0ZxRjQtRGpTdjNXc0JxM0diTGx2NTlOZmlMT2RiRkVzXzg4Tm9fWlFqNGM3RWxWa3hSekVZblcwUkdsLUtfRFlnSzlnb2J0cWJPNnhlZzBMNXBPeEw4MUE4dGR3YnROemJGRWN5aUJCLXlPcEVOZkhiVGdYdmZzUWhVdDJTZ3dtQXFJRHNjdXY0QmxpWXFhamc0Q0w0Mk9BVkh2b21aZ2EzYTJtRzYyZVF3UQ?oc=5",
-      "snippet": "upi",
-      "published": "2026-11-24T15:09:15+00:00"
-    },
-    {
       "n": 4,
-      "title": "Sanofi agrees to buy lung drug maker Insmed for $41 billion",
-      "source": "Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVGtMajNmWUt0dU5vV1k0cTdIZnJaMUNoMFVocXRvX2pZbmxndmQ1WjhxTm9EUUdickRUY2x6US1malp1U1RXbFJFLWRnV2kwZjF1YWRsLVFWa3NsbGVVWlV1N190YUtsRE9hejFPOU5NdTk4MC1JLVY3MHk2aEg0YWp5MndSdw?oc=5",
-      "snippet": "Stock Titan",
-      "published": "2026-11-24T15:05:24+00:00"
-    },
-    {
-      "n": 5,
       "title": "Sanofi to Acquire Insmed for $41 Billion, Expanding Respiratory and Rare Disease Portfolio",
       "source": "citybiz",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOY2VrMFR2M292MC1MU0kzcFk3X1pJMkZWbnR2R3hNVXFHM3BSTnJqemhIQnNqN3NaSWtaSi1abzlfYkJ5Y2RDOWtGcGVZanVnRVJoS3FLMXEwOXB2aUpIeWNsUGRQbGNxYk9SMFNLXzZxTks4UXZ5LVd2OXFVTHFPZjl6d19jeWxkOTFDbmJrYmhWT1ZpUVdSRzFHYVdRV1hBSHBfLVh6THdzUC1tdy1DSEl2dGdBS3g5eGR5YjB5blRlS0d3b0E?oc=5",
@@ -412,15 +345,15 @@
       "published": "2026-11-24T13:24:05+00:00"
     },
     {
-      "n": 6,
-      "title": "Insmed to Be Acquired by Sanofi for $175 Per Share in Cash",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOHBZRzgwdDM5WW1JWWsycXNoQnhJZ1FVQ3lGOGd3YmFlM0YwVU5NbzVVT29SZ0lyZlJmT1N5YXZETU5ZVi14c1N5emQwMUYxZHY1YzZrUVFmVF92dUo2a2tNdkhnVG9jbmRzNlV2NXpXQ1dSUjdiREJDcWIxUUxmSzU2UFQ0S20tSTFhYjR2UlIzd2RDWXcxY2NNbnFzbGl6ZTFsazRkVllSLTczYVMzYmVCdTkwMXVtV1hv?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-24T11:13:00+00:00"
+      "n": 5,
+      "title": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mSVdLNmxnYXl4a2VvR1BfV202ZXZBckFZWVI5WWtGNkFxQ3d0NDRLd0JNdjJUMWJQVzV4NVNGVWNhZ0I2Rml2NWZXTlNFcDhfaE9kUnVpZkxWWEh1RDk5YV9fTWhqcUZyUzVjLWo5ZnlKN0pkM3Rr0gF8QVVfeXFMT2ZKcnhlaEFlTUtDQ3NnYnlrd1g3d3dZTms3YnM4Yk40ZlJ1eG10N3MzSFZiVUFCQ3lkQUtSYzBNTUx0dks4SkF6azhjaVFpb3p2UTFxYnV4d1RNZFJDZ2hxV1hOTHlSMHNPeHNBQTEyVnBsRnpKRVdxTE1wZA?oc=5",
+      "snippet": "CNBC",
+      "published": "2026-11-24T09:59:10+00:00"
     },
     {
-      "n": 7,
+      "n": 6,
       "title": "Sanofi Strikes $41 Billion Deal to Buy U.S. Drugmaker Insmed",
       "source": "WSJ",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaVBfakx5WUY1dzBVU0lscUpnMDNrd19fN25wcFpwMU9Wb2ZxdUpOZVJSX2I4NV9sWXlKY2lUeTduMjdLdURsaVVwc2U5dEtQblVuUS12S2RPWl80SjBYdDMzQlpKcTctOFg1SzdRdi1QSWsyakx3ZDFtWWxxSU9DdzRQclZTUHhL?oc=5",
@@ -428,7 +361,7 @@
       "published": "2026-11-24T09:39:00+00:00"
     },
     {
-      "n": 8,
+      "n": 7,
       "title": "Sanofi To Acquire US Drugmaker Insmed For $41B",
       "source": "Forbes Middle East",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbmtCNVAwVWZSSmJuSm0xaGRQRmpJeU5tc25lYWhqR0VrS2N6VjQ1MlowU2tRTzFyZHU2blcxTTZRbkp1T3gyZHV1ODkwT216QXQzQ3RjSE80a09IdmlIXzJ1bC1jSVJyakxXd3QtR0NHeWc5MUx6LUdvZlVDdy1TaGVXeEZ3bkxKQlM1VzhxRUFOYWJZNkI2X3lNVU1QcWlFNGtuTy1ZTlBYR0E?oc=5",
@@ -436,7 +369,7 @@
       "published": "2026-11-24T09:20:32+00:00"
     },
     {
-      "n": 9,
+      "n": 8,
       "title": "Insmed acquisition: Sanofi agrees to $41 billion cash deal",
       "source": "finchannel",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSHZoV294dS1NeTZWUVQ2cGx6aVRoeTJMM1VTYnd6SnhMalExcFpwQ2plUkc4NnE5TWFOSTd6Y2dsb2FwZmZWQ2xzb08yWXBnZzZIZkFRcmNIRUp0Q0tyZFo1X3VfYkxrWTdQTE5qZU1yWFNXcGF3WkVrTnZpZ0FlLUYwbEJvcXRnRTJCTWRtMXh3UDBUMUZFR0dIQXNwV1lMM1AzRFlvaFNlT3FrOTJYZ3Bjb0hPbW56MjVvZg?oc=5",
@@ -444,239 +377,31 @@
       "published": "2026-11-24T08:29:10+00:00"
     },
     {
+      "n": 9,
+      "title": "Insmed to Be Acquired by Sanofi for $175 Per Share in Cash",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOHBZRzgwdDM5WW1JWWsycXNoQnhJZ1FVQ3lGOGd3YmFlM0YwVU5NbzVVT29SZ0lyZlJmT1N5YXZETU5ZVi14c1N5emQwMUYxZHY1YzZrUVFmVF92dUo2a2tNdkhnVG9jbmRzNlV2NXpXQ1dSUjdiREJDcWIxUUxmSzU2UFQ0S20tSTFhYjR2UlIzd2RDWXcxY2NNbnFzbGl6ZTFsazRkVllSLTczYVMzYmVCdTkwMXVtV1hv?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-24T11:13:00+00:00"
+    },
+    {
       "n": 10,
-      "title": "Zscaler Announces Strategic Merger Agreement with CrowdStrike",
-      "source": "The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUXR4WDNmem1JeVZfWDBVQmUtdTJ6cEwyY2JLV1dHaGZiZlFOZE04Qk9sRHRKMW5nM2VyQzNTVWZ5QlJOVjRqRi15VUgxS2dKcW9xNnpfampmRVdacThkY0g5S0U4Ql9mZVlxUERHSzNHLXdHUzM2Z0g4SzViSUdHQ20xN24yMmlQYjZnbm5IU2FmNnpPVm41c0x0YmlsY0YtSVpRTi11bTNybTlRMTlGaGt1RG51dDM1ZkpLNG02RXlEOXpkQ0dHQ243N3NkYjFMMExDdVg0b1RBdw?oc=5",
-      "snippet": "The Globe and Mail",
-      "published": "2026-11-24T15:35:49+00:00"
+      "title": "Clariant confirms talks to acquire Ashland with private equity partner",
+      "source": "Plastics News",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaFZNNHBETWVBSW1NeE9Ma3BnYjFwMjVhdDFWWVlzd19YZFVkWDFEd2psRHZudGlZbUdWMnFTajcyQWJzZXVtRnZjMkV6a3p1ZWpJbkpIOEY5WVlVTFBhTV9WY25KWk5KY1ZJaTdmYzlQUVVFVG9qWURpeklUUHNxWndkQThZU2RlZ1FSUG0tb2VwUQ?oc=5",
+      "snippet": "Plastics News",
+      "published": "2026-11-25T15:17:00+00:00"
     },
     {
       "n": 11,
-      "title": "CrowdStrike to acquire Zscaler in record $43.9 billion all-stock deal",
-      "source": "Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbkFPeXZFUkxtYWdrSExPS21ISjl0TTBDZnN2U2Exek9NTTg0Y3dVeEphMUJLVHZxNFIyN0RRZGdseEc3anRPQkpicjRzVGFibHp2a0l4MmlVUnAxUE40Ui1FejBDZVl3WUtLeHdxQVYzcnhYd3dNUkswby1LTERWU2prbC1OdGFDV0pfUl82OU1BcC1qYmpaVUUySjJ4bTNmaWlpQXF0aTVybTdieVZlR2dLWkNTNlpPVVpuaThwaEtUdnpsLWE0bXFSSVc4QdIB0wFBVV95cUxOczZfQVZSUlhFOXVBeXJHTjJ2SUE2OVgxampPck96MUcyVzhiTFhic2gybkE2Njg4RnNtZTByLWZENV9MNEgzb1VvM1dRN2JrZHU1Tm9COFVfbk9nbTN5dVI0QkNWdXVPTFVSZW1iR3RwTTRrZzJ0VmlEMmNnUUdibVl3Ym9zNmQ4cWZJWmtyWW9nV0hlb29RbnN0T1lDMTEwdjhBSlFZWElFS1hndVlMeGI4dGJGODV4dmVzNTV4a1JDNnZOeW90WHFsOUs5cWEzcmFV?oc=5",
-      "snippet": "Business Standard",
-      "published": "2026-11-24T06:12:48+00:00"
-    },
-    {
-      "n": 12,
-      "title": "CrowdStrike CEO Sees $185B Opportunity, Says Zscaler Deal Will Create A ‘Winning Combination’ Amid Rising AI Threats",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPeFNMNEtiZDBZZFhZOExQd3VRYWpzY3ZlSV9GNDBLVDhnNkdaRXpjWHQzY2NfeFg2NFVOc0ZDYklteVJVUUtIbXNnQ3JjUlZ6Y0VKOWVGN1FFN2trSGdEcXdBS3kzXzZCSWx5ZW1MaDNfcm91M0Nib3VBa1daMWpqa2NOWmtGN2tNMlJoLTZHbkxTTjJJalpHaWIxeFBvY3dmVW5aZ0l1d1hfQWF2OWhGaHJBaW1WTS1jYnB6TUxGSXF5SnlSS0J6NG44dTFySkI0ajVRYkRWUHZremZiRnFmb3doZXpKbGtpV21xU2d3UkZ6dU9feGZHWmhOaldaZU5KYjZv?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-24T03:46:00+00:00"
-    },
-    {
-      "n": 13,
-      "title": "CrowdStrike to buy Jay Chaudhry’s Zscaler for $44 billion",
-      "source": "The American Bazaar",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRG5RWEJ6V0JPTFBaaDhRQjA3cko4SHJ0Nk9ubndCVGZVV1BMbm5idlItWTFlY2labmhPbHFtdXpjbVlmYkRGVkp4M1AteS1ORk1Fd0d4VDJ6QjFDN21IRWtDckxfQXNDYnZiaDJaOTh0bTNGTlluRERQbjE1VzNnY0V5OGl1clpBS3pSZ2Qyc1JQSDRPRXZtZFRCWDF2Njllb2RJRUNR?oc=5",
-      "snippet": "The American Bazaar",
-      "published": "2026-11-23T20:59:28+00:00"
-    },
-    {
-      "n": 14,
-      "title": "CrowdStrike Stock: $43.9 Billion Zscaler Acquisition Creates Cybersecurity Giant",
-      "source": "CryptoRank",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV3ZIZDJ3bG1MdXlCMDZncmZiX3dpUGk3WkRCMURxYmJ1RDBRNEJQVTlWV0xpZzh3ZDRwZ0NsMjEza29vMkpRdG9mVlB4RGxWd2ZaYjBFNW1vUjJHRUQ4MDBLTnExOVcwTGZFTWZjOTVDTVZ2N0NMWVRsYXZIZnE1a3VGNXJyWVR4SHl1eUhpS2N0cE40ZzliWkNUUk9PUEdvbTgxeFR5UVBFMHQxdV9NWVNFcFh4S3RB?oc=5",
-      "snippet": "CryptoRank",
-      "published": "2026-11-23T19:27:53+00:00"
-    },
-    {
-      "n": 15,
-      "title": "CrowdStrike's $44B Zscaler Bet: Why Wall Street Sold the News",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb3ozYmduMzdFblk1clFjV285LXM4bEltYnRYaEltaGdRdjZHZWtBN0pkZmQtQlNpUzVIaGpmV3IwbTEtRGRuQngwci1pYVhVcF8weTBGMDFXME9MNldpU19OZTFIQ2tUcXJacGxaZFl4ZkxwcHJzVHhBVng4bHdtc3p0aUw0MEZSdldEVmpoX1hzM29XdF9JTGo0T1QzbzZxU014d0g1MEVJUHVZTHROQVZnaGctZUFzWVRkZA?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-23T18:55:00+00:00"
-    },
-    {
-      "n": 16,
-      "title": "CrowdStrike Agrees to Acquire Zscaler in About $43.9 Billion All-Stock Deal: 21 outlets compared",
-      "source": "NewsCord",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQ3dPWjFvNnhNOUZwTTNVYzBMZUdxeFREeTlpOFhOblotdnpESC1iZEh4RUVMSGRDZmttN0FkRmE3RHk3Qy1RNm9seFJmcnpLeHBTRmMxMjlzTjZXMXVMNC10cV84SF9RLXNlV3BNOFY4enFOWUcwYWpuR3pGeFNpdUFoa0Z6cl84OGlwUG94US1nX2NDdFNURmF0NkVGMXRGOVhpYmhNem5hVXAzYjNBczJ4U0R2Tzdub0JkWjM1Vzh0cWtldjU5bzBQSGRaSnNLeFFqeURvZS13bFY2TTVZRQ?oc=5",
-      "snippet": "NewsCord",
-      "published": "2026-11-23T17:38:26+00:00"
-    },
-    {
-      "n": 17,
-      "title": "Zscaler and CrowdStrike Announce Merger with 1.135 Share Exchange Ratio",
-      "source": "Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONFRUeFE3aHZaYUViUFBTNndkaDVsbjk2NVhERUN0QUFjTWZacGZpMW1RWjUyZkpvc0tPckdtR1hGcGQxcW53Q3lIVUY4bE1Wdl9JNG14dTRJcFQxTXRiVnZxcEVLLUk0REFfWWw3ZjFrVE12ZkM0Q3hoMFdYSUZpZnRsSFZJWjBXM1ZNbFRYOXVIZGJ6RUt6Nnp2SWJWakpsMzlQNmpadVRrQUhxeWx3SzJwVGxMUkpJ?oc=5",
-      "snippet": "Kalkine Media",
-      "published": "2026-11-23T17:32:48+00:00"
-    },
-    {
-      "n": 18,
-      "title": "CrowdStrike Agrees to Acquire Zscaler in $32 Billion Deal",
-      "source": "cwibc.co.id",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9URmdldDJUZVl1Z0FJSXRfTTJhN1JmcV9uYVVWb1dyTFVsOUpaMXdzaVNKQ21IOGFaTVNXWWNBT2d4QlZZVzJlcllkaThFZGJMN3J0U0pTS0xjMnNkUDFOei1PRGV5ekFZamRaOXB1NA?oc=5",
-      "snippet": "cwibc.co.id",
-      "published": "2026-11-23T14:36:53+00:00"
-    },
-    {
-      "n": 19,
-      "title": "CrowdStrike Agrees to Acquire Zscaler in $43.9 Billion Deal",
-      "source": "Security Today",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObDlVenRzSlhqbWZPV0gzYkRHcEdpalJNYS0tWmQ3UThJcE1nT2REM1daR2ZlU0E1VnJRcFJEb3pZWXY0dTlCOXVDRlpGM2J5YmpuTkFvS3QwZnlRSEdZM1hYb0dReGxDYVZJVVFpTnFGUURzUWMtSkZCaGxwa2gzNHFRdjJaWk9qOWlCOUxseTZrZTNhbEttRzVDaXlhLW41V2NWQ0Y2TXotazN0LVBHZTdzV0hSbFQ1anpOaUx3?oc=5",
-      "snippet": "Security Today",
-      "published": "2026-11-23T08:00:00+00:00"
-    },
-    {
-      "n": 20,
-      "title": "CrowdStrike Agrees to Acquire Zscaler in $43.9 Billion Deal",
-      "source": "Security Today",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWThPcHNybUtpYThYVVgxWFhrQVpMdm5jMjBXUEdzUlJseHo2d3MybS1mT1ZrZVJYbUlmeWhlMDFjZjRxXzY5RXFNT2lQOHdPRVRvdHpKdUpraDFXb3ljbk9IOUE1bnJLX3ZueWNRaklwYzdZeEZHWjN6cXlLM0RuQlU5cUloMGlkVkIyNW1BNVBSRTdWLTlpNUZYRWFMUEhpc3F6U1lDYWtqMng3?oc=5",
-      "snippet": "Security Today",
-      "published": "2026-11-23T18:16:12+00:00"
-    },
-    {
-      "n": 21,
-      "title": "CrowdStrike acquires Zscaler in USD 44 billion deal",
-      "source": "Telecompaper",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN0lhWV9FUDBzZUZXXzRPdmlYUDJHYkxld3Y0emNKVUpMS3dSRnQ4OVJzUUl3MEZ6U1lWRUQ2T19mTnE2djY2X1VkbkM4SVl5SW5OTmdVWVVlcElrbXA1RVlRYVVTZEhTbFp4M2hxd2hLOG5wV1pMRWpRdlJJaVhyWUFlOVRCRzc2aUIyU3VFOEh5SllmWEh2UWln?oc=5",
-      "snippet": "Telecompaper",
-      "published": "2026-11-23T14:22:02+00:00"
-    },
-    {
-      "n": 22,
-      "title": "CrowdStrike to Acquire Zscaler in $43.9 Billion Deal",
-      "source": "SecurityWeek",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVFRtTlFHMk4tLUt1RVU1ZXdJaGVtOE5Tc0l0bEhmVzhPNndya1k2aWVhbXY4eVJrSTdNY3l4cHp2RDZYakE1SE40czRNck9oYmdiMEM5dE1IT3BpVWN5bkt3dzJxcjZ5a2t2S0szMEE0N0hxSW5qUFhtejBoQXl6dDNXb1RnQnR1?oc=5",
-      "snippet": "SecurityWeek",
-      "published": "2026-11-23T11:31:44+00:00"
-    },
-    {
-      "n": 23,
-      "title": "Amazon’s Decart acquisition aims to narrow AI chip gap with Nvidia",
-      "source": "The American Bazaar",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcWgzckhLQWtPZzVQRVBRYU8xa1JSMTNsdFdJbnBheldNZXd2SkRaUm9KRlAteFk1MFVxeTZ5Y1FmT3RlTE5YbXBORnhRcDc5Z0E3bGpTbkp1WnhfVE5XM1U0NmpqSktFUTFMcjdOZkN6ZnZYbXJjRmhNWThKVjBLQnh1dml4UmM5NGVYOXBzc1lieWJ6OWh6TW41cC1FSFRNdHZmZEtib3ZncHE2WVRHTjN6VzNTZTJZ?oc=5",
-      "snippet": "The American Bazaar",
-      "published": "2026-11-24T19:50:20+00:00"
-    },
-    {
-      "n": 24,
-      "title": "Amazon announces acquisition of startup Decart AI",
-      "source": "upi",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeEdTcFduU0wwU3hWUm9Pcng1d2hNWEVocnZFaVQwRjdkZk9wdl9nMUFuUmItNndnWndlUTF5N2ViS2dCQllKQUpwMmg3RFRUMjBDb05LcTgtM3J6Y0NSekpjTHdwSVdCdFpHb3l4Sm0ybzZGLTlKdkZQRTZIYlFoUWwxU3RBWXptUDRR0gGQAUFVX3lxTE9mMHg2aUxrZWtzNEZtVENYenV4VmFSRktEYmM4NkFjZW1IS0RKLUwxeTRKMWgwb2VwYmc2b3pqNC11UWxmOUtTT2JMVGhvX0M3SGI2MU5oaWhwalVSUk10TkdOZVJQVU9pRS0tTmZkZnQ4OTM0MzhRc21ZNEdfZGYzZ195TjE4WndINUpjcFRaNg?oc=5",
-      "snippet": "upi",
-      "published": "2026-11-23T20:00:55+00:00"
-    },
-    {
-      "n": 25,
-      "title": "Amazon agrees to buy Decart's AI chip software in a deal reported at $7.5bn",
-      "source": "PPC Land",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTHp6U19CZDVfNkNCUkR0ZlIyQ0VaZjRJRUdyM0RBZHpTV0xqdy1vekpOX3c1eVFaUlhLV2oya2hQXzVUQ3lLSE13eURINTZCTEZDS25uYTFRVk9kakJvX2o2M1JnUnItUjdTclRiRWh5UTc0U3lEUGRoY3FGMzNaUzFzRWZaLTU4ZFVCR3QycEkxTEVQOFE?oc=5",
-      "snippet": "PPC Land",
-      "published": "2026-11-23T19:35:44+00:00"
-    },
-    {
-      "n": 26,
-      "title": "Amazon inks reported $7.5 billion deal for Israeli AI startup Decart's technology",
-      "source": "Ynetnews",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0yQjhkSmxWY25aSk9TWVh1bU42UHZjeHZfVkFSVjk3Z1daRmgwU2hiLUp3dVZ2c0ZWbUpoajgxUDF6dWl1cGFJc0I3SXMwZExUZHZIeUcwQlN5bDgzWF9fQnFR?oc=5",
-      "snippet": "Ynetnews",
-      "published": "2026-11-23T18:53:54+00:00"
-    },
-    {
-      "n": 27,
-      "title": "Amazon nears acquisition of Decart for $7.5 billion",
-      "source": "jawlah.co",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBYcjVfUXd3cEphRlBVSXI1MVpnaFpINnNmSkdQUTNfSGJSV19hVFdGOUhGaEthbXY3S1J6MUw4bw?oc=5",
-      "snippet": "jawlah.co",
-      "published": "2026-11-22T14:29:55+00:00"
-    },
-    {
-      "n": 28,
-      "title": "Amazon.com, Inc. signed an agreement to acquire Decart AI Ltd for an estimated $7.5 billion.",
-      "source": "marketscreener.com",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdmRnWlZ1aXBRSktnUjFid2Rkb1hTQjJmZ1BJb21Lbkxjbml0OUtBT0ZBeURtZnZ5UDlqQ2QtOFpaTElYU0FQSmJxRWI5eTBycThBV1Z3aXhpX1Z1QjZuQzYzTU5wS2cwWnpFMlFkY09MSWtwakw4VkZLZEJJR0lXendlaE1oVXl5MEVPb2xIWE56TFJVVUZ6cTVLU2k5M2VNbjYtcWFnNUZ1T0NHUGtIanhJdTQ1V0Z2b00tb1k3RE4xUDhxN3phNlpxODlnazEyZWYtVVRickc?oc=5",
-      "snippet": "marketscreener.com",
-      "published": "2026-11-23T21:38:38+00:00"
-    },
-    {
-      "n": 29,
-      "title": "Amazon Reportedly Near $7.5 Billion Deal to Acquire Decart, Taking Aim at Nvidia With AI Chip Efficiency Push",
-      "source": "BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jSUczV0Q5bWpYN2tEOVdJS2t2X0tPNlZxcW1DNnM4dVFUU21kTk1MNEE2UGR5WXBPYVd0QjBRSmNyUXp4TkV1b1R5eURwT0NGbzVDdUxOdGE2ay1PcW41SjFQSm12el83OS1pUWM1QnNCSWVhbGc?oc=5",
-      "snippet": "BigGo Finance",
-      "published": "2026-11-22T02:25:00+00:00"
-    },
-    {
-      "n": 30,
-      "title": "Amazon agrees to buy Decart AI technology and team in reported $7.5 billion deal",
-      "source": "Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeFIzZnZPdFRIN3VHYTNqeWJZc0IxNEJEdGQ0YjhocjFtWElIM1Bfc3VXTmY2aWFudWd3NTMwQmEwbjFycGFwRl9BcFUxNHJVeEh4V0V6RGdpcVcyQmVEanhtbDFqS1ZZVjZmOXdXNTBiNmpSSnJ2bUc0ejdiRUNBdFQ2MjlnXy14cHhndnVTMF8zbVBfNEdSWnJ2Vmp2Z1h2TS1UVjJrRUFjcVZocElrZ0NBWHFTbXdYRWh4U1JLX0tHYjdTdy16bzU2bTJJbnNr?oc=5",
-      "snippet": "Investing.com",
-      "published": "2026-11-23T14:51:37+00:00"
-    },
-    {
-      "n": 31,
-      "title": "Amazon Decart Acquisition: Reported $7.5B for DOS Tech",
-      "source": "shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQnBwaDBNVmNLVW40UXZaRzJRblFHQjVKeFV4WDN3eHlSZmhERDF4U2dFOFIya1ZXWGY3dFJOWUhvZjBRMHQ0ZjZCcXVyTTJCVmExaEZJTHlrV2QtX2N4dGJvczN4cnlQb01QWWwwc0tBQTdyamdEaG0zc05qeUlhVUNXSTVTcnA1RW5IaVdxY240a0E?oc=5",
-      "snippet": "shattered.io",
-      "published": "2026-11-23T17:39:04+00:00"
-    },
-    {
-      "n": 32,
-      "title": "How Will the Genie Acquisition Reshape Linamar Corporation (TSX:LNR)?",
-      "source": "Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLXFQTTRqcE9sRXA5cGtheFdnUExsSnJJMWxfSnNzZm8tNHBPckJTd20wSWhrRkR0V1kxLW1SN2J5T0NRcGJnLTh6Q1F6VTFTeXlCUko5M0o1ajJ1ODQ2cmkzaEcxU19pTkRpbFZ5Y3Zsc0VGSzZjekpITVVtUjU0M2tBVlVpckUyVGR1RGxvSjZiSU95bjlYdEdUX2w5QWZIVzVIMUZvYktZdDRlQ2dtNg?oc=5",
-      "snippet": "Kalkine Media",
-      "published": "2026-11-24T07:15:00+00:00"
-    },
-    {
-      "n": 33,
-      "title": "Linamar to acquire Genie",
-      "source": "Vertikal.net",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9GTDZDRDFkUGVGSUdUN0ItY19rN1RKR0JnRE05TXo1ZllnX2ZqenFMVzBvSGpxTkp2MWxqT0phVXpTMTB0YUkwUG05bnlmS0ZQSVZQVFdGc2sxcmZfWlJaeXhaSGQ5WEJ2WEg3TE5Sbkt0S2M?oc=5",
-      "snippet": "Vertikal.net",
-      "published": "2026-11-24T02:50:05+00:00"
-    },
-    {
-      "n": 34,
-      "title": "Linamar Corporation to Acquire Genie from Terex Corporation, Significantly Expanding its Access Work Platforms Group",
-      "source": "The Manila Times",
-      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQand4LVoteGRwX2dzZG5nbXdNZTNfQ3Q1U0NHek9ycWE0NHRFcGdwT0dFLWtQVEtmNVNMRHhWUy1wQ1ByM1ZLZGtkM2ZQeDZ3T25BUFVhSlRKd1BzYXpobS00MGJJdUlwYlczc0JBeFVNOTk5LW5fc042Yjhwd0hVN21iZHNxTG5IV19fTklnX2djYU1JOF9GZXpFN25pQ3paRWJYeGNnM1d6T1FuOU5aOGJCY0pEalg4eko2bmJPaHU5ek5mRWJyUFhobThjdkNrVGRSTTZLNUpHSS1mWWxhQUVfMnNTX3RVUzJISm1PTUF5UXpIbG1JcmdlRUNFSzkzZkhzX0ZZQXJPZ0kxaDdwMHA3T2MwXy1yS0RGWTlR0gGeAkFVX3lxTFBqd3gtWi14ZHBfZ3Nkbmdtd01lM19DdDVTQ0d6T3JxYTQ0dEVwZ3BPR0Uta1BUS2Y1U0xEeFZTLXBDUHIzVktka2QzZlB4NndPbkFQVWFKVEp3UHNhemhtLTQwYkl1SXBiVzNzQkF4VU05OTktbl9zTjZiOHB3SFU3bWJkc3FMbkhXX19OSWdfZ2NhTUk4X0ZlekU3bmlDelpFYlh4Y2czV3pPUW45Tlo4YkJjSkRqWDh6SjZuYk9odTl6TmZFYnJQWGhtOGN2Q2tUZFJNNks1SkdJLWZZbGFBRV8yc1NfdFVTMkhKbU9NQXlRekhsbUlyZ2VFQ0VLOTNmSHNfRllBck9nSTFoN3AwcDdPYzBfLXJLREZZOVE?oc=5",
-      "snippet": "The Manila Times",
-      "published": "2026-11-23T22:13:49+00:00"
-    },
-    {
-      "n": 35,
-      "title": "Linamar Corporation to Acquire Genie from Terex Corporation, Significantly Expanding its Access Work Platforms Group",
-      "source": "GlobeNewswire",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNTE9ZSlRwTF8zWVJ4eWJKTkp5QTdqZ0hYT00zUXRnd2tYbXBUbWw2UEpFWERfdVRWcHJUSmNMZW1mZXZ0b2x0RWZUeDQwa01FSjZCVEVneVhBcWxHZlFINkN4OHNVUnJYYjBybDRwUHRSZEtMYWMySmJJSjFUMFJXYVBJRFo3QmNuZ0JQVU1NU2NLd2g4ZTVNR011bk1vaXMyTFF4Zm9NLXVGWlpnaGtXclhyeTRuM2hTOGxJWFNqXzB3cTYxYkVteXpQbWM1emRrM2FvLUlqTTlvU3lEMWtQRXZEbzVtTWFTTWh3WEpyTUVYaktRbnA1MWRaX3FEaVdKWF9WSm8yQ05GSDFTdFJIcWtrVUtoQQ?oc=5",
-      "snippet": "GlobeNewswire",
-      "published": "2026-11-23T22:05:00+00:00"
-    },
-    {
-      "n": 36,
-      "title": "EXCLUSIVE: Blackstone, Warburg Pincus, Apollo in talks to back GTCR's $50 billion Global Payments deal, sources say",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSXNDTlRtNHJfMUNUdUFuQ2xzOXF0MlBuS19YR3JGZ0F6UTRUTU1BTU42WFdVT0FaTzUzUWFjUl9LT3JDOGMzdENrVVV6RUVCMUViQjFTSGNsc19NNTU5amx3VGZsUWtsMTdJU3JzcWFrT0ozUEJMRGZWUHdSZEdRSjNZdGdaaWlDMklRRlJHMVFaUzhrV3VQelc4dEZZbUFHOEhDaFphcjViOEg1NEtrU3M2OVd1Z1N4Z19GMmxScXNpVm51WmhxeDZBbjg?oc=5",
-      "snippet": "Reuters",
-      "published": "2026-11-24T18:57:02+00:00"
-    },
-    {
-      "n": 37,
-      "title": "Blackstone And Apollo Weigh Backing GTCR’s Global Payments Buyout",
-      "source": "Finimize",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOVNIeDFkVmcwQ0d0MHJZdW5SQ21NdUVGbDFoZWpnMUdWb05DLVdfNDJpUlVwSXpySDBsbmpWaGdubWVETklJNXNyTjBHdWlpYmF2WFdmLU5DaFNweDZwZDRLVjJJWUV3VUR1SThET2o2UzZSQXJxOXJYUWcxV0dTcVVuUGRCVlI3c1pxSXZTMTA3LUdReVU0VA?oc=5",
-      "snippet": "Finimize",
-      "published": "2026-11-24T17:00:46+00:00"
-    },
-    {
-      "n": 38,
       "title": "Clariant and CD&R in Talks to Acquire Ashland in Potential Chemicals Deal",
       "source": "METissue",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRUw5Tno4TS15clpTVVE0T3hBOGxCUVZFYkV6NjhUWVBGTmNzS0JOSjVHZTZqcGFJZFJMQl83Y1c5R1JaVU5CaHlHdUtZTjJfbklKUl9iWWhrNXF5VFJpMkVTOWVJUXREeTc1VmNTYzFRTXF0SVRZWGlJNGxfdkt2Y0RGUXRELTgzYjd1cDIzQnpPWlRUUkt1bXJQdVhaSnM?oc=5",
       "snippet": "METissue",
-      "published": "2026-11-24T17:06:13+00:00"
+      "published": "2026-11-24T22:14:56+00:00"
     },
     {
-      "n": 39,
+      "n": 12,
       "title": "Clariant and CD&R Reported in Talks to Acquire Ashland",
       "source": "European Coatings",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTnIzWDBQZ0wyaWhTQkVXNFVrbXNXZGRnR3dJZElhdDhWQ1RwcGcxRnRRY1hBSGtwQllmbDdzTjBzMi1sLVF3djMtanpEdmw4ckJUVkxFZDd5SHZEV3Z6cFk4dUszYzVoeG9yaVh3UG4yWDI5MWtYcml4MzhFZWtyQUZFdnJ3bS1WZEZVdzVmTVRreF9TRjJfNXFLSXMxZ0hmX1ZObEFGQ25YUG94dXNtRQ?oc=5",
@@ -684,7 +409,7 @@
       "published": "2026-11-24T08:42:42+00:00"
     },
     {
-      "n": 40,
+      "n": 13,
       "title": "Clariant, CD&R in Talks to Acquire Ashland in $3.39B All-Cash Deal",
       "source": "Global Banking & Finance Review",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNEFfVFFCTkJ3OGdQa2NWYlpDOVM2M1BjLUdhcWlSNmoweWlvUkR0ZGFQY19OLXlXZGYtVkFQMkRDaEIxNEVkQUE5OVZlWHlCMEY2OXB4U0l0N2tYNGpRRDM0aWRNeWxIQXF5a2dRYk1RMHpNZmpMRjVidFkzVXE5T2xiRFQ2QlU1NUdEaVFFY1M2NGZFczZFeTNnd0FQQQ?oc=5",
@@ -692,7 +417,7 @@
       "published": "2026-11-22T20:51:49+00:00"
     },
     {
-      "n": 41,
+      "n": 14,
       "title": "Clariant and CD&R reportedly in talks for a roughly $3.39 billion Ashland takeover. Hold the handshake.",
       "source": "Digg",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9PMUpSWDhXRUotUVlmMXppSU9GLTM4WGZrN29BdkxPMHMzMEFZaW96aU16clY5THZVUVFxMXdSaXl4YmhOdUU2b01ZMmoyU2NXTEE?oc=5",
@@ -700,7 +425,7 @@
       "published": "2026-11-22T23:59:21+00:00"
     },
     {
-      "n": 42,
+      "n": 15,
       "title": "Clariant, CD&R in talks to acquire Ashland, Bloomberg reports",
       "source": "Investing.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMnZTQ0NlZEtGYmhMbWtCbGF6X25EekZ2Mlp1Yy1oYnIzazhBRi0tdmlSa25zWUpOM3hnMXgyU2FpcW9uOENYRDg0N1ZRTWlTUWdrSDkwQXZjYUpDblhzc214akhiajhNMUZIUnk5UlhrR1Y3SEpjbGhiMDVWSTZKcC0yUDdMTmVhSk5fRWFCVzlXUFoxNGl0Mk9EX1hkcDRxTUNOT3ZFSlJKRVhYdkVLaUdvcG9fQQ?oc=5",
@@ -708,7 +433,7 @@
       "published": "2026-11-23T03:52:17+00:00"
     },
     {
-      "n": 43,
+      "n": 16,
       "title": "Clariant, CD&R in talks to acquire chemicals firm Ashland - Bloomberg",
       "source": "TradingView",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRmtfemxJbDhjaXczYkphY1IzTXNYV1ZmZmJCTERQOTNpaVFnSUhUallyX1lva2d4RFlxanpxSHZ5XzR3cEk5RE4tLTdyZkxza1NEWFd2LUYySWJUZXFyNkFaMjkxWnpENzlrbHdYTFpobHZaM2ZQNkJOc2xIZGxnSVR6VkZjR1c3NTZ4Y2hJREpkeWdPdUlyZ1RldXlOS1VyWWlQbXBjMzlOY1JydmlOOFJjNG92UmFxYlBtLUMtT1FsTEJtd0psVg?oc=5",
@@ -716,7 +441,7 @@
       "published": "2026-11-22T23:53:16+00:00"
     },
     {
-      "n": 44,
+      "n": 17,
       "title": "Clariant, CD&R in talks to acquire Ashland, Bloomberg reports By Investing.com",
       "source": "Investing.com South Africa",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORm5UaXg0OUNacEE2Q29Jb3NqNmFqVkZlbHROeHpZVnNncXZPbWp0Vk1nMkFFMF9SbUFZb0plSHJPWGV3aUZyUDh0cmdTN3BwV2MySjJBVXJCTGtmeXpZeDJKeWJDTzl6NDRsbGZSQWZ2aERGdDRDUG4xUFM4MU9xYWN4R2hfQXZtX3FXUE1GZDVGZjkxY2h3MnhERFZ1OXhrZUVuVGlGY0R6cWhZR3VnSVJOREc?oc=5",
@@ -724,108 +449,148 @@
       "published": "2026-11-23T02:10:04+00:00"
     },
     {
-      "n": 45,
-      "title": "Family Savings Announces 10th Credit Union-Bank Acquisition of 2026",
-      "source": "CUTimes",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOXRqYU12TFlWVzY1QTJndV9rMTVPbVFjeE1GajBWblVjazREbkllamhPYWRlS3J1UWYzck1QMVkzbENLNWdPYU1MNjJOSFh3TzJqcFcyY0F5S2xnRms2TmF2VWxRM2ZhM2N3T09NYUZpZi1KQkNBX3Z5VEREdGVMLTBBdldWM1RQZWRhWWM0NldLaWk2d1NPVXFyQ2sxVFVV?oc=5",
-      "snippet": "CUTimes",
-      "published": "2026-11-24T20:35:08+00:00"
+      "n": 18,
+      "title": "Blackstone Leads Talks to Back GTCR’s $50 Billion Global Payments Deal",
+      "source": "PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNGo3V1FnSlh0MnNfU1JXUVVfSGh0Q1BHMWc5Q2FNYkRPQUZnTHk1RUlyU21oWkl5VGxKbVRpLU9Ga3d6aW95NXd0LXRzcUlkSXFsNTRpaUJEVnUydlY4c0lXenU0dDVvRE5QLVE0OGo1enlfUkN6THZiamlRY3htbVhMenBBV2ZUUGpYVnk2X0FQMVNmYnFQWFJWNnFnclZHMEdWeVJoT1Z2VmRfLVhaeGc2Vk1aa2NiUEpZSW8wNTdxd2I5c0JweDAxV21JZw?oc=5",
+      "snippet": "PYMNTS.com",
+      "published": "2026-11-25T01:13:30+00:00"
     },
     {
-      "n": 46,
-      "title": "Florida Credit Union Plans to Acquire Florida Bank",
-      "source": "CUTimes",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQktZaFU4TXZJRC0zVVBKMlVRUkI5NHRNVjFzWkx0RkE5NGl2X1pSeG05RWRiakt3YnFzMVhfeGY2WTFWS1pzSWg1REgtN0duR0R4WmEyRHdfYi12LXRHa2hoRWhld1o4RjBrZ0NxMnpIcEhUb1JZYzEtcVNfTFJ4Y0pNWWNvbnRLUGc?oc=5",
-      "snippet": "CUTimes",
-      "published": "2026-11-17T22:21:17+00:00"
+      "n": 19,
+      "title": "EXCLUSIVE: Blackstone, Warburg Pincus, Apollo in talks to back GTCR's $50 billion Global Payments deal, sources say",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSXNDTlRtNHJfMUNUdUFuQ2xzOXF0MlBuS19YR3JGZ0F6UTRUTU1BTU42WFdVT0FaTzUzUWFjUl9LT3JDOGMzdENrVVV6RUVCMUViQjFTSGNsc19NNTU5amx3VGZsUWtsMTdJU3JzcWFrT0ozUEJMRGZWUHdSZEdRSjNZdGdaaWlDMklRRlJHMVFaUzhrV3VQelc4dEZZbUFHOEhDaFphcjViOEg1NEtrU3M2OVd1Z1N4Z19GMmxScXNpVm51WmhxeDZBbjg?oc=5",
+      "snippet": "Reuters",
+      "published": "2026-11-24T18:57:02+00:00"
     },
     {
-      "n": 47,
-      "title": "Townsquare Media rejects Mackinac Island ferries owner’s $37M takeover bid",
-      "source": "Crain's Grand Rapids Business",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY042aUhjaXA3RjQzYXRpRF85Tm0zVkNxRk55cWgyMFVxV0F0LXVEUk8ybU9qY2RGaldiUlVNdERwZXVOdWdfZXJZeXM5VGxEX2hucWZnaGE0cE1WLXFwTHFWbU5fUFJpZmhJNFo4RXRIejZlamU3V3k1ZWd6MlNPeUNDWnhmSHVTM19YSUxBdmcxR3ZfU3NKTEJnR1FWcWRBVVZqcERyc3RWdw?oc=5",
-      "snippet": "Crain's Grand Rapids Business",
-      "published": "2026-11-24T20:31:00+00:00"
+      "n": 20,
+      "title": "Blackstone And Apollo Weigh Backing GTCR’s Global Payments Buyout",
+      "source": "Finimize",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOVNIeDFkVmcwQ0d0MHJZdW5SQ21NdUVGbDFoZWpnMUdWb05DLVdfNDJpUlVwSXpySDBsbmpWaGdubWVETklJNXNyTjBHdWlpYmF2WFdmLU5DaFNweDZwZDRLVjJJWUV3VUR1SThET2o2UzZSQXJxOXJYUWcxV0dTcVVuUGRCVlI3c1pxSXZTMTA3LUdReVU0VA?oc=5",
+      "snippet": "Finimize",
+      "published": "2026-11-24T18:39:47+00:00"
     },
     {
-      "n": 48,
-      "title": "Townsquare Media board rejects $2.03-per-share takeover bid",
-      "source": "StreetInsider",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdFNIdEJndy0wQXdmRG5tX2VzWlJiTzdRSlVha3R0Q1NDLTBpZUlUYzF3MkhiMUtZZGlsTHg4ejZJRkZfTkQ0N3U5a19Na1MyUmxGLUVsSk90bnpNeGhGVjhVNHJLdm5uUkUxYVEtZEMxSDBmbC1NQ2l0elg3WUM1NGpzYUVFRTdPdnZtT0RCcGJ6TE5XRXF6OEUyRHVQeUlPUXJFV3N5c3hMR3JSUUFoc0JmdUJNMHZyZzRaYw?oc=5",
-      "snippet": "StreetInsider",
-      "published": "2026-11-23T21:31:59+00:00"
+      "n": 21,
+      "title": "Expedia Group agrees to acquire Kiwi.com",
+      "source": "Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5neWl5Q29iS0p1bFp1a0FFQmZyZVNfczMxdmtJaFA4SThzcXo2WTcyRlZubHRRckY4ZkpvejZUTEdzc0FoR3dtN3lpeXR4Ujk1dm1WQUxvNGs5eWZvM2ZGQnh5aVNhWkpxODhETnNfOTVhRUVTMjJ3VA?oc=5",
+      "snippet": "Crypto Briefing",
+      "published": "2026-11-25T14:28:10+00:00"
     },
     {
-      "n": 49,
-      "title": "Townsquare Media rejects Hoffmann family’s $37 million takeover bid",
-      "source": "Crain's Chicago Business",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLW9EOHJJZ1c1MWxFS2syeG0wOTJaZ1RXNE9IMzF4UENicW9HMnM3TVdsaWc4Y3BiNEFBRWNhZjVuaEZMQXc3bVBjeWpjbXZMOGJVY0FfbVZ0QTFvUXFjZVkxalA5U1FiYWRUS2t2U1N2ZHJvcTdMU0ZaQ1Vub3RHVnRHUUZpdmZnLS1LUmxyYjM2WmttbDB0ejMyRGtWZE1vc0g0RFRPYw?oc=5",
-      "snippet": "Crain's Chicago Business",
-      "published": "2026-11-24T18:24:12+00:00"
+      "n": 22,
+      "title": "Expedia Group Announces Agreement to Acquire Kiwi.com to Augment Flights Capabilities",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONnNBblJaV3I3LXhMaTh5ZHdFNGRrMlB3M0hFYlY0cnplSWx6bUsteEN6QjA0dHZrc3BGRmplTldQZEIzZm1vX0VIOWpEdGozMjV3MWpPOXhpNV9MZ1VsSGM1S0tYZFM3bmdSemp2ZnQzbDdqRDZmX3NhVnNzbThTVlFOOFAwY25Mekl5eTc1amlXOGtBSHRVRkR4U050VzNsWWhRU25McDRJRkd0dnhxanJVVk4wNVh3SHhwbmxkYko0dmdRZUlxMmRvLWdVTUtRdHp0VFItcmMzQQ?oc=5",
+      "snippet": "Business Wire",
+      "published": "2026-11-25T14:00:00+00:00"
     },
     {
-      "n": 50,
-      "title": "SpaceX, Tesla appoint five directors to negotiate on possible deal - FT",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPakxGb0hoSFB1Q3l3VTZUWDJ1NThRTnJuemNsWm5SVWJESUtFZFlRNHF6VTVwb3cwNkVnY1hxRjlPQjVpcHJmQ1UzVXlRbTFObkpoMWtYbWFFQjBNZ290UzdRcHNCSGZGdjF5Y1JjS1FCUUU3djhRaFJ6TzJTZlBpSUttSE5DemdxSm1yRzdkVUtwOVV6VlFiTE9IUzBIeDVpWVktWXZ5WkVnQ3lBRm1uX2ZqNzIyRlk2RmJkMlNGZ2IzRlFiWGNhRU5QZw?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-24T20:27:23+00:00"
+      "n": 23,
+      "title": "Bureau Veritas hits record high after report Advent weighs takeover bid",
+      "source": "Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd0V5NWpsTTJBWUREUlRJb3BrT3FSQzFWX3hPenp4RVRJLWozaDBiWERZUHpLclBZY1lHRzA3eGktNzRCclFVTFhkYlpmSEM0WjcteTJpWnlFQjk4S21MU0ZORXBYdW5qbklRREU4MkdQR3BHYjF3c3dRQ2MzdzRCWFd5Z0FDUmVseUxnY2l2U1J6LWZfSEt3ZUpVbXRpQUNIa0xUeFFQMEJMejEzUnU3b1hSM2cyVVFkQUR2ZDhVTmpwS2xQOXNR?oc=5",
+      "snippet": "Investing.com",
+      "published": "2026-11-25T11:23:04+00:00"
     },
     {
-      "n": 51,
-      "title": "Digi International Completes Acquisition of Disruptive...",
-      "source": "Quantisnow",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaVFLSG5kb1hEOV8tcUVURFM3d3dNMEJNaThmYmIyR3F6OGN2LUE2bVZEaGphWElheUg3cXBpZUIyV0xGb1EzSkh5LXFQbTd6cmhOc1lYV1ZDdDFrVGo0NmRMZ01SQ19DSzlZVTJQczROTG04Z1R4VEF0QThBa09YVWQ1VUotSUZuQzhtcXFlaEpmT0JqbHRpTHRJWmhVTVlLNWN4XzdCV2g3Y2NZdGRCclBId2k5ZGw0SE9obU5hc2xoUUg2Qk0weHBlWUpIQ09HX2FqUkVLVmxFZw?oc=5",
-      "snippet": "Quantisnow",
-      "published": "2026-11-24T20:06:33+00:00"
-    },
-    {
-      "n": 52,
-      "title": "Omega Systems buys Framework IT as channel buzzes with M&A activity",
-      "source": "Channel Dive",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObXZTSjU3U1EtMFRmQy0xVkVXMjlfMWh1RlMxaUc0ZHBlSlZCVWFwWHFMQ0Y4ZWZWenZiU1o3a2FaMWxYS05DM2tvb012cWs0Y1hXczFqa2NKSTJ1MFV5amhUQWNidkdmdFBndlNYSVNxTW1pU1JlOVdqSF9CZTNYRXNsYmFPVWhKWG84?oc=5",
-      "snippet": "Channel Dive",
-      "published": "2026-11-24T20:02:48+00:00"
-    },
-    {
-      "n": 53,
+      "n": 24,
       "title": "Advent Weighs Takeover Of Testing Firm Bureau Veritas",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTXhyMzYyOG80N3d2ZEtoR09tZkxjdFIybjFleW5DWlJnRjViVVR6XzdqTGVNWDVLREdLSHo3MHoyZmhEN2YxMWt5QjU4VzgzclllbDVyN01LbDh5Ym9tcXVUWnVud08tLXMwSm5HS2l3LUJTZExUYWlNVm80WkY4Z293N1ZKdGRiMnpoeG8yWkxaR2ROT2R2U21KaS1Od19yeVBtMmtFcw?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-24T19:58:23+00:00"
+      "snippet": "Bloomberg",
+      "published": "2026-11-25T11:16:24+00:00"
     },
     {
-      "n": 54,
-      "title": "Cybercab Under $30K & Tesla Merger Talks: What to Watch",
-      "source": "shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUV9vd2xiT0RLNVZfS1NMMHFQZDZCeEtrQXhFZEExeExhek4zc1BaUi1ab0p3Z3B2bG02VkJWOHpIcVBxS3JxTXhRVFRYZXhfSnV4OHVnbDVmWC1reXM4SmFxV3dQYk5KeTJvdWw0TlVCa3ZoV1NoNDJDSUdzU0ZmQklYTzljTE1I?oc=5",
-      "snippet": "shattered.io",
-      "published": "2026-11-24T19:19:26+00:00"
+      "n": 25,
+      "title": "Amplifon Secures €1.2 Billion Credit Facility to Complete GN Hearing Acquisition Financing",
+      "source": "The Hearing Review",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZlFIX05MSGxORHBwUXM1TjJmUFh6dDBCeEZRdzFqN2dZUElSV0pUNGNLT0NMZk5wc01qbmtzenJQZm44emNtdWZNNXJNUkhGUS1oS1dtYXp4c2kxYTJkUzdoVlI2WjExZ25PczZRSXpNRTBFdjk3Rnh4R3VOUHdjOGJpcWluWjNVeEFPTk5YQ1NiemhfZF95VlV1WGVvVGJ4OXRJQVRsb1A0Z0FJTlBHTFJOVUI5SXJzeEJKaDFPcmxmazd0a1BwNENEUW9jdzJaRFVkb0s1QlJ2cnV0Zmc?oc=5",
+      "snippet": "The Hearing Review",
+      "published": "2026-11-25T17:40:31+00:00"
     },
     {
-      "n": 55,
-      "title": "AFREF Opposes FDIC Proposal to Rubber Stamp Bank Mergers",
-      "source": "Americans for Financial Reform",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQazlITFA5d0w1VVA0WHJlUEM3ckRMUERVMThFcUNQWHNHUGE2NjZxdDBfZ1kyTzNDYnp3RlBjaE5OUHZXQkFWdThGczkxcUJyV0FEcjM5TmZLZ0pabGdLeGhEZ1lKd1V3czdxQWhlWkpqMDBjU1hYdTQ3Ym51U2NENGpoVTlBdGZORjdNYTEzUDdGanRIWURnOFJ3czYtZ25uUlRR?oc=5",
-      "snippet": "Americans for Financial Reform",
-      "published": "2026-11-24T18:39:35+00:00"
+      "n": 26,
+      "title": "AFC Industries Adds Six Branches with Barnhart Bolt Acquisition",
+      "source": "Distribution Strategy Group",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWFR5ZE90SU9EMGtiNThZeGsyM1BiNFhGemNJVjNTSE9OaFdwMDBxXzZSUnhJQXZiY2xFOFJkZ3Rmb2xZZDRldlZtdjNSS3ZreV9oLW9nS1Y4bzU1ZHZYM1dnRHQzZEVxY1hnXzNyYmZqRmJzOHRGOFFYM3FsWXZ0TnN3ZWszSmR6SFpLcFFnYzNJcFVackctbHVyUG9NTThVNFVjVVpsaTQ?oc=5",
+      "snippet": "Distribution Strategy Group",
+      "published": "2026-11-25T16:09:35+00:00"
     },
     {
-      "n": 56,
-      "title": "Your Customer Just Got Acquired. What Happens to Your Contract?",
-      "source": "The National Law Review",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMEJwblpPQjZCUG1KZUVEb1pEVG5BYmJkUkFINnRtOWpWMC1nRHA4US1YVDZfcHdNRTdZT2J3OG94cnJNcUY5X1hORjA3TGpZalNuUXhySWlFbXRGZXZJeEZiY0hsSWk0cUVKam9lSEJldl9lYVQ4VmhPdWVBM0FqT2xiTmltSE9Tc3N4X2h4dmZoM1dlM2fSAZsBQVVfeXFMUGVoeXl6eFB0LUNYWFYxZ3BINWtYbUt3SVhSVzJHYmV6ZWc0aVRaNklnb0NuRGh4VHVPQUt3QWJNY1lGLXA5alJsRV9jbTNmbTBoMkxPb1pVUG42Zk80dFFYbVdGMmI4ellIdlFNcGdNbUtaY0xEdGlTV183TVNXQmQ2Mjg5MndOWDZFZW9iY2poLW0ycHlFUkZOTFk?oc=5",
-      "snippet": "The National Law Review",
-      "published": "2026-11-24T16:43:41+00:00"
+      "n": 27,
+      "title": "INDEXO’s voluntary takeover bid for DelfinGroup shareholders to begin on 27 November",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYTlwLXFrdXkwaUpyVFBvZFBCVDFabXBZRk9XQjVZckFfR2dVcGdNOWdXY1lESUJmUklSYWJaZjZvQllWSFFKYkxscDYxWi1rN29QOXloTzI0YWI0aVBLQzB1X2Z6bUptWjdZZTFzcjJ4OXdnUTdtRmZaVFpBX0hLUG41b2lnNlhDWDBtU096dmk0ZWUyalA4R0hnOFpZWHFCZmJsLXJZOVhqR21qM25hcVRob3p3ejRySUdlYi0xOGxDZHQ0WGNRUDlFaTEyRkt4RzBiS1dfczdTLW13cmR1bEdjdDg?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-25T15:54:00+00:00"
     },
     {
-      "n": 57,
-      "title": "SCC rules ‘robo memo’ will not be released in Dominion-NextEra merger review",
-      "source": "WWBT",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeGU3eVB3VEh2aTF2REZYQ05fc2t3RWNGVkNWWDh0LVhlOWdQS3g5alAwdFVRRzRJNlF3S0hSYVZad3IyREthRUxVNVBTRGZIN1FSek0xOG9HMFRrTzhmazY2ckZpM2h3dXctSWRTQWk5Mk5CRDFaM3dMMWZUV3FjZEVHdTVUcGJOTUdsblhYaEV6bjZIaUFoUWNLc3dIMWRhUlpDdE9Qck0xTWtCNkxnc1pR0gHGAUFVX3lxTE16MEJHazhYUXFOc1Jzb2R0Rm1KSDVaWHJodmVWZVpnR2dWejhnRDJKOHBYRjB0UjluSm1nSjFTQndPNDg5YVpEMVdHOE9jY3FENVZDeTB6UzVsRFRlUHNadnZiRmwwd2dCYlRVdkFDajhxNmNKV2kwQnBDeVY3UzV6c3dUa0tEczk4dG1LT1lVTS1idUpZeGlSZGg5VGpWVXVqLUlqZEhTcXdKMEp1ZHEzWUxiVkt4WWpkV05WMl94V0otTktFZw?oc=5",
-      "snippet": "WWBT",
-      "published": "2026-11-24T16:07:00+00:00"
+      "n": 28,
+      "title": "Pearland expands industrial footprint with new developments",
+      "source": "Community Impact Newspaper",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONTF6SER3aWVHbTNXdDNIMURxb1dWQk5QYXB1dVJPaUhuRVdHb3JRdFJSS0FER0FuYTBtTHd1MnlVei0xd1lRTXFjVldDTThCNV8yVzliczlsNVl4Y3BHM2VzM0RwZnZON2szdWtfOEFZd19TWTdUdjk4dFVyYkJONGd2cTB1MldWd1FOWXVzQTdnU215Q09jY0M4SEozRHFzeWN0TU9wXzNLQQ?oc=5",
+      "snippet": "Community Impact Newspaper",
+      "published": "2026-11-25T19:49:10+00:00"
+    },
+    {
+      "n": 29,
+      "title": "M&A in the Industrials Sector Looks Set for a Robust 2027",
+      "source": "Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWk1vSko4bmZ2TnoxeTNuYzRHdUx1NmpLU0RxZzFoRHRFLWozSktPZ1oyUlVGbXpJZVlZOGpCcEs4Z0QtaGExV3Rfam9kdWhvY2U1cGxDT3hWV3dYMFAta1hFdE0yYzZ0WGlWQ09UOWhXWnF1ZHpVd2V4RndZLWJ4bDBnd3A5ZS1pcEZWYjRWU3d5bGcxcGJMUXk2M2p2ZkxhelhZQlJ3NExKMDc3?oc=5",
+      "snippet": "Bloomberg",
+      "published": "2026-11-25T19:35:06+00:00"
+    },
+    {
+      "n": 30,
+      "title": "After $32 billion Google deal, Wiz founders face multibillion-dollar tax demand in Israel",
+      "source": "Ynetnews",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wNkYxWUFlZHhTdERXbUtfWDhqN0w1T0RYcWh2WmRGQ1VwYkd4NDdfMWxTTE44MFk2dmxvdlZXOHlMbnNjUlZIT2dfR1FzODBfaXRWdDJMMkVYN1QyRXJIOHVYMA?oc=5",
+      "snippet": "Ynetnews",
+      "published": "2026-11-25T19:10:12+00:00"
+    },
+    {
+      "n": 31,
+      "title": "SpaceX Could Use Tesla Assets to Expand AI Infrastructure",
+      "source": "cwibc.co.id",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Ub0o5LWswekFEWEw4YzdlM1AwUW8wQzB0ZTVKQ2tTcWU0eklvMVU4UndRZmJPTVh4Y0JJcVhRZ1lDbTdXNVhzMEo3MlF3VFV6LUR3SHVTNlJHMlh5THI2Qk9R?oc=5",
+      "snippet": "cwibc.co.id",
+      "published": "2026-11-25T16:47:08+00:00"
+    },
+    {
+      "n": 32,
+      "title": "Newsmax Sues to Undo Fox’s $22 Billion Roku Acquisition",
+      "source": "Law Commentary",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbzV3Z3J0VWFyazk1X3hNNllaSnZtd2J5bEt1SXQxWUtnU3M1Ukc5U2lrRWlPel9HMHZPejBFRmEzUHVLbm9WLTNIS2FVQVYxOGhJWkVLT0VWZGpBVU9acDI4TDc5bFd2ankxRllIRHRIT2pYN3pVa29IOTE0Z29RbU9PNVRvZTBmb2plSA?oc=5",
+      "snippet": "Law Commentary",
+      "published": "2026-11-25T15:51:00+00:00"
+    },
+    {
+      "n": 33,
+      "title": "Tesla Stock Drops More Than 5% As EU Delays Self-Driving Vote And SpaceX Merger Talks Rattle Investors",
+      "source": "International Business Times Australia",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQ2hUVU5MWXFvd1VQaC1lcWJqNkZ4cXEzWmdTcUtzMEtoNHE1amFFMjVINFRFbWZmTTY4T3JvT0k5R19ybEYyRC1UVnNjZkJsN0hacVN0SnN0WFN5cm00ZVZLSUQxb3ZReEd6RE56dVhDSFFlNmtVLVNUZ243MVpCWkJfTEVZSnBZd0FJR05n?oc=5",
+      "snippet": "International Business Times Australia",
+      "published": "2026-11-25T15:16:31+00:00"
+    },
+    {
+      "n": 34,
+      "title": "Moschip shareholders approve Vayavya Labs deal with 99.99% votes",
+      "source": "scanx.trade",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWXVueFFzUGVfWFNjN2I0d2UzaFMxbi1Eb0RRRUlkU3hTU1NiSWMtZTh3UXJ5OGN4QjRjREZEaUdMNW92ZXFkTEMwbFhOamFwMDJXWDdtWkJzdE13NUQ3d2o4MGNSNGpiVFdGdlhVZ1dqQ1ZOaEJGZmRZMHplWTdxWmNOSkhheDdCVTFPQUhKX1pwZy1vOWYyUFhRMjV2NUt0d2hXRUcxeWx6aVoxMmplZVdaeElGamRJRE9FcA?oc=5",
+      "snippet": "scanx.trade",
+      "published": "2026-11-25T14:28:02+00:00"
+    },
+    {
+      "n": 35,
+      "title": "Reasons Why Investors Should Consider Buying Applied Industrial Stock",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZC1IZ3FhYVNpbTE2Vl94SjBmdFZyQVpjRXBVQ3oxNGs4d3pGOWExZnpsRHJpM0N1a01SSWxIUWdfcC11TG9ZdTBSVHNYRmVQMU1VMTBOTHNOOGdDRjhpd3k1ZncyRkM5Tk52bE5HenNPb1BrZDRhVWpQTHc2REdsTmNuOU5NTWpSeFZ6blRJNUVLNnYyZmt1cnZwVk4yWVBMR0wtRm1zdzU2bFJncTktNDEtWloxUUJvbGRlX042MTZQeWc?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-25T14:12:00+00:00"
     }
   ],
   "cited": [
@@ -840,158 +605,57 @@
     10,
     11,
     12,
+    13,
+    14,
+    15,
     16,
     17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
     24,
     25,
     26,
+    27,
     28,
-    32,
-    33,
-    34,
-    35,
-    36,
-    37,
-    38,
-    39,
-    40,
-    41,
-    45,
-    46,
-    47,
-    48,
-    49
+    29,
+    30
   ],
   "invalid_citations": [
-    1,
-    2,
-    3
+    1
   ],
-  "example_prompt": "Deal: Sanofi and Insmed.\nStage: Announced.\n\nHeadlines:\n[1] Barron's, Nov 24 12:49 PM ET: Sanofi Agrees to $41 Billion Insmed Deal. Why Its a Win-Win for Both Stocks.\n    Barron's\n[2] TradingKey, Nov 24 10:58 AM ET: Sanofi to Acquire Insmed for $41 Billion in Biggest Pharma Deal in Nearly Three Years\n    TradingKey\n[3] upi, Nov 24 10:09 AM ET: Sanofi agrees to acquire Insmed in biggest pharma deal since 2023\n    upi\n[4] Stock Titan, Nov 24 10:05 AM ET: Sanofi agrees to buy lung drug maker Insmed for $41 billion\n    Stock Titan\n[5] citybiz, Nov 24 08:24 AM ET: Sanofi to Acquire Insmed for $41 Billion, Expanding Respiratory and Rare Disease Portfolio\n    citybiz\n[6] TradingView, Nov 24 06:13 AM ET: Insmed to Be Acquired by Sanofi for $175 Per Share in Cash\n    TradingView\n[7] WSJ, Nov 24 04:39 AM ET: Sanofi Strikes $41 Billion Deal to Buy U.S. Drugmaker Insmed\n    WSJ\n[8] Forbes Middle East, Nov 24 04:20 AM ET: Sanofi To Acquire US Drugmaker Insmed For $41B\n    Forbes Middle East\n\nWrite the subheading and sentences.",
+  "example_prompt": "Deal: Sanofi and Insmed.\nStage: Announced.\n\nHeadlines:\n[1] BioProcess International, Nov 24 06:08 PM ET: Sanofi set to acquire Insmed in $41bn agreement\n    BioProcess International\n[2] Barron's, Nov 24 12:49 PM ET: Sanofi Agrees to $41 Billion Insmed Deal. Why Its a Win-Win for Both Stocks.\n    Barron's\n[3] TradingKey, Nov 24 10:58 AM ET: Sanofi to Acquire Insmed for $41 Billion in Biggest Pharma Deal in Nearly Three Years\n    TradingKey\n[4] citybiz, Nov 24 08:24 AM ET: Sanofi to Acquire Insmed for $41 Billion, Expanding Respiratory and Rare Disease Portfolio\n    citybiz\n[5] CNBC, Nov 24 04:59 AM ET: Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years\n    CNBC\n[6] WSJ, Nov 24 04:39 AM ET: Sanofi Strikes $41 Billion Deal to Buy U.S. Drugmaker Insmed\n    WSJ\n[7] Forbes Middle East, Nov 24 04:20 AM ET: Sanofi To Acquire US Drugmaker Insmed For $41B\n    Forbes Middle East\n[8] finchannel, Nov 24 03:29 AM ET: Insmed acquisition: Sanofi agrees to $41 billion cash deal\n    finchannel\n\nWrite the subheading and sentences.",
   "retrieval": [
     {
       "deal": "Sanofi / Insmed",
       "query": "Sanofi Insmed acquisition merger deal",
       "hits": [
         {
-          "n": 9,
+          "n": 8,
           "similarity": 0.863
         },
         {
-          "n": 2,
+          "n": 3,
           "similarity": 0.83
         },
         {
-          "n": 5,
+          "n": 1,
+          "similarity": 0.828
+        },
+        {
+          "n": 4,
           "similarity": 0.824
         },
         {
-          "n": 6,
+          "n": 9,
           "similarity": 0.812
         },
         {
-          "n": 8,
+          "n": 7,
           "similarity": 0.812
-        },
-        {
-          "n": 1,
-          "similarity": 0.808
-        }
-      ]
-    },
-    {
-      "deal": "CrowdStrike / Zscaler",
-      "query": "CrowdStrike Zscaler acquisition merger deal",
-      "hits": [
-        {
-          "n": 18,
-          "similarity": 0.887
-        },
-        {
-          "n": 19,
-          "similarity": 0.886
-        },
-        {
-          "n": 20,
-          "similarity": 0.886
-        },
-        {
-          "n": 10,
-          "similarity": 0.885
-        },
-        {
-          "n": 21,
-          "similarity": 0.878
-        },
-        {
-          "n": 22,
-          "similarity": 0.877
-        }
-      ]
-    },
-    {
-      "deal": "Amazon / Decart",
-      "query": "Amazon Decart acquisition merger deal",
-      "hits": [
-        {
-          "n": 27,
-          "similarity": 0.833
-        },
-        {
-          "n": 28,
-          "similarity": 0.818
-        },
-        {
-          "n": 29,
-          "similarity": 0.806
-        },
-        {
-          "n": 30,
-          "similarity": 0.787
-        },
-        {
-          "n": 31,
-          "similarity": 0.785
-        },
-        {
-          "n": 24,
-          "similarity": 0.764
-        }
-      ]
-    },
-    {
-      "deal": "Linamar / Genie",
-      "query": "Linamar Genie acquisition merger deal",
-      "hits": [
-        {
-          "n": 35,
-          "similarity": 0.783
-        },
-        {
-          "n": 34,
-          "similarity": 0.773
-        },
-        {
-          "n": 32,
-          "similarity": 0.759
-        },
-        {
-          "n": 33,
-          "similarity": 0.714
-        }
-      ]
-    },
-    {
-      "deal": "Blackstone, Warburg Pincus, Apollo / Global Payments",
-      "query": "Blackstone, Warburg Pincus, Apollo Global Payments acquisition merger deal",
-      "hits": [
-        {
-          "n": 36,
-          "similarity": 0.831
-        },
-        {
-          "n": 37,
-          "similarity": 0.758
         }
       ]
     },
@@ -1000,69 +664,113 @@
       "query": "Clariant Ashland acquisition merger deal",
       "hits": [
         {
-          "n": 40,
+          "n": 13,
           "similarity": 0.835
         },
         {
-          "n": 41,
+          "n": 14,
           "similarity": 0.816
         },
         {
-          "n": 42,
+          "n": 15,
           "similarity": 0.812
         },
         {
-          "n": 43,
+          "n": 16,
           "similarity": 0.806
         },
         {
-          "n": 44,
+          "n": 17,
           "similarity": 0.805
         },
         {
-          "n": 38,
+          "n": 11,
           "similarity": 0.803
         }
       ]
     },
     {
-      "deal": "Family Savings / CUTimes",
-      "query": "Family Savings CUTimes acquisition merger deal",
+      "deal": "Blackstone / Global Payments",
+      "query": "Blackstone Global Payments acquisition merger deal",
       "hits": [
         {
-          "n": 45,
-          "similarity": 0.753
+          "n": 18,
+          "similarity": 0.762
         },
         {
-          "n": 46,
-          "similarity": 0.662
+          "n": 19,
+          "similarity": 0.731
+        },
+        {
+          "n": 20,
+          "similarity": 0.72
         }
       ]
     },
     {
-      "deal": "Townsquare Media / Mackinac Island ferries owner",
-      "query": "Townsquare Media Mackinac Island ferries owner acquisition merger deal",
+      "deal": "Expedia Group / Kiwi.com",
+      "query": "Expedia Group Kiwi.com acquisition merger deal",
       "hits": [
         {
-          "n": 47,
-          "similarity": 0.841
+          "n": 22,
+          "similarity": 0.853
         },
         {
-          "n": 48,
-          "similarity": 0.689
+          "n": 21,
+          "similarity": 0.839
+        }
+      ]
+    },
+    {
+      "deal": "Advent / Bureau Veritas",
+      "query": "Advent Bureau Veritas acquisition merger deal",
+      "hits": [
+        {
+          "n": 24,
+          "similarity": 0.778
         },
         {
-          "n": 49,
-          "similarity": 0.676
+          "n": 23,
+          "similarity": 0.742
+        }
+      ]
+    },
+    {
+      "deal": "Amplifon / GN Hearing",
+      "query": "Amplifon GN Hearing acquisition merger deal",
+      "hits": [
+        {
+          "n": 25,
+          "similarity": 0.799
+        }
+      ]
+    },
+    {
+      "deal": "AFC Industries / Barnhart Bolt",
+      "query": "AFC Industries Barnhart Bolt acquisition merger deal",
+      "hits": [
+        {
+          "n": 26,
+          "similarity": 0.808
+        }
+      ]
+    },
+    {
+      "deal": "INDEXO / DelfinGroup",
+      "query": "INDEXO DelfinGroup acquisition merger deal",
+      "hits": [
+        {
+          "n": 27,
+          "similarity": 0.78
         }
       ]
     }
   ],
   "stats": {
-    "headlines_fetched": 187,
-    "headlines_new": 105,
-    "index_size": 2555,
-    "deals_found": 32,
+    "headlines_fetched": 189,
+    "headlines_new": 81,
+    "index_size": 2465,
+    "deals_found": 36,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19
