@@ -259,6 +259,13 @@
    "found": 36,
    "new": 6,
    "cumulative": 200
+  },
+  {
+   "date": "2026-11-26",
+   "shown": 8,
+   "found": 33,
+   "new": 6,
+   "cumulative": 206
   }
  ],
  "deals": {
@@ -925,9 +932,9 @@
    "acquirer": "SpaceX",
    "target": "Tesla",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
-   "stage": "Rumored",
-   "value": "$1.5 trillion",
+   "last_seen": "2026-11-26",
+   "stage": "Pending approval",
+   "value": "$3.5 Trillion",
    "usd": null
   },
   "centrus energy|westerman acquisition": {
@@ -2048,7 +2055,7 @@
    "acquirer": "Expedia Group",
    "target": "Kiwi.com",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "stage": "Announced"
   },
   "advent|bureau veritas": {
@@ -2080,11 +2087,55 @@
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
    "stage": "Announced"
+  },
+  "altria|imperial brands": {
+   "acquirer": "Altria",
+   "target": "Imperial Brands",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "stage": "Rumored"
+  },
+  "targa resources|kinetik": {
+   "acquirer": "Targa Resources",
+   "target": "Kinetik",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "stage": "Rumored"
+  },
+  "ls power|constellation": {
+   "acquirer": "LS Power",
+   "target": "Constellation",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "stage": "Completed"
+  },
+  "rottenstone gold inc|great bear royalty": {
+   "acquirer": "Rottenstone Gold Inc.",
+   "target": "Great Bear Royalty",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "stage": "Announced"
+  },
+  "integral|i ne": {
+   "acquirer": "Integral",
+   "target": "I-ne",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "stage": "Announced",
+   "value": "$110M",
+   "usd": 110000000.0
+  },
+  "umios|high liner foods": {
+   "acquirer": "Umios",
+   "target": "High Liner Foods",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "stage": "Announced"
   }
  },
  "totals": {
-  "deals": 200,
-  "with_usd_value": 98,
-  "usd": 847566700000.0
+  "deals": 206,
+  "with_usd_value": 99,
+  "usd": 847676700000.0
  }
 }
