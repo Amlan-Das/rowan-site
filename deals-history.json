@@ -266,6 +266,13 @@
    "found": 33,
    "new": 6,
    "cumulative": 206
+  },
+  {
+   "date": "2026-11-27",
+   "shown": 8,
+   "found": 36,
+   "new": 6,
+   "cumulative": 211
   }
  ],
  "deals": {
@@ -1952,10 +1959,10 @@
    "acquirer": "CrowdStrike",
    "target": "Zscaler",
    "first_seen": "2026-11-23",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-27",
    "stage": "Announced",
-   "value": "$43.9 billion",
-   "usd": 43900000000.0
+   "value": "$44 billion",
+   "usd": 44000000000.0
   },
   "texas pacific land|eaglerock land": {
    "acquirer": "Texas Pacific Land",
@@ -2092,8 +2099,10 @@
    "acquirer": "Altria",
    "target": "Imperial Brands",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stage": "Rumored"
+   "last_seen": "2026-11-27",
+   "stage": "Rumored",
+   "value": "$30B",
+   "usd": 30000000000.0
   },
   "targa resources|kinetik": {
    "acquirer": "Targa Resources",
@@ -2131,11 +2140,57 @@
    "first_seen": "2026-11-26",
    "last_seen": "2026-11-26",
    "stage": "Announced"
+  },
+  "targa|kinetik": {
+   "acquirer": "Targa",
+   "target": "Kinetik",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stage": "Rumored"
+  },
+  "verizon|fidium": {
+   "acquirer": "Verizon",
+   "target": "Fidium",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stage": "Rumored",
+   "value": "$6 billion",
+   "usd": 6000000000.0
+  },
+  "slate medicines|fulcrum therapeutics": {
+   "acquirer": "Slate Medicines",
+   "target": "Fulcrum Therapeutics",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stage": "Announced"
+  },
+  "mda space|blue canyon technologies": {
+   "acquirer": "MDA SPACE",
+   "target": "BLUE CANYON TECHNOLOGIES",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stage": "Completed"
+  },
+  "uber|delivery hero": {
+   "acquirer": "Uber",
+   "target": "Delivery Hero",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stage": "Announced"
+  },
+  "canadian natural|big advantage energy": {
+   "acquirer": "Canadian Natural",
+   "target": "Big Advantage Energy",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stage": "Announced",
+   "value": "$2.5B",
+   "usd": 2500000000.0
   }
  },
  "totals": {
-  "deals": 206,
-  "with_usd_value": 99,
-  "usd": 847676700000.0
+  "deals": 211,
+  "with_usd_value": 102,
+  "usd": 886276700000.0
  }
 }

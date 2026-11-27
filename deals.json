@@ -1,19 +1,19 @@
 {
-  "date": "Thursday, November 26",
-  "generated_at": "2026-11-26T20:20:21.084563+00:00",
+  "date": "Friday, November 27",
+  "generated_at": "2026-11-27T20:02:59.480379+00:00",
   "model": "llama3.2:3b",
   "embed_model": "nomic-embed-text",
-  "lede": "Altria is considering a takeover bid for Imperial Brands, the parent company of Nobel and Fortuna, in a deal still in its early stages.",
+  "lede": "Altria is reportedly considering a $30B takeover bid for Imperial Brands, with the deal's stage currently shrouded in mystery.",
   "deals": [
     {
       "acquirer": "Altria",
       "target": "Imperial Brands",
-      "value": "",
+      "value": "$30B",
       "pinned": false,
       "stage": "Rumored",
-      "articles": 9,
-      "outlets": 9,
-      "latest": "2026-11-26T15:52:19+00:00",
+      "articles": 10,
+      "outlets": 10,
+      "latest": "2026-11-27T13:43:00+00:00",
       "sources": [
         1,
         2,
@@ -25,8 +25,8 @@
         8
       ],
       "stripped": [],
-      "headline": "Altria to Acquire Imperial Brands",
-      "body": "Altria is considering a takeover bid for Imperial Brands, the parent company of Nobel and Fortuna [4, 5, 8]. The deal is still in its early stages, with no official announcement made yet [1, 2, 3]. Japan Tobacco is also reportedly eyeing a deal with Imperial Brands [5, 8]. The future of the deal is uncertain at this point [6, 7].",
+      "headline": "Altria to Buy Imperial Brands",
+      "body": "Altria is considering a $30B takeover bid for Imperial Brands [1, 4, 5]. Altria has until Christmas Eve to bid for Imperial Brands worth $34B [2, 3]. Altria's bid for Imperial Brands is reportedly worth £26bn [3, 6]. Altria is exploring a takeover bid for Imperial Brands [7, 8].",
       "found": [
         {
           "n": 1,
@@ -38,19 +38,19 @@
           "n": 2,
           "acquirer": "Altria",
           "target": "Imperial Brands",
-          "stage": "Rumored"
+          "stage": "Announced"
         },
         {
           "n": 3,
           "acquirer": "Altria",
           "target": "Imperial Brands",
-          "stage": "Announced"
+          "stage": "Rumored"
         },
         {
           "n": 4,
           "acquirer": "Altria",
           "target": "Imperial Brands",
-          "stage": "Announced"
+          "stage": "Rumored"
         },
         {
           "n": 5,
@@ -62,7 +62,7 @@
           "n": 6,
           "acquirer": "Altria",
           "target": "Imperial Brands",
-          "stage": "Rumored"
+          "stage": "Announced"
         },
         {
           "n": 7,
@@ -77,281 +77,292 @@
           "stage": "Rumored"
         },
         {
-          "n": 9,
+          "n": 10,
           "acquirer": "Altria",
           "target": "Imperial Brands",
-          "stage": "Announced"
+          "stage": "Rumored"
         }
       ]
     },
     {
-      "acquirer": "Expedia Group",
-      "target": "Kiwi.com",
-      "value": "",
+      "acquirer": "CrowdStrike",
+      "target": "Zscaler",
+      "value": "$44 billion",
       "pinned": false,
       "stage": "Announced",
-      "articles": 5,
-      "outlets": 5,
-      "latest": "2026-11-26T17:58:08+00:00",
+      "articles": 3,
+      "outlets": 3,
+      "latest": "2026-11-27T11:23:00+00:00",
       "sources": [
-        10,
-        11,
         12,
         13,
-        14
-      ],
-      "stripped": [],
-      "headline": "Expedia Group Acquires Kiwi.com",
-      "body": "Expedia Group is acquiring Kiwi.com to expand its European flight business [14, 13, 12]. The deal was announced on November 25, 2023 [14, 13, 12]. The acquisition is expected to augment Expedia's flights capabilities [14, 13, 12].",
-      "found": [
-        {
-          "n": 10,
-          "acquirer": "Expedia",
-          "target": "Kiwi.com",
-          "stage": "Announced"
-        },
-        {
-          "n": 11,
-          "acquirer": "Expedia",
-          "target": "Kiwi.com",
-          "stage": "Announced"
-        },
-        {
-          "n": 12,
-          "acquirer": "Expedia Group",
-          "target": "Kiwi.com",
-          "stage": "Announced"
-        },
-        {
-          "n": 13,
-          "acquirer": "Expedia Group",
-          "target": "Kiwi.com",
-          "stage": "Announced"
-        },
-        {
-          "n": 14,
-          "acquirer": "Expedia Group",
-          "target": "Kiwi.com",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Targa Resources",
-      "target": "Kinetik",
-      "value": "",
-      "pinned": false,
-      "stage": "Rumored",
-      "articles": 5,
-      "outlets": 5,
-      "latest": "2026-11-26T17:42:00+00:00",
-      "sources": [
+        14,
         15,
         16,
         17,
         18,
         19
       ],
-      "stripped": [
-        1
-      ],
-      "headline": "Targa Resources and Kinetik Deal Rumors",
-      "body": "Targa Resources is reportedly eyeing Kinetik as data centers drive gas demand [15, 16, 17]. Targa Resources is in talks to acquire Kinetik, according to Bloomberg reports [16, 17, 19]. Kinetik's stock price jumped on the news of Targa Resources' interest in acquiring the company [18].",
+      "stripped": [],
+      "headline": "CrowdStrike and Zscaler Deal",
+      "body": "CrowdStrike is acquiring Zscaler in an all-stock deal [13, 14, 19]. The deal was initially valued at $32 billion [15]. The deal was later revised to $43.9 billion [16, 17]. The deal was announced on November 23 [15, 16, 17].",
       "found": [
         {
-          "n": 15,
-          "acquirer": "Targa Resources",
-          "target": "Kinetik",
-          "stage": "Rumored"
+          "n": 12,
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
+          "stage": "Completed"
         },
         {
-          "n": 16,
-          "acquirer": "Targa Resources",
-          "target": "Kinetik",
-          "stage": "Rumored"
+          "n": 13,
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
+          "stage": "Completed"
         },
         {
-          "n": 17,
+          "n": 14,
+          "acquirer": "CrowdStrike",
+          "target": "Zscaler",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "Targa",
+      "target": "Kinetik",
+      "value": "",
+      "pinned": false,
+      "stage": "Rumored",
+      "articles": 3,
+      "outlets": 3,
+      "latest": "2026-11-27T10:45:22+00:00",
+      "sources": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "stripped": [],
+      "headline": "Targa and Kinetik Deal Rumors",
+      "body": "Targa is in talks to acquire Kinetik, a Permian pipeline operator [23, 24, 25]. The deal is reportedly a major pipeline tie-up [26, 27]. The stage of the deal is currently rumored [21, 22, 26].",
+      "found": [
+        {
+          "n": 21,
           "acquirer": "Targa",
           "target": "Kinetik",
           "stage": "Rumored"
         },
         {
-          "n": 18,
+          "n": 22,
           "acquirer": "Targa Resources",
-          "target": "Kinetik",
+          "target": "Kinetik Holdings",
           "stage": "Rumored"
         },
         {
-          "n": 19,
-          "acquirer": "Targa Resources",
+          "n": 23,
+          "acquirer": "Targa",
           "target": "Kinetik",
-          "stage": "Rumored"
+          "stage": "Announced"
         }
       ]
     },
     {
-      "acquirer": "LS Power",
-      "target": "Constellation",
+      "acquirer": "Verizon",
+      "target": "Fidium",
+      "value": "$6 billion",
+      "pinned": false,
+      "stage": "Rumored",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-27T18:40:29+00:00",
+      "sources": [
+        28,
+        29,
+        30
+      ],
+      "stripped": [],
+      "headline": "Verizon to Buy Fidium",
+      "body": "Verizon is in talks to buy Fidium for $6 billion [28, 29, 30]. The deal is still in its early stages and no official announcement has been made [28, 29, 30].",
+      "found": [
+        {
+          "n": 28,
+          "acquirer": "Verizon",
+          "target": "Fidium",
+          "stage": "Pending approval"
+        },
+        {
+          "n": 29,
+          "acquirer": "Verizon",
+          "target": "Fidium",
+          "stage": "Pending approval"
+        }
+      ]
+    },
+    {
+      "acquirer": "Slate Medicines",
+      "target": "Fulcrum Therapeutics",
+      "value": "",
+      "pinned": false,
+      "stage": "Announced",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-27T18:10:00+00:00",
+      "sources": [
+        31,
+        32
+      ],
+      "stripped": [],
+      "headline": "Slate Medicines and Fulcrum Therapeutics Merger",
+      "body": "Slate Medicines and Fulcrum Therapeutics are merging [31, 32]. The merger is announced [31, 32]. No further information is available [31, 32].",
+      "found": [
+        {
+          "n": 31,
+          "acquirer": "Slate Medicines",
+          "target": "Fulcrum Therapeutics",
+          "stage": "Completed"
+        },
+        {
+          "n": 32,
+          "acquirer": "Slate Medicines",
+          "target": "Fulcrum Therapeutics",
+          "stage": "Completed"
+        }
+      ]
+    },
+    {
+      "acquirer": "MDA SPACE",
+      "target": "BLUE CANYON TECHNOLOGIES",
       "value": "",
       "pinned": false,
       "stage": "Completed",
       "articles": 2,
       "outlets": 2,
-      "latest": "2026-11-25T23:01:14+00:00",
+      "latest": "2026-11-27T15:50:45+00:00",
       "sources": [
-        20,
-        21
+        33,
+        34
       ],
       "stripped": [],
-      "headline": "LS Power Acquires Constellation Assets",
-      "body": "LS Power has acquired 4.4 GW natural gas generation assets from Constellation [20, 21]. The deal is now completed [20, 21].",
+      "headline": "MDA SPACE ACQUIRES BLUE CANYON TECHNOLOGIES",
+      "body": "MDA SPACE has acquired BLUE CANYON TECHNOLOGIES [33, 34]. The deal is now completed [33, 34].",
       "found": [
         {
-          "n": 20,
-          "acquirer": "LS Power",
-          "target": "Constellation",
+          "n": 33,
+          "acquirer": "MDA SPACE",
+          "target": "BLUE CANYON TECHNOLOGIES",
           "stage": "Completed"
         },
         {
-          "n": 21,
-          "acquirer": "LS Power",
-          "target": "Constellation Energy",
+          "n": 34,
+          "acquirer": "MDA Space",
+          "target": "Blue Canyon Technologies",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "Rottenstone Gold Inc.",
-      "target": "Great Bear Royalty",
+      "acquirer": "Uber",
+      "target": "Delivery Hero",
       "value": "",
       "pinned": false,
       "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-26T18:30:00+00:00",
+      "articles": 2,
+      "outlets": 2,
+      "latest": "2026-11-27T15:25:00+00:00",
       "sources": [
-        22
+        35,
+        36
       ],
       "stripped": [],
-      "headline": "Rottenstone Gold Inc. Acquires Great Bear Royalty",
-      "body": "Rottenstone Gold Inc. is acquiring Great Bear Royalty [22]. The deal was announced [22]. No further information is available [22].",
+      "headline": "Uber to Acquire Delivery Hero",
+      "body": "Uber is acquiring Delivery Hero [35, 36]. The deal has cleared a key shareholder hurdle [35]. Uber has secured 87.13% of Delivery Hero shares [36].",
       "found": [
         {
-          "n": 22,
-          "acquirer": "Rottenstone Gold Inc.",
-          "target": "Great Bear Royalty",
-          "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "Integral",
-      "target": "I-ne",
-      "value": "$110M",
-      "pinned": false,
-      "stage": "Announced",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-26T18:00:11+00:00",
-      "sources": [
-        23
-      ],
-      "stripped": [
-        1
-      ],
-      "headline": "Integral to Acquire I-ne",
-      "body": "Integral is acquiring I-ne, a maker of BOTANIST, in a $110M deal [23].",
-      "found": [
+          "n": 35,
+          "acquirer": "Uber",
+          "target": "Delivery Hero",
+          "stage": "Completed"
+        },
         {
-          "n": 23,
-          "acquirer": "Integral",
-          "target": "I-ne",
+          "n": 36,
+          "acquirer": "Uber",
+          "target": "Delivery Hero",
           "stage": "Completed"
         }
       ]
     },
     {
-      "acquirer": "Umios",
-      "target": "High Liner Foods",
-      "value": "",
+      "acquirer": "Canadian Natural",
+      "target": "Big Advantage Energy",
+      "value": "$2.5B",
       "pinned": false,
       "stage": "Announced",
       "articles": 1,
       "outlets": 1,
-      "latest": "2026-11-26T17:31:19+00:00",
+      "latest": "2026-11-27T19:52:52+00:00",
       "sources": [
-        24,
-        25
+        37,
+        38,
+        39
       ],
       "stripped": [],
-      "headline": "Umios to Acquire High Liner Foods",
-      "body": "Umios is acquiring High Liner Foods for C$27.00 per share [24, 25]. The deal has been endorsed by ISS and Glass Lewis [24]. A special meeting of shareholders is scheduled for December 15 [25].",
+      "headline": "Canadian Natural to Acquire Advantage Energy",
+      "body": "Canadian Natural is acquiring Advantage Energy in a $1.8-billion deal [38, 39]. A shareholder of Big Advantage Energy opposes the $2.5B takeover bid [37]. The deal was announced [37, 38, 39].",
       "found": [
         {
-          "n": 24,
-          "acquirer": "Umios",
-          "target": "High Liner Foods",
+          "n": 37,
+          "acquirer": "Canadian Natural",
+          "target": "Big Advantage Energy",
           "stage": "Announced"
-        }
-      ]
-    },
-    {
-      "acquirer": "SpaceX",
-      "target": "Tesla",
-      "value": "$3.5 Trillion",
-      "pinned": false,
-      "stage": "Pending approval",
-      "articles": 1,
-      "outlets": 1,
-      "latest": "2026-11-26T16:25:00+00:00",
-      "sources": [
-        26,
-        27,
-        28,
-        29,
-        30,
-        31
-      ],
-      "stripped": [],
-      "headline": "SpaceX and Tesla in Talks",
-      "body": "SpaceX and Tesla are in talks for a $3.5 trillion merger [26, 27, 28]. The deal is still pending approval [26, 27, 28]. No new information is available [29, 30, 31].",
-      "found": [
-        {
-          "n": 26,
-          "acquirer": "SpaceX",
-          "target": "Tesla",
-          "stage": "Rumored"
         }
       ]
     }
   ],
   "also": [
     {
-      "n": 32,
-      "note": "FutureMain signs SPAC deal for Nasdaq listing in 2027 [32]."
+      "n": 40,
+      "note": "Puig agrees to buy 75% stake in perfume group Artessence in deal valuing it at $1.9 billion [40]."
     },
     {
-      "n": 33,
-      "note": "FutureMain Sets Its Sights on Nasdaq, Bringing Decades of Industrial Expertise Into the AI Era [33]."
+      "n": 41,
+      "note": "Armani heirs consider buying small slice of fashion house in stake sale, sources say [41]."
     },
     {
-      "n": 34,
-      "note": "United Polyfab to convert 2.29 crore warrants at ₹18.89 on Nov 30 [34]."
+      "n": 42,
+      "note": "Fulcrum estimates a cash dividend of up to about $3.61 per share; the final payment may differ [42]."
     }
   ],
-  "brief": "Altria is considering a takeover bid for Imperial Brands, the parent company of Nobel and Fortuna, in a deal still in its early stages.\n\nAltria / Imperial Brands (Rumored): Altria to Acquire Imperial Brands. Altria is considering a takeover bid for Imperial Brands, the parent company of Nobel and Fortuna [4, 5, 8]. The deal is still in its early stages, with no official announcement made yet [1, 2, 3]. Japan Tobacco is also reportedly eyeing a deal with Imperial Brands [5, 8]. The future of the deal is uncertain at this point [6, 7].\nExpedia Group / Kiwi.com (Announced): Expedia Group Acquires Kiwi.com. Expedia Group is acquiring Kiwi.com to expand its European flight business [14, 13, 12]. The deal was announced on November 25, 2023 [14, 13, 12]. The acquisition is expected to augment Expedia's flights capabilities [14, 13, 12].\nTarga Resources / Kinetik (Rumored): Targa Resources and Kinetik Deal Rumors. Targa Resources is reportedly eyeing Kinetik as data centers drive gas demand [15, 16, 17]. Targa Resources is in talks to acquire Kinetik, according to Bloomberg reports [16, 17, 19]. Kinetik's stock price jumped on the news of Targa Resources' interest in acquiring the company [18].\nLS Power / Constellation (Completed): LS Power Acquires Constellation Assets. LS Power has acquired 4.4 GW natural gas generation assets from Constellation [20, 21]. The deal is now completed [20, 21].\nRottenstone Gold Inc. / Great Bear Royalty (Announced): Rottenstone Gold Inc. Acquires Great Bear Royalty. Rottenstone Gold Inc. is acquiring Great Bear Royalty [22]. The deal was announced [22]. No further information is available [22].\nIntegral / I-ne (Announced): Integral to Acquire I-ne. Integral is acquiring I-ne, a maker of BOTANIST, in a $110M deal [23].\nUmios / High Liner Foods (Announced): Umios to Acquire High Liner Foods. Umios is acquiring High Liner Foods for C$27.00 per share [24, 25]. The deal has been endorsed by ISS and Glass Lewis [24]. A special meeting of shareholders is scheduled for December 15 [25].\nSpaceX / Tesla (Pending approval): SpaceX and Tesla in Talks. SpaceX and Tesla are in talks for a $3.5 trillion merger [26, 27, 28]. The deal is still pending approval [26, 27, 28]. No new information is available [29, 30, 31].\n\nAlso worth knowing:\n- FutureMain signs SPAC deal for Nasdaq listing in 2027 [32].\n- FutureMain Sets Its Sights on Nasdaq, Bringing Decades of Industrial Expertise Into the AI Era [33].\n- United Polyfab to convert 2.29 crore warrants at ₹18.89 on Nov 30 [34].",
+  "brief": "Altria is reportedly considering a $30B takeover bid for Imperial Brands, with the deal's stage currently shrouded in mystery.\n\nAltria / Imperial Brands (Rumored): Altria to Buy Imperial Brands. Altria is considering a $30B takeover bid for Imperial Brands [1, 4, 5]. Altria has until Christmas Eve to bid for Imperial Brands worth $34B [2, 3]. Altria's bid for Imperial Brands is reportedly worth £26bn [3, 6]. Altria is exploring a takeover bid for Imperial Brands [7, 8].\nCrowdStrike / Zscaler (Announced): CrowdStrike and Zscaler Deal. CrowdStrike is acquiring Zscaler in an all-stock deal [13, 14, 19]. The deal was initially valued at $32 billion [15]. The deal was later revised to $43.9 billion [16, 17]. The deal was announced on November 23 [15, 16, 17].\nTarga / Kinetik (Rumored): Targa and Kinetik Deal Rumors. Targa is in talks to acquire Kinetik, a Permian pipeline operator [23, 24, 25]. The deal is reportedly a major pipeline tie-up [26, 27]. The stage of the deal is currently rumored [21, 22, 26].\nVerizon / Fidium (Rumored): Verizon to Buy Fidium. Verizon is in talks to buy Fidium for $6 billion [28, 29, 30]. The deal is still in its early stages and no official announcement has been made [28, 29, 30].\nSlate Medicines / Fulcrum Therapeutics (Announced): Slate Medicines and Fulcrum Therapeutics Merger. Slate Medicines and Fulcrum Therapeutics are merging [31, 32]. The merger is announced [31, 32]. No further information is available [31, 32].\nMDA SPACE / BLUE CANYON TECHNOLOGIES (Completed): MDA SPACE ACQUIRES BLUE CANYON TECHNOLOGIES. MDA SPACE has acquired BLUE CANYON TECHNOLOGIES [33, 34]. The deal is now completed [33, 34].\nUber / Delivery Hero (Announced): Uber to Acquire Delivery Hero. Uber is acquiring Delivery Hero [35, 36]. The deal has cleared a key shareholder hurdle [35]. Uber has secured 87.13% of Delivery Hero shares [36].\nCanadian Natural / Big Advantage Energy (Announced): Canadian Natural to Acquire Advantage Energy. Canadian Natural is acquiring Advantage Energy in a $1.8-billion deal [38, 39]. A shareholder of Big Advantage Energy opposes the $2.5B takeover bid [37]. The deal was announced [37, 38, 39].\n\nAlso worth knowing:\n- Puig agrees to buy 75% stake in perfume group Artessence in deal valuing it at $1.9 billion [40].\n- Armani heirs consider buying small slice of fashion house in stake sale, sources say [41].\n- Fulcrum estimates a cash dividend of up to about $3.61 per share; the final payment may differ [42].",
   "sources": [
     {
       "n": 1,
-      "title": "Altria Weighs Takeover Bid for Imperial Brands",
-      "source": "cwibc.co.id",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HUFpTaGdqQWxScjJncmtlMEg1dUZQU0RhTzRjSUphSm1RTDhnMUJ3TGVyU2dHRVpzMjhlRl9ZWU5zTzE1alhXaHFUR0tzUllwOTF0R0VwVk40NXFCRmNtTWJpQ1ZWbktIM0E?oc=5",
-      "snippet": "cwibc.co.id",
-      "published": "2026-11-26T15:52:19+00:00"
+      "title": "Altria weighs $30B takeover bid for Imperial Brands",
+      "source": "Yahoo! Finance Canada",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWTQ1aDJ0RkFoekJxUUowTlhMOTR3V2U0TXgzS2hTaWVZaktSc2NibVRxMjZmakRLOElvT0xiUkpEYnI0REtsRkFDNS1nNFZPYXFlRW9oTGlxUTkxLWpNQ0xIdlpnZFhQVk9Iay05T3hheTdIS2hQNGNrMXc5X3JYYnp4b1luZw?oc=5",
+      "snippet": "Yahoo! Finance Canada",
+      "published": "2026-11-27T13:43:00+00:00"
     },
     {
       "n": 2,
+      "title": "Altria Has Until Christmas Eve to Bid for $34 Billion Imperial Brands",
+      "source": "24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM05BLUxKdlF6UmpTS3BsUDhmUnlWTUFRUmxlSUUyRUgxWHRjTFdid3k5SVpKSnRoSWtBSm1IemtOZFJHejhqNXF3ajVfMmxmN2tyTW5ZaWMyZ0pqOXk2enhncG1PdGQtdkhBZkxoZmREeFB4bGV6ODB6MDdHRHZlV21UclYyT0xRQUF3N2VybDVtY01GQUVkNVpqV2RFN0dIRE9YQU9xeXk3MWlqZ0JLMHF3?oc=5",
+      "snippet": "24/7 Wall St.",
+      "published": "2026-11-27T13:17:00+00:00"
+    },
+    {
+      "n": 3,
+      "title": "Altria Considers Imperial Brands Bid as Market Value Nears £26bn",
+      "source": "CEO Magazyn",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11UUlnVGZsUFd1d1RlLWxEMUNCMjVlNnlDYk1WeGt3b3FyQjlaSjk0MUxRMnF4MkZNZzE1OUVHTjgzVEw4U2JBYUllZEN2Tjl4RlRBTWdUTV9MZ1RUOE1SVE5Ka0t3MXZGeWxtaHAxbnBWZGpITlZlM01MdWxsQ0U?oc=5",
+      "snippet": "CEO Magazyn",
+      "published": "2026-11-26T22:23:01+00:00"
+    },
+    {
+      "n": 4,
       "title": "Marlboro maker Altria explores takeover of UK's Imperial Brands",
       "source": "CNBC",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMkVCSWVrOHdRalJFYkJUNTRwZEotYXpRMS03RU5kcDFxall5WE5OU0JlYjlMemtyUWxFLUdlNnBkQnl0RHpoY3VUWEN4cF9RTVFZS3FuU3FwRkJIa0F2UVFkX1d3Y3daOEdxVjdHUEtxZUU3dmxKanZkek10VkVRdjZnTkl4UmJGV3o1QkJsZHVCWkJ6VHY1aXFWajhMNV9u0gGmAUFVX3lxTFBFS1NqNWZKaGJDSTNCMzdJTGVWd1E2R0FkLXFVMDNsWjMySWR1dkRWcmd6Si14elRFdDJkSTE5QVlRUjRRa0I4a1ZEanRWOEhVdjZuSmgwcFZUZmtWblUwZGxlZ1FZaGNVT0htZE9aMU84WDNwN1ExenlFVTVybGl3c3pEa3A4SlZsMXgxSFZkcDkyTml4bkFRdGRVWGlSTTdaVlJqNWc?oc=5",
@@ -359,7 +370,7 @@
       "published": "2026-11-26T14:47:37+00:00"
     },
     {
-      "n": 3,
+      "n": 5,
       "title": "Marlboro maker Altria considering takeover bid for Imperial Brands",
       "source": "The Guardian",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYzN2RmljbnFOMlZWbTYtc2U5MlhJMU0yS3hSTUN4QXQxNmpIUHJfQ09uTDd1NEwyUUgyX0NBUlhXTTdkUkd3RWh5SWg1VGdFUFBvdl9iaXlab1dFbmRnanpzM3lYN3VlMjRrbEJpNUtwRlQyNnFfNEVzYmt4VG1VVDF2SWxQY1FBT2FGQ1gxc1hpbC1jT0U1SVdNeXhTenlrZ1QxTTNweGZEb3JQUUI4OXQzMGNDUQ?oc=5",
@@ -367,23 +378,15 @@
       "published": "2026-11-26T14:41:00+00:00"
     },
     {
-      "n": 4,
-      "title": "Altria values presenting a cash offer for Imperial Brands, parent company of Nobel and Fortuna",
-      "source": "Demócrata",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbkEzaEdmODZZRm9VbmM4dGk4NGV5Q2NOdGctNGtOTndpV0FTaU0tc3g3bjNkNm80dXYzdVlWQnJMM2VMVDJCZnV5NW92MGtvNjNNQ2pfVlNib0IyQmtpdGNuRXdlaEdwTHJ2c29rbng4THc0N0N5Qzl1YjZfZXh4bzNPZ1RmcktfTmJPR21jcFhpRjFRX0J2WEZtaVdBWEtXRW96a2dZbGJQc3RNOWJuZ1hqMjNtSVFoWFluM3ZFbGI0ZnBNb05QNFBR0gHPAUFVX3lxTFBSY2hxaDYzUE54MFNyWE5tVGRzelVZVTBtelp3TVViVzlIVzVTbThNMm1QQ1N6LVlRQmcwZTFJVmhiNFNCUExienZTT091cW42T241SFNTWUg1ZHdqaHQwbWh6eEoyT1Naa3ktY3kyY1VzVUNKU2lUcjBHWkIwSmJyeGhhU3Z0YkVxQjIwVjlLYmpfN1ZjdGlIbVJmbGlLQmVqUUFDSUEzNUVMZkJMOGQ3c2JhaEVpYXRkbGVyX1dNbzJLLU1qdktCWEQwLXBjZw?oc=5",
-      "snippet": "Demócrata",
-      "published": "2026-11-26T14:32:29+00:00"
-    },
-    {
-      "n": 5,
-      "title": "Altria weighs a cash bid for Imperial Brands as Japan Tobacco eyes a deal",
-      "source": "MLQ.ai",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ1JKRWI1S09heTFYNU5Lb0VrTjFucFZ2aHA3UlZWSW5pU3BZaXRNY0paQzdlcS1aanBybDVSWFFyYlNGRGQ1MlpFQ1BaYm15cHd0VHhPTXhxUjVGOTVxY05JU0IxTHdoNklPLXFvWjRMQ0FOSE5vMkJ4emY1NnRuWlJQZHF1eDZjOGUyLWtMQlFvV1NZZVBlOE1R?oc=5",
-      "snippet": "MLQ.ai",
-      "published": "2026-11-26T14:19:14+00:00"
-    },
-    {
       "n": 6,
+      "title": "Altria Response to Media Speculation on Possible Offer for Imperial Brands plc",
+      "source": "Quantisnow",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLXRUaXU4SmdDS25SaXFGdGUyeE5HYnRpUy1SclFpV2tXcVVHanMtR0pRbWZWM2ZDRnBQUl95SVVZazhVeVdHSHR6MTFXVnRpLVBxQ0tvZVJVS2dNaWlic3c4UENTYk41QkVOZ3kzb0tjR2xVZGt0LVJiRGdzems4azBzMkJSalZhTll1Q1Y0UEFGaXk3SnJOeFdQLXF2dWVUbjgwanlDRDUxSXRVMmtv?oc=5",
+      "snippet": "Quantisnow",
+      "published": "2026-11-26T14:40:43+00:00"
+    },
+    {
+      "n": 7,
       "title": "Altria eyes Imperial Brands bid. Hold the takeover confetti.",
       "source": "Digg",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE45eFQzZE1TMFg0Q1daSzRwM0lRSHJDc1l5X21EWFBQbEVVakZUTGprY2g5d29kRGl0V1dvNTRGX1FJcU1iUGdqVTVlQmdlMzZVdWc?oc=5",
@@ -391,7 +394,7 @@
       "published": "2026-11-26T14:10:48+00:00"
     },
     {
-      "n": 7,
+      "n": 8,
       "title": "Marlboro maker Altria weighs takeover bid for U.K.’s Imperial Brands",
       "source": "The Globe and Mail",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbHNOOGd0TkdSOFN5Ymh5TDlhOU8wQ1dfcGQ2QlVpT25IUTBwNzJyYzhMeGdXY0x5djZWLTlkRENvNlZjSkxWaWRvX2Q4VFdqeXVJR3N3THBUajdyZFBCdjAzdldFYnp1S3JFRmEtYWQ2MnlxT1ZvdEF2alNMUmNzdW5KcmxkLU5vNERBdC01SDlVaTRzTUMzTg?oc=5",
@@ -399,15 +402,15 @@
       "published": "2026-11-26T14:00:02+00:00"
     },
     {
-      "n": 8,
-      "title": "Altria Considers Bid for Imperial Brands With Japan Tobacco",
-      "source": "Demokratis.co.id",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55aVJobnpkeEVjXzhrY0JtMElxUm9aXzNOa284WkZzRUV4VFZlS0NLX240eXNSLVRaTW9BcGhUWkJBRW5CbGloWFRjTDY4VUg3X1puQjhGdEw0aTJmMk9CVzBTZXViV1ZEb2Fn?oc=5",
-      "snippet": "Demokratis.co.id",
-      "published": "2026-11-26T13:57:02+00:00"
+      "n": 9,
+      "title": "Marlboro maker Altria exploring Imperial Brands takeover in Big Tobacco mega deal",
+      "source": "New York Post",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUlp5ZXZ2ZlQ5TVU4aEFMMV9fQk9jR1dtcWpQS3RvNXFnZnlzNmlJeURXRUlmaVppc2lJdGFWWmJycE9RNWp3YWdKYi1jTWI3TXF0OVNNQmpQd1FweEdQRk85VFZ4Y2lndHJiQThXWDlRbDJReEpFRGlEYThrYjV4LVpvWTJUeGs5QWd0cVBON2pVUkcwU3l2YVRVaFBxMXNqS2I4Q3lfeHVVZlBDazVtN0otT0lpME9rcXlwZkV3?oc=5",
+      "snippet": "New York Post",
+      "published": "2026-11-26T18:19:00+00:00"
     },
     {
-      "n": 9,
+      "n": 10,
       "title": "Altria explores takeover bid for Imperial Brands",
       "source": "Financial Times",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORDB6MFYwMEJCMzYwVkJ6SUN1M0xlOVdKajZtaUx5MllIY3p0R3FmRUdpTUR2UndNUkNqZEN2WmhZamlSajBNRHNvNE83TTg3ejRCZFVIOEdpWmZoQV9LS2dGRjZHNmJjVENZOE9JVEM4VlhSbERFbXJvUFhOOUI0aXIyYTA?oc=5",
@@ -415,79 +418,111 @@
       "published": "2026-11-26T13:28:17+00:00"
     },
     {
-      "n": 10,
-      "title": "Expedia Acquires Kiwi.com In Deal Expected To Expand Its European Flight Business",
-      "source": "Pulse 2.0",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ1QtVkNtd1dkUXlvbW1NLXVWMkVoMENmNjE3UEZ5dTRwbjhMOThiR3lKTklYa0RGWDhTa0NKRFVaLTU4MlNOLWRKWk4zbEx0UC1kRGhUNWpWeXdEcUszNUZMTEJJdEVhMFJuTU1RcTN1YTZ5amdZSWIwVGFBbmJNdzg5ZW5VaEhLWkJuUG1BeDNWaldnMjF0RU1aSTlabWpjSm1N?oc=5",
-      "snippet": "Pulse 2.0",
-      "published": "2026-11-26T17:58:08+00:00"
-    },
-    {
       "n": 11,
-      "title": "Expedia Agrees to Acquire Kiwi.com to Expand Its European Flight Business",
-      "source": "FTN news",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYXhwcXpIYjFuSk1WSG0zb25ndDBaNFFlajBHWE1ndEk3N1BJS0h6TzJhVmFmZVhvYXRURllZVVk2QjZlUWFuWFh1dDZiWEpldUc3NURlNklRcHBNZ3k0cjBCTHFYakRtZ0U3WHd5N1ByWjRnMmd0QU5qWWFXcHZVRS1FY1BGRURHVnBYY0lqaFU?oc=5",
-      "snippet": "FTN news",
-      "published": "2026-11-25T23:21:39+00:00"
+      "title": "Marlboro Maker Altria Explores Deal for Rival Imperial Brands",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVDlqUVNCX3B1RGxwZXp3NTRjTXd5a0N3OTJ2amFkSnZNdFZvWVp6TlFyU0E3TVJOdWk5QTFGX19scjZqZW4zaHdiRFplXy0tb3AyT2Z2cHdBNmtXMUQxNmgwbTJqTThEdWNFLXgxc0RIaXZWTWNSV19tVk1CeXJsdENkT0hpQ1ZfdFBHVF9fak9yQzlZWGdMQjcxSlloZw?oc=5",
+      "snippet": "WSJ",
+      "published": "2026-11-26T17:58:00+00:00"
     },
     {
       "n": 12,
-      "title": "Expedia Group to acquire flight-booking company Kiwi.com",
-      "source": "The Business Journals",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZS15UWFnX0xhU0JMcHoySlY0NkJac3NqRktDY0ZKcTZZWGRrUkFZT0p2Q3FxSWFsWG1JTXN2UmowN0tSdUpmVDltYnJ2WHZvbUM5QUVuZzhvcWg2cktXYlJPc1BNTm8tN05DS01NM0V6ODBYenQ1dk9mcW91SF9SUW1YREtjYnEteXFYWkJONXFfZGt4eEFabmtoSHhyQklRUzkwR3ota3oxQQ?oc=5",
-      "snippet": "The Business Journals",
-      "published": "2026-11-25T21:46:00+00:00"
+      "title": "“They're trying to do what we do”: Palo Alto CEO on CrowdStrike's $44 billion Zscaler deal",
+      "source": "CTech",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QQkpxbmtZcWNsa0FIZ0g0N0xWT1VOZmJmOW9Vcy1HSHZTN2xyb1ZZSXgtcDNKdFZISHNodWloMVlEcHdPT3hkRzhLUlE5RkJQNFpfN1d2VEpKUjlYZ3hQajl5MjVCWGM?oc=5",
+      "snippet": "CTech",
+      "published": "2026-11-27T11:23:00+00:00"
     },
     {
       "n": 13,
-      "title": "Expedia Group agrees to acquire Kiwi.com",
-      "source": "Crypto Briefing",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5neWl5Q29iS0p1bFp1a0FFQmZyZVNfczMxdmtJaFA4SThzcXo2WTcyRlZubHRRckY4ZkpvejZUTEdzc0FoR3dtN3lpeXR4Ujk1dm1WQUxvNGs5eWZvM2ZGQnh5aVNhWkpxODhETnNfOTVhRUVTMjJ3VA?oc=5",
-      "snippet": "Crypto Briefing",
-      "published": "2026-11-25T14:28:10+00:00"
+      "title": "CrowdStrike to buy Zscaler in all-stock deal",
+      "source": "The Paypers",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMTY3alFsNjBFbkk0TjF0a3Y0SkVMTlFuNUwxM0xnT05oc0FscEx0T2xEX2l2a3RmTG1hb1ZwQmVrcWlzenhZLWZWcElEMXliUHJvMm94OV9hOXpubVQ2ZTkzcTQzSDV3R0hxUmxYcXJzcXlVVmMtMmszR0lsNEFjZFRMSm90ekZrRzRkNlN2NnFHOHo1cWJQd1kzVHA2d0EyS0xhQ29kOEZQaURubE9CblNUVDRrbXJEeF9oQjBKRlBBQloyamo4?oc=5",
+      "snippet": "The Paypers",
+      "published": "2026-11-27T08:35:25+00:00"
     },
     {
       "n": 14,
-      "title": "Expedia Group Announces Agreement to Acquire Kiwi.com to Augment Flights Capabilities",
-      "source": "Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONnNBblJaV3I3LXhMaTh5ZHdFNGRrMlB3M0hFYlY0cnplSWx6bUsteEN6QjA0dHZrc3BGRmplTldQZEIzZm1vX0VIOWpEdGozMjV3MWpPOXhpNV9MZ1VsSGM1S0tYZFM3bmdSemp2ZnQzbDdqRDZmX3NhVnNzbThTVlFOOFAwY25Mekl5eTc1amlXOGtBSHRVRkR4U050VzNsWWhRU25McDRJRkd0dnhxanJVVk4wNVh3SHhwbmxkYko0dmdRZUlxMmRvLWdVTUtRdHp0VFItcmMzQQ?oc=5",
-      "snippet": "Business Wire",
-      "published": "2026-11-25T14:00:00+00:00"
+      "title": "CrowdStrike strikes USD 44 billion Zscaler deal in cybersecurity mega-merger",
+      "source": "https://internationalfinance.com/",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSTFYTDRGMzZhSFdSNjhmaFdsTmRuaDJTbndyM3JDMmxqcVZEUENDb2FwQnhnOC1UT19pb2VjNWhmMjNuRjJDNHZSZUpVMk96Wl9rWXY5VE9KcG9VQ0s0S2U5QUxaRzlQU1RtV2ZRdHRkWV94NXIzdzdMdFlNSy0xeERYVEZISXNZZWV2WlY4eXZIUEJZX0NpV184QzJsbEtPUWhZRE9NMTNsSjJDRDJnUmxrbUNoN1lJSGtLTWJB?oc=5",
+      "snippet": "https://internationalfinance.com/",
+      "published": "2026-11-27T08:03:31+00:00"
     },
     {
       "n": 15,
-      "title": "Targa Resources Is Reportedly Eyeing Kinetik as Data Centers Drive Gas Demand",
-      "source": "24/7 Wall St.",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVjVVTmVlQ3QtWDEycm1vR0dSLU5MM1VjT3F3N2VndER5T2JjRzBBRkJKZDJxQzVtWDBYTkVfOWhCQjIxV1ZIb2V6aDFTWGF6MWRIMEtMZmhxMGUtUkNFcHFEc3dCdHRDZmt0dkl6TFBBTWpOLVYzelRIaF83ZjQxTDM1ZFQtRm03aVFtU09rREZtNy1HWF9zMTZETHhrNk9wZUhYMmxiZnZtd1UzdXVpNW4wVTlXVHdKa2RTeWhn?oc=5",
-      "snippet": "24/7 Wall St.",
-      "published": "2026-11-26T17:42:00+00:00"
+      "title": "CrowdStrike Agrees to Acquire Zscaler in $32 Billion Deal",
+      "source": "cwibc.co.id",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9URmdldDJUZVl1Z0FJSXRfTTJhN1JmcV9uYVVWb1dyTFVsOUpaMXdzaVNKQ21IOGFaTVNXWWNBT2d4QlZZVzJlcllkaThFZGJMN3J0U0pTS0xjMnNkUDFOei1PRGV5ekFZamRaOXB1NA?oc=5",
+      "snippet": "cwibc.co.id",
+      "published": "2026-11-23T14:36:53+00:00"
     },
     {
       "n": 16,
-      "title": "Targa Resources in talks to acquire Kinetik, Bloomberg reports",
-      "source": "Oil & Gas Middle East",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzcVNxZnRDV0JHZUE5a1JhWHBhREdyd19adnZvZEczMTd5WUJ6TjVDRUtkNzRFczlOUlAxbVhXR1ZrTzZhdmVHSVkzdzVSb1lkR0ZfQVRrT2NJTGU1ZEZtSGtzeWdBRFI5aGxIUldUNnB3S1FzdWFDa3dB?oc=5",
-      "snippet": "Oil & Gas Middle East",
-      "published": "2026-11-26T07:28:56+00:00"
+      "title": "CrowdStrike Agrees to Acquire Zscaler in $43.9 Billion Deal",
+      "source": "Security Today",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObDlVenRzSlhqbWZPV0gzYkRHcEdpalJNYS0tWmQ3UThJcE1nT2REM1daR2ZlU0E1VnJRcFJEb3pZWXY0dTlCOXVDRlpGM2J5YmpuTkFvS3QwZnlRSEdZM1hYb0dReGxDYVZJVVFpTnFGUURzUWMtSkZCaGxwa2gzNHFRdjJaWk9qOWlCOUxseTZrZTNhbEttRzVDaXlhLW41V2NWQ0Y2TXotazN0LVBHZTdzV0hSbFQ1anpOaUx3?oc=5",
+      "snippet": "Security Today",
+      "published": "2026-11-23T08:00:00+00:00"
     },
     {
       "n": 17,
-      "title": "Targa Is Said in Talks to Buy Kinetik in Major Pipeline Tie-Up",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSVdpXzloM1VjdXgwckdPaWVvb093cWZpU0lRYTJGM2FmMUk4bVFUS2pkanR3UmJnN0RrMkd0U3VrOVc4Y2RhcTJSbU5GVVp6aUpwLWtoOTNieXhtX0lsQkwwU3ExN2E3WHpGcGRJaW85ZE1CblptcnJhcjIzNng3LVUwVHBfX193cGItaUxHWTZPMVNxS0JoVjJDTjBXb3VlNVJSR09VQllVaXpHR3laTnpjSQ?oc=5",
-      "snippet": "Bloomberg.com",
-      "published": "2026-11-25T22:30:56+00:00"
+      "title": "CrowdStrike Agrees to Acquire Zscaler in $43.9 Billion Deal",
+      "source": "Security Today",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWmdpM2hXcVpWVDNwSnkzOURYYlZYTzhVbjF3RkVsS0w2aE5fUEoxUXktcUhmUlhKRy1mMFdaTzZQaS1oVHk5LXUyaUlEcTViZi1MdmpibklIb1ZoaWN4VlA4LU52ZDBYT0xic0FSZkw3UXo1UldGa2dWQld4UXZySjlKckdQUVAwdDFHcEloaGNTOUdiUHBSaVFXc0N3cUpOWHNZMG9HazFYRmxuU25rcWVma05WM3JBMVc5aTNGSkdrQWV6TGNSQ1lQbXlpOW8zX0FlZmd3?oc=5",
+      "snippet": "Security Today",
+      "published": "2026-11-23T18:16:12+00:00"
     },
     {
       "n": 18,
-      "title": "Kinetik jumps on report Targa Resources in talks to purchase",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSFJLMnpBTkxyN3BoZG5HazljQnlhSGNJYzdSSUVNVWxCVEZPQmx0RVRvNk9FdVZmemlIRER0Y0JwcGtPTkRORGxwQ3paSi1sMWhzeHptUlFVVGpldFNOdTRmMi1CMUoydGhYU3Mtb1FDMUlPNVpKYy1GbWtDVGw2RUJSQl9IaThMQjZ1Q1AySVYyajRwMkstY0ZaaTFpRHVKOWlnazlPV0I1SU5tZE1pYkpuRFpUMjdQWDVQdUVia0E?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-25T21:31:55+00:00"
+      "title": "CrowdStrike Agrees to Acquire Zscaler in $43.9 Billion Deal",
+      "source": "Security Today",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWThPcHNybUtpYThYVVgxWFhrQVpMdm5jMjBXUEdzUlJseHo2d3MybS1mT1ZrZVJYbUlmeWhlMDFjZjRxXzY5RXFNT2lQOHdPRVRvdHpKdUpraDFXb3ljbk9IOUE1bnJLX3ZueWNRaklwYzdZeEZHWjN6cXlLM0RuQlU5cUloMGlkVkIyNW1BNVBSRTdWLTlpNUZYRWFMUEhpc3F6U1lDYWtqMng3?oc=5",
+      "snippet": "Security Today",
+      "published": "2026-11-23T18:16:12+00:00"
     },
     {
       "n": 19,
+      "title": "Zscaler Announces Strategic Merger Agreement with CrowdStrike",
+      "source": "The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUXR4WDNmem1JeVZfWDBVQmUtdTJ6cEwyY2JLV1dHaGZiZlFOZE04Qk9sRHRKMW5nM2VyQzNTVWZ5QlJOVjRqRi15VUgxS2dKcW9xNnpfampmRVdacThkY0g5S0U4Ql9mZVlxUERHSzNHLXdHUzM2Z0g4SzViSUdHQ20xN24yMmlQYjZnbm5IU2FmNnpPVm41c0x0YmlsY0YtSVpRTi11bTNybTlRMTlGaGt1RG51dDM1ZkpLNG02RXlEOXpkQ0dHQ243N3NkYjFMMExDdVg0b1RBdw?oc=5",
+      "snippet": "The Globe and Mail",
+      "published": "2026-11-24T15:35:49+00:00"
+    },
+    {
+      "n": 20,
+      "title": "CrowdStrike acquires Zscaler in USD 44 billion deal",
+      "source": "Telecompaper",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN0lhWV9FUDBzZUZXXzRPdmlYUDJHYkxld3Y0emNKVUpMS3dSRnQ4OVJzUUl3MEZ6U1lWRUQ2T19mTnE2djY2X1VkbkM4SVl5SW5OTmdVWVVlcElrbXA1RVlRYVVTZEhTbFp4M2hxd2hLOG5wV1pMRWpRdlJJaVhyWUFlOVRCRzc2aUIyU3VFOEh5SllmWEh2UWln?oc=5",
+      "snippet": "Telecompaper",
+      "published": "2026-11-23T14:22:02+00:00"
+    },
+    {
+      "n": 21,
+      "title": "Targa Is Circling Kinetik. The Permian Just Got Louder.",
+      "source": "Money Morning",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb3V3RFRuMnotSmJTb1VfZ09JWG1iZk9mLXRsZ283cXEzX3VrRmFKQXE5eG5odS1PbW5JN1ZZaHNFUnpUVkNialVNazUtbHpubWRNMkpRdG1CZGpoUUhZR1FWV1hZZ0prUlFfMm9JNXJ1YnlhQ2ZYdW5sZV9URUNQN3Y1enRkMGZUYWVuMjhIemdBd1ZKeV9LMEZZNW4wTm8?oc=5",
+      "snippet": "Money Morning",
+      "published": "2026-11-27T10:45:22+00:00"
+    },
+    {
+      "n": 22,
+      "title": "Targa Resources in talks to acquire Kinetik Holdings in the Permian Basin",
+      "source": "energynews.pro",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeVMyZmxpbVBnYjFoSGpHNFF2eU80TDhtY25RbUM3UFlKZjBmMjZTRWVMWHdNN1hWVGNfckt3b3QtMDNxazd4UHQ2OGZESUZRR2JjVTFsZEJBM0l6a2hKRDNoWUJ1X3BXLWZpeVY3b1Naa0hvODE1dmttWDdXOFNDTFNranZXYlNCYWppUEJUcFlVMlhudEpaWlVmNG4wb0Nv?oc=5",
+      "snippet": "energynews.pro",
+      "published": "2026-11-26T15:48:42+00:00"
+    },
+    {
+      "n": 23,
+      "title": "Targa is in talks to buy Permian pipeline operator Kinetik",
+      "source": "MLQ.ai",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeC1YWHZFZTVTSi1YRkhHTE9Fd1pkTXZzcjhreVhsdFc3dHEtWHVqODlpb3owcloxN3FSZHJzM1Z1STR1NTEydWZXb3R6aGhhdFE1MGd5WFp4OVkwLVEzWVMxYzNsLXVMZVNsYUpPdHNLcm5BVXlUVWRaLXlQTVV5QVVabU9fUQ?oc=5",
+      "snippet": "MLQ.ai",
+      "published": "2026-11-26T00:25:05+00:00"
+    },
+    {
+      "n": 24,
       "title": "Targa Resources in talks to acquire Kinetik, Bloomberg News reports",
       "source": "BOE Report",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN2p5dEk1T2VvWkM5NWx3Y2xZTERyUmFwVzdoSzZwVGdORjkyaXVfSXE1QXdZUjJockhCenQtMHZTWmJfQXZqRGt3eDlZaUdzZUJnYjk0OTctZFRPc0tscE94WXlpYS1Ybk9maWIzRzZjNFJGLU5RdUF0NF9wYkxRaEk1bXpZbEp1X2NmdUR4RXRfOUxyc1NEMmFqNjN3VWlXYlHSAacBQVVfeXFMTmU1ZUJmN011a1FyOWVrajZieXhzVklobUJDLXIxNERwNFo1MGFZSHhMekxUVkxyc3dUSzBUWkV2R3hyS2hpSXJuUE5GdTc0MGJDem5Rb3VfbGpyOTI1SDhyRFBoT3NaQ3VVdGJ3Q3FSdVJQS2JxeFBvUDhoamVDT0pHNmZNOXYyWDFaTURoZE41bHE0NU1ERE4wRXN4UGxjU0x3Z25LUEk?oc=5",
@@ -495,164 +530,188 @@
       "published": "2026-11-25T21:30:47+00:00"
     },
     {
-      "n": 20,
-      "title": "LS Power Completes Acquisition of 4.4 GW Natural Gas Generation Assets from Constellation",
-      "source": "Quantisnow",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeFM3c2lkRWNBMElqZVU4aWZrck1GWld1S2pQQzNCVEItXzNDYTh6ZjBhc2ZWZjRBSDlXNzU3ZGlVdWlveTl0M25lQURxQkc2WGNZSDMyTnMzTDZtcXBYbU9ueEh3ZHo3cGU4cGswVWdxWTVSWkZvZmRSSktybFpZdWlLUEJpTDQ2VTcxX2NuZUQ3eFJBejQxb1ZfYWs2Zjh3MUk3LV83YmM?oc=5",
-      "snippet": "Quantisnow",
-      "published": "2026-11-25T23:01:14+00:00"
-    },
-    {
-      "n": 21,
-      "title": "Constellation Energy (CEG) closes 4.4 GW sale to LS Power",
-      "source": "Mugglehead Investment Magazine",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1sUEpNeFBBaHpBMXdsWF9rY0pXb1lxQ25qb1NhTUd3WHY2b2FyVVY5Nm9VNkVBSThncjh5dWEwYjEySE9jOFYxUndpSHlhTDlfSjhwcDJnT2x4d1JPcHB2UEtlZ192dWREcVpHc3Z2STNtMGd4aEtF?oc=5",
-      "snippet": "Mugglehead Investment Magazine",
-      "published": "2026-11-25T22:33:51+00:00"
-    },
-    {
-      "n": 22,
-      "title": "Rottenstone Gold Inc. Provides Supplemental Disclosure Regarding Proposed Great Bear Royalty Acquisition",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNc0Vkc2RUdC1rRTAzZ2V5MVljQnl2QnpmODBzMDVRSV9sZ2x2RjFhVmt2cTRHUGctTjhmWk14NDFHZlJSUFlDUXVjQ1VncHBSUkZ6ZlVEcWZRMmticnczblkxcEtGUjNsdjhkTGY4UldXcnRxVVdSLW9pbVhRYVJCQWFOWVZXbVVrZEw3LUI4c2NtaDYxQ1Z1SGdXR1FsMENVakdmdmNONEVLdXZrS1lKRkNNRjRvY0hSRlpZVnVXZEJBZlc5Vl8yak04U3owRkRsRUJ5OWZBQm9mSTVOS3JJZENOUmJ3aTBiYlFUWjdTa21nbFBuNzZ0cW9B?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-26T18:30:00+00:00"
-    },
-    {
-      "n": 23,
-      "title": "Integral launches $110M take-private of BOTANIST maker I-ne",
-      "source": "Dealroom",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdGpTQXZoNFQ4U2paZk8zWU9vUkZ0UmtwbmJ0cHdOX1l4RG9mQnhJVFI4WFZVZXNmMWZ6VHN0dTFVSFFsdWhTbm16aVdIbFVGcVFWQkZtQ0RRZnVuYnQzTUdtbWk4czZEdU40ZzJxZGpFdFA4ZUd5WndfRG4zVlNtZUNkdGdTV3B1eEYwNHhXOC1aeko1NmRj?oc=5",
-      "snippet": "Dealroom",
-      "published": "2026-11-26T18:00:11+00:00"
-    },
-    {
-      "n": 24,
-      "title": "ISS and Glass Lewis Endorse Umios’ C$27.00 Per Share Acquisition Offer for High Liner Foods",
-      "source": "Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUHM5M195d1NwVGd4T0VVZUd6cUowaTRSYTZoOG5ZMnV3Ti0xcjFnbmoxaDJtT0FrMC1VQ25COHFFdkNjeVU2bk1iZ3BPQjRDRVNfRXFHaG9qVVpKa01WWEJiZTlRdjVXbFFONXdWUDF1VmFLZlR0aWIyVHdRbGlfaXFPUS1mMDM4dmhuSUxaNDZxWUJEMkJtUmRfaVVmemVTcHoxY3daRGxMRWpBRjRVWG4zZE9WaldrWDE3TDZzS1VnNTBHWkxjMVVLMjB6djRt?oc=5",
-      "snippet": "Kalkine Media",
-      "published": "2026-11-26T17:31:19+00:00"
-    },
-    {
       "n": 25,
-      "title": "HIGH LINER FOODS ANNOUNCES DECEMBER 15 SPECIAL MEETING OF SHAREHOLDERS AND RECEIPT OF INTERIM COURT ORDER FOR PROPOSED ACQUISITION BY UMIOS",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQaWl6U0hWaV8wLVdPdjJlT3ZGUzNMMERfSXdIYjFERUlUMXJFb2U2Wk85NU9tYXZOWG5TRnRPOUZ2aHJaU3J1NWZ5dkhPRElRazhob1l6eHlUZS1qeDJfcmxJSllTY2FtajA0anhfWVN4bzNyS3c3YktvalhhM0RUb1A5QVNRcXI2VTJlV3N0MDJFTl9hVjBvM3dYNWJkX1dxaEZXem1hUEZCZkFVcWYza25GNFN3emdxekRPcndNMUpkU1JqZ2FYOVZwQmlLVzdiVW5Cc2xmMUpRLUZGc2tIYzVrd1BHWXd0eEgzTVFxSHpjVmpsQUNOQnVIaE5sdHc3T0NhM1RMc1UxakJMbldHRlZVdGZkR2NRYmEzc2JCcTV5MklHaXdR?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-12T12:10:00+00:00"
+      "title": "Targa Resources in talks to acquire Kinetik, Bloomberg reports",
+      "source": "Oil & Gas Middle East",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzcVNxZnRDV0JHZUE5a1JhWHBhREdyd19adnZvZEczMTd5WUJ6TjVDRUtkNzRFczlOUlAxbVhXR1ZrTzZhdmVHSVkzdzVSb1lkR0ZfQVRrT2NJTGU1ZEZtSGtzeWdBRFI5aGxIUldUNnB3S1FzdWFDa3dB?oc=5",
+      "snippet": "Oil & Gas Middle East",
+      "published": "2026-11-26T07:28:56+00:00"
     },
     {
       "n": 26,
-      "title": "SpaceX and Tesla in Talks for $3.5 Trillion Merger; FCC Approves 1 Million Satellites",
-      "source": "BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3R1puOFN6SWFlbFR4V1ZpN2tGeFFyNlRNS3VBenFtRDF2NEVNNmM1Tm5qblJ2RlhsaW5MWWtjSkJ6OFdwb0V6WVdLUVkwTWxDVkpkUDZuZ3RaVVRLdnNMalJDX3ZIc2pFbzNWaDVNN0xFM21KV3c?oc=5",
-      "snippet": "BigGo Finance",
-      "published": "2026-11-26T16:25:00+00:00"
+      "title": "Targa Is Said in Talks to Buy Kinetik in Major Pipeline Tie-Up",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSVdpXzloM1VjdXgwckdPaWVvb093cWZpU0lRYTJGM2FmMUk4bVFUS2pkanR3UmJnN0RrMkd0U3VrOVc4Y2RhcTJSbU5GVVp6aUpwLWtoOTNieXhtX0lsQkwwU3ExN2E3WHpGcGRJaW85ZE1CblptcnJhcjIzNng3LVUwVHBfX193cGItaUxHWTZPMVNxS0JoVjJDTjBXb3VlNVJSR09VQllVaXpHR3laTnpjSQ?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-11-25T22:30:56+00:00"
     },
     {
       "n": 27,
-      "title": "Tesla-SpaceX Merger: Five Directors Named to Negotiate $3.6T Deal",
-      "source": "BASENOR - Tesla Accessories",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONjdvOVNYMDBITm1aMFowb01hLWQzcndBRkxkYllTUUFRYVB1VlA5bUM1bWdxZHFLNEFJMHhOSjBVbFI3SklSTFhMU0tSc0JKdUoxckM4a0ZPc1Raamx4SnpLWmtGRDB1aXZtdks0dWtQQzFYNFlDYVNxWEFDZDlVbHpRbGFRcUhRdWJpVVJycVpnZjNsVG1TZjV6bHlPbjQ?oc=5",
-      "snippet": "BASENOR - Tesla Accessories",
-      "published": "2026-11-24T17:07:04+00:00"
+      "title": "Targa Is Said in Talks to Buy Kinetik in Major Pipeline Tie-Up",
+      "source": "Energy Connects",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVFBJTkNPOF9HZG9pTUljZlE1S2c2WktKLUdUbnBOX01ubEdDWXAyU1dEN0dBV0RvVTNiYjdhaDB0aG1NVGxKYm9BZkc2LXZNbHVVeWIzajJHRGpyVllWc21wVTJaWTNoT3Q0dVB2S2tjeWJGci1YZTNoWkMzd1hwVmlSZzFueEkzc00zaDh2R2pCT3dSVk9fRl94S293ZnNxQ0tXWTItUV80T2xkTlNIdVlBVXByTGhR?oc=5",
+      "snippet": "Energy Connects",
+      "published": "2026-11-26T06:20:12+00:00"
     },
     {
       "n": 28,
-      "title": "Tesla: A SpaceX Merger Could Turn $5,000 Into $10,000",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU2JzUElDUGJyN0MzOC0yV21iYzdfdFhQWmRIaGtWZjM0QkdRY3lzT1BlX1pjUGtZSGE0WFI4Nm9pSHZjM2J2Z2NiVFFsd2VuTEFnMDV1MVFwWVllcUcwYmRkTHVtVjI2Y3hzSEgxN1dJLTd2SUU1UXFlN2VYZWtLYnJLT0hUeWtJeWVQSlhRTUZicnZuQUtKSnBYNHNVRHVDdTZxalhYWS1TQ3Mwa0N3?oc=5",
-      "snippet": "TradingView",
-      "published": "2026-11-26T17:46:06+00:00"
+      "title": "Verizon in talks over $6 billion deal for Fidium, FT reports",
+      "source": "KELO-AM",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc0hndjkyUDB5b3RFbHNhNmZuZnJDVDZSTHNaUHJNWnNxV3dDVWpZdVBVMlVkOTBkSXpyV0VtNHpURzJzZFF6SHBfVjBydXNjQXFyZTZXY2xzaWxtV1BRR0NMalYzRFNLRWp0Rm0xTlpVRUR0YVFySkZ5eEJTLU02SXhBZ20tcmlfWVJ6TndyOWM?oc=5",
+      "snippet": "KELO-AM",
+      "published": "2026-11-27T18:40:29+00:00"
     },
     {
       "n": 29,
-      "title": "SpaceX could announce $1.5 trillion Tesla merger in December: report",
-      "source": "Electrek",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSDM0VnJpVWNzY1NFa0p0WVdYSS1HSndYejZLamRmd1d0ZlQ0cmtWMkFQeDVuLUJGcVR3TU9sS1pkQjRHdlRVZWRQaTFEQW1aejhybmtlUlVIX3BLNklQWnBqM1FPdExTTWxtQmJXdlk1N09pRk1RMmdCalpJOFBvcHFCY0dwVEU?oc=5",
-      "snippet": "Electrek",
-      "published": "2026-11-12T20:39:00+00:00"
+      "title": "Verizon in Talks to Buy Fidium in $6 Billion Deal, FT Says",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORHNtd2RRTVpMZDFJS3Z1Qk5RZTlnS1NPSzJPUElZSzBZT2hHMXA0RjdzNjRjcnV1OThaeUxVc1pCdk1PYzB1cmFzRnI3c3ZLcnotNmpvS0lXQml1UHRzT0R6bGQwdmJ5bF9sYUFnUG1XZXNLVUUwQ0hjQXpWa2M0VnRXb1ZZYjRsMUF3OWdtOF8waEtnNUtzZ3J1SDJjaUVwVThCSWtWU3h6QmR3UmFBLV9Dc1BGOS1RTUhYMHZOT2ZSeHpVcGNj?oc=5",
+      "snippet": "Bloomberg.com",
+      "published": "2026-11-27T18:12:57+00:00"
     },
     {
       "n": 30,
-      "title": "Tesla and SpaceX Merger Talks Accelerate: Could a $3.47 Trillion Deal Be Announced in December 2026?",
-      "source": "KuCoin",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qWnJtaFRBNUM0V2RNeVdYZVR0WDQ5Z3h4UThncGJpRDAxdXdSVWREbEpqbkMyZ1hibEk0V2hDb2VheFZsRm9SU0MyaU1EVkVZOWlYQkp2bUdwZkp3VmtYMlpjVjRJQmNsTmg5UXpwZjdFV2lCbEJv?oc=5",
-      "snippet": "KuCoin",
-      "published": "2026-11-15T14:35:00+00:00"
+      "title": "Verizon in talks to buy Fidium in $6B deal — FT",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPR29kbmFPZmk0ZTNfbzRFbnpJTWxIMmd3dm0zcXhiSlE0QzhmZGdpWXJ5eDE1UW1GYzlsVWRiUTRFYk5QN2phaEZPZklJQVZ5Tm83S0JSR21CWEtLQVBvbXFvVWdEbHZKQjBpampkYzYtek1kY3lvZ2hLOXMyMGhMQ0JvZ2dwLUx3X1JDR2FLZWlCZDBGSFhkR2NSNUR3MkNRbTc5cFdBQVR3a1U?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-27T17:55:39+00:00"
     },
     {
       "n": 31,
-      "title": "Tesla Closed Up 4% at $407. Here’s What a SpaceX Merger Could Mean for Your Shares.",
-      "source": "24/7 Wall St.",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQU293ZkMyQ1lOQmlQbGg0MS1CLS1kX0VobUQzZjBXbFVtaG5vSFFoOEJ3R01yNDUxY2FIV0ZGYlZhNl9Hd0FtcUZ5NFAyS25KR3ZUVUc1SjJGZk5qVUZnUGdJWmw0ZWVnV1Joc3NDcFQ3NjRXaXQ1dFRvOVM5dWJIZW9QVGhRQ3E4LThYWktjVC1CQ2k4Yjh1S3VFZDhIZkVFdUQwR0Jzc01DcEtoaVNBMW9RTE95cTRpZndyQmFIdw?oc=5",
-      "snippet": "24/7 Wall St.",
-      "published": "2026-10-28T12:04:00+00:00"
+      "title": "Fulcrum Therapeutics Declares Special Cash Dividend Ahead of Pending Merger with Slate Medicines",
+      "source": "Quiver Quantitative",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOG0yeDN6dTNUYXBzd1hNOGVMWTllM3RMQ3dlRFgzMkY0UE80YWhGYmtkVkNkZXlXU3I1V2Z5dVJ2Q1QyMFJYeWNOM2RWOVJfa0J6UVEzUExFV0hTcy1kN2NWWkFwQzdaYVh5dWRHQ1N5TXUzMEJsd3BSMENHVmR4TmR2Wlk3N21fZGhkWk1YQVV3c2M5MXpBOUFITUViTTd5ME53Q2o5dWhKempxVXcxalFzRl84eGlPbGhPWlFrVFQ4TnNrbmJSQw?oc=5",
+      "snippet": "Quiver Quantitative",
+      "published": "2026-11-27T18:10:00+00:00"
     },
     {
       "n": 32,
-      "title": "FutureMain signs SPAC deal for Nasdaq listing in 2027",
-      "source": "scanx.trade",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQk9yeDdKZWZOQnY5OGlab3lmYnVYS2RYdmJVNHgyZWc3WGZLeTliVEt1MUdOS0cwcTlEbkpFUTRCM0I2cFgxUEhSVXF6VmdrYmhQaUR2OVlkcmtLU2RJY3VlS0g3Rm4tTzY0STFQdjVDazIzYWdKSTU1RVpoam9jTVdHY0tlRlBPbDFib0tGNkVTNy15ZGNwV0M5dk5KZw?oc=5",
-      "snippet": "scanx.trade",
-      "published": "2026-11-26T14:21:40+00:00"
+      "title": "Fulcrum Therapeutics Declares Special Cash Dividend in Connection with the Proposed Merger with Slate Medicines",
+      "source": "The Manila Times",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQMXBGSXhYTE92Z3JaU1R0bXNlNWhwbmxDelQ1SUZDUXpGMHNzNUp3c1QwNVZLWGNhNUVDdXFmcVZlU00zbUFILVVpZ1VYUHBLaWxxQ00tcXNlQ3VXcHpjWndsdHdieHRyNFdxMV9SOGlLeTJTZF9zM1pYNVpUZE9OdHFmMXFIUlliaERjZUVpMXMtaTdTa2NHOHRVSEZ1aUhMUXhoSy12cXZxeWV6dDRYTEh3X3huLXZpdzNKRTVGbXk2aEhRdkxNOW1QU3k5bW83QUVXSHU0TnlxN3U2czd5QVpvSWs0YjlkTVZDQ0JBUGVnbXlUd1FxTHZjc2NObW9jeEdZRzByU1EtT0RPTEFHMk5WSFFoTThU0gGYAkFVX3lxTFAxcEZJeFhMT3ZnclpTVHRtc2U1aHBubEN6VDVJRkNRekYwc3M1SndzVDA1VktYY2E1RUN1cWZxVmVTTTNtQUgtVWlnVVhQcEtpbHFDTS1xc2VDdVdwemNad2x0d2J4dHI0V3ExX1I4aUt5MlNkX3MzWlg1WlRkT050cWYxcUhSWWJoRGNlRWkxcy1pN1NrY0c4dFVIRnVpSExReGhLLXZxdnF5ZXp0NFhMSHdfeG4tdml3M0pFNUZteTZoSFF2TE05bVBTeTltbzdBRVdIdTROeXE3dTZzN3lBWm9JazRiOWRNVkNDQkFQZWdteVR3UXFMdmNzY05tb2N4R1lHMHJTUS1PRE9MQUcyTlZIUWhNOFQ?oc=5",
+      "snippet": "The Manila Times",
+      "published": "2026-11-27T18:07:46+00:00"
     },
     {
       "n": 33,
-      "title": "FutureMain Sets Its Sights on Nasdaq, Bringing Decades of Industrial Expertise Into the AI Era",
-      "source": "The Malaysian Reserve",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQklZal9XUVFha05xUnVYbzVtWVljVW1ySE0yVHBsOXZyQnBJTUdXV3luTEU1OEM4MXdqMm5yajFyUGRnMHRXZmxQajdMem5FeEV0M2NHOXBERjBGU1dxME41c3RmeE10RHBhSTRpUE9mQS1SVTNCbklZZXc3ZVd6WS1IRGNObmtKS21uV1RjN3ppa2ZQdDd5Ukp4WXlXVTRRRkVaelNFTDNWeEpLekY5ckotQW1aQUJmZUtvTVpKTzA4U3dlRG5raUhScVpYOEp6Smdn?oc=5",
-      "snippet": "The Malaysian Reserve",
-      "published": "2026-11-26T13:40:54+00:00"
+      "title": "MDA SPACE COMPLETES ACQUISITION OF BLUE CANYON TECHNOLOGIES",
+      "source": "Quantisnow",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQmpELTFKZ1VadGY3MVJjUEZCUU1ScXI4VzI2bXc2Z1VWQlJORkFWYUNnRmlVS1dGMVVTTVZ5RkRiempPR3FJV3c2VXRvQ2lPTmlpRzNINXVWdmFubU5KSWIwd1V5UWRkY2RGblFSNXRLSzdWWkhnVGNoRVJTN2Nya3hTMXMzSUZ0aHdCaDZlZG8zeFFDYTJCT1o0OERJRXVsVEJ1bA?oc=5",
+      "snippet": "Quantisnow",
+      "published": "2026-11-27T15:50:45+00:00"
     },
     {
       "n": 34,
-      "title": "United Polyfab to convert 2.29 crore warrants at ₹18.89 on Nov 30",
-      "source": "scanx.trade",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYUlDNGxZSFFTZUs3amJhY1VKS1JIRUZmcHk5VGxzUEdRZV8yUGlncDIzZTRERDdvUWVOa09rbHl5em04aXg5ZmdKendwbHl1MldSbVBpdFZxM01zTVNqV2FETFVINDVZUnA3aGh3OVpVMmJzUjNRaEppSWVVMTAwNFlKbl9Wa0FmMWFtVTdVb2JSOFBEOS1tRksxM19jeTB3N2twX0VZMVNPYzJJMXctTWJn?oc=5",
-      "snippet": "scanx.trade",
-      "published": "2026-11-26T13:32:17+00:00"
+      "title": "MDA Space (MDA) Completes Blue Canyon Technologies Acquisition",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObjBhbERPaXhFeEtyRXo5MGNfVW5CZS14bEI1RFlxckVBRENvUEZGVGVFNWtndGw5Z1hBQmt3ZkZERVFRLTRSQXg1N1RwNjF4ZFlCcC1RcVdLSjl3YlZwV1VydVFRV2pIdDRDSEttcGgtZDI2cnYtZHJqNXZ5ZXl2blQ2bFR4MXpkZ2J5aE1QaWl2SzNaMnFjU3RVdjh2cmRZMDBsN09KSjEzclVwVHpkUzBYTnZ3YkJlenpKaFNLZw?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-27T15:49:00+00:00"
     },
     {
       "n": 35,
-      "title": "Qnity Acquires Meridian’s Electronics Adhesives Business for $840 Million to Expand AI Technology Portfolio",
-      "source": "Spherical Insights",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOHJYNWRlcmZDRzJDaXdjUGZRSVpybDhnYUNORFN4VjZrTmxmWHJVYXFmbjhoWnBHU1ZxVzd3aU9PazZBSUZNRzIxVjgzSlJYMk5jRU14T0dOTlVpb0lKZDZpanlYU2plbE1CeV8tcUpvTWoySkd6cXJaV1ZnTlVOOVBZeldLRWVCbE9LUllnZm1tS1cwSWR5UnF4aUhFYVdRTF9MMU96ZDF4WlFvdnhwaFpzM2NiR2JkUGZlRjMzR2hpTmRsaHNuZUsxdUFyOThWYjBhY2tvcVJIeWFx?oc=5",
-      "snippet": "Spherical Insights",
-      "published": "2026-11-26T13:17:09+00:00"
+      "title": "Uber takeover bid for Delivery Hero clears key shareholder hurdle",
+      "source": "Proactive financial news",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOUJSV0FLeUlKM1UtZDRmT0hROGRCVXQ1RV9PNk9JbkJuNDI1ZkdvUUpnZUpSZjNEQkliRHFieExWU0ZZMjM2YXNWZDZDaENqMEZUZjNTajUwUGc5XzAzUklMSzV2a2loem9pUjBxaXFERk5DLUhGS2YwU2UzMjJFdmRZaUdRbTY1RTJtT2tmWXpJZC1MdGVvdkpBWHdUbV9uTE82dXQ5WVNtS3pTV2ZwelU4bGNoSnMyMmxFVVpmaHJGd1JIdnNnYjBLenF2WERsbXc?oc=5",
+      "snippet": "Proactive financial news",
+      "published": "2026-11-27T15:25:00+00:00"
     },
     {
       "n": 36,
-      "title": "Latham & Watkins Advises on Rapid Micro Biosystems Acquisition by Merck KGaA, Darmstadt, Germany",
-      "source": "Legal Desire",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUVp5aEhtU0NMLWhSaVNSTER6QkNXWWw4RjhDdGpPbk1yU3lJRDU2VHdReU4wQjRTMnRNVEFGYm5oSnAteU0wSEw3dnZQNXhTUkFXLXNyZ1FfMlJqd05qLUhSQ0pOemFsWmlxelRxQmxQRWREN0FBOFRDbGRhZW1RbkZDRFpDMllLS0s0cUpOTmNvdFNMY1BkTmdqREYtOFpacWhWQUNha2tjRjA0LUpCeXRvMEZmRlZB?oc=5",
-      "snippet": "Legal Desire",
-      "published": "2026-11-26T12:47:33+00:00"
+      "title": "Uber Secures 87.13% of Delivery Hero Shares in Takeover Bid",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ0F5bnpTdU1Rc2x6SHVCRzRRRkZleFFMeG5fSkYzYkNJbXNiUUo3TnRuWWtWQWlzQktmUm1IMHNpU2ZEM25RckNJdDBxdzVpRTM1bEdfMW5KUjdpdTRvYmp5SUZFOE1wTElFdi1ZNFpyWFhZQ2tiZXhidTVxZGN1VUdGVF96ampUbnBWWko3dFRCZHZieWdtczREMllSRDh3d1VwX24zY1ptYV9ZemdMYUxNeWkzVjFjMkE?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-27T11:30:09+00:00"
     },
     {
       "n": 37,
-      "title": "Commercial Syn Bags Limited Allots 3.25 Lakh Warrants at ₹283",
-      "source": "Multibagg AI",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNV0JCWFlFTDkyVkVxWmppMWY2SFZSR084b0xtV09VYU9DZW85ZG9DbHE4Z3pmWnBIRGdaaW1LTU8tdjYzTENRUjVNSnl2eW41TUdBYS1fZkpQd1lyVzd3ZmJvUUtlMWR6UDQ0LVhVQWdJZG5ONlFObDlweXlYeUFNY2tVZ1J5VGx1ZEt3LVRnN3d2Zkx3bWo3cEFnOTItblpodkNVc0JFMnBUOHV1Z3F3?oc=5",
-      "snippet": "Multibagg AI",
-      "published": "2026-11-26T12:33:21+00:00"
+      "title": "Big Advantage Energy shareholder opposes Canadian Natural’s $2.5B takeover bid",
+      "source": "Calgary Herald",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbEdvM1N3UEdtODk1ejdYeDlpSW1XTVVMTEFxdk9kcTlNVVd1MzI5eHRPc20wUTE0ZHpkaXFKdms4MlN1VklRdDNVaE0ycE9vaEtCQXRhNHNVSzc0NW1rbWtzYllqRGhQSXpGU0JYcENCYW5Mbm42eHM5NXdUbnp0R3N5RG1ZZExQdlVWYmN3RFZLQmtNSkI3bTRlWnRybFdMVW83WkxTbkFUQjZl?oc=5",
+      "snippet": "Calgary Herald",
+      "published": "2026-11-27T19:52:52+00:00"
     },
     {
       "n": 38,
-      "title": "Vijaya Diagnostic completes acquisition of Arya Wellness business in Guwahati",
-      "source": "scanx.trade",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZTd4M0c2NjZRRldQblVuOXJOeFlYYmY1SXhhdmdfOXF2VGVuMlVFZWxXal9nbWpOcVM1QTY5X3FPQjZRa1k5YzRlVk1scGN5YWdlUkVrcGRLVTV5OENyN01vWEJlZmdJb3dabUNPSVRsRi1NQzBLQ3VKYnhheHZaYjBqOURNeGs3R2NLbTd6cXdhZDJ6M3VJc1dFUlhZV0xtZnVhUThOWVVkaVhjV0FyeGwwM0JBVy10Nk5v?oc=5",
-      "snippet": "scanx.trade",
-      "published": "2026-11-26T12:32:16+00:00"
+      "title": "Canadian Natural to acquire Advantage Energy in $1.8-billion Montney deal",
+      "source": "World Oil",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNanJGZmc3SFRZOXpxRU5qdTlDX3JFWldBMW9wZjlCa2tiX0R1UmxQQmFKVnl1NmdUTkFPaUczUmI3bW8xTkQ2eVdqUFBPNFVfZjM1Mnc1XzVaalpfVFQ3bHBrU2lERmthSE45cEpCbDZEY2x2Mkd5bkRtSnUzMmpVT3lxb29rVWZFMWt1dTRBazVKbnE4aldwZUxHdEVYN1VWT1dhZUNNSlNkQ3lzelgycUJwbE4?oc=5",
+      "snippet": "World Oil",
+      "published": "2026-11-16T14:48:45+00:00"
     },
     {
       "n": 39,
-      "title": "A C$240,000 Waterloo project and C$170,000 Toronto study join Everkind.",
+      "title": "Canadian Natural Resources Limited Enters into Agreement to Acquire Advantage Energy Ltd.",
+      "source": "BOE Report",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOVMyOWpybTBQNlF5dVdQeWExOU1rSkRHUmNyU1dNV1dXRWo3blhVWWJsNmU0SmtxZy1kZWhnM01nc2tlRlNYbXRvX0o0XzdSa19tTnNIN1g2NlV1ckpHZTJVR0JqOHZwazF2dWVwZWhNWWFWUXJ0N3FScnIwVXd4XzA2WjNNSklWeEoxZDc0dkhQd055OTBnaTBJSldic3NRNlA1ZGthSlBnMkhZb0hvOUFwN0U0ZExpcFllcnVwa9IBxAFBVV95cUxQdU9rci0zRjBYX3hHVml5cTZZYVlQdHVHbmhqemhObEJrU3FZMGl3QTd3YVBBM05sc2M2Nzl4ZVBzRWp1azM3R3NiNnN0c3NFcEk2WTBkWGxGZmZzcVVJeWVyUEprQU9NWHBsWm1qYm90UnViMWZWcmhVQ2FEcmR1bHRhZ2pqT05YNzJsUzEzNDY5azJDVGo4Q0ZIT0plX2xPMUo2dTE1WEhzM25UWkF0S1Q0MkVld1dFLVprQ3c4ZUVCRU03?oc=5",
+      "snippet": "BOE Report",
+      "published": "2026-11-16T09:30:00+00:00"
+    },
+    {
+      "n": 40,
+      "title": "Puig agrees to buy 75% stake in perfume group Artessence in deal valuing it at $1.9 billion",
+      "source": "Global Banking & Finance Review",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdWdoZk5rTHByUlM3RFE0ZHBVbDh1MjBBOTZaRDFWWVBmcDUwZDZ5QmRCQ3NrWVpScUJ0ZnUxbXVhNUgtb2lCb3BaaGU3eTVHbHd6SnNRZVh3UUIzTDhfWk1OSjV5Yl9ySXZyRFJvU2VubzJsdkJobmR0NHBKMEotUHNPMG5OdnFsSEVXUlI4dXVKeFJ3SkM5bzRCbw?oc=5",
+      "snippet": "Global Banking & Finance Review",
+      "published": "2026-11-27T19:27:11+00:00"
+    },
+    {
+      "n": 41,
+      "title": "Exclusive-Armani heirs consider buying small slice of fashion house in stake sale, sources say",
+      "source": "SRN News",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbXRUdmQweGczNFFzUThla1ZaUFpTQzhnMHVMN2xGWGJuVnlvXzlpY0FRVXpNM0RfTmxUVXJzTV9jam1yUkQ5c2ZWYzRjb0VPUzhXaWJLd1g3LUY0VUlJdWZuOG1YTFBGUU1mcF9vY3FfMW1tRm93bDJ3djU2cHliTHJhRU1PcHpmSGJEdU5Oems2RGo1Q19zclF6T01IVmxsOE9IZEk3ajNzQ3d6eWxOQVIxM0c?oc=5",
+      "snippet": "SRN News",
+      "published": "2026-11-27T19:24:48+00:00"
+    },
+    {
+      "n": 42,
+      "title": "Fulcrum estimates a cash dividend of up to about $3.61 per share; the final payment may differ.",
       "source": "Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU09KMnJfcXhLc0R4d1VNaUpVbF83Z0J3QWEwMW92M05rXzRCODNscS11SGkxTzFHc0NYX09VY3l3RHJyNHBHcXg3ZDllMlk3eVpuVDQwUW4zZFB4bWx6MlVFZnE4bmJPMVdoR3JsWWZ4WFk2dVM1YWo2V0VZS00weW1ReG5lX1BJeXpIVHdlZTR4azNTSFBsVVVJWlBtTnRhZ0dUV016M2ROM0RYUFlyZ05SVER0QWxMY1BWYUhGeGVRUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQjlzSGZvU1dSX2Q1bVdGOW5paGFBNDM4ZG5zVXFMTVo2cWgxY0tJWHoxTTJtRkVoX0F4VHdRcXp5US00bjVaczF2M0VDeEVkLXdJVmExRVAwNUlLRlFvU193azJyenBNLTUwYjZRcHoxdHBMakFzZzVsYlFicnBOaDlCLVNjaU9VQkFpX1NqMUpYclR6U2pVWXZtQU9VckVMNGhHaE1OUXhLaHNZYmlMR3VEcTFKQk9rWHNrMQ?oc=5",
       "snippet": "Stock Titan",
-      "published": "2026-11-26T12:30:00+00:00"
+      "published": "2026-11-27T18:05:00+00:00"
+    },
+    {
+      "n": 43,
+      "title": "Jushi Holdings Provides Business Updates on Illinois Acquisition, Virginia Cultivation, Financing",
+      "source": "Cannabis Business Times",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxONG9VRWFYWjFwd2RzQ0Z0NG1ZWVUxbzBvaTNJM1Z0VlN6UUR5U2o1Z2RmdmVTLUY4cGs2WFhaTHJ2dzJ1blh1TlNpcmt2OGt6VGJkbEhRLWJhcFR1X1lGcWZJY1FfQTFrcEt5bS12RDBicHhnc0pDa1o2VV84V3k3bXktZi1RakJaRzV5Y2RDMWJ3QUtydzNXcHRVLS0xbmlHbHJna2dlNG1rM1J5MGFYakNOZHpPTVY4SEFwNmpHVE9JbXE4MzBjZEI5cVhsOXFTYXF5M3NiT1BxblVnR1h1Tm1tb2ZiOVhIWTdB?oc=5",
+      "snippet": "Cannabis Business Times",
+      "published": "2026-11-27T17:54:07+00:00"
+    },
+    {
+      "n": 44,
+      "title": "How Jay Chaudhry turned a $500,000 gamble into a cybersecurity empire",
+      "source": "The American Bazaar",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVG1QamxnWkQ3RnB4dW80SzBXX1g5ejdhVW1fRVQ0ek11aFZQSTR1eGtoY2JYUVhqSlVQTFJ4a05MQ1NJNXk3eWtZMUF0eHY0bFh6cUo2OEtOM1k5dGJsYkJTdHBQcDQxT29wT0JKdjRqQmplQUM0Q2V2d1VIUDl2SF9oOTY0a282V1g1RzU2NTlIcVlxQ0VJT3hHdE4?oc=5",
+      "snippet": "The American Bazaar",
+      "published": "2026-11-27T17:44:19+00:00"
+    },
+    {
+      "n": 45,
+      "title": "Shanghai Dazhong Public Utilities Enters Acquisition Framework Agreement With Jiangyin Zhongnan Heavy Industries Co, Others",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxON0lERkpEN2h1Y2RFWGdIZU1sMzU1em84US1yVWU5SUlyaUYtb01IWnFLeENwaXB6LVdkeTZVVjI4WHUtTFAwWE5JS2k4Rkd4SUViRGFUYWduLTBjRTV4SmtPdmpBeEI1RWpGWWlGdmNJUnd5WkVCc05DLWpJMzJKRTNjZ0Rrdi1hSXg4OEtOUmZRU09zSEE1cGdxblJaaVNJVWdpV0FLbzJDd1R6ZURXeUl3bmx1NUY0Z3hKbkJWbksxblZuVVUzSUpxd0k0bzN2WTZCMUllOFljXzcyRjlfVTA2LWpaOU1zMm9vakk4TUpNeFUyQlhwTEN4bHJwbWhId3ZaNDdnZWd5Wk1XdklpZWw2Z0NaM253TnhoSQ?oc=5",
+      "snippet": "TradingView",
+      "published": "2026-11-27T17:37:52+00:00"
+    },
+    {
+      "n": 46,
+      "title": "Intermex Sues Western Union to Enforce $16.00 Per Share Merger Agreement",
+      "source": "FF News",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUmNQcmtBbU5SdTNubGFORHdzTnNodzZHdXI4TnhveFh0cFZYWDYxRUR3ZU9UMk5ENVV6emYyck1ZX3hsMk90VWM5R1U2bWk0X0xiaTRldlplQmNsU1pmQWd1MWUwRTJpUzI4amhqRV9iR0ZEMzBYaGRrdDZUZ0dPVGdrNHEwaFFnRHdRSzVNdGtyenJzY2E0cWZ6MW1Fdk5pTE5CaGlDdTh5X1dvakE3aEFhUQ?oc=5",
+      "snippet": "FF News",
+      "published": "2026-11-27T17:33:35+00:00"
+    },
+    {
+      "n": 47,
+      "title": "Tesla Shares Rise Amid EMAG Acquisition Pursuit and EU Regulatory Update",
+      "source": "KuCoin",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcE92c1d0cHFKSDFPbVg3ZjdfS1pXbGllWmhZUXVMdnFpZnV4RjJzOGNzUklwOEhvenJiLVc4Zk1vLXlySU9KVzN1dERqUE05X2pXNTc4VmhaTWtJcV9zTy1ob05qaENtMVExQjhOVmtzc0g5MnB4dGN1b1NBWm5NUHAzcTUtZVFXSVE3TUxndGxGZzZmS1dEN2RXbjFKRmpIXzZrdHNrVGo2UQ?oc=5",
+      "snippet": "KuCoin",
+      "published": "2026-11-27T16:14:50+00:00"
     }
   ],
   "cited": [
@@ -664,15 +723,12 @@
     6,
     7,
     8,
-    12,
     13,
     14,
     15,
     16,
     17,
-    18,
     19,
-    20,
     21,
     22,
     23,
@@ -686,175 +742,193 @@
     31,
     32,
     33,
-    34
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
   ],
-  "invalid_citations": [
-    1
-  ],
-  "example_prompt": "Deal: Altria and Imperial Brands.\nStage: Rumored.\n\nHeadlines:\n[1] cwibc.co.id, Nov 26 10:52 AM ET: Altria Weighs Takeover Bid for Imperial Brands\n    cwibc.co.id\n[2] CNBC, Nov 26 09:47 AM ET: Marlboro maker Altria explores takeover of UK's Imperial Brands\n    CNBC\n[3] The Guardian, Nov 26 09:41 AM ET: Marlboro maker Altria considering takeover bid for Imperial Brands\n    The Guardian\n[4] Demócrata, Nov 26 09:32 AM ET: Altria values presenting a cash offer for Imperial Brands, parent company of Nobel and Fortuna\n    Demócrata\n[5] MLQ.ai, Nov 26 09:19 AM ET: Altria weighs a cash bid for Imperial Brands as Japan Tobacco eyes a deal\n    MLQ.ai\n[6] Digg, Nov 26 09:10 AM ET: Altria eyes Imperial Brands bid. Hold the takeover confetti.\n    Digg\n[7] The Globe and Mail, Nov 26 09:00 AM ET: Marlboro maker Altria weighs takeover bid for U.K.’s Imperial Brands\n    The Globe and Mail\n[8] Demokratis.co.id, Nov 26 08:57 AM ET: Altria Considers Bid for Imperial Brands With Japan Tobacco\n    Demokratis.co.id\n\nWrite the subheading and sentences.",
+  "invalid_citations": [],
+  "example_prompt": "Deal: Altria and Imperial Brands.\nStage: Rumored.\n\nHeadlines:\n[1] Yahoo! Finance Canada, Nov 27 08:43 AM ET: Altria weighs $30B takeover bid for Imperial Brands\n    Yahoo! Finance Canada\n[2] 24/7 Wall St., Nov 27 08:17 AM ET: Altria Has Until Christmas Eve to Bid for $34 Billion Imperial Brands\n    24/7 Wall St.\n[3] CEO Magazyn, Nov 26 05:23 PM ET: Altria Considers Imperial Brands Bid as Market Value Nears £26bn\n    CEO Magazyn\n[4] CNBC, Nov 26 09:47 AM ET: Marlboro maker Altria explores takeover of UK's Imperial Brands\n    CNBC\n[5] The Guardian, Nov 26 09:41 AM ET: Marlboro maker Altria considering takeover bid for Imperial Brands\n    The Guardian\n[6] Quantisnow, Nov 26 09:40 AM ET: Altria Response to Media Speculation on Possible Offer for Imperial Brands plc\n    Quantisnow\n[7] Digg, Nov 26 09:10 AM ET: Altria eyes Imperial Brands bid. Hold the takeover confetti.\n    Digg\n[8] The Globe and Mail, Nov 26 09:00 AM ET: Marlboro maker Altria weighs takeover bid for U.K.’s Imperial Brands\n    The Globe and Mail\n\nWrite the subheading and sentences.",
   "retrieval": [
     {
       "deal": "Altria / Imperial Brands",
       "query": "Altria Imperial Brands acquisition merger deal",
       "hits": [
         {
-          "n": 9,
-          "similarity": 0.78
-        },
-        {
-          "n": 3,
-          "similarity": 0.772
-        },
-        {
           "n": 1,
-          "similarity": 0.769
+          "similarity": 0.811
+        },
+        {
+          "n": 9,
+          "similarity": 0.791
         },
         {
           "n": 2,
-          "similarity": 0.767
-        },
-        {
-          "n": 7,
-          "similarity": 0.767
-        },
-        {
-          "n": 5,
-          "similarity": 0.762
-        }
-      ]
-    },
-    {
-      "deal": "Expedia Group / Kiwi.com",
-      "query": "Expedia Group Kiwi.com acquisition merger deal",
-      "hits": [
-        {
-          "n": 14,
-          "similarity": 0.853
-        },
-        {
-          "n": 13,
-          "similarity": 0.839
-        },
-        {
-          "n": 10,
-          "similarity": 0.824
-        },
-        {
-          "n": 11,
-          "similarity": 0.823
-        },
-        {
-          "n": 12,
-          "similarity": 0.813
-        }
-      ]
-    },
-    {
-      "deal": "Targa Resources / Kinetik",
-      "query": "Targa Resources Kinetik acquisition merger deal",
-      "hits": [
-        {
-          "n": 16,
-          "similarity": 0.848
-        },
-        {
-          "n": 19,
-          "similarity": 0.846
-        },
-        {
-          "n": 18,
           "similarity": 0.788
         },
         {
-          "n": 15,
-          "similarity": 0.752
+          "n": 10,
+          "similarity": 0.78
+        },
+        {
+          "n": 5,
+          "similarity": 0.772
+        },
+        {
+          "n": 11,
+          "similarity": 0.77
         }
       ]
     },
     {
-      "deal": "LS Power / Constellation",
-      "query": "LS Power Constellation acquisition merger deal",
+      "deal": "CrowdStrike / Zscaler",
+      "query": "CrowdStrike Zscaler acquisition merger deal",
       "hits": [
+        {
+          "n": 15,
+          "similarity": 0.887
+        },
+        {
+          "n": 16,
+          "similarity": 0.886
+        },
+        {
+          "n": 17,
+          "similarity": 0.886
+        },
+        {
+          "n": 18,
+          "similarity": 0.886
+        },
+        {
+          "n": 19,
+          "similarity": 0.885
+        },
         {
           "n": 20,
-          "similarity": 0.747
-        },
-        {
-          "n": 21,
-          "similarity": 0.696
+          "similarity": 0.878
         }
       ]
     },
     {
-      "deal": "Rottenstone Gold Inc. / Great Bear Royalty",
-      "query": "Rottenstone Gold Inc. Great Bear Royalty acquisition merger deal",
+      "deal": "Targa / Kinetik",
+      "query": "Targa Kinetik acquisition merger deal",
       "hits": [
-        {
-          "n": 22,
-          "similarity": 0.858
-        }
-      ]
-    },
-    {
-      "deal": "Integral / I-ne",
-      "query": "Integral I-ne acquisition merger deal",
-      "hits": [
-        {
-          "n": 23,
-          "similarity": 0.671
-        }
-      ]
-    },
-    {
-      "deal": "Umios / High Liner Foods",
-      "query": "Umios High Liner Foods acquisition merger deal",
-      "hits": [
-        {
-          "n": 25,
-          "similarity": 0.823
-        },
         {
           "n": 24,
-          "similarity": 0.778
-        }
-      ]
-    },
-    {
-      "deal": "SpaceX / Tesla",
-      "query": "SpaceX Tesla acquisition merger deal",
-      "hits": [
-        {
-          "n": 27,
-          "similarity": 0.844
+          "similarity": 0.83
         },
         {
-          "n": 28,
-          "similarity": 0.831
-        },
-        {
-          "n": 29,
-          "similarity": 0.824
-        },
-        {
-          "n": 30,
-          "similarity": 0.824
+          "n": 25,
+          "similarity": 0.828
         },
         {
           "n": 26,
-          "similarity": 0.818
+          "similarity": 0.82
+        },
+        {
+          "n": 27,
+          "similarity": 0.816
+        },
+        {
+          "n": 23,
+          "similarity": 0.791
+        },
+        {
+          "n": 22,
+          "similarity": 0.786
+        }
+      ]
+    },
+    {
+      "deal": "Verizon / Fidium",
+      "query": "Verizon Fidium acquisition merger deal",
+      "hits": [
+        {
+          "n": 29,
+          "similarity": 0.835
+        },
+        {
+          "n": 30,
+          "similarity": 0.815
+        },
+        {
+          "n": 28,
+          "similarity": 0.792
+        }
+      ]
+    },
+    {
+      "deal": "Slate Medicines / Fulcrum Therapeutics",
+      "query": "Slate Medicines Fulcrum Therapeutics acquisition merger deal",
+      "hits": [
+        {
+          "n": 32,
+          "similarity": 0.837
         },
         {
           "n": 31,
           "similarity": 0.81
         }
       ]
+    },
+    {
+      "deal": "MDA SPACE / BLUE CANYON TECHNOLOGIES",
+      "query": "MDA SPACE BLUE CANYON TECHNOLOGIES acquisition merger deal",
+      "hits": [
+        {
+          "n": 34,
+          "similarity": 0.869
+        },
+        {
+          "n": 33,
+          "similarity": 0.865
+        }
+      ]
+    },
+    {
+      "deal": "Uber / Delivery Hero",
+      "query": "Uber Delivery Hero acquisition merger deal",
+      "hits": [
+        {
+          "n": 36,
+          "similarity": 0.768
+        },
+        {
+          "n": 35,
+          "similarity": 0.75
+        }
+      ]
+    },
+    {
+      "deal": "Canadian Natural / Big Advantage Energy",
+      "query": "Canadian Natural Big Advantage Energy acquisition merger deal",
+      "hits": [
+        {
+          "n": 38,
+          "similarity": 0.807
+        },
+        {
+          "n": 39,
+          "similarity": 0.788
+        },
+        {
+          "n": 37,
+          "similarity": 0.783
+        }
+      ]
     }
   ],
   "stats": {
-    "headlines_fetched": 188,
-    "headlines_new": 97,
-    "index_size": 2454,
-    "deals_found": 33,
+    "headlines_fetched": 183,
+    "headlines_new": 107,
+    "index_size": 2472,
+    "deals_found": 36,
     "deals_shown": 8,
     "extraction_calls": 10,
     "llm_calls": 19
